@@ -1,5 +1,9 @@
 # Public Cooperation Initiative
 
+## Host Families
+
+- [Whatsapp](<https://chat.whatsapp.com/E6GofQiyosDLndYKKCcC4v>)
+
 ## Connecting between valunteers and help seekers
 
 - [iron-swords-valunteers-kris](<https://iron-swords-valunteers-kris.co.il>)
