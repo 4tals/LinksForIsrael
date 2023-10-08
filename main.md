@@ -12,17 +12,7 @@
 - [Resources for Returning Nationals](#מילואימניקים-שרוצים-לחזור-לארץ)
 - [Free Content Index](#available-free-content)
 
-## [Ideas - רעיונות](./ideas.md)
-
 ## [Initiatives - יוזמות קיימות](./initiatives.md)
-
-## Host Families
-
-- [Whatsapp - אירוח משפחות מהדרום](<https://chat.whatsapp.com/E6GofQiyosDLndYKKCcC4v>)
-
-## מזון - Food
-
-- [Whatsapp חמל איסוף ושינוע מזון](<https://chat.whatsapp.com/KPZ7JqQyBLG3OSvtGlUAdx>)
 
 ## General Assistance
 
@@ -42,16 +32,24 @@
 
 - [Facebook Post - Galina Ziomek](<https://www.facebook.com/100000484874028/posts/pfbid0aWdLhUrdK7eXVsDXHUBW2CpSKiefP3xfBMaDVKhfd6snV5fdwrztafJwu4xzVvX4l/?mibextid=Nif5oz>)
 
-## Donations
+## Host Families
 
-- [לגדוד 8717, גבעתי - פורסם על ידי ג׳וש בהר](<https://payboxapp.page.link/kJrr6HjU9NZqWzJ36>)
-  - לוחמי מילואים בצו 8 גבול עזה
+- [Whatsapp - אירוח משפחות מהדרום](<https://chat.whatsapp.com/E6GofQiyosDLndYKKCcC4v>)
+
+## מזון - Food
+
+- [Whatsapp חמל איסוף ושינוע מזון](<https://chat.whatsapp.com/KPZ7JqQyBLG3OSvtGlUAdx>)
 
 ## מקומות אשר מרכזים יוזמות
 
 - [WeHelpIsrael](<https://docs.google.com/document/d/1pzWWh7g2x-9FtDosL5msaeWjSZSZdE2deb803lk01xc/edit>)
 - [Lev Ehad - לב אחד]
 - [IsraHelp](<https://linktr.ee/israhelp>)
+
+## Donations
+
+- [לגדוד 8717, גבעתי - פורסם על ידי ג׳וש בהר](<https://payboxapp.page.link/kJrr6HjU9NZqWzJ36>)
+  - לוחמי מילואים בצו 8 גבול עזה
 
 ## מילואימניקים שרוצים לחזור לארץ
 
