@@ -1,25 +1,5 @@
 # Public Cooperation Initiative Repository
 
-## English
-
-### Introduction
-
-This is a general repository designed to manage and centralize links and resources. Using Git, our aim is to assist the people of Israel during these challenging times.
-
-### Get Involved
-
-**Join the movement!** We invite all volunteers who are interested in making a difference to [join our WhatsApp group](https://chat.whatsapp.com/JjD8eijWfDXD10QbM2VyaX) and collaborate with us.
-
-### Contributions
-
-We're actively looking for help in:
-
-- Updating existing links
-- Adding new sections
-- Approving Pull Requests
-- General maintenance of the repo
-- Brainstorming potential directions for the initiative
-
 ## עברית
 
 ### הקדמה
@@ -39,3 +19,23 @@ We're actively looking for help in:
 - אישור בקשות משיכה (Pull Requests)
 - תחזוקה כללית של המאגר
 - הצעות ורעיונות לכיוונים פוטנציאליים ליוזמה
+
+## English
+
+### Introduction
+
+This is a general repository designed to manage and centralize links and resources. Using Git, our aim is to assist the people of Israel during these challenging times.
+
+### Get Involved
+
+**Join the movement!** We invite all volunteers who are interested in making a difference to [join our WhatsApp group](https://chat.whatsapp.com/JjD8eijWfDXD10QbM2VyaX) and collaborate with us.
+
+### Contributions
+
+We're actively looking for help in:
+
+- Updating existing links
+- Adding new sections
+- Approving Pull Requests
+- General maintenance of the repo
+- Brainstorming potential directions for the initiative
