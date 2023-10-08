@@ -1,5 +1,7 @@
 # Public Cooperation Initiative
 
+## [Ideas - רעיונות](./ideas.md)
+
 ## Tech
 
 - [DevHelp - Tech Valunteers Whatsapp](<https://chat.whatsapp.com/GLmj3FDWiCW1RWDRnL79UV>)
@@ -21,8 +23,13 @@
     - Shiran 052-379-0640
     - Lior 054-948-1235
 
+## Metal - נפשי
+
+-
+
 ## מקומות אשר מרכזים יוזמות
 
+- [WeHelpIsrael](<https://docs.google.com/document/d/1pzWWh7g2x-9FtDosL5msaeWjSZSZdE2deb803lk01xc/edit>)
 - [Lev Ehad - לב אחד]
 - [IsraHelp](<https://linktr.ee/israhelp>)
 
