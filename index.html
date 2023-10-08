@@ -16,22 +16,32 @@
 
         h1 {
             color: #4CAF50;
+            text-align: center;
         }
 
         a {
-            display: inline-block;
+            display: block;
             background-color: #4CAF50;
             color: white;
             padding: 10px 20px;
             border-radius: 4px;
             text-decoration: none;
-            margin-top: 20px;
+            margin: 10px 0;
             transition: background-color 0.3s;
-            margin-right: 10px;
         }
 
         a:hover {
             background-color: #45a049;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .english, .hebrew {
+            width: 45%;
         }
 
         .hebrew {
@@ -41,18 +51,25 @@
 </head>
 
 <body>
-
     <h1>Public Cooperation Initiative - יוזמת שיתוף הציבור</h1>
 
-    <p>Welcome to our repository of resources. For a comprehensive guide, access the documentation below.</p>
-    <p class="hebrew">ברוכים הבאים למאגר המשאבים שלנו. למדריך מקיף, גשו לתיעוד למטה.</p>
-
-    <a href="./docs/main.html">Main Documentation - תוכן עניינים ראשי</a><br>
-    <a href="https://github.com/4tal/ConnectPortal" target="_blank">GitHub Repository - ריפו בגיטהאב</a><br>
-    <a href="https://chat.whatsapp.com/JjD8eijWfDXD10QbM2VyaX" target="_blank">Join Our WhatsApp Group - הצטרפות לקבוצת
-        הוואטסאפ שלנו</a><br>
-    <a href="./docs/contribute.html" target="_blank">How to Contribute - איך לתרום לפרויקט</a>
-
+    <div class="container">
+        <div class="english">
+            <p>Welcome to our repository of resources. For a comprehensive guide, access the documentation below.</p>
+            <a href="./docs/main.html">Main Documentation</a>
+            <a href="https://github.com/4tal/ConnectPortal" target="_blank">GitHub Repository</a>
+            <a href="https://chat.whatsapp.com/JjD8eijWfDXD10QbM2VyaX" target="_blank">Join Our WhatsApp Group</a>
+            <a href="./docs/contribute.html" target="_blank">How to Contribute</a>
+        </div>
+        
+        <div class="hebrew">
+            <p>ברוכים הבאים למאגר המשאבים שלנו. למדריך מקיף, גשו לתיעוד למטה.</p>
+            <a href="./docs/main.html">תוכן עניינים ראשי</a>
+            <a href="https://github.com/4tal/ConnectPortal" target="_blank">ריפו בגיטהאב</a>
+            <a href="https://chat.whatsapp.com/JjD8eijWfDXD10QbM2VyaX" target="_blank">הצטרפות לקבוצת הוואטסאפ שלנו</a>
+            <a href="./docs/contribute.html" target="_blank">איך לתרום לפרויקט</a>
+        </div>
+    </div>
 </body>
 
 </html>
