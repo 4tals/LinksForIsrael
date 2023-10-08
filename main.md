@@ -3,7 +3,8 @@
 ## Tech
 
 - [DevHelp - Tech Valunteers Whatsapp](<https://chat.whatsapp.com/GLmj3FDWiCW1RWDRnL79UV>)
-- []
+- מערך המתנדבים של יוצאי יחידות המודיעין
+  - מיתר 0543047255
 
 ## Host Families
 
