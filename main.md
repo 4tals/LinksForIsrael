@@ -3,11 +3,9 @@
 ## **Contents:**
 
 - [Valunteers](./valunteers.md)
-- [Initiatives](#ideas---רעיונות)
-- [Tech Resources](#tech)
+- [Initiatives](#initiatives)
 - [Host Families](#host-families)
 - [Food Assistance](#מזון---food)
-- [Volunteer Initiatives](#connecting-between-valunteers-and-help-seekers)
 - [Well-being and Mental Support](#metal---נפשי)
 - [Equipment Assistance](#equipment---ציוד)
 - [Donations](#donations)
@@ -17,6 +15,8 @@
 
 ## [Ideas - רעיונות](./ideas.md)
 
+## [Initiatives](./initiatives.md)
+
 ## Host Families
 
 - [Whatsapp - אירוח משפחות מהדרום](<https://chat.whatsapp.com/E6GofQiyosDLndYKKCcC4v>)
@@ -24,7 +24,6 @@
 ## מזון - Food
 
 - [Whatsapp חמל איסוף ושינוע מזון](<https://chat.whatsapp.com/KPZ7JqQyBLG3OSvtGlUAdx>)
-
 
 ## Metal - נפשי
 
