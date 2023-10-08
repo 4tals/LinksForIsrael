@@ -10,7 +10,11 @@
 
 ## Host Families
 
-- [Whatsapp](<https://chat.whatsapp.com/E6GofQiyosDLndYKKCcC4v>)
+- [Whatsapp - אירוח משפחות מהדרום](<https://chat.whatsapp.com/E6GofQiyosDLndYKKCcC4v>)
+
+## מזון - Food
+
+- [Whatsapp חמל איסוף ושינוע מזון](<https://chat.whatsapp.com/KPZ7JqQyBLG3OSvtGlUAdx>)
 
 ## Connecting between valunteers and help seekers
 
