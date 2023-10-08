@@ -1,5 +1,19 @@
 # Public Cooperation Initiative
 
+## **Contents:**
+
+- [Ideas](#ideas---רעיונות)
+- [Tech Resources](#tech)
+- [Host Families](#host-families)
+- [Food Assistance](#מזון---food)
+- [Volunteer Initiatives](#connecting-between-valunteers-and-help-seekers)
+- [Well-being and Mental Support](#metal---נפשי)
+- [Equipment Assistance](#equipment---ציוד)
+- [Donations](#donations)
+- [Initiative Hubs](#מקומות-אשר-מרכזים-יוזמות)
+- [Resources for Returning Nationals](#מילואימניקים-שרוצים-לחזור-לארץ)
+- [Free Content Index](#available-free-content)
+
 ## [Ideas - רעיונות](./ideas.md)
 
 ## Tech
@@ -48,15 +62,18 @@
 
 - [Thailand - תיאלנד](<https://chat.whatsapp.com/KY3GCKEUQopERWMlgdC06Q>)
 
-## To Index
+## Available Free Content
 
-- Available Free Content - תוכן פתוח חינמי לתקופה
-  - [סרטי קולנוע לכל הגילאים](<https://il.academe.plus/movies>)
-    - Description
-  - [BrainPop](<https://il.brainpop.com/>)
-    - code: בריינפופ23
-    - Description
-  - [Books](<https://padlet.com/redirect?url=https%3A%2F%2Fschool.booksgiant.com%2Flogin%2Fhe>)
-    - Description
+Available Free Content - תוכן פתוח חינמי לתקופה
+
+- [סרטי קולנוע לכל הגילאים](<https://il.academe.plus/movies>)
+  - Description
+- [BrainPop](<https://il.brainpop.com/>)
+  - code: בריינפופ23
+  - Description
+- [Books](<https://padlet.com/redirect?url=https%3A%2F%2Fschool.booksgiant.com%2Flogin%2Fhe>)
+  - Description
+
+## To Index
 
 - [המלצות אבטחת מידע ופרטיות](<https://docs.google.com/document/d/1WqZukKOUUrUclxlBluOYDqpSxgMIGuZQ0WBt7uunTFU/edit>)
