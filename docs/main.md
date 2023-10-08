@@ -1,13 +1,6 @@
 # [יוזמת שיתוף ציבורי - איר לתרום](./contribute.md)
 
-## General Assistance
-
-- [חמל עם אחד](<https://www.am-ehad.org/>)
-- ארגון סיוע אזרחי כללי
-  - [מרכז](<https://chat.whatsapp.com/Bsy4Sc9jM4PIS64JD1aRnp>)
-  - [צפון](<https://chat.whatsapp.com/GY2MwfFLaLwAfJbydxte2X>)
-  - [דרום](<https://chat.whatsapp.com/ChDI2XilcBSCuQG1ZIzQQp>)
-  - [ירושלים](<https://chat.whatsapp.com/BS2qZmtb9zGEdRgrqZlW9h>)
+## [Tech Initiatives - יוזמות טכנולוגיה קיימות](initiatives.md)
 
 ## חמלים, ריכוז מתנדבים ותרומות והכל
 
@@ -16,6 +9,15 @@
 - [Lev Ehad - לב אחד]
 - [IsraHelp](<https://linktr.ee/israhelp>)
 - [Facebook Group](<https://m.facebook.com/groups/780925150471197/?ref=share&mibextid=lURqYx>)
+
+## General Assistance
+
+- [חמל עם אחד](<https://www.am-ehad.org/>)
+- ארגון סיוע אזרחי כללי
+  - [מרכז](<https://chat.whatsapp.com/Bsy4Sc9jM4PIS64JD1aRnp>)
+  - [צפון](<https://chat.whatsapp.com/GY2MwfFLaLwAfJbydxte2X>)
+  - [דרום](<https://chat.whatsapp.com/ChDI2XilcBSCuQG1ZIzQQp>)
+  - [ירושלים](<https://chat.whatsapp.com/BS2qZmtb9zGEdRgrqZlW9h>)
 
 ## Equipment - ציוד
 
