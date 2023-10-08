@@ -9,6 +9,7 @@
 - [Equipment Assistance](#equipment---ציוד)
 - [Donations](#donations)
 - [Initiative Hubs](#מקומות-אשר-מרכזים-יוזמות)
+-
 - [Resources for Returning Nationals](#מילואימניקים-שרוצים-לחזור-לארץ)
 - [Free Content Index](#available-free-content)
 
@@ -23,6 +24,12 @@
   - [דרום](<https://chat.whatsapp.com/ChDI2XilcBSCuQG1ZIzQQp>)
   - [ירושלים](<https://chat.whatsapp.com/BS2qZmtb9zGEdRgrqZlW9h>)
 
+## אתרים אשר מרכזים יוזמות ועזרה כללית
+
+- [WeHelpIsrael](<https://docs.google.com/document/d/1pzWWh7g2x-9FtDosL5msaeWjSZSZdE2deb803lk01xc/edit>)
+- [Lev Ehad - לב אחד]
+- [IsraHelp](<https://linktr.ee/israhelp>)
+
 ## Equipment - ציוד
 
 - General Equipment - ציוד כללי ללוחמים
@@ -36,15 +43,11 @@
 
 - [Whatsapp - אירוח משפחות מהדרום](<https://chat.whatsapp.com/E6GofQiyosDLndYKKCcC4v>)
 
+## [Hasbard - הסברה](./hasbara.md)
+
 ## מזון - Food
 
 - [Whatsapp חמל איסוף ושינוע מזון](<https://chat.whatsapp.com/KPZ7JqQyBLG3OSvtGlUAdx>)
-
-## מקומות אשר מרכזים יוזמות
-
-- [WeHelpIsrael](<https://docs.google.com/document/d/1pzWWh7g2x-9FtDosL5msaeWjSZSZdE2deb803lk01xc/edit>)
-- [Lev Ehad - לב אחד]
-- [IsraHelp](<https://linktr.ee/israhelp>)
 
 ## Donations
 
@@ -54,6 +57,8 @@
 ## מילואימניקים שרוצים לחזור לארץ
 
 - [Thailand - תיאלנד](<https://chat.whatsapp.com/KY3GCKEUQopERWMlgdC06Q>)
+
+## [Parenting Help and Support - עזרה להורים ומשפחות עם ילדים בזמן הלחימה](./parenting.md)
 
 ## Available Free Content
 
