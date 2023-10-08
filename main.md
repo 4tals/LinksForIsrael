@@ -29,6 +29,10 @@
 
 ## Metal - נפשי
 
+## Equipment - ציוד
+
+- [Facebook Post - Galina Ziomek](<https://www.facebook.com/100000484874028/posts/pfbid0aWdLhUrdK7eXVsDXHUBW2CpSKiefP3xfBMaDVKhfd6snV5fdwrztafJwu4xzVvX4l/?mibextid=Nif5oz>)
+
 ## Donations
 
 - [לגדוד 8717, גבעתי - פורסם על ידי ג׳וש בהר](<https://payboxapp.page.link/kJrr6HjU9NZqWzJ36>)
@@ -39,6 +43,10 @@
 - [WeHelpIsrael](<https://docs.google.com/document/d/1pzWWh7g2x-9FtDosL5msaeWjSZSZdE2deb803lk01xc/edit>)
 - [Lev Ehad - לב אחד]
 - [IsraHelp](<https://linktr.ee/israhelp>)
+
+## מילואימניקים שרוצים לחזור לארץ
+
+- [Thailand - תיאלנד](<https://chat.whatsapp.com/KY3GCKEUQopERWMlgdC06Q>)
 
 ## To Index
 
