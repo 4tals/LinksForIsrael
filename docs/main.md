@@ -1,5 +1,7 @@
 # Public Cooperation Initiative
 
+## [יוזמת שיתוף ציבורי - איר לתרום](./contribute.md)
+
 ## **Contents:**
 
 - [Valunteers](./valunteers.md)
