@@ -10,7 +10,7 @@
 
 ## Connecting between volunteers and help seekers
 
-- [iron-swords-volunteers-kris](<https://iron-swords-volunteers-kris.co.il>)
+- [iron-swords-valunteers-kris](<https://iron-swords-valunteers-kris.co.il>)
   - Managers
     - Shiran 052-379-0640
     - Lior 054-948-1235
