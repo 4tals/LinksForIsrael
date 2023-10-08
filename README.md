@@ -21,6 +21,7 @@
 - אישור בקשות משיכה (Pull Requests)
 - תחזוקה כללית של המאגר
 - הצעות ורעיונות לכיוונים פוטנציאליים ליוזמה
+- [איך לתרום](<https://4tal.github.io/ConnectPortal/docs/contribute.html>)
 
 ## English
 
@@ -41,3 +42,4 @@ We're actively looking for help in:
 - Approving Pull Requests
 - General maintenance of the repo
 - Brainstorming potential directions for the initiative
+- [How to contribute](<https://4tal.github.io/ConnectPortal/docs/contribute.html>)
