@@ -2,7 +2,7 @@
 
 ## **Contents:**
 
-- [Ideas](#ideas---רעיונות)
+- [Initiatives](#ideas---רעיונות)
 - [Tech Resources](#tech)
 - [Host Families](#host-families)
 - [Food Assistance](#מזון---food)
@@ -42,6 +42,24 @@
     - Lior 054-948-1235
 
 ## Metal - נפשי
+
+## General Assistance
+
+### ארגון סיוע אזרחי ירושלים
+
+[Join Whatsapp Group](<https://chat.whatsapp.com/BS2qZmtb9zGEdRgrqZlW9h>)
+
+### ארגון סיוע אזרחי דרום
+
+[Join Whatsapp Group](<https://chat.whatsapp.com/ChDI2XilcBSCuQG1ZIzQQp>)
+
+### ארגון סיוע אזרחי צפון
+
+[Join Whatsapp Group](<https://chat.whatsapp.com/GY2MwfFLaLwAfJbydxte2X>)
+
+### ארגון סיוע אזרחי מרכז
+
+[Join Whatsapp Group](<https://chat.whatsapp.com/Bsy4Sc9jM4PIS64JD1aRnp>)
 
 ## Equipment - ציוד
 
