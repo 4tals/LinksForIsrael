@@ -50,4 +50,13 @@
 
 ## To Index
 
+- Available Free Content - תוכן פתוח חינמי לתקופה
+  - [סרטי קולנוע לכל הגילאים](<https://il.academe.plus/movies>)
+    - Description
+  - [BrainPop](<https://il.brainpop.com/>)
+    - code: בריינפופ23
+    - Description
+  - [Books](<https://padlet.com/redirect?url=https%3A%2F%2Fschool.booksgiant.com%2Flogin%2Fhe>)
+    - Description
+
 - [המלצות אבטחת מידע ופרטיות](<https://docs.google.com/document/d/1WqZukKOUUrUclxlBluOYDqpSxgMIGuZQ0WBt7uunTFU/edit>)
