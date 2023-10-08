@@ -8,7 +8,7 @@
 - [Food Assistance](#מזון---food)
 - [Equipment Assistance](#equipment---ציוד)
 - [Donations](#donations)
-- [Initiative Hubs](#מקומות-אשר-מרכזים-יוזמות)
+- [Initiative Hubs](#אתרים-אשר-מרכזים-יוזמות-ועזרה-כללית)
 -
 - [Resources for Returning Nationals](#מילואימניקים-שרוצים-לחזור-לארץ)
 - [Free Content Index](#available-free-content)
