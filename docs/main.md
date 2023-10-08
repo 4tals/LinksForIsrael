@@ -40,9 +40,7 @@
 
 - [Facebook Post - Galina Ziomek](<https://www.facebook.com/100000484874028/posts/pfbid0aWdLhUrdK7eXVsDXHUBW2CpSKiefP3xfBMaDVKhfd6snV5fdwrztafJwu4xzVvX4l/?mibextid=Nif5oz>)
 
-## Host Families
-
-- [Whatsapp - אירוח משפחות מהדרום](<https://chat.whatsapp.com/E6GofQiyosDLndYKKCcC4v>)
+## [Host Families - אירוח משפחות](./host-family.md)
 
 ## [Hasbard - הסברה](hasbara.md)
 
