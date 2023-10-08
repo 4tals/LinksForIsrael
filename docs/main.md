@@ -60,6 +60,10 @@ Available Free Content - תוכן פתוח חינמי לתקופה
 - [Books](<https://padlet.com/redirect?url=https%3A%2F%2Fschool.booksgiant.com%2Flogin%2Fhe>)
   - Description
 
+## Pets - חיות מחמד
+
+- [אומנה לכלב מהדרום שלא יכול לנוע עם המשפחה](<https://docs.google.com/document/d/19mhYz9AA2fhDI0-11gNPK_RWx2GXkrbFX3YlMLU-1Dw/edit#heading=h.8qbzp4y3fz7e>)
+
 ## To Index
 
 - [המלצות אבטחת מידע ופרטיות](<https://docs.google.com/document/d/1WqZukKOUUrUclxlBluOYDqpSxgMIGuZQ0WBt7uunTFU/edit>)
