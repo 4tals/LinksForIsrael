@@ -1,6 +1,6 @@
 # **Link For You - לינק בשבילך**
 
-🌐 [Visit Our Website](https://4tal.github.io/ConnectPortal/)
+🌐 [Visit Website](https://4tal.github.io/ConnectPortal/)
 
 ---
 
