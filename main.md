@@ -26,6 +26,7 @@
 
 ## General Assistance
 
+- [חמל עם אחד](<https://www.am-ehad.org/>)
 - ארגון סיוע אזרחי כללי
   - [מרכז](<https://chat.whatsapp.com/Bsy4Sc9jM4PIS64JD1aRnp>)
   - [צפון](<https://chat.whatsapp.com/GY2MwfFLaLwAfJbydxte2X>)
