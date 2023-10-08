@@ -2,9 +2,9 @@
 
 ## **Contents:**
 
-- [Valunteers](docs/valunteers.md)
+- [Valunteers](./valunteers.md)
 - [Initiatives](#initiatives---יוזמות-קיימות)
-- [Host Families](#host-families)
+- [Host Families](./host-family.md)
 - [Food Assistance](#מזון---food)
 - [Equipment Assistance](#equipment---ציוד)
 - [Donations](#donations)
