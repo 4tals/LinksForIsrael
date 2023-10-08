@@ -3,10 +3,9 @@
 ## **Contents:**
 
 - [Valunteers](./valunteers.md)
-- [Initiatives](#initiatives)
+- [Initiatives](#initiatives---יוזמות-קיימות)
 - [Host Families](#host-families)
 - [Food Assistance](#מזון---food)
-- [Well-being and Mental Support](#metal---נפשי)
 - [Equipment Assistance](#equipment---ציוד)
 - [Donations](#donations)
 - [Initiative Hubs](#מקומות-אשר-מרכזים-יוזמות)
@@ -15,7 +14,7 @@
 
 ## [Ideas - רעיונות](./ideas.md)
 
-## [Initiatives](./initiatives.md)
+## [Initiatives - יוזמות קיימות](./initiatives.md)
 
 ## Host Families
 
@@ -25,25 +24,13 @@
 
 - [Whatsapp חמל איסוף ושינוע מזון](<https://chat.whatsapp.com/KPZ7JqQyBLG3OSvtGlUAdx>)
 
-## Metal - נפשי
-
 ## General Assistance
 
-### ארגון סיוע אזרחי ירושלים
-
-[Join Whatsapp Group](<https://chat.whatsapp.com/BS2qZmtb9zGEdRgrqZlW9h>)
-
-### ארגון סיוע אזרחי דרום
-
-[Join Whatsapp Group](<https://chat.whatsapp.com/ChDI2XilcBSCuQG1ZIzQQp>)
-
-### ארגון סיוע אזרחי צפון
-
-[Join Whatsapp Group](<https://chat.whatsapp.com/GY2MwfFLaLwAfJbydxte2X>)
-
-### ארגון סיוע אזרחי מרכז
-
-[Join Whatsapp Group](<https://chat.whatsapp.com/Bsy4Sc9jM4PIS64JD1aRnp>)
+- ארגון סיוע אזרחי כללי
+  - [מרכז](<https://chat.whatsapp.com/Bsy4Sc9jM4PIS64JD1aRnp>)
+  - [צפון](<https://chat.whatsapp.com/GY2MwfFLaLwAfJbydxte2X>)
+  - [דרום](<https://chat.whatsapp.com/ChDI2XilcBSCuQG1ZIzQQp>)
+  - [ירושלים](<https://chat.whatsapp.com/BS2qZmtb9zGEdRgrqZlW9h>)
 
 ## Equipment - ציוד
 
