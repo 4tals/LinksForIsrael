@@ -2,6 +2,7 @@
 
 Thank you for your dedication to improving the project!
 
+- [ ] **Update Socials**: Like Fav, Description, headline
 - [ ] **Add Back Ability**: Add link on every page to be able to return to the home page or previos pages.
 - [ ] **Add Descriptions**: Each initiative within the repository should have a clear and concise description. This will provide clarity to collaborators and users of the project.
 
