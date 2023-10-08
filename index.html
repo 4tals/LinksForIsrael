@@ -34,42 +34,53 @@
             background-color: #45a049;
         }
 
-        .container {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-        }
-
-        .english, .hebrew {
-            width: 45%;
-        }
-
-        .hebrew {
+        [lang="he"] {
             direction: rtl;
+        }
+
+        .toggle-lang {
+            display: block;
+            text-align: center;
+            margin-bottom: 20px;
         }
     </style>
 </head>
 
 <body>
-    <h1>Public Cooperation Initiative - יוזמת שיתוף הציבור</h1>
 
-    <div class="container">
-        <div class="english">
-            <p>Welcome to our repository of resources. For a comprehensive guide, access the documentation below.</p>
-            <a href="./docs/main.html">Main Documentation</a>
-            <a href="https://github.com/4tal/ConnectPortal" target="_blank">GitHub Repository</a>
-            <a href="https://chat.whatsapp.com/JjD8eijWfDXD10QbM2VyaX" target="_blank">Join Our WhatsApp Group</a>
-            <a href="./docs/contribute.html" target="_blank">How to Contribute</a>
-        </div>
-        
-        <div class="hebrew">
-            <p>ברוכים הבאים למאגר המשאבים שלנו. למדריך מקיף, גשו לתיעוד למטה.</p>
-            <a href="./docs/main.html">תוכן עניינים ראשי</a>
-            <a href="https://github.com/4tal/ConnectPortal" target="_blank">ריפו בגיטהאב</a>
-            <a href="https://chat.whatsapp.com/JjD8eijWfDXD10QbM2VyaX" target="_blank">הצטרפות לקבוצת הוואטסאפ שלנו</a>
-            <a href="./docs/contribute.html" target="_blank">איך לתרום לפרויקט</a>
-        </div>
-    </div>
+    <a href="#" class="toggle-lang" onclick="toggleLanguage()">Switch to Hebrew</a>
+
+    <h1 data-en="Public Cooperation Initiative" data-he="יוזמת שיתוף הציבור">Public Cooperation Initiative</h1>
+
+    <p data-en="Welcome to our repository of resources. For a comprehensive guide, access the documentation below."
+        data-he="ברוכים הבאים למאגר המשאבים שלנו. למדריך מקיף, גשו לתיעוד למטה.">Welcome to our repository of resources. For a comprehensive guide, access the documentation below.</p>
+
+    <a href="./docs/main.html" data-en="Main Documentation" data-he="תוכן עניינים ראשי">Main Documentation</a>
+    <a href="https://github.com/4tal/ConnectPortal" target="_blank" data-en="GitHub Repository" data-he="ריפו בגיטהאב">GitHub Repository</a>
+    <a href="https://chat.whatsapp.com/JjD8eijWfDXD10QbM2VyaX" target="_blank" data-en="Join Our WhatsApp Group" data-he="הצטרפות לקבוצת הוואטסאפ שלנו">Join Our WhatsApp Group</a>
+    <a href="./docs/contribute.html" target="_blank" data-en="How to Contribute" data-he="איך לתרום לפרויקט">How to Contribute</a>
+
+    <script>
+        function toggleLanguage() {
+            const elements = document.querySelectorAll('[data-en], [data-he]');
+            const toggleBtn = document.querySelector('.toggle-lang');
+
+            if (document.body.getAttribute("lang") !== "he") {
+                elements.forEach(el => {
+                    el.textContent = el.getAttribute('data-he');
+                });
+                document.body.setAttribute("lang", "he");
+                toggleBtn.textContent = "Switch to English";
+            } else {
+                elements.forEach(el => {
+                    el.textContent = el.getAttribute('data-en');
+                });
+                document.body.removeAttribute("lang");
+                toggleBtn.textContent = "Switch to Hebrew";
+            }
+        }
+    </script>
+
 </body>
 
 </html>
