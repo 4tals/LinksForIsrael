@@ -1,21 +1,4 @@
-# Public Cooperation Initiative
-
-## [יוזמת שיתוף ציבורי - איר לתרום](./contribute.md)
-
-## **Contents:**
-
-- [Valunteers](./valunteers.md)
-- [Initiatives](#initiatives---יוזמות-קיימות)
-- [Host Families](./host-family.md)
-- [Food Assistance](#מזון---food)
-- [Equipment Assistance](#equipment---ציוד)
-- [Donations](#donations)
-- [Initiative Hubs](#אתרים-אשר-מרכזים-יוזמות-ועזרה-כללית)
--
-- [Resources for Returning Nationals](#מילואימניקים-שרוצים-לחזור-לארץ)
-- [Free Content Index](#available-free-content)
-
-## [Initiatives - יוזמות קיימות](initiatives.md)
+# [יוזמת שיתוף ציבורי - איר לתרום](./contribute.md)
 
 ## General Assistance
 
