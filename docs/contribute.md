@@ -19,6 +19,8 @@
 
 Take some time to understand the layout of the repository. Familiarize yourself with the directory structure, the type of files, and their content.
 
+Then, pick one of the tasks in [*TaskList*](./todos.md)
+
 ## 🛠 Making Changes
 
 1. **Create a New Branch**
