@@ -2,7 +2,7 @@
 
 ## **Contents:**
 
-- [Valunteers](./valunteers.md)
+- [Valunteers](docs/valunteers.md)
 - [Initiatives](#initiatives---יוזמות-קיימות)
 - [Host Families](#host-families)
 - [Food Assistance](#מזון---food)
@@ -13,7 +13,7 @@
 - [Resources for Returning Nationals](#מילואימניקים-שרוצים-לחזור-לארץ)
 - [Free Content Index](#available-free-content)
 
-## [Initiatives - יוזמות קיימות](./initiatives.md)
+## [Initiatives - יוזמות קיימות](initiatives.md)
 
 ## General Assistance
 
@@ -43,11 +43,12 @@
 
 - [Whatsapp - אירוח משפחות מהדרום](<https://chat.whatsapp.com/E6GofQiyosDLndYKKCcC4v>)
 
-## [Hasbard - הסברה](./hasbara.md)
+## [Hasbard - הסברה](hasbara.md)
 
 ## מזון - Food
 
 - [Whatsapp חמל איסוף ושינוע מזון](<https://chat.whatsapp.com/KPZ7JqQyBLG3OSvtGlUAdx>)
+- [אפליקציה לחלוקת מזון](<https://salmaz.herokuapp.com/guest/events>)
 
 ## Donations
 
@@ -58,7 +59,7 @@
 
 - [Thailand - תיאלנד](<https://chat.whatsapp.com/KY3GCKEUQopERWMlgdC06Q>)
 
-## [Parenting Help and Support - עזרה להורים ומשפחות עם ילדים בזמן הלחימה](./parenting.md)
+## [Parenting Help and Support - עזרה להורים ומשפחות עם ילדים בזמן הלחימה](parenting.md)
 
 ## Available Free Content
 
