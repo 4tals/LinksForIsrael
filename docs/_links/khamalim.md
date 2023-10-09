@@ -1,5 +1,7 @@
+- [בוט חמ״ל](<http://tiny.cc/ek3cvz>)
 - [חמל עם אחד](<https://www.am-ehad.org/>)
 - [WeHelpIsrael](<https://docs.google.com/document/d/1pzWWh7g2x-9FtDosL5msaeWjSZSZdE2deb803lk01xc/edit>)
 - [Lev Ehad - לב אחד](<https://www.levechad.org/>)
 - [IsraHelp](<https://linktr.ee/israhelp>)
 - [Facebook Group](<https://m.facebook.com/groups/780925150471197/?ref=share&mibextid=lURqYx>)
+- [General Links](<https://docs.google.com/spreadsheets/d/1YlzwkQUKJQDVelotnN_jdguTAUqW1jPNvOaf2QHw8Ac/edit#gid=0>)

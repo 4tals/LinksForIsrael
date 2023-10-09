@@ -151,6 +151,15 @@
 
 <details class="links-section" open>
 <summary class="links-section-title" markdown="1">
+## אישורי נשק
+</summary>
+<div class="links-section-content" markdown="1">
+{% include_relative _links/neshek.md %}
+</div>
+</details>
+
+<details class="links-section" open>
+<summary class="links-section-title" markdown="1">
 ## לא מקוטלג
 </summary>
 <div class="links-section-content" markdown="1">
