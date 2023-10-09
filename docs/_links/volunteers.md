@@ -1,11 +1,4 @@
----
----
-# Volunteers
-
----
-[Home](home)
-
-## Tech
+### Tech
 
 - [פתרונות טכנולוגיים - צוות חירום](<https://chat.whatsapp.com/DyIdNxWEONu69Oksm3mRmS>)
 - [DevHelp - Tech Volunteers Whatsapp](<https://chat.whatsapp.com/GLmj3FDWiCW1RWDRnL79UV>)
@@ -14,7 +7,7 @@
 - [General Form for Tech Volunteers](<https://forms.gle/wVB2zNKRZSUhQb79A>)
 - [General Discord to manage initiatives](<https://discord.gg/3Jg6us3b>)
 
-## Connecting between volunteers and help seekers
+### Connecting between volunteers and help seekers
 
 - [iron-swords-valunteers-kris](<https://iron-swords-valunteers-kris.co.il>)
   - Managers
