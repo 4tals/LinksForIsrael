@@ -20,6 +20,16 @@
    cd ConnectPortal
    \```
 
+4. **Install Ruby 3**
+   Check how to install an up-to-date version of Ruby for your system [here](https://www.ruby-lang.org/en/documentation/installation/).
+
+5. **Install Ruby dependencies**
+   Bundler should be installed now as well. Run `bundle install`.
+
+6. **Run the project locally**
+   \```
+   bundle exec jekyll serve
+   \```
 ## 📖 Understanding the Project Structure
 
 Take some time to understand the layout of the repository. Familiarize yourself with the directory structure, the type of files, and their content.

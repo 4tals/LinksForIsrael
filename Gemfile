@@ -9,3 +9,6 @@ gem "github-pages"
 gem "jekyll-theme-cayman"
 
 # gem "rails"
+
+gem "webrick", "~> 1.8"
+gem "github-pages", group: :jekyll_plugins
