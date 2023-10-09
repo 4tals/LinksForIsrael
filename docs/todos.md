@@ -1,6 +1,6 @@
-# Tasks for the Link For You Project
+# Tasks for the Link For Israel Project
 
-> This task list aims to centralize improvements and ideas for the "Link For You" project.
+> This task list aims to centralize improvements and ideas for the "Link For Israel" project.
 
 ---
 [Home](home.md)

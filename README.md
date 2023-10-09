@@ -1,4 +1,4 @@
-# **Link For You - לינק בשבילך**
+# **Link For Israel - לינק לישראל**
 
 🌐 [Visit Website](https://4tal.github.io/ConnectPortal/)
 
