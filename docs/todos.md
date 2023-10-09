@@ -22,11 +22,13 @@
 
 ### Tech-Ops / DevOps
 
+- [ ] How to make content as the main page instead of the index.html
 - [ ] **Is there a better page layout plugin for Jekyll/markup**: Display content in multiple columns so we'll not get long pages fast.
 - [ ] **Filter by tags per page**: Add the ability to filter by tags per page, e.g., to filter by "volunteers" on the "initiatives" page.
 - [ ] **Add Search**: Add search functionality to the site.
 - [ ] **Image Hosting Solution**: Find a method to host images reliably for the project.
 - [ ] **Fav icon Display**: Fix the issue where the favicon doesn't appear on pages other than index.html.
+- [ ] **Github Issues**: Consider moving to github.
 
 ### UX/UI
 
