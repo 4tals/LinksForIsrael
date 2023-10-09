@@ -9,6 +9,10 @@
 
 ---
 
+## בדיקה האם לינק הוא מאומת
+
+- [שירות שבודק לינקים לתרומות](https://naboo.ai/safedonate)
+
 ## לגדוד 8717, גבעתי - פורסם על ידי ג׳וש בהר
 
 - [Link to Donation](https://payboxapp.page.link/kJrr6HjU9NZqWzJ36)
