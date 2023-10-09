@@ -1,5 +1,7 @@
 # Tasks for the Link For You Project
 
+Links: [Home](./main.md) |
+
 Thank you for your dedication to improving the project!
 
 - [ ] **Improve TODOs**: Improve todo description and target so it will be easier to participate #content

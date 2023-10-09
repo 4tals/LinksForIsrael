@@ -1,6 +1,6 @@
 # Donations - תרומות
 
-Links: [Home](./main.md) | 
+Links: [Home](./main.md) |
 
 - [לגדוד 8717, גבעתי - פורסם על ידי ג׳וש בהר](<https://payboxapp.page.link/kJrr6HjU9NZqWzJ36>)
   - לוחמי מילואים בצו 8 גבול עזה
