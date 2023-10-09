@@ -53,6 +53,7 @@
    \```
    bundle exec jekyll serve
    \```
+
 ## 📖 Understanding the Project Structure
 
 Take some time to understand the layout of the repository. Familiarize yourself with the directory structure, the type of files, and their content.
