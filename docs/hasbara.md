@@ -2,8 +2,6 @@
 ---
 # Hasbara - הסברה
 
->
-
 ---
 [Home](home)
 
