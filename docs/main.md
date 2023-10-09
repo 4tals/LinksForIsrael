@@ -2,7 +2,7 @@
 
 ## [Tech Initiatives - יוזמות טכנולוגיה קיימות](initiatives.md)
 
-## חמלים, ריכוז מתנדבים ותרומות והכל
+## חמלים
 
 - [חמל עם אחד](<https://www.am-ehad.org/>)
 - [WeHelpIsrael](<https://docs.google.com/document/d/1pzWWh7g2x-9FtDosL5msaeWjSZSZdE2deb803lk01xc/edit>)
@@ -45,10 +45,9 @@
 - [Whatsapp חמל איסוף ושינוע מזון](<https://chat.whatsapp.com/KPZ7JqQyBLG3OSvtGlUAdx>)
 - [אפליקציה לחלוקת מזון](<https://salmaz.herokuapp.com/guest/events>)
 
-## Donations
+## [Donations](./donations.md)
 
-- [לגדוד 8717, גבעתי - פורסם על ידי ג׳וש בהר](<https://payboxapp.page.link/kJrr6HjU9NZqWzJ36>)
-  - לוחמי מילואים בצו 8 גבול עזה
+
 
 ## מילואימניקים שרוצים לחזור לארץ
 

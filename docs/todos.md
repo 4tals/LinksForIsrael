@@ -2,7 +2,9 @@
 
 Thank you for your dedication to improving the project!
 
+
 - [ ] **Improve TODOs**: Improve todo description and target so it will be easier to participate
+- [ ] **Image Hosting Solution**: Way to host images for the project and use the links in the content
 - [ ] **Update Socials**: Like Fav, Description, headline
 - [ ] **Examine Descriptive tags** for tasks, initiative, projects to better understand his status without the need to open it.
 - [ ] **Add Back Ability**: Add link on every page to be able to return to the home page or previos pages.
