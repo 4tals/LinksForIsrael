@@ -31,6 +31,7 @@
 ### UX/UI
 
 - [ ] **Examine Descriptive Tags**: Introduce descriptive tags for tasks, initiatives, and projects for at-a-glance understanding.
+- [ ] **Using badges to give additional information**: Find known conventions to add information about upload date, status, that will not take much space. *Should consult group and #tech-ops guys
 
 ---
 
