@@ -100,17 +100,16 @@
     </style>
 </head>
 
-<body>
+<body lang="he">
     <div class="content-container">
         <button class="toggle-lang" onclick="toggleLanguage()">Switch to Hebrew</button>
-        <h1 data-en="Link For Israel (לינק לישראל)" data-he="לינק לישראל">Link For Israel (לינק לישראל)</h1>
+        <h1 data-en="Link For Israel" data-he="לינק לישראל">לינק לישראל</h1>
 
-        <p data-en='"Link For Israel" is a community-driven platform centralizing vital resources for Israelis, especially in challenging times. We harness the collective power of our community, using PR reviews and swift updates to ensure accurate, timely information. Your expertise can help with scripts, reviews, and enhancing its potential.'
+        <p  
+            id="main-content"
+            data-en='"Link For Israel" is a community-driven platform centralizing vital resources for Israelis, especially in challenging times. We harness the collective power of our community, using PR reviews and swift updates to ensure accurate, timely information. Your expertise can help with scripts, reviews, and enhancing its potential.'
             data-he='"לינק בשבילך" היא פלטפורמה שמונעת על ידי הקהילה וממרכזת משאבים חיוניים לישראלים, במיוחד בתקופות מאתגרות. אנו מנצלים את הכוח הקהילתי לביצוע סקירות PR ועדכונים מהירים להבטחת מידע מדויק וזמין. הידע שלך יכול לעזור בכתיבת סקריפטים, ביצוע סקירות ושדרוג הפוטנציאל.'>
-            Link For Israel is a community-driven platform centralizing vital resources for Israelis, especially in
-            challenging times. We harness the collective power of our community, using PR reviews and swift updates to
-            ensure accurate, timely information. Your expertise can help with scripts, reviews, and enhancing its
-            potential.</p>
+        </p>
 
         <a href="./docs/home.html" target="_blank" data-en="Main Documentation" data-he="תוכן עניינים ראשי">Main
             Documentation</a>
@@ -138,9 +137,16 @@
                     el.textContent = el.getAttribute('data-en');
                 });
                 document.body.removeAttribute("lang");
-                toggleBtn.textContent = "Switch to Hebrew";
+                toggleBtn.textContent = "החלף לעברית";
             }
         }
+
+        (()=>{
+            const mainContent = document.querySelector('#main-content');
+            const isHebrew = document.body.getAttribute('lang') === "he";
+            mainContent.textContent = isHebrew ? mainContent.getAttribute('data-he') : mainContent.getAttribute('data-en');            
+        })()
+
     </script>
 </body>
 
