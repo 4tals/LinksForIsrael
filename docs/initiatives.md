@@ -8,3 +8,7 @@
 - [אתר עם תוכן מוכן לשיתוף לצרכי הסברה - Israel Diplomacy](<https://github.com/nirtz89/israel_diplomacy>)
 - [Bots For Israel](<https://chat.whatsapp.com/CWmy7ai0VJ1449FVgShVGk>)
 - [סיווג טקסט פרו /אנטי ישראלי](<https://chat.whatsapp.com/K9iNqhuwhdmLvAJhNrh6y0>)
+
+## Assistance for Tech initiatives
+
+- [Wix Offering Mentorship support - תמיכה טכנית ומנטורשיפ בבניית פתרונות על ויקס](<https://twitter.com/morad/status/1711063336022876357>)

@@ -29,6 +29,7 @@
 - [ ] **Image Hosting Solution**: Find a method to host images reliably for the project.
 - [ ] **Fav icon Display**: Fix the issue where the favicon doesn't appear on pages other than index.html.
 - [ ] **Github Issues**: Consider moving to github.
+- [ ] Expenses
 
 ### UX/UI
 
