@@ -6,7 +6,6 @@ gist:
   noscript: false
 plugins:
   - jekyll-target-blank
-  - jekyll-remote-theme
 theme: jekyll-theme-cayman
 kramdown:
   math_engine: mathjax
