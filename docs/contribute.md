@@ -8,17 +8,40 @@
 ## 🚀 Getting Started
 
 1. **Set Up Your Environment**
-   - Make sure you have Git installed. If not, download and install it from [Git's official website](https://git-scm.com/).
+   - Make sure you have Git and Ruby installed.
+     - Git: If not, download and install it from [Git's official website](https://git-scm.com/).
 
 2. **Fork the Repository**
    - Go to [https://github.com/4tal/ConnectPortal](https://github.com/4tal/ConnectPortal).
    - Click on the `Fork` button at the top right corner. This will create a copy of the repository in your own GitHub account.
 
 3. **Clone the Forked Repository**
-   \```bash
-   git clone <https://github.com/YOUR_USERNAME/ConnectPortal.git>
+
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/ConnectPortal.git
    cd ConnectPortal
-   \```
+   ```
+
+4. **(Optional: If you want to run the GitHub Pages project locally) Install Dependencies**
+   - Install bundler:
+
+     ```bash
+     gem install bundler
+     ```
+
+   - Install project dependencies:
+
+     ```bash
+     bundle install
+     ```
+
+5. **Run Locally**
+
+   ```bash
+   bundle exec jekyll serve
+   ```
+
+   > ⚠️ **Note**: There is currently an issue with running the project locally. The theme doesn't display as expected. If you can solve this issue, your contribution would be greatly appreciated!
 
 ## 📖 Understanding the Project Structure
 
