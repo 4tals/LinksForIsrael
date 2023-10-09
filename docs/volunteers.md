@@ -3,7 +3,7 @@
 # Volunteers
 
 ---
-[Home](home.md)
+[Home](home)
 
 ## Tech
 

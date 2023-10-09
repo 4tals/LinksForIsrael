@@ -5,7 +5,7 @@
 >
 
 ---
-[Home](home.md)
+[Home](home)
 
 ---
 

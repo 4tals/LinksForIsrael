@@ -5,7 +5,7 @@
 > This task list aims to centralize improvements and ideas for the "Link For Israel" project.
 
 ---
-[Home](home.md)
+[Home](home)
 
 ---
 

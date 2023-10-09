@@ -1,8 +1,8 @@
 ---
 ---
-# [יוזמת שיתוף ציבורי - איר לתרום](./contribute.md)
+# [יוזמת שיתוף ציבורי - איר לתרום](./contribute)
 
-## [Tech Initiatives - יוזמות טכנולוגיה קיימות](initiatives.md)
+## [Tech Initiatives - יוזמות טכנולוגיה קיימות](initiatives)
 
 ## חמלים
 
@@ -21,7 +21,7 @@
   - [דרום](<https://chat.whatsapp.com/ChDI2XilcBSCuQG1ZIzQQp>)
   - [ירושלים](<https://chat.whatsapp.com/BS2qZmtb9zGEdRgrqZlW9h>)
 
-## [Volunteers - מתנדבים](./volunteers.md)
+## [Volunteers - מתנדבים](./volunteers)
 
 ## Equipment - ציוד
 
@@ -32,7 +32,7 @@
 
 - [Facebook Post - Galina Ziomek](<https://www.facebook.com/100000484874028/posts/pfbid0aWdLhUrdK7eXVsDXHUBW2CpSKiefP3xfBMaDVKhfd6snV5fdwrztafJwu4xzVvX4l/?mibextid=Nif5oz>)
 
-## [Host Families - אירוח משפחות](./host-family.md)
+## [Host Families - אירוח משפחות](./host-family)
 
 ## Social Networks
 
@@ -40,22 +40,22 @@
   - [WhatsApp Group](<https://chat.whatsapp.com/IKrNlfjrV8O5tBuBMpPOmV>)
   - [Google Doc](<https://docs.google.com/spreadsheets/d/14tRgnIlJhyrSrKA4mTGSgrvvH7U3T8CLV30mDrsNxG8/edit#gid=0>)
   
-## [Hasbard - הסברה](hasbara.md)
+## [Hasbard - הסברה](hasbara)
 
-## [Needarim - איתור נעדרים](./needarim.md)
+## [Needarim - איתור נעדרים](./needarim)
 
 ## מזון - Food
 
 - [Whatsapp חמל איסוף ושינוע מזון](<https://chat.whatsapp.com/KPZ7JqQyBLG3OSvtGlUAdx>)
 - [אפליקציה לחלוקת מזון](<https://salmaz.herokuapp.com/guest/events>)
 
-## [Donations](./donations.md)
+## [Donations](./donations)
 
-## [החזרת מילואימניקים מחו״ל](./miluimnikim-hul.md)
+## [החזרת מילואימניקים מחו״ל](./miluimnikim-hul)
 
-## [Parenting Help and Support - עזרה להורים ומשפחות עם ילדים בזמן הלחימה](parenting.md)
+## [Parenting Help and Support - עזרה להורים ומשפחות עם ילדים בזמן הלחימה](parenting)
 
-## [What to do with free time - דברים לעשות בזמן חופשי](./free-time.md)
+## [What to do with free time - דברים לעשות בזמן חופשי](./free-time)
 
 ## Pets - חיות מחמד
 

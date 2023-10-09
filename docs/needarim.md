@@ -3,7 +3,7 @@
 # איתור נעדרים
 
 ---
-[Home](home.md)
+[Home](home)
 
 - [ביחד למען הנעדרים](<https://needarim.org.il/>)
   - Description

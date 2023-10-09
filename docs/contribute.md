@@ -3,7 +3,7 @@
 # Contribution Guide
 
 ---
-[Home](home.md) | [Contribute](./contribute.md) | [Task List](./todos.md)
+[Home](home) | [Contribute](./contribute) | [Task List](./todos)
 
 ## 🚀 Getting Started
 
@@ -24,7 +24,7 @@
 
 Take some time to understand the layout of the repository. Familiarize yourself with the directory structure, the type of files, and their content.
 
-Then, pick one of the tasks in [*TaskList*](./todos.md)
+Then, pick one of the tasks in [*TaskList*](./todos)
 
 ## 🛠 Making Changes
 

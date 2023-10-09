@@ -3,7 +3,7 @@
 # Host Family - אירוח משפחות
 
 ---
-[Home](home.md)
+[Home](home)
 
 - [Whatsapp - אירוח משפחות מהדרום](<https://chat.whatsapp.com/E6GofQiyosDLndYKKCcC4v>)
 - [מארחים](<https://mearhim.vercel.app/>)
