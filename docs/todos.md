@@ -1,17 +1,40 @@
 # Tasks for the Link For You Project
 
-Links: [Home](home.md) |
+> This task list aims to centralize improvements and ideas for the "Link For You" project.
 
-Thank you for your dedication to improving the project!
+**Quick Navigation:**
 
-- [ ] **Improve TODOs**: Improve todo description and target so it will be easier to participate #content
-- [ ] **Image Hosting Solution**: Way to host images for the project and use the links in the content #tech-ops
-- [ ] **Examine Descriptive tags** for tasks, initiative, projects to better understand his status without the need to open it. #uxui
-- [ ] **Add Descriptions**: Each initiative within the repository should have a clear and concise description. This will provide clarity to collaborators and users of the project #content
-- [ ] **Improve the look and feel of the content**: can be done using copy paste to ChatGPT and request for better .md format and output as code #content
-- [ ] **Fav icon is not displayed when not on the index.html page**: Fix the fav icon to be displayed on all pages #issue
+- [Home](home.md)
 
-- [x] **Add Back Ability**: Add link on every page to be able to return to the home page or previos pages. #issue #idea
-- [x] **Update Socials**: Like Fav, Description, headline
-- [x] **Host the Content**: Consider hosting this content on platforms that support Markdown display, such as Wiki or GitHub Pages.
-- [x] **Update the WhatsApp Group**: After submitting a PR, share an update in the [WhatsApp group](https://chat.whatsapp.com/JjD8eijWfDXD10QbM2VyaX) to notify others about your contribution.
+---
+
+## 🚧 Pending Tasks
+
+### Content
+
+- [ ] **Improve TODOs**: Enhance task descriptions for better clarity and participation.
+- [ ] **Add Descriptions**: Provide clear and concise descriptions for each initiative in the repository.
+- [ ] **Enhance Content Presentation**: Improve the formatting of content, e.g., through ChatGPT for cleaner Markdown.
+- [ ] **Add Content**: Add more content to the repository, e.g., through the Aggregators or closed sourced / google docs sources
+
+### Tech-Ops / DevOps
+
+- [ ] **Filter by tags per page**: Add the ability to filter by tags per page, e.g., to filter by "volunteers" on the "initiatives" page.
+- [ ] **Add Search**: Add search functionality to the site.
+- [ ] **Image Hosting Solution**: Find a method to host images reliably for the project.
+- [ ] **Fav icon Display**: Fix the issue where the favicon doesn't appear on pages other than index.html.
+
+### UX/UI
+
+- [ ] **Examine Descriptive Tags**: Introduce descriptive tags for tasks, initiatives, and projects for at-a-glance understanding.
+
+---
+
+## ✅ Completed Tasks
+
+- [x] **Add Back Ability**: Ensure every page has a link to return to the home page or previous pages.
+- [x] **Update Socials**: Refresh Fav, Description, headline information.
+- [x] **Content Hosting**: Evaluate and possibly transition content to platforms better suited for Markdown, like GitHub Pages or Wikis.
+- [x] **WhatsApp Group Updates**: After PR submissions, share updates in the [WhatsApp group](https://chat.whatsapp.com/JjD8eijWfDXD10QbM2VyaX) to keep the community informed.
+
+---
