@@ -38,6 +38,8 @@
   
 ## [Hasbard - הסברה](hasbara.md)
 
+## [Needarim - איתור נעדרים](./needarim.md)
+
 ## מזון - Food
 
 - [Whatsapp חמל איסוף ושינוע מזון](<https://chat.whatsapp.com/KPZ7JqQyBLG3OSvtGlUAdx>)
