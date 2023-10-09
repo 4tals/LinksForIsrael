@@ -1,6 +1,6 @@
 # איתור נעדרים
 
-Links: [Home](./main.md) |
+Links: [Home](home.md) |
 
 - [ביחד למען הנעדרים](<https://needarim.org.il/>)
   - Description

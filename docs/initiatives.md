@@ -1,6 +1,6 @@
 # Tech Initiatives - POCs
 
-Links: [Home](./main.md) |
+Links: [Home](home.md) |
 
 - Automation between volunteers and help seekers
   - [Whatsapp Group](<https://chat.whatsapp.com/JuJ1da4wYbe16uZL0cqL40>)

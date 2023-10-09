@@ -1,6 +1,6 @@
 # Tasks for the Link For You Project
 
-Links: [Home](./main.md) |
+Links: [Home](home.md) |
 
 Thank you for your dedication to improving the project!
 

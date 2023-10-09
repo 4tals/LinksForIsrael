@@ -1,6 +1,6 @@
 # First Contribution Guide
 
-Links: [Home](./main.md) | [Contribute](./contribute.md) | [Task List](./todos.md)
+Links: [Home](home.md) | [Contribute](./contribute.md) | [Task List](./todos.md)
 
 ## 🚀 Getting Started
 

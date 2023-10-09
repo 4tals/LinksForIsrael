@@ -6,7 +6,7 @@
 
 **Quick Navigation:**
 
-- [Home](./main.md)
+- [Home](home.md)
 
 ---
 

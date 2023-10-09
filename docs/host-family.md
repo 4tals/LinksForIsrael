@@ -1,6 +1,6 @@
 # Host Family - אירוח משפחות
 
-Links: [Home](./main.md) |
+Links: [Home](home.md) |
 
 - [Whatsapp - אירוח משפחות מהדרום](<https://chat.whatsapp.com/E6GofQiyosDLndYKKCcC4v>)
 
