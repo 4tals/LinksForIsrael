@@ -49,23 +49,11 @@
 
 ## [Donations](./donations.md)
 
-## מילואימניקים שרוצים לחזור לארץ
-
-- [Thailand - תיאלנד](<https://chat.whatsapp.com/KY3GCKEUQopERWMlgdC06Q>)
+## [החזרת מילואימניקים מחו״ל](./miluimnikim-hul.md)
 
 ## [Parenting Help and Support - עזרה להורים ומשפחות עם ילדים בזמן הלחימה](parenting.md)
 
-## Available Free Content
-
-Available Free Content - תוכן פתוח חינמי לתקופה
-
-- [סרטי קולנוע לכל הגילאים](<https://il.academe.plus/movies>)
-  - Description
-- [BrainPop](<https://il.brainpop.com/>)
-  - code: בריינפופ23
-  - Description
-- [Books](<https://padlet.com/redirect?url=https%3A%2F%2Fschool.booksgiant.com%2Flogin%2Fhe>)
-  - Description
+## [What to do with free time - דברים לעשות בזמן חופשי](./free-time.md)
 
 ## Pets - חיות מחמד
 
