@@ -9,4 +9,5 @@
 
 ### תמיכה ליוזמות טכנולוגיה
 
+- [מתנדבי דאטה וטכנולוגיה - חמל הרבעון הרביעי](<https://chat.whatsapp.com/E2HvCLeTNaP601kA71HYxE>)
 - [הצעה מוויקס לתמיכה במנטורשיפ ותמיכה טכנית - Wix Offering Mentorship support](<https://twitter.com/morad/status/1711063336022876357>)
