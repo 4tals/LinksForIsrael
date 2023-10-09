@@ -1,0 +1,52 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+:root {
+	--color-links-section: #e8e8e8;
+	--color-links-section-title: #d8d8d8;
+}
+
+body {
+	direction: rtl;
+}
+
+.links-section {
+	background-color: var(--color-links-section);
+
+	h2 {
+		align-items: center;
+		display: flex;
+		margin: 0;
+	}
+
+	&[open] {
+		.links-section-title {
+			h2:before {
+				rotate: 180deg;
+			}
+		}
+	}
+}
+
+.links-section-title {
+	background-color: var(--color-links-section-title);
+	padding: 16px;
+	user-select: none;
+	
+	h2:before {
+		content: "▼";
+		display: inline-block;
+		font-size: 20px;
+		margin-left: 8px;
+		rotate: 90deg;
+		transition: all 0.2s ease;
+	}
+}
+
+.links-section-content {
+	padding: 16px;
+	overflow: hidden;
+
+}

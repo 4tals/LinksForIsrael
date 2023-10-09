@@ -2,70 +2,158 @@
 ---
 # **יוזמת שיתוף ידע ציבורי באחראיות**
 
-## [עזרה טכנית / פיתוח - Dev / Tech Help](./contribute)
+## [הוספת לינק חדש לאתר](<https://docs.google.com/forms/d/e/1FAIpQLSeZsW9WkleVF7-9Wtx6JKWTw9cInqJEpMocR54tZkwjAXPxRg/viewform>){:target="_blank"}
 
-## [הוספת לינק חדש לאתר](<https://docs.google.com/forms/d/e/1FAIpQLSeZsW9WkleVF7-9Wtx6JKWTw9cInqJEpMocR54tZkwjAXPxRg/viewform>)
+<details class="links-section" open>
+<summary class="links-section-title" markdown="1">
+## עזרה טכנית/פיתוח
+</summary>
+<div class="links-section-content" markdown="1">
+{% include_relative _links/contribution.md %}
+</div>
+</details>
 
-## Tech Initiatives - יוזמות טכנולוגיה קיימות
+<details class="links-section" open>
+<summary class="links-section-title" markdown="1">
+## יוזמות טכנולוגיה קיימות
+</summary>
+<div class="links-section-content" markdown="1">
+{% include_relative _links/initiatives.md %}
+</div>
+</details>
 
-{% include_relative_links/initiatives.md %}
+<details class="links-section" open>
+<summary class="links-section-title" markdown="1">
+## חמ״לים
+</summary>
+<div class="links-section-content" markdown="1">
+{% include_relative _links/khamalim.md %}
+</div>
+</details>
 
-## חמלים
+<details class="links-section" open>
+<summary class="links-section-title" markdown="1">
+## סיוע כללי
+</summary>
+<div class="links-section-content" markdown="1">
+{% include_relative _links/general-assistance.md %}
+</div>
+</details>
 
-{% include_relative_links/khamalim.md %}
+<details class="links-section" open>
+<summary class="links-section-title" markdown="1">
+## התנדבות
+</summary>
+<div class="links-section-content" markdown="1">
+{% include_relative _links/volunteers.md %}
+</div>
+</details>
 
-## General Assistance
+<details class="links-section" open>
+<summary class="links-section-title" markdown="1">
+## ציוד
+</summary>
+<div class="links-section-content" markdown="1">
+{% include_relative _links/equipment.md %}
+</div>
+</details>
 
-{% include_relative_links/general-assistance.md %}
+<details class="links-section" open>
+<summary class="links-section-title" markdown="1">
+## אירוח משפחות
+</summary>
+<div class="links-section-content" markdown="1">
+{% include_relative _links/host-family.md %}
+</div>
+</details>
 
-## Volunteers - מתנדבים
+<details class="links-section" open>
+<summary class="links-section-title" markdown="1">
+## רשתות חברתיות
+</summary>
+<div class="links-section-content" markdown="1">
+{% include_relative _links/social-networks.md %}
+</div>
+</details>
 
-{% include_relative_links/volunteers.md %}
+<details class="links-section" open>
+<summary class="links-section-title" markdown="1">
+## הסברה
+</summary>
+<div class="links-section-content" markdown="1">
+{% include_relative _links/hasbara.md %}
+</div>
+</details>
 
-## Equipment - ציוד
+<details class="links-section" open>
+<summary class="links-section-title" markdown="1">
+## איתור נעדרים ונעדרות
+</summary>
+<div class="links-section-content" markdown="1">
+{% include_relative _links/needarim.md %}
+</div>
+</details>
 
-{% include_relative_links/equipment.md %}
+<details class="links-section" open>
+<summary class="links-section-title" markdown="1">
+## מזון
+</summary>
+<div class="links-section-content" markdown="1">
+{% include_relative _links/food.md %}
+</div>
+</details>
 
-## Host Families - אירוח משפחות
+<details class="links-section" open>
+<summary class="links-section-title" markdown="1">
+## תרומות
+</summary>
+<div class="links-section-content" markdown="1">
+{% include_relative _links/donations.md %}
+</div>
+</details>
 
-{% include_relative_links/host-family.md %}
-
-## Social Networks
-
-{% include_relative_links/social-networks.md %}
-  
-## Hasbard - הסברה
-
-{% include_relative_links/hasbara.md %}
-
-## Needarim - איתור נעדרים
-
-{% include_relative_links/needarim.md %}
-
-## מזון - Food
-
-{% include_relative_links/food.md %}
-
-## Donations
-
-{% include_relative_links/donations.md %}
-
+<details class="links-section" open>
+<summary class="links-section-title" markdown="1">
 ## החזרת מילואימניקים מחו״ל
 
-{% include_relative_links/miluimnikim-hul.md %}
+</summary>
+<div class="links-section-content" markdown="1">
+{% include_relative _links/miluimnikim-hul.md %}
+</div>
+</details>
 
-## Parenting Help and Support - עזרה להורים ומשפחות עם ילדים בזמן הלחימה
+<details class="links-section" open>
+<summary class="links-section-title" markdown="1">
+## עזרה להורים ומשפחות עם ילדים בזמן המלחמה
+</summary>
+<div class="links-section-content" markdown="1">
+{% include_relative _links/parenting.md %}
+</div>
+</details>
 
-{% include_relative_links/parenting.md %}
+<details class="links-section" open>
+<summary class="links-section-title" markdown="1">
+## חיות מחמד
+</summary>
+<div class="links-section-content" markdown="1">
+{% include_relative _links/pets.md %}
+</div>
+</details>
 
-## Pets - חיות מחמד
+<details class="links-section" open>
+<summary class="links-section-title" markdown="1">
+## תוכן פתוח חינמי לתקופה
+</summary>
+<div class="links-section-content" markdown="1">
+{% include_relative _links/free-content.md %}
+</div>
+</details>
 
-{% include_relative_links/pets.md %}
-
-## Available Free Content - תוכן פתוח חינמי לתקופה
-
-{% include_relative_links/free-content.md %}
-
-## To Index
-
-{% include_relative_links/uncategorized.md %}
+<details class="links-section" open>
+<summary class="links-section-title" markdown="1">
+## לא מקוטלג
+</summary>
+<div class="links-section-content" markdown="1">
+{% include_relative _links/uncategorized.md %}
+</div>
+</details>
