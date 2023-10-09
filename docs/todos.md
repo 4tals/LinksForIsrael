@@ -9,6 +9,10 @@
 
 ## 🚧 Pending Tasks
 
+### General Creativity
+
+- [ ] **How to get feedback on content to add / remove from non-git users**
+
 ### Content
 
 - [ ] **Improve TODOs**: Enhance task descriptions for better clarity and participation.
