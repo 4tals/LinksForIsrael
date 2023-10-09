@@ -1,11 +1,4 @@
----
----
-# יוזמות טכנולוגיה - Tech Initiatives
-
----
-[עמוד הבית - Home](home)
-
-## יוזמות ודוגמאות
+### יוזמות ודוגמאות
 
 - אוטומציה בין מתנדבים לבין מחפשי עזרה
   - [קבוצת וואטסאפ](<https://chat.whatsapp.com/JuJ1da4wYbe16uZL0cqL40>)
@@ -14,6 +7,6 @@
 - [סיווג טקסט פרו /אנטי ישראלי](<https://chat.whatsapp.com/K9iNqhuwhdmLvAJhNrh6y0>)
 - [איכון מכשירי נעדרים](<https://docs.google.com/forms/d/e/1FAIpQLSduujH277Cqt31XgOZfTZFAD4ua_YN8fXUtAlwOAHX2q9Emww/viewform?usp=sf_link>)
 
-## תמיכה ליוזמות טכנולוגיה
+### תמיכה ליוזמות טכנולוגיה
 
 - [הצעה מוויקס לתמיכה במנטורשיפ ותמיכה טכנית - Wix Offering Mentorship support](<https://twitter.com/morad/status/1711063336022876357>)

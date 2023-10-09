@@ -1,12 +1,3 @@
----
----
-# Hasbara - הסברה
-
----
-[Home](home)
-
----
-
 - [WhatsApp Group - 1](<https://chat.whatsapp.com/CFYjeJbB2YwE4r5TvDLJr6>)
 לאור המלחמה שמתנהלת במדינת ישראל ברגע זה, התנועה למאבק באנטישמיות ברשת מציעה לכל מי שרוצה לקחת חלק ולהתנדב בניטור, דיווח והסרה של תכנים: אנטישמיים, אנטי-ישראליים וגילויי אלימות, פייק ניוז וטרור.
 - [Whatsapp Group - 2](<https://chat.whatsapp.com/KRcigeAgwPRHjOarqCnmDc>)
