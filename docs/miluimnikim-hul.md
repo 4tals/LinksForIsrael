@@ -1,3 +1,4 @@
 # החזרת מילואימניקים מחול
 
-- [מילואימניקים שרוצים לחזור לארץ מהמזרח](<https://chat.whatsapp.com/KY3GCKEUQopERWMlgdC06Q>)
+- [המזרח הרחוק](<https://chat.whatsapp.com/KY3GCKEUQopERWMlgdC06Q>)
+- [London - לונדון](<https://docs.google.com/forms/d/e/1FAIpQLSchDQ5S_lR5NzLDv0EYofour33DA60eaTQGSRWR5he4fKaNVQ/viewform>)
