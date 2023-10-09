@@ -1,6 +1,7 @@
 # Volunteers
 
-Links: [Home](home.md) |
+---
+[Home](home.md)
 
 ## Tech
 

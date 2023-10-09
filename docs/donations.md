@@ -1,12 +1,9 @@
 # Donations - תרומות
 
-> Curated list of verified donation opportunities.
+> רשימה מאושרת של גופים לתרום להם פלוס מי אימת אותם.
 
 ---
-
-**Quick Navigation:**
-
-- [Home](home.md)
+[Home](home.md)
 
 ---
 

@@ -2,9 +2,8 @@
 
 > This task list aims to centralize improvements and ideas for the "Link For You" project.
 
-**Quick Navigation:**
-
-- [Home](home.md)
+---
+[Home](home.md)
 
 ---
 
