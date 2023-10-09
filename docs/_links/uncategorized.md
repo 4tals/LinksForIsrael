@@ -1,0 +1,1 @@
+- [המלצות אבטחת מידע ופרטיות](<https://docs.google.com/document/d/1WqZukKOUUrUclxlBluOYDqpSxgMIGuZQ0WBt7uunTFU/edit>)
