@@ -1,5 +1,7 @@
 # First Contribution Guide
 
+Links: [Home](./main.md) | [Contribute](./contribute.md) | [Task List](./todos.md)
+
 ## 🚀 Getting Started
 
 1. **Set Up Your Environment**
