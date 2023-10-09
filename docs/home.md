@@ -1,6 +1,8 @@
 ---
 ---
-# [יוזמת שיתוף ציבורי - איר לתרום](./contribute)
+# [יוזמת שיתוף ידע ציבורי באחראיות](./contribute)
+
+## [עזרה טכנית / פיתוח - Dev / Tech Help](./contribute)
 
 ## [Tech Initiatives - יוזמות טכנולוגיה קיימות](initiatives)
 
