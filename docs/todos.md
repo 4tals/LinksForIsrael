@@ -19,6 +19,7 @@
 
 ### Tech-Ops / DevOps
 
+- [ ] **Is there a better page layout plugin for Jekyll/markup**: Display content in multiple columns so we'll not get long pages fast.
 - [ ] **Filter by tags per page**: Add the ability to filter by tags per page, e.g., to filter by "volunteers" on the "initiatives" page.
 - [ ] **Add Search**: Add search functionality to the site.
 - [ ] **Image Hosting Solution**: Find a method to host images reliably for the project.
