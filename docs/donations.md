@@ -8,4 +8,4 @@
   - Uri - 054-6397596
   - Meidan - 0526292009
   - [Paybox](<https://payboxapp.page.link/SYaGNe6tQoXmHkRY9>)
-  - **Verified by**: ![4tal](https://img.shields.io/badge/verified-4tal-blue)
+  - **Verified by**: ![4tal](https://img.shields.io/badge/verified-4tal-brightgreen)
