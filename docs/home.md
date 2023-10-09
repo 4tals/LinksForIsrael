@@ -1,6 +1,6 @@
 ---
 ---
-# **יוזמת שיתוף ידע ציבורי באחראיות**
+# **יוזמת שיתוף ידע ציבורי באחריות**
 
 ## [הוספת לינק חדש לאתר](<https://docs.google.com/forms/d/e/1FAIpQLSeZsW9WkleVF7-9Wtx6JKWTw9cInqJEpMocR54tZkwjAXPxRg/viewform>){:target="_blank"}
 
