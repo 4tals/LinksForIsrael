@@ -30,7 +30,7 @@
 
 ## [Host Families - אירוח משפחות](./host-family.md)
 
-## [Social Networks]
+## Social Networks
 
 - Collective Reporting - דיווח על עמודים או פוסטים
   - [WhatsApp Group](<https://chat.whatsapp.com/IKrNlfjrV8O5tBuBMpPOmV>)
@@ -46,8 +46,6 @@
 - [אפליקציה לחלוקת מזון](<https://salmaz.herokuapp.com/guest/events>)
 
 ## [Donations](./donations.md)
-
-
 
 ## מילואימניקים שרוצים לחזור לארץ
 
