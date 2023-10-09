@@ -43,6 +43,16 @@
 
    > ⚠️ **Note**: There is currently an issue with running the project locally. The theme doesn't display as expected. If you can solve this issue, your contribution would be greatly appreciated!
 
+4. **Install Ruby 3**
+   Check how to install an up-to-date version of Ruby for your system [here](https://www.ruby-lang.org/en/documentation/installation/).
+
+5. **Install Ruby dependencies**
+   Bundler should be installed now as well. Run `bundle install`.
+
+6. **Run the project locally**
+   \```
+   bundle exec jekyll serve
+   \```
 ## 📖 Understanding the Project Structure
 
 Take some time to understand the layout of the repository. Familiarize yourself with the directory structure, the type of files, and their content.
