@@ -5,6 +5,7 @@
 
 ## Tech
 
+- [פתרונות טכנולוגיים - צוות חירום](<https://chat.whatsapp.com/DyIdNxWEONu69Oksm3mRmS>)
 - [DevHelp - Tech Volunteers Whatsapp](<https://chat.whatsapp.com/GLmj3FDWiCW1RWDRnL79UV>)
 - מערך המתנדבים של יוצאי יחידות המודיעין
   - מיתר 0543047255
