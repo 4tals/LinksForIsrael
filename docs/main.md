@@ -19,6 +19,8 @@
   - [דרום](<https://chat.whatsapp.com/ChDI2XilcBSCuQG1ZIzQQp>)
   - [ירושלים](<https://chat.whatsapp.com/BS2qZmtb9zGEdRgrqZlW9h>)
 
+## [Volunteers - מתנדבים](./volunteers.md)
+
 ## Equipment - ציוד
 
 - General Equipment - ציוד כללי ללוחמים
