@@ -5,7 +5,7 @@
     const h2Element = section.querySelector("h2");
     const shareBtn = document.createElement("span");
     shareBtn.classList.add("share-btn");
-    shareBtn.setAttribute("data-index", index + 1);
+    shareBtn.setAttribute("data-index", h2Element.parentElement.parentElement.id);
     shareBtn.innerHTML = 'Copy to Share <i class="fas fa-share"></i>';
     h2Element.appendChild(shareBtn);
   });
@@ -19,7 +19,7 @@
     shareBtn.addEventListener("click", (e) => {
       e.preventDefault();
       const index = e.target.getAttribute("data-index");
-      const sectionUrl = `${siteUrl.origin}#section${index}`;
+      const sectionUrl = `${siteUrl.origin}#${index}`;
       //copy section url to clipboard
       navigator.clipboard.writeText(sectionUrl);
       //show copy text next to share button

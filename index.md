@@ -5,7 +5,7 @@ direction: rtl
 
 [הוספת תוכן לאתר](<https://docs.google.com/forms/d/e/1FAIpQLSeZsW9WkleVF7-9Wtx6JKWTw9cInqJEpMocR54tZkwjAXPxRg/viewform>){:target="_blank"}
 
-<details class="links-section" id="section1">
+<details class="links-section" id="tech">
 <summary class="links-section-title" markdown="1" >
 
 ## יוזמות טכנולוגיה קיימות
@@ -17,7 +17,7 @@ direction: rtl
 </div>
 </details>
 
-<details class="links-section"  id="section2">
+<details class="links-section"  id="rescue">
 <summary class="links-section-title" markdown="1">
 
 ## חילוץ
@@ -53,7 +53,7 @@ direction: rtl
 </div>
 </details>
 
-<details class="links-section"  id="section3">
+<details class="links-section"  id="volunteering">
 <summary class="links-section-title" markdown="1">
 
 ## התנדבות
@@ -65,7 +65,7 @@ direction: rtl
 </div>
 </details>
 
-<details class="links-section"  id="section4">
+<details class="links-section"  id="equipment">
 <summary class="links-section-title" markdown="1">
 
 ## ציוד ואספקה
@@ -77,7 +77,7 @@ direction: rtl
 </div>
 </details>
 
-<details class="links-section"  id="section5">
+<details class="links-section"  id="hospitality">
 <summary class="links-section-title" markdown="1">
 
 ## אירוח משפחות
@@ -89,7 +89,7 @@ direction: rtl
 </div>
 </details>
 
-<details class="links-section"  id="section6">
+<details class="links-section"  id="SocialNetworks">
 <summary class="links-section-title" markdown="1">
 
 ## רשתות חברתיות
@@ -113,7 +113,7 @@ direction: rtl
 </div>
 </details>
 
-<details class="links-section"  id="section8">
+<details class="links-section"  id="explanation">
 <summary class="links-section-title" markdown="1">
 
 ## איתור נעדרים ונעדרות
@@ -125,7 +125,7 @@ direction: rtl
 </div>
 </details>
 
-<details class="links-section"  id="section9">
+<details class="links-section"  id="food">
 <summary class="links-section-title" markdown="1">
 
 ## מזון
@@ -137,7 +137,7 @@ direction: rtl
 </div>
 </details>
 
-<details class="links-section"  id="section10">
+<details class="links-section"  id="donations">
 <summary class="links-section-title" markdown="1">
 
 ## תרומות
@@ -149,7 +149,7 @@ direction: rtl
 </div>
 </details>
 
-<details class="links-section"  id="section11">
+<details class="links-section"  id="support">
 <summary class="links-section-title" markdown="1">
 
 ## תמיכה בשכול, משפחות שכולות
@@ -186,7 +186,7 @@ direction: rtl
 </div>
 </details>
 
-<details class="links-section"  id="section12">
+<details class="links-section"  id="reserves">
 <summary class="links-section-title" markdown="1">
 
 ## מילואים והחזרת מילואימניקים מחו״ל
@@ -198,7 +198,7 @@ direction: rtl
 </div>
 </details>
 
-<details class="links-section"  id="section13">
+<details class="links-section"  id="kidesHelp">
 <summary class="links-section-title" markdown="1">
 
 ## עזרה להורים ומשפחות עם ילדים בזמן המלחמה
@@ -210,7 +210,7 @@ direction: rtl
 </div>
 </details>
 
-<details class="links-section"  id="section14">
+<details class="links-section"  id="pets">
 <summary class="links-section-title" markdown="1">
 
 ## חיות מחמד
@@ -222,7 +222,7 @@ direction: rtl
 </div>
 </details>
 
-<details class="links-section"  id="section15">
+<details class="links-section"  id="free">
 <summary class="links-section-title" markdown="1">
 
 ## תוכן פתוח חינמי לתקופה
@@ -234,7 +234,7 @@ direction: rtl
 </div>
 </details>
 
-<details class="links-section"  id="section16">
+<details class="links-section"  id="weapon">
 <summary class="links-section-title" markdown="1">
 
 ## אישורי נשק
@@ -246,7 +246,7 @@ direction: rtl
 </div>
 </details>
 
-<details class="links-section"  id="section17">
+<details class="links-section"  id="notCataloged">
 <summary class="links-section-title" markdown="1">
 
 ## לא מקוטלג
