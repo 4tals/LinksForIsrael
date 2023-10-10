@@ -30,6 +30,7 @@
 	background-color: var(--color-links-section-title);
 	padding: 16px;
 	user-select: none;
+	cursor: pointer;
 	
 	h2:before {
 		content: "▼";
@@ -46,3 +47,13 @@
 	overflow: hidden;
 
 }
+
+.copy-iocn {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+
