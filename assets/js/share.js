@@ -1,35 +1,32 @@
 (() => {
-  //get all section add the share button
+  // Get all sections and add the share button
   const sections = document.querySelectorAll("details");
   sections.forEach((section, index) => {
     const h2Element = section.querySelector("h2");
     const shareBtn = document.createElement("span");
     shareBtn.classList.add("share-btn");
     shareBtn.setAttribute("data-index", h2Element.parentElement.parentElement.id);
-    shareBtn.innerHTML = 'Share <i class="fas fa-share"></i>';
+    shareBtn.innerHTML = '<i class="fas fa-share-alt"></i>'; // Updated this line
     h2Element.appendChild(shareBtn);
   });
 
-  //get all share button
+  // Get all share buttons
   const shareBtns = document.querySelectorAll(".share-btn");
-  //get site url
+  // Get site url
   const siteUrl = new URL(window.location.href);
-  // add event listener to all share button
+  // Add event listener to all share buttons
   shareBtns.forEach((shareBtn) => {
     shareBtn.addEventListener("click", (e) => {
       e.preventDefault();
-      const index = e.target.getAttribute("data-index");
+      const index = e.target.closest(".share-btn").getAttribute("data-index"); // Updated this line for event delegation
       const sectionUrl = `${siteUrl.origin}#${index}`;
-      //copy section url to clipboard
+      // Copy section url to clipboard
       navigator.clipboard.writeText(sectionUrl);
-      //show copy text next to share button
-      const copyText = document.createElement("span");
-      copyText.classList.add("copy-text");
-      e.target.innerHTML = "Copied";
-      shareBtn.appendChild(copyText);
-      //remove copy text after 2 seconds
+      // Show "copied" text instead of share icon
+      e.target.closest(".share-btn").innerHTML = "Copied"; // Updated this line for event delegation
+      // Return to share icon after 2 seconds
       setTimeout(() => {
-        e.target.innerHTML = 'Share <i class="fas fa-share"></i>';
+        e.target.closest(".share-btn").innerHTML = '<i class="fas fa-share-alt"></i>'; // Updated this line for event delegation
       }, 2000);
     });
   });
