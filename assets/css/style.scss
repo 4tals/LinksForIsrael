@@ -4,13 +4,20 @@
 @import "{{ site.theme }}";
 
 :root {
-	--color-links-section: #e8e8e8;
-	--color-links-section-title: #d8d8d8;
+	--color-background-blue: #f0f8fa;
+	--color-title-blue: #018bad;
+	--color-green: #cbd517;
+	--color-white: #fff;
+	--color-link: #34b4c2;
+	--color-dark: #4d4d4d;
+}
+
+body {
+	background: var(--color-background-blue);
+	font-family: Rubik, sans-serif;
 }
 
 .links-section {
-	background-color: var(--color-links-section);
-
 	h2 {
 		align-items: center;
 		display: flex;
@@ -18,16 +25,16 @@
 	}
 
 	&[open] {
-		.links-section-title {
-			h2:before {
-				rotate: 180deg;
-			}
+		.open-caret {
+			rotate: 180deg;
 		}
 	}
 }
 
 .links-section-title {
-	background-color: var(--color-links-section-title);
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
 	padding: 16px;
 	user-select: none;
 	cursor: pointer;
@@ -43,9 +50,98 @@
 }
 
 .links-section-content {
-	padding: 16px;
+	padding: 32px;
 	overflow: hidden;
 
+	& > ul {
+		padding: 0 10%;
+
+		& > li {
+			list-style: none;
+
+			& > p > a, & > a {
+				background-color: var(--color-white);
+				border: 2px solid var(--color-green);
+				border-radius: 80px;
+				box-shadow: 1.84926px 1.84926px 3.69852px 0px rgba(0, 0, 0, 0.25);
+				color: var(--color-link);
+				cursor: pointer;
+				display: block;
+				font-size: 24px;
+				font-weight: 700;
+				padding: 21px;
+				text-align: center;
+				width: 100%;
+			}
+		}
+	}
+}
+
+.open-caret {
+	background: url('{{ site.baseurl }}/assets/caret.png') no-repeat;
+	height: 14px;
+	width: 25px;
+}
+
+.main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
+	color: var(--color-title-blue);
+}
+
+.page-header {
+	align-items: end;
+	background: url('{{ site.baseurl }}/assets/header-bg-desktop.svg') no-repeat;
+	background-position-y: top;
+	background-size: cover;
+	direction: rtl;
+	display: flex;
+	justify-content: space-between;
+	min-height: 100px;
+	padding: 24px;
+}
+
+.main-title {
+	color: var(--color-white);
+	font-size: 24px;
+	font-weight: 700;
+	margin: 0;
+	text-align: start;
+}
+
+.main-subtitle {
+	color: var(--color-white);
+	font-size: 19px;
+	text-align: start;
+}
+
+.contribute-button {
+	background-color: var(--color-green);
+	border-radius: 38px;
+	box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
+	color: var(--color-dark);
+	font-size: 18px;
+	left: 30px;
+	padding: 10px 12px;
+	position: relative;
+	top: 16px;
+}
+
+.add-site-footer {
+	bottom: 0;
+	display: flex;
+	justify-content: flex-end;
+	padding-bottom: 32px;
+	padding-left: 50px;
+	position: sticky;
+}
+
+.add-site-button {
+	background-color: var(--color-white);
+	border-radius: 38px;
+	box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.25);
+	color: var(--color-link);
+	font-size: 24px;
+	font-weight: 700;
+	padding: 13px;
 }
 
 .share-btn{
@@ -65,3 +161,66 @@
 }
 
 
+.site-footer {
+	direction: ltr;
+}
+
+@media only screen and (max-width: 600px) {
+	body {
+		background: var(--color-title-blue);
+		color: var(--color-white);
+	}
+
+	.main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
+		color: var(--color-white);
+	}
+
+	.links-section-content {
+		& > ul {
+			padding: 0;
+	
+			& > li {
+				list-style: none;
+	
+				& > p > a, & > a {
+					background-color: var(--color-white);
+					border: 2px solid var(--color-green);
+					border-radius: 80px;
+					box-shadow: 1.84926px 1.84926px 3.69852px 0px rgba(0, 0, 0, 0.25);
+					color: var(--color-link);
+					cursor: pointer;
+					display: block;
+					font-size: 16px;
+					padding: 15px;
+					text-align: center;
+					width: 100%;
+				}
+			}
+		}
+	}
+
+	.page-header {
+		background: url('{{ site.baseurl }}/assets/header-bg-mobile.svg') no-repeat;
+		background-position-y: bottom;
+		background-size: cover;
+	}
+
+	.main-title {
+		font-size: 19px;
+	}
+	
+	.main-subtitle {
+		font-size: 14px;
+	}
+
+	.contribute-button {
+		font-size: 14px;
+		left: 0;
+	}
+
+	.open-caret {
+		background: url('{{ site.baseurl }}/assets/caret-mobile.png') no-repeat;
+		height: 9px;
+		width: 16px;
+	}
+}
