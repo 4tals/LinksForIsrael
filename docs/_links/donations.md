@@ -1,3 +1,4 @@
 # תרומות
 
 - [Safe Donate - בדיקת לינקים לתרומה האם מאומת או לא](https://naboo.ai/safedonate)
+- [אקסל תרומות מתעדכן](<https://docs.google.com/spreadsheets/d/1YlzwkQUKJQDVelotnN_jdguTAUqW1jPNvOaf2QHw8Ac/edit#gid=0>)
