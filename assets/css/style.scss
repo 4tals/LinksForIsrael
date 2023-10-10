@@ -83,6 +83,14 @@ body {
 	width: 25px;
 }
 
+.share-btn {
+    display: none;
+}
+
+details[open] .share-btn {
+    display: inline-block;
+}
+
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
 	color: var(--color-title-blue);
 }
