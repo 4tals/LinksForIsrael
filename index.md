@@ -9,7 +9,7 @@
 ## עזרה טכנית/פיתוח
 </summary>
 <div class="links-section-content" markdown="1">
-{% include_relative _links/contribution.md %}
+{% include_relative docs/_links/contribution.md %}
 </div>
 </details>
 
@@ -18,7 +18,7 @@
 ## יוזמות טכנולוגיה קיימות
 </summary>
 <div class="links-section-content" markdown="1">
-{% include_relative _links/initiatives.md %}
+{% include_relative docs/_links/initiatives.md %}
 </div>
 </details>
 
@@ -27,7 +27,7 @@
 ## חמ״לים
 </summary>
 <div class="links-section-content" markdown="1">
-{% include_relative _links/khamalim.md %}
+{% include_relative docs/_links/khamalim.md %}
 </div>
 </details>
 
@@ -36,7 +36,7 @@
 ## סיוע כללי
 </summary>
 <div class="links-section-content" markdown="1">
-{% include_relative _links/general-assistance.md %}
+{% include_relative docs/_links/general-assistance.md %}
 </div>
 </details>
 
@@ -45,7 +45,7 @@
 ## התנדבות
 </summary>
 <div class="links-section-content" markdown="1">
-{% include_relative _links/volunteers.md %}
+{% include_relative docs/_links/volunteers.md %}
 </div>
 </details>
 
@@ -54,7 +54,7 @@
 ## ציוד
 </summary>
 <div class="links-section-content" markdown="1">
-{% include_relative _links/equipment.md %}
+{% include_relative docs/_links/equipment.md %}
 </div>
 </details>
 
@@ -63,7 +63,7 @@
 ## אירוח משפחות
 </summary>
 <div class="links-section-content" markdown="1">
-{% include_relative _links/host-family.md %}
+{% include_relative docs/_links/host-family.md %}
 </div>
 </details>
 
@@ -72,7 +72,7 @@
 ## רשתות חברתיות
 </summary>
 <div class="links-section-content" markdown="1">
-{% include_relative _links/social-networks.md %}
+{% include_relative docs/_links/social-networks.md %}
 </div>
 </details>
 
@@ -81,7 +81,7 @@
 ## הסברה
 </summary>
 <div class="links-section-content" markdown="1">
-{% include_relative _links/hasbara.md %}
+{% include_relative docs/_links/hasbara.md %}
 </div>
 </details>
 
@@ -90,7 +90,7 @@
 ## איתור נעדרים ונעדרות
 </summary>
 <div class="links-section-content" markdown="1">
-{% include_relative _links/needarim.md %}
+{% include_relative docs/_links/needarim.md %}
 </div>
 </details>
 
@@ -99,7 +99,7 @@
 ## מזון
 </summary>
 <div class="links-section-content" markdown="1">
-{% include_relative _links/food.md %}
+{% include_relative docs/_links/food.md %}
 </div>
 </details>
 
@@ -108,7 +108,7 @@
 ## תרומות
 </summary>
 <div class="links-section-content" markdown="1">
-{% include_relative _links/donations.md %}
+{% include_relative docs/_links/donations.md %}
 </div>
 </details>
 
@@ -118,7 +118,7 @@
 
 </summary>
 <div class="links-section-content" markdown="1">
-{% include_relative _links/miluimnikim-hul.md %}
+{% include_relative docs/_links/miluimnikim-hul.md %}
 </div>
 </details>
 
@@ -127,7 +127,7 @@
 ## עזרה להורים ומשפחות עם ילדים בזמן המלחמה
 </summary>
 <div class="links-section-content" markdown="1">
-{% include_relative _links/parenting.md %}
+{% include_relative docs/_links/parenting.md %}
 </div>
 </details>
 
@@ -136,7 +136,7 @@
 ## חיות מחמד
 </summary>
 <div class="links-section-content" markdown="1">
-{% include_relative _links/pets.md %}
+{% include_relative docs/_links/pets.md %}
 </div>
 </details>
 
@@ -145,7 +145,7 @@
 ## תוכן פתוח חינמי לתקופה
 </summary>
 <div class="links-section-content" markdown="1">
-{% include_relative _links/free-content.md %}
+{% include_relative docs/_links/free-content.md %}
 </div>
 </details>
 
@@ -154,7 +154,7 @@
 ## אישורי נשק
 </summary>
 <div class="links-section-content" markdown="1">
-{% include_relative _links/neshek.md %}
+{% include_relative docs/_links/neshek.md %}
 </div>
 </details>
 
@@ -163,6 +163,6 @@
 ## לא מקוטלג
 </summary>
 <div class="links-section-content" markdown="1">
-{% include_relative _links/uncategorized.md %}
+{% include_relative docs/_links/uncategorized.md %}
 </div>
 </details>
