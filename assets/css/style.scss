@@ -9,6 +9,7 @@
 	--color-green: #cbd517;
 	--color-white: #fff;
 	--color-link: #34b4c2;
+	--color-dark: #4d4d4d;
 }
 
 body {
@@ -74,4 +75,64 @@ body {
 
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
 	color: var(--color-title-blue);
+}
+
+.page-header {
+	align-items: end;
+	background: url('{{ site.baseurl }}/assets/header-bg-desktop.svg') no-repeat;
+	background-position-y: top;
+	background-size: cover;
+	direction: rtl;
+	display: flex;
+	justify-content: space-between;
+	min-height: 100px;
+	padding: 24px;
+}
+
+.main-title {
+	color: var(--color-white);
+	font-size: 24px;
+	font-weight: 700;
+	margin: 0;
+	text-align: start;
+}
+
+.main-subtitle {
+	color: var(--color-white);
+	font-size: 19px;
+	text-align: start;
+}
+
+.contribute-button {
+	background-color: var(--color-green);
+	border-radius: 38px;
+	box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
+	color: var(--color-dark);
+	left: 30px;
+	padding: 10px 12px;
+	position: relative;
+	top: 16px;
+}
+
+.add-site-footer {
+	bottom: 0;
+	display: flex;
+	justify-content: flex-end;
+	padding-bottom: 32px;
+	padding-left: 50px;
+	position: sticky;
+}
+
+.add-site-button {
+	background-color: var(--color-white);
+	border-radius: 38px;
+	box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.25);
+	color: var(--color-link);
+	font-size: 24px;
+	font-weight: 700;
+	padding: 13px;
+}
+
+.site-footer {
+	direction: ltr;
 }
