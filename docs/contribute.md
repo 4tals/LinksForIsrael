@@ -11,7 +11,7 @@
    - Make sure you have Git and Ruby installed.
 
 2. **Fork the Repository**
-   - Go to [https://github.com/4tal/ConnectPortal](https://github.com/4tal/ConnectPortal).
+   - Go to our [Github Repo](https://github.com/4tal/LinksForIsrael).
    - Click on the `Fork` button at the top right corner. This will create a copy of the repository in your own GitHub account.
 
 3. **Clone the Forked Repository**
@@ -87,9 +87,9 @@ Then, pick one of the open issues in [*Github Issues*](<https://github.com/users
    \```
 
 2. **Open a Pull Request (PR)**
-   - Go to the `Pull requests` tab on the original [ConnectPortal repository](https://github.com/4tal/ConnectPortal).
+   - Go to the `Pull requests` tab on the original [Github Repo](https://github.com/4tal/LinksForIsrael).
    - Click `New Pull Request`.
-   - Choose the source branch (your branch `my-new-feature`) and the destination branch (usually `main` or `master`).
+   - Choose the source branch (your branch `my-new-feature`) and the destination branch `main`.
    - Fill in the PR template, explaining your changes.
    - Click `Create Pull Request`.
 
