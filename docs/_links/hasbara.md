@@ -1,8 +1,8 @@
 לאור המלחמה שמתנהלת במדינת ישראל ברגע זה, התנועה למאבק באנטישמיות ברשת מציעה לכל מי שרוצה לקחת חלק ולהתנדב בניטור, דיווח והסרה של תכנים: אנטישמיים, אנטי-ישראליים וגילויי אלימות, פייק ניוז וטרור:
 
-- [התנועה למאבק באנטישמיות ברשת - קבוצת וואטסאפ 1](<https://chat.whatsapp.com/CFYjeJbB2YwE4r5TvDLJr6>)
+- [קבוצת וואטסאפ 1](<https://chat.whatsapp.com/CFYjeJbB2YwE4r5TvDLJr6>)
 
-- [התנועה למאבק באנטישמיות ברשת - קבוצת וואטסאפ 2](<https://chat.whatsapp.com/KRcigeAgwPRHjOarqCnmDc>)
+- [קבוצת וואטסאפ 2](<https://chat.whatsapp.com/KRcigeAgwPRHjOarqCnmDc>)
 
 - [Fake Hunter - בוט טלגרם שאפשר באמצעותו לדווח על עמודים](<https://t.me/fakenewsisraelbot>)
 
