@@ -48,12 +48,20 @@
 
 }
 
-.copy-iocn {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 24
+.share-btn{
+	width: fit-content;
+	margin-inline-start: 10px;
+	height: 30px;
+	font-size: 0.75rem;
+	line-height: 30px;
+
+	.copy-iocn {
+		font-variation-settings:
+		'FILL' 0,
+		'wght' 400,
+		'GRAD' 0,
+		'opsz' 24
+	}
 }
 
 

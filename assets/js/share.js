@@ -6,7 +6,7 @@
     const shareBtn = document.createElement("span");
     shareBtn.classList.add("share-btn");
     shareBtn.setAttribute("data-index", index + 1);
-    shareBtn.innerHTML = '<i class="copy-iocn"></i>';
+    shareBtn.innerHTML = 'Copy and Share <i class="fas fa-share"></i>';
     h2Element.appendChild(shareBtn);
   });
 
@@ -17,6 +17,7 @@
   // add event listener to all share button
   shareBtns.forEach((shareBtn) => {
     shareBtn.addEventListener("click", (e) => {
+      e.preventDefault();
       const index = e.target.getAttribute("data-index");
       const sectionUrl = `${siteUrl}#section${index}`;
       //copy section url to clipboard
@@ -24,11 +25,11 @@
       //show copy text next to share button
       const copyText = document.createElement("span");
       copyText.classList.add("copy-text");
-      copyText.innerHTML = "Copied";
+      e.target.innerHTML = "Copied";
       shareBtn.appendChild(copyText);
       //remove copy text after 2 seconds
       setTimeout(() => {
-        copyText.remove();
+        e.target.innerHTML = 'Copy and Share <i class="fas fa-share"></i>';
       }, 2000);
     });
   });
