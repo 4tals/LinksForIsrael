@@ -4,13 +4,19 @@
 @import "{{ site.theme }}";
 
 :root {
-	--color-links-section: #e8e8e8;
-	--color-links-section-title: #d8d8d8;
+	--color-background-blue: #f0f8fa;
+	--color-title-blue: #018bad;
+	--color-green: #cbd517;
+	--color-white: #fff;
+	--color-link: #34b4c2;
+}
+
+body {
+	background: var(--color-background-blue);
+	font-family: Rubik, sans-serif;
 }
 
 .links-section {
-	background-color: var(--color-links-section);
-
 	h2 {
 		align-items: center;
 		display: flex;
@@ -18,31 +24,54 @@
 	}
 
 	&[open] {
-		.links-section-title {
-			h2:before {
-				rotate: 180deg;
-			}
+		.open-caret {
+			rotate: 180deg;
 		}
 	}
 }
 
 .links-section-title {
-	background-color: var(--color-links-section-title);
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
 	padding: 16px;
 	user-select: none;
-	
-	h2:before {
-		content: "▼";
-		display: inline-block;
-		font-size: 20px;
-		margin-left: 8px;
-		rotate: 90deg;
-		transition: all 0.2s ease;
-	}
 }
 
 .links-section-content {
-	padding: 16px;
+	padding: 32px;
 	overflow: hidden;
 
+	& > ul {
+		padding: 0 10%;
+
+		& > li {
+			list-style: none;
+
+			& > p > a, & > a {
+				background-color: var(--color-white);
+				border: 2px solid var(--color-green);
+				border-radius: 80px;
+				box-shadow: 1.84926px 1.84926px 3.69852px 0px rgba(0, 0, 0, 0.25);
+				color: var(--color-link);
+				cursor: pointer;
+				display: block;
+				font-size: 24px;
+				font-weight: 700;
+				padding: 21px;
+				text-align: center;
+				width: 100%;
+			}
+		}
+	}
+}
+
+.open-caret {
+	background: url('{{ site.baseurl }}/assets/caret.png') no-repeat;
+	height: 14px;
+	width: 25px;
+}
+
+.main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
+	color: var(--color-title-blue);
 }

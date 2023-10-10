@@ -10,6 +10,7 @@ direction: rtl
 
 ## יוזמות טכנולוגיה קיימות
 
+<div class="open-caret"></div>
 </summary>
 <div class="links-section-content" markdown="1">
 {% include_relative docs/_links/initiatives.md %}
@@ -21,6 +22,7 @@ direction: rtl
 
 ## חמ״לים וריכוז מידע
 
+<div class="open-caret"></div>
 </summary>
 <div class="links-section-content" markdown="1">
 {% include_relative docs/_links/khamalim.md %}
@@ -32,6 +34,7 @@ direction: rtl
 
 ## התנדבות
 
+<div class="open-caret"></div>
 </summary>
 <div class="links-section-content" markdown="1">
 {% include_relative docs/_links/volunteers.md %}
@@ -43,6 +46,7 @@ direction: rtl
 
 ## ציוד ואספקה
 
+<div class="open-caret"></div>
 </summary>
 <div class="links-section-content" markdown="1">
 {% include_relative docs/_links/equipment.md %}
@@ -54,6 +58,7 @@ direction: rtl
 
 ## אירוח משפחות
 
+<div class="open-caret"></div>
 </summary>
 <div class="links-section-content" markdown="1">
 {% include_relative docs/_links/host-family.md %}
@@ -65,6 +70,7 @@ direction: rtl
 
 ## רשתות חברתיות
 
+<div class="open-caret"></div>
 </summary>
 <div class="links-section-content" markdown="1">
 {% include_relative docs/_links/social-networks.md %}
@@ -76,6 +82,7 @@ direction: rtl
 
 ## הסברה
 
+<div class="open-caret"></div>
 </summary>
 <div class="links-section-content" markdown="1">
 {% include_relative docs/_links/hasbara.md %}
@@ -87,6 +94,7 @@ direction: rtl
 
 ## איתור נעדרים ונעדרות
 
+<div class="open-caret"></div>
 </summary>
 <div class="links-section-content" markdown="1">
 {% include_relative docs/_links/needarim.md %}
@@ -98,6 +106,7 @@ direction: rtl
 
 ## מזון
 
+<div class="open-caret"></div>
 </summary>
 <div class="links-section-content" markdown="1">
 {% include_relative docs/_links/food.md %}
@@ -109,6 +118,7 @@ direction: rtl
 
 ## תרומות
 
+<div class="open-caret"></div>
 </summary>
 <div class="links-section-content" markdown="1">
 {% include_relative docs/_links/donations.md %}
@@ -120,6 +130,7 @@ direction: rtl
 
 ## בלוקצ׳יין ומטבעות דיגיטליים
 
+<div class="open-caret"></div>
 </summary>
 <div class="links-section-content" markdown="1">
 {% include_relative docs/_links/blockchain.md %}
@@ -131,6 +142,7 @@ direction: rtl
 
 ## מילואים והחזרת מילואימניקים מחו״ל
 
+<div class="open-caret"></div>
 </summary>
 <div class="links-section-content" markdown="1">
 {% include_relative docs/_links/miluimnikim-hul.md %}
@@ -142,6 +154,7 @@ direction: rtl
 
 ## עזרה להורים ומשפחות עם ילדים בזמן המלחמה
 
+<div class="open-caret"></div>
 </summary>
 <div class="links-section-content" markdown="1">
 {% include_relative docs/_links/parenting.md %}
@@ -153,6 +166,7 @@ direction: rtl
 
 ## חיות מחמד
 
+<div class="open-caret"></div>
 </summary>
 <div class="links-section-content" markdown="1">
 {% include_relative docs/_links/pets.md %}
@@ -164,6 +178,7 @@ direction: rtl
 
 ## תוכן פתוח חינמי לתקופה
 
+<div class="open-caret"></div>
 </summary>
 <div class="links-section-content" markdown="1">
 {% include_relative docs/_links/free-content.md %}
@@ -175,6 +190,7 @@ direction: rtl
 
 ## אישורי נשק
 
+<div class="open-caret"></div>
 </summary>
 <div class="links-section-content" markdown="1">
 {% include_relative docs/_links/neshek.md %}
@@ -186,6 +202,7 @@ direction: rtl
 
 ## לא מקוטלג
 
+<div class="open-caret"></div>
 </summary>
 <div class="links-section-content" markdown="1">
 {% include_relative docs/_links/uncategorized.md %}
