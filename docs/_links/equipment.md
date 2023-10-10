@@ -1,6 +1,11 @@
-- General Equipment - ציוד כללי ללוחמים
-  - אולם אגמים באר-שבע
-  - [Paybox](<https://payboxapp.page.link/NLesi4pdokUjxYeEA>)
-  - 0547964043 סיון  (לשלוח הודעה ולא להתקשר)
+# ציוד ואספקה
 
-- [Facebook Post - Galina Ziomek](<https://www.facebook.com/100000484874028/posts/pfbid0aWdLhUrdK7eXVsDXHUBW2CpSKiefP3xfBMaDVKhfd6snV5fdwrztafJwu4xzVvX4l/?mibextid=Nif5oz>)
+---
+
+## [Supply Match - יוזמה המחברת בין מבקשי ציוד לנותני ציוד](<https://supply-match.com/ >)
+
+---
+
+## [טופס בקשת כל סוג ציוד](<https://forms.monday.com/forms/25c5ac9f7676f6ffbf7fae7b982e87ef?r=use1>)
+
+- יוזמה לאומית רחבה מאוד שכוללת את פיקוד העורף, מטה ההתנדבות הלאומי, האגודה למען החייל, הג'ויינט, הפורום הכלכלי חברתי ועוד
