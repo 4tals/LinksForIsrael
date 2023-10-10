@@ -39,7 +39,7 @@ direction: rtl
 </div>
 </details>
 
-<details class="links-section">
+<details class="links-section" id="hamal">
 <summary class="links-section-title" markdown="1">
 
 ## חמ״לים וריכוז מידע
@@ -47,7 +47,7 @@ direction: rtl
 <div class="open-caret"></div>
 </summary>
 <div class="links-section-content" markdown="1">
-{% include_relative docs/_links/khamalim.md %}
+{% include_relative docs/_links/hamal.md %}
 </div>
 </details>
 

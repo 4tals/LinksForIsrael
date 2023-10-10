@@ -12,6 +12,14 @@
     h2Element.appendChild(shareBtn);
   });
 
+  // Open section if user opens the webpage with #specificSectionTag
+  if (location.hash) {
+    const sectionToOpen = document.querySelector(location.hash);
+    if (sectionToOpen && sectionToOpen.tagName === 'DETAILS') {
+      sectionToOpen.setAttribute('open', '');
+    }
+  }
+
   // Get all share buttons
   const shareBtns = document.querySelectorAll(".share-btn");
   // Get site url
