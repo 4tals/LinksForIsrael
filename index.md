@@ -24,7 +24,7 @@
 
 <details class="links-section">
 <summary class="links-section-title" markdown="1">
-## חמ״לים
+## חמ״לים וריכוז מידע
 </summary>
 <div class="links-section-content" markdown="1">
 {% include_relative docs/_links/khamalim.md %}
