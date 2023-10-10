@@ -18,6 +18,30 @@ direction: rtl
 <details class="links-section">
 <summary class="links-section-title" markdown="1">
 
+## חילוץ
+
+<div class="open-caret"></div>
+</summary>
+<div class="links-section-content" markdown="1">
+{% include_relative docs/_links/evacuate.md %}
+</div>
+</details>
+
+<details class="links-section">
+<summary class="links-section-title" markdown="1">
+
+## הגנה ולחימה
+
+<div class="open-caret"></div>
+</summary>
+<div class="links-section-content" markdown="1">
+{% include_relative docs/_links/protecting.md %}
+</div>
+</details>
+
+<details class="links-section">
+<summary class="links-section-title" markdown="1">
+
 ## חמ״לים וריכוז מידע
 
 <div class="open-caret"></div>
