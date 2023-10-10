@@ -3,7 +3,6 @@ direction: rtl
 ---
 # **יוזמת שיתוף ידע ציבורי באחריות - קוד פתוח**
 
-[הוספת תוכן לאתר](<https://docs.google.com/forms/d/e/1FAIpQLSeZsW9WkleVF7-9Wtx6JKWTw9cInqJEpMocR54tZkwjAXPxRg/viewform>){:target="_blank"}
 
 <details class="links-section" id="section1">
 <summary class="links-section-title" markdown="1" >
