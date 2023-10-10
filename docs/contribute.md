@@ -1,15 +1,14 @@
 ---
 ---
-# Contribution Guide
+# איך לתרום לפרויקט
 
 ---
-[Home](home) | [Contribute](./contribute) | [Task List](./todos)
+[עמוד הבית](https://linksforisrael.com/)
 
 ## 🚀 Getting Started
 
 1. **Set Up Your Environment**
    - Make sure you have Git and Ruby installed.
-     - Git: If not, download and install it from [Git's official website](https://git-scm.com/).
 
 2. **Fork the Repository**
    - Go to [https://github.com/4tal/ConnectPortal](https://github.com/4tal/ConnectPortal).
@@ -58,7 +57,7 @@
 
 Take some time to understand the layout of the repository. Familiarize yourself with the directory structure, the type of files, and their content.
 
-Then, pick one of the tasks in [*TaskList*](./todos)
+Then, pick one of the open issues in [*Github Issues*](<https://github.com/users/4tal/projects/2/views/2>)
 
 ## 🛠 Making Changes
 
