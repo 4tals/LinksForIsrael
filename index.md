@@ -30,17 +30,6 @@ direction: rtl
 <details class="links-section">
 <summary class="links-section-title" markdown="1">
 
-## סיוע כללי
-
-</summary>
-<div class="links-section-content" markdown="1">
-{% include_relative docs/_links/general-assistance.md %}
-</div>
-</details>
-
-<details class="links-section">
-<summary class="links-section-title" markdown="1">
-
 ## התנדבות
 
 </summary>

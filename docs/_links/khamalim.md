@@ -23,3 +23,11 @@
 ---
 
 - [חמ״ל חיבורים בפייסבוק](<https://m.facebook.com/groups/780925150471197/?ref=share&mibextid=lURqYx>)
+
+---
+
+- ארגון סיוע אזרחי כללי
+  - [מרכז](<https://chat.whatsapp.com/Bsy4Sc9jM4PIS64JD1aRnp>)
+  - [צפון](<https://chat.whatsapp.com/GY2MwfFLaLwAfJbydxte2X>)
+  - [דרום](<https://chat.whatsapp.com/ChDI2XilcBSCuQG1ZIzQQp>)
+  - [ירושלים](<https://chat.whatsapp.com/BS2qZmtb9zGEdRgrqZlW9h>)
