@@ -150,6 +150,18 @@ direction: rtl
 <details class="links-section">
 <summary class="links-section-title" markdown="1">
 
+## תמיכה בשכול, משפחות שכולות
+
+<div class="open-caret"></div>
+</summary>
+<div class="links-section-content" markdown="1">
+{% include_relative docs/_links/families.md %}
+</div>
+</details>
+
+<details class="links-section">
+<summary class="links-section-title" markdown="1">
+
 ## בלוקצ׳יין ומטבעות דיגיטליים
 
 <div class="open-caret"></div>
