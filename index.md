@@ -7,17 +7,6 @@
 <details class="links-section">
 <summary class="links-section-title" markdown="1">
 
-## עזרה טכנית/פיתוח
-
-</summary>
-<div class="links-section-content" markdown="1">
-{% include_relative docs/_links/contribution.md %}
-</div>
-</details>
-
-<details class="links-section">
-<summary class="links-section-title" markdown="1">
-
 ## יוזמות טכנולוגיה קיימות
 
 </summary>
@@ -139,6 +128,17 @@
 <details class="links-section">
 <summary class="links-section-title" markdown="1">
 
+## בלוקצ׳יין ומטבעות דיגיטליים
+
+</summary>
+<div class="links-section-content" markdown="1">
+{% include_relative docs/_links/blockchain.md %}
+</div>
+</details>
+
+<details class="links-section">
+<summary class="links-section-title" markdown="1">
+
 ## מילואים והחזרת מילואימניקים מחו״ל
 
 </summary>
@@ -201,3 +201,5 @@
 {% include_relative docs/_links/uncategorized.md %}
 </div>
 </details>
+
+## [כיצד ניתן לסייע לפרויקט הזה?](./docs/contribute)
