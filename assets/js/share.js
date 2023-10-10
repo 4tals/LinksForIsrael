@@ -1,4 +1,6 @@
 (() => {
+  const iconShare = '<i class="fas fa-link"></i>';
+
   // Get all sections and add the share button
   const sections = document.querySelectorAll("details");
   sections.forEach((section, index) => {
@@ -6,7 +8,7 @@
     const shareBtn = document.createElement("span");
     shareBtn.classList.add("share-btn");
     shareBtn.setAttribute("data-index", h2Element.parentElement.parentElement.id);
-    shareBtn.innerHTML = '<i class="fas fa-share-alt"></i>'; // Updated this line
+    shareBtn.innerHTML = iconShare; 
     h2Element.appendChild(shareBtn);
   });
 
@@ -14,19 +16,27 @@
   const shareBtns = document.querySelectorAll(".share-btn");
   // Get site url
   const siteUrl = new URL(window.location.href);
+  
   // Add event listener to all share buttons
   shareBtns.forEach((shareBtn) => {
     shareBtn.addEventListener("click", (e) => {
       e.preventDefault();
-      const index = e.target.closest(".share-btn").getAttribute("data-index"); // Updated this line for event delegation
+      
+      // Get the button directly using the 'currentTarget' property of the event
+      const btn = e.currentTarget;
+      
+      const index = btn.getAttribute("data-index");
       const sectionUrl = `${siteUrl.origin}#${index}`;
+      
       // Copy section url to clipboard
       navigator.clipboard.writeText(sectionUrl);
+      
       // Show "copied" text instead of share icon
-      e.target.closest(".share-btn").innerHTML = "Copied"; // Updated this line for event delegation
+      btn.innerHTML = "Copied";
+      
       // Return to share icon after 2 seconds
       setTimeout(() => {
-        e.target.closest(".share-btn").innerHTML = '<i class="fas fa-share-alt"></i>'; // Updated this line for event delegation
+        btn.innerHTML = iconShare;
       }, 2000);
     });
   });
