@@ -1,6 +1,6 @@
-# **Link For Israel - לינק לישראל**
+# **Links For Israel - לינק לישראל**
 
-🌐 [Visit Website](https://4tal.github.io/ConnectPortal/)
+🌐 [Visit Website](https://linksforisrael.com/)
 
 ---
 
@@ -30,4 +30,4 @@ We're actively seeking assistance in:
 - Maintaining the repository
 - Brainstorming potential directions for our initiative
 
-➡️ [Learn How to Contribute](https://4tal.github.io/ConnectPortal/docs/contribute.html)
+➡️ [Learn How to Contribute](https://linksforisrael.com/docs/contribute.html)
