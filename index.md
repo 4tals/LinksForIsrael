@@ -29,7 +29,7 @@ direction: rtl
 </div>
 </details>
 
-<details class="links-section">
+<details class="links-section" id="defenseAndCombat">
 <summary class="links-section-title" markdown="1">
 
 ## הגנה ולחימה
@@ -101,7 +101,7 @@ direction: rtl
 </div>
 </details>
 
-<details class="links-section"  id="section7">
+<details class="links-section"  id="explanation">
 <summary class="links-section-title" markdown="1">
 
 ## הסברה
