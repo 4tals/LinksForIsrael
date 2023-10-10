@@ -75,7 +75,7 @@ direction: rtl
 </div>
 </details>
 
-<details class="links-section"  id="host-family">
+<details class="links-section"  id="hostFamily">
 <summary class="links-section-title" markdown="1">
 
 ## אירוח משפחות
@@ -83,11 +83,11 @@ direction: rtl
 <div class="open-caret"></div>
 </summary>
 <div class="links-section-content" markdown="1">
-{% include_relative docs/_links/host-family.md %}
+{% include_relative docs/_links/hostFamily.md %}
 </div>
 </details>
 
-<details class="links-section"  id="social-networks">
+<details class="links-section"  id="socialNetworks">
 <summary class="links-section-title" markdown="1">
 
 ## רשתות חברתיות
@@ -95,7 +95,7 @@ direction: rtl
 <div class="open-caret"></div>
 </summary>
 <div class="links-section-content" markdown="1">
-{% include_relative docs/_links/social-networks.md %}
+{% include_relative docs/_links/socialNetworks.md %}
 </div>
 </details>
 
@@ -159,15 +159,15 @@ direction: rtl
 </div>
 </details>
 
-<details class="links-section">
+<details class="links-section" id="mentalhHealth">
 <summary class="links-section-title" markdown="1">
 
-## הגנה ולחימה
+## תמיכה נפשית
 
 <div class="open-caret"></div>
 </summary>
 <div class="links-section-content" markdown="1">
-{% include_relative docs/_links/mentalh-health.md %}
+{% include_relative docs/_links/mentalhHealth.md %}
 </div>
 </details>
 
@@ -219,7 +219,7 @@ direction: rtl
 </div>
 </details>
 
-<details class="links-section"  id="free-content">
+<details class="links-section"  id="freeContent">
 <summary class="links-section-title" markdown="1">
 
 ## תוכן פתוח חינמי לתקופה
@@ -227,7 +227,7 @@ direction: rtl
 <div class="open-caret"></div>
 </summary>
 <div class="links-section-content" markdown="1">
-{% include_relative docs/_links/free-content.md %}
+{% include_relative docs/_links/freeContent.md %}
 </div>
 </details>
 
