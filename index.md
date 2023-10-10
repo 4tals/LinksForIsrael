@@ -3,8 +3,7 @@ direction: rtl
 ---
 # **יוזמת שיתוף ידע ציבורי באחריות - קוד פתוח**
 
-
-<details class="links-section" id="tech">
+<details class="links-section" id="initiatives">
 <summary class="links-section-title" markdown="1" >
 
 ## יוזמות טכנולוגיה קיימות
@@ -16,7 +15,7 @@ direction: rtl
 </div>
 </details>
 
-<details class="links-section"  id="rescue">
+<details class="links-section"  id="evacuate">
 <summary class="links-section-title" markdown="1">
 
 ## חילוץ
@@ -28,7 +27,7 @@ direction: rtl
 </div>
 </details>
 
-<details class="links-section" id="defenseAndCombat">
+<details class="links-section" id="protect">
 <summary class="links-section-title" markdown="1">
 
 ## הגנה ולחימה
@@ -36,7 +35,7 @@ direction: rtl
 <div class="open-caret"></div>
 </summary>
 <div class="links-section-content" markdown="1">
-{% include_relative docs/_links/protecting.md %}
+{% include_relative docs/_links/protect.md %}
 </div>
 </details>
 
@@ -76,7 +75,7 @@ direction: rtl
 </div>
 </details>
 
-<details class="links-section"  id="hospitality">
+<details class="links-section"  id="host-family">
 <summary class="links-section-title" markdown="1">
 
 ## אירוח משפחות
@@ -88,7 +87,7 @@ direction: rtl
 </div>
 </details>
 
-<details class="links-section"  id="SocialNetworks">
+<details class="links-section"  id="social-networks">
 <summary class="links-section-title" markdown="1">
 
 ## רשתות חברתיות
@@ -100,7 +99,7 @@ direction: rtl
 </div>
 </details>
 
-<details class="links-section"  id="explanation">
+<details class="links-section"  id="hasbara">
 <summary class="links-section-title" markdown="1">
 
 ## הסברה
@@ -112,7 +111,7 @@ direction: rtl
 </div>
 </details>
 
-<details class="links-section"  id="explanation">
+<details class="links-section"  id="needarim">
 <summary class="links-section-title" markdown="1">
 
 ## איתור נעדרים ונעדרות
@@ -172,7 +171,6 @@ direction: rtl
 </div>
 </details>
 
-
 <details class="links-section">
 <summary class="links-section-title" markdown="1">
 
@@ -193,11 +191,11 @@ direction: rtl
 <div class="open-caret"></div>
 </summary>
 <div class="links-section-content" markdown="1">
-{% include_relative docs/_links/miluimnikim-hul.md %}
+{% include_relative docs/_links/reserves.md %}
 </div>
 </details>
 
-<details class="links-section"  id="kidesHelp">
+<details class="links-section"  id="parenting">
 <summary class="links-section-title" markdown="1">
 
 ## עזרה להורים ומשפחות עם ילדים בזמן המלחמה
@@ -221,7 +219,7 @@ direction: rtl
 </div>
 </details>
 
-<details class="links-section"  id="free">
+<details class="links-section"  id="free-content">
 <summary class="links-section-title" markdown="1">
 
 ## תוכן פתוח חינמי לתקופה
@@ -233,7 +231,7 @@ direction: rtl
 </div>
 </details>
 
-<details class="links-section"  id="weapon">
+<details class="links-section"  id="neshek">
 <summary class="links-section-title" markdown="1">
 
 ## אישורי נשק
@@ -245,7 +243,7 @@ direction: rtl
 </div>
 </details>
 
-<details class="links-section"  id="notCataloged">
+<details class="links-section"  id="uncategorized">
 <summary class="links-section-title" markdown="1">
 
 ## לא מקוטלג
