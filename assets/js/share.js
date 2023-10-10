@@ -13,13 +13,13 @@
   //get all share button
   const shareBtns = document.querySelectorAll(".share-btn");
   //get site url
-  const siteUrl = window.location.href;
+  const siteUrl = new URL(window.location.href);
   // add event listener to all share button
   shareBtns.forEach((shareBtn) => {
     shareBtn.addEventListener("click", (e) => {
       e.preventDefault();
       const index = e.target.getAttribute("data-index");
-      const sectionUrl = `${siteUrl}#section${index}`;
+      const sectionUrl = `${siteUrl.origin}#section${index}`;
       //copy section url to clipboard
       navigator.clipboard.writeText(sectionUrl);
       //show copy text next to share button
