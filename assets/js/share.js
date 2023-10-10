@@ -6,7 +6,7 @@
     const shareBtn = document.createElement("span");
     shareBtn.classList.add("share-btn");
     shareBtn.setAttribute("data-index", index + 1);
-    shareBtn.innerHTML = 'Copy and Share <i class="fas fa-share"></i>';
+    shareBtn.innerHTML = 'Copy to Share <i class="fas fa-share"></i>';
     h2Element.appendChild(shareBtn);
   });
 
@@ -29,7 +29,7 @@
       shareBtn.appendChild(copyText);
       //remove copy text after 2 seconds
       setTimeout(() => {
-        e.target.innerHTML = 'Copy and Share <i class="fas fa-share"></i>';
+        e.target.innerHTML = 'Copy to Share <i class="fas fa-share"></i>';
       }, 2000);
     });
   });
