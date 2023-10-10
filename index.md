@@ -186,7 +186,7 @@ direction: rtl
 <details class="links-section"  id="reserves">
 <summary class="links-section-title" markdown="1">
 
-## מילואים והחזרת מילואימניקים מחו״ל
+## מילואים וכוחות הצלה
 
 <div class="open-caret"></div>
 </summary>

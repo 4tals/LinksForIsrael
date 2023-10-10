@@ -1,8 +1,19 @@
-- [אתר המילואים](<https://www.miluim.org/>)
+## החזרה מחו״ל של כוחות הביטחון והצלה
 
-<br />
-### החזרה מחו״ל
+---
+
+- [New York](<https://forms.gle/HiRR2iP7ppUuwKQG8>)
+לפרטים נוספים (רק WhatsApp):
+זאק 14809377322
+חן 13054543576
+תהילה 972585665882
+אורי 16179221075
+לין 9172509992
+
+---
 
 - [המזרח הרחוק](<https://chat.whatsapp.com/KY3GCKEUQopERWMlgdC06Q>)
 
-- [London - לונדון](<https://docs.google.com/forms/d/e/1FAIpQLSchDQ5S_lR5NzLDv0EYofour33DA60eaTQGSRWR5he4fKaNVQ/viewform>)
+---
+
+- [אתר המילואים](<https://www.miluim.org/>)
