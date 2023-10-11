@@ -167,21 +167,21 @@ body {
 	}
 }
 
-.share-btn {
+.share-btn, .whatsapp-btn, .telegram-btn {
 	width: fit-content;
 	margin-inline-start: 10px;
 	height: 30px;
 	font-size: 0.75rem;
 	line-height: 30px;
 	display: none;
-
-	.copy-icon {
-		font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
-	}
 }
 
-details[open] .share-btn {
-	display: inline-block;
+details[open] .share-btn, details[open] .whatsapp-btn, details[open] .telegram-btn {
+    display: inline-block;
+}
+
+.copy-icon {
+    font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
 }
 
 .site-footer {

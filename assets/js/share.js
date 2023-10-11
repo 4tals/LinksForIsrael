@@ -1,15 +1,33 @@
 (() => {
   const iconShare = '<i class="fas fa-link"></i>';
+  const iconWhatsApp = '<i class="fab fa-whatsapp"></i>';
+  const iconTelegram = '<i class="fab fa-telegram-plane"></i>';
 
   // Get all sections and add the share button
   const sections = document.querySelectorAll("details");
   sections.forEach((section, index) => {
     const h2Element = section.querySelector("h2");
+
+    // Create share button
     const shareBtn = document.createElement("span");
     shareBtn.classList.add("share-btn");
     shareBtn.setAttribute("data-index", h2Element.parentElement.parentElement.id);
     shareBtn.innerHTML = iconShare;
     h2Element.appendChild(shareBtn);
+
+    // Create WhatsApp button
+    const whatsappBtn = document.createElement("span");
+    whatsappBtn.classList.add("whatsapp-btn");
+    whatsappBtn.setAttribute("data-index", h2Element.parentElement.parentElement.id);
+    whatsappBtn.innerHTML = iconWhatsApp;
+    h2Element.appendChild(whatsappBtn);
+
+    // Create Telegram button
+    const telegramBtn = document.createElement("span");
+    telegramBtn.classList.add("telegram-btn");
+    telegramBtn.setAttribute("data-index", h2Element.parentElement.parentElement.id);
+    telegramBtn.innerHTML = iconTelegram;
+    h2Element.appendChild(telegramBtn);
   });
 
   // Open section if user opens the webpage with #specificSectionTag
@@ -19,6 +37,9 @@
       sectionToOpen.setAttribute("open", "");
     }
   }
+
+  const whatsappBtns = document.querySelectorAll(".whatsapp-btn");
+  const telegramBtns = document.querySelectorAll(".telegram-btn");
 
   // Get all share buttons
   const shareBtns = document.querySelectorAll(".share-btn");
@@ -58,4 +79,25 @@
       section.scrollIntoView({ behavior: "smooth" });
     }
   }
+
+  // Add event listener for WhatsApp buttons
+  whatsappBtns.forEach((btn) => {
+    btn.addEventListener("click", (e) => {
+      e.preventDefault();
+      const index = btn.getAttribute("data-index");
+      const sectionUrl = `${siteUrl.origin}#${index}`;
+      window.open(`https://api.whatsapp.com/send?text=${sectionUrl}`);
+    });
+  });
+
+  // Add event listener for Telegram buttons
+  telegramBtns.forEach((btn) => {
+    btn.addEventListener("click", (e) => {
+      e.preventDefault();
+      const index = btn.getAttribute("data-index");
+      const sectionUrl = `${siteUrl.origin}#${index}`;
+      window.open(`https://t.me/share/url?url=${sectionUrl}`);
+    });
+  });
+
 })();
