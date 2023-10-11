@@ -168,40 +168,48 @@ details[open] .share-btn {
 	direction: ltr;
 }
 
+/* ... (rest of your CSS) ... */
+
 /* === Responsive Design === */
 @media only screen and (max-width: 600px) {
-	body {
-		background: var(--color-title-blue);
-		color: var(--color-white);
-	}
+    body {
+        background: var(--color-title-blue);
+        color: var(--color-white);
+    }
 
-	.page-header {
-		background: url("{{ site.baseurl }}/assets/header-bg-mobile.svg") no-repeat;
-		background-position-y: bottom;
-		background-size: cover;
-	}
+    .page-header {
+        background: url("{{ site.baseurl }}/assets/header-bg-mobile.svg") no-repeat;
+        background-position-y: bottom;
+        background-size: cover;
+    }
 
-	.main-title {
-		font-size: 19px;
-	}
+    .main-title {
+        font-size: 19px;
+    }
 
-	.main-subtitle {
-		font-size: 14px;
-	}
+    .main-subtitle {
+        font-size: 14px;
+    }
 
-	.contribute-button {
-		font-size: 14px;
-		left: 0;
-	}
+    .contribute-button {
+        font-size: 14px;
+        left: 0;
+    }
 
-	.open-caret {
-		background: url("{{ site.baseurl }}/assets/caret-mobile.png") no-repeat;
-		height: 9px;
-		width: 16px;
-	}
+    .open-caret {
+        background: url("{{ site.baseurl }}/assets/caret-mobile.png") no-repeat;
+        height: 9px;
+        width: 16px;
+    }
 
-	.links-section-content ul li a {
-		font-size: 16px;
-		padding: 15px;
-	}
+    .links-section-content ul li a {
+        font-size: 16px;
+        padding: 15px;
+    }
+
+    .links-section-title {
+        background: var(--color-background-blue);
+        color: var(--color-dark);
+        padding: 16px; /* Adjust padding if necessary for mobile */
+    }
 }
