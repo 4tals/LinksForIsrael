@@ -1,76 +1,75 @@
-(() => {
-  const iconShare = '<i class="fas fa-link"></i>';
-  const iconWhatsApp = '<i class="fab fa-whatsapp"></i>';
-  const iconTelegram = '<i class="fab fa-telegram-plane"></i>';
+const ICONS = {
+  share: '<i class="fas fa-link"></i>',
+  whatsapp: '<i class="fab fa-whatsapp"></i>',
+  telegram: '<i class="fab fa-telegram-plane"></i>',
+};
 
-  // Get all sections and add the share button
+function appendButton(element, iconClass, iconHTML) {
+  const btn = document.createElement("span");
+  btn.classList.add(iconClass);
+  btn.setAttribute("data-index", element.parentElement.parentElement.id);
+  btn.innerHTML = iconHTML;
+  element.appendChild(btn);
+}
+
+function initializeShareButtons() {
   const sections = document.querySelectorAll("details");
-  sections.forEach((section, index) => {
+  sections.forEach((section) => {
     const h2Element = section.querySelector("h2");
 
-    // Create share button
-    const shareBtn = document.createElement("span");
-    shareBtn.classList.add("share-btn");
-    shareBtn.setAttribute("data-index", h2Element.parentElement.parentElement.id);
-    shareBtn.innerHTML = iconShare;
-    h2Element.appendChild(shareBtn);
-
-    // Create WhatsApp button
-    const whatsappBtn = document.createElement("span");
-    whatsappBtn.classList.add("whatsapp-btn");
-    whatsappBtn.setAttribute("data-index", h2Element.parentElement.parentElement.id);
-    whatsappBtn.innerHTML = iconWhatsApp;
-    h2Element.appendChild(whatsappBtn);
-
-    // Create Telegram button
-    const telegramBtn = document.createElement("span");
-    telegramBtn.classList.add("telegram-btn");
-    telegramBtn.setAttribute("data-index", h2Element.parentElement.parentElement.id);
-    telegramBtn.innerHTML = iconTelegram;
-    h2Element.appendChild(telegramBtn);
+    appendButton(h2Element, "share-btn", ICONS.share);
+    appendButton(h2Element, "whatsapp-btn", ICONS.whatsapp);
+    appendButton(h2Element, "telegram-btn", ICONS.telegram);
   });
+}
 
-  // Open section if user opens the webpage with #specificSectionTag
+function openSectionFromHash() {
   if (location.hash) {
     const sectionToOpen = document.querySelector(location.hash);
     if (sectionToOpen && sectionToOpen.tagName === "DETAILS") {
       sectionToOpen.setAttribute("open", "");
     }
   }
+}
 
-  const whatsappBtns = document.querySelectorAll(".whatsapp-btn");
-  const telegramBtns = document.querySelectorAll(".telegram-btn");
-
-  // Get all share buttons
+function addShareButtonListeners() {
   const shareBtns = document.querySelectorAll(".share-btn");
-  // Get site url
   const siteUrl = new URL(window.location.href);
 
-  // Add event listener to all share buttons
-  shareBtns.forEach((shareBtn) => {
-    shareBtn.addEventListener("click", (e) => {
+  shareBtns.forEach((btn) => {
+    btn.addEventListener("click", (e) => {
       e.preventDefault();
+      const sectionUrl = `${siteUrl.origin}#${btn.getAttribute("data-index")}`;
 
-      // Get the button directly using the 'currentTarget' property of the event
-      const btn = e.currentTarget;
-
-      const index = btn.getAttribute("data-index");
-      const sectionUrl = `${siteUrl.origin}#${index}`;
-
-      // Copy section url to clipboard
       navigator.clipboard.writeText(sectionUrl);
-
-      // Show "copied" text instead of share icon
       btn.innerHTML = "Copied";
 
-      // Return to share icon after 2 seconds
       setTimeout(() => {
-        btn.innerHTML = iconShare;
+        btn.innerHTML = ICONS.share;
       }, 2000);
     });
   });
+}
 
-  // check if shared url contains a section id and bring it into view
+function addExternalShareListeners(externalService) {
+  const btns = document.querySelectorAll(`.${externalService}-btn`);
+  const siteUrl = new URL(window.location.href);
+
+  btns.forEach((btn) => {
+    btn.addEventListener("click", (e) => {
+      e.preventDefault();
+      const sectionUrl = `${siteUrl.origin}#${btn.getAttribute("data-index")}`;
+      const shareUrls = {
+        whatsapp: `https://api.whatsapp.com/send?text=${sectionUrl}`,
+        telegram: `https://t.me/share/url?url=${sectionUrl}`,
+      };
+
+      window.open(shareUrls[externalService]);
+    });
+  });
+}
+
+function scrollToSectionInView() {
   const url = new URL(window.location.href);
   const sectionId = url.hash;
   if (sectionId) {
@@ -79,25 +78,13 @@
       section.scrollIntoView({ behavior: "smooth" });
     }
   }
+}
 
-  // Add event listener for WhatsApp buttons
-  whatsappBtns.forEach((btn) => {
-    btn.addEventListener("click", (e) => {
-      e.preventDefault();
-      const index = btn.getAttribute("data-index");
-      const sectionUrl = `${siteUrl.origin}#${index}`;
-      window.open(`https://api.whatsapp.com/send?text=${sectionUrl}`);
-    });
-  });
-
-  // Add event listener for Telegram buttons
-  telegramBtns.forEach((btn) => {
-    btn.addEventListener("click", (e) => {
-      e.preventDefault();
-      const index = btn.getAttribute("data-index");
-      const sectionUrl = `${siteUrl.origin}#${index}`;
-      window.open(`https://t.me/share/url?url=${sectionUrl}`);
-    });
-  });
-
+(() => {
+  initializeShareButtons();
+  openSectionFromHash();
+  addShareButtonListeners();
+  addExternalShareListeners("whatsapp");
+  addExternalShareListeners("telegram");
+  scrollToSectionInView();
 })();
