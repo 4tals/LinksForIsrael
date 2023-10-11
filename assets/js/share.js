@@ -8,15 +8,15 @@
     const shareBtn = document.createElement("span");
     shareBtn.classList.add("share-btn");
     shareBtn.setAttribute("data-index", h2Element.parentElement.parentElement.id);
-    shareBtn.innerHTML = iconShare; 
+    shareBtn.innerHTML = iconShare;
     h2Element.appendChild(shareBtn);
   });
 
   // Open section if user opens the webpage with #specificSectionTag
   if (location.hash) {
     const sectionToOpen = document.querySelector(location.hash);
-    if (sectionToOpen && sectionToOpen.tagName === 'DETAILS') {
-      sectionToOpen.setAttribute('open', '');
+    if (sectionToOpen && sectionToOpen.tagName === "DETAILS") {
+      sectionToOpen.setAttribute("open", "");
     }
   }
 
@@ -24,28 +24,38 @@
   const shareBtns = document.querySelectorAll(".share-btn");
   // Get site url
   const siteUrl = new URL(window.location.href);
-  
+
   // Add event listener to all share buttons
   shareBtns.forEach((shareBtn) => {
     shareBtn.addEventListener("click", (e) => {
       e.preventDefault();
-      
+
       // Get the button directly using the 'currentTarget' property of the event
       const btn = e.currentTarget;
-      
+
       const index = btn.getAttribute("data-index");
       const sectionUrl = `${siteUrl.origin}#${index}`;
-      
+
       // Copy section url to clipboard
       navigator.clipboard.writeText(sectionUrl);
-      
+
       // Show "copied" text instead of share icon
       btn.innerHTML = "Copied";
-      
+
       // Return to share icon after 2 seconds
       setTimeout(() => {
         btn.innerHTML = iconShare;
       }, 2000);
     });
   });
+
+  // check if shared url contains a section id and bring it into view
+  const url = new URL(window.location.href);
+  const sectionId = url.hash;
+  if (sectionId) {
+    const section = document.querySelector(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  }
 })();
