@@ -1,7 +1,6 @@
 ---
 direction: rtl
 ---
-# **יוזמת שיתוף ידע ציבורי באחריות - קוד פתוח**
 
 <details class="links-section" id="initiatives">
 <summary class="links-section-title" markdown="1" >
