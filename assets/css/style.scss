@@ -169,11 +169,12 @@ body {
 
 .share-btn, .whatsapp-btn, .telegram-btn {
 	width: fit-content;
-	margin-inline-start: 10px;
-	height: 30px;
-	font-size: 0.75rem;
-	line-height: 30px;
+	margin-inline-start: 15px;   /* Increased spacing */
+	height: 35px;                /* Increased height */
+	font-size: 1rem;             /* Increased font-size */
+	line-height: 35px;
 	display: none;
+	cursor: pointer;             /* Add a pointer cursor to indicate clickability */
 }
 
 details[open] .share-btn, details[open] .whatsapp-btn, details[open] .telegram-btn {
