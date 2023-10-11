@@ -270,7 +270,7 @@ direction: rtl
 <details class="links-section"  id="news">
 <summary class="links-section-title" markdown="1">
 
-# חדשות
+## חדשות
 
 <div class="open-caret"></div>
 </summary>
