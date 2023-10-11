@@ -267,6 +267,18 @@ direction: rtl
 </div>
 </details>
 
+<details class="links-section"  id="news">
+<summary class="links-section-title" markdown="1">
+
+# חדשות
+
+<div class="open-caret"></div>
+</summary>
+<div class="links-section-content" markdown="1">
+{% include_relative docs/_links/news.md %}
+</div>
+</details>
+
 <details class="links-section"  id="uncategorized">
 <summary class="links-section-title" markdown="1">
 
