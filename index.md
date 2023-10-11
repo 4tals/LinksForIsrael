@@ -39,6 +39,18 @@ direction: rtl
 </div>
 </details>
 
+<details class="links-section" id="cyber">
+<summary class="links-section-title" markdown="1">
+
+## סייבר
+
+<div class="open-caret"></div>
+</summary>
+<div class="links-section-content" markdown="1">
+{% include_relative docs/_links/cyber.md %}
+</div>
+</details>
+
 <details class="links-section" id="hamal">
 <summary class="links-section-title" markdown="1">
 
