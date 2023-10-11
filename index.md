@@ -54,7 +54,7 @@ direction: rtl
 <details class="links-section" id="hamal">
 <summary class="links-section-title" markdown="1">
 
-## חמ״לים וריכוז מידע
+## חמ״לים
 
 <div class="open-caret"></div>
 </summary>
@@ -84,6 +84,18 @@ direction: rtl
 </summary>
 <div class="links-section-content" markdown="1">
 {% include_relative docs/_links/equipment.md %}
+</div>
+</details>
+
+<details class="links-section"  id="assistance">
+<summary class="links-section-title" markdown="1">
+
+## סיוע כללי
+
+<div class="open-caret"></div>
+</summary>
+<div class="links-section-content" markdown="1">
+{% include_relative docs/_links/assistance.md %}
 </div>
 </details>
 

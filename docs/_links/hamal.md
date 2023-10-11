@@ -1,37 +1,21 @@
-- [Iron Bot - בוט חמ״ל](<http://tiny.cc/ek3cvz>)
-
----
-
-- [חמל עם אחד](<https://www.am-ehad.org/>)
-
----
-
-- [WeHelpIsrael](<https://docs.google.com/document/d/1pzWWh7g2x-9FtDosL5msaeWjSZSZdE2deb803lk01xc/edit>)
+- [Iron Bot - בוט הברזל](<http://tiny.cc/ek3cvz>)
+ברוכים הבאים לבוט הברזל 👋⚔️
+אנחנו מסייעים לאלפי ישראלים מידי יום בשיתוף העמותות המובילות בישראל.
+שולחים הודעה בואצאפ והבוט מנווט אותך לקבוצת הסיוע המתאימה לך.
 
 ---
 
 - [Lev Ehad - לב אחד](<https://www.levechad.org/>)
+  - ארגון לב אחד נוסד מתוך ההבנה כי, בשעות חירום, רתימת האזרחים להתנדבות פעילה יש בכוחה להוציאם ממעגל הקרבנות הפסיביים, ליצור חוסן חברתי אזרחי ולהעניק לרשות המקומית מכפלת כוח דרמטית
+
+---
+
+- [חמל עם אחד](<https://www.am-ehad.org/>)
+- חמ״ל סיוע מרכזי המחבר בין משפחות מארחות למשפחות מדרום הארץ, מעמיד שירותי הסעות מקו העימות לאזורים בטוחים ומגייס תרומות לסיוע עבור תושבי קו הלחימה.
 
 ---
 
 - [IsraHelp](<https://www.coing.co/Israhelp>)
+  - IsraHelp מרכז קישורים ליוזמות וקבוצות סיוע אזרחיות ברחבי הארץ החל מיומה הראשון של מלחמת "חרבות ברזל".
 
 ---
-
-- [חמ״ל חיבורים בפייסבוק](<https://m.facebook.com/groups/780925150471197/?ref=share&mibextid=lURqYx>)
-
----
-
-- [ארגון סיוע אזרחי כללי - מרכז](<https://chat.whatsapp.com/Bsy4Sc9jM4PIS64JD1aRnp>)
-
----
-
-- [ארגון סיוע אזרחי כללי - צפון](<https://chat.whatsapp.com/ChDI2XilcBSCuQG1ZIzQQp>)
-
----
-
-- [ארגון סיוע אזרחי כללי - דרום](<https://chat.whatsapp.com/GY2MwfFLaLwAfJbydxte2X>)
-
----
-
-- [ארגון סיוע אזרחי כללי - ירושלים](<https://chat.whatsapp.com/BS2qZmtb9zGEdRgrqZlW9h>)
