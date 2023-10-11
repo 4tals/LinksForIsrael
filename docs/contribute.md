@@ -4,6 +4,7 @@
 
 ---
 [עמוד הבית](https://linksforisrael.com/)
+[קבוצת הואצאפ שלנו](<https://chat.whatsapp.com/JjD8eijWfDXD10QbM2VyaX>)
 
 ## 🚀 Getting Started
 
