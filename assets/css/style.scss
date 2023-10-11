@@ -11,6 +11,7 @@
 	--color-white: #fff;
 	--color-link: #34b4c2;
 	--color-dark: #4d4d4d;
+	--link-font-size: 24px;
 }
 
 body {
@@ -40,31 +41,50 @@ body {
 }
 
 .links-section-content {
-	padding: 32px;
 	overflow: hidden;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	--link-font-size: 16px;
+	hr{
+		display: none;
+	}
+	h1, h2, h3 ,h4,h5 , p{
+		grid-area:  span 1 / span 2;
+	}
+	li{
+		padding: 10px;
+	}
 
 	ul {
-		padding: 0 10%;
+		padding-block-end: 10px;
+		padding-inline-start: 0;
 		list-style: none;
+		ul{
+			padding-inline-start:  0;
 
-		li a {
-			background-color: var(--color-white);
-			border: 2px solid var(--color-green);
-			border-radius: 80px;
-			box-shadow: 1.8px 1.8px 3.7px 0 rgba(0, 0, 0, 0.25);
-			color: var(--color-link);
-			cursor: pointer;
-			display: block;
-			font-size: 24px;
-			font-weight: 700;
-			padding: 21px;
-			text-align: center;
-			width: 100%;
-			transition: box-shadow 0.3s ease;
+			li{
+				scale: 0.8;
+			}
 		}
-
-		li a:hover {
-			box-shadow: 2.5px 2.5px 5px 0 rgba(0, 0, 0, 0.35);
+		li{
+			a{
+				background-color: var(--color-white);
+				border: 2px solid var(--color-green);
+				border-radius: 80px;
+				box-shadow: 1.8px 1.8px 3.7px 0 rgba(0, 0, 0, 0.25);
+				color: var(--color-link);
+				cursor: pointer;
+				display: block;
+				font-size: var(--link-font-size);
+				font-weight: 700;
+				padding: 21px;
+				text-align: center;
+				width: 100%;
+				transition: box-shadow 0.3s ease;
+				&:hover{
+					box-shadow: 2.5px 2.5px 5px 0 rgba(0, 0, 0, 0.35);
+				}
+			}
 		}
 	}
 }
@@ -171,6 +191,58 @@ details[open] .share-btn {
 /* ... (rest of your CSS) ... */
 
 /* === Responsive Design === */
+@media only screen and (max-width: 600px) {
+    body {
+        background: var(--color-title-blue);
+        color: var(--color-white);
+    }
+
+    .page-header {
+        background: url("{{ site.baseurl }}/assets/header-bg-mobile.svg") no-repeat;
+        background-position-y: bottom;
+        background-size: cover;
+    }
+
+    .main-title {
+        font-size: 19px;
+    }
+
+    .main-subtitle {
+        font-size: 14px;
+    }
+
+    .contribute-button {
+        font-size: 14px;
+        left: 0;
+    }
+
+    .open-caret {
+        background: url("{{ site.baseurl }}/assets/caret-mobile.png") no-repeat;
+        height: 9px;
+        width: 16px;
+    }
+		.links-section-content{
+			padding: 32px;
+			display: block;
+			hr{
+				display: block;
+			}
+		}
+
+    .links-section-content ul li a {
+        font-size: 16px;
+        padding: 15px;
+
+    }
+
+    .links-section-title {
+        background: var(--color-background-blue);
+        color: var(--color-dark);
+        padding: var(--link-font-size); /* Adjust padding if necessary for mobile */
+    }
+}
+
+
 @media only screen and (max-width: 600px) {
     body {
         background: var(--color-title-blue);
