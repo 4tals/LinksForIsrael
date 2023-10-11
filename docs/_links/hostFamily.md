@@ -10,22 +10,14 @@
 ---
 
 - [נרתמים לתושבי עזה](<https://sites.google.com/gshr.co.il/nirtamim/%D7%91%D7%99%D7%AA?authuser=0>)
+  - מאגר עם מעל - 200 דירות מוכנות לאירוח ברחבי הארץ
 
 ---
-משפחות שיכולות לארח - נא למלא את הטופס הבא
+- יוזמה לחיבור בין מארחים למארחים
+  - [טופס אורחים](<https://forms.gle/wWfTqrB3dpEgXU5x7>)
 
-- [טופס מארחים](<https://forms.gle/dsZBUqdmJM6EbBPN8>)
-
-משפחות שצריכות אירוח - נא למלא את הטופס הבא:
-
-- [טופס אורחים](<https://forms.gle/QNM6m3vVLnAh82wb6>)
-
----
-
-- [טופס אורחים](<https://forms.gle/wWfTqrB3dpEgXU5x7>)
-
-- [טופס מארחים](<https://forms.gle/pRPFHbtLVVMtKwby5>)
-  - לכל שאלה ניתן לפנות לדפנה 0548010384
+  - [טופס מארחים](<https://forms.gle/pRPFHbtLVVMtKwby5>)
+    - לכל שאלה ניתן לפנות לדפנה 0548010384
 
 ---
 
