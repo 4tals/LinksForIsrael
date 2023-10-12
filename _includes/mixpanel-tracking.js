@@ -1,12 +1,13 @@
 document.addEventListener("DOMContentLoaded", function() {
     // Select all the collapsible components on your page
     const collapsibles = document.querySelectorAll(".links-section");
+
+    const links = document.querySelectorAll("a");
   
     // Add a click event listener to each collapsible component
     collapsibles.forEach(collapsible => {
-    //   const button = collapsible.querySelector(".collapsible-button");
   
-    collapsible.addEventListener("click", function() {
+      collapsible.addEventListener("click", function() {
         // Check if the collapsible component is being opened
         const isOpen = collapsible.classList.contains("open");
   
@@ -17,5 +18,17 @@ document.addEventListener("DOMContentLoaded", function() {
         });
       });
     });
+
+    // Add a click event listener to each link component
+    links.forEach(link => {
+    
+      link.addEventListener("click", function() {
+    
+          // Track the event using Mixpanel
+          mixpanel.track(`${link.id} link clicked`, {
+            component_id: link.id, // You can also use other identifiers
+          });
+        });
+      });
   });
   
