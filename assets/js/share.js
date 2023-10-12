@@ -4,6 +4,26 @@ const ICONS = {
   telegram: '<i class="fab fa-telegram-plane"></i>',
 };
 
+
+function handleDetailsToggle(event) {
+  const sections = document.querySelectorAll('details');
+
+  // Close all sections.
+  sections.forEach((section) => {
+    if (section !== event.target) { // Don't close the one being toggled by the user.
+      section.removeAttribute('open');
+    }
+  });
+}
+
+function bindDetailsToggleEvent() {
+  const sections = document.querySelectorAll('details');
+  sections.forEach((section) => {
+    section.addEventListener('toggle', handleDetailsToggle);
+  });
+}
+
+
 function appendButton(element, iconClass, iconHTML) {
   const btn = document.createElement("span");
   btn.classList.add(iconClass);
@@ -87,4 +107,5 @@ function scrollToSectionInView() {
   addExternalShareListeners("whatsapp");
   addExternalShareListeners("telegram");
   scrollToSectionInView();
+  bindDetailsToggleEvent(); // Call the new function.
 })();
