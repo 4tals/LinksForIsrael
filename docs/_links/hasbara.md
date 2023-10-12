@@ -3,7 +3,7 @@
 
 ---
 
-- [Fake Hunter - בוט טלגרם שאפשר באמצעותו לדווח על עמודים](<https://t.me/fakenewsisraelbot>)
+- [בוט בטלגרם לדיווח עמודים שמפיצים שקרים ותעמולה נגד ישראל - Fake Hunter](<https://t.me/fakenewsisraelbot>)
 
 ---
 
