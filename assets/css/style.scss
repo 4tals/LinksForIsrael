@@ -208,9 +208,8 @@ body {
 	background-color: var(--color-white);
 	border-radius: 38px;
 	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
-	color: var(--color-link);
+	color: var(--color-blue);
 	font-size: 24px;
-	font-weight: 700;
 	padding: 13px;
 	transition: transform 0.3s ease;
 
@@ -249,27 +248,27 @@ details[open] .telegram-btn {
 
 /* === Responsive Design === */
 @media only screen and (max-width: 600px) {
-	body {
-		background: var(--color-title-blue);
-		color: var(--color-white);
+	.page-header {
+		height: 100px;
+		.main-title{
+			h1{
+				font-size: 24px;
+				display: flex;
+			}
+		}
 	}
 
-	.page-header {
-		background: url("{{ site.baseurl }}/assets/header-bg-mobile.svg") no-repeat;
-		background-position-y: bottom;
-		background-size: cover;
-	}
 
 	.main-title {
 		font-size: 19px;
 	}
 
 	.main-subtitle {
-		font-size: 14px;
+		font-size: 24px;
 	}
 
 	.contribute-button {
-		font-size: 14px;
+		font-size: 24px;
 		left: 0;
 	}
 
@@ -291,11 +290,11 @@ details[open] .telegram-btn {
 		padding: 15px;
 	}
 
-	.links-section-title {
-		background: var(--color-background-blue);
-		color: var(--color-dark);
-		padding: var(--link-font-size); /* Adjust padding if necessary for mobile */
-	}
+	// .links-section-title {
+	// 	background: var(--color-background-blue);
+	// 	color: var(--color-dark);
+	// 	padding: var(--link-font-size); /* Adjust padding if necessary for mobile */
+	// }
 }
 
 .links-section-list {
@@ -320,15 +319,12 @@ details[open] .telegram-btn {
 }
 
 @media only screen and (max-width: 600px) {
-	body {
-		background: var(--color-title-blue);
-		color: var(--color-white);
-	}
-
 	.page-header {
-		background: url("{{ site.baseurl }}/assets/header-bg-mobile.svg") no-repeat;
-		background-position-y: bottom;
-		background-size: cover;
+		height: 100px;
+		padding: 2rem 1rem;
+		h1{
+			font-size: 24px;
+		}
 	}
 
 	.main-title {
@@ -336,7 +332,8 @@ details[open] .telegram-btn {
 	}
 
 	.main-subtitle {
-		font-size: 14px;
+		font-size: 24px;
+		padding: 2rem 1rem;
 	}
 
 	.contribute-button {
@@ -355,11 +352,11 @@ details[open] .telegram-btn {
 		padding: 15px;
 	}
 
-	.links-section-title {
-		background: var(--color-background-blue);
-		color: var(--color-dark);
-		padding: 16px; /* Adjust padding if necessary for mobile */
-	}
+	// .links-section-title {
+	// 	background: var(--color-background-blue);
+	// 	color: var(--color-dark);
+	// 	padding: 16px; /* Adjust padding if necessary for mobile */
+	// }
 
 	.links-section-item {
 		width: 100%;
