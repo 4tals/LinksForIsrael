@@ -2,7 +2,7 @@
 
 ---
 
-- [Whatsapp חמל איסוף ושינוע מזון](<https://chat.whatsapp.com/KPZ7JqQyBLG3OSvtGlUAdx>)
+- [חמל איסוף ושינוע מזון - WhatsApp](<https://chat.whatsapp.com/KPZ7JqQyBLG3OSvtGlUAdx>)
 
 ---
 
