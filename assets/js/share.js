@@ -7,17 +7,18 @@ const ICONS = {
 
 function handleDetailsToggle(event) {
   const sections = document.querySelectorAll('details');
+  const clickedSection = event.target.closest('details');
 
   sections.forEach((section) => {
-    if (!section.contains(event.target)) { // Check if the section doesn't contain the clicked element.
+    if (section !== clickedSection) { // Don't close the one being toggled by the user.
       section.removeAttribute('open');
     }
   });
 }
 
 function bindDetailsToggleEvent() {
-  const sections = document.querySelectorAll('details');
-  sections.forEach((section) => {
+  const sectionsSummaries = document.querySelectorAll('details summary');
+  sectionsSummaries.forEach((section) => {
     section.addEventListener('click', handleDetailsToggle);
   });
 }
