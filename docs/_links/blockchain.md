@@ -5,8 +5,9 @@
   - [CryptoJungle](<https://www.cryptojungle.co.il/crypto-aid-israel/>)
 
 ---
-
+<div style="text-align: right" dir="rtl">
+  
 - [ניתוח ומעקב אחר חשבונות טרור](<https://chat.whatsapp.com/BbEJUtXui1ZHDpAF6M3uSS>)
-  - קבוצת ואצאפ שמטרתה להתחקות אחרי תנועת כספים וטרמזאקציות של גופים המקושרים לטרור
-
+  - קבוצת וואטסאפ שמטרתה לעקוב אחרי תנועת הכספים והעסקאות של ארגונים המשויכים לפעילות טרוריסטית.
+</div>
 ---
