@@ -41,10 +41,10 @@ body {
 }
 
 .links-section-content {
-	overflow: hidden;
-	display: grid;
-	grid-template-columns: 1fr 1fr;
 	--link-font-size: 16px;
+
+	overflow: hidden;
+	padding: 25px;
 
 	hr {
 		display: none;
@@ -89,6 +89,7 @@ body {
 				display: block;
 				font-size: var(--link-font-size);
 				font-weight: 700;
+				height: fit-content;
 				padding: 21px;
 				text-align: center;
 				width: 100%;
@@ -259,6 +260,27 @@ details[open] .telegram-btn {
 	}
 }
 
+.links-section-list {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.links-section-subcategory {
+	flex-basis: 100%;
+	flex-shrink: 0;
+}
+
+.links-section-item {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+}
+
+.links-section-item-short-description {
+	font-size: 14px;
+	font-weight: 400;
+}
+
 @media only screen and (max-width: 600px) {
 	body {
 		background: var(--color-title-blue);
@@ -299,5 +321,9 @@ details[open] .telegram-btn {
 		background: var(--color-background-blue);
 		color: var(--color-dark);
 		padding: 16px; /* Adjust padding if necessary for mobile */
+	}
+
+	.links-section-item {
+		width: 100%;
 	}
 }
