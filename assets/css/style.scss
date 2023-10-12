@@ -70,7 +70,7 @@ body {
 
 		ul {
 			// Nested lists are hidden by default
-			display: none;
+			display: block;
 			padding-inline-start: 0;
 
 			li {
@@ -97,11 +97,6 @@ body {
 				&:hover {
 					box-shadow: 2.5px 2.5px 5px 0 rgba(0, 0, 0, 0.35);
 				}
-			}
-
-			&:hover ul {
-				// Display nested lists on hover
-				display: block;
 			}
 		}
 	}

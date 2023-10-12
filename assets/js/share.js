@@ -8,9 +8,8 @@ const ICONS = {
 function handleDetailsToggle(event) {
   const sections = document.querySelectorAll('details');
 
-  // Close all sections.
   sections.forEach((section) => {
-    if (section !== event.target) { // Don't close the one being toggled by the user.
+    if (!section.contains(event.target)) { // Check if the section doesn't contain the clicked element.
       section.removeAttribute('open');
     }
   });
@@ -19,7 +18,7 @@ function handleDetailsToggle(event) {
 function bindDetailsToggleEvent() {
   const sections = document.querySelectorAll('details');
   sections.forEach((section) => {
-    section.addEventListener('toggle', handleDetailsToggle);
+    section.addEventListener('click', handleDetailsToggle);
   });
 }
 
