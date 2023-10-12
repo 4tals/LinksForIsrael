@@ -1,7 +1,173 @@
 [
 	{
+		"name": "TechInitiatives",
+		"displayName": "יוזמות טכנולוגיות קיימות",
+		"description": "",
+		"subCategories": [
+			{
+				"name": "TechInitiativesMain",
+				"displayName": "",
+				"links": [
+					{
+						"name": "mitmadvimAutomation",
+						"displayName": "אוטומציה בין מתנדבים למחפשי עזרה",
+						"shortDescription": "(וואטסאפ)",
+						"url": "https://chat.whatsapp.com/JuJ1da4wYbe16uZL0cqL40"
+					},
+					{
+						"name": "IsraelDiplomacy",
+						"displayName": "Israel Diplomacy",
+						"shortDescription": "",
+						"description": "אתר עם תוכן מוכן לשיתוף לצרכי הסברה",
+						"url": "https://github.com/nirtz89/israel_diplomacy"
+					},
+					{
+						"name": "BotsForIsrael",
+						"displayName": "Bots For Israel - בוטים למען ישראל",
+						"shortDescription": "",
+						"url": "https://chat.whatsapp.com/CWmy7ai0VJ1449FVgShVGk"
+					},
+					{
+						"name": "ProAntiClassification",
+						"displayName": "סיווג טקסט פרו/אנטי ישראלי",
+						"shortDescription": "",
+						"url": "https://chat.whatsapp.com/K9iNqhuwhdmLvAJhNrh6y0"
+					},
+					{
+						"name": "IkhunMakhshirim",
+						"displayName": "איכון מכשירי נעדרים",
+						"shortDescription": "",
+						"url": "https://docs.google.com/forms/d/e/1FAIpQLSduujH277Cqt31XgOZfTZFAD4ua_YN8fXUtAlwOAHX2q9Emww/viewform?usp=sf_link"
+					},
+				]
+			},
+			{
+				"name": "TechInitiativesSupport",
+				"displayName": "תמיכה ליוזמות טכנולוגיה",
+				"links": [
+					{
+						"name": "HamalRivonReviiVolunteers",
+						"displayName": "מתנדבי דאטה וטכנולוגיה - חמל הרבעון הרביעי",
+						"shortDescription": "(וואטסאפ)",
+						"url": "https://chat.whatsapp.com/E2HvCLeTNaP601kA71HYxE"
+					},
+					{
+						"name": "WixOfferingMentorshipSupport",
+						"displayName": "הצעה מוויקס לתמיכה במנטורשיפ ותמיכה טכנית",
+						"shortDescription": "",
+						"description": "שימו לב - אם אתם מובילים יוזמה אזרחית בהתנדבות להקמת אתר המסייע בחילוץ, הסברה או מתן סיוע אזרחי אחר, וצריכים עזרה בשיפור אתר קיים בויקס או בנייה בפועל של אתר בסיסי, המנטורים של Wix ישמחו לעזור לכם.",
+						"url": "https://twitter.com/morad/status/1711063336022876357"
+					},
+				]
+			},
+			{
+				"name": "TechInitiativesVolunteers",
+				"displayName": "התנדבות ליוזמות טכנולוגיה",
+				"links": [
+					{
+						"name": "PitronotTechEmergency",
+						"displayName": "פתרונות טכנולוגיים - צוות חירום",
+						"shortDescription": "(וואטסאפ)",
+						"url": "https://chat.whatsapp.com/DyIdNxWEONu69Oksm3mRmS"
+					},
+					{
+						"name": "DevHelpsTechVolunteers",
+						"displayName": "DevHelp - Tech Volunteers",
+						"shortDescription": "(וואטסאפ)",
+						"url": "https://chat.whatsapp.com/GLmj3FDWiCW1RWDRnL79UV"
+					},
+					{
+						"name": "YotseiModiinVolunteers",
+						"displayName": "מערך המתנדבים של יוצאי יחידות המודיעין",
+						"shortDescription": "(מיתר, וואטסאפ, 054-3047255)",
+						"url": "https://wa.me/972543047255"
+					},
+					{
+						"name": "TechVolunteersForm",
+						"displayName": "טופס הרשמה ליזמות טכנולוגיות",
+						"shortDescription": "",
+						"url": "https://forms.gle/wVB2zNKRZSUhQb79A"
+					},
+					{
+						"name": "InitiativeManagementDiscort",
+						"displayName": "דיסקורד לניהול יוזמות",
+						"shortDescription": "",
+						"url": "https://discord.gg/3Jg6us3b"
+					},
+				]
+			},
+		]
+	},
+	{
+		"name": "Info",
+		"displayName": "ריכוז מידע שימושי",
+		"description": "",
+		"subCategories": [
+			{
+				"name": "InfoMain",
+				"displayName": "",
+				"links": [
+					{
+						"name": "IronBot",
+						"displayName": "Iron Bot - בוט הברזל",
+						"shortDescription": "(וואטסאפ)",
+						"description": "ברוכים הבאים לבוט הברזל 👋⚔️ אנחנו מסייעים לאלפי ישראלים מידי יום בשיתוף העמותות המובילות בישראל. שולחים הודעה בואצאפ והבוט מנווט אותך לקבוצת הסיוע המתאימה לך.",
+						"url": "http://tiny.cc/ek3cvz"
+					},
+					{
+						"name": "LevEhad",
+						"displayName": "לב אחד",
+						"shortDescription": "",
+						"description": "ארגון לב אחד נוסד מתוך ההבנה כי, בשעות חירום, רתימת האזרחים להתנדבות פעילה יש בכוחה להוציאם ממעגל הקרבנות הפסיביים, ליצור חוסן חברתי אזרחי ולהעניק לרשות המקומית מכפלת כוח דרמטית.",
+						"url": "https://www.levechad.org/"
+					},
+					{
+						"name": "KhamalAmEhad",
+						"displayName": "חמ״ל עם אחד",
+						"shortDescription": "",
+						"description": "חמ״ל סיוע מרכזי המחבר בין משפחות מארחות למשפחות מדרום הארץ, מעמיד שירותי הסעות מקו העימות לאזורים בטוחים ומגייס תרומות לסיוע עבור תושבי קו הלחימה.",
+						"url": "https://www.am-ehad.org/"
+					},
+					{
+						"name": "IsraHelp",
+						"displayName": "IsraHelp",
+						"shortDescription": "",
+						"description": "מרכז קישורים ליוזמות וקבוצות סיוע אזרחיות ברחבי הארץ החל מיומה הראשון של מלחמת “חרבות ברזל”.",
+						"url": "https://www.am-ehad.org/"
+					},
+				]
+			}
+		]
+	},
+	{
+		"name": "Volunteering",
+		"displayName": "התנדבות",
+		"description": "",
+		"subCategories": [
+			{
+				"name": "VolunteeringMain",
+				"displayName": "",
+				"links": [
+					{
+						"name": "OrefBarzel",
+						"displayName": "עורף ברזל",
+						"shortDescription": "",
+						"description": "מחפשים מתנדבים? בוער בכם להתנדב? ברוכים הבאים לעורף ברזל, האתר בו תוכלו למצוא בזמן אמת מקום להתנדב בו או לגייס מתנדבים חדשים אליכם.",
+						"url": "https://ironswords.help/"
+					},
+					{
+						"name": "VolunteeringConnect",
+						"displayName": "חיבור בין מתנדבים",
+						"shortDescription": "תומר, וואטסאפ, 050-4304099",
+						"url": "https://wa.me/972504304099"
+					}
+				]
+			}
+		]
+	},
+	{
 		"name": "Equipment",
-		"displayName": "ציוד",
+		"displayName": "ציוד ואספקה",
 		"description": "תרומה וקבלה של ציוד",
 		"subCategories": [
 			{
@@ -11,7 +177,7 @@
 					{
 						"name": "SupplyMatch",
 						"displayName": "Supply Match",
-						"shortDescription": "התאמה בין מבקשי ציוד לספקים",
+						"shortDescription": "יוזמה המחברת בין מבקשי ציוד לנותני ציוד",
 						"description": "יוזמה לאומית רחבה מאוד שכוללת את פיקוד העורף, מטה ההתנדבות הלאומי, האגודה למען החייל, הג’ויינט, הפורום הכלכלי חברתי ועוד.",
 						"tags": ["automatic-matchers"],
 						"url": "https://supply-match.com/"

@@ -34,55 +34,7 @@ direction: rtl
 </details>
 {% endfor %}
 
-<details class="links-section" id="initiatives">
-<summary class="links-section-title" markdown="1" >
-
-## יוזמות טכנולוגיה קיימות
-
-<div class="open-caret"></div>
-</summary>
-<div class="links-section-content" markdown="1">
-{% include_relative docs/_links/initiatives.md %}
-</div>
-</details>
-
-<details class="links-section" id="hamal">
-<summary class="links-section-title" markdown="1">
-
-## ריכוז מידע שימושי
-
-<div class="open-caret"></div>
-</summary>
-<div class="links-section-content" markdown="1">
-{% include_relative docs/_links/hamal.md %}
-</div>
-</details>
-
-<details class="links-section"  id="volunteering">
-<summary class="links-section-title" markdown="1">
-
-## התנדבות
-
-<div class="open-caret"></div>
-</summary>
-<div class="links-section-content" markdown="1">
-{% include_relative docs/_links/volunteers.md %}
-</div>
-</details>
-
-<details class="links-section"  id="equipment">
-<summary class="links-section-title" markdown="1">
-
-## ציוד ואספקה
-
-<div class="open-caret"></div>
-</summary>
-<div class="links-section-content" markdown="1">
-{% include_relative docs/_links/equipment.md %}
-</div>
-</details>
-
-<details class="links-section"  id="assistance">
+<!-- <details class="links-section"  id="assistance">
 <summary class="links-section-title" markdown="1">
 
 ## סיוע כללי
@@ -320,4 +272,4 @@ direction: rtl
 <div class="links-section-content" markdown="1">
 {% include_relative docs/_links/uncategorized.md %}
 </div>
-</details>
+</details> -->
