@@ -100,20 +100,6 @@ body {
 				border-radius: 100px;
 				background: var(--color-light-blue);
 				color: var(--color-blue);
-				// background-color: var(--color-white);
-				// border: 2px solid var(--color-green);
-				// border-radius: 80px;
-				// box-shadow: 1.8px 1.8px 3.7px 0 rgba(0, 0, 0, 0.25);
-				// color: var(--color-link);
-				// cursor: pointer;
-				// display: block;
-				// font-size: var(--link-font-size);
-				// font-weight: 700;
-				// padding: 21px;
-				// text-align: center;
-				// width: 100%;
-				// transition: box-shadow 0.3s ease;
-
 				&:hover {
 					box-shadow: 2.5px 2.5px 5px 0 rgba(0, 0, 0, 0.35);
 				}
@@ -138,14 +124,6 @@ body {
 	background-image: none;
 	height: 119px;
 	color: var(--color-white);
-	// background: url("{{ site.baseurl }}/assets/header-bg-desktop.svg") no-repeat;
-	// background-position-y: top;
-	// background-size: cover;
-	// direction: rtl;
-	// display: flex;
-	// justify-content: space-between;
-	// min-height: 100px;
-	// padding: 24px;
 	.main-title{
 		color: var(--color-white);
 		display: flex;
@@ -290,11 +268,6 @@ details[open] .telegram-btn {
 		padding: 15px;
 	}
 
-	// .links-section-title {
-	// 	background: var(--color-background-blue);
-	// 	color: var(--color-dark);
-	// 	padding: var(--link-font-size); /* Adjust padding if necessary for mobile */
-	// }
 }
 
 .links-section-list {
@@ -351,13 +324,6 @@ details[open] .telegram-btn {
 		font-size: 16px;
 		padding: 15px;
 	}
-
-	// .links-section-title {
-	// 	background: var(--color-background-blue);
-	// 	color: var(--color-dark);
-	// 	padding: 16px; /* Adjust padding if necessary for mobile */
-	// }
-
 	.links-section-item {
 		width: 100%;
 	}
