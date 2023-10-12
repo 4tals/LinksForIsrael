@@ -14,46 +14,10 @@ direction: rtl
 </div>
 </details>
 
-<details class="links-section"  id="evacuate">
-<summary class="links-section-title" markdown="1">
-
-## חילוץ
-
-<div class="open-caret"></div>
-</summary>
-<div class="links-section-content" markdown="1">
-{% include_relative docs/_links/evacuate.md %}
-</div>
-</details>
-
-<details class="links-section" id="protect">
-<summary class="links-section-title" markdown="1">
-
-## הגנה ולחימה
-
-<div class="open-caret"></div>
-</summary>
-<div class="links-section-content" markdown="1">
-{% include_relative docs/_links/protect.md %}
-</div>
-</details>
-
-<details class="links-section" id="cyber">
-<summary class="links-section-title" markdown="1">
-
-## סייבר
-
-<div class="open-caret"></div>
-</summary>
-<div class="links-section-content" markdown="1">
-{% include_relative docs/_links/cyber.md %}
-</div>
-</details>
-
 <details class="links-section" id="hamal">
 <summary class="links-section-title" markdown="1">
 
-## חמ״לים
+## ריכוז מידע שימושי
 
 <div class="open-caret"></div>
 </summary>
@@ -119,6 +83,18 @@ direction: rtl
 </summary>
 <div class="links-section-content" markdown="1">
 {% include_relative docs/_links/socialNetworks.md %}
+</div>
+</details>
+
+<details class="links-section" id="protect">
+<summary class="links-section-title" markdown="1">
+
+## הגנה מתומכי טרור ברשת
+
+<div class="open-caret"></div>
+</summary>
+<div class="links-section-content" markdown="1">
+{% include_relative docs/_links/protect.md %}
 </div>
 </details>
 
@@ -230,6 +206,18 @@ direction: rtl
 </div>
 </details>
 
+<details class="links-section"  id="evacuate">
+<summary class="links-section-title" markdown="1">
+
+## חילוץ
+
+<div class="open-caret"></div>
+</summary>
+<div class="links-section-content" markdown="1">
+{% include_relative docs/_links/evacuate.md %}
+</div>
+</details>
+
 <details class="links-section"  id="pets">
 <summary class="links-section-title" markdown="1">
 
@@ -263,6 +251,18 @@ direction: rtl
 </summary>
 <div class="links-section-content" markdown="1">
 {% include_relative docs/_links/neshek.md %}
+</div>
+</details>
+
+<details class="links-section" id="cyber">
+<summary class="links-section-title" markdown="1">
+
+## סייבר
+
+<div class="open-caret"></div>
+</summary>
+<div class="links-section-content" markdown="1">
+{% include_relative docs/_links/cyber.md %}
 </div>
 </details>
 
