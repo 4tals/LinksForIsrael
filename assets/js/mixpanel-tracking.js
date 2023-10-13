@@ -1,4 +1,9 @@
 document.addEventListener("DOMContentLoaded", function() {
+
+    if (window.location.hostname === 'localhost') {
+      return
+    } 
+      
     // Select all the collapsible components on your page
     const collapsibles = document.querySelectorAll(".links-section");
 
