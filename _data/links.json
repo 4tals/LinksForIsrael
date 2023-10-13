@@ -6,7 +6,7 @@
 		"subCategories": [
 			{
 				"name": "TechInitiativesMain",
-				"displayName": "",
+				"displayName": "יוזמות קיימות",
 				"links": [
 					{
 						"name": "mitmadvimAutomation",
@@ -43,7 +43,7 @@
 			},
 			{
 				"name": "TechInitiativesSupport",
-				"displayName": "תמיכה ליוזמות טכנולוגיה",
+				"displayName": "מחפש עזרה ליוזמה טכנולוגית",
 				"links": [
 					{
 						"name": "HamalRivonReviiVolunteers",
