@@ -95,6 +95,39 @@
 						"url": "https://discord.gg/3Jg6us3b"
 					}
 				]
+			},
+			{
+				"name": "CyberMain",
+				"displayName": "סייבר",
+				"links": [
+					{
+						"name": "HamasSitesDDOS",
+						"displayName": "מתקפת DDOS על אתרי חמאס",
+						"shortDescription": "",
+						"description": "חברים מהסייבר בנו אתר שעושה מתקפת DDOS על אתרי גיוס תרומות של חמאס כנסו ללינק ותפעלו עפ”י ההוראות",
+						"url": "https://fuck-hamas.com/"
+					},
+					{
+						"name": "OSINT1",
+						"displayName": "מאגר ה-OSINT האזרחי",
+						"shortDescription": "בקשת גישה",
+						"description": "בימים האחרונים אנחנו עובדים על סריקה מלאה של הרשתות החברתיות עבור סרטונים, תמונות וטקסט והנגשה של המידע עבור צרכנים שונים. קיים מידע גולמי ובחלק מהמאגר קיים מידע מעובד, בין אם OCR או מסקנות יותר ספציפיות. במאגר כרגע יש מעל 1M תמונו וסרטונים ו-1M פוסטים טקסטואליים ומידע חדש נכנס בזמן אמת (נכון ל-11.10.23). כמובן אם אתם מכירים אנשים שרלוונטי אליהם מוזמנים להפיץ.",
+						"url": "https://forms.gle/bD8HnL5zPQ5xxWPY7"
+					},
+					{
+						"name": "OSINT2",
+						"displayName": "מאגר ה-OSINT האזרחי",
+						"shortDescription": "בקשה להצטרף להוספת מידע למאגר",
+						"url": "https://forms.gle/kW9SasRGpavT3zt37"
+					},
+					{
+						"name": "OSINT3",
+						"displayName": "מאגר ה-OSINT האזרחי",
+						"shortDescription": "אשלי, וואטסאפ",
+						"description": "לפרטים נוספים שלא קשורים ל-2 האופיות להעיל ניתן לפנות אל אשלי. במידה ומילאתם את הטופס נחזור אליכם בהקדם.",
+						"url": "https://wa.me/972587786330"
+					}
+				]
 			}
 		]
 	},
@@ -367,25 +400,6 @@
 		]
 	},
 	{
-		"name": "ProtectionFromTerrorSupporters",
-		"displayName": "הגנה מתומכי טרור ברשת",
-		"description": "",
-		"subCategories": [
-			{
-				"name": "ProtectionFromTerrorSupportersMain",
-				"displayName": "",
-				"links": [
-					{
-						"name": "TerrorOutOfAcademyProtest",
-						"displayName": "מחאה לסילוק תומכי טרור ברשתות החברתיות מהאקדמיה",
-						"shortDescription": "וואטסאפ",
-						"url": "https://chat.whatsapp.com/GLsj5D7M3AjCv4zoWwXTON"
-					}
-				]
-			}
-		]
-	},
-	{
 		"name": "Hasbara",
 		"displayName": "הסברה",
 		"description": "",
@@ -414,31 +428,6 @@
 						"shortDescription": "",
 						"description": "אתר עם תוכן מוכן לשיתוף",
 						"url": "https://nirtz89.github.io/israel_diplomacy/"
-					}
-				]
-			}
-		]
-	},
-	{
-		"name": "Needarim",
-		"displayName": "איתור נעדרים ונעדרות",
-		"description": "",
-		"subCategories": [
-			{
-				"name": "NeedarimMain",
-				"displayName": "",
-				"links": [
-					{
-						"name": "TogetherForMissingPeople",
-						"displayName": "ביחד למען הנעדרים",
-						"shortDescription": "",
-						"url": "https://needarim.org.il/"
-					},
-					{
-						"name": "IturAndMetzukaReport",
-						"displayName": "איתור נעדרים ודיווחי מצוקה",
-						"shortDescription": "",
-						"url": "https://www.instagram.com/weareoneisrael/"
 					}
 				]
 			}
@@ -507,26 +496,20 @@
 						"displayName": "תרומות מזון ישירות דרך וולט",
 						"shortDescription": "",
 						"url": "https://wolt.com/he/isr/tel-aviv/venue/support-the-south"
+					},
+					{
+						"name": "CryptoAidIsrael1",
+						"displayName": "Crypto Aid Israel",
+						"shortDescription": "Site",
+						"url": "https://cryptoaidisrael.com/"
 					}
 				]
 			}
 		]
 	},
 	{
-		"name": "Skhol",
-		"displayName": "תמיכה בשכול, משפחות שכולות",
-		"description": "",
-		"subCategories": [
-			{
-				"name": "SkholMain",
-				"displayName": "",
-				"links": []
-			}
-		]
-	},
-	{
 		"name": "MentalSupport",
-		"displayName": "תמיכה נפשית",
+		"displayName": "תמיכה בשכול, התמודדות עם המצב - סיוע טלפוני, טיפול נפשי",
 		"description": "",
 		"subCategories": [
 			{
@@ -545,50 +528,6 @@
 						"displayName": "עמוד תמיכה נפשית IsraHelp",
 						"shortDescription": "",
 						"url": "https://www.coing.co/Israhelp_Mental"
-					}
-				]
-			}
-		]
-	},
-	{
-		"name": "Blockchain",
-		"displayName": "בלוקצ׳יין ומטבעות דיגיטליים",
-		"description": "",
-		"subCategories": [
-			{
-				"name": "BlockchainMain",
-				"displayName": "",
-				"links": [
-					{
-						"name": "CryptoAidIsrael1",
-						"displayName": "Crypto Aid Israel",
-						"shortDescription": "Site",
-						"url": "https://cryptoaidisrael.com/"
-					},
-					{
-						"name": "CryptoAidIsrael2",
-						"displayName": "Crypto Aid Israel",
-						"shortDescription": "X / Twitter",
-						"url": "https://x.com/cryptoaidisrael/status/1711434206465634698?s=46&t=jMafOv1ci-lWMFDjjvZqmg"
-					},
-					{
-						"name": "CryptoAidIsrael3",
-						"displayName": "Crypto Aid Israel",
-						"shortDescription": "Coindesk",
-						"url": "https://www.coindesk.com/tech/2023/10/09/israel-war-prompts-crypto-firms-including-fireblocks-marketacross-to-start-aid-fund/"
-					},
-					{
-						"name": "CryptoAidIsrael4",
-						"displayName": "Crypto Aid Israel",
-						"shortDescription": "CryptoJungle",
-						"url": "https://www.cryptojungle.co.il/crypto-aid-israel/"
-					},
-					{
-						"name": "AccountTracking",
-						"displayName": "ניתוח ומעקב אחר חשבונות טרור",
-						"shortDescription": "",
-						"description": "קבוצת וואטסאפ שמטרתה לעקוב אחרי תנועת הכספים והעסקאות של ארגונים המשויכים לפעילות טרוריסטית.",
-						"url": "https://www.cryptojungle.co.il/crypto-aid-israel/"
 					}
 				]
 			}
@@ -702,6 +641,13 @@
 						"displayName": "ספרי ילדים - ענק של ספרים",
 						"shortDescription": "",
 						"url": "https://padlet.com/redirect?url=https%3A%2F%2Fschool.booksgiant.com%2Flogin%2Fhe"
+					},
+					{
+						"name": "BrainPop",
+						"displayName": "BrainPop",
+						"shortDescription": "",
+						"description": "קוד: בריינפופ23",
+						"url": "https://il.brainpop.com/"
 					}
 				]
 			}
@@ -722,51 +668,6 @@
 						"shortDescription": "",
 						"description": "החמ״ל סייע בימים האחרונים בחילוץ מאות אנשים מישובי עוטף עזה – תוך חיבור בין אנשים הנצורים בביתם לכוחות הביטחון.",
 						"url": "https://www.kvarbaim.co.il/"
-					}
-				]
-			}
-		]
-	},
-	{
-		"name": "Pets",
-		"displayName": "חיות מחמד",
-		"description": "",
-		"subCategories": [
-			{
-				"name": "PetsMain",
-				"displayName": "",
-				"links": [
-					{
-						"name": "DaromDogs",
-						"displayName": "אומנה לכלבים מהדרום שלא יכולים לנוע עם המשפחה",
-						"shortDescription": "",
-						"url": "https://docs.google.com/document/d/19mhYz9AA2fhDI0-11gNPK_RWx2GXkrbFX3YlMLU-1Dw/edit#heading=h.8qbzp4y3fz7e"
-					}
-				]
-			}
-		]
-	},
-	{
-		"name": "FreeContnet",
-		"displayName": "תוכן חינמי פתוח לתקופה",
-		"description": "",
-		"subCategories": [
-			{
-				"name": "FreeContentMain",
-				"displayName": "",
-				"links": [
-					{
-						"name": "BrainPop",
-						"displayName": "BrainPop",
-						"shortDescription": "",
-						"description": "קוד: בריינפופ23",
-						"url": "https://il.brainpop.com/"
-					},
-					{
-						"name": "AnakShelSfarim",
-						"displayName": "ספרי ילדים - ענק של ספרים",
-						"shortDescription": "",
-						"url": "https://padlet.com/redirect?url=https%3A%2F%2Fschool.booksgiant.com%2Flogin%2Fhe"
 					}
 				]
 			}
@@ -809,41 +710,27 @@
 			}
 		]
 	},
+
 	{
-		"name": "Cyber",
-		"displayName": "סייבר",
+		"name": "Needarim",
+		"displayName": "איתור נעדרים ונעדרות",
 		"description": "",
 		"subCategories": [
 			{
-				"name": "CyberMain",
+				"name": "NeedarimMain",
 				"displayName": "",
 				"links": [
 					{
-						"name": "HamasSitesDDOS",
-						"displayName": "מתקפת DDOS על אתרי חמאס",
+						"name": "TogetherForMissingPeople",
+						"displayName": "ביחד למען הנעדרים",
 						"shortDescription": "",
-						"description": "חברים מהסייבר בנו אתר שעושה מתקפת DDOS על אתרי גיוס תרומות של חמאס כנסו ללינק ותפעלו עפ”י ההוראות",
-						"url": "https://fuck-hamas.com/"
+						"url": "https://needarim.org.il/"
 					},
 					{
-						"name": "OSINT1",
-						"displayName": "מאגר ה-OSINT האזרחי",
-						"shortDescription": "בקשת גישה",
-						"description": "בימים האחרונים אנחנו עובדים על סריקה מלאה של הרשתות החברתיות עבור סרטונים, תמונות וטקסט והנגשה של המידע עבור צרכנים שונים. קיים מידע גולמי ובחלק מהמאגר קיים מידע מעובד, בין אם OCR או מסקנות יותר ספציפיות. במאגר כרגע יש מעל 1M תמונו וסרטונים ו-1M פוסטים טקסטואליים ומידע חדש נכנס בזמן אמת (נכון ל-11.10.23). כמובן אם אתם מכירים אנשים שרלוונטי אליהם מוזמנים להפיץ.",
-						"url": "https://forms.gle/bD8HnL5zPQ5xxWPY7"
-					},
-					{
-						"name": "OSINT2",
-						"displayName": "מאגר ה-OSINT האזרחי",
-						"shortDescription": "בקשה להצטרף להוספת מידע למאגר",
-						"url": "https://forms.gle/kW9SasRGpavT3zt37"
-					},
-					{
-						"name": "OSINT3",
-						"displayName": "מאגר ה-OSINT האזרחי",
-						"shortDescription": "אשלי, וואטסאפ",
-						"description": "לפרטים נוספים שלא קשורים ל-2 האופיות להעיל ניתן לפנות אל אשלי. במידה ומילאתם את הטופס נחזור אליכם בהקדם.",
-						"url": "https://wa.me/972587786330"
+						"name": "IturAndMetzukaReport",
+						"displayName": "איתור נעדרים ודיווחי מצוקה",
+						"shortDescription": "",
+						"url": "https://www.instagram.com/weareoneisrael/"
 					}
 				]
 			}
@@ -858,25 +745,6 @@
 				"name": "NewsMain",
 				"displayName": "",
 				"links": []
-			}
-		]
-	},
-	{
-		"name": "Uncategorized",
-		"displayName": "לא מקוטלג",
-		"description": "",
-		"subCategories": [
-			{
-				"name": "UncategorizedMain",
-				"displayName": "",
-				"links": [
-					{
-						"name": "PrivacySecurityRecommendations",
-						"displayName": "המלצות אבטחת מידע ופרטיות",
-						"shortDescription": "",
-						"url": "https://docs.google.com/document/d/1WqZukKOUUrUclxlBluOYDqpSxgMIGuZQ0WBt7uunTFU/edit"
-					}
-				]
 			}
 		]
 	}
