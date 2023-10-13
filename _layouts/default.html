@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: " en-US" }}">
+<html lang="{{ site.lang }}">
 
 <head>
   <meta charset="UTF-8">
@@ -122,10 +122,7 @@
   </main>
 
   <style>
-    
-
-    .add-site-button,
-    .close-form-button {
+    .add-site-button {
       background-color: #007BFF;
       color: #fff;
       padding: 10px 20px;
@@ -136,8 +133,18 @@
       margin-top: 20px;
     }
 
-    .add-site-button:hover,
-    .close-form-button:hover {
+    .close-form-button {
+      background-color: #780707;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background-color 0.2s;
+      display: inline-block;
+      margin-top: 20px;
+    }
+
+    .add-site-button:hover {
       background-color: #0056b3;
     }
 
