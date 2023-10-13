@@ -78,8 +78,6 @@
 
     <style>
       .site-footer {
-        /* background-color: #f8f8f8;  */
-        padding: 20px 0;
         text-align: center;
       }
 
@@ -122,11 +120,62 @@
       </div>
     </footer>
   </main>
+
+  <style>
+    
+
+    .add-site-button,
+    .close-form-button {
+      background-color: #007BFF;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background-color 0.2s;
+      display: inline-block;
+      margin-top: 20px;
+    }
+
+    .add-site-button:hover,
+    .close-form-button:hover {
+      background-color: #0056b3;
+    }
+
+    .form-container {
+      display: none;
+    }
+  </style>
+
   <footer class="add-site-footer">
-    <a class="add-site-button"
-      href="https://docs.google.com/forms/d/e/1FAIpQLSeZsW9WkleVF7-9Wtx6JKWTw9cInqJEpMocR54tZkwjAXPxRg/viewform"
-      target="_blank">הוסיפו אתר +</a>
+    <a class="add-site-button" href="#" onclick="toggleForm(); return false;">הוסיפו אתר +</a>
+    <div class="form-container">
+      <iframe
+        src="https://docs.google.com/forms/d/e/1FAIpQLSeZsW9WkleVF7-9Wtx6JKWTw9cInqJEpMocR54tZkwjAXPxRg/viewform?embedded=true"
+        width="400" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+      <a class="close-form-button" href="#" onclick="toggleForm(); return false;">סגור את הטופס</a>
+    </div>
   </footer>
+
+  <script>
+    // Initialize the display property for the form container
+    document.addEventListener("DOMContentLoaded", function () {
+      var formContainer = document.querySelector('.form-container');
+      formContainer.style.display = 'none';
+    });
+
+    function toggleForm() {
+      var formContainer = document.querySelector('.form-container');
+      var addButton = document.querySelector('.add-site-button');
+
+      if (formContainer.style.display === 'none' || formContainer.style.display === '') {
+        formContainer.style.display = 'block';
+        addButton.style.display = 'none';
+      } else {
+        formContainer.style.display = 'none';
+        addButton.style.display = 'block';
+      }
+    }
+  </script>
 </body>
 
 </html>
