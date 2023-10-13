@@ -3,7 +3,7 @@ direction: rtl
 ---
 
 {% for category in site.data.links %}
-<details class="links-section" id="initiatives">
+<details class="links-section" id="{{ category.name }}">
 <summary class="links-section-title">
 <h2>{{ category.displayName }}</h2>
 <div class="open-caret"></div>
@@ -22,9 +22,9 @@ direction: rtl
 {% for link in subcategory.links %}
 <li class="links-section-item">
 {% if link.shortDescription == "" %}
-<a href="{{ link.url }}" target="_blank">{{ link.displayName }}</a>
+<a href="{{ link.url }}" target="_blank" id="{{ link.name }}">{{ link.displayName }}</a>
 {% elsif link.shortDescription != "" %}
-<a href="{{ link.url }}" target="_blank">{{ link.displayName }}<br /><span class="links-section-item-short-description">{{ link.shortDescription }}</span></a>
+<a href="{{ link.url }}" target="_blank" id="{{ link.name }}">{{ link.displayName }}<br /><span class="links-section-item-short-description">{{ link.shortDescription }}</span></a>
 {% endif %}
 {% if link.description != "" %}
 <p>{{ link.description }}</p>

@@ -25,12 +25,27 @@ body {
 }
 
 /* === Links Section === */
-.links-section{
+.links-section {
+	align-items: center;
 	border-radius: 20px;
 	border: 2px solid #0038B8;
 	background: var(--color-white);
 	margin-block-end: 16px;
-	color: var(--header-text-color) ;
+	color: var(--header-text-color);
+	display: flex;
+	flex-direction: column;
+
+.links-section:hover {
+	.share-btn, .whatsapp-btn, .telegram-btn {
+		display: inline-block;
+	}
+}
+
+.links-section h2 {
+	align-items: center;
+	display: flex;
+	margin: 0;
+}
 
 	h2{
 		align-items: center;
@@ -91,15 +106,18 @@ body {
 
 		li {
 			a {
-				display: flex;
-				width: 279px;
-				padding: 10px 16px;
-				justify-content: center;
 				align-items: center;
-				gap: 10px;
-				border-radius: 100px;
 				background: var(--color-light-blue);
+				border-radius: 100px;
 				color: var(--color-blue);
+				display: flex;
+				flex-direction: column;
+				gap: 10px;
+				justify-content: center;
+				padding: 10px 16px;
+				text-align: center;
+				width: 279px;
+				
 				&:hover {
 					box-shadow: 2.5px 2.5px 5px 0 rgba(0, 0, 0, 0.35);
 				}
@@ -273,6 +291,7 @@ details[open] .telegram-btn {
 .links-section-list {
 	display: flex;
 	flex-flow: row wrap;
+	width: 100%;
 }
 
 .links-section-subcategory {
@@ -281,9 +300,10 @@ details[open] .telegram-btn {
 }
 
 .links-section-item {
+	align-items: center;
 	display: flex;
+	flex-basis: 50%;
 	flex-direction: column;
-	width: 50%;
 }
 
 .links-section-item-short-description {
@@ -325,6 +345,7 @@ details[open] .telegram-btn {
 		padding: 15px;
 	}
 	.links-section-item {
+		flex-basis: 0;
 		width: 100%;
 	}
 }
