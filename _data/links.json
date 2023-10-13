@@ -38,7 +38,7 @@
 						"displayName": "איכון מכשירי נעדרים",
 						"shortDescription": "",
 						"url": "https://docs.google.com/forms/d/e/1FAIpQLSduujH277Cqt31XgOZfTZFAD4ua_YN8fXUtAlwOAHX2q9Emww/viewform?usp=sf_link"
-					},
+					}
 				]
 			},
 			{
@@ -57,7 +57,7 @@
 						"shortDescription": "",
 						"description": "שימו לב - אם אתם מובילים יוזמה אזרחית בהתנדבות להקמת אתר המסייע בחילוץ, הסברה או מתן סיוע אזרחי אחר, וצריכים עזרה בשיפור אתר קיים בויקס או בנייה בפועל של אתר בסיסי, המנטורים של Wix ישמחו לעזור לכם.",
 						"url": "https://twitter.com/morad/status/1711063336022876357"
-					},
+					}
 				]
 			},
 			{
@@ -93,9 +93,9 @@
 						"displayName": "דיסקורד לניהול יוזמות",
 						"shortDescription": "",
 						"url": "https://discord.gg/3Jg6us3b"
-					},
+					}
 				]
-			},
+			}
 		]
 	},
 	{
@@ -134,7 +134,7 @@
 						"shortDescription": "",
 						"description": "מרכז קישורים ליוזמות וקבוצות סיוע אזרחיות ברחבי הארץ החל מיומה הראשון של מלחמת “חרבות ברזל”.",
 						"url": "https://www.am-ehad.org/"
-					},
+					}
 				]
 			}
 		]
@@ -179,7 +179,9 @@
 						"displayName": "Supply Match",
 						"shortDescription": "יוזמה המחברת בין מבקשי ציוד לנותני ציוד",
 						"description": "יוזמה לאומית רחבה מאוד שכוללת את פיקוד העורף, מטה ההתנדבות הלאומי, האגודה למען החייל, הג’ויינט, הפורום הכלכלי חברתי ועוד.",
-						"tags": ["automatic-matchers"],
+						"tags": [
+							"automatic-matchers"
+						],
 						"url": "https://supply-match.com/"
 					},
 					{
@@ -189,10 +191,10 @@
 						"description": "",
 						"tags": [],
 						"url": "https://forms.monday.com/forms/25c5ac9f7676f6ffbf7fae7b982e87ef?r=use1"
-					},
+					}
 				]
 			}
-		],
+		]
 	},
 	{
 		"name": "Assistance",
@@ -232,10 +234,10 @@
 						"displayName": "ארגון סיוע אזרחים כללי - ירושלים",
 						"shortDescription": "וואטסאפ",
 						"url": "https://chat.whatsapp.com/BS2qZmtb9zGEdRgrqZlW9h"
-					},
+					}
 				]
 			}
-		],
+		]
 	},
 	{
 		"name": "FamilyHosting",
@@ -251,34 +253,34 @@
 						"displayName": "אתר מארחים",
 						"shortDescription": "",
 						"description": "במטרה להקל על התושבים ולהעניק להם קצת שקט, החלטנו להקים אתר בו תוכלו למצוא מידע על משפחות מארחות שמוכנות לפתוח את דלתות בתיהם בלב רחב.",
-						"url": "https://mearhim.vercel.app",
+						"url": "https://mearhim.vercel.app"
 					},
 					{
 						"name": "AtarMearhimMoreQuestion",
 						"displayName": "אתר מארחים - וואטסאפ לשאלות נוספות",
 						"shortDescription": "וואטסאפ",
-						"url": "https://api.whatsapp.com/send/?phone=%2B972548816044&text&type=phone_number&app_absent=0",
+						"url": "https://api.whatsapp.com/send/?phone=%2B972548816044&text&type=phone_number&app_absent=0"
 					},
 					{
 						"name": "MiklatMugan",
 						"displayName": "מקלט מוגן",
 						"shortDescription": "",
 						"description": "זקוקים למקלט? יכולים לתת מקום מוגן לאנשים? אתר עם ממשק מאוד פשוט המחבר כרטיסיות של מארחים למתארחים.",
-						"url": "https://protected-shelter.vercel.app",
+						"url": "https://protected-shelter.vercel.app"
 					},
 					{
 						"name": "NirtamimToshveiAza",
 						"displayName": "נרתמים לתושבי עזה",
 						"shortDescription": "",
 						"description": "מאגר עם מעל - 200 דירות מוכנות לאירוח ברחבי הארץ.",
-						"url": "https://sites.google.com/gshr.co.il/nirtamim/%D7%91%D7%99%D7%AA?authuser=0",
+						"url": "https://sites.google.com/gshr.co.il/nirtamim/%D7%91%D7%99%D7%AA?authuser=0"
 					},
 					{
 						"name": "PeopleFromSouthHosting",
 						"displayName": "אירוח משפחות מהדרום",
 						"shortDescription": "וואטסאפ",
-						"url": "https://chat.whatsapp.com/E6GofQiyosDLndYKKCcC4v",
-					},
+						"url": "https://chat.whatsapp.com/E6GofQiyosDLndYKKCcC4v"
+					}
 				]
 			},
 			{
@@ -302,10 +304,10 @@
 						"displayName": "פרטים נוספים",
 						"shortDescription": "(דפנה, וואטסאפ)",
 						"url": "https://wa.me/972548010384"
-					},
+					}
 				]
 			}
-		],
+		]
 	},
 	{
 		"name": "SocialNetworks",
@@ -339,9 +341,9 @@
 						"name": "SocialNetworksReportGoogleDoc",
 						"displayName": "מסמך גוגל לדיווח על עמודים ופוסטים",
 						"url": "https://docs.google.com/spreadsheets/d/14tRgnIlJhyrSrKA4mTGSgrvvH7U3T8CLV30mDrsNxG8/edit#gid=0"
-					},
+					}
 				]
-			},
+			}
 		]
 	},
 	{
@@ -358,9 +360,9 @@
 						"displayName": "מחאה לסילוק תומכי טרור ברשתות החברתיות מהאקדמיה",
 						"shortDescription": "וואטסאפ",
 						"url": "https://chat.whatsapp.com/GLsj5D7M3AjCv4zoWwXTON"
-					},
+					}
 				]
-			},
+			}
 		]
 	},
 	{
@@ -392,9 +394,9 @@
 						"shortDescription": "",
 						"description": "אתר עם תוכן מוכן לשיתוף",
 						"url": "https://nirtz89.github.io/israel_diplomacy/"
-					},
+					}
 				]
-			},
+			}
 		]
 	},
 	{
@@ -417,9 +419,9 @@
 						"displayName": "איתור נעדרים ודיווחי מצוקה",
 						"shortDescription": "",
 						"url": "https://www.instagram.com/weareoneisrael/"
-					},
+					}
 				]
-			},
+			}
 		]
 	},
 	{
@@ -448,9 +450,9 @@
 						"displayName": "חגי",
 						"shortDescription": "אפליקציה לחללוקת מזון",
 						"url": "https://salmaz.herokuapp.com/guest/events"
-					},
+					}
 				]
-			},
+			}
 		]
 	},
 	{
@@ -485,9 +487,9 @@
 						"displayName": "תרומות מזון ישירות דרך וולט",
 						"shortDescription": "",
 						"url": "https://wolt.com/he/isr/tel-aviv/venue/support-the-south"
-					},
+					}
 				]
-			},
+			}
 		]
 	},
 	{
@@ -499,7 +501,7 @@
 				"name": "SkholMain",
 				"displayName": "",
 				"links": []
-			},
+			}
 		]
 	},
 	{
@@ -523,9 +525,9 @@
 						"displayName": "עמוד תמיכה נפשית IsraHelp",
 						"shortDescription": "",
 						"url": "https://www.coing.co/Israhelp_Mental"
-					},
+					}
 				]
-			},
+			}
 		]
 	},
 	{
@@ -567,9 +569,9 @@
 						"shortDescription": "",
 						"description": "קבוצת וואטסאפ שמטרתה לעקוב אחרי תנועת הכספים והעסקאות של ארגונים המשויכים לפעילות טרוריסטית.",
 						"url": "https://www.cryptojungle.co.il/crypto-aid-israel/"
-					},
+					}
 				]
-			},
+			}
 		]
 	},
 	{
@@ -586,7 +588,7 @@
 						"displayName": "אתר המילואים",
 						"shortDescription": "",
 						"url": "https://www.miluim.org/"
-					},
+					}
 				]
 			},
 			{
@@ -634,9 +636,9 @@
 						"displayName": "המזרח הרחוק",
 						"shortDescription": "וואטסאפ",
 						"url": "https://chat.whatsapp.com/KY3GCKEUQopERWMlgdC06Q"
-					},
+					}
 				]
-			},
+			}
 		]
 	},
 	{
@@ -680,9 +682,9 @@
 						"displayName": "ספרי ילדים - ענק של ספרים",
 						"shortDescription": "",
 						"url": "https://padlet.com/redirect?url=https%3A%2F%2Fschool.booksgiant.com%2Flogin%2Fhe"
-					},
+					}
 				]
-			},
+			}
 		]
 	},
 	{
@@ -700,9 +702,9 @@
 						"shortDescription": "",
 						"description": "החמ״ל סייע בימים האחרונים בחילוץ מאות אנשים מישובי עוטף עזה – תוך חיבור בין אנשים הנצורים בביתם לכוחות הביטחון.",
 						"url": "https://www.kvarbaim.co.il/"
-					},
+					}
 				]
-			},
+			}
 		]
 	},
 	{
@@ -719,9 +721,9 @@
 						"displayName": "אומנה לכלבים מהדרום שלא יכולים לנוע עם המשפחה",
 						"shortDescription": "",
 						"url": "https://docs.google.com/document/d/19mhYz9AA2fhDI0-11gNPK_RWx2GXkrbFX3YlMLU-1Dw/edit#heading=h.8qbzp4y3fz7e"
-					},
+					}
 				]
-			},
+			}
 		]
 	},
 	{
@@ -745,9 +747,9 @@
 						"displayName": "ספרי ילדים - ענק של ספרים",
 						"shortDescription": "",
 						"url": "https://padlet.com/redirect?url=https%3A%2F%2Fschool.booksgiant.com%2Flogin%2Fhe"
-					},
+					}
 				]
-			},
+			}
 		]
 	},
 	{
@@ -782,9 +784,9 @@
 						"displayName": "תבחינים למתן רשיון נשק",
 						"shortDescription": "",
 						"url": "https://www.gov.il/he/departments/policies/firearm_licensing_criteria"
-					},
+					}
 				]
-			},
+			}
 		]
 	},
 	{
@@ -822,9 +824,9 @@
 						"shortDescription": "אשלי, וואטסאפ",
 						"description": "לפרטים נוספים שלא קשורים ל-2 האופיות להעיל ניתן לפנות אל אשלי. במידה ומילאתם את הטופס נחזור אליכם בהקדם.",
 						"url": "https://wa.me/972587786330"
-					},
+					}
 				]
-			},
+			}
 		]
 	},
 	{
@@ -836,7 +838,7 @@
 				"name": "NewsMain",
 				"displayName": "",
 				"links": []
-			},
+			}
 		]
 	},
 	{
@@ -855,7 +857,7 @@
 						"url": "https://docs.google.com/document/d/1WqZukKOUUrUclxlBluOYDqpSxgMIGuZQ0WBt7uunTFU/edit"
 					}
 				]
-			},
+			}
 		]
-	},
+	}
 ]
