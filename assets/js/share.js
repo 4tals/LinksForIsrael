@@ -101,11 +101,25 @@ function scrollToSectionInView() {
   const url = new URL(window.location.href);
   const sectionId = url.hash;
   if (sectionId) {
-    const section = document.querySelector(sectionId);
-    if (section) {
-      section.scrollIntoView({ behavior: "smooth" });
-      section.setAttribute("open", "");
+    const sections = document.querySelectorAll('details');
+    const clickedSection = document.querySelector(sectionId);
+
+    sections.forEach((section) => {
+      if (section !== clickedSection) { // Don't close the one being toggled by the user.
+        section.removeAttribute('open');
+      }
+    });
+
+    if (clickedSection) {
+      clickedSection.scrollIntoView({ behavior: "smooth" });
+      clickedSection.setAttribute("open", "");
     }
+  } else {
+    const sections = document.querySelectorAll('details');
+
+    sections.forEach((section) => {
+      section.removeAttribute('open');
+    });
   }
 }
 
