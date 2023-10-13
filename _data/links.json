@@ -384,6 +384,12 @@
 						"url": "https://chat.whatsapp.com/IKrNlfjrV8O5tBuBMpPOmV"
 					},
 					{
+						"name": "SocialNetworksReportTelegram",
+						"displayName": "חמל רשתות חברתיות",
+						"shortDescription": "לדיווח על עמודים ופוסטים אנטי ישראליים ברשתות החברתיות וחסימתם",
+						"url": "https://t.me/+HORf_dHgFVA1ZWM0"
+					},
+					{
 						"name": "SocialNetworksReportGoogleDoc",
 						"displayName": "מסמך גוגל לדיווח על עמודים ופוסטים",
 						"url": "https://docs.google.com/spreadsheets/d/14tRgnIlJhyrSrKA4mTGSgrvvH7U3T8CLV30mDrsNxG8/edit#gid=0"
@@ -421,6 +427,13 @@
 						"shortDescription": "",
 						"description": "אתר עם תוכן מוכן לשיתוף",
 						"url": "https://nirtz89.github.io/israel_diplomacy/"
+					},
+					{
+						"name": "HelpWithIsraeliDiplomacy",
+						"displayName": "Stand With Us - Instagram",
+						"shortDescription": "אתר ההסברה הרשמי של ישראל",
+						"description": "לעקוב אחרי העמוד הסברה של ישראל. לעמוד תמיכה של פלסטין יש 3 מיליון עוקבים ולנו אפילו לא 800 אלף",
+						"url": "https://www.instagram.com/standwithus/"
 					}
 				]
 			}
@@ -513,7 +526,7 @@
 						"name": "MentalSupportForm",
 						"displayName": "טופס לבקשת טיפול נפשי",
 						"shortDescription": "",
-						"description": "ם ישראל היקר שמי מיטל אברהמי הקמתי מערך מטפלים תודעתיים, רגשיים, תרפיית מימדים, NLP, EMP , מומחים בטראומה שיוכל לסייע לנפגעי נפש, חרדה וטראומה. אנו כ 70 מטפלים וזה עוד יגדל. המחזות קשים ונשמח לסייע ולעזור לכל מי שמעוניין מהעוטף, מהעורף, לילדים, מבוגרים, כוחות הביטחון, זק״א, מד״א וכל השאר. כמובן בהתנדבות ובאהבה ❤ כוחנו באחדותיינו זה הזמן להיות אחד למען השני. אנחנו פה בשבילכם ויחד ננצח את המצב נפשית, תודעתית וביטחונית. כל מי שזקוק לעזרה וטיפול אתם מוזמנים למלא את הטופס ונתאים לכם מטפל/ת. אני פה בשבילכם ❤ בעזרת השם ובעזרת עם ישראל נצא מחוזקים מהתקופה הזו יחד🙏",
+						"description": "מערך מטפלים תודעתיים, רגשיים, תרפיית מימדים, NLP, EMP , מומחים בטראומה שיוכל לסייע לנפגעי נפש, חרדה וטראומה. אנו כ 70 מטפלים וזה עוד יגדל. המחזות קשים ונשמח לסייע ולעזור לכל מי שמעוניין מהעוטף, מהעורף, לילדים, מבוגרים, כוחות הביטחון, זק״א, מד״א וכל השאר. כמובן בהתנדבות ובאהבה ❤ כוחנו באחדותיינו זה הזמן להיות אחד למען השני. אנחנו פה בשבילכם ויחד ננצח את המצב נפשית, תודעתית וביטחונית. כל מי שזקוק לעזרה וטיפול אתם מוזמנים למלא את הטופס ונתאים לכם מטפל/ת. אני פה בשבילכם ❤ בעזרת השם ובעזרת עם ישראל נצא מחוזקים מהתקופה הזו יחד🙏",
 						"url": "https://docs.google.com/forms/d/e/1FAIpQLSe63ECMBD1YEmAbLovFTvpxek46ZCSuKV9N2mT-G27tTwN2hA/viewform"
 					},
 					{
@@ -534,6 +547,12 @@
 						"displayName": "עמוד תמיכה נפשית IsraHelp",
 						"shortDescription": "",
 						"url": "https://www.coing.co/Israhelp_Mental"
+					},
+					{
+						"name": "IzkorNoflim",
+						"displayName": "יזכור הנופלים",
+						"shortDescription": "האתר הוקם במטרה לרכז מידע על כלל חללי ׳חרבות ברזל׳, מועדי הלוויה ומיקומי השבעה על מנת שנוכל לחלוק להם כבוד אחרון וללוותם בדרכם האחרונה",
+						"url": "https://www.izkorharavot.com/"
 					}
 				]
 			}
@@ -743,7 +762,7 @@
 	},
 	{
 		"name": "News",
-		"displayName": "חדשות",
+		"displayName": "מידע וחדשות - חרבות הברזל",
 		"description": "",
 		"subCategories": [
 			{
