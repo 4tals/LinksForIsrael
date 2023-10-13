@@ -473,6 +473,12 @@
 						"url": "https://naboo.ai/safedonate"
 					},
 					{
+						"name": "StandWithIsraelDonation",
+						"displayName": "Stand with Israel",
+						"shortDescription": "ריכוז תרומות מאומתות בחלוקה לרפואי, צוותית בחזית, יחידות ועוד",
+						"url": "https://giveisrael.org/"
+					},
+					{
 						"name": "DonationsExcel",
 						"displayName": "אקסל תרומות מתעדכן",
 						"shortDescription": "",
