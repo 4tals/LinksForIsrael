@@ -35,23 +35,18 @@ body {
 	display: flex;
 	flex-direction: column;
 
-.links-section:hover {
-	.share-btn, .whatsapp-btn, .telegram-btn {
-		display: inline-block;
+	&:hover {
+		.share-btn, .whatsapp-btn, .telegram-btn {
+			display: inline-block;
+		}
 	}
-}
 
-.links-section h2 {
-	align-items: center;
-	display: flex;
-	margin: 0;
-}
-
-	h2{
+	h2 {
 		align-items: center;
 		display: flex;
 		margin: 0;
 	}
+
 	&[open] .open-caret{
 		transform: rotate(180deg); /* Flips upward when section is open */
 	}
