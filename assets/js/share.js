@@ -9,6 +9,12 @@ function handleDetailsToggle(event) {
   const sections = document.querySelectorAll('details');
   const clickedSection = event.target.closest('details');
 
+  if (!clickedSection.hasAttribute('open')) {
+    history.pushState({}, '', `#${clickedSection.id}`);
+  } else {
+    history.pushState({}, '', '#');
+  }
+
   sections.forEach((section) => {
     if (section !== clickedSection) { // Don't close the one being toggled by the user.
       section.removeAttribute('open');
@@ -59,6 +65,7 @@ function addShareButtonListeners() {
   shareBtns.forEach((btn) => {
     btn.addEventListener("click", (e) => {
       e.preventDefault();
+      e.stopPropagation();
       const sectionUrl = `${siteUrl.origin}#${btn.getAttribute("data-index")}`;
 
       navigator.clipboard.writeText(sectionUrl);
@@ -78,7 +85,8 @@ function addExternalShareListeners(externalService) {
   btns.forEach((btn) => {
     btn.addEventListener("click", (e) => {
       e.preventDefault();
-      const sectionUrl = `${siteUrl.origin}#${btn.getAttribute("data-index")}`;
+      e.stopPropagation();
+      const sectionUrl = encodeURIComponent(`${siteUrl.origin}#${btn.getAttribute("data-index")}`);
       const shareUrls = {
         whatsapp: `https://api.whatsapp.com/send?text=${sectionUrl}`,
         telegram: `https://t.me/share/url?url=${sectionUrl}`,
@@ -96,16 +104,23 @@ function scrollToSectionInView() {
     const section = document.querySelector(sectionId);
     if (section) {
       section.scrollIntoView({ behavior: "smooth" });
+      section.setAttribute("open", "");
     }
   }
 }
 
-(() => {
-  initializeShareButtons();
-  openSectionFromHash();
-  addShareButtonListeners();
-  addExternalShareListeners("whatsapp");
-  addExternalShareListeners("telegram");
-  scrollToSectionInView();
-  bindDetailsToggleEvent(); // Call the new function.
-})();
+window.addEventListener(
+  "DOMContentLoaded",
+  () => {
+    initializeShareButtons();
+    openSectionFromHash();
+    addShareButtonListeners();
+    addExternalShareListeners("whatsapp");
+    addExternalShareListeners("telegram");
+    scrollToSectionInView();
+    bindDetailsToggleEvent(); // Call the new function.
+
+    window.addEventListener("hashchange", scrollToSectionInView);
+  },
+  false
+);

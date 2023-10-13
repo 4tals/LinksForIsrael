@@ -3,7 +3,7 @@ direction: rtl
 ---
 
 {% for category in site.data.links %}
-<details class="links-section" id="initiatives">
+<details class="links-section" id="{{ category.name }}">
 <summary class="links-section-title">
 <h2>{{ category.displayName }}</h2>
 <div class="open-caret"></div>
