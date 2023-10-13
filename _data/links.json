@@ -1,7 +1,7 @@
 [
 	{
 		"name": "TechInitiatives",
-		"displayName": "יוזמות טכנולוגיות קיימות",
+		"displayName": "יוזמות טכנולוגיות - התנדבות, סייבר, קבלת סיוע",
 		"description": "",
 		"subCategories": [
 			{
@@ -133,7 +133,7 @@
 	},
 	{
 		"name": "Info",
-		"displayName": "ריכוז מידע שימושי",
+		"displayName": "ריכוז מידע שימושי וסיוע בכל נושא - יוזמות, התנדבויות, סיוע",
 		"description": "",
 		"subCategories": [
 			{
@@ -169,74 +169,10 @@
 						"url": "https://www.am-ehad.org/"
 					}
 				]
-			}
-		]
-	},
-	{
-		"name": "Volunteering",
-		"displayName": "התנדבות",
-		"description": "",
-		"subCategories": [
-			{
-				"name": "VolunteeringMain",
-				"displayName": "",
-				"links": [
-					{
-						"name": "OrefBarzel",
-						"displayName": "עורף ברזל",
-						"shortDescription": "",
-						"description": "מחפשים מתנדבים? בוער בכם להתנדב? ברוכים הבאים לעורף ברזל, האתר בו תוכלו למצוא בזמן אמת מקום להתנדב בו או לגייס מתנדבים חדשים אליכם.",
-						"url": "https://ironswords.help/"
-					},
-					{
-						"name": "VolunteeringConnect",
-						"displayName": "חיבור בין מתנדבים",
-						"shortDescription": "תומר, וואטסאפ, 050-4304099",
-						"url": "https://wa.me/972504304099"
-					}
-				]
-			}
-		]
-	},
-	{
-		"name": "Equipment",
-		"displayName": "ציוד ואספקה",
-		"description": "תרומה וקבלה של ציוד",
-		"subCategories": [
-			{
-				"name": "EquipmentMain",
-				"displayName": "",
-				"links": [
-					{
-						"name": "SupplyMatch",
-						"displayName": "Supply Match",
-						"shortDescription": "יוזמה המחברת בין מבקשי ציוד לנותני ציוד",
-						"description": "יוזמה לאומית רחבה מאוד שכוללת את פיקוד העורף, מטה ההתנדבות הלאומי, האגודה למען החייל, הג’ויינט, הפורום הכלכלי חברתי ועוד.",
-						"tags": [
-							"automatic-matchers"
-						],
-						"url": "https://supply-match.com/"
-					},
-					{
-						"name": "AsakimNirtamimEquipment",
-						"displayName": "עסקים נרתמים - תופס בקשת כל סוג ציוד",
-						"shortDescription": "",
-						"description": "",
-						"tags": [],
-						"url": "https://forms.monday.com/forms/25c5ac9f7676f6ffbf7fae7b982e87ef?r=use1"
-					}
-				]
-			}
-		]
-	},
-	{
-		"name": "Assistance",
-		"displayName": "סיוע כללי",
-		"description": "",
-		"subCategories": [
+			},
 			{
 				"name": "AssistanceMain",
-				"displayName": "",
+				"displayName": "סיוע כללי בכל הנושאים",
 				"links": [
 					{
 						"name": "HamalHiburim",
@@ -267,6 +203,63 @@
 						"displayName": "ארגון סיוע אזרחים כללי - ירושלים",
 						"shortDescription": "וואטסאפ",
 						"url": "https://chat.whatsapp.com/BS2qZmtb9zGEdRgrqZlW9h"
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Volunteering",
+		"displayName": "רוצים להתנדב / מחפשים מתנדבים",
+		"description": "",
+		"subCategories": [
+			{
+				"name": "VolunteeringMain",
+				"displayName": "",
+				"links": [
+					{
+						"name": "OrefBarzel",
+						"displayName": "עורף ברזל",
+						"shortDescription": "",
+						"description": "מחפשים מתנדבים? בוער בכם להתנדב? ברוכים הבאים לעורף ברזל, האתר בו תוכלו למצוא בזמן אמת מקום להתנדב בו או לגייס מתנדבים חדשים אליכם.",
+						"url": "https://ironswords.help/"
+					},
+					{
+						"name": "VolunteeringConnect",
+						"displayName": "חיבור בין מתנדבים",
+						"shortDescription": "תומר, וואטסאפ, 050-4304099",
+						"url": "https://wa.me/972504304099"
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Equipment",
+		"displayName": "מחפשים ציוד, מעוניינים לתרום ציוד",
+		"description": "תרומה וקבלה של ציוד",
+		"subCategories": [
+			{
+				"name": "EquipmentMain",
+				"displayName": "",
+				"links": [
+					{
+						"name": "SupplyMatch",
+						"displayName": "Supply Match",
+						"shortDescription": "יוזמה המחברת בין מבקשי ציוד לנותני ציוד",
+						"description": "יוזמה לאומית רחבה מאוד שכוללת את פיקוד העורף, מטה ההתנדבות הלאומי, האגודה למען החייל, הג’ויינט, הפורום הכלכלי חברתי ועוד.",
+						"tags": [
+							"automatic-matchers"
+						],
+						"url": "https://supply-match.com/"
+					},
+					{
+						"name": "AsakimNirtamimEquipment",
+						"displayName": "עסקים נרתמים - תופס בקשת כל סוג ציוד",
+						"shortDescription": "",
+						"description": "",
+						"tags": [],
+						"url": "https://forms.monday.com/forms/25c5ac9f7676f6ffbf7fae7b982e87ef?r=use1"
 					}
 				]
 			}
@@ -364,7 +357,7 @@
 	},
 	{
 		"name": "SocialNetworks",
-		"displayName": "רשתות חברתיות",
+		"displayName": "רשתות חברתיות - חיזוק נוכחות ישראלית ודיווח",
 		"description": "",
 		"subCategories": [
 			{
@@ -375,7 +368,7 @@
 						"name": "TerrorSupportersTrolling",
 						"displayName": "להטריל תומכי טרור",
 						"shortDescription": "",
-						"description": "איך נוציא את הטוב מבני זונות תומכי טרור? נראה איך הם אוהבים ומחבקים אותנו כמובן ❤️  קחו תמונת פרופיל של תומך טרור, תדביקו פה, וקחו את התמונה שחוזרת לכם עם הודעת תודה מרגשת על התמיכה שלו (נקודות בונוס אם אתם גורמים לזה להשמע כאילו זה פרס על תרומה שהוא ביצע) ואל תשכחו לתייג את כלללללל החברים שלו, שידעו איזה בנאדם טוב הוא ❤️",
+						"description": "קחו תמונת פרופיל של תומך טרור, תדביקו פה, וקחו את התמונה שחוזרת לכם עם הודעת תודה מרגשת על התמיכה שלו.  ❤️",
 						"url": "https://devhelps.github.io/you-stand-with-israel/"
 					},
 					{
@@ -401,7 +394,7 @@
 	},
 	{
 		"name": "Hasbara",
-		"displayName": "הסברה",
+		"displayName": "הסברה - חיזוק נוכחות ברשת, שיתוף תכנים ומסרים",
 		"description": "",
 		"subCategories": [
 			{
@@ -435,7 +428,7 @@
 	},
 	{
 		"name": "Food",
-		"displayName": "מזון",
+		"displayName": "מחפשים תרומת אוכל / מעוניינים להכין או לשלם על אוכל לתרומה ",
 		"description": "",
 		"subCategories": [
 			{
@@ -466,7 +459,7 @@
 	},
 	{
 		"name": "Donations",
-		"displayName": "תרומות",
+		"displayName": "תרומות כספיות - אימות לינקים, גופים ותרומה בקריפטו",
 		"description": "",
 		"subCategories": [
 			{
@@ -490,12 +483,6 @@
 						"displayName": "Isra-Aid",
 						"shortDescription": "ריכוז תרומות לחיזוק העורף והלחימה",
 						"url": "https://isra-aid.org/"
-					},
-					{
-						"name": "WoltFoodDonations",
-						"displayName": "תרומות מזון ישירות דרך וולט",
-						"shortDescription": "",
-						"url": "https://wolt.com/he/isr/tel-aviv/venue/support-the-south"
 					},
 					{
 						"name": "CryptoAidIsrael1",
@@ -710,7 +697,6 @@
 			}
 		]
 	},
-
 	{
 		"name": "Needarim",
 		"displayName": "איתור נעדרים ונעדרות",
