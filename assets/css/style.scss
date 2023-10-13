@@ -21,6 +21,12 @@ body {
 }
 
 /* === Links Section === */
+.links-section:hover {
+	.share-btn, .whatsapp-btn, .telegram-btn {
+		display: inline-block;
+	}
+}
+
 .links-section h2 {
 	align-items: center;
 	display: flex;
