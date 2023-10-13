@@ -310,6 +310,26 @@
 		]
 	},
 	{
+		"name": "Shelters",
+		"displayName": "מקלטים",
+		"description": "",
+		"subCategories": [
+			{
+				"name": "",
+				"displayName": "",
+				"links": [
+					{
+						"name": "MidragShelters",
+						"displayName": "פרויקט אתר מדרג להשמשה והכנה של מקלטים",
+						"shortDescription": "",
+						"description": "חמ״ל סיוע פרויקט אתר מדרג להשמשה והכנה של מקלטים",
+						"url": "https://forms.monday.com/forms/f1e1014123cf1aac6615780795aec231?r=use1"
+					}
+				]
+			}
+		]
+	},
+	{
 		"name": "SocialNetworks",
 		"displayName": "רשתות חברתיות",
 		"description": "",
