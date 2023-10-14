@@ -142,7 +142,7 @@
 	},
 	{
 		"name": "Info",
-		"displayName": "ריכוז מידע שימושי וסיוע בכל נושא - יוזמות, התנדבויות, סיוע",
+		"displayName": "רב נושאי - כללי",
 		"description": "",
 		"image": "https://cdn-icons-png.flaticon.com/512/6292/6292033.png",
 		"subCategories": [
@@ -257,10 +257,10 @@
 		]
 	},
 	{
-		"name": "Equipment",
-		"displayName": "מחפשים ציוד, מעוניינים לתרום ציוד",
+		"name": "EquipmentNFood",
+		"displayName": "תרומות ציוד / אוכל",
 		"description": "תרומה וקבלה של ציוד",
-		"image": "https://cdn-icons-png.flaticon.com/512/8654/8654298.png",
+		"image": "https://static-00.iconduck.com/assets.00/supply-chain-management-icon-2048x1937-54eit1e1.png",
 		"subCategories": [
 			{
 				"name": "EquipmentMain",
@@ -283,6 +283,33 @@
 						"tags": [],
 						"url": "https://forms.monday.com/forms/25c5ac9f7676f6ffbf7fae7b982e87ef?r=use1",
 						"forms": "https://forms.monday.com/forms/25c5ac9f7676f6ffbf7fae7b982e87ef?r=use1"
+					}
+				]
+			},
+			{
+				"name": "FoodMain",
+				"displayName": "",
+				"links": [
+					{
+						"name": "WoltFoodDonations",
+						"displayName": "תרומות מזון ישירות דרך וולט",
+						"shortDescription": "",
+						"url": "https://wolt.com/he/isr/tel-aviv/venue/support-the-south",
+						"website": "https://wolt.com/he/isr/tel-aviv/venue/support-the-south"
+					},
+					{
+						"name": "HamalFoodLogistics",
+						"displayName": "חמ״ל איתור ושינוע מזון",
+						"shortDescription": "וואטסאפ",
+						"url": "https://chat.whatsapp.com/KPZ7JqQyBLG3OSvtGlUAdx",
+						"whatsapp": "https://chat.whatsapp.com/KPZ7JqQyBLG3OSvtGlUAdx"
+					},
+					{
+						"name": "FoodShareApp",
+						"displayName": "חגי",
+						"shortDescription": "אפליקציה לחללוקת מזון",
+						"url": "https://salmaz.herokuapp.com/guest/events",
+						"website": "https://salmaz.herokuapp.com/guest/events"
 					}
 				]
 			}
@@ -491,41 +518,6 @@
 		]
 	},
 	{
-		"name": "Food",
-		"displayName": "מחפשים תרומת אוכל / מעוניינים להכין או לשלם על אוכל לתרומה ",
-		"description": "",
-		"image": "data:image/jpeg;base64,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KsREQEREBERAREQEREBERAREQc3GcIhrIXQTNDo3e0EaEHgRzVSYzgtRhRtIHTUXqTMBLoxoBIOHfpyPqiz9qdoG0ETHmN0j5JGxRsZYF733sLnTQpszjrMQgdIGOYWvfDKx9iWvYAXNPAizh7VExEr8Oa+Kd6+FWwyte0Pa4OaeLTcf0PYsgUtxvo4ie8zUbzSzHMhvnRO72HTwy1yUSrsLxCl+fpXStH7ymu4d5YBcdpsAFxNZauLXY7x/bqWCooo5PTY1x5kC/tGfvWg/Z6mOfV27nO/7WVmNwElrnFjxq17XNI7+HvWw2vhOk0X42j4lc9vR9q3fUtP/APP0977jj3vct6npI4/QYxp5gZ/iOa+XV8I1mi/G0/ArXfjcF91ri950axrnE93BT3KftV76h0VjnmZG0ve4NbzP8uJPYFkocJxGr+ZpjCw/vKi7fERkXPsIKl+BdHUMbxNVvdVTixG8LRsP1Yxkf4rjLQKYrLzZddjpH9e5RHBcAqMVI3d6CgPpSOFnyjkwfRPPTPjorbwnC4qSJsELAyNugHE8STqSeJK3Q0AACwtovpdxGzIzZrZZ3tL1ERSqEREBERAREQEREBERAREQEREBERBycewOGui6qdpLQ4PaWkhzXC4DmuGhsT7V7gWCw0UIghbusuXG5JLnG13Occy42HsA4LqIid522erxeoiGnV4dDMLSxRyD67Gu+IXKfsZh7jc0kFzr5jR8FIERMTMI+zYvD2m4pKe/awH3Fdalw+GIWjjjYPqMa34BbSIbzIopim3tJSzOgkE++wgHdieW3IByPHVStfJaOxCNvauMd6RIpIt2lllhl3gd99O943Re4tY5nLOy62ybcQkMdTLWRy0r2l24IAxxuMuAIsVMdwcgvbKEzMbbRD6REUuRERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERB//9k=",
-		"subCategories": [
-			{
-				"name": "FoodMain",
-				"displayName": "",
-				"links": [
-					{
-						"name": "WoltFoodDonations",
-						"displayName": "תרומות מזון ישירות דרך וולט",
-						"shortDescription": "",
-						"url": "https://wolt.com/he/isr/tel-aviv/venue/support-the-south",
-						"website": "https://wolt.com/he/isr/tel-aviv/venue/support-the-south"
-					},
-					{
-						"name": "HamalFoodLogistics",
-						"displayName": "חמ״ל איתור ושינוע מזון",
-						"shortDescription": "וואטסאפ",
-						"url": "https://chat.whatsapp.com/KPZ7JqQyBLG3OSvtGlUAdx",
-						"whatsapp": "https://chat.whatsapp.com/KPZ7JqQyBLG3OSvtGlUAdx"
-					},
-					{
-						"name": "FoodShareApp",
-						"displayName": "חגי",
-						"shortDescription": "אפליקציה לחללוקת מזון",
-						"url": "https://salmaz.herokuapp.com/guest/events",
-						"website": "https://salmaz.herokuapp.com/guest/events"
-					}
-				]
-			}
-		]
-	},
-	{
 		"name": "Donations",
 		"displayName": "תרומות כספיות - אימות לינקים, גופים ותרומה בקריפטו",
 		"description": "",
@@ -576,7 +568,7 @@
 	},
 	{
 		"name": "MentalSupport",
-		"displayName": "תמיכה בשכול, התמודדות עם המצב - סיוע טלפוני, טיפול נפשי",
+		"displayName": "תמיכה בשכול, התמודדות עם המצב - סיוע טלפוני, עזרה נפשית",
 		"description": "",
 		"image": "https://cdn-icons-png.flaticon.com/512/7216/7216006.png",
 		"subCategories": [
@@ -661,7 +653,7 @@
 	},
 	{
 		"name": "Parenting",
-		"displayName": "עזרה להורים ומשפחות עם ילדים בזמן המלחמה",
+		"displayName": "פנאי, לימוד ותעסוקה לילדים",
 		"description": "",
 		"image": "https://cdn-icons-png.flaticon.com/512/3079/3079247.png",
 		"subCategories": [
@@ -778,7 +770,7 @@
 	},
 	{
 		"name": "Needarim",
-		"displayName": "איתור נעדרים ונעדרות",
+		"displayName": "איתור נעדרים",
 		"image": "https://cdn-icons-png.flaticon.com/512/2472/2472639.png",
 		"description": "",
 		"subCategories": [
