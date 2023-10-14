@@ -58,6 +58,16 @@ direction: rtl
 
 {% if link.description != "" %}
 <p>{{ link.description }}</p>
+
+{% assign numTags = link.tags | size %}
+{% if numTags != 0 %}
+<ul class="link-tags-list">
+{% for tag in link.tags %}
+<li class="tag">{{ tag }}</li>
+{% endfor %}
+</ul>
+{% endif %}
+
 {% endif %}
 </li>
 {% endfor %}
