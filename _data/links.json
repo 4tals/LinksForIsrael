@@ -397,25 +397,10 @@
 				"displayName": "נשק",
 				"links": [
 					{
-						"name": "ZakautNeshek",
+						"name": "מידע וקישורים להוצאת רישיון כלי ירייה פרטי",
 						"displayName": "בדיקת זכאות לנשק",
 						"shortDescription": "",
-						"url": "https://www.gov.il/apps/mops/firearm_license_calculator",
-						"website": "https://www.gov.il/apps/mops/firearm_license_calculator"
-					},
-					{
-						"name": "WeaponsLicenseRequest",
-						"displayName": "בקשת לקבלת רשיון נשק",
-						"shortDescription": "",
-						"url": "https://www.gov.il/BlobFolder/service/issue_firearms_license_to_a_private_individual/he/services_personal-fiream-request-form.pdf",
-						"website": "https://www.gov.il/BlobFolder/service/issue_firearms_license_to_a_private_individual/he/services_personal-fiream-request-form.pdf"
-					},
-					{
-						"name": "WeaponsLicenseTest",
-						"displayName": "תבחינים למתן רשיון נשק",
-						"shortDescription": "",
-						"url": "https://www.gov.il/he/departments/policies/firearm_licensing_criteria",
-						"website": "https://www.gov.il/he/departments/policies/firearm_licensing_criteria"
+						"url": "./docs/weapon.html"
 					}
 				]
 			},
@@ -428,7 +413,8 @@
 						"displayName": "פרויקט אתר מדרג להשמשה והכנה של מקלטים",
 						"shortDescription": "",
 						"description": "חמ״ל סיוע פרויקט אתר מדרג להשמשה והכנה של מקלטים",
-						"url": "https://forms.monday.com/forms/f1e1014123cf1aac6615780795aec231?r=use1"
+						"url": "https://forms.monday.com/forms/f1e1014123cf1aac6615780795aec231?r=use1",
+						"website": "https://forms.monday.com/forms/f1e1014123cf1aac6615780795aec231?r=use1"
 					}
 				]
 			},
