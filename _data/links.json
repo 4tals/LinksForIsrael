@@ -809,15 +809,22 @@
 		]
 	},
 	{
-		"name": "News",
-		"displayName": "מידע וחדשות - חרבות הברזל",
+		"name": "Medical",
+		"displayName": "מידע רפואי כללי",
 		"description": "",
-		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKDIPzl5-seVk-zOn3LxBP9KGNYHx-IIQYKg&usqp=CAU",
+		"image": "https://w7.pngwing.com/pngs/313/516/png-transparent-stethoscope-icon-stethoscope-icon-medical-icons-medical-icon-medicine-doctor-diagnosis-diagnose-clinic-thumbnail.png",
 		"subCategories": [
 			{
-				"name": "NewsMain",
+				"name": "Medical",
 				"displayName": "",
-				"links": []
+				"links": [
+					{
+						"name": "CourseEzraRishona",
+						"displayName": "ריכוז תכני קורס עזרה ראשונה",
+						"shortDescription": "ניתן על ידי חברת ניתאי שירותי עזרה ראשונה",
+						"url": "docs/ezra-rishona"
+					}
+				]
 			}
 		]
 	}
