@@ -97,6 +97,7 @@ body {
 
 	li {
 		padding: 10px;
+		margin: 10px;
 	}
 
 	ul {
@@ -229,6 +230,11 @@ details[open] .telegram-btn {
 	direction: ltr;
 }
 
+.category-icon {
+	width:70px; 
+	height:70px;
+}
+
 /* ... (rest of your CSS) ... */
 
 /* === Responsive Design === */
@@ -292,12 +298,13 @@ details[open] .telegram-btn {
 .links-section-subcategory {
 	flex-basis: 100%;
 	flex-shrink: 0;
+	margin-top: 0px;
 }
 
 .links-section-item {
 	align-items: center;
 	display: flex;
-	flex-basis: 50%;
+	flex-basis: 45%;
 	flex-direction: column;
 	border-radius: 30px;
 	border: 1px solid #5275c7;

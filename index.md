@@ -6,7 +6,7 @@ direction: rtl
 <details class="links-section" id="{{ category.name }}">
 <summary class="links-section-title">
 {% if category.image and category.image != "" %}
-<img src="{{ category.image }}" alt="{{ category.displayName }} Icon" class="category-icon" style="width:70px; height:70px;">
+<img src="{{ category.image }}" alt="{{ category.displayName }} Icon" class="category-icon">
 {% endif %}
 <h2>{{ category.displayName }}</h2>
 
@@ -16,9 +16,7 @@ direction: rtl
 <ul class="links-section-list">
 
 {% for subcategory in category.subCategories %}
-{% if subcategory.displayName != "" %}
 <h3 class="links-section-subcategory">{{ subcategory.displayName }}</h3>
-{% endif %}
 {% assign numLinks = subcategory.links | size %}
 {% if numLinks == 0 %}
 <p>בקרוב</p>
