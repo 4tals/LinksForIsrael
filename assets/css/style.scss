@@ -73,7 +73,7 @@ body {
 	user-select: none;
 	gap: 5px;
 	cursor: pointer;
-	.share-container{
+	.share-container {
 		grid-column: 2;
 	}
 }
@@ -127,12 +127,13 @@ body {
 }
 
 .link-tags-list {
-	display: flex;
+	display: none;
 	flex-flow: row wrap;
 	gap: 8px;
 	width: 100%;
 
 	.tag {
+		display: none;
 		background-color: var(--color-title-blue);
 		border: 1px solid var(--color-link);
 		border-radius: 8px;

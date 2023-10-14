@@ -2,7 +2,7 @@
 	{
 		"name": "Defence",
 		"displayName": "הגנה - נשק, מקלט ופינוי",
-		"description": "",
+		"description": "מידע וכלים עבור הגנה אישית וקבוצתית במצבי חירום",
 		"image": "https://cdn-icons-png.flaticon.com/512/8193/8193190.png",
 		"subCategories": [
 			{
@@ -10,24 +10,35 @@
 				"displayName": "נשק",
 				"links": [
 					{
-						"name": "מידע וקישורים להוצאת רישיון כלי ירייה פרטי",
+						"name": "EligibilityForWeapon",
 						"displayName": "בדיקת זכאות לנשק",
-						"shortDescription": "",
-						"url": "./docs/weapon.html"
+						"shortDescription": "מידע על התהליך והקריטריונים להוצאת רישיון לנשק",
+						"url": "./docs/weapon.html",
+						"portal": "./docs/weapon.html",
+						"tags": [
+							"רישיון",
+							"ירייה",
+							"ביטחון"
+						]
 					}
 				]
 			},
 			{
-				"name": "",
+				"name": "Shelters",
 				"displayName": "השמשת מקלטים",
 				"links": [
 					{
-						"name": "MidragShelters",
-						"displayName": "פרויקט אתר מדרג להשמשה והכנה של מקלטים",
-						"shortDescription": "",
-						"description": "חמ״ל סיוע פרויקט אתר מדרג להשמשה והכנה של מקלטים",
+						"name": "MidragSheltersProject",
+						"displayName": "פרויקט מדרג להשמשת מקלטים",
+						"shortDescription": "חמ״ל סיוע והכנה של מקלטים למצבי חירום",
+						"description": "האילו והכנה של מקלטים בתגובה למצבי חירום ואירועים ביטחוניים",
 						"url": "https://forms.monday.com/forms/f1e1014123cf1aac6615780795aec231?r=use1",
-						"website": "https://forms.monday.com/forms/f1e1014123cf1aac6615780795aec231?r=use1"
+						"forms": "https://forms.monday.com/forms/f1e1014123cf1aac6615780795aec231?r=use1",
+						"tags": [
+							"מקלטים",
+							"הכנה",
+							"ביטחון"
+						]
 					}
 				]
 			},
@@ -36,12 +47,17 @@
 				"displayName": "חילוץ בזמן אמת",
 				"links": [
 					{
-						"name": "KvarBaim",
+						"name": "KvarBaimInitiative",
 						"displayName": "יוזמת כבר באים",
-						"shortDescription": "",
-						"description": "החמ״ל סייע בימים האחרונים בחילוץ מאות אנשים מישובי עוטף עזה – תוך חיבור בין אנשים הנצורים בביתם לכוחות הביטחון.",
+						"shortDescription": "יוזמה לחילוץ במצבי חירום בעוטף עזה",
+						"description": "החמ״ל סייע בחילוץ מאות אנשים מישובי עוטף עזה, כאשר הם נצורים בביתם במהלך אירועים ביטחוניים.",
 						"url": "https://www.kvarbaim.co.il/",
-						"website": "https://www.kvarbaim.co.il/"
+						"website": "https://www.kvarbaim.co.il/",
+						"tags": [
+							"חילוץ",
+							"הצילו",
+							"כוחות ביטחון"
+						]
 					}
 				]
 			}

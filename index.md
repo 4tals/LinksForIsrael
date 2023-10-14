@@ -62,6 +62,9 @@ direction: rtl
 {% if link.twitter %}
 <a href="{{ link.twitter }}" target="_blank"><img class="link-icon" src="https://cdn-icons-png.flaticon.com/512/124/124021.png" alt="Twitter Link"></a>
 {% endif %}
+{% if link.portal %}
+<a href="{{ link.portal }}" target="_blank"><img class="link-icon" src="https://res.cloudinary.com/dargbitr2/image/upload/v1697228919/LinksForIsrael/r5ysb355egkpyd10jovq.jpg" alt="Portal Link"></a>
+{% endif %}
 </div>
 
 {% if link.description != "" %}
