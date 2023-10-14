@@ -1,4 +1,238 @@
 [
+		{
+		"name": "general",
+		"displayName": "רב-נושאי/כללי",
+		"image": "https://cdn-icons-png.flaticon.com/512/6292/6292033.png",
+		"links": [
+				{
+						"description": "בוט וואטסאפ המחבר בין מתנדבים ומבקשי סיוע",
+						"displayName": "בוט-הברזל",
+						"url": "https://api.whatsapp.com/send/?phone=972507950106&text&type=phone_number&app_absent=0",
+						"tags": [
+								"מבקשי סיוע",
+								"אונליין",
+								"בוט",
+								"מתנדבים",
+								"וואטסאפ",
+								"צ'אט",
+								"כל הארץ,"
+						]
+				},
+				{
+						"description": "התנדבות דרך ארגון \"לב אחד\" - סיוע אזרחי בחירום",
+						"displayName": "לב אחד",
+						"url": "https://www.levechad.org/",
+						"tags": [
+								"סיוע",
+								"התנדבות",
+								"מחפשים מתנדבים",
+								"בני נוער",
+								"סיוע אזרחי",
+								"כל הארץ",
+								"מקבלים תרומות",
+								"אתר",
+								"עמותה"
+						]
+				},
+				{
+						"description": "חמ\"ל אזרחי לסיוע לתושבי הדרום - מתרומות כספיות ועד הסעות ושינוע",
+						"displayName": "חמ\"ל עם אחד",
+						"url": "https://www.am-ehad.org/",
+						"tags": [
+								"מתנדבים",
+								"תורמים",
+								"תרומות",
+								"הדרום",
+								"סיוע לדרום",
+								"אתר",
+								"סיוע"
+						]
+				},
+				{
+						"description": "מאגר יוזמות אזרחיות ושל חברות",
+						"displayName": "IsraHelp",
+						"url": "https://www.coing.co/Israhelp",
+						"tags": [
+								"קטגוריות",
+								"כל הארץ",
+								"אתר",
+								"סיוע",
+								"מתנדבים",
+								"ISRAHELP",
+								"תרומות"
+						]
+				},
+				{
+						"description": "מתנדבים ומגייסי מתנדבים",
+						"displayName": "עורף ברזל",
+						"url": "https://ironswords.help/",
+						"tags": [
+								"כל הארץ",
+								"אתר",
+								"מתנדבים",
+								"מגייסי מתנדבים",
+								"גיוסים"
+						]
+				},
+				{
+						"description": "מתנדבי חרבות ברזל (אירוח, טרמפים, סיוע עם חיות מחמד וכיו\"ב)",
+						"displayName": "מתנדבי חרבות ברזל",
+						"url": "https://www.facebook.com/groups/780925150471197/?ref=share&mibextid=lURqYx",
+						"tags": [
+								"פייסבוק",
+								"facebook",
+								"מתנדבים",
+								"התנדבות",
+								"חרבות ברזל"
+						]
+				},
+				{
+						"description": "יוצאי יחידות קרביות נותנים מענה (טלפוני\\אונליין) למשפחות של אנשי מילואים",
+						"displayName": "תומכים מהבית - עזרה למשפחות המילואימניקים",
+						"url": "https://www.miluim.org/",
+						"tags": [
+								"כל הארץ",
+								"אונליין",
+								"מחפשים מתנדבים",
+								"קבלת תרומות",
+								"מילואים"
+						]
+				}
+		]
+		},
+    {
+			"name": "info",
+			"displayName": "מידע שימושי",
+			"image": "https://cdn-icons-png.flaticon.com/128/3543/3543562.png",
+			"links": [
+					{
+							"description": "אתר המשרד לביטחון פנים: מחשבון לבדיקת זכאות לרישיון כלי ירייה פרטי",
+							"displayName": "בדיקת זכאות לנשק",
+							"url": "https://www.gov.il/apps/mops/firearm_license_calculator/",
+							"tags": [
+									"תנאי קבלה",
+									"זכאות",
+									"נשק",
+									"רישיון נשק",
+									"כלי ירייה",
+									"אקדח"
+							]
+					},
+					{
+							"description": "PDF של טופס בקשה לקבלת רישיון לכלי ירייה פרטי",
+							"displayName": "בקשת לקבלת רשיון נשק",
+							"url": "https://www.gov.il/BlobFolder/service/issue_firearms_license_to_a_private_individual/he/services_personal-fiream-request-form.pdf",
+							"tags": [
+									"בקשת רישיון נשק",
+									"טופס",
+									"נשק",
+									"רישיון נשק",
+									"כלי ירייה",
+									"אקדח"
+							]
+					},
+					{
+							"description": "אתר המשרד לביטחון פנים: רשימת תבחינים ותנאי סף לקבלת רישיון כלי ירייה פרטי",
+							"displayName": "תבחינים למתן רשיון נשק",
+							"url": "https://www.gov.il/he/departments/policies/firearm_licensing_criteria",
+							"tags": [
+									"תנאי קבלה",
+									"זכאות",
+									"נשק",
+									"רישיון נשק",
+									"כלי ירייה",
+									"אקדח"
+							]
+					}
+			]
+		},
+		{
+			"name": "moneyDonations",
+			"displayName": "תרומות כספיות",
+			"image": "https://cdn-icons-png.flaticon.com/128/10618/10618941.png",
+			"links": [
+					{
+							"description": "אתר לריכוז תרומות מאומתות",
+							"displayName": "Safe Donate",
+							"url": "https://safedonate.org.il/",
+							"tags": [
+									"אתר",
+									"כל הארץ",
+									"תרומות",
+									"תרומה כספית"
+							]
+					},
+					{
+							"description": "ריכוז תרומות למטרות כלליות, אזרחיות וצבאיות",
+							"displayName": "Isra-Aid",
+							"url": "https://israel-aid.com/",
+							"tags": [
+									"אתר",
+									"כל הארץ",
+									"תרומות",
+									"תרומה כספית",
+									"צה״ל"
+							]
+					},
+					{
+							"description": "תרומות כספיות וקריפטו",
+							"displayName": "Crypto Aid Israel",
+							"url": "https://cryptoaidisrael.com/",
+							"tags": [
+									"אתר",
+									"כל הארץ",
+									"תרומות",
+									"תרומה כספית",
+									"קריפטו"
+							]
+					},
+					{
+							"description": "אתר התרמות לעמותות למען ישראל",
+							"displayName": "Stand with Israel",
+							"url": "https://giveisrael.org",
+							"tags": [
+									"כל הארץ",
+									"תרומות כספיות",
+									"מקבלים תרומות",
+									"התרמה"
+							]
+					}
+			]
+		},
+		{
+				"name": "equipmentAndFoodDonations",
+				"displayName": "תרומות ציוד / אוכל",
+				"image": "https://cdn-icons-png.flaticon.com/128/10771/10771644.png",
+				"links": [
+						{
+								"description": "יוזמה המחברת בין מבקשי ציוד לנותני ציוד",
+								"displayName": "Supply Match",
+								"url": "https://supply-match.com/",
+								"tags": [
+										"אתר",
+										"תרומות",
+										"ציוד",
+										"ציוד צבאי",
+										"ציוד מיגון",
+										"ביגוד,התנדבות",
+										"אספקה"
+								]
+						},
+						{
+								"description": "מארזי תרומות של מזון דרך ולט לקניה של מזון בסיסי ושימורים",
+								"displayName": "תרומות מזון ישירות דרך וולט",
+								"url": "https://wolt.com/he/isr/tel-aviv/venue/support-the-south",
+								"tags": [
+										"אתר",
+										"כל הארץ",
+										"דרום",
+										"חיפוש מתנדבים",
+										"מזון",
+										"תרומת מזון"
+								]
+						}
+				]
+		},
     {
 				"name": "hosting",
         "displayName": "אירוח משפחות",
@@ -47,95 +281,49 @@
         ]
     },
     {
-				"name": "hasbara",
-        "displayName": "הסברה",
-				"image": "https://cdn-icons-png.flaticon.com/512/7553/7553719.png",	
-        "links": [
-            {
-                "description": "מאגר חומרי הסברה בכל השפות",
-                "displayName": "גוגל דרייב עם תוכן הסברה לפי שפות",
-                "url": "https://drive.google.com/drive/folders/1yzLNJmkM73o5Kl8eryPj4BBAA6qSTL7i",
-                "tags": [
-                    "אתר",
-                    "כל הארץ",
-                    "הסברה",
-                    "רשתות חברתיות",
-                    "חיפוש מתנדבים"
-                ]
-            },
-            {
-                "description": "קבוצה לחיזוק ההסברה הישראלית ברשתות החברתיות",
-                "displayName": "הסברה כחול לבן",
-                "url": "https://chat.whatsapp.com/KmsPfwYJaBEIPyzP8n3XrQ",
-                "tags": [
-                    "כל הארץ",
-                    "וואטסאפ",
-                    "רשתות חברתיות",
-                    "הסברה",
-                    "וואטסאפ",
-                    "מתנדבים",
-                    "הסברה ישראלית"
-                ]
-            },
-            {
-                "description": "אתר המרכז מידע על חללי המלחמה",
-                "displayName": "יזכור - חללי חרבות ברזל",
-                "url": "https://www.izkorharavot.com",
-                "tags": [
-                    "כל הארץ",
-                    "אתר",
-                    "חללי צה״ל",
-                    "הלוויות"
-                ]
-            }
-        ]
-    },
-    {
-				"name": "info",
-        "displayName": "מידע שימושי",
-				"image": "https://cdn-icons-png.flaticon.com/128/3543/3543562.png",
-        "links": [
-            {
-                "description": "אתר המשרד לביטחון פנים: מחשבון לבדיקת זכאות לרישיון כלי ירייה פרטי",
-                "displayName": "בדיקת זכאות לנשק",
-                "url": "https://www.gov.il/apps/mops/firearm_license_calculator/",
-                "tags": [
-                    "תנאי קבלה",
-                    "זכאות",
-                    "נשק",
-                    "רישיון נשק",
-                    "כלי ירייה",
-                    "אקדח"
-                ]
-            },
-            {
-                "description": "PDF של טופס בקשה לקבלת רישיון לכלי ירייה פרטי",
-                "displayName": "בקשת לקבלת רשיון נשק",
-                "url": "https://www.gov.il/BlobFolder/service/issue_firearms_license_to_a_private_individual/he/services_personal-fiream-request-form.pdf",
-                "tags": [
-                    "בקשת רישיון נשק",
-                    "טופס",
-                    "נשק",
-                    "רישיון נשק",
-                    "כלי ירייה",
-                    "אקדח"
-                ]
-            },
-            {
-                "description": "אתר המשרד לביטחון פנים: רשימת תבחינים ותנאי סף לקבלת רישיון כלי ירייה פרטי",
-                "displayName": "תבחינים למתן רשיון נשק",
-                "url": "https://www.gov.il/he/departments/policies/firearm_licensing_criteria",
-                "tags": [
-                    "תנאי קבלה",
-                    "זכאות",
-                    "נשק",
-                    "רישיון נשק",
-                    "כלי ירייה",
-                    "אקדח"
-                ]
-            }
-        ]
-    },
+			"name": "missing",
+			"displayName": "נעדרים",
+			"image": "https://cdn-icons-png.flaticon.com/512/2472/2472639.png",
+			"links": [
+					{
+							"description": "מתנדבים למציאת נעדרים ע\"י מכשור טכנולוגי (לפטופ, טלפון ישן וכיו\"ב)",
+							"displayName": "היוזמה לאיכון מכשירי נעדרים - בוגרי יחידות טכנולוגיות",
+							"url": "https://docs.google.com/forms/d/e/1FAIpQLSduujH277Cqt31XgOZfTZFAD4ua_YN8fXUtAlwOAHX2q9Emww/viewform",
+							"tags": [
+									"איכון",
+									"מכשירים ניידים",
+									"נעדרים",
+									"כל הארץ",
+									"רצועת עזה",
+									"בוגרי יחידות טכנולוגיות",
+									"איתור נעדרים",
+									"טופס"
+							]
+					},
+					{
+							"description": "מנוע חיפוש נעדרים לפי שם הנעדר",
+							"displayName": "ביחד למען הנעדרים",
+							"url": "https://needarim.org.il/",
+							"tags": [
+									"אתר",
+									"כל הארץ",
+									"נעדרים",
+									"חיפוש נעדרים"
+							]
+					},
+					{
+							"description": "מוקד מתנדבים המחבר לכוחות הצלה וחילוץ במקרי חירום",
+							"displayName": "יוזמת כבר באים",
+							"url": "https://www.kvarbaim.co.il",
+							"tags": [
+									"כל הארץ",
+									"אתר",
+									"חירום",
+									"חילוץ והצלה"
+							]
+					}
+			]
+		},
     {
 				"name": "logistics",
         "displayName": "נהגים - שינוע והובלה",
@@ -153,50 +341,6 @@
                     "תרומת מזון",
                     "שינוע",
                     "צה״ל"
-                ]
-            }
-        ]
-    },
-    {
-				"name": "missing",
-        "displayName": "נעדרים",
-				"image": "https://cdn-icons-png.flaticon.com/512/2472/2472639.png",
-        "links": [
-            {
-                "description": "מתנדבים למציאת נעדרים ע\"י מכשור טכנולוגי (לפטופ, טלפון ישן וכיו\"ב)",
-                "displayName": "היוזמה לאיכון מכשירי נעדרים - בוגרי יחידות טכנולוגיות",
-                "url": "https://docs.google.com/forms/d/e/1FAIpQLSduujH277Cqt31XgOZfTZFAD4ua_YN8fXUtAlwOAHX2q9Emww/viewform",
-                "tags": [
-                    "איכון",
-                    "מכשירים ניידים",
-                    "נעדרים",
-                    "כל הארץ",
-                    "רצועת עזה",
-                    "בוגרי יחידות טכנולוגיות",
-                    "איתור נעדרים",
-                    "טופס"
-                ]
-            },
-            {
-                "description": "מנוע חיפוש נעדרים לפי שם הנעדר",
-                "displayName": "ביחד למען הנעדרים",
-                "url": "https://needarim.org.il/",
-                "tags": [
-                    "אתר",
-                    "כל הארץ",
-                    "נעדרים",
-                    "חיפוש נעדרים"
-                ]
-            },
-            {
-                "description": "מוקד מתנדבים המחבר לכוחות הצלה וחילוץ במקרי חירום",
-                "displayName": "יוזמת כבר באים",
-                "url": "https://www.kvarbaim.co.il",
-                "tags": [
-                    "כל הארץ",
-                    "אתר",
-                    "חירום",
-                    "חילוץ והצלה"
                 ]
             }
         ]
@@ -253,6 +397,24 @@
             }
         ]
     },
+		{
+			"name": "social",
+			"displayName": "רשתות חברתיות",
+			"image": "https://cdn-icons-png.flaticon.com/512/4187/4187272.png",
+			"links": [
+					{
+							"description": "אתר להטרלת תומכי טרור ברשתות החברתיות",
+							"displayName": "להטריל תומכי טרור",
+							"url": "https://devhelps.github.io/you-stand-with-israel/",
+							"tags": [
+									"כל הארץ",
+									"אתר",
+									"משפיענים",
+									"רשתות חברתיות"
+							]
+					}
+			]
+		},
     {
 				"name": "funAndLearning",
         "displayName": "פנאי ולימוד לילדים",
@@ -335,210 +497,4 @@
             }
         ]
     },
-    {
-				"name": "general",
-        "displayName": "רב-נושאי/כללי",
-				"image": "https://cdn-icons-png.flaticon.com/512/6292/6292033.png",
-        "links": [
-            {
-                "description": "בוט וואטסאפ המחבר בין מתנדבים ומבקשי סיוע",
-                "displayName": "בוט-הברזל",
-                "url": "https://api.whatsapp.com/send/?phone=972507950106&text&type=phone_number&app_absent=0",
-                "tags": [
-                    "מבקשי סיוע",
-                    "אונליין",
-                    "בוט",
-                    "מתנדבים",
-                    "וואטסאפ",
-                    "צ'אט",
-                    "כל הארץ,"
-                ]
-            },
-            {
-                "description": "התנדבות דרך ארגון \"לב אחד\" - סיוע אזרחי בחירום",
-                "displayName": "לב אחד",
-                "url": "https://www.levechad.org/",
-                "tags": [
-                    "סיוע",
-                    "התנדבות",
-                    "מחפשים מתנדבים",
-                    "בני נוער",
-                    "סיוע אזרחי",
-                    "כל הארץ",
-                    "מקבלים תרומות",
-                    "אתר",
-                    "עמותה"
-                ]
-            },
-            {
-                "description": "חמ\"ל אזרחי לסיוע לתושבי הדרום - מתרומות כספיות ועד הסעות ושינוע",
-                "displayName": "חמ\"ל עם אחד",
-                "url": "https://www.am-ehad.org/",
-                "tags": [
-                    "מתנדבים",
-                    "תורמים",
-                    "תרומות",
-                    "הדרום",
-                    "סיוע לדרום",
-                    "אתר",
-                    "סיוע"
-                ]
-            },
-            {
-                "description": "מאגר יוזמות אזרחיות ושל חברות",
-                "displayName": "IsraHelp",
-                "url": "https://www.coing.co/Israhelp",
-                "tags": [
-                    "קטגוריות",
-                    "כל הארץ",
-                    "אתר",
-                    "סיוע",
-                    "מתנדבים",
-                    "ISRAHELP",
-                    "תרומות"
-                ]
-            },
-            {
-                "description": "מתנדבים ומגייסי מתנדבים",
-                "displayName": "עורף ברזל",
-                "url": "https://ironswords.help/",
-                "tags": [
-                    "כל הארץ",
-                    "אתר",
-                    "מתנדבים",
-                    "מגייסי מתנדבים",
-                    "גיוסים"
-                ]
-            },
-            {
-                "description": "מתנדבי חרבות ברזל (אירוח, טרמפים, סיוע עם חיות מחמד וכיו\"ב)",
-                "displayName": "מתנדבי חרבות ברזל",
-                "url": "https://www.facebook.com/groups/780925150471197/?ref=share&mibextid=lURqYx",
-                "tags": [
-                    "פייסבוק",
-                    "facebook",
-                    "מתנדבים",
-                    "התנדבות",
-                    "חרבות ברזל"
-                ]
-            },
-            {
-                "description": "יוצאי יחידות קרביות נותנים מענה (טלפוני\\אונליין) למשפחות של אנשי מילואים",
-                "displayName": "תומכים מהבית - עזרה למשפחות המילואימניקים",
-                "url": "https://www.miluim.org/",
-                "tags": [
-                    "כל הארץ",
-                    "אונליין",
-                    "מחפשים מתנדבים",
-                    "קבלת תרומות",
-                    "מילואים"
-                ]
-            }
-        ]
-    },
-    {
-				"name": "social",
-        "displayName": "רשתות חברתיות",
-				"image": "https://cdn-icons-png.flaticon.com/512/4187/4187272.png",
-        "links": [
-            {
-                "description": "אתר להטרלת תומכי טרור ברשתות החברתיות",
-                "displayName": "להטריל תומכי טרור",
-                "url": "https://devhelps.github.io/you-stand-with-israel/",
-                "tags": [
-                    "כל הארץ",
-                    "אתר",
-                    "משפיענים",
-                    "רשתות חברתיות"
-                ]
-            }
-        ]
-    },
-    {
-				"name": "moneyDonations",
-        "displayName": "תרומות כספיות",
-				"image": "https://cdn-icons-png.flaticon.com/128/10618/10618941.png",
-        "links": [
-            {
-                "description": "אתר לריכוז תרומות מאומתות",
-                "displayName": "Safe Donate",
-                "url": "https://safedonate.org.il/",
-                "tags": [
-                    "אתר",
-                    "כל הארץ",
-                    "תרומות",
-                    "תרומה כספית"
-                ]
-            },
-            {
-                "description": "ריכוז תרומות למטרות כלליות, אזרחיות וצבאיות",
-                "displayName": "Isra-Aid",
-                "url": "https://israel-aid.com/",
-                "tags": [
-                    "אתר",
-                    "כל הארץ",
-                    "תרומות",
-                    "תרומה כספית",
-                    "צה״ל"
-                ]
-            },
-            {
-                "description": "תרומות כספיות וקריפטו",
-                "displayName": "Crypto Aid Israel",
-                "url": "https://cryptoaidisrael.com/",
-                "tags": [
-                    "אתר",
-                    "כל הארץ",
-                    "תרומות",
-                    "תרומה כספית",
-                    "קריפטו"
-                ]
-            },
-            {
-                "description": "אתר התרמות לעמותות למען ישראל",
-                "displayName": "Stand with Israel",
-                "url": "https://giveisrael.org",
-                "tags": [
-                    "כל הארץ",
-                    "תרומות כספיות",
-                    "מקבלים תרומות",
-                    "התרמה"
-                ]
-            }
-        ]
-    },
-    {
-				"name": "equipmentAndFoodDonations",
-        "displayName": "תרומות ציוד / אוכל",
-				"image": "https://cdn-icons-png.flaticon.com/128/10771/10771644.png",
-        "links": [
-            {
-                "description": "יוזמה המחברת בין מבקשי ציוד לנותני ציוד",
-                "displayName": "Supply Match",
-                "url": "https://supply-match.com/",
-                "tags": [
-                    "אתר",
-                    "תרומות",
-                    "ציוד",
-                    "ציוד צבאי",
-                    "ציוד מיגון",
-                    "ביגוד,התנדבות",
-                    "אספקה"
-                ]
-            },
-            {
-                "description": "מארזי תרומות של מזון דרך ולט לקניה של מזון בסיסי ושימורים",
-                "displayName": "תרומות מזון ישירות דרך וולט",
-                "url": "https://wolt.com/he/isr/tel-aviv/venue/support-the-south",
-                "tags": [
-                    "אתר",
-                    "כל הארץ",
-                    "דרום",
-                    "חיפוש מתנדבים",
-                    "מזון",
-                    "תרומת מזון"
-                ]
-            }
-        ]
-    }
 ]
