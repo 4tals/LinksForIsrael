@@ -57,10 +57,10 @@ direction: rtl
 <a href="{{ link.instagram }}" target="_blank"><img class="link-icon" src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram Link"></a>
 {% endif %}
 {% if link.tiktok %}
-<a href="{{ link.tiktok }}" target="_blank"><img class="link-icon" src="https://cdn-icons-png.flaticon.com/512/124/124021.png" alt="Tiktok Link"></a>
+<a href="{{ link.tiktok }}" target="_blank"><img class="link-icon" src="https://static.vecteezy.com/system/resources/previews/023/986/921/original/tiktok-logo-tiktok-logo-transparent-tiktok-icon-transparent-free-free-png.png" alt="Tiktok Link"></a>
 {% endif %}
 {% if link.twitter %}
-<a href="{{ link.twitter }}" target="_blank"><img class="link-icon" src="https://static.vecteezy.com/system/resources/previews/023/986/921/original/tiktok-logo-tiktok-logo-transparent-tiktok-icon-transparent-free-free-png.png" alt="Twitter Link"></a>
+<a href="{{ link.twitter }}" target="_blank"><img class="link-icon" src="https://cdn-icons-png.flaticon.com/512/124/124021.png" alt="Twitter Link"></a>
 {% endif %}
 </div>
 
