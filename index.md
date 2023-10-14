@@ -16,7 +16,9 @@ direction: rtl
 <ul class="links-section-list">
 
 {% for subcategory in category.subCategories %}
+{% if subcategory.displayName != "" %}
 <h3 class="links-section-subcategory">{{ subcategory.displayName }}</h3>
+{% endif %}
 {% assign numLinks = subcategory.links | size %}
 {% if numLinks == 0 %}
 <p>בקרוב</p>

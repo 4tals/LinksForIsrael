@@ -76,6 +76,13 @@ body {
 	cursor: pointer;
 }
 
+.main-content .links-section-list {
+  
+	:first-child {
+	  margin-top: 10px;
+	}
+}
+
 .links-section-content {
 	--link-font-size: 16px;
 
