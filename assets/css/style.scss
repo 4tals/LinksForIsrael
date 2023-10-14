@@ -157,6 +157,9 @@ body {
 	background-color: var(--color-blue);
 	background-image: none;
 	height: 119px;
+	position: fixed;
+    width: 100%;
+    top: 0;
 	color: var(--color-white);
 	.main-title {
 		color: var(--color-white);
@@ -182,6 +185,10 @@ body {
 	font-weight: 400;
 	text-align: center;
 	padding-block-start: 40px;
+}
+
+.main-subtitle:first-of-type {
+	margin-top: 100px;
 }
 
 .main-content h1,
