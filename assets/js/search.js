@@ -1,5 +1,10 @@
 
 
+function clearResultsList() {
+    var searchResults = document.getElementById('search-results');
+    searchResults.innerHTML = '';
+}
+
 function displaySearchResults(results, links) {
 
     var searchResults = document.getElementById('search-results');
@@ -103,7 +108,9 @@ function search(searchTerm) {
         console.log("result")
         displaySearchResults(results, window.linksOnly);
     }
-
+    else {
+        clearResultsList()
+    }
 }
 
  
@@ -122,6 +129,12 @@ document.addEventListener("DOMContentLoaded", function() {
     searchInput.addEventListener("input", function(event) {
         const searchTerm = event.target.value;
         search(searchTerm)
+    });
+
+    document.addEventListener("keydown", function(event) {
+        if (event.key === "Escape") {
+            overlayElement.classList.remove("active");
+        }
     });
     
     // overlayElement.addEventListener("click", function() {
