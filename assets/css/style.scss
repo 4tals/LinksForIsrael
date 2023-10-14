@@ -18,6 +18,18 @@
 	--link-font-size: 24px;
 }
 
+.link-icon {
+	width: 30px;
+	height: 30px;
+	margin: 0 5px;
+}
+
+.link-icons {
+    display: flex;
+    flex-direction: row;
+    // gap: 5px; /* Adjust the gap between icons as needed */
+}
+
 body {
 	background: var(--color-light-blue);
 	font-family: Rubik, sans-serif;

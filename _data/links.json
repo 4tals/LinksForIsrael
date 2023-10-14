@@ -12,7 +12,7 @@
 					{
 						"name": "mitmadvimAutomation",
 						"displayName": "אוטומציה בין מתנדבים למחפשי עזרה",
-						"shortDescription": "וואטסאפ",
+						"shortDescription": "",
 						"url": "https://chat.whatsapp.com/JuJ1da4wYbe16uZL0cqL40",
 						"whatsapp": "https://chat.whatsapp.com/JuJ1da4wYbe16uZL0cqL40"
 					},
@@ -63,7 +63,8 @@
 						"displayName": "הצעה מוויקס לתמיכה במנטורשיפ ותמיכה טכנית",
 						"shortDescription": "",
 						"description": "שימו לב - אם אתם מובילים יוזמה אזרחית בהתנדבות להקמת אתר המסייע בחילוץ, הסברה או מתן סיוע אזרחי אחר, וצריכים עזרה בשיפור אתר קיים בויקס או בנייה בפועל של אתר בסיסי, המנטורים של Wix ישמחו לעזור לכם.",
-						"url": "https://twitter.com/morad/status/1711063336022876357"
+						"url": "https://twitter.com/morad/status/1711063336022876357",
+						"twitter": "https://twitter.com/morad/status/1711063336022876357"
 					}
 				]
 			},
@@ -88,20 +89,23 @@
 					{
 						"name": "YotseiModiinVolunteers",
 						"displayName": "מערך המתנדבים של יוצאי יחידות המודיעין",
-						"shortDescription": "(מיתר, וואטסאפ, 054-3047255)",
-						"url": "https://wa.me/972543047255"
+						"shortDescription": "מיתר",
+						"url": "https://wa.me/972543047255",
+						"whatsapp": "https://wa.me/972543047255"
 					},
 					{
 						"name": "TechVolunteersForm",
 						"displayName": "טופס הרשמה ליזמות טכנולוגיות",
 						"shortDescription": "",
-						"url": "https://forms.gle/wVB2zNKRZSUhQb79A"
+						"url": "https://forms.gle/wVB2zNKRZSUhQb79A",
+						"forms": "https://forms.gle/wVB2zNKRZSUhQb79A"
 					},
 					{
 						"name": "InitiativeManagementDiscort",
 						"displayName": "דיסקורד לניהול יוזמות",
 						"shortDescription": "",
-						"url": "https://discord.gg/3Jg6us3b"
+						"url": "https://discord.gg/3Jg6us3b",
+						"discord": "https://discord.gg/3Jg6us3b"
 					}
 				]
 			},
@@ -114,27 +118,31 @@
 						"displayName": "מתקפת DDOS על אתרי חמאס",
 						"shortDescription": "",
 						"description": "חברים מהסייבר בנו אתר שעושה מתקפת DDOS על אתרי גיוס תרומות של חמאס כנסו ללינק ותפעלו עפ”י ההוראות",
-						"url": "https://fuck-hamas.com/"
+						"url": "https://fuck-hamas.com/",
+						"website": "https://fuck-hamas.com/"
 					},
 					{
 						"name": "OSINT1",
 						"displayName": "מאגר ה-OSINT האזרחי",
 						"shortDescription": "בקשת גישה",
 						"description": "בימים האחרונים אנחנו עובדים על סריקה מלאה של הרשתות החברתיות עבור סרטונים, תמונות וטקסט והנגשה של המידע עבור צרכנים שונים. קיים מידע גולמי ובחלק מהמאגר קיים מידע מעובד, בין אם OCR או מסקנות יותר ספציפיות. במאגר כרגע יש מעל 1M תמונו וסרטונים ו-1M פוסטים טקסטואליים ומידע חדש נכנס בזמן אמת (נכון ל-11.10.23). כמובן אם אתם מכירים אנשים שרלוונטי אליהם מוזמנים להפיץ.",
-						"url": "https://forms.gle/bD8HnL5zPQ5xxWPY7"
+						"url": "https://forms.gle/bD8HnL5zPQ5xxWPY7",
+						"forms": "https://forms.gle/bD8HnL5zPQ5xxWPY7"
 					},
 					{
 						"name": "OSINT2",
 						"displayName": "מאגר ה-OSINT האזרחי",
 						"shortDescription": "בקשה להצטרף להוספת מידע למאגר",
-						"url": "https://forms.gle/kW9SasRGpavT3zt37"
+						"url": "https://forms.gle/kW9SasRGpavT3zt37",
+						"forms": "https://forms.gle/kW9SasRGpavT3zt37"
 					},
 					{
 						"name": "OSINT3",
 						"displayName": "מאגר ה-OSINT האזרחי",
 						"shortDescription": "אשלי, וואטסאפ",
 						"description": "לפרטים נוספים שלא קשורים ל-2 האופיות להעיל ניתן לפנות אל אשלי. במידה ומילאתם את הטופס נחזור אליכם בהקדם.",
-						"url": "https://wa.me/972587786330"
+						"url": "https://wa.me/972587786330",
+						"whatsapp": "https://wa.me/972587786330"
 					}
 				]
 			}
@@ -155,28 +163,32 @@
 						"displayName": "Iron Bot - בוט הברזל",
 						"shortDescription": "וואטסאפ",
 						"description": "ברוכים הבאים לבוט הברזל 👋⚔️ אנחנו מסייעים לאלפי ישראלים מידי יום בשיתוף העמותות המובילות בישראל. שולחים הודעה בואצאפ והבוט מנווט אותך לקבוצת הסיוע המתאימה לך.",
-						"url": "http://tiny.cc/ek3cvz"
+						"url": "http://tiny.cc/ek3cvz",
+						"whatsapp": "http://tiny.cc/ek3cvz"
 					},
 					{
 						"name": "LevEhad",
 						"displayName": "לב אחד",
 						"shortDescription": "",
 						"description": "ארגון לב אחד נוסד מתוך ההבנה כי, בשעות חירום, רתימת האזרחים להתנדבות פעילה יש בכוחה להוציאם ממעגל הקרבנות הפסיביים, ליצור חוסן חברתי אזרחי ולהעניק לרשות המקומית מכפלת כוח דרמטית.",
-						"url": "https://www.levechad.org/"
+						"url": "https://www.levechad.org/",
+						"website": "https://www.levechad.org/"
 					},
 					{
 						"name": "KhamalAmEhad",
 						"displayName": "חמ״ל עם אחד",
 						"shortDescription": "",
 						"description": "חמ״ל סיוע מרכזי המחבר בין משפחות מארחות למשפחות מדרום הארץ, מעמיד שירותי הסעות מקו העימות לאזורים בטוחים ומגייס תרומות לסיוע עבור תושבי קו הלחימה.",
-						"url": "https://www.am-ehad.org/"
+						"url": "https://www.am-ehad.org/",
+						"website": "https://www.am-ehad.org/"
 					},
 					{
 						"name": "IsraHelp",
 						"displayName": "IsraHelp",
 						"shortDescription": "",
 						"description": "מרכז קישורים ליוזמות וקבוצות סיוע אזרחיות ברחבי הארץ החל מיומה הראשון של מלחמת “חרבות ברזל”.",
-						"url": "https://www.am-ehad.org/"
+						"url": "https://www.coing.co/Israhelp",
+						"website": "https://www.coing.co/Israhelp"
 					}
 				]
 			},
@@ -188,31 +200,36 @@
 						"name": "HamalHiburim",
 						"displayName": "חמ״ל חיבורים",
 						"shortDescription": "פייסבוק",
-						"url": "https://m.facebook.com/groups/780925150471197/?ref=share&mibextid=lURqYx"
+						"url": "https://m.facebook.com/groups/780925150471197/?ref=share&mibextid=lURqYx",
+						"facebook": "https://m.facebook.com/groups/780925150471197/?ref=share&mibextid=lURqYx"
 					},
 					{
 						"name": "IrgunSiuaEzrahimClali1",
 						"displayName": "ארגון סיוע אזרחים כללי - מרכז",
 						"shortDescription": "וואטסאפ",
-						"url": "https://chat.whatsapp.com/Bsy4Sc9jM4PIS64JD1aRnp"
+						"url": "https://chat.whatsapp.com/Bsy4Sc9jM4PIS64JD1aRnp",
+						"whatsapp": "https://chat.whatsapp.com/Bsy4Sc9jM4PIS64JD1aRnp"
 					},
 					{
 						"name": "IrgunSiuaEzrahimClali2",
 						"displayName": "ארגון סיוע אזרחים כללי - צפון",
 						"shortDescription": "וואטסאפ",
-						"url": "https://chat.whatsapp.com/ChDI2XilcBSCuQG1ZIzQQp"
+						"url": "https://chat.whatsapp.com/ChDI2XilcBSCuQG1ZIzQQp",
+						"whatsapp": "https://chat.whatsapp.com/ChDI2XilcBSCuQG1ZIzQQp"
 					},
 					{
 						"name": "IrgunSiuaEzrahimClali3",
 						"displayName": "ארגון סיוע אזרחים כללי - דרום",
 						"shortDescription": "וואטסאפ",
-						"url": "https://chat.whatsapp.com/GY2MwfFLaLwAfJbydxte2X"
+						"url": "https://chat.whatsapp.com/GY2MwfFLaLwAfJbydxte2X",
+						"whatsapp": "https://chat.whatsapp.com/GY2MwfFLaLwAfJbydxte2X"
 					},
 					{
 						"name": "IrgunSiuaEzrahimClali4",
 						"displayName": "ארגון סיוע אזרחים כללי - ירושלים",
 						"shortDescription": "וואטסאפ",
-						"url": "https://chat.whatsapp.com/BS2qZmtb9zGEdRgrqZlW9h"
+						"url": "https://chat.whatsapp.com/BS2qZmtb9zGEdRgrqZlW9h",
+						"whatsapp": "https://chat.whatsapp.com/BS2qZmtb9zGEdRgrqZlW9h"
 					}
 				]
 			}
@@ -265,7 +282,8 @@
 						"tags": [
 							"automatic-matchers"
 						],
-						"url": "https://supply-match.com/"
+						"url": "https://supply-match.com/",
+						"website": "https://supply-match.com/"
 					},
 					{
 						"name": "AsakimNirtamimEquipment",
@@ -273,7 +291,8 @@
 						"shortDescription": "",
 						"description": "",
 						"tags": [],
-						"url": "https://forms.monday.com/forms/25c5ac9f7676f6ffbf7fae7b982e87ef?r=use1"
+						"url": "https://forms.monday.com/forms/25c5ac9f7676f6ffbf7fae7b982e87ef?r=use1",
+						"forms": "https://forms.monday.com/forms/25c5ac9f7676f6ffbf7fae7b982e87ef?r=use1"
 					}
 				]
 			}

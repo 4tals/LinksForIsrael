@@ -30,24 +30,34 @@ direction: rtl
 {% elsif link.shortDescription != "" %}
 <a href="{{ link.url }}" target="_blank" id="{{ link.name }}">{{ link.displayName }}<br /><span class="links-section-item-short-description">{{ link.shortDescription }}</span></a>
 {% endif %}
+
+<div class="link-icons">
 {% if link.whatsapp %}
-<a href="{{ link.whatsapp }}" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/WhatsApp_icon.png/598px-WhatsApp_icon.png" alt="WhatsApp Link" style="width:20px; height:20px;"></a>
+<a href="{{ link.whatsapp }}" target="_blank"><img class="link-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/WhatsApp_icon.png/598px-WhatsApp_icon.png" alt="WhatsApp Link"></a>
 {% endif %}
 {% if link.telegram %}
-<a href="{{ link.telegram }}" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/512px-Telegram_logo.svg.png" alt="Telegram Link" style="width:20px; height:20px;"></a>
+<a href="{{ link.telegram }}" target="_blank"><img class="link-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/512px-Telegram_logo.svg.png" alt="Telegram Link"></a>
 {% endif %}
 {% if link.drive %}
-<a href="{{ link.drive }}" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Google_Drive_icon_%282020%29.svg/2295px-Google_Drive_icon_%282020%29.svg.png" alt="Google Drive Link" style="width:20px; height:20px;"></a>
+<a href="{{ link.drive }}" target="_blank"><img class="link-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Google_Drive_icon_%282020%29.svg/2295px-Google_Drive_icon_%282020%29.svg.png" alt="Google Drive Link"></a>
 {% endif %}
 {% if link.forms %}
-<a href="{{ link.forms }}" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/5968/5968528.png" alt="Google Forms Link" style="width:20px; height:20px;"></a>
+<a href="{{ link.forms }}" target="_blank"><img class="link-icon" src="https://cdn-icons-png.flaticon.com/512/5968/5968528.png" alt="Google Forms Link"></a>
 {% endif %}
 {% if link.docs %}
-<a href="{{ link.docs }}" target="_blank"><img src="https://cdn4.iconfinder.com/data/icons/free-colorful-icons/360/google_docs.png" alt="Google Docs Link" style="width:20px; height:20px;"></a>
+<a href="{{ link.docs }}" target="_blank"><img class="link-icon" src="https://cdn4.iconfinder.com/data/icons/free-colorful-icons/360/google_docs.png" alt="Google Docs Link"></a>
 {% endif %}
 {% if link.website %}
-<a href="{{ link.website }}" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/5602/5602732.png" alt="Website Link" style="width:20px; height:20px;"></a>
+<a href="{{ link.website }}" target="_blank"><img class="link-icon" src="https://cdn-icons-png.flaticon.com/512/5602/5602732.png" alt="Website Link"></a>
 {% endif %}
+{% if link.discord %}
+<a href="{{ link.discord }}" target="_blank"><img class="link-icon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiDCYwuxNrkxd_oOUGb0RxYQ5RH_aFzXlxmlgb_183&s" alt="Discord Link"></a>
+{% endif %}
+{% if link.twitter %}
+<a href="{{ link.twitter }}" target="_blank"><img class="link-icon" src="https://cdn-icons-png.flaticon.com/512/124/124021.png" alt="Twitter Link"></a>
+{% endif %}
+</div>
+
 {% if link.description != "" %}
 <p>{{ link.description }}</p>
 {% endif %}
