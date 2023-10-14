@@ -42,9 +42,10 @@ function initializeShareButtons() {
   const sections = document.querySelectorAll("details");
   sections.forEach(async (section) => {
     const shareContainer = document.createElement("div");
+    const category = section.querySelector("h2").innerText;
     shareContainer.classList.add("share-container");
     const text = document.createElement("span");
-    text.textContent = "ניתן לשתף ישירות את הקטגוריה באמצעות";
+    text.textContent = `ניתן לשתף ישירות את הקטגוריה ${category} באמצעות`;
     shareContainer.appendChild(text);
 
     const siteUrl = new URL(window.location.href);
@@ -52,8 +53,8 @@ function initializeShareButtons() {
     if (navigator.share) {
       // add share button for mobile - only if supported
       const shareData = {
-        title: "לינק לישראל - פורטל יוזמות",
-        text: "כל אתרי הסיוע למלחמה במקום אחד 🇮🇱",
+        title: "לינק לישראל - כל אתרי הסיוע למלחמה במקום אחד 🇮🇱",
+        text: category,
         url: `${siteUrl.origin}#${section.id}`,
       };
 
