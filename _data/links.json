@@ -114,14 +114,6 @@
 				"displayName": "סייבר",
 				"links": [
 					{
-						"name": "HamasSitesDDOS",
-						"displayName": "מתקפת DDOS על אתרי חמאס",
-						"shortDescription": "",
-						"description": "חברים מהסייבר בנו אתר שעושה מתקפת DDOS על אתרי גיוס תרומות של חמאס כנסו ללינק ותפעלו עפ”י ההוראות",
-						"url": "https://fuck-hamas.com/",
-						"website": "https://fuck-hamas.com/"
-					},
-					{
 						"name": "OSINT1",
 						"displayName": "מאגר ה-OSINT האזרחי",
 						"shortDescription": "בקשת גישה",
