@@ -46,13 +46,13 @@ body {
 	display: flex;
 	flex-direction: column;
 
-	&:hover {
-		.share-btn,
-		.whatsapp-btn,
-		.telegram-btn {
-			display: inline-block;
-		}
-	}
+	// &:hover {
+	// 	.share-btn,
+	// 	.whatsapp-btn,
+	// 	.telegram-btn {
+	// 		display: inline-block;
+	// 	}
+	// }
 
 	h2 {
 		align-items: center;
@@ -67,11 +67,15 @@ body {
 
 .links-section-title {
 	align-items: center;
-	display: flex;
-	justify-content: space-between;
+	display: grid;
+	grid-template-columns: 70px 1fr 20px;
 	padding: 16px;
 	user-select: none;
+	gap: 5px;
 	cursor: pointer;
+	.share-container{
+		grid-column: 2;
+	}
 }
 
 .main-content .links-section-list {
@@ -251,7 +255,6 @@ body {
 	height: 35px; /* Increased height */
 	font-size: 1rem; /* Increased font-size */
 	line-height: 35px;
-	display: none;
 	cursor: pointer; /* Add a pointer cursor to indicate clickability */
 }
 
