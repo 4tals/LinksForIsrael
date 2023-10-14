@@ -279,9 +279,7 @@
 						"displayName": "Supply Match",
 						"shortDescription": "יוזמה המחברת בין מבקשי ציוד לנותני ציוד",
 						"description": "יוזמה לאומית רחבה מאוד שכוללת את פיקוד העורף, מטה ההתנדבות הלאומי, האגודה למען החייל, הג’ויינט, הפורום הכלכלי חברתי ועוד.",
-						"tags": [
-							"automatic-matchers"
-						],
+						"tags": [],
 						"url": "https://supply-match.com/",
 						"website": "https://supply-match.com/"
 					},
