@@ -15,15 +15,11 @@ direction: rtl
 <div class="links-section-content">
 <ul class="links-section-list">
 
-{% for subcategory in category.subCategories %}
-{% if subcategory.displayName != "" %}
-<h3 class="links-section-subcategory">{{ subcategory.displayName }}</h3>
-{% endif %}
-{% assign numLinks = subcategory.links | size %}
+{% assign numLinks = category.links | size %}
 {% if numLinks == 0 %}
 <p>בקרוב</p>
 {% endif %}
-{% for link in subcategory.links %}
+{% for link in category.links %}
 <li class="links-section-item">
 {% if link.shortDescription == "" %}
 <a href="{{ link.url }}" target="_blank" id="{{ link.name }}">{{ link.displayName }}</a>
@@ -65,22 +61,12 @@ direction: rtl
 </div>
 
 {% if link.description != "" %}
-<p>{{ link.description }}</p>
-
-{% assign numTags = link.tags | size %}
-{% if numTags != 0 %}
-<ul class="link-tags-list">
-{% for tag in link.tags %}
-<li class="tag">{{ tag }}</li>
-{% endfor %}
-</ul>
-{% endif %}
+<p class="link-description">{{ link.description }}</p>
 
 {% endif %}
 </li>
 {% endfor %}
 
-{% endfor %}
 </ul>
 </div>
 </details>

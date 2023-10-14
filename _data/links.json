@@ -1,825 +1,544 @@
 [
-	{
-		"name": "TechInitiatives",
-		"displayName": "יוזמות טכנולוגיות - התנדבות, סייבר, קבלת סיוע",
-		"description": "",
-		"image": "https://cdn-icons-png.flaticon.com/512/3887/3887062.png",
-		"subCategories": [
-			{
-				"name": "TechInitiativesMain",
-				"displayName": "יוזמות קיימות",
-				"links": [
-					{
-						"name": "mitmadvimAutomation",
-						"displayName": "אוטומציה בין מתנדבים למחפשי עזרה",
-						"shortDescription": "",
-						"url": "https://chat.whatsapp.com/JuJ1da4wYbe16uZL0cqL40",
-						"whatsapp": "https://chat.whatsapp.com/JuJ1da4wYbe16uZL0cqL40"
-					},
-					{
-						"name": "IsraelDiplomacy",
-						"displayName": "Israel Diplomacy",
-						"shortDescription": "",
-						"description": "אתר עם תוכן מוכן לשיתוף לצרכי הסברה",
-						"url": "https://github.com/nirtz89/israel_diplomacy",
-						"website": "https://github.com/nirtz89/israel_diplomacy"
-					},
-					{
-						"name": "BotsForIsrael",
-						"displayName": "Bots For Israel - בוטים למען ישראל",
-						"shortDescription": "",
-						"url": "https://chat.whatsapp.com/CWmy7ai0VJ1449FVgShVGk",
-						"whatsapp": "https://chat.whatsapp.com/CWmy7ai0VJ1449FVgShVGk"
-					},
-					{
-						"name": "ProAntiClassification",
-						"displayName": "סיווג טקסט פרו/אנטי ישראלי",
-						"shortDescription": "",
-						"url": "https://chat.whatsapp.com/K9iNqhuwhdmLvAJhNrh6y0",
-						"whatsapp": "https://chat.whatsapp.com/K9iNqhuwhdmLvAJhNrh6y0"
-					},
-					{
-						"name": "IkhunMakhshirim",
-						"displayName": "איכון מכשירי נעדרים",
-						"shortDescription": "",
-						"url": "https://docs.google.com/forms/d/e/1FAIpQLSduujH277Cqt31XgOZfTZFAD4ua_YN8fXUtAlwOAHX2q9Emww/viewform?usp=sf_link",
-						"docs": "https://docs.google.com/forms/d/e/1FAIpQLSduujH277Cqt31XgOZfTZFAD4ua_YN8fXUtAlwOAHX2q9Emww/viewform?usp=sf_link"
-					}
-				]
-			},
-			{
-				"name": "TechInitiativesSupport",
-				"displayName": "מחפש עזרה ליוזמה טכנולוגית",
-				"links": [
-					{
-						"name": "HamalRivonReviiVolunteers",
-						"displayName": "מתנדבי דאטה וטכנולוגיה - חמל הרבעון הרביעי",
-						"shortDescription": "",
-						"url": "https://chat.whatsapp.com/E2HvCLeTNaP601kA71HYxE",
-						"whatsapp": "https://chat.whatsapp.com/E2HvCLeTNaP601kA71HYxE"
-					},
-					{
-						"name": "WixOfferingMentorshipSupport",
-						"displayName": "הצעה מוויקס לתמיכה במנטורשיפ ותמיכה טכנית",
-						"shortDescription": "",
-						"description": "שימו לב - אם אתם מובילים יוזמה אזרחית בהתנדבות להקמת אתר המסייע בחילוץ, הסברה או מתן סיוע אזרחי אחר, וצריכים עזרה בשיפור אתר קיים בויקס או בנייה בפועל של אתר בסיסי, המנטורים של Wix ישמחו לעזור לכם.",
-						"url": "https://twitter.com/morad/status/1711063336022876357",
-						"twitter": "https://twitter.com/morad/status/1711063336022876357"
-					}
-				]
-			},
-			{
-				"name": "TechInitiativesVolunteers",
-				"displayName": "התנדבות ליוזמות טכנולוגיה",
-				"links": [
-					{
-						"name": "PitronotTechEmergency",
-						"displayName": "פתרונות טכנולוגיים - צוות חירום",
-						"shortDescription": "",
-						"url": "https://chat.whatsapp.com/DyIdNxWEONu69Oksm3mRmS",
-						"whatsapp": "https://chat.whatsapp.com/DyIdNxWEONu69Oksm3mRmS"
-					},
-					{
-						"name": "DevHelpsTechVolunteers",
-						"displayName": "DevHelp - Tech Volunteers",
-						"shortDescription": "",
-						"url": "https://chat.whatsapp.com/GLmj3FDWiCW1RWDRnL79UV",
-						"whatsapp": "https://chat.whatsapp.com/GLmj3FDWiCW1RWDRnL79UV"
-					},
-					{
-						"name": "YotseiModiinVolunteers",
-						"displayName": "מערך המתנדבים של יוצאי יחידות המודיעין",
-						"shortDescription": "מיתר",
-						"url": "https://wa.me/972543047255",
-						"whatsapp": "https://wa.me/972543047255"
-					},
-					{
-						"name": "TechVolunteersForm",
-						"displayName": "טופס הרשמה ליזמות טכנולוגיות",
-						"shortDescription": "",
-						"url": "https://forms.gle/wVB2zNKRZSUhQb79A",
-						"forms": "https://forms.gle/wVB2zNKRZSUhQb79A"
-					},
-					{
-						"name": "InitiativeManagementDiscort",
-						"displayName": "דיסקורד לניהול יוזמות",
-						"shortDescription": "",
-						"url": "https://discord.gg/3Jg6us3b",
-						"discord": "https://discord.gg/3Jg6us3b"
-					}
-				]
-			},
-			{
-				"name": "CyberMain",
-				"displayName": "סייבר",
-				"links": [
-					{
-						"name": "OSINT1",
-						"displayName": "מאגר ה-OSINT האזרחי",
-						"shortDescription": "בקשת גישה",
-						"description": "בימים האחרונים אנחנו עובדים על סריקה מלאה של הרשתות החברתיות עבור סרטונים, תמונות וטקסט והנגשה של המידע עבור צרכנים שונים. קיים מידע גולמי ובחלק מהמאגר קיים מידע מעובד, בין אם OCR או מסקנות יותר ספציפיות. במאגר כרגע יש מעל 1M תמונו וסרטונים ו-1M פוסטים טקסטואליים ומידע חדש נכנס בזמן אמת (נכון ל-11.10.23). כמובן אם אתם מכירים אנשים שרלוונטי אליהם מוזמנים להפיץ.",
-						"url": "https://forms.gle/bD8HnL5zPQ5xxWPY7",
-						"forms": "https://forms.gle/bD8HnL5zPQ5xxWPY7"
-					},
-					{
-						"name": "OSINT2",
-						"displayName": "מאגר ה-OSINT האזרחי",
-						"shortDescription": "בקשה להצטרף להוספת מידע למאגר",
-						"url": "https://forms.gle/kW9SasRGpavT3zt37",
-						"forms": "https://forms.gle/kW9SasRGpavT3zt37"
-					},
-					{
-						"name": "OSINT3",
-						"displayName": "מאגר ה-OSINT האזרחי",
-						"shortDescription": "אשלי, וואטסאפ",
-						"description": "לפרטים נוספים שלא קשורים ל-2 האופיות להעיל ניתן לפנות אל אשלי. במידה ומילאתם את הטופס נחזור אליכם בהקדם.",
-						"url": "https://wa.me/972587786330",
-						"whatsapp": "https://wa.me/972587786330"
-					}
-				]
-			}
-		]
-	},
-	{
-		"name": "Info",
-		"displayName": "ריכוז מידע שימושי וסיוע בכל נושא - יוזמות, התנדבויות, סיוע",
-		"description": "",
-		"image": "https://cdn-icons-png.flaticon.com/512/6292/6292033.png",
-		"subCategories": [
-			{
-				"name": "InfoMain",
-				"displayName": "",
-				"links": [
-					{
-						"name": "IronBot",
-						"displayName": "Iron Bot - בוט הברזל",
-						"shortDescription": "וואטסאפ",
-						"description": "ברוכים הבאים לבוט הברזל 👋⚔️ אנחנו מסייעים לאלפי ישראלים מידי יום בשיתוף העמותות המובילות בישראל. שולחים הודעה בואצאפ והבוט מנווט אותך לקבוצת הסיוע המתאימה לך.",
-						"url": "http://tiny.cc/ek3cvz",
-						"whatsapp": "http://tiny.cc/ek3cvz"
-					},
-					{
-						"name": "LevEhad",
-						"displayName": "לב אחד",
-						"shortDescription": "",
-						"description": "ארגון לב אחד נוסד מתוך ההבנה כי, בשעות חירום, רתימת האזרחים להתנדבות פעילה יש בכוחה להוציאם ממעגל הקרבנות הפסיביים, ליצור חוסן חברתי אזרחי ולהעניק לרשות המקומית מכפלת כוח דרמטית.",
-						"url": "https://www.levechad.org/",
-						"website": "https://www.levechad.org/"
-					},
-					{
-						"name": "KhamalAmEhad",
-						"displayName": "חמ״ל עם אחד",
-						"shortDescription": "",
-						"description": "חמ״ל סיוע מרכזי המחבר בין משפחות מארחות למשפחות מדרום הארץ, מעמיד שירותי הסעות מקו העימות לאזורים בטוחים ומגייס תרומות לסיוע עבור תושבי קו הלחימה.",
-						"url": "https://www.am-ehad.org/",
-						"website": "https://www.am-ehad.org/"
-					},
-					{
-						"name": "IsraHelp",
-						"displayName": "IsraHelp",
-						"shortDescription": "",
-						"description": "מרכז קישורים ליוזמות וקבוצות סיוע אזרחיות ברחבי הארץ החל מיומה הראשון של מלחמת “חרבות ברזל”.",
-						"url": "https://www.coing.co/Israhelp",
-						"website": "https://www.coing.co/Israhelp"
-					}
-				]
-			},
-			{
-				"name": "AssistanceMain",
-				"displayName": "סיוע כללי בכל הנושאים",
-				"links": [
-					{
-						"name": "HamalHiburim",
-						"displayName": "חמ״ל חיבורים",
-						"shortDescription": "פייסבוק",
-						"url": "https://m.facebook.com/groups/780925150471197/?ref=share&mibextid=lURqYx",
-						"facebook": "https://m.facebook.com/groups/780925150471197/?ref=share&mibextid=lURqYx"
-					},
-					{
-						"name": "IrgunSiuaEzrahimClali1",
-						"displayName": "ארגון סיוע אזרחים כללי - מרכז",
-						"shortDescription": "וואטסאפ",
-						"url": "https://chat.whatsapp.com/Bsy4Sc9jM4PIS64JD1aRnp",
-						"whatsapp": "https://chat.whatsapp.com/Bsy4Sc9jM4PIS64JD1aRnp"
-					},
-					{
-						"name": "IrgunSiuaEzrahimClali2",
-						"displayName": "ארגון סיוע אזרחים כללי - צפון",
-						"shortDescription": "וואטסאפ",
-						"url": "https://chat.whatsapp.com/ChDI2XilcBSCuQG1ZIzQQp",
-						"whatsapp": "https://chat.whatsapp.com/ChDI2XilcBSCuQG1ZIzQQp"
-					},
-					{
-						"name": "IrgunSiuaEzrahimClali3",
-						"displayName": "ארגון סיוע אזרחים כללי - דרום",
-						"shortDescription": "וואטסאפ",
-						"url": "https://chat.whatsapp.com/GY2MwfFLaLwAfJbydxte2X",
-						"whatsapp": "https://chat.whatsapp.com/GY2MwfFLaLwAfJbydxte2X"
-					},
-					{
-						"name": "IrgunSiuaEzrahimClali4",
-						"displayName": "ארגון סיוע אזרחים כללי - ירושלים",
-						"shortDescription": "וואטסאפ",
-						"url": "https://chat.whatsapp.com/BS2qZmtb9zGEdRgrqZlW9h",
-						"whatsapp": "https://chat.whatsapp.com/BS2qZmtb9zGEdRgrqZlW9h"
-					}
-				]
-			}
-		]
-	},
-	{
-		"name": "Volunteering",
-		"displayName": "רוצים להתנדב / מחפשים מתנדבים",
-		"description": "",
-		"image": "https://cdn-icons-png.flaticon.com/512/4994/4994354.png",
-		"subCategories": [
-			{
-				"name": "VolunteeringMain",
-				"displayName": "",
-				"links": [
-					{
-						"name": "OrefBarzel",
-						"displayName": "עורף ברזל",
-						"shortDescription": "",
-						"description": "מחפשים מתנדבים? בוער בכם להתנדב? ברוכים הבאים לעורף ברזל, האתר בו תוכלו למצוא בזמן אמת מקום להתנדב בו או לגייס מתנדבים חדשים אליכם.",
-						"url": "https://ironswords.help/",
-						"website": "https://ironswords.help/"
-					},
-					{
-						"name": "VolunteeringConnect",
-						"displayName": "חיבור בין מתנדבים",
-						"shortDescription": "תומר",
-						"url": "https://wa.me/972504304099",
-						"whatsapp": "https://wa.me/972504304099"
-					}
-				]
-			}
-		]
-	},
-	{
-		"name": "Equipment",
-		"displayName": "מחפשים ציוד, מעוניינים לתרום ציוד",
-		"description": "תרומה וקבלה של ציוד",
-		"image": "https://cdn-icons-png.flaticon.com/512/8654/8654298.png",
-		"subCategories": [
-			{
-				"name": "EquipmentMain",
-				"displayName": "",
-				"links": [
-					{
-						"name": "SupplyMatch",
-						"displayName": "Supply Match",
-						"shortDescription": "יוזמה המחברת בין מבקשי ציוד לנותני ציוד",
-						"description": "יוזמה לאומית רחבה מאוד שכוללת את פיקוד העורף, מטה ההתנדבות הלאומי, האגודה למען החייל, הג’ויינט, הפורום הכלכלי חברתי ועוד.",
-						"tags": [],
-						"url": "https://supply-match.com/",
-						"website": "https://supply-match.com/"
-					},
-					{
-						"name": "AsakimNirtamimEquipment",
-						"displayName": "עסקים נרתמים - תופס בקשת כל סוג ציוד",
-						"shortDescription": "",
-						"description": "",
-						"tags": [],
-						"url": "https://forms.monday.com/forms/25c5ac9f7676f6ffbf7fae7b982e87ef?r=use1",
-						"forms": "https://forms.monday.com/forms/25c5ac9f7676f6ffbf7fae7b982e87ef?r=use1"
-					}
-				]
-			}
-		]
-	},
-	{
-		"name": "FamilyHosting",
-		"displayName": "אירוח משפחות",
-		"description": "",
-		"image": "https://cdn-icons-png.flaticon.com/512/5988/5988246.png",
-		"subCategories": [
-			{
-				"name": "FamilyHostingMain",
-				"displayName": "",
-				"links": [
-					{
-						"name": "AtarMearhim",
-						"displayName": "אתר מארחים",
-						"shortDescription": "",
-						"description": "במטרה להקל על התושבים ולהעניק להם קצת שקט, החלטנו להקים אתר בו תוכלו למצוא מידע על משפחות מארחות שמוכנות לפתוח את דלתות בתיהם בלב רחב.",
-						"url": "https://mearhim.vercel.app"
-					},
-					{
-						"name": "AtarMearhimMoreQuestion",
-						"displayName": "אתר מארחים - וואטסאפ לשאלות נוספות",
-						"shortDescription": "וואטסאפ",
-						"url": "https://api.whatsapp.com/send/?phone=%2B972548816044&text&type=phone_number&app_absent=0"
-					},
-					{
-						"name": "MiklatMugan",
-						"displayName": "מקלט מוגן",
-						"shortDescription": "",
-						"description": "זקוקים למקלט? יכולים לתת מקום מוגן לאנשים? אתר עם ממשק מאוד פשוט המחבר כרטיסיות של מארחים למתארחים.",
-						"url": "https://protected-shelter.vercel.app"
-					},
-					{
-						"name": "NirtamimToshveiAza",
-						"displayName": "נרתמים לתושבי עזה",
-						"shortDescription": "",
-						"description": "מאגר עם מעל - 200 דירות מוכנות לאירוח ברחבי הארץ.",
-						"url": "https://sites.google.com/gshr.co.il/nirtamim/%D7%91%D7%99%D7%AA?authuser=0"
-					},
-					{
-						"name": "PeopleFromSouthHosting",
-						"displayName": "אירוח משפחות מהדרום",
-						"shortDescription": "וואטסאפ",
-						"url": "https://chat.whatsapp.com/E6GofQiyosDLndYKKCcC4v"
-					}
-				]
-			},
-			{
-				"name": "YozmaToConnectGuests",
-				"displayName": "יוזמה לחיבור בין אורחים ומארחים",
-				"links": [
-					{
-						"name": "YozmaHostForm",
-						"displayName": "טופס למארחים",
-						"shortDescription": "",
-						"url": "https://forms.gle/wWfTqrB3dpEgXU5x7"
-					},
-					{
-						"name": "YozmaGuestForm",
-						"displayName": "טופס לאורחים",
-						"shortDescription": "",
-						"url": "https://forms.gle/pRPFHbtLVVMtKwby5"
-					},
-					{
-						"name": "YozmaGuestForm",
-						"displayName": "פרטים נוספים",
-						"shortDescription": "(דפנה, וואטסאפ)",
-						"url": "https://wa.me/972548010384"
-					}
-				]
-			}
-		]
-	},
-	{
-		"name": "Shelters",
-		"displayName": "מקלטים",
-		"description": "",
-		"image": "https://cdn-icons-png.flaticon.com/512/4117/4117166.png",
-		"subCategories": [
-			{
-				"name": "",
-				"displayName": "",
-				"links": [
-					{
-						"name": "MidragShelters",
-						"displayName": "פרויקט אתר מדרג להשמשה והכנה של מקלטים",
-						"shortDescription": "",
-						"description": "חמ״ל סיוע פרויקט אתר מדרג להשמשה והכנה של מקלטים",
-						"url": "https://forms.monday.com/forms/f1e1014123cf1aac6615780795aec231?r=use1"
-					}
-				]
-			}
-		]
-	},
-	{
-		"name": "SocialNetworks",
-		"displayName": "רשתות חברתיות - חיזוק נוכחות ישראלית ודיווח",
-		"description": "",
-		"image": "https://cdn-icons-png.flaticon.com/512/4187/4187272.png",
-		"subCategories": [
-			{
-				"name": "SocialNetworksMain",
-				"displayName": "",
-				"links": [
-					{
-						"name": "TerrorSupportersTrolling",
-						"displayName": "להטריל תומכי טרור",
-						"shortDescription": "",
-						"description": "קחו תמונת פרופיל של תומך טרור, תדביקו פה, וקחו את התמונה שחוזרת לכם עם הודעת תודה מרגשת על התמיכה שלו.  ❤️",
-						"url": "https://devhelps.github.io/you-stand-with-israel/"
-					},
-					{
-						"name": "TerrorOutOfAcademyProtest",
-						"displayName": "מחאה לסילוק תומכי טרור ברשתות החברתיות מהאקדמיה",
-						"shortDescription": "וואטסאפ",
-						"url": "https://chat.whatsapp.com/GLsj5D7M3AjCv4zoWwXTON"
-					},
-					{
-						"name": "SocialNetworksReportWhatsapp",
-						"displayName": "קבוצת וואטסאפ לדיווח על עמודים ופוסטים",
-						"shortDescription": "",
-						"url": "https://chat.whatsapp.com/IKrNlfjrV8O5tBuBMpPOmV"
-					},
-					{
-						"name": "SocialWarReportWhatsapp",
-						"displayName": "הסברה כחול לבן - Israel Social War",
-						"shortDescription": "בקבוצה הזו ניתן בוסט לפוסטים של תמיכה בישראל ונדווח על פוסטים מסיתים ע״מ להסירם",
-						"url": "https://chat.whatsapp.com/KmsPfwYJaBEIPyzP8n3XrQ"
-					},
-					{
-						"name": "SocialNetworksReportTelegram",
-						"displayName": "חמל רשתות חברתיות",
-						"shortDescription": "לדיווח על עמודים ופוסטים אנטי ישראליים ברשתות החברתיות וחסימתם",
-						"url": "https://t.me/+HORf_dHgFVA1ZWM0"
-					},
-					{
-						"name": "SocialNetworksReportGoogleDoc",
-						"displayName": "מסמך גוגל לדיווח על עמודים ופוסטים",
-						"url": "https://docs.google.com/spreadsheets/d/14tRgnIlJhyrSrKA4mTGSgrvvH7U3T8CLV30mDrsNxG8/edit#gid=0"
-					}
-				]
-			}
-		]
-	},
-	{
-		"name": "Hasbara",
-		"displayName": "הסברה - חיזוק נוכחות ברשת, שיתוף תכנים ומסרים",
-		"description": "",
-		"image": "https://cdn-icons-png.flaticon.com/512/7553/7553719.png",
-		"subCategories": [
-			{
-				"name": "HasbaraMain",
-				"displayName": "",
-				"links": [
-					{
-						"name": "HasbaraGoogleDrive",
-						"displayName": "גוגל דרייב עם תוכן הסברה לפי שפות",
-						"shortDescription": "",
-						"description": "שכל ישראלי יראה את זה! מצורף לינק למאות סרטונים בעשרות שפות שיכולים לשמש להסברה מידית. אנגלית, צרפתית, טורקית, גרמנית, סינית - מה שתרצו. שתפו מיד, בחרו סרטון, כתבו כמה מילים ואל תשכחו את התיוג #hamasisISIS",
-						"url": "https://drive.google.com/drive/folders/1yzLNJmkM73o5Kl8eryPj4BBAA6qSTL7i"
-					},
-					{
-						"name": "FakeHunter",
-						"displayName": "Fake Hunter",
-						"shortDescription": "טלגרם",
-						"description": "בוט בטלגרם לדיווח עמודים שמפיצים שקרים ותעמולה נגד ישראל",
-						"url": "https://t.me/fakenewsisraelbot",
-						"telegram": "https://t.me/fakenewsisraelbot"
-					},
-					{
-						"name": "HelpWithIsraeliDiplomacy",
-						"displayName": "Help with Israeli Diplomacy across the Web",
-						"shortDescription": "",
-						"description": "אתר עם תוכן מוכן לשיתוף",
-						"url": "https://nirtz89.github.io/israel_diplomacy/",
-						"website": "https://nirtz89.github.io/israel_diplomacy/"
-					},
-					{
-						"name": "HelpWithIsraeliDiplomacy",
-						"displayName": "הסברה באמצעות חומרים אמיתיים והתכתבויות מהתופת",
-						"shortDescription": "ראובני פרידמן",
-						"description": "בימים האחרונים הכנו וריכזנו בראובני פרידן מגוון רחב של חומרי הסברה המורכבים מסיפורים אמיתיים והתכתבויות אמיתיות מהתופת, ותרגמנו אותם, יחד עם עשרות מתרגמים שהתגייסו בהתנדבות למשימה, לאנגלית, ספרדית, סינית, גרמנית, צרפתית, יפנית, קוריאנית, איטלקית ועוד המון שפות.",
-						"url": "https://drive.google.com/drive/folders/13Lmprug2Mf-0C1WnNHb7lkO-1DSwFFeS",
-						"drive": "https://drive.google.com/drive/folders/13Lmprug2Mf-0C1WnNHb7lkO-1DSwFFeS"
-					},
-					{
-						"name": "HelpWithIsraeliDiplomacy",
-						"displayName": "Stand With Us - Instagram",
-						"shortDescription": "אתר ההסברה הרשמי של ישראל",
-						"description": "לעקוב אחרי העמוד הסברה של ישראל. לעמוד תמיכה של פלסטין יש 3 מיליון עוקבים ולנו אפילו לא 800 אלף",
-						"url": "https://www.instagram.com/standwithus/",
-						"instagram": "https://www.instagram.com/standwithus/"
-					},
-					{
-						"name": "SocialWarReportWhatsapp",
-						"displayName": "הסברה כחול לבן - Israel Social War",
-						"shortDescription": "בקבוצה הזו ניתן בוסט לפוסטים של תמיכה בישראל ונדווח על פוסטים מסיתים ע״מ להסירם",
-						"url": "https://chat.whatsapp.com/KmsPfwYJaBEIPyzP8n3XrQ",
-						"whatsapp": "https://chat.whatsapp.com/KmsPfwYJaBEIPyzP8n3XrQ"
-					}
-				]
-			}
-		]
-	},
-	{
-		"name": "Food",
-		"displayName": "מחפשים תרומת אוכל / מעוניינים להכין או לשלם על אוכל לתרומה ",
-		"description": "",
-		"image": "data:image/jpeg;base64,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KsREQEREBERAREQEREBERAREQc3GcIhrIXQTNDo3e0EaEHgRzVSYzgtRhRtIHTUXqTMBLoxoBIOHfpyPqiz9qdoG0ETHmN0j5JGxRsZYF733sLnTQpszjrMQgdIGOYWvfDKx9iWvYAXNPAizh7VExEr8Oa+Kd6+FWwyte0Pa4OaeLTcf0PYsgUtxvo4ie8zUbzSzHMhvnRO72HTwy1yUSrsLxCl+fpXStH7ymu4d5YBcdpsAFxNZauLXY7x/bqWCooo5PTY1x5kC/tGfvWg/Z6mOfV27nO/7WVmNwElrnFjxq17XNI7+HvWw2vhOk0X42j4lc9vR9q3fUtP/APP0977jj3vct6npI4/QYxp5gZ/iOa+XV8I1mi/G0/ArXfjcF91ri950axrnE93BT3KftV76h0VjnmZG0ve4NbzP8uJPYFkocJxGr+ZpjCw/vKi7fERkXPsIKl+BdHUMbxNVvdVTixG8LRsP1Yxkf4rjLQKYrLzZddjpH9e5RHBcAqMVI3d6CgPpSOFnyjkwfRPPTPjorbwnC4qSJsELAyNugHE8STqSeJK3Q0AACwtovpdxGzIzZrZZ3tL1ERSqEREBERAREQEREBERAREQEREBERBycewOGui6qdpLQ4PaWkhzXC4DmuGhsT7V7gWCw0UIghbusuXG5JLnG13Occy42HsA4LqIid522erxeoiGnV4dDMLSxRyD67Gu+IXKfsZh7jc0kFzr5jR8FIERMTMI+zYvD2m4pKe/awH3Fdalw+GIWjjjYPqMa34BbSIbzIopim3tJSzOgkE++wgHdieW3IByPHVStfJaOxCNvauMd6RIpIt2lllhl3gd99O943Re4tY5nLOy62ybcQkMdTLWRy0r2l24IAxxuMuAIsVMdwcgvbKEzMbbRD6REUuRERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERB//9k=",
-		"subCategories": [
-			{
-				"name": "FoodMain",
-				"displayName": "",
-				"links": [
-					{
-						"name": "WoltFoodDonations",
-						"displayName": "תרומות מזון ישירות דרך וולט",
-						"shortDescription": "",
-						"url": "https://wolt.com/he/isr/tel-aviv/venue/support-the-south",
-						"website": "https://wolt.com/he/isr/tel-aviv/venue/support-the-south"
-					},
-					{
-						"name": "HamalFoodLogistics",
-						"displayName": "חמ״ל איתור ושינוע מזון",
-						"shortDescription": "וואטסאפ",
-						"url": "https://chat.whatsapp.com/KPZ7JqQyBLG3OSvtGlUAdx",
-						"whatsapp": "https://chat.whatsapp.com/KPZ7JqQyBLG3OSvtGlUAdx"
-					},
-					{
-						"name": "FoodShareApp",
-						"displayName": "חגי",
-						"shortDescription": "אפליקציה לחללוקת מזון",
-						"url": "https://salmaz.herokuapp.com/guest/events",
-						"website": "https://salmaz.herokuapp.com/guest/events"
-					}
-				]
-			}
-		]
-	},
-	{
-		"name": "Donations",
-		"displayName": "תרומות כספיות - אימות לינקים, גופים ותרומה בקריפטו",
-		"description": "",
-		"image": "https://cdn-icons-png.flaticon.com/512/6203/6203343.png",
-		"subCategories": [
-			{
-				"name": "DonationsMain",
-				"displayName": "",
-				"links": [
-					{
-						"name": "SafeDonate",
-						"displayName": "Safe Donate",
-						"shortDescription": "אימות קישורים לתרומות",
-						"url": "https://naboo.ai/safedonate",
-						"website": "https://naboo.ai/safedonate"
-					},
-					{
-						"name": "StandWithIsraelDonation",
-						"displayName": "Stand with Israel",
-						"shortDescription": "ריכוז תרומות מאומתות בחלוקה לרפואי, צוותית בחזית, יחידות ועוד",
-						"url": "https://giveisrael.org/",
-						"website": "https://giveisrael.org/"
-					},
-					{
-						"name": "DonationsExcel",
-						"displayName": "אקסל תרומות מתעדכן",
-						"shortDescription": "",
-						"url": "https://docs.google.com/spreadsheets/d/1YlzwkQUKJQDVelotnN_jdguTAUqW1jPNvOaf2QHw8Ac/edit#gid=0",
-						"docs": "https://docs.google.com/spreadsheets/d/1YlzwkQUKJQDVelotnN_jdguTAUqW1jPNvOaf2QHw8Ac/edit#gid=0"
-					},
-					{
-						"name": "IsraAid",
-						"displayName": "Isra-Aid",
-						"shortDescription": "ריכוז תרומות לחיזוק העורף והלחימה",
-						"url": "https://isra-aid.org/",
-						"website": "https://isra-aid.org/"
-					},
-					{
-						"name": "CryptoAidIsrael1",
-						"displayName": "Crypto Aid Israel",
-						"shortDescription": "Site",
-						"url": "https://cryptoaidisrael.com/",
-						"website": "https://cryptoaidisrael.com/"
-					}
-				]
-			}
-		]
-	},
-	{
-		"name": "MentalSupport",
-		"displayName": "תמיכה בשכול, התמודדות עם המצב - סיוע טלפוני, טיפול נפשי",
-		"description": "",
-		"image": "https://cdn-icons-png.flaticon.com/512/7216/7216006.png",
-		"subCategories": [
-			{
-				"name": "MentalSupportMain",
-				"displayName": "",
-				"links": [
-					{
-						"name": "MentalSupportForm",
-						"displayName": "טופס לבקשת טיפול נפשי",
-						"shortDescription": "",
-						"description": "מערך מטפלים תודעתיים, רגשיים, תרפיית מימדים, NLP, EMP , מומחים בטראומה שיוכל לסייע לנפגעי נפש, חרדה וטראומה. אנו כ 70 מטפלים וזה עוד יגדל. המחזות קשים ונשמח לסייע ולעזור לכל מי שמעוניין מהעוטף, מהעורף, לילדים, מבוגרים, כוחות הביטחון, זק״א, מד״א וכל השאר. כמובן בהתנדבות ובאהבה ❤ כוחנו באחדותיינו זה הזמן להיות אחד למען השני. אנחנו פה בשבילכם ויחד ננצח את המצב נפשית, תודעתית וביטחונית. כל מי שזקוק לעזרה וטיפול אתם מוזמנים למלא את הטופס ונתאים לכם מטפל/ת. אני פה בשבילכם ❤ בעזרת השם ובעזרת עם ישראל נצא מחוזקים מהתקופה הזו יחד🙏",
-						"url": "https://docs.google.com/forms/d/e/1FAIpQLSe63ECMBD1YEmAbLovFTvpxek46ZCSuKV9N2mT-G27tTwN2hA/viewform",
-						"docs": "https://docs.google.com/forms/d/e/1FAIpQLSe63ECMBD1YEmAbLovFTvpxek46ZCSuKV9N2mT-G27tTwN2hA/viewform"
-					},
-					{
-						"name": "LevEhad",
-						"displayName": "לב אחד - טופס רישום לנציגים אזרחיים",
-						"shortDescription": "",
-						"description": "ארגון לב אחד דואג שלא תהיה לוויה ללא נציגים אזרחיים",
-						"url": "https://wkf.ms/46mj8OG",
-						"forms": "https://wkf.ms/46mj8OG"
-					},
-					{
-						"name": "Linshom",
-						"displayName": "לנשום - יוזמה לתמיכה נפשית והתמודדות בטיקטוק",
-						"shortDescription": "#לנשום",
-						"url": "https://vt.tiktok.com/ZSNYX41uP/",
-						"tiktok": "https://vt.tiktok.com/ZSNYX41uP/"
-					},
-					{
-						"name": "MentalSupportIsraHelp",
-						"displayName": "עמוד תמיכה נפשית IsraHelp",
-						"shortDescription": "",
-						"url": "https://www.coing.co/Israhelp_Mental",
-						"website": "https://www.coing.co/Israhelp_Mental"
-					},
-					{
-						"name": "IzkorNoflim",
-						"displayName": "יזכור הנופלים",
-						"shortDescription": "האתר הוקם במטרה לרכז מידע על כלל חללי ׳חרבות ברזל׳, מועדי הלוויה ומיקומי השבעה על מנת שנוכל לחלוק להם כבוד אחרון וללוותם בדרכם האחרונה",
-						"url": "https://www.izkorharavot.com/",
-						"website": "https://www.izkorharavot.com/"
-					}
-				]
-			}
-		]
-	},
-	{
-		"name": "Reserves",
-		"displayName": "מילואים",
-		"description": "",
-		"image": "https://t3.ftcdn.net/jpg/03/27/36/14/360_F_327361440_YQuXrkCWJ4HkQKwGAYEWX5bTMdlVug4I.jpg",
-		"subCategories": [
-			{
-				"name": "ReservesMain",
-				"displayName": "",
-				"links": [
-					{
-						"name": "MiluimSite",
-						"displayName": "אתר המילואים",
-						"shortDescription": "",
-						"url": "https://www.miluim.org/",
-						"website": "https://www.miluim.org/"
-					}
-				]
-			},
-			{
-				"name": "ReservesReturn",
-				"displayName": "החזרה מחו״ל של כוחות הביטחון וההצלה",
-				"links": [
-					{
-						"name": "ReservesReturnFarEast",
-						"displayName": "המזרח הרחוק",
-						"shortDescription": "וואטסאפ",
-						"url": "https://chat.whatsapp.com/KY3GCKEUQopERWMlgdC06Q",
-						"whatsapp": "https://chat.whatsapp.com/KY3GCKEUQopERWMlgdC06Q"
-					}
-				]
-			}
-		]
-	},
-	{
-		"name": "Parenting",
-		"displayName": "עזרה להורים ומשפחות עם ילדים בזמן המלחמה",
-		"description": "",
-		"image": "https://cdn-icons-png.flaticon.com/512/3079/3079247.png",
-		"subCategories": [
-			{
-				"name": "ParentingMain",
-				"displayName": "",
-				"links": [
-					{
-						"name": "VolunteerBabysitter",
-						"displayName": "בייביסיטר בהתנדבות",
-						"shortDescription": "",
-						"url": "https://docs.google.com/document/d/12_tev4KfnUt0RxAw3MRmQCo2d1kxe5WBzSVolOsNV2A/edit",
-						"docs": "https://docs.google.com/document/d/12_tev4KfnUt0RxAw3MRmQCo2d1kxe5WBzSVolOsNV2A/edit"
-					},
-					{
-						"name": "ChildrenParentsContentBoard",
-						"displayName": "לוח שיתופי מתעדכן של תכנים לילדים ולהורים, בנושאי חוסן ולמידה בזמן מלחמה",
-						"shortDescription": "",
-						"description": "סיוע בתקופת המלחמה בנושאי למידה וחוסן נפשי - פורטל תכנים חינמיים מדהים!",
-						"url": "https://padlet.com/tamar_haritan/edtech-and-resilience-il-yfyeoe3txhn6kgpu",
-						"website": "https://padlet.com/tamar_haritan/edtech-and-resilience-il-yfyeoe3txhn6kgpu"
-					},
-					{
-						"name": "OrnaPoratTheater",
-						"displayName": "תאטרון אורנה פורת",
-						"shortDescription": "הצגות לצפייה חופשית",
-						"description": "תיאטרון אורנה פורת לילדים ולנוער מזמין את ילדי ישראל להפוגה תיאטרלית ומהנה. מוזמנים להיכנס ולצפות בהצגות האון ליין שלנו. חיבוק ואהבה מאיתנו.",
-						"url": "https://www.porat-theater.co.il/%D7%94%D7%A6%D7%92%D7%95%D7%AA_%D7%9C%D7%A6%D7%A4%D7%99%D7%94_%D7%97%D7%95%D7%A4%D7%A9%D7%99%D7%AA",
-						"website": "https://www.porat-theater.co.il/%D7%94%D7%A6%D7%92%D7%95%D7%AA_%D7%9C%D7%A6%D7%A4%D7%99%D7%94_%D7%97%D7%95%D7%A4%D7%A9%D7%99%D7%AA"
-					},
-					{
-						"name": "ChildrenActivities",
-						"displayName": "דעת - פעילויות לילדים",
-						"shortDescription": "",
-						"description": "הורים יקרים, גננות, מורים לחוגים וילדים יקרים לאור המצב הביטחוני והצורך לתת לילדים בגיל הרך מענה ותמיכה אנו משתפים אתכם בסרטונים לימודיים מתוך הספריה הדיגיטלית של נטקידס.",
-						"url": "https://www.daatart.co.il/kids/",
-						"website": "https://www.daatart.co.il/kids/"
-					},
-					{
-						"name": "AnakShelSfarim",
-						"displayName": "ספרי ילדים - ענק של ספרים",
-						"shortDescription": "",
-						"url": "https://padlet.com/redirect?url=https%3A%2F%2Fschool.booksgiant.com%2Flogin%2Fhe",
-						"website": "https://padlet.com/redirect?url=https%3A%2F%2Fschool.booksgiant.com%2Flogin%2Fhe"
-					},
-					{
-						"name": "BrainPop",
-						"displayName": "BrainPop",
-						"shortDescription": "",
-						"description": "קוד: בריינפופ23",
-						"url": "https://il.brainpop.com/",
-						"website": "https://il.brainpop.com/"
-					}
-				]
-			}
-		]
-	},
-	{
-		"name": "Evacuation",
-		"displayName": "חילוץ",
-		"description": "",
-		"image": "https://cdn-icons-png.flaticon.com/512/1973/1973154.png",
-		"subCategories": [
-			{
-				"name": "EvacuationMain",
-				"displayName": "",
-				"links": [
-					{
-						"name": "KvarBaim",
-						"displayName": "יוזמת כבר באים",
-						"shortDescription": "",
-						"description": "החמ״ל סייע בימים האחרונים בחילוץ מאות אנשים מישובי עוטף עזה – תוך חיבור בין אנשים הנצורים בביתם לכוחות הביטחון.",
-						"url": "https://www.kvarbaim.co.il/",
-						"website": "https://www.kvarbaim.co.il/"
-					}
-				]
-			}
-		]
-	},
-	{
-		"name": "Weapons",
-		"displayName": "נשק",
-		"description": "",
-		"image": "https://cdn.icon-icons.com/icons2/564/PNG/512/Crime_icon-icons.com_54190.png",
-		"subCategories": [
-			{
-				"name": "WeaponsMain",
-				"displayName": "",
-				"links": [
-					{
-						"name": "ZakautNeshek",
-						"displayName": "בדיקת זכאות לנשק",
-						"shortDescription": "",
-						"url": "https://www.gov.il/apps/mops/firearm_license_calculator",
-						"website": "https://www.gov.il/apps/mops/firearm_license_calculator"
-					},
-					{
-						"name": "WeaponsLicenseRequest",
-						"displayName": "בקשת לקבלת רשיון נשק",
-						"shortDescription": "",
-						"url": "https://www.gov.il/BlobFolder/service/issue_firearms_license_to_a_private_individual/he/services_personal-fiream-request-form.pdf",
-						"website": "https://www.gov.il/BlobFolder/service/issue_firearms_license_to_a_private_individual/he/services_personal-fiream-request-form.pdf"
-					},
-					{
-						"name": "WeaponsLicenseTest",
-						"displayName": "תבחינים למתן רשיון נשק",
-						"shortDescription": "",
-						"url": "https://www.gov.il/he/departments/policies/firearm_licensing_criteria",
-						"website": "https://www.gov.il/he/departments/policies/firearm_licensing_criteria"
-					}
-				]
-			}
-		]
-	},
-	{
-		"name": "Needarim",
-		"displayName": "איתור נעדרים ונעדרות",
-		"image": "https://cdn-icons-png.flaticon.com/512/2472/2472639.png",
-		"description": "",
-		"subCategories": [
-			{
-				"name": "NeedarimMain",
-				"displayName": "",
-				"links": [
-					{
-						"name": "TogetherForMissingPeople",
-						"displayName": "ביחד למען הנעדרים",
-						"shortDescription": "",
-						"url": "https://needarim.org.il/"
-					},
-					{
-						"name": "IturAndMetzukaReport",
-						"displayName": "איתור נעדרים ודיווחי מצוקה",
-						"shortDescription": "",
-						"url": "https://www.instagram.com/weareoneisrael/"
-					}
-				]
-			}
-		]
-	},
-	{
-		"name": "Medical",
-		"displayName": "מידע רפואי כללי",
-		"description": "",
-		"image": "https://w7.pngwing.com/pngs/313/516/png-transparent-stethoscope-icon-stethoscope-icon-medical-icons-medical-icon-medicine-doctor-diagnosis-diagnose-clinic-thumbnail.png",
-		"subCategories": [
-			{
-				"name": "Medical",
-				"displayName": "",
-				"links": [
-					{
-						"name": "CourseEzraRishona",
-						"displayName": "ריכוז תכני קורס עזרה ראשונה",
-						"shortDescription": "ניתן על ידי חברת ניתאי שירותי עזרה ראשונה",
-						"url": "docs/ezra-rishona"
-					}
-				]
-			}
-		]
-	}
+    {
+				"name": "hosting",
+        "displayName": "אירוח משפחות",
+				"image": "https://cdn-icons-png.flaticon.com/512/5988/5988246.png",	
+        "links": [
+            {
+                "description": "אתר לחיפוש בתים מארחים למשפחות",
+                "displayName": "אתר מארחים",
+                "url": "https://mearhim.vercel.app",
+                "tags": [
+                    "כל הארץ",
+                    "אתר",
+                    "אירוח",
+                    "חיפוש",
+                    "משפחות",
+                    "מרחב מוגן"
+                ]
+            },
+            {
+                "description": "לוח מודעות לחיפוש בתים מארחים",
+                "displayName": "מקלט מוגן",
+                "url": "https://protected-shelter.vercel.app",
+                "tags": [
+                    "כל הארץ",
+                    "אתר",
+                    "אירוח",
+                    "חיפוש",
+                    "משפחות",
+                    "מרחב מוגן",
+                    "דחיפות"
+                ]
+            },
+            {
+                "description": "קבוצת וואטסאפ לחיבור בין בתים מארחים למשפחות",
+                "displayName": "אירוח משפחות מהדרום",
+                "url": "https://chat.whatsapp.com/E6GofQiyosDLndYKKCcC4v",
+                "tags": [
+                    "כל הארץ",
+                    "אירוח",
+                    "וואטסאפ",
+                    "צ'אט",
+                    "מרחב מוגן",
+                    "משפחות"
+                ]
+            }
+        ]
+    },
+    {
+				"name": "hasbara",
+        "displayName": "הסברה",
+				"image": "https://cdn-icons-png.flaticon.com/512/7553/7553719.png",	
+        "links": [
+            {
+                "description": "מאגר חומרי הסברה בכל השפות",
+                "displayName": "גוגל דרייב עם תוכן הסברה לפי שפות",
+                "url": "https://drive.google.com/drive/folders/1yzLNJmkM73o5Kl8eryPj4BBAA6qSTL7i",
+                "tags": [
+                    "אתר",
+                    "כל הארץ",
+                    "הסברה",
+                    "רשתות חברתיות",
+                    "חיפוש מתנדבים"
+                ]
+            },
+            {
+                "description": "קבוצה לחיזוק ההסברה הישראלית ברשתות החברתיות",
+                "displayName": "הסברה כחול לבן",
+                "url": "https://chat.whatsapp.com/KmsPfwYJaBEIPyzP8n3XrQ",
+                "tags": [
+                    "כל הארץ",
+                    "וואטסאפ",
+                    "רשתות חברתיות",
+                    "הסברה",
+                    "וואטסאפ",
+                    "מתנדבים",
+                    "הסברה ישראלית"
+                ]
+            },
+            {
+                "description": "אתר המרכז מידע על חללי המלחמה",
+                "displayName": "יזכור - חללי חרבות ברזל",
+                "url": "https://www.izkorharavot.com",
+                "tags": [
+                    "כל הארץ",
+                    "אתר",
+                    "חללי צה״ל",
+                    "הלוויות"
+                ]
+            }
+        ]
+    },
+    {
+				"name": "info",
+        "displayName": "מידע שימושי",
+				"image": "https://cdn-icons-png.flaticon.com/128/3543/3543562.png",
+        "links": [
+            {
+                "description": "אתר המשרד לביטחון פנים: מחשבון לבדיקת זכאות לרישיון כלי ירייה פרטי",
+                "displayName": "בדיקת זכאות לנשק",
+                "url": "https://www.gov.il/apps/mops/firearm_license_calculator/",
+                "tags": [
+                    "תנאי קבלה",
+                    "זכאות",
+                    "נשק",
+                    "רישיון נשק",
+                    "כלי ירייה",
+                    "אקדח"
+                ]
+            },
+            {
+                "description": "PDF של טופס בקשה לקבלת רישיון לכלי ירייה פרטי",
+                "displayName": "בקשת לקבלת רשיון נשק",
+                "url": "https://www.gov.il/BlobFolder/service/issue_firearms_license_to_a_private_individual/he/services_personal-fiream-request-form.pdf",
+                "tags": [
+                    "בקשת רישיון נשק",
+                    "טופס",
+                    "נשק",
+                    "רישיון נשק",
+                    "כלי ירייה",
+                    "אקדח"
+                ]
+            },
+            {
+                "description": "אתר המשרד לביטחון פנים: רשימת תבחינים ותנאי סף לקבלת רישיון כלי ירייה פרטי",
+                "displayName": "תבחינים למתן רשיון נשק",
+                "url": "https://www.gov.il/he/departments/policies/firearm_licensing_criteria",
+                "tags": [
+                    "תנאי קבלה",
+                    "זכאות",
+                    "נשק",
+                    "רישיון נשק",
+                    "כלי ירייה",
+                    "אקדח"
+                ]
+            }
+        ]
+    },
+    {
+				"name": "logistics",
+        "displayName": "נהגים - שינוע והובלה",
+				"image": "https://cdn-icons-png.flaticon.com/128/4770/4770326.png",
+        "links": [
+            {
+                "description": "קבוצת וואטסאפ לתיאום ושינוע של מזון ללוחמים",
+                "displayName": "חמ\"ל שינוע מזון לחיילים",
+                "url": "https://chat.whatsapp.com/KPZ7JqQyBLG3OSvtGlUAdx",
+                "tags": [
+                    "וואטסאפ",
+                    "כל הארץ",
+                    "חיפוש מתנדבים",
+                    "מזון",
+                    "תרומת מזון",
+                    "שינוע",
+                    "צה״ל"
+                ]
+            }
+        ]
+    },
+    {
+				"name": "missing",
+        "displayName": "נעדרים",
+				"image": "https://cdn-icons-png.flaticon.com/512/2472/2472639.png",
+        "links": [
+            {
+                "description": "מתנדבים למציאת נעדרים ע\"י מכשור טכנולוגי (לפטופ, טלפון ישן וכיו\"ב)",
+                "displayName": "היוזמה לאיכון מכשירי נעדרים - בוגרי יחידות טכנולוגיות",
+                "url": "https://docs.google.com/forms/d/e/1FAIpQLSduujH277Cqt31XgOZfTZFAD4ua_YN8fXUtAlwOAHX2q9Emww/viewform",
+                "tags": [
+                    "איכון",
+                    "מכשירים ניידים",
+                    "נעדרים",
+                    "כל הארץ",
+                    "רצועת עזה",
+                    "בוגרי יחידות טכנולוגיות",
+                    "איתור נעדרים",
+                    "טופס"
+                ]
+            },
+            {
+                "description": "מנוע חיפוש נעדרים לפי שם הנעדר",
+                "displayName": "ביחד למען הנעדרים",
+                "url": "https://needarim.org.il/",
+                "tags": [
+                    "אתר",
+                    "כל הארץ",
+                    "נעדרים",
+                    "חיפוש נעדרים"
+                ]
+            },
+            {
+                "description": "מוקד מתנדבים המחבר לכוחות הצלה וחילוץ במקרי חירום",
+                "displayName": "יוזמת כבר באים",
+                "url": "https://www.kvarbaim.co.il",
+                "tags": [
+                    "כל הארץ",
+                    "אתר",
+                    "חירום",
+                    "חילוץ והצלה"
+                ]
+            }
+        ]
+    },
+    {
+				"name": "emotionalHelp",
+        "displayName": "עזרה נפשית",
+				"image": "https://cdn-icons-png.flaticon.com/512/7216/7216006.png",
+        "links": [
+            {
+                "description": "סיוע נפשי - גם נותני סיוע וגם מבקשי סיוע",
+                "displayName": "עמוד תמיכה נפשית IsraHelp",
+                "url": "https://www.coing.co/Israhelp_Mental",
+                "tags": [
+                    "אתר",
+                    "כל הארץ",
+                    "טיפול נפשי",
+                    "סיוע נפשי"
+                ]
+            },
+            {
+                "description": "טופס לגיוס מתנדבים להשתתפות בלוויות",
+                "displayName": "לב אחד - טופס רישום לנציגים אזרחיים בהלוויות",
+                "url": "https://forms.monday.com/forms/a03958fcadb5e90c1990aa764d87f08b?r=use1",
+                "tags": [
+                    "כל הארץ",
+                    "טופס",
+                    "מחפשים מתנדבים",
+                    "הלוויות",
+                    "לב אחד"
+                ]
+            },
+            {
+                "description": "עמוד טיקטוק שנותן כלים וטיפים להתמודדות נפשית",
+                "displayName": "לנשום - סרטונים לתמיכה נפשית",
+                "url": "https://www.tiktok.com/@linshom",
+                "tags": [
+                    "כל הארץ",
+                    "אתר",
+                    "תמיכה נפשית",
+                    "סיוע נפשי"
+                ]
+            },
+            {
+                "description": "אתר המציע תמיכה וחיזוק יומיומיים בזום",
+                "displayName": "תודעה בריאה - להיות ביחד",
+                "url": "https://todaabria.mindfulspace.co.il/beyahad/",
+                "tags": [
+                    "כל הארץ",
+                    "אתר",
+                    "תמיכה נפשית",
+                    "סיוע נפשי"
+                ]
+            }
+        ]
+    },
+    {
+				"name": "funAndLearning",
+        "displayName": "פנאי ולימוד לילדים",
+				"image": "https://cdn-icons-png.flaticon.com/128/3784/3784390.png",
+        "links": [
+            {
+                "description": "פלטפורמה לספרי ילדים, ניתן להצטרף ללא תשלום ליומיים.",
+                "displayName": "ספרי ילדים - ענק של ספרים",
+                "url": "https://school.booksgiant.com/login/he",
+                "tags": [
+                    "ילדים",
+                    "בידור לילדים",
+                    "ספרות",
+                    "ספרי ילדים",
+                    "ספרים",
+                    "כל הארץ."
+                ]
+            },
+            {
+                "description": "מגוון הצגות ילדים לצפייה בחינם",
+                "displayName": "תיאטרון אורנה פורת",
+                "url": "https://www.porat-theater.co.il/%D7%94%D7%A6%D7%92%D7%95%D7%AA_%D7%9C%D7%A6%D7%A4%D7%99%D7%94_%D7%97%D7%95%D7%A4%D7%A9%D7%99%D7%AA",
+                "tags": [
+                    "ילדים",
+                    "בידור לילדים",
+                    "הצגות",
+                    "תיאטרון",
+                    "כל הארץ."
+                ]
+            },
+            {
+                "description": "אתר המכיל סרטוני אנימציה ומציע כניסה חינם",
+                "displayName": "BrainPop",
+                "url": "https://il.brainpop.com/",
+                "tags": [
+                    "ילדים",
+                    "בידור לילדים",
+                    "חינוכי",
+                    "למידה",
+                    "למידה מהנה",
+                    "מדעים",
+                    "טכנולוגיה",
+                    "בריאות",
+                    "מתמטיקה",
+                    "מדעי החברה",
+                    "מוזיקה",
+                    "אמנות",
+                    "אנגלית",
+                    "כל הארץ."
+                ]
+            },
+            {
+                "description": "לוח שיתופי של תכנים לימודיים לילדים במגוון גילאים בעברית ובאנגלית",
+                "displayName": "Edtech and Resilience IL",
+                "url": "https://padlet.com/tamar_haritan/edtech-and-resilience-il-yfyeoe3txhn6kgpu",
+                "tags": [
+                    "ילדים",
+                    "פעילויות",
+                    "משחקים",
+                    "למידה מהנה",
+                    "כל הארץ",
+                    "אונליין",
+                    "חינוכי."
+                ]
+            },
+            {
+                "description": "סרטונים לימודיים מתוך הספריה הדיגיטלית של נטקידס",
+                "displayName": "דעת - פעילויות לילדים",
+                "url": "https://www.daatart.co.il/kids/",
+                "tags": [
+                    "ילדים",
+                    "לימודים",
+                    "תכנים לימודיים",
+                    "נטקידס",
+                    "מורים",
+                    "חינוכי",
+                    "למידה",
+                    "אונליין"
+                ]
+            }
+        ]
+    },
+    {
+				"name": "general",
+        "displayName": "רב-נושאי/כללי",
+				"image": "https://cdn-icons-png.flaticon.com/512/6292/6292033.png",
+        "links": [
+            {
+                "description": "בוט וואטסאפ המחבר בין מתנדבים ומבקשי סיוע",
+                "displayName": "בוט-הברזל",
+                "url": "https://api.whatsapp.com/send/?phone=972507950106&text&type=phone_number&app_absent=0",
+                "tags": [
+                    "מבקשי סיוע",
+                    "אונליין",
+                    "בוט",
+                    "מתנדבים",
+                    "וואטסאפ",
+                    "צ'אט",
+                    "כל הארץ,"
+                ]
+            },
+            {
+                "description": "התנדבות דרך ארגון \"לב אחד\" - סיוע אזרחי בחירום",
+                "displayName": "לב אחד",
+                "url": "https://www.levechad.org/",
+                "tags": [
+                    "סיוע",
+                    "התנדבות",
+                    "מחפשים מתנדבים",
+                    "בני נוער",
+                    "סיוע אזרחי",
+                    "כל הארץ",
+                    "מקבלים תרומות",
+                    "אתר",
+                    "עמותה"
+                ]
+            },
+            {
+                "description": "חמ\"ל אזרחי לסיוע לתושבי הדרום - מתרומות כספיות ועד הסעות ושינוע",
+                "displayName": "חמ\"ל עם אחד",
+                "url": "https://www.am-ehad.org/",
+                "tags": [
+                    "מתנדבים",
+                    "תורמים",
+                    "תרומות",
+                    "הדרום",
+                    "סיוע לדרום",
+                    "אתר",
+                    "סיוע"
+                ]
+            },
+            {
+                "description": "מאגר יוזמות אזרחיות ושל חברות",
+                "displayName": "IsraHelp",
+                "url": "https://www.coing.co/Israhelp",
+                "tags": [
+                    "קטגוריות",
+                    "כל הארץ",
+                    "אתר",
+                    "סיוע",
+                    "מתנדבים",
+                    "ISRAHELP",
+                    "תרומות"
+                ]
+            },
+            {
+                "description": "מתנדבים ומגייסי מתנדבים",
+                "displayName": "עורף ברזל",
+                "url": "https://ironswords.help/",
+                "tags": [
+                    "כל הארץ",
+                    "אתר",
+                    "מתנדבים",
+                    "מגייסי מתנדבים",
+                    "גיוסים"
+                ]
+            },
+            {
+                "description": "מתנדבי חרבות ברזל (אירוח, טרמפים, סיוע עם חיות מחמד וכיו\"ב)",
+                "displayName": "מתנדבי חרבות ברזל",
+                "url": "https://www.facebook.com/groups/780925150471197/?ref=share&mibextid=lURqYx",
+                "tags": [
+                    "פייסבוק",
+                    "facebook",
+                    "מתנדבים",
+                    "התנדבות",
+                    "חרבות ברזל"
+                ]
+            },
+            {
+                "description": "יוצאי יחידות קרביות נותנים מענה (טלפוני\\אונליין) למשפחות של אנשי מילואים",
+                "displayName": "תומכים מהבית - עזרה למשפחות המילואימניקים",
+                "url": "https://www.miluim.org/",
+                "tags": [
+                    "כל הארץ",
+                    "אונליין",
+                    "מחפשים מתנדבים",
+                    "קבלת תרומות",
+                    "מילואים"
+                ]
+            }
+        ]
+    },
+    {
+				"name": "social",
+        "displayName": "רשתות חברתיות",
+				"image": "https://cdn-icons-png.flaticon.com/512/4187/4187272.png",
+        "links": [
+            {
+                "description": "אתר להטרלת תומכי טרור ברשתות החברתיות",
+                "displayName": "להטריל תומכי טרור",
+                "url": "https://devhelps.github.io/you-stand-with-israel/",
+                "tags": [
+                    "כל הארץ",
+                    "אתר",
+                    "משפיענים",
+                    "רשתות חברתיות"
+                ]
+            }
+        ]
+    },
+    {
+				"name": "moneyDonations",
+        "displayName": "תרומות כספיות",
+				"image": "https://cdn-icons-png.flaticon.com/128/10618/10618941.png",
+        "links": [
+            {
+                "description": "אתר לריכוז תרומות מאומתות",
+                "displayName": "Safe Donate",
+                "url": "https://safedonate.org.il/",
+                "tags": [
+                    "אתר",
+                    "כל הארץ",
+                    "תרומות",
+                    "תרומה כספית"
+                ]
+            },
+            {
+                "description": "ריכוז תרומות למטרות כלליות, אזרחיות וצבאיות",
+                "displayName": "Isra-Aid",
+                "url": "https://israel-aid.com/",
+                "tags": [
+                    "אתר",
+                    "כל הארץ",
+                    "תרומות",
+                    "תרומה כספית",
+                    "צה״ל"
+                ]
+            },
+            {
+                "description": "תרומות כספיות וקריפטו",
+                "displayName": "Crypto Aid Israel",
+                "url": "https://cryptoaidisrael.com/",
+                "tags": [
+                    "אתר",
+                    "כל הארץ",
+                    "תרומות",
+                    "תרומה כספית",
+                    "קריפטו"
+                ]
+            },
+            {
+                "description": "אתר התרמות לעמותות למען ישראל",
+                "displayName": "Stand with Israel",
+                "url": "https://giveisrael.org",
+                "tags": [
+                    "כל הארץ",
+                    "תרומות כספיות",
+                    "מקבלים תרומות",
+                    "התרמה"
+                ]
+            }
+        ]
+    },
+    {
+				"name": "equipmentAndFoodDonations",
+        "displayName": "תרומות ציוד / אוכל",
+				"image": "https://cdn-icons-png.flaticon.com/128/10771/10771644.png",
+        "links": [
+            {
+                "description": "יוזמה המחברת בין מבקשי ציוד לנותני ציוד",
+                "displayName": "Supply Match",
+                "url": "https://supply-match.com/",
+                "tags": [
+                    "אתר",
+                    "תרומות",
+                    "ציוד",
+                    "ציוד צבאי",
+                    "ציוד מיגון",
+                    "ביגוד,התנדבות",
+                    "אספקה"
+                ]
+            },
+            {
+                "description": "מארזי תרומות של מזון דרך ולט לקניה של מזון בסיסי ושימורים",
+                "displayName": "תרומות מזון ישירות דרך וולט",
+                "url": "https://wolt.com/he/isr/tel-aviv/venue/support-the-south",
+                "tags": [
+                    "אתר",
+                    "כל הארץ",
+                    "דרום",
+                    "חיפוש מתנדבים",
+                    "מזון",
+                    "תרומת מזון"
+                ]
+            }
+        ]
+    }
 ]

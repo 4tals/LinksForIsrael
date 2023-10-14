@@ -29,6 +29,10 @@
 	flex-direction: row;
 }
 
+.link-description {
+	flex: 1;
+}
+
 body {
 	font-family: Rubik, sans-serif;
 	color: var(--color-dark);
@@ -74,10 +78,8 @@ body {
 	cursor: pointer;
 }
 
-.main-content .links-section-list {
-	:first-child {
-		margin-top: 10px;
-	}
+.main-content .links-section-list > :first-child {
+	margin-top: 10px;
 }
 
 .links-section-content {
@@ -105,6 +107,7 @@ body {
 	}
 
 	ul {
+		padding-block-start: 10px;
 		padding-block-end: 10px;
 		padding-inline-start: 0;
 		list-style: none;
@@ -116,9 +119,19 @@ body {
 				justify-content: center;
 				padding: 10px 16px;
 				text-align: center;
-				width: 80%;
+				width: 100%;
 			}
 		}
+	}
+
+	.links-section-item {
+		align-items: center;
+		border: 1px solid #5275c7;
+		border-radius: 30px;
+		display: flex;
+		flex-basis: 47%;
+		flex-direction: column;
+		padding: 10px 16px;
 	}
 }
 
@@ -331,22 +344,8 @@ details[open] .telegram-btn {
 .links-section-list {
 	display: flex;
 	flex-flow: row wrap;
+	justify-content: space-between;
 	width: 100%;
-}
-
-.links-section-subcategory {
-	flex-basis: 100%;
-	flex-shrink: 0;
-	margin-top: 0px;
-}
-
-.links-section-item {
-	align-items: center;
-	display: flex;
-	flex-basis: 45%;
-	flex-direction: column;
-	border-radius: 30px;
-	border: 1px solid #5275c7;
 }
 
 .links-section-item-short-description {
