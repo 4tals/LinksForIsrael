@@ -7,7 +7,7 @@
 :root {
 	--color-background-blue: #f0f8fa;
 	--text-color: #000;
-	--color-blue: #0038b8;
+	--color-blue: #2b6bff;
 	--header-text-color: #170f49;
 	--color-light-blue: #dbeafe;
 	--color-title-blue: #018bad;
@@ -25,13 +25,11 @@
 }
 
 .link-icons {
-    display: flex;
-    flex-direction: row;
-    // gap: 5px; /* Adjust the gap between icons as needed */
+	display: flex;
+	flex-direction: row;
 }
 
 body {
-	background: var(--color-light-blue);
 	font-family: Rubik, sans-serif;
 	color: var(--color-dark);
 }
@@ -77,9 +75,8 @@ body {
 }
 
 .main-content .links-section-list {
-  
 	:first-child {
-	  margin-top: 10px;
+		margin-top: 10px;
 	}
 }
 
@@ -174,6 +171,25 @@ body {
 		}
 	}
 }
+
+.main-title h1 {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #0073e6;
+	color: #fff;
+	border-radius: 5px;
+	text-decoration: none;
+	transition: background-color 0.3s ease;
+	box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2); /* Add this line */
+}
+
+.main-title h1:hover {
+	background-color: #005bb5;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 10px;
+}
+
 .main-subtitle {
 	font-size: 24px;
 	font-style: normal;
@@ -254,8 +270,8 @@ details[open] .telegram-btn {
 }
 
 .category-icon {
-	width:70px; 
-	height:70px;
+	width: 70px;
+	height: 70px;
 }
 
 /* ... (rest of your CSS) ... */
@@ -304,7 +320,7 @@ details[open] .telegram-btn {
 	}
 
 	.links-section-title {
-		justify-content: flex-start
+		justify-content: flex-start;
 	}
 
 	.category-icon {
@@ -374,6 +390,5 @@ details[open] .telegram-btn {
 	.links-section-item {
 		flex-basis: 100%;
 		width: 100%;
-
 	}
 }
