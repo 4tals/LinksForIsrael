@@ -121,6 +121,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const mobileSearchButton = document.getElementById("mobileSearchButton");
     const overlayElement = document.getElementById('searchOverlay');
     const searchInput = document.getElementById('searchInput');
+    var searchResultsDiv = document.getElementById('searchResultsDiv');
 
     mobileSearchButton.addEventListener("click", function() {
         overlayElement.classList.add("active");
@@ -131,14 +132,26 @@ document.addEventListener("DOMContentLoaded", function() {
         search(searchTerm)
     });
 
+    searchInput.addEventListener("click", function(event) {
+
+        event.preventDefault();
+        event.stopPropagation();
+    });
+
+    searchResultsDiv.addEventListener("click", function(event) {
+
+        event.preventDefault();
+        event.stopPropagation();
+    });
+
     document.addEventListener("keydown", function(event) {
         if (event.key === "Escape") {
             overlayElement.classList.remove("active");
         }
     });
     
-    // overlayElement.addEventListener("click", function() {
-    //     overlayElement.classList.remove("active");
-    // });
+    overlayElement.addEventListener("click", function() {
+        overlayElement.classList.remove("active");
+    });
     
 })
