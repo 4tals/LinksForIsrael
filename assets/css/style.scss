@@ -70,7 +70,26 @@ body {
 }
 
 .search-input {
-	border: 0
+	border: 0;
+	outline: none;
+}
+
+.search-results-div {
+	display: none;
+
+	&.active {
+		display: flex;
+		justify-content: center;
+		margin-top: 10px;
+	}
+}
+
+.search-results-wrapper {
+	height: 380px;
+	width: 400px;
+	background-color: #fff;
+	border-radius: 20px;
+	overflow: scroll;
 }
 
 /* === Links Section === */
