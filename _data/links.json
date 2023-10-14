@@ -569,13 +569,6 @@
 						"website": "https://giveisrael.org/"
 					},
 					{
-						"name": "DonationsExcel",
-						"displayName": "אקסל תרומות מתעדכן",
-						"shortDescription": "",
-						"url": "https://docs.google.com/spreadsheets/d/1YlzwkQUKJQDVelotnN_jdguTAUqW1jPNvOaf2QHw8Ac/edit#gid=0",
-						"docs": "https://docs.google.com/spreadsheets/d/1YlzwkQUKJQDVelotnN_jdguTAUqW1jPNvOaf2QHw8Ac/edit#gid=0"
-					},
-					{
 						"name": "IsraAid",
 						"displayName": "Isra-Aid",
 						"shortDescription": "ריכוז תרומות לחיזוק העורף והלחימה",
@@ -583,7 +576,7 @@
 						"website": "https://isra-aid.org/"
 					},
 					{
-						"name": "CryptoAidIsrael1",
+						"name": "CryptoAidIsrael",
 						"displayName": "Crypto Aid Israel",
 						"shortDescription": "Site",
 						"url": "https://cryptoaidisrael.com/",
