@@ -66,42 +66,39 @@
 	{
 		"name": "Info",
 		"displayName": "רב נושאי - כללי",
-		"description": "",
+		"description": "אוסף מקורות מידע וקישורים לסיוע אזרחי בישראל.",
 		"image": "https://cdn-icons-png.flaticon.com/512/6292/6292033.png",
 		"subCategories": [
 			{
 				"name": "InfoMain",
-				"displayName": "",
+				"displayName": "מקורות מידע ויוזמות",
 				"links": [
 					{
 						"name": "IronBot",
 						"displayName": "Iron Bot - בוט הברזל",
 						"shortDescription": "וואטסאפ",
-						"description": "ברוכים הבאים לבוט הברזל 👋⚔️ אנחנו מסייעים לאלפי ישראלים מידי יום בשיתוף העמותות המובילות בישראל. שולחים הודעה בואצאפ והבוט מנווט אותך לקבוצת הסיוע המתאימה לך.",
+						"description": "ברוכים הבאים לבוט הברזל 👋⚔️. שולחים הודעה בואצאפ והבוט מנווט אותך לקבוצת הסיוע המתאימה לך.",
 						"url": "http://tiny.cc/ek3cvz",
 						"whatsapp": "http://tiny.cc/ek3cvz"
 					},
 					{
 						"name": "LevEhad",
 						"displayName": "לב אחד",
-						"shortDescription": "",
-						"description": "ארגון לב אחד נוסד מתוך ההבנה כי, בשעות חירום, רתימת האזרחים להתנדבות פעילה יש בכוחה להוציאם ממעגל הקרבנות הפסיביים, ליצור חוסן חברתי אזרחי ולהעניק לרשות המקומית מכפלת כוח דרמטית.",
+						"description": "ארגון המקנה חוסן חברתי ומעניק כוח לרשויות המקומיות בשעות חירום.",
 						"url": "https://www.levechad.org/",
 						"website": "https://www.levechad.org/"
 					},
 					{
 						"name": "KhamalAmEhad",
 						"displayName": "חמ״ל עם אחד",
-						"shortDescription": "",
-						"description": "חמ״ל סיוע מרכזי המחבר בין משפחות מארחות למשפחות מדרום הארץ, מעמיד שירותי הסעות מקו העימות לאזורים בטוחים ומגייס תרומות לסיוע עבור תושבי קו הלחימה.",
+						"description": "חמ״ל המחבר בין משפחות מארחות למשפחות מהדרום, ומגייס תרומות לסיוע התושבים.",
 						"url": "https://www.am-ehad.org/",
 						"website": "https://www.am-ehad.org/"
 					},
 					{
 						"name": "IsraHelp",
 						"displayName": "IsraHelp",
-						"shortDescription": "",
-						"description": "מרכז קישורים ליוזמות וקבוצות סיוע אזרחיות ברחבי הארץ החל מיומה הראשון של מלחמת “חרבות ברזל”.",
+						"description": "מרכז קישורים ליוזמות סיוע אזרחי בזמן מבצע 'חרבות ברזל'.",
 						"url": "https://www.coing.co/Israhelp",
 						"website": "https://www.coing.co/Israhelp"
 					}
@@ -109,7 +106,7 @@
 			},
 			{
 				"name": "AssistanceMain",
-				"displayName": "סיוע כללי בכל הנושאים",
+				"displayName": "סיוע אזרחי באזורים שונים",
 				"links": [
 					{
 						"name": "HamalHiburim",
@@ -120,28 +117,28 @@
 					},
 					{
 						"name": "IrgunSiuaEzrahimClali1",
-						"displayName": "ארגון סיוע אזרחים כללי - מרכז",
+						"displayName": "ארגון סיוע אזרחים - מרכז",
 						"shortDescription": "וואטסאפ",
 						"url": "https://chat.whatsapp.com/Bsy4Sc9jM4PIS64JD1aRnp",
 						"whatsapp": "https://chat.whatsapp.com/Bsy4Sc9jM4PIS64JD1aRnp"
 					},
 					{
 						"name": "IrgunSiuaEzrahimClali2",
-						"displayName": "ארגון סיוע אזרחים כללי - צפון",
+						"displayName": "ארגון סיוע אזרחים - צפון",
 						"shortDescription": "וואטסאפ",
 						"url": "https://chat.whatsapp.com/ChDI2XilcBSCuQG1ZIzQQp",
 						"whatsapp": "https://chat.whatsapp.com/ChDI2XilcBSCuQG1ZIzQQp"
 					},
 					{
 						"name": "IrgunSiuaEzrahimClali3",
-						"displayName": "ארגון סיוע אזרחים כללי - דרום",
+						"displayName": "ארגון סיוע אזרחים - דרום",
 						"shortDescription": "וואטסאפ",
 						"url": "https://chat.whatsapp.com/GY2MwfFLaLwAfJbydxte2X",
 						"whatsapp": "https://chat.whatsapp.com/GY2MwfFLaLwAfJbydxte2X"
 					},
 					{
 						"name": "IrgunSiuaEzrahimClali4",
-						"displayName": "ארגון סיוע אזרחים כללי - ירושלים",
+						"displayName": "ארגון סיוע אזרחים - ירושלים",
 						"shortDescription": "וואטסאפ",
 						"url": "https://chat.whatsapp.com/BS2qZmtb9zGEdRgrqZlW9h",
 						"whatsapp": "https://chat.whatsapp.com/BS2qZmtb9zGEdRgrqZlW9h"
@@ -394,33 +391,38 @@
 						"displayName": "אתר מארחים",
 						"shortDescription": "",
 						"description": "במטרה להקל על התושבים ולהעניק להם קצת שקט, החלטנו להקים אתר בו תוכלו למצוא מידע על משפחות מארחות שמוכנות לפתוח את דלתות בתיהם בלב רחב.",
-						"url": "https://mearhim.vercel.app"
+						"url": "https://mearhim.vercel.app",
+						"website": "https://mearhim.vercel.app"
 					},
 					{
 						"name": "AtarMearhimMoreQuestion",
 						"displayName": "אתר מארחים - וואטסאפ לשאלות נוספות",
 						"shortDescription": "וואטסאפ",
-						"url": "https://api.whatsapp.com/send/?phone=%2B972548816044&text&type=phone_number&app_absent=0"
+						"url": "https://api.whatsapp.com/send/?phone=%2B972548816044&text&type=phone_number&app_absent=0",
+						"whatsapp": "https://api.whatsapp.com/send/?phone=%2B972548816044&text&type=phone_number&app_absent=0"
 					},
 					{
 						"name": "MiklatMugan",
 						"displayName": "מקלט מוגן",
 						"shortDescription": "",
 						"description": "זקוקים למקלט? יכולים לתת מקום מוגן לאנשים? אתר עם ממשק מאוד פשוט המחבר כרטיסיות של מארחים למתארחים.",
-						"url": "https://protected-shelter.vercel.app"
+						"url": "https://protected-shelter.vercel.app",
+						"website": "https://protected-shelter.vercel.app"
 					},
 					{
 						"name": "NirtamimToshveiAza",
 						"displayName": "נרתמים לתושבי עזה",
 						"shortDescription": "",
 						"description": "מאגר עם מעל - 200 דירות מוכנות לאירוח ברחבי הארץ.",
-						"url": "https://sites.google.com/gshr.co.il/nirtamim/%D7%91%D7%99%D7%AA?authuser=0"
+						"url": "https://sites.google.com/gshr.co.il/nirtamim/%D7%91%D7%99%D7%AA?authuser=0",
+						"website": "https://sites.google.com/gshr.co.il/nirtamim/%D7%91%D7%99%D7%AA?authuser=0"
 					},
 					{
 						"name": "PeopleFromSouthHosting",
 						"displayName": "אירוח משפחות מהדרום",
 						"shortDescription": "וואטסאפ",
-						"url": "https://chat.whatsapp.com/E6GofQiyosDLndYKKCcC4v"
+						"url": "https://chat.whatsapp.com/E6GofQiyosDLndYKKCcC4v",
+						"whatsapp": "https://chat.whatsapp.com/E6GofQiyosDLndYKKCcC4v"
 					}
 				]
 			},
@@ -432,19 +434,22 @@
 						"name": "YozmaHostForm",
 						"displayName": "טופס למארחים",
 						"shortDescription": "",
-						"url": "https://forms.gle/wWfTqrB3dpEgXU5x7"
+						"url": "https://forms.gle/wWfTqrB3dpEgXU5x7",
+						"forms": "https://forms.gle/wWfTqrB3dpEgXU5x7"
 					},
 					{
 						"name": "YozmaGuestForm",
 						"displayName": "טופס לאורחים",
 						"shortDescription": "",
-						"url": "https://forms.gle/pRPFHbtLVVMtKwby5"
+						"url": "https://forms.gle/pRPFHbtLVVMtKwby5",
+						"forms": "https://forms.gle/pRPFHbtLVVMtKwby5"
 					},
 					{
 						"name": "YozmaGuestForm",
 						"displayName": "פרטים נוספים",
 						"shortDescription": "(דפנה, וואטסאפ)",
-						"url": "https://wa.me/972548010384"
+						"url": "https://wa.me/972548010384",
+						"whatsapp": "https://wa.me/972548010384"
 					}
 				]
 			}
@@ -465,36 +470,36 @@
 						"displayName": "להטריל תומכי טרור",
 						"shortDescription": "",
 						"description": "קחו תמונת פרופיל של תומך טרור, תדביקו פה, וקחו את התמונה שחוזרת לכם עם הודעת תודה מרגשת על התמיכה שלו.  ❤️",
-						"url": "https://devhelps.github.io/you-stand-with-israel/"
+						"url": "https://devhelps.github.io/you-stand-with-israel/",
+						"website": "https://devhelps.github.io/you-stand-with-israel/"
 					},
 					{
 						"name": "TerrorOutOfAcademyProtest",
 						"displayName": "מחאה לסילוק תומכי טרור ברשתות החברתיות מהאקדמיה",
 						"shortDescription": "וואטסאפ",
-						"url": "https://chat.whatsapp.com/GLsj5D7M3AjCv4zoWwXTON"
+						"url": "https://chat.whatsapp.com/GLsj5D7M3AjCv4zoWwXTON",
+						"whatsapp": "https://chat.whatsapp.com/GLsj5D7M3AjCv4zoWwXTON"
 					},
 					{
 						"name": "SocialNetworksReportWhatsapp",
 						"displayName": "קבוצת וואטסאפ לדיווח על עמודים ופוסטים",
 						"shortDescription": "",
-						"url": "https://chat.whatsapp.com/IKrNlfjrV8O5tBuBMpPOmV"
+						"url": "https://chat.whatsapp.com/IKrNlfjrV8O5tBuBMpPOmV",
+						"whatsapp": "https://chat.whatsapp.com/IKrNlfjrV8O5tBuBMpPOmV"
 					},
 					{
 						"name": "SocialWarReportWhatsapp",
 						"displayName": "הסברה כחול לבן - Israel Social War",
 						"shortDescription": "בקבוצה הזו ניתן בוסט לפוסטים של תמיכה בישראל ונדווח על פוסטים מסיתים ע״מ להסירם",
-						"url": "https://chat.whatsapp.com/KmsPfwYJaBEIPyzP8n3XrQ"
+						"url": "https://chat.whatsapp.com/KmsPfwYJaBEIPyzP8n3XrQ",
+						"whatsapp": "https://chat.whatsapp.com/KmsPfwYJaBEIPyzP8n3XrQ"
 					},
 					{
 						"name": "SocialNetworksReportTelegram",
 						"displayName": "חמל רשתות חברתיות",
 						"shortDescription": "לדיווח על עמודים ופוסטים אנטי ישראליים ברשתות החברתיות וחסימתם",
-						"url": "https://t.me/+HORf_dHgFVA1ZWM0"
-					},
-					{
-						"name": "SocialNetworksReportGoogleDoc",
-						"displayName": "מסמך גוגל לדיווח על עמודים ופוסטים",
-						"url": "https://docs.google.com/spreadsheets/d/14tRgnIlJhyrSrKA4mTGSgrvvH7U3T8CLV30mDrsNxG8/edit#gid=0"
+						"url": "https://t.me/+HORf_dHgFVA1ZWM0",
+						"telegram": "https://t.me/+HORf_dHgFVA1ZWM0"
 					}
 				]
 			}
