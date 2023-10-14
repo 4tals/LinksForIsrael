@@ -5,7 +5,11 @@ direction: rtl
 {% for category in site.data.links %}
 <details class="links-section" id="{{ category.name }}">
 <summary class="links-section-title">
+{% if category.image and category.image != "" %}
+<img src="{{ category.image }}" alt="{{ category.displayName }} Icon" class="category-icon" style="width:70px; height:70px;">
+{% endif %}
 <h2>{{ category.displayName }}</h2>
+
 <div class="open-caret"></div>
 </summary>
 <div class="links-section-content">
