@@ -13,32 +13,37 @@
 						"name": "mitmadvimAutomation",
 						"displayName": "אוטומציה בין מתנדבים למחפשי עזרה",
 						"shortDescription": "וואטסאפ",
-						"url": "https://chat.whatsapp.com/JuJ1da4wYbe16uZL0cqL40"
+						"url": "https://chat.whatsapp.com/JuJ1da4wYbe16uZL0cqL40",
+						"whatsapp": "https://chat.whatsapp.com/JuJ1da4wYbe16uZL0cqL40"
 					},
 					{
 						"name": "IsraelDiplomacy",
 						"displayName": "Israel Diplomacy",
 						"shortDescription": "",
 						"description": "אתר עם תוכן מוכן לשיתוף לצרכי הסברה",
-						"url": "https://github.com/nirtz89/israel_diplomacy"
+						"url": "https://github.com/nirtz89/israel_diplomacy",
+						"website": "https://github.com/nirtz89/israel_diplomacy"
 					},
 					{
 						"name": "BotsForIsrael",
 						"displayName": "Bots For Israel - בוטים למען ישראל",
 						"shortDescription": "",
-						"url": "https://chat.whatsapp.com/CWmy7ai0VJ1449FVgShVGk"
+						"url": "https://chat.whatsapp.com/CWmy7ai0VJ1449FVgShVGk",
+						"whatsapp": "https://chat.whatsapp.com/CWmy7ai0VJ1449FVgShVGk"
 					},
 					{
 						"name": "ProAntiClassification",
 						"displayName": "סיווג טקסט פרו/אנטי ישראלי",
 						"shortDescription": "",
-						"url": "https://chat.whatsapp.com/K9iNqhuwhdmLvAJhNrh6y0"
+						"url": "https://chat.whatsapp.com/K9iNqhuwhdmLvAJhNrh6y0",
+						"whatsapp": "https://chat.whatsapp.com/K9iNqhuwhdmLvAJhNrh6y0"
 					},
 					{
 						"name": "IkhunMakhshirim",
 						"displayName": "איכון מכשירי נעדרים",
 						"shortDescription": "",
-						"url": "https://docs.google.com/forms/d/e/1FAIpQLSduujH277Cqt31XgOZfTZFAD4ua_YN8fXUtAlwOAHX2q9Emww/viewform?usp=sf_link"
+						"url": "https://docs.google.com/forms/d/e/1FAIpQLSduujH277Cqt31XgOZfTZFAD4ua_YN8fXUtAlwOAHX2q9Emww/viewform?usp=sf_link",
+						"docs": "https://docs.google.com/forms/d/e/1FAIpQLSduujH277Cqt31XgOZfTZFAD4ua_YN8fXUtAlwOAHX2q9Emww/viewform?usp=sf_link"
 					}
 				]
 			},
@@ -49,8 +54,9 @@
 					{
 						"name": "HamalRivonReviiVolunteers",
 						"displayName": "מתנדבי דאטה וטכנולוגיה - חמל הרבעון הרביעי",
-						"shortDescription": "וואטסאפ",
-						"url": "https://chat.whatsapp.com/E2HvCLeTNaP601kA71HYxE"
+						"shortDescription": "",
+						"url": "https://chat.whatsapp.com/E2HvCLeTNaP601kA71HYxE",
+						"whatsapp": "https://chat.whatsapp.com/E2HvCLeTNaP601kA71HYxE"
 					},
 					{
 						"name": "WixOfferingMentorshipSupport",
@@ -68,14 +74,16 @@
 					{
 						"name": "PitronotTechEmergency",
 						"displayName": "פתרונות טכנולוגיים - צוות חירום",
-						"shortDescription": "וואטסאפ",
-						"url": "https://chat.whatsapp.com/DyIdNxWEONu69Oksm3mRmS"
+						"shortDescription": "",
+						"url": "https://chat.whatsapp.com/DyIdNxWEONu69Oksm3mRmS",
+						"whatsapp": "https://chat.whatsapp.com/DyIdNxWEONu69Oksm3mRmS"
 					},
 					{
 						"name": "DevHelpsTechVolunteers",
 						"displayName": "DevHelp - Tech Volunteers",
-						"shortDescription": "וואטסאפ",
-						"url": "https://chat.whatsapp.com/GLmj3FDWiCW1RWDRnL79UV"
+						"shortDescription": "",
+						"url": "https://chat.whatsapp.com/GLmj3FDWiCW1RWDRnL79UV",
+						"whatsapp": "https://chat.whatsapp.com/GLmj3FDWiCW1RWDRnL79UV"
 					},
 					{
 						"name": "YotseiModiinVolunteers",
@@ -225,13 +233,15 @@
 						"displayName": "עורף ברזל",
 						"shortDescription": "",
 						"description": "מחפשים מתנדבים? בוער בכם להתנדב? ברוכים הבאים לעורף ברזל, האתר בו תוכלו למצוא בזמן אמת מקום להתנדב בו או לגייס מתנדבים חדשים אליכם.",
-						"url": "https://ironswords.help/"
+						"url": "https://ironswords.help/",
+						"website": "https://ironswords.help/"
 					},
 					{
 						"name": "VolunteeringConnect",
 						"displayName": "חיבור בין מתנדבים",
-						"shortDescription": "תומר, וואטסאפ, 050-4304099",
-						"url": "https://wa.me/972504304099"
+						"shortDescription": "תומר",
+						"url": "https://wa.me/972504304099",
+						"whatsapp": "https://wa.me/972504304099"
 					}
 				]
 			}
@@ -391,6 +401,12 @@
 						"url": "https://chat.whatsapp.com/IKrNlfjrV8O5tBuBMpPOmV"
 					},
 					{
+						"name": "SocialWarReportWhatsapp",
+						"displayName": "הסברה כחול לבן - Israel Social War",
+						"shortDescription": "בקבוצה הזו ניתן בוסט לפוסטים של תמיכה בישראל ונדווח על פוסטים מסיתים ע״מ להסירם",
+						"url": "https://chat.whatsapp.com/KmsPfwYJaBEIPyzP8n3XrQ"
+					},
+					{
 						"name": "SocialNetworksReportTelegram",
 						"displayName": "חמל רשתות חברתיות",
 						"shortDescription": "לדיווח על עמודים ופוסטים אנטי ישראליים ברשתות החברתיות וחסימתם",
@@ -427,7 +443,8 @@
 						"displayName": "Fake Hunter",
 						"shortDescription": "טלגרם",
 						"description": "בוט בטלגרם לדיווח עמודים שמפיצים שקרים ותעמולה נגד ישראל",
-						"url": "https://t.me/fakenewsisraelbot"
+						"url": "https://t.me/fakenewsisraelbot",
+						"telegram": "https://t.me/fakenewsisraelbot"
 					},
 					{
 						"name": "HelpWithIsraeliDiplomacy",
@@ -442,7 +459,13 @@
 						"shortDescription": "אתר ההסברה הרשמי של ישראל",
 						"description": "לעקוב אחרי העמוד הסברה של ישראל. לעמוד תמיכה של פלסטין יש 3 מיליון עוקבים ולנו אפילו לא 800 אלף",
 						"url": "https://www.instagram.com/standwithus/"
-					}
+					},
+					{
+						"name": "SocialWarReportWhatsapp",
+						"displayName": "הסברה כחול לבן - Israel Social War",
+						"shortDescription": "בקבוצה הזו ניתן בוסט לפוסטים של תמיכה בישראל ונדווח על פוסטים מסיתים ע״מ להסירם",
+						"url": "https://chat.whatsapp.com/KmsPfwYJaBEIPyzP8n3XrQ"
+					},
 				]
 			}
 		]
@@ -573,8 +596,8 @@
 		"name": "Reserves",
 		"displayName": "מילואים",
 		"description": "",
-		"image": "https://t3.ftcdn.net/jpg/03/27/36/14/360_F_327361440_YQuXrkCWJ4HkQKwGAYEWX5bTMdlVug4I.jpg"
-		,"subCategories": [
+		"image": "https://t3.ftcdn.net/jpg/03/27/36/14/360_F_327361440_YQuXrkCWJ4HkQKwGAYEWX5bTMdlVug4I.jpg",
+		"subCategories": [
 			{
 				"name": "ReservesMain",
 				"displayName": "",

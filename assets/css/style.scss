@@ -7,9 +7,9 @@
 :root {
 	--color-background-blue: #f0f8fa;
 	--text-color: #000;
-	--color-blue:#0038B8;
-	--header-text-color:#170F49;
-	--color-light-blue:#DBEAFE;
+	--color-blue: #0038b8;
+	--header-text-color: #170f49;
+	--color-light-blue: #dbeafe;
 	--color-title-blue: #018bad;
 	--color-green: #cbd517;
 	--color-white: #fff;
@@ -28,7 +28,7 @@ body {
 .links-section {
 	align-items: center;
 	border-radius: 30px;
-	border: 2px solid #0038B8;
+	border: 2px solid #0038b8;
 	background: var(--color-white);
 	min-height: 100px;
 	margin-block-end: 16px;
@@ -37,7 +37,9 @@ body {
 	flex-direction: column;
 
 	&:hover {
-		.share-btn, .whatsapp-btn, .telegram-btn {
+		.share-btn,
+		.whatsapp-btn,
+		.telegram-btn {
 			display: inline-block;
 		}
 	}
@@ -48,7 +50,7 @@ body {
 		margin: 0;
 	}
 
-	&[open] .open-caret{
+	&[open] .open-caret {
 		transform: rotate(180deg); /* Flips upward when section is open */
 	}
 }
@@ -90,33 +92,14 @@ body {
 		padding-inline-start: 0;
 		list-style: none;
 
-		ul {
-			// Nested lists are hidden by default
-			display: block;
-			padding-inline-start: 0;
-
-			li {
-				scale: 0.8;
-			}
-		}
-
 		li {
 			a {
 				align-items: center;
-				background: var(--color-light-blue);
-				border-radius: 100px;
-				color: var(--color-blue);
-				display: flex;
 				flex-direction: column;
-				gap: 10px;
 				justify-content: center;
 				padding: 10px 16px;
 				text-align: center;
-				width: 279px;
-				
-				&:hover {
-					box-shadow: 2.5px 2.5px 5px 0 rgba(0, 0, 0, 0.35);
-				}
+				width: 80%;
 			}
 		}
 	}
@@ -138,15 +121,15 @@ body {
 	background-image: none;
 	height: 119px;
 	color: var(--color-white);
-	.main-title{
+	.main-title {
 		color: var(--color-white);
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
-		svg{
+		svg {
 			margin-inline-end: 10px;
 		}
-		h1{
+		h1 {
 			padding: 0;
 			margin: 0;
 			font-size: 32px;
@@ -171,8 +154,6 @@ body {
 	color: var(--header-text-color);
 	font-weight: 500;
 }
-
-
 
 .contribute-button {
 	background-color: var(--color-white);
@@ -242,14 +223,13 @@ details[open] .telegram-btn {
 @media only screen and (max-width: 600px) {
 	.page-header {
 		height: 100px;
-		.main-title{
-			h1{
+		.main-title {
+			h1 {
 				font-size: 24px;
 				display: flex;
 			}
 		}
 	}
-
 
 	.main-title {
 		font-size: 19px;
@@ -281,7 +261,6 @@ details[open] .telegram-btn {
 		font-size: 16px;
 		padding: 15px;
 	}
-
 }
 
 .links-section-list {
@@ -300,6 +279,8 @@ details[open] .telegram-btn {
 	display: flex;
 	flex-basis: 50%;
 	flex-direction: column;
+	border-radius: 30px;
+	border: 1px solid #5275c7;
 }
 
 .links-section-item-short-description {
@@ -311,7 +292,7 @@ details[open] .telegram-btn {
 	.page-header {
 		height: 100px;
 		padding: 2rem 1rem;
-		h1{
+		h1 {
 			font-size: 24px;
 		}
 	}
