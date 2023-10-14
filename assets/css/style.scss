@@ -243,10 +243,6 @@ body {
 	padding-block-start: 40px;
 }
 
-.main-subtitle:first-of-type {
-	margin-top: 100px;
-}
-
 .main-content h1,
 .main-content h2,
 .main-content h3,
@@ -351,6 +347,10 @@ details[open] .telegram-btn {
 
 	.contribute-button {
 		display: none;
+	}
+
+	#first-subtitle {
+		margin-top: 100px;
 	}
 
 	.mobile-search-button {
