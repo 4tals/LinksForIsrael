@@ -2,50 +2,78 @@ const ICONS = {
   share: '<i class="fas fa-link"></i>',
   whatsapp: '<i class="fab fa-whatsapp"></i>',
   telegram: '<i class="fab fa-telegram-plane"></i>',
+  shareMobile: '<i class="fa-thin fa-share-nodes"></i>',
 };
 
-
 function handleDetailsToggle(event) {
-  const sections = document.querySelectorAll('details');
-  const clickedSection = event.target.closest('details');
+  const sections = document.querySelectorAll("details");
+  const clickedSection = event.target.closest("details");
 
-  if (!clickedSection.hasAttribute('open')) {
-    history.pushState({}, '', `#${clickedSection.id}`);
+  if (!clickedSection.hasAttribute("open")) {
+    history.pushState({}, "", `#${clickedSection.id}`);
   } else {
-    history.pushState({}, '', '#');
+    history.pushState({}, "", "#");
   }
 
   sections.forEach((section) => {
-    if (section !== clickedSection) { // Don't close the one being toggled by the user.
-      section.removeAttribute('open');
+    if (section !== clickedSection) {
+      // Don't close the one being toggled by the user.
+      section.removeAttribute("open");
     }
   });
 }
 
 function bindDetailsToggleEvent() {
-  const sectionsSummaries = document.querySelectorAll('details summary');
+  const sectionsSummaries = document.querySelectorAll("details summary");
   sectionsSummaries.forEach((section) => {
-    section.addEventListener('click', handleDetailsToggle);
+    section.addEventListener("click", handleDetailsToggle);
   });
 }
 
-
-function appendButton(element, iconClass, iconHTML) {
+function appendButton(element, id, iconClass, iconHTML) {
   const btn = document.createElement("span");
   btn.classList.add(iconClass);
-  btn.setAttribute("data-index", element.parentElement.parentElement.id);
+  btn.setAttribute("data-index", id);
   btn.innerHTML = iconHTML;
   element.appendChild(btn);
 }
 
 function initializeShareButtons() {
   const sections = document.querySelectorAll("details");
-  sections.forEach((section) => {
-    const h2Element = section.querySelector("h2");
+  sections.forEach(async (section) => {
+    const shareContainer = document.createElement("div");
+    shareContainer.classList.add("share-container");
 
-    appendButton(h2Element, "share-btn", ICONS.share);
-    appendButton(h2Element, "whatsapp-btn", ICONS.whatsapp);
-    appendButton(h2Element, "telegram-btn", ICONS.telegram);
+    const siteUrl = new URL(window.location.href);
+
+    if (navigator.share) {
+      // add share button for mobile - only if supported
+      const shareData = {
+        title: "לינק לישראל - פורטל יוזמות",
+        text: "כל אתרי הסיוע למלחמה במקום אחד 🇮🇱",
+        url: `${siteUrl.origin}#${section.id}`,
+      };
+
+      const btn = document.createElement("span");
+      btn.classList.add("share-btn");
+      btn.innerHTML = ICONS.shareMobile;
+      shareContainer.appendChild(btn);
+      btn.addEventListener("click", async () => {
+        try {
+          await navigator.share(shareData);
+          resultPara.textContent = "MDN shared successfully";
+        } catch (err) {
+          resultPara.textContent = `Error: ${err}`;
+        }
+      });
+    } else {
+      appendButton(shareContainer, section.id, "share-btn", ICONS.share);
+      appendButton(shareContainer, section.id, "whatsapp-btn", ICONS.whatsapp);
+      appendButton(shareContainer, section.id, "telegram-btn", ICONS.telegram);
+    }
+
+    const summaryElement = section.querySelector("summary");
+    summaryElement.appendChild(shareContainer);
   });
 }
 
@@ -101,12 +129,13 @@ function scrollToSectionInView() {
   const url = new URL(window.location.href);
   const sectionId = url.hash;
   if (sectionId) {
-    const sections = document.querySelectorAll('details');
+    const sections = document.querySelectorAll("details");
     const clickedSection = document.querySelector(sectionId);
 
     sections.forEach((section) => {
-      if (section !== clickedSection) { // Don't close the one being toggled by the user.
-        section.removeAttribute('open');
+      if (section !== clickedSection) {
+        // Don't close the one being toggled by the user.
+        section.removeAttribute("open");
       }
     });
 
@@ -115,17 +144,18 @@ function scrollToSectionInView() {
       clickedSection.setAttribute("open", "");
     }
   } else {
-    const sections = document.querySelectorAll('details');
+    const sections = document.querySelectorAll("details");
 
     sections.forEach((section) => {
-      section.removeAttribute('open');
+      section.removeAttribute("open");
     });
   }
 }
 
 window.addEventListener(
-  "DOMContentLoaded",
+  "load",
   () => {
+    console.log("DOM fully loaded and parsed");
     initializeShareButtons();
     openSectionFromHash();
     addShareButtonListeners();
