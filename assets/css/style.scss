@@ -253,9 +253,15 @@ body {
 	width: fit-content;
 	margin-inline-start: 15px; /* Increased spacing */
 	height: 35px; /* Increased height */
-	font-size: 1rem; /* Increased font-size */
+	font-size: 1.2rem; /* Increased font-size */
 	line-height: 35px;
 	cursor: pointer; /* Add a pointer cursor to indicate clickability */
+}
+.whatsapp-btn {
+	color: #25d366;
+}
+.telegram-btn {
+	color: #0088cc;
 }
 
 details[open] .share-btn,

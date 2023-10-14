@@ -43,6 +43,9 @@ function initializeShareButtons() {
   sections.forEach(async (section) => {
     const shareContainer = document.createElement("div");
     shareContainer.classList.add("share-container");
+    const text = document.createElement("span");
+    text.textContent = "ניתן לשתף ישירות את הקטגוריה באמצעות";
+    shareContainer.appendChild(text);
 
     const siteUrl = new URL(window.location.href);
 
@@ -72,8 +75,8 @@ function initializeShareButtons() {
       appendButton(shareContainer, section.id, "telegram-btn", ICONS.telegram);
     }
 
-    const summaryElement = section.querySelector("summary");
-    summaryElement.appendChild(shareContainer);
+    const summaryElement = section.querySelector(".links-section-content");
+    summaryElement.prepend(shareContainer);
   });
 }
 
