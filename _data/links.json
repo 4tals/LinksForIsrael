@@ -387,14 +387,41 @@
 		]
 	},
 	{
-		"name": "Shelters",
-		"displayName": "מקלטים",
+		"name": "Defence",
+		"displayName": "הגנה - נשק, מקלט ופינוי",
 		"description": "",
-		"image": "https://cdn-icons-png.flaticon.com/512/4117/4117166.png",
+		"image": "https://cdn-icons-png.flaticon.com/512/8193/8193190.png",
 		"subCategories": [
 			{
+				"name": "WeaponsMain",
+				"displayName": "נשק",
+				"links": [
+					{
+						"name": "ZakautNeshek",
+						"displayName": "בדיקת זכאות לנשק",
+						"shortDescription": "",
+						"url": "https://www.gov.il/apps/mops/firearm_license_calculator",
+						"website": "https://www.gov.il/apps/mops/firearm_license_calculator"
+					},
+					{
+						"name": "WeaponsLicenseRequest",
+						"displayName": "בקשת לקבלת רשיון נשק",
+						"shortDescription": "",
+						"url": "https://www.gov.il/BlobFolder/service/issue_firearms_license_to_a_private_individual/he/services_personal-fiream-request-form.pdf",
+						"website": "https://www.gov.il/BlobFolder/service/issue_firearms_license_to_a_private_individual/he/services_personal-fiream-request-form.pdf"
+					},
+					{
+						"name": "WeaponsLicenseTest",
+						"displayName": "תבחינים למתן רשיון נשק",
+						"shortDescription": "",
+						"url": "https://www.gov.il/he/departments/policies/firearm_licensing_criteria",
+						"website": "https://www.gov.il/he/departments/policies/firearm_licensing_criteria"
+					}
+				]
+			},
+			{
 				"name": "",
-				"displayName": "",
+				"displayName": "השמשת מקלטים",
 				"links": [
 					{
 						"name": "MidragShelters",
@@ -402,6 +429,20 @@
 						"shortDescription": "",
 						"description": "חמ״ל סיוע פרויקט אתר מדרג להשמשה והכנה של מקלטים",
 						"url": "https://forms.monday.com/forms/f1e1014123cf1aac6615780795aec231?r=use1"
+					}
+				]
+			},
+			{
+				"name": "EvacuationMain",
+				"displayName": "חילוץ בזמן אמת",
+				"links": [
+					{
+						"name": "KvarBaim",
+						"displayName": "יוזמת כבר באים",
+						"shortDescription": "",
+						"description": "החמ״ל סייע בימים האחרונים בחילוץ מאות אנשים מישובי עוטף עזה – תוך חיבור בין אנשים הנצורים בביתם לכוחות הביטחון.",
+						"url": "https://www.kvarbaim.co.il/",
+						"website": "https://www.kvarbaim.co.il/"
 					}
 				]
 			}
@@ -568,7 +609,7 @@
 	},
 	{
 		"name": "MentalSupport",
-		"displayName": "תמיכה בשכול, התמודדות עם המצב - סיוע טלפוני, עזרה נפשית",
+		"displayName": "עזרה נפשית ותמיכה בשכול, התמודדות עם המצב וסיוע טלפוני",
 		"description": "",
 		"image": "https://cdn-icons-png.flaticon.com/512/7216/7216006.png",
 		"subCategories": [
@@ -652,7 +693,7 @@
 		]
 	},
 	{
-		"name": "Parenting",
+		"name": "Children",
 		"displayName": "פנאי, לימוד ותעסוקה לילדים",
 		"description": "",
 		"image": "https://cdn-icons-png.flaticon.com/512/3079/3079247.png",
@@ -706,63 +747,6 @@
 						"description": "קוד: בריינפופ23",
 						"url": "https://il.brainpop.com/",
 						"website": "https://il.brainpop.com/"
-					}
-				]
-			}
-		]
-	},
-	{
-		"name": "Evacuation",
-		"displayName": "חילוץ",
-		"description": "",
-		"image": "https://cdn-icons-png.flaticon.com/512/1973/1973154.png",
-		"subCategories": [
-			{
-				"name": "EvacuationMain",
-				"displayName": "",
-				"links": [
-					{
-						"name": "KvarBaim",
-						"displayName": "יוזמת כבר באים",
-						"shortDescription": "",
-						"description": "החמ״ל סייע בימים האחרונים בחילוץ מאות אנשים מישובי עוטף עזה – תוך חיבור בין אנשים הנצורים בביתם לכוחות הביטחון.",
-						"url": "https://www.kvarbaim.co.il/",
-						"website": "https://www.kvarbaim.co.il/"
-					}
-				]
-			}
-		]
-	},
-	{
-		"name": "Weapons",
-		"displayName": "נשק",
-		"description": "",
-		"image": "https://cdn.icon-icons.com/icons2/564/PNG/512/Crime_icon-icons.com_54190.png",
-		"subCategories": [
-			{
-				"name": "WeaponsMain",
-				"displayName": "",
-				"links": [
-					{
-						"name": "ZakautNeshek",
-						"displayName": "בדיקת זכאות לנשק",
-						"shortDescription": "",
-						"url": "https://www.gov.il/apps/mops/firearm_license_calculator",
-						"website": "https://www.gov.il/apps/mops/firearm_license_calculator"
-					},
-					{
-						"name": "WeaponsLicenseRequest",
-						"displayName": "בקשת לקבלת רשיון נשק",
-						"shortDescription": "",
-						"url": "https://www.gov.il/BlobFolder/service/issue_firearms_license_to_a_private_individual/he/services_personal-fiream-request-form.pdf",
-						"website": "https://www.gov.il/BlobFolder/service/issue_firearms_license_to_a_private_individual/he/services_personal-fiream-request-form.pdf"
-					},
-					{
-						"name": "WeaponsLicenseTest",
-						"displayName": "תבחינים למתן רשיון נשק",
-						"shortDescription": "",
-						"url": "https://www.gov.il/he/departments/policies/firearm_licensing_criteria",
-						"website": "https://www.gov.il/he/departments/policies/firearm_licensing_criteria"
 					}
 				]
 			}
