@@ -153,7 +153,7 @@ body {
 
 /* === Header === */
 .page-header {
-	padding: 40px 80px;
+	padding: 40px 17px;
 	background-color: var(--color-blue);
 	background-image: none;
 	height: 119px;
@@ -171,6 +171,8 @@ body {
 			margin: 0;
 			font-size: 32px;
 			font-weight: 400;
+			display: flex;
+			align-items: center;
 		}
 	}
 }
@@ -258,6 +260,10 @@ details[open] .telegram-btn {
 	height:70px;
 }
 
+.mobile-search-button {
+	display: none;
+}
+
 /* ... (rest of your CSS) ... */
 
 /* === Responsive Design === */
@@ -281,8 +287,11 @@ details[open] .telegram-btn {
 	}
 
 	.contribute-button {
-		font-size: 24px;
-		left: 0;
+		display: none;
+	}
+
+	.mobile-search-button {
+		display: block;
 	}
 
 	.open-caret {
