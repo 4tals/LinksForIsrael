@@ -11,10 +11,10 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta property="og:title" content="לינק לישראל – פורטל יוזמות - חרבות הברזל!">
   <meta property="og:description"
-    content="אם אתם מחפשים איך לעזור או צריכים עזרה או מידע – זה המקום. לינק לישראל מרכז את כל המשאבים האלה במקום אחד, במטרה שכל אחד ואחת יוכלו למצוא או לתת את הסיוע הנכון עבורם.">
+    content="אם אתם מחפשים איך לעזור או צריכים עזרה או מידע – זה המקום. לינק לישראל מרכז את כל המשאבים האלה במקום אחד, במטרה שכל אחד ואחת יוכלו למצוא או לתת את הסיוע הנכון עבורם - פרויקט קוד פתוח.">
   <meta property="og:url" content="https://www.linksforisrael.com">
   <meta property="og:image"
-    content="https://res.cloudinary.com/dargbitr2/image/upload/v1697228919/LinksForIsrael/r5ysb355egkpyd10jovq.jpg">
+    content="https://res.cloudinary.com/dargbitr2/image/upload/v1697311977/LinksForIsrael/jix5eizmqcegmfra89gs.jpg">
   <meta property="og:type" content="website">
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
@@ -55,6 +55,8 @@
   <header class="page-header" role="banner">
     <div class="main-title">
       <div id="rightElement">
+      <a href="https://www.linksforisrael.com/" target="_blank" rel="noopener noreferrer" id="homepageLink">
+
         <h1>
           <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
             <g clip-path="url(#clip0_7_707)">
@@ -70,6 +72,7 @@
           </svg>
           לינק לישראל - פורטל יוזמות
         </h1>
+      </a>
         <div id="webSearchWrapper">
           <div class="search-div" id="searchDivWeb">
             <div class="search-wrapper">
@@ -139,7 +142,7 @@
     <footer class="site-footer">
       <div class="invite-text">הצטרפו אלינו והראו לנו תמיכה</div>
       <div class="social-links">
-        <a href="https://www.instagram.com/link_for_israel/" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.instagram.com/links_for_israel/" target="_blank" rel="noopener noreferrer">
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1200px-Instagram_icon.png"
             alt="Instagram" width="32" height="32">
@@ -215,6 +218,15 @@
       } else {
         formContainer.style.display = 'none';
         addButton.style.display = 'block';
+      }
+    }
+  </script>
+
+  <script>
+    window.onload = function () {
+      var linkElement = document.getElementById('homepageLink');
+      if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
+        linkElement.href = 'http://127.0.0.1:4000/';
       }
     }
   </script>

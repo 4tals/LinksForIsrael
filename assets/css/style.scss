@@ -7,7 +7,7 @@
 :root {
 	--color-background-blue: #f0f8fa;
 	--text-color: #000;
-	--color-blue: #0038b8;
+	--color-blue: #2b6bff;
 	--header-text-color: #170f49;
 	--color-light-blue: #dbeafe;
 	--color-title-blue: #018bad;
@@ -25,13 +25,11 @@
 }
 
 .link-icons {
-    display: flex;
-    flex-direction: row;
-    // gap: 5px; /* Adjust the gap between icons as needed */
+	display: flex;
+	flex-direction: row;
 }
 
 body {
-	background: var(--color-light-blue);
 	font-family: Rubik, sans-serif;
 	color: var(--color-dark);
 }
@@ -150,13 +148,13 @@ body {
 	display: flex;
 	flex-direction: column;
 
-	&:hover {
-		.share-btn,
-		.whatsapp-btn,
-		.telegram-btn {
-			display: inline-block;
-		}
-	}
+	// &:hover {
+	// 	.share-btn,
+	// 	.whatsapp-btn,
+	// 	.telegram-btn {
+	// 		display: inline-block;
+	// 	}
+	// }
 
 	h2 {
 		align-items: center;
@@ -171,17 +169,24 @@ body {
 
 .links-section-title {
 	align-items: center;
+	cursor: pointer;
 	display: flex;
-	justify-content: space-between;
+	gap: 10px;
 	padding: 16px;
 	user-select: none;
-	cursor: pointer;
+
+	& > h2 {
+		flex: 1;
+	}
+
+	&::-webkit-details-marker {
+		display:none;
+	}
 }
 
 .main-content .links-section-list {
-  
 	:first-child {
-	  margin-top: 10px;
+		margin-top: 10px;
 	}
 }
 
@@ -228,12 +233,13 @@ body {
 }
 
 .link-tags-list {
-	display: flex;
+	display: none;
 	flex-flow: row wrap;
 	gap: 8px;
 	width: 100%;
 
 	.tag {
+		display: none;
 		background-color: var(--color-title-blue);
 		border: 1px solid var(--color-link);
 		border-radius: 8px;
@@ -283,6 +289,25 @@ body {
 		}
 	}
 }
+
+.main-title h1 {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #0073e6;
+	color: #fff;
+	border-radius: 5px;
+	text-decoration: none;
+	transition: background-color 0.3s ease;
+	box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2); /* Add this line */
+}
+
+.main-title h1:hover {
+	background-color: #005bb5;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 10px;
+}
+
 .main-subtitle {
 	font-size: 24px;
 	font-style: normal;
@@ -337,22 +362,22 @@ body {
 	}
 }
 
+.share-mobile-btn,
 .share-btn,
 .whatsapp-btn,
 .telegram-btn {
 	width: fit-content;
 	margin-inline-start: 15px; /* Increased spacing */
 	height: 35px; /* Increased height */
-	font-size: 1rem; /* Increased font-size */
+	font-size: 1.2rem; /* Increased font-size */
 	line-height: 35px;
-	display: none;
 	cursor: pointer; /* Add a pointer cursor to indicate clickability */
 }
-
-details[open] .share-btn,
-details[open] .whatsapp-btn,
-details[open] .telegram-btn {
-	display: inline-block;
+.whatsapp-btn {
+	color: #25d366;
+}
+.telegram-btn {
+	color: #0088cc;
 }
 
 .copy-icon {
@@ -364,8 +389,8 @@ details[open] .telegram-btn {
 }
 
 .category-icon {
-	width:70px; 
-	height:70px;
+	width: 70px;
+	height: 70px;
 }
 
 .mobile-search-button {
@@ -442,11 +467,6 @@ details[open] .telegram-btn {
 		margin-top: 130px;
 	}
 
-	.open-caret {
-		background: url("{{ site.baseurl }}/assets/caret-mobile.png") no-repeat;
-		height: 9px;
-		width: 16px;
-	}
 	.links-section-content {
 		padding: 32px;
 		display: block;
@@ -461,7 +481,7 @@ details[open] .telegram-btn {
 	}
 
 	.links-section-title {
-		justify-content: flex-start
+		justify-content: flex-start;
 	}
 
 	.category-icon {
@@ -472,6 +492,7 @@ details[open] .telegram-btn {
 .links-section-list {
 	display: flex;
 	flex-flow: row wrap;
+	justify-content: space-between;
 	width: 100%;
 }
 
@@ -484,7 +505,7 @@ details[open] .telegram-btn {
 .links-section-item {
 	align-items: center;
 	display: flex;
-	flex-basis: 45%;
+	flex-basis: 47%;
 	flex-direction: column;
 	border-radius: 30px;
 	border: 1px solid #5275c7;
@@ -518,12 +539,6 @@ details[open] .telegram-btn {
 		left: 0;
 	}
 
-	.open-caret {
-		background: url("{{ site.baseurl }}/assets/caret-mobile.png") no-repeat;
-		height: 9px;
-		width: 16px;
-	}
-
 	.links-section-content ul li a {
 		font-size: 16px;
 		padding: 15px;
@@ -531,6 +546,5 @@ details[open] .telegram-btn {
 	.links-section-item {
 		flex-basis: 100%;
 		width: 100%;
-
 	}
 }
