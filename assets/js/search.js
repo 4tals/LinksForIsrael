@@ -8,22 +8,32 @@ function clearResultsList() {
 
 function searchResultClicked(aElement) {
     const overlayElement = document.getElementById('searchOverlay');
+    const overlayElementWeb = document.getElementById('searchOverlayWeb');
+    const searchInputWeb = document.getElementById('searchInputWeb');
+    const searchInput = document.getElementById('searchInput');
 
     const linkId = aElement.id;
     const targetElement = document.getElementById(linkId);
 
     overlayElement.classList.remove("active");
+    overlayElementWeb.classList.remove("active");
+    searchInputWeb.value = '';
+    searchInput.value = '';
 
-    // targetElement.scrollIntoView();
     window.location.hash = `#${linkId}`;
-    const detailsElement = targetElement.parentElement.parentElement.parentElement
-    detailsElement.setAttribute('open', true);
-    setTimeout(()=>window.scrollBy(0, -300), 0);
+    // const detailsElement = targetElement.parentElement.parentElement.parentElement.parentElement.parentElement
+    
+    // const xpathExpression = `//p[@id='${linkId}']/ancestor::details[0]`;
+    // const result = document.evaluate(xpathExpression, document, null, XPathResult.ANY_TYPE, null);
+    // const detailsElement = result.iterateNext();
+    // detailsElement.setAttribute('open', true);
+    setTimeout(()=>window.scrollBy(0, -280), 0);
 }
 
 function displaySearchResults(results, links) {
 
     var searchResults = document.getElementById('search-results');
+    var searchResultsWeb = document.getElementById('search-results-web');
     var searchResultsDiv = document.getElementById('searchResultsDiv');
 
     if (results.length) { // Are there any results?
@@ -36,26 +46,20 @@ function displaySearchResults(results, links) {
 
             let title = item.displayName || item.shortDescription
 
-            if (title.length > 20) {
-                title = title.substring(0, 20)
-                appendString += '<li><div class="searchResultItem"><span class="searchResultTitle">' + title + '...</span>';
-            }
-            else {
-                appendString += '<li><div class="searchResultItem"><span class="searchResultTitle">' + title + '</span>';
-                
-            }
+            appendString += '<li><div class="searchResultItem"><span class="searchResultTitle">' + title + '</span>';
 
             const siteUrl = new URL(window.location.href);
             const permalink = `${siteUrl.origin}#${item.name}`
 
             appendString += `<div class="searchResultLinks"><a href="${item.url}">קח אותי ליוזמה</a> / <a onclick="searchResultClicked(${item.name})">עוד מידע</a></div></div></li>`;
-            // appendString += `<div class="searchResultLinks"><a href="${item.url}">קח אותי ליוזמה</a> / <a href="${permalink}">עוד מידע</a></div></div></li>`;
             
         }
 
         searchResults.innerHTML = appendString;
+        searchResultsWeb.innerHTML = appendString;
     } else {
         searchResults.innerHTML = '<li>No results found</li>';
+        searchResultsWeb.innerHTML = '<li>No results found</li>';
         searchResultsDiv.classList.remove("active");
     }
 }
@@ -143,7 +147,9 @@ document.addEventListener("DOMContentLoaded", function() {
     prepareIndex();
     const mobileSearchButton = document.getElementById("mobileSearchButton");
     const overlayElement = document.getElementById('searchOverlay');
+    const overlayElementWeb = document.getElementById('searchOverlayWeb');
     const searchInput = document.getElementById('searchInput');
+    const searchInputWeb = document.getElementById('searchInputWeb');
     const searchDiv = document.getElementById('searchDiv');
     var searchResultsDiv = document.getElementById('searchResultsDiv');
 
@@ -151,6 +157,19 @@ document.addEventListener("DOMContentLoaded", function() {
         overlayElement.classList.add("active");
     });
 
+    searchInputWeb.addEventListener("input", function(event) {
+        
+        const searchTerm = event.target.value;
+
+        if (searchTerm) {
+            overlayElementWeb.classList.add("active");
+        }
+        else {
+            overlayElementWeb.classList.remove("active");
+        }
+        search(searchTerm)
+    });
+    
     searchInput.addEventListener("input", function(event) {
         const searchTerm = event.target.value;
         search(searchTerm)
@@ -177,6 +196,11 @@ document.addEventListener("DOMContentLoaded", function() {
     document.addEventListener("keydown", function(event) {
         if (event.key === "Escape") {
             overlayElement.classList.remove("active");
+            overlayElementWeb.classList.remove("active");
+            const searchInputWeb = document.getElementById('searchInputWeb');
+            const searchInput = document.getElementById('searchInput');
+            searchInputWeb.value = '';
+            searchInput.value = '';
         }
     });
     
