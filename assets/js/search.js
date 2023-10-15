@@ -5,20 +5,25 @@ function clearResultsList() {
     searchResults.innerHTML = '';
 }
 
+function clearInput() {
+    const searchInputWeb = document.getElementById('searchInputWeb');
+    const searchInput = document.getElementById('searchInput');
+
+    searchInputWeb.value = '';
+    searchInput.value = '';
+}
+
 
 function searchResultClicked(aElement) {
     const overlayElement = document.getElementById('searchOverlay');
     const overlayElementWeb = document.getElementById('searchOverlayWeb');
-    const searchInputWeb = document.getElementById('searchInputWeb');
-    const searchInput = document.getElementById('searchInput');
 
     const linkId = aElement.id;
     const targetElement = document.getElementById(linkId);
 
     overlayElement.classList.remove("active");
     overlayElementWeb.classList.remove("active");
-    searchInputWeb.value = '';
-    searchInput.value = '';
+    clearInput()
 
     window.location.hash = `#${linkId}`;
     const detailsElement = targetElement.parentElement.parentElement.parentElement.parentElement
@@ -57,7 +62,7 @@ function displaySearchResults(results, links) {
             const siteUrl = new URL(window.location.href);
             const permalink = `${siteUrl.origin}#${item.name}`
 
-            appendString += `<div class="searchResultLinks"><a href="${item.url}">קח אותי ליוזמה</a> / <a onclick="searchResultClicked(${item.name})">עוד מידע</a></div></div></li>`;
+            appendString += `<div class="searchResultLinks"><a href="${item.url}" onclick="return clearInput();">קח אותי ליוזמה</a> / <a onclick="searchResultClicked(${item.name})">עוד מידע</a></div></div></li>`;
             
         }
 
@@ -91,15 +96,11 @@ function prepareIndex() {
                 subCategories: category.subCategories,
             }
 
-            // this.add(CategoryEntry);
-            
             category.subCategories.forEach((subCategory)=>{
                 const subCategoryEntry =  {
                     id: subCategory.name,
                     displayName: subCategory.displayName,
                 }
-
-                // this.add(subCategoryEntry);
 
                 subCategoryEntry.links = subCategory.links.forEach((link)=> {
                     const linkEntry = {
@@ -110,11 +111,7 @@ function prepareIndex() {
                     }
 
                     linksOnly[link.name] = link
-
-                    // this.add(linkEntry);
                 })
-
-                // linksOnly = [...linksOnly, ...subCategory.links]
             })
         })
 
@@ -144,8 +141,6 @@ function search(searchTerm) {
         clearResultsList()
     }
 }
-
- 
 
 document.addEventListener("DOMContentLoaded", function() {
 
