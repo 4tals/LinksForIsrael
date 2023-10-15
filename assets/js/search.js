@@ -139,6 +139,12 @@ function search(searchTerm) {
     if (searchTerm) {
         var results = window.idx.search(`*${searchTerm}*`);
         displaySearchResults(results, window.linksOnly);
+
+        if (window.location.hostname.indexOf('localhost') < 0) {
+            mixpanel.track(`Search`, {
+                searchTerm
+            });
+        }
     }
     else {
         clearResultsList()
