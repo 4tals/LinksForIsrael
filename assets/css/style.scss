@@ -36,20 +36,19 @@ body {
 
 #webSearchWrapper {
 	margin-right: 10px;
-
 }
 
 #searchOverlay {
 	display: none;
-    position: fixed;
+	position: fixed;
 	padding: 0 20px;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    // z-index: 1000;
-    // pointer-events: none;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	// z-index: 1000;
+	// pointer-events: none;
 	backdrop-filter: blur(6px);
 
 	&.active {
@@ -59,14 +58,14 @@ body {
 
 #searchOverlayWeb {
 	display: none;
-    position: fixed;
-    top: 119px;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    // z-index: 1000;
-    // pointer-events: none;
+	position: fixed;
+	top: 119px;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	// z-index: 1000;
+	// pointer-events: none;
 	backdrop-filter: blur(6px);
 
 	&.active {
@@ -75,7 +74,7 @@ body {
 }
 
 #searchInputWeb {
-	color: initial
+	color: initial;
 }
 
 .search-div {
@@ -90,7 +89,7 @@ body {
 	width: 400px;
 	height: 44px;
 	border-radius: 20px;
-	padding: 0 10px
+	padding: 0 10px;
 }
 
 .search-input {
@@ -181,7 +180,7 @@ body {
 	}
 
 	&::-webkit-details-marker {
-		display:none;
+		display: none;
 	}
 }
 
@@ -268,8 +267,8 @@ body {
 	background-image: none;
 	height: 119px;
 	position: fixed;
-    width: 100%;
-    top: 0;
+	width: 100%;
+	top: 0;
 	color: var(--color-white);
 	.main-title {
 		width: 100%;
@@ -415,7 +414,7 @@ body {
 	width: 800px;
 	border-radius: 20px;
 	margin-left: 10px;
-    margin-top: 10px;
+	margin-top: 10px;
 	padding-right: 10px;
 	padding-left: 10px;
 }
@@ -549,4 +548,42 @@ body {
 		flex-basis: 100%;
 		width: 100%;
 	}
+}
+
+
+
+.site-footer {
+	padding: 20px;
+	font-family: "Arial", sans-serif; /* you can choose any font-family */
+}
+
+.invite-text {
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.social-links {
+	display: flex;
+	justify-content: center;
+	gap: 15px; /* maintains space between the icons */
+	margin-bottom: 20px; /* maintains space between icons and the quote link */
+}
+
+.quote-link {
+	text-align: center;
+	font-size: 1em;
+}
+
+.quote-link a {
+	text-decoration: none;
+	color: #333; /* or any preferred color */
+	border-bottom: 1px dotted; /* adds an understated link indicator; can remove if not preferred */
+	padding: 5px;
+	transition: color 0.3s ease; /* smooth color transition on hover */
+}
+
+.quote-link a:hover {
+	color: #007bff; /* or any preferred hover color */
 }
