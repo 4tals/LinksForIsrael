@@ -5,6 +5,22 @@ function clearResultsList() {
     searchResults.innerHTML = '';
 }
 
+
+function searchResultClicked(aElement) {
+    const overlayElement = document.getElementById('searchOverlay');
+
+    const linkId = aElement.id;
+    const targetElement = document.getElementById(linkId);
+
+    overlayElement.classList.remove("active");
+
+    // targetElement.scrollIntoView();
+    window.location.hash = `#${linkId}`;
+    const detailsElement = targetElement.parentElement.parentElement.parentElement
+    detailsElement.setAttribute('open', true);
+    setTimeout(()=>window.scrollBy(0, -300), 0);
+}
+
 function displaySearchResults(results, links) {
 
     var searchResults = document.getElementById('search-results');
@@ -17,16 +33,23 @@ function displaySearchResults(results, links) {
 
         for (var i = 0; i < results.length; i++) {  // Iterate over the results
             var item = links[results[i].ref];
-            appendString += '<li><a href="' + item.url + '"><h3>' + item.displayName + '</h3></a>';
-            
-            const description = item.shortDescription || item.description
-            
-            if (description.length > 150) {
-                appendString += '<p>' + description.substring(0, 150) + '...</p></li>';
+
+            let title = item.displayName || item.shortDescription
+
+            if (title.length > 20) {
+                title = title.substring(0, 20)
+                appendString += '<li><div class="searchResultItem"><span class="searchResultTitle">' + title + '...</span>';
             }
             else {
-                appendString += '<p>' + description + '</p></li>';
+                appendString += '<li><div class="searchResultItem"><span class="searchResultTitle">' + title + '</span>';
+                
             }
+
+            const siteUrl = new URL(window.location.href);
+            const permalink = `${siteUrl.origin}#${item.name}`
+
+            appendString += `<div class="searchResultLinks"><a href="${item.url}">קח אותי ליוזמה</a> / <a onclick="searchResultClicked(${item.name})">עוד מידע</a></div></div></li>`;
+            // appendString += `<div class="searchResultLinks"><a href="${item.url}">קח אותי ליוזמה</a> / <a href="${permalink}">עוד מידע</a></div></div></li>`;
             
         }
 
@@ -121,6 +144,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const mobileSearchButton = document.getElementById("mobileSearchButton");
     const overlayElement = document.getElementById('searchOverlay');
     const searchInput = document.getElementById('searchInput');
+    const searchDiv = document.getElementById('searchDiv');
     var searchResultsDiv = document.getElementById('searchResultsDiv');
 
     mobileSearchButton.addEventListener("click", function() {
@@ -137,12 +161,18 @@ document.addEventListener("DOMContentLoaded", function() {
         event.preventDefault();
         event.stopPropagation();
     });
-
-    searchResultsDiv.addEventListener("click", function(event) {
+    
+    searchDiv.addEventListener("click", function(event) {
 
         event.preventDefault();
         event.stopPropagation();
     });
+
+    // searchResultsDiv.addEventListener("click", function(event) {
+
+    //     event.preventDefault();
+    //     event.stopPropagation();
+    // });
 
     document.addEventListener("keydown", function(event) {
         if (event.key === "Escape") {

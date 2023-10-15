@@ -84,12 +84,29 @@ body {
 	}
 }
 
+#search-results {
+	list-style-type: none;
+	padding-right: 0px;
+}
+
 .search-results-wrapper {
 	height: 380px;
 	width: 400px;
 	background-color: #fff;
 	border-radius: 20px;
 	overflow: scroll;
+	padding: 0 10px;
+}
+
+.searchResultItem {
+	display: flex;
+	justify-content: space-between;
+	height: 48px;
+	align-items: center;
+}
+
+.searchResultTitle {
+	text-align: right;
 }
 
 /* === Links Section === */
