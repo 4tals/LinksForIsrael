@@ -405,6 +405,7 @@ body {
 .search-results-div-web {
 	display: flex;
 	justify-content: center;
+	height: 70%;
 }
 
 .search-results-wrapper-web {
@@ -422,7 +423,7 @@ body {
 #search-results-web {
 	list-style-type: none;
 	padding-right: 0px;
-
+	overflow: scroll;
 }
 
 #rightElement {
