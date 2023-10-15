@@ -165,13 +165,6 @@
 						"description": "מחפשים מתנדבים? בוער בכם להתנדב? ברוכים הבאים לעורף ברזל, האתר בו תוכלו למצוא בזמן אמת מקום להתנדב בו או לגייס מתנדבים חדשים אליכם.",
 						"url": "https://ironswords.help/",
 						"website": "https://ironswords.help/"
-					},
-					{
-						"name": "VolunteeringConnect",
-						"displayName": "חיבור בין מתנדבים",
-						"shortDescription": "תומר",
-						"url": "https://wa.me/972504304099",
-						"whatsapp": "https://wa.me/972504304099"
 					}
 				]
 			}
@@ -353,7 +346,7 @@
 						"description": "קבוצת וואטסאפ לתיאום ושינוע של מזון ללוחמים",
 						"url": "https://chat.whatsapp.com/KPZ7JqQyBLG3OSvtGlUAdx",
 						"whatsapp": "https://chat.whatsapp.com/KPZ7JqQyBLG3OSvtGlUAdx"
-					},
+					}
 				]
 			},
 		]
@@ -393,7 +386,7 @@
 						"whatsapp": "https://chat.whatsapp.com/E6GofQiyosDLndYKKCcC4v"
 					}
 				]
-			},
+			}
 		]
 	},
 	{
@@ -421,7 +414,7 @@
 						"description": "קבוצה לדיווח על פירסומים אנטי-ישראלים, פוגעניים, ופייק ניוז",
 						"url": "https://chat.whatsapp.com/IKrNlfjrV8O5tBuBMpPOmV",
 						"whatsapp": "https://chat.whatsapp.com/IKrNlfjrV8O5tBuBMpPOmV"
-					},
+					}
 				]
 			}
 		]
@@ -458,7 +451,7 @@
 						"description": "אתר המרכז מידע על חללי המלחמה",
 						"url": "https://www.izkorharavot.com",
 						"website": "https://www.izkorharavot.com"
-					},
+					}
 				]
 			}
 		]
