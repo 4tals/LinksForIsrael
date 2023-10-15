@@ -177,7 +177,20 @@
 		"image": "https://cdn-icons-png.flaticon.com/512/3887/3887062.png",
 		"subCategories": [
 			{
-				"name": "TechInitiativesMain",
+				"name": "TechMain",
+				"displayName": "יוזמות קיימות",
+				"links": [
+					{
+						"name": "PortalTech",
+						"displayName": "פורטל טכנולוגיה ויוזמות",
+						"shortDescription": "",
+						"url": "./docs/tech.html",
+						"portal": "./docs/tech.html"
+					}
+				]
+			},
+			{
+				"name": "TechInitiatives",
 				"displayName": "יוזמות קיימות",
 				"links": [
 					{
