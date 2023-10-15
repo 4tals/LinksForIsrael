@@ -1,0 +1,38 @@
+<script type="text/javascript">
+
+  window.israelLinks = [
+    
+    {% for category in site.data.links %}
+        {
+          "name": "{{ category.name | xml_escape }}",
+          "displayName": "{{ category.displayName | xml_escape }}",
+          "description": "{{ category.description | xml_escape }}",
+          "subCategories": [
+            {% for subCategory in category.subCategories %}
+              {
+                "displayName": "{{ subCategory.displayName | xml_escape }}",
+                "name": "{{ subCategory.name | xml_escape }}",
+                "links": [
+                  {% for link in subCategory.links %}
+                      {
+                        "name": "{{ link.name | xml_escape  }}",
+                        "displayName": "{{ link.displayName | xml_escape  }}",
+                        "shortDescription": {{ link.shortDescription | strip_html | strip_newlines | jsonify }},
+                        "description": {{ link.description | strip_html | strip_newlines | jsonify }},
+                        "url": "{{ link.url | xml_escape }}"
+                      },
+                  {% endfor %}
+                ]
+              },
+            {% endfor %}
+          ]}
+      {% unless forloop.last %},{% endunless %}
+    {% endfor %}
+    
+  ];
+</script>
+<script src="{{ '/assets/js/lunr.js' }}"></script>
+<script src="{{ '/assets/js/lunr.stemmer.support.js' }}"></script>
+<script src="{{ '/assets/js/lunr.he.js' }}"></script>
+<script src="{{ '/assets/js/lunr.multi.js' }}"></script>
+<script src="{{ '/assets/js/search.js' }}"></script>
