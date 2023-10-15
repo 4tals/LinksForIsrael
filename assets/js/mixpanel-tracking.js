@@ -32,6 +32,7 @@ document.addEventListener("DOMContentLoaded", function() {
           // Track the event using Mixpanel
           mixpanel.track(`${link.id} link clicked`, {
             component_id: link.id, // You can also use other identifiers
+            href: link.href
           });
         });
       });
