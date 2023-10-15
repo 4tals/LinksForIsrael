@@ -460,13 +460,6 @@
 				"displayName": "",
 				"links": [
 					{
-						"name": "HasbaraGoogleDrive",
-						"displayName": "גוגל דרייב עם תוכן הסברה לפי שפות",
-						"shortDescription": "",
-						"description": "מאגר חומרי הסברה בכל השפות",
-						"url": "https://drive.google.com/drive/folders/1yzLNJmkM73o5Kl8eryPj4BBAA6qSTL7i"
-					},
-					{
 						"name": "HelpWithIsraeliDiplomacy",
 						"displayName": "Help with Israeli Diplomacy across the Web",
 						"shortDescription": "",
@@ -475,12 +468,29 @@
 						"website": "https://nirtz89.github.io/israel_diplomacy/"
 					},
 					{
-						"name": "Yzkor",
-						"displayName": "יזכור - חללי חרבות ברזל",
+						"name": "HamalMeida",
+						"displayName": "החזית האזרחית - The Civilian Front",
 						"shortDescription": "",
-						"description": "אתר המרכז מידע על חללי המלחמה",
-						"url": "https://www.izkorharavot.com",
-						"website": "https://www.izkorharavot.com"
+						"description": "בצוות איכותי וערכי של מתנדבים אזרחים שעובדים מסביב לשעון בשביל להלחם בחזית ההסברתית",
+						"url": "https://chat.whatsapp.com/LGKPchQGakg4E75XYfEfyS",
+						"whatsapp": "https://chat.whatsapp.com/LGKPchQGakg4E75XYfEfyS",
+						"tiktok": "https://chat.whatsapp.com/Hw7fdndJdYy6TPsDii9o5V",
+						"twitter": "https://chat.whatsapp.com/Ez1hDNEt0OZF5a9sGgYueO",
+						"instagram": "https://chat.whatsapp.com/BjnPe6nwabqFY8jLxbBtoz",
+						"facebook": "https://chat.whatsapp.com/DIlLKYyHJWk02AAP85dpSn"
+					},
+					{
+						"name": "ExplainIsrael",
+						"displayName": "Explain Israel",
+						"shortDescription": "Join the fight for Israel🇮🇱 Spreading truth against terrorism.",
+						"description": "מטה שהוקם עי אזרחים ישראלים שאכפת להם מהמדינה במטרה לסייע במאבק ההסברה העולמי - גוגל דרייב עם תכני הסברה בכל השפות",
+						"drive": "https://drive.google.com/drive/folders/1yzLNJmkM73o5Kl8eryPj4BBAA6qSTL7i",
+						"url": "https://drive.google.com/drive/folders/1yzLNJmkM73o5Kl8eryPj4BBAA6qSTL7i",
+						"website": "https://linktr.ee/mate.hasbara",
+						"twitter": "https://twitter.com/explain_israel",
+						"instagram": "https://www.instagram.com/explain.israel/",
+						"whatsapp": "https://chat.whatsapp.com/GXyA8C75dOm6Y2revbzPje/",
+						"tiktok": "https://www.tiktok.com/@explain.israel"
 					}
 				]
 			}
@@ -523,6 +533,14 @@
 						"shortDescription": "Site",
 						"url": "https://cryptoaidisrael.com/",
 						"website": "https://cryptoaidisrael.com/"
+					},
+					{
+						"name": "Yzkor",
+						"displayName": "יזכור - חללי חרבות ברזל",
+						"shortDescription": "",
+						"description": "אתר המרכז מידע על חללי המלחמה",
+						"url": "https://www.izkorharavot.com",
+						"website": "https://www.izkorharavot.com"
 					}
 				]
 			}
