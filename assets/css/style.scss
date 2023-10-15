@@ -341,6 +341,7 @@ details[open] .telegram-btn {
 .links-section-list {
 	display: flex;
 	flex-flow: row wrap;
+	justify-content: space-between;
 	width: 100%;
 }
 
@@ -353,7 +354,7 @@ details[open] .telegram-btn {
 .links-section-item {
 	align-items: center;
 	display: flex;
-	flex-basis: 45%;
+	flex-basis: 47%;
 	flex-direction: column;
 	border-radius: 30px;
 	border: 1px solid #5275c7;
