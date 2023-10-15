@@ -80,7 +80,7 @@
 						"shortDescription": "",
 						"description": "מתנדבים ומגייסי מתנדבים",
 						"url": "https://ironswords.help/",
-						"website": "https://ironswords.help/",
+						"website": "https://ironswords.help/"
 					},
 					{
 						"name": "LevEhad",
@@ -357,7 +357,7 @@
 						"whatsapp": "https://chat.whatsapp.com/KPZ7JqQyBLG3OSvtGlUAdx"
 					}
 				]
-			},
+			}
 		]
 	},
 	{
@@ -393,6 +393,14 @@
 						"description": "קבוצת וואטסאפ לחיבור בין בתים מארחים למשפחות",
 						"url": "https://chat.whatsapp.com/E6GofQiyosDLndYKKCcC4v",
 						"whatsapp": "https://chat.whatsapp.com/E6GofQiyosDLndYKKCcC4v"
+					},
+					{
+						"name": "AbraHosting",
+						"displayName": "אברא - בית ישראל",
+						"shortDescription": "",
+						"description": "הפלטפורמה מאפשרת חיבור והתאמה בין משפחות שמחפשות פתרונות אירוח לתקופת המלחמה, למשפחות מארחות או לבתים הפנויים לאירוח. הפלטפורמה מאפשרת התאמה על פי פרמטרים שונים כדוגמת אזור מבוקש בארץ, מספר ילדים, תינוקות,  גישה לנכים,  חיות מחמד ועוד.",
+						"url": "https://bait-israeli.abra-it.com/",
+						"website": "https://bait-israeli.abra-it.com/"
 					}
 				]
 			}
