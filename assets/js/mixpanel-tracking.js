@@ -30,10 +30,13 @@ document.addEventListener("DOMContentLoaded", function() {
       link.addEventListener("click", function() {
     
           // Track the event using Mixpanel
-          mixpanel.track(`${link.id} link clicked`, {
-            component_id: link.id, // You can also use other identifiers
-            href: link.href
-          });
+          if (link.id) {
+            mixpanel.track(`${link.id} link clicked`, {
+              component_id: link.id, // You can also use other identifiers
+              href: link.href
+            });
+          }
+          
         });
       });
   });
