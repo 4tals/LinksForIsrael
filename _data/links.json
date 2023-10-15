@@ -12,7 +12,8 @@
 					{
 						"name": "EligibilityForWeapon",
 						"displayName": "בדיקת זכאות לנשק",
-						"shortDescription": "מידע על התהליך והקריטריונים להוצאת רישיון לנשק",
+						"shortDescription": "",
+						"description": "אתר המשרד לביטחון פנים: מחשבון לבדיקת זכאות לרישיון כלי ירייה פרטי",
 						"url": "./docs/weapon.html",
 						"portal": "./docs/weapon.html",
 						"tags": [
@@ -30,8 +31,8 @@
 					{
 						"name": "MidragSheltersProject",
 						"displayName": "פרויקט מדרג להשמשת מקלטים",
-						"shortDescription": "חמ״ל סיוע והכנה של מקלטים למצבי חירום",
-						"description": "האילו והכנה של מקלטים בתגובה למצבי חירום ואירועים ביטחוניים",
+						"shortDescription": "",
+						"description": "השמשת מקלטים ע״י בעלי מקצוע, מקלטי בניינים בלבד (לא פרטיים),  לא כולל החלפת דלתות וחלונות",
 						"url": "https://forms.monday.com/forms/f1e1014123cf1aac6615780795aec231?r=use1",
 						"forms": "https://forms.monday.com/forms/f1e1014123cf1aac6615780795aec231?r=use1",
 						"tags": [
@@ -49,8 +50,8 @@
 					{
 						"name": "KvarBaimInitiative",
 						"displayName": "יוזמת כבר באים",
-						"shortDescription": "יוזמה לחילוץ במצבי חירום בעוטף עזה",
-						"description": "החמ״ל סייע בחילוץ מאות אנשים מישובי עוטף עזה, כאשר הם נצורים בביתם במהלך אירועים ביטחוניים.",
+						"shortDescription": "",
+						"description": "מוקד מתנדבים המחבר לכוחות הצלה וחילוץ במקרי חירום",
 						"url": "https://www.kvarbaim.co.il/",
 						"website": "https://www.kvarbaim.co.il/",
 						"tags": [
@@ -75,11 +76,11 @@
 				"links": [
 					{
 						"name": "IronBot",
-						"displayName": "Iron Bot - בוט הברזל",
-						"shortDescription": "וואטסאפ",
-						"description": "ברוכים הבאים לבוט הברזל 👋⚔️. שולחים הודעה בואצאפ והבוט מנווט אותך לקבוצת הסיוע המתאימה לך.",
-						"url": "http://tiny.cc/ek3cvz",
-						"whatsapp": "http://tiny.cc/ek3cvz"
+						"displayName": "עורף ברזל",
+						"shortDescription": "",
+						"description": "מתנדבים ומגייסי מתנדבים",
+						"url": "https://ironswords.help/",
+						"website": "https://ironswords.help/",
 					},
 					{
 						"name": "LevEhad",
@@ -217,8 +218,9 @@
 					},
 					{
 						"name": "IkhunMakhshirim",
-						"displayName": "איכון מכשירי נעדרים",
+						"displayName": "היוזמה לאיכון מכשירי נעדרים - בוגרי יחידות טכנולוגיות",
 						"shortDescription": "",
+						"description": "מתנדבים למציאת נעדרים ע״י מכשור טכנולוגי (לפטופ, טלפון ישן וכיו״ב)",
 						"url": "https://docs.google.com/forms/d/e/1FAIpQLSduujH277Cqt31XgOZfTZFAD4ua_YN8fXUtAlwOAHX2q9Emww/viewform?usp=sf_link",
 						"docs": "https://docs.google.com/forms/d/e/1FAIpQLSduujH277Cqt31XgOZfTZFAD4ua_YN8fXUtAlwOAHX2q9Emww/viewform?usp=sf_link"
 					}
@@ -330,50 +332,30 @@
 					{
 						"name": "SupplyMatch",
 						"displayName": "Supply Match",
-						"shortDescription": "יוזמה המחברת בין מבקשי ציוד לנותני ציוד",
-						"description": "יוזמה לאומית רחבה מאוד שכוללת את פיקוד העורף, מטה ההתנדבות הלאומי, האגודה למען החייל, הג’ויינט, הפורום הכלכלי חברתי ועוד.",
+						"shortDescription": "",
+						"description": "יוזמה המחברת בין מבקשי ציוד לנותני ציוד",
 						"tags": [],
 						"url": "https://supply-match.com/",
 						"website": "https://supply-match.com/"
 					},
 					{
-						"name": "AsakimNirtamimEquipment",
-						"displayName": "עסקים נרתמים - מאגר צרכים עבור החברה האזרחית",
-						"shortDescription": "",
-						"description": "",
-						"tags": [],
-						"url": "https://forms.monday.com/forms/25c5ac9f7676f6ffbf7fae7b982e87ef?r=use1",
-						"forms": "https://forms.monday.com/forms/25c5ac9f7676f6ffbf7fae7b982e87ef?r=use1"
-					}
-				]
-			},
-			{
-				"name": "FoodMain",
-				"displayName": "",
-				"links": [
-					{
 						"name": "WoltFoodDonations",
 						"displayName": "תרומות מזון ישירות דרך וולט",
 						"shortDescription": "",
+						"description": "מארזי תרומות של מזון דרך ולט לקניה של מזון בסיסי ושימורים",
 						"url": "https://wolt.com/he/isr/tel-aviv/venue/support-the-south",
 						"website": "https://wolt.com/he/isr/tel-aviv/venue/support-the-south"
 					},
 					{
 						"name": "HamalFoodLogistics",
-						"displayName": "חמ״ל איתור ושינוע מזון",
-						"shortDescription": "וואטסאפ",
+						"displayName": "חמ״ל שינוע מזון לחיילים",
+						"shortDescription": "",
+						"description": "קבוצת וואטסאפ לתיאום ושינוע של מזון ללוחמים",
 						"url": "https://chat.whatsapp.com/KPZ7JqQyBLG3OSvtGlUAdx",
 						"whatsapp": "https://chat.whatsapp.com/KPZ7JqQyBLG3OSvtGlUAdx"
 					},
-					{
-						"name": "FoodShareApp",
-						"displayName": "חגי",
-						"shortDescription": "אפליקציה לחללוקת מזון",
-						"url": "https://salmaz.herokuapp.com/guest/events",
-						"website": "https://salmaz.herokuapp.com/guest/events"
-					}
 				]
-			}
+			},
 		]
 	},
 	{
@@ -390,69 +372,28 @@
 						"name": "AtarMearhim",
 						"displayName": "אתר מארחים",
 						"shortDescription": "",
-						"description": "במטרה להקל על התושבים ולהעניק להם קצת שקט, החלטנו להקים אתר בו תוכלו למצוא מידע על משפחות מארחות שמוכנות לפתוח את דלתות בתיהם בלב רחב.",
+						"description": "אתר לחיפוש בתים מארחים למשפחות",
 						"url": "https://mearhim.vercel.app",
 						"website": "https://mearhim.vercel.app"
-					},
-					{
-						"name": "AtarMearhimMoreQuestion",
-						"displayName": "אתר מארחים - וואטסאפ לשאלות נוספות",
-						"shortDescription": "וואטסאפ",
-						"url": "https://api.whatsapp.com/send/?phone=%2B972548816044&text&type=phone_number&app_absent=0",
-						"whatsapp": "https://api.whatsapp.com/send/?phone=%2B972548816044&text&type=phone_number&app_absent=0"
 					},
 					{
 						"name": "MiklatMugan",
 						"displayName": "מקלט מוגן",
 						"shortDescription": "",
-						"description": "זקוקים למקלט? יכולים לתת מקום מוגן לאנשים? אתר עם ממשק מאוד פשוט המחבר כרטיסיות של מארחים למתארחים.",
+						"description": "לוח מודעות לחיפוש בתים מארחים",
 						"url": "https://protected-shelter.vercel.app",
 						"website": "https://protected-shelter.vercel.app"
 					},
 					{
-						"name": "NirtamimToshveiAza",
-						"displayName": "נרתמים לתושבי עזה",
-						"shortDescription": "",
-						"description": "מאגר עם מעל - 200 דירות מוכנות לאירוח ברחבי הארץ.",
-						"url": "https://sites.google.com/gshr.co.il/nirtamim/%D7%91%D7%99%D7%AA?authuser=0",
-						"website": "https://sites.google.com/gshr.co.il/nirtamim/%D7%91%D7%99%D7%AA?authuser=0"
-					},
-					{
 						"name": "PeopleFromSouthHosting",
 						"displayName": "אירוח משפחות מהדרום",
-						"shortDescription": "וואטסאפ",
+						"shortDescription": "",
+						"description": "קבוצת וואטסאפ לחיבור בין בתים מארחים למשפחות",
 						"url": "https://chat.whatsapp.com/E6GofQiyosDLndYKKCcC4v",
 						"whatsapp": "https://chat.whatsapp.com/E6GofQiyosDLndYKKCcC4v"
 					}
 				]
 			},
-			{
-				"name": "YozmaToConnectGuests",
-				"displayName": "יוזמה לחיבור בין אורחים ומארחים",
-				"links": [
-					{
-						"name": "YozmaHostForm",
-						"displayName": "טופס למארחים",
-						"shortDescription": "",
-						"url": "https://forms.gle/wWfTqrB3dpEgXU5x7",
-						"forms": "https://forms.gle/wWfTqrB3dpEgXU5x7"
-					},
-					{
-						"name": "YozmaGuestForm",
-						"displayName": "טופס לאורחים",
-						"shortDescription": "",
-						"url": "https://forms.gle/pRPFHbtLVVMtKwby5",
-						"forms": "https://forms.gle/pRPFHbtLVVMtKwby5"
-					},
-					{
-						"name": "YozmaGuestForm",
-						"displayName": "פרטים נוספים",
-						"shortDescription": "(דפנה, וואטסאפ)",
-						"url": "https://wa.me/972548010384",
-						"whatsapp": "https://wa.me/972548010384"
-					}
-				]
-			}
 		]
 	},
 	{
@@ -469,38 +410,18 @@
 						"name": "TerrorSupportersTrolling",
 						"displayName": "להטריל תומכי טרור",
 						"shortDescription": "",
-						"description": "קחו תמונת פרופיל של תומך טרור, תדביקו פה, וקחו את התמונה שחוזרת לכם עם הודעת תודה מרגשת על התמיכה שלו.  ❤️",
+						"description": "אתר להטרלת תומכי טרור ברשתות החברתיות",
 						"url": "https://devhelps.github.io/you-stand-with-israel/",
 						"website": "https://devhelps.github.io/you-stand-with-israel/"
 					},
 					{
-						"name": "TerrorOutOfAcademyProtest",
-						"displayName": "מחאה לסילוק תומכי טרור ברשתות החברתיות מהאקדמיה",
-						"shortDescription": "וואטסאפ",
-						"url": "https://chat.whatsapp.com/GLsj5D7M3AjCv4zoWwXTON",
-						"whatsapp": "https://chat.whatsapp.com/GLsj5D7M3AjCv4zoWwXTON"
-					},
-					{
 						"name": "SocialNetworksReportWhatsapp",
-						"displayName": "קבוצת וואטסאפ לדיווח על עמודים ופוסטים",
+						"displayName": "דיווח על עמודים - חרבות ברזל",
 						"shortDescription": "",
+						"description": "קבוצה לדיווח על פירסומים אנטי-ישראלים, פוגעניים, ופייק ניוז",
 						"url": "https://chat.whatsapp.com/IKrNlfjrV8O5tBuBMpPOmV",
 						"whatsapp": "https://chat.whatsapp.com/IKrNlfjrV8O5tBuBMpPOmV"
 					},
-					{
-						"name": "SocialWarReportWhatsapp",
-						"displayName": "הסברה כחול לבן - Israel Social War",
-						"shortDescription": "בקבוצה הזו ניתן בוסט לפוסטים של תמיכה בישראל ונדווח על פוסטים מסיתים ע״מ להסירם",
-						"url": "https://chat.whatsapp.com/KmsPfwYJaBEIPyzP8n3XrQ",
-						"whatsapp": "https://chat.whatsapp.com/KmsPfwYJaBEIPyzP8n3XrQ"
-					},
-					{
-						"name": "SocialNetworksReportTelegram",
-						"displayName": "חמל רשתות חברתיות",
-						"shortDescription": "לדיווח על עמודים ופוסטים אנטי ישראליים ברשתות החברתיות וחסימתם",
-						"url": "https://t.me/+HORf_dHgFVA1ZWM0",
-						"telegram": "https://t.me/+HORf_dHgFVA1ZWM0"
-					}
 				]
 			}
 		]
@@ -519,48 +440,25 @@
 						"name": "HasbaraGoogleDrive",
 						"displayName": "גוגל דרייב עם תוכן הסברה לפי שפות",
 						"shortDescription": "",
-						"description": "שכל ישראלי יראה את זה! מצורף לינק למאות סרטונים בעשרות שפות שיכולים לשמש להסברה מידית. אנגלית, צרפתית, טורקית, גרמנית, סינית - מה שתרצו. שתפו מיד, בחרו סרטון, כתבו כמה מילים ואל תשכחו את התיוג #hamasisISIS",
+						"description": "מאגר חומרי הסברה בכל השפות",
 						"url": "https://drive.google.com/drive/folders/1yzLNJmkM73o5Kl8eryPj4BBAA6qSTL7i"
-					},
-					{
-						"name": "FakeHunter",
-						"displayName": "Fake Hunter",
-						"shortDescription": "טלגרם",
-						"description": "בוט בטלגרם לדיווח עמודים שמפיצים שקרים ותעמולה נגד ישראל",
-						"url": "https://t.me/fakenewsisraelbot",
-						"telegram": "https://t.me/fakenewsisraelbot"
 					},
 					{
 						"name": "HelpWithIsraeliDiplomacy",
 						"displayName": "Help with Israeli Diplomacy across the Web",
 						"shortDescription": "",
-						"description": "אתר עם תוכן מוכן לשיתוף",
+						"description": "אתר לחומרי הסברה בין לאומיים",
 						"url": "https://nirtz89.github.io/israel_diplomacy/",
 						"website": "https://nirtz89.github.io/israel_diplomacy/"
 					},
 					{
-						"name": "HelpWithIsraeliDiplomacy",
-						"displayName": "הסברה באמצעות חומרים אמיתיים והתכתבויות מהתופת",
-						"shortDescription": "ראובני פרידמן",
-						"description": "בימים האחרונים הכנו וריכזנו בראובני פרידן מגוון רחב של חומרי הסברה המורכבים מסיפורים אמיתיים והתכתבויות אמיתיות מהתופת, ותרגמנו אותם, יחד עם עשרות מתרגמים שהתגייסו בהתנדבות למשימה, לאנגלית, ספרדית, סינית, גרמנית, צרפתית, יפנית, קוריאנית, איטלקית ועוד המון שפות.",
-						"url": "https://drive.google.com/drive/folders/13Lmprug2Mf-0C1WnNHb7lkO-1DSwFFeS",
-						"drive": "https://drive.google.com/drive/folders/13Lmprug2Mf-0C1WnNHb7lkO-1DSwFFeS"
+						"name": "Yzkor",
+						"displayName": "יזכור - חללי חרבות ברזל",
+						"shortDescription": "",
+						"description": "אתר המרכז מידע על חללי המלחמה",
+						"url": "https://www.izkorharavot.com",
+						"website": "https://www.izkorharavot.com"
 					},
-					{
-						"name": "HelpWithIsraeliDiplomacy",
-						"displayName": "Stand With Us - Instagram",
-						"shortDescription": "אתר ההסברה הרשמי של ישראל",
-						"description": "לעקוב אחרי העמוד הסברה של ישראל. לעמוד תמיכה של פלסטין יש 3 מיליון עוקבים ולנו אפילו לא 800 אלף",
-						"url": "https://www.instagram.com/standwithus/",
-						"instagram": "https://www.instagram.com/standwithus/"
-					},
-					{
-						"name": "SocialWarReportWhatsapp",
-						"displayName": "הסברה כחול לבן - Israel Social War",
-						"shortDescription": "בקבוצה הזו ניתן בוסט לפוסטים של תמיכה בישראל ונדווח על פוסטים מסיתים ע״מ להסירם",
-						"url": "https://chat.whatsapp.com/KmsPfwYJaBEIPyzP8n3XrQ",
-						"whatsapp": "https://chat.whatsapp.com/KmsPfwYJaBEIPyzP8n3XrQ"
-					}
 				]
 			}
 		]
@@ -770,19 +668,20 @@
 						"website": "https://needarim.org.il/"
 					},
 					{
-						"name": "IturAndMetzukaReport",
-						"displayName": "איתור נעדרים ודיווחי מצוקה",
-						"shortDescription": "",
-						"url": "https://www.instagram.com/weareoneisrael/",
-						"instagram": "https://www.instagram.com/weareoneisrael/"
-					},
-					{
 						"name": "FindMe",
 						"displayName": "מיזם FindMe",
 						"shortDescription": "מאפשר למשפחות לשלוח פרטים נוספים על הנעדרים לסיוע בזיהוי כחטופים או חללים - מיזם בשיתוף מתנדבים מחברת פאלו-אלטו ",
 						"url": "https://www.findme-service.org/form",
 						"website": "https://www.findme-service.org/form",
 						"email": "support@findme-service.org"
+					},
+					{
+						"name": "IkhunMakhshirim",
+						"displayName": "היוזמה לאיכון מכשירי נעדרים - בוגרי יחידות טכנולוגיות",
+						"shortDescription": "",
+						"description": "מתנדבים למציאת נעדרים ע״י מכשור טכנולוגי (לפטופ, טלפון ישן וכיו״ב)",
+						"url": "https://docs.google.com/forms/d/e/1FAIpQLSduujH277Cqt31XgOZfTZFAD4ua_YN8fXUtAlwOAHX2q9Emww/viewform?usp=sf_link",
+						"docs": "https://docs.google.com/forms/d/e/1FAIpQLSduujH277Cqt31XgOZfTZFAD4ua_YN8fXUtAlwOAHX2q9Emww/viewform?usp=sf_link"
 					}
 				]
 			}
