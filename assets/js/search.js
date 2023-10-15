@@ -21,13 +21,19 @@ function searchResultClicked(aElement) {
     searchInput.value = '';
 
     window.location.hash = `#${linkId}`;
-    // const detailsElement = targetElement.parentElement.parentElement.parentElement.parentElement.parentElement
+    const detailsElement = targetElement.parentElement.parentElement.parentElement.parentElement
     
     // const xpathExpression = `//p[@id='${linkId}']/ancestor::details[0]`;
     // const result = document.evaluate(xpathExpression, document, null, XPathResult.ANY_TYPE, null);
     // const detailsElement = result.iterateNext();
     // detailsElement.setAttribute('open', true);
-    setTimeout(()=>window.scrollBy(0, -280), 0);
+    setTimeout(()=> {
+        window.scrollBy({
+            top: -250,
+            behavior: "smooth",
+          });
+        detailsElement.setAttribute('open', true);
+    }, 0);
 }
 
 function displaySearchResults(results, links) {
@@ -131,8 +137,7 @@ function prepareIndex() {
 
 function search(searchTerm) {
     if (searchTerm) {
-        var results = window.idx.search(`${searchTerm}*`);
-        console.log("result")
+        var results = window.idx.search(`*${searchTerm}*`);
         displaySearchResults(results, window.linksOnly);
     }
     else {
