@@ -67,14 +67,18 @@ body {
 
 .links-section-title {
 	align-items: center;
-	display: grid;
-	grid-template-columns: 70px 1fr 20px;
+	cursor: pointer;
+	display: flex;
+	gap: 10px;
 	padding: 16px;
 	user-select: none;
-	gap: 5px;
-	cursor: pointer;
-	.share-container {
-		grid-column: 2;
+
+	& > h2 {
+		flex: 1;
+	}
+
+	&::-webkit-details-marker {
+		display:none;
 	}
 }
 
@@ -311,11 +315,6 @@ details[open] .telegram-btn {
 		left: 0;
 	}
 
-	.open-caret {
-		background: url("{{ site.baseurl }}/assets/caret-mobile.png") no-repeat;
-		height: 9px;
-		width: 16px;
-	}
 	.links-section-content {
 		padding: 32px;
 		display: block;
@@ -385,12 +384,6 @@ details[open] .telegram-btn {
 	.contribute-button {
 		font-size: 14px;
 		left: 0;
-	}
-
-	.open-caret {
-		background: url("{{ site.baseurl }}/assets/caret-mobile.png") no-repeat;
-		height: 9px;
-		width: 16px;
 	}
 
 	.links-section-content ul li a {
