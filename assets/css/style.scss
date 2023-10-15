@@ -252,6 +252,7 @@ body {
 	}
 }
 
+.share-mobile-btn,
 .share-btn,
 .whatsapp-btn,
 .telegram-btn {
@@ -267,12 +268,6 @@ body {
 }
 .telegram-btn {
 	color: #0088cc;
-}
-
-details[open] .share-btn,
-details[open] .whatsapp-btn,
-details[open] .telegram-btn {
-	display: inline-block;
 }
 
 .copy-icon {
