@@ -2,7 +2,9 @@
 
 function clearResultsList() {
     var searchResults = document.getElementById('search-results');
+    var searchResultsDiv = document.getElementById('searchResultsDiv');
     searchResults.innerHTML = '';
+    searchResultsDiv.classList.remove("active");
 }
 
 function clearInput() {
@@ -24,6 +26,7 @@ function searchResultClicked(aElement) {
     overlayElement.classList.remove("active");
     overlayElementWeb.classList.remove("active");
     clearInput()
+    clearResultsList()
 
     window.location.hash = `#${linkId}`;
     const detailsElement = targetElement.parentElement.parentElement.parentElement.parentElement
