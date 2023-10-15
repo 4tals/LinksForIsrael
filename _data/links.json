@@ -216,6 +216,14 @@
 						"description": "מתנדבים למציאת נעדרים ע״י מכשור טכנולוגי (לפטופ, טלפון ישן וכיו״ב)",
 						"url": "https://docs.google.com/forms/d/e/1FAIpQLSduujH277Cqt31XgOZfTZFAD4ua_YN8fXUtAlwOAHX2q9Emww/viewform?usp=sf_link",
 						"docs": "https://docs.google.com/forms/d/e/1FAIpQLSduujH277Cqt31XgOZfTZFAD4ua_YN8fXUtAlwOAHX2q9Emww/viewform?usp=sf_link"
+					},
+					{
+						"name": "TechInitiativesDevHelps",
+						"displayName": "רשימת יוזמות - DevHelps",
+						"shortDescription": "",
+						"description": "רשימת יוזמות מתעדכנת בהן משתתפת קהילת DevHelps",
+						"url": "https://docs.google.com/spreadsheets/d/1TdHu9MuzZhE-TNZfcKGyk6I4VYFxPl3KlEqasS52A_0/edit#gid=0",
+						"docs": "https://docs.google.com/spreadsheets/d/1TdHu9MuzZhE-TNZfcKGyk6I4VYFxPl3KlEqasS52A_0/edit#gid=0"
 					}
 				]
 			},
@@ -253,9 +261,10 @@
 					},
 					{
 						"name": "DevHelpsTechVolunteers",
-						"displayName": "DevHelp - Tech Volunteers",
+						"displayName": "DevHelp - קבוצת מתנדבים",
 						"shortDescription": "",
 						"url": "https://chat.whatsapp.com/GLmj3FDWiCW1RWDRnL79UV",
+						"description": "קבוצת הואצאפ של מתנדבי קהילת DevHelps",
 						"whatsapp": "https://chat.whatsapp.com/GLmj3FDWiCW1RWDRnL79UV"
 					},
 					{
