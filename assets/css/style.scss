@@ -52,6 +52,7 @@ body {
   // z-index: 1000;
   // pointer-events: none;
   backdrop-filter: blur(6px);
+	z-index: 3;
 
   &.active {
     display: initial;
