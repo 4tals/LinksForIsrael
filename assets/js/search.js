@@ -69,8 +69,8 @@ function displaySearchResults(results, links) {
     searchResults.innerHTML = appendString;
     searchResultsWeb.innerHTML = appendString;
   } else {
-    searchResults.innerHTML = "<li>No results found</li>";
-    searchResultsWeb.innerHTML = "<li>No results found</li>";
+    searchResults.innerHTML = "<li>לא נמצאו תוצאות</li>";
+    searchResultsWeb.innerHTML = "<li>לא נמצאו תוצאות</li>";
     searchResultsDiv.classList.remove("active");
   }
 }
