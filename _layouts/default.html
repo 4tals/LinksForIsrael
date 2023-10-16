@@ -4,12 +4,18 @@
 <head>
   <meta charset="UTF-8">
   <script>
-    // redirect to https on the client.
     function ensureSecure() {
-      if(location.hostname === 'localhost') return;
-      if(location.protocol !== 'https:') {     
+      const host = location.hostname;
+
+      // Return if on localhost or 127.0.0.1 with any port
+      if (host === 'localhost' || host.startsWith('127.0.0.1')) {
+        return;
+      }
+
+      // Only apply the redirection for these domains
+      if (['linksforisrael.com', 'www.linksforisrael.com'].includes(host) && location.protocol !== 'https:') {
         location.href = location.href.replace(location.protocol, 'https:');
-      }      
+      }
     }
     ensureSecure();
   </script>
@@ -79,8 +85,8 @@
                 </clipPath>
               </defs>
             </svg>
-      פורטל לינק לישראל          
-      </h1>
+            פורטל לינק לישראל
+          </h1>
         </a>
         <div id="webSearchWrapper">
           <div class="search-div" id="searchDivWeb">
@@ -222,7 +228,8 @@
       z-index: 5;
       overflow-y: scroll;
     }
-    .form-container iframe{
+
+    .form-container iframe {
       width: 100%;
       height: 100%;
     }
