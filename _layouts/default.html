@@ -6,6 +6,7 @@
   <script>
     // redirect to https on the client.
     function ensureSecure() {
+      if(location.hostname === 'localhost') return;
       if(location.protocol !== 'https:') {     
         location.href = location.href.replace(location.protocol, 'https:');
       }      
