@@ -184,19 +184,6 @@
 		"image": "https://cdn-icons-png.flaticon.com/512/3887/3887062.png",
 		"subCategories": [
 			{
-				"name": "TechMain",
-				"displayName": "יוזמות קיימות",
-				"links": [
-					{
-						"name": "PortalTech",
-						"displayName": "פורטל טכנולוגיה ויוזמות",
-						"shortDescription": "",
-						"url": "./docs/tech.html",
-						"portal": "./docs/tech.html"
-					}
-				]
-			},
-			{
 				"name": "TechInitiatives",
 				"displayName": "יוזמות קיימות",
 				"links": [
@@ -336,6 +323,19 @@
 						"description": "לפרטים נוספים שלא קשורים ל-2 האופיות להעיל ניתן לפנות אל אשלי. במידה ומילאתם את הטופס נחזור אליכם בהקדם.",
 						"url": "https://wa.me/972587786330",
 						"whatsapp": "https://wa.me/972587786330"
+					}
+				]
+			},
+			{
+				"name": "TechMain",
+				"displayName": "יוזמות קיימות",
+				"links": [
+					{
+						"name": "PortalTech",
+						"displayName": "פורטל טכנולוגיה ויוזמות",
+						"shortDescription": "",
+						"url": "./docs/tech.html",
+						"portal": "./docs/tech.html"
 					}
 				]
 			}
