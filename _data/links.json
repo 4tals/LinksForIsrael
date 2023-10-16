@@ -334,8 +334,8 @@
 						"name": "PortalTech",
 						"displayName": "פורטל טכנולוגיה ויוזמות",
 						"shortDescription": "",
-						"url": "./docs/tech.html",
-						"portal": "./docs/tech.html"
+						"url": "/docs/tech.html",
+						"portal": "/docs/tech.html"
 					}
 				]
 			}
@@ -506,6 +506,14 @@
 						"instagram": "https://www.instagram.com/explain.israel/",
 						"whatsapp": "https://chat.whatsapp.com/GXyA8C75dOm6Y2revbzPje/",
 						"tiktok": "https://www.tiktok.com/@explain.israel"
+					},
+					{
+						"name": "HasbaraRules",
+						"displayName": "כללים להסברה באינטרנט",
+						"shortDescription": "",
+						"description": "ניב חורש - מנכל משותף: במשרד הפרסום ראובני פרידן שבוע קשה מנשוא עבר מאז החלה המלחמה הנוראית, ובעקבותיה מלחמת ההסברה של ישראל בעולם. גיבשתי 10 כללים וחשובים להסברה בחו״ל, בדגש על הרשתות החברתיות. אשמח שתקראו ותפיצו.",
+						"url": "/docs/hasbara.html",
+						"website": "/docs/hasbara.html"
 					}
 				]
 			}
