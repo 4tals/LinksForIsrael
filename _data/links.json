@@ -65,13 +65,13 @@
 		]
 	},
 	{
-		"name": "Info",
-		"displayName": "רב נושאי - כללי",
+		"name": "InitiativesAggregation",
+		"displayName": "סיוע כללי - רב נושאי",
 		"description": "אוסף מקורות מידע וקישורים לסיוע אזרחי בישראל.",
 		"image": "https://cdn-icons-png.flaticon.com/512/6292/6292033.png",
 		"subCategories": [
 			{
-				"name": "InfoMain",
+				"name": "Aggregation",
 				"displayName": "מקורות מידע ויוזמות",
 				"links": [
 					{
@@ -102,6 +102,13 @@
 						"description": "מרכז קישורים ליוזמות סיוע אזרחי בזמן מבצע 'חרבות ברזל'.",
 						"url": "https://www.coing.co/Israhelp",
 						"website": "https://www.coing.co/Israhelp"
+					},
+					{
+						"name": "financeInfo",
+						"displayName": "ריכוז הודעות פיננסיות",
+						"description": "",
+						"url": "docs/finance.html",
+						"website": "docs/finance.html"
 					}
 				]
 			},
