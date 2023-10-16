@@ -742,8 +742,8 @@
 						"name": "CourseEzraRishona",
 						"displayName": "ריכוז תכני קורס עזרה ראשונה",
 						"shortDescription": "ניתן על ידי חברת ניתאי שירותי עזרה ראשונה",
-						"url": "docs/ezra-rishona",
-						"portal": "docs/ezra-rishona"
+						"url": "docs/ezra-rishona.html",
+						"portal": "docs/ezra-rishona.html"
 					}
 				]
 			}
