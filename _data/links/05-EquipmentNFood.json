@@ -1,0 +1,39 @@
+{
+  "name": "EquipmentNFood",
+  "displayName": "תרומות ציוד / אוכל",
+  "description": "תרומה וקבלה של ציוד",
+  "image": "https://static-00.iconduck.com/assets.00/supply-chain-management-icon-2048x1937-54eit1e1.png",
+  "subCategories": [
+    {
+      "name": "EquipmentMain",
+      "displayName": "",
+      "links": [
+        {
+          "name": "SupplyMatch",
+          "displayName": "Supply Match",
+          "shortDescription": "",
+          "description": "יוזמה המחברת בין מבקשי ציוד לנותני ציוד",
+          "tags": [],
+          "url": "https://supply-match.com/",
+          "website": "https://supply-match.com/"
+        },
+        {
+          "name": "WoltFoodDonations",
+          "displayName": "תרומות מזון ישירות דרך וולט",
+          "shortDescription": "",
+          "description": "מארזי תרומות של מזון דרך ולט לקניה של מזון בסיסי ושימורים",
+          "url": "https://wolt.com/he/isr/tel-aviv/venue/support-the-south",
+          "website": "https://wolt.com/he/isr/tel-aviv/venue/support-the-south"
+        },
+        {
+          "name": "HamalFoodLogistics",
+          "displayName": "חמ״ל שינוע מזון לחיילים",
+          "shortDescription": "",
+          "description": "קבוצת וואטסאפ לתיאום ושינוע של מזון ללוחמים",
+          "url": "https://chat.whatsapp.com/KPZ7JqQyBLG3OSvtGlUAdx",
+          "whatsapp": "https://chat.whatsapp.com/KPZ7JqQyBLG3OSvtGlUAdx"
+        }
+      ]
+    }
+  ]
+}

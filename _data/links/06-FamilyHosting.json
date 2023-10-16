@@ -1,0 +1,54 @@
+{
+  "name": "FamilyHosting",
+  "displayName": "אירוח משפחות",
+  "description": "",
+  "image": "https://cdn-icons-png.flaticon.com/512/5988/5988246.png",
+  "subCategories": [
+    {
+      "name": "FamilyHostingMain",
+      "displayName": "",
+      "links": [
+        {
+          "name": "AtarMearhim",
+          "displayName": "אתר מארחים",
+          "shortDescription": "",
+          "description": "אתר לחיפוש בתים מארחים למשפחות",
+          "url": "https://mearhim.vercel.app",
+          "website": "https://mearhim.vercel.app"
+        },
+        {
+          "name": "MiklatMugan",
+          "displayName": "מקלט מוגן",
+          "shortDescription": "",
+          "description": "לוח מודעות לחיפוש בתים מארחים",
+          "url": "https://protected-shelter.vercel.app",
+          "website": "https://protected-shelter.vercel.app"
+        },
+        {
+          "name": "PeopleFromSouthHosting",
+          "displayName": "אירוח משפחות מהדרום",
+          "shortDescription": "",
+          "description": "קבוצת וואטסאפ לחיבור בין בתים מארחים למשפחות",
+          "url": "https://chat.whatsapp.com/E6GofQiyosDLndYKKCcC4v",
+          "whatsapp": "https://chat.whatsapp.com/E6GofQiyosDLndYKKCcC4v"
+        },
+        {
+          "name": "AbraHosting",
+          "displayName": "אברא - בית ישראל",
+          "shortDescription": "",
+          "description": "הפלטפורמה מאפשרת חיבור והתאמה בין משפחות שמחפשות פתרונות אירוח לתקופת המלחמה, למשפחות מארחות או לבתים הפנויים לאירוח. הפלטפורמה מאפשרת התאמה על פי פרמטרים שונים כדוגמת אזור מבוקש בארץ, מספר ילדים, תינוקות,  גישה לנכים,  חיות מחמד ועוד.",
+          "url": "https://bait-israeli.abra-it.com/",
+          "website": "https://bait-israeli.abra-it.com/"
+        },
+        {
+          "name": "HostingFromTheHeart",
+          "displayName": "אירוח מהלב",
+          "shortDescription": "",
+          "description": "האפליקציה ״אירוח מהלב״ נועדה לחבר בין אנשים שרוצים להתארח לבין אנשים שרוצים לארח ולמצוא להם מקום אירוח בטוח ברחבי הארץ בזמן המלחמה, על מנת שיוכלו להעביר את התקופה הקרובה בביטחה כמה שיותר. האפליקציה קלה מאוד לתפעול ומרכזת את כל המקומות במקום אחד",
+          "url": "https://www.letitsorti.com/hostingfromtheheartapp",
+          "website": "https://www.letitsorti.com/hostingfromtheheartapp"
+        }
+      ]
+    }
+  ]
+}

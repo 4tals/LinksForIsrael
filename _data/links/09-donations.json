@@ -1,0 +1,51 @@
+
+{
+  "name": "Donations",
+  "displayName": "תרומות כספיות - אימות לינקים, גופים ותרומה בקריפטו",
+  "description": "",
+  "image": "https://cdn-icons-png.flaticon.com/512/6203/6203343.png",
+  "subCategories": [
+    {
+      "name": "DonationsMain",
+      "displayName": "",
+      "links": [
+        {
+          "name": "SafeDonate",
+          "displayName": "Safe Donate",
+          "shortDescription": "אימות קישורים לתרומות",
+          "url": "https://naboo.ai/safedonate",
+          "website": "https://naboo.ai/safedonate"
+        },
+        {
+          "name": "StandWithIsraelDonation",
+          "displayName": "Stand with Israel",
+          "shortDescription": "ריכוז תרומות מאומתות בחלוקה לרפואי, צוותית בחזית, יחידות ועוד",
+          "url": "https://giveisrael.org/",
+          "website": "https://giveisrael.org/"
+        },
+        {
+          "name": "IsraAid",
+          "displayName": "Isra-Aid",
+          "shortDescription": "ריכוז תרומות לחיזוק העורף והלחימה",
+          "url": "https://isra-aid.org/",
+          "website": "https://isra-aid.org/"
+        },
+        {
+          "name": "CryptoAidIsrael",
+          "displayName": "Crypto Aid Israel",
+          "shortDescription": "Site",
+          "url": "https://cryptoaidisrael.com/",
+          "website": "https://cryptoaidisrael.com/"
+        },
+        {
+          "name": "Yzkor",
+          "displayName": "יזכור - חללי חרבות ברזל",
+          "shortDescription": "",
+          "description": "אתר המרכז מידע על חללי המלחמה",
+          "url": "https://www.izkorharavot.com",
+          "website": "https://www.izkorharavot.com"
+        }
+      ]
+    }
+  ]
+}

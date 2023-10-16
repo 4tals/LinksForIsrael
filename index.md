@@ -2,7 +2,8 @@
 direction: rtl
 ---
 
-{% for category in site.data.links %}
+{% for category_hash in site.data.links %}
+{% assign category = category_hash[1] %}
 <details class="links-section" id="{{ category.name }}">
 <summary class="links-section-title">
 {% if category.image and category.image != "" %}
