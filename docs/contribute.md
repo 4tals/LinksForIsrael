@@ -18,7 +18,7 @@
 3. **Clone the Forked Repository**
 
    ```bash
-   git clone https://github.com/YOUR_USERNAME/ConnectPortal.git
+   git clone https://github.com/YOUR_USERNAME/LinksForIsrael.git
    cd ConnectPortal
    ```
 
