@@ -459,6 +459,14 @@
 						"description": "קבוצה לדיווח על פירסומים אנטי-ישראלים, פוגעניים, ופייק ניוז",
 						"url": "https://chat.whatsapp.com/IKrNlfjrV8O5tBuBMpPOmV",
 						"whatsapp": "https://chat.whatsapp.com/IKrNlfjrV8O5tBuBMpPOmV"
+					},
+					{
+						"name": "TerrorSupportCompaniesIndex",
+						"displayName": "דירוג תומכי טרור",
+						"shortDescription": "",
+						"description": "דירוג חברות לפי מספר עובדים תומכי טרור. לוח תוצאות שמתעדכן בלייב. פיתחנו מערכת שסורקת את הרשת בחיפוש אחר פוסטים תומכי טרור. אנחנו עושים אגרגציה של המידע לפי המעסיקים של מפרסמי הפוסטים. המידע מתעדכן בזמן אמת. ניתן לדווח על פוסט באופן עצמאי, יחד עם שם המעסיק והוא יעלה לאתר לאחר בדיקה שלנו. המטרה היא לעלות מודעות בקרב המעסיקים על דעות קיצוניות של העובדים שלהם. ולגרום להסרת הפוסטים לכל הפחות ופיטורים לכל היותר.",
+						"url": "https://terrorsupporters.vercel.app/",
+						"whatsapp": "https://terrorsupporters.vercel.app/"
 					}
 				]
 			}
