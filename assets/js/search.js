@@ -161,7 +161,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   searchInputWeb.addEventListener("input", function (event) {
-    const searchTerm = event.target.value;
+    const searchTerm = event.target.value.trim();
 
     if (searchTerm) {
       overlayElementWeb.classList.add("active");
