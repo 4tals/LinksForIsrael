@@ -130,9 +130,74 @@ function prepareIndex() {
   window.idx = idx;
 }
 
+const hebrewMapping = { // taken from https://github.com/ai/convert-layout/blob/master/he.json
+  'q': '/',
+  'w': '\'',
+  'e': 'ק',
+  'r': 'ר',
+  't': 'א',
+  'y': 'ט',
+  'u': 'ו',
+  'i': 'ן',
+  'o': 'ם',
+  'p': 'פ',
+  '[': ']',
+  '{': '}',
+  ']': '[',
+  '}': '{',
+  '\\': '\\',
+  '|': '|',
+  'a': 'ש',
+  's': 'ד',
+  'd': 'ג',
+  'f': 'כ',
+  'g': 'ע',
+  'h': 'י',
+  'j': 'ח',
+  'k': 'ל',
+  'l': 'ך',
+  ';': 'ף',
+  ':': ':',
+  '\'': ',',
+  '\"': '\"',
+  'z': 'ז',
+  'x': 'ס',
+  'c': 'ב',
+  'v': 'ה',
+  'b': 'נ',
+  'n': 'מ',
+  'm': 'צ',
+  ',': 'ת',
+  '<': '>',
+  '.': 'ץ',
+  '>': '<',
+  '/': '.',
+  '?': '?',
+  ' ': ' ',
+  '-': '-',
+  '_': '_',
+}
+
+function mapStringToHebrew(s) {
+  s = s.toLowerCase()
+  const chars = [...s]
+  if (chars.some(c => !hebrewMapping.hasOwnProperty(c))) {
+    return null
+  }
+
+  const mapped = chars.map(c => hebrewMapping[c]).join('')
+  return mapped === s ? null : mapped
+}
+
 function search(searchTerm) {
   if (searchTerm) {
-    var results = window.idx.search(`*${searchTerm}*`);
+    let results = window.idx.search(`*${searchTerm}*`);
+    if (results.length === 0) {
+      const mappedSearchTerm = mapStringToHebrew(searchTerm);
+      if (mappedSearchTerm) {
+        results = window.idx.search(`*${mappedSearchTerm}*`);
+      }
+    }
     displaySearchResults(results, window.linksOnly);
 
     if (window.location.hostname.indexOf("localhost") < 0) {
