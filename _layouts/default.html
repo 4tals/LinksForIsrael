@@ -7,9 +7,10 @@
     // redirect to https on the client.
     function ensureSecure() {
       if(location.protocol !== 'https:') {     
-        location.href = location.href.replace(location.protocol, 'https:')
+        location.href = location.href.replace(location.protocol, 'https:');
       }      
     }
+    ensureSecure();
   </script>
   {% seo %}
   <link rel="preconnect" href="https://fonts.gstatic.com">
