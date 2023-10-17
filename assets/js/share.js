@@ -134,10 +134,13 @@ function addExternalShareListeners(externalService) {
     btn.addEventListener("click", (e) => {
       e.preventDefault();
       e.stopPropagation();
-      const sectionUrl = encodeURIComponent(`${siteUrl.origin}#${btn.getAttribute("data-index")}`);
+      const sectionUrl = `${siteUrl.origin}#${btn.getAttribute("data-index")}`;
+      const displayName = window.israelLinks.find(x => x.name === btn.getAttribute("data-index")).displayName;
+      const description = `כאן אפשר למצוא איך לעזור בנושאי "${displayName}":`;
+      const messageBody = encodeURIComponent(`${description}\n${sectionUrl}`);
       const shareUrls = {
-        whatsapp: `https://api.whatsapp.com/send?text=${sectionUrl}`,
-        telegram: `https://t.me/share/url?url=${sectionUrl}`,
+        whatsapp: `https://api.whatsapp.com/send?text=${messageBody}`,
+        telegram: `https://t.me/share/url?url=${messageBody}`,
       };
 
       window.open(shareUrls[externalService]);
