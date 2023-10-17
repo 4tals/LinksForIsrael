@@ -2,7 +2,7 @@ const ICONS = {
   share: '<i class="fas fa-link"></i>',
   whatsapp: '<i class="fab fa-whatsapp"></i>',
   telegram: '<i class="fab fa-telegram-plane"></i>',
-  shareMobile: '<i class="fa-thin fa-share-alt"></i>',
+  shareMobile: '<i class="fas fa-share-alt"></i>',
 };
 
 function mobileAndTabletCheck() {
