@@ -26,9 +26,9 @@ direction: rtl
 {% for link in subcategory.links %}
 <li class="links-section-item">
 {% if link.shortDescription == "" %}
-<a href="{{ link.url }}" target="_blank" id="{{ link.name }}">{{ link.displayName }}</a>
+<a href="{{ link.url }}" target="_blank" id="{{ link.name }}" class="links-section-item-title">{{ link.displayName }}</a>
 {% elsif link.shortDescription != "" %}
-<a href="{{ link.url }}" target="_blank" id="{{ link.name }}">{{ link.displayName }}<br /><span class="links-section-item-short-description">{{ link.shortDescription }}</span></a>
+<a href="{{ link.url }}" target="_blank" id="{{ link.name }}" class="links-section-item-title">{{ link.displayName }}<br /><span class="links-section-item-short-description">{{ link.shortDescription }}</span></a>
 {% endif %}
 
 <div class="link-icons">
