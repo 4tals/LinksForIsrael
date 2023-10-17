@@ -1,7 +1,6 @@
 <script type="text/javascript">
 
   window.israelLinks = [
-    
     {% for category in site.data.links %}
         {
           "name": "{{ category.name | xml_escape }}",
@@ -19,7 +18,8 @@
                         "displayName": "{{ link.displayName | xml_escape  }}",
                         "shortDescription": {{ link.shortDescription | strip_html | strip_newlines | jsonify }},
                         "description": {{ link.description | strip_html | strip_newlines | jsonify }},
-                        "url": "{{ link.url | xml_escape }}"
+                        "url": "{{ link.url | xml_escape }}",
+                        "tags": {{ link.tags | uniq | jsonify }}
                       },
                   {% endfor %}
                 ]
@@ -28,7 +28,7 @@
           ]}
       {% unless forloop.last %},{% endunless %}
     {% endfor %}
-    
+
   ];
 </script>
 <script src="{{ '/assets/js/lunr.js' }}"></script>
