@@ -83,6 +83,7 @@ function prepareIndex() {
     this.field("displayName");
     this.field("description");
     this.field("shortDescription");
+    this.field("tags");
 
     window.israelLinks.forEach((category) => {
       // Add the data to lunr
@@ -107,6 +108,7 @@ function prepareIndex() {
             displayName: link.displayName,
             shortDescription: link.shortDescription,
             description: link.description,
+            tags: link.tags?.join(' ')
           };
 
           linksOnly[link.name] = link;
@@ -120,6 +122,7 @@ function prepareIndex() {
         displayName: link.displayName,
         shortDescription: link.shortDescription,
         description: link.description,
+        tags: link.tags?.join(' ')
       };
 
       this.add(linkEntry);
