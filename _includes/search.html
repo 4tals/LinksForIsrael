@@ -1,7 +1,9 @@
 <script type="text/javascript">
 
   window.israelLinks = [
-    {% for category in site.data.links %}
+    
+{% for category_hash in site.data.links %}
+{% assign category = category_hash[1] %}
         {
           "name": "{{ category.name | xml_escape }}",
           "displayName": "{{ category.displayName | xml_escape }}",
