@@ -19,7 +19,7 @@
 
    ```bash
    git clone https://github.com/YOUR_USERNAME/LinksForIsrael.git
-   cd ConnectPortal
+   cd LinksForIsrael
    ```
 
 4. **(Optional: If you want to run the GitHub Pages project locally) Install Dependencies**
@@ -50,9 +50,9 @@
    Bundler should be installed now as well. Run `bundle install`.
 
 6. **Run the project locally**
-   \```
+   ```bash
    bundle exec jekyll serve
-   \```
+   ```
 
 ## 📖 Understanding the Project Structure
 
@@ -63,9 +63,9 @@ Then, pick one of the open issues in [*Github Issues*](<https://github.com/users
 ## 🛠 Making Changes
 
 1. **Create a New Branch**
-   \```bash
+   ```bash
    git checkout -b my-new-feature
-   \```
+   ```
 
 2. **Find the Appropriate Page/Section**
    - Navigate to the file where you want to add or modify content.
@@ -75,17 +75,17 @@ Then, pick one of the open issues in [*Github Issues*](<https://github.com/users
    - Remember to follow the project's coding standards and maintain the existing style.
 
 4. **Commit Your Changes**
-   \```bash
+   ```bash
    git add .
    git commit -m "Added new information about XYZ"
-   \```
+   ```
 
 ## 🚀 Submitting Your Contribution
 
 1. **Push to Your Fork**
-   \```bash
+   ```bash
    git push origin my-new-feature
-   \```
+   ```
 
 2. **Open a Pull Request (PR)**
    - Go to the `Pull requests` tab on the original [Github Repo](https://github.com/4tal/LinksForIsrael).
