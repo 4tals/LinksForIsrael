@@ -197,6 +197,10 @@
   </main>
 
   <style>
+    .add-site-footer {
+      z-index: 5000;
+    }
+
     .add-site-button {
       background-color: #007BFF;
       color: #fff;
@@ -222,17 +226,46 @@
       left: 60px;
     }
 
+    .close-form-x-button {
+      font-size: 2rem;
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      cursor: pointer;
+      &:hover {
+        color: black;
+      }
+    }
+
     .add-site-button:hover {
       background-color: #0056b3;
     }
 
-    .form-container {
+    .add-site-form {
       display: none;
-      width: 95vw;
-      height: 95vh;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
+
+    .form-container-backdrop {
+      width: 100%;
+      height: 100%;
+      backdrop-filter: blur(1px);
+    }
+
+    .form-container {
+      position: fixed;
+      top: 5vh;
+      bottom: 5vh;
+      left: 5vw;
+      right: 5vw;
       background: aliceblue;
-      z-index: 5;
-      overflow-y: scroll;
+      overflow-y: hidden;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      border-radius: 10px;
     }
 
     .form-container iframe {
@@ -243,23 +276,27 @@
 
   <footer class="add-site-footer">
     <a class="add-site-button" href="#" onclick="toggleForm(); return false;">הוסיפו אתר +</a>
-    <div class="form-container">
-      <iframe
-        src="https://docs.google.com/forms/d/e/1FAIpQLSeZsW9WkleVF7-9Wtx6JKWTw9cInqJEpMocR54tZkwjAXPxRg/viewform?embedded=true"
-        width="300" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-      <a class="close-form-button" href="#" onclick="toggleForm(); return false;">סגור את הטופס</a>
+    <div class="add-site-form">
+      <div class="form-container-backdrop" onclick="toggleForm(); return false"></div>
+      <div class="form-container">
+        <iframe
+          src="https://docs.google.com/forms/d/e/1FAIpQLSeZsW9WkleVF7-9Wtx6JKWTw9cInqJEpMocR54tZkwjAXPxRg/viewform?embedded=true"
+          width="300" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        <a class="close-form-button" href="#" onclick="toggleForm(); return false;">סגור את הטופס</a>
+        <div class="close-form-x-button" onclick="toggleForm(); return false;">✕</div>
+      </div>
     </div>
   </footer>
 
   <script>
     // Initialize the display property for the form container
     document.addEventListener("DOMContentLoaded", function () {
-      var formContainer = document.querySelector('.form-container');
+      var formContainer = document.querySelector('.add-site-form');
       formContainer.style.display = 'none';
     });
 
     function toggleForm() {
-      var formContainer = document.querySelector('.form-container');
+      var formContainer = document.querySelector('.add-site-form');
       var addButton = document.querySelector('.add-site-button');
 
       if (formContainer.style.display === 'none' || formContainer.style.display === '') {
