@@ -488,7 +488,12 @@
 						"shortDescription": "",
 						"description": "אתר לחומרי הסברה בין לאומיים",
 						"url": "https://nirtz89.github.io/israel_diplomacy/",
-						"website": "https://nirtz89.github.io/israel_diplomacy/"
+						"website": "https://nirtz89.github.io/israel_diplomacy/",
+						"tags": [
+							"סושיאל",
+							"דיפלומטיה",
+							"הסברה"
+						]
 					},
 					{
 						"name": "HamalMeida",
@@ -500,7 +505,15 @@
 						"tiktok": "https://chat.whatsapp.com/Hw7fdndJdYy6TPsDii9o5V",
 						"twitter": "https://chat.whatsapp.com/Ez1hDNEt0OZF5a9sGgYueO",
 						"instagram": "https://chat.whatsapp.com/BjnPe6nwabqFY8jLxbBtoz",
-						"facebook": "https://chat.whatsapp.com/DIlLKYyHJWk02AAP85dpSn"
+						"facebook": "https://chat.whatsapp.com/DIlLKYyHJWk02AAP85dpSn",
+						"tags": [
+							"סושיאל",
+							"אינסטגרם",
+							"פייסבוק",
+							"טוויטר",
+							"טיקטוק",
+							"הסברה"
+						]
 					},
 					{
 						"name": "ExplainIsrael",
@@ -513,7 +526,15 @@
 						"twitter": "https://twitter.com/explain_israel",
 						"instagram": "https://www.instagram.com/explain.israel/",
 						"whatsapp": "https://chat.whatsapp.com/GXyA8C75dOm6Y2revbzPje/",
-						"tiktok": "https://www.tiktok.com/@explain.israel"
+						"tiktok": "https://www.tiktok.com/@explain.israel",
+						"tags": [
+							"סושיאל",
+							"אינסטגרם",
+							"פייסבוק",
+							"טוויטר",
+							"טיקטוק",
+							"הסברה"
+						]
 					},
 					{
 						"name": "ShareItIl",
@@ -529,7 +550,11 @@
 						"shortDescription": "",
 						"description": "ניב חורש - מנכל משותף: במשרד הפרסום ראובני פרידן שבוע קשה מנשוא עבר מאז החלה המלחמה הנוראית, ובעקבותיה מלחמת ההסברה של ישראל בעולם. גיבשתי 10 כללים וחשובים להסברה בחו״ל, בדגש על הרשתות החברתיות. אשמח שתקראו ותפיצו.",
 						"url": "/docs/hasbara.html",
-						"website": "/docs/hasbara.html"
+						"website": "/docs/hasbara.html",
+						"tags": [
+							"סושיאל",
+							"הסברה"
+						]
 					}
 				]
 			}
