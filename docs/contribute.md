@@ -43,16 +43,24 @@
 
    > ⚠️ **Note**: There is currently an issue with running the project locally. The theme doesn't display as expected. If you can solve this issue, your contribution would be greatly appreciated!
 
-4. **Install Ruby 3**
+6. **Install Ruby 3**
    Check how to install an up-to-date version of Ruby for your system [here](https://www.ruby-lang.org/en/documentation/installation/).
 
-5. **Install Ruby dependencies**
+7. **Install Ruby dependencies**
    Bundler should be installed now as well. Run `bundle install`.
 
-6. **Run the project locally**
+8. **Run the project locally**
    ```bash
    bundle exec jekyll serve
    ```
+
+9. **Run the project locally on a mobile device**
+   Make sure your phone is connected to the same network as the server
+   Run serve with the `--host` flag:
+   ```
+   bundle exec jekyll serve --host=0.0.0.0
+   ```
+   On your mobile device open your server's local IP (you can get it using tools like `ipconfig getifaddr en0`)
 
 ## 📖 Understanding the Project Structure
 
