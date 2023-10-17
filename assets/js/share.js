@@ -2,7 +2,7 @@ const ICONS = {
   share: '<i class="fas fa-link"></i>',
   whatsapp: '<i class="fab fa-whatsapp"></i>',
   telegram: '<i class="fab fa-telegram-plane"></i>',
-  shareMobile: '<i class="fas fa-share-alt"></i>',
+  shareMobile: '<i class="fa-thin fa-share-alt"></i>',
 };
 
 function mobileAndTabletCheck() {
@@ -61,7 +61,7 @@ function initializeShareButtons() {
     const category = section.querySelector("h2").innerText;
     shareContainer.classList.add("share-container");
     const text = document.createElement("span");
-    text.innerHTML = `ניתן לשתף ישירות את "<b>${category}</b>" באמצעות`;
+    text.textContent = `ניתן לשתף ישירות את  ${category} באמצעות`;
     shareContainer.appendChild(text);
 
     const siteUrl = new URL(window.location.href);
@@ -134,10 +134,13 @@ function addExternalShareListeners(externalService) {
     btn.addEventListener("click", (e) => {
       e.preventDefault();
       e.stopPropagation();
-      const sectionUrl = encodeURIComponent(`${siteUrl.origin}#${btn.getAttribute("data-index")}`);
+      const sectionUrl = `${siteUrl.origin}#${btn.getAttribute("data-index")}`;
+      const displayName = window.israelLinks.find(x => x.name === btn.getAttribute("data-index")).displayName;
+      const description = `כאן אפשר למצוא איך לעזור בנושאי "${displayName}":`;
+      const messageBody = encodeURIComponent(`${description}\n${sectionUrl}`);
       const shareUrls = {
-        whatsapp: `https://api.whatsapp.com/send?text=${sectionUrl}`,
-        telegram: `https://t.me/share/url?url=${sectionUrl}`,
+        whatsapp: `https://api.whatsapp.com/send?text=${messageBody}`,
+        telegram: `https://t.me/share/url?url=${messageBody}`,
       };
 
       window.open(shareUrls[externalService]);
