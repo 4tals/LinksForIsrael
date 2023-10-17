@@ -61,7 +61,7 @@ function initializeShareButtons() {
     const category = section.querySelector("h2").innerText;
     shareContainer.classList.add("share-container");
     const text = document.createElement("span");
-    text.textContent = `ניתן לשתף ישירות את  ${category} באמצעות`;
+    text.innerHTML = `ניתן לשתף ישירות את "<b>${category}</b>" באמצעות`;
     shareContainer.appendChild(text);
 
     const siteUrl = new URL(window.location.href);

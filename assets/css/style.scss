@@ -21,9 +21,13 @@ a {
 	cursor: pointer;
 }
 .link-icon {
-	width: 30px;
+	width: 60px;
 	height: auto;
 	margin: 0 5px;
+	&:hover {
+		filter: brightness(120%);
+		transform: scale(1.1);
+	}
 }
 
 .link-icons {
@@ -170,6 +174,18 @@ body {
 	&[open] .open-caret {
 		transform: rotate(180deg); /* Flips upward when section is open */
 	}
+
+	.share-container {
+		margin-bottom: 1rem;
+	}
+
+	.links-section-subcategory {
+		flex-basis: 100%;
+		flex-shrink: 0;
+		margin-bottom: 0px;
+		font-weight: bold;
+	}
+
 }
 
 .links-section-title {
@@ -189,41 +205,43 @@ body {
 	}
 }
 
-.links-section-content {
-	--link-font-size: 16px;
-	overflow: hidden;
-	padding: 25px;
-	hr {
-		display: none;
-	}
+.main-content {
+	.links-section-content {
+		--link-font-size: 16px;
+		overflow: hidden;
+		padding: 25px;
+		hr {
+			display: none;
+		}
 
-	h1,
-	h2,
-	h3,
-	h4,
-	h5,
-	p {
-		grid-area: span 1 / span 2;
-	}
-
-	li {
-		padding: 10px;
-		margin: 10px;
-	}
-
-	ul {
-		padding-block-end: 10px;
-		padding-inline-start: 0;
-		list-style: none;
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		p {
+			grid-area: span 1 / span 2;
+		}
 
 		li {
-			a {
-				align-items: center;
-				flex-direction: column;
-				justify-content: center;
-				padding: 10px 16px;
-				text-align: center;
-				width: 80%;
+			padding: 10px;
+			margin: 10px;
+		}
+
+		ul {
+			padding-block-end: 10px;
+			padding-inline-start: 0;
+			list-style: none;
+
+			li {
+				a {
+					align-items: center;
+					flex-direction: column;
+					justify-content: center;
+					padding: 10px 16px;
+					text-align: center;
+					width: 80%;
+				}
 			}
 		}
 	}
@@ -264,6 +282,7 @@ body {
 	background-image: none;
 	height: 119px;
 	position: sticky;
+	z-index: 999; // https://stackoverflow.com/q/20851452 to solve caret transform issues
 	width: 100%;
 	top: 0;
 	color: var(--color-white);
@@ -318,6 +337,10 @@ body {
 	font-weight: 500;
 }
 
+.main-content :first-child {
+	margin-top: auto;
+}
+
 .contribute-button {
 	background-color: var(--color-white);
 	border-radius: 30px;
@@ -359,11 +382,15 @@ body {
 .whatsapp-btn,
 .telegram-btn {
 	width: fit-content;
-	margin-inline-start: 15px; /* Increased spacing */
+	padding: 8px;
 	height: 35px; /* Increased height */
 	font-size: 1.2rem; /* Increased font-size */
 	line-height: 35px;
 	cursor: pointer; /* Add a pointer cursor to indicate clickability */
+	&:hover {
+		filter: brightness(120%);
+		font-size: 1.3rem;
+	}
 }
 .whatsapp-btn {
 	color: #25d366;
@@ -489,12 +516,6 @@ body {
 	width: 100%;
 }
 
-.links-section-subcategory {
-	flex-basis: 100%;
-	flex-shrink: 0;
-	margin-top: 0px;
-}
-
 .links-section-item {
 	align-items: center;
 	display: flex;
@@ -507,6 +528,10 @@ body {
 .links-section-item-short-description {
 	font-size: 14px;
 	font-weight: 400;
+}
+
+.links-section-item-title {
+	font-weight: bold;
 }
 
 @media only screen and (max-width: 600px) {
