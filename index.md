@@ -2,8 +2,9 @@
 direction: rtl
 ---
 
-{% for category_hash in site.data.links %}
-{% assign category = category_hash[1] %}
+{% for category_meta in site.data.links_sort_meta %}
+{% assign category = site.data.links[category_meta.filename] %}
+
 <details class="links-section" id="{{ category.name }}">
 <summary class="links-section-title">
 {% if category.image and category.image != "" %}
@@ -18,6 +19,7 @@ direction: rtl
 
 {% for subcategory in category.subCategories %}
 {% if subcategory.displayName != "" %}
+
 <h3 class="links-section-subcategory">{{ subcategory.displayName }}</h3>
 {% endif %}
 {% assign numLinks = subcategory.links | size %}
@@ -69,10 +71,12 @@ direction: rtl
 </div>
 
 {% if link.description != "" %}
+
 <p>{{ link.description }}</p>
 
 {% assign numTags = link.tags | size %}
 {% if numTags != 0 %}
+
 <ul class="link-tags-list">
 {% for tag in link.tags %}
 <li class="tag">{{ tag }}</li>
@@ -81,10 +85,12 @@ direction: rtl
 {% endif %}
 
 {% endif %}
+
 </li>
 {% endfor %}
 
 {% endfor %}
+
 </ul>
 </div>
 </details>
