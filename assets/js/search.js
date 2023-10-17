@@ -251,17 +251,12 @@ document.addEventListener("DOMContentLoaded", function () {
     event.stopPropagation();
   });
 
-  overlayElementWeb.addEventListener("click", function (e) {
-    e.preventDefault();
-    e.stopPropagation();
-    if (e.target.id === "searchOverlayWeb") {
-      clearPopup();
-    }
-  });
-  // searchResultsDiv.addEventListener("click", function(event) {
-
-  //     event.preventDefault();
-  //     event.stopPropagation();
+  // overlayElementWeb.addEventListener("click", function (e) {
+  //   e.preventDefault();
+  //   e.stopPropagation();
+  //   if (e.target.id === "searchOverlayWeb") {
+  //     clearPopup();
+  //   }
   // });
 
   document.addEventListener("keydown", function (event) {
