@@ -414,7 +414,7 @@ body {
 
 .search-results-div-web {
 	display: flex;
-	top: -10px;
+	top: 20px;
 	width: 80%;
 	inset-inline-start: 10%;
 	justify-content: center;
@@ -436,8 +436,8 @@ body {
 
 #search-results-web {
 	list-style-type: none;
-	padding-right: 0px;
-	overflow: scroll;
+	padding: 10px;
+	overflow: auto;
 }
 
 #rightElement {
