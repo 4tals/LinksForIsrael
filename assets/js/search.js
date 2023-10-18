@@ -226,6 +226,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   mobileSearchButton.addEventListener("click", function () {
     overlayElement.classList.add("active");
+    setTimeout(()=>searchInput.focus(), 0)
   });
 
   searchInputWeb.addEventListener("input", function (event) {
