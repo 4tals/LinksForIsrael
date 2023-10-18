@@ -9,14 +9,19 @@
    - Install bundler: `gem install bundler`
    - Install project dependencies: `bundle install`
 
-1. **Setup GitHub API token**
+1. **(OPTIONAL) Setup GitHub API token**
+
    - Generate token: https://github.com/settings/tokens (check every `read` permission)
    - Save the token in some secure location (e.g. [BitWarden](https://bitwarden.com/))
+
+   For more information see: https://github.com/github/pages-gem/issues/399
 
 1. **Run Locally**
 
    ```bash
-   export JEKYLL_GITHUB_TOKEN=<your GitHub API token from the step above>
+   # If you set up your github API token above
+   export JEKYLL_GITHUB_TOKEN=<your GitHub API token>
+
    bundle exec jekyll serve
    ```
 
