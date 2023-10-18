@@ -12,7 +12,7 @@
    - Make sure you have Git and Ruby installed.
 
 2. **Fork the Repository**
-   - Go to our [Github Repo](https://github.com/4tal/LinksForIsrael).
+   - Go to our [Github Repo](https://github.com/4tals/LinksForIsrael).
    - Click on the `Fork` button at the top right corner. This will create a copy of the repository in your own GitHub account.
 
 3. **Clone the Forked Repository**
@@ -50,6 +50,7 @@
    Bundler should be installed now as well. Run `bundle install`.
 
 8. **Run the project locally**
+
    ```bash
    bundle exec jekyll serve
    ```
@@ -57,20 +58,23 @@
 9. **Run the project locally on a mobile device**
    Make sure your phone is connected to the same network as the server
    Run serve with the `--host` flag:
+
    ```
    bundle exec jekyll serve --host=0.0.0.0
    ```
+
    On your mobile device open your server's local IP (you can get it using tools like `ipconfig getifaddr en0`)
 
 ## 📖 Understanding the Project Structure
 
 Take some time to understand the layout of the repository. Familiarize yourself with the directory structure, the type of files, and their content.
 
-Then, pick one of the open issues in [*Github Issues*](<https://github.com/users/4tal/projects/2/views/2>)
+Then, pick one of the open issues in [*Github Issues*](<https://github.com/users/4tals/projects/1/views/2>)
 
 ## 🛠 Making Changes
 
 1. **Create a New Branch**
+
    ```bash
    git checkout -b my-new-feature
    ```
@@ -83,6 +87,7 @@ Then, pick one of the open issues in [*Github Issues*](<https://github.com/users
    - Remember to follow the project's coding standards and maintain the existing style.
 
 4. **Commit Your Changes**
+
    ```bash
    git add .
    git commit -m "Added new information about XYZ"
@@ -91,12 +96,13 @@ Then, pick one of the open issues in [*Github Issues*](<https://github.com/users
 ## 🚀 Submitting Your Contribution
 
 1. **Push to Your Fork**
+
    ```bash
    git push origin my-new-feature
    ```
 
 2. **Open a Pull Request (PR)**
-   - Go to the `Pull requests` tab on the original [Github Repo](https://github.com/4tal/LinksForIsrael).
+   - Go to the `Pull requests` tab on the original [Github Repo](https://github.com/4tals/LinksForIsrael).
    - Click `New Pull Request`.
    - Choose the source branch (your branch `my-new-feature`) and the destination branch `main`.
    - Fill in the PR template, explaining your changes.
