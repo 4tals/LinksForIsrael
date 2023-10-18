@@ -9,8 +9,8 @@
    - Install bundler: `gem install bundler`
    - Install project dependencies: `bundle install`
 
-1. ** Setup GitHub API token **
-   - Generate token: https://github.com/settings/tokens (check very `read` permission)
+1. **Setup GitHub API token**
+   - Generate token: https://github.com/settings/tokens (check every `read` permission)
    - Save the token in some secure location (e.g. [BitWarden](https://bitwarden.com/))
 
 1. **Run Locally**
