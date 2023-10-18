@@ -26,9 +26,9 @@ function handleDetailsToggle(event) {
   const clickedSection = event.target.closest("details");
 
   if (!clickedSection.hasAttribute("open")) {
-    history.pushState({}, "", `#${clickedSection.id}`);
+    history.pushState({}, "", `${clickedSection.id}`);
   } else {
-    history.pushState({}, "", "#");
+    history.pushState({}, "", "/");
   }
 
   sections.forEach((section) => {
@@ -135,7 +135,7 @@ function addExternalShareListeners(externalService) {
       e.preventDefault();
       e.stopPropagation();
       const sectionUrl = `${siteUrl.origin}#${btn.getAttribute("data-index")}`;
-      const displayName = window.israelLinks.find(x => x.name === btn.getAttribute("data-index")).displayName;
+      const displayName = window.israelLinks.find((x) => x.name === btn.getAttribute("data-index")).displayName;
       const description = `כאן אפשר למצוא איך לעזור בנושאי "${displayName}":`;
       const messageBody = encodeURIComponent(`${description}\n${sectionUrl}`);
       const shareUrls = {
@@ -150,7 +150,7 @@ function addExternalShareListeners(externalService) {
 
 function scrollToSectionInView() {
   const url = new URL(window.location.href);
-  const sectionId = url.hash;
+  const sectionId = url.hash || url.pathname.replace("/", "#");
   if (sectionId) {
     const sections = document.querySelectorAll("details");
     const clickedSection = document.querySelector(sectionId);
@@ -163,8 +163,10 @@ function scrollToSectionInView() {
     });
 
     if (clickedSection) {
-      clickedSection.scrollIntoView({ behavior: "smooth" });
-      clickedSection.setAttribute("open", "");
+      setTimeout(() => {
+        clickedSection.scrollIntoView({ behavior: "smooth" });
+        clickedSection.setAttribute("open", "");
+      }, 10);
     }
   } else {
     const sections = document.querySelectorAll("details");
@@ -186,8 +188,8 @@ window.addEventListener(
     addExternalShareListeners("telegram");
     scrollToSectionInView();
     bindDetailsToggleEvent(); // Call the new function.
-
-    window.addEventListener("hashchange", scrollToSectionInView);
+    window.addEventListener("hashchange", scrollToSectionInView, { once: true });
+    window.addEventListener("popstate", scrollToSectionInView, false);
   },
   false
 );
