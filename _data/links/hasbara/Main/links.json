@@ -1,0 +1,94 @@
+{
+  "name": "HasbaraMain",
+  "displayName": "",
+  "links": [
+    {
+      "name": "HelpWithIsraeliDiplomacy",
+      "displayName": "Help with Israeli Diplomacy across the Web",
+      "shortDescription": "",
+      "description": "אתר לחומרי הסברה בין לאומיים",
+      "url": "https://nirtz89.github.io/israel_diplomacy/",
+      "website": "https://nirtz89.github.io/israel_diplomacy/",
+      "tags": [
+        "סושיאל",
+        "דיפלומטיה",
+        "הסברה"
+      ]
+    },
+    {
+      "name": "HamalMeida",
+      "displayName": "החזית האזרחית - The Civilian Front",
+      "shortDescription": "",
+      "description": "בצוות איכותי וערכי של מתנדבים אזרחים שעובדים מסביב לשעון בשביל להלחם בחזית ההסברתית",
+      "url": "https://chat.whatsapp.com/LGKPchQGakg4E75XYfEfyS",
+      "whatsapp": "https://chat.whatsapp.com/LGKPchQGakg4E75XYfEfyS",
+      "tiktok": "https://chat.whatsapp.com/Hw7fdndJdYy6TPsDii9o5V",
+      "twitter": "https://chat.whatsapp.com/Ez1hDNEt0OZF5a9sGgYueO",
+      "instagram": "https://chat.whatsapp.com/BjnPe6nwabqFY8jLxbBtoz",
+      "facebook": "https://chat.whatsapp.com/DIlLKYyHJWk02AAP85dpSn",
+      "tags": [
+        "סושיאל",
+        "אינסטגרם",
+        "פייסבוק",
+        "טוויטר",
+        "טיקטוק",
+        "הסברה"
+      ]
+    },
+    {
+      "name": "ExplainIsrael",
+      "displayName": "Explain Israel",
+      "shortDescription": "Join the fight for Israel🇮🇱 Spreading truth against terrorism.",
+      "description": "מטה שהוקם עי אזרחים ישראלים שאכפת להם מהמדינה במטרה לסייע במאבק ההסברה העולמי - גוגל דרייב עם תכני הסברה בכל השפות",
+      "drive": "https://drive.google.com/drive/folders/1yzLNJmkM73o5Kl8eryPj4BBAA6qSTL7i",
+      "url": "https://drive.google.com/drive/folders/1yzLNJmkM73o5Kl8eryPj4BBAA6qSTL7i",
+      "website": "https://linktr.ee/mate.hasbara",
+      "twitter": "https://twitter.com/explain_israel",
+      "instagram": "https://www.instagram.com/explain.israel/",
+      "whatsapp": "https://chat.whatsapp.com/GXyA8C75dOm6Y2revbzPje/",
+      "tiktok": "https://www.tiktok.com/@explain.israel",
+      "tags": [
+        "סושיאל",
+        "אינסטגרם",
+        "פייסבוק",
+        "טוויטר",
+        "טיקטוק",
+        "הסברה"
+      ]
+    },
+    {
+      "name": "ShareItIl",
+      "displayName": "ShareItIl - שייר איט ישראל",
+      "shortDescription": "",
+      "description": "מערכת ShareItIL אוספת ומאגדת במקום אחד את כל התכנים המופקים על ידי חמלי הסברה בארץ ובעולם ומאפשרת לך לבחור את התוכן המתאים עבורך ולשתף בקלות",
+      "url": "https://shareitil.com/",
+      "website": "https://shareitil.com/"
+    },
+    {
+      "name": "Iron Likes",
+      "displayName": "Iron Likes - לייקים של ברזל",
+      "shortDescription": "מכפיל כח ברשתות החברתיות - כל משתמש יכול לעשות מאות ואלפי לייקים ללא מאמץ לפוסטים פרו-ישראלים",
+      "description": "מערכת Iron Likes מאפשרת למשתמשים לעשות מאות ואלפי לייקים ללא מאמץ לפוסטים פרו-ישראלים, באמצעות אתר ותוסף לדפדפן. הציוצים והפוסטים המקודמים נבחרים בקפידה על ידי צוות מצומצם ואיכותי של מתנדבים. לייק הינה הדרך היעילה ביותר לקדם פוסטים, ולכן הכלי יכול להיות בעל השפעה משמעותית על התפוצה של חומרים פרו-ישראליים ברשת.",
+      "url": "https://ironlikes.com/",
+      "website": "https://ironlikes.com/",
+      "tags": [
+        "סושיאל",
+        "פייסבוק",
+        "טוויטר",
+        "הסברה"
+      ]
+    },
+    {
+      "name": "HasbaraRules",
+      "displayName": "כללים להסברה באינטרנט",
+      "shortDescription": "",
+      "description": "ניב חורש - מנכל משותף: במשרד הפרסום ראובני פרידן שבוע קשה מנשוא עבר מאז החלה המלחמה הנוראית, ובעקבותיה מלחמת ההסברה של ישראל בעולם. גיבשתי 10 כללים וחשובים להסברה בחו״ל, בדגש על הרשתות החברתיות. אשמח שתקראו ותפיצו.",
+      "url": "/docs/hasbara.html",
+      "website": "/docs/hasbara.html",
+      "tags": [
+        "סושיאל",
+        "הסברה"
+      ]
+    }
+  ]
+}

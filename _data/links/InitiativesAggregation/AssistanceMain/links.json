@@ -1,0 +1,41 @@
+{
+  "name": "AssistanceMain",
+  "displayName": "סיוע אזרחי באזורים שונים",
+  "links": [
+    {
+      "name": "HamalHiburim",
+      "displayName": "חמ״ל חיבורים",
+      "shortDescription": "פייסבוק",
+      "url": "https://m.facebook.com/groups/780925150471197/?ref=share&mibextid=lURqYx",
+      "facebook": "https://m.facebook.com/groups/780925150471197/?ref=share&mibextid=lURqYx"
+    },
+    {
+      "name": "IrgunSiuaEzrahimClali1",
+      "displayName": "ארגון סיוע אזרחים - מרכז",
+      "shortDescription": "וואטסאפ",
+      "url": "https://chat.whatsapp.com/Bsy4Sc9jM4PIS64JD1aRnp",
+      "whatsapp": "https://chat.whatsapp.com/Bsy4Sc9jM4PIS64JD1aRnp"
+    },
+    {
+      "name": "IrgunSiuaEzrahimClali2",
+      "displayName": "ארגון סיוע אזרחים - צפון",
+      "shortDescription": "וואטסאפ",
+      "url": "https://chat.whatsapp.com/ChDI2XilcBSCuQG1ZIzQQp",
+      "whatsapp": "https://chat.whatsapp.com/ChDI2XilcBSCuQG1ZIzQQp"
+    },
+    {
+      "name": "IrgunSiuaEzrahimClali3",
+      "displayName": "ארגון סיוע אזרחים - דרום",
+      "shortDescription": "וואטסאפ",
+      "url": "https://chat.whatsapp.com/GY2MwfFLaLwAfJbydxte2X",
+      "whatsapp": "https://chat.whatsapp.com/GY2MwfFLaLwAfJbydxte2X"
+    },
+    {
+      "name": "IrgunSiuaEzrahimClali4",
+      "displayName": "ארגון סיוע אזרחים - ירושלים",
+      "shortDescription": "וואטסאפ",
+      "url": "https://chat.whatsapp.com/BS2qZmtb9zGEdRgrqZlW9h",
+      "whatsapp": "https://chat.whatsapp.com/BS2qZmtb9zGEdRgrqZlW9h"
+    }
+  ]
+}
