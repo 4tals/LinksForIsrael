@@ -18,8 +18,8 @@ This repository centralizes links and resources for Israel. Through Git, our mis
 
 ### **Ways to Participate**
 
-1. [**GitHub Issues**](https://github.com/4tal/LinksForIsrael/issues): Engage with our community by commenting on or verifying links. Your insights can add immense value. Enhance our database by providing additional resources such as more social links, relevant articles, and personal experiences related to the initiatives. Simply browsing our website and suggesting improvements or reporting bugs is also highly valued.
-2. [**Initiatives JSON File**](https://github.com/4tal/LinksForIsrael/blob/main/_data/links.json): Contribute directly by opening a PR to add or refine links.
+1. [**GitHub Issues**](https://github.com/4tals/LinksForIsrael/issues): Engage with our community by commenting on or verifying links. Your insights can add immense value. Enhance our database by providing additional resources such as more social links, relevant articles, and personal experiences related to the initiatives. Simply browsing our website and suggesting improvements or reporting bugs is also highly valued.
+2. [**Initiatives JSON File**](https://github.com/4tals/LinksForIsrael/blob/main/_data/links.json): Contribute directly by opening a PR to add or refine links.
 3. [**Setup Guide**](https://linksforisrael.com/docs/contribute.html): Set up your environment seamlessly and start contributing.
 
 ### **Code Tasks**
