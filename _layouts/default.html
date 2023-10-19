@@ -140,7 +140,13 @@
   <div class="main-subtitle">כל אתרי הסיוע למלחמה במקום אחד 🇮🇱</div>
 
   <main id="content" class="main-content" role="main">
-    {{ content }}
+    <div class="desktop-grid">
+      <div class="desktop-category">
+        {{ content }}
+      </div>
+      <div class="desktop-content" id="desktop-content"></div>
+    </div>
+   
 
     <style>
       .site-footer {
