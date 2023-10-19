@@ -7,7 +7,7 @@
 :root {
 	--color-background-blue: #f0f8fa;
 	--text-color: #000;
-	--color-blue: #2b6bff;
+	--color-blue: #0038b8;
 	--header-text-color: #170f49;
 	--color-light-blue: #dbeafe;
 	--color-title-blue: #018bad;
@@ -16,6 +16,7 @@
 	--color-link: #34b4c2;
 	--color-dark: #4d4d4d;
 	--link-font-size: 24px;
+	--color-divider: #e2e8f0;
 }
 a {
 	cursor: pointer;
@@ -147,33 +148,19 @@ body {
 
 /* === Links Section === */
 .links-section {
-	align-items: center;
-	border-radius: 30px;
-	border: 2px solid #0038b8;
-	background: var(--color-white);
-	min-height: 100px;
-	margin-block-end: 16px;
-	color: var(--header-text-color);
-	display: flex;
-	flex-direction: column;
+	// for desktop
+	width: max(650px, 30vw);
 
-	// &:hover {
-	// 	.share-btn,
-	// 	.whatsapp-btn,
-	// 	.telegram-btn {
-	// 		display: inline-block;
-	// 	}
-	// }
-
+	
 	h2 {
 		align-items: center;
 		display: flex;
 		margin: 0;
 	}
 
-	&[open] .open-caret {
-		transform: rotate(180deg); /* Flips upward when section is open */
-	}
+	// &[open] .open-caret {
+	// 	transform: rotate(90deg); /* Flips upward when section is open */
+	// }
 
 	.share-container {
 		margin-bottom: 1rem;
@@ -206,6 +193,112 @@ body {
 }
 
 .main-content {
+
+	.desktop-open{
+		background-color: var(--color-divider);
+		.open-caret::before{
+			box-shadow: 0px 0px 0px 7px var(--color-dark);
+			border-radius: 50%;
+			background: var(--color-dark);
+			color: var(--color-white);
+		}
+	}
+	.desktop-grid{
+		display: grid;
+    grid-template-columns: max(650px, 30vw) 1fr;
+		gap: 8px;
+		.open-caret{
+			transform: rotate(90deg);
+		}
+	}
+
+	.desktop-category{
+		height: calc(100vh - 100px);
+		overflow-y: scroll;
+	}
+	
+
+	padding: 0 10px;
+	max-width: 100vw;
+	border-block-start: solid 1px var(--color-divider);
+	.desktop-content{
+		display: block;
+    height: calc(100vh - 100px);
+    overflow-y: auto;
+    position: sticky;
+    top: 0;
+
+
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		p {
+			grid-area: span 1 / span 3;
+		}
+		.share-container{
+			display: block;
+			display: block;
+			font-size: 1.3rem;
+			padding: 10px 0;
+		}
+		.links-section-list{
+			display: grid;
+			grid-template-columns: repeat(3,240px);
+			grid-auto-columns: 240px;
+    	grid-template-rows: 1fr;
+			@media screen and (max-width: 1440px) {
+				grid-template-columns: repeat(2,240px);
+				}	
+		}
+		.links-section-item{
+			max-width: 240px;
+			margin-block-end: 10px; 
+			border: solid 1px var(--color-divider);
+    	border-radius: 0;
+			padding: 5px 8px;
+			color: var(--color-dark);
+			opacity: 0.7;
+			font-size: 0.9rem;
+			
+			a{
+				color: var(--color-blue);
+			}
+			.link-icons{
+				width: 30px;
+				height: auto;
+			}
+		}
+	}
+	
+	details{
+		//drop shadow
+		position: relative;
+		&::after{
+			content: "";
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 1px;
+			height: 100%;
+			background-color: var(--color-divider);
+			filter: blur(1px);
+			pointer-events: none;
+		}
+		summary{
+			width: 90%;
+		}
+		&:not(:last-of-type){
+			summary{
+				border-block-end: solid 1px var(--color-divider);
+			}
+		}
+		
+	}
+	
+	
+
 	.links-section-content {
 		--link-font-size: 16px;
 		overflow: hidden;
@@ -265,13 +358,15 @@ body {
 	}
 }
 
-.open-caret {
-	background: url("{{ site.baseurl }}/assets/caret.png") no-repeat;
-	background-size: contain;
+.open-caret::before {
+	// background: url("{{ site.baseurl }}/assets/caret.png") no-repeat;
 	height: 15px;
 	width: 15px;
 	transition: transform 0.2s ease;
 	transform-origin: center;
+	font-family: "Font Awesome 5 Free"; 
+	font-weight: 900; 
+	content: "\f078";
 }
 
 /* === Header === */
@@ -449,6 +544,24 @@ body {
 
 /* === Responsive Design === */
 @media only screen and (max-width: 600px) {
+	.main-content {
+		max-width: 64em;
+    padding: 2rem 1rem;
+		font-size: 1rem;
+		.desktop-category{
+			 height: auto;
+		}
+		.desktop-content{
+			display: none;
+		}
+		.desktop-grid{
+	
+			display: block;
+			.open-caret {
+					transform: rotate(0deg);
+				}
+		}
+	}
 	.page-header {
 		height: 100px;
 		.main-title {
@@ -481,6 +594,23 @@ body {
 
 	.search-wrapper {
 		margin-top: 130px;
+	}
+
+	.links-section {
+		align-items: center;
+		border-radius: 30px;
+		border: 2px solid #0038b8;
+		background: var(--color-white);
+		min-height: 100px;
+		margin-block-end: 16px;
+		color: var(--header-text-color);
+		display: flex;
+		flex-direction: column;
+		width: 90vw;
+
+		&[open] .open-caret {
+			transform: rotate(180deg); /* Flips upward when section is open */
+		}
 	}
 
 	.links-section-content {

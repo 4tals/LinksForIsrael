@@ -22,6 +22,8 @@ function mobileAndTabletCheck() {
 }
 
 function handleDetailsToggle(event) {
+  const isMobile = window.matchMedia("(max-width: 600px)").matches;
+
   const sections = document.querySelectorAll("details");
   const clickedSection = event.target.closest("details");
 
@@ -29,6 +31,19 @@ function handleDetailsToggle(event) {
     history.pushState({}, "", `${clickedSection.id}`);
   } else {
     history.pushState({}, "", "/");
+  }
+
+  if (!isMobile) {
+    event.preventDefault();
+    const oldOpenSection = document.querySelector("details.desktop-open");
+    if (oldOpenSection) {
+      oldOpenSection.classList.remove("desktop-open");
+    }
+    clickedSection.classList.add("desktop-open");
+    const sectionHtml = clickedSection.querySelector(".links-section-content").innerHTML;
+    const desktopContent = document.querySelector("#desktop-content");
+    desktopContent.innerHTML = sectionHtml;
+    return;
   }
 
   sections.forEach((section) => {
@@ -98,6 +113,10 @@ function initializeShareButtons() {
 }
 
 function openSectionFromHash() {
+  const isMobile = window.matchMedia("(max-width: 600px)").matches;
+  if (!isMobile) {
+    return;
+  }
   if (location.hash) {
     const sectionToOpen = document.querySelector(location.hash);
     if (sectionToOpen && sectionToOpen.tagName === "DETAILS") {
@@ -151,9 +170,23 @@ function addExternalShareListeners(externalService) {
 function scrollToSectionInView() {
   const url = new URL(window.location.href);
   const sectionId = url.hash || url.pathname.replace("/", "#");
-  if (sectionId) {
+  const isMobile = window.matchMedia("(max-width: 600px)").matches;
+
+  if (sectionId.length > 1) {
     const sections = document.querySelectorAll("details");
     const clickedSection = document.querySelector(sectionId);
+
+    if (!isMobile) {
+      const oldOpenSection = document.querySelector("details.desktop-open");
+      if (oldOpenSection) {
+        oldOpenSection.classList.remove("desktop-open");
+      }
+      clickedSection.classList.add("desktop-open");
+      const sectionHtml = clickedSection.querySelector(".links-section-content").innerHTML;
+      const desktopContent = document.querySelector("#desktop-content");
+      desktopContent.innerHTML = sectionHtml;
+      return;
+    }
 
     sections.forEach((section) => {
       if (section !== clickedSection) {
