@@ -1,0 +1,42 @@
+{
+  "name": "Aggregation",
+  "displayName": "מקורות מידע ויוזמות",
+  "links": [
+    {
+      "name": "IronBot",
+      "displayName": "עורף ברזל",
+      "shortDescription": "",
+      "description": "מתנדבים ומגייסי מתנדבים",
+      "url": "https://ironswords.help/",
+      "website": "https://ironswords.help/"
+    },
+    {
+      "name": "LevEhad",
+      "displayName": "לב אחד",
+      "description": "ארגון המקנה חוסן חברתי ומעניק כוח לרשויות המקומיות בשעות חירום.",
+      "url": "https://www.levechad.org/",
+      "website": "https://www.levechad.org/"
+    },
+    {
+      "name": "KhamalAmEhad",
+      "displayName": "חמ״ל עם אחד",
+      "description": "חמ״ל המחבר בין משפחות מארחות למשפחות מהדרום, ומגייס תרומות לסיוע התושבים.",
+      "url": "https://www.am-ehad.org/",
+      "website": "https://www.am-ehad.org/"
+    },
+    {
+      "name": "IsraHelp",
+      "displayName": "IsraHelp",
+      "description": "מרכז קישורים ליוזמות סיוע אזרחי בזמן מבצע 'חרבות ברזל'.",
+      "url": "https://www.coing.co/Israhelp",
+      "website": "https://www.coing.co/Israhelp"
+    },
+    {
+      "name": "financeInfo",
+      "displayName": "ריכוז הודעות פיננסיות",
+      "description": "",
+      "url": "docs/finance.html",
+      "website": "docs/finance.html"
+    }
+  ]
+}
