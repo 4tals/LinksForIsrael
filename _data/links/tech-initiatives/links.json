@@ -1,0 +1,13 @@
+{
+  "name": "TechInitiatives",
+  "displayName": "טכנולוגיה - יוזמות, דאטה, סייבר, התנדבות",
+  "description": "",
+  "image": "https://cdn-icons-png.flaticon.com/512/3887/3887062.png",
+  "subCategories": [
+    "TechInitiatives",
+    "TechInitiativesSupport",
+    "TechInitiativesVolunteers",
+    "CyberMain",
+    "TechMain"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "EvacuationMain",
+  "displayName": "חילוץ בזמן אמת",
+  "links": [
+    {
+      "name": "KvarBaimInitiative",
+      "displayName": "יוזמת כבר באים",
+      "shortDescription": "",
+      "description": "מוקד מתנדבים המחבר לכוחות הצלה וחילוץ במקרי חירום",
+      "url": "https://www.kvarbaim.co.il/",
+      "website": "https://www.kvarbaim.co.il/",
+      "tags": [
+        "חילוץ",
+        "הצילו",
+        "כוחות ביטחון"
+      ]
+    }
+  ]
+}
