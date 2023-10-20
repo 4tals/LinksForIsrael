@@ -31,6 +31,18 @@ body:
     validations:
       required: true
 
+  - type: textarea
+    id: validation
+    attributes:
+      label: Initiative Validation Details
+      description: Provide as much information as possible for us to be able to validate the authenticity of the initiative
+      value: >
+        Source: Are you the developer? If not, how did you hear about it?
+        Link to reputable source(s) promoting the initiative: [e.g. https://www.israelhayom.co.il/tech/tech-news/iron-swords]
+        Contact details for members of the initiative's team (so we can contact them directly for validation): [e.g. info@iron-widgets.com]
+    validations:
+      required: true
+
   - type: dropdown
     id: category
     attributes:
