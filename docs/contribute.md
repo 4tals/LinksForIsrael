@@ -27,7 +27,7 @@ We always appreciate more eyes reviewing our PRs and monitoring our pipelines fo
    - [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
    - [Ruby 3](https://www.ruby-lang.org/en/documentation/installation/)
 
-1. **Clone/fork the repository**: https://github.com/4tals/LinksForIsrae
+1. **Clone/fork the repository**: https://github.com/4tals/LinksForIsrael
    * New to GitHub? Check out https://docs.github.com/en/get-started/quickstart/contributing-to-projects
    * Navigate to the repo's root: `cd LinksForIsrae`
 
@@ -52,7 +52,7 @@ The idea is to get a GitHub API token and place it in the well-known [JEKYLL_GIT
    bundle exec jekyll serve
    ```
 
-1. **Runing the project locally on a mobile device**
+1. **Running the project locally on a mobile device**
    Make sure your phone is connected to the same network as the server and add the `--host` flag to the command above:
    ```
    bundle exec jekyll serve --host=0.0.0.0
