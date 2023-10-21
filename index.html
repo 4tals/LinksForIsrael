@@ -18,7 +18,7 @@ layout: default
             {% for subcategory_name in category.subCategories %}
             {% assign subcategory = site.data.links[category_name][subcategory_name]['links'] %}
                 {% if subcategory_name != "Main" %}
-                    <h3 class="links-section-subcategory">{{ subcategory.displayName }}</h3>
+                    <h4 class="links-section-subcategory">{{ subcategory.displayName }}</h2>
                 {% endif %}
                 {% assign numLinks = subcategory.links | size %}
                 {% if numLinks == 0 %}
@@ -61,7 +61,7 @@ layout: default
                         <a href="{{ link.tiktok }}" target="_blank"><img class="link-icon" src="https://static.vecteezy.com/system/resources/previews/023/986/921/original/tiktok-logo-tiktok-logo-transparent-tiktok-icon-transparent-free-free-png.png" alt="Tiktok Link"></a>
                     {% endif %}
                     {% if link.twitter %}
-                        <a href="{{ link.twitter }}" target="_blank"><img class="link-icon" src="https://cdn-icons-png.flaticon.com/512/124/124021.png" alt="Twitter Link"></a>
+                        <a href="{{ link.twitter }}" target="_blank"><img class="link-icon" src="https://user-images.githubusercontent.com/8138585/255580473-e9e13421-89cf-445b-b2e2-e50e0864789f.svg" alt="Twitter Link"></a>
                     {% endif %}
                     {% if link.portal %}
                         <a href="{{ link.portal }}" target="_blank"><img class="link-icon" src="https://res.cloudinary.com/dargbitr2/image/upload/v1697228919/LinksForIsrael/r5ysb355egkpyd10jovq.jpg" alt="Portal Link"></a>
