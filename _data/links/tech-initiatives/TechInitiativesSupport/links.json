@@ -26,7 +26,21 @@
       "tags": [
         "ייעוץ"
       ]
+    },
+    {
+      "name": "IruchCHAPAQMicrosoft",
+      "displayName": "אירוח חפ״ק ומתנדבים במשרדי מיקרוסופט",
+      "description": "טופס לבקשות. במידה ויאושר נחזור אליכם בפרטי עם אישור ופרטי הגעה.",
+      "url": "https://forms.office.com/r/8a1dDR1Kqf",
+      "forms": "https://forms.office.com/r/8a1dDR1Kqf",
+      "tags": [
+        "אירוח",
+        "חפ״ק",
+        "מתנדבים",
+        "מיקרוסופט",
+        "טופס",
+        "בקשות"
+      ]
     }
-    
   ]
 }
