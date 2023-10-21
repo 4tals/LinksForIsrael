@@ -1,6 +1,9 @@
 source "https://rubygems.org"
 
-gem "github-pages", group: :jekyll_plugins
+
+# Current latest version: https://pages.github.com/versions/
+# See https://github.com/actions/jekyll-build-pages/issues/104
+gem 'github-pages', '= 228', group: :jekyll_plugins
 
 install_if -> { ENV["GITHUB_ACTIONS"] != "true" } do
     puts "Is GitHub action: #{ENV["GITHUB_ACTIONS"] == "true"}"
