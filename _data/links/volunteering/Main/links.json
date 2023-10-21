@@ -1,5 +1,5 @@
 {
-  "name": "VolunteeringMain",
+  "name": "Volunteering",
   "displayName": "",
   "links": [
     {
@@ -9,6 +9,6 @@
       "description": "מחפשים מתנדבים? בוער בכם להתנדב? ברוכים הבאים לעורף ברזל, האתר בו תוכלו למצוא בזמן אמת מקום להתנדב בו או לגייס מתנדבים חדשים אליכם.",
       "url": "https://ironswords.help/",
       "website": "https://ironswords.help/"
-    }
+    },
   ]
 }
