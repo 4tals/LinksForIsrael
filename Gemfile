@@ -1,6 +1,5 @@
 source "https://rubygems.org"
 
-
 # Current latest version: https://pages.github.com/versions/
 # See https://github.com/actions/jekyll-build-pages/issues/104
 gem 'github-pages', '= 228', group: :jekyll_plugins
