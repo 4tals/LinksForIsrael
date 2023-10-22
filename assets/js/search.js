@@ -63,7 +63,7 @@ function displaySearchResults(results, links) {
       const siteUrl = new URL(window.location.href);
       const permalink = `${siteUrl.origin}#${item.name}`;
 
-      appendString += `<div class="searchResultLinks"><a href="${item.url}" target="_blank">קח אותי ליוזמה</a> / <a onclick="searchResultClicked(${item.name})">עוד מידע</a></div></div></li>`;
+      appendString += `<div class="searchResultLinks"><a href="${item.url}" target="_blank">קח אותי ליוזמה</a> / <a onclick="searchResultClicked(${item.categoryId})">עוד מידע</a></div></div></li>`;
     }
 
     searchResults.innerHTML = appendString;
