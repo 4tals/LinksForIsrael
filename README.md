@@ -11,6 +11,6 @@ This repository centralizes links and resources for Israel. Through Git, our mis
 ---
 
 # 🤝 **Get Involved**
-https://linksforisrael.com/docs/contribute.html
+[Contribution guide](/docs/contribute.md)
 
 **Every moment you dedicate, every piece of expertise you share, and every contribution you make, regardless of its size, strengthens our mission. Join us in our endeavor for Israel!**
