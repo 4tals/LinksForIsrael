@@ -7,22 +7,23 @@
       "displayName": "פתרונות טכנולוגיים - צוות חירום",
       "shortDescription": "",
       "url": "https://chat.whatsapp.com/DyIdNxWEONu69Oksm3mRmS",
-      "whatsapp": "https://chat.whatsapp.com/DyIdNxWEONu69Oksm3mRmS"
+      "whatsapp": "https://chat.whatsapp.com/DyIdNxWEONu69Oksm3mRmS",
+      "phone": "0552419583"
     },
     {
       "name": "DevHelpsTechVolunteers",
-      "displayName": "DevHelp - קבוצת מתנדבים",
+      "displayName": "DevHelp - קבוצת המתנדבים של קהילת",
       "shortDescription": "",
       "url": "https://chat.whatsapp.com/GLmj3FDWiCW1RWDRnL79UV",
       "description": "קבוצת הואצאפ של מתנדבי קהילת DevHelps",
       "whatsapp": "https://chat.whatsapp.com/GLmj3FDWiCW1RWDRnL79UV"
     },
     {
-      "name": "YotseiModiinVolunteers",
-      "displayName": "מערך המתנדבים של יוצאי יחידות המודיעין",
-      "shortDescription": "מיתר",
-      "url": "https://wa.me/972543047255",
-      "whatsapp": "https://wa.me/972543047255"
+      "name": "HamalYozmot",
+      "displayName": "מוקד חמ\"ל מערך יוזמות",
+      "shortDescription": "",
+      "url": "https://wa.me/972552419583",
+      "whatsapp": "https://wa.me/972552419583"
     },
     {
       "name": "TechVolunteersForm",
@@ -30,13 +31,6 @@
       "shortDescription": "",
       "url": "https://forms.gle/wVB2zNKRZSUhQb79A",
       "forms": "https://forms.gle/wVB2zNKRZSUhQb79A"
-    },
-    {
-      "name": "InitiativeManagementDiscort",
-      "displayName": "דיסקורד לניהול יוזמות",
-      "shortDescription": "",
-      "url": "https://discord.gg/3Jg6us3b",
-      "discord": "https://discord.gg/3Jg6us3b"
     }
   ]
 }
