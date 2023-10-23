@@ -1,0 +1,58 @@
+{
+  "name": "links-for-israel-nextjs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier --loglevel warn --write \"**/*.{ts,tsx,css,md}\"",
+    "posttest": "npm run format",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.2",
+    "@fortawesome/free-brands-svg-icons": "^6.4.2",
+    "@fortawesome/free-regular-svg-icons": "^6.4.2",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@mdx-js/loader": "^2.3.0",
+    "@mdx-js/react": "^2.3.0",
+    "@next/mdx": "^13.5.6",
+    "@radix-ui/react-portal": "^1.0.4",
+    "@types/mdx": "^2.0.9",
+    "gray-matter": "^4.0.3",
+    "lunr": "^2.3.9",
+    "lunr-languages": "^1.14.0",
+    "mixpanel-browser": "^2.47.0",
+    "next": "13.5.6",
+    "react": "^18",
+    "react-dom": "^18",
+    "rehype-stringify": "^10.0.0",
+    "remark": "^15.0.1",
+    "remark-html": "^16.0.1"
+  },
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.2.1",
+    "@types/lunr": "^2.3.6",
+    "@types/mixpanel-browser": "^2.47.4",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10",
+    "eslint": "^8",
+    "eslint-config-next": "13.5.6",
+    "husky": "^8.0.3",
+    "lint-staged": "^15.0.2",
+    "postcss": "^8",
+    "prettier": "^3.0.3",
+    "sass": "^1.69.4",
+    "tailwindcss": "^3",
+    "typescript": "^5"
+  },
+  "lint-staged": {
+    "*.js": "eslint --cache --fix",
+    "*.{ts,tsx,css,md}": "prettier --write"
+  }
+}

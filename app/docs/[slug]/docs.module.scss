@@ -1,0 +1,27 @@
+.docs {
+	@apply text-lg;
+
+	h1 {
+		@apply text-4xl mb-10;
+	}
+
+	h2 {
+		@apply text-2xl mb-5;
+	}
+
+	h3 {
+		@apply text-xl mb-5;
+	}
+
+	ul {
+		@apply list-disc list-inside ms-4 space-y-2 mb-4;
+	}
+
+	a {
+		color: #1e6bb8;
+
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}
