@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "format": "prettier --loglevel warn --write \"**/*.{ts,tsx,css,md}\"",
-    "posttest": "npm run format"
+    "posttest": "npm run format",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.4.2",
@@ -33,10 +34,16 @@
     "autoprefixer": "^10",
     "eslint": "^8",
     "eslint-config-next": "13.5.6",
+    "husky": "^8.0.3",
+    "lint-staged": "^15.0.2",
     "postcss": "^8",
     "prettier": "^3.0.3",
     "sass": "^1.69.4",
     "tailwindcss": "^3",
     "typescript": "^5"
+  },
+  "lint-staged": {
+    "*.js": "eslint --cache --fix",
+    "*.{ts,tsx,css,md}": "prettier --write"
   }
 }
