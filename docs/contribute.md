@@ -8,8 +8,19 @@ https://github.com/4tals/LinksForIsrael/issues
    * Browse our website and report bugs, suggest features, and request to add missing initiatives.
    * Review open issues, if you find one you would like to work on, talk to us on the chat!
 
+## Find new initiatives to add
+* Scan existing aggregation sites:
+   * https://www.coing.co/Israhelp
+   * https://www.bnf.co.il/stay-together/
+   * More: https://www.linksforisrael.com/#InitiativesAggregation
+* Follow and search the news, social media, and chat groups
+   * WhatsApp / Telegram
+   * Facebook / Instagram / X (Twitter)
+   * Ynet / Channel 11, 12, 13, 14
+   * etc.
+
 ## Review existing initiatives
- For every existing initiative:
+For every existing initiative:
  * Are the links still valid?
  * Are there more links we can add (e.g. facebook, WhatsApp, docs)?
  * Is the name misspelled?

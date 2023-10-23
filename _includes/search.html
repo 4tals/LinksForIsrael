@@ -18,6 +18,7 @@
             {% for link in subCategory.links %}
                 {
                   "name": "{{ link.name | xml_escape  }}",
+                  "categoryId": "{{ category.name | xml_escape  }}",
                   "displayName": "{{ link.displayName | xml_escape  }}",
                   "shortDescription": {{ link.shortDescription | strip_html | strip_newlines | jsonify }},
                   "description": {{ link.description | strip_html | strip_newlines | jsonify }},

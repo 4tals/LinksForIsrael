@@ -27,6 +27,17 @@
       "website": "https://protected-shelter.vercel.app"
     },
     {
+      "name": "MitaBetooha",
+      "displayName": "מיטה בטוחה - Safe Bed",
+      "shortDescription": "אתר התנדבותי לסיוע באירוח תושבים מאיזורי עימות",
+      "description": "האתר 'מיטה בטוחה' הוא אתר התנדבותי שנועד לעזור לתושבים שהתפנו מאיזורי העימותים למצוא מקום להתארח ללא עלות. האתר מאפשר למארחים ליצור מקומות אירוח ולמתפנים למצוא אותם. האתר פועל בהתנדבות מלאה ומנוהל על ידי צוות מתנדבים, ומשתמש בטכנולוגיה מתקדמת לקישור בין מארחים לפליטים.",
+      "url": "https://safe-bed.info",
+      "email": "contact@ryware.dev",
+      "tags": [
+        "אירוח"
+      ]
+    },
+    {
       "name": "PeopleFromSouthHosting",
       "displayName": "אירוח משפחות מהדרום",
       "shortDescription": "",

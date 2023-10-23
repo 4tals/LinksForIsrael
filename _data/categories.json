@@ -1,16 +1,17 @@
 [
   "defense",
-  "InitiativesAggregation" ,
-  "volunteering" ,
-  "tech-initiatives" ,
-  "EquipmentNFood" ,
+  "InitiativesAggregation",
+  "volunteering",
+  "tech-initiatives",
+  "EquipmentNFood",
   "FamilyHosting",
-  "SocialNetworks" ,
+  "SocialNetworks",
   "hasbara",
   "donations",
   "MentalSupport",
   "Reserves",
   "children",
   "Needarim",
-  "medical"
+  "medical",
+  "Yizkor"
 ]

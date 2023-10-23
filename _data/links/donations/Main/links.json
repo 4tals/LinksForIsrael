@@ -10,9 +10,10 @@
       "website": "https://naboo.ai/safedonate"
     },
     {
-      "name": "StandWithIsraelDonation",
-      "displayName": "Stand with Israel",
+      "name": "GiveIsrael",
+      "displayName": "Give Israel",
       "shortDescription": "ריכוז תרומות מאומתות בחלוקה לרפואי, צוותית בחזית, יחידות ועוד",
+      "description": "מיועד לתורמים מחו״ל",
       "url": "https://giveisrael.org/",
       "website": "https://giveisrael.org/"
     },

@@ -58,18 +58,18 @@ body:
         - hasbara
         - InitiativesAggregation/Aggregation
         - InitiativesAggregation/AssistanceMain
-        - medical
+        - Medical
         - MentalSupport
         - Needarim/Main
         - Needarim/ReservesReturn
         - Reserves
         - SocialNetworks
-        - tech-initiatives/CyberMain
         - tech-initiatives/TechInitiatives
         - tech-initiatives/TechInitiativesSupport
         - tech-initiatives/TechInitiativesVolunteers
         - tech-initiatives/TechMain
         - volunteering
+        - Yizkor
       default: 0
     validations:
       required: true
