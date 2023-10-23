@@ -35,22 +35,20 @@ export interface Link {
 }
 
 export async function getCategories() {
-	const data = await Promise.all(categories.map(getCategory));
-	return data;
+	return await Promise.all(categories.map(getCategory));
 }
 
 export type Category = Awaited<ReturnType<typeof getCategory>>;
 
 export async function getCategory(category: string) {
-	const categoryData = (await import(
-		`@/_data/links/${category}/links.json`
-	)) as CategoryData;
+	const categoryData = (await import(`@/_data/links/${category}/links.json`))
+		.default as CategoryData;
 
 	const subCategories = await Promise.all(
 		categoryData.subCategories.map(async (subCategory) => {
-			return (await import(
-				`@/_data/links/${category}/${subCategory}/links.json`
-			)) as SubCategoryData;
+			return (
+				await import(`@/_data/links/${category}/${subCategory}/links.json`)
+			).default as SubCategoryData;
 		}),
 	);
 

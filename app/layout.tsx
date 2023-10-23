@@ -53,7 +53,7 @@ export default async function RootLayout({
 			<head></head>
 			<body dir="rtl">
 				{/* {{ page.direction }} */}
-				<Header categories={JSON.parse(JSON.stringify(categories))} />
+				<Header categories={categories} />
 
 				<div className="main-subtitle" id="first-subtitle">
 					הולכים לאיבוד בין כל היוזמות השונות שהוקמו?
