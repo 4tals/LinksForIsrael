@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "format": "prettier --loglevel warn --write \"**/*.{ts,tsx,css,md}\"",
+    "posttest": "npm run format"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.4.2",
@@ -32,6 +34,7 @@
     "eslint": "^8",
     "eslint-config-next": "13.5.6",
     "postcss": "^8",
+    "prettier": "^3.0.3",
     "sass": "^1.69.4",
     "tailwindcss": "^3",
     "typescript": "^5"
