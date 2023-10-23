@@ -3,6 +3,20 @@
   "displayName": "",
   "links": [
     {
+      "name": "ChildrenPulicity",
+      "displayName": "התנדבות ילדים להסברה",
+      "shortDescription": "ילדים מסבירים את עמדת ישראל במלחמה",
+      "description": "אתר בו ילדים מסבירים באמצעות אודיו וציורים את עמדת ישראל לקהל הבינלאומי.",
+      "url": "https://helek.israelsite.co.il/war/",
+      "website": "https://helek.israelsite.co.il/war/",
+      "tags": [
+        "הסברה",
+        "ילדים",
+        "ציורים",
+        "מלחמה"
+      ]
+    },
+    {
       "name": "HelpWithIsraeliDiplomacy",
       "displayName": "Help with Israeli Diplomacy across the Web",
       "shortDescription": "",

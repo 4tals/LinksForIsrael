@@ -60,6 +60,22 @@
       "description": "האפליקציה ״אירוח מהלב״ נועדה לחבר בין אנשים שרוצים להתארח לבין אנשים שרוצים לארח ולמצוא להם מקום אירוח בטוח ברחבי הארץ בזמן המלחמה, על מנת שיוכלו להעביר את התקופה הקרובה בביטחה כמה שיותר. האפליקציה קלה מאוד לתפעול ומרכזת את כל המקומות במקום אחד",
       "url": "https://www.letitsorti.com/hostingfromtheheartapp",
       "website": "https://www.letitsorti.com/hostingfromtheheartapp"
+    },
+    {
+      "name": "BrothersHostingBrothers",
+      "displayName": "אחים מארחים אחים",
+      "description": "מיזם המתאים בין אורחים למארחים בתגובה למלחמה. בתוך 72 שעות הקמנו אתר לתאום ואירוח בין אנשים, בשותפות עם עמותת תכלית.",
+      "url": "https://apartments-brokerage.onrender.com/",
+      "website": "https://apartments-brokerage.onrender.com/",
+      "contactEmail": "apartmentbrokerage22@gmail.com",
+      "tags": [
+        "אירוח",
+        "אחים",
+        "דירה",
+        "מלחמה",
+        "תרומה",
+        "קהילה"
+      ]
     }
   ]
 }
