@@ -2,12 +2,14 @@ import type { Metadata } from "next";
 import { Rubik } from "next/font/google";
 import "./main.scss";
 import "./globals.css";
-import "./left-fromjekyll.css";
-import { config } from "@fortawesome/fontawesome-svg-core";
+import { config as fontawesomeConfig } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { Header } from "./components/Header";
 import { getCategories } from "./utils/categories";
-config.autoAddCss = false;
+import "./mixpanel";
+import { AddSite } from "./components/AddSite";
+
+fontawesomeConfig.autoAddCss = false;
 
 const rubik = Rubik({
 	display: "swap",
@@ -16,7 +18,6 @@ const rubik = Rubik({
 	variable: "--font-display",
 });
 
-import "./mixpanel";
 export const metadata: Metadata = {
 	title: "לינק לישראל – פורטל יוזמות - חרבות הברזל!",
 	description:
@@ -119,46 +120,7 @@ export default async function RootLayout({
 					</footer>
 				</main>
 
-				<footer className="add-site-footer">
-					<a
-						className="add-site-button"
-						href="#"
-						// onclick="toggleForm(); return false;"
-					>
-						הוסיפו יוזמה +
-					</a>
-					<div className="add-site-form">
-						<div
-							className="form-container-backdrop"
-							// onclick="toggleForm(); return false"
-						></div>
-						<div className="form-container">
-							<iframe
-								src="https://docs.google.com/forms/d/e/1FAIpQLSeZsW9WkleVF7-9Wtx6JKWTw9cInqJEpMocR54tZkwjAXPxRg/viewform?embedded=true"
-								width="300"
-								height="520"
-								frameBorder={0}
-								marginHeight={0}
-								marginWidth={0}
-							>
-								Loading…
-							</iframe>
-							<a
-								className="close-form-button"
-								href="#"
-								// onclick="toggleForm(); return false;"
-							>
-								סגור את הטופס
-							</a>
-							<div
-								className="close-form-x-button"
-								// onclick="toggleForm(); return false;"
-							>
-								✕
-							</div>
-						</div>
-					</div>
-				</footer>
+				<AddSite />
 			</body>
 		</html>
 	);
