@@ -32,11 +32,21 @@
       "website": "https://www.coing.co/Israhelp"
     },
     {
-      "name": "financeInfo",
-      "displayName": "ריכוז הודעות פיננסיות",
-      "description": "",
-      "url": "docs/finance.html",
-      "website": "docs/finance.html"
+      "name": "WinningTogether",
+      "displayName": "מנצחים ביחד - BNF",
+      "shortDescription": "ריכוז יוזמות",
+      "description": "אנחנו קהילת BNF הקמנו עמוד המרכז את כל ארגוני הסיוע והתנדבות במקום אחד",
+      "url": "https://www.bnf.co.il/stay-together/",
+      "website": "https://www.bnf.co.il/stay-together/",
+      "tags": [
+        "התארגנות",
+        "סיוע",
+        "ריכוז",
+        "התנדבות",
+        "אגרגציה",
+        "BNF",
+        "מיזום"
+      ]
     }
   ]
 }
