@@ -28,7 +28,12 @@ export function CategoriesList({
 							id={category.name}
 							key={category.name}
 						>
-							<Link href={`/${category.id}`} key={category.name} replace>
+							<Link
+								href={`/${category.id}`}
+								key={category.name}
+								replace
+								className="w-full"
+							>
 								<div className="links-section-title">
 									{category.image && (
 										<img

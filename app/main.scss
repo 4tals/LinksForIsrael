@@ -239,7 +239,7 @@ body {
 		}
 	}
 
-	details {
+	.links-section {
 		/* //drop shadow */
 		position: relative;
 		&::after {
@@ -253,11 +253,11 @@ body {
 			filter: blur(1px);
 			pointer-events: none;
 		}
-		summary {
+		.links-section-title {
 			width: 90%;
 		}
 		&:not(:last-of-type) {
-			summary {
+			.links-section-title {
 				border-block-end: solid 1px var(--color-divider);
 			}
 		}
@@ -328,12 +328,13 @@ body {
 	padding: 20px 17px;
 	background-color: var(--color-blue);
 	background-image: none;
-	height: 119px;
+	height: 85px;
 	position: sticky;
-	z-index: 999; // https://stackoverflow.com/q/20851452 to solve caret transform issues
+	z-index: 999;
 	width: 100%;
 	top: 0;
 	color: var(--color-white);
+
 	.main-title {
 		width: 100%;
 		color: var(--color-white);
@@ -436,8 +437,8 @@ body {
 }
 
 .category-icon {
-	width: 70px;
-	height: 70px;
+	width: 25px;
+	height: 25px;
 }
 
 .mobile-search-button {

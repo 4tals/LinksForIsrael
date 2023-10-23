@@ -55,9 +55,6 @@ export default async function RootLayout({
 				{/* {{ page.direction }} */}
 				<Header categories={categories} />
 
-				<div className="main-subtitle" id="first-subtitle">
-					הולכים לאיבוד בין כל היוזמות השונות שהוקמו?
-				</div>
 				<div className="main-subtitle">כל אתרי הסיוע למלחמה במקום אחד 🇮🇱</div>
 
 				<main id="content" className="main-content" role="main">
