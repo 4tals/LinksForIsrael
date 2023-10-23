@@ -6,7 +6,7 @@ import "./left-fromjekyll.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { Header } from "./components/Header";
-import { getCategories } from "./[[...category]]/get-data";
+import { getCategories } from "./utils/categories";
 config.autoAddCss = false;
 
 const rubik = Rubik({

@@ -2,7 +2,7 @@
 import { Root as PortalRoot } from "@radix-ui/react-portal";
 import { useState } from "react";
 import styles from "./SearchForm.module.css";
-import { Category } from "@/app/[[...category]]/get-data";
+import { Category } from "@/app/utils/categories";
 
 import { useSearch } from "./useSearch";
 import { SearchResults } from "./SearchResults";

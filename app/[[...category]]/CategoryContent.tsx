@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import { Link, SubCategoryData } from "./get-data";
+import { Link, SubCategoryData } from "../utils/categories";
 import { ShareButtons } from "./ShareButtons";
 
 export function CategoryContent({

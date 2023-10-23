@@ -1,4 +1,4 @@
-import { getCategories } from "./get-data";
+import { getCategories } from "../utils/categories";
 import { CategoryContent } from "./CategoryContent";
 import NextLink from "next/link";
 import { Device } from "./Device";

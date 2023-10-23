@@ -1,4 +1,4 @@
-import { Category } from "@/app/[[...category]]/get-data";
+import { Category } from "@/app/utils/categories";
 import { SearchButtonMobile } from "./SearchButtonMobile";
 import { SearchFormWeb } from "./SearchFormWeb";
 

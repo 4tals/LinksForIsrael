@@ -2,7 +2,7 @@
 
 import { Root as PortalRoot } from "@radix-ui/react-portal";
 import { SearchResults } from "./SearchResults";
-import { Category } from "@/app/[[...category]]/get-data";
+import { Category } from "@/app/utils/categories";
 import { useSearch } from "./useSearch";
 
 export function SearchFormWeb({ categories }: { categories: Category[] }) {

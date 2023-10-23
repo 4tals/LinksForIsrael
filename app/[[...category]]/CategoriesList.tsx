@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Category } from "./get-data";
+import { Category } from "../utils/categories";
 import { Device } from "./Device";
 import { CategoryContent } from "./CategoryContent";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

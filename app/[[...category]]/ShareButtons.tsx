@@ -1,6 +1,6 @@
 "use client";
 
-import { CopyButton } from "./CopyButton";
+import { CopyButton } from "../components/CopyButton/CopyButton";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLink, faShareAlt } from "@fortawesome/free-solid-svg-icons";
 import {
