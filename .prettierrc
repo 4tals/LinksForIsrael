@@ -8,7 +8,8 @@
         "useTabs": false,
         "trailingComma": "none",
         "arrowParens": "avoid",
-        "proseWrap": "never"
+        "proseWrap": "preserve",
+        "singleQuote": true
       }
     },
     {
