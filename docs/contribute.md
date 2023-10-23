@@ -49,7 +49,7 @@ We always appreciate more eyes reviewing our PRs and monitoring our pipelines fo
 2. **Clone/fork the repository**: https://github.com/4tals/LinksForIsrael
 
    - New to GitHub? Check out https://docs.github.com/en/get-started/quickstart/contributing-to-projects
-   - Navigate to the repo's root: `cd LinksForIsrae`
+   - Navigate to the repo's root: `cd LinksForIsrael`
 
 3. **Install Dependencies**
 
