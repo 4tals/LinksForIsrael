@@ -44,36 +44,19 @@ We always appreciate more eyes reviewing our PRs and monitoring our pipelines fo
 1. **Prerequisites**
 
    - [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
-   - [Ruby 3](https://www.ruby-lang.org/en/documentation/installation/)
+   - [Node.js](https://nodejs.org/en/download/)
 
-1. **Clone/fork the repository**: https://github.com/4tals/LinksForIsrael
+2. **Clone/fork the repository**: https://github.com/4tals/LinksForIsrael
 
    - New to GitHub? Check out https://docs.github.com/en/get-started/quickstart/contributing-to-projects
    - Navigate to the repo's root: `cd LinksForIsrae`
 
-1. **Install Dependencies**
+3. **Install Dependencies**
 
-   - Install bundler: `gem install bundler`
-   - Install project dependencies: `bundle install`
+   - Install project dependencies: `npm install`
 
-1. **(OPTIONAL) Setup GitHub API token**
-
-   The following step will get rid of a warning during local development (`"No GitHub API authentication"`). The idea is to get a GitHub API token and place it in the well-known [JEKYLL_GITHUB_TOKEN](https://jekyll.github.io/github-metadata/authentication/#1-jekyll_github_token) environment variable.
-
-   - Generate token: https://github.com/settings/tokens (check every `read` permission)
-   - Save the token in some secure location (e.g. [BitWarden](https://bitwarden.com/))
-   - export `JEKYLL_GITHUB_TOKEN=<GitHub API token produced above>`
-
-   This is not mandatory, but could potentially prevent issues of fidelity between local development and production deployment (to GitHub pages). For more information see: https://github.com/github/pages-gem/issues/399.
-
-1. **Run Locally**
+4. **Run Locally**
 
    ```bash
-   bundle exec jekyll serve
+   npm run dev
    ```
-
-1. **Running the project locally on a mobile device** Make sure your phone is connected to the same network as the server and add the `--host` flag to the command above:
-   ```
-   bundle exec jekyll serve --host=0.0.0.0
-   ```
-   On your mobile device, open your server's local IP (you can get it using tools like `ipconfig getifaddr en0`)
