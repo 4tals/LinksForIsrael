@@ -6,8 +6,8 @@
       "name": "PortalTech",
       "displayName": "פורטל טכנולוגיה ויוזמות",
       "shortDescription": "",
-      "url": "/docs/tech.html",
-      "portal": "/docs/tech.html"
+      "url": "./docs/tech",
+      "portal": "./docs/tech"
     }
   ]
 }

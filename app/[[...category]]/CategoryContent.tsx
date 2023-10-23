@@ -51,7 +51,7 @@ function LinkItem({ link }: { link: Link }) {
 		<li className="links-section-item" key={link.name}>
 			<a
 				href={link.url}
-				target="_blank"
+				target={link.url.startsWith(".") ? "" : "_blank"}
 				rel="noopener noreferrer"
 				id={link.name}
 				className="links-section-item-title"

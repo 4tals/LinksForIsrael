@@ -9,12 +9,7 @@
       "description": "אתר בו ילדים מסבירים באמצעות אודיו וציורים את עמדת ישראל לקהל הבינלאומי.",
       "url": "https://helek.israelsite.co.il/war/",
       "website": "https://helek.israelsite.co.il/war/",
-      "tags": [
-        "הסברה",
-        "ילדים",
-        "ציורים",
-        "מלחמה"
-      ]
+      "tags": ["הסברה", "ילדים", "ציורים", "מלחמה"]
     },
     {
       "name": "HelpWithIsraeliDiplomacy",
@@ -23,11 +18,7 @@
       "description": "אתר לחומרי הסברה בין לאומיים",
       "url": "https://nirtz89.github.io/israel_diplomacy/",
       "website": "https://nirtz89.github.io/israel_diplomacy/",
-      "tags": [
-        "סושיאל",
-        "דיפלומטיה",
-        "הסברה"
-      ]
+      "tags": ["סושיאל", "דיפלומטיה", "הסברה"]
     },
     {
       "name": "HamalMeida",
@@ -40,14 +31,7 @@
       "twitter": "https://chat.whatsapp.com/Ez1hDNEt0OZF5a9sGgYueO",
       "instagram": "https://chat.whatsapp.com/BjnPe6nwabqFY8jLxbBtoz",
       "facebook": "https://chat.whatsapp.com/DIlLKYyHJWk02AAP85dpSn",
-      "tags": [
-        "סושיאל",
-        "אינסטגרם",
-        "פייסבוק",
-        "טוויטר",
-        "טיקטוק",
-        "הסברה"
-      ]
+      "tags": ["סושיאל", "אינסטגרם", "פייסבוק", "טוויטר", "טיקטוק", "הסברה"]
     },
     {
       "name": "ExplainIsrael",
@@ -61,14 +45,7 @@
       "instagram": "https://www.instagram.com/explain.israel/",
       "whatsapp": "https://chat.whatsapp.com/GXyA8C75dOm6Y2revbzPje/",
       "tiktok": "https://www.tiktok.com/@explain.israel",
-      "tags": [
-        "סושיאל",
-        "אינסטגרם",
-        "פייסבוק",
-        "טוויטר",
-        "טיקטוק",
-        "הסברה"
-      ]
+      "tags": ["סושיאל", "אינסטגרם", "פייסבוק", "טוויטר", "טיקטוק", "הסברה"]
     },
     {
       "name": "ShareItIl",
@@ -85,24 +62,16 @@
       "description": "מערכת Iron Likes מאפשרת למשתמשים לעשות מאות ואלפי לייקים ללא מאמץ לפוסטים פרו-ישראלים, באמצעות אתר ותוסף לדפדפן. הציוצים והפוסטים המקודמים נבחרים בקפידה על ידי צוות מצומצם ואיכותי של מתנדבים. לייק הינה הדרך היעילה ביותר לקדם פוסטים, ולכן הכלי יכול להיות בעל השפעה משמעותית על התפוצה של חומרים פרו-ישראליים ברשת.",
       "url": "https://ironlikes.com/",
       "website": "https://ironlikes.com/",
-      "tags": [
-        "סושיאל",
-        "פייסבוק",
-        "טוויטר",
-        "הסברה"
-      ]
+      "tags": ["סושיאל", "פייסבוק", "טוויטר", "הסברה"]
     },
     {
       "name": "HasbaraRules",
       "displayName": "כללים להסברה באינטרנט",
       "shortDescription": "",
       "description": "ניב חורש - מנכל משותף: במשרד הפרסום ראובני פרידן שבוע קשה מנשוא עבר מאז החלה המלחמה הנוראית, ובעקבותיה מלחמת ההסברה של ישראל בעולם. גיבשתי 10 כללים וחשובים להסברה בחו״ל, בדגש על הרשתות החברתיות. אשמח שתקראו ותפיצו.",
-      "url": "/docs/hasbara.html",
-      "website": "/docs/hasbara.html",
-      "tags": [
-        "סושיאל",
-        "הסברה"
-      ]
+      "url": "./docs/hasbara",
+      "website": "./docs/hasbara",
+      "tags": ["סושיאל", "הסברה"]
     },
     {
       "name": "HasbaraTeam",
@@ -130,12 +99,7 @@
       "whatsapp": "https://chat.whatsapp.com/EQopAWUyRrt8IIg5M7ZvbV",
       "url": "https://chat.whatsapp.com/EQopAWUyRrt8IIg5M7ZvbV",
       "doc": "https://docs.google.com/spreadsheets/d/1z9-2aXt_CmmAOyXEhtoGO-G0HEM-2fx8MGIn3AzLRNk/edit?usp=sharing",
-      "tags": [
-        "הסברה",
-        "לינקדאין",
-        "משפיענים",
-        "חשיפה"
-      ]
+      "tags": ["הסברה", "לינקדאין", "משפיענים", "חשיפה"]
     },
     {
       "name": "BlueWhitePublicity",
@@ -143,14 +107,7 @@
       "description": "אגרגטור של יוזמות פרסומת. קהילת הסברה כחול לבן, שיתוף פוסטים, מחיקת פוסטים אנטישמיים ועוד.",
       "url": "https://chat.whatsapp.com/HYMhYDs0axhITaeR69A8TE",
       "whatsapp": "https://chat.whatsapp.com/HYMhYDs0axhITaeR69A8TE",
-      "tags": [
-        "סושיאל",
-        "אינסטגרם",
-        "פייסבוק",
-        "טוויטר",
-        "טיקטוק",
-        "הסברה"
-      ]
+      "tags": ["סושיאל", "אינסטגרם", "פייסבוק", "טוויטר", "טיקטוק", "הסברה"]
     }
   ]
 }

@@ -34,12 +34,7 @@ function HelpUsButton() {
 
 function Banner() {
 	return (
-		<a
-			href="https://www.linksforisrael.com/"
-			target="_blank"
-			rel="noopener noreferrer"
-			id="homepageLink"
-		>
+		<a href="/" id="homepageLink">
 			<h1>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
