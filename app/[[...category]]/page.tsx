@@ -1,7 +1,5 @@
 import { getCategories } from "../utils/categories";
 import { CategoryContent } from "./CategoryContent";
-import NextLink from "next/link";
-import { Device } from "./Device";
 import { CategoriesList } from "./CategoriesList";
 
 type CategoryParam =

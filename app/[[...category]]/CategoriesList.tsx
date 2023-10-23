@@ -1,10 +1,8 @@
 import Link from "next/link";
 import { Category } from "../utils/categories";
-import { Device } from "./Device";
 import { CategoryContent } from "./CategoryContent";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCaretSquareDown } from "@fortawesome/free-regular-svg-icons";
-import { faAngleDown, faAngleLeft } from "@fortawesome/free-solid-svg-icons";
+import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 
 export function CategoriesList({
 	categories,
