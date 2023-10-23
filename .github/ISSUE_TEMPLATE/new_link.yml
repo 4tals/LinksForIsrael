@@ -58,6 +58,7 @@ body:
         - hasbara
         - InitiativesAggregation/Aggregation
         - InitiativesAggregation/AssistanceMain
+        - Transportation
         - Medical
         - MentalSupport
         - Needarim/Main

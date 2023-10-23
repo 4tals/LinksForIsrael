@@ -20,12 +20,22 @@
       "website": "https://wolt.com/he/isr/tel-aviv/venue/support-the-south"
     },
     {
-      "name": "HamalFoodLogistics",
-      "displayName": "חמ״ל שינוע מזון לחיילים",
-      "shortDescription": "",
-      "description": "קבוצת וואטסאפ לתיאום ושינוע של מזון ללוחמים",
-      "url": "https://chat.whatsapp.com/KPZ7JqQyBLG3OSvtGlUAdx",
-      "whatsapp": "https://chat.whatsapp.com/KPZ7JqQyBLG3OSvtGlUAdx"
+      "name": "IsraelGivesEmergencyAid",
+      "displayName": "Israel Emergency Aid",
+      "shortDescription": "Support last mile efforts to deliver life saving equipment to Israeli soldiers and civilians on the front line.",
+      "description": "Israel Emergency Aid is a rapid response project formed at the onset of the current war with Hamas, dedicated to providing immediate assistance to soldiers and civilians affected by the war. The mission is to collect funds to swiftly fulfill specific requests from soldiers on the front lines with Gaza and civilians in need of immediate aid. This project operates under the auspices of [IsraelGives](https://israelgivesfund.org/), organized by a group of experienced executives, tech leaders, and law firm partners.",
+      "url": "https://www.israelemergencyaid.com/",
+      "website": "https://www.israelemergencyaid.com/",
+      "validationUrl": "https://creatorsforisrael.com/",
+      "category": "children",
+      "form": "https://docs.google.com/forms/d/e/1FAIpQLSeB2Ws2_21qvwhfb1aFDhTB0DQSsuyFL4jRIBoSYFHQV7P7xQ/viewform",
+      "tags": [
+        "סיוע חירום",
+        "תרומה",
+        "ציוד",
+        "אזרחים",
+        "קרב"
+      ]
     }
   ]
 }
