@@ -1,13 +1,15 @@
 import type { Metadata } from "next";
 import { Rubik } from "next/font/google";
-import "./main.scss";
-import "./globals.css";
+
 import { config as fontawesomeConfig } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css";
-import { Header } from "./components/Header";
-import { getCategories } from "./utils/categories";
-import "./mixpanel";
+
 import { AddSite } from "./components/AddSite";
+import { Header } from "./components/Header";
+import "./globals.css";
+import "./main.scss";
+import "./mixpanel";
+import { getCategories } from "./utils/categories";
 
 fontawesomeConfig.autoAddCss = false;
 

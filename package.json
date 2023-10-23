@@ -26,6 +26,7 @@
     "react-dom": "^18"
   },
   "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.2.1",
     "@types/lunr": "^2.3.6",
     "@types/mixpanel-browser": "^2.47.4",
     "@types/node": "^20",

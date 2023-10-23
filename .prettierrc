@@ -1,5 +1,8 @@
 {
   "useTabs": true,
+  "plugins": ["@trivago/prettier-plugin-sort-imports"],
+  "importOrder": ["^@(.*)$", "^[./]"],
+  "importOrderSeparation": true,
   "overrides": [
     {
       "files": "*.md",

@@ -1,6 +1,6 @@
 import { getCategories } from "../utils/categories";
-import { CategoryContent } from "./CategoryContent";
 import { CategoriesList } from "./CategoriesList";
+import { CategoryContent } from "./CategoryContent";
 
 type CategoryParam =
 	| []

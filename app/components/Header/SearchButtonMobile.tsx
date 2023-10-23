@@ -1,11 +1,13 @@
 "use client";
-import { Root as PortalRoot } from "@radix-ui/react-portal";
-import { useState } from "react";
-import styles from "./SearchForm.module.css";
-import { Category } from "@/app/utils/categories";
 
-import { useSearch } from "./useSearch";
+import { useState } from "react";
+
+import { Category } from "@/app/utils/categories";
+import { Root as PortalRoot } from "@radix-ui/react-portal";
+
+import styles from "./SearchForm.module.css";
 import { SearchResults } from "./SearchResults";
+import { useSearch } from "./useSearch";
 
 export function SearchButtonMobile({ categories }: { categories: Category[] }) {
 	const [isSearchOpen, setIsSearchOpen] = useState(false);

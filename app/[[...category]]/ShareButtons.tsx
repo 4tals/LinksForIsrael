@@ -1,13 +1,15 @@
 "use client";
 
-import { CopyButton } from "../components/CopyButton/CopyButton";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLink, faShareAlt } from "@fortawesome/free-solid-svg-icons";
+import { useEffect, useState } from "react";
+
 import {
 	faTelegramPlane,
 	faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
-import { useEffect, useState } from "react";
+import { faLink, faShareAlt } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+import { CopyButton } from "../components/CopyButton/CopyButton";
 
 export function ShareButtons({ category }: { category: string }) {
 	const isMobile = useIsMobile();

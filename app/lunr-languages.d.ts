@@ -1,3 +1,5 @@
+import { Builder } from "lunr";
+
 declare module "lunr-languages/lunr.*" {
 	import lunr from "lunr";
 
@@ -7,8 +9,6 @@ declare module "lunr-languages/lunr.*" {
 }
 
 declare module "lunr-languages/lunr.stemmer.support";
-
-import { Builder } from "lunr";
 
 declare module "lunr" {
 	function multiLanguage(...lang: string[]): Builder.Plugin;

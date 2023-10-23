@@ -1,3 +1,5 @@
+import categories from "@/_data/categories.json";
+
 export interface CategoryData {
 	name: string;
 	displayName: string;
@@ -31,8 +33,6 @@ export interface Link {
 	portal: string;
 	tags?: string[];
 }
-
-import categories from "@/_data/categories.json";
 
 export async function getCategories() {
 	const data = await Promise.all(categories.map(getCategory));

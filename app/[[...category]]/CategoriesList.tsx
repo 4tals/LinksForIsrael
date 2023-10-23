@@ -1,8 +1,10 @@
 import Link from "next/link";
+
+import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 import { Category } from "../utils/categories";
 import { CategoryContent } from "./CategoryContent";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 
 export function CategoriesList({
 	categories,

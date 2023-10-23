@@ -1,10 +1,13 @@
 "use client";
 
 import { ComponentProps, PropsWithChildren, useRef } from "react";
+
+import { faCheck } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 import styles from "./CopyButton.module.css";
 import { useCopy } from "./useCopy";
-import { faCheck } from "@fortawesome/free-solid-svg-icons";
+
 export interface Props {
 	copyText: string;
 	fadeDelay?: number;

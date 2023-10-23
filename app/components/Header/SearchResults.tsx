@@ -1,4 +1,5 @@
 import Link from "next/link";
+
 import { Result } from "./useSearch";
 
 export function SearchResults({

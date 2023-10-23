@@ -1,8 +1,9 @@
 "use client";
 
-import { Root as PortalRoot } from "@radix-ui/react-portal";
-import { SearchResults } from "./SearchResults";
 import { Category } from "@/app/utils/categories";
+import { Root as PortalRoot } from "@radix-ui/react-portal";
+
+import { SearchResults } from "./SearchResults";
 import { useSearch } from "./useSearch";
 
 export function SearchFormWeb({ categories }: { categories: Category[] }) {

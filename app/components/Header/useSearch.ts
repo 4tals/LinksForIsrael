@@ -1,14 +1,14 @@
-import { Category, Link } from "@/app/utils/categories";
-
-import { useMemo, useState } from "react";
 import lunr from "lunr";
-// @ts-ignore
-import withStemmerSupport from "lunr-languages/lunr.stemmer.support";
 // @ts-ignore
 import withHebrewSupport from "lunr-languages/lunr.he";
 // @ts-ignore
 import withMulti from "lunr-languages/lunr.multi";
+// @ts-ignore
+import withStemmerSupport from "lunr-languages/lunr.stemmer.support";
 import mixpanel from "mixpanel-browser";
+import { useMemo, useState } from "react";
+
+import { Category, Link } from "@/app/utils/categories";
 
 withStemmerSupport(lunr);
 withHebrewSupport(lunr);
