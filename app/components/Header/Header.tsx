@@ -23,7 +23,7 @@ function HelpUsButton() {
 	return (
 		<a
 			className="contribute-button"
-			href="https://chat.whatsapp.com/JjD8eijWfDXD10QbM2VyaX"
+			href="https://github.com/4tals/LinksForIsrael/blob/main/docs/contribute.md"
 			target="_blank"
 			rel="noopener noreferrer"
 		>
