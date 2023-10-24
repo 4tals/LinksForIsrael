@@ -18,6 +18,6 @@ jobs:
         
     - run: npm ci
 
-    - run: npm run build
+    - run: npx next build --no-lint
     
-    - run: npm run lint-nowarn
+    - run: npx next lint --max-warnings=0
