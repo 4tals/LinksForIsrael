@@ -43,6 +43,23 @@
       ]
     },
     {
+      "name": "Digital Dome",
+      "displayName": "Digital Dome - דיגיטל דום",
+      "shortDescription": "הפסקת תוכן פגעני ברשת",
+      "description": "פלטפורמה לדיווח על תכנים זדוניים ברשת. מאימות ודיווח לרשתות להסרתם. התגייסות של כמה חברות הייטק ובכירים בתעשייה.",
+      "url": "https://digitaldome.io/",
+      "whatsapp": "https://tinyurl.com/digitaldome",
+      "twitter": "https://twitter.com/digidomee",
+      "tags": [
+        "הסברה",
+        "דיגיטל",
+        "הייטק",
+        "רשתות חברתיות",
+        "הסרת תוכן",
+        "דיווח"
+      ]
+    },
+    {
       "name": "LinkedInPublicity",
       "displayName": "קול קורא: בואו תעזרו לנו בהסברה בלינקדאין",
       "description": "קבוצה של משפיענים בלינקדאין להגדיל חשיפה, חידוד מסרים, דיווחים על פרופילים ועוד.",
