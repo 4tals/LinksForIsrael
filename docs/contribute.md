@@ -35,7 +35,7 @@ For every existing initiative:
 
 If you find anything to improve, feel free to open a PR on the relevant JSON: https://github.com/4tals/LinksForIsrael/tree/main/_data/links
 
-# Support the development effort
+## Support the development effort
 
 We always appreciate more eyes reviewing our PRs and monitoring our pipelines for warnings and errors!
 
