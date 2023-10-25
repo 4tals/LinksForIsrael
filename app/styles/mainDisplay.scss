@@ -1,3 +1,9 @@
+@mixin shared-hover-effect() {
+	filter: brightness(120%);
+	font-size: 1.3rem;
+}
+
+// Base styles for links-section
 .links-section {
 	h2 {
 		display: flex;
@@ -60,27 +66,29 @@
 }
 
 .links-section-item {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	flex-basis: 47%;
-	border: 1px solid #5275c7;
-	border-radius: 30px;
-}
-
-.links-section-item-title {
-	font-weight: bold;
-}
-
+	padding: 16px 24px;
+	border-radius: 15px;
+	background: linear-gradient(to bottom right, #e6e9ec, #f5f7fa);
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	transition: box-shadow 0.3s ease, transform 0.3s ease;
+ 
+	&:hover {
+	   background: linear-gradient(to bottom right, #d4d9dd, #e2e7ea);
+	   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+	   transform: translateY(-3px);
+	}
+ }
+ 
+ .links-section-item-title {
+	font-size: 18px;
+	font-weight: 600;
+ }
 .links-section-item-short-description {
 	font-size: 14px;
 	font-weight: 400;
 }
 
-.share-mobile-btn,
-.share-btn,
-.whatsapp-btn,
-.telegram-btn {
+.share-button-style {
 	width: fit-content;
 	height: 35px;
 	font-size: 1.2rem;
@@ -88,9 +96,23 @@
 	cursor: pointer;
 
 	&:hover {
-		filter: brightness(120%);
-		font-size: 1.3rem;
+		@include shared-hover-effect;
 	}
+}
+
+.share-mobile-btn,
+.share-btn,
+.whatsapp-btn,
+.telegram-btn {
+	@extend .share-button-style;
+}
+
+.whatsapp-btn {
+	color: #25d366;
+}
+
+.telegram-btn {
+	color: #0088cc;
 }
 
 .main-content {
