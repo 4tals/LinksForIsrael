@@ -1,21 +1,7 @@
 {
   "name": "HasbaraMain",
-  "displayName": "",
+  "displayName": "קבוצות הסברה ראשיות",
   "links": [
-    {
-      "name": "ChildrenPulicity",
-      "displayName": "התנדבות ילדים להסברה",
-      "shortDescription": "ילדים מסבירים את עמדת ישראל במלחמה",
-      "description": "אתר בו ילדים מסבירים באמצעות אודיו וציורים את עמדת ישראל לקהל הבינלאומי.",
-      "url": "https://helek.israelsite.co.il/war/",
-      "website": "https://helek.israelsite.co.il/war/",
-      "tags": [
-        "הסברה",
-        "ילדים",
-        "ציורים",
-        "מלחמה"
-      ]
-    },
     {
       "name": "Digital Dome",
       "displayName": "Digital Dome - דיגיטל דום",
@@ -31,19 +17,6 @@
         "רשתות חברתיות",
         "הסרת תוכן",
         "דיווח"
-      ]
-    },
-    {
-      "name": "HelpWithIsraeliDiplomacy",
-      "displayName": "Help with Israeli Diplomacy across the Web",
-      "shortDescription": "",
-      "description": "אתר לחומרי הסברה בין לאומיים",
-      "url": "https://nirtz89.github.io/israel_diplomacy/",
-      "website": "https://nirtz89.github.io/israel_diplomacy/",
-      "tags": [
-        "סושיאל",
-        "דיפלומטיה",
-        "הסברה"
       ]
     },
     {
@@ -98,7 +71,7 @@
     {
       "name": "Iron Likes",
       "displayName": "Iron Likes - לייקים של ברזל",
-      "shortDescription": "מכפיל כח ברשתות החברתיות - כל משתמש יכול לעשות מאות ואלפי לייקים ללא מאמץ לפוסטים פרו-ישראלים",
+      "shortDescription": "",
       "description": "מערכת Iron Likes מאפשרת למשתמשים לעשות מאות ואלפי לייקים ללא מאמץ לפוסטים פרו-ישראלים, באמצעות אתר ותוסף לדפדפן. הציוצים והפוסטים המקודמים נבחרים בקפידה על ידי צוות מצומצם ואיכותי של מתנדבים. לייק הינה הדרך היעילה ביותר לקדם פוסטים, ולכן הכלי יכול להיות בעל השפעה משמעותית על התפוצה של חומרים פרו-ישראליים ברשת.",
       "url": "https://ironlikes.com/",
       "website": "https://ironlikes.com/",
@@ -106,18 +79,6 @@
         "סושיאל",
         "פייסבוק",
         "טוויטר",
-        "הסברה"
-      ]
-    },
-    {
-      "name": "HasbaraRules",
-      "displayName": "כללים להסברה באינטרנט",
-      "shortDescription": "",
-      "description": "ניב חורש - מנכל משותף: במשרד הפרסום ראובני פרידן שבוע קשה מנשוא עבר מאז החלה המלחמה הנוראית, ובעקבותיה מלחמת ההסברה של ישראל בעולם. גיבשתי 10 כללים וחשובים להסברה בחו״ל, בדגש על הרשתות החברתיות. אשמח שתקראו ותפיצו.",
-      "url": "./docs/hasbara",
-      "website": "./docs/hasbara",
-      "tags": [
-        "סושיאל",
         "הסברה"
       ]
     },
@@ -140,6 +101,21 @@
       ]
     },
     {
+      "name": "BlueWhitePublicity",
+      "displayName": "פרסומת כחול לבן",
+      "description": "אגרגטור של יוזמות פרסומת. קהילת הסברה כחול לבן, שיתוף פוסטים, מחיקת פוסטים אנטישמיים ועוד.",
+      "url": "https://chat.whatsapp.com/HYMhYDs0axhITaeR69A8TE",
+      "whatsapp": "https://chat.whatsapp.com/HYMhYDs0axhITaeR69A8TE",
+      "tags": [
+        "סושיאל",
+        "אינסטגרם",
+        "פייסבוק",
+        "טוויטר",
+        "טיקטוק",
+        "הסברה"
+      ]
+    },
+    {
       "name": "LinkedInPublicity",
       "displayName": "קול קורא: בואו תעזרו לנו בהסברה בלינקדאין",
       "description": "קבוצה של משפיענים בלינקדאין להגדיל חשיפה, חידוד מסרים, דיווחים על פרופילים ועוד.",
@@ -155,18 +131,17 @@
       ]
     },
     {
-      "name": "BlueWhitePublicity",
-      "displayName": "פרסומת כחול לבן",
-      "description": "אגרגטור של יוזמות פרסומת. קהילת הסברה כחול לבן, שיתוף פוסטים, מחיקת פוסטים אנטישמיים ועוד.",
-      "url": "https://chat.whatsapp.com/HYMhYDs0axhITaeR69A8TE",
-      "whatsapp": "https://chat.whatsapp.com/HYMhYDs0axhITaeR69A8TE",
+      "name": "ChildrenPulicity",
+      "displayName": "התנדבות ילדים להסברה",
+      "shortDescription": "ילדים מסבירים את עמדת ישראל במלחמה",
+      "description": "אתר בו ילדים מסבירים באמצעות אודיו וציורים את עמדת ישראל לקהל הבינלאומי.",
+      "url": "https://helek.israelsite.co.il/war/",
+      "website": "https://helek.israelsite.co.il/war/",
       "tags": [
-        "סושיאל",
-        "אינסטגרם",
-        "פייסבוק",
-        "טוויטר",
-        "טיקטוק",
-        "הסברה"
+        "הסברה",
+        "ילדים",
+        "ציורים",
+        "מלחמה"
       ]
     }
   ]
