@@ -1,10 +1,25 @@
-.searchResultLinks a {
-	cursor: pointer;
-	color: #1e6bb8;
+// Variables
+$primary-color: #1e6bb8;
+$search-width: 400px;
+$search-height: 44px;
+$rounded-border: 20px;
+$common-padding: 10px;
+
+// Mixins
+@mixin flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
+// Base styles
+a {
+	cursor: pointer;
+}
+
+// Web search styles
 #webSearchWrapper {
-	margin-right: 10px;
+	margin-right: $common-padding;
 }
 
 #searchOverlayWeb {
@@ -14,7 +29,6 @@
 	width: 100%;
 	height: 100%;
 	background-color: rgba(0, 0, 0, 0.5);
-
 	backdrop-filter: blur(6px);
 	z-index: 3;
 }
@@ -24,19 +38,18 @@
 	width: 100%;
 }
 
+// Search input container
 .search-div {
-	display: flex;
-	justify-content: center;
+	@include flex-center;
 }
 
 .search-wrapper {
-	display: flex;
-	align-items: center;
+	@include flex-center;
 	background-color: #fff;
-	width: 400px;
-	height: 44px;
-	border-radius: 20px;
-	padding: 0 10px;
+	width: $search-width;
+	height: $search-height;
+	border-radius: $rounded-border;
+	padding: 0 $common-padding;
 }
 
 .search-input {
@@ -44,31 +57,34 @@
 	outline: none;
 }
 
+// Search results container
 .search-results-div {
-	display: flex;
-	justify-content: center;
-	margin-top: 10px;
+	@include flex-center;
+	margin-top: $common-padding;
 }
 
 #search-results {
 	list-style-type: none;
-	padding-right: 0px;
+	padding-right: 0;
 }
 
 .search-results-wrapper {
 	height: 380px;
-	width: 400px;
+	width: $search-width;
 	background-color: #fff;
-	border-radius: 20px;
+	border-radius: $rounded-border;
 	overflow: scroll;
-	padding: 0 10px;
+	padding: 0 $common-padding;
 }
 
 .searchResultItem {
-	display: flex;
+	@include flex-center;
 	justify-content: space-between;
 	height: 48px;
-	align-items: center;
+}
+
+.searchResultLinks a {
+	color: $primary-color;
 }
 
 .searchResultTitle {
@@ -79,16 +95,17 @@
 	text-overflow: ellipsis;
 }
 
+// Mobile-specific styles
 .mobile-search-button {
 	display: none;
 }
 
+// Web search results
 .search-results-div-web {
-	display: flex;
+	@include flex-center;
 	top: 20px;
 	width: 80%;
 	inset-inline-start: 10%;
-	justify-content: center;
 	height: 70%;
 	position: relative;
 }
@@ -98,16 +115,13 @@
 	flex-direction: column;
 	background-color: #fff;
 	width: 800px;
-	border-radius: 20px;
-	margin-left: 10px;
-	margin-top: 10px;
-	padding-right: 10px;
-	padding-left: 10px;
+	border-radius: $rounded-border;
+	margin: $common-padding 0;
+	padding: 0 $common-padding;
 }
 
 #search-results-web {
 	list-style-type: none;
-	padding: 10px;
+	padding: $common-padding;
 	overflow: auto;
 }
-
