@@ -26,6 +26,7 @@ export interface Link {
 	forms: string;
 	docs: string;
 	website: string;
+	facebook: string;
 	discord: string;
 	instagram: string;
 	tiktok: string;

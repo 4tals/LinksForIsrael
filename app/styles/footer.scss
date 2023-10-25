@@ -1,54 +1,54 @@
 .footer {
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    direction: ltr;
-    padding: 20px 0; /* Top and bottom padding */
-    width: 100%;
-    background-color: #f9f9f9;
-    box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.02);
+	display: flex;
+	font-family: "Roboto", sans-serif;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	border-top: 1px solid var(--color-divider);
+	color: var(--color-white);
 
-    .social-links {
-        display: flex;
+	.social-links {
+		display: flex;
+		flex-direction: row;
         justify-content: center;
-        gap: 15px; /* Providing a little more space for clarity */
-        margin-bottom: 20px; /* A bit more space before the quote */
+		gap: 15px;
 
-        a {
-            transition: opacity 0.3s;
+		a {
+			transition: opacity 0.3s;
 
-            &:hover {
-                opacity: 0.7;
-            }
-        }
-    }
+			&:hover {
+				opacity: 0.7;
+			}
+		}
+	}
 
-    .quote-link {
-        font-size: 14px; /* Even smaller for a minimalist feel */
-        color: #777; /* Slightly lighter shade for minimalism */
-        position: relative;
+	.quote-link {
+		font-size: 14px; /* Even smaller for a minimalist feel */
+		color: #777; /* Slightly lighter shade for minimalism */
+		// position: relative;
 
-        a {
-            text-decoration: none;
-            color: inherit; /* No change in color from parent */
-            transition: color 0.3s ease;
+		a {
+			text-decoration: none;
+			color: inherit; /* No change in color from parent */
+			transition: color 0.3s ease;
 
-            &:before {
-                content: '"';
-                position: absolute;
-                top: 0;
-                left: -10px;
-            }
+			&:before {
+				content: '"';
+				position: absolute;
+				top: 0;
+				left: -10px;
+			}
 
-            &:after {
-                content: '"';
-                position: absolute;
-                top: 0;
-                right: -10px;
-            }
+			&:after {
+				content: '"';
+				position: absolute;
+				top: 0;
+				right: -10px;
+			}
 
-            &:hover {
-                color: #555; /* A subtle hover effect */
-            }
-        }
-    }
+			&:hover {
+				color: #555; /* A subtle hover effect */
+			}
+		}
+	}
 }

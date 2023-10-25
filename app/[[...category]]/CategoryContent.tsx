@@ -76,6 +76,15 @@ function LinkItem({ link }: { link: Link }) {
 						/>
 					</a>
 				)}
+				{link.facebook && (
+					<a href={link.facebook} target="_blank">
+						<img
+							className="link-icon"
+							src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Facebook_icon.svg/2048px-Facebook_icon.svg.png"
+							alt="Facebook Link"
+						/>
+					</a>
+				)}
 				{link.telegram && (
 					<a href={link.telegram} target="_blank">
 						<img
@@ -116,7 +125,7 @@ function LinkItem({ link }: { link: Link }) {
 					<a href={link.website} target="_blank">
 						<img
 							className="link-icon"
-							src="https://cdn-icons-png.flaticon.com/512/5602/5602732.png"
+							src="https://cdn-icons-png.flaticon.com/512/6472/6472018.png"
 							alt="Website Link"
 						/>
 					</a>

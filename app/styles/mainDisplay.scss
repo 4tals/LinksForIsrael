@@ -3,7 +3,7 @@
 	font-size: 1.3rem;
 }
 
-// Base styles for links-section
+
 .links-section {
 	h2 {
 		display: flex;
@@ -61,15 +61,14 @@
 .links-section-list {
 	display: flex;
 	flex-flow: row wrap;
-	justify-content: space-between;
 	width: 100%;
 }
 
 .links-section-item {
 	p {
-        font-size: 0.9rem; // Adjust this value as desired
+		font-size: 0.9rem; // Adjust this value as desired
 		font-weight: 400;
-    }
+	}
 	padding: 16px 24px;
 	border-radius: 15px;
 	margin-top: 20px;

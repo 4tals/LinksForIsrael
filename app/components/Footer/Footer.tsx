@@ -1,7 +1,6 @@
 export function Footer() {
 	return (
 		<footer className="footer">
-			<div className="invite-text">הצטרפו אלינו והראו לנו תמיכה</div>
 			<div className="social-links">
 				<a
 					href="https://www.instagram.com/links_for_israel/"
@@ -40,7 +39,8 @@ export function Footer() {
 					/>
 				</a>
 			</div>
-			<div className="quote-link flex flex-col items-center justify-center">
+			<div className="quote-link flex flex-row items-center justify-center">
+				<div className="invite-text">&quot;הופכים עליהם, טובים אותם&quot;</div>
 				<a
 					href="https://twitter.com/kann/status/1712897481837539810?t=kxXrXgX59tp1yPnrYiS4Iw&s=19"
 					target="_blank"
@@ -50,10 +50,9 @@ export function Footer() {
 						src="https://user-images.githubusercontent.com/8555641/275328060-dc897827-8b49-459e-b9d0-bf46aac57f98.png"
 						alt="Initiative Icon"
 						className="footer-icon"
-						width="100"
+						width="40px"
 					/>
 				</a>
-				<div className="invite-text">&quot;הופכים עליהם, טובים אותם&quot;</div>
 			</div>
 		</footer>
 	);

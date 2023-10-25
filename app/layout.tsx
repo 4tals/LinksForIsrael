@@ -52,16 +52,11 @@ export default async function RootLayout({
 			<head></head>
 			<body dir="rtl">
 				<Header categories={categories} />
-
-				<div className="main-subtitle">כל אתרי הסיוע למלחמה במקום אחד 🇮🇱</div>
-
 				<main id="content" className="main-content" role="main">
 					{children}
-
+					<AddSite />
 					<Footer />
 				</main>
-
-				<AddSite />
 			</body>
 		</html>
 	);
