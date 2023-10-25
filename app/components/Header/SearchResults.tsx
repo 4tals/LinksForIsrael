@@ -16,7 +16,12 @@ export function SearchResults({
 	return (
 		<div className="search-results-div md:w-2/5 md:h-4/5 mx-auto my-8">
 			<div className="search-results-wrapper py-2 md:w-full overflow-hidden flex flex-col">
-				<h3 className="font-bold text-lg mb-2">תוצאות מומלצות</h3>
+				<div className="search-results-header">
+					<h3 className="font-bold text-lg mb-2">תוצאות מומלצות</h3>
+					<button className="close-btn" onClick={close}>
+						&times;
+					</button>
+				</div>
 				<ul id="search-results" className="overflow-y-scroll">
 					{results.map((item) => (
 						<li key={item.name}>

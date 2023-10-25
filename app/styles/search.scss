@@ -125,3 +125,15 @@ a {
 	padding: $common-padding;
 	overflow: auto;
 }
+
+.search-results-header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: $common-padding;
+}
+
+.close-btn {
+	font-size: 1.5rem;
+	cursor: pointer;
+}
