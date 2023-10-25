@@ -10,7 +10,7 @@
 	.social-links {
 		display: flex;
 		flex-direction: row;
-        justify-content: center;
+		justify-content: center;
 		gap: 15px;
 
 		a {
@@ -31,20 +31,6 @@
 			text-decoration: none;
 			color: inherit; /* No change in color from parent */
 			transition: color 0.3s ease;
-
-			&:before {
-				content: '"';
-				position: absolute;
-				top: 0;
-				left: -10px;
-			}
-
-			&:after {
-				content: '"';
-				position: absolute;
-				top: 0;
-				right: -10px;
-			}
 
 			&:hover {
 				color: #555; /* A subtle hover effect */
