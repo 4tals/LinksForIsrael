@@ -137,3 +137,17 @@ a {
 	font-size: 1.5rem;
 	cursor: pointer;
 }
+
+@media only screen and (max-width: 600px) {
+	.mobile-search-button {
+		display: block;
+	}
+
+	#webSearchWrapper {
+		display: none;
+	}
+
+	.search-wrapper {
+		margin-top: 130px;
+	}
+}

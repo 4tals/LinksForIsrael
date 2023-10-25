@@ -69,27 +69,19 @@ Banner h1 {
 
 /* Mobile Styles */
 @media (max-width: 768px) {
-	.page-header {
-		padding: 15px 0; /* Slight reduction in vertical padding for mobile */
-	}
-
 	.header-content {
-		flex-direction: row; /* Stack elements vertically */
-		align-items: center; /* Center align for a better look */
-		padding: 0 10px; /* Slight horizontal padding for edge spacing */
+		display: inline;
 	}
 
 	.left-section,
 	.middle-section,
 	.right-section {
-		align-items: center; /* Center the contents */
-	}
-
-	.contribute-button {
-		padding: 12px 24px; /* Increase padding to make it more tap-friendly */
+        flex-direction: column; /* Stack elements vertically */;
+		gap: 10px; /* Maintain space between elements */
 	}
 	
 	.banner-icon {
 		fill: var(--color-white); /* Control the SVG color via CSS */
+		display: none;
 	}
 }

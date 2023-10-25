@@ -49,10 +49,8 @@ export default async function RootLayout({
 
 	return (
 		<html lang="he" className={rubik.variable}>
-			{/* "{{ page.lang | default: site.lang | default: 'he' }}" */}
 			<head></head>
 			<body dir="rtl">
-				{/* {{ page.direction }} */}
 				<Header categories={categories} />
 
 				<div className="main-subtitle">כל אתרי הסיוע למלחמה במקום אחד 🇮🇱</div>
