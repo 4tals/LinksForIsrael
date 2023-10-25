@@ -20,6 +20,7 @@ export interface Link {
 	shortDescription: string;
 	description: string;
 	url: string;
+	initiativeImage: string;
 	whatsapp: string;
 	telegram: string;
 	drive: string;

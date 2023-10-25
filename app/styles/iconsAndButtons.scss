@@ -13,7 +13,13 @@ $icon-hover-scale: scale(1.1);
 	}
 }
 
-.link-icon {
+.link-icon,
+.link-initiative-icon {
+	@extend .icon-common-styles;
+	width: 30px;
+}
+
+.link-initiative-icon {
 	@extend .icon-common-styles;
 	width: 60px;
 }
@@ -45,7 +51,7 @@ $icon-hover-scale: scale(1.1);
 .share-btn,
 .whatsapp-btn,
 .telegram-btn {
-	@extend .share-button-common; 
+	@extend .share-button-common;
 }
 
 .whatsapp-btn {

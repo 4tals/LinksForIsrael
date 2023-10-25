@@ -67,6 +67,15 @@ function LinkItem({ link }: { link: Link }) {
 				)}
 			</a>
 			<div className="link-icons">
+				{link.initiativeImage && (
+					<a href={link.initiativeImage} target="_blank">
+						<img
+							className="link-initiative-icon"
+							src={link.initiativeImage}
+							alt="Initiative Image"
+						/>
+					</a>
+				)}
 				{link.whatsapp && (
 					<a href={link.whatsapp} target="_blank">
 						<img
