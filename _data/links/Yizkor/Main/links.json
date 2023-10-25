@@ -23,6 +23,24 @@
         "צעירים",
         "הוקרה"
       ]
+    },
+    {
+      "name": "Shalhevet",
+      "displayName": "שלהבת - להיות חזקים ביחד בזמנים קשים",
+      "shortDescription": "",
+      "description": "מתחם זום לשידור והשתתפות בלוויה ואירועי זיכרון עבור שלא יכולים להגיע. המפגשים פתוחים ל-24 שע' לעד-500 אנשים.",
+      "url": "https://shalhevet.co/",
+      "website": "https://shalhevet.co/",
+      "initiativeImage": "https://shalhevet.co/candel.png",
+      "tags": [
+        "זום",
+        "לוויה",
+        "אירועי זיכרון",
+        "שלהבת",
+        "התאחדות",
+        "אמדוקס",
+        "נאוטק"
+      ]
     }
   ]
 }
