@@ -1,0 +1,55 @@
+// Basic styles and simple components
+.link-icon,
+.category-icon {
+    height: auto;
+    margin: 0 5px;
+    &:hover {
+        filter: brightness(120%);
+        transform: scale(1.1);
+    }
+}
+
+.link-icon {
+    width: 60px;
+}
+
+.category-icon {
+    width: 25px;
+    height: 25px;
+}
+
+.link-icons {
+    display: flex;
+}
+
+.share-mobile-btn,
+.share-btn,
+.whatsapp-btn,
+.telegram-btn {
+    width: fit-content;
+    height: 35px;
+    font-size: 1.2rem;
+    line-height: 35px;
+    cursor: pointer;
+
+    &:hover {
+        filter: brightness(120%);
+        font-size: 1.3rem;
+    }
+}
+
+.whatsapp-btn {
+    color: #25d366;
+}
+
+.telegram-btn {
+    color: #0088cc;
+}
+
+.copy-icon {
+    font-variation-settings:
+        "FILL" 0,
+        "wght" 400,
+        "GRAD" 0,
+        "opsz" 24;
+}
