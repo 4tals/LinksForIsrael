@@ -1,0 +1,50 @@
+.invite-text {
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 1.2em;
+	font-weight: bold;
+
+	font-size: 18px;
+	color: #333;
+}
+
+.social-links {
+	display: flex;
+	justify-content: center;
+	gap: 15px; /* maintains space between the icons */
+	margin-bottom: 20px; /* maintains space between icons and the quote link */
+	margin-top: 15px;
+	a {
+		margin: 0 10px;
+		transition: transform 0.2s;
+
+		&:hover {
+			transform: scale(1.1);
+		}
+	}
+}
+
+.quote-link {
+	text-align: center;
+	font-size: 1em;
+}
+
+.quote-link a {
+	text-decoration: none;
+	color: #333; /* or any preferred color */
+	border-bottom: 1px dotted; /* adds an understated link indicator; can remove if not preferred */
+	padding: 5px;
+	transition: color 0.3s ease; /* smooth color transition on hover */
+}
+
+.quote-link a:hover {
+	color: #007bff; /* or any preferred hover color */
+}
+
+
+.site-footer {
+	text-align: center;
+	direction: ltr;
+	padding: 20px;
+	font-family: "Arial", sans-serif; /* you can choose any font-family */
+}
