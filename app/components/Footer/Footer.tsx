@@ -1,6 +1,6 @@
 export function Footer() {
 	return (
-		<footer className="site-footer">
+		<footer className="footer">
 			<div className="invite-text">הצטרפו אלינו והראו לנו תמיכה</div>
 			<div className="social-links">
 				<a

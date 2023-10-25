@@ -1,50 +1,54 @@
-.invite-text {
-	text-align: center;
-	margin-bottom: 20px;
-	font-size: 1.2em;
-	font-weight: bold;
+.footer {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    direction: ltr;
+    padding: 20px 0; /* Top and bottom padding */
+    width: 100%;
+    background-color: #f9f9f9;
+    box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.02);
 
-	font-size: 18px;
-	color: #333;
-}
+    .social-links {
+        display: flex;
+        justify-content: center;
+        gap: 15px; /* Providing a little more space for clarity */
+        margin-bottom: 20px; /* A bit more space before the quote */
 
-.social-links {
-	display: flex;
-	justify-content: center;
-	gap: 15px; /* maintains space between the icons */
-	margin-bottom: 20px; /* maintains space between icons and the quote link */
-	margin-top: 15px;
-	a {
-		margin: 0 10px;
-		transition: transform 0.2s;
+        a {
+            transition: opacity 0.3s;
 
-		&:hover {
-			transform: scale(1.1);
-		}
-	}
-}
+            &:hover {
+                opacity: 0.7;
+            }
+        }
+    }
 
-.quote-link {
-	text-align: center;
-	font-size: 1em;
-}
+    .quote-link {
+        font-size: 14px; /* Even smaller for a minimalist feel */
+        color: #777; /* Slightly lighter shade for minimalism */
+        position: relative;
 
-.quote-link a {
-	text-decoration: none;
-	color: #333; /* or any preferred color */
-	border-bottom: 1px dotted; /* adds an understated link indicator; can remove if not preferred */
-	padding: 5px;
-	transition: color 0.3s ease; /* smooth color transition on hover */
-}
+        a {
+            text-decoration: none;
+            color: inherit; /* No change in color from parent */
+            transition: color 0.3s ease;
 
-.quote-link a:hover {
-	color: #007bff; /* or any preferred hover color */
-}
+            &:before {
+                content: '"';
+                position: absolute;
+                top: 0;
+                left: -10px;
+            }
 
+            &:after {
+                content: '"';
+                position: absolute;
+                top: 0;
+                right: -10px;
+            }
 
-.site-footer {
-	text-align: center;
-	direction: ltr;
-	padding: 20px;
-	font-family: "Arial", sans-serif; /* you can choose any font-family */
+            &:hover {
+                color: #555; /* A subtle hover effect */
+            }
+        }
+    }
 }
