@@ -1,12 +1,17 @@
-// Basic styles and simple components
-.link-icon,
-.category-icon {
+// Utility for icons that share common styles
+.icon-common-styles {
     height: auto;
     margin: 0 5px;
+
     &:hover {
         filter: brightness(120%);
         transform: scale(1.1);
     }
+}
+
+.link-icon,
+.category-icon {
+    @extend .icon-common-styles; // Using the common styles for icons
 }
 
 .link-icon {
@@ -15,17 +20,15 @@
 
 .category-icon {
     width: 25px;
-    height: 25px;
+    height: 25px;  // This is redundant since height is already set to auto for both
 }
 
 .link-icons {
     display: flex;
 }
 
-.share-mobile-btn,
-.share-btn,
-.whatsapp-btn,
-.telegram-btn {
+// Common styles for sharing buttons
+.share-button-common {
     width: fit-content;
     height: 35px;
     font-size: 1.2rem;
@@ -36,6 +39,13 @@
         filter: brightness(120%);
         font-size: 1.3rem;
     }
+}
+
+.share-mobile-btn,
+.share-btn,
+.whatsapp-btn,
+.telegram-btn {
+    @extend .share-button-common;  // Using the common styles for share buttons
 }
 
 .whatsapp-btn {
