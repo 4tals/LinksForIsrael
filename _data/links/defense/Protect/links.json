@@ -1,6 +1,6 @@
 {
   "name": "WeaponsMain",
-  "displayName": "נשק",
+  "displayName": "הגנה",
   "links": [
     {
       "name": "EligibilityForWeapon",
@@ -9,7 +9,11 @@
       "description": "אתר המשרד לביטחון פנים: מחשבון לבדיקת זכאות לרישיון כלי ירייה פרטי",
       "url": "./docs/weapon",
       "portal": "./docs/weapon",
-      "tags": ["רישיון", "ירייה", "ביטחון"]
+      "tags": [
+        "רישיון",
+        "ירייה",
+        "ביטחון"
+      ]
     }
   ]
 }
