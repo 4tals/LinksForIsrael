@@ -66,23 +66,33 @@
 }
 
 .links-section-item {
+	p {
+        font-size: 0.9rem; // Adjust this value as desired
+		font-weight: 400;
+    }
 	padding: 16px 24px;
 	border-radius: 15px;
+	margin-top: 20px;
+	max-width: 230px; // You can adjust this value as needed
+	max-height: 200px; // You can adjust this value as needed
+	overflow-y: auto; // Makes the content inside scrollable if it exceeds max-height
 	background: linear-gradient(to bottom right, #e6e9ec, #f5f7fa);
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-	transition: box-shadow 0.3s ease, transform 0.3s ease;
- 
+	transition:
+		box-shadow 0.3s ease,
+		transform 0.3s ease;
+
 	&:hover {
-	   background: linear-gradient(to bottom right, #d4d9dd, #e2e7ea);
-	   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-	   transform: translateY(-3px);
+		background: linear-gradient(to bottom right, #d4d9dd, #e2e7ea);
+		box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+		transform: translateY(-3px);
 	}
- }
- 
- .links-section-item-title {
-	font-size: 18px;
+}
+
+.links-section-item-title {
+	font-size: 16px;
 	font-weight: 600;
- }
+}
 .links-section-item-short-description {
 	font-size: 14px;
 	font-weight: 400;
@@ -105,14 +115,6 @@
 .whatsapp-btn,
 .telegram-btn {
 	@extend .share-button-style;
-}
-
-.whatsapp-btn {
-	color: #25d366;
-}
-
-.telegram-btn {
-	color: #0088cc;
 }
 
 .main-content {
@@ -165,41 +167,31 @@
 		}
 
 		.share-container {
-			display: block;
-			font-size: 1.3rem;
-			padding: 10px 0;
-		}
-		.links-section-list {
-			display: grid;
-			grid-template-columns: repeat(3, 240px);
-			grid-auto-columns: 240px;
-			grid-template-rows: 1fr;
-			@media screen and (max-width: 1440px) {
-				grid-template-columns: repeat(2, 240px);
-			}
+			display: flex;
+			align-items: center;
+			justify-content: flex-start;
+			gap: 15px;
+			padding: 15px;
+			border-radius: 10px;
+			background: rgba(255, 255, 255, 0.8);
+			box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 
-			.links-section-subcategory {
-				&:not(:first-child) {
-					margin-block-start: 10px;
-				}
+			&:hover {
+				box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 			}
 		}
-		.links-section-item {
-			max-width: 240px;
-			margin-block-end: 10px;
-			border: solid 1px var(--color-divider);
-			border-radius: 0;
-			padding: 5px 8px;
-			color: var(--color-dark);
-			opacity: 0.7;
-			font-size: 0.9rem;
 
-			a {
-				color: var(--color-blue);
-			}
-			.link-icons {
-				width: 30px;
-				height: auto;
+		.links-section-subcategory {
+			font-size: 20px;
+			font-weight: 700;
+			margin: 15px;
+			padding: 10px;
+			background-color: rgba(220, 220, 220, 0.1);
+			border-radius: 5px;
+			transition: background-color 0.3s ease;
+
+			&:hover {
+				background-color: rgba(200, 200, 200, 0.15);
 			}
 		}
 	}

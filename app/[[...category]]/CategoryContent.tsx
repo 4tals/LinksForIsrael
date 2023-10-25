@@ -27,9 +27,9 @@ export function CategoryContent({
 								key={subcategory.name}
 							>
 								{subcategory.displayName}
+								<LinksList links={subcategory.links} name={subcategory.name} />
 							</h3>
 						)}
-						<LinksList links={subcategory.links} name={subcategory.name} />
 					</Fragment>
 				))}
 			</ul>
