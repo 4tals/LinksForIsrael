@@ -6,14 +6,17 @@ import { SearchFormWeb } from "./SearchFormWeb";
 export function Header({ categories }: { categories: Category[] }) {
 	return (
 		<header className="page-header" role="banner" dir="rtl">
-			<div className="main-title">
-				<div id="rightElement">
+			<div className="header-content">
+				<div className="left-section">
 					<Banner />
+				</div>
+				<div className="middle-section">
 					<SearchFormWeb categories={categories} />
 				</div>
-
-				<HelpUsButton />
-				<SearchButtonMobile categories={categories} />
+				<div className="right-section">
+					<HelpUsButton />
+					<SearchButtonMobile categories={categories} />
+				</div>
 			</div>
 		</header>
 	);
@@ -42,6 +45,7 @@ function Banner() {
 					height="32"
 					viewBox="0 0 32 32"
 					fill="none"
+					className="banner-icon"
 				>
 					<g clipPath="url(#clip0_7_707)">
 						<path

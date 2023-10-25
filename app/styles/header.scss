@@ -1,72 +1,95 @@
 .page-header {
-    display: flex;
-    padding: 20px 17px;
-    background-color: var(--color-blue);
-    height: 85px;
-    position: sticky;
-    z-index: 999;
-    width: 100%;
-    top: 0;
-    color: var(--color-white);
-    
-    .main-title {
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-
-        svg {
-            margin-inline-end: 10px;
-        }
-
-        h1 {
-            padding: 0;
-            margin: 0;
-            font-size: 32px;
-            font-weight: 400;
-            display: flex;
-            align-items: center;
-            color: #fff;
-            border-radius: 5px;
-            cursor: pointer;
-
-            a,
-            a:hover {
-                text-decoration: none;
-            }
-        }
-    }
+	display: flex;
+	justify-content: center;
+	padding: 20px 0;
+	background-color: var(--color-blue);
+	height: auto;
+	position: sticky;
+	z-index: 999;
+	width: 100%;
+	top: 0;
+	color: var(--color-white);
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Added shadow for depth */
 }
 
-.main-subtitle {
-    font-size: 24px;
-    font-weight: 400;
-    text-align: center;
-    padding-block-start: 8px;
+.header-content {
+	width: 90%;
+	max-width: 1200px; /* maximum width for large screens */
+	display: flex;
+	justify-content: space-between;
 }
 
-.main-content {
-    h1, h2, h3, h4, h5, h6 {
-        color: var(--header-text-color);
-        font-weight: 500;
-    }
+.left-section,
+.middle-section,
+.right-section {
+	display: flex;
+	align-items: center;
+}
+
+.left-section {
+	flex: 1;
+}
+
+.middle-section {
+	flex: 2;
+}
+
+.right-section {
+	flex: 1;
+	justify-content: flex-end;
 }
 
 .contribute-button {
-    background-color: var(--color-white);
-    border-radius: 30px;
-    color: var(--text-color);
-    font-size: 14px;
-    padding: 8px 10px;
-    margin-right: 10px;
-    transition: transform 0.3s ease;
+	background-color: var(--color-white);
+	border-radius: 30px;
+	color: var(--text-color);
+	font-size: 14px;
+	padding: 8px 20px; /* Increased padding for a better visual look */
+	margin-right: 10px;
+	transition:
+		transform 0.3s ease,
+		background-color 0.3s ease;
+	border: none;
+	cursor: pointer;
 
-    &:hover {
-        transform: scale(1.05);
-    }
+	&:hover {
+		transform: scale(1.05);
+		background-color: var(--color-light-blue); /* Change as per design */
+	}
 }
 
-#rightElement {
-    display: flex;
-    align-items: center;
+Banner h1 {
+	margin: 0;
+	font-size: 32px;
+	font-weight: bold; /* Make it bold for emphasis */
+	display: flex;
+	align-items: center;
+	color: var(--color-white);
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+	.page-header {
+		padding: 15px 0; /* Slight reduction in vertical padding for mobile */
+	}
+
+	.header-content {
+		flex-direction: row; /* Stack elements vertically */
+		align-items: center; /* Center align for a better look */
+		padding: 0 10px; /* Slight horizontal padding for edge spacing */
+	}
+
+	.left-section,
+	.middle-section,
+	.right-section {
+		align-items: center; /* Center the contents */
+	}
+
+	.contribute-button {
+		padding: 12px 24px; /* Increase padding to make it more tap-friendly */
+	}
+	
+	.banner-icon {
+		fill: var(--color-white); /* Control the SVG color via CSS */
+	}
 }
