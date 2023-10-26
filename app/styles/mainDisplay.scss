@@ -3,7 +3,6 @@
 	font-size: 1.3rem;
 }
 
-
 .links-section {
 	h2 {
 		display: flex;
@@ -153,8 +152,7 @@
 	.desktop-content {
 		display: block;
 		height: calc(100vh - 100px);
-		// background-color: red;
-		width: 65%;
+		width: 100%;
 		justify-self: center;
 		overflow-y: auto;
 		top: 0;
