@@ -23,7 +23,7 @@ jobs:
       id: check
       run: |
         echo "::set-output name=match::false"
-        if [[ "${{ github.event.issue.title }}" == "[NEW-INITIATIVE]: "* ]]; then
+        if [[ "${{ github.event.issue.title }}" == "[NEW-INITIATIVE]:"* ]]; then
           echo "::set-output name=match::true"
         fi
 
