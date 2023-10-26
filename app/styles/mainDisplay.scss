@@ -13,13 +13,6 @@
 	.share-container {
 		margin-bottom: 1rem;
 	}
-
-	.links-section-subcategory {
-		flex-basis: 100%;
-		flex-shrink: 0;
-		margin-bottom: 0;
-		font-weight: bold;
-	}
 }
 
 .links-section-title {
@@ -68,12 +61,14 @@
 		font-size: 0.9rem; // Adjust this value as desired
 		font-weight: 400;
 	}
+	
 	padding: 16px 24px;
 	border-radius: 15px;
-	margin-top: 20px;
-	max-width: 230px; // You can adjust this value as needed
-	max-height: 200px; // You can adjust this value as needed
+	margin-top: 10px;
+	max-width: 300px; // You can adjust this value as needed
+	max-height: 230px; // You can adjust this value as needed
 	overflow-y: auto; // Makes the content inside scrollable if it exceeds max-height
+
 	background: linear-gradient(to bottom right, #e6e9ec, #f5f7fa);
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 	transition:
@@ -180,12 +175,17 @@
 				box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 			}
 		}
+		.links-subcategory-header {
+			font-size: x-large;
+			font-weight: 600;
+			margin-top: 30px;
+		}
 
 		.links-section-subcategory {
-			font-size: 20px;
-			font-weight: 700;
-			margin: 15px;
-			padding: 10px;
+			display: flex; // Makes it a flex container
+			flex-shrink: 0;
+			flex-wrap: wrap; // Allows children to wrap to the next row
+			gap: 16px;
 			background-color: rgba(220, 220, 220, 0.1);
 			border-radius: 5px;
 			transition: background-color 0.3s ease;
