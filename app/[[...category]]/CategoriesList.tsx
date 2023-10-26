@@ -43,9 +43,9 @@ export function CategoriesList({
 										/>
 									)}
 									<h2 className="text-2xl">{category.displayName}</h2>
-									<div className="open-caret">
+									{/* <div className="open-caret">
 										<FontAwesomeIcon icon={faAngleDown} />
-									</div>
+									</div> */}
 								</div>
 							</Link>
 							{category.id === categoryId && (
