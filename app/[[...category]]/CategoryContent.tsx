@@ -6,27 +6,28 @@ import { ShareButtons } from "./ShareButtons";
 export function CategoryContent({
 	categoryName,
 	subCategories,
+	categoryDescription,
 }: {
 	categoryName: string;
 	subCategories: Array<SubCategoryData>;
+	categoryDescription: string;
 }) {
 	return (
 		<>
 			<div className="share-container">
-				<span className="me-3">
-					ניתן לשתף ישירות את &quot;<b>{categoryName}</b>&quot; באמצעות
-				</span>
+				<div className="category-description">{categoryDescription}</div>
 				<ShareButtons category={categoryName} />
 			</div>
+
 			<ul className="links-section-list">
 				{subCategories.map((subcategory) => (
 					<Fragment key={subcategory.name}>
-						{subcategory.name !== "Main" && (
+						{
 							<h3 key={subcategory.name} className="links-subcategory-header">
 								{subcategory.displayName}
 								<LinksList links={subcategory.links} name={subcategory.name} />
 							</h3>
-						)}
+						}
 					</Fragment>
 				))}
 			</ul>

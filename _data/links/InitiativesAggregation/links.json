@@ -1,7 +1,7 @@
 {
   "name": "InitiativesAggregation",
   "displayName": "סיוע כללי",
-  "description": "אוסף מקורות מידע וקישורים לסיוע אזרחי בישראל.",
+  "description": "אוסף מקורות מידע וקישורים לסיוע אזרחי בישראל",
   "image": "https://cdn-icons-png.flaticon.com/512/6292/6292033.png",
   "subCategories": [
     "Aggregation",

@@ -144,6 +144,12 @@
 		overflow-y: scroll;
 	}
 
+	.category-description {
+		font-size: x-large;
+		font-weight: bolder;
+	}
+	
+
 	.desktop-content {
 		display: block;
 		height: calc(100vh - 100px);
@@ -168,7 +174,6 @@
 			gap: 15px;
 			padding: 15px;
 			border-radius: 10px;
-			background: rgba(255, 255, 255, 0.8);
 			box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 
 			&:hover {
@@ -176,7 +181,7 @@
 			}
 		}
 		.links-subcategory-header {
-			font-size: x-large;
+			font-size: large;
 			font-weight: 600;
 			margin-top: 30px;
 		}
@@ -186,7 +191,6 @@
 			flex-shrink: 0;
 			flex-wrap: wrap; // Allows children to wrap to the next row
 			gap: 16px;
-			background-color: rgba(220, 220, 220, 0.1);
 			border-radius: 5px;
 			transition: background-color 0.3s ease;
 

@@ -3,6 +3,7 @@ import categories from "@/_data/categories.json";
 export interface CategoryData {
 	name: string;
 	displayName: string;
+	longDisplayName: string;
 	description: string;
 	image: string;
 	subCategories: string[];
