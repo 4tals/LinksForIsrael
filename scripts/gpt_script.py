@@ -34,7 +34,6 @@ class GPTAssistant:
             "drive": https://drive.google.com/drive/folders/19up1kQTiAh-7vXuIgBHklYuNW-Va63_Y,
             "form": "https://docs.google.com/forms/d/e/1FAIpQLSeB2Ws2_21qvwhfb1aFDhTB0DQSsuyFL4jRIBoSYFHQV7P7xQ/viewform",
             "docs": "https://docs.google.com/forms/d/e/1FAIpQLSe63ECMBD1YEmAbLovFTvpxek46ZCSuKV9N2mT-G27tTwN2hA/viewform",
-            "phone":"0502210169",
             "tags": ["סושיאל","אינסטגרם","פייסבוק","טוויטר","טיקטוק","הסברה"]
         },
         
