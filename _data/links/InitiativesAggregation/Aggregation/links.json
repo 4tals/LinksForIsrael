@@ -47,6 +47,21 @@
         "BNF",
         "מיזום"
       ]
+    },
+    {
+      "name": "TogetherInEmergency",
+      "displayName": "ביחד במצב חירום",
+      "shortDescription": "",
+      "initiativeImage": "https://together-ecosystem.com/static/media/emergency%20button.620be88d29319a190dc5.png",
+      "description": "התארגנות וסיוע במצבי חירום - ריכוז יוזמות במגוון נושאים",
+      "url": "https://together-ecosystem.com/emergency",
+      "website": "https://together-ecosystem.com/emergency",
+      "tags": [
+        "התארגנות",
+        "סיוע",
+        "חירום",
+        "אגרגטור"
+      ]
     }
   ]
 }
