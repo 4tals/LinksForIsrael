@@ -47,7 +47,7 @@ jobs:
         OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         ISSUE_BODY: ${{ github.event.issue.body }}
       run: |
-        output=$(python gpt_script.py | jq -c .)
+        output=$(python scripts/gpt_script.py | jq -c .)
         echo "RESPONSE=$output" >> $GITHUB_ENV
 
     - name: Post comment
