@@ -1,0 +1,67 @@
+name: Run Script on New Issue
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: read
+  issues: write
+  pull-requests: read
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+    outputs:
+      match: ${{ steps.check.outputs.match }}
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Check Label and Title
+      id: check
+      run: |
+        echo "::set-output name=match::false"
+        if [[ "${{ github.event.issue.title }}" == "[NEW-INITIATIVE]: "* ]]; then
+          echo "::set-output name=match::true"
+        fi
+
+    - name: Set up Python
+      if: steps.check.outputs.match == 'true'
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      if: steps.check.outputs.match == 'true'
+      run: |
+        sudo apt-get install -y jq
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Run script
+      id: run-script
+      if: steps.check.outputs.match == 'true'
+      env:
+        OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        ISSUE_BODY: ${{ github.event.issue.body }}
+      run: |
+        output=$(python scripts/gpt_script.py | jq -c .)
+        echo "RESPONSE=$output" >> $GITHUB_ENV
+
+    - name: Post comment
+      if: steps.check.outputs.match == 'true' && steps.run-script.outcome == 'success'
+      uses: actions/github-script@v5
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        script: |
+          const issueNumber = context.issue.number;
+          const responseJSON = JSON.parse(process.env.RESPONSE);
+          const response = "```json\n" + JSON.stringify(responseJSON, null, 2) + "\n```";
+          github.rest.issues.createComment({
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            issue_number: issueNumber,
+            body: response
+          });
