@@ -2,7 +2,7 @@ name: Run Script on New Issue
 
 on:
   issues:
-    types: [opened]
+    types: [opened, edited]
 
 permissions:
   contents: read
