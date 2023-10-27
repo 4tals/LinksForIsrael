@@ -62,6 +62,7 @@ export default async function Category({
 					<CategoryContent
 						subCategories={pageCategory.subCategories}
 						categoryName={pageCategory.displayName}
+						categoryDescription={pageCategory.description}
 					/>
 				</div>
 			)}

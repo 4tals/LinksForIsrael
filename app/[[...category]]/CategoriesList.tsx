@@ -1,8 +1,5 @@
 import Link from "next/link";
 
-import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
 import { Category } from "../utils/categories";
 import { CategoryContent } from "./CategoryContent";
 
@@ -42,7 +39,7 @@ export function CategoriesList({
 											className="category-icon"
 										/>
 									)}
-									<h2 className="text-2xl">{category.displayName}</h2>
+									<h2 className="text-xl">{category.displayName}</h2>
 									{/* <div className="open-caret">
 										<FontAwesomeIcon icon={faAngleDown} />
 									</div> */}
@@ -53,6 +50,7 @@ export function CategoriesList({
 									<CategoryContent
 										subCategories={category.subCategories}
 										categoryName={category.displayName}
+										categoryDescription={category.description}
 									/>
 								</div>
 							)}

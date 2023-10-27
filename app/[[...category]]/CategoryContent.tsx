@@ -6,30 +6,28 @@ import { ShareButtons } from "./ShareButtons";
 export function CategoryContent({
 	categoryName,
 	subCategories,
+	categoryDescription,
 }: {
 	categoryName: string;
 	subCategories: Array<SubCategoryData>;
+	categoryDescription: string;
 }) {
 	return (
 		<>
 			<div className="share-container">
-				<span className="me-3">
-					ניתן לשתף ישירות את &quot;<b>{categoryName}</b>&quot; באמצעות
-				</span>
+				<div className="category-description">{categoryDescription}</div>
 				<ShareButtons category={categoryName} />
 			</div>
-			<ul className="links-section-list pr-10">
+
+			<ul className="links-section-list">
 				{subCategories.map((subcategory) => (
 					<Fragment key={subcategory.name}>
-						{subcategory.name !== "Main" && (
-							<h3
-								className="links-section-subcategory text-xl mb-4"
-								key={subcategory.name}
-							>
+						{
+							<h3 key={subcategory.name} className="links-subcategory-header">
 								{subcategory.displayName}
 								<LinksList links={subcategory.links} name={subcategory.name} />
 							</h3>
-						)}
+						}
 					</Fragment>
 				))}
 			</ul>
@@ -43,7 +41,13 @@ function LinksList({ name, links }: { name: string; links: Array<Link> }) {
 		return <p key={name}>בקרוב</p>;
 	}
 
-	return links.map((link) => <LinkItem link={link} key={link.name} />);
+	return (
+		<div className="links-section-subcategory">
+			{links.map((link) => (
+				<LinkItem link={link} key={link.name} />
+			))}
+		</div>
+	);
 }
 
 function LinkItem({ link }: { link: Link }) {
