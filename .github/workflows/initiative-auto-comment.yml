@@ -2,7 +2,7 @@ name: Initiative Request - Auto Comment
 
 on:
   issues:
-    types: [opened, edited, labeled]
+    types: [opened, edited]
 
 jobs:
   add-comment:
