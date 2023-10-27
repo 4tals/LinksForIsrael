@@ -33,8 +33,10 @@
         overflow: hidden;
 
         .links-section-content {
-            padding: 32px;
+            box-sizing: border-box;
             display: block;
+            width: 100%;
+            
 
             hr {
                 display: block;
@@ -46,10 +48,6 @@
 				overflow: hidden;
 				width: 80%;
             }
-        }
-
-        .links-section-title {
-            justify-content: flex-start;
         }
     }
 
