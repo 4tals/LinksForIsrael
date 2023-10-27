@@ -5,7 +5,7 @@
     {
       "name": "IronBot",
       "displayName": "עורף ברזל",
-      "shortDescription": "",
+      "shortDescription": "מתנדבים ומגייסי מתנדבים",
       "description": "מתנדבים ומגייסי מתנדבים",
       "url": "https://ironswords.help/",
       "website": "https://ironswords.help/"
@@ -13,6 +13,7 @@
     {
       "name": "LevEhad",
       "displayName": "לב אחד",
+      "shortDescription": "ארגון המקנה חוסן חברתי ומעניק כוח לרשויות המקומיות בשעות חירום.",
       "description": "ארגון המקנה חוסן חברתי ומעניק כוח לרשויות המקומיות בשעות חירום.",
       "url": "https://www.levechad.org/",
       "website": "https://www.levechad.org/"
@@ -21,12 +22,14 @@
       "name": "KhamalAmEhad",
       "displayName": "חמ״ל עם אחד",
       "description": "חמ״ל המחבר בין משפחות מארחות למשפחות מהדרום, ומגייס תרומות לסיוע התושבים.",
+      "shortDescription": "חמ״ל המחבר בין משפחות מארחות למשפחות מהדרום, ומגייס תרומות לסיוע התושבים.",
       "url": "https://www.am-ehad.org/",
       "website": "https://www.am-ehad.org/"
     },
     {
       "name": "IsraHelp",
       "displayName": "IsraHelp",
+      "shortDescription": "מרכז קישורים ליוזמות סיוע אזרחי בזמן מבצע 'חרבות ברזל'.",
       "description": "מרכז קישורים ליוזמות סיוע אזרחי בזמן מבצע 'חרבות ברזל'.",
       "url": "https://www.coing.co/Israhelp",
       "website": "https://www.coing.co/Israhelp"
@@ -51,8 +54,8 @@
     {
       "name": "TogetherInEmergency",
       "displayName": "ביחד במצב חירום",
-      "shortDescription": "",
       "initiativeImage": "https://together-ecosystem.com/static/media/emergency%20button.620be88d29319a190dc5.png",
+      "shortDescription": "התארגנות וסיוע במצבי חירום - ריכוז יוזמות במגוון נושאים",
       "description": "התארגנות וסיוע במצבי חירום - ריכוז יוזמות במגוון נושאים",
       "url": "https://together-ecosystem.com/emergency",
       "website": "https://together-ecosystem.com/emergency",
@@ -66,6 +69,7 @@
     {
       "name": "Yedidim",
       "displayName": "ידידים",
+      "shortDescription": "לתת חוסן לעורף ולסייע בכל מה שאפשר להצלחת מערך המלחמה!",
       "description": "מאז פרוץ המלחמה פעל ארגון ידידים בתחומים רבים ומגוונים על מנת לתת חוסן לעורף ולסייע בכל מה שאפשר להצלחת מערך המלחמה • ישראל אלמסי – מנכ”ל ידידים: הכאב קשה מנשוא אבל עכשיו הזמן לפעול. באחדותנו ננצח!",
       "url": "https://yedidim-il.org/",
       "article": "https://yedidim-il.org/%D7%99%D7%93%D7%99%D7%93%D7%99%D7%9D-%D7%9E%D7%AA%D7%92%D7%99%D7%99%D7%A1%D7%99%D7%9D-%D7%9C%D7%9E%D7%9C%D7%97%D7%9E%D7%AA-%D7%97%D7%A8%D7%91%D7%95%D7%AA-%D7%91%D7%A8%D7%96%D7%9C/",

@@ -5,7 +5,7 @@
     {
       "name": "SupplyMatch",
       "displayName": "Supply Match",
-      "shortDescription": "",
+      "shortDescription": "חיבור בין מבקשים לנותני ציוד",
       "description": "יוזמה המחברת בין מבקשי ציוד לנותני ציוד",
       "tags": [],
       "url": "https://supply-match.com/",
@@ -14,7 +14,7 @@
     {
       "name": "WoltFoodDonations",
       "displayName": "תרומות מזון ישירות דרך וולט",
-      "shortDescription": "",
+      "shortDescription": "מארזי תרומה למזון בסיסי",
       "description": "מארזי תרומות של מזון דרך ולט לקניה של מזון בסיסי ושימורים",
       "url": "https://wolt.com/he/isr/tel-aviv/venue/support-the-south",
       "website": "https://wolt.com/he/isr/tel-aviv/venue/support-the-south"
@@ -22,7 +22,7 @@
     {
       "name": "IsraelGivesEmergencyAid",
       "displayName": "Israel Emergency Aid",
-      "shortDescription": "Support last mile efforts to deliver life saving equipment to Israeli soldiers and civilians on the front line.",
+      "shortDescription": "Donate to deliver life saving equipment to the front line.",
       "description": "Israel Emergency Aid is a rapid response project formed at the onset of the current war with Hamas, dedicated to providing immediate assistance to soldiers and civilians affected by the war. The mission is to collect funds to swiftly fulfill specific requests from soldiers on the front lines with Gaza and civilians in need of immediate aid. This project operates under the auspices of [IsraelGives](https://israelgivesfund.org/), organized by a group of experienced executives, tech leaders, and law firm partners.",
       "url": "https://www.israelemergencyaid.com/",
       "website": "https://www.israelemergencyaid.com/",

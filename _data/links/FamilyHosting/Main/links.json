@@ -5,15 +5,15 @@
     {
       "name": "SafePlace",
       "displayName": "מקום בטוח - Safe Place",
-      "shortDescription": "",
-      "description": "היוזמה מאפשרת למצוא מארחים נדיבים - אנשים פרטיים, ארגונים ועוד. מאחורי הפיתוח עומדים צוות של מתנדבים האחראים על תפעולה ובדיקת אמינות האנשים שנרשמים בה. ניתן להירשם כאורח וגם כמארח, חוויה כמו חיפוש דירה. לבחור לפי סינונים: מיקום גיאוגרפי, כמות אנשים, סוג המיגון, כשרות, בעלי חיים, לראות צילום של המקום וכו'.",
+      "shortDescription": "יוזמה לאיתור מארחים נדיבים בארץ",
+      "description": "היוזמה מאפשרת למצוא מארחים נדיבים...",
       "url": "https://safe-zone.spiritt.app/",
       "website": "https://safe-zone.spiritt.app/"
     },
     {
       "name": "AtarMearhim",
       "displayName": "אתר מארחים",
-      "shortDescription": "",
+      "shortDescription": "חיפוש בתים מארחים למשפחות",
       "description": "אתר לחיפוש בתים מארחים למשפחות",
       "url": "https://mearhim.vercel.app",
       "website": "https://mearhim.vercel.app"
@@ -21,7 +21,7 @@
     {
       "name": "MiklatMugan",
       "displayName": "מקלט מוגן",
-      "shortDescription": "",
+      "shortDescription": "לוח מודעות לחיפוש בתים מארחים",
       "description": "לוח מודעות לחיפוש בתים מארחים",
       "url": "https://protected-shelter.vercel.app",
       "website": "https://protected-shelter.vercel.app"
@@ -29,8 +29,8 @@
     {
       "name": "MitaBetooha",
       "displayName": "מיטה בטוחה - Safe Bed",
-      "shortDescription": "אתר התנדבותי לסיוע באירוח תושבים מאיזורי עימות",
-      "description": "האתר 'מיטה בטוחה' הוא אתר התנדבותי שנועד לעזור לתושבים שהתפנו מאיזורי העימותים למצוא מקום להתארח ללא עלות. האתר מאפשר למארחים ליצור מקומות אירוח ולמתפנים למצוא אותם. האתר פועל בהתנדבות מלאה ומנוהל על ידי צוות מתנדבים, ומשתמש בטכנולוגיה מתקדמת לקישור בין מארחים לפליטים.",
+      "shortDescription": "אתר התנדבותי לאירוח בזמני עימות",
+      "description": "האתר 'מיטה בטוחה' הוא אתר התנדבותי...",
       "url": "https://safe-bed.info",
       "email": "contact@ryware.dev",
       "tags": [
@@ -40,7 +40,7 @@
     {
       "name": "PeopleFromSouthHosting",
       "displayName": "אירוח משפחות מהדרום",
-      "shortDescription": "",
+      "shortDescription": "ואצאפ לחיבור בין מארחים למשפחות בדרום",
       "description": "קבוצת וואטסאפ לחיבור בין בתים מארחים למשפחות",
       "url": "https://chat.whatsapp.com/E6GofQiyosDLndYKKCcC4v",
       "whatsapp": "https://chat.whatsapp.com/E6GofQiyosDLndYKKCcC4v"
@@ -48,23 +48,24 @@
     {
       "name": "AbraHosting",
       "displayName": "אברא - בית ישראל",
-      "shortDescription": "",
-      "description": "הפלטפורמה מאפשרת חיבור והתאמה בין משפחות שמחפשות פתרונות אירוח לתקופת המלחמה, למשפחות מארחות או לבתים הפנויים לאירוח. הפלטפורמה מאפשרת התאמה על פי פרמטרים שונים כדוגמת אזור מבוקש בארץ, מספר ילדים, תינוקות,  גישה לנכים,  חיות מחמד ועוד.",
+      "shortDescription": "אירוח לתקופת המלחמה במגוון בתים",
+      "description": "הפלטפורמה מאפשרת חיבור והתאמה בין משפחות...",
       "url": "https://bait-israeli.abra-it.com/",
       "website": "https://bait-israeli.abra-it.com/"
     },
     {
       "name": "HostingFromTheHeart",
       "displayName": "אירוח מהלב",
-      "shortDescription": "",
-      "description": "האפליקציה ״אירוח מהלב״ נועדה לחבר בין אנשים שרוצים להתארח לבין אנשים שרוצים לארח ולמצוא להם מקום אירוח בטוח ברחבי הארץ בזמן המלחמה, על מנת שיוכלו להעביר את התקופה הקרובה בביטחה כמה שיותר. האפליקציה קלה מאוד לתפעול ומרכזת את כל המקומות במקום אחד",
+      "shortDescription": "אפליקציה לאירוח בביטחה במלחמה",
+      "description": "האפליקציה ״אירוח מהלב״ נועדה לחבר בין אנשים...",
       "url": "https://www.letitsorti.com/hostingfromtheheartapp",
       "website": "https://www.letitsorti.com/hostingfromtheheartapp"
     },
     {
       "name": "BrothersHostingBrothers",
       "displayName": "אחים מארחים אחים",
-      "description": "מיזם המתאים בין אורחים למארחים בתגובה למלחמה. בתוך 72 שעות הקמנו אתר לתאום ואירוח בין אנשים, בשותפות עם עמותת תכלית.",
+      "shortDescription": "תאום אירוח בין אנשים בתגובה למלחמה",
+      "description": "מיזם המתאים בין אורחים למארחים...",
       "url": "https://apartments-brokerage.onrender.com/",
       "website": "https://apartments-brokerage.onrender.com/",
       "contactEmail": "apartmentbrokerage22@gmail.com",

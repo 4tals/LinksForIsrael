@@ -22,27 +22,28 @@ class GPTAssistant:
         base_query = """
         Our website is initiatives index that route people to the relevant initiatives. Our initiatives are stored as dictionary record. For Example:
         {
-            "name": "HamalMeida",
-            "displayName": "החזית האזרחית - The Civilian Front",
-            "shortDescription": "",
-            "description": "בצוות איכותי וערכי של מתנדבים אזרחים שעובדים מסביב לשעון בשביל להלחם בחזית ההסברתית",
-            "url": "https://chat.whatsapp.com/LGKPchQGakg4E75XYfEfyS",
-            "initiativeValidationDetails": "נמסר בקבוצת WhatsApp. נראה כמו חשבון לגיטימי שנוצר לפני למעלה מ-8 שנים ויש לו כמעט 11 אלף מנויים",
-            "whatsapp": "https://chat.whatsapp.com/LGKPchQGakg4E75XYfEfyS",
-            "telegram": "https://t.me/s/amitsegal",
-            "discord": "https://discord.com/channels/foo",
-            "article": "https://www.ynet.co.il/search?q=haogen4families"
-            "tiktok": "https://chat.whatsapp.com/Hw7fdndJdYy6TPsDii9o5V",
-            "twitter": "https://chat.whatsapp.com/Ez1hDNEt0OZF5a9sGgYueO",
-            "instagram": "https://www.instagram.com/p/Cyc7OYkAbdi/?igshid=MTc4MmM1YmI2Ng%3D%3D",
-            "facebook": "https://www.facebook.com/haogen4families",
-            "drive": https://drive.google.com/drive/folders/19up1kQTiAh-7vXuIgBHklYuNW-Va63_Y,
-            "form": "https://docs.google.com/forms/d/e/1FAIpQLSeB2Ws2_21qvwhfb1aFDhTB0DQSsuyFL4jRIBoSYFHQV7P7xQ/viewform",
-            "docs": "https://docs.google.com/forms/d/e/1FAIpQLSe63ECMBD1YEmAbLovFTvpxek46ZCSuKV9N2mT-G27tTwN2hA/viewform",
-            "tags": ["סושיאל","אינסטגרם","פייסבוק","טוויטר","טיקטוק","הסברה"]
-        },
+            "name": "ExampleName",
+            "displayName": "Example Display Name",
+            "shortDescription": "Example Short Description",
+            "description": "A dedicated team of volunteers working around the clock for a cause.",
+            "url": "https://example.com/group-chat",
+            "initiativeValidationDetails": "Shared in a group chat. Seems like a legitimate account created over 8 years ago with nearly 11k subscribers.",
+            "whatsapp": "https://chat.whatsapp.com/example",
+            "telegram": "https://t.me/example",
+            "discord": "https://discord.com/channels/example",
+            "article": "https://example-news.com/search?q=example",
+            "tiktok": "https://tiktok.com/@example",
+            "twitter": "https://twitter.com/example",
+            "instagram": "https://www.instagram.com/example/",
+            "facebook": "https://www.facebook.com/example",
+            "drive": "https://drive.google.com/drive/folders/example",
+            "form": "https://docs.google.com/forms/d/example/viewform",
+            "docs": "https://docs.google.com/forms/d/example/viewform",
+            "tags": ["Social", "Instagram", "Facebook", "Twitter", "TikTok", "Advocacy"]
+        }
 
-        Using the provided record example structure, new initiative info to generate a new record by adhering to the following guidelines:
+        Using the provided record example structure, new initiative info to generate a new record by adhering to the 
+        following guidelines:
 
         1. Remove Empty Keys: Ensure that no key in the record has an empty or null value.
         2. Tag Optimization: add hebrew tags about the relevant initiative, the tags should aid in efficient searching.
@@ -50,9 +51,9 @@ class GPTAssistant:
         4. Ensure that the "description" field is between 110-130 characters in length.
         5. If exists add initiativeValidationDescription in hebrew upto between 110-130 chars
         6. If a value for a key is empty or "No response" don't add that key to the output response.
-        7. Output the response as json.
-
+        7. Important, please limit the response only to the output json.
         """
+
         formatted_query = base_query + \
             '\n\n new initiative info is:\n```' + text_string + '```'
         return formatted_query
@@ -99,7 +100,7 @@ def get_initiative_details():
 
 def output_response(response: str):
     print(response)
-    sys.stderr.write('GPT Response:\n' + response + "\n")
+    logging.info('GPT Response:\n' + response + "\n")
 
 
 if __name__ == "__main__":

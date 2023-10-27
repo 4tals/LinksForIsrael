@@ -5,6 +5,7 @@
     {
       "name": "BuildToSupport",
       "displayName": "BuildToSupport - לבנות בשביל לתמוך",
+      "description": "",
       "shortDescription": "",
       "url": "https://chat.whatsapp.com/DyIdNxWEONu69Oksm3mRmS",
       "whatsapp": "https://chat.whatsapp.com/FJISqRI01FEBMxF7tBONNt",
@@ -17,6 +18,7 @@
     {
       "name": "PitronotTechEmergency",
       "displayName": "פתרונות טכנולוגיים - צוות חירום",
+      "description": "",
       "shortDescription": "",
       "url": "https://chat.whatsapp.com/DyIdNxWEONu69Oksm3mRmS",
       "whatsapp": "https://chat.whatsapp.com/DyIdNxWEONu69Oksm3mRmS",
@@ -33,8 +35,9 @@
     },
     {
       "name": "HamalYozmot",
-      "displayName": "מוקד חמ\"ל מערך יוזמות",
-      "shortDescription": "",
+      "displayName": "חמל מערך היוזמות",
+      "description": "התחיל כיוזמה של יוצאי חיל המודיעין",
+      "shortDescription": "התחיל כיוזמה של יוצאי חיל המודיעין",
       "url": "https://wa.me/972552419583",
       "whatsapp": "https://wa.me/972552419583"
     },

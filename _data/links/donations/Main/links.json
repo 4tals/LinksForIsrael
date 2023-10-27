@@ -1,26 +1,27 @@
 {
   "name": "DonationsMain",
-  "displayName": "",
+  "displayName": "תרומות",
   "links": [
     {
       "name": "SafeDonate",
       "displayName": "Safe Donate",
       "shortDescription": "אימות קישורים לתרומות",
+      "description": "אימות קישורים לתרומות",
       "url": "https://naboo.ai/safedonate",
       "website": "https://naboo.ai/safedonate"
     },
     {
       "name": "GiveIsrael",
       "displayName": "Give Israel",
-      "shortDescription": "ריכוז תרומות מאומתות בחלוקה לרפואי, צוותית בחזית, יחידות ועוד",
-      "description": "מיועד לתורמים מחו״ל",
+      "shortDescription": "תרומות מאומתות לישראל",
+      "description": "ריכוז תרומות מאומתות בחלוקה לרפואי, צוותית בחזית, יחידות ועוד",
       "url": "https://giveisrael.org/",
       "website": "https://giveisrael.org/"
     },
     {
-      "name": "IsraAid",
+      "name": "Isra-Aid",
       "displayName": "Isra-Aid",
-      "shortDescription": "",
+      "shortDescription": "תמיכה בעורף ובחזית",
       "description": "ריכוז תרומות לחיזוק העורף והלחימה",
       "initiativeImage": "https://www.israaid.org/wp-content/uploads/Emergency-Home-Page-Website-1024x682.jpg",
       "url": "https://isra-aid.org/",
@@ -29,14 +30,14 @@
     {
       "name": "CryptoAidIsrael",
       "displayName": "Crypto Aid Israel",
-      "shortDescription": "",
+      "shortDescription": "תרומות במטבעות קריפטוגרפיים",
       "url": "https://cryptoaidisrael.com/",
       "website": "https://cryptoaidisrael.com/"
     },
     {
       "name": "Yzkor",
       "displayName": "יזכור - חללי חרבות ברזל",
-      "shortDescription": "",
+      "shortDescription": "מידע על חללי ישראל",
       "description": "אתר המרכז מידע על חללי המלחמה",
       "url": "https://www.izkorharavot.com",
       "website": "https://www.izkorharavot.com"
@@ -44,7 +45,7 @@
     {
       "name": "PayboxSection",
       "displayName": "פייבוקס - תרומה לעמותות",
-      "shortDescription": "",
+      "shortDescription": "תרומה ישירה דרך האפליקציה",
       "description": "באפליקציה של פייבוקס יש עמוד של תרומות לעמותות וניתן לבחור עמותה ולתרום לה ישירות",
       "initiativeImage": "https://cdn6.aptoide.com/imgs/6/1/a/61a33873bfe452538aa25b9444692ad0_fgraphic.jpg",
       "website": "https://www.payboxapp.com/",

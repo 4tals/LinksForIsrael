@@ -5,14 +5,15 @@
     {
       "name": "HamalRivonReviiVolunteers",
       "displayName": "מתנדבי דאטה וטכנולוגיה - חמל הרבעון הרביעי",
-      "shortDescription": "",
+      "description": "ריכוז מתנדבי דאטה וטכנולוגיה",
+      "shortDescription": "ריכוז מתנדבי דאטה וטכנולוגיה",
       "url": "https://chat.whatsapp.com/E2HvCLeTNaP601kA71HYxE",
       "whatsapp": "https://chat.whatsapp.com/E2HvCLeTNaP601kA71HYxE"
     },
     {
       "name": "WixOfferingMentorshipSupport",
       "displayName": "הצעה מוויקס לתמיכה במנטורשיפ ותמיכה טכנית",
-      "shortDescription": "",
+      "shortDescription": "תמיכה ממומחי ויקס לעיצוב אתרים ליוזמות",
       "description": "שימו לב - אם אתם מובילים יוזמה אזרחית בהתנדבות להקמת אתר המסייע בחילוץ, הסברה או מתן סיוע אזרחי אחר, וצריכים עזרה בשיפור אתר קיים בויקס או בנייה בפועל של אתר בסיסי, המנטורים של Wix ישמחו לעזור לכם.",
       "initiativeImage": "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/380_Wix_logo-512.png",
       "url": "https://twitter.com/morad/status/1711063336022876357",
@@ -36,6 +37,7 @@
       "name": "IruchCHAPAQMicrosoft",
       "displayName": "אירוח חפ״ק ומתנדבים במשרדי מיקרוסופט",
       "description": "טופס לבקשות. במידה ויאושר נחזור אליכם בפרטי עם אישור ופרטי הגעה.",
+      "shortDescription": "טופס לבקשות. במידה ויאושר נחזור אליכם בפרטי עם אישור ופרטי הגעה.",
       "url": "https://forms.office.com/r/8a1dDR1Kqf",
       "forms": "https://forms.office.com/r/8a1dDR1Kqf",
       "initiativeImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Microsoft_icon.svg/2048px-Microsoft_icon.svg.png",
