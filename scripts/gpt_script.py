@@ -1,5 +1,6 @@
 import logging
 import os
+import sys
 
 import openai
 import requests
@@ -97,7 +98,7 @@ def get_initiative_details():
 
 def output_response(response: str):
     print(response)
-    logging.info('GPT Response:\n' + response + "\n")
+    sys.stderr.write('GPT Response:\n' + response + "\n")
 
 
 if __name__ == "__main__":
