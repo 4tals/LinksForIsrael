@@ -50,7 +50,7 @@ export function CategoriesList({
 									<CategoryContent
 										subCategories={category.subCategories}
 										categoryName={category.displayName}
-										categorylongName={category.description}
+										categoryDescription={category.description}
 									/>
 								</div>
 							)}
