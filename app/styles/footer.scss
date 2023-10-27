@@ -6,6 +6,8 @@
 	padding: 10px;
 	border-top: 1px solid var(--color-divider);
 	color: var(--color-white);
+	height: 7vh;
+	z-index: 10;
 
 	.social-links {
 		display: flex;
