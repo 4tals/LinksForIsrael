@@ -30,8 +30,7 @@
         display: flex;
         flex-direction: column;
         width: 90vw;
-		
-		overflow: hidden; 
+        overflow: hidden;
 
         .links-section-content {
             padding: 32px;
@@ -44,9 +43,13 @@
             ul li a {
                 font-size: 16px;
                 padding: 15px;
+				overflow: hidden;
+				width: 80%;
             }
-			overflow: hidden; 
-			width: 80%;
+        }
+
+        .links-section-title {
+            justify-content: flex-start;
         }
     }
 
