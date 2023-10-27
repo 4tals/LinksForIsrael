@@ -9,7 +9,8 @@ logging.basicConfig(level=logging.INFO)
 
 class GPTAssistant:
     def __init__(self, api_key: str = None, model: str = 'gpt-4'):
-        self.api_key = api_key or os.environ.get('OPENAI_API_KEY')  # Get the API key from the argument or environment
+        # Get the API key from the argument or environment
+        self.api_key = api_key or os.environ.get('OPENAI_API_KEY')
         if self.api_key is None:
             raise ValueError(
                 "No API key provided. Set the OPENAI_API_KEY environment variable or pass the api_key argument.")
@@ -18,6 +19,7 @@ class GPTAssistant:
 
     def format_query(self, text_string: str) -> str:
         base_query = """
+        Our website is initiatives index that route people to the relevant initiatives. Our initiatives are stored as dictionary record. For Example:
         {
             "name": "HamalMeida",
             "displayName": "החזית האזרחית - The Civilian Front",
@@ -27,6 +29,7 @@ class GPTAssistant:
             "whatsapp": "https://chat.whatsapp.com/LGKPchQGakg4E75XYfEfyS",
             "telegram": "https://t.me/s/amitsegal",
             "discord": "https://discord.com/channels/foo",
+            "article": "https://www.ynet.co.il/search?q=haogen4families"
             "tiktok": "https://chat.whatsapp.com/Hw7fdndJdYy6TPsDii9o5V",
             "twitter": "https://chat.whatsapp.com/Ez1hDNEt0OZF5a9sGgYueO",
             "instagram": "https://www.instagram.com/p/Cyc7OYkAbdi/?igshid=MTc4MmM1YmI2Ng%3D%3D",
@@ -36,21 +39,20 @@ class GPTAssistant:
             "docs": "https://docs.google.com/forms/d/e/1FAIpQLSe63ECMBD1YEmAbLovFTvpxek46ZCSuKV9N2mT-G27tTwN2hA/viewform",
             "tags": ["סושיאל","אינסטגרם","פייסבוק","טוויטר","טיקטוק","הסברה"]
         },
-        
-        Using the record structure above. Please take the proceeding info and generate record using the following guidelines:
-        
-        Record Creation Instructions
-        Using the provided user record structure, generate a new record by adhering to the following guidelines:
-        
-        Remove Empty Keys: Ensure that no key in the record has an empty or null value.
-        Tag Optimization: Format the tags in Hebrew to aid in efficient searching.
-        Name Fields in Hebrew: If possible, provide the "displayName" and "description" fields primarily in Hebrew.
-        Description Length: Ensure that the "description" field does not exceed 120 characters in length.
-        If exists add initiative Validation description in hebrew upto 120 chars.
-        If a value for a key is empty or "No response", we can just remove it.
-        Please limit the response only to the output json.
+
+        Using the provided record example structure, new initiative info to generate a new record by adhering to the following guidelines:
+
+        1. Remove Empty Keys: Ensure that no key in the record has an empty or null value.
+        2. Tag Optimization: add hebrew tags about the relevant initiative, the tags should aid in efficient searching.
+        3. If possible, provide the "displayName" and "description" fields in Hebrew.
+        4. Ensure that the "description" field is between 110-130 characters in length.
+        5. If possible add initiative Validation description in hebrew upto 120 chars.
+        6. If a value for a key is empty or "No response" don't add that key to the output response.
+        7. Output the response as json.
+
         """
-        formatted_query = base_query + '\n\n The msg that should be formatted is:\n```' + text_string + '```'
+        formatted_query = base_query + \
+            '\n\n new initiative info is:\n```' + text_string + '```'
         return formatted_query
 
     def query_via_api(self, text_string: str) -> str:
