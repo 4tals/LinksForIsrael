@@ -27,6 +27,7 @@ class GPTAssistant:
             "shortDescription": "",
             "description": "בצוות איכותי וערכי של מתנדבים אזרחים שעובדים מסביב לשעון בשביל להלחם בחזית ההסברתית",
             "url": "https://chat.whatsapp.com/LGKPchQGakg4E75XYfEfyS",
+            "initiativeValidationDetails": "נמסר בקבוצת WhatsApp. נראה כמו חשבון לגיטימי שנוצר לפני למעלה מ-8 שנים ויש לו כמעט 11 אלף מנויים",
             "whatsapp": "https://chat.whatsapp.com/LGKPchQGakg4E75XYfEfyS",
             "telegram": "https://t.me/s/amitsegal",
             "discord": "https://discord.com/channels/foo",
@@ -47,7 +48,7 @@ class GPTAssistant:
         2. Tag Optimization: add hebrew tags about the relevant initiative, the tags should aid in efficient searching.
         3. If possible, provide the "displayName" and "description" fields in Hebrew.
         4. Ensure that the "description" field is between 110-130 characters in length.
-        5. If possible add initiative Validation description in hebrew upto 120 chars.
+        5. If exists add initiativeValidationDescription in hebrew upto between 110-130 chars
         6. If a value for a key is empty or "No response" don't add that key to the output response.
         7. Output the response as json.
 
