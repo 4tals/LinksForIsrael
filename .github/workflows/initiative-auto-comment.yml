@@ -34,19 +34,35 @@ jobs:
         run: |
           output=$(python scripts/gpt_script.py)
           echo "Raw output: $output"
-          processed_output=$(echo "$output" | jq -c .)
-          echo "RESPONSE=$processed_output" >> $GITHUB_ENV
+          echo "$output" > "$GITHUB_WORKSPACE/gpt-auto-comment.output"
 
       - name: Post comment
         uses: actions/github-script@v6
         with:
           script: |
-            const issueNumber = context.issue.number;
-            const responseJSON = JSON.parse(process.env.RESPONSE);
+            const fs = require('fs')
+
+            const gptResponse = fs.readFileSync("$GITHUB_WORKSPACE/gpt-auto-comment.output")
+
+            const jsonStartMarker = "```json"
+            const jsonEndMarker = "```"
+
+            const indexOfJsonStart = gptResponse.indexOf(jsonStartMarker);
+            if (indexOfJsonStart === -1) {
+              gptResponseJson = gptResponse;
+            } 
+            else {
+              const indexOfJsonEnd = gptResponse.indexOf(jsonEndMarker, indexOfJsonStart + 1);
+              gptResponseJson = gptResponse.substring(indexOfJsonStart + jsonStartMarker.length, indexOfJsonEnd);
+            }
+
+            console.log("Extracted JSON: " + gptResponseJson)
+            const responseJSON = JSON.parse(gptResponseJson);
+            
             const response = "```json\n" + JSON.stringify(responseJSON, null, 2) + "\n```";
             github.rest.issues.createComment({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              issue_number: issueNumber,
+              issue_number: context.issue.number,
               body: response
             });
