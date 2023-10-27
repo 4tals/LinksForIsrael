@@ -3,6 +3,23 @@
   "displayName": "יוזמות קיימות",
   "links": [
     {
+      "name": "NationalDroneInitiative",
+      "displayName": "מיזם הרחפנים הלאומי - National Drone Initiative",
+      "shortDescription": "",
+      "description": "מיזם הרחפנים הלאומי עוסק בהסדרת המרחב האווירי ובניית תשתיות רגולטוריות להטסת כלים אוטונומיים לתועלת הציבור.",
+      "url": "https://innovationisrael.org.il/civiliandronecenter/",
+      "website": "https://innovationisrael.org.il/civiliandronecenter/",
+      "initiativeValidationDetails": "המקור: קבוצת וואטסאפ. קישור למקור מהימן שמקדם את המיזם: https://innovationisrael.org.il/civiliandronecenter/. האתר הרשמי של רשות החדשנות.",
+      "initiativeImage": "https://innovationisrael.org.il/wp-content/uploads/2023/10/Untitled-1-1024x188.png",
+      "tags": [
+        "התנדבות",
+        "רחפנים",
+        "הרחפנים הלאומי",
+        "רחפן",
+        "טכנולוגיה"
+      ]
+    },
+    {
       "name": "mitmadvimAutomation",
       "displayName": "אוטומציה בין מתנדבים למחפשי עזרה",
       "shortDescription": "",
