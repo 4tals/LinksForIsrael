@@ -1,0 +1,67 @@
+name: Initiative Request - Auto Comment
+
+on:
+  issues:
+    types: [opened, edited]
+
+jobs:
+  add-comment:
+    if: contains(github.event.issue.labels.*.name, 'new-initiative-request')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
+      
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run GPT script
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          ISSUE_BODY: ${{ github.event.issue.body }}
+        run: |
+          output=$(python scripts/gpt_script.py)
+          echo "Raw output: $output"
+          echo "$output" > "$GITHUB_WORKSPACE/gpt-auto-comment.output"
+
+      - name: Post comment
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const fs = require('fs')
+
+            const gptResponse = fs.readFileSync(process.env.GITHUB_WORKSPACE + "/gpt-auto-comment.output", 'utf8')
+
+            const jsonStartMarker = "```json"
+            const jsonEndMarker = "```"
+
+            const indexOfJsonStart = gptResponse.indexOf(jsonStartMarker);
+            if (indexOfJsonStart === -1) {
+              gptResponseJson = gptResponse;
+            } 
+            else {
+              const indexOfJsonEnd = gptResponse.indexOf(jsonEndMarker, indexOfJsonStart + 1);
+              gptResponseJson = gptResponse.substring(indexOfJsonStart + jsonStartMarker.length, indexOfJsonEnd);
+            }
+
+            console.log("Extracted JSON: " + gptResponseJson)
+            const responseJSON = JSON.parse(gptResponseJson);
+            
+            const response = "```json\n" + JSON.stringify(responseJSON, null, 2) + "\n```";
+            github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: response
+            });
