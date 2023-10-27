@@ -100,7 +100,7 @@ def get_initiative_details():
 
 def output_response(response: str):
     print(response)
-    sys.stderr.write('GPT Response:\n' + response + "\n")
+    logging.info('GPT Response:\n' + response + "\n")
 
 
 if __name__ == "__main__":
