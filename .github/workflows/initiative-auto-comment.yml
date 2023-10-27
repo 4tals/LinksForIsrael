@@ -42,7 +42,7 @@ jobs:
           script: |
             const fs = require('fs')
 
-            const gptResponse = fs.readFileSync("$GITHUB_WORKSPACE/gpt-auto-comment.output")
+            const gptResponse = fs.readFileSync(process.env.GITHUB_WORKSPACE + "/gpt-auto-comment.output")
 
             const jsonStartMarker = "```json"
             const jsonEndMarker = "```"
