@@ -1,48 +1,33 @@
-name: Run Script on New Issue
+name: Initiative Request - Auto Comment
 
 on:
   issues:
-    types: [opened, edited]
-
-permissions:
-  contents: read
-  issues: write
-  pull-requests: read
+    types: [opened, edited, labeled]
 
 jobs:
-  run-script:
+  add-comment:
+    if: contains(github.event.issue.labels.*.name, 'new-initiative-request')
     runs-on: ubuntu-latest
-    outputs:
-      match: ${{ steps.check.outputs.match }}
-
+    permissions:
+      contents: read
+      issues: write
+      
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Check Label and Title
-        id: check
-        run: |
-          echo "::set-output name=match::false"
-          if [[ "${{ github.event.issue.title }}" == "[NEW-INITIATIVE]: "* ]]; then
-            echo "::set-output name=match::true"
-          fi
-
       - name: Set up Python
-        if: steps.check.outputs.match == 'true'
         uses: actions/setup-python@v4
         with:
           python-version: "3.11"
 
       - name: Install dependencies
-        if: steps.check.outputs.match == 'true'
         run: |
           sudo apt-get install -y jq
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run script
-        id: run-script
-        if: steps.check.outputs.match == 'true'
+      - name: Run GPT script
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           ISSUE_BODY: ${{ github.event.issue.body }}
@@ -51,11 +36,10 @@ jobs:
           echo "Raw output: $output"
           processed_output=$(echo "$output" | jq -c .)
           echo "RESPONSE=$processed_output" >> $GITHUB_ENV
+
       - name: Post comment
-        if: steps.check.outputs.match == 'true' && steps.run-script.outcome == 'success'
-        uses: actions/github-script@v5
+        uses: actions/github-script@v6
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             const issueNumber = context.issue.number;
             const responseJSON = JSON.parse(process.env.RESPONSE);
