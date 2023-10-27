@@ -1,14 +1,37 @@
-
 {
   "name": "ReservesMain",
-  "displayName": "מידע כללי",
+  "displayName": "יוזמות עבור משרתי המילואים",
   "links": [
     {
       "name": "MiluimSite",
       "displayName": "אתר המילואים",
       "shortDescription": "",
+      "description": "ביום שבת 7.10.2023, פרצה מלחמה בישראל והתעוררנו למציאות חדשה ואכזרית.  רבים ורבות מאיתנו עזבו הכול מיד, השאירו את היקרים להם מכול בעורף והתייצבו לעמוד לצד חבריהם לנשק במערכה הקשה.  אנו יוצאי־ות היחידות הקרביות והמודיעיניות, נערכים לסייע בכל הנדרש למשפחות המילואמינקים־יות בהבנה שלפנינו אירוע מתגלגל המשתנה מדי שעה. אנחנו, תומכים־ות מהבית נעשה הכול כדי שאף אזרח, מקשיש ועד טף - לא ישארו לבד.",
       "url": "https://www.miluim.org/",
-      "website": "https://www.miluim.org/"
+      "website": "https://www.miluim.org/",
+      "facebook": "https://www.facebook.com/tomchimmehabait",
+      "phone": "0732272182",
+      "initiativeImage": "https://static.wixstatic.com/media/fae1f9_51b3425992844eebaf3dd10d2782dd51~mv2.jpg/v1/fill/w_1275,h_632,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/fae1f9_51b3425992844eebaf3dd10d2782dd51~mv2.jpg"
+    },
+    {
+      "name": "AnchorForReserveFamilies",
+      "displayName": "העוגן למשפחות המילואים",
+      "description": "עזרה למשפחות משרתי מילואים, משרתי קבע והורים יחדניים מגני תקווה",
+      "initiativeValidationDetails": "מקור: קבוצת WhatsApp. קישור למקורות מהימנים המקדמים את היוזמה: https://govextra.gov.il/muni/maaleedomim/home/ פרטי קשר של חברי צוות היוזמה",
+      "url": "https://bit.ly/m/haogen4families",
+      "initiativeImage": "https://scontent.ftlv19-2.fna.fbcdn.net/v/t39.30808-6/394267775_122105624072076295_6369174910357387923_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=TO5Ssd1C9LEAX_aAMwZ&_nc_ht=scontent.ftlv19-2.fna&oh=00_AfDGX0zVziFXUq2cM10Tupero0eMGik5s0CdELPVkCIWCA&oe=653FD116",
+      "website": "https://bit.ly/m/haogen4families",
+      "facebook": "https://www.facebook.com/haogen4families?locale=he_IL",
+      "form": "https://forms.monday.com/forms/283d7bd8e98ba4fc2f2f1ab888c455a0?r=euc1",
+      "tags": [
+        "משרתי מילואים",
+        "משרתי קבע",
+        "הורים יחדניים",
+        "גני תקווה",
+        "דרום",
+        "מרכז",
+        "צפון"
+      ]
     }
   ]
 }

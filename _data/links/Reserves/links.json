@@ -1,8 +1,9 @@
 {
   "name": "Reserves",
   "displayName": "מילואים",
-  "longDisplayName": "מילואים כללי",
-  "description": "",
+  "description": "מילואימניקים - גיבורי הברזל בחזית",
   "image": "https://t3.ftcdn.net/jpg/03/27/36/14/360_F_327361440_YQuXrkCWJ4HkQKwGAYEWX5bTMdlVug4I.jpg",
-  "subCategories": [ "Main" ]
+  "subCategories": [
+    "Main"
+  ]
 }
