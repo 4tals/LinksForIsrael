@@ -72,7 +72,7 @@ function LinkItem({ link }: { link: Link }) {
 			</a>
 			<div className="link-icons">
 				{link.initiativeImage && (
-					<a href={link.initiativeImage} target="_blank">
+					<a href={link.url} target="_blank">
 						<img
 							className="link-initiative-icon"
 							src={link.initiativeImage}

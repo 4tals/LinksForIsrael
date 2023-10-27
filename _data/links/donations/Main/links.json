@@ -23,6 +23,7 @@
       "shortDescription": "",
       "description": "ריכוז תרומות לחיזוק העורף והלחימה",
       "initiativeImage": "https://www.israaid.org/wp-content/uploads/Emergency-Home-Page-Website-1024x682.jpg",
+      "url": "https://isra-aid.org/",
       "website": "https://isra-aid.org/"
     },
     {
@@ -46,7 +47,8 @@
       "shortDescription": "",
       "description": "באפליקציה של פייבוקס יש עמוד של תרומות לעמותות וניתן לבחור עמותה ולתרום לה ישירות",
       "initiativeImage": "https://cdn6.aptoide.com/imgs/6/1/a/61a33873bfe452538aa25b9444692ad0_fgraphic.jpg",
-      "website": "https://www.payboxapp.com/"
+      "website": "https://www.payboxapp.com/",
+      "url": "https://www.payboxapp.com/"
     }
   ]
 }
