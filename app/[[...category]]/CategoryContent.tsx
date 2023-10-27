@@ -9,9 +9,11 @@ import { ShareButtons } from "./ShareButtons";
 export function CategoryContent({
 	categoryName,
 	subCategories,
+	categoryDescription,
 }: {
 	categoryName: string;
 	subCategories: Array<SubCategoryData>;
+	categoryDescription: string;
 }) {
 	const [openDialog, setOpenDialog] = useState(false);
 	const [description, setDescription] = useState<{
@@ -28,19 +30,15 @@ export function CategoryContent({
 				toggleModal={setOpenDialog}
 			/>
 			<div className="share-container">
-				<span className="me-3" onClick={() => setOpenDialog(true)}>
-					ניתן לשתף ישירות את &quot;<b>{categoryName}</b>&quot; באמצעות
-				</span>
+				<div className="category-description">{categoryDescription}</div>
 				<ShareButtons category={categoryName} />
 			</div>
-			<ul className="links-section-list pr-10">
+
+			<ul className="links-section-list">
 				{subCategories.map((subcategory) => (
 					<Fragment key={subcategory.name}>
-						{subcategory.name !== "Main" && (
-							<h3
-								className="links-section-subcategory text-xl mb-4"
-								key={subcategory.name}
-							>
+						{
+							<h3 key={subcategory.name} className="links-subcategory-header">
 								{subcategory.displayName}
 								<LinksList
 									links={subcategory.links}
@@ -48,7 +46,7 @@ export function CategoryContent({
 									setDescription={setDescription}
 								/>
 							</h3>
-						)}
+						}
 					</Fragment>
 				))}
 			</ul>
@@ -70,9 +68,13 @@ function LinksList({
 		return <p key={name}>בקרוב</p>;
 	}
 
-	return links.map((link) => (
-		<LinkItem link={link} key={link.name} setDescription={setDescription} />
-	));
+	return (
+		<div className="links-section-subcategory">
+			{links.map((link) => (
+				<LinkItem link={link} key={link.name} setDescription={setDescription} />
+			))}
+		</div>
+	);
 }
 
 function LinkItem({
@@ -115,16 +117,15 @@ function LinkItem({
 				)}
 			</a>
 			{link.description?.length > 0 ? (
-				<>
-					<br />
+				<p className="more-btn">
 					<button
 						className="mainButton"
-						style={{ fontSize: ".5em", padding: "0.5em 1em" }}
+						style={{ fontSize: ".65em" }}
 						onClick={() => showMore(link)}
 					>
 						קרא עוד
 					</button>
-				</>
+				</p>
 			) : (
 				<LinkIcons link={link} />
 			)}
@@ -135,7 +136,7 @@ function LinkItem({
 const LinkIcons = ({ link }: { link: Link }) => (
 	<div className="link-icons">
 		{link.initiativeImage && (
-			<a href={link.initiativeImage} target="_blank">
+			<a href={link.url} target="_blank">
 				<img
 					className="link-initiative-icon"
 					src={link.initiativeImage}

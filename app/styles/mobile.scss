@@ -12,9 +12,9 @@
         flex-direction: column;
         width: 90vw;
 
-        &[open] .open-caret {
-            transform: rotate(180deg);
-        }
+        // &[open] .open-caret {
+        //     transform: rotate(180deg);
+        // }
 
         .links-section-content {
             padding: 32px;
@@ -60,9 +60,9 @@
         .desktop-grid {
             display: block;
 
-            .open-caret {
-                transform: rotate(0deg);
-            }
+            // .open-caret {
+            //     transform: rotate(0deg);
+            // }
         }
     }
 }
