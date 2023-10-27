@@ -1,7 +1,7 @@
 {
   "name": "Defense",
-  "displayName": "הגנה אישית",
-  "description": "מידע וכלים עבור הגנה אישית וקבוצתית במצבי חירום",
+  "displayName": "הגנה",
+  "description": "הגנה אישית וחברתית - מידע וכלים עבור לשגרה וחירום",
   "image": "https://cdn-icons-png.flaticon.com/512/8193/8193190.png",
   "subCategories": [
     "Protect",
