@@ -27,20 +27,6 @@
         "קשר",
         "התנדבות"
       ]
-    },
-    {
-      "name": "NewGuard",
-      "displayName": "השומר החדש",
-      "description": "חמ\"ל החירום של ארגון השומר החדש - גיוס מתנדבים לאבטחת חוות, סיוע חקלאי",
-      "url": "https://www.hashomer.org.il/",
-      "website": "https://www.hashomer.org.il/",
-      "initiativeImage": "https://mechinot.org.il/media/k2/items/cache/16822367322e1baa95f96880889cf876_XL.jpg",
-      "initiativeValidationDetails": "מקור: ארגון ידוע מזמן רב לפני המלחמה",
-      "tags": [
-        "התנדבות",
-        "חקלאות",
-        "ביטחון מזון"
-      ]
     }
   ]
 }
