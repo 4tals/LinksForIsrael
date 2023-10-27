@@ -96,7 +96,6 @@
 .links-section-item-short-description {
 	font-size: 14px;
 	font-weight: 400;
-	display: none;
 }
 
 .share-button-style {
@@ -197,13 +196,25 @@
 		.links-section-subcategory {
 			display: flex; // Makes it a flex container
 			flex-shrink: 0;
-			flex-wrap: wrap; // Allows children to wrap to the next row
+			flex-wrap: nowrap; // Prevents content from wrapping
 			gap: 16px;
 			border-radius: 5px;
+			overflow-x: auto; // Horizontal scrolling
 			transition: background-color 0.3s ease;
-
+		
 			&:hover {
 				background-color: rgba(200, 200, 200, 0.15);
+			}
+			
+			// Optional: Style the scrollbar for a neater appearance
+			&::-webkit-scrollbar {
+				height: 6px;
+				background-color: transparent;
+			}
+		
+			&::-webkit-scrollbar-thumb {
+				border-radius: 3px;
+				background-color: rgba(0, 0, 0, 0.2);
 			}
 		}
 	}
