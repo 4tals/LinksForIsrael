@@ -61,7 +61,7 @@
 		font-size: 0.9rem; // Adjust this value as desired
 		font-weight: 400;
 	}
-	
+
 	padding: 16px 24px;
 	border-radius: 15px;
 	margin-top: 10px;
@@ -89,6 +89,7 @@
 .links-section-item-short-description {
 	font-size: 14px;
 	font-weight: 400;
+	display: none;
 }
 
 .share-button-style {
@@ -148,7 +149,6 @@
 		font-size: x-large;
 		font-weight: bolder;
 	}
-	
 
 	.desktop-content {
 		display: block;

@@ -12,6 +12,7 @@
     {
       "name": "FindMe",
       "displayName": "מיזם FindMe",
+      "description": "מאפשר למשפחות לשלוח פרטים נוספים על הנעדרים לסיוע בזיהוי כחטופים או חללים - מיזם בשיתוף מתנדבים מחברת פאלו-אלטו ",
       "shortDescription": "מאפשר למשפחות לשלוח פרטים נוספים על הנעדרים לסיוע בזיהוי כחטופים או חללים - מיזם בשיתוף מתנדבים מחברת פאלו-אלטו ",
       "url": "https://www.findme-service.org/form",
       "website": "https://www.findme-service.org/form",
@@ -20,7 +21,7 @@
     {
       "name": "IkhunMakhshirim",
       "displayName": "היוזמה לאיכון מכשירי נעדרים - בוגרי יחידות טכנולוגיות",
-      "shortDescription": "",
+      "shortDescription": "מתנדבים למציאת נעדרים ע״י מכשור טכנולוגי (לפטופ, טלפון ישן וכיו״ב)",
       "description": "מתנדבים למציאת נעדרים ע״י מכשור טכנולוגי (לפטופ, טלפון ישן וכיו״ב)",
       "url": "https://docs.google.com/forms/d/e/1FAIpQLSduujH277Cqt31XgOZfTZFAD4ua_YN8fXUtAlwOAHX2q9Emww/viewform?usp=sf_link",
       "docs": "https://docs.google.com/forms/d/e/1FAIpQLSduujH277Cqt31XgOZfTZFAD4ua_YN8fXUtAlwOAHX2q9Emww/viewform?usp=sf_link"

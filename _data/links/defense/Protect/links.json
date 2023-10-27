@@ -5,7 +5,7 @@
     {
       "name": "EligibilityForWeapon",
       "displayName": "ריכז מידע על נשק ורישיון",
-      "shortDescription": "",
+      "shortDescription": "ריכז מידע על נשק ורישיון",
       "description": "אתר המשרד לביטחון פנים: מחשבון לבדיקת זכאות לרישיון כלי ירייה פרטי",
       "url": "./docs/weapon",
       "portal": "./docs/weapon",
@@ -18,9 +18,10 @@
     {
       "name": "niliOnline",
       "displayName": "ניל״י-אונליין",
+      "shortDescription": "דיווח על סטודנטים תומכי טרור. נזכור כל מי שהביע אהדה, שמחה ושבח.",
       "description": "פרויקט הדיווח של סטודנטים תומכי טרור. יוצר ע״י אזרחים שרוצים לזכור כל מי שהביע אהדה, שמחה ושבח.",
       "url": "https://t.me/onlinenili",
-      "initiativeImage": "https://cdn4.telegram-cdn.org/file/hqKot68Ot2DEEOK46OyF1hc2KYbcWbDPp_N8ddbXeR6MerO5wdmk8al3Dc0ejxXTku9O_E30AcQ4HjX6gHsgZWS0IQ1URmSQx-JKha8R7Gl_5lWY3RvuoqJZhg53n7YOmz93ePhTT-6qgDSGp1TjY8HXAKh_lDy8NiVn86tREQPAYwAwGMyu0DH7QAgVEUrgNvIT6dhzaajLtwygYTTI7v_p_5zgFsYTQvkL42SKnIq3rWsPp-XYuP2ROiSrKTJ37fLVr7z58IuUjSYLmh-42gtPeyjmHNoavaEG6u3-zSdcmSc7_wKv7_0n832kwrmW7R6uw_QYARy2nZb138ILtw.jpg",
+      "initiativeImage": "https://cdn4.telegram-cdn.org/file/GtL-FMkQ-ftMobr3Q5xpSJLh8yj1_6ZPdYe_vGw2XmSMH8hoUCpxomjXJtOVIzXfXaVv0bcTeC0sQvVYJUPZaR1NdOxu7cS53IlEWdyQYYPR0D9cmGjQG6e5ES0Vk8A3FA4VwidG_qrkO3wA7FZJRF0MNDJJWXOs8vWulrURfKpEqNZsuISE8F8hIr64OeSu2EPR5BRlmS6f5YpHk0h-8MtrMtroqH67i0S3g2t_Ewykvg5MuLz1MU8sw_5-m5FjrqJSZynkT9JKSsO24jmMzJlybMwlfWDt5dcyAeR4Fko3PSvK7yyeZif96tKwZ4F3WlZlTMS3NvfURwy99k_xRw.jpg",
       "initiativeValidationDetails": "נילי-אונליין מאפשר לדווח באמצעות טופס ייעודי או דרך פייסבוק קישור עמוד הפייסבוק זמין בתיאור.",
       "telegram": "https://t.me/onlinenili",
       "form": "https://forms.gle/WYi2Vs55iead9zYj9",
@@ -36,6 +37,7 @@
     {
       "name": "The Iron Fire - פיטורי הברזל",
       "displayName": "פיטורי הברזל - The Iron Fire",
+      "shortDescription": "דיווח למעסיקים בינלאומיים על עובדים ההתומכים בטרור והחמאס",
       "description": "כלי עזר לדיווח למעסיקים בינלאומיים על עובדים המפיצים תוכן התומך בטרור החמאס",
       "initiativeValidationDetails": "נמסר בקבוצת WhatsApp. נראה כמו חשבון לגיטימי שנוצר לפני למעלה מ-8 שנים ויש לו כמעט 11 אלף מנויים",
       "website": "https://the-iron-fire.unicornplatform.page/",

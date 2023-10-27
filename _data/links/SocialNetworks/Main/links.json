@@ -6,6 +6,7 @@
       "name": "The Iron Fire - פיטורי הברזל",
       "displayName": "פיטורי הברזל - The Iron Fire",
       "description": "כלי עזר לדיווח למעסיקים בינלאומיים על עובדים המפיצים תוכן התומך בטרור החמאס",
+      "shortDescription": "כלי עזר לדיווח למעסיקים בינלאומיים על עובדים המפיצים תוכן התומך בטרור החמאס",
       "initiativeValidationDetails": "נמסר בקבוצת WhatsApp. נראה כמו חשבון לגיטימי שנוצר לפני למעלה מ-8 שנים ויש לו כמעט 11 אלף מנויים",
       "website": "https://the-iron-fire.unicornplatform.page/",
       "twitter": "https://twitter.com/unicornplatform",
@@ -21,7 +22,7 @@
     {
       "name": "SocialNetworksReportWhatsapp",
       "displayName": "דיווח על עמודים - חרבות ברזל",
-      "shortDescription": "",
+      "shortDescription": "קבוצה לדיווח על פירסומים אנטי-ישראלים, פוגעניים, ופייק ניוז",
       "description": "קבוצה לדיווח על פירסומים אנטי-ישראלים, פוגעניים, ופייק ניוז",
       "url": "https://chat.whatsapp.com/IKrNlfjrV8O5tBuBMpPOmV",
       "whatsapp": "https://chat.whatsapp.com/IKrNlfjrV8O5tBuBMpPOmV"
@@ -30,6 +31,7 @@
       "name": "BlockTheHate",
       "displayName": "Block The Hate - בלוק השנאה",
       "description": "בשבוע האחרון הקמנו פרויקט שמטרתו להילחם בשנאה לישראל ברשתות. הפלטפורמות הפכו לזירת מלחמה עם תכנים אלימים ואנטישמיים. פיתחנו בוט לסריקה אוטומטית, דיווח וחסימה.",
+      "shortDescription": "בשבוע האחרון הקמנו פרויקט שמטרתו להילחם בשנאה לישראל ברשתות",
       "url": "https://www.blockthehateil.com/",
       "website": "https://www.blockthehateil.com/",
       "whatsapp": "https://chat.whatsapp.com/Ij3IPuMRMT88NbwsCz31Aq",
@@ -64,6 +66,7 @@
       "name": "LinkedInPublicity",
       "displayName": "קול קורא: בואו תעזרו לנו בהסברה בלינקדאין",
       "description": "קבוצה של משפיענים בלינקדאין להגדיל חשיפה, חידוד מסרים, דיווחים על פרופילים ועוד.",
+      "shortDescription": "להגדיל חשיפה, חידוד מסרים, דיווחים על פרופילים ועוד.",
       "initiativeValidationDetails": "קורא: אני שוחחתי עם הקולגה שלי, הוא לשעבר עובד ב-MS, מאמת כל חבר חדש",
       "whatsapp": "https://chat.whatsapp.com/EQopAWUyRrt8IIg5M7ZvbV",
       "url": "https://chat.whatsapp.com/EQopAWUyRrt8IIg5M7ZvbV",
@@ -79,6 +82,7 @@
       "name": "BotEmetHaBarzel",
       "displayName": "בוט אמת הברזל",
       "description": "בוט לדיווח על תכנים שקריים ברשתות החברתיות, עזרו לדווח על תכנים מסיתים שברשת - אלפי מתנדבים ",
+      "shortDescription": "בוט לדיווח על תכנים שקריים ברשתות החברתיות, עזרו לדווח על תכנים מסיתים שברשת ",
       "url": "https://t.me/IronTruthBot",
       "telegram": "https://t.me/IronTruthBot",
       "tags": [
@@ -94,7 +98,7 @@
     {
       "name": "TerrorSupportersTrolling",
       "displayName": "להטריל תומכי טרור",
-      "shortDescription": "",
+      "shortDescription": "אתר להטרלת תומכי טרור ברשתות החברתיות",
       "description": "אתר להטרלת תומכי טרור ברשתות החברתיות",
       "initiativeImage": "https://cdn4.telegram-cdn.org/file/ROis87ikX-g98-COcnS1vizOViivUpUeoDIc6-2z0vy2dbiH8iMZMnjqhAQ77ueFQZozYcNHHhgau3Lmqd0TIbwOb0UP0dPgkFbMJsiQ_aqAR_Ufn6JB7lv_bZ3xgebG-qF7SNS8Qyw2NsC5Z4Ghydd1arGzN4VZiIyqxe93qEbvMntZauEwey4C5PjkHs_5jJxOHcK5SfiWkyPbiP_d907Vv63HpYizcysN0u6DyTuY_uhp96t-0u-JT527C8Pm_gQ7NPayzcy1TDtWYPP2EAk2CB5OBSrUuY8huZgXCc_1-ikUxflFWDJKGXKnmPybdeeIIqs5-6uMo5r3cypbRw.jpg",
       "website": "https://devhelps.github.io/you-stand-with-israel/",

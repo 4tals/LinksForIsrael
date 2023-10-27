@@ -1,68 +1,71 @@
 @media only screen and (max-width: 600px) {
+	.links-section-item-short-description {
+		display: flex;
+	}
 
-    .links-section {
-        align-items: center;
-        border-radius: 30px;
-        border: 2px solid #0038b8;
-        background: var(--color-white);
-        min-height: 100px;
-        margin-block-end: 16px;
-        color: var(--header-text-color);
-        display: flex;
-        flex-direction: column;
-        width: 90vw;
+	.links-section {
+		align-items: center;
+		border-radius: 30px;
+		border: 2px solid #0038b8;
+		background: var(--color-white);
+		min-height: 100px;
+		margin-block-end: 16px;
+		color: var(--header-text-color);
+		display: flex;
+		flex-direction: column;
+		width: 90vw;
 
-        // &[open] .open-caret {
-        //     transform: rotate(180deg);
-        // }
+		// &[open] .open-caret {
+		//     transform: rotate(180deg);
+		// }
 
-        .links-section-content {
-            padding: 32px;
-            display: block;
+		.links-section-content {
+			padding: 32px;
+			display: block;
 
-            hr {
-                display: block;
-            }
+			hr {
+				display: block;
+			}
 
-            ul li a {
-                font-size: 16px;
-                padding: 15px;
-            }
-        }
+			ul li a {
+				font-size: 16px;
+				padding: 15px;
+			}
+		}
 
-        .links-section-title {
-            justify-content: flex-start;
-        }
-    }
+		.links-section-title {
+			justify-content: flex-start;
+		}
+	}
 
-    .links-section-item {
-        flex-basis: 100%;
-        width: 100%;
-    }
+	.links-section-item {
+		flex-basis: 100%;
+		width: 100%;
+	}
 
-    .category-icon {
-        margin-left: 10px;
-    }
+	.category-icon {
+		margin-left: 10px;
+	}
 
-    .main-content {
-        max-width: 64em;
-        padding: 2rem 1rem;
-        font-size: 1rem;
-        
-        .desktop-category {
-            height: auto;
-        }
+	.main-content {
+		max-width: 64em;
+		padding: 2rem 1rem;
+		font-size: 1rem;
 
-        .desktop-content {
-            display: none;
-        }
+		.desktop-category {
+			height: auto;
+		}
 
-        .desktop-grid {
-            display: block;
+		.desktop-content {
+			display: none;
+		}
 
-            // .open-caret {
-            //     transform: rotate(0deg);
-            // }
-        }
-    }
+		.desktop-grid {
+			display: block;
+
+			// .open-caret {
+			//     transform: rotate(0deg);
+			// }
+		}
+	}
 }
