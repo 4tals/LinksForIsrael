@@ -109,6 +109,9 @@ function LinkItem({
 					<p>{link.description}</p>
 					<br />
 					<LinkIcons link={link} />
+					<a href={link.url} target="_blank" className="popup-link-btn">
+						פתח יוזמה
+					</a>{" "}
 				</>
 			),
 		});

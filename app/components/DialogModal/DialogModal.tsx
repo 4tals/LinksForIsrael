@@ -46,12 +46,6 @@ export function DialogModal({
 			</header>
 
 			<section className="dialogContent">{body}</section>
-
-			<footer>
-				<button onClick={closeDialog} className="closeButton">
-					סגור
-				</button>
-			</footer>
 		</dialog>
 	);
 }
