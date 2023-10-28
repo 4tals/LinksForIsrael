@@ -4,20 +4,27 @@
     }
 
     .links-section-subcategory {
-        display: flex;
-        flex-wrap: nowrap;       // Prevent content from wrapping to the next line
-        overflow-x: auto;        // Enables horizontal scrolling if content overflows
-        overflow-y: hidden;      // Prevents vertical scrolling
-        white-space: nowrap;     // Prevents contents from wrapping onto next line
-        max-height: 30vh;
+		display: flex;
+		flex-wrap: nowrap; // Prevent content from wrapping to the next line
+		overflow-x: scroll; // Enables horizontal scrolling if content overflows
+		overflow-y: hidden; // Prevents vertical scrolling
+		white-space: nowrap; // Prevents contents from wrapping onto next line
+		max-height: 30vh;
 		max-width: 100vw;
-        -webkit-overflow-scrolling: touch; // Smooth scrolling on iOS devices
+		padding-inline-end: 100px;
+		scroll-snap-type: x mandatory;
+		scroll-padding: 50%;
+		scroll-snap-align: center;
+		//scroll snap
 
-        // Targeting inner items within the scrollable area
-        .links-section-item {
-            flex: 0 0 auto;     // This ensures items don't shrink and take their actual width
-        }
-    }
+		-webkit-overflow-scrolling: touch; // Smooth scrolling on iOS devices
+
+		// Targeting inner items within the scrollable area
+		.links-section-item {
+			flex: 0 0 auto; // This ensures items don't shrink and take their actual width
+			width: max(50vw, 240px);
+		}
+	}
 
     .links-section {
         align-items: center;
