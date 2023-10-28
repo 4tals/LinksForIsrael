@@ -49,14 +49,14 @@ body:
       label: Initiative Category
       options:
         - GeneralAssistance
-        - children
-        - defense/EvacuationMain
-        - defense/Shelters
-        - defense/WeaponsMain
-        - donations
+        - Children
+        - Defense/EvacuationMain
+        - Defense/Shelters
+        - Defense/WeaponsMain
+        - Donations
         - EquipmentNFood
         - FamilyHosting
-        - hasbara
+        - Hasbara
         - Aggregators/Aggregation
         - Transportation
         - Medical
@@ -65,11 +65,11 @@ body:
         - Needarim/ReservesReturn
         - Reserves
         - SocialNetworks
-        - tech-initiatives/TechInitiatives
-        - tech-initiatives/TechInitiativesSupport
-        - tech-initiatives/TechInitiativesVolunteers
-        - tech-initiatives/TechMain
-        - volunteering
+        - Tech-initiatives/TechInitiatives
+        - Tech-initiatives/TechInitiativesSupport
+        - Tech-initiatives/TechInitiativesVolunteers
+        - Tech-initiatives/TechMain
+        - Volunteering
         - Yizkor
       default: 0
     validations:
