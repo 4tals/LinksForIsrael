@@ -75,9 +75,7 @@
 	padding: 16px 24px;
 	border-radius: 15px;
 	margin-top: 10px;
-	min-width: 150px; // You can adjust this value as needed
-	min-height: 150px; // You can adjust this value as needed
-	max-width: 300px; // You can adjust this value as needed
+	min-width: 350px; // You can adjust this value as needed
 	max-height: 230px; // You can adjust this value as needed
 	overflow-y: auto; // Makes the content inside scrollable if it exceeds max-height
 
@@ -95,20 +93,20 @@
 }
 
 .popup-link-btn {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #007BFF;  // For instance, a blue color
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-top: 10px;
-    transition: background-color 0.3s ease;
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #007bff; // For instance, a blue color
+	color: white;
+	text-decoration: none;
+	border-radius: 5px;
+	margin-top: 10px;
+	transition: background-color 0.3s ease;
 	justify-self: left;
 
-    /* hover effect */
-    &:hover {
-        background-color: #0056b3;
-    }
+	/* hover effect */
+	&:hover {
+		background-color: #0056b3;
+	}
 }
 
 .links-section-item-title {
@@ -173,6 +171,7 @@
 	.desktop-category {
 		height: calc(100vh - 100px);
 		overflow-y: scroll;
+		overflow: hidden;
 	}
 
 	.category-description {
@@ -187,6 +186,7 @@
 		justify-self: center;
 		overflow-y: auto;
 		top: 0;
+		overflow-x: hidden;
 
 		h1,
 		h2,
@@ -223,8 +223,14 @@
 			flex-wrap: nowrap; // Prevents content from wrapping
 			gap: 16px;
 			border-radius: 5px;
-			overflow-x: auto; // Horizontal scrolling
 			transition: background-color 0.3s ease;
+			width: calc(100vw - 250px);
+			overflow: hidden;
+			overflow-x: scroll;
+			scroll-snap-type: x mandatory;
+			scroll-snap-align: center;
+			padding-inline-end: 120px;
+			padding-block-end: 10px;
 
 			&:hover {
 				background-color: rgba(200, 200, 200, 0.15);

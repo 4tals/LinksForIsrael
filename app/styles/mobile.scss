@@ -1,9 +1,9 @@
 @media only screen and (max-width: 600px) {
-    .links-section-item-short-description {
-        display: flex;
-    }
+	.links-section-item-short-description {
+		display: flex;
+	}
 
-    .links-section-subcategory {
+	.links-section-subcategory {
 		display: flex;
 		flex-wrap: nowrap; // Prevent content from wrapping to the next line
 		overflow-x: scroll; // Enables horizontal scrolling if content overflows
@@ -26,64 +26,63 @@
 		}
 	}
 
-    .links-section {
-        align-items: center;
-        border-radius: 30px;
-        border: 2px solid #0038b8;
-        background: var(--color-white);
-        min-height: 100px;
-        margin-block-end: 16px;
-        color: var(--header-text-color);
-        display: flex;
-        flex-direction: column;
-        width: 90vw;
-        overflow: hidden;
+	.links-section {
+		align-items: center;
+		border-radius: 30px;
+		border: 2px solid #0038b8;
+		background: var(--color-white);
+		min-height: 100px;
+		margin-block-end: 16px;
+		color: var(--header-text-color);
+		display: flex;
+		flex-direction: column;
+		width: 90vw;
+		overflow: hidden;
 
-        .links-section-content {
-            box-sizing: border-box;
-            display: block;
-            width: 100%;
-            
+		.links-section-content {
+			box-sizing: border-box;
+			display: block;
+			width: 100%;
 
-            hr {
-                display: block;
-            }
+			hr {
+				display: block;
+			}
 
-            ul li a {
-                font-size: 16px;
-                padding: 15px;
+			ul li a {
+				font-size: 16px;
+				padding: 15px;
 				overflow: hidden;
 				width: 80%;
-            }
-        }
-    }
+			}
+		}
+	}
 
-    .links-section-item {
-        flex-basis: 100%;
-        width: 50%;
-		overflow: hidden;     
-		white-space: normal; 
-    }
+	.links-section-item {
+		flex-basis: 100%;
+		width: 50%;
+		overflow: hidden;
+		white-space: normal;
+	}
 
-    .category-icon {
-        margin-left: 10px;
-    }
+	.category-icon {
+		margin-left: 10px;
+	}
 
-    .main-content {
-        max-width: 64em;
-        padding: 2rem 1rem;
-        font-size: 1rem;
+	.main-content {
+		max-width: 64em;
+		padding: 2rem 1rem;
+		font-size: 1rem;
 
-        .desktop-category {
-            height: auto;
-        }
+		.desktop-category {
+			height: auto;
+		}
 
-        .desktop-content {
-            display: none;
-        }
+		.desktop-content {
+			display: none;
+		}
 
-        .desktop-grid {
-            display: block;
-        }
-    }
+		.desktop-grid {
+			display: block;
+		}
+	}
 }
