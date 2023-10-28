@@ -24,7 +24,7 @@ export function DialogModal({
 		if (body && !open) {
 			toggleModal(true);
 		}
-	}, [body]);
+	}, [body, open, toggleModal]);
 
 	const closeDialog = () => {
 		dialogRef.current?.close();
