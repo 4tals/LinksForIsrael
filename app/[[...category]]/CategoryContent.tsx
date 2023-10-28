@@ -44,6 +44,7 @@ export function CategoryContent({
 									links={subcategory.links}
 									name={subcategory.name}
 									setDescription={setDescription}
+									setOpenDialog={setOpenDialog}
 								/>
 							</h3>
 						}
@@ -58,10 +59,12 @@ function LinksList({
 	name,
 	links,
 	setDescription,
+	setOpenDialog,
 }: {
 	name: string;
 	links: Array<Link>;
 	setDescription: (description: { body: ReactNode; link: Link } | null) => void;
+	setOpenDialog: (open: boolean) => void;
 }) {
 	const numLinks = links.length;
 	if (numLinks === 0) {
@@ -71,7 +74,12 @@ function LinksList({
 	return (
 		<div className="links-section-subcategory">
 			{links.map((link) => (
-				<LinkItem link={link} key={link.name} setDescription={setDescription} />
+				<LinkItem
+					link={link}
+					key={link.name}
+					setDescription={setDescription}
+					setOpenDialog={setOpenDialog}
+				/>
 			))}
 		</div>
 	);
@@ -80,11 +88,20 @@ function LinksList({
 function LinkItem({
 	link,
 	setDescription,
+	setOpenDialog,
 }: {
 	link: Link;
-	setDescription: (description: ReactNode | string | null) => void;
+	setDescription: (description: { body: ReactNode; link: Link } | null) => void;
+	setOpenDialog: (open: boolean) => void;
 }) {
-	const showMore = (link: Link) => {
+	const handleLinkClick = (e: React.MouseEvent) => {
+		if (link.description?.length > 0) {
+			e.preventDefault(); // Prevent redirect
+			showMore(link, setOpenDialog);
+		}
+	};
+
+	const showMore = (link: Link, setOpenDialog: any) => {
 		setDescription({
 			link,
 			body: (
@@ -95,49 +112,39 @@ function LinkItem({
 				</>
 			),
 		});
+		setOpenDialog(true); // <-- Open the modal
 	};
 
 	return (
 		<li className="links-section-item" key={link.name}>
-			{link.initiativeImage && (
-				<a href={link.url} target="_blank">
-					<img
-						className="link-initiative-icon"
-						src={link.initiativeImage}
-						alt="Initiative Image"
-					/>
-				</a>
-			)}
 			<a
 				href={link.url}
 				target={link.url?.startsWith(".") ? "" : "_blank"}
-				rel="noopener noreferrer"
-				id={link.name}
-				className="links-section-item-title"
+				onClick={handleLinkClick}
 			>
-				{link.displayName}
-				{link.shortDescription !== "" && (
-					<>
-						<br />
-						<span className="links-section-item-short-description">
-							{link.shortDescription}
-						</span>
-					</>
+				{link.initiativeImage && (
+					<div>
+						<img
+							className="link-initiative-icon"
+							src={link.initiativeImage}
+							alt="Initiative Image"
+						/>
+					</div>
 				)}
-			</a>
-			{link.description?.length > 0 ? (
-				<p className="more-btn">
-					<button
-						className="mainButton"
-						style={{ fontSize: ".65em" }}
-						onClick={() => showMore(link)}
-					>
-						קרא עוד
-					</button>
-				</p>
-			) : (
+				<div id={link.name} className="links-section-item-title">
+					{link.displayName}
+					{link.shortDescription !== "" && (
+						<>
+							<br />
+							<span className="links-section-item-short-description">
+								{link.shortDescription}
+							</span>
+						</>
+					)}
+				</div>
+
 				<LinkIcons link={link} />
-			)}
+			</a>
 		</li>
 	);
 }
