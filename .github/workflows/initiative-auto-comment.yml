@@ -31,7 +31,7 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           ISSUE_BODY: ${{ github.event.issue.body }}
         run: |
-          output=$(python scripts/gpt_script.py)
+          output=$(python $GITHUB_WORKSPACE/scripts/gptGenerateJsonFromIssue.py)
           echo "Raw output: $output"
           echo "$output" > "$GITHUB_WORKSPACE/gpt-auto-comment.output"
 
@@ -39,29 +39,5 @@ jobs:
         uses: actions/github-script@v6
         with:
           script: |
-            const fs = require('fs')
-
-            const gptResponse = fs.readFileSync(process.env.GITHUB_WORKSPACE + "/gpt-auto-comment.output", 'utf8')
-
-            const jsonStartMarker = "```json"
-            const jsonEndMarker = "```"
-
-            const indexOfJsonStart = gptResponse.indexOf(jsonStartMarker);
-            if (indexOfJsonStart === -1) {
-              gptResponseJson = gptResponse;
-            } 
-            else {
-              const indexOfJsonEnd = gptResponse.indexOf(jsonEndMarker, indexOfJsonStart + 1);
-              gptResponseJson = gptResponse.substring(indexOfJsonStart + jsonStartMarker.length, indexOfJsonEnd);
-            }
-
-            console.log("Extracted JSON: " + gptResponseJson)
-            const responseJSON = JSON.parse(gptResponseJson);
-            
-            const response = "```json\n" + JSON.stringify(responseJSON, null, 2) + "\n```";
-            github.rest.issues.createComment({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: context.issue.number,
-              body: response
-            });
+            const script = require(process.env.GITHUB_WORKSPACE + '/scripts/commentUsingGptResponse.js')
+            script({github, context})
