@@ -1,6 +1,6 @@
 {
   "name": "NeedarimMain",
-  "displayName": "",
+  "displayName": "נעדרים וחטופים",
   "links": [
     {
       "name": "TogetherForMissingPeople",
@@ -25,6 +25,21 @@
       "description": "מתנדבים למציאת נעדרים ע״י מכשור טכנולוגי (לפטופ, טלפון ישן וכיו״ב)",
       "url": "https://docs.google.com/forms/d/e/1FAIpQLSduujH277Cqt31XgOZfTZFAD4ua_YN8fXUtAlwOAHX2q9Emww/viewform?usp=sf_link",
       "docs": "https://docs.google.com/forms/d/e/1FAIpQLSduujH277Cqt31XgOZfTZFAD4ua_YN8fXUtAlwOAHX2q9Emww/viewform?usp=sf_link"
+    },
+    {
+      "name": "BringThemHomeNow",
+      "displayName": "BringThemHomeNow",
+      "shortDescription": "תוסף וידאו חיי להחזרת החטופים - ניתן להטמיע באתר",
+      "description": "חברת Team Me נרתמה לעזור להפיץ את הסיפור של החטופים בכל מקום בעולם. הוסיפו עוד היום את התוסף לאתר שלכם! בנינו תוסף וידאו לאתרים עם כלל הסרטונים של משפחות החטופים.",
+      "initiativeValidationDetails": "אתר מאומת: october7hostages.com",
+      "InitiativeImage": "https://static.wixstatic.com/media/af3a67_e3b72f829f3d42d68b868b1ee9172c11~mv2.jpeg/v1/fill/w_962,h_660,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/af3a67_e3b72f829f3d42d68b868b1ee9172c11~mv2.jpeg",
+      "tags": [
+        "תוסף",
+        "מפתחי אתרים",
+        "וידאו",
+        "חטופים",
+        "TeamMe"
+      ]
     }
   ]
 }
