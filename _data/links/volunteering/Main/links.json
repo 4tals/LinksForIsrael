@@ -67,7 +67,7 @@
       "description": "אני כאן עבור אלו הזקוקים לסיוע, ועבור המתנדבים, על מנת להתאים בין כל מתנדב לכל אחד שזקוק לעזרה",
       "url": "https://api.whatsapp.com/send/?phone=972733742036&text|%D7%A9%D7%9C%D7%97+%D7%94%D7%95%D7%93%D7%A2%D7%94+%D7%9C%D7%94%D7%AA%D7%97%D7%99%D7%9C&type=phone_number&app_absent=0",
       "initiativeValidationDetails": "WeHelpIsrael הם קבוצה לגיטימית מתנדבת, פורסמת גם בתקשורת, לדוגמה: https://www.ynet.co.il/digital/technews/article/bys217vwt",
-      "InitiativeImage": "https://pps.whatsapp.net/v/t61.24694-24/370355928_1043686309967820_78133105218051593_n.jpg?ccb=11-4&oh=01_AdRpQs5X8aT9i-d6LwWm5ZCBMLVYv-TwyR_hzrfB1STrIQ&oe=654A7DC4&_nc_sid=000000&_nc_cat=103",
+      "initiativeImage": "https://pps.whatsapp.net/v/t61.24694-24/370355928_1043686309967820_78133105218051593_n.jpg?ccb=11-4&oh=01_AdRpQs5X8aT9i-d6LwWm5ZCBMLVYv-TwyR_hzrfB1STrIQ&oe=654A7DC4&_nc_sid=000000&_nc_cat=103",
       "whatsapp": "https://api.whatsapp.com/send/?phone=972733742036&text=%D7%A9%D7%9C%D7%97+%D7%94%D7%95%D7%93%D7%A2%D7%94+%D7%9C%D7%94%D7%AA%D7%97%D7%99%D7%9C&type=phone_number&app_absent=0",
       "article": "https://www.ynet.co.il/digital/technews/article/bys217vwt",
       "tags": [
