@@ -61,7 +61,7 @@ function LinksList({
 }: {
 	name: string;
 	links: Array<Link>;
-	setDescription: (description: ReactNode | string | null) => void;
+	setDescription: (description: { body: ReactNode; link: Link } | null) => void;
 }) {
 	const numLinks = links.length;
 	if (numLinks === 0) {
@@ -99,6 +99,15 @@ function LinkItem({
 
 	return (
 		<li className="links-section-item" key={link.name}>
+			{link.initiativeImage && (
+				<a href={link.url} target="_blank">
+					<img
+						className="link-initiative-icon"
+						src={link.initiativeImage}
+						alt="Initiative Image"
+					/>
+				</a>
+			)}
 			<a
 				href={link.url}
 				target={link.url?.startsWith(".") ? "" : "_blank"}
@@ -135,15 +144,6 @@ function LinkItem({
 
 const LinkIcons = ({ link }: { link: Link }) => (
 	<div className="link-icons">
-		{link.initiativeImage && (
-			<a href={link.url} target="_blank">
-				<img
-					className="link-initiative-icon"
-					src={link.initiativeImage}
-					alt="Initiative Image"
-				/>
-			</a>
-		)}
 		{link.whatsapp && (
 			<a href={link.whatsapp} target="_blank">
 				<img

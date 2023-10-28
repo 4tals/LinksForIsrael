@@ -21,7 +21,8 @@ $icon-hover-scale: scale(1.1);
 
 .link-initiative-icon {
 	@extend .icon-common-styles;
-	width: 60px;
+	max-height: 100px;
+	width: auto;
 }
 
 .category-icon {
@@ -71,7 +72,7 @@ $icon-hover-scale: scale(1.1);
 }
 
 .mainButton {
-	background-color: #007bff;
+	background-color: #242b33;
 	color: #fff;
 	padding: 10px 20px;
 	border-radius: 5px;

@@ -57,6 +57,9 @@
 }
 
 .links-section-item {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 	position: relative;
 	p {
 		font-size: 0.9rem; // Adjust this value as desired
@@ -72,6 +75,8 @@
 	padding: 16px 24px;
 	border-radius: 15px;
 	margin-top: 10px;
+	min-width: 150px; // You can adjust this value as needed
+	min-height: 150px; // You can adjust this value as needed
 	max-width: 300px; // You can adjust this value as needed
 	max-height: 230px; // You can adjust this value as needed
 	overflow-y: auto; // Makes the content inside scrollable if it exceeds max-height
@@ -93,10 +98,11 @@
 	font-size: 16px;
 	font-weight: 600;
 }
+
 .links-section-item-short-description {
 	font-size: 14px;
 	font-weight: 400;
-	display: none;
+	display: flex;
 }
 
 .share-button-style {
@@ -202,17 +208,17 @@
 			border-radius: 5px;
 			overflow-x: auto; // Horizontal scrolling
 			transition: background-color 0.3s ease;
-		
+
 			&:hover {
 				background-color: rgba(200, 200, 200, 0.15);
 			}
-			
+
 			// Optional: Style the scrollbar for a neater appearance
 			&::-webkit-scrollbar {
 				height: 6px;
 				background-color: transparent;
 			}
-		
+
 			&::-webkit-scrollbar-thumb {
 				border-radius: 3px;
 				background-color: rgba(0, 0, 0, 0.2);
