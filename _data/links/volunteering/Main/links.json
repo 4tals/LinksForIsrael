@@ -42,6 +42,23 @@
         "קשר",
         "התנדבות"
       ]
+    },
+    {
+      "name": "NationalHelpAndVolunteerPortal",
+      "displayName": "פורטל התנדבות וסיוע ארצי",
+      "shortDescription": "פורטל התנדבות וסיוע ארצי",
+      "description": "שלום, עלה לאוויר פורטל התנדבות וסיוע ארצי מתכלל. ישנו צוות מתנדבים שמתפעל ומעדכן את המידע באופן שוטף.",
+      "url": "https://rebrand.ly/go-to-volunteer",
+      "initiativeImage": "https://lh3.googleusercontent.com/dHByApVgay7XCaEYOhAVzN6rbucgVxUZfFKUucmAiGeUXw6avGLNuSNrAmUxMVSgnyiK7NNYLWVmvXGpos9SEZpzSTCfct7neQ2cykRGBrTua_lVHeaB2WzHFus6hWTW6A=w1280",
+      "initiativeValidationDetails": "התחילה מאישית בטלפון עם הבעלים",
+      "tags": [
+        "מיזמות האגדה",
+        "האגדה",
+        "תרומה",
+        "התנדבות",
+        "צוות",
+        "חיבור"
+      ]
     }
   ]
 }
