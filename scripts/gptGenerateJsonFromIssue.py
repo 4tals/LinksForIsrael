@@ -1,6 +1,5 @@
 import logging
 import os
-import sys
 
 import openai
 import requests
@@ -28,6 +27,7 @@ class GPTAssistant:
             "description": "A dedicated team of volunteers working around the clock for a cause.",
             "url": "https://example.com/group-chat",
             "initiativeValidationDetails": "Shared in a group chat. Seems like a legitimate account created over 8 years ago with nearly 11k subscribers.",
+            "InitiativeImage": "https://example.com/image.png",
             "whatsapp": "https://chat.whatsapp.com/example",
             "telegram": "https://t.me/example",
             "discord": "https://discord.com/channels/example",
@@ -42,7 +42,7 @@ class GPTAssistant:
             "tags": ["Social", "Instagram", "Facebook", "Twitter", "TikTok", "Advocacy"]
         }
 
-        Using the provided record example structure, new initiative info to generate a new record by adhering to the 
+        Using the provided record example structure, new initiative info to generate a new record by adhering to the
         following guidelines:
 
         1. Remove Empty Keys: Ensure that no key in the record has an empty or null value.
