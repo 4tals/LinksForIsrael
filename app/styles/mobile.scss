@@ -3,6 +3,13 @@
 		display: flex;
 	}
 
+	.links-section-title {
+		font-size: 20px;
+		font-weight: 900;
+		position: relative;
+		z-index: 2;
+	}
+
 	.links-section-subcategory {
 		display: flex;
 		flex-wrap: nowrap; // Prevent content from wrapping to the next line
@@ -16,31 +23,31 @@
 		scroll-padding: 50%;
 		scroll-snap-align: center;
 		//scroll snap
-
 		-webkit-overflow-scrolling: touch; // Smooth scrolling on iOS devices
-
 		// Targeting inner items within the scrollable area
 		.links-section-item {
-			flex: 0 0 auto; // This ensures items don't shrink and take their actual width
-			width: max(50vw, 240px);
+			flex: 1 0 50%; // This sets the item to take up half the container's width
 		}
+	}
+
+	.links-subcategory-header {
+		font-size: x-large;
+        font-weight: 400;
+        margin-top: 20px;
+        margin-inline: 10px;
 	}
 
 	.links-section {
 		align-items: center;
-		border-radius: 30px;
-		border: 2px solid #0038b8;
-		background: var(--color-white);
-		min-height: 100px;
-		margin-block-end: 16px;
-		color: var(--header-text-color);
+		border-radius: 4px;
+		background-color: #eaeaea;
+		margin-block-end: 8px;
 		display: flex;
 		flex-direction: column;
 		width: 90vw;
 		overflow: hidden;
 
 		.links-section-content {
-			box-sizing: border-box;
 			display: block;
 			width: 100%;
 
@@ -75,6 +82,9 @@
 
 		.desktop-category {
 			height: auto;
+			justify-content: center;
+			align-items: center;
+			
 		}
 
 		.desktop-content {
@@ -84,5 +94,13 @@
 		.desktop-grid {
 			display: block;
 		}
+	}
+	
+	::-webkit-scrollbar {
+		width: 5px;
+	}
+	::-webkit-scrollbar-thumb {
+		background-color: #888;
+		border-radius: 10px;
 	}
 }
