@@ -6,6 +6,7 @@ _site/
 /node_modules
 /.pnp
 .pnp.js
+pnpm-lock.yaml
 
 # testing
 /coverage
@@ -41,4 +42,9 @@ next-env.d.ts
 
 # IDEA
 .idea/*
-pnpm-lock.yaml
+
+# VS Code
+.vscode
+
+# Local testing/setup
+.local
