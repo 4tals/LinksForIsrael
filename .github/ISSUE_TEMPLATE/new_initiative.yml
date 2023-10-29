@@ -78,6 +78,13 @@ body:
   - type: input
     id: url
     attributes:
+      label: Initiative main URL
+      description: The main link for this initiative (whether it be a website, WhatsApp group, etc.)
+      placeholder: https://iron-widgets.com
+
+  - type: input
+    id: website
+    attributes:
       label: Initiative Website
       placeholder: https://iron-widgets.com
 
