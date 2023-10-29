@@ -12,7 +12,7 @@ body:
       required: true
 
   - type: input
-    id: short-description
+    id: shortDescription
     attributes:
       label: Initiative Description
       description: Provide a short description of the initiative
@@ -21,7 +21,7 @@ body:
       required: true
 
   - type: textarea
-    id: long-description
+    id: description
     attributes:
       label: Initiative Details
       description: Provide more details about the initiative
@@ -32,7 +32,7 @@ body:
       required: true
 
   - type: textarea
-    id: validation
+    id: initiativeValidationDetails
     attributes:
       label: Initiative Validation Details
       description: Provide as much information as possible for us to be able to validate the authenticity of the initiative
@@ -76,6 +76,13 @@ body:
       required: true
 
   - type: input
+    id: url
+    attributes:
+      label: Initiative main URL
+      description: The main link for this initiative (whether it be a website, WhatsApp group, etc.)
+      placeholder: https://iron-widgets.com
+
+  - type: input
     id: website
     attributes:
       label: Initiative Website
@@ -101,7 +108,7 @@ body:
       placeholder: https://1drv.ms/iron-widgets
 
   - type: input
-    id: forms
+    id: form
     attributes:
       label: Initiative Form
       description: Link to initiative form  (e.g. volunteer request)

@@ -2,120 +2,116 @@ import logging
 import os
 
 import openai
-import requests
+import yaml
 
 logging.basicConfig(level=logging.INFO)
 
-
 class GPTAssistant:
     def __init__(self, api_key: str = None, model: str = 'gpt-4'):
-        # Get the API key from the argument or environment
-        self.api_key = api_key or os.environ.get('OPENAI_API_KEY')
-        if self.api_key is None:
-            raise ValueError(
-                "No API key provided. Set the OPENAI_API_KEY environment variable or pass the api_key argument.")
         self.model = model
-        openai.api_key = self.api_key  # Set the OpenAI API key using the correct value
 
-    def format_query(self, text_string: str) -> str:
-        base_query = """
-        Our website is initiatives index that route people to the relevant initiatives. Our initiatives are stored as dictionary record. For Example:
-        {
-            "name": "ExampleName",
-            "displayName": "Example Display Name",
-            "shortDescription": "Example Short Description",
-            "description": "A dedicated team of volunteers working around the clock for a cause.",
-            "url": "https://example.com/group-chat",
-            "initiativeValidationDetails": "Shared in a group chat. Seems like a legitimate account created over 8 years ago with nearly 11k subscribers.",
-            "InitiativeImage": "https://example.com/image.png",
-            "whatsapp": "https://chat.whatsapp.com/example",
-            "telegram": "https://t.me/example",
-            "discord": "https://discord.com/channels/example",
-            "article": "https://example-news.com/search?q=example",
-            "tiktok": "https://tiktok.com/@example",
-            "twitter": "https://twitter.com/example",
-            "instagram": "https://www.instagram.com/example/",
-            "facebook": "https://www.facebook.com/example",
-            "drive": "https://drive.google.com/drive/folders/example",
-            "form": "https://docs.google.com/forms/d/example/viewform",
-            "docs": "https://docs.google.com/forms/d/example/viewform",
-            "tags": ["Social", "Instagram", "Facebook", "Twitter", "TikTok", "Advocacy"]
-        }
+        openai.api_key = api_key or os.environ.get('OPENAI_API_KEY')
+        if openai.api_key is None:
+            raise ValueError("No API key provided. Set the OPENAI_API_KEY environment variable or pass the api_key argument.")
 
-        Using the provided record example structure, new initiative info to generate a new record by adhering to the
-        following guidelines:
+    def ask_gpt_for_initiative_json(self, issue_body: str) -> str:
+        query =  f"""
+        Please provide arguments for the add_new_initiative function using the following guidelines:
 
-        1. Remove Empty Keys: Ensure that no key in the record has an empty or null value.
-        2. Tag Optimization: add hebrew tags about the relevant initiative, the tags should aid in efficient searching.
-        3. If possible, provide the "displayName" and "description" fields in Hebrew.
-        4. Ensure that the "description" field is between 110-130 characters in length.
-        5. If exists add initiativeValidationDescription in hebrew upto between 110-130 chars
-        6. If a value for a key is empty or "No response" don't add that key to the output response.
-        7. Important, please limit the response only to the output json.
+        * Ensure that no parameter has an empty, null or "no response" value.
+        * Add hebrew tags about the relevant initiative, the tags should aid in efficient searching.
+        * If possible, provide the "displayName" and "description" fields in Hebrew.
+
+        The details of the new initiative to be added have been provided in the following form, provided in markdown syntax:
+        {issue_body}
         """
+        logging.info("GPT query: " + query)
 
-        formatted_query = base_query + \
-            '\n\n new initiative info is:\n```' + text_string + '```'
-        return formatted_query
-
-    def query_via_api(self, text_string: str) -> str:
-        query = self.format_query(text_string)
-        conversation = [
-            {"role": "system", "content": "You are a helpful assistant."},
+        messages = [
+            {"role": "system", "content": "You are only used for function calling, and must exclusively use the function you have been provided with"},
             {"role": "user", "content": query}
         ]
+
+        with open(os.environ["GITHUB_WORKSPACE"] + "/.github/ISSUE_TEMPLATE/new_initiative.yml", "r") as stream:
+            new_initiative_form = yaml.safe_load(stream)
+
+        # initialize with properties that require special handling
+        new_initiative_params = {
+            # we don't ask for the display name in the form (and therefore it would not be present in the issue template yaml parsed above)
+            "displayName": { 
+                "type": "string", 
+                "description": "The text displayed for the initiative (defaults to the initiative's name)" 
+            }
+        }
+
+        arrayParams = {"tags"}
+        for field in new_initiative_form["body"]:
+            
+            field_id = field["id"]
+            field_attributes = field["attributes"]
+            field_description = field_attributes["label"]
+
+            if field_id in arrayParams:
+                new_initiative_params[field_id] = { 
+                    "type": "array", 
+                    "items": { "type": "string" },
+                    "description": field_description
+                }
+                continue
+
+            if field["type"] == "dropdown": 
+                new_initiative_params[field_id] = { 
+                    "type": "string", 
+                    "enum": field_attributes["options"],
+                    "description": field_description
+                }
+                continue
+
+            new_initiative_params[field_id] = { 
+                    "type": "string", 
+                    "description": field_description
+            }
+
+        functions = [
+        {
+            "name": "add_new_initiative",
+            "description": "Add a new initiative to the database",
+            "parameters": {
+                "type": "object",
+                "properties": new_initiative_params
+            },
+        }]
+
+        logging.info("Calling OpenAPI with functions: {0}".format(functions))
+
         response = openai.ChatCompletion.create(
-            model=self.model,
-            messages=conversation
+            model = self.model,
+            messages = messages,
+            functions = functions,
+            function_call = {"name": "add_new_initiative"}
         )
-        answer = response['choices'][0]['message']['content']
-        return answer
 
-    def query_via_rest(self, text_string: str) -> str:
-        query = self.format_query(text_string)
-        endpoint = 'https://api.openai.com/v1/chat/completions'
-        headers = {
-            "Authorization": f"Bearer {self.api_key}",
-            "Content-Type": "application/json",
-        }
-        conversation = [
-            {"role": "system", "content": "You are a helpful assistant."},
-            {"role": "user", "content": query}
-        ]
-        body = {
-            'model': self.model,
-            'messages': conversation
-        }
-        response = requests.post(endpoint, headers=headers, json=body)
-        response_json = response.json()
-        answer = response_json['choices'][0]['message']['content']
-        return answer
+        logging.info("OpenAPI reponse: {0}".format(response))
 
+        response_choice = response["choices"][0]
+        
+        finish_reason = response_choice["finish_reason"]
+        if finish_reason != "stop" and finish_reason != "function_call":
+            logging.warn("GPT responded with unexpected finish reason: " +  finish_reason)
 
-def get_initiative_details():
-    issue_body = os.environ['ISSUE_BODY']
-    logging.info("Issue body:\n" + issue_body + "\n")
-    return issue_body
-
-
-def output_response(response: str):
-    print(response)
-    logging.info('GPT Response:\n' + response + "\n")
-
+        response_message = response_choice["message"]
+        if "function_call" in response_message:
+            logging.info("GPT decided to call a function as expected")
+            return response_message["function_call"]["arguments"]
+        
+        logging.warn("GPT did not infer function calling, best-effort answer parsing will be performed")
+        return response_message["content"]
 
 if __name__ == "__main__":
-    logging.info("Initializing GPT Assistant.")
-    assistant = GPTAssistant()
-    initiative_details = get_initiative_details()
-    use_rest = True
-    try:
-        if use_rest:
-            logging.info("Querying via REST.")
-            response = assistant.query_via_rest(initiative_details)
-            output_response(response)
-        else:
-            logging.info("Querying via OpenAI API.")
-            response = assistant.query_via_api(initiative_details)
-            output_response(response)
-    except Exception as e:
-        logging.error(f"An error occurred: {e}")
+    gpt_response = GPTAssistant().ask_gpt_for_initiative_json(os.environ["ISSUE_BODY"])
+    
+    respose_output_file = os.environ["GITHUB_WORKSPACE"] + "/gpt-auto-comment.output"
+    logging.info(f"Writing GPT Response to {respose_output_file}:\n{gpt_response}")
+
+    with open(respose_output_file, "w", encoding="utf-8") as output:
+        output.write(gpt_response)

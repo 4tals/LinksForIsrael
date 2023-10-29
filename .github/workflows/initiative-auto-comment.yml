@@ -24,16 +24,13 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install -r "$GITHUB_WORKSPACE/scripts/requirements.txt"
 
       - name: Run GPT script
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           ISSUE_BODY: ${{ github.event.issue.body }}
-        run: |
-          output=$(python $GITHUB_WORKSPACE/scripts/gptGenerateJsonFromIssue.py)
-          echo "Raw output: $output"
-          echo "$output" > "$GITHUB_WORKSPACE/gpt-auto-comment.output"
+        run: python $GITHUB_WORKSPACE/scripts/gptGenerateJsonFromIssue.py
 
       - name: Post comment
         uses: actions/github-script@v6
