@@ -48,7 +48,6 @@ body:
     attributes:
       label: Initiative Category
       options:
-        - GeneralAssistance
         - Children
         - Defense/EvacuationMain
         - Defense/Shelters
@@ -56,9 +55,9 @@ body:
         - Donations
         - EquipmentNFood
         - FamilyHosting
+        - GeneralAssistance
         - Hasbara
-        - Aggregators/Aggregation
-        - Transportation
+        - InitiativesAggregation/Aggregation
         - Medical
         - MentalSupport
         - Needarim/Main
@@ -69,6 +68,7 @@ body:
         - Tech-initiatives/TechInitiativesSupport
         - Tech-initiatives/TechInitiativesVolunteers
         - Tech-initiatives/TechMain
+        - Transportation
         - Volunteering
         - Yizkor
       default: 0
