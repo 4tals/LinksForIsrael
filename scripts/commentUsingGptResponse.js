@@ -1,6 +1,6 @@
 module.exports = ({github, context}) => {
   function tryExtractJson(text, jsonStartMarker, jsonEndMarker) {
-    console.log(`Attempting to extract JSON with start marker "${jsonStartMarker}" and end marker "${jsonEndMarker}" from text: ${text}` );
+    console.log(`Attempting to extract JSON with start marker "${jsonStartMarker}" and end marker "${jsonEndMarker}"` );
   
     const indexOfJsonStart = text.indexOf(jsonStartMarker);
     if (indexOfJsonStart === -1) {
@@ -45,6 +45,8 @@ module.exports = ({github, context}) => {
   const jsonStartMarker = "```json"
   const jsonEndMarker = "```"
 
+  console.log("Sanitized GPT response: " + sanitizedGptResponse)
+  
   json = tryExtractJson(sanitizedGptResponse, jsonStartMarker, jsonEndMarker);
   if (json !== null) {
       createComment(json);
