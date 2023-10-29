@@ -5,10 +5,11 @@
 	align-items: center;
 	padding: 10px;
 	border-top: 1px solid var(--color-divider);
-	color: var(--color-white);
+	background-color: var(--color-white);
 	height: 7vh;
 	z-index: 10;
 	direction: rtl;
+	position: sticky;
 
 	.social-links {
 		display: flex;

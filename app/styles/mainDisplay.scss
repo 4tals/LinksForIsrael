@@ -105,7 +105,6 @@
 	&:has(.link-initiative-icon-bg) {
 		a {
 			text-shadow: 1px 1px var(--color-white);
-			
 		}
 	}
 }
@@ -197,9 +196,7 @@
 	}
 
 	.desktop-category {
-		// height: calc(100vh - 100px);
 		overflow-y: scroll;
-		overflow: hidden;
 	}
 
 	.category-description {
@@ -303,7 +300,6 @@
 	.links-section-content {
 		--link-font-size: 16px;
 		overflow: hidden;
-		padding: 25px;
 		hr {
 			display: none;
 		}
