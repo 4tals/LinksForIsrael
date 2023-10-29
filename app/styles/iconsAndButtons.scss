@@ -23,6 +23,7 @@ $icon-hover-scale: scale(1.1);
 	@extend .icon-common-styles;
 	max-height: 100px;
 	width: auto;
+	position: absolute;
 }
 
 .category-icon {
@@ -32,6 +33,8 @@ $icon-hover-scale: scale(1.1);
 
 .link-icons {
 	display: flex;
+	position: relative;
+	z-index: 2;
 }
 
 // Common styles for sharing buttons

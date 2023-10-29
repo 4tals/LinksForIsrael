@@ -120,20 +120,23 @@ function LinkItem({
 
 	return (
 		<li className="links-section-item" key={link.name}>
+			{link.initiativeImage && (
+				<div
+					className="link-initiative-icon-bg"
+					style={{ backgroundImage: `url("${link.initiativeImage}")` }}
+				>
+					{/* <img
+							className="link-initiative-icon"
+							src={link.initiativeImage}
+							alt="Initiative Image"
+						/> */}
+				</div>
+			)}
 			<a
 				href={link.url}
 				target={link.url?.startsWith(".") ? "" : "_blank"}
 				onClick={handleLinkClick}
 			>
-				{link.initiativeImage && (
-					<div>
-						<img
-							className="link-initiative-icon"
-							src={link.initiativeImage}
-							alt="Initiative Image"
-						/>
-					</div>
-				)}
 				<div id={link.name} className="links-section-item-title">
 					{link.displayName}
 					{link.shortDescription !== "" && (
