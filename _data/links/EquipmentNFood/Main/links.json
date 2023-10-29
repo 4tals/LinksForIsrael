@@ -12,14 +12,6 @@
       "website": "https://supply-match.com/"
     },
     {
-      "name": "WoltFoodDonations",
-      "displayName": "תרומות מזון ישירות דרך וולט",
-      "shortDescription": "מארזי תרומה למזון בסיסי",
-      "description": "מארזי תרומות של מזון דרך ולט לקניה של מזון בסיסי ושימורים",
-      "url": "https://wolt.com/he/isr/tel-aviv/venue/support-the-south",
-      "website": "https://wolt.com/he/isr/tel-aviv/venue/support-the-south"
-    },
-    {
       "name": "IsraelGivesEmergencyAid",
       "displayName": "Israel Emergency Aid",
       "shortDescription": "Donate to deliver life saving equipment to the front line.",
