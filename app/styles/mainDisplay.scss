@@ -15,6 +15,18 @@
 	}
 }
 
+.link-initiative-icon-bg {
+	height: 100%;
+	width: 90%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	position: absolute;
+	top: 0;
+	left: 5%;
+	filter: opacity(0.4);
+}
+
 .links-section-title {
 	display: flex;
 	align-items: center;
@@ -76,7 +88,7 @@
 	border-radius: 15px;
 	margin-top: 10px;
 	min-width: 350px; // You can adjust this value as needed
-	max-height: 230px; // You can adjust this value as needed
+	height: 170px; // You can adjust this value as needed
 	overflow-y: auto; // Makes the content inside scrollable if it exceeds max-height
 
 	background: linear-gradient(to bottom right, #e6e9ec, #f5f7fa);
@@ -89,6 +101,11 @@
 		background: linear-gradient(to bottom right, #d4d9dd, #e2e7ea);
 		box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 		transform: translateY(-3px);
+	}
+	&:has(.link-initiative-icon-bg) {
+		a {
+			text-shadow: 1px 1px var(--color-white);
+		}
 	}
 }
 
@@ -112,6 +129,8 @@
 .links-section-item-title {
 	font-size: 16px;
 	font-weight: 600;
+	position: relative;
+	z-index: 2;
 }
 
 .links-section-item-short-description {
