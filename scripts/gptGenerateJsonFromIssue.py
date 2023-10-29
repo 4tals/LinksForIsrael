@@ -44,20 +44,33 @@ class GPTAssistant:
             }
         }
 
-        arrayParams = {'tags'}
-        for field in new_initiative_form['body']:
+        arrayParams = {"tags"}
+        for field in new_initiative_form["body"]:
             
-            field_id = field['id']
-            field_description = field['attributes']['label']
+            field_id = field["id"]
+            field_attributes = field["attributes"]
+            field_description = field_attributes["label"]
 
-            new_initiative_params[field_id] = { 
+            if field_id in arrayParams:
+                new_initiative_params[field_id] = { 
                     "type": "array", 
                     "items": { "type": "string" },
                     "description": field_description
-                } if field_id in arrayParams else { 
+                }
+                continue
+
+            if field["type"] == "dropdown": 
+                new_initiative_params[field_id] = { 
                     "type": "string", 
+                    "enum": field_attributes["options"],
                     "description": field_description
                 }
+                continue
+
+            new_initiative_params[field_id] = { 
+                    "type": "string", 
+                    "description": field_description
+            }
 
         functions = [
         {
