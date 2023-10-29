@@ -3,6 +3,16 @@
   "displayName": "כללי",
   "links": [
     {
+      "name": "HamalShinoaArtzi",
+      "displayName": "חמל השינוע הארצי",
+      "shortDescription": "חמ״ל השינוע הארצי, הינו מיזם התנדבותי המחבר בין אזרחים וכוחות ביטחון לצורך שינוע בזמן חירום.",
+      "description": "חמ״ל השינוע הארצי, הינו מיזם התנדבותי המחבר בין אזרחים וכוחות ביטחון לצורך שינוע בזמן חירום.",
+      "url": "https://www.transportaid.org/",
+      "website": "https://www.transportaid.org/",
+      "initiativeImage": "https://static.wixstatic.com/media/6e2c6c_05022fd4446e4f258ee9a6ffa599e405~mv2.png/v1/fill/w_211,h_56,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/CSA-wide-Logo.png",
+      "form": "https://forms.monday.com/forms/a581779b065798bdbac2a5d206419ae6?r=euc1"
+    },
+    {
       "name": "HamalFoodLogistics",
       "displayName": "חמ״ל שינוע מזון לחיילים",
       "shortDescription": "קבוצת וואטסאפ לתיאום ושינוע של מזון ללוחמים",
