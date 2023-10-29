@@ -14,6 +14,9 @@ _site/
 .next/
 /out/
 
+# ESLint
+.eslintcache
+
 # production
 /build
 
@@ -38,3 +41,4 @@ next-env.d.ts
 
 # IDEA
 .idea/*
+pnpm-lock.yaml

@@ -1,23 +1,57 @@
 @media only screen and (max-width: 600px) {
+	.links-section-item-short-description {
+		display: flex;
+	}
+
+	.links-section-title {
+		font-size: 24px; // Increase the title size for clarity
+		font-weight: 900;
+		position: relative;
+		z-index: 2;
+	}
+
+	.links-section-subcategory {
+		display: flex;
+		flex-wrap: nowrap; // Prevent content from wrapping to the next line
+		overflow-x: scroll; // Enables horizontal scrolling if content overflows
+		overflow-y: hidden; // Prevents vertical scrolling
+		white-space: nowrap; // Prevents contents from wrapping onto next line
+		max-height: 30vh;
+		max-width: 100vw;
+		padding-inline-end: 150px; // Reduce the padding for more visible space
+		margin-bottom: 15px;
+		scroll-snap-type: x mandatory;
+		scroll-padding: 50%;
+		scroll-snap-align: center;
+		//scroll snap
+		-webkit-overflow-scrolling: touch; // Smooth scrolling on iOS devices
+		// Targeting inner items within the scrollable area
+		.links-section-item {
+			flex: 1 0 50%; // This sets the item to take up half the container's width
+		}
+	}
+
+	.links-subcategory-header {
+		font-size: 22px; // Slightly increase the font size for headers
+		margin-top: 25px;
+		margin-bottom: 10px;
+	}
+
 	.links-section {
 		align-items: center;
-		border-radius: 30px;
-		border: 2px solid #0038b8;
-		background: var(--color-white);
-		min-height: 100px;
-		margin-block-end: 16px;
-		color: var(--header-text-color);
+		border-radius: 4px;
+		background-color: #eaeaea;
+		margin-block-end: 8px;
 		display: flex;
 		flex-direction: column;
 		width: 90vw;
-
-		// &[open] .open-caret {
-		//     transform: rotate(180deg);
-		// }
+		overflow: hidden;
+		padding: 15px; // Add padding inside sections for better spacing
+		margin: 15px auto;
 
 		.links-section-content {
-			padding: 32px;
 			display: block;
+			width: 100%;
 
 			hr {
 				display: block;
@@ -26,17 +60,17 @@
 			ul li a {
 				font-size: 16px;
 				padding: 15px;
+				overflow: hidden;
+				width: 80%;
 			}
-		}
-
-		.links-section-title {
-			justify-content: flex-start;
 		}
 	}
 
 	.links-section-item {
 		flex-basis: 100%;
-		width: 100%;
+		width: 50%;
+		overflow: hidden;
+		white-space: normal;
 	}
 
 	.category-icon {
@@ -45,12 +79,14 @@
 
 	.main-content {
 		max-width: 64em;
-		padding: 2rem 1rem;
+		// padding: 2rem 1rem;
 		font-size: 1rem;
-		overflow-y: auto;
+		padding: 20px 15px; // Increase side padding for better spacing
 
 		.desktop-category {
 			height: auto;
+			justify-content: center;
+			align-items: center;
 		}
 
 		.desktop-content {
@@ -59,10 +95,6 @@
 
 		.desktop-grid {
 			display: block;
-
-			// .open-caret {
-			//     transform: rotate(0deg);
-			// }
 		}
 	}
 

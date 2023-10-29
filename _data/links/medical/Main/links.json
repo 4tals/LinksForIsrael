@@ -1,7 +1,39 @@
 {
   "name": "MedicalMain",
-  "displayName": "",
+  "displayName": "כלליות",
   "links": [
+    {
+      "name": "IronDoctors",
+      "displayName": "רופאות הברזל - ⚡יעוץ רפואי מהיר בשעת חרום⚡",
+      "shortDescription": "ניתן על ידי חברת ניתאי שירותי עזרה ראשונה",
+      "description": "לאור מצב החירום בו נמצאת ישראל בזמנים אלו, שיבא beyond, בית החולים הוירטואלי בשיבא, ובשיתוף קבוצת חדר רופאות הקימו עבורכם/ן מוקד ובו מערך רופאות ורופאים מתנדבים/ות בתחומים שונים. המערך זמין למתן ייעוץ רפואי מהיר דרך הוואטסאפ במצבים לא דחופים ובתחומים שונים: רפואה פנימית ומשפחה, רפואת ילדים, רפואת שיניים, ועוד. שעות פעילות המוקד יתעדכנו מעת לעת, ובהמשך המוקד מיועד לפעילות של 24/7. שעות פעילות המוקד כרגע: 16:00-20:00. אנא התעדכנו בשעות הפעילות בדף זה.",
+      "url": "https://www.hopp.bio/irondoctors",
+      "whatsapp": "https://api.whatsapp.com/send/?phone=972559726946&text&type=phone_number&app_absent=0",
+      "initiativeImage": "https://static.wixstatic.com/media/17ed99_203d95c733014d81a8c8081e49d4098d~mv2.jpeg/v1/crop/x_0,y_152,w_640,h_336/fill/w_1200,h_630,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/17ed99_203d95c733014d81a8c8081e49d4098d~mv2.jpeg",
+      "tags": [
+        "רפואה",
+        "התנדבות",
+        "מתנדב"
+      ]
+    },
+    {
+      "name": "MedicalVolunteersforIsrael",
+      "displayName": "מתנדבים רפואיים לישראל",
+      "shortDescription": "המשרד הישראלי לבריאות מגייס רשימה של צוות רפואי מחו״ל להתנדבות בישראל במקרה הצורך",
+      "description": "ברגע שהשורשים שוב יתעממו על מערכת הבריאות, וכמבנה לאסונות טבע או בני אדם עתידיים, אנו מזמינים חברים של ישראל להוסיף את שמם לקהילה המתרחבת שלנו של צוות רפואי שנמצא עם ישראל. הירשמו לקבלת נקודות CME בעתיד, להתאמן עם צוותים ישראליים, ולהתחבר אל חברים של ישראל באזור שלך.",
+      "url": "https://survey.gov.il/en/internationalvolunteers?utm_source=go.gov.il&utm_medium=referral",
+      "website": "https://survey.gov.il/en/internationalvolunteers?utm_source=go.gov.il&utm_medium=referral",
+      "initiativeValidationDetails": "המקור: דף המשרד הראשי של המשרד לבריאות",
+      "initiativeImage": "https://survey.gov.il/sites/default/files/styles/medium/public/2023-10/%D7%A1%D7%9E%D7%9C%20%D7%94%D7%9E%D7%93%D7%99%D7%A0%D7%94-%20%D7%9B%D7%97%D7%95%D7%9C%20%D7%9B%D7%94%D7%94%20%D7%9E%D7%91%20copy%202.png?itok=7m2Yd5U0",
+      "tags": [
+        "רפואי",
+        "ישראל",
+        "חברים של ישראל",
+        "משרד הבריאות",
+        "התנדבות",
+        "רפואה"
+      ]
+    },
     {
       "name": "CourseEzraRishona",
       "displayName": "ריכוז תכני קורס עזרה ראשונה",
@@ -9,14 +41,6 @@
       "description": "ניתן על ידי חברת ניתאי שירותי עזרה ראשונה",
       "url": "./docs/ezra-rishona",
       "portal": "./docs/ezra-rishona"
-    },
-    {
-      "name": "IronDoctors",
-      "displayName": "רופאות הברזל - ⚡יעוץ רפואי מהיר בשעת חרום⚡",
-      "shortDescription": "ניתן על ידי חברת ניתאי שירותי עזרה ראשונה",
-      "description": "לאור מצב החירום בו נמצאת ישראל בזמנים אלו, שיבא beyond, בית החולים הוירטואלי בשיבא, ובשיתוף קבוצת חדר רופאות הקימו עבורכם/ן מוקד ובו מערך רופאות ורופאים מתנדבים/ות בתחומים שונים. המערך זמין למתן ייעוץ רפואי מהיר דרך הוואטסאפ במצבים לא דחופים ובתחומים שונים: רפואה פנימית ומשפחה, רפואת ילדים, רפואת שיניים, ועוד. שעות פעילות המוקד יתעדכנו מעת לעת, ובהמשך המוקד מיועד לפעילות של 24/7. שעות פעילות המוקד כרגע: 16:00-20:00. אנא התעדכנו בשעות הפעילות בדף זה.",
-      "url": "https://www.hopp.bio/irondoctors",
-      "whatsapp": "https://api.whatsapp.com/send/?phone=972559726946&text&type=phone_number&app_absent=0"
     }
   ]
 }

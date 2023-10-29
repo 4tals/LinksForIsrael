@@ -1,6 +1,6 @@
 {
   "name": "ReservesMain",
-  "displayName": "יוזמות עבור משרתי המילואים",
+  "displayName": "יוזמות עבור החיילים ומשרתי המילואים",
   "links": [
     {
       "name": "MiluimSite",
@@ -32,6 +32,22 @@
         "דרום",
         "מרכז",
         "צפון"
+      ]
+    },
+    {
+      "name": "ReserveSoldiersSupport",
+      "displayName":"אזרחים - עושים יותר בביטחון",
+      "shortDescription": "קהילה של אזרחים בעורף שרוצים לסייע לכוחות הבטחון לנצח במלחמה!",
+      "description": "קהילה שנוסדה על ידי ידידיה הריס ואור סביון, מתנדבים בביטחון. הקהילה מסייעת לכוחות הבטחון בשטח ומונה מעל 5000 חברים.",
+      "url": "https://osimyoter.com/",
+      "initiativeImage": "https://osimyoter.com/images/HANDS.png",
+      "whatsapp": "https://chat.whatsapp.com/G01UhlGjmdv7PTdhnItQsC",
+      "form": "https://forms.monday.com/forms/ace30a05b7cdcce509292531b19cfbdb?r=euc1",
+      "tags": [
+        "מילואים",
+        "ביטחון",
+        "קהילה",
+        "מתנדב"
       ]
     }
   ]
