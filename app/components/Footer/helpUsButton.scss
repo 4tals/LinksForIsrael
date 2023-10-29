@@ -1,0 +1,18 @@
+.contribute-button {
+	background-color: #e0e0e0;
+	border-radius: 10px;
+	color: var(--text-color);
+	font-size: 14px;
+	padding: 4px 10px; /* Increased padding for a better visual look */
+	margin-right: 10px;
+	transition:
+		transform 0.3s ease,
+		background-color 0.3s ease;
+	border: none;
+	cursor: pointer;
+
+	&:hover {
+		transform: scale(1.05);
+		background-color: var(--color-light-blue); /* Change as per design */
+	}
+}

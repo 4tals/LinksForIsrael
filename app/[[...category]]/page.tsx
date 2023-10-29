@@ -1,6 +1,7 @@
 import { getCategories } from "../utils/categories";
 import { CategoriesList } from "./CategoriesList";
 import { CategoryContent } from "./CategoryContent";
+import { NoCategoryZeroState } from "./NoCategoryZeroState/NoCategoryZeroState";
 
 type CategoryParam =
 	| []
@@ -49,7 +50,7 @@ export default async function Category({
 }) {
 	const data = await getCategories();
 
-	const [categoryId, subCategoryId, linkId] = params.category || [];
+	const [categoryId] = params.category || [];
 	const pageCategory = categoryId
 		? data.find((category) => category.id === categoryId)
 		: null;
@@ -57,7 +58,7 @@ export default async function Category({
 	return (
 		<div className="desktop-grid">
 			<CategoriesList categories={data} categoryId={categoryId} />
-			{pageCategory && (
+			{pageCategory ? (
 				<div className="desktop-content hidden sm:block">
 					<CategoryContent
 						subCategories={pageCategory.subCategories}
@@ -65,6 +66,8 @@ export default async function Category({
 						categoryDescription={pageCategory.description}
 					/>
 				</div>
+			) : (
+				<NoCategoryZeroState />
 			)}
 		</div>
 	);

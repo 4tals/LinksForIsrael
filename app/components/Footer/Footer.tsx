@@ -1,3 +1,5 @@
+import { HelpUsButton } from "./HelpUsButton";
+
 export function Footer() {
 	return (
 		<footer className="footer">
@@ -38,6 +40,7 @@ export function Footer() {
 						height="32"
 					/>
 				</a>
+				<HelpUsButton />
 			</div>
 			<div className="quote-link flex flex-row items-center justify-center">
 				<div className="invite-text">&quot;הופכים עליהם, טובים אותם&quot;</div>

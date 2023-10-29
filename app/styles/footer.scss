@@ -5,13 +5,18 @@
 	align-items: center;
 	padding: 10px;
 	border-top: 1px solid var(--color-divider);
-	color: var(--color-white);
+	background-color: var(--color-white);
+	height: 7vh;
+	z-index: 10;
+	direction: rtl;
+	position: sticky;
 
 	.social-links {
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
-		gap: 15px;
+		align-items: center;
+		gap: 10px;
 
 		a {
 			transition: opacity 0.3s;
@@ -20,6 +25,10 @@
 				opacity: 0.7;
 			}
 		}
+	}
+
+	.invite-text {
+		text-align: center;
 	}
 
 	.quote-link {

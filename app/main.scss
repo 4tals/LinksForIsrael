@@ -23,4 +23,18 @@
 body {
 	font-family: var(--font-display), sans-serif;
 	color: var(--color-dark);
+	overflow: hidden;
+}
+
+::-webkit-scrollbar {
+	width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #c5c9ce;
+	border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #b0b4b9;
 }

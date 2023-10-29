@@ -1,10 +1,9 @@
 .page-header {
 	display: flex;
-	justify-content: center;
-	padding: 20px 0;
+	justify-content: space-between;
+	padding: 20px 20px;
 	background-color: var(--color-blue);
-	height: auto;
-	position: sticky;
+	height: 15vh;
 	z-index: 999;
 	width: 100%;
 	top: 0;
@@ -12,50 +11,12 @@
 	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Added shadow for depth */
 }
 
-.header-content {
-	width: 90%;
-	max-width: 1200px; /* maximum width for large screens */
-	display: flex;
-	justify-content: space-between;
-}
-
 .left-section,
 .middle-section,
 .right-section {
 	display: flex;
 	align-items: center;
-}
-
-.left-section {
-	flex: 1;
-}
-
-.middle-section {
-	flex: 2;
-}
-
-.right-section {
-	flex: 1;
-	justify-content: flex-end;
-}
-
-.contribute-button {
-	background-color: var(--color-white);
-	border-radius: 30px;
-	color: var(--text-color);
-	font-size: 14px;
-	padding: 8px 20px; /* Increased padding for a better visual look */
-	margin-right: 10px;
-	transition:
-		transform 0.3s ease,
-		background-color 0.3s ease;
-	border: none;
-	cursor: pointer;
-
-	&:hover {
-		transform: scale(1.05);
-		background-color: var(--color-light-blue); /* Change as per design */
-	}
+	width: 33%;
 }
 
 Banner h1 {
@@ -76,10 +37,13 @@ Banner h1 {
 	.left-section,
 	.middle-section,
 	.right-section {
-        flex-direction: column; /* Stack elements vertically */;
 		gap: 10px; /* Maintain space between elements */
 	}
-	
+
+	.right-section {
+		width: 50vw;
+	}
+
 	.banner-icon {
 		fill: var(--color-white); /* Control the SVG color via CSS */
 		display: none;

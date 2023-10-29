@@ -105,7 +105,6 @@
 	&:has(.link-initiative-icon-bg) {
 		a {
 			text-shadow: 1px 1px var(--color-white);
-			
 		}
 	}
 }
@@ -140,6 +139,12 @@
 	display: flex;
 }
 
+.item-container {
+	height: 95%;
+	overflow-y: auto;
+	padding: 0px 10px;
+}
+
 .share-button-style {
 	width: fit-content;
 	height: 35px;
@@ -160,9 +165,10 @@
 }
 
 .main-content {
-	padding: 0 10px;
+	// padding: 0 10px;
 	max-width: 100vw;
 	border-block-start: solid 1px var(--color-divider);
+	height: 78vh;
 
 	& .desktop-open {
 		background-color: var(--color-divider);
@@ -182,6 +188,7 @@
 		display: grid;
 		grid-template-columns: max(17%) 1fr;
 		gap: 8px;
+		height: 100%;
 
 		// .open-caret {
 		// 	transform: rotate(90deg);
@@ -189,9 +196,7 @@
 	}
 
 	.desktop-category {
-		height: calc(100vh - 100px);
 		overflow-y: scroll;
-		overflow: hidden;
 	}
 
 	.category-description {
@@ -201,7 +206,6 @@
 
 	.desktop-content {
 		display: block;
-		height: calc(100vh - 100px);
 		width: 100%;
 		justify-self: center;
 		overflow-y: auto;
@@ -296,7 +300,6 @@
 	.links-section-content {
 		--link-font-size: 16px;
 		overflow: hidden;
-		padding: 25px;
 		hr {
 			display: none;
 		}

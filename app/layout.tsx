@@ -54,10 +54,9 @@ export default async function RootLayout({
 				<Header categories={categories} />
 				<main id="content" className="main-content" role="main">
 					{children}
-					<AddSite />
-					<Footer />
 				</main>
 			</body>
+			<Footer />
 		</html>
 	);
 }

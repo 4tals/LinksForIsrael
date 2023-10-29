@@ -1,37 +1,23 @@
 import { Category } from "@/app/utils/categories";
 
+import { AddSite } from "../AddSite";
 import { SearchButtonMobile } from "./SearchButtonMobile";
 import { SearchFormWeb } from "./SearchFormWeb";
 
 export function Header({ categories }: { categories: Category[] }) {
 	return (
 		<header className="page-header" role="banner" dir="rtl">
-			<div className="header-content">
-				<div className="left-section">
-					<Banner />
-				</div>
-				<div className="middle-section">
-					<SearchFormWeb categories={categories} />
-				</div>
-				<div className="right-section">
-					<HelpUsButton />
-					<SearchButtonMobile categories={categories} />
-				</div>
+			<div className="left-section">
+				<Banner />
+			</div>
+			<div className="middle-section">
+				<SearchFormWeb categories={categories} />
+			</div>
+			<div className="right-section">
+				<AddSite />
+				<SearchButtonMobile categories={categories} />
 			</div>
 		</header>
-	);
-}
-
-function HelpUsButton() {
-	return (
-		<a
-			className="contribute-button"
-			href="https://github.com/4tals/LinksForIsrael/blob/main/docs/contribute.md"
-			target="_blank"
-			rel="noopener noreferrer"
-		>
-			מפתחים? עזרו לנו 💪
-		</a>
 	);
 }
 

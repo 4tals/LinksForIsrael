@@ -4,7 +4,7 @@
 	}
 
 	.links-section-title {
-		font-size: 24px;  // Increase the title size for clarity
+		font-size: 24px; // Increase the title size for clarity
 		font-weight: 900;
 		position: relative;
 		z-index: 2;
@@ -18,7 +18,7 @@
 		white-space: nowrap; // Prevents contents from wrapping onto next line
 		max-height: 30vh;
 		max-width: 100vw;
-		padding-inline-end: 150px;  // Reduce the padding for more visible space
+		padding-inline-end: 150px; // Reduce the padding for more visible space
 		margin-bottom: 15px;
 		scroll-snap-type: x mandatory;
 		scroll-padding: 50%;
@@ -32,9 +32,9 @@
 	}
 
 	.links-subcategory-header {
-		font-size: 22px;  // Slightly increase the font size for headers
-        margin-top: 25px;
-        margin-bottom: 10px; 
+		font-size: 22px; // Slightly increase the font size for headers
+		margin-top: 25px;
+		margin-bottom: 10px;
 	}
 
 	.links-section {
@@ -46,7 +46,7 @@
 		flex-direction: column;
 		width: 90vw;
 		overflow: hidden;
-		padding: 15px;  // Add padding inside sections for better spacing
+		padding: 15px; // Add padding inside sections for better spacing
 		margin: 15px auto;
 
 		.links-section-content {
@@ -81,14 +81,13 @@
 		max-width: 64em;
 		// padding: 2rem 1rem;
 		font-size: 1rem;
-		padding: 20px 15px;  // Increase side padding for better spacing
-
+		padding: 20px 15px; // Increase side padding for better spacing
+		overflow-y: scroll;
 
 		.desktop-category {
 			height: auto;
 			justify-content: center;
 			align-items: center;
-			
 		}
 
 		.desktop-content {
@@ -99,12 +98,8 @@
 			display: block;
 		}
 	}
-	
+
 	::-webkit-scrollbar {
-		width: 8px;
-	}
-	::-webkit-scrollbar-thumb {
-		background-color: #888;
-		border-radius: 10px;
+		display: none;
 	}
 }
