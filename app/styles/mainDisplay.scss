@@ -89,6 +89,7 @@
 .links-section-item-short-description {
 	font-size: 14px;
 	font-weight: 400;
+	display: none;
 }
 
 .item-container {
@@ -120,6 +121,7 @@
 	// padding: 0 10px;
 	max-width: 100vw;
 	border-block-start: solid 1px var(--color-divider);
+	height: 78vh;
 
 	& .desktop-open {
 		background-color: var(--color-divider);
@@ -139,7 +141,6 @@
 		display: grid;
 		grid-template-columns: max(17%) 1fr;
 		gap: 8px;
-		height: 78vh;
 
 		// .open-caret {
 		// 	transform: rotate(90deg);
