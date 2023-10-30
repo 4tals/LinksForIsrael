@@ -6,7 +6,7 @@
 
 ## GitHub Issues
 
-https://github.com/4tals/LinksForIsrael/issues
+<https://github.com/4tals/LinksForIsrael/issues>
 
 - Browse our website and report bugs, suggest features, and request to add missing initiatives.
 - Review open issues, if you find one you would like to work on, talk to us on the chat!
@@ -14,9 +14,9 @@ https://github.com/4tals/LinksForIsrael/issues
 ## Find new initiatives to add
 
 - Scan existing aggregation sites:
-  - https://www.coing.co/Israhelp
-  - https://www.bnf.co.il/stay-together/
-  - More: https://www.linksforisrael.com/#InitiativesAggregation
+  - <https://www.coing.co/Israhelp>
+  - <https://www.bnf.co.il/stay-together/>
+  - More: <https://www.linksforisrael.com/#Aggregators>
 - Follow and search the news, social media, and chat groups
   - WhatsApp / Telegram
   - Facebook / Instagram / X (Twitter)
@@ -33,7 +33,7 @@ For every existing initiative:
 - Can we improve the description?
 - Can we categorize them better (perhaps add new categories and sub-categories)?
 
-If you find anything to improve, feel free to open a PR on the relevant JSON: https://github.com/4tals/LinksForIsrael/tree/main/_data/links
+If you find anything to improve, feel free to open a PR on the relevant JSON: <https://github.com/4tals/LinksForIsrael/tree/main/_data/links>
 
 ## Support the development effort
 
@@ -46,9 +46,9 @@ We always appreciate more eyes reviewing our PRs and monitoring our pipelines fo
    - [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
    - [Node.js](https://nodejs.org/en/download/)
 
-2. **Clone/fork the repository**: https://github.com/4tals/LinksForIsrael
+2. **Clone/fork the repository**: <https://github.com/4tals/LinksForIsrael>
 
-   - New to GitHub? Check out https://docs.github.com/en/get-started/quickstart/contributing-to-projects
+   - New to GitHub? Check out <https://docs.github.com/en/get-started/quickstart/contributing-to-projects>
    - Navigate to the repo's root: `cd LinksForIsrael`
 
 3. **Install Dependencies**

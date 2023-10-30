@@ -1,31 +1,9 @@
 {
-  "name": "Aggregation",
-  "displayName": "ריכוזי יוזמות - אגריגטורס",
+  "name": "AggregationMain",
+  "displayName": "איגודי יוזמות",
+  "description":"איגודי יוזמות והתנדבויות - חרבות ברזל",
   "links": [
-    {
-      "name": "IronBot",
-      "displayName": "עורף ברזל",
-      "shortDescription": "מתנדבים ומגייסי מתנדבים",
-      "description": "מתנדבים ומגייסי מתנדבים",
-      "url": "https://ironswords.help/",
-      "website": "https://ironswords.help/"
-    },
-    {
-      "name": "LevEhad",
-      "displayName": "לב אחד",
-      "shortDescription": "ארגון המקנה חוסן חברתי ומעניק כוח לרשויות המקומיות בשעות חירום.",
-      "description": "ארגון המקנה חוסן חברתי ומעניק כוח לרשויות המקומיות בשעות חירום.",
-      "url": "https://www.levechad.org/",
-      "website": "https://www.levechad.org/"
-    },
-    {
-      "name": "KhamalAmEhad",
-      "displayName": "חמ״ל עם אחד",
-      "description": "חמ״ל המחבר בין משפחות מארחות למשפחות מהדרום, ומגייס תרומות לסיוע התושבים.",
-      "shortDescription": "חמ״ל המחבר בין משפחות מארחות למשפחות מהדרום, ומגייס תרומות לסיוע התושבים.",
-      "url": "https://www.am-ehad.org/",
-      "website": "https://www.am-ehad.org/"
-    },
+    
     {
       "name": "IsraHelp",
       "displayName": "IsraHelp",

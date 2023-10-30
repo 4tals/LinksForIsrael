@@ -1,6 +1,6 @@
 {
   "name": "SocialNetworksMain",
-  "displayName": "",
+  "displayName": "רשתות חברתיות",
   "links": [
     {
       "name": "The Iron Fire - פיטורי הברזל",
@@ -61,22 +61,6 @@
         "רשתות חברתיות",
         "הסרת תוכן",
         "דיווח"
-      ]
-    },
-    {
-      "name": "LinkedInPublicity",
-      "displayName": "קול קורא: בואו תעזרו לנו בהסברה בלינקדאין",
-      "description": "קבוצה של משפיענים בלינקדאין להגדיל חשיפה, חידוד מסרים, דיווחים על פרופילים ועוד.",
-      "shortDescription": "להגדיל חשיפה, חידוד מסרים, דיווחים על פרופילים ועוד.",
-      "initiativeValidationDetails": "קורא: אני שוחחתי עם הקולגה שלי, הוא לשעבר עובד ב-MS, מאמת כל חבר חדש",
-      "whatsapp": "https://chat.whatsapp.com/EQopAWUyRrt8IIg5M7ZvbV",
-      "url": "https://chat.whatsapp.com/EQopAWUyRrt8IIg5M7ZvbV",
-      "doc": "https://docs.google.com/spreadsheets/d/1z9-2aXt_CmmAOyXEhtoGO-G0HEM-2fx8MGIn3AzLRNk/edit?usp=sharing",
-      "tags": [
-        "הסברה",
-        "לינקדאין",
-        "משפיענים",
-        "חשיפה"
       ]
     },
     {

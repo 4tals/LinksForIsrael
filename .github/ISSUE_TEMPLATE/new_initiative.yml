@@ -48,6 +48,7 @@ body:
     attributes:
       label: Initiative Category
       options:
+        - GeneralAssistance
         - children
         - defense/EvacuationMain
         - defense/Shelters
@@ -56,8 +57,7 @@ body:
         - EquipmentNFood
         - FamilyHosting
         - hasbara
-        - InitiativesAggregation/Aggregation
-        - InitiativesAggregation/AssistanceMain
+        - Aggregators/Aggregation
         - Transportation
         - Medical
         - MentalSupport
