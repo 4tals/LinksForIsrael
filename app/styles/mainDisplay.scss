@@ -24,7 +24,7 @@
 	position: absolute;
 	top: 0;
 	left: 5%;
-	filter: opacity(0.4);
+	filter: opacity(0.2);
 }
 
 .links-section-title {
@@ -87,8 +87,9 @@
 	padding: 16px 24px;
 	border-radius: 15px;
 	margin-top: 10px;
-	min-width: 350px; // You can adjust this value as needed
-	height: 170px; // You can adjust this value as needed
+	min-width: 250px; // You can adjust this value as needed
+	max-width: 350px;
+	height: 150px; // You can adjust this value as needed
 	overflow-y: auto; // Makes the content inside scrollable if it exceeds max-height
 
 	background: linear-gradient(to bottom right, #e6e9ec, #f5f7fa);

@@ -5,9 +5,9 @@ import withHebrewSupport from "lunr-languages/lunr.he";
 import withMulti from "lunr-languages/lunr.multi";
 // @ts-ignore
 import withStemmerSupport from "lunr-languages/lunr.stemmer.support";
-import mixpanel from "mixpanel-browser";
 import { useMemo, useState } from "react";
 
+import { analyticsService } from "@/app/analytics";
 import { Category, Link } from "@/app/utils/categories";
 
 withStemmerSupport(lunr);
@@ -69,13 +69,19 @@ export function useSearch(categories: Category[]) {
 
 	function handleChangeSearch(searchTerm: string) {
 		setSearch(searchTerm);
-		setDisplaySearchResults(getResults(searchTerm));
+		const results = getResults(searchTerm);
+		setDisplaySearchResults(results);
 
-		if (!window.location.hostname.includes("localhost")) {
-			mixpanel.track(`Search`, {
-				searchTerm,
-			});
+		let usedHebrewMapping = false;
+		if (results.length === 0) {
+			const mappedSearchTerm = mapStringToHebrew(searchTerm);
+			if (mappedSearchTerm) {
+				usedHebrewMapping = true;
+				setDisplaySearchResults(getResults(mappedSearchTerm));
+			}
 		}
+
+		analyticsService.trackSearch(searchTerm, results.length, usedHebrewMapping);
 
 		function getResults(searchTerm: string) {
 			if (!searchTerm) {
