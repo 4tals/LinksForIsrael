@@ -1,7 +1,6 @@
 [
   "Evacuees",
   "defense",
-  "Aggregators",
   "volunteering",
   "tech-initiatives",
   "Transportation",
@@ -15,5 +14,6 @@
   "children",
   "Needarim",
   "medical",
-  "Yizkor"
+  "Yizkor",
+  "Aggregators"
 ]
