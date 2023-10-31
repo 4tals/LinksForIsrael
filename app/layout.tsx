@@ -4,8 +4,8 @@ import { Rubik } from "next/font/google";
 import { config as fontawesomeConfig } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 
-import { AddSite } from "./components/AddSite";
 import { Footer } from "./components/Footer";
+import { GTag } from "./components/Gtag";
 import { Header } from "./components/Header";
 import "./globals.css";
 import "./main.scss";
@@ -49,7 +49,9 @@ export default async function RootLayout({
 
 	return (
 		<html lang="he" className={rubik.variable}>
-			<head></head>
+			<head>
+				<GTag />
+			</head>
 			<body dir="rtl">
 				<Header categories={categories} />
 				<main id="content" className="main-content" role="main">
