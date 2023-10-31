@@ -31,9 +31,23 @@ export const metadata: Metadata = {
 	},
 	openGraph: {
 		url: "https://www.linksforisrael.com",
+		title: "לינק לישראל – פורטל יוזמות - חרבות הברזל!",
+		description:
+			"אם אתם מחפשים איך לעזור או צריכים עזרה או מידע – זה המקום. לינק לישראל מרכז את כל המשאבים והיוזמות במקום אחד.",
 		images:
 			"https://res.cloudinary.com/dargbitr2/image/upload/v1697311977/LinksForIsrael/jix5eizmqcegmfra89gs.jpg",
 		type: "website",
+	},
+	twitter: {
+		card: "summary_large_image",
+		site: "@linksforisrael",
+		creator: "@PortalIdan",
+		title: "לינק לישראל – פורטל יוזמות - חרבות הברזל!",
+		description:
+			"אם אתם מחפשים איך לעזור או צריכים עזרה או מידע – זה המקום. לינק לישראל מרכז את כל המשאבים והיוזמות במקום אחד.",
+		images: [
+			"https://res.cloudinary.com/dargbitr2/image/upload/v1697311977/LinksForIsrael/jix5eizmqcegmfra89gs.jpg",
+		],
 	},
 	icons: {
 		icon: "https://res.cloudinary.com/dargbitr2/image/upload/v1697228919/LinksForIsrael/r5ysb355egkpyd10jovq.jpg",
