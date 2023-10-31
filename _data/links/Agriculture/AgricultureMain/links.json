@@ -35,6 +35,22 @@
         "חוויתי",
         "משמעותי"
       ]
+    },
+    {
+      "name": "SupportingIsraeliFarmers",
+      "displayName": "צו 8 לחקלאות הישראלית",
+      "description": "הטרור המחריד ב-7.10 פגע בחקלאות. חקלאים נפגעו ותשתיות הוזקו. אנו יוצרים שיתוף פעולה לסייע לחקלאים ולשלב מאמצים למען החקלאות המקומית.",
+      "shortDescription": "הטרור ב-7.10 פגע בחקלאות. שיתוף פעולה יסייע לחקלאי ישראל ותמיכה בעת חירום לעתיד החקלאות.",
+      "website": "https://supportingisraelifarmers.co.il/",
+      "url": "https://supportingisraelifarmers.co.il/",
+      "initiativeImage": "https://www.hayadan.org.il/images/content3/2018/01/farmer-880567_1280.jpg",
+      "tags": [
+        "התנדבות",
+        "חקלאות",
+        "צו-8",
+        "חקלאים",
+        "משמעותי"
+      ]
     }
   ]
 }
