@@ -29,6 +29,18 @@
         "תיעוד",
         "שימור"
       ]
+    },
+    {
+      "displayName": "Mapping the Massacres",
+      "name": "מיפוי אירועי והרוגי הטבח",
+      "shortDescription": "A geovisualization depicting the atrocities perpetrated by Hamas on Israeli lands on October 7th",
+      "description": "The October 7th Geo-visualization Project strives to provide a comprehensive representation of the atrocities committed by Hamas on that day. This interactive map serves as a reflection and an educational tool, promoting awareness of the gravity of the horrors.",
+      "url": "https://oct7map.com/",
+      "website": "https://oct7map.com/",
+      "tags": [
+        "מיפוי",
+        "ויזואליזציה"
+      ]
     }
   ]
 }
