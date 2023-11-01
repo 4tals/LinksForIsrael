@@ -1,12 +1,12 @@
 {
-  "name": "Hasbara",
+  "name": "StrategicCommunication",
   "displayName": "הסברה",
   "description": "",
   "image": "https://cdn-icons-png.flaticon.com/512/7553/7553719.png",
   "subCategories": [
-    "Tools",
-    "Main",
     "Info",
-    "SocialNetworks"
+    "Main",
+    "SocialNetworks",
+    "Tools"
   ]
 }

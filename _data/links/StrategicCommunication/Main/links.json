@@ -1,5 +1,5 @@
 {
-  "name": "HasbaraMain",
+  "name": "StrategicCommunicationMain",
   "displayName": "יוזמות הסברה",
   "links": [
     {
@@ -137,7 +137,7 @@
       ]
     },
     {
-      "name": "ChildrenPulicity",
+      "name": "ChildrenPublicity",
       "displayName": "התנדבות ילדים להסברה",
       "shortDescription": "ילדים מסבירים את עמדת ישראל במלחמה",
       "description": "אתר בו ילדים מסבירים באמצעות אודיו וציורים את עמדת ישראל לקהל הבינלאומי.",
