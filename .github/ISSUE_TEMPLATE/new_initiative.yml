@@ -48,6 +48,7 @@ body:
     attributes:
       label: Initiative Category
       options:
+        - Agriculture
         - Children
         - Defense/Evacuation
         - Defense/Shelters
