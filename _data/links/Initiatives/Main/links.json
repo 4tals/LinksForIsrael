@@ -1,9 +1,8 @@
 {
-  "name": "AggregationMain",
+  "name": "InitiativesMain",
   "displayName": "איגודי יוזמות",
-  "description":"איגודי יוזמות והתנדבויות - חרבות ברזל",
+  "description": "איגודי יוזמות והתנדבויות - חרבות ברזל",
   "links": [
-    
     {
       "name": "IsraHelp",
       "displayName": "IsraHelp",
