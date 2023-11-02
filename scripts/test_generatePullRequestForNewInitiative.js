@@ -28,6 +28,6 @@ const context = {
     }
 }
 
-const script = require('./commentUsingGptResponse.js')
+const script = require('./generatePullRequestForNewInitiative.js')
 
 script({github, context})

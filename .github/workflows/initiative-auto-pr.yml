@@ -36,9 +36,9 @@ jobs:
           max_attempts: 3
           command: python $GITHUB_WORKSPACE/scripts/gptGenerateJsonFromIssue.py
           
-      - name: Post comment
+      - name: Generate PR
         uses: actions/github-script@v6
         with:
           script: |
-            const script = require(process.env.GITHUB_WORKSPACE + '/scripts/commentUsingGptResponse.js')
+            const script = require(process.env.GITHUB_WORKSPACE + '/scripts/generatePullRequestForNewInitiative.js')
             script({github, context})
