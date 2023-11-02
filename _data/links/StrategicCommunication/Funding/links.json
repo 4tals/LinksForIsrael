@@ -1,0 +1,23 @@
+{
+  "name": "StrategicCommunicationFunding",
+  "displayName": "מחפשים מימון ותמיכה לפרויקט שלכם?",
+  "links": [
+    {
+      "displayName": "קולות מישראל - Voice Of Israel",
+      "name": "voicesOfIsrael",
+      "shortDescription": "גוף תומך בפעילויות הסברתיות פרו-ישראלית מסביב לעולם",
+      "description": "בעקבות מלחמת ׳חרבות הברזל׳, אנו מזמינים ארגונים, פרויקטים וגופים (עמותות, חברות, עוסקים מורשים) להגיש הצעות למיזמים לחיזוק הנרטיב של ישראל בזירה הבין לאומית בהקשר למאמץ ההסברתי מלחמתי.  פרויקטים שיבחרו יזכו למימון משלים – Match funding על בסיס תצהיר חתום על יכולות המימון, בשיעור של עד 50% מעלות התוכנית. ניתן למצוא את הפרטים המלאים באתר שלנו - https://voicesofisrael.org/ זמינים לשאלות בפרטי ובמייל. info@voicesofisrael.org",
+      "initiativeValidationDetails": "Source: Eden Eini  נשלח בקבוצת וואטסאפ ״קבינט הסברה | אדמינים בלבד״",
+      "category": "StrategicCommunication",
+      "url": "https://voicesofisrael.org/",
+      "initiativeImage": "https://voicesofisrael.org/wp-content/uploads/2020/02/CONCERT-LOGO-CLEAN-1.png",
+      "website": "https://voicesofisrael.org/",
+      "tags": [
+        "ישראל",
+        "הסברה",
+        "חרבות הברזל",
+        "קולות מישראל"
+      ]
+    }
+  ]
+}
