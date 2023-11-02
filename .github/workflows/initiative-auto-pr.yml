@@ -1,16 +1,17 @@
-name: Initiative Request - Auto Comment
+name: Initiative Request - Automatic PR
 
 on:
   issues:
     types: [opened, edited]
 
 jobs:
-  add-comment:
+  create-pr:
     if: contains(github.event.issue.labels.*.name, 'new-initiative-request')
     runs-on: ubuntu-latest
     permissions:
-      contents: read
+      contents: write
       issues: write
+      pull-requests: write
       
     steps:
       - name: Checkout code
@@ -27,14 +28,18 @@ jobs:
           pip install -r "$GITHUB_WORKSPACE/scripts/requirements.txt"
 
       - name: Run GPT script
+        uses: nick-fields/retry@v2
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           ISSUE_BODY: ${{ github.event.issue.body }}
-        run: python $GITHUB_WORKSPACE/scripts/gptGenerateJsonFromIssue.py
-
-      - name: Post comment
+        with:
+          timeout_minutes: 5
+          max_attempts: 3
+          command: python $GITHUB_WORKSPACE/scripts/gptGenerateJsonFromIssue.py
+          
+      - name: Generate PR
         uses: actions/github-script@v6
         with:
           script: |
-            const script = require(process.env.GITHUB_WORKSPACE + '/scripts/commentUsingGptResponse.js')
-            script({github, context})
+            const script = require(process.env.GITHUB_WORKSPACE + '/scripts/generatePullRequestForNewInitiative.js')
+            await script({github, context})

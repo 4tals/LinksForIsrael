@@ -48,28 +48,33 @@ body:
     attributes:
       label: Initiative Category
       options:
-        - Agriculture
-        - Children
+        - Agriculture/Main
+        - Children/Main
         - Defense/Evacuation
         - Defense/Shelters
         - Defense/Weapons
-        - Donations
-        - FamilyHosting
+        - Donations/Agriculture
+        - Donations/Main
+        - FamilyHosting/Main
         - GeneralAssistance
-        - Initiatives
-        - Medical
-        - MemorialRemembrance
-        - MentalSupport
+        - Initiatives/Main
+        - Medical/Main
+        - MemorialRemembrance/Main
+        - MentalSupport/Main
         - MissingPersons/Main
-        - Reserves
-        - SocialNetworks
-        - StrategicCommunication
-        - Supplies
+        - Reserves/Main
+        - StrategicCommunication/Funding
+        - StrategicCommunication/Info
+        - StrategicCommunication/Main
+        - StrategicCommunication/SocialNetworks
+        - StrategicCommunication/Tools
+        - Supplies/Donation
+        - Supplies/Main
         - TechInitiatives/Main
         - TechInitiatives/Support
         - TechInitiatives/Volunteers
-        - Transportation
-        - Volunteering
+        - Transportation/Main
+        - Volunteering/Main
       default: 0
     validations:
       required: true
@@ -151,7 +156,7 @@ body:
       placeholder: https://twitter.com/iron-widgets
 
   - type: input
-    id: logo
+    id: initiativeImage
     attributes:
       label: Initiative logo
       description: Link to an image of the initiative's logo (suitable for inclusion in an HTML `IMG` tag)
