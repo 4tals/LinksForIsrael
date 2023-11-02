@@ -1,7 +1,7 @@
 module.exports = ({github, context}) => {
 
-  const fs = require('fs')
-  const cp = require('child_process')
+  const fs = require('fs');
+  const cp = require('child_process');
 
   function tryExtractJson(text, jsonStartMarker, jsonEndMarker) {
     console.log(`Attempting to extract JSON with start marker "${jsonStartMarker}" and end marker "${jsonEndMarker}"` );
@@ -21,7 +21,21 @@ module.exports = ({github, context}) => {
     return text.substring(indexOfJsonStart + jsonStartMarker.length, indexOfJsonEnd);
   }
   
-  function createPullRequest(branch, name) {
+  function createOrUpdatePullRequest(branch, name) {
+
+    var prs = github.rest.pulls.list({
+      owner: context.repo.owner,
+      repo: context.repo.repo,
+      head: branch,
+      base: 'main',
+    })
+
+    if (prs && prs.length > 0) {
+      console.log("At least one PR exists for this branch: " + JSON.stringify(prs));
+      prs[0].existing = true;
+      return prs[0];
+    }
+    
     return github.rest.pulls.create({
       title: 'New Initiative: ' + name,
       owner: context.repo.owner,
@@ -43,88 +57,88 @@ module.exports = ({github, context}) => {
 
   function warnAndComment(warning, exception, json) {
     console.warn(`${warning}: ${exception}`);
-    createComment(`WARNING: ${warning} (see GitHub Action logs for more details)\n` + "Automatic PR will NOT be generated:\n" + json)
+    createComment(`WARNING: ${warning} (see GitHub Action logs for more details)\n` + "Automatic PR will NOT be generated:\n" + json);
   }
 
   function executeGitCommand(args) {
     console.log(`Executing: git ${args}`);
-    cp.execFileSync("git", args)
+    cp.execFileSync("git", args);
   }
 
-  const tempFolder = process.env.TEMP || "/tmp"
-  const gptResponse = fs.readFileSync(tempFolder + "/gpt-auto-comment.output", "utf8")
+  const tempFolder = process.env.TEMP || "/tmp";
+  const gptResponse = fs.readFileSync(tempFolder + "/gpt-auto-comment.output", "utf8");
 
   // https://stackoverflow.com/a/51602415/67824
-  var sanitizedGptResponse = gptResponse.replace(/[\u0000-\u001F\u007F-\u009F]/g, "")
-  console.log("Sanitized GPT response: " + sanitizedGptResponse)
+  var sanitizedGptResponse = gptResponse.replace(/[\u0000-\u001F\u007F-\u009F]/g, "");
+  console.log("Sanitized GPT response: " + sanitizedGptResponse);
 
-  const jsonStartMarker = "```json"
-  const jsonEndMarker = "```"
-  jsonString = tryExtractJson(sanitizedGptResponse, jsonStartMarker, jsonEndMarker) || tryExtractJson(sanitizedGptResponse, jsonEndMarker, jsonEndMarker)
+  const jsonStartMarker = "```json";
+  const jsonEndMarker = "```";
+  jsonString = tryExtractJson(sanitizedGptResponse, jsonStartMarker, jsonEndMarker) || tryExtractJson(sanitizedGptResponse, jsonEndMarker, jsonEndMarker);
   if (jsonString == null) {
     console.log("Could not find JSON markers in GPT output, assuming raw JSON");
-    jsonString = sanitizedGptResponse
+    jsonString = sanitizedGptResponse;
   }
   console.log("Extracted JSON: " + jsonString);
 
   try {
-    json = JSON.parse(jsonString)
+    json = JSON.parse(jsonString);
   } 
   catch (e) {
-    return warnAndComment("Could not process GPT response as JSON", e, jsonString)
+    return warnAndComment("Could not process GPT response as JSON", e, jsonString);
   }
 
-  humanReadableJson = "```json\n" + JSON.stringify(json, null, 2) + "\n```"
+  humanReadableJson = "```json\n" + JSON.stringify(json, null, 2) + "\n```";
   
   try {
-    var categoryLinksJsonFile = `${process.env.GITHUB_WORKSPACE}/_data/links/${json.category}/links.json`
-    console.log("resolved category links file: " + categoryLinksJsonFile)
+    var categoryLinksJsonFile = `${process.env.GITHUB_WORKSPACE}/_data/links/${json.category}/links.json`;
+    console.log("resolved category links file: " + categoryLinksJsonFile);
 
-    var categoryJsonString = fs.readFileSync(categoryLinksJsonFile, "utf8")
-    categoryJson = JSON.parse(categoryJsonString)
+    var categoryJsonString = fs.readFileSync(categoryLinksJsonFile, "utf8");
+    categoryJson = JSON.parse(categoryJsonString);
   }
   catch (e) {
-    return warnAndComment("Could not process category links JSON", e, humanReadableJson)
+    return warnAndComment("Could not process category links JSON", e, humanReadableJson);
   }
 
   delete json.category //not in our schema, and worse - will interfere with the existing initiative detection below
-  console.log("Attempting to detect already existing initiative under this category")
+  console.log("Attempting to detect already existing initiative under this category");
 
-  const upperCategoryJsonString = categoryJsonString.toLocaleUpperCase("en-us")
+  const upperCategoryJsonString = categoryJsonString.toLocaleUpperCase("en-us");
   for (const prop in json) {
     
-    const value = json[prop]
+    const value = json[prop];
     if (typeof value !== "string") {
-      continue
+      continue;
     }
 
-    const PropValueUpper = value.toLocaleUpperCase("en-us")
+    const PropValueUpper = value.toLocaleUpperCase("en-us");
     if (upperCategoryJsonString.indexOf(PropValueUpper) !== -1) {
-      return warnAndComment(`Initiative might already exist under this category, the value of property ${prop} is already present in the JSON: ${value}`, "suspected existing initiative", humanReadableJson)
+      return warnAndComment(`Initiative might already exist under this category, the value of property ${prop} is already present in the JSON: ${value}`, "suspected existing initiative", humanReadableJson);
     }
   }
 
-  categoryJson.links.push(json)
-  fs.writeFileSync(categoryLinksJsonFile, JSON.stringify(categoryJson, null, 2), "utf8")
+  categoryJson.links.push(json);
+  fs.writeFileSync(categoryLinksJsonFile, JSON.stringify(categoryJson, null, 2), "utf8");
 
-  const branch = `auto-pr-${context.issue.number}`
+  const branch = `auto-pr-${context.issue.number}`;
   try {
     executeGitCommand(["checkout", "-b", branch])
     executeGitCommand(["add", categoryLinksJsonFile])
     executeGitCommand(["commit", "-m", json.name || "new initiative"])
-    executeGitCommand(["push", "origin", branch])
+    executeGitCommand(["push", "origin", branch, "--force"])
   }
   catch (e) {
-    return warnAndComment("encountered error during git execution", e, humanReadableJson)
+    return warnAndComment("encountered error during git execution", e, humanReadableJson);
   }
 
   try {
     // TODO check if PR already exists
-    var pr = createPullRequest(branch, json.name || "???")
+    var pr = createOrUpdatePullRequest(branch, json.name || "???");
   }
   catch (e) {
-    return warnAndComment("Could not create pull request", e, humanReadableJson)
+    return warnAndComment("Could not create pull request", e, humanReadableJson);
   }
 
-  createComment("Created pull request: " + pr.url);
+  createComment((pr.existing ? "Updated" : "Created") + " PR: " + pr.url);
 }
