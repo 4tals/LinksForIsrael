@@ -1,11 +1,11 @@
-name: Initiative Request - Auto Comment
+name: Initiative Request - Automatic PR
 
 on:
   issues:
     types: [opened, edited]
 
 jobs:
-  add-comment:
+  create-pr:
     if: contains(github.event.issue.labels.*.name, 'new-initiative-request')
     runs-on: ubuntu-latest
     permissions:
