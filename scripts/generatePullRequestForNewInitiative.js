@@ -23,20 +23,22 @@ module.exports = ({github, context}) => {
   
   function createOrUpdatePullRequest(branch, name) {
 
-    var prs = github.rest.pulls.list({
+    var response = github.rest.pulls.list({
       owner: context.repo.owner,
       repo: context.repo.repo,
       head: branch,
       base: 'main',
     })
+    console.log("existing PRs: " + JSON.stringify(response));
 
-    if (prs && prs.length > 0) {
-      console.log("At least one PR exists for this branch: " + JSON.stringify(prs));
-      prs[0].existing = true;
-      return prs[0];
+    existingPrs = response.data
+    if (existingPrs && existingPrs.length > 0) {
+      console.log("At least one PR exists for this branch");
+      existingPrs[0].existing = true;
+      return existingPrs[0];
     }
     
-    return github.rest.pulls.create({
+    response  = github.rest.pulls.create({
       title: 'New Initiative: ' + name,
       owner: context.repo.owner,
       repo: context.repo.repo,
@@ -44,6 +46,9 @@ module.exports = ({github, context}) => {
       base: 'main',
       body: "*IMPORTANT: Only merge after validating the initiative and double checking the generated JSON*"
     });
+    console.log("Created new PR: " + JSON.stringify(response));
+
+    return response.data
   }
   
   function createComment(body) {
@@ -135,7 +140,6 @@ module.exports = ({github, context}) => {
   }
 
   try {
-    // TODO check if PR already exists
     var pr = createOrUpdatePullRequest(branch, json.name || "???");
   }
   catch (e) {
