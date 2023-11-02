@@ -123,6 +123,8 @@ module.exports = ({github, context}) => {
 
   const branch = `auto-pr-${context.issue.number}`;
   try {
+    executeGitCommand(["config", "user.name", "github-actions"])
+    executeGitCommand(["config", "user.email", "41898282+github-actions[bot]@users.noreply.github.com"]) //https://github.com/orgs/community/discussions/26560
     executeGitCommand(["checkout", "-b", branch])
     executeGitCommand(["add", categoryLinksJsonFile])
     executeGitCommand(["commit", "-m", json.name || "new initiative"])
