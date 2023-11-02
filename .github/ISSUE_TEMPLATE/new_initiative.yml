@@ -61,7 +61,6 @@ body:
         - MemorialRemembrance
         - MentalSupport
         - MissingPersons/Main
-        - MissingPersons/ReservesReturn
         - Reserves
         - SocialNetworks
         - StrategicCommunication
