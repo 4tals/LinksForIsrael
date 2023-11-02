@@ -4,13 +4,13 @@ module.exports = ({github, context}) => {
   
     const indexOfJsonStart = text.indexOf(jsonStartMarker);
     if (indexOfJsonStart === -1) {
-      console.log("Could not find JSON start marter");
+      console.log("Could not find JSON start marker");
       return null;
     }
     
     const indexOfJsonEnd = text.indexOf(jsonEndMarker, indexOfJsonStart + 1);
     if (indexOfJsonEnd === -1) {
-      console.log("Could not find JSON end marter");
+      console.log("Could not find JSON end marker");
       return null;
     }
   
@@ -38,7 +38,8 @@ module.exports = ({github, context}) => {
   }
 
   const fs = require('fs')
-  const gptResponse = fs.readFileSync(process.env.GITHUB_WORKSPACE + "/gpt-auto-comment.output", 'utf8')
+  const tempFolder = process.env.TEMP || "/tmp"
+  const gptResponse = fs.readFileSync(tempFolder + "/gpt-auto-comment.output", "utf8")
 
   // https://stackoverflow.com/a/51602415/67824
   var sanitizedGptResponse = gptResponse.replace(/[\u0000-\u001F\u007F-\u009F]/g, "")

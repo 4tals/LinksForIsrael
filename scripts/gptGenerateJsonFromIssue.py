@@ -110,7 +110,7 @@ class GPTAssistant:
 if __name__ == "__main__":
     gpt_response = GPTAssistant().ask_gpt_for_initiative_json(os.environ["ISSUE_BODY"])
     
-    respose_output_file = os.environ["GITHUB_WORKSPACE"] + "/gpt-auto-comment.output"
+    respose_output_file = os.getenv("TEMP", "/tmp") + "/gpt-auto-comment.output"
     logging.info(f"Writing GPT Response to {respose_output_file}:\n{gpt_response}")
 
     with open(respose_output_file, "w", encoding="utf-8") as output:
