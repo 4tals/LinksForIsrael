@@ -41,6 +41,23 @@
       "description": "ניתן על ידי חברת ניתאי שירותי עזרה ראשונה",
       "url": "./docs/ezra-rishona",
       "portal": "./docs/ezra-rishona"
+    },
+    {
+      "displayName": "נסיון",
+      "name": "Foo",
+      "shortDescription": "FooBar",
+      "description": "The quick brown fox jumps over the lazy dog",
+      "initiativeValidationDetails": "Trust me!",
+      "url": "https://example.com",
+      "website": "https://example.com",
+      "logo": "https://example.com/log.png",
+      "tags": [
+        "רופאים",
+        "מתנדבים",
+        "תרומה",
+        "בריאות",
+        "ישראל"
+      ]
     }
   ]
 }
