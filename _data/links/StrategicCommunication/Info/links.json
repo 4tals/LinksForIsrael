@@ -41,6 +41,22 @@
         "תיעוד",
         "שימור"
       ]
+    },
+    {
+      "name": "OnlyTrueInformation",
+      "displayName": "הקונסוליה הישראלית בניו יורק",
+      "initiativeImage": "https://www.onlytrueinformation.com/logo.jpeg",
+      "description": "אתר עם פרסומים מאומתים שאושרו למי שמעוניין לשתף את האמת, להגן על ישראל ולוודא שהמידע האמיתי קודם לפני השקר.",
+      "url": "https://www.onlytrueinformation.com/",
+      "website": "https://www.onlytrueinformation.com/",
+      "tags": [
+        "מידע",
+        "הגנה",
+        "ישראל",
+        "קונסוליה",
+        "ניו יורק",
+        "אמת"
+      ]
     }
   ]
 }
