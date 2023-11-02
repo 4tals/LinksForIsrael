@@ -27,11 +27,15 @@ jobs:
           pip install -r "$GITHUB_WORKSPACE/scripts/requirements.txt"
 
       - name: Run GPT script
+        uses: nick-fields/retry@v2
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           ISSUE_BODY: ${{ github.event.issue.body }}
-        run: python $GITHUB_WORKSPACE/scripts/gptGenerateJsonFromIssue.py
-
+        with:
+          timeout_minutes: 5
+          max_attempts: 3
+          command: python $GITHUB_WORKSPACE/scripts/gptGenerateJsonFromIssue.py
+          
       - name: Post comment
         uses: actions/github-script@v6
         with:
