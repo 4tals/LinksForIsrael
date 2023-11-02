@@ -1,4 +1,8 @@
 module.exports = ({github, context}) => {
+
+  const fs = require('fs')
+  const cp = require('child_process')
+
   function tryExtractJson(text, jsonStartMarker, jsonEndMarker) {
     console.log(`Attempting to extract JSON with start marker "${jsonStartMarker}" and end marker "${jsonEndMarker}"` );
   
@@ -15,51 +19,112 @@ module.exports = ({github, context}) => {
     }
   
     return text.substring(indexOfJsonStart + jsonStartMarker.length, indexOfJsonEnd);
-  } 
+  }
   
-  function createComment(gptResponseJson) {
-    console.log("Extracted JSON: " + gptResponseJson);
-
-    try {
-      humanReadableJson = JSON.stringify(JSON.parse(gptResponseJson), null, 2);
-    } 
-    catch (e) {
-      console.warn("Could not process JSON: " + e);
-      humanReadableJson = "// WARNING: THIS IS MOST LIKELY INVALID JSON, PLEASE REVIEW MANUALLY \n" + gptResponseJson;
-    }
+  function createPullRequest(branch, name) {
+    return github.rest.pulls.create({
+      title: 'New Initiative: ' + name,
+      owner: context.repo.owner,
+      repo: context.repo.repo,
+      head: branch,
+      base: 'main',
+      body: "*IMPORTANT: Only merge after validating the initiative and double checking the generated JSON*"
+    });
+  }
   
-    console.log("Human readable JSON: " + humanReadableJson);
+  function createComment(body) {
     github.rest.issues.createComment({
       owner: context.repo.owner,
       repo: context.repo.repo,
       issue_number: context.issue.number,
-      body: "```json\n" + humanReadableJson + "\n```"
+      body: body
     });
   }
 
-  const fs = require('fs')
+  function warnAndComment(warning, exception, json) {
+    console.warn(`${warning}: ${exception}`);
+    createComment(`WARNING: ${warning} (see GitHub Action logs for more details)\n` + "Automatic PR will NOT be generated:\n" + json)
+  }
+
+  function executeGitCommand(args) {
+    console.log(`Executing: git ${args}`);
+    cp.execFileSync("git", args)
+  }
+
   const tempFolder = process.env.TEMP || "/tmp"
   const gptResponse = fs.readFileSync(tempFolder + "/gpt-auto-comment.output", "utf8")
 
   // https://stackoverflow.com/a/51602415/67824
   var sanitizedGptResponse = gptResponse.replace(/[\u0000-\u001F\u007F-\u009F]/g, "")
+  console.log("Sanitized GPT response: " + sanitizedGptResponse)
+
   const jsonStartMarker = "```json"
   const jsonEndMarker = "```"
+  jsonString = tryExtractJson(sanitizedGptResponse, jsonStartMarker, jsonEndMarker) || tryExtractJson(sanitizedGptResponse, jsonEndMarker, jsonEndMarker)
+  if (jsonString == null) {
+    console.log("Could not find JSON markers in GPT output, assuming raw JSON");
+    jsonString = sanitizedGptResponse
+  }
+  console.log("Extracted JSON: " + jsonString);
 
-  console.log("Sanitized GPT response: " + sanitizedGptResponse)
+  try {
+    json = JSON.parse(jsonString)
+  } 
+  catch (e) {
+    return warnAndComment("Could not process GPT response as JSON", e, jsonString)
+  }
+
+  humanReadableJson = "```json\n" + JSON.stringify(json, null, 2) + "\n```"
   
-  json = tryExtractJson(sanitizedGptResponse, jsonStartMarker, jsonEndMarker);
-  if (json !== null) {
-      createComment(json);
-      return;
+  try {
+    var categoryLinksJsonFile = `${process.env.GITHUB_WORKSPACE}/_data/links/${json.category}/links.json`
+    console.log("resolved category links file: " + categoryLinksJsonFile)
+
+    var categoryJsonString = fs.readFileSync(categoryLinksJsonFile, "utf8")
+    categoryJson = JSON.parse(categoryJsonString)
+  }
+  catch (e) {
+    return warnAndComment("Could not process category links JSON", e, humanReadableJson)
   }
 
-  json = tryExtractJson(sanitizedGptResponse, jsonEndMarker, jsonEndMarker) // sometimes GPT will return the JSON in the form of ``` {} ```
-  if (json !== null) {
-      createComment(json);
-      return;
+  delete json.category //not in our schema, and worse - will interfere with the existing initiative detection below
+  console.log("Attempting to detect already existing initiative under this category")
+
+  const upperCategoryJsonString = categoryJsonString.toLocaleUpperCase("en-us")
+  for (const prop in json) {
+    
+    const value = json[prop]
+    if (typeof value !== "string") {
+      continue
+    }
+
+    const PropValueUpper = value.toLocaleUpperCase("en-us")
+    if (upperCategoryJsonString.indexOf(PropValueUpper) !== -1) {
+      return warnAndComment(`Initiative might already exist under this category, the value of property ${prop} is already present in the JSON: ${value}`, "suspected existing initiative", humanReadableJson)
+    }
   }
 
-  console.log("Could not find JSON markers in GPT output, assuming raw JSON");
-  createComment(sanitizedGptResponse);
+  categoryJson.links.push(json)
+  fs.writeFileSync(categoryLinksJsonFile, JSON.stringify(categoryJson, null, 2), "utf8")
+
+  const branch = `auto-pr-${context.issue.number}`
+  try {
+    executeGitCommand(["checkout", "-b", branch])
+    executeGitCommand(["add", categoryLinksJsonFile])
+    executeGitCommand(["commit", "-m", json.name || "new initiative"])
+    executeGitCommand(["push", "origin", branch])
+  }
+  catch (e) {
+    return warnAndComment("encountered error during git execution", e, humanReadableJson)
+  }
+
+  try {
+    // TODO check if PR already exists
+    var pr = createPullRequest(branch, json.name || "???")
+  }
+  catch (e) {
+    return warnAndComment("Could not create pull request", e, humanReadableJson)
+  }
+
+  createComment("Created pull request: " + pr.url);
 }

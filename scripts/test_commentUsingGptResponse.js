@@ -5,6 +5,15 @@ const github = {
                 console.log("posting comment:")
                 console.log(cmt)
             }
+        },
+        pulls: {
+            create: (pr) => {
+                console.log("creating PR:")
+                console.log(pr)
+                return {
+                    url: "https://example.com"
+                }
+            }
         }
     }
 }    
@@ -12,7 +21,7 @@ const github = {
 const context = {
     repo: {
         owner: "ohadschn",
-        repo: "links4israel"
+        repo: "ohadschn/ConnectPortal"
     },
     issue: {
         number: 42
