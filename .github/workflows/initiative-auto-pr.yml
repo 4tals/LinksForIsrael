@@ -42,4 +42,4 @@ jobs:
         with:
           script: |
             const script = require(process.env.GITHUB_WORKSPACE + '/scripts/generatePullRequestForNewInitiative.js')
-            script({github, context})
+            await script({github, context})

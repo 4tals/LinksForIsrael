@@ -1,4 +1,4 @@
-module.exports = ({github, context}) => {
+module.exports = async ({github, context}) => {
 
   const fs = require('fs');
   const cp = require('child_process');
@@ -21,12 +21,12 @@ module.exports = ({github, context}) => {
     return text.substring(indexOfJsonStart + jsonStartMarker.length, indexOfJsonEnd);
   }
   
-  function createOrUpdatePullRequest(branch, name) {
+  async function createOrUpdatePullRequest(branch, name) {
 
-    const existingResponse = github.rest.pulls.list({
+    const existingResponse = await github.rest.pulls.list({
       owner: context.repo.owner,
       repo: context.repo.repo,
-      head: branch,
+      head: `${context.repo.owner}:${branch}`,
       base: 'main',
     })
     console.log("existing PRs: " + JSON.stringify(existingResponse));
@@ -38,7 +38,7 @@ module.exports = ({github, context}) => {
       return existingPrs[0];
     }
     
-    const newResponse  = github.rest.pulls.create({
+    const newResponse  = await github.rest.pulls.create({
       title: 'New Initiative: ' + name,
       owner: context.repo.owner,
       repo: context.repo.repo,
@@ -51,8 +51,8 @@ module.exports = ({github, context}) => {
     return newResponse.data
   }
   
-  function createComment(body) {
-    github.rest.issues.createComment({
+  async function createComment(body) {
+    await github.rest.issues.createComment({
       owner: context.repo.owner,
       repo: context.repo.repo,
       issue_number: context.issue.number,
@@ -60,9 +60,9 @@ module.exports = ({github, context}) => {
     });
   }
 
-  function warnAndComment(warning, exception, json) {
+  async function warnAndComment(warning, exception, json) {
     console.warn(`${warning}: ${exception}`);
-    createComment(`WARNING: ${warning} (see GitHub Action logs for more details)\n` + "Automatic PR will NOT be generated:\n" + json);
+    await createComment(`WARNING: ${warning} (see GitHub Action logs for more details)\n` + "Automatic PR will NOT be generated:\n" + json);
   }
 
   function executeGitCommand(args) {
@@ -90,7 +90,7 @@ module.exports = ({github, context}) => {
     json = JSON.parse(jsonString);
   } 
   catch (e) {
-    return warnAndComment("Could not process GPT response as JSON", e, jsonString);
+    return await warnAndComment("Could not process GPT response as JSON", e, jsonString);
   }
 
   humanReadableJson = "```json\n" + JSON.stringify(json, null, 2) + "\n```";
@@ -104,7 +104,7 @@ module.exports = ({github, context}) => {
     categoryJson = JSON.parse(categoryJsonString);
   }
   catch (e) {
-    return warnAndComment("Could not process category links JSON", e, humanReadableJson);
+    return await warnAndComment("Could not process category links JSON", e, humanReadableJson);
   }
 
   delete json.category //not in our schema, and worse - will interfere with the existing initiative detection below
@@ -120,7 +120,7 @@ module.exports = ({github, context}) => {
 
     const PropValueUpper = value.toLocaleUpperCase("en-us");
     if (upperCategoryJsonString.indexOf(PropValueUpper) !== -1) {
-      return warnAndComment(`Initiative might already exist under this category, the value of property ${prop} is already present in the JSON: ${value}`, "suspected existing initiative", humanReadableJson);
+      return await warnAndComment(`Initiative might already exist under this category, the value of property ${prop} is already present in the JSON: ${value}`, "suspected existing initiative", humanReadableJson);
     }
   }
 
@@ -137,16 +137,17 @@ module.exports = ({github, context}) => {
     executeGitCommand(["push", "origin", branch, "--force"])
   }
   catch (e) {
-    return warnAndComment("encountered error during git execution", e, humanReadableJson);
+    return await warnAndComment("encountered error during git execution", e, humanReadableJson);
   }
 
   let pr;
   try {
-    pr = createOrUpdatePullRequest(branch, json.name || "???");
+    pr = await createOrUpdatePullRequest(branch, json.name || "???");
   }
   catch (e) {
-    return warnAndComment("Could not create pull request", e, humanReadableJson);
+    return await warnAndComment("Could not create pull request", e, humanReadableJson);
   }
 
-  createComment((pr.existing ? "Updated" : "Created") + " PR: " + pr.url);
+  console.log("resolved PR: " + JSON.stringify(pr))
+  createComment((pr.existing ? "Updated" : "Created") + " PR: " + pr.html_url);
 }

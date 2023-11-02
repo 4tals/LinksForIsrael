@@ -1,33 +1,18 @@
-const github = {
-    rest: {
-        issues: {
-            createComment: (cmt) => { 
-                console.log("posting comment:")
-                console.log(cmt)
-            }
-        },
-        pulls: {
-            create: (pr) => {
-                console.log("creating PR:")
-                console.log(pr)
-                return {
-                    url: "https://example.com"
-                }
-            }
-        }
-    }
-}    
-
 const context = {
     repo: {
         owner: "ohadschn",
-        repo: "ohadschn/ConnectPortal"
+        repo: "ConnectPortal"
     },
     issue: {
-        number: 42
+        number: 13
     }
 }
 
-const script = require('./generatePullRequestForNewInitiative.js')
+const { Octokit } = require("@octokit/rest");
 
-script({github, context})
+const github = new Octokit({
+    auth: process.env.GITHHUB_PAT,
+});
+
+const script = require('./generatePullRequestForNewInitiative.js')
+script({ github, context })
