@@ -3,6 +3,22 @@
   "displayName": "כלים שימושיים לתמיכה בהסברה",
   "links": [
     {
+      "name": "HaravotDubbing",
+      "displayName": "חרבות - מדובבים את הסרטונים שלכם",
+      "initiativeImage": "https://haravot.com/wp-content/uploads/2023/10/haravot-full-colorLogo.png",
+      "description": "העלו סרטון בעברית ואנחנו נדבב אותו באמצעות AI לשפה שתבחרו. הדיבוב מותאם לקולכם ולנאמר.",
+      "url": "https://haravot.com/",
+      "website": "https://haravot.com/",
+      "tags": [
+        "דיבוב",
+        "AI",
+        "סרטונים",
+        "הסברה",
+        "שפה",
+        "תרגום"
+      ]
+    },
+    {
       "name": "EzDubsAI",
       "displayName": "EzDubs - דיבוב בזמן אמת AI",
       "shortDescription": "דיבוב בזמן אמת אנגלית, עוזר בהפקת חומרי הסברה לשפות שונות",
