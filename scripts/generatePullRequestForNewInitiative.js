@@ -23,22 +23,22 @@ module.exports = ({github, context}) => {
   
   function createOrUpdatePullRequest(branch, name) {
 
-    var response = github.rest.pulls.list({
+    const existingResponse = github.rest.pulls.list({
       owner: context.repo.owner,
       repo: context.repo.repo,
       head: branch,
       base: 'main',
     })
-    console.log("existing PRs: " + JSON.stringify(response));
+    console.log("existing PRs: " + JSON.stringify(existingResponse));
 
-    existingPrs = response.data
+    existingPrs = existingResponse.data
     if (existingPrs && existingPrs.length > 0) {
       console.log("At least one PR exists for this branch");
       existingPrs[0].existing = true;
       return existingPrs[0];
     }
     
-    response  = github.rest.pulls.create({
+    const newResponse  = github.rest.pulls.create({
       title: 'New Initiative: ' + name,
       owner: context.repo.owner,
       repo: context.repo.repo,
@@ -46,9 +46,9 @@ module.exports = ({github, context}) => {
       base: 'main',
       body: "*IMPORTANT: Only merge after validating the initiative and double checking the generated JSON*"
     });
-    console.log("Created new PR: " + JSON.stringify(response));
+    console.log("Created new PR: " + JSON.stringify(newResponse));
 
-    return response.data
+    return newResponse.data
   }
   
   function createComment(body) {
@@ -74,7 +74,7 @@ module.exports = ({github, context}) => {
   const gptResponse = fs.readFileSync(tempFolder + "/gpt-auto-comment.output", "utf8");
 
   // https://stackoverflow.com/a/51602415/67824
-  var sanitizedGptResponse = gptResponse.replace(/[\u0000-\u001F\u007F-\u009F]/g, "");
+  const sanitizedGptResponse = gptResponse.replace(/[\u0000-\u001F\u007F-\u009F]/g, "");
   console.log("Sanitized GPT response: " + sanitizedGptResponse);
 
   const jsonStartMarker = "```json";
@@ -95,11 +95,12 @@ module.exports = ({github, context}) => {
 
   humanReadableJson = "```json\n" + JSON.stringify(json, null, 2) + "\n```";
   
+  let categoryLinksJsonFile, categoryJsonString;
   try {
-    var categoryLinksJsonFile = `${process.env.GITHUB_WORKSPACE}/_data/links/${json.category}/links.json`;
+    categoryLinksJsonFile = `${process.env.GITHUB_WORKSPACE}/_data/links/${json.category}/links.json`;
     console.log("resolved category links file: " + categoryLinksJsonFile);
 
-    var categoryJsonString = fs.readFileSync(categoryLinksJsonFile, "utf8");
+    categoryJsonString = fs.readFileSync(categoryLinksJsonFile, "utf8");
     categoryJson = JSON.parse(categoryJsonString);
   }
   catch (e) {
@@ -139,8 +140,9 @@ module.exports = ({github, context}) => {
     return warnAndComment("encountered error during git execution", e, humanReadableJson);
   }
 
+  let pr;
   try {
-    var pr = createOrUpdatePullRequest(branch, json.name || "???");
+    pr = createOrUpdatePullRequest(branch, json.name || "???");
   }
   catch (e) {
     return warnAndComment("Could not create pull request", e, humanReadableJson);
