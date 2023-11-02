@@ -151,7 +151,7 @@ body:
       placeholder: https://twitter.com/iron-widgets
 
   - type: input
-    id: logo
+    id: initiativeImage
     attributes:
       label: Initiative logo
       description: Link to an image of the initiative's logo (suitable for inclusion in an HTML `IMG` tag)
