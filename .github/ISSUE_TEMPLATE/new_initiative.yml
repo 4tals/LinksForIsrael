@@ -48,29 +48,28 @@ body:
     attributes:
       label: Initiative Category
       options:
-        - GeneralAssistance
-        - children
-        - defense/EvacuationMain
-        - defense/Shelters
-        - defense/WeaponsMain
-        - donations
-        - EquipmentNFood
+        - Agriculture
+        - Children
+        - Defense/Evacuation
+        - Defense/Shelters
+        - Defense/Weapons
+        - Donations
         - FamilyHosting
-        - hasbara
-        - Aggregators/Aggregation
-        - Transportation
+        - GeneralAssistance
+        - Initiatives
         - Medical
+        - MemorialRemembrance
         - MentalSupport
-        - Needarim/Main
-        - Needarim/ReservesReturn
+        - MissingPersons/Main
         - Reserves
         - SocialNetworks
-        - tech-initiatives/TechInitiatives
-        - tech-initiatives/TechInitiativesSupport
-        - tech-initiatives/TechInitiativesVolunteers
-        - tech-initiatives/TechMain
-        - volunteering
-        - Yizkor
+        - StrategicCommunication
+        - Supplies
+        - TechInitiatives/Main
+        - TechInitiatives/Support
+        - TechInitiatives/Volunteers
+        - Transportation
+        - Volunteering
       default: 0
     validations:
       required: true

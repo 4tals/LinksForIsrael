@@ -1,0 +1,24 @@
+{
+  "name": "EvacueesMain",
+  "displayName": "סיוע למפונים",
+  "links": [
+    {
+      "name": "HandInHandForEvacuees",
+      "displayName": "יד ביד למפונים",
+      "description": "היד שמחברת בין בעלי מקצוע שנאלצו להתפנות מבתיהם, לתושבים שמחפשים בעל מקצוע",
+      "shortDescription": "היד שמחברת בין בעלי מקצוע שנאלצו להתפנות מבתיהם, לתושבים שמחפשים בעל מקצוע",
+      "initiativeImage": "https://wpstaq-ap-southeast-2-media.s3.amazonaws.com/darom/wp-content/uploads/media/2023/10/logo_v1.png",
+      "initiativeValidationDetails": "מקור: נשלח על ידי חבר. קישור לאתר מהימן המקדם את היוזמה: https://www.ice.co.il/digital-140/news/article/985019",
+      "url": "https://ironpro.zigit.co.il/",
+      "website": "https://ironpro.zigit.co.il/",
+      "article": "https://www.ice.co.il/digital-140/news/article/985019",
+      "tags": [
+        "סושיאל",
+        "בעל מקצוע",
+        "מפונים",
+        " קהילה",
+        "משפחות"
+      ]
+    }
+  ]
+}

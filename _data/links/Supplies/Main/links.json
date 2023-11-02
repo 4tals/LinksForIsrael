@@ -1,0 +1,33 @@
+{
+  "name": "EquipmentMain",
+  "displayName": "יוזמות המרכזות אספקה של מזון וציוד",
+  "links": [
+    {
+      "name": "SupplyMatch",
+      "displayName": "Supply Match",
+      "shortDescription": "חיבור בין מבקשים לנותני ציוד",
+      "description": "יוזמה המחברת בין מבקשי ציוד לנותני ציוד",
+      "tags": [],
+      "url": "https://supply-match.com/",
+      "website": "https://supply-match.com/"
+    },
+    {
+      "name": "IsraelGivesEmergencyAid",
+      "displayName": "Israel Emergency Aid",
+      "shortDescription": "Donate to deliver life saving equipment to the front line.",
+      "description": "Israel Emergency Aid is a rapid response project formed at the onset of the current war with Hamas, dedicated to providing immediate assistance to soldiers and civilians affected by the war. The mission is to collect funds to swiftly fulfill specific requests from soldiers on the front lines with Gaza and civilians in need of immediate aid. This project operates under the auspices of [IsraelGives](https://israelgivesfund.org/), organized by a group of experienced executives, tech leaders, and law firm partners.",
+      "url": "https://www.israelemergencyaid.com/",
+      "website": "https://www.israelemergencyaid.com/",
+      "article": "https://creatorsforisrael.com/",
+      "category": "Children",
+      "form": "https://docs.google.com/forms/d/e/1FAIpQLSeB2Ws2_21qvwhfb1aFDhTB0DQSsuyFL4jRIBoSYFHQV7P7xQ/viewform",
+      "tags": [
+        "סיוע חירום",
+        "תרומה",
+        "ציוד",
+        "אזרחים",
+        "קרב"
+      ]
+    }
+  ]
+}

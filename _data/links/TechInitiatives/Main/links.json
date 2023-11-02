@@ -1,0 +1,72 @@
+{
+  "name": "TechInitiativesMain",
+  "displayName": "יוזמות קיימות",
+  "links": [
+    {
+      "name": "NationalDroneInitiative",
+      "displayName": "מיזם הרחפנים הלאומי - National Drone Initiative",
+      "shortDescription": "התנדבות ליוזמות הטסה",
+      "description": "מיזם הרחפנים הלאומי עוסק בהסדרת המרחב האווירי ובניית תשתיות רגולטוריות להטסת כלים אוטונומיים לתועלת הציבור.",
+      "url": "https://innovationisrael.org.il/civiliandronecenter/",
+      "website": "https://innovationisrael.org.il/civiliandronecenter/",
+      "initiativeValidationDetails": "המקור: קבוצת וואטסאפ. קישור למקור מהימן שמקדם את המיזם: https://innovationisrael.org.il/civiliandronecenter/. האתר הרשמי של רשות החדשנות.",
+      "initiativeImage": "https://innovationisrael.org.il/wp-content/uploads/2023/10/Untitled-1-1024x188.png",
+      "tags": [
+        "התנדבות",
+        "רחפנים",
+        "הרחפנים הלאומי",
+        "רחפן",
+        "טכנולוגיה"
+      ]
+    },
+    {
+      "name": "mitmadvimAutomation",
+      "displayName": "אוטומציה בין מתנדבים למחפשי עזרה",
+      "description": "",
+      "shortDescription": "",
+      "url": "https://chat.whatsapp.com/JuJ1da4wYbe16uZL0cqL40",
+      "whatsapp": "https://chat.whatsapp.com/JuJ1da4wYbe16uZL0cqL40"
+    },
+    {
+      "name": "IsraelDiplomacy",
+      "displayName": "Israel Diplomacy",
+      "shortDescription": "אתר עם תוכן מוכן לשיתוף לצרכי הסברה",
+      "description": "אתר עם תוכן מוכן לשיתוף לצרכי הסברה",
+      "url": "https://github.com/nirtz89/israel_diplomacy",
+      "website": "https://github.com/nirtz89/israel_diplomacy"
+    },
+    {
+      "name": "BotsForIsrael",
+      "displayName": "Bots For Israel - בוטים למען ישראל",
+      "description": "",
+      "shortDescription": "",
+      "url": "https://chat.whatsapp.com/CWmy7ai0VJ1449FVgShVGk",
+      "whatsapp": "https://chat.whatsapp.com/CWmy7ai0VJ1449FVgShVGk"
+    },
+    {
+      "name": "ProAntiClassification",
+      "displayName": "סיווג טקסט פרו/אנטי ישראלי",
+      "description": "",
+      "shortDescription": "",
+      "url": "https://chat.whatsapp.com/K9iNqhuwhdmLvAJhNrh6y0",
+      "whatsapp": "https://chat.whatsapp.com/K9iNqhuwhdmLvAJhNrh6y0"
+    },
+    {
+      "name": "IkhunMakhshirim",
+      "displayName": "היוזמה לאיכון מכשירי נעדרים - בוגרי יחידות טכנולוגיות",
+      "shortDescription": "מתנדבים למציאת נעדרים ע״י מכשור טכנולוגי (לפטופ, טלפון ישן וכיו״ב)",
+      "description": "מתנדבים למציאת נעדרים ע״י מכשור טכנולוגי (לפטופ, טלפון ישן וכיו״ב)",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSduujH277Cqt31XgOZfTZFAD4ua_YN8fXUtAlwOAHX2q9Emww/viewform?usp=sf_link",
+      "docs": "https://docs.google.com/forms/d/e/1FAIpQLSduujH277Cqt31XgOZfTZFAD4ua_YN8fXUtAlwOAHX2q9Emww/viewform?usp=sf_link"
+    },
+    {
+      "name": "TechInitiativesDevHelps",
+      "displayName": "רשימת יוזמות - DevHelps",
+      "initiativeImage": "https://cdn4.telegram-cdn.org/file/ROis87ikX-g98-COcnS1vizOViivUpUeoDIc6-2z0vy2dbiH8iMZMnjqhAQ77ueFQZozYcNHHhgau3Lmqd0TIbwOb0UP0dPgkFbMJsiQ_aqAR_Ufn6JB7lv_bZ3xgebG-qF7SNS8Qyw2NsC5Z4Ghydd1arGzN4VZiIyqxe93qEbvMntZauEwey4C5PjkHs_5jJxOHcK5SfiWkyPbiP_d907Vv63HpYizcysN0u6DyTuY_uhp96t-0u-JT527C8Pm_gQ7NPayzcy1TDtWYPP2EAk2CB5OBSrUuY8huZgXCc_1-ikUxflFWDJKGXKnmPybdeeIIqs5-6uMo5r3cypbRw.jpg",
+      "description": "רשימת יוזמות מתעדכנת בהן משתתפת קהילת DevHelps",
+      "shortDescription": "רשימת יוזמות מתעדכנת בהן משתתפת קהילת DevHelps",
+      "docs": "https://docs.google.com/spreadsheets/d/1TdHu9MuzZhE-TNZfcKGyk6I4VYFxPl3KlEqasS52A_0/edit#gid=0",
+      "url": "https://docs.google.com/spreadsheets/d/1TdHu9MuzZhE-TNZfcKGyk6I4VYFxPl3KlEqasS52A_0/edit#gid=0"
+    }
+  ]
+}

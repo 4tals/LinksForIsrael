@@ -1,0 +1,46 @@
+{
+  "name": "InfoMain",
+  "displayName": "מקורות מידע שעוזרים להסברה",
+  "links": [
+    {
+      "displayName": "Mapping the Massacres",
+      "name": "מיפוי אירועי והרוגי הטבח",
+      "shortDescription": "A geovisualization depicting the atrocities perpetrated by Hamas on Israeli lands on October 7th",
+      "description": "The October 7th Geo-visualization Project strives to provide a comprehensive representation of the atrocities committed by Hamas on that day. This interactive map serves as a reflection and an educational tool, promoting awareness of the gravity of the horrors.",
+      "url": "https://oct7map.com/",
+      "website": "https://oct7map.com/",
+      "tags": [
+        "מיפוי",
+        "ויזואליזציה"
+      ]
+    },
+    {
+      "name": "StrategicCommunicationRules",
+      "displayName": "כללים להסברה באינטרנט",
+      "shortDescription": "כללים להסברה באינטרנט ניב חורש - מנכל משותף: במשרד הפרסום ראובני פרידן",
+      "description": "ניב חורש - מנכל משותף: במשרד הפרסום ראובני פרידן שבוע קשה מנשוא עבר מאז החלה המלחמה הנוראית, ובעקבותיה מלחמת ההסברה של ישראל בעולם. גיבשתי 10 כללים וחשובים להסברה בחו״ל, בדגש על הרשתות החברתיות. אשמח שתקראו ותפיצו.",
+      "url": "./docs/hasbara",
+      "website": "./docs/hasbara",
+      "initiativeImage": "https://www.onlife.co.il/wp-content/uploads/cfi/571615/WhatsApp-Image-2023-10-15-at-13.35.08_68b0068d9959fb6c38c8172479d8171a.png",
+      "tags": [
+        "סושיאל",
+        "הסברה"
+      ]
+    },
+    {
+      "name": "Stand4Israel",
+      "displayName": "Stand4Israel",
+      "shortDescription": "Preserving and sharing the truth about the ״Iron Swords War״",
+      "description": "Following the tragic October 7, 2023 massacre, Stand4Israel.net is dedicated to preserving and sharing the truth about the ״Iron Swords War״",
+      "initiativeImage": "https://api.stand4israel.net/p/5580612/sp/558061200/raw/entry_id/1_xa45nwou/version/100001",
+      "url": "https://stand4israel.net/",
+      "website": "https://stand4israel.net/",
+      "tags": [
+        "מידע",
+        "הסברה",
+        "תיעוד",
+        "שימור"
+      ]
+    }
+  ]
+}
