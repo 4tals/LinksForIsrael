@@ -132,12 +132,19 @@
 	font-weight: 900;
 	position: relative;
 	z-index: 2;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
 }
 
 .links-section-item-short-description {
 	font-size: 14px;
 	font-weight: 600;
-	display: flex;
+	white-space: normal;
+	overflow: hidden;
+	-webkit-line-clamp: 2;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
 }
 
 .item-container {
