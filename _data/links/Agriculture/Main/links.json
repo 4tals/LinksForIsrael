@@ -51,6 +51,25 @@
         "חקלאים",
         "משמעותי"
       ]
+    },
+    {
+      "displayName": "לקט ישראל - מתנדבים למשקים",
+      "name": "LeketIsraelFarmersVolonteers",
+      "shortDescription": "התנדבות למשקים בדרום בעקבות המלחמה",
+      "description": "חקלאים רבים גוייסו למלחמה, ועובדים זרים עזבו את השדות. משקים חקלאים נותרו ללא ידיים עובדות ועם תוצרת חקלאית שצריך לקטוף.\nארגון לקט ישראל מסייע לחקלאים בגיוס מתנדבים וקורא לכם לסייע לחקלאות הישראלית בעת משבר.",
+      "initiativeValidationDetails": "Well established organization: https://en.wikipedia.org/wiki/Leket_Israel",
+      "initiativeImage": "https://www.leket.org/wp-content/uploads/2022/09/cropped-LeketSiteHebLogo.png",
+      "url": "https://www.leket.org/volunteering-for-farmers/",
+      "whatsapp": "https://chat.whatsapp.com/CGrct4DA8i4B1LsvLZFsrk",
+      "tags": [
+        "חקלאות",
+        "משקים",
+        "התנדבות",
+        "לקט",
+        "מלחמה",
+        "תמיכה בחקלאים",
+        "לקט ישראל"
+      ]
     }
   ]
 }
