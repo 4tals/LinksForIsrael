@@ -1,6 +1,10 @@
 @media only screen and (max-width: 600px) {
 	.links-section-item-short-description {
 		display: flex;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		overflow: hidden;
+		white-space: nowrap;
 	}
 
 	.links-section-title {
@@ -72,9 +76,8 @@
 		overflow: hidden;
 		white-space: normal;
 		border-color: #aba6a6;
-		border-width: 5px ;
+		border-width: 5px;
 		border-style: solid;
-		
 	}
 
 	.category-icon {
