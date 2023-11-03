@@ -44,7 +44,7 @@ module.exports = async ({github, context}) => {
       repo: context.repo.repo,
       head: branch,
       base: 'main',
-      body: "**IMPORTANT: Only merge after validating the initiative and double checking the generated JSON**"
+      body: `closes #${context.issue.number}\n**IMPORTANT: Only merge after validating the initiative and double checking the generated JSON**`
     });
     console.log("Created new PR: " + JSON.stringify(newResponse));
 
