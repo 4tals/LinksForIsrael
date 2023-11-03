@@ -35,16 +35,18 @@
       ]
     },
     {
+      "name": "WordsOfIron",
       "displayName": "Words of Iron",
-      "name": "Words of Iron",
       "shortDescription": "Boost Israel's Voice on Social Media with a Single Click!",
       "description": "Boost Israel's Voice on Social Media with a Single Click!",
       "initiativeValidationDetails": "https://www.calcalistech.com/ctechnews/article/bj9qt8hzt",
+      "initiativeImage": "https://wordsofiron.com/opengraph-image.jpg",
       "url": "https://www.wordsofiron.com/en",
       "website": "https://www.wordsofiron.com/en",
       "tags": [
         "חדשות",
         "מדיה",
+        "כלי הסברה",
         "עשייה משולבת",
         "מיזמים",
         "תקשורת חזקה"
