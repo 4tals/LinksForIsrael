@@ -39,7 +39,7 @@ module.exports = async ({github, context}) => {
     }
     
     const newResponse  = await github.rest.pulls.create({
-      title: `New Initiative: ${name} [Suggested by ${ISSUE_AUTHOR}]`,
+      title: `New Initiative: ${name} [Suggested by ${process.env.ISSUE_AUTHOR}]`,
       owner: context.repo.owner,
       repo: context.repo.repo,
       head: branch,
