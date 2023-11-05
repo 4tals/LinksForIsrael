@@ -82,6 +82,29 @@ ${json}`);
     executeGitCommand(["push", "origin", branch, "--force"]);
   }
 
+  function removeRedundantInitiativeJsonProperties(json) {
+    console.log("Removing redundant initiative JSON properties")
+
+    //not in our links.json schema, and worse - will interfere with existing initiative detection
+    delete json.category;
+
+    var redundantValues = new Set([undefined, "", "N/A", "NOTAPPLICABLE", "NOTAVAILABLE", "UNAVAILABLE"])
+    for (const prop in json) {
+      const value = json[prop];
+      if (typeof value !== "string") {
+        continue;
+      }
+      
+      // remove whitespace and capitalize
+      const PropValueNormalized = value?.replace(/\s/g, "").toLocaleUpperCase("en-us");
+      
+      if (redundantValues.has(PropValueNormalized)) {
+        console.log(`Removing redundant property '${prop}' with value '${value}'`);
+        delete json[prop];
+      }
+    }
+  }
+
   const tempFolder = process.env.TEMP || "/tmp";
   const gptResponse = await fs.readFile(tempFolder + "/gpt-auto-comment.output", "utf8");
 
@@ -120,7 +143,7 @@ ${json}`);
     return await warnAndComment("Could not process category links JSON", e, markdownNewInitiativeJson);
   }
 
-  delete newInitiativeJson.category //not in our schema, and worse - will interfere with the existing initiative detection below
+  removeRedundantInitiativeJsonProperties(newInitiativeJson); 
 
   if (process.env.ISSUE_TITLE.toLocaleUpperCase("en-us").startsWith("[NEW-INITIATIVE-FORCE-PR]:")) {
     console.warn("FORCE-PR requested: skipping existing initiative validation");
