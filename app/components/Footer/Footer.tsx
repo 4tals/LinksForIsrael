@@ -52,6 +52,18 @@ export function Footer() {
 						height="32"
 					/>
 				</a>
+				<a
+					href="https://www.linkedin.com/company/links-for-israel/"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					<img
+						src="https://upload.wikimedia.org/wikipedia/commons/9/90/Wbseries_linkdin.png"
+						alt="Linkedin"
+						width="32"
+						height="32"
+					/>
+				</a>
 				<HelpUsButton />
 			</div>
 			<div className="quote-link flex flex-row items-center justify-center">
