@@ -127,7 +127,7 @@ See GitHub Action logs for more details: ${context.serverUrl}/${context.repo.own
     console.log("Attempting to detect already-existing initiative");
 
     const linksFolder = `${process.env.GITHUB_WORKSPACE}/_data/links`;
-    const linkJsonFileNames = await glob.glob(linksFolder + "/**/*.json");
+    const linkJsonFileNames = await glob.glob(linksFolder + "/**/*.json", { nocase: true });
 
     for (const linkJsonFileName of linkJsonFileNames) {
 
