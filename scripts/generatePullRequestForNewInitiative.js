@@ -89,18 +89,19 @@ ${json}`);
   }
   console.log("Extracted JSON: " + jsonString);
 
+  let newInitiativeJson;
   try {
-    json = JSON.parse(jsonString);
+    newInitiativeJson = JSON.parse(jsonString);
   } 
   catch (e) {
     return await warnAndComment("Could not process GPT response as JSON", e, jsonString);
   }
 
-  humanReadableJson = "```json\n" + JSON.stringify(json, null, 2) + "\n```";
+  humanReadableJson = "```json\n" + JSON.stringify(newInitiativeJson, null, 2) + "\n```";
   
   let categoryLinksJsonFile, categoryJsonString;
   try {
-    categoryLinksJsonFile = `${process.env.GITHUB_WORKSPACE}/_data/links/${json.category}/links.json`;
+    categoryLinksJsonFile = `${process.env.GITHUB_WORKSPACE}/_data/links/${newInitiativeJson.category}/links.json`;
     console.log("resolved category links file: " + categoryLinksJsonFile);
 
     categoryJsonString = await fs.readFile(categoryLinksJsonFile, "utf8");
@@ -110,7 +111,7 @@ ${json}`);
     return await warnAndComment("Could not process category links JSON", e, humanReadableJson);
   }
 
-  delete json.category //not in our schema, and worse - will interfere with the existing initiative detection below
+  delete newInitiativeJson.category //not in our schema, and worse - will interfere with the existing initiative detection below
 
   if (process.env.ISSUE_TITLE.toLocaleUpperCase("en-us").startsWith("[NEW-INITIATIVE-FORCE-PR]:")) {
     console.warn("FORCE-PR requested: skipping existing initiative validation");
@@ -119,9 +120,9 @@ ${json}`);
     console.log("Attempting to detect already existing initiative under this category");
 
     const upperCategoryJsonString = categoryJsonString.toLocaleUpperCase("en-us");
-    for (const prop in json) {
+    for (const prop in newInitiativeJson) {
       
-      const value = json[prop];
+      const value = newInitiativeJson[prop];
       if (typeof value !== "string" || value == "") {
         continue;
       }
@@ -137,7 +138,7 @@ If you are certain this initiative doesn't exist, edit the issue's title so that
     }
   }
   
-  categoryJson.links.push(json);
+  categoryJson.links.push(newInitiativeJson);
   await fs.writeFile(categoryLinksJsonFile, JSON.stringify(categoryJson, null, 2), "utf8");
 
   const branch = `auto-pr-${context.issue.number}`;
@@ -155,7 +156,7 @@ If you are certain this initiative doesn't exist, edit the issue's title so that
 
   let pr;
   try {
-    pr = await createOrUpdatePullRequest(branch, json.name || "???");
+    pr = await createOrUpdatePullRequest(branch, newInitiativeJson.name || "???");
   }
   catch (e) {
     return await warnAndComment("Could not create pull request", e, humanReadableJson);
