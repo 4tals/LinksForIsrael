@@ -22,7 +22,7 @@ module.exports = async ({github, context}) => {
     return text.substring(indexOfJsonStart + jsonStartMarker.length, indexOfJsonEnd);
   }
   
-  async function createOrUpdatePullRequest(branch, name) {
+  async function createOrUpdatePullRequestAsync(branch, name) {
 
     const existingResponse = await github.rest.pulls.list({
       owner: context.repo.owner,
@@ -52,7 +52,7 @@ module.exports = async ({github, context}) => {
     return newResponse.data
   }
   
-  async function createComment(body) {
+  async function createCommentAsync(body) {
     await github.rest.issues.createComment({
       owner: context.repo.owner,
       repo: context.repo.repo,
@@ -61,9 +61,9 @@ module.exports = async ({github, context}) => {
     });
   }
 
-  async function warnAndComment(warning, exception, json) {
+  async function warnAndCommentAsync(warning, exception, json) {
     console.warn(`${warning} [${exception}]`);
-    await createComment(`**WARNING**: ${warning}
+    await createCommentAsync(`**WARNING**: ${warning}
 see GitHub Action logs for more details: ${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}
 Automatic PR will NOT be generated
 ${json}`);
@@ -122,7 +122,7 @@ ${json}`);
     }
   }
 
-  async function detectExistingInitiative(newInitiativeJson) {
+  async function detectExistingInitiativeAsync(newInitiativeJson) {
     console.log("Attempting to detect already-existing initiative");
 
     const linksFolder = `${process.env.GITHUB_WORKSPACE}/_data/links`;
@@ -148,7 +148,7 @@ ${json}`);
     
         const PropValueUpper = value.toLocaleUpperCase("en-us");
         if (upperlinksJsonString.indexOf(PropValueUpper) !== -1) {
-          await warnAndComment(
+          await warnAndCommentAsync(
 `Initiative might already exist - the value of property \`${prop}\` (\`${value}\`) is already present in ${linkJsonFileName}:
 \`\`\`json
 ${linksJsonString}
@@ -185,7 +185,7 @@ If you are certain this is a mistake and that the initiative doesn't already exi
     newInitiativeJson = JSON.parse(jsonString);
   } 
   catch (e) {
-    return await warnAndComment("Could not process GPT response as JSON", e, jsonString);
+    return await warnAndCommentAsync("Could not process GPT response as JSON", e, jsonString);
   }
 
   const markdownNewInitiativeJson = "```json\n" + JSON.stringify(newInitiativeJson, null, 2) + "\n```";
@@ -199,7 +199,7 @@ If you are certain this is a mistake and that the initiative doesn't already exi
     categoryJson = JSON.parse(categoryJsonString);
   }
   catch (e) {
-    return await warnAndComment("Could not process category links JSON", e, markdownNewInitiativeJson);
+    return await warnAndCommentAsync("Could not process category links JSON", e, markdownNewInitiativeJson);
   }
 
   removeRedundantInitiativeJsonProperties(newInitiativeJson); 
@@ -207,7 +207,7 @@ If you are certain this is a mistake and that the initiative doesn't already exi
   if (process.env.ISSUE_TITLE.toLocaleUpperCase("en-us").startsWith("[NEW-INITIATIVE-FORCE-PR]:")) {
     console.warn("FORCE-PR requested: skipping existing initiative validation");
   }
-  else if (await detectExistingInitiative(newInitiativeJson)) {
+  else if (await detectExistingInitiativeAsync(newInitiativeJson)) {
     return;
   }
   
@@ -219,17 +219,17 @@ If you are certain this is a mistake and that the initiative doesn't already exi
     pushPrBranch(branch, categoryLinksJsonFile, newInitiativeJson.name);
   }
   catch (e) {
-    return await warnAndComment("encountered error during git execution", e, markdownNewInitiativeJson);
+    return await warnAndCommentAsync("encountered error during git execution", e, markdownNewInitiativeJson);
   }
 
   let pr;
   try {
-    pr = await createOrUpdatePullRequest(branch, newInitiativeJson.name || "???");
+    pr = await createOrUpdatePullRequestAsync(branch, newInitiativeJson.name || "???");
   }
   catch (e) {
-    return await warnAndComment("Could not create pull request", e, markdownNewInitiativeJson);
+    return await warnAndCommentAsync("Could not create pull request", e, markdownNewInitiativeJson);
   }
 
   console.log("resolved PR: " + JSON.stringify(pr))
-  await createComment((pr.existing ? "Updated" : "Created") + " PR: " + pr.html_url);
+  await createCommentAsync((pr.existing ? "Updated" : "Created") + " PR: " + pr.html_url);
 }
