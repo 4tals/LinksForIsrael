@@ -3,6 +3,20 @@
   "displayName": "יוזמות קיימות",
   "links": [
     {
+      "displayName": "MiklatFinder - מציאת מקלט",
+      "name": "MiklatFinder",
+      "shortDescription": "Open source code for website to show nearest miklat to your location",
+      "description": "To make the residents feel safer, we developed a website that shows the nearest miklats to their location, or from a particular address. The list of miklats was collected from both the iriyah, and from friends around the city. The website shows a table with details of the 3 nearest miklats, as well as a map containing the location of those miklats relative to your location/address. It is available in both English and Hebrew, and contains instructions taken from Pikud Haoref on what to do if you can't get to a miklat in time. We decided to make our code open source, so that other developers could host their own versions of the website for their particular city. They will need to create their own database of miklat locations. Everything that is necessary is explained in detail in the repo's README.",
+      "initiativeValidationDetails": "Source: I and user xtreemtg co-developed it. Link to reputable source(s) promoting the initiative: the website for our city (Givat Shmuel) is hosted at https://xtreemtg.github.io/miklat-finder/ . Contact details for members of the initiative's team: y_broderick@yahoo.com, Jonah.taurog1@gmail.com",
+      "url": "https://github.com/LeggoMahEggo/miklat-finder-open-source/",
+      "tags": [
+        "מקלט",
+        "open-source",
+        "טכנולוגיה",
+        "חיפוש"
+      ]
+    },
+    {
       "name": "NationalDroneInitiative",
       "displayName": "מיזם הרחפנים הלאומי - National Drone Initiative",
       "shortDescription": "התנדבות ליוזמות הטסה",
@@ -58,15 +72,6 @@
       "description": "מתנדבים למציאת נעדרים ע״י מכשור טכנולוגי (לפטופ, טלפון ישן וכיו״ב)",
       "url": "https://docs.google.com/forms/d/e/1FAIpQLSduujH277Cqt31XgOZfTZFAD4ua_YN8fXUtAlwOAHX2q9Emww/viewform?usp=sf_link",
       "docs": "https://docs.google.com/forms/d/e/1FAIpQLSduujH277Cqt31XgOZfTZFAD4ua_YN8fXUtAlwOAHX2q9Emww/viewform?usp=sf_link"
-    },
-    {
-      "name": "TechInitiativesDevHelps",
-      "displayName": "רשימת יוזמות - DevHelps",
-      "initiativeImage": "https://cdn4.telegram-cdn.org/file/ROis87ikX-g98-COcnS1vizOViivUpUeoDIc6-2z0vy2dbiH8iMZMnjqhAQ77ueFQZozYcNHHhgau3Lmqd0TIbwOb0UP0dPgkFbMJsiQ_aqAR_Ufn6JB7lv_bZ3xgebG-qF7SNS8Qyw2NsC5Z4Ghydd1arGzN4VZiIyqxe93qEbvMntZauEwey4C5PjkHs_5jJxOHcK5SfiWkyPbiP_d907Vv63HpYizcysN0u6DyTuY_uhp96t-0u-JT527C8Pm_gQ7NPayzcy1TDtWYPP2EAk2CB5OBSrUuY8huZgXCc_1-ikUxflFWDJKGXKnmPybdeeIIqs5-6uMo5r3cypbRw.jpg",
-      "description": "רשימת יוזמות מתעדכנת בהן משתתפת קהילת DevHelps",
-      "shortDescription": "רשימת יוזמות מתעדכנת בהן משתתפת קהילת DevHelps",
-      "docs": "https://docs.google.com/spreadsheets/d/1TdHu9MuzZhE-TNZfcKGyk6I4VYFxPl3KlEqasS52A_0/edit#gid=0",
-      "url": "https://docs.google.com/spreadsheets/d/1TdHu9MuzZhE-TNZfcKGyk6I4VYFxPl3KlEqasS52A_0/edit#gid=0"
     }
   ]
 }

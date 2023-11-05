@@ -41,20 +41,6 @@
         "טופס",
         "בקשות"
       ]
-    },
-    {
-      "displayName": "Miklat Finder",
-      "name": "Miklat Finder",
-      "shortDescription": "Open source code for website to show nearest miklat to your location",
-      "description": "To make the residents of our city (Givat Shmuel) feel safer, we developed a website that shows the nearest miklats to their location, or from a particular address. The list of miklats was collected from both the iriyah, and from friends around the city. The website shows a table with details of the 3 nearest miklats, as well as a map containing the location of those miklats relative to your location/address. It is available in both English and Hebrew, and contains instructions taken from Pikud Haoref on what to do if you can't get to a miklat in time. We decided to make our code open source, so that other developers could host their own versions of the website for their particular city. They will need to create their own database of miklat locations. Everything that is necessary is explained in detail in the repo's README.",
-      "initiativeValidationDetails": "Source: I and user xtreemtg co-developed it. Link to reputable source(s) promoting the initiative: the website for our city (Givat Shmuel) is hosted at https://xtreemtg.github.io/miklat-finder/ . Contact details for members of the initiative's team: y_broderick@yahoo.com, Jonah.taurog1@gmail.com",
-      "url": "https://github.com/LeggoMahEggo/miklat-finder-open-source/",
-      "tags": [
-        "shelter",
-        "miklat",
-        "finder",
-        "find"
-      ]
     }
   ]
 }
