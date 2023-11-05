@@ -68,9 +68,25 @@ Automatic PR will NOT be generated
 ${json}`);
   }
 
+  function executeShellCommand(cmd, args) {
+    console.log(`Executing: ${cmd} ${args.join(" ")}`);
+    
+    let stdout;
+    try {
+      stdout = cp.execFileSync(cmd, args);
+    } 
+    catch (e) {
+      console.error(`Command executed with non-zero exit code ${e.status}: ${e.message}`);
+      console.error(`stdout: ${e.stdout}`);
+      console.error(`stderr: ${e.stderr}`);
+      throw e;
+    }
+
+    console.log(`Command executed successfully with output: ${stdout}`);
+  }
+
   function executeGitCommand(args) {
-    console.log(`Executing: git ${args}`);
-    cp.execFileSync("git", args);
+    executeShellCommand("git", args);
   }
   
   function pushPrBranch(branch, categoryLinksJsonFile, initiativeName) {
@@ -149,6 +165,7 @@ ${json}`);
     console.warn("FORCE-PR requested: skipping existing initiative validation");
   }
   else {
+    //TODO: EXTRACT METHOD
     console.log("Attempting to detect already existing initiative under this category");
 
     const upperCategoryJsonString = categoryJsonString.toLocaleUpperCase("en-us");
