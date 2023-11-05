@@ -61,8 +61,11 @@ module.exports = async ({github, context}) => {
   }
 
   async function warnAndComment(warning, exception, json) {
-    console.warn(`${warning}: ${exception}`);
-    await createComment(`WARNING: ${warning} (see GitHub Action logs for more details)\n` + "Automatic PR will NOT be generated:\n" + json);
+    console.warn(`${warning} [${exception}]`);
+    await createComment(`**WARNING**: ${warning}
+see GitHub Action logs for more details: ${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}
+Automatic PR will NOT be generated
+${json}`);
   }
 
   function executeGitCommand(args) {
@@ -126,8 +129,8 @@ module.exports = async ({github, context}) => {
       const PropValueUpper = value.toLocaleUpperCase("en-us");
       if (upperCategoryJsonString.indexOf(PropValueUpper) !== -1) {
         return await warnAndComment(
-          `Initiative might already exist under this category, the value of property "${prop}" is already present in the JSON: "${value}". 
-          If you are certain this initiative doesn't exist, edit the issue's title so that it starts with [NEW-INITIATIVE-FORCE-PR]:`,
+          `Initiative might already exist under this category - the value of property \`${prop}\` is already present in the JSON \`${value}\`. 
+If you are certain this initiative doesn't exist, edit the issue's title so that it starts with \`[NEW-INITIATIVE-FORCE-PR]:\``,
            "suspected existing initiative",
             humanReadableJson);
       }
