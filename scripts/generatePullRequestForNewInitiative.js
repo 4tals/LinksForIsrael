@@ -97,7 +97,7 @@ ${json}`);
     return await warnAndComment("Could not process GPT response as JSON", e, jsonString);
   }
 
-  humanReadableJson = "```json\n" + JSON.stringify(newInitiativeJson, null, 2) + "\n```";
+  const markdownNewInitiativeJson = "```json\n" + JSON.stringify(newInitiativeJson, null, 2) + "\n```";
   
   let categoryLinksJsonFile, categoryJsonString;
   try {
@@ -108,7 +108,7 @@ ${json}`);
     categoryJson = JSON.parse(categoryJsonString);
   }
   catch (e) {
-    return await warnAndComment("Could not process category links JSON", e, humanReadableJson);
+    return await warnAndComment("Could not process category links JSON", e, markdownNewInitiativeJson);
   }
 
   delete newInitiativeJson.category //not in our schema, and worse - will interfere with the existing initiative detection below
@@ -133,7 +133,7 @@ ${json}`);
           `Initiative might already exist under this category - the value of property \`${prop}\` is already present in the JSON \`${value}\`. 
 If you are certain this initiative doesn't exist, edit the issue's title so that it starts with \`[NEW-INITIATIVE-FORCE-PR]:\``,
            "suspected existing initiative",
-            humanReadableJson);
+            markdownNewInitiativeJson);
       }
     }
   }
@@ -151,7 +151,7 @@ If you are certain this initiative doesn't exist, edit the issue's title so that
     executeGitCommand(["push", "origin", branch, "--force"])
   }
   catch (e) {
-    return await warnAndComment("encountered error during git execution", e, humanReadableJson);
+    return await warnAndComment("encountered error during git execution", e, markdownNewInitiativeJson);
   }
 
   let pr;
@@ -159,7 +159,7 @@ If you are certain this initiative doesn't exist, edit the issue's title so that
     pr = await createOrUpdatePullRequest(branch, newInitiativeJson.name || "???");
   }
   catch (e) {
-    return await warnAndComment("Could not create pull request", e, humanReadableJson);
+    return await warnAndComment("Could not create pull request", e, markdownNewInitiativeJson);
   }
 
   console.log("resolved PR: " + JSON.stringify(pr))
