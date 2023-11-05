@@ -19,6 +19,7 @@ export interface Link {
 	name: string;
 	displayName: string;
 	shortDescription: string;
+	initiativeValidationDetails: string;
 	description: string;
 	url: string;
 	initiativeImage: string;
@@ -34,6 +35,7 @@ export interface Link {
 	tiktok: string;
 	twitter: string;
 	portal: string;
+	phone: string;
 	tags?: string[];
 }
 
