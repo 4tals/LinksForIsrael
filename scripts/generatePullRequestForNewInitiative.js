@@ -1,6 +1,7 @@
 module.exports = async ({github, context}) => {
 
   const fs = require('fs').promises;
+  const path = require('path');
   const cp = require('child_process');
 
   function tryExtractJson(text, jsonStartMarker, jsonEndMarker) {
@@ -121,6 +122,46 @@ ${json}`);
     }
   }
 
+  async function detectExistingInitiative(newInitiativeJson) {
+    console.log("Attempting to detect already-existing initiative");
+
+    const linkJsonFileNames = await fs.readdir(`${process.env.GITHUB_WORKSPACE}/_data/links`, { recursive: true });
+
+    for (const linkJsonFileName of linkJsonFileNames) {
+      if (path.extname(linkJsonFileName).toLocaleUpperCase("en-us") !== ".JSON") {
+        console.log(`Skipping non-JSON file: ${linkJsonFileName}`);
+        continue;
+      }
+
+      console.log(`processing links file: ${linkJsonFileName}`);
+      const linksJsonString = await fs.readFile(linkJsonFileName, "utf8");
+      const upperlinksJsonString = linksJsonString.toLocaleUpperCase("en-us");
+      
+      for (const prop in newInitiativeJson) {
+        
+        const value = newInitiativeJson[prop];
+        if (typeof value !== "string") {
+          continue;
+        }
+    
+        const PropValueUpper = value.toLocaleUpperCase("en-us");
+        if (upperlinksJsonString.indexOf(PropValueUpper) !== -1) {
+          await warnAndComment(
+`Initiative might already exist - the value of property \`${prop}\` (\`${value}\`) is already present in ${linkJsonFileName}:
+\`\`\`json
+${linksJsonString}
+\`\`\`
+If you are certain this is a mistake and that the initiative doesn't already exist, edit the issue's title so that it starts with \`[NEW-INITIATIVE-FORCE-PR]:\``,
+             "Suspected existing initiative",
+              markdownNewInitiativeJson)
+          return true;
+        }
+      }
+
+      return false;
+    }
+  }
+
   const tempFolder = process.env.TEMP || "/tmp";
   const gptResponse = await fs.readFile(tempFolder + "/gpt-auto-comment.output", "utf8");
 
@@ -147,12 +188,12 @@ ${json}`);
 
   const markdownNewInitiativeJson = "```json\n" + JSON.stringify(newInitiativeJson, null, 2) + "\n```";
   
-  let categoryLinksJsonFile, categoryJsonString;
+  let categoryLinksJsonFile;
   try {
     categoryLinksJsonFile = `${process.env.GITHUB_WORKSPACE}/_data/links/${newInitiativeJson.category}/links.json`;
     console.log("resolved category links file: " + categoryLinksJsonFile);
 
-    categoryJsonString = await fs.readFile(categoryLinksJsonFile, "utf8");
+    const categoryJsonString = await fs.readFile(categoryLinksJsonFile, "utf8");
     categoryJson = JSON.parse(categoryJsonString);
   }
   catch (e) {
@@ -164,27 +205,8 @@ ${json}`);
   if (process.env.ISSUE_TITLE.toLocaleUpperCase("en-us").startsWith("[NEW-INITIATIVE-FORCE-PR]:")) {
     console.warn("FORCE-PR requested: skipping existing initiative validation");
   }
-  else {
-    //TODO: EXTRACT METHOD
-    console.log("Attempting to detect already existing initiative under this category");
-
-    const upperCategoryJsonString = categoryJsonString.toLocaleUpperCase("en-us");
-    for (const prop in newInitiativeJson) {
-      
-      const value = newInitiativeJson[prop];
-      if (typeof value !== "string" || value == "") {
-        continue;
-      }
-  
-      const PropValueUpper = value.toLocaleUpperCase("en-us");
-      if (upperCategoryJsonString.indexOf(PropValueUpper) !== -1) {
-        return await warnAndComment(
-          `Initiative might already exist under this category - the value of property \`${prop}\` is already present in the JSON \`${value}\`. 
-If you are certain this initiative doesn't exist, edit the issue's title so that it starts with \`[NEW-INITIATIVE-FORCE-PR]:\``,
-           "suspected existing initiative",
-            markdownNewInitiativeJson);
-      }
-    }
+  else if (detectExistingInitiative(newInitiativeJson)) {
+    return;
   }
   
   categoryJson.links.push(newInitiativeJson);
