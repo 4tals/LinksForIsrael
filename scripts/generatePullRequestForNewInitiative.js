@@ -149,7 +149,7 @@ ${json}`);
         const PropValueUpper = value.toLocaleUpperCase("en-us");
         if (upperlinksJsonString.indexOf(PropValueUpper) !== -1) {
           await warnAndCommentAsync(
-`Initiative might already exist - the value of property \`${prop}\` (\`${value}\`) is already present in ${linkJsonFileName}:
+`Initiative might already exist - the value of property \`${prop}\` (\`${value}\`) is already present in \`${linkJsonFileName}\`:
 \`\`\`json
 ${linksJsonString}
 \`\`\`
