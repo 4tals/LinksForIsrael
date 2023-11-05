@@ -72,6 +72,15 @@ ${json}`);
     console.log(`Executing: git ${args}`);
     cp.execFileSync("git", args);
   }
+  
+  function pushPrBranch(branch, categoryLinksJsonFile, initiativeName) {
+    executeGitCommand(["config", "user.name", "github-actions"]);
+    executeGitCommand(["config", "user.email", "41898282+github-actions[bot]@users.noreply.github.com"]); //https://github.com/orgs/community/discussions/26560
+    executeGitCommand(["checkout", "-b", branch]);
+    executeGitCommand(["add", categoryLinksJsonFile]);
+    executeGitCommand(["commit", "-m", initiativeName || "new initiative"]);
+    executeGitCommand(["push", "origin", branch, "--force"]);
+  }
 
   const tempFolder = process.env.TEMP || "/tmp";
   const gptResponse = await fs.readFile(tempFolder + "/gpt-auto-comment.output", "utf8");
@@ -143,12 +152,7 @@ If you are certain this initiative doesn't exist, edit the issue's title so that
 
   const branch = `auto-pr-${context.issue.number}`;
   try {
-    executeGitCommand(["config", "user.name", "github-actions"])
-    executeGitCommand(["config", "user.email", "41898282+github-actions[bot]@users.noreply.github.com"]) //https://github.com/orgs/community/discussions/26560
-    executeGitCommand(["checkout", "-b", branch])
-    executeGitCommand(["add", categoryLinksJsonFile])
-    executeGitCommand(["commit", "-m", json.name || "new initiative"])
-    executeGitCommand(["push", "origin", branch, "--force"])
+    pushPrBranch(branch, categoryLinksJsonFile, newInitiativeJson.name);
   }
   catch (e) {
     return await warnAndComment("encountered error during git execution", e, markdownNewInitiativeJson);
