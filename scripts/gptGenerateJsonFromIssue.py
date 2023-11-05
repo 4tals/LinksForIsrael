@@ -110,7 +110,7 @@ class GPTAssistant:
 def get_new_initiative_details() -> str:    
     initiative_details = f"""
     ### Initiative Display Name
-    {os.environ["ISSUE_TITLE"]}
+    {os.environ["ISSUE_TITLE"].replace("[NEW-INITIATIVE]:", "")}
 
     {os.environ["ISSUE_BODY"]}
     """
