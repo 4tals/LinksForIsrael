@@ -108,25 +108,32 @@ module.exports = async ({github, context}) => {
   }
 
   delete json.category //not in our schema, and worse - will interfere with the existing initiative detection below
-  console.log("Attempting to detect already existing initiative under this category");
 
-  const upperCategoryJsonString = categoryJsonString.toLocaleUpperCase("en-us");
-  for (const prop in json) {
-    
-    const value = json[prop];
-    if (typeof value !== "string" || value == "") {
-      continue;
-    }
+  if (process.env.ISSUE_TITLE.toLocaleUpperCase("en-us").startsWith("[NEW-INITIATIVE-FORCE-PR]:")) {
+    console.warn("FORCE-PR requested: skipping existing initiative validation");
+  }
+  else {
+    console.log("Attempting to detect already existing initiative under this category");
 
-    const PropValueUpper = value.toLocaleUpperCase("en-us");
-    if (upperCategoryJsonString.indexOf(PropValueUpper) !== -1) {
-      return await warnAndComment(
-        `Initiative might already exist under this category, the value of property "${prop}" is already present in the JSON: "${value}". If you are certain this initiative doesn't exist`,
-         "suspected existing initiative",
-          humanReadableJson);
+    const upperCategoryJsonString = categoryJsonString.toLocaleUpperCase("en-us");
+    for (const prop in json) {
+      
+      const value = json[prop];
+      if (typeof value !== "string" || value == "") {
+        continue;
+      }
+  
+      const PropValueUpper = value.toLocaleUpperCase("en-us");
+      if (upperCategoryJsonString.indexOf(PropValueUpper) !== -1) {
+        return await warnAndComment(
+          `Initiative might already exist under this category, the value of property "${prop}" is already present in the JSON: "${value}". 
+          If you are certain this initiative doesn't exist, edit the issue's title so that it starts with [NEW-INITIATIVE-FORCE-PR]:`,
+           "suspected existing initiative",
+            humanReadableJson);
+      }
     }
   }
-
+  
   categoryJson.links.push(json);
   fs.writeFileSync(categoryLinksJsonFile, JSON.stringify(categoryJson, null, 2), "utf8");
 
