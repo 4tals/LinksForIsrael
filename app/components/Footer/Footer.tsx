@@ -40,6 +40,18 @@ export function Footer() {
 						height="32"
 					/>
 				</a>
+				<a
+					href="https://twitter.com/linksforisrael"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					<img
+						src="https://upload.wikimedia.org/wikipedia/commons/c/ce/X_logo_2023.svg"
+						alt="Twitter"
+						width="32"
+						height="32"
+					/>
+				</a>
 				<HelpUsButton />
 			</div>
 			<div className="quote-link flex flex-row items-center justify-center">
