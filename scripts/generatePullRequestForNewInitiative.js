@@ -1,8 +1,8 @@
 module.exports = async ({github, context}) => {
 
-  const fs = require('fs').promises;
-  const path = require('path');
-  const cp = require('child_process');
+  const fs = require("fs").promises;
+  const glob = require("glob");
+  const cp = require("child_process");
 
   function tryExtractJson(text, jsonStartMarker, jsonEndMarker) {
     console.log(`Attempting to extract JSON with start marker "${jsonStartMarker}" and end marker "${jsonEndMarker}"` );
@@ -127,17 +127,12 @@ See GitHub Action logs for more details: ${context.serverUrl}/${context.repo.own
     console.log("Attempting to detect already-existing initiative");
 
     const linksFolder = `${process.env.GITHUB_WORKSPACE}/_data/links`;
-    const linkJsonFileNames = await fs.readdir(linksFolder, { recursive: true });
+    const linkJsonFileNames = await glob.glob(linksFolder + "/**/*.json");
 
     for (const linkJsonFileName of linkJsonFileNames) {
-      if (path.extname(linkJsonFileName).toLocaleUpperCase("en-us") !== ".JSON") {
-        console.log(`Skipping non-JSON file: ${linkJsonFileName}`);
-        continue;
-      }
 
-      const linkJsonFileNameAbsolute = `${linksFolder}/${linkJsonFileName}`
-      console.log(`processing links file: ${linkJsonFileNameAbsolute}`);
-      const linksJsonString = await fs.readFile(linkJsonFileNameAbsolute, "utf8");
+      console.log(`processing links file: ${linkJsonFileName}`);
+      const linksJsonString = await fs.readFile(linkJsonFileName, "utf8");
       const upperlinksJsonString = linksJsonString.toLocaleUpperCase("en-us");
 
       for (const prop in newInitiativeJson) {
