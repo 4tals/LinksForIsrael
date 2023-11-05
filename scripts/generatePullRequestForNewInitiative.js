@@ -84,7 +84,7 @@ See GitHub Action logs for more details: ${context.serverUrl}/${context.repo.own
       throw e;
     }
 
-    console.log(`Command executed successfully with output: ${stdout}`);
+    console.log(`Command executed successfully with stdout: ${stdout}`);
   }
 
   function executeGitCommand(args) {
