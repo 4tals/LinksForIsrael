@@ -39,7 +39,7 @@ module.exports = async ({github, context}) => {
     }
     
     const newResponse  = await github.rest.pulls.create({
-      title: 'New Initiative: ' + name,
+      title: `New Initiative: ${name} [Suggested by ${ISSUE_AUTHOR}]`,
       owner: context.repo.owner,
       repo: context.repo.repo,
       head: branch,
@@ -120,7 +120,10 @@ module.exports = async ({github, context}) => {
 
     const PropValueUpper = value.toLocaleUpperCase("en-us");
     if (upperCategoryJsonString.indexOf(PropValueUpper) !== -1) {
-      return await warnAndComment(`Initiative might already exist under this category, the value of property ${prop} is already present in the JSON: ${value}`, "suspected existing initiative", humanReadableJson);
+      return await warnAndComment(
+        `Initiative might already exist under this category, the value of property "${prop}" is already present in the JSON: "${value}". If you are certain this initiative doesn't exist`,
+         "suspected existing initiative",
+          humanReadableJson);
     }
   }
 
