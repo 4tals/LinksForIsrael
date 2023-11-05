@@ -125,7 +125,8 @@ ${json}`);
   async function detectExistingInitiative(newInitiativeJson) {
     console.log("Attempting to detect already-existing initiative");
 
-    const linkJsonFileNames = await fs.readdir(`${process.env.GITHUB_WORKSPACE}/_data/links`, { recursive: true });
+    const linksFolder = `${process.env.GITHUB_WORKSPACE}/_data/links`;
+    const linkJsonFileNames = await fs.readdir(linksFolder, { recursive: true });
 
     for (const linkJsonFileName of linkJsonFileNames) {
       if (path.extname(linkJsonFileName).toLocaleUpperCase("en-us") !== ".JSON") {
@@ -133,10 +134,11 @@ ${json}`);
         continue;
       }
 
-      console.log(`processing links file: ${linkJsonFileName}`);
-      const linksJsonString = await fs.readFile(linkJsonFileName, "utf8");
+      const linkJsonFileNameAbsolute = `${linksFolder}/${linkJsonFileName}`
+      console.log(`processing links file: ${linkJsonFileNameAbsolute}`);
+      const linksJsonString = await fs.readFile(linkJsonFileNameAbsolute, "utf8");
       const upperlinksJsonString = linksJsonString.toLocaleUpperCase("en-us");
-      
+
       for (const prop in newInitiativeJson) {
         
         const value = newInitiativeJson[prop];
