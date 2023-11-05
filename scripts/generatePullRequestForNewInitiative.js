@@ -1,7 +1,7 @@
 module.exports = async ({github, context}) => {
 
   const fs = require("fs").promises;
-  const glob = require("glob");
+  const path = require("path");
   const cp = require("child_process");
 
   function tryExtractJson(text, jsonStartMarker, jsonEndMarker) {
@@ -123,13 +123,27 @@ See GitHub Action logs for more details: ${context.serverUrl}/${context.repo.own
     }
   }
 
+  async function* readdirRecursiveAsync(dir, ext) {
+    const upperExtension = ext.toLocaleUpperCase("en-us");
+
+    const dirents = await fs.readdir(dir, { withFileTypes: true });
+    for (const dirent of dirents) {
+      const absolutePath = path.resolve(dir, dirent.name);
+      
+      if (dirent.isFile && (path.extname(absolutePath).toLocaleUpperCase("en-us") === upperExtension)) {
+        yield absolutePath;
+      }
+      else if (dirent.isDirectory()) {
+        yield* await readdirRecursiveAsync(absolutePath, ext)
+      } 
+    }
+  }
+
   async function detectExistingInitiativeAsync(newInitiativeJson) {
     console.log("Attempting to detect already-existing initiative");
 
     const linksFolder = `${process.env.GITHUB_WORKSPACE}/_data/links`;
-    const linkJsonFileNames = await glob.glob(linksFolder + "/**/*.json", { nocase: true });
-
-    for (const linkJsonFileName of linkJsonFileNames) {
+    for await (const linkJsonFileName of readdirRecursiveAsync(linksFolder, ".json")) {
 
       console.log(`processing links file: ${linkJsonFileName}`);
       const linksJsonString = await fs.readFile(linkJsonFileName, "utf8");
