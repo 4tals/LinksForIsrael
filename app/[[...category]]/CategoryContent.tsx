@@ -5,6 +5,7 @@ import { Fragment, ReactNode, useState } from "react";
 import { DialogModal } from "../components/DialogModal/DialogModal";
 import { Link, SubCategoryData } from "../utils/categories";
 import { ShareButtons } from "./ShareButtons";
+import { Tooltip } from "./Tooltip";
 
 export function CategoryContent({
 	categoryName,
@@ -15,12 +16,13 @@ export function CategoryContent({
 	subCategories: Array<SubCategoryData>;
 	categoryDescription: string;
 }) {
+	const [showTooltip, setShowTooltip] = useState(false);
+
 	const [openDialog, setOpenDialog] = useState(false);
 	const [description, setDescription] = useState<{
 		body: ReactNode;
 		link: Link;
 	} | null>(null);
-
 	return (
 		<>
 			<DialogModal
@@ -264,6 +266,18 @@ const LinkIcons = ({ link }: { link: Link }) => (
 					alt="Portal Link"
 				/>
 			</a>
+		)}
+		{link.phone && (
+			<a href={`tel:${link.phone}`} target="_blank">
+				<img
+					className="link-icon"
+					src="https://cdn2.iconfinder.com/data/icons/font-awesome/1792/phone-512.png"
+					alt="Phone Link"
+				/>
+			</a>
+		)}
+		{link.initiativeValidationDetails && (
+			<Tooltip content={link.initiativeValidationDetails} />
 		)}
 	</div>
 );
