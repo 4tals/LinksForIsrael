@@ -18,6 +18,8 @@ export const Tooltip = ({ content }: { content: string }) => {
 		}
 	}, [visible]);
 
+	const message = "אומת על ידי צוות לינק לישראל";
+
 	const createPortal = () => {
 		if (!visible || !tooltipRef.current) {
 			return null;
@@ -37,7 +39,7 @@ export const Tooltip = ({ content }: { content: string }) => {
 			whiteSpace: "nowrap",
 		};
 
-		const tooltipElement = <div style={tooltipStyle}>{content}</div>;
+		const tooltipElement = <div style={tooltipStyle}>{message}</div>;
 
 		return ReactDOM.createPortal(tooltipElement, document.body);
 	};
