@@ -159,9 +159,9 @@ If you are certain this is a mistake and that the initiative doesn't already exi
           return true;
         }
       }
-
-      return false;
     }
+
+    return false;
   }
 
   const tempFolder = process.env.TEMP || "/tmp";
@@ -207,7 +207,7 @@ If you are certain this is a mistake and that the initiative doesn't already exi
   if (process.env.ISSUE_TITLE.toLocaleUpperCase("en-us").startsWith("[NEW-INITIATIVE-FORCE-PR]:")) {
     console.warn("FORCE-PR requested: skipping existing initiative validation");
   }
-  else if (detectExistingInitiative(newInitiativeJson)) {
+  else if (await detectExistingInitiative(newInitiativeJson)) {
     return;
   }
   
@@ -231,5 +231,5 @@ If you are certain this is a mistake and that the initiative doesn't already exi
   }
 
   console.log("resolved PR: " + JSON.stringify(pr))
-  createComment((pr.existing ? "Updated" : "Created") + " PR: " + pr.html_url);
+  await createComment((pr.existing ? "Updated" : "Created") + " PR: " + pr.html_url);
 }
