@@ -1,6 +1,6 @@
 module.exports = async ({github, context}) => {
 
-  const fs = require('fs');
+  const fs = require('fs').promises;
   const cp = require('child_process');
 
   function tryExtractJson(text, jsonStartMarker, jsonEndMarker) {
@@ -74,7 +74,7 @@ ${json}`);
   }
 
   const tempFolder = process.env.TEMP || "/tmp";
-  const gptResponse = fs.readFileSync(tempFolder + "/gpt-auto-comment.output", "utf8");
+  const gptResponse = await fs.readFile(tempFolder + "/gpt-auto-comment.output", "utf8");
 
   // https://stackoverflow.com/a/51602415/67824
   const sanitizedGptResponse = gptResponse.replace(/[\u0000-\u001F\u007F-\u009F]/g, "");
@@ -103,7 +103,7 @@ ${json}`);
     categoryLinksJsonFile = `${process.env.GITHUB_WORKSPACE}/_data/links/${json.category}/links.json`;
     console.log("resolved category links file: " + categoryLinksJsonFile);
 
-    categoryJsonString = fs.readFileSync(categoryLinksJsonFile, "utf8");
+    categoryJsonString = await fs.readFile(categoryLinksJsonFile, "utf8");
     categoryJson = JSON.parse(categoryJsonString);
   }
   catch (e) {
@@ -138,7 +138,7 @@ If you are certain this initiative doesn't exist, edit the issue's title so that
   }
   
   categoryJson.links.push(json);
-  fs.writeFileSync(categoryLinksJsonFile, JSON.stringify(categoryJson, null, 2), "utf8");
+  await fs.writeFile(categoryLinksJsonFile, JSON.stringify(categoryJson, null, 2), "utf8");
 
   const branch = `auto-pr-${context.issue.number}`;
   try {
