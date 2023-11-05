@@ -64,9 +64,10 @@ module.exports = async ({github, context}) => {
   async function warnAndCommentAsync(warning, exception, json) {
     console.warn(`${warning} [${exception}]`);
     await createCommentAsync(`**WARNING**: ${warning}
-see GitHub Action logs for more details: ${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}
+
 Automatic PR will NOT be generated
-${json}`);
+${json}
+See GitHub Action logs for more details: ${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`);
   }
 
   function executeShellCommand(cmd, args) {
@@ -149,11 +150,12 @@ ${json}`);
         const PropValueUpper = value.toLocaleUpperCase("en-us");
         if (upperlinksJsonString.indexOf(PropValueUpper) !== -1) {
           await warnAndCommentAsync(
-`Initiative might already exist - the value of property \`${prop}\` (\`${value}\`) is already present in \`${linkJsonFileName}\`:
+`Initiative might already exist!
+The value of property \`${prop}\` (\`${value}\`) is already present in \`${linkJsonFileName}\`:
 \`\`\`json
 ${linksJsonString}
 \`\`\`
-If you are certain this is a mistake and that the initiative doesn't already exist, edit the issue's title so that it starts with \`[NEW-INITIATIVE-FORCE-PR]:\``,
+**If this is a mistake and it doesn't already exist:** edit the issue's title so that it starts with **\`[NEW-INITIATIVE-FORCE-PR]:\`**`,
              "Suspected existing initiative",
               markdownNewInitiativeJson)
           return true;
