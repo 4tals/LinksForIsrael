@@ -59,6 +59,7 @@ body:
         - GeneralAssistance
         - Initiatives/Main
         - Medical/Main
+        - Medical/Info
         - MemorialRemembrance/Main
         - MentalSupport/Main
         - MissingPersons/Main
