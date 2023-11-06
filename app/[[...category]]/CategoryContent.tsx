@@ -1,7 +1,5 @@
 "use client";
-
 import { Fragment, ReactNode, useState } from "react";
-
 import { DialogModal } from "../components/DialogModal/DialogModal";
 import { Link, SubCategoryData } from "../utils/categories";
 import { ShareButtons } from "./ShareButtons";
@@ -255,6 +253,15 @@ const LinkIcons = ({ link }: { link: Link }) => (
 					className="link-icon"
 					src="https://cdn-icons-png.flaticon.com/512/124/124021.png"
 					alt="Twitter Link"
+				/>
+			</a>
+		)}
+		{link.linkedin && (
+			<a href={link.linkedin} target="_blank">
+				<img
+					className="link-icon"
+					src="https://upload.wikimedia.org/wikipedia/commons/9/90/Wbseries_linkdin.png"
+					alt="LinkedIn Link"
 				/>
 			</a>
 		)}
