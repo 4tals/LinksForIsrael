@@ -57,6 +57,23 @@
         "ניו יורק",
         "אמת"
       ]
+    },
+    {
+      "displayName": "מאגר משאבים לטובת הסברה - לפי שפות",
+      "name": "StrategicCommunicationsRepository",
+      "shortDescription": "מאגר של סרטוני הסברה ב-25 שפות",
+      "description": "מאגר של סרטוני הסברה ב-25 שפות",
+      "initiativeValidationDetails": "אומת על ידי עמית לעבודה",
+      "url": "https://dwv4ag7si3i3i.cloudfront.net/index.html",
+      "website": "https://dwv4ag7si3i3i.cloudfront.net/index.html",
+      "tags": [
+        "מאגר",
+        "הסברה",
+        "וידאו",
+        "שפות",
+        "משאבים",
+        "ישראל"
+      ]
     }
   ]
 }
