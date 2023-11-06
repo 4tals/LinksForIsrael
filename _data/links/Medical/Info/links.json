@@ -3,14 +3,6 @@
   "displayName": "מידע שימושי ומשאבים",
   "links": [
     {
-      "name": "CourseEzraRishona",
-      "displayName": "ריכוז תכני קורס עזרה ראשונה",
-      "shortDescription": "ניתן על ידי חברת ניתאי שירותי עזרה ראשונה",
-      "description": "ניתן על ידי חברת ניתאי שירותי עזרה ראשונה",
-      "url": "./docs/ezra-rishona",
-      "portal": "./docs/ezra-rishona"
-    },
-    {
       "displayName": "קורס עזרה ראשונה לשעת חירום - מגן דוד אדום",
       "name": "MDA First Aid Course",
       "shortDescription": "קורס עזרה ראשונה בשעת חירום בהיקף 3 שעות לימוד",
