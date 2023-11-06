@@ -2,6 +2,20 @@
   "name": "EconomyMain",
   "displayName": "כלכלה",
   "links": [
-
+    {
+      "displayName": "עסקים בזמן מלחמה",
+      "name": "ALL CLUB",
+      "shortDescription": "הטבות לעסקים בתקופת המלחמה",
+      "description": "אנו קהילת ALL CLUB  הקהילה הראשונה והגדולה ביותר בישראל המונה מעל 200,000 חברים! מזמינים אתכם להצטרף ולהנות מכלל השירותים שלנו – ללא עלות וללא התחייבות לתקופה של חודש!",
+      "initiativeValidationDetails": "Reputable source: https://www.facebook.com/RaananaBusinessCenter/posts/pfbid0gpAgJa4dGnrgQWWGchgtcmDEfgFmqatRFntnBCp9MUiWSBuPGn4XpejELEZfeJdMl?locale=ms_MY",
+      "url": "https://allclub.minisite.ms/71",
+      "website": "https://allclub.minisite.ms/71",
+      "tags": [
+        "עסקים",
+        "מלחמה",
+        "ALL CLUB",
+        "הטבות"
+      ]
+    }
   ]
 }
