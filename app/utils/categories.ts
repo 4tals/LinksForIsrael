@@ -36,6 +36,7 @@ export interface Link {
 	twitter: string;
 	portal: string;
 	phone: string;
+	linkedin: string;
 	tags?: string[];
 }
 

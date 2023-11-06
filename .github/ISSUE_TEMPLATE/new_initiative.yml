@@ -156,6 +156,12 @@ body:
       placeholder: https://twitter.com/iron-widgets
 
   - type: input
+    id: linkedin
+    attributes:
+      label: Initiative LinkedIn
+      placeholder: https://linkedin.com/iron-widgets
+
+  - type: input
     id: initiativeImage
     attributes:
       label: Initiative logo
