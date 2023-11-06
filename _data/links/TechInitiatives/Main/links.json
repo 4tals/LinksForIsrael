@@ -72,6 +72,22 @@
       "description": "מתנדבים למציאת נעדרים ע״י מכשור טכנולוגי (לפטופ, טלפון ישן וכיו״ב)",
       "url": "https://docs.google.com/forms/d/e/1FAIpQLSduujH277Cqt31XgOZfTZFAD4ua_YN8fXUtAlwOAHX2q9Emww/viewform?usp=sf_link",
       "docs": "https://docs.google.com/forms/d/e/1FAIpQLSduujH277Cqt31XgOZfTZFAD4ua_YN8fXUtAlwOAHX2q9Emww/viewform?usp=sf_link"
+    },
+    {
+      "displayName": "מערך הדיגיטל הלאומי - איסוף מדיה מיום מתקפת הפתע",
+      "name": "מערך הדיגיטל הלאומי - איסוף מדיה",
+      "shortDescription": "מיזם שמשתמש ביכולות  ופלטפורמת המוצר שלנו Cloudinary בכדי לייצר פתרון להעלאת סרטונים, תמונות ומידע  מאזרחים הקשור לאירועי מתקפת  ה-07.10.2023.",
+      "description": "מיזם שמשתמש ביכולות  ופלטפורמת המוצר שלנו Cloudinary בכדי לייצר פתרון להעלאת סרטונים, תמונות ומידע  מאזרחים הקשור לאירועי מתקפת  ה-07.10.2023. המיזם נעשה בשיתוף עם נציג המערך הדיגיטלי הלאומי  תחת מוקד ערב״ה שהוקם לצרכי נתינת  פתרונות טכנולוגיים בשעת חירום זו. המידע יועבר למוקד 105 וכן לגופי בטחון ומודיעין. המוקד מבקש כעת מהציבור לשתף תמונות וסרטונים מהימים הנוראים הללו, לצורך העברתם למשטרת ישראל וגופי הביטחון השונים.  ניתן להעביר תמונות וסרטונים באמצעות הטופס המקוון הבא: *ייעשה שימוש במידע רק למטרות שלשמן התקבל המידע.",
+      "initiativeValidationDetails": "Reputable source: https://www.facebook.com/israelgov/posts/pfbid04pwm1er9x5a4YXvHfPoeN3tpy4xAKcEVrC3g5LCd8GHkwEsWANvUYrVfdZEsWtHHl?locale=he_IL",
+      "url": "https://upload.mokedarava.org/",
+      "form": "https://upload.mokedarava.org/",
+      "tags": [
+        "איסוף מדיה",
+        "מערך דיגיטל לאומי",
+        "תמונות",
+        "סרטונים",
+        "מתקפה"
+      ]
     }
   ]
 }
