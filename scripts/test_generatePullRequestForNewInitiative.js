@@ -1,10 +1,12 @@
 const context = {
+    serverUrl: "https://github.com",
+    runId: 6762019754,
     repo: {
         owner: "ohadschn",
         repo: "ConnectPortal"
     },
     issue: {
-        number: 13
+        number: 10
     }
 }
 
