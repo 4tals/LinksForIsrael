@@ -3,7 +3,7 @@
   "displayName": "כלכלה",
   "links": [
     {
-      "displayName": "טבלה מרכזת להטבות וזכויות",
+      "displayName": "טבלה מרכזת ןמתעדכנת של הטבות וזכויות",
       "name": "Centralized table for benefits&rights",
       "shortDescription": "כל ההקלות, ההטבות והעדכונים בטבלה אחת מתעדכנת",
       "description": "הערה: אולי כדאי להפוך את קטגורית הילדים לקטגורית 'הטבות' עם תת-קטגוריה של ילדים והטבות כלליות, כאשר האחרונה תכלול את זה. קובץ חשוב 📌 ומתעדכן: כל ההקלות, ההטבות והעדכונים בטבלה אחת מתעדכנת. לאור המצב עסקים רבים באים לקראת הציבור הישראלי במגוון דרכים שונות. מורן אברהם (מורן תסדר), עושה סדר חשוב מאד בכל ההצעות והעדכונים שיכולים קצת להקל עליכם כרגע. מבנקים ועד חברות סלולרי, ביטוחים ומשרדי ממשלה הכל פה (וממשיך להתעדכן)",
@@ -19,6 +19,20 @@
         "משבר",
         "עזרה",
         "כלכלה"
+    },
+    {
+      "displayName": "עסקים בזמן מלחמה",
+      "name": "AllClub",
+      "shortDescription": "הטבות לעסקים בתקופת המלחמה",
+      "description": "אנו קהילת ALL CLUB  הקהילה הראשונה והגדולה ביותר בישראל המונה מעל 200,000 חברים! מזמינים אתכם להצטרף ולהנות מכלל השירותים שלנו – ללא עלות וללא התחייבות לתקופה של חודש!",
+      "initiativeValidationDetails": "Reputable source: https://www.facebook.com/RaananaBusinessCenter/posts/pfbid0gpAgJa4dGnrgQWWGchgtcmDEfgFmqatRFntnBCp9MUiWSBuPGn4XpejELEZfeJdMl?locale=ms_MY",
+      "url": "https://allclub.minisite.ms/71",
+      "website": "https://allclub.minisite.ms/71",
+      "tags": [
+        "עסקים",
+        "מלחמה",
+        "ALL CLUB",
+        "הטבות"
       ]
     }
   ]
