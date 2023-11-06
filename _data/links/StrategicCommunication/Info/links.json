@@ -59,20 +59,19 @@
       ]
     },
     {
-      "displayName": "מאגר התקשורת האסטרטגית",
-      "name": "Strategic Communications Repository",
-      "shortDescription": "מאגר של סרטוני התקשורת האסטרטגית ב-25 שפות",
-      "description": "חומרי מידע על הפיצוץ הנוראי בישראל במגוון שפות.",
+      "displayName": "מאגר משאבים לטובת הסברה - לפי שפות",
+      "name": "StrategicCommunicationsRepository",
+      "shortDescription": "מאגר של סרטוני הסברה ב-25 שפות",
+      "description": "מאגר של סרטוני הסברה ב-25 שפות",
       "initiativeValidationDetails": "אומת על ידי עמית לעבודה",
       "url": "https://dwv4ag7si3i3i.cloudfront.net/index.html",
       "website": "https://dwv4ag7si3i3i.cloudfront.net/index.html",
       "tags": [
         "מאגר",
-        "התקשורת האסטרטגית",
-        "וידיאו",
+        "הסברה",
+        "וידאו",
         "שפות",
-        "חומרי מידע",
-        "פיצוץ",
+        "משאבים",
         "ישראל"
       ]
     }
