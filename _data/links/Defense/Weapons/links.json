@@ -3,19 +3,6 @@
   "displayName": "הגנה",
   "links": [
     {
-      "name": "EligibilityForWeapon",
-      "displayName": "ריכז מידע על נשק ורישיון",
-      "shortDescription": "ריכז מידע על נשק ורישיון",
-      "description": "אתר המשרד לביטחון פנים: מחשבון לבדיקת זכאות לרישיון כלי ירייה פרטי",
-      "url": "./docs/weapon",
-      "portal": "./docs/weapon",
-      "tags": [
-        "רישיון",
-        "ירייה",
-        "ביטחון"
-      ]
-    },
-    {
       "name": "niliOnline",
       "displayName": "ניל״י-אונליין",
       "shortDescription": "דיווח על סטודנטים תומכי טרור. נזכור כל מי שהביע אהדה, שמחה ושבח.",
