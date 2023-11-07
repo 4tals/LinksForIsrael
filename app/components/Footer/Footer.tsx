@@ -10,7 +10,7 @@ export function Footer() {
 					rel="noopener noreferrer"
 				>
 					<img
-						src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1200px-Instagram_icon.png"
+						src="/images/instagram_icon.png"
 						alt="Instagram"
 						width="32"
 						height="32"
@@ -74,7 +74,7 @@ export function Footer() {
 					rel="noopener noreferrer"
 				>
 					<img
-						src="https://user-images.githubusercontent.com/8555641/275328060-dc897827-8b49-459e-b9d0-bf46aac57f98.png"
+						src="/images/reverse.png"
 						alt="Initiative Icon"
 						className="footer-icon"
 						width="40px"

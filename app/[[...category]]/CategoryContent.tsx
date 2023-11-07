@@ -1,5 +1,7 @@
 "use client";
+
 import { Fragment, ReactNode, useState } from "react";
+
 import { DialogModal } from "../components/DialogModal/DialogModal";
 import { Link, SubCategoryData } from "../utils/categories";
 import { ShareButtons } from "./ShareButtons";
@@ -233,7 +235,7 @@ const LinkIcons = ({ link }: { link: Link }) => (
 			<a href={link.instagram} target="_blank">
 				<img
 					className="link-icon"
-					src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"
+					src="/images/instagram_icon.png"
 					alt="Instagram Link"
 				/>
 			</a>
