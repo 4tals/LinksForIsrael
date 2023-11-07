@@ -51,6 +51,21 @@
         "מיזמים",
         "תקשורת חזקה"
       ]
+    },
+    {
+      "displayName": "טופס להוספת כתוביות לסרטונים",
+      "name": "Autocap",
+      "shortDescription": "גישה חינם לאפליקציית מובייל להוספת כתוביות לסרטוני הסברה בכל שפה",
+      "description": "אפליקציה בתשלום אך מאפשרת שימוש חינם לטובת סרטוני הסברה לטובת ישראל, כל מי שמעוניין שימלא את הטופס ויקבל מייל תגובה עם פרטי הורדה ושימוש חינמי. האפליקציה מאפשרת לתמלל סרטונים ובסוף תהליך התמלול גם לתרגם בעזרת גוגל טרנסלייט",
+      "initiativeValidationDetails": "Over 500K downloads in the android app store alone (Probably more in the Apple store",
+      "url": "https://www.youtube.com/watch?v=ONyPGE6VQog",
+      "form": "https://forms.gle/NSQS9dowb5VPuiFA7",
+      "tags": [
+        "כתוביות",
+        "סרטונים",
+        "תמלול",
+        "תרגום"
+      ]
     }
   ]
 }
