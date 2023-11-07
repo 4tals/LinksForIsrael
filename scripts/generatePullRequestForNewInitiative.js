@@ -1,7 +1,8 @@
 module.exports = async ({github, context}) => {
 
-  const fs = require('fs');
-  const cp = require('child_process');
+  const fs = require("fs").promises;
+  const path = require("path");
+  const cp = require("child_process");
 
   function tryExtractJson(text, jsonStartMarker, jsonEndMarker) {
     console.log(`Attempting to extract JSON with start marker "${jsonStartMarker}" and end marker "${jsonEndMarker}"` );
@@ -21,7 +22,7 @@ module.exports = async ({github, context}) => {
     return text.substring(indexOfJsonStart + jsonStartMarker.length, indexOfJsonEnd);
   }
   
-  async function createOrUpdatePullRequest(branch, name) {
+  async function createOrUpdatePullRequestAsync(branch, name) {
 
     const existingResponse = await github.rest.pulls.list({
       owner: context.repo.owner,
@@ -39,7 +40,7 @@ module.exports = async ({github, context}) => {
     }
     
     const newResponse  = await github.rest.pulls.create({
-      title: 'New Initiative: ' + name,
+      title: `New Initiative: ${name} [Suggested by ${process.env.ISSUE_AUTHOR}]`,
       owner: context.repo.owner,
       repo: context.repo.repo,
       head: branch,
@@ -51,7 +52,7 @@ module.exports = async ({github, context}) => {
     return newResponse.data
   }
   
-  async function createComment(body) {
+  async function createCommentAsync(body) {
     await github.rest.issues.createComment({
       owner: context.repo.owner,
       repo: context.repo.repo,
@@ -60,18 +61,122 @@ module.exports = async ({github, context}) => {
     });
   }
 
-  async function warnAndComment(warning, exception, json) {
-    console.warn(`${warning}: ${exception}`);
-    await createComment(`WARNING: ${warning} (see GitHub Action logs for more details)\n` + "Automatic PR will NOT be generated:\n" + json);
+  async function warnAndCommentAsync(warning, exception, json) {
+    console.warn(`${warning} [${exception}]`);
+    await createCommentAsync(`**WARNING**: ${warning}
+
+Automatic PR will NOT be generated
+${json}
+See GitHub Action logs for more details: ${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`);
+  }
+
+  function executeShellCommand(cmd, args) {
+    console.log(`Executing: ${cmd} ${args.join(" ")}`);
+    
+    let stdout;
+    try {
+      stdout = cp.execFileSync(cmd, args);
+    } 
+    catch (e) {
+      console.error(`Command executed with non-zero exit code ${e.status}: ${e.message}`);
+      console.error(`stdout: ${e.stdout}`);
+      console.error(`stderr: ${e.stderr}`);
+      throw e;
+    }
+
+    console.log(`Command executed successfully with stdout: ${stdout}`);
   }
 
   function executeGitCommand(args) {
-    console.log(`Executing: git ${args}`);
-    cp.execFileSync("git", args);
+    executeShellCommand("git", args);
+  }
+  
+  function pushPrBranch(branch, categoryLinksJsonFile, initiativeName) {
+    executeGitCommand(["config", "user.name", "github-actions"]);
+    executeGitCommand(["config", "user.email", "41898282+github-actions[bot]@users.noreply.github.com"]); //https://github.com/orgs/community/discussions/26560
+    executeGitCommand(["checkout", "-b", branch]);
+    executeGitCommand(["add", categoryLinksJsonFile]);
+    executeGitCommand(["commit", "-m", initiativeName || "new initiative"]);
+    executeGitCommand(["push", "origin", branch, "--force"]);
+  }
+
+  function removeRedundantInitiativeJsonProperties(json) {
+    console.log("Removing redundant initiative JSON properties")
+
+    //not in our links.json schema, and worse - will interfere with existing initiative detection
+    delete json.category;
+
+    var redundantValues = new Set([undefined, "", "N/A", "NOTAPPLICABLE", "NOTAVAILABLE", "UNAVAILABLE"])
+    for (const prop in json) {
+      const value = json[prop];
+      if (typeof value !== "string") {
+        continue;
+      }
+      
+      // remove whitespace and capitalize
+      const PropValueNormalized = value?.replace(/\s/g, "").toLocaleUpperCase("en-us");
+      
+      if (redundantValues.has(PropValueNormalized)) {
+        console.log(`Removing redundant property '${prop}' with value '${value}'`);
+        delete json[prop];
+      }
+    }
+  }
+
+  async function* readdirRecursiveAsync(dir, ext) {
+    const upperExtension = ext.toLocaleUpperCase("en-us");
+
+    const dirents = await fs.readdir(dir, { withFileTypes: true });
+    for (const dirent of dirents) {
+      const absolutePath = path.resolve(dir, dirent.name);
+      
+      if (dirent.isFile && (path.extname(absolutePath).toLocaleUpperCase("en-us") === upperExtension)) {
+        yield absolutePath;
+      }
+      else if (dirent.isDirectory()) {
+        yield* await readdirRecursiveAsync(absolutePath, ext)
+      } 
+    }
+  }
+
+  async function detectExistingInitiativeAsync(newInitiativeJson) {
+    console.log("Attempting to detect already-existing initiative");
+
+    const linksFolder = `${process.env.GITHUB_WORKSPACE}/_data/links`;
+    for await (const linkJsonFileName of readdirRecursiveAsync(linksFolder, ".json")) {
+
+      console.log(`processing links file: ${linkJsonFileName}`);
+      const linksJsonString = await fs.readFile(linkJsonFileName, "utf8");
+      const upperlinksJsonString = linksJsonString.toLocaleUpperCase("en-us");
+
+      for (const prop in newInitiativeJson) {
+        
+        const value = newInitiativeJson[prop];
+        if (typeof value !== "string") {
+          continue;
+        }
+    
+        const PropValueUpper = value.toLocaleUpperCase("en-us");
+        if (upperlinksJsonString.indexOf(PropValueUpper) !== -1) {
+          await warnAndCommentAsync(
+`Initiative might already exist!
+The value of property \`${prop}\` (\`${value}\`) is already present in \`${linkJsonFileName}\`:
+\`\`\`json
+${linksJsonString}
+\`\`\`
+**If this is a mistake and it doesn't already exist:** edit the issue's title so that it starts with **\`[NEW-INITIATIVE-FORCE-PR]:\`**`,
+             "Suspected existing initiative",
+              markdownNewInitiativeJson)
+          return true;
+        }
+      }
+    }
+
+    return false;
   }
 
   const tempFolder = process.env.TEMP || "/tmp";
-  const gptResponse = fs.readFileSync(tempFolder + "/gpt-auto-comment.output", "utf8");
+  const gptResponse = await fs.readFile(tempFolder + "/gpt-auto-comment.output", "utf8");
 
   // https://stackoverflow.com/a/51602415/67824
   const sanitizedGptResponse = gptResponse.replace(/[\u0000-\u001F\u007F-\u009F]/g, "");
@@ -86,68 +191,56 @@ module.exports = async ({github, context}) => {
   }
   console.log("Extracted JSON: " + jsonString);
 
+  let newInitiativeJson;
   try {
-    json = JSON.parse(jsonString);
+    newInitiativeJson = JSON.parse(jsonString);
   } 
   catch (e) {
-    return await warnAndComment("Could not process GPT response as JSON", e, jsonString);
+    return await warnAndCommentAsync("Could not process GPT response as JSON", e, jsonString);
   }
 
-  humanReadableJson = "```json\n" + JSON.stringify(json, null, 2) + "\n```";
+  const markdownNewInitiativeJson = "```json\n" + JSON.stringify(newInitiativeJson, null, 2) + "\n```";
   
-  let categoryLinksJsonFile, categoryJsonString;
+  let categoryLinksJsonFile;
   try {
-    categoryLinksJsonFile = `${process.env.GITHUB_WORKSPACE}/_data/links/${json.category}/links.json`;
+    categoryLinksJsonFile = `${process.env.GITHUB_WORKSPACE}/_data/links/${newInitiativeJson.category}/links.json`;
     console.log("resolved category links file: " + categoryLinksJsonFile);
 
-    categoryJsonString = fs.readFileSync(categoryLinksJsonFile, "utf8");
+    const categoryJsonString = await fs.readFile(categoryLinksJsonFile, "utf8");
     categoryJson = JSON.parse(categoryJsonString);
   }
   catch (e) {
-    return await warnAndComment("Could not process category links JSON", e, humanReadableJson);
+    return await warnAndCommentAsync("Could not process category links JSON", e, markdownNewInitiativeJson);
   }
 
-  delete json.category //not in our schema, and worse - will interfere with the existing initiative detection below
-  console.log("Attempting to detect already existing initiative under this category");
+  removeRedundantInitiativeJsonProperties(newInitiativeJson); 
 
-  const upperCategoryJsonString = categoryJsonString.toLocaleUpperCase("en-us");
-  for (const prop in json) {
-    
-    const value = json[prop];
-    if (typeof value !== "string" || value == "") {
-      continue;
-    }
-
-    const PropValueUpper = value.toLocaleUpperCase("en-us");
-    if (upperCategoryJsonString.indexOf(PropValueUpper) !== -1) {
-      return await warnAndComment(`Initiative might already exist under this category, the value of property ${prop} is already present in the JSON: ${value}`, "suspected existing initiative", humanReadableJson);
-    }
+  if (process.env.ISSUE_TITLE.toLocaleUpperCase("en-us").startsWith("[NEW-INITIATIVE-FORCE-PR]:")) {
+    console.warn("FORCE-PR requested: skipping existing initiative validation");
   }
-
-  categoryJson.links.push(json);
-  fs.writeFileSync(categoryLinksJsonFile, JSON.stringify(categoryJson, null, 2), "utf8");
+  else if (await detectExistingInitiativeAsync(newInitiativeJson)) {
+    return;
+  }
+  
+  categoryJson.links.push(newInitiativeJson);
+  await fs.writeFile(categoryLinksJsonFile, JSON.stringify(categoryJson, null, 2), "utf8");
 
   const branch = `auto-pr-${context.issue.number}`;
   try {
-    executeGitCommand(["config", "user.name", "github-actions"])
-    executeGitCommand(["config", "user.email", "41898282+github-actions[bot]@users.noreply.github.com"]) //https://github.com/orgs/community/discussions/26560
-    executeGitCommand(["checkout", "-b", branch])
-    executeGitCommand(["add", categoryLinksJsonFile])
-    executeGitCommand(["commit", "-m", json.name || "new initiative"])
-    executeGitCommand(["push", "origin", branch, "--force"])
+    pushPrBranch(branch, categoryLinksJsonFile, newInitiativeJson.name);
   }
   catch (e) {
-    return await warnAndComment("encountered error during git execution", e, humanReadableJson);
+    return await warnAndCommentAsync("encountered error during git execution", e, markdownNewInitiativeJson);
   }
 
   let pr;
   try {
-    pr = await createOrUpdatePullRequest(branch, json.name || "???");
+    pr = await createOrUpdatePullRequestAsync(branch, newInitiativeJson.name || "???");
   }
   catch (e) {
-    return await warnAndComment("Could not create pull request", e, humanReadableJson);
+    return await warnAndCommentAsync("Could not create pull request", e, markdownNewInitiativeJson);
   }
 
   console.log("resolved PR: " + JSON.stringify(pr))
-  createComment((pr.existing ? "Updated" : "Created") + " PR: " + pr.html_url);
+  await createCommentAsync((pr.existing ? "Updated" : "Created") + " PR: " + pr.html_url);
 }

@@ -107,8 +107,19 @@ class GPTAssistant:
         logging.warn("GPT did not infer function calling, best-effort answer parsing will be performed")
         return response_message["content"]
 
+def get_new_initiative_details() -> str:    
+    initiative_details = f"""
+    ### Initiative Display Name
+    {os.environ["ISSUE_TITLE"].replace("[NEW-INITIATIVE]:", "").replace("[NEW-INITIATIVE-FORCE-PR]:", "")}
+
+    {os.environ["ISSUE_BODY"]}
+    """
+    
+    # replace double-quotes with single quotes to minimize chance of invalid JSON returned by GPT
+    return initiative_details.replace('"', "'")
+
 if __name__ == "__main__":
-    gpt_response = GPTAssistant().ask_gpt_for_initiative_json(os.environ["ISSUE_BODY"])
+    gpt_response = GPTAssistant().ask_gpt_for_initiative_json(get_new_initiative_details())
     
     respose_output_file = os.getenv("TEMP", "/tmp") + "/gpt-auto-comment.output"
     logging.info(f"Writing GPT Response to {respose_output_file}:\n{gpt_response}")

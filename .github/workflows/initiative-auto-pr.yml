@@ -31,6 +31,7 @@ jobs:
         uses: nick-fields/retry@v2
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          ISSUE_TITLE: ${{ github.event.issue.title }}
           ISSUE_BODY: ${{ github.event.issue.body }}
         with:
           timeout_minutes: 5
@@ -39,6 +40,9 @@ jobs:
           
       - name: Generate PR
         uses: actions/github-script@v6
+        env:
+          ISSUE_AUTHOR: ${{ github.event.issue.user.login }}
+          ISSUE_TITLE: ${{ github.event.issue.title }}
         with:
           script: |
             const script = require(process.env.GITHUB_WORKSPACE + '/scripts/generatePullRequestForNewInitiative.js')

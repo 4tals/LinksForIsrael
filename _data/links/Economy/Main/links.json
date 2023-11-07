@@ -1,0 +1,40 @@
+{
+  "name": "EconomyMain",
+  "displayName": "כלכלה",
+  "links": [
+    {
+      "displayName": "טבלה מרכזת ןמתעדכנת של הטבות וזכויות",
+      "name": "Centralized table for benefits&rights",
+      "shortDescription": "כל ההקלות, ההטבות והעדכונים בטבלה אחת מתעדכנת",
+      "description": "קובץ חשוב 📌 ומתעדכן: כל ההקלות, ההטבות והעדכונים בטבלה אחת מתעדכנת. לאור המצב עסקים רבים באים לקראת הציבור הישראלי במגוון דרכים שונות. מורן אברהם (מורן תסדר), עושה סדר חשוב מאד בכל ההצעות והעדכונים שיכולים קצת להקל עליכם כרגע. מבנקים ועד חברות סלולרי, ביטוחים ומשרדי ממשלה הכל פה (וממשיך להתעדכן)",
+      "initiativeValidationDetails": "Source: Work WhatsApp group\nLink to reputable source(s) promoting the initiative: https://t.me/s/techisrael",
+      "url": "https://docs.google.com/spreadsheets/d/1wLdbhIUtG2rpZxH4qEkNsDjugbQ0VthFjQjvxhGl5qM/edit?usp=sharing",
+      "website": "https://docs.google.com/spreadsheets/d/1wLdbhIUtG2rpZxH4qEkNsDjugbQ0VthFjQjvxhGl5qM/edit?usp=sharing",
+      "docs": "https://docs.google.com/spreadsheets/d/1wLdbhIUtG2rpZxH4qEkNsDjugbQ0VthFjQjvxhGl5qM/edit?usp=sharing",
+      "tags": [
+        "הטבות",
+        "זכויות",
+        "אנוש",
+        "מצב חירום",
+        "משבר",
+        "עזרה",
+        "כלכלה"
+      ]
+    },
+    {
+      "displayName": "עסקים בזמן מלחמה",
+      "name": "AllClub",
+      "shortDescription": "הטבות לעסקים בתקופת המלחמה",
+      "description": "אנו קהילת ALL CLUB  הקהילה הראשונה והגדולה ביותר בישראל המונה מעל 200,000 חברים! מזמינים אתכם להצטרף ולהנות מכלל השירותים שלנו – ללא עלות וללא התחייבות לתקופה של חודש!",
+      "initiativeValidationDetails": "Reputable source: https://www.facebook.com/RaananaBusinessCenter/posts/pfbid0gpAgJa4dGnrgQWWGchgtcmDEfgFmqatRFntnBCp9MUiWSBuPGn4XpejELEZfeJdMl?locale=ms_MY",
+      "url": "https://allclub.minisite.ms/71",
+      "website": "https://allclub.minisite.ms/71",
+      "tags": [
+        "עסקים",
+        "מלחמה",
+        "ALL CLUB",
+        "הטבות"
+      ]
+    }
+  ]
+}

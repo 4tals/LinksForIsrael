@@ -55,10 +55,12 @@ body:
         - Defense/Weapons
         - Donations/Agriculture
         - Donations/Main
+        - Economy/Main
         - FamilyHosting/Main
         - GeneralAssistance
         - Initiatives/Main
         - Medical/Main
+        - Medical/Info
         - MemorialRemembrance/Main
         - MentalSupport/Main
         - MissingPersons/Main
@@ -154,6 +156,12 @@ body:
     attributes:
       label: Initiative X (Twitter)
       placeholder: https://twitter.com/iron-widgets
+
+  - type: input
+    id: linkedin
+    attributes:
+      label: Initiative LinkedIn
+      placeholder: https://linkedin.com/iron-widgets
 
   - type: input
     id: initiativeImage
