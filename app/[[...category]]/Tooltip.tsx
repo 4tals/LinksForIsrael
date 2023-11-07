@@ -18,7 +18,7 @@ export const Tooltip = ({ content }: { content: string }) => {
 		}
 	}, [visible]);
 
-	const message = "אומת על ידי צוות לינק לישראל";
+	const message = "✓ אומת על ידי צוות לינק לישראל";
 
 	const createPortal = () => {
 		if (!visible || !tooltipRef.current) {
@@ -30,13 +30,14 @@ export const Tooltip = ({ content }: { content: string }) => {
 			backgroundColor: "black",
 			color: "white",
 			textAlign: "center",
-			borderRadius: "6px",
-			padding: "5px",
+			borderRadius: "3px",
+			padding: "5px 14px",
 			zIndex: 1000,
 			top: `${tooltipPosition.top}px`,
 			left: `${tooltipPosition.left}px`,
 			transform: "translateX(-50%) translateY(-100%)",
 			whiteSpace: "nowrap",
+			fontSize: "0.8rem",
 		};
 
 		const tooltipElement = <div style={tooltipStyle}>{message}</div>;
