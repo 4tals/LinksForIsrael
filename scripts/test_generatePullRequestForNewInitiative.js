@@ -1,20 +1,23 @@
+require('dotenv').config();
+
 const context = {
     serverUrl: "https://github.com",
-    runId: 6762019754,
+    runId: process.env.GITHUB_RUN_ID,  // Make sure you have GITHUB_RUN_ID in your .env or in the environment
     repo: {
-        owner: "ohadschn",
-        repo: "ConnectPortal"
+        owner: process.env.GITHUB_OWNER,
+        repo: process.env.GITHUB_REPO_NAME
     },
     issue: {
-        number: 10
+        number: process.env.GITHUB_ISSUE_NUMBER
     }
-}
+};
 
 const { Octokit } = require("@octokit/rest");
 
 const github = new Octokit({
-    auth: process.env.GITHHUB_PAT,
+    auth: process.env.GITHUB_PAT,  // Make sure the environment variable is named correctly here
 });
 
-const script = require('./generatePullRequestForNewInitiative.js')
-script({ github, context })
+// Assuming generatePullRequestForNewInitiative.js is using module.exports
+const script = require('./generatePullRequestForNewInitiative.js');
+script({ github, context });
