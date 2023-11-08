@@ -18,6 +18,23 @@
         "חרבות הברזל",
         "קולות מישראל"
       ]
+    },
+    {
+      "displayName": "ערוץ TOV - הסברה יהודית בזירה הבינלאומית",
+      "name": "TOV Strategic Communications",
+      "shortDescription": "חזית יהודית בהסברה בינלאומית",
+      "description": "מה היה קורה בהסברה הבינלאומית אם כל העולם היה יכול לצפות בתכנים של ערוץ TOV בזמן אמת באנגלית? מאות אלפי צופים מגיעים לתוכן של ערוץ TOV מדי שבוע קהל נאמן שמגיע לצפות, לעקוב להתעדכן ללמוד ולהחכים ולשמוע קול יהודי ישראלי צלול וחד. עכשיו הגיע הזמן לתת לתוכן הזה לפרוץ את גבולות הארץ ולהגיע לתפוצות ולשמש את ישראל כתוכן הסברה עמוק ומנומק.",
+      "initiativeValidationDetails": "Official website of TOV news (well known channel since long before the war)",
+      "url": "https://tovnews.co.il/elementor-129903",
+      "website": "https://tovnews.co.il/elementor-129903",
+      "initiativeImage": "https://tovnews.co.il/wp-content/uploads/2023/10/Logo_Jewish_News_2023_new-1536x864.png",
+      "tags": [
+        "הסברה יהודית",
+        "תוכן יהודי",
+        "תוכן ישראלי",
+        "ערוץ TOV",
+        "תמיכה בישראל"
+      ]
     }
   ]
 }
