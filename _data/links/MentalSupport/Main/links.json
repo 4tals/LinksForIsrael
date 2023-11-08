@@ -86,6 +86,23 @@
         "סיוע לנפגעי טראומה",
         "סיוע לנפגעי אסונות"
       ]
+    },
+    {
+      "displayName": "עוטף לב",
+      "name": "OtefLev",
+      "shortDescription": "סיוע ראשוני לכל תושבות ותושבי ישראל על ידי נשות ואנשי מקצועות בריאות הנפש",
+      "description": "אירועי ה-7 באוקטובר והמלחמה שהחלה בעקבותיהם, גורמים לטלטלה, זעזוע וכאב בחברה הישראלית. עוטף לב - סיוע נפשי ישראלי, מציע לכם מענה ראשוני מנשות ואנשי מקצועות בריאות הנפש.",
+      "initiativeValidationDetails": "https://newmedia.calcalist.co.il/magazine-02-11-23/m02.html",
+      "url": "https://www.oteflev.org.il/",
+      "website": "https://www.oteflev.org.il/",
+      "form": "https://www.oteflev.org.il/asking-for-help",
+      "docs": "https://www.oteflev.org.il/therapists-registration",
+      "tags": [
+        "בריאות הנפש",
+        "עוטף לב",
+        "סיוע נפשי",
+        "ישראל"
+      ]
     }
   ]
 }
