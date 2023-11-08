@@ -13,6 +13,13 @@ export function SearchResults({
 		return null;
 	}
 
+	const mainUrl = (item: any) => {
+		if (item.url) return item.url;
+		if (item.facebook) return item.facebook;
+		if (item.form) return item.form;
+		if (item.whatsapp) return item.whatsapp;
+	};
+
 	return (
 		<div className="search-results-div md:w-2/5 md:h-4/5 mx-auto my-8">
 			<div className="search-results-wrapper py-2 md:w-full overflow-hidden flex flex-col">
@@ -30,7 +37,11 @@ export function SearchResults({
 									{item.displayName || item.shortDescription}
 								</span>
 								<div className="searchResultLinks">
-									<a href={item.url} target="_blank" rel="noopener noreferrer">
+									<a
+										href={mainUrl(item)}
+										target="_blank"
+										rel="noopener noreferrer"
+									>
 										קח אותי ליוזמה
 									</a>{" "}
 									/{" "}
