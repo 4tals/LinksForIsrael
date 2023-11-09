@@ -88,6 +88,25 @@
       ]
     },
     {
+      "displayName": "עזרא בוט",
+      "name": "EzraBot",
+      "shortDescription": "הבוט הישראלי שמחבר בין אנשים שמחפשים עזרה לגיבורים שיכולים לתת אותה",
+      "description": "עזרא בוט הוא מיזם התנדבותי, קם לאור המאורעות הקשים שפרצו ב-7.10.2023 במדינת ישראל. השירות פותח ע״י קבוצה של יזמי הייטק, מפתחים, אנשי מוצר ומרקטינג במטרה ליצור מרחב בטוח ליצירת חיבורים והתאמות בין משתמשיה. מחברים בין מבקשי עזרה לכאלה שיכולים לסייע.",
+      "initiativeValidationDetails": "https://www.geektime.co.il/flash/ezra-the-bot-that-helps-israelis-do-good/",
+      "url": "https://www.ezrabot.org/",
+      "website": "https://www.ezrabot.org/",
+      "whatsapp": "https://wa.link/tjkta4",
+      "facebook": "https://www.facebook.com/profile.php?id=61552000487973",
+      "instagram": "https://instagram.com/ezrabot_il",
+      "initiativeImage": "https://static.wixstatic.com/media/958d09_7de57a853fe14274ba09e06479d36acd~mv2.png/v1/fill/w_782,h_782,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/%D7%9C%D7%95%D7%92%D7%95%20PNG%202.png",
+      "tags": [
+        "הייטק",
+        "עזרה",
+        "גיבורים",
+        "בוט"
+      ]
+    },
+    {
       "name": "IrgunSiuaEzrahimClali1",
       "displayName": "ארגון סיוע אזרחים - מרכז",
       "shortDescription": "",
