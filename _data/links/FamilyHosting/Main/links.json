@@ -93,6 +93,20 @@
         "התאמת אורחים",
         "משפחה"
       ]
+    },
+    {
+      "displayName": "מארחים ומתארחים",
+      "name": "HostersAndGuests",
+      "shortDescription": "חיבור בין משפחות מהדרום למשפחות מארחות",
+      "description": "המיזם בהתנדבות מלאה. כל המידע באתר נשמר לצורך קישור בין משפחות שמחפשות לארח, ומשפחות שמחפשות להתארח, ולמטרה זו בלבד. המידע לעולם לא יועבר לאף גוף צד שלישי.",
+      "initiativeValidationDetails": "I talked to the owner (video chat), it's legit.",
+      "url": "https://findhosts.co/",
+      "website": "https://findhosts.co/",
+      "tags": [
+        "אירוח",
+        "משפחה",
+        "התנדבות"
+      ]
     }
   ]
 }
