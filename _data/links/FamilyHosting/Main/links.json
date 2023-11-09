@@ -3,6 +3,25 @@
   "displayName": "",
   "links": [
     {
+      "displayName": "חזית הבית",
+      "name": "HazitHabait",
+      "shortDescription": "מבצע שמטרתו להלביש את בתי משפחות העוטף ולהעניק להם תחושת בית בכל מקום אשר יהיו",
+      "description": "קיבלנו האנגר של 1500 מ'ר בעמק חפר שיהפוך לחנות ענקית וחינמית עבור תושבי הדרום, הוא יכיל אביזרים וריהוט ומוצרי חשמל לבית המגיעים מתרומות של הקהל הרחב וחברות מסחריות – מטקסטיל, כלי מטבח, מוצרי חשמל, וילונות, כריות, שטיחים, ריהוט , אומנות ועד צמחים ועוד.",
+      "initiativeValidationDetails": "https://www.ynet.co.il/news/article/aocw26cwn",
+      "url": "https://ltx.bio/hazit_habait",
+      "website": "https://ltx.bio/hazit_habait",
+      "form": "https://forms.monday.com/forms/c98a719ea294731678d6454e09fad07c?r=euc1",
+      "docs": "https://bit.ly/46HwwNI",
+      "instagram": "https://www.instagram.com/hazit_habait/",
+      "initiativeImage": "https://www.hazithabait.net/imgs/%D7%9C%D7%95%D7%92%D7%95%20PNG@2x.png",
+      "tags": [
+        "חזית הבית",
+        "תמיכה",
+        "משפחות",
+        "אירוח"
+      ]
+    },
+    {
       "name": "SafePlace",
       "displayName": "מקום בטוח - Safe Place",
       "shortDescription": "יוזמה לאיתור מארחים נדיבים בארץ",
@@ -95,22 +114,17 @@
       ]
     },
     {
-      "displayName": "חזית הבית",
-      "name": "HazitHabait",
-      "shortDescription": "מבצע שמטרתו להלביש את בתי משפחות העוטף ולהעניק להם תחושת בית בכל מקום אשר יהיו",
-      "description": "קיבלנו האנגר של 1500 מ'ר בעמק חפר שיהפוך לחנות ענקית וחינמית עבור תושבי הדרום, הוא יכיל אביזרים וריהוט ומוצרי חשמל לבית המגיעים מתרומות של הקהל הרחב וחברות מסחריות – מטקסטיל, כלי מטבח, מוצרי חשמל, וילונות, כריות, שטיחים, ריהוט , אומנות ועד צמחים ועוד.",
-      "initiativeValidationDetails": "https://www.ynet.co.il/news/article/aocw26cwn",
-      "url": "https://ltx.bio/hazit_habait",
-      "website": "https://ltx.bio/hazit_habait",
-      "form": "https://forms.monday.com/forms/c98a719ea294731678d6454e09fad07c?r=euc1",
-      "docs": "https://bit.ly/46HwwNI",
-      "instagram": "https://www.instagram.com/hazit_habait/",
-      "initiativeImage": "https://www.hazithabait.net/imgs/%D7%9C%D7%95%D7%92%D7%95%20PNG@2x.png",
+      "displayName": "מארחים ומתארחים",
+      "name": "HostersAndGuests",
+      "shortDescription": "חיבור בין משפחות מהדרום למשפחות מארחות",
+      "description": "המיזם בהתנדבות מלאה. כל המידע באתר נשמר לצורך קישור בין משפחות שמחפשות לארח, ומשפחות שמחפשות להתארח, ולמטרה זו בלבד. המידע לעולם לא יועבר לאף גוף צד שלישי.",
+      "initiativeValidationDetails": "I talked to the owner (video chat), it's legit.",
+      "url": "https://findhosts.co/",
+      "website": "https://findhosts.co/",
       "tags": [
-        "חזית הבית",
-        "תמיכה",
-        "משפחות",
-        "אירוח"
+        "אירוח",
+        "משפחה",
+        "התנדבות"
       ]
     }
   ]
