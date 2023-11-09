@@ -44,6 +44,90 @@
       "website": "https://www.am-ehad.org/"
     },
     {
+      "displayName": "מתגייסים באהבה",
+      "name": "RecruitingWithLove",
+      "shortDescription": "חמ'ל 'חרבות ברזל' בכנסת ישראל",
+      "description": "חמ'ל 'חרבות ברזל' בכנסת ישראל המרכז את פניות הציבור מכלל חברי הכנסת ויועציהם, קורא לאזרחי ישראל בין שזקוקים לסיוע ובין שיכולים לסייע (בכל תחום) לפנות לחמ'ל הכנסת. ניתן ליצור קשר בוואטסאפ או בשיחה למוקד. מתגייסים באהבה - החמ״ל מנוהל על ידי חברות וחברי הכנסת ויועציהם.",
+      "initiativeValidationDetails": "https://www.jpost.com/arab-israeli-conflict/article-768848",
+      "url": "https://www.recruiting-with-love.org/",
+      "website": "https://www.recruiting-with-love.org/",
+      "form": "https://docs.google.com/forms/d/e/1FAIpQLScoqsZB-v4mD9MC02H5RW_9sElJFXEEGLuYuoUVinuwWHo9EA/viewform?usp=sf_link",
+      "whatsapp": "http://wa.me/972585005350",
+      "tags": [
+        "מתגייסים באהבה",
+        "חמ'ל",
+        "חרבות ברזל",
+        "כנסת ישראל",
+        "סיוע",
+        "חברי הכנסת"
+      ]
+    },
+    {
+      "displayName": "חמ'ל אזרחי דנה גת",
+      "name": "HamalDana",
+      "shortDescription": "חמ'ל קטן עם קו חם מאוייש שמנתב את הבקשות לכל אחת מקבוצות המתנדבים לפי העניין",
+      "description": "חמ״ל אזרחי – דנה גת, התחיל לפעול בצהרי השבת השחורה וממשיך גם בימים אלה. שלושה שבועות לתוך המלחמה והחמ״ל הוגדר ע״י העיתונאים, כהשני בגודלו ובפעילותו. עם צוות של אלפי מתנדבים החמ״ל נותן מענה למגוון צרכים שהתעוררו עקב המצב. מול חוסרים שמגיעים אלינו, אנחנו דואגים למצוא ספםקים ולעשות מאטצ׳ לתרומות ותורמים. הדרישות מגיעות אלינו ישירות מיחידות החיילים הפרוסים בכל הארץ מגרביים ועד מים, בקשות לאוכל חם ומנחם, עזרה במציאת פתרונות דיור וריהוט למפונים מדרום ועד הצפון, ולאחרונה חיבור תוצרת חקלאית לצרכנים",
+      "initiativeValidationDetails": "https://news.walla.co.il/item/3618252",
+      "url": "https://linktr.ee/hamaldana",
+      "website": "https://linktr.ee/hamaldana",
+      "whatsapp": "https://chat.whatsapp.com/FN0pym4IHL38yZqFVPDB84",
+      "twitter": "https://twitter.com/DanaGat1/status/1718642453173899661",
+      "initiativeImage": "https://hamaldana.org/wp-content/uploads/2023/10/header-logo5.png",
+      "tags": [
+        "חמל",
+        "דנה גת",
+        "קו חם",
+        "מתנדבים",
+        "תרומות",
+        "חיילים",
+        "אוכל חם",
+        "דיור",
+        "ריהוט",
+        "מפונים",
+        "תוצרת חקלאית"
+      ]
+    },
+    {
+      "displayName": "עזרא בוט",
+      "name": "EzraBot",
+      "shortDescription": "הבוט הישראלי שמחבר בין אנשים שמחפשים עזרה לגיבורים שיכולים לתת אותה",
+      "description": "עזרא בוט הוא מיזם התנדבותי, קם לאור המאורעות הקשים שפרצו ב-7.10.2023 במדינת ישראל. השירות פותח ע״י קבוצה של יזמי הייטק, מפתחים, אנשי מוצר ומרקטינג במטרה ליצור מרחב בטוח ליצירת חיבורים והתאמות בין משתמשיה. מחברים בין מבקשי עזרה לכאלה שיכולים לסייע.",
+      "initiativeValidationDetails": "https://www.geektime.co.il/flash/ezra-the-bot-that-helps-israelis-do-good/",
+      "url": "https://www.ezrabot.org/",
+      "website": "https://www.ezrabot.org/",
+      "whatsapp": "https://wa.link/tjkta4",
+      "facebook": "https://www.facebook.com/profile.php?id=61552000487973",
+      "instagram": "https://instagram.com/ezrabot_il",
+      "initiativeImage": "https://static.wixstatic.com/media/958d09_7de57a853fe14274ba09e06479d36acd~mv2.png/v1/fill/w_782,h_782,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/%D7%9C%D7%95%D7%92%D7%95%20PNG%202.png",
+      "tags": [
+        "הייטק",
+        "עזרה",
+        "גיבורים",
+        "בוט"
+      ]
+    },
+    {
+      "displayName": "בוט הברזל",
+      "name": "IronBot",
+      "shortDescription": "להתחבר בקלות לכל סיוע אפשרי",
+      "description": "בעזרת מערכת חיבורים חכמה, בוט הברזל יחבר אותכם במהירות לעמותות גופים ומתנדבים הרלוונטים לצורך שלכם, בכל רחבי הארץ. ניתן לפנות לעזרה, התנדבות או מציאת תעסוקה למפונים. בלחיצה על הכפתור תעברו לוואצאפ, תכתבו היי, תישאלו שאלות על מנת לברר פרטים ותקבלו את העזרה שאתם צריכים!",
+      "initiativeValidationDetails": "https://www.ynet.co.il/digital/technews/article/bys217vwt",
+      "url": "https://startach.org.il/%D7%91%D7%95%D7%98-%D7%94%D7%91%D7%A8%D7%96%D7%9C/",
+      "website": "https://startach.org.il/%D7%91%D7%95%D7%98-%D7%94%D7%91%D7%A8%D7%96%D7%9C/",
+      "whatsapp": "http://tiny.cc/ek3cvz",
+      "drive": "https://www.matara.pro/nedarimplus/online/?mosad=7008515",
+      "facebook": "https://www.facebook.com/StartAchCom",
+      "instagram": "https://www.instagram.com/startachh",
+      "linkedin": "https://www.linkedin.com/company/startach",
+      "tags": [
+        "בוט הברזל",
+        "עזרה כללית",
+        "מערכת חיבורים חכמה",
+        "התנדבות",
+        "מציאת תעסוקה למפונים"
+      ]
+    },
+    {
       "name": "IrgunSiuaEzrahimClali1",
       "displayName": "ארגון סיוע אזרחים - מרכז",
       "shortDescription": "",
