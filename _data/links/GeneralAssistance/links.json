@@ -44,34 +44,6 @@
       "website": "https://www.am-ehad.org/"
     },
     {
-      "name": "IrgunSiuaEzrahimClali1",
-      "displayName": "ארגון סיוע אזרחים - מרכז",
-      "shortDescription": "",
-      "url": "https://chat.whatsapp.com/Bsy4Sc9jM4PIS64JD1aRnp",
-      "whatsapp": "https://chat.whatsapp.com/Bsy4Sc9jM4PIS64JD1aRnp"
-    },
-    {
-      "name": "IrgunSiuaEzrahimClali2",
-      "displayName": "ארגון סיוע אזרחים - צפון",
-      "shortDescription": "",
-      "url": "https://chat.whatsapp.com/ChDI2XilcBSCuQG1ZIzQQp",
-      "whatsapp": "https://chat.whatsapp.com/ChDI2XilcBSCuQG1ZIzQQp"
-    },
-    {
-      "name": "IrgunSiuaEzrahimClali3",
-      "displayName": "ארגון סיוע אזרחים - דרום",
-      "shortDescription": "",
-      "url": "https://chat.whatsapp.com/GY2MwfFLaLwAfJbydxte2X",
-      "whatsapp": "https://chat.whatsapp.com/GY2MwfFLaLwAfJbydxte2X"
-    },
-    {
-      "name": "IrgunSiuaEzrahimClali4",
-      "displayName": "ארגון סיוע אזרחים - ירושלים",
-      "shortDescription": "",
-      "url": "https://chat.whatsapp.com/BS2qZmtb9zGEdRgrqZlW9h",
-      "whatsapp": "https://chat.whatsapp.com/BS2qZmtb9zGEdRgrqZlW9h"
-    },
-    {
       "displayName": "מתגייסים באהבה",
       "name": "RecruitingWithLove",
       "shortDescription": "חמ'ל 'חרבות ברזל' בכנסת ישראל",
@@ -114,6 +86,34 @@
         "מפונים",
         "תוצרת חקלאית"
       ]
+    },
+    {
+      "name": "IrgunSiuaEzrahimClali1",
+      "displayName": "ארגון סיוע אזרחים - מרכז",
+      "shortDescription": "",
+      "url": "https://chat.whatsapp.com/Bsy4Sc9jM4PIS64JD1aRnp",
+      "whatsapp": "https://chat.whatsapp.com/Bsy4Sc9jM4PIS64JD1aRnp"
+    },
+    {
+      "name": "IrgunSiuaEzrahimClali2",
+      "displayName": "ארגון סיוע אזרחים - צפון",
+      "shortDescription": "",
+      "url": "https://chat.whatsapp.com/ChDI2XilcBSCuQG1ZIzQQp",
+      "whatsapp": "https://chat.whatsapp.com/ChDI2XilcBSCuQG1ZIzQQp"
+    },
+    {
+      "name": "IrgunSiuaEzrahimClali3",
+      "displayName": "ארגון סיוע אזרחים - דרום",
+      "shortDescription": "",
+      "url": "https://chat.whatsapp.com/GY2MwfFLaLwAfJbydxte2X",
+      "whatsapp": "https://chat.whatsapp.com/GY2MwfFLaLwAfJbydxte2X"
+    },
+    {
+      "name": "IrgunSiuaEzrahimClali4",
+      "displayName": "ארגון סיוע אזרחים - ירושלים",
+      "shortDescription": "",
+      "url": "https://chat.whatsapp.com/BS2qZmtb9zGEdRgrqZlW9h",
+      "whatsapp": "https://chat.whatsapp.com/BS2qZmtb9zGEdRgrqZlW9h"
     }
   ]
 }
