@@ -61,6 +61,30 @@
         "משאבים",
         "ישראל"
       ]
+    },
+    {
+      "displayName": "חרבות ברזל עדכונים ותמונת מצב",
+      "name": "InssWarData",
+      "shortDescription": "דסק הנתונים של המכון למחקרי ביטחון לאומי אוסף עבורכם את המידע העדכני והמדויק במהלך ימי המלחמה",
+      "description": "לרבות נתונים שוטפים על הזירה הפנים-ישראלית, גזרת עזה, לבנון, איו'ש, הזירה האזורית והבינ'ל. בעמוד זה שבעה קבצי נתונים שונים - גללו מטה לצפייה בכולם. למשתמשי הסלולר מומלץ לצפות בעמוד במצב מאוזן.",
+      "initiativeValidationDetails": "Known institution",
+      "url": "https://www.inss.org.il/he/publication/war-data/",
+      "website": "https://www.inss.org.il/he/publication/war-data/",
+      "telegram": "https://t.me/inssisrael",
+      "facebook": "https://www.facebook.com/INSS.Israel/",
+      "instagram": "https://www.instagram.com/inss.israel/",
+      "tiktok": "https://www.tiktok.com/@inss_israel?lang=en",
+      "twitter": "https://twitter.com/INSS_Hebrew",
+      "linkedin": "https://il.linkedin.com/company/inss-israel",
+      "initiativeImage": "https://www.inss.org.il/he/wp-content/uploads/sites/2/2018/08/Asset-1-442x56a.png",
+      "tags": [
+        "חרבות ברזל",
+        "עדכונים",
+        "תמונת מצב",
+        "מלחמה",
+        "ביטחון לאומי",
+        "אזרחים"
+      ]
     }
   ]
 }
