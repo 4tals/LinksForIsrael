@@ -86,6 +86,28 @@
         "סייבר",
         "הייטק"
       ]
+    },
+    {
+      "displayName": "מוקד ערב'ה",
+      "name": "MokedArava",
+      "shortDescription": "עזרה ראשונה בטכנולוגיה ובהטמעה",
+      "description": "חברות ההייטק בישראל בשיתוף מערך הדיגיטל הלאומי מנהלים מוקד טכנולוגי לסיוע במצב החירום המיוחד. המוקד מסייע בקליטת הצרכים הטכנולוגים של גופים ציבוריים וביצירת חיבור לחברות טכנולוגיה רלוונטיות שיפתחו בהתנדבות מענים לצרכים אלה. בנוסף, המוקד יאפשר תיאום וסנכרון בין יוזמות רבות.",
+      "initiativeValidationDetails": "https://hackaveret.org/the-founders/",
+      "url": "https://www.mokedarava.org/",
+      "website": "https://www.mokedarava.org/",
+      "email": "mailto:Requests@mokedarava.org",
+      "whatsapp": "https://wa.me/972544808626",
+      "form": "https://forms.monday.com/forms/5d6ccd9c1ff42ab4e8fab3a483735f2d?r=euc1",
+      "docs": "https://forms.monday.com/forms/773a0f8e0ea646a597642b4770562b3f?r=euc1",
+      "initiativeImage": "https://static.wixstatic.com/media/5bfb6f_e3e7645e1c204e7f82ab215734fbb00e~mv2.png/v1/fill/w_412,h_72,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/white.png",
+      "tags": [
+        "מוקד",
+        "ערבה",
+        "הייטק",
+        "דיגיטל",
+        "חירום",
+        "טכנולוגיה"
+      ]
     }
   ]
 }
