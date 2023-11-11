@@ -1,5 +1,7 @@
 import React from "react";
 
+import { Logo } from "@/app/components/Logo";
+
 import "./noCategoryZeroState.scss";
 
 export const NoCategoryZeroState = () => {

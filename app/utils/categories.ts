@@ -58,17 +58,14 @@ export async function getCategory(category: string) {
 		}),
 	);
 
-	// Import the GeneralAssistance subcategory
-	const generalAssistance = (
-		await import(`@/_data/links/GeneralAssistance/links.json`)
-	).default as unknown as SubCategoryData;
-
-	// Add the GeneralAssistance subcategory to the subCategories array
-	subCategories.push(generalAssistance);
-
 	return {
 		...categoryData,
 		id: category,
 		subCategories,
 	};
+}
+
+export async function getAssistanceSubCategory() {
+	return (await import(`@/_data/links/GeneralAssistance/links.json`))
+		.default as unknown as SubCategoryData;
 }
