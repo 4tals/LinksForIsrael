@@ -2,7 +2,6 @@ import { useCallback, useState } from "react";
 
 import { analyticsService } from "@/app/analytics";
 import { Category, Link } from "@/app/utils/categories";
-import { debounce } from "@/app/utils/debounce";
 
 export interface LinkResult extends Link {
 	category: string;
