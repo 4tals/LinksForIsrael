@@ -56,6 +56,25 @@
         "אגרגטור",
         "מוזי"
       ]
+    },
+    {
+      "displayName": "אינדקס החמ'לים",
+      "name": "Hamalim",
+      "shortDescription": "כל החמ״לים הפעילים במקום אחד",
+      "description": "אינדקס החמ'לים מהווה מאגר עדכני ודינמי של החמ'לים ומוקדי הסיוע והמידע המרכזיים בישראל. מטרת האתר היא לאפשר חיפוש אפקטיבי ומהיר של עזרה, חשיפה של יוזמות קיימות וארגונן. זקוקים לעזרה? רוצים להתחבר ליוזמות? - השתמשו בשורת החיפוש. אם אתם מנהלים חמ״ל ורוצים להצטרף למאגר מלאו את טופס ההרשמה מטה.",
+      "initiativeValidationDetails": "Moked Arava initiative (linked from https://www.mokedarava.org/)",
+      "url": "https://www.hamalim.org/",
+      "website": "https://www.hamalim.org/",
+      "email": "hamalim@mokedarava.org",
+      "form": "https://www.hamalim.org/submitwarroom",
+      "initiativeImage": "https://static.wixstatic.com/media/f35a26_01eab4ec1aa34a678a274284b9f0150c~mv2.png",
+      "tags": [
+        "חמ'לים",
+        "יוזמות",
+        "עדכני",
+        "ארגונים",
+        "מרכזיים"
+      ]
     }
   ]
 }
