@@ -16,12 +16,10 @@
 
 	.links-section-subcategory {
 		display: flex;
-		flex-direction: column;
 		flex-wrap: nowrap; // Prevent content from wrapping to the next line
 		overflow-x: scroll; // Enables horizontal scrolling if content overflows
 		overflow-y: hidden; // Prevents vertical scrolling
 		white-space: nowrap; // Prevents contents from wrapping onto next line
-		// max-height: 30vh;
 		max-width: 100vw;
 		padding-inline-end: 150px; // Reduce the padding for more visible space
 		margin-bottom: 15px;
