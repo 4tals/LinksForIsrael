@@ -1,71 +1,54 @@
-import lunr from "lunr";
-// @ts-ignore
-import withHebrewSupport from "lunr-languages/lunr.he";
-// @ts-ignore
-import withMulti from "lunr-languages/lunr.multi";
-// @ts-ignore
-import withStemmerSupport from "lunr-languages/lunr.stemmer.support";
-import { useMemo, useState } from "react";
+import { useCallback, useState } from "react";
 
 import { analyticsService } from "@/app/analytics";
 import { Category, Link } from "@/app/utils/categories";
+import { debounce } from "@/app/utils/debounce";
 
-withStemmerSupport(lunr);
-withHebrewSupport(lunr);
-withMulti(lunr);
-
-export interface Result extends Link {
+export interface LinkResult extends Link {
 	category: string;
 	subCategory: string;
 }
 
 export function useSearch(categories: Category[]) {
 	const [search, setSearch] = useState("");
-	const { idx, links } = useMemo(() => {
-		const links = Object.fromEntries(
-			categories.flatMap((category) => {
-				return category.subCategories.flatMap((subCategory) => {
-					return subCategory.links.map((link) => {
-						return [
-							link.name,
-							{
-								...link,
-								category: category.id,
-								subCategory: subCategory.name,
-							} satisfies Result,
-						] as const;
+	const [displaySearchResults, setDisplaySearchResults] = useState<Category[]>(
+		[],
+	);
+	const [isMobileSearchOpen, setIsMobileSearchOpen] = useState(false);
+
+	const toggleMobileSearch = useCallback(() => {
+		setIsMobileSearchOpen((prevState) => !prevState);
+	}, [setIsMobileSearchOpen]);
+
+	function filterCategories(searchTerm: string): Category[] {
+		const filteredCategories: Category[] = [];
+		categories.forEach((category) => {
+			const filteredSubCategories = category.subCategories
+				.map((subCategory) => {
+					const filteredLinks: Link[] = subCategory.links.filter((link) => {
+						return (
+							link.name?.includes(searchTerm) ||
+							link.displayName?.includes(searchTerm) ||
+							link.description?.includes(searchTerm) ||
+							link.shortDescription?.includes(searchTerm) ||
+							link.tags?.some((tag) => tag.includes(searchTerm))
+						);
 					});
+
+					return { ...subCategory, links: filteredLinks };
+				})
+				.filter((subCategory) => subCategory.links.length > 0);
+
+			if (filteredSubCategories.length > 0) {
+				filteredCategories.push({
+					...category,
+					subCategories: filteredSubCategories,
 				});
-			}),
-		);
-
-		const idx = lunr(function () {
-			this.use(lunr.multiLanguage("en", "he"));
-
-			this.field("displayName");
-			this.field("description");
-			this.field("shortDescription");
-			this.field("tags");
-
-			Object.values(links).forEach((link) => {
-				const linkEntry = {
-					id: link.name,
-					displayName: link.displayName,
-					shortDescription: link.shortDescription,
-					description: link.description,
-					tags: link.tags?.join(" "),
-				};
-
-				this.add(linkEntry);
-			});
+			}
 		});
 
-		return { idx, links };
-	}, [categories]);
-
-	const [displaySearchResults, setDisplaySearchResults] = useState<
-		lunr.Index.Result[]
-	>([]);
+		return filteredCategories;
+	}
 
 	function handleChangeSearch(searchTerm: string) {
 		setSearch(searchTerm);
@@ -87,7 +70,7 @@ export function useSearch(categories: Category[]) {
 			if (!searchTerm) {
 				return [];
 			}
-			const results = idx.search(`*${searchTerm}*`);
+			const results = filterCategories(searchTerm);
 			if (results.length !== 0) {
 				return results;
 			}
@@ -97,7 +80,7 @@ export function useSearch(categories: Category[]) {
 				return [];
 			}
 
-			return idx.search(`*${mappedSearchTerm}*`);
+			return filterCategories(mappedSearchTerm);
 		}
 
 		function mapStringToHebrew(s: string) {
@@ -115,7 +98,9 @@ export function useSearch(categories: Category[]) {
 	return {
 		search,
 		onSearch: handleChangeSearch,
-		results: displaySearchResults.map((res) => links[res.ref]).filter(Boolean),
+		results: displaySearchResults,
+		isMobileSearchOpen,
+		toggleMobileSearch,
 	} as const;
 }
 

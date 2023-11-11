@@ -1,9 +1,9 @@
 .page-header {
 	display: flex;
 	justify-content: space-between;
-	padding: 20px 20px;
+	padding: 5px 10px;
 	background-color: var(--color-blue);
-	height: 15vh;
+	height: 8vh;
 	position: relative;
 	z-index: 999;
 	width: 100%;
@@ -16,8 +16,9 @@
 .middle-section,
 .right-section {
 	display: flex;
+	flex: 1;
 	align-items: center;
-	width: 33%;
+	gap: 15px;
 }
 
 Banner h1 {
@@ -33,16 +34,6 @@ Banner h1 {
 @media (max-width: 768px) {
 	.header-content {
 		display: inline;
-	}
-
-	.left-section,
-	.middle-section,
-	.right-section {
-		gap: 10px; /* Maintain space between elements */
-	}
-
-	.right-section {
-		width: 50vw;
 	}
 
 	.banner-icon {

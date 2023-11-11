@@ -12,12 +12,10 @@ export function CategoryContent({
 	subCategories,
 	categoryDescription,
 }: {
-	categoryName: string;
+	categoryName?: string;
 	subCategories: Array<SubCategoryData>;
-	categoryDescription: string;
+	categoryDescription?: string;
 }) {
-	const [showTooltip, setShowTooltip] = useState(false);
-
 	const [openDialog, setOpenDialog] = useState(false);
 	const [description, setDescription] = useState<{
 		body: ReactNode;
@@ -31,11 +29,12 @@ export function CategoryContent({
 				open={openDialog}
 				toggleModal={setOpenDialog}
 			/>
-			<div className="share-container">
-				<div className="category-description">{categoryDescription}</div>
-				<ShareButtons category={categoryName} />
-			</div>
-
+			{ categoryName && categoryDescription ? (
+				<div className="share-container">
+					<div className="category-description">{categoryDescription}</div>
+					<ShareButtons category={categoryName} />
+				</div>
+			): null}
 			<ul className="links-section-list">
 				{subCategories.map((subcategory) => (
 					<Fragment key={subcategory.name}>
