@@ -88,6 +88,22 @@
         "התנדבות",
         "עזרה"
       ]
+    },
+    {
+      "displayName": "משק חי",
+      "name": "MeshekHai",
+      "shortDescription": "מסייעים ביחד למשקים של ישראל",
+      "description": "מצטרפים לקרב על הבית! בעקבות מחסור בכוח אדם שעזב בשל המצב, עשרות משקים בישראל זקוקים למתנדבים שיוכלו לסייע באופן מיידי לקטוף את היבול לפני שהוא נרקב. כאן תוכלו למצוא את המקומות שניתן להתנדב בהם, באמצעות פניה ישירות לבעלי המשקים.",
+      "initiativeValidationDetails": "https://www.calcalist.co.il/local_news/article/bkgy6ec11t",
+      "url": "https://meshekhai.co.il/",
+      "website": "https://meshekhai.co.il/",
+      "initiativeImage": "https://meshekhai.co.il/wp-content/uploads/2023/10/Logo2c-1.png",
+      "tags": [
+        "חקלאות",
+        "יבול",
+        "התנדבות",
+        "משק חי"
+        ]
     }
   ]
 }
