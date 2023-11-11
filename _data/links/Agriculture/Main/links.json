@@ -70,6 +70,26 @@
         "תמיכה בחקלאים",
         "לקט ישראל"
       ]
+    },
+    {
+      "displayName": "התנדבות לחקלאות בעוטף ובצפון",
+      "name": "FarmingIsrael",
+      "shortDescription": "מדי יום נשלחות בקבוצה בקשות לעזרה בחקלאות בעוטף ובצפון מכ-40 משקים שאנו מסייעים להם",
+      "description": "בחרו משימה, הצטרפו לקבוצת ווטסאפ עם החקלאי וקבלו את כל הפרטים. אנו קבוצת מתנדבים פרטיים שלא קשורים לשום גוף או עמותה. כל הקבוצות זהות ומספיק להיות בקבוצה אחת בלבד",
+      "initiativeValidationDetails": "groups have thousands of members, talked personally with the owner (in fact I suggested the linktree)",
+      "url": "https://linktr.ee/Hitnadvut_farmers",
+      "website": "https://linktr.ee/Hitnadvut_farmers",
+      "email": "farmingisrael@gmail.com",
+      "whatsapp": "https://chat.whatsapp.com/JNsIuD1nZfPKRYMJQVcUmQ",
+      "form": "https://forms.gle/1GYEvh41pDRvELVbA",
+      "docs": "https://did.li/rideshare",
+      "initiativeImage": "https://ugc.production.linktr.ee/92e032c1-f13d-408d-8b71-85f0c0c47280_untitled.png",
+      "tags": [
+        "חקלאות",
+        "עוטף",
+        "מתנדבים",
+        "משקים"
+      ]
     }
   ]
 }
