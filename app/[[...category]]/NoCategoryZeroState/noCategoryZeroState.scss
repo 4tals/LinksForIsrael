@@ -8,6 +8,8 @@
 	}
 
 	.intro {
+		display: flex;
+		flex-direction: column;
 		font-size: x-large;
 		color: var(--color-blue);
 		position: absolute;
@@ -17,5 +19,10 @@
 		text-wrap: balance;
 		text-align: center;
 		width: 400px;
+	}
+
+	.larger {
+		font-size: xx-large;
+		font-weight: 600;
 	}
 }
