@@ -11,14 +11,6 @@
       "website": "https://www.izkorharavot.com/"
     },
     {
-      "name": "Yzkor",
-      "displayName": "יזכור - חללי חרבות ברזל",
-      "shortDescription": "מידע על חללי ישראל",
-      "description": "אתר המרכז מידע על חללי המלחמה",
-      "url": "https://www.izkorharavot.com",
-      "website": "https://www.izkorharavot.com"
-    },
-    {
       "name": "LevEhad",
       "displayName": "לב אחד - טופס רישום לנציגים אזרחיים",
       "shortDescription": "ארגון לב אחד דואג שלא תהיה לוויה ללא נציגים אזרחיים",
@@ -58,6 +50,23 @@
         "התאחדות",
         "אמדוקס",
         "נאוטק"
+      ]
+    },
+    {
+      "displayName": "תבנית לאתרי יזכור",
+      "name": "WixRememberThem",
+      "shortDescription": "אתר הנצחה דיגיטלי, ללא עלות",
+      "description": "אנחנו מקבלים לוויקס המון פניות ממשפחות וחברים להקמת אתרי הנצחה דיגיטליים לחללי חרבות ברזל - מקום שבו יוכלו להנציח את יקיריהם, לשתף בסיפורים ותמונות ולהזמין משפחה וחברים להעלות זכרונות ביחד. החלטנו לייצר למשפחות נקודת התחלה קלה יותר לבניית האתרים האלו. באתר ״לזכור אותם״ מוצעים 4 עיצובים שונים (תבניות/ טמפלטים) לאתרי הנצחה אישיים. כל מה שצריך לעשות זה להחליף תמונות ולערוך לתכנים האישיים. האתר כולל גם סרטון הדרכה קצר שמראה כיצד ניתן לעבוד בקלות עם הטמפלטים. וויקס תספק למשפחות דומיין לאתר וכן תמיכה אישית במהלך הבנייה, במידה ויצטרכו.",
+      "initiativeValidationDetails": "Subdomain on wix.com (official Wix domain)\nAlso vetted by a colleague as coming directly from Wix",
+      "url": "https://memorial-templates.wix.com/",
+      "website": "https://memorial-templates.wix.com/",
+      "whatsapp": "https://chat.whatsapp.com/Iz0CxyHnFfkKDZhB5Ln7u3",
+      "initiativeImage": "https://upload.wikimedia.org/wikipedia/commons/7/76/Wix.com_website_logo.svg",
+      "tags": [
+        "וויקס",
+        "אתר הנצחה",
+        "חללי חרבות ברזל",
+        "עיצוב אתרים"
       ]
     }
   ]

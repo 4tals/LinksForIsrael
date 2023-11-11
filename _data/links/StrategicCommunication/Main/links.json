@@ -40,22 +40,20 @@
     {
       "name": "HamalMeida",
       "displayName": "החזית האזרחית - The Civilian Front",
-      "shortDescription": "",
-      "description": "בצוות איכותי וערכי של מתנדבים אזרחים שעובדים מסביב לשעון בשביל להלחם בחזית ההסברתית",
+      "shortDescription": "קהילת הסברה בינלאומית (מעל 15 מדינות)",
+      "description": "קהילת הסברה בינלאומית (מעל 15 מדינות), קבוצה נפרדת לקהילה הבינלאומית - https://chat.whatsapp.com/FiuvEYDFBY6H7y924iUier",
+      "initiativeValidationDetails": "Verified by @4tal",
       "initiativeImage": "https://pps.whatsapp.net/v/t61.24694-24/323145474_1454373948746855_2011629331355288948_n.jpg?ccb=11-4&oh=01_AdRgn7CROTyg907d0O1opxQwAEBYfZdHeAOVLAd6WqH8Uw&oe=654D2AC0&_nc_sid=000000&_nc_cat=100",
-      "url": "https://chat.whatsapp.com/LGKPchQGakg4E75XYfEfyS",
-      "whatsapp": "https://chat.whatsapp.com/LGKPchQGakg4E75XYfEfyS",
-      "tiktok": "https://chat.whatsapp.com/Hw7fdndJdYy6TPsDii9o5V",
-      "twitter": "https://chat.whatsapp.com/Ez1hDNEt0OZF5a9sGgYueO",
-      "instagram": "https://chat.whatsapp.com/BjnPe6nwabqFY8jLxbBtoz",
-      "facebook": "https://chat.whatsapp.com/DIlLKYyHJWk02AAP85dpSn",
+      "url": "https://chat.whatsapp.com/DN9ftltVwzt366qOOXqSAH",
+      "whatsapp": "https://chat.whatsapp.com/DN9ftltVwzt366qOOXqSAH",
       "tags": [
         "סושיאל",
         "אינסטגרם",
         "פייסבוק",
         "טוויטר",
         "טיקטוק",
-        "הסברה"
+        "הסברה",
+        "חזית-אזרחית"
       ]
     },
     {
@@ -148,6 +146,25 @@
         "ילדים",
         "ציורים",
         "מלחמה"
+      ]
+    },
+    {
+      "displayName": "לא עוצרים עד שמנצחים",
+      "name": "menatzchim",
+      "shortDescription": "אנחנו אזרחים שרוצים – כמו כולם – לראות נצחון אמיתי.",
+      "description": "מי אנחנו? אנחנו אזרחים שרוצים – כמו כולם – לראות נצחון אמיתי. מאחורי היוזמה עומדת שורה של אנשי ציבור, רבנים ומובילי דעת קהל, פעילים חברתיים ואנשים שאכפת להם. המטרה היא לבטא קריאה ציבורית מקיפה ורחבה, דעת קהל מכל גווני הקשת – המחזקת את הנהגת המדינה והצבא להלחם עד לנצחון האמיתי. כדי להבהיר את הדרך, כדי לא להיכנע ללחצים מבית ומחוץ, כדי לא לאפשר לאף אחד לחזור על טעויות העבר ולהסתפק בחצי-עבודה – אנחנו מגדירים מראש את היעדים של הנצחון. ודורשים לבצע אותם, עד לנצחון המלא בעזרת השם.",
+      "initiativeValidationDetails": "https://www.inn.co.il/news/616983, https://www.guidestar.org.il/organization/580622041",
+      "url": "https://givechak.co.il/menatzchim",
+      "website": "https://givechak.co.il/menatzchim",
+      "whatsapp": "https://chat.whatsapp.com/L1tGwh6LcVk13tX6ak59Xi",
+      "form": "https://docs.google.com/forms/d/e/1FAIpQLScRx5EvlH76S3UMqHS47nSijBOqaId1JhDE-1tl1DdQtKiCRQ/viewform",
+      "initiativeImage": "https://static.tickchak.co.il/all/dln_00DNaVjdrkUR35EdpVXc0pVU0YUdwUnQnRnR1I2aERHa1FjYmFXay50KmZzY_090zdopFT2EDa5Z1U1wGNBNne5k2YzVzS.jpg_65ed8799-213e-4a49-91af-4f5131c62577.jpg",
+      "tags": [
+        "נצחון",
+        "אזרחים",
+        "אנשי ציבור",
+        "פעילים חברתיים",
+        "דעת קהל"
       ]
     }
   ]

@@ -34,6 +34,14 @@
       ]
     },
     {
+      "name": "HamalYozmot",
+      "displayName": "חמ\"ל יוזמות",
+      "description": "סיירות התנדבות טכנולוגיות",
+      "shortDescription": "סיירות התנדבות טכנולוגיות",
+      "url": "https://yozmot.org.il",
+      "website": "https://yozmot.org.il"
+    },
+    {
       "name": "mitmadvimAutomation",
       "displayName": "אוטומציה בין מתנדבים למחפשי עזרה",
       "description": "",

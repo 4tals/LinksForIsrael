@@ -51,6 +51,39 @@
         "מיזמים",
         "תקשורת חזקה"
       ]
+    },
+    {
+      "displayName": "טופס להוספת כתוביות לסרטונים",
+      "name": "Autocap",
+      "shortDescription": "גישה חינם לאפליקציית מובייל להוספת כתוביות לסרטוני הסברה בכל שפה",
+      "description": "אפליקציה בתשלום אך מאפשרת שימוש חינם לטובת סרטוני הסברה לטובת ישראל, כל מי שמעוניין שימלא את הטופס ויקבל מייל תגובה עם פרטי הורדה ושימוש חינמי. האפליקציה מאפשרת לתמלל סרטונים ובסוף תהליך התמלול גם לתרגם בעזרת גוגל טרנסלייט",
+      "initiativeValidationDetails": "Over 500K downloads in the android app store alone (Probably more in the Apple store",
+      "url": "https://www.youtube.com/watch?v=ONyPGE6VQog",
+      "form": "https://forms.gle/NSQS9dowb5VPuiFA7",
+      "tags": [
+        "כתוביות",
+        "סרטונים",
+        "תמלול",
+        "תרגום"
+      ]
+    },
+    {
+      "displayName": "חמ'ל עיצוב",
+      "name": "DesignHamal",
+      "shortDescription": "מתנדבים יוצרים פרויקטים למטרות סיוע והסברה",
+      "description": "בזמנים קשים אלו, אנו מעצבים ומעצבות, מציעים ללא תשלום את שירותינו לעמותות ויוזמות עצמאיות  שרוצות להיעזר בנו, לעיצוב פוסטים ועיצובים לסושיאל, הכנת סרטונים, עיצוב אתרים, איור וכו׳",
+      "initiativeValidationDetails": "https://www.prtfl.co.il/archives/190109",
+      "url": "https://www.designhamal.com/",
+      "website": "https://www.designhamal.com/",
+      "form": "https://wkf.ms/3Q9T8jS",
+      "docs": "https://forms.monday.com/forms/4d56aca3a254a2c5c3982f59453d9ec7?r=euc1",
+      "initiativeImage": "https://static.wixstatic.com/media/e3a10a_e9eb35ba322445d78637250a4de70700~mv2.png/v1/crop/x_95,y_206,w_546,h_360/fill/w_655,h_352,fp_0.50_0.50,lg_1,q_85,enc_auto/logo-1-06.png",
+      "tags": [
+        "עיצוב",
+        "מתנדבים",
+        "סיוע",
+        "הסברה"
+      ]
     }
   ]
 }
