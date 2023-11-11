@@ -7,10 +7,15 @@ import "./noCategoryZeroState.scss";
 export const NoCategoryZeroState = () => {
 	return (
 		<div className="welcome-message-container">
-			<p>ברוכים הבאים לפורטל לינק לישראל</p>
-			<p>מרכזים מגוון יוזמות בתחומים שונים!</p>
-			<p>בתפריט מימין תוכלו לבחור את הקטגוריה הרלוונטית עבורכם</p>
-			<p>ביחד ננצח!</p>
+			<div className="logo">
+				<Logo opacity={0.2}/>
+			</div>
+			<div className="intro">
+				<span>ברוכים הבאים לפורטל לינק לישראל</span>
+				<span>מרכזים מגוון יוזמות בתחומים שונים</span>
+				<span>בתפריט מימין תוכלו לבחור את הקטגוריה הרלוונטית עבורכם</span>
+				<span>ביחד ננצח!</span>
+			</div>
 		</div>
 	);
 };
