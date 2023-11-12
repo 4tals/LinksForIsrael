@@ -37,6 +37,9 @@ export interface Link {
 	portal: string;
 	phone: string;
 	linkedin: string;
+	youtube: string;
+	email: string;
+	donation: string;
 	tags?: string[];
 }
 

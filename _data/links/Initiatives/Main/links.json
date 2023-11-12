@@ -75,6 +75,22 @@
         "ארגונים",
         "מרכזיים"
       ]
+    },
+    {
+      "displayName": "מרכז מידע אזרחי",
+      "name": "barzel.info",
+      "shortDescription": "אתר זה פותח כדי להנגיש מידע הקשור למלחמת חרבות ברזל",
+      "description": "החל מצ'אט הסברה מבוסס בינה מלאכותית, דרך קישור למידע על זכויות של נפגעי טרור במס הכנסה וביטוח לאומי, חשיפה לזוועות הנוראיות של מחבלי חמאס-דאעש-נאצים, סרטוני הסברה להתמודדות עם השקרים שמפיצים בעולם וכלה בהפניות להתנדבות לסיוע וליצירת מודעות אבל.",
+      "initiativeValidationDetails": "Joint effort with my workplace (Microsoft)",
+      "url": "https://barzel.info/",
+      "website": "https://barzel.info/",
+      "email": "mailto:yuval@hackit.co.il",
+      "initiativeImage": "https://barzel.info/static/soi-image.png",
+      "tags": [
+        "מידע",
+        "חרבות ברזל",
+        "זכויות נפגעי טרור"
+      ]
     }
   ]
 }
