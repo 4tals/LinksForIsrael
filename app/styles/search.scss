@@ -22,22 +22,6 @@ a {
 	margin-right: $common-padding;
 }
 
-#searchOverlayWeb {
-	position: fixed;
-	padding-top: 119px;
-	inset: 0;
-	width: 100%;
-	height: 100%;
-	background-color: rgba(0, 0, 0, 0.5);
-	backdrop-filter: blur(6px);
-	z-index: 3;
-}
-
-#searchInputWeb {
-	color: initial;
-	width: 100%;
-}
-
 // Search input container
 .search-div {
 	@include flex-center;
@@ -55,6 +39,9 @@ a {
 .search-input {
 	border: 0;
 	outline: none;
+	color: initial;
+	margin-right: 7px;
+	width: 100%;
 }
 
 // Search results container
@@ -138,7 +125,11 @@ a {
 	cursor: pointer;
 }
 
-@media only screen and (max-width: 600px) {
+.mobile-search {
+	display: none;
+}
+
+@media only screen and (max-width: 768px) {
 	.mobile-search-button {
 		display: block;
 	}
@@ -148,6 +139,30 @@ a {
 	}
 
 	.search-wrapper {
-		margin-top: 130px;
+		width: 100%;
+		height: 35px;
 	}
+	
+	.mobile-search {
+		position: absolute;
+    width: 100%;
+    z-index: 999;
+    display: flex;
+		justify-content: center;
+    align-items: center;
+		padding: 0 20px;
+		background-color: rgba(0, 0, 0, 0.2);
+		overflow: hidden;
+	}
+
+	.mobile-search-open {
+		height: 7vh;
+		transition: height .1s ease-in;
+	}
+	
+	.mobile-search-close {
+		height: 0vh;
+		transition: height .1s ease-out;
+	}
+	
 }

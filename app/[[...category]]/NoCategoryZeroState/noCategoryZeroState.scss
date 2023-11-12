@@ -1,14 +1,28 @@
 .welcome-message-container {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	font-size: 2rem;
-	color: var(--color-blue);
-}
 
-@media only screen and (max-width: 600px) {
-	.welcome-message-container {
-		display: none;
+	.logo {
+		position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	}
+
+	.intro {
+		display: flex;
+		flex-direction: column;
+		font-size: x-large;
+		color: var(--color-blue);
+		position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+		text-wrap: balance;
+		text-align: center;
+		width: 400px;
+	}
+
+	.larger {
+		font-size: xx-large;
+		font-weight: 600;
 	}
 }

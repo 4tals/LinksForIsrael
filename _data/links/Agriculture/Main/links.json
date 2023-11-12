@@ -103,7 +103,7 @@
         "יבול",
         "התנדבות",
         "משק חי"
-        ]
+      ]
     },
     {
       "displayName": "התנדבות לחקלאות בעוטף ובצפון",
@@ -123,6 +123,43 @@
         "עוטף",
         "מתנדבים",
         "משקים"
+      ]
+    },
+    {
+      "displayName": "טרמפים למשקים הלוך וחזור",
+      "name": "FarmRide",
+      "shortDescription": "קבוצות טרמפים מרוכזת לכל המשקים",
+      "description": "רוב המשקים נמצאים סמוך זה לזה וכשמגיעים לאיזור קל יותר להגיע למשק. כרגע התחברוה הציבורית היא רק עד לצאלים. אז תעזרו אחד לשני בקבוצה הזו ובמידה ואתם חוששים תעשו שיחת וידאו עם הבנאדם לפני כן כדי לוודא שאפשר לסמוך עליו. אנחנו מנסים להשיג הסעות אז תתעדכנו מידי פעם על הסעה/",
+      "initiativeValidationDetails": "I talked to the admin, who posted and validated the rest of the groups: https://www.facebook.com/groups/farmingil/posts/854044209501014/",
+      "url": "https://chat.whatsapp.com/LWaRK08hjeVLdVzSlRf63j",
+      "website": "https://www.facebook.com/groups/farmingil/posts/852676299637805/",
+      "whatsapp": "https://chat.whatsapp.com/LWaRK08hjeVLdVzSlRf63j",
+      "facebook": "https://www.facebook.com/groups/farmingil/posts/854044209501014/",
+      "initiativeImage": "https://pps.whatsapp.net/v/t61.24694-24/394138717_879101513807384_425848023792890714_n.jpg?ccb=11-4&oh=01_AdTTclZkPay6FVXgEnvKpvO07jNM13OxtrkfQ4YsuYZmYA&oe=655D27AF&_nc_sid=e6ed6c&_nc_cat=105",
+      "tags": [
+        "טרמפים",
+        "משקים",
+        "הובלה"
+      ]
+    },
+    {
+      "displayName": "עבודה בחקלאות בזמן מלחמה",
+      "name": "WorkInAgricultureDuringWar",
+      "shortDescription": "בקבוצה מפרסמים רק עבודות, כולל מקומות שיש עובדים לטווח ארוך לצד מתנדבים לטווח קצר.",
+      "description": "אנחנו  מבינים שכרגע חלק מהחקלאים זקוקים למתנדבים להצלת יבול לאור המצב ואין ביכולתם לשלם, ולהם יתאימו מתנדבים שבאים ליומיים שלושה. ואילו אחרים שנפגעו פחות משלל אילוצי המלחמה יוכלו לשלם בקבלנות או לפי שעות לשיקולם, מחפשים עובדים שיכולים להתחייב לטווח ארוך יותר, ובלבד שיש ניסיון/כושר נדרש. קבלו בהבנה שאתם מתחרים בשכר וביכולת עבודה של תאילנדים..... כולנו במצב מלחמה ונעבור את זה ביחד.",
+      "initiativeValidationDetails": "Talked to the group's creator: https://www.facebook.com/groups/farmingil/posts/856664899238945/",
+      "url": "https://chat.whatsapp.com/JEL98bf5NCj0ezPbnrKrFS",
+      "website": "https://www.facebook.com/groups/farmingil/posts/856664899238945/",
+      "whatsapp": "https://chat.whatsapp.com/JEL98bf5NCj0ezPbnrKrFS",
+      "tags": [
+        "עבודה",
+        "חקלאות",
+        "מלחמה",
+        "מתנדבים",
+        "יומיים",
+        "שלושה",
+        "קבלנות",
+        "תאילנדים"
       ]
     }
   ]
