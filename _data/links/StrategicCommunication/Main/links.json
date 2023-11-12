@@ -166,6 +166,28 @@
         "פעילים חברתיים",
         "דעת קהל"
       ]
+    },
+    {
+      "displayName": "תנועת החזית האזרחית",
+      "name": "hachazit",
+      "shortDescription": "בעוצמה, בנחישות, ללא תנאים",
+      "description": "תנועת החזית האזרחית הוקמה על רקע אירועי טבח אוקטובר אשר יצרו קרע קשה באמונו של עם ישראל במערכות הביטחון בישראל ובהגנה לה הוא זקוק. התנועה הוקמה במטרה להחזיר את אמון העם ולהבטיח כי צה'ל ומדינת ישראל יפעלו באופן חופשי במהלך מלחמת עזה, כשיעדי המלחמה, אורכה ודרכי הפעולה שלה, יהיו כפופים אך ורק לצרכיה הביטחוניים והמדיניים של מדינת ישראל, וללא התחשבות בגורמים זרים. התנועה הינה תנועה א-פוליטית, ומאחוריה עומדת קבוצת ישראלים ובהם לוחמים, מפקדים, משפחות שכולות, תושבי העוטף, אנשי תוכן ולוחמי סייבר, שכאבו וכואבים את האירועים הנוראים והחליטו לחבור יחדיו ולפעול כדי להבטיח שלעולם לא עוד.",
+      "initiativeValidationDetails": "https://www.maariv.co.il/news/viral/Article-1049297",
+      "url": "https://www.hachazit.co.il/",
+      "website": "https://www.hachazit.co.il/",
+      "telegram": "https://t.me/hachazit",
+      "facebook": "https://www.facebook.com/the.civil.front",
+      "instagram": "https://www.instagram.com/the.civil.front.il/",
+      "tiktok": "https://www.tiktok.com/@the.civil.front",
+      "twitter": "https://twitter.com/The_civil_front",
+      "youtube": "https://www.youtube.com/@thecivilfront",
+      "initiativeImage": "https://www.hachazit.co.il/wp-content/uploads/2023/10/%D7%94%D7%97%D7%96%D7%99%D7%AA-%D7%94%D7%90%D7%96%D7%A8%D7%97%D7%99%D7%AA-%D7%94%D7%99%D7%A8%D7%95-1.png",
+      "tags": [
+        "חזית",
+        "החזית האזרחית",
+        "תנועה",
+        "לא פוליטית"
+      ]
     }
   ]
 }
