@@ -7,6 +7,12 @@ import { Link, SubCategoryData } from "../utils/categories";
 import { ShareButtons } from "./ShareButtons";
 import { Tooltip } from "./Tooltip";
 
+const containsHebrewLetters = (link?: Link) => {
+	if(!link) return false;
+	// https://jcuenod.github.io/bibletech/2017/08/19/matching-hebrew-unicode-regex/
+	return /[\u0590-\u05EA]/.test(`${link.displayName}${link?.description}`);
+}
+
 export function CategoryContent({
 	categoryName,
 	subCategories,
@@ -28,6 +34,7 @@ export function CategoryContent({
 				body={description?.body}
 				open={openDialog}
 				toggleModal={setOpenDialog}
+				isRtl={containsHebrewLetters(description?.link)}
 			/>
 			{ categoryName && categoryDescription ? (
 				<div className="share-container">
@@ -120,7 +127,7 @@ function LinkItem({
 	};
 
 	return (
-		<li className="links-section-item" key={link.name}>
+		<li className={`links-section-item ${!containsHebrewLetters(link)? 'ltr' : ''}`} key={link.name}>
 			{link.initiativeImage && (
 				<div
 					className="link-initiative-icon-bg"
