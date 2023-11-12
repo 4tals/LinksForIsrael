@@ -284,6 +284,33 @@ const LinkIcons = ({ link }: { link: Link }) => (
 				/>
 			</a>
 		)}
+		{link.youtube && (
+			<a href={link.youtube} target="_blank">
+				<img
+					className="link-icon"
+					src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/395_Youtube_logo-512.png"
+					alt="YouTube Link"
+				/>
+			</a>
+		)}
+		{link.email && (
+			<a href={`mailto:${link.email}`} target="_blank">
+				<img
+					className="link-icon"
+					src="https://cdn2.iconfinder.com/data/icons/social-media-2259/512/gmail-512.png"
+					alt="Email Link"
+				/>
+			</a>
+		)}
+		{link.donation && (
+			<a href={link.donation} target="_blank">
+				<img
+					className="link-icon"
+					src="https://cdn0.iconfinder.com/data/icons/colorful-guache-social-media-logos-1/159/social-media_donate-512.png"
+					alt="Donation Link"
+				/>
+			</a>
+		)}
 		{link.initiativeValidationDetails && (
 			<Tooltip content={link.initiativeValidationDetails} />
 		)}
