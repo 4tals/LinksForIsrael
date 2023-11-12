@@ -141,6 +141,26 @@
         "משקים",
         "הובלה"
       ]
+    },
+    {
+      "displayName": "עבודה בחקלאות בזמן מלחמה",
+      "name": "WorkInAgricultureDuringWar",
+      "shortDescription": "בקבוצה מפרסמים רק עבודות, כולל מקומות שיש עובדים לטווח ארוך לצד מתנדבים לטווח קצר.",
+      "description": "אנחנו  מבינים שכרגע חלק מהחקלאים זקוקים למתנדבים להצלת יבול לאור המצב ואין ביכולתם לשלם, ולהם יתאימו מתנדבים שבאים ליומיים שלושה. ואילו אחרים שנפגעו פחות משלל אילוצי המלחמה יוכלו לשלם בקבלנות או לפי שעות לשיקולם, מחפשים עובדים שיכולים להתחייב לטווח ארוך יותר, ובלבד שיש ניסיון/כושר נדרש. קבלו בהבנה שאתם מתחרים בשכר וביכולת עבודה של תאילנדים..... כולנו במצב מלחמה ונעבור את זה ביחד.",
+      "initiativeValidationDetails": "Talked to the group's creator: https://www.facebook.com/groups/farmingil/posts/856664899238945/",
+      "url": "https://chat.whatsapp.com/JEL98bf5NCj0ezPbnrKrFS",
+      "website": "https://www.facebook.com/groups/farmingil/posts/856664899238945/",
+      "whatsapp": "https://chat.whatsapp.com/JEL98bf5NCj0ezPbnrKrFS",
+      "tags": [
+        "עבודה",
+        "חקלאות",
+        "מלחמה",
+        "מתנדבים",
+        "יומיים",
+        "שלושה",
+        "קבלנות",
+        "תאילנדים"
+      ]
     }
   ]
 }
