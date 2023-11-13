@@ -214,6 +214,29 @@
         "עזרה",
         "מתנדבים"
       ]
+    },
+    {
+      "displayName": "מחזקים את החקלאים",
+      "name": "StrengtheningTheFarmers",
+      "shortDescription": "תנועת 'אם תרצו' מזמינה אתכם להצטרף אלינו לפעילות חקלאית התנדבותית ברחבי הארץ.",
+      "description": "הפעילות מגוונת ותלויה בצרכי החקלאים. הרשמו עכשיו והצטרפו אלינו למעגל של סולידריות חברתית ואהבת הארץ.",
+      "initiativeValidationDetails": "https://eng.imti.org.il/%D7%9E%D7%97%D7%96%D7%A7%D7%99%D7%9D-%D7%90%D7%AA-%D7%94%D7%97%D7%A7%D7%9C%D7%90%D7%99%D7%9D-%D7%A4%D7%A8%D7%95%D7%99%D7%A7%D7%98-%D7%9E%D7%AA%D7%A0%D7%93%D7%91%D7%99%D7%9D/",
+      "url": "https://bit.ly/2x1yyN6?fbclid=IwAR15A8ee_z-nHK7sP8xOqjx5-kUXOwBNF_usbIY4-e-jQUyqAbO2HKZioXs",
+      "website": "https://eng.imti.org.il/%D7%9E%D7%97%D7%96%D7%A7%D7%99%D7%9D-%D7%90%D7%AA-%D7%94%D7%97%D7%A7%D7%9C%D7%90%D7%99%D7%9D-%D7%A4%D7%A8%D7%95%D7%99%D7%A7%D7%98-%D7%9E%D7%AA%D7%A0%D7%93%D7%91%D7%99%D7%9D/",
+      "phone": "tel:+972-52-633-4995",
+      "email": "mailto:Imti@imti.org.il",
+      "form": "https://bit.ly/2x1yyN6",
+      "facebook": "https://www.facebook.com/imtirtzu/",
+      "instagram": "https://www.instagram.com/imtirzu/",
+      "tiktok": "https://www.tiktok.com/@imtirzu",
+      "twitter": "https://twitter.com/ImTirtzu",
+      "youtube": "https://www.youtube.com/c/ImTirzuIL",
+      "tags": [
+        "חקלאות",
+        "התנדבות",
+        "אם תרצו",
+        "חקלאים"
+      ]
     }
   ]
 }
