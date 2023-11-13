@@ -4,12 +4,6 @@
 }
 
 .links-section {
-	h2 {
-		display: flex;
-		align-items: center;
-		margin: 0;
-	}
-
 	.share-container {
 		margin-bottom: 1rem;
 	}
@@ -30,7 +24,7 @@
 .links-section-title {
 	display: flex;
 	align-items: center;
-	padding: 16px 10px 16px 16px;
+	// padding: 16px 10px 16px 16px;
 	gap: 10px;
 	cursor: pointer;
 	user-select: none;
@@ -178,7 +172,7 @@
 	height: 85vh;
 
 	& .desktop-open {
-		background-color: var(--color-divider);
+		border-color: var(--color-blue);
 	}
 
 	.desktop-grid {
@@ -187,21 +181,58 @@
 		height: 100%;
 		text-wrap: nowrap;
 	}
+	.icon-navbar {
+		display: flex;
+		width: 95vw;
+		gap: 5px;
+		height: 90px;
+		overflow-x: auto;
+		margin: 0 auto;
+		align-items: center;
+		scroll-behavior: smooth;
+		.links-section {
+			border: solid 1px var(--color-divider);
+			border-radius: 5px;
+			height: 30px;
+			font-size: 14px;
+			display: flex;
+			align-items: center;
+			.links-section-title {
+				display: flex;
+				width: max-content;
+				padding-inline: 5px 10px;
+				align-items: center;
+				.category-icon {
+					width: 20px;
+					height: auto;
+					margin: 0;
+					filter: grayscale(100%);
+				}
+			}
+			&.desktop-open {
+				border-color: var(--color-blue);
+				border-width: 2px;
+				.category-icon {
+					filter: grayscale(0%);
+				}
+			}
+		}
+	}
 
 	.desktop-category {
-		overflow-y: scroll;
-		overflow-x: hidden;
+		overflow: hidden;
+		height: 70px;
 	}
 
 	.menu-close {
 		width: 62px;
-		transition: width .2s ease-out;
+		transition: width 0.2s ease-out;
 	}
 
-	.menu-open {
-		width: 300px;
-		transition: width .2s ease-in;
-	}
+	// .menu-open {
+	// 	width: 300px;
+	// 	transition: width 0.2s ease-in;
+	// }
 
 	.category-description {
 		font-size: larger;
@@ -212,7 +243,7 @@
 	.desktop-content {
 		display: block;
 		width: 100%;
-		height: 100%;
+		height: calc(100vh - 210px);
 		overflow-y: auto;
 		overflow-x: hidden;
 		padding: 0 10px;
@@ -239,7 +270,7 @@
 			gap: 15px;
 			padding-top: 10px;
 		}
-		
+
 		.links-subcategory-header {
 			font-size: large;
 			font-weight: 600;
@@ -274,17 +305,17 @@
 	.links-section {
 		position: relative;
 
-		&::after {
-			content: "";
-			position: absolute;
-			top: 0;
-			left: 0;
-			width: 1px;
-			height: 100%;
-			background-color: var(--color-divider);
-			filter: blur(1px);
-			pointer-events: none;
-		}
+		// &::after {
+		// 	content: "";
+		// 	position: absolute;
+		// 	top: 0;
+		// 	left: 0;
+		// 	width: 1px;
+		// 	height: 100%;
+		// 	background-color: var(--color-divider);
+		// 	filter: blur(1px);
+		// 	pointer-events: none;
+		// }
 	}
 
 	.links-section-content {

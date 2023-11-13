@@ -1,4 +1,5 @@
 import { Body } from "@/app/components/Body/Body";
+
 import { getAssistanceSubCategory, getCategories } from "../utils/categories";
 import { CategoriesList } from "./CategoriesList";
 
@@ -52,9 +53,13 @@ export default async function Category({
 	const [categoryId] = params.category || [];
 
 	return (
-		<div className="desktop-grid">
-			<CategoriesList categories={categories} categoryId={categoryId}/>
-			<Body categories={categories} categoryId={categoryId} assistanceSubCategory={assistanceSubCategory}/>
+		<div>
+			<CategoriesList categories={categories} categoryId={categoryId} />
+			<Body
+				categories={categories}
+				categoryId={categoryId}
+				assistanceSubCategory={assistanceSubCategory}
+			/>
 		</div>
 	);
 }
