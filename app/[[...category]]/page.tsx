@@ -52,9 +52,13 @@ export default async function Category({
 	const [categoryId] = params.category || [];
 
 	return (
-		<div className="desktop-grid">
-			<CategoriesList categories={categories} categoryId={categoryId}/>
-			<Body categories={categories} categoryId={categoryId} assistanceSubCategory={assistanceSubCategory}/>
+		<div>
+			<CategoriesList categories={categories} categoryId={categoryId} />
+			<Body
+				categories={categories}
+				categoryId={categoryId}
+				assistanceSubCategory={assistanceSubCategory}
+			/>
 		</div>
 	);
 }
