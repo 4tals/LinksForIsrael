@@ -58,6 +58,20 @@
         "חיילים",
         "מפונים"
       ]
+    },
+    {
+      "displayName": "Israeli Children's Fund",
+      "name": "IsraeliChildrenFund",
+      "initiativeImage": "https://static.wixstatic.com/media/5084d6_723208b9763f411ba772c1c5aece49c2~mv2.png/v1/fill/w_94,h_94,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/icon2_3x.png",
+      "url": "http://israelichildrensfund.org/",
+      "website": "http://israelichildrensfund.org/",
+      "description": "Shaping the futures of Israeli child survivors who have lost a parent to the Hamas terror attack or whose parent is being held hostage, helping them heal the wounds of the past and allowing them to grow and fulfill their full potential.",
+      "shortDescription": "Shaping the futures of Israeli child survivors",
+      "tags": [
+        "תרומות",
+        "חינוך",
+        "ילדים"
+      ]
     }
   ]
 }
