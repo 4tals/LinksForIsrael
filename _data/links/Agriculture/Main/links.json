@@ -103,7 +103,7 @@
         "יבול",
         "התנדבות",
         "משק חי"
-        ]
+      ]
     },
     {
       "displayName": "התנדבות לחקלאות בעוטף ובצפון",
@@ -123,6 +123,96 @@
         "עוטף",
         "מתנדבים",
         "משקים"
+      ]
+    },
+    {
+      "displayName": "טרמפים למשקים הלוך וחזור",
+      "name": "FarmRide",
+      "shortDescription": "קבוצות טרמפים מרוכזת לכל המשקים",
+      "description": "רוב המשקים נמצאים סמוך זה לזה וכשמגיעים לאיזור קל יותר להגיע למשק. כרגע התחברוה הציבורית היא רק עד לצאלים. אז תעזרו אחד לשני בקבוצה הזו ובמידה ואתם חוששים תעשו שיחת וידאו עם הבנאדם לפני כן כדי לוודא שאפשר לסמוך עליו. אנחנו מנסים להשיג הסעות אז תתעדכנו מידי פעם על הסעה/",
+      "initiativeValidationDetails": "I talked to the admin, who posted and validated the rest of the groups: https://www.facebook.com/groups/farmingil/posts/854044209501014/",
+      "url": "https://chat.whatsapp.com/LWaRK08hjeVLdVzSlRf63j",
+      "website": "https://www.facebook.com/groups/farmingil/posts/852676299637805/",
+      "whatsapp": "https://chat.whatsapp.com/LWaRK08hjeVLdVzSlRf63j",
+      "facebook": "https://www.facebook.com/groups/farmingil/posts/854044209501014/",
+      "initiativeImage": "https://pps.whatsapp.net/v/t61.24694-24/394138717_879101513807384_425848023792890714_n.jpg?ccb=11-4&oh=01_AdTTclZkPay6FVXgEnvKpvO07jNM13OxtrkfQ4YsuYZmYA&oe=655D27AF&_nc_sid=e6ed6c&_nc_cat=105",
+      "tags": [
+        "טרמפים",
+        "משקים",
+        "הובלה"
+      ]
+    },
+    {
+      "displayName": "עבודה בחקלאות בזמן מלחמה",
+      "name": "WorkInAgricultureDuringWar",
+      "shortDescription": "בקבוצה מפרסמים רק עבודות, כולל מקומות שיש עובדים לטווח ארוך לצד מתנדבים לטווח קצר.",
+      "description": "אנחנו  מבינים שכרגע חלק מהחקלאים זקוקים למתנדבים להצלת יבול לאור המצב ואין ביכולתם לשלם, ולהם יתאימו מתנדבים שבאים ליומיים שלושה. ואילו אחרים שנפגעו פחות משלל אילוצי המלחמה יוכלו לשלם בקבלנות או לפי שעות לשיקולם, מחפשים עובדים שיכולים להתחייב לטווח ארוך יותר, ובלבד שיש ניסיון/כושר נדרש. קבלו בהבנה שאתם מתחרים בשכר וביכולת עבודה של תאילנדים..... כולנו במצב מלחמה ונעבור את זה ביחד.",
+      "initiativeValidationDetails": "Talked to the group's creator: https://www.facebook.com/groups/farmingil/posts/856664899238945/",
+      "url": "https://chat.whatsapp.com/JEL98bf5NCj0ezPbnrKrFS",
+      "website": "https://www.facebook.com/groups/farmingil/posts/856664899238945/",
+      "whatsapp": "https://chat.whatsapp.com/JEL98bf5NCj0ezPbnrKrFS",
+      "tags": [
+        "עבודה",
+        "חקלאות",
+        "מלחמה",
+        "מתנדבים",
+        "יומיים",
+        "שלושה",
+        "קבלנות",
+        "תאילנדים"
+      ]
+    },
+    {
+      "displayName": "נרתמים לחקלאות",
+      "name": "HarnessedToAgriculture",
+      "shortDescription": "פועל  לילות כימים כדי לסייע לחקלאות הישראלית, באמצעות גיוס מתנדבים ומתנדבות מצפון ועד דרום",
+      "description": "הצטרפו אלינו כבר למעלה מ- 2,500 מתנדבים שמסייעים מידי יום לעשרות חקלאים בכל רחבי הארץ כולל בעוטף. אנחנו מזמינים אתכם להצטרף אלינו, לתת כתף, לצאת קצת לשטח להרגיש אדמה ולסייע במקום בו באמת צריכים אתכם. הצטרפו לקבוצת הוואטסאפ, שם אנחנו מפרסמים מידי יום מידע על התנדבויות במשקים חקלאים. את פירות העבודה שלכם תגלו אצל הירקנים בעוד שבוע.",
+      "initiativeValidationDetails": "Initiative Backed by IBI: https://www.facebook.com/IBIinvest/posts/pfbid0CzNhpa2Aq5JMfY4WpbwPkjsy9xH7pgksBtYR1FZsXr5ixScTiAUeBaDsTdHvzM8Jl?locale=el_GR",
+      "url": "https://chat.whatsapp.com/BHm0ACGdvgW8v8ihQ1UJj5",
+      "website": "https://www.facebook.com/IBIinvest/posts/pfbid0CzNhpa2Aq5JMfY4WpbwPkjsy9xH7pgksBtYR1FZsXr5ixScTiAUeBaDsTdHvzM8Jl?locale=el_GR",
+      "whatsapp": "https://chat.whatsapp.com/BHm0ACGdvgW8v8ihQ1UJj5",
+      "docs": "https://docs.google.com/document/d/1ZHnTVb1tZiRJapUcVTqxkEoG1JUWspZGeo9uUSdVHpc/edit?usp=sharing",
+      "initiativeImage": "https://pps.whatsapp.net/v/t61.24694-24/322288593_2533951353442473_1653370950131213515_n.jpg?ccb=11-4&oh=01_AdTMVZh6_HqGuTfBPjXu9iZMw48XZrDB8McO37iAcTrpYQ&oe=655D2378&_nc_sid=e6ed6c&_nc_cat=107",
+      "tags": [
+        "חקלאות",
+        "מתנדבים",
+        "ישראל",
+        "עבודה",
+        "חקלאים"
+      ]
+    },
+    {
+      "displayName": "מרתון ישראל - רצים למען החקלאות",
+      "name": "RunForAgriculture",
+      "shortDescription": "צוות מרתון ישראל למען החקלאים",
+      "description": "עוד יום פורה ומספק עבר על כוחותינו במיזם 'רצים למען החקלאים'  ברחבי הארץ- מצפון עד דרום.  מעל ל- 1500 רצים וחברים שותפים לו. \nגם הבוקר קטפנו, מסקנו, שתלנו, ניקינו, ארזנו ובעיקר- עזרנו לעשרות חקלאים קצת לנשום לרווחה ולהוריד מהם לחצים וקשיים. ",
+      "initiativeValidationDetails": "Well known group from way before th war",
+      "url": "https://chat.whatsapp.com/IZbcAHzvtNKHqEHK3e06Zc",
+      "whatsapp": "https://chat.whatsapp.com/IZbcAHzvtNKHqEHK3e06Zc",
+      "facebook": "https://www.facebook.com/israel.marathon/posts/pfbid0hzHVRHhswusnG3jgdC7uxMDxAuBKgFFck6Uc5cLe6cBBM78EzaNj8XKPbtjUPz2l?locale=he_IL",
+      "initiativeImage": "https://scontent.ftlv6-1.fna.fbcdn.net/v/t39.30808-6/395189845_882797089879028_5153559223396304341_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Q-S0goUNAksAX97EAzj&_nc_ht=scontent.ftlv6-1.fna&oh=00_AfALwRGmO2s5AIUS6eg45OgehYWDqnl9elUZqU06MI-e4w&oe=6554D0BD",
+      "tags": [
+        "מרתון ישראל",
+        "חקלאות",
+        "תרומה",
+        "ריצה"
+      ]
+    },
+    {
+      "displayName": "קוטף בעוטף",
+      "name": "KotefBaotef",
+      "shortDescription": "מתנדבים בעזרה לחקלאים בעוטף עזה",
+      "description": "אנחנו  פועלים בכמה משקים, ונשמח לעזור :) מי שלא יכול להגיע לעזור פיזית, יכול לעזור בתמיכה מרחוק במתנדבים, אנחנו צריכים ארוחות חמות צהריים וערב ל20 איש כל יום בימים הקרובים. אם יש שאלות ספציפיות אל תהססו לשאול. מחכים לכם אלופים.",
+      "initiativeValidationDetails": "Known group with thousands of members, published by one of the main agriculture organizers: https://www.facebook.com/groups/846411716930930?multi_permalinks=858500252388743&hoisted_section_header_type=recently_seen",
+      "url": "https://l.facebook.com/l.php?u=https%3A%2F%2Fchat.whatsapp.com%2FBvIRfR06MnlDhyuZOhHzgX%3Ffbclid%3DIwAR1vvh904aEKr8WOz5jd_NyzGx9Gp52Qb1mNh4bgTRHzOv3-qrvM_5C9vWo&h=AT3747j1aRwuCg_WbDLTLguD_-UJJASZsXnHiiH8u7u3wasXz5PHa_Ae-fScMXElp1uRTlHtIZjeceHSixwoIlHTN2yNINqGTnepj4JdYIgpSGzzTxx7yCFFNmaWXLUKfw&__tn__=-UK-R&c[0]=AT23bZcMaV_sFyVkhJJkltKLo7mTQ90K1jYiSwoVsYmQYTgBnwCq08jhoXTKnsy7_pF9P889XfpLc-YHnRKeZmn8s14jkDZGHqGWL19ck6DoDjUQAsR8AemscBV-bROr1pqjraagx_TugYIu_PpZEQ-yeC2Hl2-m9PSaSIJxj6b7oDFQ6ZjP_5sTQQkWq0BarrFhptttI8yAyqS50oMPKw",
+      "website": "https://www.facebook.com/groups/farmingil/posts/858500252388743/?__cft__[0]=AZUviQzDjzdqQt0fC61h6_hyrGDZSO3d5YHhtm3LEVvaLhPiqAMpcHEXYPF_eweKHTKrDSL5fnDBdbYFm-9NtqdZ8YFqH8df7Gfg7OWUqjI1sNq1dBDXqgEVJZWJ3Q5ZljzVrEaZT1jDNmwEr3s2zLU23xYCZLIrespniEXkXGJxcAdViWVEXuS_-WMm4GdMKe8&__tn__=%2CO%2CP-R",
+      "whatsapp": "https://l.facebook.com/l.php?u=https%3A%2F%2Fchat.whatsapp.com%2FGXciS1xsR0RKn5xXI5KvTf%3Ffbclid%3DIwAR3FQWKfO1lN7ULhM35XzOWCqFTlsZeoe3GY0YRcTzWhqmE5-YusUhAz7SU&h=AT3dWb5ene0HtE1FA2YAPm9EbFHJh_zJL7auZ-NwulKDKVpBi6oR-afpf_A_8Hg_t7Qu7GS28Cje-v_0qt2CBhHWCkKsirItH6FfVQdM6J6obhXLr0AoH_RA_x89KMxTPg&__tn__=-UK-R&c[0]=AT23bZcMaV_sFyVkhJJkltKLo7mTQ90K1jYiSwoVsYmQYTgBnwCq08jhoXTKnsy7_pF9P889XfpLc-YHnRKeZmn8s14jkDZGHqGWL19ck6DoDjUQAsR8AemscBV-bROr1pqjraagx_TugYIu_PpZEQ-yeC2Hl2-m9PSaSIJxj6b7oDFQ6ZjP_5sTQQkWq0BarrFhptttI8yAyqS50oMPKw",
+      "donation": "https://payboxapp.page.link/cLJBaNBMNfVtBBo38",
+      "initiativeImage": "https://pps.whatsapp.net/v/t61.24694-24/396957774_392200316469084_1725700249492773390_n.jpg?ccb=11-4&oh=01_AdTAHzfqQpxKbpyy3gF-iDkhNONMl1u9aBeh5Kye9oXjCA&oe=655D411D&_nc_sid=e6ed6c&_nc_cat=105",
+      "tags": [
+        "חקלאים",
+        "עזרה",
+        "מתנדבים"
       ]
     }
   ]

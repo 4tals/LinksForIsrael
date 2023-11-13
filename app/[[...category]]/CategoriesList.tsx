@@ -6,6 +6,8 @@ import { analyticsService } from "../analytics";
 import { Category } from "../utils/categories";
 import { MenuContext, SearchContext } from "@/app/components/RootApp";
 
+const getNumberOfInitiatives = (category: Category) => category.subCategories.reduce((acc, subcategory) => acc + subcategory.links.length, 0);
+
 export function CategoriesList({
 	categories,
 	categoryId,
@@ -43,6 +45,7 @@ export function CategoriesList({
 									<img src={category.image} alt={`${category.displayName} Icon`} className="category-icon" />
 								)}
 								<h2 className="text-xl">{category.displayName}</h2>
+								<span>{getNumberOfInitiatives(category)}</span>
 							</div>
 						</Link>
 					</div>

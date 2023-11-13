@@ -42,6 +42,22 @@
       "initiativeImage": "https://cdn6.aptoide.com/imgs/6/1/a/61a33873bfe452538aa25b9444692ad0_fgraphic.jpg",
       "website": "https://www.payboxapp.com/",
       "url": "https://www.payboxapp.com/"
+    },
+    {
+      "displayName": "All for Israel",
+      "name": "All for Israel",
+      "shortDescription": "איסוף תרומות לרכישת מזון, ציוד וביגוד עבור החיילים בשטח והמפונים.",
+      "description": "איסוף תרומות לרכישת מזון, ציוד וביגוד עבור החיילים בשטח והמפונים.",
+      "url": "https://all4israel.com",
+      "whatsapp": "https://chat.whatsapp.com/LMxQxuWTozf3ry4EaB5zhe",
+      "twitter": "@4israelproject",
+      "tags": [
+        "תרומות",
+        "מזון",
+        "ביגוד",
+        "חיילים",
+        "מפונים"
+      ]
     }
   ]
 }
