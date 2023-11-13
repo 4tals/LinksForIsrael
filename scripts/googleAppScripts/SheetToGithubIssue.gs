@@ -18,26 +18,53 @@ function onFormSubmit(e) {
   var twitterLink = formResponse['Twitter / X link'][0];
   var facebookLink = formResponse['Facebook link'][0];
 
-  // Construct the issue body using the form response data
-  var issueBody = "### Initiative Name\n" + initiativeName +
-                    "\n\n### Category\n" + category +
-                    "\n\n### Category\n" + category +
-                    "\n\n### Main Link\n" + mainLink +
-                    "\n\n### Description\n" + description +
-                    "\n\n### WhatsApp Link\n" + (whatsappLink || 'N/A') +
-                    "\n\n### Remarks for Admins\n" + (remarksForAdmins || 'N/A') +
-                    "\n\n### Telegram Link\n" + (telegramLink || 'N/A') +
-                    "\n\n### Drive Link\n" + (driveLink || 'N/A') +
-                    "\n\n### Form Link\n" + (gFormLink || 'N/A') +
-                    "\n\n### Doc Link\n" + (gDocLink || 'N/A') +
-                    "\n\n### Discord Link\n" + (discordLink || 'N/A') +
-                    "\n\n### Instagram Link\n" + (instagramLink || 'N/A') +
-                    "\n\n### TikTok Link\n" + (tiktokLink || 'N/A') +
-                    "\n\n### Twitter/X Link\n" + (twitterLink || 'N/A') +
-                    "\n\n### Facebook Link\n" + (facebookLink || 'N/A');
+  // todo: adjust the form and add these fields
+  var initiativeDetails = '_No response_';
+  var validationLink = '_No response_';
+  var websiteLink = '_No response_';
+  var phoneNumber = '_No response_';
+  var email = '_No response_';
+  var formLink = '_No response_';
+  var documentLink = '_No response_';
+  var linkedinLink = '_No response_';
+  var youtubeLink = '_No response_';
+  var donationLink = '_No response_';
+  var logoLink = '_No response_';
+  var tags = '_No response_';
 
-    // Use the initiative name as the issue title
-    var issueTitle = initiativeName;
+  // Function to format the value or return "_No response_"
+  function formatValue(value) {
+    return value.trim() ? value.trim() : "_No response_";
+  }
+
+  // Construct the issue body using the form response data with markdown
+  var issueBody = `### Initiative Name\n${formatValue(initiativeName)}\n\n` +
+                  `### Initiative Description\n${formatValue(description)}\n\n` +
+                  `### Initiative Details\n${formatValue(initiativeDetails)}\n\n` +
+                  `### Initiative Validation Details\n${formatValue(validationLink)}\n\n` +
+                  `### Initiative Category\n${formatValue(category)}\n\n` +
+                  `### Initiative main URL\n${formatValue(mainLink)}\n\n` +
+                  `### Initiative Website\n${formatValue(websiteLink)}\n\n` +
+                  `### Initiative Phone Number\n${formatValue(phoneNumber)}\n\n` +
+                  `### Initiative E-Mail\n${formatValue(email)}\n\n` +
+                  `### Initiative WhatsApp\n${formatValue(whatsappLink)}\n\n` +
+                  `### Initiative Telegram\n${formatValue(telegramLink)}\n\n` +
+                  `### Initiative Drive\n${formatValue(driveLink)}\n\n` +
+                  `### Initiative Form\n${formatValue(formLink)}\n\n` +
+                  `### Initiative Document\n${formatValue(documentLink)}\n\n` +
+                  `### Initiative Discord\n${formatValue(discordLink)}\n\n` +
+                  `### Initiative Facebook\n${formatValue(facebookLink)}\n\n` +
+                  `### Initiative Instagram\n${formatValue(instagramLink)}\n\n` +
+                  `### Initiative TikTok\n${formatValue(tiktokLink)}\n\n` +
+                  `### Initiative X (Twitter)\n${formatValue(twitterLink)}\n\n` +
+                  `### Initiative LinkedIn\n${formatValue(linkedinLink)}\n\n` +
+                  `### Initiative Youtube Page / Channel\n${formatValue(youtubeLink)}\n\n` +
+                  `### Initiative Donation Link\n${formatValue(donationLink)}\n\n` +
+                  `### Initiative logo\n${formatValue(logoLink)}\n\n` +
+                  `### Initiative Tags\n${formatValue(tags)}`;
+
+    // Use the initiative name as the issue title + the required prefix
+    var issueTitle = `[NEW-INITIATIVE]: ${initiativeName}`;
 
     // Call the function to create a GitHub issue
     createGithubIssue(issueTitle, issueBody);
