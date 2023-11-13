@@ -25,12 +25,13 @@ export function useSearch(categories: Category[]) {
 			const filteredSubCategories = category.subCategories
 				.map((subCategory) => {
 					const filteredLinks: Link[] = subCategory.links.filter((link) => {
+						const lowerSearchTerm = searchTerm.toLowerCase();
 						return (
-							link.name?.includes(searchTerm) ||
-							link.displayName?.includes(searchTerm) ||
-							link.description?.includes(searchTerm) ||
-							link.shortDescription?.includes(searchTerm) ||
-							link.tags?.some((tag) => tag.includes(searchTerm))
+							link.name?.toLowerCase().includes(lowerSearchTerm) ||
+							link.displayName?.toLowerCase().includes(lowerSearchTerm) ||
+							link.description?.toLowerCase().includes(lowerSearchTerm) ||
+							link.shortDescription?.toLowerCase().includes(lowerSearchTerm) ||
+							link.tags?.some((tag) => tag.toLowerCase().includes(lowerSearchTerm))
 						);
 					});
 
