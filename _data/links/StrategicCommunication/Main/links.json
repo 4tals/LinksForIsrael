@@ -188,6 +188,17 @@
         "תנועה",
         "לא פוליטית"
       ]
+    },
+    {
+      "displayName": "Iron Voice",
+      "name": "Iron Voice",
+      "url": "https://chat.openai.com/g/g-OFt3XQR3l-iron-voice",
+      "description": "צט שניתן לשוחח איתו על עניינים שקשורים למלחמה, לקבל מידע, לינקים, וכמובן לנהל שיחה",
+      "tags": [
+        "הסברה",
+        "מלחמה",
+        "מידע"
+      ]
     }
   ]
 }
