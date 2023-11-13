@@ -5,28 +5,23 @@ on: [pull_request, workflow_dispatch]
 jobs:
   install:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v2
+      - uses: pnpm/action-setup@v2
         with:
           version: 8
-      - name: Install Dependencies
-        run: pnpm install --frozen-lockfile
-        env:
-          CI: true
-
   build:
-    needs: install
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
-          cache: 'pnpm'
-      - name: Build
-        run: npx next build --no-lint
-      - name: Lint
-        run: npx next lint --max-warnings=0
+    - uses: actions/checkout@v4
+    
+    - name: Use Node.js 
+      uses: actions/setup-node@v4
+      with:
+        node-version: 20
+    - run: pnpm install --frozen-lockfile
+
+    - run: npx next build --no-lint
+    
+    - run: npx next lint --max-warnings=0
