@@ -91,6 +91,29 @@
         "חרבות ברזל",
         "זכויות נפגעי טרור"
       ]
+    },
+    {
+      "displayName": "ישראל מנצחת",
+      "name": "IsraelWins",
+      "shortDescription": "עמוד סיקור מיוחד של ערוץ 14 עם כל האפשרויות להתנדב ולסייע",
+      "description": "החברה הישראלית עוברת את אחת התקופה הקשות והמורכבות שעבר העם היהודי. אנו מזמינים אתכם לצפות בכל המידע והאירועים שהתרחשו ומתרחשים. גם במציאות הקשה הזו אנו לא נשברים, נשארים מאוחדים ומקווים לימים טובים יותר!",
+      "initiativeValidationDetails": "Official Channel 14 page",
+      "url": "https://special.now14.co.il/israel-wins/",
+      "website": "https://special.now14.co.il/israel-wins/",
+      "phone": "tel:+972-1-700-501-414",
+      "email": "mailto:info@now14.co.il",
+      "facebook": "https://www.facebook.com/Now14israel/",
+      "instagram": "https://instagram.com/now14israel",
+      "twitter": "https://twitter.com/Now14Israel",
+      "youtube": "https://www.youtube.com/channel/UCKEImtWikw9usC1pl_9m1nQ",
+      "initiativeImage": "https://special.now14.co.il/wp-content/uploads/2023/10/%D7%99%D7%A9%D7%A8%D7%90%D7%9C-%D7%9E%D7%A0%D7%A6%D7%97%D7%AA2.png",
+      "tags": [
+        "ערוץ 14",
+        "ישראל",
+        "מנצחת",
+        "התנדבות",
+        "אירועים"
+      ]
     }
   ]
 }
