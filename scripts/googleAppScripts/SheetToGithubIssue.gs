@@ -10,8 +10,6 @@ function onFormSubmit(e) {
   var whatsappLink = formResponse['Whatsapp link'][0];
   var telegramLink = formResponse['Telegram link'][0];
   var driveLink = formResponse['Google Drive link'][0];
-  var gFormLink = formResponse['Google Form link'][0];
-  var gDocLink = formResponse['Google Doc link'][0];
   var discordLink = formResponse['Discord link'][0];
   var instagramLink = formResponse['Instagram link'][0];
   var tiktokLink = formResponse['Tiktok link'][0];
@@ -24,8 +22,8 @@ function onFormSubmit(e) {
   var websiteLink = '_No response_';
   var phoneNumber = '_No response_';
   var email = '_No response_';
-  var formLink = '_No response_';
-  var documentLink = '_No response_';
+  var formLink = formResponse['Google Form link'][0];
+  var documentLink = formResponse['Google Doc link'][0];
   var linkedinLink = '_No response_';
   var youtubeLink = '_No response_';
   var donationLink = '_No response_';
