@@ -68,7 +68,9 @@ export function CategoriesList({
 									/>
 								)}
 								<span>{category.displayName}</span>
-								{/* <span>{getNumberOfInitiatives(category)}</span> */}
+								<span className="numbers">
+									{getNumberOfInitiatives(category)}
+								</span>
 							</div>
 						</Link>
 					</div>

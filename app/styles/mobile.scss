@@ -81,10 +81,31 @@
 					font-size: 14px;
 					height: 30px;
 					text-align: center;
+					&.numbers {
+						top: -7px;
+						left: -2px;
+						border: solid 1px var(--color-divider);
+						width: 20px;
+						height: 20px;
+						border-radius: 50%;
+						display: flex;
+						justify-content: center;
+						align-items: center;
+						font-size: 12px;
+						background-color: var(--color-dark);
+						color: var(--color-white);
+					}
+				}
+				&.desktop-open {
+					.numbers {
+						background-color: var(--color-blue);
+						color: var(--color-white);
+					}
 				}
 			}
 		}
 	}
+
 	.links-section {
 		// align-items: center;
 		// border-radius: 4px;
