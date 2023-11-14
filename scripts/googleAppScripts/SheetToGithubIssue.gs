@@ -6,7 +6,6 @@ function onFormSubmit(e) {
   var category = formResponse['קטגוריה'][0];
   var mainLink = formResponse['לינק לאתר או קישור ראשי'][0];
   var description = formResponse['תיאור פרטי היוזמה'][0];
-  var remarksForAdmins = formResponse['הערות למנהלי העמוד'][0];
   var whatsappLink = formResponse['Whatsapp link'][0];
   var telegramLink = formResponse['Telegram link'][0];
   var driveLink = formResponse['Google Drive link'][0];
