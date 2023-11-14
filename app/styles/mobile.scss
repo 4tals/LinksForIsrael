@@ -52,11 +52,14 @@
 		margin-inline: 0;
 	}
 	.main-content {
+		--mobile-content: 62svh;
+
+		height: 80svh;
 		.desktop-content {
-			height: calc(100vh - 280px);
+			height: var(--mobile-content, 62vh);
 		}
 		.desktop-category {
-			height: 150px;
+			height: 130px;
 		}
 		.icon-navbar {
 			gap: 15px;
