@@ -56,7 +56,7 @@ export function CategoriesList({
 							onClick={() => {
 								analyticsService.trackCategoryView(category.id);
 								onSearch("");
-								isMobile && isMenuOpen && toggleMenu();
+								// isMobile && isMenuOpen && toggleMenu();
 							}}
 						>
 							<div className="links-section-title">
