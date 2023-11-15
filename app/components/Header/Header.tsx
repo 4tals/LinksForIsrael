@@ -1,5 +1,4 @@
 import { Banner } from "@/app/components/Header/Banner";
-import { MenuButton } from "@/app/components/Header/MenuButton";
 
 import { AddSite } from "../AddSite";
 import { SearchButtonMobile } from "./SearchButtonMobile";
@@ -9,7 +8,6 @@ export function Header() {
 	return (
 		<header className="page-header" role="banner" dir="rtl">
 			<div className="left-section">
-				<MenuButton />
 				<Banner />
 			</div>
 			<div className="middle-section">
