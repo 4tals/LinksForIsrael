@@ -62,6 +62,20 @@
         "משפחות בעורף",
         "הסעות"
       ]
+    },
+    {
+      "displayName": "הסעות - חרבות ברזל",
+      "name": "Hasaot",
+      "shortDescription": "אנו ננסה לתאם בין נהגים מתנדבים לבין חיילים הזקוקים להסעה",
+      "description": "אתר המאמת נהגים ומבקשי הסעה, ולאחר מכן מפנה אותם לקבוצת ואצאפ סגורה לצורך תיאום",
+      "initiativeValidationDetails": "Video chatted with site owner",
+      "url": "https://hasaot.mrwp.co.il/",
+      "website": "https://hasaot.mrwp.co.il/",
+      "tags": [
+        "הסעה",
+        "נהגים",
+        "חיילים"
+      ]
     }
   ]
 }
