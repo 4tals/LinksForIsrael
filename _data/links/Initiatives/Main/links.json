@@ -114,6 +114,20 @@
         "התנדבות",
         "אירועים"
       ]
+    },
+    {
+      "displayName": "Bla bla",
+      "name": "Bla bla",
+      "shortDescription": "Bla bla bla descrtion",
+      "description": "More details",
+      "initiativeValidationDetails": "This is a validation. yay.",
+      "url": "mysite.com",
+      "facebook": "Facebook bla",
+      "tags": [
+        "Bla",
+        "חיפוש",
+        "יוזמה"
+      ]
     }
   ]
 }
