@@ -61,6 +61,11 @@
 	flex-direction: column;
 	width: 100%;
 	overflow-x: hidden;
+	.tooltip-validation {
+		position: absolute;
+		top: 0px;
+		left: 0px;
+	}
 }
 
 .links-section-item {
