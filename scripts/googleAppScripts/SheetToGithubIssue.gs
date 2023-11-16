@@ -116,7 +116,7 @@ function onFormSubmit(e) {
 }
 
 function createGithubIssue(title, body) {
-  var githubToken = PropertiesService.getUserProperties().getProperty('GITHUB_TOKEN');
+  var personalGithubToken = PropertiesService.getUserProperties().getProperty('GITHUB_TOKEN');
   var repo = '4tals/LinksForIsrael';
   var url = 'https://api.github.com/repos/' + repo + '/issues';
 
@@ -129,7 +129,7 @@ function createGithubIssue(title, body) {
   var options = {
     method: 'post',
     headers: {
-      Authorization: 'Bearer ' + githubToken,
+      Authorization: 'Bearer ' + personalGithubToken,
       Accept: 'application/vnd.github+json'
     },
     contentType: 'application/json',
