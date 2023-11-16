@@ -29,36 +29,84 @@ function onFormSubmit(e) {
   var logoLink = '_No response_';
   var tags = '_No response_';
 
-  // Function to format the value or return "_No response_"
-  function formatValue(value) {
-    return value.trim() ? value.trim() : "_No response_";
+  function normalizeResponse(value) {
+    return value && value.trim() ? value.trim() : "_No response_";
   }
 
   // Construct the issue body using the form response data with markdown
-  var issueBody = `### Initiative Name\n${formatValue(initiativeName)}\n\n` +
-                  `### Initiative Description\n${formatValue(description)}\n\n` +
-                  `### Initiative Details\n${formatValue(initiativeDetails)}\n\n` +
-                  `### Initiative Validation Details\n${formatValue(validationLink)}\n\n` +
-                  `### Initiative Category\n${formatValue(category)}\n\n` +
-                  `### Initiative main URL\n${formatValue(mainLink)}\n\n` +
-                  `### Initiative Website\n${formatValue(websiteLink)}\n\n` +
-                  `### Initiative Phone Number\n${formatValue(phoneNumber)}\n\n` +
-                  `### Initiative E-Mail\n${formatValue(email)}\n\n` +
-                  `### Initiative WhatsApp\n${formatValue(whatsappLink)}\n\n` +
-                  `### Initiative Telegram\n${formatValue(telegramLink)}\n\n` +
-                  `### Initiative Drive\n${formatValue(driveLink)}\n\n` +
-                  `### Initiative Form\n${formatValue(formLink)}\n\n` +
-                  `### Initiative Document\n${formatValue(documentLink)}\n\n` +
-                  `### Initiative Discord\n${formatValue(discordLink)}\n\n` +
-                  `### Initiative Facebook\n${formatValue(facebookLink)}\n\n` +
-                  `### Initiative Instagram\n${formatValue(instagramLink)}\n\n` +
-                  `### Initiative TikTok\n${formatValue(tiktokLink)}\n\n` +
-                  `### Initiative X (Twitter)\n${formatValue(twitterLink)}\n\n` +
-                  `### Initiative LinkedIn\n${formatValue(linkedinLink)}\n\n` +
-                  `### Initiative Youtube Page / Channel\n${formatValue(youtubeLink)}\n\n` +
-                  `### Initiative Donation Link\n${formatValue(donationLink)}\n\n` +
-                  `### Initiative logo\n${formatValue(logoLink)}\n\n` +
-                  `### Initiative Tags\n${formatValue(tags)}`;
+    var issueBody =
+    `### Initiative Name
+    ${normalizeResponse(initiativeName)}
+
+    ### Initiative Description
+    ${normalizeResponse(description)}
+
+    ### Initiative Details
+    ${normalizeResponse(initiativeDetails)}
+
+    ### Initiative Validation Details
+    ${normalizeResponse(validationLink)}
+
+    ### Initiative Category
+    ${normalizeResponse(category)}
+
+    ### Initiative main URL
+    ${normalizeResponse(mainLink)}
+
+    ### Initiative Website
+    ${normalizeResponse(websiteLink)}
+
+    ### Initiative Phone Number
+    ${normalizeResponse(phoneNumber)}
+
+    ### Initiative E-Mail
+    ${normalizeResponse(email)}
+
+    ### Initiative WhatsApp
+    ${normalizeResponse(whatsappLink)}
+
+    ### Initiative Telegram
+    ${normalizeResponse(telegramLink)}
+
+    ### Initiative Drive
+    ${normalizeResponse(driveLink)}
+
+    ### Initiative Form
+    ${normalizeResponse(formLink)}
+
+    ### Initiative Document
+    ${normalizeResponse(documentLink)}
+
+    ### Initiative Discord
+    ${normalizeResponse(discordLink)}
+
+    ### Initiative Facebook
+    ${normalizeResponse(facebookLink)}
+
+    ### Initiative Instagram
+    ${normalizeResponse(instagramLink)}
+
+    ### Initiative TikTok
+    ${normalizeResponse(tiktokLink)}
+
+    ### Initiative X (Twitter)
+    ${normalizeResponse(twitterLink)}
+
+    ### Initiative LinkedIn
+    ${normalizeResponse(linkedinLink)}
+
+    ### Initiative Youtube Page / Channel
+    ${normalizeResponse(youtubeLink)}
+
+    ### Initiative Donation Link
+    ${normalizeResponse(donationLink)}
+
+    ### Initiative logo
+    ${normalizeResponse(logoLink)}
+
+    ### Initiative Tags
+    ${normalizeResponse(tags)}`;
+
 
     // Use the initiative name as the issue title + the required prefix
     var issueTitle = `[NEW-INITIATIVE]: ${initiativeName}`;
@@ -68,8 +116,7 @@ function onFormSubmit(e) {
 }
 
 function createGithubIssue(title, body) {
-  var scriptProperties = PropertiesService.getScriptProperties();
-  var githubToken = scriptProperties.getProperty('GITHUB_TOKEN');
+  var githubToken = PropertiesService.getUserProperties().getProperty('GITHUB_TOKEN');
   var repo = '4tals/LinksForIsrael';
   var url = 'https://api.github.com/repos/' + repo + '/issues';
 
@@ -82,25 +129,24 @@ function createGithubIssue(title, body) {
   var options = {
     method: 'post',
     headers: {
-      Authorization: 'token ' + githubToken,
-      Accept: 'application/vnd.github.v3+json'
+      Authorization: 'Bearer ' + githubToken,
+      Accept: 'application/vnd.github+json'
     },
     contentType: 'application/json',
     payload: JSON.stringify(payload),
-    muteHttpExceptions: true // This will prevent the script from throwing an exception on HTTP errors
   };
 
   try {
     var response = UrlFetchApp.fetch(url, options);
     Logger.log(response.getContentText());
   } catch (error) {
-    Logger.log('Error creating GitHub issue: ' + error.toString());
+    console.error('Error creating GitHub issue: ' + error.toString());
+    throw error;
   }
 }
 
 function testOnFormSubmit(row = 153) {
   var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
-  // Make sure this range includes all the headers for your form responses
   var headersRange = sheet.getRange("A1:Z1");
   var headers = headersRange.getValues()[0];
 
@@ -121,4 +167,9 @@ function testOnFormSubmit(row = 153) {
 
   var e = { namedValues: namedValues };
   onFormSubmit(e);
+}
+
+function setPersonalGithubToken() {
+  var personalGithubToken = 'your_actual_github_token'; // Replace with your actual token
+  PropertiesService.getUserProperties().setProperty('GITHUB_TOKEN', personalGithubToken);
 }
