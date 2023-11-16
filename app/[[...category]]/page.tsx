@@ -54,10 +54,7 @@ export default async function Category({
 
 	return (
 		<>
-			<ScrollableCategoriesList
-				categories={categories}
-				categoryId={categoryId}
-			/>
+			<ScrollableCategoriesList categories={categories} categoryId={categoryId} />
 			<Body
 				categories={categories}
 				categoryId={categoryId}

@@ -8,6 +8,7 @@ import { withScroll } from "@/app/components/withScroll/withScroll";
 
 import { analyticsService } from "../analytics";
 import { Category } from "../utils/categories";
+import { withScroll } from "@/app/components/withScroll/withScroll";
 
 const getNumberOfInitiatives = (category: Category) =>
 	category.subCategories.reduce(
