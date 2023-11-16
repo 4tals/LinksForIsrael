@@ -151,6 +151,24 @@
         "נגישות",
         "פינוי אנשים עם מוגבלויות"
       ]
+    },
+    {
+      "displayName": "אירוח ישראל מנצחת",
+      "name": "Now14Hosting",
+      "shortDescription": "רשימת מקומות אירוח לתושבי הדרום",
+      "description": "רשימת מקומות אירוח מתעדכנת על מפה, עם פרטי קשר של המארחים",
+      "initiativeValidationDetails": "Official Now 14 site",
+      "url": "https://special.now14.co.il/hosting/",
+      "website": "https://special.now14.co.il/hosting/",
+      "phone": "tel:+972-1-700-501-414",
+      "email": "mailto:info@now14.co.il",
+      "initiativeImage": "https://special.now14.co.il/wp-content/uploads/2023/10/%D7%99%D7%A9%D7%A8%D7%90%D7%9C-%D7%9E%D7%A0%D7%A6%D7%97%D7%AA2.png",
+      "tags": [
+        "אירוח",
+        "ישראל",
+        "דרום",
+        "מארחים"
+      ]
     }
   ]
 }
