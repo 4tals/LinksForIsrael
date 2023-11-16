@@ -1,12 +1,5 @@
 @media only screen and (max-width: 768px) {
-	// .logo {
-	// 	svg {
-	// 		width: 400px;
-	// 	}
-	// }
-	// .welcome-message-container .intro {
-	// 	width: 100%;
-	// }
+
 	.links-section-item-short-description {
 		display: block;
 		overflow: hidden;
@@ -48,23 +41,37 @@
 		margin-bottom: 10px;
 	}
 
+	.page-header {
+		height: 8svh;
+	}
+
+	.footer {
+		height: 7svh;
+	}
+
 	.main-content .desktop-content .links-subcategory-header {
 		margin-inline: 0;
 	}
 	.main-content {
-		--mobile-content: 62svh;
+		display: flex;
+		flex-direction: column;
+		height: 85svh;
+		max-width: 64em;
+		font-size: 1rem;
+		overflow-y: hidden;
 
-		height: 80svh;
-		.desktop-content {
-			height: var(--mobile-content, 62vh);
-		}
 		.desktop-category {
 			height: 130px;
+			top: 0;
+			z-index: 997;
+			width: 100%;
 		}
 		.icon-navbar {
 			gap: 15px;
 			height: 130px;
+			overflow: hidden;
 			.links-section {
+				-webkit-tap-highlight-color: transparent;
 				font-size: 14px;
 				position: relative;
 				width: 50px;
@@ -107,19 +114,14 @@
 				}
 			}
 		}
+
+		.desktop-grid {
+			position: relative;
+			display: block;
+		}
 	}
 
 	.links-section {
-		// align-items: center;
-		// border-radius: 4px;
-		// background-color: #eaeaea;
-		// margin-block-end: 8px;
-		// display: flex;
-		// flex-direction: column;
-		// width: 90vw;
-		// overflow: hidden;
-		// margin: 15px auto;
-
 		.links-section-content {
 			display: block;
 			width: 100%;
@@ -149,34 +151,6 @@
 
 	.category-icon {
 		margin-left: 10px;
-	}
-
-	.main-content {
-		max-width: 64em;
-		font-size: 1rem;
-		overflow-y: scroll;
-
-		.desktop-category {
-			top: 0;
-			z-index: 997;
-			// background: #bfbfbf;
-			width: 100%;
-		}
-
-		.menu-close {
-			height: 0;
-			transition: height 0.2s ease-out;
-		}
-
-		// .menu-open {
-		// 	height: 100%;
-		// 	transition: height .2s ease-in;
-		// }
-
-		.desktop-grid {
-			position: relative;
-			display: block;
-		}
 	}
 
 	::-webkit-scrollbar {
