@@ -116,6 +116,44 @@
         "לוחמה באנטישמיות",
         "בוט טלגרם"
       ]
+    },
+    {
+      "displayName": "לנצח כל אדיוט בויכוח",
+      "name": "fuck-hamas",
+      "shortDescription": "Argue Down Any Idiot In a matter of seconds",
+      "description": "Use our tool to fight antisemitism and pro-Palestinian idiots by fighting with hard facts and clear conviction",
+      "initiativeValidationDetails": "Published by legitimate profile: https://www.linkedin.com/feed/update/urn:li:activity:7119216100805857280?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7119216100805857280%2C7119226823388872704%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287119226823388872704%2Curn%3Ali%3Aactivity%3A7119216100805857280%29",
+      "url": "https://www.commentron.ai/fuck-hamas",
+      "website": "https://www.commentron.ai/fuck-hamas",
+      "linkedin": "https://www.linkedin.com/feed/update/urn:li:activity:7119216100805857280?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7119216100805857280%2C7119226823388872704%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287119226823388872704%2Curn%3Ali%3Aactivity%3A7119216100805857280%29",
+      "youtube": "https://www.youtube.com/watch?v=frUmtcaKnR4",
+      "initiativeImage": "https://static.wixstatic.com/media/7fc51c_44f03a54c5444ae09c34d96d1161643f~mv2.png/v1/fill/w_214,h_214,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/%D7%9E%D7%99%D7%96%D7%9D%20%D7%97%D7%93%D7%A9.png",
+      "tags": [
+        "לנצח",
+        "אדיוט",
+        "בויכוח",
+        "התנגדות",
+        "אנטישמיות"
+      ]
+    },
+    {
+      "displayName": "ישראל נלחמת בחזרה",
+      "name": "israelfightsback",
+      "shortDescription": "harness the global Israeli-supporting public to the advocacy efforts",
+      "description": "The platform fetches thousands of Tweets daily, employs various machine learning techniques and identifies each if it is pro Israel or against it. Use this tool to identify posts you support and report the bad guys.",
+      "initiativeValidationDetails": "Published by credible profile: https://www.linkedin.com/feed/update/urn:li:activity:7129593577231310848/",
+      "url": "http://israelfightsback.info/",
+      "website": "http://israelfightsback.info/",
+      "linkedin": "https://www.linkedin.com/feed/update/urn:li:activity:7129593577231310848/",
+      "initiativeImage": "https://www.gstatic.com/analytics-lego/svg/ic_looker_studio.svg",
+      "tags": [
+        "ישראל",
+        "נלחמת",
+        "חיזור",
+        "כלים",
+        "טוויטר",
+        "מערכתי למידה"
+      ]
     }
   ]
 }

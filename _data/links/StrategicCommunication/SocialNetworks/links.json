@@ -110,6 +110,25 @@
         "ארה\"ב",
         "מאבק אנטישמיות"
       ]
+    },
+    {
+      "displayName": "אוקט7 - אפילקצית תגובות",
+      "name": "Oct7.App",
+      "shortDescription": "אפליקציה לתגובות מהירות על פוסטים ויראליים",
+      "description": "חיזוק הסנטימנט הפרו-ישראלי באמצעות תגובות לפוסטים בעלי השפעה",
+      "initiativeValidationDetails": "Posted by legit account: https://www.linkedin.com/posts/shlomit-cohen_oct7-home-winning-the-social-media-war-activity-7129491902894120961-c_1q?utm_source=share&utm_medium=member_desktop",
+      "url": "https://app.oct7.io/",
+      "website": "https://www.oct7.io/",
+      "form": "https://docs.google.com/forms/d/e/1FAIpQLSelJNsyZfpKVdcIyrDKlGpb2Y65w3spI8PeWyd3nzKp8Yl_zA/viewform",
+      "linkedin": "https://www.linkedin.com/posts/shlomit-cohen_oct7-home-winning-the-social-media-war-activity-7129491902894120961-c_1q?utm_source=share&utm_medium=member_desktop",
+      "initiativeImage": "https://www.oct7.io/wp-content/uploads/2023/10/oct7-logo-squre-dark-mode-e1699204867126.webp",
+      "tags": [
+        "אוקט7",
+        "תגובות",
+        "פוסטים ויראליים",
+        "סנטימנט פרו-ישראלי",
+        "תקשורת אסטרטגית"
+      ]
     }
   ]
 }

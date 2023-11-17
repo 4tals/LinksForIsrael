@@ -30,7 +30,7 @@ export function AddSite() {
 						/>
 						<div className={styles.formContainer}>
 							<iframe
-								src="https://docs.google.com/forms/d/e/1FAIpQLSeZsW9WkleVF7-9Wtx6JKWTw9cInqJEpMocR54tZkwjAXPxRg/viewform?embedded=true"
+								src="https://docs.google.com/forms/d/e/1FAIpQLSco2RfeIn1glCPqC2JoPtN-lfmdmxu6HPy7JjHnt66ktk8SAw/viewform?embedded=true"
 								width="300"
 								height="520"
 								frameBorder={0}
