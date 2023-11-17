@@ -117,6 +117,25 @@
         "התנגדות",
         "אנטישמיות"
       ]
+    },
+    {
+      "displayName": "ישראל נלחמת בחזרה",
+      "name": "israelfightsback",
+      "shortDescription": "harness the global Israeli-supporting public to the advocacy efforts",
+      "description": "The platform fetches thousands of Tweets daily, employs various machine learning techniques and identifies each if it is pro Israel or against it. Use this tool to identify posts you support and report the bad guys.",
+      "initiativeValidationDetails": "Published by credible profile: https://www.linkedin.com/feed/update/urn:li:activity:7129593577231310848/",
+      "url": "http://israelfightsback.info/",
+      "website": "http://israelfightsback.info/",
+      "linkedin": "https://www.linkedin.com/feed/update/urn:li:activity:7129593577231310848/",
+      "initiativeImage": "https://www.gstatic.com/analytics-lego/svg/ic_looker_studio.svg",
+      "tags": [
+        "ישראל",
+        "נלחמת",
+        "חיזור",
+        "כלים",
+        "טוויטר",
+        "מערכתי למידה"
+      ]
     }
   ]
 }
