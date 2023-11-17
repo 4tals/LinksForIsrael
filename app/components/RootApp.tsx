@@ -8,36 +8,11 @@ import { useIsMobile } from "@/app/hooks/useIsMobile";
 import { Category } from "@/app/utils/categories";
 
 import { Header } from "./Header/Header";
-
-interface SearchContextProps {
-	search: string;
-	results: Category[];
-	onSearch: (search: string) => void;
-	isMobileSearchOpen: boolean;
-	toggleMobileSearch: () => void;
-}
-
-interface MenuContextProps {
-	isMenuOpen: boolean;
-	toggleMenu: () => void;
-	isMobile: boolean;
-}
-
-const noop = () => {};
-
-const initialSearchContext: SearchContextProps = {
-	search: "",
-	results: [],
-	onSearch: noop,
-	isMobileSearchOpen: false,
-	toggleMobileSearch: noop,
-};
-
-const initialMenuContext: MenuContextProps = {
-	isMenuOpen: false,
-	toggleMenu: noop,
-	isMobile: false,
-};
+import { MenuContextProps, initialMenuContext } from "./RootAppConsts";
+import {
+	SearchContextProps,
+	initialSearchContext,
+} from "./Search/SearchConsts";
 
 export const SearchContext =
 	createContext<SearchContextProps>(initialSearchContext);

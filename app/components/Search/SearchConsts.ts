@@ -1,3 +1,21 @@
+import { Category } from "@/app/utils/categories";
+
+export interface SearchContextProps {
+	search: string;
+	results: Category[];
+	onSearch: (search: string) => void;
+	isMobileSearchOpen: boolean;
+	toggleMobileSearch: () => void;
+}
+
+export const initialSearchContext: SearchContextProps = {
+	search: "",
+	results: [],
+	onSearch: () => {},
+	isMobileSearchOpen: false,
+	toggleMobileSearch: () => {},
+};
+
 export const hebrewMapping = {
 	// taken from https://github.com/ai/convert-layout/blob/master/he.json
 	q: "/",
