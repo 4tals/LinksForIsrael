@@ -7,36 +7,46 @@ import { mapStringToHebrew } from "./SearchHelpers";
 
 function filterCategories(
 	categories: Category[],
+	generalAssistanceSubCategory: SubCategoryData,
 	searchTerm: string,
 ): Category[] {
-	const filteredCategories: Category[] = [];
-	categories.forEach((category) => {
-		const filteredSubCategories = category.subCategories
-			.map((subCategory) => {
-				const filteredLinks: Link[] = subCategory.links.filter((link) => {
-					const lowerSearchTerm = searchTerm.toLowerCase();
-					return (
-						link.name?.toLowerCase().includes(lowerSearchTerm) ||
-						link.displayName?.toLowerCase().includes(lowerSearchTerm) ||
-						link.description?.toLowerCase().includes(lowerSearchTerm) ||
-						link.shortDescription?.toLowerCase().includes(lowerSearchTerm) ||
-						link.tags?.some((tag) =>
-							tag.toLowerCase().includes(lowerSearchTerm),
-						)
+	const lowerSearchTerm = searchTerm.toLowerCase();
+
+	// Create a mock category for generalAssistanceSubCategory
+	const generalAssistanceCategory: Category = {
+		id: "",
+		name: "",
+		displayName: "סיוע אזרחי כללי",
+		longDisplayName: "",
+		description: "",
+		image: "", // Provide a default image or leave it empty
+		subCategories: [generalAssistanceSubCategory],
+	};
+
+	const allCategories = [...categories, generalAssistanceCategory];
+
+	const filteredCategories: Category[] = allCategories
+		.map((category) => {
+			const filteredSubCategories = category.subCategories
+				.map((subCategory) => {
+					const filteredLinks = subCategory.links.filter(
+						(link) =>
+							link.name?.toLowerCase().includes(lowerSearchTerm) ||
+							link.displayName?.toLowerCase().includes(lowerSearchTerm) ||
+							link.description?.toLowerCase().includes(lowerSearchTerm) ||
+							link.shortDescription?.toLowerCase().includes(lowerSearchTerm) ||
+							link.tags?.some((tag) =>
+								tag.toLowerCase().includes(lowerSearchTerm),
+							),
 					);
-				});
 
-				return { ...subCategory, links: filteredLinks };
-			})
-			.filter((subCategory) => subCategory.links.length > 0);
+					return { ...subCategory, links: filteredLinks };
+				})
+				.filter((subCategory) => subCategory.links.length > 0);
 
-		if (filteredSubCategories.length > 0) {
-			filteredCategories.push({
-				...category,
-				subCategories: filteredSubCategories,
-			});
-		}
-	});
+			return { ...category, subCategories: filteredSubCategories };
+		})
+		.filter((category) => category.subCategories.length > 0);
 
 	return filteredCategories;
 }
@@ -49,7 +59,11 @@ function getResults(
 	if (!searchTerm) {
 		return [];
 	}
-	const results = filterCategories(categories, searchTerm);
+	const results = filterCategories(
+		categories,
+		generalAssistanceSubCategory,
+		searchTerm,
+	);
 	if (results.length !== 0) {
 		return results;
 	}
@@ -59,7 +73,11 @@ function getResults(
 		return [];
 	}
 
-	return filterCategories(categories, mappedSearchTerm);
+	return filterCategories(
+		categories,
+		generalAssistanceSubCategory,
+		mappedSearchTerm,
+	);
 }
 
 export function useSearch(
