@@ -1,6 +1,6 @@
 import { useCallback, useState } from "react";
 
-import { analyticsService } from "@/app/analytics";
+import { analyticsService } from "@/app/utils/analytics";
 import { Category, Link } from "@/app/utils/categories";
 
 export interface LinkResult extends Link {
@@ -31,7 +31,9 @@ export function useSearch(categories: Category[]) {
 							link.displayName?.toLowerCase().includes(lowerSearchTerm) ||
 							link.description?.toLowerCase().includes(lowerSearchTerm) ||
 							link.shortDescription?.toLowerCase().includes(lowerSearchTerm) ||
-							link.tags?.some((tag) => tag.toLowerCase().includes(lowerSearchTerm))
+							link.tags?.some((tag) =>
+								tag.toLowerCase().includes(lowerSearchTerm),
+							)
 						);
 					});
 

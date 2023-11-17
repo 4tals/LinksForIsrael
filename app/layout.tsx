@@ -7,9 +7,9 @@ import "@fortawesome/fontawesome-svg-core/styles.css";
 import { Footer } from "./components/Footer";
 import { GTag } from "./components/Gtag";
 import MetaDataComponent from "./components/MetadataComponent";
-import "./globals.css";
-import "./main.scss";
 import "./mixpanel";
+import "./styles/globals.css";
+import "./styles/main.scss";
 import { getCategories } from "./utils/categories";
 
 fontAwesomeConfig.autoAddCss = false;
