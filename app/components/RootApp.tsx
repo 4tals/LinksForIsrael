@@ -2,41 +2,17 @@
 
 import { createContext, useCallback, useState } from "react";
 
-import { Header } from "@/app/components/Header";
-import { useSearch } from "@/app/components/Header/useSearch";
-import { MobileSearchInput } from "@/app/components/MobileSearchInput";
+import { MobileSearchInput } from "@/app/components/Search/MobileSearchInput";
+import { useSearch } from "@/app/components/Search/useSearch";
 import { useIsMobile } from "@/app/hooks/useIsMobile";
-import { Category } from "@/app/utils/categories";
+import { Category, SubCategoryData } from "@/app/utils/categories";
 
-interface SearchContextProps {
-	search: string;
-	results: Category[];
-	onSearch: (search: string) => void;
-	isMobileSearchOpen: boolean;
-	toggleMobileSearch: () => void;
-}
-
-interface MenuContextProps {
-	isMenuOpen: boolean;
-	toggleMenu: () => void;
-	isMobile: boolean;
-}
-
-const noop = () => {};
-
-const initialSearchContext: SearchContextProps = {
-	search: "",
-	results: [],
-	onSearch: noop,
-	isMobileSearchOpen: false,
-	toggleMobileSearch: noop,
-};
-
-const initialMenuContext: MenuContextProps = {
-	isMenuOpen: false,
-	toggleMenu: noop,
-	isMobile: false,
-};
+import { Header } from "./Header/Header";
+import { MenuContextProps, initialMenuContext } from "./RootAppConsts";
+import {
+	SearchContextProps,
+	initialSearchContext,
+} from "./Search/SearchConsts";
 
 export const SearchContext =
 	createContext<SearchContextProps>(initialSearchContext);
@@ -44,14 +20,16 @@ export const MenuContext = createContext<MenuContextProps>(initialMenuContext);
 
 export function RootApp({
 	categories,
+	generalAssistanceSubCategory,
 	children,
 }: {
 	categories: Category[];
+	generalAssistanceSubCategory: SubCategoryData;
 	children: React.ReactNode;
 }) {
 	const isMobile = useIsMobile();
 	const { search, onSearch, results, isMobileSearchOpen, toggleMobileSearch } =
-		useSearch(categories);
+		useSearch(categories, generalAssistanceSubCategory);
 	const [isMenuOpen, setIsMenuOpen] = useState(!isMobile);
 
 	const toggleMenu = useCallback(() => {

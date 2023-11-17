@@ -1,8 +1,8 @@
 import { Banner } from "@/app/components/Header/Banner";
 
 import { AddSite } from "../AddSite";
-import { SearchButtonMobile } from "./SearchButtonMobile";
-import { SearchFormWeb } from "./SearchFormWeb";
+import { SearchButtonMobile } from "../Search/SearchButtonMobile";
+import { SearchFormWeb } from "../Search/SearchFormWeb";
 
 export function Header() {
 	return (

@@ -1,10 +1,11 @@
 {
   "name": "Medical",
-  "displayName": "רפואה",
+  "displayName": "בריאות ונפש",
   "description": "",
-  "image": "https://w7.pngwing.com/pngs/313/516/png-transparent-stethoscope-icon-stethoscope-icon-medical-icons-medical-icon-medicine-doctor-diagnosis-diagnose-clinic-thumbnail.png",
+  "image": "https://cdn-icons-png.flaticon.com/512/2966/2966327.png",
   "subCategories": [
     "Main",
-    "Info"
+    "Info",
+    "MentalSupport"
   ]
 }
