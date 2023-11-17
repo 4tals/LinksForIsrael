@@ -4,10 +4,10 @@ import Link from "next/link";
 import { useContext, useEffect } from "react";
 
 import { SearchContext } from "@/app/components/RootApp";
-
-import { analyticsService } from "../analytics";
-import { Category } from "../utils/categories";
 import { withScroll } from "@/app/components/withScroll/withScroll";
+
+import { analyticsService } from "../utils/analytics";
+import { Category } from "../utils/categories";
 
 const getNumberOfInitiatives = (category: Category) =>
 	category.subCategories.reduce(
@@ -29,7 +29,7 @@ const CategoriesList = ({
 		selected.scrollIntoView({
 			behavior: "auto",
 			inline: "center",
-			block: 'nearest',
+			block: "nearest",
 		});
 	}, []);
 
@@ -74,7 +74,7 @@ const CategoriesList = ({
 			))}
 		</div>
 	);
-}
+};
 
 const ScrollableCategoriesList = withScroll(CategoriesList);
-export { ScrollableCategoriesList }; 
+export { ScrollableCategoriesList };
