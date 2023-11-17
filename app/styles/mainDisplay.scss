@@ -183,13 +183,11 @@
 	}
 	.icon-navbar {
 		display: flex;
-		width: 95vw;
+		padding: 0 2px;
 		gap: 5px;
-		height: 90px;
-		overflow-x: auto;
-		margin: 0 auto;
+		height: 70px;
+		width: fit-content;
 		align-items: center;
-		scroll-behavior: smooth;
 		.links-section {
 			border: solid 1px var(--color-divider);
 			border-radius: 5px;
@@ -216,23 +214,11 @@
 					filter: grayscale(0%);
 				}
 			}
+			&::-webkit-scrollbar {
+				display: none;
+			}
 		}
 	}
-
-	.desktop-category {
-		overflow: hidden;
-		height: 70px;
-	}
-
-	.menu-close {
-		width: 62px;
-		transition: width 0.2s ease-out;
-	}
-
-	// .menu-open {
-	// 	width: 300px;
-	// 	transition: width 0.2s ease-in;
-	// }
 
 	.category-description {
 		font-size: larger;

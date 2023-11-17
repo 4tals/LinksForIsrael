@@ -108,6 +108,27 @@
         "חירום",
         "טכנולוגיה"
       ]
+    },
+    {
+      "displayName": "סיוע מקצועי בשעת חירום - Startup for Startup",
+      "name": "StartupForStartupEmergencySupport",
+      "shortDescription": "התחברו לאיזור האישי באתר שלנו, הציעו עזרה וקבלו סיוע מחברי וחברות הקהילה",
+      "description": "כמו כל מדינת ישראל, גם קהילת ההייטק נכנסה למצב חירום ב-7 לאוקטובר. אם נתקלתם באתגר משמעותי או נקלעתם לקשיים כתוצאה מהמצב, כאן תוכלו למצוא יזמים/ות, משקיעים/ות וגורמים נוספים בקהילה שישמחו לעזור - בין אם זה על ידי מתן שעות ייעוץ, סיוע בפיתוח המוצר או חיבור לאנשים רלוונטיים מחברות אחרות באקוסיסטם. סננו לפי תפקיד ותחום התמחות, גלו מי יכול/ה לעזור ושלחו להם הודעה.",
+      "initiativeValidationDetails": "Well known Facebook group: https://www.facebook.com/groups/startupforstartup/posts/1540440326827937/",
+      "url": "https://www.startupforstartup.com/personalArea/?tab=help_community",
+      "website": "https://www.startupforstartup.com/personalArea/?tab=help_community",
+      "facebook": "https://www.facebook.com/groups/startupforstartup/posts/1540440326827937/",
+      "instagram": "https://www.instagram.com/startupforstartup/",
+      "twitter": "https://twitter.com/strtup4strtup",
+      "linkedin": "https://www.linkedin.com/company/startupforstartup/",
+      "youtube": "https://www.youtube.com/channel/UCdX9-SCjBs0I4ZR3JJqtoaQ",
+      "initiativeImage": "https://www.startupforstartup.com/wp-content/themes/astra-child/images/logo.svg",
+      "tags": [
+        "סיוע",
+        "הייטק",
+        "משבר",
+        "יזמות"
+      ]
     }
   ]
 }
