@@ -100,6 +100,24 @@
       ]
     },
     {
+      "displayName": "להלחם בחזרה בטלגרם",
+      "name": "FightBackAI",
+      "shortDescription": "LLM’s enlisted to help Hasbara",
+      "description": "We've empowered over 1,700 individuals through our AI-driven public diplomacy efforts, and we're just getting started 🇮🇱. One month ago was the deadliest day Israel ever had. After the first two weeks of shock, Roy S. and I felt the call to help in the public diplomacy front. With our product and tech background, we developed a genAI solution.",
+      "initiativeValidationDetails": "Source: Are you the developer? If not, how did you hear about it?",
+      "url": "https://t.me/fightbackai_bot",
+      "website": "https://t.me/fightbackai_bot",
+      "telegram": "https://t.me/fightbackai_bot",
+      "initiativeImage": "https://cdn4.cdn-telegram.org/file/PBHJ3Be-OLv2Kf8CDAiUUcDEBjuURHML_x9P7Omptgo-9_RJhKx-MO1bWyvTFHCiDvUuf4ByK11SLEmWdZz6u7030_mILoKd2Xrk3_5CpSMW2z5_VCx0EGy5t6JzVlpOhyE7XyOU-SxGniGgF5d81Wvbt6N5bfD7t5GvZeGpO61Kdfz14CRaTuCm3_lTzaVzkhf2NC5hDXH-A-V-_Gy8YjnrpoX2FzNVUzsYmZT8gfIUmN_-0lipi3OeEmgCWuYJFiqz3dNpP7f_CPOtEn2Oq8nCae3xYzoDij5SvsIXsey-lxwyBLccLTPhvExRVKI4cf2Mn_h20aHrm69M9GNDuA.jpg",
+      "tags": [
+        "הסברה",
+        "דיפלומטיה ציבורית",
+        "AI",
+        "לוחמה באנטישמיות",
+        "בוט טלגרם"
+      ]
+    },
+    {
       "displayName": "לנצח כל אדיוט בויכוח",
       "name": "fuck-hamas",
       "shortDescription": "Argue Down Any Idiot In a matter of seconds",
