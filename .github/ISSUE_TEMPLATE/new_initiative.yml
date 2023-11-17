@@ -62,7 +62,6 @@ body:
         - Medical/Main
         - Medical/Info
         - MemorialRemembrance/Main
-        - MentalSupport/Main
         - MissingPersons/Main
         - Reserves/Main
         - StrategicCommunication/Funding
