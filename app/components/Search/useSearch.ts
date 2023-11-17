@@ -1,12 +1,9 @@
 import { useCallback, useState } from "react";
 
-import { analyticsService } from "@/app/utils/analytics";
+import { analyticsService } from "@/app/utils/analytica/analytics";
 import { Category, Link } from "@/app/utils/categories";
 
-export interface LinkResult extends Link {
-	category: string;
-	subCategory: string;
-}
+import { mapStringToHebrew } from "./SearchHelpers";
 
 export function useSearch(categories: Category[]) {
 	const [search, setSearch] = useState("");
@@ -84,17 +81,6 @@ export function useSearch(categories: Category[]) {
 
 			return filterCategories(mappedSearchTerm);
 		}
-
-		function mapStringToHebrew(s: string) {
-			s = s.toLowerCase();
-			const chars = s.split("");
-			if (chars.every(hasHebrewMapping)) {
-				const mapped = chars.map((c) => hebrewMapping[c]).join("");
-				return mapped === s ? null : mapped;
-			}
-
-			return null;
-		}
 	}
 
 	return {
@@ -104,57 +90,4 @@ export function useSearch(categories: Category[]) {
 		isMobileSearchOpen,
 		toggleMobileSearch,
 	} as const;
-}
-
-const hebrewMapping = {
-	// taken from https://github.com/ai/convert-layout/blob/master/he.json
-	q: "/",
-	w: "'",
-	e: "ק",
-	r: "ר",
-	t: "א",
-	y: "ט",
-	u: "ו",
-	i: "ן",
-	o: "ם",
-	p: "פ",
-	"[": "]",
-	"{": "}",
-	"]": "[",
-	"}": "{",
-	"\\": "\\",
-	"|": "|",
-	a: "ש",
-	s: "ד",
-	d: "ג",
-	f: "כ",
-	g: "ע",
-	h: "י",
-	j: "ח",
-	k: "ל",
-	l: "ך",
-	";": "ף",
-	":": ":",
-	"'": ",",
-	'"': '"',
-	z: "ז",
-	x: "ס",
-	c: "ב",
-	v: "ה",
-	b: "נ",
-	n: "מ",
-	m: "צ",
-	",": "ת",
-	"<": ">",
-	".": "ץ",
-	">": "<",
-	"/": ".",
-	"?": "?",
-	" ": " ",
-	"-": "-",
-	_: "_",
-} as const;
-
-function hasHebrewMapping(s: string): s is keyof typeof hebrewMapping {
-	return s in hebrewMapping;
 }
