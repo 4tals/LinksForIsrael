@@ -154,6 +154,24 @@
         "טוויטר",
         "מערכתי למידה"
       ]
+    },
+    {
+      "displayName": "אלה GPT",
+      "name": "EllaGPT",
+      "shortDescription": "Sharp, sarcastic tweets countering hate speech in 220 characters.",
+      "description": "התחלתי לשחק עם GPTs והדבר הראשון שחשבתי עליו הוא בוט שכותב תגובות לאנטישמים ומכחישי מציאות בטוויטר. מוזמנים להשתמש ב-EllaGPT. פשוט תעתיקו פוסט ותעתיקו את התשובה אליו חזרה. אם יש לכם הצעות לשיפור, מוזמנים לשלוח הודעה",
+      "initiativeValidationDetails": "published by legit profile: https://twitter.com/alono88/status/1723275520798769174",
+      "url": "https://chat.openai.com/g/g-Q9aS12PPv-ellagpt",
+      "website": "https://chat.openai.com/g/g-Q9aS12PPv-ellagpt",
+      "twitter": "https://twitter.com/alono88/status/1723275520798769174",
+      "initiativeImage": "https://files.oaiusercontent.com/file-MU4ESr3Qd3qezjsHSBrawoR4?se=2123-10-18T20%3A07%3A46Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3Dellagptlogo.PNG&sig=GBfjBYAlor8BbTl3QN9TQzNbAFYMeLkGDzhwYYqouJI%3D",
+      "tags": [
+        "אלה GPT",
+        "בוט",
+        "טוויטר",
+        "מכחישי מציאות",
+        "אנטישמים"
+      ]
     }
   ]
 }
