@@ -5,7 +5,7 @@ import { createContext, useCallback, useState } from "react";
 import { MobileSearchInput } from "@/app/components/Search/MobileSearchInput";
 import { useSearch } from "@/app/components/Search/useSearch";
 import { useIsMobile } from "@/app/hooks/useIsMobile";
-import { Category } from "@/app/utils/categories";
+import { Category, SubCategoryData } from "@/app/utils/categories";
 
 import { Header } from "./Header/Header";
 import { MenuContextProps, initialMenuContext } from "./RootAppConsts";
@@ -20,14 +20,16 @@ export const MenuContext = createContext<MenuContextProps>(initialMenuContext);
 
 export function RootApp({
 	categories,
+	generalAssistanceSubCategory,
 	children,
 }: {
 	categories: Category[];
+	generalAssistanceSubCategory: SubCategoryData;
 	children: React.ReactNode;
 }) {
 	const isMobile = useIsMobile();
 	const { search, onSearch, results, isMobileSearchOpen, toggleMobileSearch } =
-		useSearch(categories);
+		useSearch(categories, generalAssistanceSubCategory);
 	const [isMenuOpen, setIsMenuOpen] = useState(!isMobile);
 
 	const toggleMenu = useCallback(() => {

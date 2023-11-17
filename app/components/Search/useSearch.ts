@@ -1,11 +1,14 @@
 import { useCallback, useState } from "react";
 
 import { analyticsService } from "@/app/utils/analytica/analytics";
-import { Category, Link } from "@/app/utils/categories";
+import { Category, Link, SubCategoryData } from "@/app/utils/categories";
 
 import { mapStringToHebrew } from "./SearchHelpers";
 
-export function useSearch(categories: Category[]) {
+export function useSearch(
+	categories: Category[],
+	generalAssistanceSubCategory: SubCategoryData,
+) {
 	const [search, setSearch] = useState("");
 	const [displaySearchResults, setDisplaySearchResults] = useState<Category[]>(
 		[],

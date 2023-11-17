@@ -10,7 +10,7 @@ import "./styles/globals.css";
 import "./styles/main.scss";
 import { GTag } from "./utils/analytica/Gtag";
 import "./utils/analytica/mixpanel";
-import { getCategories } from "./utils/categories";
+import { getAssistanceSubCategory, getCategories } from "./utils/categories";
 
 fontAwesomeConfig.autoAddCss = false;
 
@@ -27,6 +27,8 @@ export default async function RootLayout({
 	children: React.ReactNode;
 }) {
 	const categories = await getCategories();
+	const assistanceSubCategory = await getAssistanceSubCategory();
+
 	return (
 		<html lang="he" className={rubik.variable}>
 			<head>
@@ -34,7 +36,12 @@ export default async function RootLayout({
 				<MetaDataComponent />
 			</head>
 			<body dir="rtl">
-				<RootApp categories={categories}>{children}</RootApp>
+				<RootApp
+					categories={categories}
+					generalAssistanceSubCategory={assistanceSubCategory}
+				>
+					{children}
+				</RootApp>
 			</body>
 			<Footer />
 		</html>
