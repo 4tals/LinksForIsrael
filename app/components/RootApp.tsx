@@ -2,11 +2,12 @@
 
 import { createContext, useCallback, useState } from "react";
 
-import { Header } from "@/app/components/Header";
-import { useSearch } from "@/app/components/Header/useSearch";
-import { MobileSearchInput } from "@/app/components/MobileSearchInput";
+import { MobileSearchInput } from "@/app/components/Search/MobileSearchInput";
+import { useSearch } from "@/app/components/Search/useSearch";
 import { useIsMobile } from "@/app/hooks/useIsMobile";
 import { Category } from "@/app/utils/categories";
+
+import { Header } from "./Header/Header";
 
 interface SearchContextProps {
 	search: string;

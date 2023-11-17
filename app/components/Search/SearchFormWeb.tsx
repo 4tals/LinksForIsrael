@@ -1,4 +1,4 @@
-import { SearchInput } from "@/app/components/Header/SearchInput";
+import { SearchInput } from "@/app/components/Search/SearchInput";
 
 export function SearchFormWeb() {
 	return (

@@ -6,7 +6,7 @@ import { useContext, useEffect } from "react";
 import { SearchContext } from "@/app/components/RootApp";
 import { withScroll } from "@/app/components/withScroll/withScroll";
 
-import { analyticsService } from "../utils/analytics";
+import { analyticsService } from "../utils/analytica/analytics";
 import { Category } from "../utils/categories";
 
 const getNumberOfInitiatives = (category: Category) =>

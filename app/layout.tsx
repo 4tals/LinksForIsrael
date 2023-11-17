@@ -5,11 +5,11 @@ import { config as fontAwesomeConfig } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 
 import { Footer } from "./components/Footer";
-import { GTag } from "./components/Gtag";
 import MetaDataComponent from "./components/MetadataComponent";
-import "./mixpanel";
 import "./styles/globals.css";
 import "./styles/main.scss";
+import { GTag } from "./utils/analytica/Gtag";
+import "./utils/analytica/mixpanel";
 import { getCategories } from "./utils/categories";
 
 fontAwesomeConfig.autoAddCss = false;
