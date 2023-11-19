@@ -35,9 +35,9 @@ const linksFolder = `${process.env.GITHUB_WORKSPACE}/_data/links`;
 const dirents = await fs.readdir(linksFolder, { withFileTypes: true, recursive: true });
 let index = 0;
 for (const dirent of dirents) {
+  const absolutePath = resolve(dirent.path, dirent.name);
   console.log(`processing file #${++index}/${dirents.length}: ${absolutePath}`);
 
-  const absolutePath = resolve(dirent.path, dirent.name);
   if (!dirent.isFile || (extname(absolutePath).toLocaleUpperCase("en-us") !== ".JSON")) {
     console.debug(`Skipping non-JSON file: ${absolutePath}`);
     continue;
