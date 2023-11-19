@@ -164,7 +164,7 @@ The value of property \`${prop}\` (\`${value}\`) is already present in \`${linkJ
 \`\`\`json
 ${linksJsonString}
 \`\`\`
-**If this is a mistake and it doesn't already exist:** edit the issue's title so that it starts with **\`[NEW-INITIATIVE-FORCE-PR]:\`**`,
+**If this is a mistake and it doesn't already exist:** edit the issue's title so that it starts with **\`[FORCE-PR-NEW-INITIATIVE]:\`**`,
              "Suspected existing initiative",
               markdownNewInitiativeJson)
           return true;
@@ -173,6 +173,27 @@ ${linksJsonString}
     }
 
     return false;
+  }
+
+  async function updateExistingInitiativeAsync(categoryJson, newInitiativeJson, markdownNewInitiativeJson) {
+    const initiativeName = newInitiativeJson.name;
+
+    if (!(initiativeName?.trim())) {
+      await warnAndCommentAsync(
+        "When updating an initiative, you must provide a name that matches the name of an existing initiative", 
+        "no initiative name provided", 
+        markdownNewInitiativeJson);
+      return false;
+    }
+    
+    const existingCategoryIndex = categoryJson.links.findIndex((link => { link.name?.localeCompare(initiativeName, undefined, { sensitivity: 'accent' }) === 0 } ))
+    if (existingCategoryIndex === -1) {
+      await warnAndCommentAsync(`Could not find existing initiative '${initiativeName}' in category '${category}'`, "initiative not found", markdownNewInitiativeJson);
+      return false;
+    }
+
+    categoryJson.links[existingCategoryIndex] = newInitiativeJson;
+    return true;
   }
 
   const tempFolder = process.env.TEMP || "/tmp";
@@ -199,11 +220,26 @@ ${linksJsonString}
     return await warnAndCommentAsync("Could not process GPT response as JSON", e, jsonString);
   }
 
-  const markdownNewInitiativeJson = "```json\n" + JSON.stringify(newInitiativeJson, null, 2) + "\n```";
+  // saving the category before we delete it from the object
+  category = newInitiativeJson.category
+  removeRedundantInitiativeJsonProperties(newInitiativeJson); 
+
+  const issueTitleUpper = process.env.ISSUE_TITLE.toLocaleUpperCase("en-us");
+  const forceNewInitiative = issueTitleUpper.startsWith("[FORCE-PR-NEW-INITIATIVE]:");
+  const updateInitiative = issueTitleUpper.startsWith("[UPDATE-INITIATIVE]:");
+
+  if (forceNewInitiative) {
+    console.warn("FORCE-PR requested: skipping existing initiative validation");
+  }
+  else if (!updateInitiative && await detectExistingInitiativeAsync(newInitiativeJson)) {
+    return;
+  }
   
+  // TODO move to comment function
+  const markdownNewInitiativeJson = "```json\n" + JSON.stringify(newInitiativeJson, null, 2) + "\n```";
   let categoryLinksJsonFile;
   try {
-    categoryLinksJsonFile = `${process.env.GITHUB_WORKSPACE}/_data/links/${newInitiativeJson.category}/links.json`;
+    categoryLinksJsonFile = `${process.env.GITHUB_WORKSPACE}/_data/links/${category}/links.json`;
     console.log("resolved category links file: " + categoryLinksJsonFile);
 
     const categoryJsonString = await fs.readFile(categoryLinksJsonFile, "utf8");
@@ -213,16 +249,16 @@ ${linksJsonString}
     return await warnAndCommentAsync("Could not process category links JSON", e, markdownNewInitiativeJson);
   }
 
-  removeRedundantInitiativeJsonProperties(newInitiativeJson); 
-
-  if (process.env.ISSUE_TITLE.toLocaleUpperCase("en-us").startsWith("[NEW-INITIATIVE-FORCE-PR]:")) {
-    console.warn("FORCE-PR requested: skipping existing initiative validation");
+  if (updateInitiative) {
+    const edited = await updateExistingInitiativeAsync(categoryJson, newInitiativeJson, markdownNewInitiativeJson)
+    if (!edited) {
+      return;
+    }
   }
-  else if (await detectExistingInitiativeAsync(newInitiativeJson)) {
-    return;
+  else {
+    categoryJson.links.push(newInitiativeJson);
   }
   
-  categoryJson.links.push(newInitiativeJson);
   await fs.writeFile(categoryLinksJsonFile, JSON.stringify(categoryJson, null, 2), "utf8");
 
   const branch = `auto-pr-${context.issue.number}`;
