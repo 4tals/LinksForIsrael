@@ -45,7 +45,7 @@ dependencies:
     specifier: ^2.47.0
     version: 2.47.0
   next:
-    specifier: 14.0.3
+    specifier: ^14.0.3
     version: 14.0.3(react-dom@18.2.0)(react@18.2.0)(sass@1.69.5)
   react:
     specifier: ^18.2.0
@@ -98,7 +98,7 @@ devDependencies:
     specifier: ^8
     version: 8.52.0
   eslint-config-next:
-    specifier: 14.0.3
+    specifier: ^14.0.3
     version: 14.0.3(eslint@8.52.0)(typescript@5.2.2)
   husky:
     specifier: ^8.0.3
