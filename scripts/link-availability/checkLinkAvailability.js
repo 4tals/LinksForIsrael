@@ -35,20 +35,19 @@ const linksFolder = `${process.env.GITHUB_WORKSPACE}/_data/links`;
 const dirents = await fs.readdir(linksFolder, { withFileTypes: true, recursive: true });
 let index = 0;
 for (const dirent of dirents) {
-  const absolutePath = resolve(dirent.path, dirent.name);
+  console.log(`processing file #${++index}/${dirents.length}: ${absolutePath}`);
 
+  const absolutePath = resolve(dirent.path, dirent.name);
   if (!dirent.isFile || (extname(absolutePath).toLocaleUpperCase("en-us") !== ".JSON")) {
     console.debug(`Skipping non-JSON file: ${absolutePath}`);
     continue;
   }
 
-  console.log(`processing links file #${++index}/${dirents.length}: ${absolutePath}`);
-
   const linksJsonString = await fs.readFile(absolutePath, "utf8");
   const linksJson = JSON.parse(linksJsonString);
 
   if (!linksJson.links) {
-    console.info("No links property foind, skipping JSON (assuming category descriptor)")
+    console.info("No links property found, skipping JSON (assuming category descriptor)")
     continue;
   }
 
@@ -67,7 +66,7 @@ for (const dirent of dirents) {
       }
 
       if (!val.toLocaleUpperCase("en-us").startsWith("HTTP")) {
-        console.debug(`Only http/https URLs are supported`);
+        console.debug(`Only http[s] URLs are supported`);
         continue;
       }
 
@@ -86,8 +85,8 @@ for (const dirent of dirents) {
       try {
         new URL(url);
       }
-      catch {
-        console.debug(`Value of property ${prop} could not be parsed as a URL: ${url}`);
+      catch (e) {
+        console.debug(`Value of property ${prop} could not be parsed as a URL: ${url}\n${e}`);
         continue;
       }
 
@@ -108,6 +107,7 @@ if (unavailableUrls.length > 0) {
   }
 
   const [owner, repo] = process.env.GITHUB_REPOSITORY.split('/');
+  // TODO - edit existing issue
   octokit.rest.issues.create({
     owner: owner,
     repo: repo,
