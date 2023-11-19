@@ -3,7 +3,8 @@ function onFormSubmit(e) {
 
     // Helper function to normalize the response
     function normalizeResponse(value) {
-        return value && value.trim() ? value.trim() : "_No response_";
+        const trimmedValue = value?.trim();
+        return trimmedValue ? trimmedValue : "_No response_";
     }
 
     // Construct the issue body using the form response data with markdown
@@ -129,7 +130,7 @@ function createGithubIssue(title, body) {
 
     try {
         var response = UrlFetchApp.fetch(url, options);
-        Logger.log(response.getContentText());
+        console.log(response.getContentText());
     } catch (error) {
         console.error('Error creating GitHub issue: ' + error.toString());
         throw error;
