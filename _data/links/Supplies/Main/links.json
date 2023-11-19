@@ -28,6 +28,28 @@
         "אזרחים",
         "קרב"
       ]
+    },
+    {
+      "displayName": "מוקד אט'ל לפניות ציוד חסר בצבא",
+      "name": "IdfMissingEquipmentHotline",
+      "shortDescription": "מוקד פניות בנושאי מזון, ציוד ולוגיסטיקה",
+      "description": "אגף הטכנולוגיה והלוגיסטיקה מפעיל מוקד פניות בנושאי מזון, ציוד ולוגיסטיקה הזמין 7/24 עבור משרתי צה״ל",
+      "initiativeValidationDetails": "Source: Official IDF website",
+      "url": "https://wa.me/972526156256",
+      "website": "https://www.idf.il/%D7%90%D7%AA%D7%A8%D7%99-%D7%99%D7%97%D7%99%D7%93%D7%95%D7%AA/%D7%99%D7%95%D7%9E%D7%9F-%D7%94%D7%9E%D7%9C%D7%97%D7%9E%D7%94/%D7%9B%D7%9C-%D7%94%D7%9B%D7%AA%D7%91%D7%95%D7%AA/%D7%94%D7%A4%D7%A6%D7%95%D7%AA/%D7%97%D7%A8%D7%91%D7%95%D7%AA-%D7%91%D7%A8%D7%96%D7%9C-%D7%9E%D7%9C%D7%97%D7%9E%D7%94-%D7%A6%D7%99%D7%95%D7%93-%D7%95%D7%95%D7%A1%D7%98%D7%99%D7%9D-%D7%A7%D7%A8%D7%9E%D7%99%D7%99%D7%9D-%D7%A7%D7%A1%D7%93%D7%95%D7%AA-%D7%9E%D7%96%D7%95%D7%9F-%D7%A8%D7%A4%D7%95%D7%90%D7%94-%D7%9E%D7%95%D7%A7%D7%93-%D7%97%D7%93%D7%A9-%D7%90%D7%98%D7%9C-%D7%90%D7%92%D7%A3-%D7%94%D7%98%D7%9B%D7%A0%D7%95%D7%9C%D7%95%D7%92%D7%99%D7%94-%D7%95%D7%94%D7%9C%D7%95%D7%92%D7%99%D7%A1%D7%98%D7%99%D7%A7%D7%94/",
+      "whatsapp": "https://wa.me/972526156256",
+      "telegram": "https://t.me/s/idf_telegram?before=7258",
+      "facebook": "https://www.facebook.com/MODIsrael/posts/709993184500427/?paipv=0&eav=AfYWAQWSo8q2DCcgGO-F5J1-BZf3sKF9EeWOiiHWOX1X8lmXyGNqZFLYGeqbYTNlAhs&_rdr",
+      "instagram": "https://www.instagram.com/p/CysfW6oMTwE/",
+      "twitter": "https://twitter.com/idfonline/status/1712037212114616830",
+      "tags": [
+        "מוקד צהל",
+        "מזון צהל",
+        "לוגיסטיקה צהל",
+        "ציוד חסר",
+        "חרבות ברזל",
+        "משרתי צהל"
+      ]
     }
   ]
 }

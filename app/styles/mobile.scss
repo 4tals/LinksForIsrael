@@ -1,4 +1,5 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
+
 	.links-section-item-short-description {
 		display: block;
 		overflow: hidden;
@@ -14,45 +15,93 @@
 		z-index: 2;
 	}
 
-	.links-section-subcategory {
-		display: flex;
-		flex-wrap: nowrap; // Prevent content from wrapping to the next line
-		overflow-x: scroll; // Enables horizontal scrolling if content overflows
-		overflow-y: hidden; // Prevents vertical scrolling
-		white-space: nowrap; // Prevents contents from wrapping onto next line
-		max-height: 30vh;
-		max-width: 100vw;
-		padding-inline-end: 150px; // Reduce the padding for more visible space
-		margin-bottom: 15px;
-		scroll-snap-type: x mandatory;
-		scroll-padding: 50%;
-		scroll-snap-align: center;
-		//scroll snap
-		-webkit-overflow-scrolling: touch; // Smooth scrolling on iOS devices
-		// Targeting inner items within the scrollable area
-		.links-section-item {
-			flex: 1 0 50%; // This sets the item to take up half the container's width
-		}
-	}
-
 	.links-subcategory-header {
 		font-size: 22px; // Slightly increase the font size for headers
 		margin-top: 25px;
 		margin-bottom: 10px;
 	}
 
-	.links-section {
-		align-items: center;
-		border-radius: 4px;
-		background-color: #eaeaea;
-		margin-block-end: 8px;
+	.page-header {
+		height: 8svh;
+	}
+
+	.footer {
+		height: 7svh;
+	}
+
+	.main-content .desktop-content .links-subcategory-header {
+		margin-inline: 0;
+	}
+	.main-content {
 		display: flex;
 		flex-direction: column;
-		width: 90vw;
-		overflow: hidden;
-		padding: 15px; // Add padding inside sections for better spacing
-		margin: 15px auto;
+		height: 85svh;
+		max-width: 64em;
+		font-size: 1rem;
+		overflow-y: hidden;
 
+		.desktop-category {
+			height: 130px;
+			top: 0;
+			z-index: 997;
+			width: 100%;
+		}
+		.icon-navbar {
+			gap: 15px;
+			height: 130px;
+			overflow: hidden;
+			.links-section {
+				-webkit-tap-highlight-color: transparent;
+				font-size: 14px;
+				position: relative;
+				width: 50px;
+				height: 50px;
+				border-radius: 50%;
+				.links-section-title {
+					width: 50px;
+					height: 50px;
+					justify-content: center;
+					.category-icon {
+						width: 30px;
+					}
+				}
+				span {
+					position: absolute;
+					bottom: -30px;
+					font-size: 14px;
+					height: 30px;
+					text-align: center;
+					&.numbers {
+						top: -7px;
+						left: -2px;
+						border: solid 1px var(--color-divider);
+						width: 20px;
+						height: 20px;
+						border-radius: 50%;
+						display: flex;
+						justify-content: center;
+						align-items: center;
+						font-size: 12px;
+						background-color: var(--color-dark);
+						color: var(--color-white);
+					}
+				}
+				&.desktop-open {
+					.numbers {
+						background-color: var(--color-blue);
+						color: var(--color-white);
+					}
+				}
+			}
+		}
+
+		.desktop-grid {
+			position: relative;
+			display: block;
+		}
+	}
+
+	.links-section {
 		.links-section-content {
 			display: block;
 			width: 100%;
@@ -82,28 +131,6 @@
 
 	.category-icon {
 		margin-left: 10px;
-	}
-
-	.main-content {
-		max-width: 64em;
-		// padding: 2rem 1rem;
-		font-size: 1rem;
-		padding: 20px 15px; // Increase side padding for better spacing
-		overflow-y: scroll;
-
-		.desktop-category {
-			height: auto;
-			justify-content: center;
-			align-items: center;
-		}
-
-		.desktop-content {
-			display: none;
-		}
-
-		.desktop-grid {
-			display: block;
-		}
 	}
 
 	::-webkit-scrollbar {

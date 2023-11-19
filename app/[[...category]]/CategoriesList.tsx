@@ -1,102 +1,80 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useRef } from "react";
+import { useContext, useEffect } from "react";
 
-import { analyticsService } from "../analytics";
+import { SearchContext } from "@/app/components/RootApp";
+import { withScroll } from "@/app/components/withScroll/withScroll";
+
+import { analyticsService } from "../utils/analytica/analytics";
 import { Category } from "../utils/categories";
-import { CategoryContent } from "./CategoryContent";
 
-let init = false;
+const getNumberOfInitiatives = (category: Category) =>
+	category.subCategories.reduce(
+		(acc, subcategory) => acc + subcategory.links.length,
+		0,
+	);
 
-export function CategoriesList({
+const CategoriesList = ({
 	categories,
 	categoryId,
 }: {
 	categories: Array<Category>;
 	categoryId?: string;
-}) {
-	const ref = useRef<HTMLDivElement>(null);
-
+}) => {
+	const { search, onSearch } = useContext(SearchContext);
 	useEffect(() => {
-		const timer = setTimeout(() => {
-			if (
-				categories.find((category) => category.id === categoryId) &&
-				ref.current &&
-				!init
-			) {
-				// check if media query matches
-				const mq = window.matchMedia("(max-width: 640px)");
-				if (mq.matches) {
-					// add scroll margin to the top of the element
-					// ref.current.attributeStyleMap.set("scroll-margin-top", CSS.px(40));
-
-					ref.current.scrollIntoView({
-						behavior: "smooth",
-					});
-					// use scollto
-					// const parent = ref.current?.closest(".desktop-category");
-					// if (parent) {
-					// 	parent.scrollTo({
-					// 		top: ref.current.offsetTop - 40,
-					// 		behavior: "smooth",
-					// 	});
-					// }
-
-					// move element down with the margin of the nav
-				}
-				init = true;
-			}
-		}, 0);
-		return () => clearTimeout(timer);
-		// eslint-disable-next-line react-hooks/exhaustive-deps
+		const selected = document.querySelector(".links-section.desktop-open");
+		if (!selected) return;
+		selected.scrollIntoView({
+			behavior: "auto",
+			inline: "center",
+			block: "nearest",
+		});
 	}, []);
 
 	return (
-		<div className="desktop-category">
-			<div dir="rtl">
-				{categories.map((category) => (
-					<div
-						ref={ref}
-						className={[
-							"links-section",
-							category.id === categoryId && "desktop-open",
-						]
-							.filter(Boolean)
-							.join(" ")}
-						id={category.name}
+		<div dir="rtl" className="icon-navbar">
+			{categories.map((category) => (
+				<div
+					className={[
+						"links-section",
+						!search && category.id === categoryId && "desktop-open",
+					]
+						.filter(Boolean)
+						.join(" ")}
+					id={category.name}
+					key={category.name}
+				>
+					<Link
+						href={`/${category.id}`}
 						key={category.name}
+						replace
+						className="w-full"
+						onClick={() => {
+							analyticsService.trackCategoryView(category.id);
+							onSearch("");
+						}}
 					>
-						<Link
-							href={`/${category.id}`}
-							key={category.name}
-							replace
-							className="w-full"
-							onClick={() => analyticsService.trackCategoryView(category.id)}
-						>
-							<div className="links-section-title">
-								{category.image && (
-									<img
-										src={category.image}
-										alt={`${category.displayName} Icon`}
-										className="category-icon"
-									/>
-								)}
-								<h2 className="text-xl">{category.displayName}</h2>
-							</div>
-						</Link>
-						{category.id === categoryId && (
-							<div className="links-section-content sm:hidden">
-								<CategoryContent
-									subCategories={category.subCategories}
-									categoryName={category.displayName}
-									categoryDescription={category.description}
+						<div className="links-section-title">
+							{category.image && (
+								<img
+									src={category.image}
+									alt={`${category.displayName} Icon`}
+									className="category-icon"
 								/>
-							</div>
-						)}
-					</div>
-				))}
-			</div>
+							)}
+							<span>{category.displayName}</span>
+							<span className="numbers">
+								{getNumberOfInitiatives(category)}
+							</span>
+						</div>
+					</Link>
+				</div>
+			))}
 		</div>
 	);
-}
+};
+
+const ScrollableCategoriesList = withScroll(CategoriesList);
+export { ScrollableCategoriesList };

@@ -6,7 +6,6 @@ _site/
 /node_modules
 /.pnp
 .pnp.js
-pnpm-lock.yaml
 
 # testing
 /coverage
@@ -48,3 +47,4 @@ next-env.d.ts
 
 # Local testing/setup
 .local
+.env

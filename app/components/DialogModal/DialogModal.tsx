@@ -1,8 +1,7 @@
 "use client";
 
-import { ReactNode, useEffect, useState } from "react";
+import { ReactNode } from "react";
 
-import styles from "../AddSite/AddSite.module.scss";
 import "./dialogModal.scss";
 
 type DialogModalProps = {
@@ -10,6 +9,7 @@ type DialogModalProps = {
 	body: ReactNode;
 	open?: boolean;
 	toggleModal: (open: boolean) => void;
+	isRtl?: boolean;
 };
 
 export function DialogModal({
@@ -17,11 +17,12 @@ export function DialogModal({
 	body,
 	open,
 	toggleModal,
+	isRtl,
 }: DialogModalProps) {
 	return (
 		open &&
 		body && (
-			<div className="dialogContainer">
+			<div className={`dialogContainer ${!isRtl ? "ltr" : ""}`}>
 				<div
 					className="modalBackdrop"
 					onClick={() => {

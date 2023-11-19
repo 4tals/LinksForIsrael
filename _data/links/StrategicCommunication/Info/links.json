@@ -61,6 +61,58 @@
         "משאבים",
         "ישראל"
       ]
+    },
+    {
+      "displayName": "חרבות ברזל עדכונים ותמונת מצב",
+      "name": "InssWarData",
+      "shortDescription": "דסק הנתונים של המכון למחקרי ביטחון לאומי אוסף עבורכם את המידע העדכני והמדויק במהלך ימי המלחמה",
+      "description": "לרבות נתונים שוטפים על הזירה הפנים-ישראלית, גזרת עזה, לבנון, איו'ש, הזירה האזורית והבינ'ל. בעמוד זה שבעה קבצי נתונים שונים - גללו מטה לצפייה בכולם. למשתמשי הסלולר מומלץ לצפות בעמוד במצב מאוזן.",
+      "initiativeValidationDetails": "Known institution",
+      "url": "https://www.inss.org.il/he/publication/war-data/",
+      "website": "https://www.inss.org.il/he/publication/war-data/",
+      "telegram": "https://t.me/inssisrael",
+      "facebook": "https://www.facebook.com/INSS.Israel/",
+      "instagram": "https://www.instagram.com/inss.israel/",
+      "tiktok": "https://www.tiktok.com/@inss_israel?lang=en",
+      "twitter": "https://twitter.com/INSS_Hebrew",
+      "linkedin": "https://il.linkedin.com/company/inss-israel",
+      "initiativeImage": "https://www.inss.org.il/he/wp-content/uploads/sites/2/2018/08/Asset-1-442x56a.png",
+      "tags": [
+        "חרבות ברזל",
+        "עדכונים",
+        "תמונת מצב",
+        "מלחמה",
+        "ביטחון לאומי",
+        "אזרחים"
+      ]
+    },
+    {
+      "displayName": "ארכיון ההסברה - טאגבוקס",
+      "name": "hasbaraArchive",
+      "shortDescription": "ארכיון ממוין לפי תגיות, נושאים ושפות של כל החומרים הרלוונטיים להסברה מתעדכן על ידי צוות ייעודיי",
+      "description": "ארכיון ממוין לפי תגיות, נושאים ושפות של כל החומרים הרלוונטיים להסברה מתעדכן על ידי צוות ייעודיי",
+      "initiativeValidationDetails": "Verified by @4tal, part of other shared Hasbara initiative",
+      "url": "https://app.tagbox.io/w/652956971319a00011a82b71",
+      "website": "https://app.tagbox.io/w/652956971319a00011a82b71",
+      "tags": [
+        "סרטונים",
+        "הסברה"
+      ]
+    },
+    {
+      "displayName": "הסברה ישראלית - הפצה",
+      "name": "הסברה ישראלית - הפצה",
+      "shortDescription": "קבוצת ואצאפ להפצה של חומרי הסברה לחו'ל - לכל המדינות",
+      "description": "קבוצת הפצה של חומרי הסברה לחו'ל - לכל המדינות. ערוץ תקשורת מרכזי של המערך החוצה - כולל גם עדכונים, שיתופי פעולה וכו'",
+      "url": "https://chat.whatsapp.com/HXJqKmfzwT0HIb477Xx9ir",
+      "whatsapp": "https://chat.whatsapp.com/HXJqKmfzwT0HIb477Xx9ir",
+      "drive": "https://dwv4ag7si3i3i.cloudfront.net/index.html",
+      "tags": [
+        "הסברה",
+        "ישראל",
+        "חומר הסברה",
+        "קבוצת הפצה"
+      ]
     }
   ]
 }

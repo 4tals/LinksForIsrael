@@ -9,7 +9,9 @@
     "lint": "next lint",
     "format": "prettier --loglevel warn --write \"**/*.{ts,tsx,css,md}\"",
     "posttest": "npm run format",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "cat-dev-project": "find . -type d \\( -name '.next' -o -name 'node_modules' \\) -prune -o \\( -name '*.ts' -o -name '*.tsx' -o -name '*.scss' \\) -exec sh -c 'echo {} >> concatenated_file.txt; cat {} >> project-concat.txt' \\;",
+    "cat-links": "ts-node ./scripts/concatLinks.ts"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.4.2",
@@ -24,20 +26,20 @@
     "@radix-ui/react-portal": "^1.0.4",
     "@types/mdx": "^2.0.9",
     "gray-matter": "^4.0.3",
-    "lunr": "^2.3.9",
-    "lunr-languages": "^1.14.0",
     "mixpanel-browser": "^2.47.0",
-    "next": "13.5.6",
-    "react": "^18",
-    "react-dom": "^18",
+    "next": "^14.0.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "rehype-stringify": "^10.0.0",
     "remark": "^15.0.1",
-    "remark-html": "^16.0.1"
+    "remark-html": "^16.0.1",
+    "remark-parse": "^11.0.0",
+    "remark-rehype": "^11.0.0",
+    "unified": "^11.0.4"
   },
   "devDependencies": {
     "@octokit/rest": "^20.0.2",
     "@trivago/prettier-plugin-sort-imports": "^4.2.1",
-    "@types/lunr": "^2.3.6",
     "@types/mixpanel-browser": "^2.47.4",
     "@types/node": "^20",
     "@types/react": "^18",
@@ -45,13 +47,14 @@
     "autoprefixer": "^10",
     "dotenv": "^16.3.1",
     "eslint": "^8",
-    "eslint-config-next": "13.5.6",
+    "eslint-config-next": "^14.0.3",
     "husky": "^8.0.3",
     "lint-staged": "^15.0.2",
     "postcss": "^8",
     "prettier": "^3.0.3",
     "sass": "^1.69.4",
     "tailwindcss": "^3",
+    "ts-node": "^10.9.1",
     "typescript": "^5"
   },
   "lint-staged": {

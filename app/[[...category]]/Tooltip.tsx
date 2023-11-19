@@ -47,7 +47,8 @@ export const Tooltip = ({ content }: { content: string }) => {
 
 	return (
 		<div
-			style={{ position: "relative", display: "inline-block" }}
+			className="tooltip-validation"
+			// style={{ position: "relative", display: "inline-block" }}
 			onMouseEnter={() => setVisible(true)}
 			onMouseLeave={() => setVisible(false)}
 			ref={tooltipRef}

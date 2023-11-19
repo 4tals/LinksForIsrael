@@ -1,7 +1,7 @@
-import { getCategories } from "../utils/categories";
-import { CategoriesList } from "./CategoriesList";
-import { CategoryContent } from "./CategoryContent";
-import { NoCategoryZeroState } from "./NoCategoryZeroState/NoCategoryZeroState";
+import { Body } from "@/app/components/Body/Body";
+
+import { getAssistanceSubCategory, getCategories } from "../utils/categories";
+import { ScrollableCategoriesList } from "./CategoriesList";
 
 type CategoryParam =
 	| []
@@ -48,27 +48,21 @@ export default async function Category({
 }: {
 	params: { category?: CategoryParams };
 }) {
-	const data = await getCategories();
-
+	const categories = await getCategories();
+	const assistanceSubCategory = await getAssistanceSubCategory();
 	const [categoryId] = params.category || [];
-	const pageCategory = categoryId
-		? data.find((category) => category.id === categoryId)
-		: null;
 
 	return (
-		<div className="desktop-grid">
-			<CategoriesList categories={data} categoryId={categoryId} />
-			{pageCategory ? (
-				<div className="desktop-content hidden sm:block">
-					<CategoryContent
-						subCategories={pageCategory.subCategories}
-						categoryName={pageCategory.displayName}
-						categoryDescription={pageCategory.description}
-					/>
-				</div>
-			) : (
-				<NoCategoryZeroState />
-			)}
-		</div>
+		<>
+			<ScrollableCategoriesList
+				categories={categories}
+				categoryId={categoryId}
+			/>
+			<Body
+				categories={categories}
+				categoryId={categoryId}
+				assistanceSubCategory={assistanceSubCategory}
+			/>
+		</>
 	);
 }

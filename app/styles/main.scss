@@ -1,9 +1,10 @@
-@import "./styles/iconsAndButtons.scss";
-@import "./styles/search.scss";
-@import "./styles/header.scss";
-@import "./styles/footer.scss";
-@import "./styles/mainDisplay.scss";
-@import "./styles/mobile.scss";
+@import "./iconsAndButtons.scss";
+@import "./search.scss";
+@import "./header.scss";
+@import "./footer.scss";
+@import "./mainDisplay.scss";
+@import "./mobile.scss";
+@import "./withHorizontalScroll.scss";
 
 :root {
 	--color-background-blue: #f0f8fa;
@@ -27,14 +28,14 @@ body {
 }
 
 ::-webkit-scrollbar {
-	width: 6px;
+	//  width: 6px;
 }
 
 ::-webkit-scrollbar-thumb {
-	background: #c5c9ce;
-	border-radius: 6px;
+	// background: #c5c9ce;
+	// border-radius: 6px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-	background: #b0b4b9;
+	// background: #b0b4b9;
 }

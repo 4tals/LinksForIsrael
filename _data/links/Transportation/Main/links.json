@@ -47,6 +47,52 @@
         "MotoZon",
         "אופנוע"
       ]
+    },
+    {
+      "displayName": "החזרת רכבים למשפחות בעורף והסעות בלבד",
+      "name": "VehicleReturn",
+      "shortDescription": "קבוצת החזרת רכבים מהשטח לכל רחבי הארץ",
+      "description": "קבוצה מאובטחת - החזרת רכבים למשפחות בעורף והסעות בלבד (971)\n\n✅כל מי שנכנס לקבוצה עובר אימות ע'י מנהלי הקבוצה. 🙏🏼",
+      "initiativeValidationDetails": "Exists from start of war\n\nAlmost 1K members\n\nTalked to one of the admins",
+      "url": "https://chat.whatsapp.com/EovJcHksm8iDT7Y7H9vC2B",
+      "whatsapp": "https://chat.whatsapp.com/EovJcHksm8iDT7Y7H9vC2B",
+      "initiativeImage": "https://pps.whatsapp.net/v/t61.24694-24/368231958_335251232330419_6905485826851088070_n.jpg?ccb=11-4&oh=01_AdSKoejYPN8ppqIl21fL8tGulMfL1QeFvmRhpH0gxh12uQ&oe=65621899&_nc_sid=e6ed6c&_nc_cat=109",
+      "tags": [
+        "החזרת רכבים",
+        "משפחות בעורף",
+        "הסעות"
+      ]
+    },
+    {
+      "displayName": "הסעות - חרבות ברזל",
+      "name": "Hasaot",
+      "shortDescription": "אנו ננסה לתאם בין נהגים מתנדבים לבין חיילים הזקוקים להסעה",
+      "description": "אתר המאמת נהגים ומבקשי הסעה, ולאחר מכן מפנה אותם לקבוצת ואצאפ סגורה לצורך תיאום",
+      "initiativeValidationDetails": "Video chatted with site owner",
+      "url": "https://hasaot.mrwp.co.il/",
+      "website": "https://hasaot.mrwp.co.il/",
+      "tags": [
+        "הסעה",
+        "נהגים",
+        "חיילים"
+      ]
+    },
+    {
+      "displayName": "טרמפים למילואים",
+      "name": "ReserveRides",
+      "shortDescription": "תיאום טרמפים לטובת המלחמה בכלל ומילואים בפרט",
+      "description": "⚠️ נהלים חשובים: ⚠️ \n\n1. לא לרשום שם משפחה\n2. לא לרשום שם בסיס אלא עיר קרוב\n3. לעשות שיחת וידיו לפני שנפגשים (במיוחד למי שלא מהקבוצה)\n4. לא להעביר הודעות של אנשים שלא מכירים\n5. לא לשלוח מיקום \n\n📌מצאתם טרמפ? בבקשה צאו מהקבוצה, כדיי שאחרים יוכלו להכנס ולמצוא גם! \n📌נא להיצמד לפורמט של הקבוצה\n\n📌נהגים? נשמח שתצטרף!\n\nנסיעות בטוחות 👍😊\n\n*אין לנו אחריות על הנסיעות",
+      "initiativeValidationDetails": "Video chatted with admin",
+      "url": "https://chat.whatsapp.com/ErCryExAKyKGkI2R6HlYqv",
+      "whatsapp": "https://chat.whatsapp.com/ErCryExAKyKGkI2R6HlYqv",
+      "form": "https://forms.gle/zupXPPfTv1gEV7Yk6",
+      "initiativeImage": "https://pps.whatsapp.net/v/t61.24694-24/370450779_723421689629126_8700689690841191547_n.jpg?ccb=11-4&oh=01_AdRj5C9h8PZiy5C2n-IZG1o2cdGKFA_S5DGa7BV2dM9pDQ&oe=65622687&_nc_sid=e6ed6c&_nc_cat=103",
+      "tags": [
+        "טרמפים",
+        "מילואים",
+        "נסיעות בטוחות",
+        "תיאום נסיעות"
+      ]
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "name": "MentalSupportMain",
-  "displayName": "",
+  "displayName": "תמיכה נפשית",
   "links": [
     {
       "name": "HugIntoTheNight",
@@ -85,6 +85,57 @@
         "מתנדבים",
         "סיוע לנפגעי טראומה",
         "סיוע לנפגעי אסונות"
+      ]
+    },
+    {
+      "displayName": "עוטף לב",
+      "name": "OtefLev",
+      "shortDescription": "סיוע ראשוני לכל תושבות ותושבי ישראל על ידי נשות ואנשי מקצועות בריאות הנפש",
+      "description": "אירועי ה-7 באוקטובר והמלחמה שהחלה בעקבותיהם, גורמים לטלטלה, זעזוע וכאב בחברה הישראלית. עוטף לב - סיוע נפשי ישראלי, מציע לכם מענה ראשוני מנשות ואנשי מקצועות בריאות הנפש.",
+      "initiativeValidationDetails": "https://newmedia.calcalist.co.il/magazine-02-11-23/m02.html",
+      "url": "https://www.oteflev.org.il/",
+      "website": "https://www.oteflev.org.il/",
+      "form": "https://www.oteflev.org.il/asking-for-help",
+      "docs": "https://www.oteflev.org.il/therapists-registration",
+      "tags": [
+        "בריאות הנפש",
+        "עוטף לב",
+        "סיוע נפשי"
+      ]
+    },
+    {
+      "displayName": "לב בטוח",
+      "name": "SafeHeart",
+      "shortDescription": "לב בטוח - המערך לתמיכה בנפגעי פעולות הטרור במסיבות עוטף עזה",
+      "description": "אנחנו פרוייקט בריאות נפש חירומי אשר מופעל על ידי רשת של פסיכולוגים, פסיכיאטרים, עובדים סוציאלים קליניים, פסיכותרפיסטים ומדריכים קליניים מוסמכים, בעלי נסיון בעבודה עם חוויות טראומתיות קשות ובתחום מזעור הנזקים הפסיכדלי. אנחנו רק יכולים לתאר כמה קשה לעבור חוויה כזו קשה בזמן מסיבה. אנחנו פה לתמיכה בשביל כל מי שהיו במסיבות בעוטף עזה. אנחנו מבינים גם שחלקכם.ן הייתם.ן תחת השפעה של חומרים, ואולי חוויתם את התקיפה בצורה חזקה ומבלבלת עוד יותר.\n\nאנחנו מזמינים את כל מי שהיה במסיבה ברעים (ובמסיבות אחרות בעוטף) ורוצים לשתף, לדבר, ולקבל תמיכה ממטפלים מנוסים בעבודה עם חוויות טראומטיות קשות, המבינים מה זאת מסיבה ומנוסים בתמיכה באנשים שצרכו חומרים משני תודעה. כמובן שאפשר לפנות אלינו גם אם לא צרכתם.ן חומרים.\n\nיש פה קהילה של מטפלות ומטפלים מנוסים שמתנדבים לעזור, אפשר לבוא עם כל צורך ומצב. השבט של 'לב בטוח' פה בשבילכם. פנו למטפלים המתנדבים שלנו בטופס ונחזור אליכם בהקדם האפשרי!",
+      "initiativeValidationDetails": "https://twitter.com/royesal/status/1711375837864276107",
+      "url": "https://www.safeheartil.com/",
+      "website": "https://www.safeheartil.com/",
+      "form": "https://www.safeheartil.com/signup",
+      "docs": "https://docs.google.com/spreadsheets/d/1cbOVeDNsokmoRjEtb73n9Kw8ew1n6MIx9ZWiMoKybsg/edit#gid=0",
+      "tags": [
+        "טראומה",
+        "בריאות נפש"
+      ]
+    },
+    {
+      "displayName": "מאזינים ומקשיבים",
+      "name": "EzraLive",
+      "shortDescription": "מרגיש חנוק.ה? רוצה לשתף בתחושות/חוויות מהימים האחרונים? זקוק.ה לתמיכה לאור המצב  כאן תפגוש.י א.נשים כמוך לשיחה אישית/חברית",
+      "description": "ברגעים של מצוקה וחוסר ודאות, טבעי להרגיש מוצף ולהרגיש צורך בשיחה עם מישהו. אחד מהדברים שהכי מכבידים בתקופה הזאת זה התחושה שאני לבד בתוך כל מה שקורה ואל מול זה אחד הדברים שהכי עוזרים להתמודד זה להרגיש שאני לא לבד, שאני מובן, שהקושי שלי הגיוני, שיש עוד אנשים שמרגישים כמוני.",
+      "initiativeValidationDetails": "Created by legit company: https://www.linkedin.com/feed/update/urn:li:activity:7124977738205016064/",
+      "url": "https://ezra.live/",
+      "website": "https://ezra.live/",
+      "email": "yuval@eazyshow.com",
+      "form": "https://ezra.live/need-a-help-he/",
+      "docs": "https://ezra.live/listener-registration-page-he/",
+      "linkedin": "https://www.linkedin.com/feed/update/urn:li:activity:7124977738205016064/",
+      "initiativeImage": "https://ezra.live/wp-content/themes/ezralive/img/logo.svg",
+      "tags": [
+        "תמיכה נפשית",
+        "שיחה אישית",
+        "מאזינים",
+        "חלל בטוח"
       ]
     }
   ]

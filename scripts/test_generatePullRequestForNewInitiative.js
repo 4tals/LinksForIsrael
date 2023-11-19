@@ -2,10 +2,10 @@ require('dotenv').config();
 
 const context = {
     serverUrl: "https://github.com",
-    runId: process.env.GITHUB_RUN_ID,  // Make sure you have GITHUB_RUN_ID in your .env or in the environment
+    runId: process.env.GITHUB_RUN_ID,
     repo: {
         owner: process.env.GITHUB_OWNER,
-        repo: process.env.GITHUB_REPO_NAME
+        repo:  process.env.GITHHUB_REPO
     },
     issue: {
         number: process.env.GITHUB_ISSUE_NUMBER

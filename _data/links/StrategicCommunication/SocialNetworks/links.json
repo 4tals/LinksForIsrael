@@ -88,6 +88,47 @@
       "initiativeImage": "https://cdn4.telegram-cdn.org/file/ROis87ikX-g98-COcnS1vizOViivUpUeoDIc6-2z0vy2dbiH8iMZMnjqhAQ77ueFQZozYcNHHhgau3Lmqd0TIbwOb0UP0dPgkFbMJsiQ_aqAR_Ufn6JB7lv_bZ3xgebG-qF7SNS8Qyw2NsC5Z4Ghydd1arGzN4VZiIyqxe93qEbvMntZauEwey4C5PjkHs_5jJxOHcK5SfiWkyPbiP_d907Vv63HpYizcysN0u6DyTuY_uhp96t-0u-JT527C8Pm_gQ7NPayzcy1TDtWYPP2EAk2CB5OBSrUuY8huZgXCc_1-ikUxflFWDJKGXKnmPybdeeIIqs5-6uMo5r3cypbRw.jpg",
       "website": "https://devhelps.github.io/you-stand-with-israel/",
       "url": "https://devhelps.github.io/you-stand-with-israel/"
+    },
+    {
+      "displayName": "Stop Antisemitism",
+      "name": "StopAntisemitism",
+      "shortDescription": "Leading Non-Partisan U.S Based Organization Fighting & Exposing Antisemitism",
+      "description": "StopAntisemitism is a grassroots watchdog organization dedicated to exposing groups and individuals that espouse incitement towards the Jewish people and State and engage in antisemitic behaviors. Founded in 2018, StopAntisemitism was born in response to increasing antisemitic violence and sentiment across the United States. StopAntisemitism has developed a unique and dedicated following, reaching millions of actively engaged individuals through social media, mailers, and its website. By publicly exposing antisemites, StopAntisemitism has created an environment where those who propagate hatred against the Jewish people are met with real-world consequences including but not limited to job loss and school expulsions. StopAntisemitism also produces reports on the state of antisemitism in the United States.",
+      "initiativeValidationDetails": "https://www.ynet.co.il/judaism/discourse/article/bjwvwpoxt",
+      "url": "https://www.stopantisemitism.org/",
+      "website": "https://www.stopantisemitism.org/",
+      "form": "https://www.stopantisemitism.org/report-an-incident",
+      "docs": "https://www.stopantisemitism.org/anti-semite-of-the-week",
+      "facebook": "https://www.facebook.com/StopAntisemitismOrg/",
+      "instagram": "https://www.instagram.com/stop_antisemitism/",
+      "twitter": "https://twitter.com/StopAntisemites",
+      "donation": "https://www.stopantisemitism.org/donate",
+      "initiativeImage": "https://images.squarespace-cdn.com/content/v1/5cc20f51ca525b73bdd50e3a/fe206690-25d0-4a9f-88ce-0f2d75dc7e1c/2+small+SA+2022+Logo+for+web.png?format=1500w",
+      "tags": [
+        "אנטישמיות",
+        "ארגון",
+        "ארה\"ב",
+        "מאבק אנטישמיות"
+      ]
+    },
+    {
+      "displayName": "אוקט7 - אפילקצית תגובות",
+      "name": "Oct7.App",
+      "shortDescription": "אפליקציה לתגובות מהירות על פוסטים ויראליים",
+      "description": "חיזוק הסנטימנט הפרו-ישראלי באמצעות תגובות לפוסטים בעלי השפעה",
+      "initiativeValidationDetails": "Posted by legit account: https://www.linkedin.com/posts/shlomit-cohen_oct7-home-winning-the-social-media-war-activity-7129491902894120961-c_1q?utm_source=share&utm_medium=member_desktop",
+      "url": "https://app.oct7.io/",
+      "website": "https://www.oct7.io/",
+      "form": "https://docs.google.com/forms/d/e/1FAIpQLSelJNsyZfpKVdcIyrDKlGpb2Y65w3spI8PeWyd3nzKp8Yl_zA/viewform",
+      "linkedin": "https://www.linkedin.com/posts/shlomit-cohen_oct7-home-winning-the-social-media-war-activity-7129491902894120961-c_1q?utm_source=share&utm_medium=member_desktop",
+      "initiativeImage": "https://www.oct7.io/wp-content/uploads/2023/10/oct7-logo-squre-dark-mode-e1699204867126.webp",
+      "tags": [
+        "אוקט7",
+        "תגובות",
+        "פוסטים ויראליים",
+        "סנטימנט פרו-ישראלי",
+        "תקשורת אסטרטגית"
+      ]
     }
   ]
 }

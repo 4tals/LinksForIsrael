@@ -62,7 +62,6 @@ body:
         - Medical/Main
         - Medical/Info
         - MemorialRemembrance/Main
-        - MentalSupport/Main
         - MissingPersons/Main
         - Reserves/Main
         - StrategicCommunication/Funding
@@ -89,11 +88,30 @@ body:
       placeholder: https://iron-widgets.com
 
   - type: input
+    id: initiativeImage
+    attributes:
+      label: Initiative Logo
+      description: Link to an image of the initiative's logo (suitable for inclusion in an HTML `IMG` tag)
+      placeholder: https://iron-widgets.com/logo.png
+
+  - type: input
     id: website
     attributes:
       label: Initiative Website
       placeholder: https://iron-widgets.com
 
+  - type: input
+    id: phone
+    attributes:
+      label: Initiative Phone Number
+      placeholder: tel:+972-50-1234567
+
+  - type: input
+    id: email
+    attributes:
+      label: Initiative E-Mail
+      placeholder: mailto:contact@iron-widgets.com
+      
   - type: input
     id: whatsapp
     attributes:
@@ -164,11 +182,16 @@ body:
       placeholder: https://linkedin.com/iron-widgets
 
   - type: input
-    id: initiativeImage
+    id: youtube
     attributes:
-      label: Initiative logo
-      description: Link to an image of the initiative's logo (suitable for inclusion in an HTML `IMG` tag)
-      placeholder: https://iron-widgets.com/logo.png
+      label: Initiative YouTube Page / Channel
+      placeholder: https://www.youtube.com/@IronWidgets
+
+  - type: input
+    id: donation
+    attributes:
+      label: Initiative Donation Link
+      placeholder: https://payboxapp.page.link/XXXXXXX
 
   - type: input
     id: tags

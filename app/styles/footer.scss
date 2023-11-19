@@ -7,9 +7,10 @@
 	border-top: 1px solid var(--color-divider);
 	background-color: var(--color-white);
 	height: 7vh;
-	z-index: 10;
+	z-index: 999;
 	direction: rtl;
 	position: sticky;
+	bottom: 0;
 
 	.social-links {
 		display: flex;
