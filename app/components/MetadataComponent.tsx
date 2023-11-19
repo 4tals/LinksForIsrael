@@ -38,7 +38,7 @@ export function MetaDataComponent() {
 	return (
 		<Head>
 			{/* Basic Meta Tags */}
-			<meta name="title" content={metadata.title} />
+			<title>{metadata.title}</title>
 			<meta name="description" content={metadata.description} />
 			<meta name="viewport" content={metadata.viewport} />
 

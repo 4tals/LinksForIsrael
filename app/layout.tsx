@@ -1,5 +1,4 @@
 import { Rubik } from "next/font/google";
-import Head from "next/head";
 
 import { RootApp } from "@/app/components/RootApp";
 import { config as fontAwesomeConfig } from "@fortawesome/fontawesome-svg-core";
@@ -32,10 +31,10 @@ export default async function RootLayout({
 
 	return (
 		<html lang="he" className={rubik.variable}>
-			<Head>
+			<head>
 				<GTag />
-				<MetaDataComponent />
-			</Head>
+			</head>
+			<MetaDataComponent />
 			<body dir="rtl">
 				<RootApp
 					categories={categories}
