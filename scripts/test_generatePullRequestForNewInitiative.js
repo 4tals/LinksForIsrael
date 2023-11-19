@@ -1,12 +1,12 @@
 const context = {
     serverUrl: "https://github.com",
-    runId: 6762019754,
+    runId: process.env.GITHUB_RUN_ID,
     repo: {
-        owner: "ohadschn",
-        repo: "ConnectPortal"
+        owner: process.env.GITHUB_OWNER,
+        repo:  process.env.GITHHUB_REPO
     },
     issue: {
-        number: 10
+        number: process.env.GITHUB_ISSUE_NUMBER
     }
 }
 
