@@ -107,8 +107,9 @@ if (unavailableUrls.length > 0) {
   }
 
   const [owner, repo] = process.env.GITHUB_REPOSITORY.split('/');
-  // TODO - edit existing issue
-  octokit.rest.issues.create({
+  
+  octokit.rest.issues.update({
+    issue_number: process.env.GITHUB_AVAILABILITY_ISSUE_NUMBER,
     owner: owner,
     repo: repo,
     title: `[AVAILABILITY-MONITOR] ${unavailableUrls.length} Unavailable URL(s) Detected`,
