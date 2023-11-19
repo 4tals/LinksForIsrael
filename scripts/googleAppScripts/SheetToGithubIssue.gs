@@ -1,100 +1,177 @@
 function onFormSubmit(e) {
-  var formResponse = e.namedValues;
+    var formResponse = e.namedValues;
 
-  // Extract data from form fields
-  var initiativeName = formResponse['שם היוזמה'][0];
-  var category = formResponse['קטגוריה'][0];
-  var mainLink = formResponse['לינק לאתר או קישור ראשי'][0];
-  var description = formResponse['תיאור פרטי היוזמה'][0];
-  var remarksForAdmins = formResponse['הערות למנהלי העמוד'][0];
-  var whatsappLink = formResponse['Whatsapp link'][0];
-  var telegramLink = formResponse['Telegram link'][0];
-  var driveLink = formResponse['Google Drive link'][0];
-  var gFormLink = formResponse['Google Form link'][0];
-  var gDocLink = formResponse['Google Doc link'][0];
-  var discordLink = formResponse['Discord link'][0];
-  var instagramLink = formResponse['Instagram link'][0];
-  var tiktokLink = formResponse['Tiktok link'][0];
-  var twitterLink = formResponse['Twitter / X link'][0];
-  var facebookLink = formResponse['Facebook link'][0];
+    // Helper function to normalize the response
+    function normalizeResponse(value) {
+        const trimmedValue = value?.trim();
+        return trimmedValue ? trimmedValue : "_No response_";
+    }
 
-  // Construct the issue body using the form response data
-  var issueBody = "### Initiative Name\n" + initiativeName +
-                    "\n\n### Category\n" + category +
-                    "\n\n### Category\n" + category +
-                    "\n\n### Main Link\n" + mainLink +
-                    "\n\n### Description\n" + description +
-                    "\n\n### WhatsApp Link\n" + (whatsappLink || 'N/A') +
-                    "\n\n### Remarks for Admins\n" + (remarksForAdmins || 'N/A') +
-                    "\n\n### Telegram Link\n" + (telegramLink || 'N/A') +
-                    "\n\n### Drive Link\n" + (driveLink || 'N/A') +
-                    "\n\n### Form Link\n" + (gFormLink || 'N/A') +
-                    "\n\n### Doc Link\n" + (gDocLink || 'N/A') +
-                    "\n\n### Discord Link\n" + (discordLink || 'N/A') +
-                    "\n\n### Instagram Link\n" + (instagramLink || 'N/A') +
-                    "\n\n### TikTok Link\n" + (tiktokLink || 'N/A') +
-                    "\n\n### Twitter/X Link\n" + (twitterLink || 'N/A') +
-                    "\n\n### Facebook Link\n" + (facebookLink || 'N/A');
+    // Construct the issue body using the form response data with markdown
+    // Make sure the keys match exactly with your Google Sheet's column headers
+    var initiativeName = normalizeResponse(formResponse['Initiative Name'][0]);
+    var initiativeDescription = normalizeResponse(formResponse['Initiative Description'][0]);
+    var initiativeDetails = normalizeResponse(formResponse['Initiative Details'][0]);
+    var initiativeValidationDetails = normalizeResponse(formResponse['Initiative Validation Details'][0]);
+    var initiativeCategory = normalizeResponse(formResponse['Initiative Category'][0]);
+    var initiativeMainURL = normalizeResponse(formResponse['Initiative Main URL'][0]);
+    var initiativeLogo = normalizeResponse(formResponse['Initiative Logo'][0]);
+    var initiativeWebsite = normalizeResponse(formResponse['Initiative Website'][0]);
+    var initiativePhoneNumber = normalizeResponse(formResponse['Initiative Phone Number'][0]);
+    var initiativeEmail = normalizeResponse(formResponse['Initiative E-Mail'][0]);
+    var initiativeWhatsApp = normalizeResponse(formResponse['Initiative WhatsApp'][0]);
+    var initiativeTelegram = normalizeResponse(formResponse['Initiative Telegram'][0]);
+    var initiativeDrive = normalizeResponse(formResponse['Initiative Drive'][0]);
+    var initiativeForm = normalizeResponse(formResponse['Initiative Form'][0]);
+    var initiativeDocument = normalizeResponse(formResponse['Initiative Document'][0]);
+    var initiativeDiscord = normalizeResponse(formResponse['Initiative Discord'][0]);
+    var initiativeFacebook = normalizeResponse(formResponse['Initiative Facebook'][0]);
+    var initiativeInstagram = normalizeResponse(formResponse['Initiative Instagram'][0]);
+    var initiativeTikTok = normalizeResponse(formResponse['Initiative TikTok'][0]);
+    var initiativeTwitter = normalizeResponse(formResponse['Initiative X (Twitter)'][0]);
+    var initiativeLinkedIn = normalizeResponse(formResponse['Initiative LinkedIn'][0]);
+    var initiativeYouTube = normalizeResponse(formResponse['Initiative YouTube Page / Channel'][0]);
+    var initiativeDonationLink = normalizeResponse(formResponse['Initiative Donation Link'][0]);
+    var initiativeTags = normalizeResponse(formResponse['Initiative Tags'][0]);
 
-    // Use the initiative name as the issue title
-    var issueTitle = initiativeName;
+    // Construct the issue body using markdown
+    var issueBody = `### Initiative Name
+${initiativeName}
+
+### Initiative Description
+${initiativeDescription}
+
+### Initiative Details
+${initiativeDetails}
+
+### Initiative Validation Details
+${initiativeValidationDetails}
+
+### Initiative Category
+${initiativeCategory}
+
+### Initiative Main URL
+${initiativeMainURL}
+
+### Initiative Logo
+${initiativeLogo}
+
+### Initiative Website
+${initiativeWebsite}
+
+### Initiative Phone Number
+${initiativePhoneNumber}
+
+### Initiative E-Mail
+${initiativeEmail}
+
+### Initiative WhatsApp
+${initiativeWhatsApp}
+
+### Initiative Telegram
+${initiativeTelegram}
+
+### Initiative Drive
+${initiativeDrive}
+
+### Initiative Form
+${initiativeForm}
+
+### Initiative Document
+${initiativeDocument}
+
+### Initiative Discord
+${initiativeDiscord}
+
+### Initiative Facebook
+${initiativeFacebook}
+
+### Initiative Instagram
+${initiativeInstagram}
+
+### Initiative TikTok
+${initiativeTikTok}
+
+### Initiative X (Twitter)
+${initiativeTwitter}
+
+### Initiative LinkedIn
+${initiativeLinkedIn}
+
+### Initiative YouTube Page / Channel
+${initiativeYouTube}
+
+### Initiative Donation Link
+${initiativeDonationLink}
+
+### Initiative Tags
+${initiativeTags}`;
+
+    var issueTitle = `[NEW-INITIATIVE]: ${initiativeName}`;
 
     // Call the function to create a GitHub issue
     createGithubIssue(issueTitle, issueBody);
 }
 
 function createGithubIssue(title, body) {
-  var scriptProperties = PropertiesService.getScriptProperties();
-  var githubToken = scriptProperties.getProperty('GITHUB_TOKEN');
-  var repo = '4tals/LinksForIsrael';
-  var url = 'https://api.github.com/repos/' + repo + '/issues';
+    var personalGithubToken = PropertiesService.getUserProperties().getProperty('GITHUB_TOKEN');
+    var repositoryName = PropertiesService.getUserProperties().getProperty('GITHUB_REPOSITORY');
+    var url = 'https://api.github.com/repos/' + repositoryName + '/issues';
 
-  var payload = {
-    title: title,
-    body: body,
-    labels: ['new-initiative-request']
-  };
+    var payload = {
+        title: title, body: body, labels: ['new-initiative-request']
+    };
 
-  var options = {
-    method: 'post',
-    headers: {
-      Authorization: 'token ' + githubToken,
-      Accept: 'application/vnd.github.v3+json'
-    },
-    contentType: 'application/json',
-    payload: JSON.stringify(payload),
-    muteHttpExceptions: true // This will prevent the script from throwing an exception on HTTP errors
-  };
+    var options = {
+        method: 'post', headers: {
+            Authorization: 'Bearer ' + personalGithubToken, Accept: 'application/vnd.github+json'
+        }, contentType: 'application/json', payload: JSON.stringify(payload),
+    };
 
-  try {
-    var response = UrlFetchApp.fetch(url, options);
-    Logger.log(response.getContentText());
-  } catch (error) {
-    Logger.log('Error creating GitHub issue: ' + error.toString());
-  }
+    try {
+        var response = UrlFetchApp.fetch(url, options);
+        console.log(response.getContentText());
+    } catch (error) {
+        console.error('Error creating GitHub issue: ' + error.toString());
+        throw error;
+    }
 }
 
 function testOnFormSubmit(row = 153) {
-  var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
-  // Make sure this range includes all the headers for your form responses
-  var headersRange = sheet.getRange("A1:Z1");
-  var headers = headersRange.getValues()[0];
+    var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
+    var headersRange = sheet.getRange("A1:Z1");
+    var headers = headersRange.getValues()[0];
 
-  // Adjust this range to match the range where your test data is located
-  var testDataRange = sheet.getRange(`A${row}:Z${row}`);
-  var testData = testDataRange.getValues()[0];
+    // Adjust this range to match the range where your test data is located
+    var testDataRange = sheet.getRange(`A${row}:Z${row}`);
+    var testData = testDataRange.getValues()[0];
 
-  // Log the actual values to make sure they're what you expect
-  Logger.log("Headers: " + headers.join(", "));
-  Logger.log("Test Data: " + testData.join(", "));
+    // Log the actual values to make sure they're what you expect
+    Logger.log("Headers: " + headers.join(", "));
+    Logger.log("Test Data: " + testData.join(", "));
 
-  var namedValues = {};
-  for (var i = 0; i < headers.length; i++) {
-    namedValues[headers[i]] = [testData[i]];
-  }
+    var namedValues = {};
+    for (var i = 0; i < headers.length; i++) {
+        namedValues[headers[i]] = [testData[i]];
+    }
 
-  Logger.log("Named Values: " + JSON.stringify(namedValues));
+    Logger.log("Named Values: " + JSON.stringify(namedValues));
 
-  var e = { namedValues: namedValues };
-  onFormSubmit(e);
+    var e = {namedValues: namedValues};
+    onFormSubmit(e);
+}
+
+function setGithubCredentials() {
+  setPersonalGithubToken();
+  setGithubRepositoryName();
+}
+
+function setPersonalGithubToken() {
+  var personalGithubToken = 'YOUR_ACTUAL_GITHUB_TOKEN'; // Replace with your actual token
+  PropertiesService.getUserProperties().setProperty('GITHUB_TOKEN', personalGithubToken);
+}
+
+function setGithubRepositoryName() {
+  var repositoryName = '4tals/LinksForIsrael'; // Replace with your repository name
+  PropertiesService.getUserProperties().setProperty('GITHUB_REPOSITORY', repositoryName);
 }
