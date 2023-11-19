@@ -77,6 +77,7 @@
 
 .scroll_section {
   overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
   scroll-behavior: smooth;
   &::-webkit-scrollbar {
     display: none;

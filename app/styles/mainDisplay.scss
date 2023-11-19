@@ -273,11 +273,8 @@
 			gap: 16px;
 			border-radius: 5px;
 			transition: background-color 0.3s ease;
-			overflow-x: scroll;
-			scroll-snap-type: x mandatory;
-			scroll-snap-align: center;
-			padding: 0 10px;
-			padding-block-end: 10px;
+			overflow: hidden;
+			width: fit-content;
 
 			// Optional: Style the scrollbar for a neater appearance
 			&::-webkit-scrollbar {
