@@ -2,8 +2,8 @@
 
 import { useContext } from "react";
 
-import { SearchInput } from "@/app/components/Header/SearchInput";
 import { SearchContext } from "@/app/components/RootApp";
+import { SearchInput } from "@/app/components/Search/SearchInput";
 
 export function MobileSearchInput() {
 	const { isMobileSearchOpen } = useContext(SearchContext);

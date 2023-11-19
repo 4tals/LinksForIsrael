@@ -98,6 +98,80 @@
         "סיוע",
         "הסברה"
       ]
+    },
+    {
+      "displayName": "להלחם בחזרה בטלגרם",
+      "name": "FightBackAI",
+      "shortDescription": "LLM’s enlisted to help Hasbara",
+      "description": "We've empowered over 1,700 individuals through our AI-driven public diplomacy efforts, and we're just getting started 🇮🇱. One month ago was the deadliest day Israel ever had. After the first two weeks of shock, Roy S. and I felt the call to help in the public diplomacy front. With our product and tech background, we developed a genAI solution.",
+      "initiativeValidationDetails": "Source: Are you the developer? If not, how did you hear about it?",
+      "url": "https://t.me/fightbackai_bot",
+      "website": "https://t.me/fightbackai_bot",
+      "telegram": "https://t.me/fightbackai_bot",
+      "initiativeImage": "https://cdn4.cdn-telegram.org/file/PBHJ3Be-OLv2Kf8CDAiUUcDEBjuURHML_x9P7Omptgo-9_RJhKx-MO1bWyvTFHCiDvUuf4ByK11SLEmWdZz6u7030_mILoKd2Xrk3_5CpSMW2z5_VCx0EGy5t6JzVlpOhyE7XyOU-SxGniGgF5d81Wvbt6N5bfD7t5GvZeGpO61Kdfz14CRaTuCm3_lTzaVzkhf2NC5hDXH-A-V-_Gy8YjnrpoX2FzNVUzsYmZT8gfIUmN_-0lipi3OeEmgCWuYJFiqz3dNpP7f_CPOtEn2Oq8nCae3xYzoDij5SvsIXsey-lxwyBLccLTPhvExRVKI4cf2Mn_h20aHrm69M9GNDuA.jpg",
+      "tags": [
+        "הסברה",
+        "דיפלומטיה ציבורית",
+        "AI",
+        "לוחמה באנטישמיות",
+        "בוט טלגרם"
+      ]
+    },
+    {
+      "displayName": "לנצח כל אדיוט בויכוח",
+      "name": "fuck-hamas",
+      "shortDescription": "Argue Down Any Idiot In a matter of seconds",
+      "description": "Use our tool to fight antisemitism and pro-Palestinian idiots by fighting with hard facts and clear conviction",
+      "initiativeValidationDetails": "Published by legitimate profile: https://www.linkedin.com/feed/update/urn:li:activity:7119216100805857280?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7119216100805857280%2C7119226823388872704%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287119226823388872704%2Curn%3Ali%3Aactivity%3A7119216100805857280%29",
+      "url": "https://www.commentron.ai/fuck-hamas",
+      "website": "https://www.commentron.ai/fuck-hamas",
+      "linkedin": "https://www.linkedin.com/feed/update/urn:li:activity:7119216100805857280?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7119216100805857280%2C7119226823388872704%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287119226823388872704%2Curn%3Ali%3Aactivity%3A7119216100805857280%29",
+      "youtube": "https://www.youtube.com/watch?v=frUmtcaKnR4",
+      "initiativeImage": "https://static.wixstatic.com/media/7fc51c_44f03a54c5444ae09c34d96d1161643f~mv2.png/v1/fill/w_214,h_214,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/%D7%9E%D7%99%D7%96%D7%9D%20%D7%97%D7%93%D7%A9.png",
+      "tags": [
+        "לנצח",
+        "אדיוט",
+        "בויכוח",
+        "התנגדות",
+        "אנטישמיות"
+      ]
+    },
+    {
+      "displayName": "ישראל נלחמת בחזרה",
+      "name": "israelfightsback",
+      "shortDescription": "harness the global Israeli-supporting public to the advocacy efforts",
+      "description": "The platform fetches thousands of Tweets daily, employs various machine learning techniques and identifies each if it is pro Israel or against it. Use this tool to identify posts you support and report the bad guys.",
+      "initiativeValidationDetails": "Published by credible profile: https://www.linkedin.com/feed/update/urn:li:activity:7129593577231310848/",
+      "url": "http://israelfightsback.info/",
+      "website": "http://israelfightsback.info/",
+      "linkedin": "https://www.linkedin.com/feed/update/urn:li:activity:7129593577231310848/",
+      "initiativeImage": "https://www.gstatic.com/analytics-lego/svg/ic_looker_studio.svg",
+      "tags": [
+        "ישראל",
+        "נלחמת",
+        "חיזור",
+        "כלים",
+        "טוויטר",
+        "מערכתי למידה"
+      ]
+    },
+    {
+      "displayName": "אלה GPT",
+      "name": "EllaGPT",
+      "shortDescription": "Sharp, sarcastic tweets countering hate speech in 220 characters.",
+      "description": "התחלתי לשחק עם GPTs והדבר הראשון שחשבתי עליו הוא בוט שכותב תגובות לאנטישמים ומכחישי מציאות בטוויטר. מוזמנים להשתמש ב-EllaGPT. פשוט תעתיקו פוסט ותעתיקו את התשובה אליו חזרה. אם יש לכם הצעות לשיפור, מוזמנים לשלוח הודעה",
+      "initiativeValidationDetails": "published by legit profile: https://twitter.com/alono88/status/1723275520798769174",
+      "url": "https://chat.openai.com/g/g-Q9aS12PPv-ellagpt",
+      "website": "https://chat.openai.com/g/g-Q9aS12PPv-ellagpt",
+      "twitter": "https://twitter.com/alono88/status/1723275520798769174",
+      "initiativeImage": "https://files.oaiusercontent.com/file-MU4ESr3Qd3qezjsHSBrawoR4?se=2123-10-18T20%3A07%3A46Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3Dellagptlogo.PNG&sig=GBfjBYAlor8BbTl3QN9TQzNbAFYMeLkGDzhwYYqouJI%3D",
+      "tags": [
+        "אלה GPT",
+        "בוט",
+        "טוויטר",
+        "מכחישי מציאות",
+        "אנטישמים"
+      ]
     }
   ]
 }

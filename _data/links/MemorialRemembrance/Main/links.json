@@ -68,6 +68,26 @@
         "חללי חרבות ברזל",
         "עיצוב אתרים"
       ]
+    },
+    {
+      "displayName": "חרבות ברזל - ממוריאליין",
+      "name": "ironswords.info",
+      "shortDescription": "האתר להנצחת הנופלים והנרצחים",
+      "description": "Memorialine היא פלטפורמה חברתית דיגיטלית הנועדה לתעד ולשמר את המורשת של הפרט, המשפחה והקהילה.",
+      "initiativeValidationDetails": "https://www.maariv.co.il/business/Article-1051444",
+      "url": "https://ironswords.info/",
+      "website": "https://ironswords.info/",
+      "telegram": "https://t.me/+oGmyF9NDeNJhY2Rk",
+      "form": "https://ironswords.info/ContactUs",
+      "facebook": "https://www.facebook.com/dorotmemorialneil/",
+      "twitter": "https://twitter.com/DorotNextGen",
+      "donation": "https://ironswords.info/Contributions",
+      "initiativeImage": "https://ironswords.info/logo/ironswords/logo.png",
+      "tags": [
+        "נופלים",
+        "מורשת",
+        "זיכרון"
+      ]
     }
   ]
 }

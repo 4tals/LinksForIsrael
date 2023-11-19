@@ -1,12 +1,14 @@
 "use client";
 
 import { useContext, useEffect, useRef } from "react";
+
 import { MenuContext, SearchContext } from "@/app/components/RootApp";
 
 export function SearchInput() {
 	const { search, onSearch, isMobileSearchOpen } = useContext(SearchContext);
 	const { isMenuOpen, toggleMenu } = useContext(MenuContext);
 	const inputRef = useRef<HTMLInputElement>(null);
+
 	useEffect(() => {
 		if (isMobileSearchOpen) {
 			inputRef.current?.focus();
