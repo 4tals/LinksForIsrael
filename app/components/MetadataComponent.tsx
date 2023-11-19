@@ -1,4 +1,3 @@
-import Head from "next/head";
 import React from "react";
 
 export function MetaDataComponent() {
@@ -36,7 +35,7 @@ export function MetaDataComponent() {
 	};
 
 	return (
-		<Head>
+		<>
 			{/* Basic Meta Tags */}
 			<title>{metadata.title}</title>
 			<meta name="description" content={metadata.description} />
@@ -68,7 +67,7 @@ export function MetaDataComponent() {
 
 			{/* Icons */}
 			<link rel="icon" href={metadata.icons.icon} />
-		</Head>
+		</>
 	);
 }
 
