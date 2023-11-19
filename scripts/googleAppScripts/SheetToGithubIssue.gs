@@ -115,8 +115,8 @@ ${initiativeTags}`;
 
 function createGithubIssue(title, body) {
     var personalGithubToken = PropertiesService.getUserProperties().getProperty('GITHUB_TOKEN');
-    var repo = '4tals/LinksForIsrael';
-    var url = 'https://api.github.com/repos/' + repo + '/issues';
+    var repositoryName = PropertiesService.getUserProperties().getProperty('GITHUB_REPOSITORY');
+    var url = 'https://api.github.com/repos/' + repositoryName + '/issues';
 
     var payload = {
         title: title, body: body, labels: ['new-initiative-request']
@@ -161,7 +161,17 @@ function testOnFormSubmit(row = 153) {
     onFormSubmit(e);
 }
 
+function setGithubCredentials() {
+  setPersonalGithubToken();
+  setGithubRepositoryName();
+}
+
 function setPersonalGithubToken() {
-  var personalGithubToken = 'your_actual_github_token'; // Replace with your actual token
+  var personalGithubToken = 'YOUR_ACTUAL_GITHUB_TOKEN'; // Replace with your actual token
   PropertiesService.getUserProperties().setProperty('GITHUB_TOKEN', personalGithubToken);
+}
+
+function setGithubRepositoryName() {
+  var repositoryName = '4tals/LinksForIsrael'; // Replace with your repository name
+  PropertiesService.getUserProperties().setProperty('GITHUB_REPOSITORY', repositoryName);
 }
