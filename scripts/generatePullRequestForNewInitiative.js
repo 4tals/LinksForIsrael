@@ -66,7 +66,9 @@ module.exports = async ({github, context}) => {
     await createCommentAsync(`**WARNING**: ${warning}
 
 Automatic PR will NOT be generated
-${json}
+\`\`\`json
+${JSON.stringify(json, null, 2)}
+\`\`\`
 See GitHub Action logs for more details: ${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`);
   }
 
@@ -166,7 +168,7 @@ ${linksJsonString}
 \`\`\`
 **If this is a mistake and it doesn't already exist:** edit the issue's title so that it starts with **\`[FORCE-PR-NEW-INITIATIVE]:\`**`,
              "Suspected existing initiative",
-              markdownNewInitiativeJson)
+             newInitiativeJson)
           return true;
         }
       }
@@ -175,20 +177,17 @@ ${linksJsonString}
     return false;
   }
 
-  async function updateExistingInitiativeAsync(categoryJson, newInitiativeJson, markdownNewInitiativeJson) {
+  async function updateExistingInitiativeAsync(categoryJson, newInitiativeJson) {
     const initiativeName = newInitiativeJson.name;
 
     if (!(initiativeName?.trim())) {
-      await warnAndCommentAsync(
-        "When updating an initiative, you must provide a name that matches the name of an existing initiative", 
-        "no initiative name provided", 
-        markdownNewInitiativeJson);
+      await warnAndCommentAsync("For update, you must provide a name that matches the name of an existing initiative", "no initiative name provided", newInitiativeJson);
       return false;
     }
     
     const existingCategoryIndex = categoryJson.links.findIndex((link => { link.name?.localeCompare(initiativeName, undefined, { sensitivity: 'accent' }) === 0 } ))
     if (existingCategoryIndex === -1) {
-      await warnAndCommentAsync(`Could not find existing initiative '${initiativeName}' in category '${category}'`, "initiative not found", markdownNewInitiativeJson);
+      await warnAndCommentAsync(`Could not find existing initiative '${initiativeName}' in category '${category}'`, "initiative not found", newInitiativeJson);
       return false;
     }
 
@@ -235,8 +234,6 @@ ${linksJsonString}
     return;
   }
   
-  // TODO move to comment function
-  const markdownNewInitiativeJson = "```json\n" + JSON.stringify(newInitiativeJson, null, 2) + "\n```";
   let categoryLinksJsonFile;
   try {
     categoryLinksJsonFile = `${process.env.GITHUB_WORKSPACE}/_data/links/${category}/links.json`;
@@ -246,11 +243,11 @@ ${linksJsonString}
     categoryJson = JSON.parse(categoryJsonString);
   }
   catch (e) {
-    return await warnAndCommentAsync("Could not process category links JSON", e, markdownNewInitiativeJson);
+    return await warnAndCommentAsync("Could not process category links JSON", e, newInitiativeJson);
   }
 
   if (updateInitiative) {
-    const edited = await updateExistingInitiativeAsync(categoryJson, newInitiativeJson, markdownNewInitiativeJson)
+    const edited = await updateExistingInitiativeAsync(categoryJson, newInitiativeJson, newInitiativeJson)
     if (!edited) {
       return;
     }
@@ -266,7 +263,7 @@ ${linksJsonString}
     pushPrBranch(branch, categoryLinksJsonFile, newInitiativeJson.name);
   }
   catch (e) {
-    return await warnAndCommentAsync("encountered error during git execution", e, markdownNewInitiativeJson);
+    return await warnAndCommentAsync("encountered error during git execution", e, newInitiativeJson);
   }
 
   let pr;
@@ -274,7 +271,7 @@ ${linksJsonString}
     pr = await createOrUpdatePullRequestAsync(branch, newInitiativeJson.name || "???");
   }
   catch (e) {
-    return await warnAndCommentAsync("Could not create pull request", e, markdownNewInitiativeJson);
+    return await warnAndCommentAsync("Could not create pull request", e, newInitiativeJson);
   }
 
   console.log("resolved PR: " + JSON.stringify(pr))
