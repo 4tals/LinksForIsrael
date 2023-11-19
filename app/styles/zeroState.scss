@@ -1,4 +1,4 @@
-.welcome-message-container {
+.zero-state-wrapper {
 	position: relative;
 	height: 100%;
 	overflow: hidden;
@@ -10,7 +10,7 @@
 		transform: translate(-50%, -50%);
 	}
 
-	.intro {
+	.text {
 		display: flex;
 		flex-direction: column;
 		font-size: x-large;
