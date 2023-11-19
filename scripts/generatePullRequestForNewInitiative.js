@@ -186,7 +186,9 @@ ${linksJsonString}
       return false;
     }
     
-    const existingCategoryIndex = categoryJson.links.findIndex((link => { link.name?.localeCompare(initiativeName, undefined, { sensitivity: 'accent' }) === 0 } ))
+    const existingCategoryIndex = categoryJson.links.findIndex((link =>  
+      link.name?.localeCompare(initiativeName, undefined, { sensitivity: 'accent' }) === 0 
+    ))
     if (existingCategoryIndex === -1) {
       await warnAndCommentAsync(`Could not find existing initiative '${initiativeName}' in category '${category}'`, "initiative not found", newInitiativeJson);
       return false;
