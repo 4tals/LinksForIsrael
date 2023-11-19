@@ -85,7 +85,7 @@
 	}
 
 	padding: 16px 24px;
-	border-radius: 15px;
+	border-radius: 2px;
 	margin-top: 10px;
 	min-width: 250px; // You can adjust this value as needed
 	max-width: 350px;
@@ -291,18 +291,6 @@
 
 	.links-section {
 		position: relative;
-
-		// &::after {
-		// 	content: "";
-		// 	position: absolute;
-		// 	top: 0;
-		// 	left: 0;
-		// 	width: 1px;
-		// 	height: 100%;
-		// 	background-color: var(--color-divider);
-		// 	filter: blur(1px);
-		// 	pointer-events: none;
-		// }
 	}
 
 	.links-section-content {
