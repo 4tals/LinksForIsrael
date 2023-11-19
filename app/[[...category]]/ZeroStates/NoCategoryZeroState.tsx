@@ -2,15 +2,13 @@ import React from "react";
 
 import { Logo } from "@/app/components/Logo";
 
-import "./noCategoryZeroState.scss";
-
 export const NoCategoryZeroState = () => {
 	return (
-		<div className="welcome-message-container">
+		<div className="zero-state-wrapper">
 			<div className="logo">
 				<Logo opacity={0.2} />
 			</div>
-			<div className="intro">
+			<div className="text">
 				<span>ברוכים הבאים לפורטל לינק לישראל</span>
 				<span>מרכזים מגוון יוזמות בתחומים שונים</span>
 				<span>
