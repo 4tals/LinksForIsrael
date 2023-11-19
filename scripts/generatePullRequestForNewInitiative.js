@@ -166,7 +166,8 @@ The value of property \`${prop}\` (\`${value}\`) is already present in \`${linkJ
 \`\`\`json
 ${linksJsonString}
 \`\`\`
-**If this is a mistake and it doesn't already exist:** edit the issue's title so that it starts with **\`[FORCE-PR-NEW-INITIATIVE]:\`**`,
+**If this is a mistake and it doesn't already exist:** edit the issue's title so that it starts with **\`[FORCE-PR-NEW-INITIATIVE]:\`**
+**If you wish to update an existing initiative:** edit the issue's title so that it starts with **\`[UPDATE-INITIATIVE]:\`**`,
              "Suspected existing initiative",
              newInitiativeJson)
           return true;
