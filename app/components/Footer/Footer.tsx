@@ -34,19 +34,6 @@ const socialLinks = [
 export function Footer() {
 	return (
 		<footer className="footer">
-			<div className="social-links">
-				{socialLinks.map((link) => (
-					<a
-						key={link.href}
-						href={link.href}
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						<img src={link.imgSrc} alt={link.alt} width="15" height="15" />
-					</a>
-				))}
-				<HelpUsButton />
-			</div>
 			<div className="quote-link flex flex-row items-center justify-center">
 				<div className="invite-text">&quot;הופכים עליהם, טובים אותם&quot;</div>
 				<a
@@ -61,6 +48,19 @@ export function Footer() {
 						width="40"
 					/>
 				</a>
+			</div>
+			<div className="social-links">
+				<HelpUsButton />
+				{socialLinks.map((link) => (
+					<a
+						key={link.href}
+						href={link.href}
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						<img src={link.imgSrc} alt={link.alt} width="15" height="15" />
+					</a>
+				))}
 			</div>
 		</footer>
 	);
