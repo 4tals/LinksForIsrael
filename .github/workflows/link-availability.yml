@@ -1,0 +1,27 @@
+name: Monitor initiative Link Availbility
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron:  '20 1 * * *'
+
+defaults:
+  run:
+    working-directory: ./scripts/link-availability
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Use Node.js 
+      uses: actions/setup-node@v4
+      with:
+        node-version: 20
+
+    - run: npm ci
+    - run: npm start
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

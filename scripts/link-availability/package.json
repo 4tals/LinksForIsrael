@@ -1,0 +1,14 @@
+{
+    "name": "links-for-israel-monitor-availability",
+    "version": "0.1.0",
+    "private": true,
+    "type": "module",
+    "scripts": {
+      "start": "node checkLinkAvailability.js"
+    },
+    "dependencies": {
+      "@octokit/rest": "^20.0.2",
+      "@octokit/auth-action": "^4.0.1",
+      "axios": "^1.6.2"
+    }
+  }
