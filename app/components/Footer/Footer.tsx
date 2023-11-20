@@ -49,8 +49,8 @@ export function Footer() {
 					/>
 				</a>
 			</div>
+			<HelpUsButton />
 			<div className="social-links">
-				<HelpUsButton />
 				{socialLinks.map((link) => (
 					<a
 						key={link.href}
@@ -58,7 +58,7 @@ export function Footer() {
 						target="_blank"
 						rel="noopener noreferrer"
 					>
-						<img src={link.imgSrc} alt={link.alt} width="15" height="15" />
+						<img src={link.imgSrc} alt={link.alt} width="25" height="25" />
 					</a>
 				))}
 			</div>

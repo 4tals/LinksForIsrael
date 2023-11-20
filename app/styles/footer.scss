@@ -13,20 +13,27 @@
 	bottom: 0;
 
 	.social-links {
-		display: flex;
-		flex-direction: row;
-		justify-content: center;
-		align-items: center;
-		gap: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
 
-		a {
-			transition: opacity 0.3s;
+        a {
+            width: 25px; /* Default size for desktop */
+            height: 25px; /* Default size for desktop */
+            transition: opacity 0.3s;
 
-			&:hover {
-				opacity: 0.7;
-			}
-		}
-	}
+            &:hover {
+                opacity: 0.7;
+            }
+
+            img {
+                width: 100%; /* Take the size of the parent <a> element */
+                height: 100%; /* Take the size of the parent <a> element */
+            }
+        }
+    }
 
 	.invite-text {
 		text-align: center;
