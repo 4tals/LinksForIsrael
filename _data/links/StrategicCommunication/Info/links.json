@@ -113,6 +113,21 @@
         "חומר הסברה",
         "קבוצת הפצה"
       ]
+    },
+    {
+      "displayName": "המאגר הלאומי לתיעוד מאורעות ה - 7.10 למלחמה",
+      "name": "The national library",
+      "shortDescription": "המאגר הלאומי לתיעוד מאורעות ה - 7.10 למלחמה.",
+      "description": "המאגר הלאומי לתיעוד מאורעות ה - 7.10 למלחמה. https://www.nli.org.il/he/at-your-service/who-we-are/projects/7-october-documentation",
+      "initiativeValidationDetails": "Well Known Source, validated by @4tal",
+      "url": "https://www.nli.org.il/he/at-your-service/who-we-are/projects/7-october-documentation",
+      "tags": [
+        "תיעוד",
+        "לאומי",
+        "מלחמה",
+        "7.10",
+        "מאגר"
+      ]
     }
   ]
 }
