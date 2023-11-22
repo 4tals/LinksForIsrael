@@ -55,7 +55,7 @@ body:
         - Defense/Weapons
         - Donations/Agriculture
         - Donations/Main
-        - Economy/Main
+        - Donations/Economy
         - Evacuees/Main
         - Evacuees/FamilyHostingMain
         - GeneralAssistance
@@ -72,10 +72,10 @@ body:
         - StrategicCommunication/Tools
         - Supplies/Donation
         - Supplies/Main
+        - Supplies/Transportation
         - TechInitiatives/Main
         - TechInitiatives/Support
         - TechInitiatives/Incubation
-        - Transportation/Main
         - Volunteering/Main
       default: 0
     validations:

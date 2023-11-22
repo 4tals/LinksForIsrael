@@ -1,10 +1,11 @@
 {
   "name": "Donations",
-  "displayName": "תרומות כספיות",
+  "displayName": "כלכלי ותרומות כספיות",
   "description": "",
   "image": "https://cdn-icons-png.flaticon.com/512/6203/6203343.png",
   "subCategories": [
     "Agriculture",
+    "Economy",
     "Main"
   ]
 }
