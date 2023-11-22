@@ -169,6 +169,27 @@
         "דרום",
         "מארחים"
       ]
+    },
+    {
+      "displayName": "עיצוב וריהוט בתי משפחות מפונות",
+      "name": "BNF-furniture",
+      "shortDescription": "בימים אלו אנו מסייעים ככל האפשר בשינוע וריהוט דירות של משפחות שנאלצו לעזוב את ביתם בעקבות המלחמה",
+      "description": "תרומות ריהוט ומוצרי חשמל: אם יש ברשותכם רהיטים כגון: מיטות, מזרונים, כלי מטבח ועוד או מוצרי חשמל שאינם בשימוש ושהייתם רוצים לתרום, אנו נשמח לאסוף אותם ולספק אותם עבור משפחות שפונו (גם אקססוריז לבית, כריות ותמונות יתקבלו בברכה).",
+      "initiativeValidationDetails": "BNF is already on the site, this is a different initiative from the same group",
+      "url": "https://www.bnf.co.il/stay-together/",
+      "initiativeImage": "https://www.bnf.co.il/wp-content/uploads/2023/03/323423444-removebg-preview.png",
+      "website": "https://www.bnf.co.il/stay-together/",
+      "whatsapp": "https://api.whatsapp.com/send/?phone=972533042487&text&type=phone_number&app_absent=0",
+      "form": "https://www.bnf.co.il/%D7%98%D7%95%D7%A4%D7%A1-%D7%AA%D7%A8%D7%95%D7%9E%D7%AA-%D7%A8%D7%99%D7%94%D7%95%D7%98",
+      "docs": "https://www.bnf.co.il/%D7%98%D7%95%D7%A4%D7%A1-%D7%A1%D7%99%D7%95%D7%A2-%D7%A9%D7%99%D7%A0%D7%95%D7%A2-%D7%A8%D7%99%D7%94%D7%95%D7%98",
+      "facebook": "https://www.facebook.com/profile.php?id=100094059004579",
+      "instagram": "https://www.instagram.com/bnf_designs/",
+      "tags": [
+        "ריהוט",
+        "תמיכה",
+        "משפחות מפונות",
+        "מפונים"
+      ]
     }
   ]
 }
