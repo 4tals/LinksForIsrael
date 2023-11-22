@@ -1,4 +1,3 @@
-import axios from 'axios';
 import { resolve, extname } from "path";
 
 import { promises as fs } from "fs";
@@ -16,7 +15,7 @@ async function checkUrlAvailabilityAsync(url, unavailableUrls) {
   let response;
   try {
     console.log(`Fetching URL: ${url}`);
-    response = await axios.get(url);
+    response = await fetch(url);
   }
   catch (e) {
     console.warn(`Error fetching url: ${url}\n${e}`);
@@ -24,7 +23,13 @@ async function checkUrlAvailabilityAsync(url, unavailableUrls) {
     return;
   }
 
-  console.log(`URL is available: ${url} ${response.status} ${response.statusText}`);
+  if (!response.ok) {
+    console.warn(`Non-success HTTP status code fetching url: ${url} (${response.status} ${response.statusText})`);
+    unavailableUrls.push(url);
+    return;
+  }
+
+  console.log(`URL is available: ${url} (${response.status} ${response.statusText})`);
 }
 
 console.log("Checking availability of initative links");
@@ -58,7 +63,7 @@ for (const dirent of dirents) {
     for (const prop in link) {
       const val = link[prop]
 
-      console.log(`Processing property ${prop} with value ${val}`)
+      console.debug(`Processing property ${prop} with value ${val}`)
 
       if (typeof val !== "string") {
         console.debug(`Skipping non-string property`)
@@ -70,25 +75,27 @@ for (const dirent of dirents) {
         continue;
       }
 
-      const url = val.trim();
-      if (url.match(/\s/g)) {
+      const trimmedVal = val.trim();
+      if (trimmedVal.match(/\s/g)) {
         console.debug(`Whitespace detected, assuming description containing more than just a URL`);
         continue;
       }
 
-      if (processedUrls.has(url)) {
+      let url;
+      try {
+        url = new URL(trimmedVal);
+      }
+      catch (e) {
+        console.debug(`Value of property ${prop} could not be parsed as a URL: ${trimmedVal}\n${e}`);
+        continue;
+      }
+
+      if (processedUrls.has(url.href)) {
         console.debug(`Already processed URL: ${url}`);
         continue;
       }
 
-      processedUrls.add(url);
-      try {
-        new URL(url);
-      }
-      catch (e) {
-        console.debug(`Value of property ${prop} could not be parsed as a URL: ${url}\n${e}`);
-        continue;
-      }
+      processedUrls.add(url.href);
 
       fetchPromises.push(checkUrlAvailabilityAsync(url, unavailableUrls));
     }
