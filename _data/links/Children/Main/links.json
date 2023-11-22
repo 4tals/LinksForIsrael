@@ -1,5 +1,5 @@
 {
-  "name": "ChildrenMain",
+  "name": "ChildrenAndFamily",
   "displayName": "קישורים כלליים",
   "links": [
     {
@@ -55,26 +55,6 @@
       "description": "קוד: בריינפופ23",
       "url": "https://il.brainpop.com/",
       "website": "https://il.brainpop.com/"
-    },
-    {
-      "displayName": "מערך בייביסיטר ארצי",
-      "name": "NewDealBabysitter",
-      "shortDescription": "מערך בייביסיטר ארצי",
-      "description": "זקוקים/ות לבייביסיטר בזמן המלחמה? 'חוזה חדש' פה בשבילכם! משפחות רבות מוצאות עצמן במצב קשה בו אחד או יותר מהורי המשפחה אינו בבית, והמשפחה זקוקה לעזרה עם הילדים. לצורך כך הקמנו מערך ארצי של שמרטפים ושמרטפיות (הצטרפות מגיל 18). מוזמנים להצטרף לאחת מהקבוצות האזוריות, בה יבוצע חיבור בין משפחות הזקוקת לעזרה לבין המתנדבים שלנו.",
-      "initiativeValidationDetails": "Known organization from before the war",
-      "url": "https://www.new-deal.org.il/babysitter",
-      "website": "https://www.new-deal.org.il/babysitter",
-      "whatsapp": "https://chat.whatsapp.com/E7POYA8pBlu1C1EZy1fDLq",
-      "docs": "https://www.hopp.bio/new-deal",
-      "initiativeImage": "https://scontent.ftlv6-1.fna.fbcdn.net/v/t39.30808-6/307851307_420511490189366_1794830304047005228_n.png?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=wuiPNY9ShrMAX8tE1tR&_nc_ht=scontent.ftlv6-1.fna&oh=00_AfBe0c3Ywgl9gSTeoSmWSjtCyX51nr97EMMExVLbo_z28Q&oe=65547942",
-      "tags": [
-        "חוזה חדש",
-        "בייביסיטר",
-        "שמרטף",
-        "מלחמה",
-        "משפחה",
-        "ילדים"
-      ]
     }
   ]
 }

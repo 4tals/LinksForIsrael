@@ -50,6 +50,7 @@ body:
       options:
         - Agriculture/Main
         - Children/Main
+        - Children/ReserveFamily
         - Defense/Evacuation
         - Defense/Shelters
         - Defense/Weapons
@@ -64,7 +65,6 @@ body:
         - Medical/Info
         - MemorialRemembrance/Main
         - MissingPersons/Main
-        - Reserves/Main
         - StrategicCommunication/Funding
         - StrategicCommunication/Info
         - StrategicCommunication/Main

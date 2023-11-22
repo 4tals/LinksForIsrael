@@ -88,6 +88,26 @@
       ]
     },
     {
+      "name": "ReserveSoldiersSupport",
+      "displayName": "אזרחים - עושים יותר בביטחון",
+      "shortDescription": "קהילה של אזרחים בעורף שרוצים לסייע לכוחות הבטחון לנצח במלחמה!",
+      "description": "הקהילה הוקמה על ידי ידידיה הריס ואור סביון, שני מפקדים במילואים כדי שאזרחים טובים בעורף שרוצים לעשות יותר יוכלו לסייע בצרכים אמיתיים של כוחות הבטחון בשטח. כל מתנדבי החמ״ל של אזרחים עושים יותר בבטחון מגיעים בשיטת חבר מביא חבר על מנת לשמור על בטחון המידע. אנחנו מחוברים למספר קבוצות וקהילות של מפקדים בצבא משם מגיעות הבקשות ואנחנו עושים כמיטב יכולתנו כדי לוודא את הצורך בכל פנייה בשיחה ראשונית. הקהילה מונה מעל 5000 חברות וחברים שמסייעים בתחומים רבים על מנת שננצח את המערכה גם בזירה הבטחונית וגם בזירה העורפית. מוזמנים להצטרף לקהילה ולהיות שותפים לנצח.",
+      "initiativeValidationDetails": "Old group from start of war\nAlmost 1.4K members\nChatted with one of the admins\nFound linked from legitimate source: https://tlg.pm/channels/502af501-8835-4a57-a65a-2cc1e00e185e/",
+      "url": "https://osimyoter.com/",
+      "initiativeImage": "https://osimyoter.com/images/HANDS.png",
+      "website": "https://osimyoter.com/",
+      "whatsapp": "https://chat.whatsapp.com/G01UhlGjmdv7PTdhnItQsC",
+      "form": "https://forms.monday.com/forms/692b95df344d9d15ad289c3b3a003029?r=euc1",
+      "docs": "https://forms.monday.com/forms/ace30a05b7cdcce509292531b19cfbdb?r=euc1",
+      "tags": [
+        "אזרחים",
+        "בטחון",
+        "מפקדים במילואים",
+        "חמ״ל",
+        "קהילה"
+      ]
+    },
+    {
       "displayName": "עזרא בוט",
       "name": "EzraBot",
       "shortDescription": "הבוט הישראלי שמחבר בין אנשים שמחפשים עזרה לגיבורים שיכולים לתת אותה",

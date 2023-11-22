@@ -1,9 +1,10 @@
 {
   "name": "Children",
-  "displayName": "ילדים",
+  "displayName": "ילדים ומשפחות",
   "description": "כל הפעילויות המיועדות לילדים ולנוער",
   "image": "https://cdn-icons-png.flaticon.com/512/3079/3079247.png",
   "subCategories": [
+    "ReserveFamily",
     "Main"
   ]
 }
