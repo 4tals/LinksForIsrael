@@ -34,36 +34,12 @@
       ]
     },
     {
-      "name": "mitmadvimAutomation",
-      "displayName": "התאמת מתנדבים ליוזמות התנדבות",
-      "description": "קבוצת ואצאפ לבניית אוטומציה שתקשר בין מתנדבים למחפשי עזרה",
-      "shortDescription": "קבוצת ואצאפ לבניית אוטומציה שתקשר בין מתנדבים למחפשי עזרה",
-      "url": "https://chat.whatsapp.com/JuJ1da4wYbe16uZL0cqL40",
-      "whatsapp": "https://chat.whatsapp.com/JuJ1da4wYbe16uZL0cqL40"
-    },
-    {
-      "name": "IsraelDiplomacy",
-      "displayName": "Israel Diplomacy",
-      "shortDescription": "אתר עם תוכן מוכן לשיתוף לצרכי הסברה",
-      "description": "אתר עם תוכן מוכן לשיתוף לצרכי הסברה",
-      "url": "https://github.com/nirtz89/israel_diplomacy",
-      "website": "https://github.com/nirtz89/israel_diplomacy"
-    },
-    {
       "name": "BotsForIsrael",
       "displayName": "Bots For Israel - בוטים למען ישראל",
       "description": "",
       "shortDescription": "",
       "url": "https://chat.whatsapp.com/CWmy7ai0VJ1449FVgShVGk",
       "whatsapp": "https://chat.whatsapp.com/CWmy7ai0VJ1449FVgShVGk"
-    },
-    {
-      "name": "ProAntiClassification",
-      "displayName": "סיווג טקסט פרו/אנטי ישראלי",
-      "description": "",
-      "shortDescription": "",
-      "url": "https://chat.whatsapp.com/K9iNqhuwhdmLvAJhNrh6y0",
-      "whatsapp": "https://chat.whatsapp.com/K9iNqhuwhdmLvAJhNrh6y0"
     },
     {
       "displayName": "מערך הדיגיטל הלאומי - איסוף מדיה מיום מתקפת הפתע",
