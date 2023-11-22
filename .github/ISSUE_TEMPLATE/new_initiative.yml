@@ -56,7 +56,8 @@ body:
         - Donations/Agriculture
         - Donations/Main
         - Economy/Main
-        - FamilyHosting/Main
+        - Evacuees/Main
+        - Evacuees/FamilyHostingMain
         - GeneralAssistance
         - Initiatives/Main
         - Medical/Main
