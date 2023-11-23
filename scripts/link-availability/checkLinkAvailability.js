@@ -159,7 +159,7 @@ if (unavailableUrls.length > 0) {
 
   const [owner, repo] = process.env.GITHUB_REPOSITORY.split('/');
   
-  octokit.rest.issues.update({
+  await octokit.rest.issues.update({
     issue_number: process.env.GITHUB_AVAILABILITY_ISSUE_NUMBER,
     owner: owner,
     repo: repo,
