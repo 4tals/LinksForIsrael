@@ -9,6 +9,7 @@
     "dependencies": {
         "@octokit/auth-action": "^4.0.1",
         "@octokit/rest": "^20.0.2",
+        "fetch-retry": "^5.0.6",
         "p-limit": "^5.0.0"
     }
 }

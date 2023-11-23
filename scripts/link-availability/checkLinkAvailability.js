@@ -3,6 +3,8 @@ import { promises as fs } from "fs";
 
 import pLimit from 'p-limit';
 
+const fetch = require('fetch-retry')(global.fetch);
+
 import { Octokit } from "@octokit/rest";
 import { createActionAuth } from "@octokit/auth-action";
 
@@ -30,7 +32,16 @@ async function checkUrlAvailabilityAsync(file, name, prop, url) {
   let response;
   try {
     console.debug(`Fetching URL: ${url}`);
-    response = await fetch(url);
+    response = await fetch(url, {
+      retryOn: [429, 500, 502, 503, 504],
+      retries: 3,
+      retryDelay: function(attempt, error, response) {
+        const delayMs = Math.pow(2, attempt) * 1000;
+        const errorMessage = error ? `${error}, ${error.cause}` : `${response.status} ${response.statusText}`;
+        console.warn(`Error fetching URL '${url}' [attempt #${attempt}]: ${errorMessage} ... will retry in ${delayMs}ms`);
+        return delayMs;
+      }
+    });
   }
   catch (e) {
     addUnavailableUrl(file, name, prop, url, `Error fetching: ${e}, ${e.cause}`);
