@@ -13,21 +13,30 @@ const octokit = new Octokit({
   auth: authentication.token
 });
 
-async function checkUrlAvailabilityAsync(url, unavailableUrls) {
+function addUnavailableUrl(category, name, prop, url, errorMessage, unavailableUrls) {
+  console.warn(errorMessage);
+  unavailableUrls.push({
+    category: category,
+    name: name,
+    prop: prop,
+    url: url,
+    err: errorMessage
+  });
+}
+
+async function checkUrlAvailabilityAsync(category, name, prop, url, unavailableUrls) {
   let response;
   try {
     console.log(`Fetching URL: ${url}`);
     response = await fetch(url);
   }
   catch (e) {
-    console.warn(`Error fetching url: ${url}\n${e}\n${e.cause}`);
-    unavailableUrls.push(url);
+    addUnavailableUrl(category, name, prop, url, `Error fetching url: ${url}\n${e}\n${e.cause}`, unavailableUrls);
     return;
   }
 
   if (!response.ok) {
-    console.warn(`Non-success HTTP status code fetching url: ${url} (${response.status} ${response.statusText})`);
-    unavailableUrls.push(url);
+    addUnavailableUrl(category, name, prop, url, `Non-success HTTP status code fetching url: ${url} (${response.status} ${response.statusText})`, unavailableUrls);
     return;
   }
 
@@ -111,9 +120,15 @@ await Promise.all(fetchPromises);
 if (unavailableUrls.length > 0) {
   console.warn(`Detected unavailable URL(s): ${unavailableUrls}`);
 
+  let index = 1;
   let body = "";
-  for (const url of unavailableUrls) {
-    body += `* ${url}\n`
+  for (const urlInfo of unavailableUrls) {
+    body += `## URL ${index++}
+* Category: ${urlInfo.category}
+* Name: ${urlInfo.name}
+* Property: ${urlInfo.prop}
+* URL: ${urlInfo.url}
+* Error: ${urlInfo.err}`
   }
 
   const [owner, repo] = process.env.GITHUB_REPOSITORY.split('/');
