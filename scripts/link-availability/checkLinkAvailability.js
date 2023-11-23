@@ -17,9 +17,21 @@ const octokit = new Octokit({
 });
 
 const unavailableUrls = [];
+const expectedHostErrors = {
+  "ironpro.zigit.co.il": "UNABLE TO VERIFY THE FIRST CERTIFICATE",
+  "files.oaiusercontent.com": "TOO MANY REQUESTS",
+  "chat.openai.com" : "TOO MANY REQUESTS"
+}
 
 function addUnavailableUrl(file, name, prop, url, errorMessage) {
   console.warn(`${errorMessage} [${url}]`);
+
+  const expectedHostError = expectedHostErrors[url.hostname];
+  if (expectedHostError && errorMessage.toLocaleUpperCase("en-us").indexOf(expectedHostError) !== -1) {
+    console.info(`Expected error for host: ${url.hostname} [${expectedHostError}]`);
+    return;
+  }
+
   unavailableUrls.push({
     file: file,
     name: name,
