@@ -18,7 +18,7 @@ const unavailableUrls = [];
 function addUnavailableUrl(file, name, prop, url, errorMessage) {
   console.warn(errorMessage);
   unavailableUrls.push({
-    file: category,
+    file: file,
     name: name,
     prop: prop,
     url: url,
@@ -110,7 +110,7 @@ for (const dirent of dirents) {
 
       processedUrls.add(url.href);
 
-      fetchPromises.push(concurrencyLimit(checkUrlAvailabilityAsync, url));
+      fetchPromises.push(concurrencyLimit(checkUrlAvailabilityAsync, absolutePath, link.name, prop, url));
     }
   }
 }
@@ -119,7 +119,7 @@ console.log("Waiting for URLs to be fetched...");
 await Promise.all(fetchPromises);
 
 if (unavailableUrls.length > 0) {
-  console.warn(`Detected unavailable URL(s): ${unavailableUrls}`);
+  console.warn(`Detected unavailable URL(s): ${unavailableUrls.map(ui => JSON.stringify(ui))}`);
 
   let index = 1;
   let body = "";
@@ -129,7 +129,8 @@ if (unavailableUrls.length > 0) {
 * Name: ${urlInfo.name}
 * Property: ${urlInfo.prop}
 * URL: ${urlInfo.url}
-* Error: ${urlInfo.err}`
+* Error: ${urlInfo.err}
+`
   }
 
   const [owner, repo] = process.env.GITHUB_REPOSITORY.split('/');
