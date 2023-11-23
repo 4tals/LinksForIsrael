@@ -3,7 +3,8 @@ import { promises as fs } from "fs";
 
 import pLimit from 'p-limit';
 
-const fetch = require('fetch-retry')(global.fetch);
+import fetchWithRetry from 'fetch-retry';
+const fetch = fetchWithRetry(global.fetch);
 
 import { Octokit } from "@octokit/rest";
 import { createActionAuth } from "@octokit/auth-action";
@@ -33,7 +34,7 @@ async function checkUrlAvailabilityAsync(file, name, prop, url) {
   try {
     console.debug(`Fetching URL: ${url}`);
     response = await fetch(url, {
-      retryOn: [429, 500, 502, 503, 504],
+      retryOn: [400, 429, 500, 502, 503, 504],
       retries: 3,
       retryDelay: function(attempt, error, response) {
         const delayMs = Math.pow(2, attempt) * 1000;
