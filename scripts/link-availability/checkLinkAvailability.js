@@ -20,7 +20,7 @@ async function checkUrlAvailabilityAsync(url, unavailableUrls) {
     response = await fetch(url);
   }
   catch (e) {
-    console.warn(`Error fetching url: ${url}\n${e}`);
+    console.warn(`Error fetching url: ${url}\n${e}\n${e.cause}`);
     unavailableUrls.push(url);
     return;
   }
@@ -38,7 +38,7 @@ console.log("Checking availability of initative links");
 const processedUrls = new Set();
 const unavailableUrls = [];
 const fetchPromises = [];
-const concurrencyLimit = pLimit(process.env.MAX_CONCURRENCY_LEVEL || 100);
+const concurrencyLimit = pLimit(process.env.MAX_CONCURRENCY_LEVEL ? 100 : parseInt(process.env.MAX_CONCURRENCY_LEVEL));
 
 const linksFolder = `${process.env.GITHUB_WORKSPACE}/_data/links`;
 const dirents = await fs.readdir(linksFolder, { withFileTypes: true, recursive: true });
