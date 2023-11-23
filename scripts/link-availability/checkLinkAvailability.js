@@ -16,7 +16,7 @@ const octokit = new Octokit({
 const unavailableUrls = [];
 
 function addUnavailableUrl(file, name, prop, url, errorMessage) {
-  console.warn(errorMessage);
+  console.warn(`${errorMessage} [${url}]`);
   unavailableUrls.push({
     file: file,
     name: name,
@@ -29,16 +29,16 @@ function addUnavailableUrl(file, name, prop, url, errorMessage) {
 async function checkUrlAvailabilityAsync(file, name, prop, url) {
   let response;
   try {
-    console.log(`Fetching URL: ${url}`);
+    console.debug(`Fetching URL: ${url}`);
     response = await fetch(url);
   }
   catch (e) {
-    addUnavailableUrl(file, name, prop, url, `Error fetching url: ${url}\n${e}\n${e.cause}`);
+    addUnavailableUrl(file, name, prop, url, `Error fetching: ${e}, ${e.cause}`);
     return;
   }
 
   if (!response.ok) {
-    addUnavailableUrl(file, name, prop, url, `Non-success HTTP status code fetching url: ${url} (${response.status} ${response.statusText})`);
+    addUnavailableUrl(file, name, prop, url, `Non-success HTTP status code: ${response.status} ${response.statusText}`);
     return;
   }
 
