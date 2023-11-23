@@ -1,6 +1,8 @@
 import { resolve, extname } from "path";
-
 import { promises as fs } from "fs";
+
+import pLimit from 'p-limit';
+
 import { Octokit } from "@octokit/rest";
 import { createActionAuth } from "@octokit/auth-action";
 
@@ -33,8 +35,10 @@ async function checkUrlAvailabilityAsync(url, unavailableUrls) {
 }
 
 console.log("Checking availability of initative links");
-let processedUrls = new Set();
-let unavailableUrls = [];
+const processedUrls = new Set();
+const unavailableUrls = [];
+const fetchPromises = [];
+const concurrencyLimit = pLimit(process.env.MAX_CONCURRENCY_LEVEL || 100);
 
 const linksFolder = `${process.env.GITHUB_WORKSPACE}/_data/links`;
 const dirents = await fs.readdir(linksFolder, { withFileTypes: true, recursive: true });
@@ -56,7 +60,6 @@ for (const dirent of dirents) {
     continue;
   }
 
-  const fetchPromises = [];
   for (const link of linksJson.links) {
     console.log(`processing initative: ${link.name}`);
 
@@ -97,13 +100,13 @@ for (const dirent of dirents) {
 
       processedUrls.add(url.href);
 
-      fetchPromises.push(checkUrlAvailabilityAsync(url, unavailableUrls));
+      fetchPromises.push(concurrencyLimit(checkUrlAvailabilityAsync, url, unavailableUrls));
     }
   }
-
-  console.log("Fetching file urls...");
-  await Promise.all(fetchPromises);
 }
+
+console.log("Waiting for URLs to be fetched...");
+await Promise.all(fetchPromises);
 
 if (unavailableUrls.length > 0) {
   console.warn(`Detected unavailable URL(s): ${unavailableUrls}`);
