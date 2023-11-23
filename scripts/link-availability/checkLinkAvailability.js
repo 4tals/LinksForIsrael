@@ -13,10 +13,12 @@ const octokit = new Octokit({
   auth: authentication.token
 });
 
-function addUnavailableUrl(category, name, prop, url, errorMessage, unavailableUrls) {
+const unavailableUrls = [];
+
+function addUnavailableUrl(file, name, prop, url, errorMessage) {
   console.warn(errorMessage);
   unavailableUrls.push({
-    category: category,
+    file: category,
     name: name,
     prop: prop,
     url: url,
@@ -24,19 +26,19 @@ function addUnavailableUrl(category, name, prop, url, errorMessage, unavailableU
   });
 }
 
-async function checkUrlAvailabilityAsync(category, name, prop, url, unavailableUrls) {
+async function checkUrlAvailabilityAsync(file, name, prop, url) {
   let response;
   try {
     console.log(`Fetching URL: ${url}`);
     response = await fetch(url);
   }
   catch (e) {
-    addUnavailableUrl(category, name, prop, url, `Error fetching url: ${url}\n${e}\n${e.cause}`, unavailableUrls);
+    addUnavailableUrl(file, name, prop, url, `Error fetching url: ${url}\n${e}\n${e.cause}`);
     return;
   }
 
   if (!response.ok) {
-    addUnavailableUrl(category, name, prop, url, `Non-success HTTP status code fetching url: ${url} (${response.status} ${response.statusText})`, unavailableUrls);
+    addUnavailableUrl(file, name, prop, url, `Non-success HTTP status code fetching url: ${url} (${response.status} ${response.statusText})`);
     return;
   }
 
@@ -45,7 +47,6 @@ async function checkUrlAvailabilityAsync(category, name, prop, url, unavailableU
 
 console.log("Checking availability of initative links");
 const processedUrls = new Set();
-const unavailableUrls = [];
 const fetchPromises = [];
 const concurrencyLimit = pLimit(process.env.MAX_CONCURRENCY_LEVEL ? 100 : parseInt(process.env.MAX_CONCURRENCY_LEVEL));
 
@@ -109,7 +110,7 @@ for (const dirent of dirents) {
 
       processedUrls.add(url.href);
 
-      fetchPromises.push(concurrencyLimit(checkUrlAvailabilityAsync, url, unavailableUrls));
+      fetchPromises.push(concurrencyLimit(checkUrlAvailabilityAsync, url));
     }
   }
 }
@@ -124,7 +125,7 @@ if (unavailableUrls.length > 0) {
   let body = "";
   for (const urlInfo of unavailableUrls) {
     body += `## URL ${index++}
-* Category: ${urlInfo.category}
+* File: ${urlInfo.file}
 * Name: ${urlInfo.name}
 * Property: ${urlInfo.prop}
 * URL: ${urlInfo.url}
