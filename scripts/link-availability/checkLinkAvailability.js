@@ -20,7 +20,15 @@ const unavailableUrls = [];
 const expectedHostErrors = {
   "ironpro.zigit.co.il": "UNABLE TO VERIFY THE FIRST CERTIFICATE",
   "files.oaiusercontent.com": "TOO MANY REQUESTS",
-  "chat.openai.com" : "TOO MANY REQUESTS"
+  "chat.openai.com" : "TOO MANY REQUESTS",
+  "govextra.gov.il": "FORBIDDEN",
+  "app.oct7.io": "FORBIDDEN",
+  "needarim.org.il": "FORBIDDEN",
+  "shalhevet.co": "FORBIDDEN",
+  "special.now14.co.il": "FORBIDDEN",
+  "www.geektime.co.il": "FORBIDDEN",
+  "giveisrael.org": "FORBIDDEN",
+  "www.payboxapp.com": "FORBIDDEN"
 }
 
 function addUnavailableUrl(file, name, prop, url, errorMessage) {
