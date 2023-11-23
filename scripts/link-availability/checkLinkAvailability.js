@@ -170,3 +170,6 @@ if (unavailableUrls.length > 0) {
 else {
   console.log("No unavailable URLs detected");
 }
+
+// For some reason handles are still open here (as shown by why-is-node-running), keeping NodeJS running needlessly for many minutes
+process.exit();
