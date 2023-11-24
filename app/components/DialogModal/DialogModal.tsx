@@ -1,11 +1,20 @@
-"use client";
+import React from "react";
 
-import { ReactNode } from "react";
-import "./dialogModal.scss";
+import { CloseIcon } from "@chakra-ui/icons";
+import {
+	Modal,
+	ModalOverlay,
+	ModalContent,
+	ModalHeader,
+	ModalBody,
+	useDisclosure,
+	Box,
+	IconButton,
+} from "@chakra-ui/react";
 
 type DialogModalProps = {
 	title: string;
-	body: ReactNode;
+	body: React.ReactNode;
 	open?: boolean;
 	toggleModal: (open: boolean) => void;
 	isRtl?: boolean;
@@ -14,35 +23,47 @@ type DialogModalProps = {
 export function DialogModal({
 	title,
 	body,
-	open,
+	open = false,
 	toggleModal,
 	isRtl,
 }: DialogModalProps) {
+	const { isOpen, onClose } = useDisclosure({ isOpen: open });
+
+	React.useEffect(() => {
+		if (open !== isOpen) {
+			toggleModal(isOpen);
+		}
+	}, [isOpen, open, toggleModal]);
+
 	return (
-		open &&
-		body && (
-			<div className={`dialogContainer ${!isRtl? 'ltr' : ''}`}>
-				<div
-					className="modalBackdrop"
-					onClick={() => {
-						toggleModal(false);
-					}}
-				></div>
-				<div id="dialogBox" className="dialogBox">
-					<header>
-						<h2 className="header">{title}</h2>
-						<button
-							onClick={() => {
-								toggleModal(false);
-							}}
-							id="closeDialogHeader"
-						>
-							×
-						</button>
-					</header>
-					<section className="dialogContent">{body}</section>
-				</div>
-			</div>
-		)
+		<Modal isOpen={isOpen} onClose={onClose} isCentered size="lg">
+			<ModalOverlay bg="blackAlpha.300" />
+			<ModalContent borderRadius="lg" m={4} boxShadow="xl">
+				<ModalHeader
+					backgroundColor="blue.600"
+					color="white"
+					fontSize="lg"
+					fontWeight="bold"
+					position="relative"
+				>
+					{title}
+					<IconButton
+						icon={<CloseIcon />}
+						variant="ghost"
+						color="white"
+						size="lg"
+						position="absolute"
+						top={1}
+						right={isRtl ? "unset" : 1}
+						left={isRtl ? 1 : "unset"}
+						onClick={() => toggleModal(false)}
+						aria-label="Close modal"
+					/>
+				</ModalHeader>
+				<ModalBody p={6}>
+					<Box>{body}</Box>
+				</ModalBody>
+			</ModalContent>
+		</Modal>
 	);
 }
