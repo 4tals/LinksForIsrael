@@ -77,7 +77,6 @@ body:
         - TechInitiatives/Support
         - TechInitiatives/Incubation
         - Volunteering/Main
-      default: 0
     validations:
       required: true
 
