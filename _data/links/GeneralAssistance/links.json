@@ -36,12 +36,22 @@
       "website": "https://www.levechad.org/"
     },
     {
+      "displayName": "חמ״ל אזרחי - סיוע לתושבי קו הלחימה",
       "name": "KhamalAmEhad",
-      "displayName": "חמ״ל עם אחד",
-      "description": "חמ״ל המחבר בין משפחות מארחות למשפחות מהדרום, ומגייס תרומות לסיוע התושבים.",
-      "shortDescription": "חמ״ל המחבר בין משפחות מארחות למשפחות מהדרום, ומגייס תרומות לסיוע התושבים.",
-      "url": "https://www.am-ehad.org/",
-      "website": "https://www.am-ehad.org/"
+      "shortDescription": "זקוקים לסיוע? יכולים להציע עזרה? חמ״ל אזרחי מאחד את כל היוזמות עבור המשפחות והחיילים, בחזית ובעורף.  חמ'ל אזרחי אחד - עם אחד",
+      "description": "החמ'ל האזרחי - עוזרים לצה״ל לנצח ותומכים מכל הלב באזרחים 7 באוקטובר 2023 ישראל התעוררה למלחמה קשה. מתוך הזוועה והשבר, על פי מיטב הרוח הישראלית - כי אנחנו עם אחד, קם החמ״ל האזרחי - מרכז ההתנדבות הגדול בישראל.",
+      "initiativeValidationDetails": "Known initiative, verified by @4tal",
+      "url": "https://www.hamal.org.il/",
+      "initiativeImage": "https://static.wixstatic.com/media/dea07e_2159e1a1df9d4b5097955583837debb2~mv2.png/v1/fill/w_108,h_70,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_auto/logoHamal%201.png",
+      "website": "https://www.hamal.org.il/",
+      "donation": "https://meshulam.co.il/purchase?b=d635b86acaf6057aa68cb24da64b35c0",
+      "tags": [
+        "חמ״ל",
+        "אזרחי",
+        "סיוע",
+        "תושבים",
+        "לחימה"
+      ]
     },
     {
       "displayName": "מתגייסים באהבה",
