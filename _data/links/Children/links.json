@@ -1,7 +1,7 @@
 {
   "name": "Children",
-  "displayName": "משפחה",
-  "description": "תמיכה במשפחות המילואים ותכנים לילדים",
+  "displayName": "משפחה ובעלי חיים",
+  "description": "תמיכה במשפחות המילואים, ילדיהן, וחיות המחמד שלהן",
   "image": "https://cdn-icons-png.flaticon.com/512/3079/3079247.png",
   "subCategories": [
     "ReserveFamily",
