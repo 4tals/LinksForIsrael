@@ -55,6 +55,24 @@
       "description": "קוד: בריינפופ23",
       "url": "https://il.brainpop.com/",
       "website": "https://il.brainpop.com/"
+    },
+    {
+      "displayName": "simplesteps",
+      "name": "Simplesteps - סימפלסטפס",
+      "shortDescription": "Simple Steps - סימפלסטפס אתר לילדים וילדות סקרנים במיוחד, ניסויים מדעיים, סרטוני בישול לילדים, פודקאסט חלל על הזמן ועוד. מערכי שיעור לאנשי הוראה",
+      "description": "Simple Steps - סימפלסטפס אתר לילדים וילדות סקרנים במיוחד, ניסויים מדעיים, סרטוני בישול לילדים, פודקאסט חלל על הזמן ועוד. מערכי שיעור לאנשי הוראה",
+      "initiativeValidationDetails": "by @4tal",
+      "url": "https://simplesteps.co/",
+      "initiativeImage": "https://simplesteps.co/images/layout_images/simplesteps-logo.svg",
+      "website": "https://simplesteps.co/",
+      "tags": [
+        "Simple Steps",
+        "סימפלסטפס אתר לילדים וילדות סקרנים במיוחד",
+        "ניסויים מדעיים",
+        "סרטוני בישול לילדים",
+        "פודקאסט חלל על הזמן",
+        "מערכי שיעור לאנשי הוראה"
+      ]
     }
   ]
 }
