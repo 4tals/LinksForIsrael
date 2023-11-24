@@ -22,11 +22,6 @@ a {
 	margin-right: $common-padding;
 }
 
-// Search input container
-.search-div {
-	@include flex-center;
-}
-
 .search-wrapper {
 	@include flex-center;
 	background-color: #fff;
