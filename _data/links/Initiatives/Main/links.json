@@ -114,6 +114,23 @@
         "התנדבות",
         "אירועים"
       ]
+    },
+    {
+      "displayName": "help4israel.com - חברי״ם",
+      "name": "help4israel.com",
+      "shortDescription": "חרבות ברזל - ריכוז מידע",
+      "description": "חברי״ם חרבות ברזל - ריכוז מידע אנו משתדלים לתת מידע עדכני ככל הניתן אנשים המעוניינים לעזור ולעדכן סטטוס נעדרים מוזמנים ליצור קשר מי שמעוניין לעדכן סטטוסים של נעדרים חייב להירשם לאתר על מנת לבצע אימות זהות",
+      "initiativeValidationDetails": "Source: Are you the developer? If not, how did you hear about it? Link to reputable source(s) promoting the initiative: [e.g. https://www.israelhayom.co.il/tech/tech-news/iron-swords] Contact details for members of the initiative's team (so we can contact them directly for validation): [e.g. info@iron-widgets.com]",
+      "url": "https://help4israel.com/",
+      "initiativeImage": "https://help4israel.com/wp-content/uploads/2023/10/cbab9783f78746458fa5e64e721ac4ff.png",
+      "website": "https://help4israel.com/",
+      "tags": [
+        "חברי״ם",
+        "חרבות ברזל",
+        "ריכוז מידע",
+        "נעדרים",
+        "עזרה"
+      ]
     }
   ]
 }
