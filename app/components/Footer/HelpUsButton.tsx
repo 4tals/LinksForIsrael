@@ -2,6 +2,7 @@ import React from "react";
 
 import "./helpUsButton.scss";
 
+const text = "< כניסה למפתחים >";
 export const HelpUsButton = (): JSX.Element => {
 	return (
 		<a
@@ -10,7 +11,7 @@ export const HelpUsButton = (): JSX.Element => {
 			target="_blank"
 			rel="noopener noreferrer"
 		>
-			מפתחים? עזרו לנו 💪
+			{text}
 		</a>
 	);
 };

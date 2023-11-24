@@ -1,18 +1,16 @@
 .contribute-button {
-	background-color: #e0e0e0;
-	border-radius: 10px;
-	color: var(--text-color);
-	font-size: 14px;
-	padding: 4px 10px; /* Increased padding for a better visual look */
-	margin-right: 10px;
-	transition:
-		transform 0.3s ease,
-		background-color 0.3s ease;
+	font-family: "Consolas", "Monaco", "Source Code Pro", monospace;
+	background-color: #2391ff; // Dark background similar to a code editor
+	color: #ffffff;
+	padding: 10px 20px;
 	border: none;
-	cursor: pointer;
+	border-radius: 5px;
+	text-decoration: none;
+	transition: all 0.3s ease;
 
 	&:hover {
+		background-color: #0d05f3; // A brighter color on hover
+		box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
 		transform: scale(1.05);
-		background-color: var(--color-light-blue); /* Change as per design */
 	}
 }

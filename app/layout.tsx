@@ -6,6 +6,7 @@ import "@fortawesome/fontawesome-svg-core/styles.css";
 
 import { Footer } from "./components/Footer";
 import MetaDataComponent from "./components/MetadataComponent";
+import { Providers } from "./providers";
 import "./styles/globals.css";
 import "./styles/main.scss";
 import { GTag } from "./utils/analytica/Gtag";
@@ -36,12 +37,14 @@ export default async function RootLayout({
 				<MetaDataComponent />
 			</head>
 			<body dir="rtl">
-				<RootApp
-					categories={categories}
-					generalAssistanceSubCategory={assistanceSubCategory}
-				>
-					{children}
-				</RootApp>
+				<Providers>
+					<RootApp
+						categories={categories}
+						generalAssistanceSubCategory={assistanceSubCategory}
+					>
+						{children}
+					</RootApp>
+				</Providers>
 			</body>
 			<Footer />
 		</html>

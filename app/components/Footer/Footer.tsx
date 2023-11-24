@@ -1,3 +1,5 @@
+import { Flex, Box, Link, Image } from "@chakra-ui/react";
+
 import { HelpUsButton } from "./HelpUsButton";
 
 const socialLinks = [
@@ -33,35 +35,39 @@ const socialLinks = [
 
 export function Footer() {
 	return (
-		<footer className="footer">
-			<div className="quote-link flex flex-row items-center justify-center">
-				<div className="invite-text">&quot;הופכים עליהם, טובים אותם&quot;</div>
-				<a
+		<Box as="footer" className="footer">
+			<Flex
+				className="quote-link"
+				align="center"
+				justify="center"
+				direction="row"
+			>
+				<Box className="invite-text">&quot;הופכים עליהם, טובים אותם&quot;</Box>
+				<Link
 					href="https://twitter.com/kann/status/1712897481837539810?t=kxXrXgX59tp1yPnrYiS4Iw&s=19"
-					target="_blank"
-					rel="noopener noreferrer"
+					isExternal
 				>
-					<img
+					<Image
 						src="/images/reverse.png"
 						alt="Initiative Icon"
 						className="footer-icon"
-						width="40"
+						boxSize="40px"
 					/>
-				</a>
-			</div>
+				</Link>
+			</Flex>
 			<HelpUsButton />
-			<div className="social-links">
+			<Flex className="social-links">
 				{socialLinks.map((link) => (
-					<a
+					<Link
 						key={link.href}
 						href={link.href}
-						target="_blank"
-						rel="noopener noreferrer"
+						isExternal
+						mx={1} // margin for spacing between icons
 					>
-						<img src={link.imgSrc} alt={link.alt} width="25" height="25" />
-					</a>
+						<Image src={link.imgSrc} alt={link.alt} boxSize="25px" />
+					</Link>
 				))}
-			</div>
-		</footer>
+			</Flex>
+		</Box>
 	);
 }
