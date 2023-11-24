@@ -22,7 +22,7 @@ module.exports = async ({github, context}) => {
     return text.substring(indexOfJsonStart + jsonStartMarker.length, indexOfJsonEnd);
   }
   
-  async function createOrUpdatePullRequestAsync(branch, name) {
+  async function createOrUpdatePullRequestAsync(update, branch, name) {
 
     const existingResponse = await github.rest.pulls.list({
       owner: context.repo.owner,
@@ -40,7 +40,7 @@ module.exports = async ({github, context}) => {
     }
     
     const newResponse  = await github.rest.pulls.create({
-      title: `New Initiative: ${name} [Suggested by ${process.env.ISSUE_AUTHOR}]`,
+      title: `${update ? "Update" : "New"} Initiative: ${name} [Suggested by ${process.env.ISSUE_AUTHOR}]`,
       owner: context.repo.owner,
       repo: context.repo.repo,
       head: branch,
@@ -151,10 +151,10 @@ See GitHub Action logs for more details: ${context.serverUrl}/${context.repo.own
       const linksJsonString = await fs.readFile(linkJsonFileName, "utf8");
       const upperlinksJsonString = linksJsonString.toLocaleUpperCase("en-us");
 
-      for (const prop in newInitiativeJson) {
+      for (const propName in newInitiativeJson) {
         
-        const value = newInitiativeJson[prop];
-        if (typeof value !== "string") {
+        const value = newInitiativeJson[propName];
+        if (propName === "initiativeValidationDetails" || typeof value !== "string") {
           continue;
         }
     
@@ -162,7 +162,7 @@ See GitHub Action logs for more details: ${context.serverUrl}/${context.repo.own
         if (upperlinksJsonString.indexOf(PropValueUpper) !== -1) {
           await warnAndCommentAsync(
 `Initiative might already exist!
-The value of property \`${prop}\` (\`${value}\`) is already present in \`${linkJsonFileName}\`:
+The value of property \`${propName}\` (\`${value}\`) is already present in \`${linkJsonFileName}\`:
 \`\`\`json
 ${linksJsonString}
 \`\`\`
@@ -178,24 +178,21 @@ ${linksJsonString}
     return false;
   }
 
-  async function updateExistingInitiativeAsync(categoryJson, newInitiativeJson) {
+  async function getExistingInitiativeIndexAsync(categoryJson, newInitiativeJson) {
     const initiativeName = newInitiativeJson.name;
 
     if (!(initiativeName?.trim())) {
       await warnAndCommentAsync("For update, you must provide a name that matches the name of an existing initiative", "no initiative name provided", newInitiativeJson);
-      return false;
+      return -1;
     }
     
-    const existingCategoryIndex = categoryJson.links.findIndex((link =>  
-      link.name?.localeCompare(initiativeName, undefined, { sensitivity: 'accent' }) === 0 
-    ))
+    const existingCategoryIndex = categoryJson.links.findIndex(link => link.name?.localeCompare(initiativeName, undefined, { sensitivity: 'accent' }) === 0)
     if (existingCategoryIndex === -1) {
       await warnAndCommentAsync(`Could not find existing initiative '${initiativeName}' in category '${category}'`, "initiative not found", newInitiativeJson);
-      return false;
+      return -1;
     }
 
-    categoryJson.links[existingCategoryIndex] = newInitiativeJson;
-    return true;
+    return existingCategoryIndex;
   }
 
   const tempFolder = process.env.TEMP || "/tmp";
@@ -237,7 +234,7 @@ ${linksJsonString}
     return;
   }
   
-  let categoryLinksJsonFile;
+  let categoryJson, categoryLinksJsonFile;
   try {
     categoryLinksJsonFile = `${process.env.GITHUB_WORKSPACE}/_data/links/${category}/links.json`;
     console.log("resolved category links file: " + categoryLinksJsonFile);
@@ -250,10 +247,12 @@ ${linksJsonString}
   }
 
   if (updateInitiative) {
-    const edited = await updateExistingInitiativeAsync(categoryJson, newInitiativeJson, newInitiativeJson)
-    if (!edited) {
+    const existingInitiativeIndex = await getExistingInitiativeIndexAsync(categoryJson, newInitiativeJson, newInitiativeJson)
+    if (existingInitiativeIndex === -1) {
       return;
     }
+
+    categoryJson.links[existingInitiativeIndex] = newInitiativeJson;
   }
   else {
     categoryJson.links.push(newInitiativeJson);
@@ -271,7 +270,7 @@ ${linksJsonString}
 
   let pr;
   try {
-    pr = await createOrUpdatePullRequestAsync(branch, newInitiativeJson.name || "???");
+    pr = await createOrUpdatePullRequestAsync(updateInitiative, branch, newInitiativeJson.name || "???");
   }
   catch (e) {
     return await warnAndCommentAsync("Could not create pull request", e, newInitiativeJson);
