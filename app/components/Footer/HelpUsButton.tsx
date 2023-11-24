@@ -13,7 +13,7 @@ export const HelpUsButton = (): JSX.Element => {
 			isExternal
 			sx={{
 				fontFamily: "'Consolas', 'Monaco', 'Source Code Pro', monospace",
-				backgroundColor: "#2196F3", // Standard blue color
+				backgroundColor: "blue.500", // Standard blue color
 				color: "white",
 				padding: { base: "8px 18px", md: "12px 24px" },
 				fontSize: { base: "xs", md: "sm", lg: "md" }, //bas Smaller font size on mobile (xs) and slightly larger on tablet and above (sm)
@@ -23,7 +23,7 @@ export const HelpUsButton = (): JSX.Element => {
 				boxShadow: "0px 4px 12px rgba(0, 0, 0, 0.1)",
 				transition: "transform 0.3s ease, background-color 0.3s ease",
 				_hover: {
-					backgroundColor: "#1E88E5",
+					backgroundColor: "blue.600",
 					transform: "translateY(-2px)",
 					boxShadow: "0px 6px 16px rgba(0, 0, 0, 0.2)",
 				},

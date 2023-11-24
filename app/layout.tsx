@@ -43,8 +43,8 @@ export default async function RootLayout({
 					>
 						{children}
 					</RootApp>
+					<Footer />
 				</Providers>
-				<Footer />
 			</body>
 		</html>
 	);
