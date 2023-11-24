@@ -172,6 +172,21 @@
         "מכחישי מציאות",
         "אנטישמים"
       ]
+    },
+    {
+      "displayName": "Scooper - ניטור ומחקר ברשת",
+      "name": "Scooper - ניטור ומחקר ברשת",
+      "shortDescription": "ניתור ומחקר ברשת, מאפשר לראות פוסטים טרנדים לפי איזורים ופוסטים עם הכי הרבה מעורבות",
+      "description": "ניתור ומחקר ברשת, מאפשר לראות פוסטים טרנדים לפי איזורים ופוסטים עם הכי הרבה מעורבות",
+      "initiativeValidationDetails": "Verified Manually by @4tal",
+      "url": "https://access.scooper.co.il/app/project/7821ad26-cc00-4a3f-998b-a3521c2f7cfe/shared_dashboard/export_Scooper6_hVq6X5yN.html#/SHARED_DASHBOARD#co=project&cid=7821ad26-cc00-4a3f-998b-a3521c2f7cfe&psid=export_Scooper6_hVq6X5yN.html&keyid=undefined&data=eyJyIjp7ImEiOnsiYWN0aXZlUGFnZUlkIjoiREVGQVVMVC1EQVNILVNFQ1RJT04ifSwiaSI6IlNIQVJFRF9EQVNIQk9BUkQiLCJzIjpbXX19",
+      "initiativeImage": "https://access.scooper.co.il/app/image/ae8a9c0a-2f60-4b7a-b00e-25332e68583a",
+      "website": "https://access.scooper.co.il/app/project/7821ad26-cc00-4a3f-998b-a3521c2f7cfe/shared_dashboard/export_Scooper6_hVq6X5yN.html#/SHARED_DASHBOARD#co=project&cid=7821ad26-cc00-4a3f-998b-a3521c2f7cfe&psid=export_Scooper6_hVq6X5yN.html&keyid=undefined&data=eyJyIjp7ImEiOnsiYWN0aXZlUGFnZUlkIjoiREVGQVVMVC1EQVNILVNFQ1RJT04ifSwiaSI6IlNIQVJFRF9EQVNIQk9BUkQiLCJzIjpbXX19",
+      "tags": [
+        "ניטור",
+        "מחקר",
+        "פוסטים"
+      ]
     }
   ]
 }
