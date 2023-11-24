@@ -1,48 +1,41 @@
-import { Flex, Box, Link, Image } from "@chakra-ui/react";
+import React from "react";
+
+import { socialLinks } from "@/app/utils/consts";
+import { Flex, Box, Link, Image, Text } from "@chakra-ui/react";
 
 import { HelpUsButton } from "./HelpUsButton";
 
-const socialLinks = [
-	{
-		href: "https://www.instagram.com/links_for_israel/",
-		imgSrc: "/images/instagram_icon.png",
-		alt: "Instagram",
-	},
-	{
-		href: "https://www.facebook.com/LinksForIsrael/",
-		imgSrc:
-			"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/1024px-2021_Facebook_icon.svg.png",
-		alt: "Facebook",
-	},
-	{
-		href: "https://github.com/4tals/LinksForIsrael/",
-		imgSrc: "https://cdn-icons-png.flaticon.com/512/25/25231.png",
-		alt: "GitHub",
-	},
-	{
-		href: "https://twitter.com/linksforisrael",
-		imgSrc:
-			"https://upload.wikimedia.org/wikipedia/commons/c/ce/X_logo_2023.svg",
-		alt: "Twitter",
-	},
-	{
-		href: "https://www.linkedin.com/company/links-for-israel/",
-		imgSrc:
-			"https://upload.wikimedia.org/wikipedia/commons/9/90/Wbseries_linkdin.png",
-		alt: "Linkedin",
-	},
-];
-
 export function Footer() {
 	return (
-		<Box as="footer" className="footer">
+		<Box
+			as="footer"
+			display="flex"
+			fontFamily="'Roboto', sans-serif"
+			justifyContent="space-between"
+			alignItems="center"
+			padding="10px"
+			borderTop="1px solid"
+			borderColor="gray.200"
+			backgroundColor="white"
+			height={["7svh", "7vh"]} // Responsive height
+			zIndex="999"
+			position="sticky"
+			bottom="0"
+		>
 			<Flex
-				className="quote-link"
 				align="center"
 				justify="center"
-				direction="row"
+				fontSize="14px"
+				color="gray.600"
+				sx={{
+					"@media only screen and (max-width: 768px)": {
+						// Add any mobile-specific styles here
+					},
+				}}
 			>
-				<Box className="invite-text">&quot;הופכים עליהם, טובים אותם&quot;</Box>
+				<Text textAlign="center" mr="2">
+					הופכים עליהם, טובים אותם
+				</Text>
 				<Link
 					href="https://twitter.com/kann/status/1712897481837539810?t=kxXrXgX59tp1yPnrYiS4Iw&s=19"
 					isExternal
@@ -50,21 +43,24 @@ export function Footer() {
 					<Image
 						src="/images/reverse.png"
 						alt="Initiative Icon"
-						className="footer-icon"
 						boxSize="40px"
 					/>
 				</Link>
 			</Flex>
 			<HelpUsButton />
-			<Flex className="social-links">
+			<Flex
+				align="center"
+				gap={["7px", "15px"]} // Responsive gap
+				sx={{}}
+			>
 				{socialLinks.map((link) => (
-					<Link
-						key={link.href}
-						href={link.href}
-						isExternal
-						mx={1} // margin for spacing between icons
-					>
-						<Image src={link.imgSrc} alt={link.alt} boxSize="25px" />
+					<Link key={link.href} href={link.href} isExternal mx="1">
+						<Image
+							src={link.imgSrc}
+							alt={link.alt}
+							boxSize="25px"
+							_hover={{ opacity: 0.7 }}
+						/>
 					</Link>
 				))}
 			</Flex>
