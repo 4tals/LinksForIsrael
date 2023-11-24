@@ -237,7 +237,7 @@ ${linksJsonString}
     return;
   }
   
-  let categoryLinksJsonFile;
+  let categoryJson, categoryLinksJsonFile;
   try {
     categoryLinksJsonFile = `${process.env.GITHUB_WORKSPACE}/_data/links/${category}/links.json`;
     console.log("resolved category links file: " + categoryLinksJsonFile);
