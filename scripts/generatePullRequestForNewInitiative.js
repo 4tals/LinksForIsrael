@@ -22,7 +22,7 @@ module.exports = async ({github, context}) => {
     return text.substring(indexOfJsonStart + jsonStartMarker.length, indexOfJsonEnd);
   }
   
-  async function createOrUpdatePullRequestAsync(branch, name) {
+  async function createOrUpdatePullRequestAsync(update, branch, name) {
 
     const existingResponse = await github.rest.pulls.list({
       owner: context.repo.owner,
@@ -40,7 +40,7 @@ module.exports = async ({github, context}) => {
     }
     
     const newResponse  = await github.rest.pulls.create({
-      title: `New Initiative: ${name} [Suggested by ${process.env.ISSUE_AUTHOR}]`,
+      title: `${update ? "Update" : "New"} Initiative: ${name} [Suggested by ${process.env.ISSUE_AUTHOR}]`,
       owner: context.repo.owner,
       repo: context.repo.repo,
       head: branch,
@@ -251,7 +251,7 @@ ${linksJsonString}
     if (existingInitiativeIndex === -1) {
       return;
     }
-    
+
     categoryJson.links[existingInitiativeIndex] = newInitiativeJson;
   }
   else {
@@ -270,7 +270,7 @@ ${linksJsonString}
 
   let pr;
   try {
-    pr = await createOrUpdatePullRequestAsync(branch, newInitiativeJson.name || "???");
+    pr = await createOrUpdatePullRequestAsync(updateInitiative, branch, newInitiativeJson.name || "???");
   }
   catch (e) {
     return await warnAndCommentAsync("Could not create pull request", e, newInitiativeJson);
