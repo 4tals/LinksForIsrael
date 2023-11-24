@@ -15,8 +15,8 @@ export const HelpUsButton = (): JSX.Element => {
 				fontFamily: "'Consolas', 'Monaco', 'Source Code Pro', monospace",
 				backgroundColor: "blue.500", // Standard blue color
 				color: "white",
-				padding: { base: "8px 18px", md: "12px 24px" },
-				fontSize: { base: "xs", md: "sm", lg: "md" }, //bas Smaller font size on mobile (xs) and slightly larger on tablet and above (sm)
+				padding: { base: "8px 18px", md: "6px 12px" },
+				fontSize: { base: "xs", md: "sm" }, //bas Smaller font size on mobile (xs) and slightly larger on tablet and above (sm)
 				border: "none",
 				borderRadius: "8px",
 				textDecoration: "none",
