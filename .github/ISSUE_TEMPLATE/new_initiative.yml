@@ -50,20 +50,21 @@ body:
       options:
         - Agriculture/Main
         - Children/Main
+        - Children/ReserveFamily
         - Defense/Evacuation
         - Defense/Shelters
         - Defense/Weapons
         - Donations/Agriculture
         - Donations/Main
-        - Economy/Main
-        - FamilyHosting/Main
+        - Donations/Economy
+        - Evacuees/Main
+        - Evacuees/FamilyHostingMain
         - GeneralAssistance
         - Initiatives/Main
         - Medical/Main
         - Medical/Info
         - MemorialRemembrance/Main
         - MissingPersons/Main
-        - Reserves/Main
         - StrategicCommunication/Funding
         - StrategicCommunication/Info
         - StrategicCommunication/Main
@@ -71,10 +72,10 @@ body:
         - StrategicCommunication/Tools
         - Supplies/Donation
         - Supplies/Main
+        - Supplies/Transportation
         - TechInitiatives/Main
         - TechInitiatives/Support
-        - TechInitiatives/Volunteers
-        - Transportation/Main
+        - TechInitiatives/Incubation
         - Volunteering/Main
       default: 0
     validations:

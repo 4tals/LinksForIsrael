@@ -6,6 +6,7 @@ import { DialogModal } from "../components/DialogModal/DialogModal";
 import { Link, SubCategoryData } from "../utils/categories";
 import { ShareButtons } from "./ShareButtons";
 import { Tooltip } from "./Tooltip";
+import { withScroll } from "@/app/components/withScroll/withScroll";
 
 const containsHebrewLetters = (str: string) => {
 	// https://jcuenod.github.io/bibletech/2017/08/19/matching-hebrew-unicode-regex/
@@ -43,23 +44,19 @@ export function CategoryContent({
 					<ShareButtons category={categoryName} />
 				</div>
 			) : null}
-			<ul className="links-section-list">
+			<div className="links-section-list">
 				{subCategories.map((subcategory) => (
 					<Fragment key={subcategory.name}>
-						{
-							<h3 key={subcategory.name} className="links-subcategory-header">
-								{subcategory.displayName}
-								<LinksList
-									links={subcategory.links}
-									name={subcategory.name}
-									setDescription={setDescription}
-									setOpenDialog={setOpenDialog}
-								/>
-							</h3>
-						}
+						<h3 className="links-subcategory-header">{subcategory.displayName}</h3>
+						<ScrollableLinksList
+							links={subcategory.links}
+							name={subcategory.name}
+							setDescription={setDescription}
+							setOpenDialog={setOpenDialog}
+						/>
 					</Fragment>
 				))}
-			</ul>
+			</div>
 		</>
 	);
 }
@@ -93,6 +90,8 @@ function LinksList({
 		</div>
 	);
 }
+
+const ScrollableLinksList = withScroll(LinksList);
 
 function LinkItem({
 	link,
@@ -128,7 +127,7 @@ function LinkItem({
 	};
 
 	return (
-		<li
+		<div
 			className={`links-section-item 
 				${
 					!containsHebrewLetters(`${link.displayName}${link?.shortDescription}`)
@@ -168,7 +167,7 @@ function LinkItem({
 
 				<LinkIcons link={link} limit={3} />
 			</a>
-		</li>
+		</div>
 	);
 }
 

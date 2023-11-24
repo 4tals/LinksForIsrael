@@ -129,6 +129,25 @@
         "סנטימנט פרו-ישראלי",
         "תקשורת אסטרטגית"
       ]
+    },
+    {
+      "name": "niliOnline",
+      "displayName": "ניל״י-אונליין",
+      "shortDescription": "דיווח על סטודנטים תומכי טרור. נזכור כל מי שהביע אהדה, שמחה ושבח.",
+      "description": "פרויקט הדיווח של סטודנטים תומכי טרור. יוצר ע״י אזרחים שרוצים לזכור כל מי שהביע אהדה, שמחה ושבח.",
+      "url": "https://t.me/onlinenili",
+      "initiativeImage": "https://cdn4.telegram-cdn.org/file/GtL-FMkQ-ftMobr3Q5xpSJLh8yj1_6ZPdYe_vGw2XmSMH8hoUCpxomjXJtOVIzXfXaVv0bcTeC0sQvVYJUPZaR1NdOxu7cS53IlEWdyQYYPR0D9cmGjQG6e5ES0Vk8A3FA4VwidG_qrkO3wA7FZJRF0MNDJJWXOs8vWulrURfKpEqNZsuISE8F8hIr64OeSu2EPR5BRlmS6f5YpHk0h-8MtrMtroqH67i0S3g2t_Ewykvg5MuLz1MU8sw_5-m5FjrqJSZynkT9JKSsO24jmMzJlybMwlfWDt5dcyAeR4Fko3PSvK7yyeZif96tKwZ4F3WlZlTMS3NvfURwy99k_xRw.jpg",
+      "initiativeValidationDetails": "נילי-אונליין מאפשר לדווח באמצעות טופס ייעודי או דרך פייסבוק קישור עמוד הפייסבוק זמין בתיאור.",
+      "telegram": "https://t.me/onlinenili",
+      "form": "https://forms.gle/WYi2Vs55iead9zYj9",
+      "facebook": "https://www.facebook.com/profile.php?id=61552513511608",
+      "tags": [
+        "דיווח תומכי טרור",
+        "נילי-אונליין",
+        "חברה",
+        "אוניברסיטה",
+        "רשתות-חברתיות"
+      ]
     }
   ]
 }

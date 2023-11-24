@@ -1,5 +1,6 @@
 import logging
 import os
+import re
 
 import openai
 import yaml
@@ -107,10 +108,12 @@ class GPTAssistant:
         logging.warn("GPT did not infer function calling, best-effort answer parsing will be performed")
         return response_message["content"]
 
-def get_new_initiative_details() -> str:    
+def get_new_initiative_details() -> str:
+    prefixPattern = r'^\[.*-INITIATIVE\]:\s*' 
+
     initiative_details = f"""
     ### Initiative Display Name
-    {os.environ["ISSUE_TITLE"].replace("[NEW-INITIATIVE]:", "").replace("[NEW-INITIATIVE-FORCE-PR]:", "")}
+    {re.sub(prefixPattern, "", os.environ["ISSUE_TITLE"], flags=re.IGNORECASE)}
 
     {os.environ["ISSUE_BODY"]}
     """
