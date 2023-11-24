@@ -1,17 +1,39 @@
+"use client";
+
 import React from "react";
 
-import "./helpUsButton.scss";
+import { Link } from "@chakra-ui/next-js";
 
-const text = "< כניסה למפתחים >";
+const displayText = "< כניסה למפתחים >";
+
 export const HelpUsButton = (): JSX.Element => {
 	return (
-		<a
-			className="contribute-button"
+		<Link
 			href="https://github.com/4tals/LinksForIsrael/blob/main/docs/contribute.md"
-			target="_blank"
-			rel="noopener noreferrer"
+			isExternal
+			sx={{
+				fontFamily: "'Consolas', 'Monaco', 'Source Code Pro', monospace",
+				backgroundColor: "#2196F3", // Using standard blue if blue.500 is not defined
+				color: "white", // Ensuring text is visible on blue background
+				padding: { base: "8px 18px", md: "12px 24px" },
+				fontSize: { base: "sm", md: "md" },
+				border: "none",
+				borderRadius: "8px",
+				textDecoration: "none",
+				boxShadow: "0px 4px 12px rgba(0, 0, 0, 0.1)",
+				transition: "transform 0.3s ease, background-color 0.3s ease",
+				_hover: {
+					backgroundColor: "#1E88E5", // You may need to adjust this if blue.600 is also not defined
+					transform: "translateY(-2px)",
+					boxShadow: "0px 6px 16px rgba(0, 0, 0, 0.2)",
+				},
+				_focus: {
+					outline: "none",
+					boxShadow: "0 0 0 3px rgba(66, 153, 225, 0.6)",
+				},
+			}}
 		>
-			{text}
-		</a>
+			{displayText}
+		</Link>
 	);
 };

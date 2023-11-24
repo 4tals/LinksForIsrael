@@ -1,6 +1,7 @@
 import { Rubik } from "next/font/google";
 
 import { RootApp } from "@/app/components/RootApp";
+import { ColorModeScript } from "@chakra-ui/react";
 import { config as fontAwesomeConfig } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 
