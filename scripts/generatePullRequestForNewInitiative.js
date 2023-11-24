@@ -151,10 +151,10 @@ See GitHub Action logs for more details: ${context.serverUrl}/${context.repo.own
       const linksJsonString = await fs.readFile(linkJsonFileName, "utf8");
       const upperlinksJsonString = linksJsonString.toLocaleUpperCase("en-us");
 
-      for (const prop in newInitiativeJson) {
+      for (const propName in newInitiativeJson) {
         
-        const value = newInitiativeJson[prop];
-        if (prop === "initiativeValidationDetails" || typeof value !== "string") {
+        const value = newInitiativeJson[propName];
+        if (propName === "initiativeValidationDetails" || typeof value !== "string") {
           continue;
         }
     
@@ -162,7 +162,7 @@ See GitHub Action logs for more details: ${context.serverUrl}/${context.repo.own
         if (upperlinksJsonString.indexOf(PropValueUpper) !== -1) {
           await warnAndCommentAsync(
 `Initiative might already exist!
-The value of property \`${prop}\` (\`${value}\`) is already present in \`${linkJsonFileName}\`:
+The value of property \`${propName}\` (\`${value}\`) is already present in \`${linkJsonFileName}\`:
 \`\`\`json
 ${linksJsonString}
 \`\`\`
