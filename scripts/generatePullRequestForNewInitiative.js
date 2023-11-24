@@ -154,7 +154,7 @@ See GitHub Action logs for more details: ${context.serverUrl}/${context.repo.own
       for (const prop in newInitiativeJson) {
         
         const value = newInitiativeJson[prop];
-        if (typeof value !== "string") {
+        if (prop === "initiativeValidationDetails" || typeof value !== "string") {
           continue;
         }
     
