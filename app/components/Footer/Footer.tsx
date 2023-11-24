@@ -2,13 +2,13 @@ import React from "react";
 
 import { socialLinks } from "@/app/utils/consts";
 import {
-	Flex,
 	Box,
 	Link,
 	Image,
 	Text,
 	IconButton,
-	Stack,
+	HStack,
+	VStack,
 } from "@chakra-ui/react";
 
 import { HelpUsButton } from "./HelpUsButton";
@@ -18,7 +18,7 @@ export function Footer() {
 		<Box
 			as="footer"
 			display="flex"
-			flexDirection={{ base: "column", md: "row" }}
+			flexDirection="row"
 			fontFamily="Roboto, sans-serif"
 			justifyContent="space-between"
 			alignItems="center"
@@ -30,14 +30,13 @@ export function Footer() {
 			position="sticky"
 			bottom="0"
 		>
-			<Flex
+			<VStack
+				spacing={2}
 				align="center"
 				justify="center"
-				fontSize="14px"
-				color="gray.600"
-				mb={{ base: 4, md: 0 }}
+				mb={{ base: 4, md: 0 }} // Adding bottom margin for mobile
 			>
-				<Text textAlign="center" mr="2">
+				<Text textAlign="center" fontSize="14px" color="gray.600">
 					הופכים עליהם, טובים אותם
 				</Text>
 				<Link
@@ -50,12 +49,11 @@ export function Footer() {
 						boxSize={{ base: "30px", md: "40px" }}
 					/>
 				</Link>
-			</Flex>
-			{/* HelpUsButton will only display on non-mobile (medium and above) screens */}
+			</VStack>
 			<Box display={{ base: "none", md: "block" }}>
 				<HelpUsButton />
 			</Box>
-			<Stack
+			<HStack
 				direction={{ base: "row", md: "row" }}
 				align="center"
 				justify="center"
@@ -71,7 +69,7 @@ export function Footer() {
 						/>
 					</Link>
 				))}
-			</Stack>
+			</HStack>
 		</Box>
 	);
 }
