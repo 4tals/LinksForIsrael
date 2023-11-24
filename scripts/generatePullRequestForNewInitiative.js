@@ -178,24 +178,21 @@ ${linksJsonString}
     return false;
   }
 
-  async function updateExistingInitiativeAsync(categoryJson, newInitiativeJson) {
+  async function getExistingInitiativeIndexAsync(categoryJson, newInitiativeJson) {
     const initiativeName = newInitiativeJson.name;
 
     if (!(initiativeName?.trim())) {
       await warnAndCommentAsync("For update, you must provide a name that matches the name of an existing initiative", "no initiative name provided", newInitiativeJson);
-      return false;
+      return -1;
     }
     
-    const existingCategoryIndex = categoryJson.links.findIndex((link =>  
-      link.name?.localeCompare(initiativeName, undefined, { sensitivity: 'accent' }) === 0 
-    ))
+    const existingCategoryIndex = categoryJson.links.findIndex(link => link.name?.localeCompare(initiativeName, undefined, { sensitivity: 'accent' }) === 0)
     if (existingCategoryIndex === -1) {
       await warnAndCommentAsync(`Could not find existing initiative '${initiativeName}' in category '${category}'`, "initiative not found", newInitiativeJson);
-      return false;
+      return -1;
     }
 
-    categoryJson.links[existingCategoryIndex] = newInitiativeJson;
-    return true;
+    return existingCategoryIndex;
   }
 
   const tempFolder = process.env.TEMP || "/tmp";
@@ -250,10 +247,12 @@ ${linksJsonString}
   }
 
   if (updateInitiative) {
-    const edited = await updateExistingInitiativeAsync(categoryJson, newInitiativeJson, newInitiativeJson)
-    if (!edited) {
+    const existingInitiativeIndex = await getExistingInitiativeIndexAsync(categoryJson, newInitiativeJson, newInitiativeJson)
+    if (existingInitiativeIndex === -1) {
       return;
     }
+    
+    categoryJson.links[existingInitiativeIndex] = newInitiativeJson;
   }
   else {
     categoryJson.links.push(newInitiativeJson);
