@@ -1,7 +1,8 @@
 module.exports = async ({github, context}) => {
 
-  const fs = require("fs").promises;
   const path = require("path");
+  const fs = require("fs");
+  const fsAsync = fs.promises;
   const cp = require("child_process");
 
   const stream = require('stream');
@@ -133,31 +134,22 @@ See GitHub Action logs for more details: ${context.serverUrl}/${context.repo.own
     }
   }
 
-  // TODO use fsPromises.readdir {recursive: true} (introduced in v20.1.0 / v18.17.0)
-  async function* readdirRecursiveAsync(dir, ext) {
-    const upperExtension = ext.toLocaleUpperCase("en-us");
-
-    const dirents = await fs.readdir(dir, { withFileTypes: true });
-    for (const dirent of dirents) {
-      const absolutePath = path.resolve(dir, dirent.name);
-      
-      if (dirent.isFile && (path.extname(absolutePath).toLocaleUpperCase("en-us") === upperExtension)) {
-        yield absolutePath;
-      }
-      else if (dirent.isDirectory()) {
-        yield* await readdirRecursiveAsync(absolutePath, ext)
-      } 
-    }
-  }
-
   async function detectExistingInitiativeAsync(newInitiativeJson) {
     console.log("Attempting to detect already-existing initiative");
 
     const linksFolder = `${process.env.GITHUB_WORKSPACE}/_data/links`;
-    for await (const linkJsonFileName of readdirRecursiveAsync(linksFolder, ".json")) {
 
-      console.log(`processing links file: ${linkJsonFileName}`);
-      const linksJsonString = await fs.readFile(linkJsonFileName, "utf8");
+    const dirents = await fsAsync.readdir(linksFolder, { withFileTypes: true, recursive: true });
+    for (const dirent of dirents) {
+      const absolutePath = path.resolve(dirent.path, dirent.name);
+
+      if (!dirent.isFile || (path.extname(absolutePath).toLocaleUpperCase("en-us") !== ".JSON")) {
+        console.debug(`Skipping non-JSON file: ${absolutePath}`);
+        continue;
+      }
+
+      console.log(`processing links file: ${absolutePath}`);
+      const linksJsonString = await fsAsync.readFile(absolutePath, "utf8");
       const upperlinksJsonString = linksJsonString.toLocaleUpperCase("en-us");
 
       for (const propName in newInitiativeJson) {
@@ -171,7 +163,7 @@ See GitHub Action logs for more details: ${context.serverUrl}/${context.repo.own
         if (upperlinksJsonString.indexOf(propValueUpper) !== -1) {
           await warnAndCommentAsync(
 `Initiative might already exist!
-The value of property \`${propName}\` (\`${value}\`) is already present in \`${linkJsonFileName}\`:
+The value of property \`${propName}\` (\`${value}\`) is already present in \`${absolutePath}\`:
 \`\`\`json
 ${linksJsonString}
 \`\`\`
@@ -284,7 +276,7 @@ ${linksJsonString}
   }
 
   const tempFolder = process.env.TEMP || "/tmp";
-  const gptResponse = await fs.readFile(tempFolder + "/gpt-auto-comment.output", "utf8");
+  const gptResponse = await fsAsync.readFile(tempFolder + "/gpt-auto-comment.output", "utf8");
 
   // https://stackoverflow.com/a/51602415/67824
   const sanitizedGptResponse = gptResponse.replace(/[\u0000-\u001F\u007F-\u009F]/g, "");
@@ -327,7 +319,7 @@ ${linksJsonString}
     categoryLinksJsonFile = `${process.env.GITHUB_WORKSPACE}/_data/links/${category}/links.json`;
     console.log("resolved category links file: " + categoryLinksJsonFile);
 
-    const categoryJsonString = await fs.readFile(categoryLinksJsonFile, "utf8");
+    const categoryJsonString = await fsAsync.readFile(categoryLinksJsonFile, "utf8");
     categoryJson = JSON.parse(categoryJsonString);
   }
   catch (e) {
@@ -348,7 +340,7 @@ ${linksJsonString}
     categoryJson.links.push(newInitiativeJson);
   }
   
-  await fs.writeFile(categoryLinksJsonFile, JSON.stringify(categoryJson, null, 2), "utf8");
+  await fsAsync.writeFile(categoryLinksJsonFile, JSON.stringify(categoryJson, null, 2), "utf8");
 
   const branch = `auto-pr-${context.issue.number}`;
   try {
