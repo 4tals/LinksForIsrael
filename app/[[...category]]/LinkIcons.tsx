@@ -1,4 +1,6 @@
-"use client";
+import React from "react";
+
+import { Flex, Link as ChakraLink, Image, Text } from "@chakra-ui/react";
 
 import { Link } from "../utils/categories";
 import { ICONS, ICONS_KEYS } from "../utils/consts";
@@ -11,58 +13,70 @@ export const LinkIcons = ({
 	link: Link | any;
 	limit?: number;
 }) => {
-	let iconDisplay: Array<keyof typeof ICONS> = [];
-	let showIcons: Array<keyof typeof ICONS> = [];
-	let overLimit = 0;
-
-	ICONS_KEYS.forEach((key: any) => {
-		if (link[key]) {
-			iconDisplay.push(key);
-		}
-	});
-
-	if (limit && limit < iconDisplay.length) {
-		showIcons = iconDisplay.slice(0, limit);
-		overLimit = iconDisplay.length - limit;
-	} else {
-		showIcons = iconDisplay;
-	}
+	let iconDisplay = ICONS_KEYS.filter((key) => link[key]);
+	let showIcons =
+		limit && limit < iconDisplay.length
+			? iconDisplay.slice(0, limit)
+			: iconDisplay;
+	let overLimit =
+		limit && limit < iconDisplay.length ? iconDisplay.length - limit : 0;
 
 	return (
-		<div className="link-icons">
+		<Flex className="link-icons" p="10px 0" align="center">
 			{showIcons.map((icon) => (
-				<a href={link[icon]} key={icon} target="_blank">
-					<img
-						className="link-icon"
-						src={ICONS[icon].src}
-						alt={ICONS[icon].alt}
+				<ChakraLink href={link[icon]} key={icon} isExternal>
+					<Image
+						src={ICONS[icon as keyof typeof ICONS].src}
+						alt={ICONS[icon as keyof typeof ICONS].alt}
+						boxSize="30px"
+						m="0 5px"
+						_hover={{
+							filter: "brightness(120%)",
+							transform: "scale(1.1)",
+						}}
 					/>
-				</a>
+				</ChakraLink>
 			))}
+
 			{link.phone && (
-				<a href={`tel:${link.phone}`} target="_blank">
-					<img
-						className="link-icon"
+				<ChakraLink href={`tel:${link.phone}`} isExternal>
+					<Image
 						src="https://cdn2.iconfinder.com/data/icons/font-awesome/1792/phone-512.png"
 						alt="Phone Link"
+						boxSize="30px"
+						m="0 5px"
+						_hover={{
+							filter: "brightness(120%)",
+							transform: "scale(1.1)",
+						}}
 					/>
-				</a>
+				</ChakraLink>
 			)}
 
 			{link.email && (
-				<a href={`mailto:${link.email}`} target="_blank">
-					<img
-						className="link-icon"
+				<ChakraLink href={`mailto:${link.email}`} isExternal>
+					<Image
 						src="https://cdn2.iconfinder.com/data/icons/social-media-2259/512/gmail-512.png"
 						alt="Email Link"
+						boxSize="30px"
+						m="0 5px"
+						_hover={{
+							filter: "brightness(120%)",
+							transform: "scale(1.1)",
+						}}
 					/>
-				</a>
+				</ChakraLink>
 			)}
 
 			{link.initiativeValidationDetails && (
 				<Tooltip content={link.initiativeValidationDetails} />
 			)}
-			{overLimit > 0 && <span className="link-icon">{overLimit}+</span>}
-		</div>
+
+			{overLimit > 0 && (
+				<Text fontSize="sm" ml="5px">
+					{overLimit}+
+				</Text>
+			)}
+		</Flex>
 	);
 };
