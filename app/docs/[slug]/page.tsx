@@ -1,4 +1,4 @@
-import { getAllDocs, getDocById } from "@/app/utils/docs";
+import { getAllDocs, getDocById } from "@/app/utils/docs-links";
 
 import styles from "./docs.module.scss";
 
