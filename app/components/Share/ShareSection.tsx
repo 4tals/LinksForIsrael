@@ -1,7 +1,7 @@
 import React from "react";
 
 import { ShareButtons } from "@/app/components/Share/ShareButtons";
-import { Box, Flex, Text, Spacer, useMediaQuery } from "@chakra-ui/react";
+import { Box, Flex, Text, useMediaQuery } from "@chakra-ui/react";
 
 interface ShareSectionProps {
 	categoryName: string;
@@ -16,9 +16,9 @@ export const ShareSection: React.FC<ShareSectionProps> = ({
 
 	return (
 		<Box p={4} bg="gray.100" borderRadius="md">
-			<Flex direction="row" align="center" justifyContent={"space-between"}>
-				{isLargerThan480 ? (
-					<Flex>
+			<Flex direction="row" align="center" justifyContent="space-between">
+				{isLargerThan480 && (
+					<Flex alignItems="center">
 						<Text fontSize="md" fontWeight="bold" ml={2}>
 							רשימת יוזמות שונות בתחום
 						</Text>
@@ -26,15 +26,10 @@ export const ShareSection: React.FC<ShareSectionProps> = ({
 							{categoryDescription}
 						</Text>
 					</Flex>
-				) : null}
-				<Flex>
-					<Text
-						fontSize="sm"
-						fontWeight="bold"
-						ml={2}
-						align={"center"}
-						flexShrink={0}
-					>
+				)}
+
+				<Flex alignItems="center">
+					<Text fontSize="sm" fontWeight="bold" ml={2}>
 						שתף את העמוד
 					</Text>
 					<ShareButtons category={categoryName} />
