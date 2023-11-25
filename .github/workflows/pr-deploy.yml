@@ -39,7 +39,7 @@ jobs:
     - name: Generate PR
       uses: actions/github-script@v7
       env:
-        PULL_REQUEST_ID: ${{ github.event.pull_request.id }}
+        PULL_REQUEST_NUMBER: ${{ github.event.pull_request.number }}
       with:
         script: |
           const fsAsync = require("fs").promises;
@@ -48,6 +48,6 @@ jobs:
           await github.rest.issues.createComment({
             owner: context.repo.owner,
             repo: context.repo.repo,
-            issue_number: process.env.PULL_REQUEST_ID,
+            issue_number: process.env.PULL_REQUEST_NUMBER,
             body: `Vercel deployment successful: ${deploymentUrl}`
           });
