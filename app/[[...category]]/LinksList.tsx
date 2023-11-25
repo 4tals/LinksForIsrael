@@ -1,8 +1,8 @@
-"use client";
+import React from "react";
 
-import { ReactNode } from "react";
+import { Box, Flex, Text } from "@chakra-ui/react";
 
-import { Link } from "../utils/categories";
+import { Link as LinkType } from "../utils/categories";
 import { LinkItem } from "./LinkItem";
 
 export function LinksList({
@@ -12,17 +12,26 @@ export function LinksList({
 	setOpenDialog,
 }: {
 	name: string;
-	links: Array<Link>;
-	setDescription: (description: { body: ReactNode; link: Link } | null) => void;
+	links: Array<LinkType>;
+	setDescription: (
+		description: { body: React.ReactNode; link: LinkType } | null,
+	) => void;
 	setOpenDialog: (open: boolean) => void;
 }) {
 	const numLinks = links.length;
 	if (numLinks === 0) {
-		return <p key={name}>בקרוב</p>;
+		return <Text key={name}>בקרוב</Text>;
 	}
 
 	return (
-		<div className="links-section-subcategory">
+		<Flex
+			direction="row"
+			gap="16px"
+			p="10px"
+			boxShadow="md"
+			borderRadius="lg"
+			// overflowY="auto"
+		>
 			{links.map((link) => (
 				<LinkItem
 					link={link}
@@ -31,6 +40,6 @@ export function LinksList({
 					setOpenDialog={setOpenDialog}
 				/>
 			))}
-		</div>
+		</Flex>
 	);
 }
