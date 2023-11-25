@@ -4,6 +4,11 @@ module.exports = async ({github, context}) => {
   const path = require("path");
   const cp = require("child_process");
 
+  const stream = require('stream');
+  const streamPromises = require('stream/promises');
+
+  const crypto = require('crypto'); 
+
   function tryExtractJson(text, jsonStartMarker, jsonEndMarker) {
     console.log(`Attempting to extract JSON with start marker "${jsonStartMarker}" and end marker "${jsonEndMarker}"` );
   
@@ -93,11 +98,14 @@ See GitHub Action logs for more details: ${context.serverUrl}/${context.repo.own
     executeShellCommand("git", args);
   }
   
-  function pushPrBranch(branch, categoryLinksJsonFile, initiativeName) {
+  function pushPrBranch(branch, categoryLinksJsonFile, retainedImagePath, initiativeName) {
     executeGitCommand(["config", "user.name", "github-actions"]);
     executeGitCommand(["config", "user.email", "41898282+github-actions[bot]@users.noreply.github.com"]); //https://github.com/orgs/community/discussions/26560
     executeGitCommand(["checkout", "-b", branch]);
     executeGitCommand(["add", categoryLinksJsonFile]);
+    if (retainedImagePath) {
+      executeGitCommand(["add", retainedImagePath]);
+    }
     executeGitCommand(["commit", "-m", initiativeName || "new initiative"]);
     executeGitCommand(["push", "origin", branch, "--force"]);
   }
@@ -125,6 +133,7 @@ See GitHub Action logs for more details: ${context.serverUrl}/${context.repo.own
     }
   }
 
+  // TODO use fsPromises.readdir {recursive: true} (introduced in v20.1.0 / v18.17.0)
   async function* readdirRecursiveAsync(dir, ext) {
     const upperExtension = ext.toLocaleUpperCase("en-us");
 
@@ -158,8 +167,8 @@ See GitHub Action logs for more details: ${context.serverUrl}/${context.repo.own
           continue;
         }
     
-        const PropValueUpper = value.toLocaleUpperCase("en-us");
-        if (upperlinksJsonString.indexOf(PropValueUpper) !== -1) {
+        const propValueUpper = value.toLocaleUpperCase("en-us");
+        if (upperlinksJsonString.indexOf(propValueUpper) !== -1) {
           await warnAndCommentAsync(
 `Initiative might already exist!
 The value of property \`${propName}\` (\`${value}\`) is already present in \`${linkJsonFileName}\`:
@@ -176,6 +185,85 @@ ${linksJsonString}
     }
 
     return false;
+  }
+
+  function getImageExtension(mimeType) {
+    // based on https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Common_types
+    // when MIME detection fails, we return jpeg (as opposed to jpg) to more easily detect these cases
+    // browsers should handle such MIME mismatches, but if we see that is not the case and need a better fallback we can:
+    // * Use a robust package like https://www.npmjs.com/package/mime-types
+    // * Try and extract the extension from the URL
+
+    if (typeof mimeType !== "string") {
+      console.warn(`Invalid MIME type detected: ${mimeType}`);
+      return "jpeg";
+    }
+
+    switch (mimeType.split(";")[0].trim().toLocaleUpperCase("en-us")) {
+      case 'IMAGE/WEBP':
+        return "webp";
+      case 'IMAGE/TIFF':
+        return "tif";
+      case 'IMAGE/SVG+XML':
+        return "svg";
+      case 'IMAGE/PNG':
+        return "png";
+      case 'IMAGE/JPEG':
+        return "jpg";
+      case 'IMAGE/VND.MICROSOFT.ICON':
+        return "ico";
+      case 'IMAGE/GIF':
+        return "gif";
+      case 'IMAGE/BMP':
+        return "bmp";
+      case 'IMAGE/AVIF':
+        return "avif";
+      default:
+        console.warn(`Unknown MIME type detected (will use jpeg): ${mimeType}`);
+        return "jpeg";
+    }
+  }
+
+  async function retainInitiativeImageAsync(newInitiativeJson) {
+    const imageUrl = newInitiativeJson.initiativeImage?.trim();
+    if (!imageUrl) {
+      console.debug("Initiative image not specified");
+      return null;
+    }
+
+    let url;
+    try {
+      url = new URL(imageUrl);
+    }
+    catch (e) {
+      console.debug(`Initiative image could not be parsed as URL: ${imageUrl}`);
+      return null;
+    }
+
+    let response;
+    try {
+      console.debug(`Fetching URL: ${url}`);
+      response = await fetch(url);
+    }
+    catch (e) {
+      console.warn(`Error fetching: ${e}, ${e.cause}`);
+      return null;
+    }
+  
+    if (!response.ok) {
+      console.warn(`Non-success HTTP status code: ${response.status} ${response.statusText}`);
+      return null;
+    }
+
+    const imageExtension = getImageExtension(response.headers.get("Content-Type"));
+    const imageNameRelativePath = `/images/${newInitiativeJson.name}-${crypto.randomUUID()}.${imageExtension}`;
+    imageAbsolutePath = `${process.env.GITHUB_WORKSPACE}/public${imageNameRelativePath}`;
+
+    const outFileStream = fs.createWriteStream(imageAbsolutePath);
+    await streamPromises.finished(stream.Readable.fromWeb(response.body).pipe(outFileStream));
+
+    newInitiativeJson.initiativeImage = imageNameRelativePath;
+    return imageAbsolutePath;
   }
 
   async function getExistingInitiativeIndexAsync(categoryJson, newInitiativeJson) {
@@ -246,6 +334,8 @@ ${linksJsonString}
     return await warnAndCommentAsync("Could not process category links JSON", e, newInitiativeJson);
   }
 
+  const retainedImagePath = await retainInitiativeImageAsync(newInitiativeJson);
+
   if (updateInitiative) {
     const existingInitiativeIndex = await getExistingInitiativeIndexAsync(categoryJson, newInitiativeJson, newInitiativeJson)
     if (existingInitiativeIndex === -1) {
@@ -262,7 +352,7 @@ ${linksJsonString}
 
   const branch = `auto-pr-${context.issue.number}`;
   try {
-    pushPrBranch(branch, categoryLinksJsonFile, newInitiativeJson.name);
+    pushPrBranch(branch, categoryLinksJsonFile, retainedImagePath, newInitiativeJson.name);
   }
   catch (e) {
     return await warnAndCommentAsync("encountered error during git execution", e, newInitiativeJson);
