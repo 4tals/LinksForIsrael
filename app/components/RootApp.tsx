@@ -1,12 +1,6 @@
 "use client";
 
-import React, {
-	createContext,
-	useCallback,
-	useState,
-	useRef,
-	TouchEvent,
-} from "react";
+import React, { createContext, useCallback, useState } from "react";
 
 import { MobileSearchInput } from "@/app/components/Search/MobileSearchInput";
 import { useSearch } from "@/app/components/Search/useSearch";
@@ -39,25 +33,6 @@ export function RootApp({
 		useSearch(categories, generalAssistanceSubCategory);
 	const [isMenuOpen, setIsMenuOpen] = useState(!isMobile);
 
-	const contentRef = useRef<HTMLDivElement>(null);
-	let startY = 0;
-	let endY = 0;
-
-	const onTouchStart = (e: TouchEvent<HTMLDivElement>) => {
-		startY = e.touches[0].clientY;
-	};
-
-	const onTouchMove = (e: TouchEvent<HTMLDivElement>) => {
-		endY = e.touches[0].clientY;
-	};
-
-	const onTouchEnd = () => {
-		if (startY < endY && Math.abs(startY - endY) > 50) {
-			console.log("Refresh triggered");
-			window.location.reload(); // Refreshes the page
-		}
-	};
-
 	const toggleMenu = useCallback(() => {
 		setIsMenuOpen((prevState) => !prevState);
 	}, []);
@@ -75,15 +50,7 @@ export function RootApp({
 			<MenuContext.Provider value={{ isMenuOpen, toggleMenu, isMobile }}>
 				<Header />
 				<MobileSearchInput />
-				<main
-					id="content"
-					className="main-content"
-					role="main"
-					ref={contentRef}
-					onTouchStart={onTouchStart}
-					onTouchMove={onTouchMove}
-					onTouchEnd={onTouchEnd}
-				>
+				<main id="content" className="main-content" role="main">
 					{children}
 				</main>
 				<Footer />
