@@ -1,67 +1,69 @@
-"use client";
-
-import { Fragment, ReactNode, useState } from "react";
+import React, { Fragment, useState } from "react";
 
 import { withScroll } from "@/app/components/withScroll/withScroll";
+import { Box, VStack, Heading, Divider } from "@chakra-ui/react";
 
+// Import or define the types for Link and SubCategoryData
 import { DialogModal } from "../components/DialogModal/DialogModal";
 import { Link, SubCategoryData } from "../utils/categories";
 import { LinksList } from "./LinksList";
 import { ShareButtons } from "./ShareButtons";
 
-const containsHebrewLetters = (str: string) => {
-	// https://jcuenod.github.io/bibletech/2017/08/19/matching-hebrew-unicode-regex/
-	return /[\u0590-\u05EA]/.test(str);
-};
+interface CategoryContentProps {
+	categoryName?: string;
+	subCategories: SubCategoryData[];
+	categoryDescription?: string;
+}
+
+const containsHebrewLetters = (str: string): boolean =>
+	/[\u0590-\u05EA]/.test(str);
 
 export function CategoryContent({
 	categoryName,
 	subCategories,
 	categoryDescription,
-}: {
-	categoryName?: string;
-	subCategories: Array<SubCategoryData>;
-	categoryDescription?: string;
-}) {
+}: CategoryContentProps) {
 	const [openDialog, setOpenDialog] = useState(false);
 	const [description, setDescription] = useState<{
-		body: ReactNode;
+		body: React.ReactNode;
 		link: Link;
 	} | null>(null);
 	return (
-		<>
-			<DialogModal
-				title={description?.link.displayName || ""}
-				body={description?.body}
-				open={openDialog}
-				toggleModal={setOpenDialog}
-				isRtl={containsHebrewLetters(
-					`${description?.link.displayName}${description?.link?.description}`,
-				)}
-			/>
-			{categoryName && categoryDescription ? (
-				<div className="share-container">
-					<div className="category-description">{categoryDescription}</div>
+		<VStack spacing={5} align="stretch">
+			{openDialog && description && (
+				<DialogModal
+					title={description.link.displayName || ""}
+					body={description.body}
+					open={openDialog}
+					toggleModal={setOpenDialog}
+					isRtl={containsHebrewLetters(description.link.displayName)}
+				/>
+			)}
+
+			{categoryName && categoryDescription && (
+				<VStack spacing={3}>
+					<Box p={4} bg="gray.100" borderRadius="md">
+						{categoryDescription}
+					</Box>
 					<ShareButtons category={categoryName} />
-				</div>
-			) : null}
-			<div className="links-section-list">
-				{subCategories.map((subcategory) => (
-					<Fragment key={subcategory.name}>
-						<h3 className="links-subcategory-header">
-							{subcategory.displayName}
-						</h3>
-						<ScrollableLinksList
-							links={subcategory.links}
-							name={subcategory.name}
-							setDescription={setDescription}
-							setOpenDialog={setOpenDialog}
-						/>
-					</Fragment>
-				))}
-			</div>
-		</>
+				</VStack>
+			)}
+
+			{subCategories.map((subcategory) => (
+				<Fragment key={subcategory.name}>
+					<Heading as="h3" size="md" my={4}>
+						{subcategory.displayName}
+					</Heading>
+					<Divider />
+					<ScrollableLinksList
+						links={subcategory.links}
+						name={subcategory.name}
+						setDescription={setDescription}
+						setOpenDialog={setOpenDialog}
+					/>
+				</Fragment>
+			))}
+		</VStack>
 	);
 }
-
 const ScrollableLinksList = withScroll(LinksList);
