@@ -36,10 +36,13 @@ const CategoriesList: React.FC<CategoriesListProps> = ({
 	const [isLargerThan768] = useMediaQuery("(min-width: 768px)");
 
 	useEffect(() => {
-		const selected = document.querySelector(".links-section.desktop-open");
-		if (selected)
-			selected.scrollIntoView({ behavior: "smooth", block: "nearest" });
-	}, []);
+		if (!isLargerThan768 && categoryId) {
+			const selected = document.getElementById(categoryId);
+			if (selected) {
+				selected.scrollIntoView({ behavior: "smooth", block: "nearest" });
+			}
+		}
+	}, [categoryId, isLargerThan768]);
 
 	return (
 		<Flex
