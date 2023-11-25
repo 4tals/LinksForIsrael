@@ -36,21 +36,18 @@ const CategoriesList: React.FC<CategoriesListProps> = ({
 	const [isLargerThan768] = useMediaQuery("(min-width: 768px)");
 
 	useEffect(() => {
-		if (isLargerThan768) {
-			const selected = document.querySelector(".links-section.desktop-open");
-			if (selected)
-				selected.scrollIntoView({ behavior: "smooth", block: "nearest" });
-		}
-	}, [isLargerThan768]);
+		const selected = document.querySelector(".links-section.desktop-open");
+		if (selected)
+			selected.scrollIntoView({ behavior: "smooth", block: "nearest" });
+	}, []);
 
 	return (
 		<Flex
 			direction="row"
-			wrap="nowrap" // Prevent wrapping
-			justifyContent="center"
+			wrap="nowrap"
 			p={4}
 			alignItems="center"
-			//   overflowX="auto" // Allow horizontal scrolling
+			overflowX="auto" // Enable horizontal scrolling
 		>
 			{categories.map((category) => (
 				<Tooltip
