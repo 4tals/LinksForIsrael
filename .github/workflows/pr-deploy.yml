@@ -10,7 +10,6 @@ jobs:
   deploy:
     permissions: 
       contents: read
-      issues: write
       pull-requests: write
 
     runs-on: ubuntu-latest
