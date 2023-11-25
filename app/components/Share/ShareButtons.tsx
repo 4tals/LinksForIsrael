@@ -7,8 +7,8 @@ import {
 import { faLink, faShareAlt } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import { CopyButton } from "../components/CopyButton/CopyButton";
-import { useIsMobile, useUrl } from "../utils/general";
+import { useIsMobile, useUrl } from "../../utils/general";
+import { CopyButton } from "../CopyButton/CopyButton";
 
 export function ShareButtons({ category }: { category: string }) {
 	const isMobile = useIsMobile();
