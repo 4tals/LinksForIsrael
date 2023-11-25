@@ -1,13 +1,12 @@
 import React, { Fragment, useState } from "react";
 
 import { withScroll } from "@/app/components/withScroll/withScroll";
-import { Box, VStack, Heading, Divider } from "@chakra-ui/react";
+import { VStack, Heading, Divider } from "@chakra-ui/react";
 
-// Import or define the types for Link and SubCategoryData
 import { DialogModal } from "../components/DialogModal/DialogModal";
+import { ShareSection } from "../components/Share/ShareSection";
 import { Link, SubCategoryData } from "../utils/categories";
 import { LinksList } from "./LinksList";
-import { ShareButtons } from "./ShareButtons";
 
 interface CategoryContentProps {
 	categoryName?: string;
@@ -18,16 +17,17 @@ interface CategoryContentProps {
 const containsHebrewLetters = (str: string): boolean =>
 	/[\u0590-\u05EA]/.test(str);
 
-export function CategoryContent({
+export const CategoryContent = ({
 	categoryName,
 	subCategories,
 	categoryDescription,
-}: CategoryContentProps) {
+}: CategoryContentProps) => {
 	const [openDialog, setOpenDialog] = useState(false);
 	const [description, setDescription] = useState<{
 		body: React.ReactNode;
 		link: Link;
 	} | null>(null);
+
 	return (
 		<VStack spacing={5} align="stretch">
 			{openDialog && description && (
@@ -41,12 +41,10 @@ export function CategoryContent({
 			)}
 
 			{categoryName && categoryDescription && (
-				<VStack spacing={3}>
-					<Box p={4} bg="gray.100" borderRadius="md">
-						{categoryDescription}
-					</Box>
-					<ShareButtons category={categoryName} />
-				</VStack>
+				<ShareSection
+					categoryName={categoryName}
+					categoryDescription={categoryDescription}
+				/>
 			)}
 
 			{subCategories.map((subcategory) => (
@@ -65,5 +63,6 @@ export function CategoryContent({
 			))}
 		</VStack>
 	);
-}
+};
+
 const ScrollableLinksList = withScroll(LinksList);
