@@ -11,6 +11,7 @@ jobs:
     permissions: 
       contents: read
       issues: write
+      pull-requests: write
 
     runs-on: ubuntu-latest
     steps:
@@ -36,7 +37,7 @@ jobs:
     - name: Deploy Project Artifacts to Vercel
       run: vercel deploy --prebuilt --token=${{ secrets.VERCEL_TOKEN }} > /tmp/vercel-deployment-url.txt
     
-    - name: Generate PR
+    - name: Generate PR comment
       uses: actions/github-script@v7
       env:
         PULL_REQUEST_NUMBER: ${{ github.event.pull_request.number }}
