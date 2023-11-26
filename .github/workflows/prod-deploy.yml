@@ -1,4 +1,4 @@
-name: PR Deployment
+name: PROD Deployment
 
 on:
   workflow_dispatch:
