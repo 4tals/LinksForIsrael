@@ -1,0 +1,64 @@
+name: Vercel Deployment (reusable)
+
+on:
+  workflow_call:
+    inputs:
+      COMMITS_URL:
+        required: true
+        type: string
+      PULL_REQUEST_NUMBER:
+        required: true
+        type: number
+    secrets:
+      VERCEL_ORG_ID:
+        required: true
+      VERCEL_PROJECT_ID:
+        required: true
+      VERCEL_TOKEN:
+        required: true
+
+env:
+  VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+  VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+
+jobs:
+  deploy:
+    permissions: 
+      contents: read
+      pull-requests: write
+
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Install pnpm
+      run: npm install -g pnpm
+
+    - name: Install Vercel CLI
+      run: npm install --global vercel@latest
+
+    - name: Pull Vercel Environment Information
+      run: vercel pull --yes --environment=preview --token=${{ secrets.VERCEL_TOKEN }}
+
+    - name: Build Project Artifacts
+      run: vercel build --token=${{ secrets.VERCEL_TOKEN }}
+
+    - name: Deploy Project Artifacts to Vercel
+      run: vercel deploy --prebuilt --token=${{ secrets.VERCEL_TOKEN }} > /tmp/vercel-deployment-url.txt
+    
+    - name: Generate PR comment
+      uses: actions/github-script@v7
+      env:
+        PULL_REQUEST_NUMBER: ${{ inputs.PULL_REQUEST_NUMBER }}
+        COMMITS_URL : ${{ inputs.COMMITS_URL }}
+      with:
+        script: |
+          const fsAsync = require("fs").promises;
+          const deploymentUrl = await fsAsync.readFile("/tmp/vercel-deployment-url.txt", "utf8");
+
+          await github.rest.issues.createComment({
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            issue_number: process.env.PULL_REQUEST_NUMBER,
+            body: `Vercel deployment successful: ${deploymentUrl} (${process.env.COMMITS_URL})`
+          });

@@ -2,52 +2,19 @@ name: PR Deployment
 
 on: [pull_request, workflow_dispatch]
 
-env:
-  VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
-  VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
-
 jobs:
   deploy:
     permissions: 
       contents: read
       pull-requests: write
 
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v4
+    uses: ./.github/workflows/reusable-deploy-vercel.yml
     
-    - name: Use Node.js 
-      uses: actions/setup-node@v4
-      with:
-        node-version: 20
-
-    - name: Install pnpm
-      run: npm install -g pnpm
-
-    - name: Install Vercel CLI
-      run: npm install --global vercel@latest
-
-    - name: Pull Vercel Environment Information
-      run: vercel pull --yes --environment=preview --token=${{ secrets.VERCEL_TOKEN }}
-
-    - name: Build Project Artifacts
-      run: vercel build --token=${{ secrets.VERCEL_TOKEN }}
-
-    - name: Deploy Project Artifacts to Vercel
-      run: vercel deploy --prebuilt --token=${{ secrets.VERCEL_TOKEN }} > /tmp/vercel-deployment-url.txt
+    with:
+      PULL_REQUEST_NUMBER: ${{ github.event.pull_request.number }}
+      COMMITS_URL: ${{ github.event.pull_request.commits_url }}
     
-    - name: Generate PR comment
-      uses: actions/github-script@v7
-      env:
-        PULL_REQUEST_NUMBER: ${{ github.event.pull_request.number }}
-      with:
-        script: |
-          const fsAsync = require("fs").promises;
-          const deploymentUrl = await fsAsync.readFile("/tmp/vercel-deployment-url.txt", "utf8");
-
-          await github.rest.issues.createComment({
-            owner: context.repo.owner,
-            repo: context.repo.repo,
-            issue_number: process.env.PULL_REQUEST_NUMBER,
-            body: `Vercel deployment successful: ${deploymentUrl}`
-          });
+    secrets:
+      VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+      VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+      VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
