@@ -1,27 +1,42 @@
-import React from "react";
+import React, { useState } from "react";
 
-import { Box, Flex, Image, Text } from "@chakra-ui/react";
+import { Box, Flex, Image, Text, useColorModeValue } from "@chakra-ui/react";
 
 import { InitiativeLink as LinkType } from "../../utils/categories";
 import { InitiativeIcons } from "./InitiativeIcons";
 import { ShowMoreModal } from "./InitiativeShowMoreModal";
 
-const containsHebrewLetters = (str: string) => /[\u0590-\u05EA]/.test(str);
+// Define the type for your function parameter
+const containsHebrewLetters = (str: string): boolean =>
+	/[\u0590-\u05EA]/.test(str);
+const defaultImageUrl =
+	"https://res.cloudinary.com/dargbitr2/image/upload/v1697311977/LinksForIsrael/jix5eizmqcegmfra89gs.jpg";
 
-export function InitiativeItem({
+// Define types for your component props
+interface InitiativeItemProps {
+	link: LinkType;
+	setDescription: (description: {
+		body: React.ReactNode;
+		link: LinkType;
+	}) => void;
+	setOpenDialog: (open: boolean) => void;
+}
+
+export const InitiativeItem: React.FC<InitiativeItemProps> = ({
 	link,
 	setDescription,
 	setOpenDialog,
-}: {
-	link: LinkType;
-	setDescription: (
-		description: { body: React.ReactNode; link: LinkType } | null,
-	) => void;
-	setOpenDialog: (open: boolean) => void;
-}) {
-	const handleLinkClick = (e: React.MouseEvent) => {
+}) => {
+	const [imageError, setImageError] = useState(false);
+	const isRtl = containsHebrewLetters(
+		`${link.displayName}${link?.shortDescription}`,
+	);
+	const bgColor = useColorModeValue("white", "gray.700");
+
+	// Explicitly type the event parameter
+	const handleLinkClick = (e: React.MouseEvent<HTMLDivElement>) => {
 		if (link.description?.length > 0) {
-			e.preventDefault(); // Prevent redirect
+			e.preventDefault();
 			setDescription({
 				link,
 				body: <ShowMoreModal link={link} setOpenDialog={setOpenDialog} />,
@@ -30,34 +45,37 @@ export function InitiativeItem({
 		}
 	};
 
+	const imageUrl =
+		imageError || !link.initiativeImage
+			? defaultImageUrl
+			: link.initiativeImage;
+
 	return (
 		<Box
-			className={`links-section-item ${
-				!containsHebrewLetters(`${link.displayName}${link?.shortDescription}`)
-					? "ltr"
-					: ""
-			}`}
-			key={link.name}
+			bg={"gray.100"}
+			borderRadius="md"
+			overflow="hidden"
+			minWidth={{ base: "250px", md: "300px" }}
+			transition="all 0.3s"
+			_hover={{ bg: "gray.200", transform: "scale(1.05)", boxShadow: "xl" }}
 			onClick={handleLinkClick}
+			style={{ direction: isRtl ? "rtl" : "ltr" }}
 		>
-			{link.initiativeImage && (
-				<Image
-					src={link.initiativeImage}
-					alt={link.displayName}
-					position="absolute"
-					top="0"
-					left="5%"
-					width="90%"
-					objectFit="contain"
-					opacity="0.2"
-				/>
-			)}
+			<Image
+				src={imageUrl}
+				alt={link.displayName}
+				objectFit="cover"
+				opacity="0.3"
+				w={{ base: "full", md: "full" }}
+				h={{ base: "50px", md: "100px" }}
+				onError={() => setImageError(true)}
+			/>
 			<Flex direction="column" p="16px 24px">
-				<Text fontSize="17px" fontWeight="900" noOfLines={1}>
+				<Text fontSize="lg" fontWeight="bold" noOfLines={1}>
 					{link.displayName}
 				</Text>
 				{link.shortDescription && (
-					<Text fontSize="14px" fontWeight="600" noOfLines={2}>
+					<Text fontSize="md" fontWeight="medium" mt={1} noOfLines={2}>
 						{link.shortDescription}
 					</Text>
 				)}
@@ -65,4 +83,4 @@ export function InitiativeItem({
 			</Flex>
 		</Box>
 	);
-}
+};
