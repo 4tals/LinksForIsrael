@@ -20,7 +20,7 @@ export const ShareSection: React.FC<ShareSectionProps> = ({
 				{isLargerThan480 && (
 					<Flex alignItems="center">
 						<Text fontSize="md" fontWeight="bold" ml={2}>
-							רשימת יוזמות שונות בתחום
+							בעמוד זה תוכל למצוא רשימת יוזמות שונות בתחום
 						</Text>
 						<Text fontSize="sm" color="blue.600" noOfLines={1} marginLeft={10}>
 							{categoryDescription}

@@ -1,9 +1,10 @@
 import React from "react";
 
-import { Box, Flex, Link as ChakraLink, Image, Text } from "@chakra-ui/react";
+import { Box, Flex, Image, Text } from "@chakra-ui/react";
 
 import { InitiativeLink as LinkType } from "../../utils/categories";
 import { InitiativeIcons } from "./InitiativeIcons";
+import { ShowMoreModal } from "./InitiativeShowMoreModal";
 
 const containsHebrewLetters = (str: string) => /[\u0590-\u05EA]/.test(str);
 
@@ -21,25 +22,12 @@ export function InitiativeItem({
 	const handleLinkClick = (e: React.MouseEvent) => {
 		if (link.description?.length > 0) {
 			e.preventDefault(); // Prevent redirect
-			showMore(link, setOpenDialog);
+			setDescription({
+				link,
+				body: <ShowMoreModal link={link} setOpenDialog={setOpenDialog} />,
+			});
+			setOpenDialog(true);
 		}
-	};
-
-	const showMore = (link: LinkType, setOpenDialog: any) => {
-		setDescription({
-			link,
-			body: (
-				<>
-					<Text>{link.description}</Text>
-					<br />
-					<InitiativeIcons link={link} />
-					<ChakraLink href={link.url} isExternal>
-						פתח יוזמה
-					</ChakraLink>
-				</>
-			),
-		});
-		setOpenDialog(true); // <-- Open the modal
 	};
 
 	return (
