@@ -1,82 +1,85 @@
 import React from "react";
 
-import { Flex, Link as ChakraLink, Image, Text } from "@chakra-ui/react";
+import {
+	Flex,
+	Link as ChakraLink,
+	Image,
+	Text,
+	useColorModeValue,
+	useStyleConfig,
+} from "@chakra-ui/react";
 
-import { Tooltip } from "../../[[...category]]/Tooltip";
 import { InitiativeLink } from "../../utils/categories";
-import { ICONS, ICONS_KEYS } from "../../utils/consts";
+import { ICONS } from "../../utils/consts";
 
-export const InitiativeIcons = ({
+// Define the IconKey type based on the keys of ICONS
+type IconKey = keyof typeof ICONS;
+
+interface InitiativeIconsProps {
+	link: InitiativeLink;
+	limit?: number;
+}
+
+export const InitiativeIcons: React.FC<InitiativeIconsProps> = ({
 	link,
 	limit,
-}: {
-	link: InitiativeLink | any;
-	limit?: number;
 }) => {
-	let iconDisplay = ICONS_KEYS.filter((key) => link[key]);
-	let showIcons =
+	// Ensure that iconDisplay only contains keys that exist in both ICONS and link
+	let iconDisplay: IconKey[] = (Object.keys(ICONS) as IconKey[]).filter(
+		(key) => link[key],
+	);
+	let showIcons: IconKey[] =
 		limit && limit < iconDisplay.length
 			? iconDisplay.slice(0, limit)
 			: iconDisplay;
-	let overLimit =
+	let overLimit: number =
 		limit && limit < iconDisplay.length ? iconDisplay.length - limit : 0;
 
 	return (
-		<Flex className="link-icons" p="10px 0" align="center">
+		<Flex direction="row" wrap="wrap" align="center" mt={2}>
 			{showIcons.map((icon) => (
-				<ChakraLink href={link[icon]} key={icon} isExternal>
-					<Image
-						src={ICONS[icon as keyof typeof ICONS].src}
-						alt={ICONS[icon as keyof typeof ICONS].alt}
-						boxSize="30px"
-						m="0 5px"
-						_hover={{
-							filter: "brightness(120%)",
-							transform: "scale(1.1)",
-						}}
-					/>
-				</ChakraLink>
+				<IconLink
+					href={link[icon]}
+					iconUrl={ICONS[icon].src}
+					alt={ICONS[icon].alt}
+					key={icon}
+				/>
 			))}
 
-			{link.phone && (
-				<ChakraLink href={`tel:${link.phone}`} isExternal>
-					<Image
-						src="https://cdn2.iconfinder.com/data/icons/font-awesome/1792/phone-512.png"
-						alt="Phone Link"
-						boxSize="30px"
-						m="0 5px"
-						_hover={{
-							filter: "brightness(120%)",
-							transform: "scale(1.1)",
-						}}
-					/>
-				</ChakraLink>
-			)}
-
-			{link.email && (
-				<ChakraLink href={`mailto:${link.email}`} isExternal>
-					<Image
-						src="https://cdn2.iconfinder.com/data/icons/social-media-2259/512/gmail-512.png"
-						alt="Email Link"
-						boxSize="30px"
-						m="0 5px"
-						_hover={{
-							filter: "brightness(120%)",
-							transform: "scale(1.1)",
-						}}
-					/>
-				</ChakraLink>
-			)}
-
-			{link.initiativeValidationDetails && (
-				<Tooltip content={link.initiativeValidationDetails} />
-			)}
-
 			{overLimit > 0 && (
-				<Text fontSize="sm" ml="5px">
-					{overLimit}+
+				<Text fontSize="sm" ml={2} fontWeight="bold">
+					+{overLimit}
 				</Text>
 			)}
 		</Flex>
+	);
+};
+
+interface IconLinkProps {
+	href: string;
+	iconUrl: string;
+	alt: string;
+}
+
+const IconLink: React.FC<IconLinkProps> = ({ href, iconUrl, alt }) => {
+	const iconStyle = useStyleConfig("Icon");
+	const iconHoverBg = useColorModeValue("gray.100", "gray.700");
+
+	return (
+		<ChakraLink href={href} isExternal>
+			<Image
+				src={iconUrl}
+				alt={alt}
+				boxSize="30px"
+				m={1}
+				p={1}
+				borderRadius="md"
+				sx={iconStyle}
+				_hover={{
+					bg: iconHoverBg,
+					transform: "scale(1.1)",
+				}}
+			/>
+		</ChakraLink>
 	);
 };

@@ -45,13 +45,7 @@ const CategoriesList: React.FC<CategoriesListProps> = ({
 	}, [categoryId, isLargerThan768]);
 
 	return (
-		<Flex
-			direction="row"
-			wrap="nowrap"
-			p={4}
-			alignItems="center"
-			overflowX="auto" // Enable horizontal scrolling
-		>
+		<Flex direction="row" wrap="nowrap" p={4} alignItems="center">
 			{categories.map((category) => (
 				<Tooltip
 					label={category.displayName}
