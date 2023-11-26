@@ -64,5 +64,5 @@ jobs:
             owner: context.repo.owner,
             repo: context.repo.repo,
             issue_number: ${{ inputs.PULL_REQUEST_NUMBER }},
-            body: `Version #${{ inputs.COMMIT_SHA }} deployed to Vercel: ${deploymentUrl}`
+            body: `Version ${{ inputs.COMMIT_SHA }} deployed to Vercel: ${deploymentUrl}`
           });
