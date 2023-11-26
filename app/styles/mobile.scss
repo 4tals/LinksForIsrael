@@ -1,27 +1,5 @@
 @media only screen and (max-width: 768px) {
-
-	.links-section-item-short-description {
-		display: block;
-		overflow: hidden;
-		text-overflow: ellipsis;
-		overflow: hidden;
-		white-space: nowrap;
-	}
-
-	.links-section-title {
-		font-size: 24px; // Increase the title size for clarity
-		font-weight: 900;
-		position: relative;
-		z-index: 2;
-	}
-
-	.links-subcategory-header {
-		font-size: 22px; // Slightly increase the font size for headers
-		margin-top: 25px;
-		margin-bottom: 10px;
-	}
-
-	.main-content .desktop-content .links-subcategory-header {
+	.main-content .desktop-content {
 		margin-inline: 0;
 	}
 	.main-content {
@@ -38,76 +16,10 @@
 			z-index: 997;
 			width: 100%;
 		}
-		.icon-navbar {
-			gap: 15px;
-			height: 130px;
-			overflow: hidden;
-			.links-section {
-				-webkit-tap-highlight-color: transparent;
-				font-size: 14px;
-				position: relative;
-				width: 50px;
-				height: 50px;
-				border-radius: 50%;
-				.links-section-title {
-					width: 50px;
-					height: 50px;
-					justify-content: center;
-					.category-icon {
-						width: 30px;
-					}
-				}
-				span {
-					position: absolute;
-					bottom: -30px;
-					font-size: 14px;
-					height: 30px;
-					text-align: center;
-					&.numbers {
-						top: -7px;
-						left: -2px;
-						border: solid 1px var(--color-divider);
-						width: 20px;
-						height: 20px;
-						border-radius: 50%;
-						display: flex;
-						justify-content: center;
-						align-items: center;
-						font-size: 12px;
-						background-color: var(--color-dark);
-						color: var(--color-white);
-					}
-				}
-				&.desktop-open {
-					.numbers {
-						background-color: var(--color-blue);
-						color: var(--color-white);
-					}
-				}
-			}
-		}
 
 		.desktop-grid {
 			position: relative;
 			display: block;
-		}
-	}
-
-	.links-section {
-		.links-section-content {
-			display: block;
-			width: 100%;
-
-			hr {
-				display: block;
-			}
-
-			ul li a {
-				font-size: 16px;
-				padding: 15px;
-				overflow: hidden;
-				width: 100%;
-			}
 		}
 	}
 
@@ -119,10 +31,6 @@
 		border-color: #aba6a6;
 		border-width: 5px;
 		border-style: solid;
-	}
-
-	.category-icon {
-		margin-left: 10px;
 	}
 
 	::-webkit-scrollbar {

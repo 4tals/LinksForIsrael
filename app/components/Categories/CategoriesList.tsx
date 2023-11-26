@@ -14,8 +14,8 @@ import {
 	useMediaQuery,
 } from "@chakra-ui/react";
 
-import { analyticsService } from "../utils/analytica/analytics";
-import { Category as CategoryType } from "../utils/categories";
+import { analyticsService } from "../../utils/analytica/analytics";
+import { Category as CategoryType } from "../../utils/categories";
 
 interface CategoriesListProps {
 	categories: CategoryType[];
@@ -36,22 +36,16 @@ const CategoriesList: React.FC<CategoriesListProps> = ({
 	const [isLargerThan768] = useMediaQuery("(min-width: 768px)");
 
 	useEffect(() => {
-		if (isLargerThan768) {
-			const selected = document.querySelector(".links-section.desktop-open");
-			if (selected)
+		if (!isLargerThan768 && categoryId) {
+			const selected = document.getElementById(categoryId);
+			if (selected) {
 				selected.scrollIntoView({ behavior: "smooth", block: "nearest" });
+			}
 		}
-	}, [isLargerThan768]);
+	}, [categoryId, isLargerThan768]);
 
 	return (
-		<Flex
-			direction="row"
-			wrap="nowrap" // Prevent wrapping
-			justifyContent="center"
-			p={4}
-			alignItems="center"
-			//   overflowX="auto" // Allow horizontal scrolling
-		>
+		<Flex direction="row" wrap="nowrap" p={4} alignItems="center">
 			{categories.map((category) => (
 				<Tooltip
 					label={category.displayName}

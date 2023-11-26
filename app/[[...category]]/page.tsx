@@ -1,6 +1,7 @@
 import { Body } from "@/app/components/Body/Body";
+
+import { ScrollableCategoriesList } from "../components/Categories/CategoriesList";
 import { getAssistanceSubCategory, getCategories } from "../utils/categories";
-import { ScrollableCategoriesList } from "./CategoriesList";
 
 type CategoryParam =
 	| []
@@ -53,7 +54,10 @@ export default async function Category({
 
 	return (
 		<>
-			<ScrollableCategoriesList categories={categories} categoryId={categoryId} />
+			<ScrollableCategoriesList
+				categories={categories}
+				categoryId={categoryId}
+			/>
 			<Body
 				categories={categories}
 				categoryId={categoryId}

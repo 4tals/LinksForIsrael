@@ -12,10 +12,10 @@ export interface CategoryData {
 export interface SubCategoryData {
 	name: string;
 	displayName: string;
-	links: Array<Link>;
+	links: Array<InitiativeLink>;
 }
 
-export interface Link {
+export interface InitiativeLink {
 	name: string;
 	displayName: string;
 	shortDescription: string;

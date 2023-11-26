@@ -1,12 +1,13 @@
 "use client";
 
-import { createContext, useCallback, useState } from "react";
+import React, { createContext, useCallback, useState } from "react";
 
 import { MobileSearchInput } from "@/app/components/Search/MobileSearchInput";
 import { useSearch } from "@/app/components/Search/useSearch";
 import { useIsMobile } from "@/app/hooks/useIsMobile";
 import { Category, SubCategoryData } from "@/app/utils/categories";
 
+import { Footer } from "./Footer";
 import { Header } from "./Header/Header";
 import { MenuContextProps, initialMenuContext } from "./RootAppConsts";
 import {
@@ -52,6 +53,7 @@ export function RootApp({
 				<main id="content" className="main-content" role="main">
 					{children}
 				</main>
+				<Footer />
 			</MenuContext.Provider>
 		</SearchContext.Provider>
 	);
