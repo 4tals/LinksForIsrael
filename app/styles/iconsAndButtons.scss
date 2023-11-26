@@ -13,22 +13,9 @@ $icon-hover-scale: scale(1.1);
 	}
 }
 
-.link-icon,
-.link-initiative-icon {
+.link-icon {
 	@extend .icon-common-styles;
 	width: 30px;
-}
-
-.link-initiative-icon {
-	@extend .icon-common-styles;
-	max-height: 100px;
-	width: auto;
-	position: absolute;
-}
-
-.category-icon {
-	@extend .icon-common-styles;
-	width: 25px;
 }
 
 .link-icons {
@@ -65,27 +52,4 @@ $icon-hover-scale: scale(1.1);
 
 .telegram-btn {
 	color: #0088cc;
-}
-
-.copy-icon {
-	font-variation-settings:
-		"FILL" 0,
-		"wght" 400,
-		"GRAD" 0,
-		"opsz" 24;
-}
-
-.mainButton {
-	background-color: #242b33;
-	color: #fff;
-	padding: 10px 20px;
-	border-radius: 5px;
-	text-decoration: none;
-	transition: background-color 0.2s;
-	display: inline-block;
-
-	&:hover {
-		transform: scale(1.05);
-		background-color: #0056b3;
-	}
 }
