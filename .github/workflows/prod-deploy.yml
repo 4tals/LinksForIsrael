@@ -1,6 +1,10 @@
 name: PR Deployment
 
-on: [pull_request, workflow_dispatch]
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
 
 jobs:
   deploy:
@@ -9,10 +13,6 @@ jobs:
       pull-requests: write
 
     uses: ./.github/workflows/reusable-deploy-vercel.yml
-    
-    with:
-      PULL_REQUEST_NUMBER: ${{ github.event.pull_request.number }}
-      COMMIT_SHA: ${{ github.event.pull_request.head.sha }}
     
     secrets:
       VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
