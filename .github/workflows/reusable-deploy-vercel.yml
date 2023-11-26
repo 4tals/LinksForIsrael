@@ -3,12 +3,6 @@ name: Vercel Deployment (reusable)
 on:
   workflow_call:
     inputs:
-      COMMIT_SHA:
-        required: false
-        type: string
-      PULL_REQUEST_NUMBER:
-        required: false
-        type: number
       PROD:
         required: false
         type: boolean
@@ -47,19 +41,4 @@ jobs:
       run: vercel build ${{ env.VERCEL_CLI_ENV_FLAG }} --token=${{ secrets.VERCEL_TOKEN }}
 
     - name: Deploy Project Artifacts to Vercel
-      run: vercel deploy ${{ env.VERCEL_CLI_ENV_FLAG }} --prebuilt --token=${{ secrets.VERCEL_TOKEN }} > /tmp/vercel-deployment-url.txt
-    
-    - name: Generate PR comment
-      if: ${{ inputs.PULL_REQUEST_NUMBER != 0 }}
-      uses: actions/github-script@v7
-      with:
-        script: |
-          const fsAsync = require("fs").promises;
-          const deploymentUrl = await fsAsync.readFile("/tmp/vercel-deployment-url.txt", "utf8");
-
-          await github.rest.issues.createComment({
-            owner: context.repo.owner,
-            repo: context.repo.repo,
-            issue_number: ${{ inputs.PULL_REQUEST_NUMBER }},
-            body: `Version ${{ inputs.COMMIT_SHA }} deployed to Vercel: ${deploymentUrl}`
-          });
+      run: vercel deploy ${{ env.VERCEL_CLI_ENV_FLAG }} --prebuilt --token=${{ secrets.VERCEL_TOKEN }}
