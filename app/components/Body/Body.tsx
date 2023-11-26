@@ -2,11 +2,11 @@
 
 import { useContext } from "react";
 
-import { CategoryContent } from "@/app/[[...category]]/CategoryContent";
 import { NoCategoryZeroState } from "@/app/[[...category]]/ZeroStates/NoCategoryZeroState";
+import { NoResultsZeroState } from "@/app/[[...category]]/ZeroStates/NoResultsZeroState";
+import { CategoryContent } from "@/app/components/Categories/CategoryContent";
 import { SearchContext } from "@/app/components/RootApp";
 import { Category, SubCategoryData } from "@/app/utils/categories";
-import { NoResultsZeroState } from "@/app/[[...category]]/ZeroStates/NoResultsZeroState";
 
 interface Props {
 	categories: Array<Category>;
@@ -23,17 +23,20 @@ export function Body(props: Props) {
 	if (search) {
 		return (
 			<div className="desktop-content">
-				{ results.length > 0?
-						results.map((category) => (
-							<div key={category.id}>
-								<p className="search-category-title">{category.displayName}</p>
-								<CategoryContent
-									subCategories={category.subCategories}
-									categoryName={category.displayName}
-									categoryDescription={category.description}
-								/>
-							</div>
-						)) : <NoResultsZeroState />}
+				{results.length > 0 ? (
+					results.map((category) => (
+						<div key={category.id}>
+							<p className="search-category-title">{category.displayName}</p>
+							<CategoryContent
+								subCategories={category.subCategories}
+								categoryName={category.displayName}
+								categoryDescription={category.description}
+							/>
+						</div>
+					))
+				) : (
+					<NoResultsZeroState />
+				)}
 			</div>
 		);
 	}

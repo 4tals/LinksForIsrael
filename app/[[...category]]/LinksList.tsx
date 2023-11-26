@@ -2,7 +2,7 @@ import React from "react";
 
 import { Box, Flex, Text } from "@chakra-ui/react";
 
-import { Link as LinkType } from "../utils/categories";
+import { InitiativeLink as LinkType } from "../utils/categories";
 import { LinkItem } from "./LinkItem";
 
 export function LinksList({

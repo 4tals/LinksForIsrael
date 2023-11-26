@@ -1,7 +1,11 @@
 import { useCallback, useState } from "react";
 
 import { analyticsService } from "@/app/utils/analytica/analytics";
-import { Category, Link, SubCategoryData } from "@/app/utils/categories";
+import {
+	Category,
+	InitiativeLink,
+	SubCategoryData,
+} from "@/app/utils/categories";
 
 import { mapStringToHebrew } from "./SearchHelpers";
 

@@ -1,12 +1,9 @@
-import React, { Fragment, useState } from "react";
+import React, { useState } from "react";
 
-import { withScroll } from "@/app/components/withScroll/withScroll";
-import { VStack, Heading, Divider } from "@chakra-ui/react";
-
-import { DialogModal } from "../components/DialogModal/DialogModal";
-import { ShareSection } from "../components/Share/ShareSection";
-import { Link, SubCategoryData } from "../utils/categories";
-import { LinksList } from "./LinksList";
+import { InitiativeLink, SubCategoryData } from "../../utils/categories";
+import { DialogModal } from "../DialogModal/DialogModal";
+import { ShareSection } from "../Share/ShareSection";
+import { SubCategoriesList } from "./SubCategoriesList";
 
 interface CategoryContentProps {
 	categoryName?: string;
@@ -25,11 +22,11 @@ export const CategoryContent = ({
 	const [openDialog, setOpenDialog] = useState(false);
 	const [description, setDescription] = useState<{
 		body: React.ReactNode;
-		link: Link;
+		link: InitiativeLink;
 	} | null>(null);
 
 	return (
-		<VStack spacing={5} align="stretch">
+		<>
 			{openDialog && description && (
 				<DialogModal
 					title={description.link.displayName || ""}
@@ -47,22 +44,11 @@ export const CategoryContent = ({
 				/>
 			)}
 
-			{subCategories.map((subcategory) => (
-				<Fragment key={subcategory.name}>
-					<Heading as="h3" size="md" my={4}>
-						{subcategory.displayName}
-					</Heading>
-					<Divider />
-					<ScrollableLinksList
-						links={subcategory.links}
-						name={subcategory.name}
-						setDescription={setDescription}
-						setOpenDialog={setOpenDialog}
-					/>
-				</Fragment>
-			))}
-		</VStack>
+			<SubCategoriesList
+				subCategories={subCategories}
+				setDescription={setDescription}
+				setOpenDialog={setOpenDialog}
+			/>
+		</>
 	);
 };
-
-const ScrollableLinksList = withScroll(LinksList);

@@ -14,8 +14,8 @@ import {
 	useMediaQuery,
 } from "@chakra-ui/react";
 
-import { analyticsService } from "../utils/analytica/analytics";
-import { Category as CategoryType } from "../utils/categories";
+import { analyticsService } from "../../utils/analytica/analytics";
+import { Category as CategoryType } from "../../utils/categories";
 
 interface CategoriesListProps {
 	categories: CategoryType[];

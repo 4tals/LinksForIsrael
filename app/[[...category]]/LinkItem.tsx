@@ -2,7 +2,7 @@ import React from "react";
 
 import { Box, Flex, Link as ChakraLink, Image, Text } from "@chakra-ui/react";
 
-import { Link as LinkType } from "../utils/categories";
+import { InitiativeLink as LinkType } from "../utils/categories";
 import { LinkIcons } from "./LinkIcons";
 
 const containsHebrewLetters = (str: string) => /[\u0590-\u05EA]/.test(str);

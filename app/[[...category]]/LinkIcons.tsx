@@ -2,7 +2,7 @@ import React from "react";
 
 import { Flex, Link as ChakraLink, Image, Text } from "@chakra-ui/react";
 
-import { Link } from "../utils/categories";
+import { InitiativeLink } from "../utils/categories";
 import { ICONS, ICONS_KEYS } from "../utils/consts";
 import { Tooltip } from "./Tooltip";
 
@@ -10,7 +10,7 @@ export const LinkIcons = ({
 	link,
 	limit,
 }: {
-	link: Link | any;
+	link: InitiativeLink | any;
 	limit?: number;
 }) => {
 	let iconDisplay = ICONS_KEYS.filter((key) => link[key]);
