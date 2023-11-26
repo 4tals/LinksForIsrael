@@ -1,0 +1,44 @@
+name: Vercel Deployment (reusable)
+
+on:
+  workflow_call:
+    inputs:
+      PROD:
+        required: false
+        type: boolean
+        default: false
+    secrets:
+      VERCEL_ORG_ID:
+        required: true
+      VERCEL_PROJECT_ID:
+        required: true
+      VERCEL_TOKEN:
+        required: true
+
+env:
+  VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+  VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+  VERCEL_ENVIRONMENT: ${{ inputs.PROD == true && 'production' || 'preview' }}
+  VERCEL_CLI_ENV_FLAG: ${{ inputs.PROD == true && '--prod' || '' }}
+
+jobs:
+  deploy:
+
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Install pnpm
+      run: npm install -g pnpm
+
+    - name: Install Vercel CLI
+      run: npm install --global vercel@latest
+
+    - name: Pull Vercel Environment Information
+      run: vercel pull --yes --environment=${{ env.VERCEL_ENVIRONMENT }} --token=${{ secrets.VERCEL_TOKEN }}
+
+    - name: Build Project Artifacts
+      run: vercel build ${{ env.VERCEL_CLI_ENV_FLAG }} --token=${{ secrets.VERCEL_TOKEN }}
+
+    - name: Deploy Project Artifacts to Vercel
+      run: vercel deploy ${{ env.VERCEL_CLI_ENV_FLAG }} --prebuilt --token=${{ secrets.VERCEL_TOKEN }}
