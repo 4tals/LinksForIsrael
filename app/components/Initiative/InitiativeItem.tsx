@@ -2,12 +2,12 @@ import React from "react";
 
 import { Box, Flex, Link as ChakraLink, Image, Text } from "@chakra-ui/react";
 
-import { InitiativeLink as LinkType } from "../utils/categories";
-import { LinkIcons } from "./LinkIcons";
+import { InitiativeLink as LinkType } from "../../utils/categories";
+import { InitiativeIcons } from "./InitiativeIcons";
 
 const containsHebrewLetters = (str: string) => /[\u0590-\u05EA]/.test(str);
 
-export function LinkItem({
+export function InitiativeItem({
 	link,
 	setDescription,
 	setOpenDialog,
@@ -32,7 +32,7 @@ export function LinkItem({
 				<>
 					<Text>{link.description}</Text>
 					<br />
-					<LinkIcons link={link} />
+					<InitiativeIcons link={link} />
 					<ChakraLink href={link.url} isExternal>
 						פתח יוזמה
 					</ChakraLink>
@@ -73,7 +73,7 @@ export function LinkItem({
 						{link.shortDescription}
 					</Text>
 				)}
-				<LinkIcons link={link} limit={3} />
+				<InitiativeIcons link={link} limit={3} />
 			</Flex>
 		</Box>
 	);

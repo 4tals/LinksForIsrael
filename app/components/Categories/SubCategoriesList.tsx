@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { MdKeyboardArrowDown } from "react-icons/md";
 
-import { LinksList } from "@/app/[[...category]]/LinksList";
+import { InitiativeList } from "@/app/components/Initiative/InitiativeList";
 import { withScroll } from "@/app/components/withScroll/withScroll";
 import { InitiativeLink, SubCategoryData } from "@/app/utils/categories";
 import {
@@ -100,4 +100,4 @@ export const SubCategoriesList: React.FC<SubCategoriesListProps> = ({
 	);
 };
 
-const ScrollableLinksList = withScroll(LinksList);
+const ScrollableLinksList = withScroll(InitiativeList);

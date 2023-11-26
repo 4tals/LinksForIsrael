@@ -2,11 +2,11 @@ import React from "react";
 
 import { Flex, Link as ChakraLink, Image, Text } from "@chakra-ui/react";
 
-import { InitiativeLink } from "../utils/categories";
-import { ICONS, ICONS_KEYS } from "../utils/consts";
-import { Tooltip } from "./Tooltip";
+import { Tooltip } from "../../[[...category]]/Tooltip";
+import { InitiativeLink } from "../../utils/categories";
+import { ICONS, ICONS_KEYS } from "../../utils/consts";
 
-export const LinkIcons = ({
+export const InitiativeIcons = ({
 	link,
 	limit,
 }: {

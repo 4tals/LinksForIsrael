@@ -1,11 +1,11 @@
 import React from "react";
 
-import { Box, Flex, Text } from "@chakra-ui/react";
+import { Flex, Text } from "@chakra-ui/react";
 
-import { InitiativeLink as LinkType } from "../utils/categories";
-import { LinkItem } from "./LinkItem";
+import { InitiativeLink as LinkType } from "../../utils/categories";
+import { InitiativeItem } from "./InitiativeItem";
 
-export function LinksList({
+export function InitiativeList({
 	name,
 	links,
 	setDescription,
@@ -33,7 +33,7 @@ export function LinksList({
 			// overflowY="auto"
 		>
 			{links.map((link) => (
-				<LinkItem
+				<InitiativeItem
 					link={link}
 					key={link.name}
 					setDescription={setDescription}
