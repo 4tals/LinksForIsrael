@@ -88,6 +88,21 @@
         "מורשת",
         "זיכרון"
       ]
+    },
+    {
+      "displayName": "תיבת תהודה",
+      "name": "echoBox",
+      "shortDescription": "המיזם, אשר מבוסס על ניסיון בני משפחות שכולות, נועד לאגד זיכרונות, סיפורים ותמונות על הנופלים והנרצחים.",
+      "description": "חלק מ'קהילה זוכרת' - קהילה דיגיטלית לקידום הנצחה חיה לזכר חללי מערכות ישראל ונפגעי פעולות איבה",
+      "initiativeValidationDetails": "שמעתי על זה ברדיו ונכנסתי לאתר שלהם",
+      "url": "https://www.coing.co/Remember_Registration_Haravot_Barzel",
+      "initiativeImage": "https://coing-images.s3.eu-central-1.amazonaws.com/communities-logos/a32ca4a0486db7a70131fd010ef8b90b.png",
+      "tags": [
+        "זיכרון",
+        "נופלים",
+        "נרצחים",
+        "שואה"
+      ]
     }
   ]
 }
