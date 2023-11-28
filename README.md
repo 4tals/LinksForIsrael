@@ -18,4 +18,4 @@ Welcome to the centralized repository of links and resources dedicated to Israel
 
 - [How to Contribute](/docs/contribute.md)
 
-Your time, expertise, and every single contribution, no matter how small, amplifies our mission. Stand with us in championing Israel!
+Your time, expertise, and every single contribution, no matter how small - amplifies our mission. Stand with us in championing Israel!
