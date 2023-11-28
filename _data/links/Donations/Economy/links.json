@@ -35,6 +35,30 @@
         "ALL CLUB",
         "הטבות"
       ]
+    },
+    {
+      "displayName": "SocialSolidarityHome",
+      "name": "הבית לסולידריות חברתית",
+      "shortDescription": "מוקד מידע לעסקים",
+      "description": "בימים קשים אלו הבית לסולידריות חברתית מטעם קרן משפחת שעשוע עומדים לצד העסקים בישראל",
+      "initiativeValidationDetails": "Operations volunteer",
+      "url": "https://www.solidarity-foundation.org.il/ironswords",
+      "website": "https://www.solidarity-foundation.org.il/ironswords",
+      "email": "info@solidarity-foundation.org.il",
+      "whatsapp": "https://api.whatsapp.com/send?phone=972523299519",
+      "form": "https://forms.gle/XH27b88nx9ynXqS36",
+      "facebook": "https://www.facebook.com/wer1solidarity",
+      "instagram": "https://www.instagram.com/social_solidarity_il/?utm_medium=copy_link",
+      "linkedin": "https://www.linkedin.com/company/the-social-solidarity-foundation/",
+      "youtube": "https://www.youtube.com/channel/UCooKVLFJQOvggvuklgYwq_w",
+      "tags": [
+        "סולידריות חברתית",
+        "עסקים",
+        "מוקד מידע",
+        "משפחת שעשוע",
+        "קרן",
+        "ישראל"
+      ]
     }
   ]
 }
