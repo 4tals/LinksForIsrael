@@ -1,0 +1,79 @@
+{
+  "name": "MedicalMain",
+  "displayName": "כלליות",
+  "links": [
+    {
+      "name": "IronDoctors",
+      "displayName": "רופאות הברזל - ⚡יעוץ רפואי מהיר בשעת חרום⚡",
+      "shortDescription": "ניתן על ידי חברת ניתאי שירותי עזרה ראשונה",
+      "description": "לאור מצב החירום בו נמצאת ישראל בזמנים אלו, שיבא beyond, בית החולים הוירטואלי בשיבא, ובשיתוף קבוצת חדר רופאות הקימו עבורכם/ן מוקד ובו מערך רופאות ורופאים מתנדבים/ות בתחומים שונים. המערך זמין למתן ייעוץ רפואי מהיר דרך הוואטסאפ במצבים לא דחופים ובתחומים שונים: רפואה פנימית ומשפחה, רפואת ילדים, רפואת שיניים, ועוד. שעות פעילות המוקד יתעדכנו מעת לעת, ובהמשך המוקד מיועד לפעילות של 24/7. שעות פעילות המוקד כרגע: 16:00-20:00. אנא התעדכנו בשעות הפעילות בדף זה.",
+      "url": "https://www.hopp.bio/irondoctors",
+      "whatsapp": "https://api.whatsapp.com/send/?phone=972559726946&text&type=phone_number&app_absent=0",
+      "initiativeImage": "https://static.wixstatic.com/media/17ed99_203d95c733014d81a8c8081e49d4098d~mv2.jpeg/v1/crop/x_0,y_152,w_640,h_336/fill/w_1200,h_630,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/17ed99_203d95c733014d81a8c8081e49d4098d~mv2.jpeg",
+      "tags": [
+        "רפואה",
+        "התנדבות",
+        "מתנדב"
+      ]
+    },
+    {
+      "name": "MedicalVolunteersforIsrael",
+      "displayName": "מתנדבים רפואיים לישראל",
+      "shortDescription": "המשרד הישראלי לבריאות מגייס רשימה של צוות רפואי מחו״ל להתנדבות בישראל במקרה הצורך",
+      "description": "ברגע שהשורשים שוב יתעממו על מערכת הבריאות, וכמבנה לאסונות טבע או בני אדם עתידיים, אנו מזמינים חברים של ישראל להוסיף את שמם לקהילה המתרחבת שלנו של צוות רפואי שנמצא עם ישראל. הירשמו לקבלת נקודות CME בעתיד, להתאמן עם צוותים ישראליים, ולהתחבר אל חברים של ישראל באזור שלך.",
+      "url": "https://survey.gov.il/en/internationalvolunteers?utm_source=go.gov.il&utm_medium=referral",
+      "website": "https://survey.gov.il/en/internationalvolunteers?utm_source=go.gov.il&utm_medium=referral",
+      "initiativeValidationDetails": "המקור: דף המשרד הראשי של המשרד לבריאות",
+      "initiativeImage": "https://survey.gov.il/sites/default/files/styles/medium/public/2023-10/%D7%A1%D7%9E%D7%9C%20%D7%94%D7%9E%D7%93%D7%99%D7%A0%D7%94-%20%D7%9B%D7%97%D7%95%D7%9C%20%D7%9B%D7%94%D7%94%20%D7%9E%D7%91%20copy%202.png?itok=7m2Yd5U0",
+      "tags": [
+        "רפואי",
+        "ישראל",
+        "חברים של ישראל",
+        "משרד הבריאות",
+        "התנדבות",
+        "רפואה"
+      ]
+    },
+    {
+      "displayName": "תרומות דם דרך מד'א",
+      "name": "MdaBloodDonation",
+      "shortDescription": "איתור מרכזי תרומות דם בכל רחבי הארץ לפי תאריך",
+      "description": "שירותי הדם של מגן דוד אדום אחראים על התרמה ואספקת מנות הדם לבתי החולים בארץ וליחידות צה'ל, הן בשעת חירום והן בשגרה עבור חולים הזקוקים לעירויי דם במהלך אשפוזם. כדי לעמוד בדרישות הגוברות של מערכת הבריאות בישראל, יש צורך להתרים 1200 מנות דם כל יום. לדם האדם אין תחליף, לפיכך רק תרומת דם מאדם אחד יכולה להציל חיים של אנשים אחרים. ממנת דם אחת אפשר להציל חיים של שלושה איש לפחות. על-מנת להשיג כמות כזו של תורמי דם מתנדבים, אנו מקיימים מבצעי התרמות דם במגזרים שונים כגון: מפעלים, חברות, התיישבות עובדת, בסיסי צה'ל, מכללות, קניונים וכו'. נשמח לקדם נושא כה חשוב העוסק רובו ככולו בהצלת חיי אדם ולצרף אתכם למאגר 'קבוצות תורמות דם' של שירותי הדם של מד'א.",
+      "initiativeValidationDetails": "Official website of MADA",
+      "url": "https://www.mdais.org/blood-donation",
+      "website": "https://www.mdais.org/blood-donation",
+      "whatsapp": "https://wa.me/972035300400",
+      "form": "https://www.mdais.org/blood-donation/formhospitals",
+      "tags": [
+        "תרומת דם",
+        "מגן דוד אדום",
+        "הצלת חיים",
+        "תרומת דם במשבר",
+        "מדא"
+      ]
+    },
+    {
+      "displayName": "חיבוק דידי",
+      "name": "didihugs",
+      "shortDescription": "התערבות פסיכולוגית קצרה לילדים בעת משבר",
+      "description": "בעקבות המשבר הנוכחי במדינה, ילדים רבים חווים סטרס וקושי משמעותי. אלה יכולים לבוא לידי ביטוי במגוון התנהגויות, כגון פחדים ודריכות, היצמדות להורים, קשיי שינה, עצבנות רבה מהרגיל, כאבי בטן וכאבים גופניים אחרים, שינויים בתאבון ועוד. אנחנו צוות של פסיכולוגים קליניים וחוקרי בריאות נפש שהוקם בעקבות שבת ה-7 באוקטובר ומלחמת חרבות ברזל, כדי לתמוך בילדים ולסייע להם להתמודד עם המצב. אנו מציעים התערבות פסיכולוגית קצרה, המתבססת על יכולות הדמיון והמשחקיות של הילד. ההתערבות נועדה לקדם את החוסן של הילד, ולתמוך בו בעתות של סטרס. ההתערבות ניתנת בטלפון, ובאמצעות ההורים בביתכם. ההשתתפות הינה ללא תשלום. אנו מזמינים הורים לילדים בגילאי 3-8 לפנות אלינו.",
+      "initiativeValidationDetails": "Published by legit profile: https://www.facebook.com/groups/OurModin/posts/2934268490047516",
+      "url": "https://www.didihugs.com/",
+      "website": "https://www.didihugs.com/",
+      "email": "Didihugs@gmail.com",
+      "whatsapp": "https://l.facebook.com/l.php?u=https%3A%2F%2Fchat.whatsapp.com%2FFF545QFIUVz27iUFGeC7rx%3Ffbclid%3DIwAR1FqdxP-6zCm5aA1PAVtoYf9A2rxlN5SauTDn44z4-PHoJ170_jMoYc4Ac&h=AT3WhYrGMiGdSuGdmSF8UXVBXHTk2FaFbXgLabDYkfFO87jQxrIZRjkBmnGkoyU189Rx6_IB3gBKyk_VWr9iiN82wHd5GRPQcgpc5188Y5q5t6kgt8J024dkbZwhlU1Pcg&__tn__=-UK-R]-R&c[0]=AT2p-M5zZyrUiH8yWWDFcZOcVcFgNI0LWM4jMFX9HHCtb3-kwtjFf__Kj7wa71hLolkPFTWsHJtUasOEO4CgQ-9CYthLYqbwAGK2iumrohDLmf4n5hW4PbxbEyxR9T7XAzug3mIMzS6QRy6LoOmvXG5vmq-1UeAEv7y8tmdJ5VNAwT3YTP-4c9toM8S7zNkuPWr4JLPhl_lG-DbC9NUr_A&c[1]=AT2p-M5zZyrUiH8yWWDFcZOcVcFgNI0LWM4jMFX9HHCtb3-kwtjFf__Kj7wa71hLolkPFTWsHJtUasOEO4CgQ-9CYthLYqbwAGK2iumrohDLmf4n5hW4PbxbEyxR9T7XAzug3mIMzS6QRy6LoOmvXG5vmq-1UeAEv7y8tmdJ5VNAwT3YTP-4c9toM8S7zNkuPWr4JLPhl_lG-DbC9NUr_A",
+      "form": "https://docs.google.com/forms/d/e/1FAIpQLSfYFO0RUPMYB_7XGYSv1pkS7T7QhZc8pwBShfWavYnBCKG5hw/viewform",
+      "facebook": "https://www.facebook.com/groups/780925150471197/?multi_permalinks=804305348133177%2C803529831544062%2C802201208343591%2C801658978397814%2C801733738390338%2C800619231835122%2C800520018511710%2C800601741836871&notif_id=1699619614332073&notif_t=group_highlights&ref=notif",
+      "initiativeImage": "https://static.wixstatic.com/media/8d91c5_6436b03227a940fb8d4eee051e5bab8a~mv2.png/v1/fill/w_999,h_791,al_c,q_90,enc_auto/Shutterstock_2258789467_edited_edited_ed.png",
+      "tags": [
+        "קורונה",
+        "ילדים",
+        "שירות",
+        "לא מסחר",
+        "עזרה לילדים",
+        "פסיכולוגיה",
+        "מלחמה"
+      ]
+    }
+  ]
+}

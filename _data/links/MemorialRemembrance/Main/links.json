@@ -1,0 +1,108 @@
+{
+  "name": "MemorialRemembranceMain",
+  "displayName": "",
+  "links": [
+    {
+      "name": "IzkorNoflim",
+      "displayName": "יזכור הנופלים",
+      "shortDescription": "מידע על כלל חללי ׳חרבות ברזל׳",
+      "description": "האתר הוקם במטרה לרכז מידע על כלל חללי ׳חרבות ברזל׳, מועדי הלוויה ומיקומי השבעה על מנת שנוכל לחלוק להם כבוד אחרון וללוותם בדרכם האחרונה",
+      "url": "https://www.izkorharavot.com/",
+      "website": "https://www.izkorharavot.com/"
+    },
+    {
+      "name": "LevEhad",
+      "displayName": "לב אחד - טופס רישום לנציגים אזרחיים",
+      "shortDescription": "ארגון לב אחד דואג שלא תהיה לוויה ללא נציגים אזרחיים",
+      "description": "ארגון לב אחד דואג שלא תהיה לוויה ללא נציגים אזרחיים",
+      "url": "https://wkf.ms/46mj8OG",
+      "forms": "https://wkf.ms/46mj8OG"
+    },
+    {
+      "name": "IllustrationNofalim",
+      "displayName": "איורים של הנופלים - Benzi Wolman",
+      "shortDescription": "אני יושב ומאייר את דמותם של הנופלים שהיו שם בשבילנו. אם אתם יודעים על משפחה שעשויה לרצות",
+      "description": "בימים האחרונים אני יושב ומאייר את דמותם של הנופלים שהיו שם בשבילנו. הורים, צעירים וצעירות ששילמו בחייהם כדי להגן עלינו. זה עוזר לי לעצור, להסתכל להם בעיניים, לחשוב על המשפחות שלהם ועל החברים שלהם, ולכאוב את הכאב שלהם. אם אתם יודעים על משפחה שעשויה לרצות את הציור של יקירם, ניתן לפנות אלי במייל.",
+      "url": "mailto:Benziwolman@gmail.com",
+      "email": "Benziwolman@gmail.com",
+      "tags": [
+        "איור",
+        "נופלים",
+        "זיכרון",
+        "משפחה",
+        "צעירים",
+        "הוקרה"
+      ]
+    },
+    {
+      "name": "Shalhevet",
+      "displayName": "שלהבת - להיות חזקים ביחד בזמנים קשים",
+      "shortDescription": "מתחם זום לשידור והשתתפות בלוויה ואירועי זיכרון",
+      "description": "מתחם זום לשידור והשתתפות בלוויה ואירועי זיכרון עבור שלא יכולים להגיע. המפגשים פתוחים ל-24 שע' לעד-500 אנשים.",
+      "url": "https://shalhevet.co/",
+      "website": "https://shalhevet.co/",
+      "initiativeImage": "https://shalhevet.co/candel.png",
+      "tags": [
+        "זום",
+        "לוויה",
+        "אירועי זיכרון",
+        "שלהבת",
+        "התאחדות",
+        "אמדוקס",
+        "נאוטק"
+      ]
+    },
+    {
+      "displayName": "תבנית לאתרי יזכור",
+      "name": "WixRememberThem",
+      "shortDescription": "אתר הנצחה דיגיטלי, ללא עלות",
+      "description": "אנחנו מקבלים לוויקס המון פניות ממשפחות וחברים להקמת אתרי הנצחה דיגיטליים לחללי חרבות ברזל - מקום שבו יוכלו להנציח את יקיריהם, לשתף בסיפורים ותמונות ולהזמין משפחה וחברים להעלות זכרונות ביחד. החלטנו לייצר למשפחות נקודת התחלה קלה יותר לבניית האתרים האלו. באתר ״לזכור אותם״ מוצעים 4 עיצובים שונים (תבניות/ טמפלטים) לאתרי הנצחה אישיים. כל מה שצריך לעשות זה להחליף תמונות ולערוך לתכנים האישיים. האתר כולל גם סרטון הדרכה קצר שמראה כיצד ניתן לעבוד בקלות עם הטמפלטים. וויקס תספק למשפחות דומיין לאתר וכן תמיכה אישית במהלך הבנייה, במידה ויצטרכו.",
+      "initiativeValidationDetails": "Subdomain on wix.com (official Wix domain)\nAlso vetted by a colleague as coming directly from Wix",
+      "url": "https://memorial-templates.wix.com/",
+      "website": "https://memorial-templates.wix.com/",
+      "whatsapp": "https://chat.whatsapp.com/Iz0CxyHnFfkKDZhB5Ln7u3",
+      "initiativeImage": "https://upload.wikimedia.org/wikipedia/commons/7/76/Wix.com_website_logo.svg",
+      "tags": [
+        "וויקס",
+        "אתר הנצחה",
+        "חללי חרבות ברזל",
+        "עיצוב אתרים"
+      ]
+    },
+    {
+      "displayName": "חרבות ברזל - ממוריאליין",
+      "name": "ironswords.info",
+      "shortDescription": "האתר להנצחת הנופלים והנרצחים",
+      "description": "Memorialine היא פלטפורמה חברתית דיגיטלית הנועדה לתעד ולשמר את המורשת של הפרט, המשפחה והקהילה.",
+      "initiativeValidationDetails": "https://www.maariv.co.il/business/Article-1051444",
+      "url": "https://ironswords.info/",
+      "website": "https://ironswords.info/",
+      "telegram": "https://t.me/+oGmyF9NDeNJhY2Rk",
+      "form": "https://ironswords.info/ContactUs",
+      "facebook": "https://www.facebook.com/dorotmemorialneil/",
+      "twitter": "https://twitter.com/DorotNextGen",
+      "donation": "https://ironswords.info/Contributions",
+      "initiativeImage": "https://ironswords.info/logo/ironswords/logo.png",
+      "tags": [
+        "נופלים",
+        "מורשת",
+        "זיכרון"
+      ]
+    },
+    {
+      "displayName": "תיבת תהודה",
+      "name": "echoBox",
+      "shortDescription": "המיזם, אשר מבוסס על ניסיון בני משפחות שכולות, נועד לאגד זיכרונות, סיפורים ותמונות על הנופלים והנרצחים.",
+      "description": "חלק מ'קהילה זוכרת' - קהילה דיגיטלית לקידום הנצחה חיה לזכר חללי מערכות ישראל ונפגעי פעולות איבה",
+      "initiativeValidationDetails": "שמעתי על זה ברדיו ונכנסתי לאתר שלהם",
+      "url": "https://www.coing.co/Remember_Registration_Haravot_Barzel",
+      "initiativeImage": "https://coing-images.s3.eu-central-1.amazonaws.com/communities-logos/a32ca4a0486db7a70131fd010ef8b90b.png",
+      "tags": [
+        "זיכרון",
+        "נופלים",
+        "נרצחים",
+        "שואה"
+      ]
+    }
+  ]
+}

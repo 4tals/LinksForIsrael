@@ -1,0 +1,136 @@
+{
+  "name": "InitiativesMain",
+  "displayName": "איגודי יוזמות",
+  "description": "איגודי יוזמות והתנדבויות - חרבות ברזל",
+  "links": [
+    {
+      "name": "IsraHelp",
+      "displayName": "IsraHelp",
+      "shortDescription": "מרכז קישורים ליוזמות סיוע אזרחי בזמן מבצע 'חרבות ברזל'.",
+      "description": "מרכז קישורים ליוזמות סיוע אזרחי בזמן מבצע 'חרבות ברזל'.",
+      "url": "https://www.coing.co/Israhelp",
+      "website": "https://www.coing.co/Israhelp"
+    },
+    {
+      "name": "WinningTogether",
+      "displayName": "מנצחים ביחד - BNF",
+      "shortDescription": "ריכוז יוזמות",
+      "description": "אנחנו קהילת BNF הקמנו עמוד המרכז את כל ארגוני הסיוע והתנדבות במקום אחד",
+      "url": "https://www.bnf.co.il/stay-together/",
+      "website": "https://www.bnf.co.il/stay-together/",
+      "tags": [
+        "התארגנות",
+        "סיוע",
+        "ריכוז",
+        "התנדבות",
+        "אגרגציה",
+        "BNF",
+        "מיזום"
+      ]
+    },
+    {
+      "name": "TogetherInEmergency",
+      "displayName": "ביחד במצב חירום",
+      "initiativeImage": "https://together-ecosystem.com/static/media/emergency%20button.620be88d29319a190dc5.png",
+      "shortDescription": "התארגנות וסיוע במצבי חירום - ריכוז יוזמות במגוון נושאים",
+      "description": "התארגנות וסיוע במצבי חירום - ריכוז יוזמות במגוון נושאים",
+      "url": "https://together-ecosystem.com/emergency",
+      "website": "https://together-ecosystem.com/emergency",
+      "tags": [
+        "התארגנות",
+        "סיוע",
+        "חירום",
+        "אגרגטור"
+      ]
+    },
+    {
+      "name": "MuziLinks",
+      "displayName": "קישורי מוזי",
+      "shortDescription": "אגרגטור קישורים / שכל",
+      "initiativeImage": "https://muzi.co.il/wp-content/themes/muzi-theme/assets/images/icon_logo.png",
+      "description": "אספנו קבוצות שונות לסיוע – מלחמת חרבות ברזל (רשימה מתעדכנת)",
+      "url": "https://muzi.co.il/event/%D7%91%D7%99%D7%97%D7%93-%D7%A0%D7%A0%D7%A6%D7%97/",
+      "initiativeValidationDetails": "מקור: נתקלתי בהם בחיפוש בגוגל, נראה אמת: https://www.facebook.com/groups/muzi.co.il/",
+      "tags": [
+        "קישורים",
+        "אגרגטור",
+        "מוזי"
+      ]
+    },
+    {
+      "displayName": "אינדקס החמ'לים",
+      "name": "Hamalim",
+      "shortDescription": "כל החמ״לים הפעילים במקום אחד",
+      "description": "אינדקס החמ'לים מהווה מאגר עדכני ודינמי של החמ'לים ומוקדי הסיוע והמידע המרכזיים בישראל. מטרת האתר היא לאפשר חיפוש אפקטיבי ומהיר של עזרה, חשיפה של יוזמות קיימות וארגונן. זקוקים לעזרה? רוצים להתחבר ליוזמות? - השתמשו בשורת החיפוש. אם אתם מנהלים חמ״ל ורוצים להצטרף למאגר מלאו את טופס ההרשמה מטה.",
+      "initiativeValidationDetails": "Moked Arava initiative (linked from https://www.mokedarava.org/)",
+      "url": "https://www.hamalim.org/",
+      "website": "https://www.hamalim.org/",
+      "email": "hamalim@mokedarava.org",
+      "form": "https://www.hamalim.org/submitwarroom",
+      "initiativeImage": "https://static.wixstatic.com/media/f35a26_01eab4ec1aa34a678a274284b9f0150c~mv2.png",
+      "tags": [
+        "חמ'לים",
+        "יוזמות",
+        "עדכני",
+        "ארגונים",
+        "מרכזיים"
+      ]
+    },
+    {
+      "displayName": "מרכז מידע אזרחי",
+      "name": "barzel.info",
+      "shortDescription": "אתר זה פותח כדי להנגיש מידע הקשור למלחמת חרבות ברזל",
+      "description": "החל מצ'אט הסברה מבוסס בינה מלאכותית, דרך קישור למידע על זכויות של נפגעי טרור במס הכנסה וביטוח לאומי, חשיפה לזוועות הנוראיות של מחבלי חמאס-דאעש-נאצים, סרטוני הסברה להתמודדות עם השקרים שמפיצים בעולם וכלה בהפניות להתנדבות לסיוע וליצירת מודעות אבל.",
+      "initiativeValidationDetails": "Joint effort with my workplace (Microsoft)",
+      "url": "https://barzel.info/",
+      "website": "https://barzel.info/",
+      "email": "mailto:yuval@hackit.co.il",
+      "initiativeImage": "https://barzel.info/static/soi-image.png",
+      "tags": [
+        "מידע",
+        "חרבות ברזל",
+        "זכויות נפגעי טרור"
+      ]
+    },
+    {
+      "displayName": "ישראל מנצחת",
+      "name": "IsraelWins",
+      "shortDescription": "עמוד סיקור מיוחד של ערוץ 14 עם כל האפשרויות להתנדב ולסייע",
+      "description": "החברה הישראלית עוברת את אחת התקופה הקשות והמורכבות שעבר העם היהודי. אנו מזמינים אתכם לצפות בכל המידע והאירועים שהתרחשו ומתרחשים. גם במציאות הקשה הזו אנו לא נשברים, נשארים מאוחדים ומקווים לימים טובים יותר!",
+      "initiativeValidationDetails": "Official Channel 14 page",
+      "url": "https://special.now14.co.il/israel-wins/",
+      "website": "https://special.now14.co.il/israel-wins/",
+      "phone": "tel:+972-1-700-501-414",
+      "email": "mailto:info@now14.co.il",
+      "facebook": "https://www.facebook.com/Now14israel/",
+      "instagram": "https://instagram.com/now14israel",
+      "twitter": "https://twitter.com/Now14Israel",
+      "youtube": "https://www.youtube.com/channel/UCKEImtWikw9usC1pl_9m1nQ",
+      "initiativeImage": "https://special.now14.co.il/wp-content/uploads/2023/10/%D7%99%D7%A9%D7%A8%D7%90%D7%9C-%D7%9E%D7%A0%D7%A6%D7%97%D7%AA2.png",
+      "tags": [
+        "ערוץ 14",
+        "ישראל",
+        "מנצחת",
+        "התנדבות",
+        "אירועים"
+      ]
+    },
+    {
+      "displayName": "help4israel.com - חברי״ם",
+      "name": "help4israel.com",
+      "shortDescription": "חרבות ברזל - ריכוז מידע",
+      "description": "חברי״ם חרבות ברזל - ריכוז מידע אנו משתדלים לתת מידע עדכני ככל הניתן אנשים המעוניינים לעזור ולעדכן סטטוס נעדרים מוזמנים ליצור קשר מי שמעוניין לעדכן סטטוסים של נעדרים חייב להירשם לאתר על מנת לבצע אימות זהות",
+      "initiativeValidationDetails": "Source: Are you the developer? If not, how did you hear about it? Link to reputable source(s) promoting the initiative: [e.g. https://www.israelhayom.co.il/tech/tech-news/iron-swords] Contact details for members of the initiative's team (so we can contact them directly for validation): [e.g. info@iron-widgets.com]",
+      "url": "https://help4israel.com/",
+      "initiativeImage": "https://help4israel.com/wp-content/uploads/2023/10/cbab9783f78746458fa5e64e721ac4ff.png",
+      "website": "https://help4israel.com/",
+      "tags": [
+        "חברי״ם",
+        "חרבות ברזל",
+        "ריכוז מידע",
+        "נעדרים",
+        "עזרה"
+      ]
+    }
+  ]
+}

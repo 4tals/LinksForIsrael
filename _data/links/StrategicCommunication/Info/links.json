@@ -1,0 +1,133 @@
+{
+  "name": "InfoMain",
+  "displayName": "מקורות מידע שעוזרים להסברה",
+  "links": [
+    {
+      "displayName": "Mapping the Massacres",
+      "name": "מיפוי אירועי והרוגי הטבח",
+      "shortDescription": "A geovisualization depicting the atrocities perpetrated by Hamas on Israeli lands on October 7th",
+      "description": "The October 7th Geo-visualization Project strives to provide a comprehensive representation of the atrocities committed by Hamas on that day. This interactive map serves as a reflection and an educational tool, promoting awareness of the gravity of the horrors.",
+      "url": "https://oct7map.com/",
+      "website": "https://oct7map.com/",
+      "tags": [
+        "מיפוי",
+        "ויזואליזציה"
+      ]
+    },
+    {
+      "name": "Stand4Israel",
+      "displayName": "Stand4Israel",
+      "shortDescription": "Preserving and sharing the truth about the ״Iron Swords War״",
+      "description": "Following the tragic October 7, 2023 massacre, Stand4Israel.net is dedicated to preserving and sharing the truth about the ״Iron Swords War״",
+      "initiativeImage": "https://api.stand4israel.net/p/5580612/sp/558061200/raw/entry_id/1_xa45nwou/version/100001",
+      "url": "https://stand4israel.net/",
+      "website": "https://stand4israel.net/",
+      "tags": [
+        "מידע",
+        "הסברה",
+        "תיעוד",
+        "שימור"
+      ]
+    },
+    {
+      "name": "OnlyTrueInformation",
+      "displayName": "הקונסוליה הישראלית בניו יורק",
+      "initiativeImage": "https://www.onlytrueinformation.com/logo.jpeg",
+      "description": "אתר עם פרסומים מאומתים שאושרו למי שמעוניין לשתף את האמת, להגן על ישראל ולוודא שהמידע האמיתי קודם לפני השקר.",
+      "url": "https://www.onlytrueinformation.com/",
+      "website": "https://www.onlytrueinformation.com/",
+      "tags": [
+        "מידע",
+        "הגנה",
+        "ישראל",
+        "קונסוליה",
+        "ניו יורק",
+        "אמת"
+      ]
+    },
+    {
+      "displayName": "מאגר משאבים לטובת הסברה - לפי שפות",
+      "name": "StrategicCommunicationsRepository",
+      "shortDescription": "מאגר של סרטוני הסברה ב-25 שפות",
+      "description": "מאגר של סרטוני הסברה ב-25 שפות",
+      "initiativeValidationDetails": "אומת על ידי עמית לעבודה",
+      "url": "https://dwv4ag7si3i3i.cloudfront.net/index.html",
+      "website": "https://dwv4ag7si3i3i.cloudfront.net/index.html",
+      "tags": [
+        "מאגר",
+        "הסברה",
+        "וידאו",
+        "שפות",
+        "משאבים",
+        "ישראל"
+      ]
+    },
+    {
+      "displayName": "חרבות ברזל עדכונים ותמונת מצב",
+      "name": "InssWarData",
+      "shortDescription": "דסק הנתונים של המכון למחקרי ביטחון לאומי אוסף עבורכם את המידע העדכני והמדויק במהלך ימי המלחמה",
+      "description": "לרבות נתונים שוטפים על הזירה הפנים-ישראלית, גזרת עזה, לבנון, איו'ש, הזירה האזורית והבינ'ל. בעמוד זה שבעה קבצי נתונים שונים - גללו מטה לצפייה בכולם. למשתמשי הסלולר מומלץ לצפות בעמוד במצב מאוזן.",
+      "initiativeValidationDetails": "Known institution",
+      "url": "https://www.inss.org.il/he/publication/war-data/",
+      "website": "https://www.inss.org.il/he/publication/war-data/",
+      "telegram": "https://t.me/inssisrael",
+      "facebook": "https://www.facebook.com/INSS.Israel/",
+      "instagram": "https://www.instagram.com/inss.israel/",
+      "tiktok": "https://www.tiktok.com/@inss_israel?lang=en",
+      "twitter": "https://twitter.com/INSS_Hebrew",
+      "linkedin": "https://il.linkedin.com/company/inss-israel",
+      "initiativeImage": "https://www.inss.org.il/he/wp-content/uploads/sites/2/2018/08/Asset-1-442x56a.png",
+      "tags": [
+        "חרבות ברזל",
+        "עדכונים",
+        "תמונת מצב",
+        "מלחמה",
+        "ביטחון לאומי",
+        "אזרחים"
+      ]
+    },
+    {
+      "displayName": "ארכיון ההסברה - טאגבוקס",
+      "name": "hasbaraArchive",
+      "shortDescription": "ארכיון ממוין לפי תגיות, נושאים ושפות של כל החומרים הרלוונטיים להסברה מתעדכן על ידי צוות ייעודיי",
+      "description": "ארכיון ממוין לפי תגיות, נושאים ושפות של כל החומרים הרלוונטיים להסברה מתעדכן על ידי צוות ייעודיי",
+      "initiativeValidationDetails": "Verified by @4tal, part of other shared Hasbara initiative",
+      "url": "https://app.tagbox.io/w/652956971319a00011a82b71",
+      "website": "https://app.tagbox.io/w/652956971319a00011a82b71",
+      "tags": [
+        "סרטונים",
+        "הסברה"
+      ]
+    },
+    {
+      "displayName": "הסברה ישראלית - הפצה",
+      "name": "הסברה ישראלית - הפצה",
+      "shortDescription": "קבוצת ואצאפ להפצה של חומרי הסברה לחו'ל - לכל המדינות",
+      "description": "קבוצת הפצה של חומרי הסברה לחו'ל - לכל המדינות. ערוץ תקשורת מרכזי של המערך החוצה - כולל גם עדכונים, שיתופי פעולה וכו'",
+      "url": "https://chat.whatsapp.com/HXJqKmfzwT0HIb477Xx9ir",
+      "whatsapp": "https://chat.whatsapp.com/HXJqKmfzwT0HIb477Xx9ir",
+      "drive": "https://dwv4ag7si3i3i.cloudfront.net/index.html",
+      "tags": [
+        "הסברה",
+        "ישראל",
+        "חומר הסברה",
+        "קבוצת הפצה"
+      ]
+    },
+    {
+      "displayName": "הספרייה הלאומית - רשימת פרויקטים - מאגר הלאומי לתיעוד מאורעות ה - 7.10",
+      "name": "TheNationalLibrary",
+      "shortDescription": "המאגר של הספרייה הלאומית לתיעוד מאורעות ה - 7.10 למלחמה.",
+      "description": "המאגר הלאומי לתיעוד מאורעות ה - 7.10 למלחמה. https://www.nli.org.il/he/at-your-service/who-we-are/projects/7-october-documentation",
+      "initiativeValidationDetails": "Well Known Source, validated by @4tal",
+      "url": "https://www.nli.org.il/he/at-your-service/who-we-are/projects/7-october-documentation#projects",
+      "website": "https://www.nli.org.il/he/at-your-service/who-we-are/projects/7-october-documentation#projects",
+      "tags": [
+        "תיעוד",
+        "עדויות",
+        "צילומים",
+        "מאגר"
+      ]
+    }
+  ]
+}

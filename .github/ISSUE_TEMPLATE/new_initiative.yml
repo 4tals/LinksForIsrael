@@ -1,0 +1,201 @@
+name: Add new initiative
+description: Use this form to request a new initiative to be added to the site
+title: "[NEW-INITIATIVE]: "
+labels: ["new-initiative-request"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Initiative Name
+      placeholder: IronWidget
+    validations:
+      required: true
+
+  - type: input
+    id: shortDescription
+    attributes:
+      label: Initiative Description
+      description: Provide a short description of the initiative
+      placeholder: Produces iron widgets
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Initiative Details
+      description: Provide more details about the initiative
+      placeholder: >
+        Produces iron widgets in order to help the war effort. 
+        Can also produce swords, but it's not our specialty.
+    validations:
+      required: true
+
+  - type: textarea
+    id: initiativeValidationDetails
+    attributes:
+      label: Initiative Validation Details
+      description: Provide as much information as possible for us to be able to validate the authenticity of the initiative
+      value: |
+        Source: Are you the developer? If not, how did you hear about it?
+        Link to reputable source(s) promoting the initiative: [e.g. https://www.israelhayom.co.il/tech/tech-news/iron-swords]
+        Contact details for members of the initiative's team (so we can contact them directly for validation): [e.g. info@iron-widgets.com]
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Initiative Category
+      options:
+        - Agriculture/Main
+        - Children/Main
+        - Children/ReserveFamily
+        - Defense/Evacuation
+        - Defense/Shelters
+        - Defense/Weapons
+        - Donations/Agriculture
+        - Donations/Main
+        - Donations/Economy
+        - Evacuees/Main
+        - Evacuees/FamilyHostingMain
+        - GeneralAssistance
+        - Initiatives/Main
+        - Medical/Main
+        - Medical/Info
+        - MemorialRemembrance/Main
+        - MissingPersons/Main
+        - StrategicCommunication/Funding
+        - StrategicCommunication/Info
+        - StrategicCommunication/Main
+        - StrategicCommunication/SocialNetworks
+        - StrategicCommunication/Tools
+        - Supplies/Donation
+        - Supplies/Main
+        - Supplies/Transportation
+        - TechInitiatives/Main
+        - TechInitiatives/Support
+        - TechInitiatives/Incubation
+        - Volunteering/Main
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: Initiative main URL
+      description: The main link for this initiative (whether it be a website, WhatsApp group, etc.)
+      placeholder: https://iron-widgets.com
+
+  - type: input
+    id: initiativeImage
+    attributes:
+      label: Initiative Logo
+      description: Link to an image of the initiative's logo (suitable for inclusion in an HTML `IMG` tag)
+      placeholder: https://iron-widgets.com/logo.png
+
+  - type: input
+    id: website
+    attributes:
+      label: Initiative Website
+      placeholder: https://iron-widgets.com
+
+  - type: input
+    id: phone
+    attributes:
+      label: Initiative Phone Number
+      placeholder: tel:+972-50-1234567
+
+  - type: input
+    id: email
+    attributes:
+      label: Initiative E-Mail
+      placeholder: mailto:contact@iron-widgets.com
+      
+  - type: input
+    id: whatsapp
+    attributes:
+      label: Initiative WhatsApp
+      placeholder: https://chat.whatsapp.com/iron-widgets
+
+  - type: input
+    id: telegram
+    attributes:
+      label: Initiative Telegram
+      placeholder: https://t.me/iron-widgets
+
+  - type: input
+    id: drive
+    attributes:
+      label: Initiative Drive
+      description: Link to initiative storage drive (e.g. OneDrive) where relevant files are stored
+      placeholder: https://1drv.ms/iron-widgets
+
+  - type: input
+    id: form
+    attributes:
+      label: Initiative Form
+      description: Link to initiative form  (e.g. volunteer request)
+      placeholder: https://forms.monday.com/forms/iron-widgets
+
+  - type: input
+    id: docs
+    attributes:
+      label: Initiative Document
+      description: Link to initiative document (e.g. spreadsheet)
+      placeholder: https://docs.google.com/spreadsheets/iron-widgets
+
+  - type: input
+    id: discord
+    attributes:
+      label: Initiative Discord
+      placeholder: https://discord.com/channels/iron-widgets
+
+  - type: input
+    id: facebook
+    attributes:
+      label: Initiative Facebook
+      placeholder: https://www.facebook.com/iron-widgets
+
+  - type: input
+    id: instagram
+    attributes:
+      label: Initiative Instagram
+      placeholder: https://instagram.com/iron-widgets
+
+  - type: input
+    id: tiktok
+    attributes:
+      label: Initiative TikTok
+      placeholder: https://www.tiktok.com/@iron-widgets
+
+  - type: input
+    id: twitter
+    attributes:
+      label: Initiative X (Twitter)
+      placeholder: https://twitter.com/iron-widgets
+
+  - type: input
+    id: linkedin
+    attributes:
+      label: Initiative LinkedIn
+      placeholder: https://linkedin.com/iron-widgets
+
+  - type: input
+    id: youtube
+    attributes:
+      label: Initiative YouTube Page / Channel
+      placeholder: https://www.youtube.com/@IronWidgets
+
+  - type: input
+    id: donation
+    attributes:
+      label: Initiative Donation Link
+      placeholder: https://payboxapp.page.link/XXXXXXX
+
+  - type: input
+    id: tags
+    attributes:
+      label: Initiative Tags
+      description: Comma-delimited list of keywords that could be used to search for the initiative
+      placeholder: iron, widgets, swords

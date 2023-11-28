@@ -1,0 +1,29 @@
+{
+  "name": "DefenseWeapons",
+  "displayName": "הגנה",
+  "links": [
+    {
+      "displayName": "גיוס מתנדבים - הערכות למהומות",
+      "name": "PoliceAreyil",
+      "shortDescription": "גיוס אזרחי לסיוע לתושבים בערים המעורבות, בנגב ובגליל.",
+      "description": "חמ'ל אחוד של הארגונים 'ערי ישראל' ו'ישראל שלי' מגייס מתנדבים לסיוע למערכי החירום בתיאום עם משטרת ישראל, על פי הצורך שיעלה מהשטח ועל פי הכוונת המשטרה",
+      "initiativeValidationDetails": "https://www.kan.org.il/content/kan-news/defense/558950/",
+      "url": "https://bit.ly/PoliceAreyil",
+      "website": "https://myisrael.org.il/",
+      "whatsapp": "https://wa.me/972533906252",
+      "telegram": "http://t.me/myisrael2",
+      "form": "https://bit.ly/PoliceAreyil",
+      "facebook": "https://www.facebook.com/MyIsrael",
+      "instagram": "https://www.instagram.com/myisraelorg/",
+      "tiktok": "https://tiktok.com/@my_israel22",
+      "twitter": "https://twitter.com/MyIsraelorgil",
+      "tags": [
+        "ערי ישראל",
+        "ישראל שלי",
+        "מתנדבים",
+        "חירום",
+        "משטרה"
+      ]
+    }
+  ]
+}

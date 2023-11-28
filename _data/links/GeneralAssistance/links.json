@@ -1,0 +1,197 @@
+{
+  "name": "AssistanceMain",
+  "displayName": "סיוע אזרחי כללי",
+  "links": [
+    {
+      "name": "HamalHiburim",
+      "displayName": "חמ״ל חיבורים",
+      "shortDescription": "חמ״ל חיבורים למתנדבים ומבקשי סיוע",
+      "description": "חמ״ל חיבורים למתנדבים ומבקשי סיוע",
+      "url": "https://www.iron-swords-volunteers.com/",
+      "website": "https://www.iron-swords-volunteers.com/",
+      "initiativeImage": "https://static.wixstatic.com/media/3efa7e_fb5268c45ef24008b233ca8ca3369005~mv2.png/v1/crop/x_38,y_0,w_3935,h_1319/fill/w_150,h_43,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_auto/Logo%202%20PNG.png",
+      "initiativeValidationDetails": "Known initiative, verified by @4tal",
+      "facebook": "https://m.facebook.com/groups/780925150471197/?ref=share&mibextid=lURqYx"
+    },
+    {
+      "name": "Yedidim",
+      "displayName": "ידידים",
+      "shortDescription": "לתת חוסן לעורף ולסייע בכל מה שאפשר להצלחת מערך המלחמה!",
+      "description": "מאז פרוץ המלחמה פעל ארגון ידידים בתחומים רבים ומגוונים על מנת לתת חוסן לעורף ולסייע בכל מה שאפשר להצלחת מערך המלחמה • ישראל אלמסי – מנכ”ל ידידים: הכאב קשה מנשוא אבל עכשיו הזמן לפעול. באחדותנו ננצח!",
+      "url": "https://yedidim-il.org/",
+      "initiativeImage": "https://yedidim-il.org/wp-content/uploads/2021/03/logo-1230.png",
+      "article": "https://yedidim-il.org/%D7%99%D7%93%D7%99%D7%93%D7%99%D7%9D-%D7%9E%D7%AA%D7%92%D7%99%D7%99%D7%A1%D7%99%D7%9D-%D7%9C%D7%9E%D7%9C%D7%97%D7%9E%D7%AA-%D7%97%D7%A8%D7%91%D7%95%D7%AA-%D7%91%D7%A8%D7%96%D7%9C/",
+      "phone": "1230",
+      "whatsapp": "https://chat.whatsapp.com/DgspcM7Yuav5uUJFK9OinT"
+    },
+    {
+      "name": "LevEhad",
+      "displayName": "לב אחד",
+      "shortDescription": "ארגון המקנה חוסן חברתי ומעניק כוח לרשויות המקומיות בשעות חירום.",
+      "description": "ארגון המקנה חוסן חברתי ומעניק כוח לרשויות המקומיות בשעות חירום.",
+      "url": "https://www.levechad.org/",
+      "website": "https://www.levechad.org/",
+      "initiativeImage": "https://static.wixstatic.com/media/b1b124_6098f6d126c84f5cb6d1e59a3c88e7b1~mv2.png/v1/fill/w_130,h_63,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/levlev1.png",
+      "initiativeValidationDetails": "Known initiative, verified by @4tal",
+      "phone": "*3197",
+      "donation": "https://www.levechad.org/donations"
+    },
+    {
+      "displayName": "חמ״ל אזרחי - סיוע לתושבי קו הלחימה",
+      "name": "KhamalAmEhad",
+      "shortDescription": "זקוקים לסיוע? יכולים להציע עזרה? חמ״ל אזרחי מאחד את כל היוזמות עבור המשפחות והחיילים, בחזית ובעורף.  חמ'ל אזרחי אחד - עם אחד",
+      "description": "החמ'ל האזרחי - עוזרים לצה״ל לנצח ותומכים מכל הלב באזרחים 7 באוקטובר 2023 ישראל התעוררה למלחמה קשה. מתוך הזוועה והשבר, על פי מיטב הרוח הישראלית - כי אנחנו עם אחד, קם החמ״ל האזרחי - מרכז ההתנדבות הגדול בישראל.",
+      "initiativeValidationDetails": "Known initiative, verified by @4tal",
+      "url": "https://www.hamal.org.il/",
+      "initiativeImage": "https://static.wixstatic.com/media/dea07e_2159e1a1df9d4b5097955583837debb2~mv2.png/v1/fill/w_108,h_70,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_auto/logoHamal%201.png",
+      "website": "https://www.hamal.org.il/",
+      "donation": "https://meshulam.co.il/purchase?b=d635b86acaf6057aa68cb24da64b35c0",
+      "tags": [
+        "חמ״ל",
+        "אזרחי",
+        "סיוע",
+        "תושבים",
+        "לחימה"
+      ]
+    },
+    {
+      "displayName": "חמ'ל אזרחי דנה גת",
+      "name": "HamalDana",
+      "shortDescription": "חמ'ל קטן עם קו חם מאוייש שמנתב את הבקשות לכל אחת מקבוצות המתנדבים לפי העניין",
+      "description": "חמ״ל אזרחי – דנה גת, התחיל לפעול בצהרי השבת השחורה וממשיך גם בימים אלה. שלושה שבועות לתוך המלחמה והחמ״ל הוגדר ע״י העיתונאים, כהשני בגודלו ובפעילותו. עם צוות של אלפי מתנדבים החמ״ל נותן מענה למגוון צרכים שהתעוררו עקב המצב. מול חוסרים שמגיעים אלינו, אנחנו דואגים למצוא ספםקים ולעשות מאטצ׳ לתרומות ותורמים. הדרישות מגיעות אלינו ישירות מיחידות החיילים הפרוסים בכל הארץ מגרביים ועד מים, בקשות לאוכל חם ומנחם, עזרה במציאת פתרונות דיור וריהוט למפונים מדרום ועד הצפון, ולאחרונה חיבור תוצרת חקלאית לצרכנים",
+      "initiativeValidationDetails": "https://news.walla.co.il/item/3618252",
+      "url": "https://linktr.ee/hamaldana",
+      "website": "https://linktr.ee/hamaldana",
+      "whatsapp": "https://chat.whatsapp.com/FN0pym4IHL38yZqFVPDB84",
+      "twitter": "https://twitter.com/DanaGat1/status/1718642453173899661",
+      "initiativeImage": "https://hamaldana.org/wp-content/uploads/2023/10/header-logo5.png",
+      "tags": [
+        "חמל",
+        "דנה גת",
+        "קו חם",
+        "מתנדבים",
+        "תרומות",
+        "חיילים",
+        "אוכל חם",
+        "דיור",
+        "ריהוט",
+        "מפונים",
+        "תוצרת חקלאית"
+      ]
+    },
+    {
+      "name": "ReserveSoldiersSupport",
+      "displayName": "אזרחים - עושים יותר בביטחון",
+      "shortDescription": "קהילה של אזרחים בעורף שרוצים לסייע לכוחות הבטחון לנצח במלחמה!",
+      "description": "הקהילה הוקמה על ידי ידידיה הריס ואור סביון, שני מפקדים במילואים כדי שאזרחים טובים בעורף שרוצים לעשות יותר יוכלו לסייע בצרכים אמיתיים של כוחות הבטחון בשטח. כל מתנדבי החמ״ל של אזרחים עושים יותר בבטחון מגיעים בשיטת חבר מביא חבר על מנת לשמור על בטחון המידע. אנחנו מחוברים למספר קבוצות וקהילות של מפקדים בצבא משם מגיעות הבקשות ואנחנו עושים כמיטב יכולתנו כדי לוודא את הצורך בכל פנייה בשיחה ראשונית. הקהילה מונה מעל 5000 חברות וחברים שמסייעים בתחומים רבים על מנת שננצח את המערכה גם בזירה הבטחונית וגם בזירה העורפית. מוזמנים להצטרף לקהילה ולהיות שותפים לנצח.",
+      "initiativeValidationDetails": "Old group from start of war\nAlmost 1.4K members\nChatted with one of the admins\nFound linked from legitimate source: https://tlg.pm/channels/502af501-8835-4a57-a65a-2cc1e00e185e/",
+      "url": "https://osimyoter.com/",
+      "initiativeImage": "https://osimyoter.com/images/HANDS.png",
+      "website": "https://osimyoter.com/",
+      "whatsapp": "https://chat.whatsapp.com/G01UhlGjmdv7PTdhnItQsC",
+      "form": "https://forms.monday.com/forms/692b95df344d9d15ad289c3b3a003029?r=euc1",
+      "docs": "https://forms.monday.com/forms/ace30a05b7cdcce509292531b19cfbdb?r=euc1",
+      "tags": [
+        "אזרחים",
+        "בטחון",
+        "מפקדים במילואים",
+        "חמ״ל",
+        "קהילה"
+      ]
+    },
+    {
+      "displayName": "עזרא בוט",
+      "name": "EzraBot",
+      "shortDescription": "הבוט הישראלי שמחבר בין אנשים שמחפשים עזרה לגיבורים שיכולים לתת אותה",
+      "description": "עזרא בוט הוא מיזם התנדבותי, קם לאור המאורעות הקשים שפרצו ב-7.10.2023 במדינת ישראל. השירות פותח ע״י קבוצה של יזמי הייטק, מפתחים, אנשי מוצר ומרקטינג במטרה ליצור מרחב בטוח ליצירת חיבורים והתאמות בין משתמשיה. מחברים בין מבקשי עזרה לכאלה שיכולים לסייע.",
+      "initiativeValidationDetails": "https://www.geektime.co.il/flash/ezra-the-bot-that-helps-israelis-do-good/",
+      "url": "https://www.ezrabot.org/",
+      "website": "https://www.ezrabot.org/",
+      "whatsapp": "https://wa.link/tjkta4",
+      "facebook": "https://www.facebook.com/profile.php?id=61552000487973",
+      "instagram": "https://instagram.com/ezrabot_il",
+      "initiativeImage": "https://static.wixstatic.com/media/958d09_7de57a853fe14274ba09e06479d36acd~mv2.png/v1/fill/w_782,h_782,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/%D7%9C%D7%95%D7%92%D7%95%20PNG%202.png",
+      "tags": [
+        "הייטק",
+        "עזרה",
+        "גיבורים",
+        "בוט"
+      ]
+    },
+    {
+      "displayName": "בוט הברזל",
+      "name": "IronBot",
+      "shortDescription": "להתחבר בקלות לכל סיוע אפשרי",
+      "description": "בעזרת מערכת חיבורים חכמה, בוט הברזל יחבר אותכם במהירות לעמותות גופים ומתנדבים הרלוונטים לצורך שלכם, בכל רחבי הארץ. ניתן לפנות לעזרה, התנדבות או מציאת תעסוקה למפונים. בלחיצה על הכפתור תעברו לוואצאפ, תכתבו היי, תישאלו שאלות על מנת לברר פרטים ותקבלו את העזרה שאתם צריכים!",
+      "initiativeValidationDetails": "https://www.ynet.co.il/digital/technews/article/bys217vwt",
+      "url": "https://startach.org.il/%D7%91%D7%95%D7%98-%D7%94%D7%91%D7%A8%D7%96%D7%9C/",
+      "website": "https://startach.org.il/%D7%91%D7%95%D7%98-%D7%94%D7%91%D7%A8%D7%96%D7%9C/",
+      "whatsapp": "http://tiny.cc/ek3cvz",
+      "drive": "https://www.matara.pro/nedarimplus/online/?mosad=7008515",
+      "facebook": "https://www.facebook.com/StartAchCom",
+      "instagram": "https://www.instagram.com/startachh",
+      "linkedin": "https://www.linkedin.com/company/startach",
+      "tags": [
+        "בוט הברזל",
+        "עזרה כללית",
+        "מערכת חיבורים חכמה",
+        "התנדבות",
+        "מציאת תעסוקה למפונים"
+      ]
+    },
+    {
+      "name": "IrgunSiuaEzrahimClali1",
+      "displayName": "ארגון סיוע אזרחים - מרכז",
+      "shortDescription": "",
+      "url": "https://chat.whatsapp.com/Bsy4Sc9jM4PIS64JD1aRnp",
+      "whatsapp": "https://chat.whatsapp.com/Bsy4Sc9jM4PIS64JD1aRnp"
+    },
+    {
+      "name": "IrgunSiuaEzrahimClali2",
+      "displayName": "ארגון סיוע אזרחים - צפון",
+      "shortDescription": "",
+      "url": "https://chat.whatsapp.com/ChDI2XilcBSCuQG1ZIzQQp",
+      "whatsapp": "https://chat.whatsapp.com/ChDI2XilcBSCuQG1ZIzQQp"
+    },
+    {
+      "name": "IrgunSiuaEzrahimClali3",
+      "displayName": "ארגון סיוע אזרחים - דרום",
+      "shortDescription": "",
+      "url": "https://chat.whatsapp.com/GY2MwfFLaLwAfJbydxte2X",
+      "whatsapp": "https://chat.whatsapp.com/GY2MwfFLaLwAfJbydxte2X"
+    },
+    {
+      "name": "IrgunSiuaEzrahimClali4",
+      "displayName": "ארגון סיוע אזרחים - ירושלים",
+      "shortDescription": "",
+      "url": "https://chat.whatsapp.com/BS2qZmtb9zGEdRgrqZlW9h",
+      "whatsapp": "https://chat.whatsapp.com/BS2qZmtb9zGEdRgrqZlW9h"
+    },
+    {
+      "displayName": "מתגייסים באהבה",
+      "name": "RecruitingWithLove",
+      "shortDescription": "חמ'ל 'חרבות ברזל' בכנסת ישראל",
+      "description": "חמ'ל 'חרבות ברזל' בכנסת ישראל המרכז את פניות הציבור מכלל חברי הכנסת ויועציהם, קורא לאזרחי ישראל בין שזקוקים לסיוע ובין שיכולים לסייע (בכל תחום) לפנות לחמ'ל הכנסת. ניתן ליצור קשר בוואטסאפ או בשיחה למוקד. מתגייסים באהבה - החמ״ל מנוהל על ידי חברות וחברי הכנסת ויועציהם.",
+      "initiativeValidationDetails": "https://www.jpost.com/arab-israeli-conflict/article-768848",
+      "url": "https://www.recruiting-with-love.org/",
+      "website": "https://www.recruiting-with-love.org/",
+      "form": "https://docs.google.com/forms/d/e/1FAIpQLScoqsZB-v4mD9MC02H5RW_9sElJFXEEGLuYuoUVinuwWHo9EA/viewform?usp=sf_link",
+      "whatsapp": "http://wa.me/972585005350",
+      "tags": [
+        "מתגייסים באהבה",
+        "חמ'ל",
+        "חרבות ברזל",
+        "כנסת ישראל",
+        "סיוע",
+        "חברי הכנסת"
+      ]
+    },
+    {
+      "name": "Yahad",
+      "displayName": "יחד - עזרה וחיבור: מגורים וכל דבר אפשרי",
+      "description": "יחד - עזרה וחיבור: מגורים וכל דבר אפשרי",
+      "shortDescription": "יחד - עזרה וחיבור: מגורים וכל דבר אפשרי",
+      "whatsapp": "https://chat.whatsapp.com/BdJOprWONBq8qLRRlyzNl8"
+    }
+  ]
+}

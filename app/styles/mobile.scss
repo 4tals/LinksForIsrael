@@ -1,0 +1,39 @@
+@media only screen and (max-width: 768px) {
+	.main-content .desktop-content {
+		margin-inline: 0;
+	}
+	.main-content {
+		display: flex;
+		flex-direction: column;
+		height: 85svh;
+		max-width: 64em;
+		font-size: 1rem;
+		overflow-y: hidden;
+
+		.desktop-category {
+			height: 130px;
+			top: 0;
+			z-index: 997;
+			width: 100%;
+		}
+
+		.desktop-grid {
+			position: relative;
+			display: block;
+		}
+	}
+
+	.links-section-item {
+		flex-basis: 100%;
+		width: 50%;
+		overflow: hidden;
+		white-space: normal;
+		border-color: #aba6a6;
+		border-width: 5px;
+		border-style: solid;
+	}
+
+	::-webkit-scrollbar {
+		display: none;
+	}
+}

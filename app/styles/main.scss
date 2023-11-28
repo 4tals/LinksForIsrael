@@ -1,0 +1,39 @@
+@import "./iconsAndButtons.scss";
+@import "./search.scss";
+@import "./mainDisplay.scss";
+@import "./mobile.scss";
+@import "./withHorizontalScroll.scss";
+
+:root {
+	--color-background-blue: #f0f8fa;
+	--text-color: #000;
+	--color-blue: #0038b8;
+	--header-text-color: #170f49;
+	--color-light-blue: #dbeafe;
+	--color-title-blue: #018bad;
+	--color-green: #cbd517;
+	--color-white: #fff;
+	--color-link: #34b4c2;
+	--color-dark: #4d4d4d;
+	--link-font-size: 24px;
+	--color-divider: #e2e8f0;
+}
+
+body {
+	font-family: var(--font-display), sans-serif;
+	color: var(--color-dark);
+	overflow: hidden;
+}
+
+::-webkit-scrollbar {
+	//  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+	// background: #c5c9ce;
+	// border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	// background: #b0b4b9;
+}

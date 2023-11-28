@@ -1,16 +1,21 @@
 # **Links For Israel - לינק לישראל**
 
-🌐 [Visit Website](https://linksforisrael.com/)
+🌐 **Featured Websites:**
+
+- [LinksForIsrael](https://linksforisrael.com/)
+- [IronPortal](https://iron-portal.io/)
+- [IronLinks](https://iron-links.com)
 
 ---
 
-# 📖 **Introduction**
+## 📖 **Introduction**
 
-This repository centralizes links and resources for Israel. Through Git, our mission is to rally support for Israel during challenging times.
+Welcome to the centralized repository of links and resources dedicated to Israel. Utilizing the collaborative power of Git, our goal is to galvanize support for Israel, especially during challenging moments.
 
 ---
 
-# 🤝 **Get Involved**
-[Contribution guide](/docs/contribute.md)
+## 🤝 **Join & Contribute**
 
-**Every moment you dedicate, every piece of expertise you share, and every contribution you make, regardless of its size, strengthens our mission. Join us in our endeavor for Israel!**
+- [How to Contribute](/docs/contribute.md)
+
+Your time, expertise, and every single contribution, no matter how small - amplifies our mission. Stand with us in championing Israel!

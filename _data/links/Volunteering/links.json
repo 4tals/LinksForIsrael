@@ -1,0 +1,9 @@
+{
+  "name": "Volunteering",
+  "displayName": "התנדבות",
+  "description": "יוזמות המרכזות התנדבות בכל רחבי הארץ",
+  "image": "https://cdn-icons-png.flaticon.com/512/4994/4994354.png",
+  "subCategories": [
+    "Main"
+  ]
+}

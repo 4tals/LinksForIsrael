@@ -1,0 +1,134 @@
+{
+  "name": "TechInitiativesSupport",
+  "displayName": "תמיכה ביוזמות טכנולוגיות",
+  "links": [
+    {
+      "name": "WixOfferingMentorshipSupport",
+      "displayName": "הצעה מוויקס לתמיכה במנטורשיפ ותמיכה טכנית",
+      "shortDescription": "תמיכה ממומחי ויקס לעיצוב אתרים ליוזמות",
+      "description": "שימו לב - אם אתם מובילים יוזמה אזרחית בהתנדבות להקמת אתר המסייע בחילוץ, הסברה או מתן סיוע אזרחי אחר, וצריכים עזרה בשיפור אתר קיים בויקס או בנייה בפועל של אתר בסיסי, המנטורים של Wix ישמחו לעזור לכם.",
+      "initiativeImage": "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/380_Wix_logo-512.png",
+      "url": "https://twitter.com/morad/status/1711063336022876357",
+      "twitter": "https://twitter.com/morad/status/1711063336022876357"
+    },
+    {
+      "name": "AWSIsraelSupport",
+      "displayName": "AWS ישראל - AWS Israel",
+      "shortDescription": "ייעוץ טכנולוגי לתקופות ביטחוניות",
+      "description": "עקב המצב הביטחוני, AWS ישראל מציעה מאות שעות ייעוץ של מומחים בתחומים טכנולוגיים שונים כולל AI/ML, Security, Containers, Database ועוד. הירשמו עכשיו והפיקו תועלת מהמומחים שלנו.",
+      "url": "https://aws-experience.com/emea/tel-aviv/meet-aws-expert",
+      "website": "https://aws-experience.com/emea/tel-aviv/meet-aws-expert",
+      "initiativeImage": "https://static-00.iconduck.com/assets.00/aws-icon-2048x2048-274bm1xi.png",
+      "tags": [
+        "ייעוץ",
+        "טכנולוגי",
+        "קרדיט"
+      ]
+    },
+    {
+      "name": "IruchCHAPAQMicrosoft",
+      "displayName": "אירוח חפ״ק ומתנדבים במשרדי מיקרוסופט",
+      "description": "טופס לבקשות. במידה ויאושר נחזור אליכם בפרטי עם אישור ופרטי הגעה.",
+      "shortDescription": "טופס לבקשות. במידה ויאושר נחזור אליכם בפרטי עם אישור ופרטי הגעה.",
+      "url": "https://forms.office.com/r/8a1dDR1Kqf",
+      "forms": "https://forms.office.com/r/8a1dDR1Kqf",
+      "initiativeImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Microsoft_icon.svg/2048px-Microsoft_icon.svg.png",
+      "tags": [
+        "אירוח",
+        "חפ״ק",
+        "מתנדבים",
+        "מיקרוסופט",
+        "טופס",
+        "בקשות"
+      ]
+    },
+    {
+      "displayName": "קהילת החדשנות DatA.IL",
+      "name": "DatA.IL",
+      "shortDescription": "Connecting People, Public Data and AI",
+      "description": "קהילת החדשנות DatA.IL היא פלטפורמה שמחברת בין המגזר הציבורי, העסקי, עמותות, משקיעים, אקדמיה והציבור הרחב כדי לפתח פתרונות מבוססי דאטה ובינה מלאכותית לאתגרי החברה הישראלית. לאור המציאות הקשה, אנחנו מייעדים את הדפים של קהילת DatA.IL בימים אלו להיות מקור לריכוז והפצת ידע, כלים ופתרונות מבוססי דאטה ובינה מלאכותית לאתגרים העולים מהשטח, לספק ייעוץ ליוזמות שקמו בשעת חירום ולסייע למאמץ הלאומי בכל דרך שתתאפשר. הקהילה היא מיזם משותף של עמותת נובה מקבוצת SFI, משרד הכלכלה, רשות החדשנות ומערך הדיגיטל ושותפים בה משרד המדע והחדשנות, הלמ'ס וגופים נוספים. אנחנו מזמינים אתכם להצטרף לקהילה דרך הקבוצה הזו וגם בטופס ההצטרפות",
+      "initiativeValidationDetails": "https://govextra.gov.il/economy/communities/home/",
+      "url": "https://www.facebook.com/groups/864964068229439/posts/867244468001399/",
+      "website": "https://www.facebook.com/groups/864964068229439/posts/867244468001399/",
+      "form": "https://forms.monday.com/forms/bfc436602297bb6dcb5d04b24e477a1b?r=use1",
+      "facebook": "https://www.facebook.com/groups/864964068229439/",
+      "linkedin": "https://www.linkedin.com/company/data-il-innovation-community/",
+      "initiativeImage": "https://scontent.ftlv6-1.fna.fbcdn.net/v/t39.30808-6/396259388_727562799414094_8345394398966655715_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=XJCE3bigBfQAX9PXjCt&_nc_ht=scontent.ftlv6-1.fna&oh=00_AfAkquD-AGq4sZr6WHpRN-4TaEKU0nML0QJziBccBuv4gg&oe=65528225",
+      "tags": [
+        "DatA.IL",
+        "החדשנות",
+        "AI",
+        "דאטה",
+        "עמותת נובה",
+        "משרד הכלכלה",
+        "רשות החדשנות",
+        "מערך הדיגיטל",
+        "משרד המדע והחדשנות",
+        "הלמ'ס"
+      ]
+    },
+    {
+      "displayName": "תו זהות",
+      "name": "ZihuiBadge",
+      "shortDescription": "מערכת לזיהוי ואימות מתנדבים",
+      "description": "תו זהות - יוזמה חברתית המאפשרת אימות זהות למשתתפים בארגונים וחברות. אנחנו עובדים בשיתוף פעולה עם עמותות המתנדבים הגדולות בישראל ומסייעים להם לאמת את זהות החברים בקבוצות, בכל יישומוני הממסרים המהירים. מתחילת המלחמה אימתנו 5,000+ אנשים. תו זהות הוא יוזמה התנדבותית של אנשי סייבר מנוסים ויזמי הייטק. אנחנו עובדים בשיתוף עם קבוצות ההתנדבות הגדולות בישראל במטרה לשמור על הביטחון של מתנדבים ואנשים שזקוקים לעזרה מפני גניבת זהויות, שימוש במכשירים סלולרים של חטופים/נעדרים/נרצחים או כל סכנה אחרת.",
+      "initiativeValidationDetails": "https://www.ynet.co.il/digital/technews/article/bys217vwt",
+      "url": "https://zihui.org",
+      "website": "https://zihui.org",
+      "form": "https://docs.google.com/forms/d/e/1FAIpQLSfSltDTyX4YrNQb3coo-z0Biht4W-Q9FDinuBh2heZnUr7bSA/viewform",
+      "initiativeImage": "https://zihui.org/logo.png",
+      "tags": [
+        "אימות זהות",
+        "מתנדבים",
+        "חברתית",
+        "התנדבות",
+        "זיהוי",
+        "סייבר",
+        "הייטק"
+      ]
+    },
+    {
+      "displayName": "מוקד ערב'ה",
+      "name": "MokedArava",
+      "shortDescription": "עזרה ראשונה בטכנולוגיה ובהטמעה",
+      "description": "חברות ההייטק בישראל בשיתוף מערך הדיגיטל הלאומי מנהלים מוקד טכנולוגי לסיוע במצב החירום המיוחד. המוקד מסייע בקליטת הצרכים הטכנולוגים של גופים ציבוריים וביצירת חיבור לחברות טכנולוגיה רלוונטיות שיפתחו בהתנדבות מענים לצרכים אלה. בנוסף, המוקד יאפשר תיאום וסנכרון בין יוזמות רבות.",
+      "initiativeValidationDetails": "https://hackaveret.org/the-founders/",
+      "url": "https://www.mokedarava.org/",
+      "website": "https://www.mokedarava.org/",
+      "email": "mailto:Requests@mokedarava.org",
+      "whatsapp": "https://wa.me/972544808626",
+      "form": "https://forms.monday.com/forms/5d6ccd9c1ff42ab4e8fab3a483735f2d?r=euc1",
+      "docs": "https://forms.monday.com/forms/773a0f8e0ea646a597642b4770562b3f?r=euc1",
+      "initiativeImage": "https://static.wixstatic.com/media/5bfb6f_e3e7645e1c204e7f82ab215734fbb00e~mv2.png/v1/fill/w_412,h_72,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/white.png",
+      "tags": [
+        "מוקד",
+        "ערבה",
+        "הייטק",
+        "דיגיטל",
+        "חירום",
+        "טכנולוגיה"
+      ]
+    },
+    {
+      "displayName": "סיוע מקצועי בשעת חירום - Startup for Startup",
+      "name": "StartupForStartupEmergencySupport",
+      "shortDescription": "התחברו לאיזור האישי באתר שלנו, הציעו עזרה וקבלו סיוע מחברי וחברות הקהילה",
+      "description": "כמו כל מדינת ישראל, גם קהילת ההייטק נכנסה למצב חירום ב-7 לאוקטובר. אם נתקלתם באתגר משמעותי או נקלעתם לקשיים כתוצאה מהמצב, כאן תוכלו למצוא יזמים/ות, משקיעים/ות וגורמים נוספים בקהילה שישמחו לעזור - בין אם זה על ידי מתן שעות ייעוץ, סיוע בפיתוח המוצר או חיבור לאנשים רלוונטיים מחברות אחרות באקוסיסטם. סננו לפי תפקיד ותחום התמחות, גלו מי יכול/ה לעזור ושלחו להם הודעה.",
+      "initiativeValidationDetails": "Well known Facebook group: https://www.facebook.com/groups/startupforstartup/posts/1540440326827937/",
+      "url": "https://www.startupforstartup.com/personalArea/?tab=help_community",
+      "website": "https://www.startupforstartup.com/personalArea/?tab=help_community",
+      "facebook": "https://www.facebook.com/groups/startupforstartup/posts/1540440326827937/",
+      "instagram": "https://www.instagram.com/startupforstartup/",
+      "twitter": "https://twitter.com/strtup4strtup",
+      "linkedin": "https://www.linkedin.com/company/startupforstartup/",
+      "youtube": "https://www.youtube.com/channel/UCdX9-SCjBs0I4ZR3JJqtoaQ",
+      "initiativeImage": "https://www.startupforstartup.com/wp-content/themes/astra-child/images/logo.svg",
+      "tags": [
+        "סיוע",
+        "הייטק",
+        "משבר",
+        "יזמות"
+      ]
+    }
+  ]
+}

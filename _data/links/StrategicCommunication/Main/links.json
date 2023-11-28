@@ -1,0 +1,193 @@
+{
+  "name": "StrategicCommunicationMain",
+  "displayName": "יוזמות הסברה",
+  "links": [
+    {
+      "name": "Digital Dome",
+      "displayName": "Digital Dome - דיגיטל דום",
+      "shortDescription": "הפסקת תוכן פגעני ברשת",
+      "description": "פלטפורמה לדיווח על תכנים זדוניים ברשת. מאימות ודיווח לרשתות להסרתם. התגייסות של כמה חברות הייטק ובכירים בתעשייה.",
+      "url": "https://digitaldome.io/",
+      "whatsapp": "https://tinyurl.com/digitaldome",
+      "twitter": "https://twitter.com/digidomee",
+      "initiativeImage": "https://digitaldome.io/img/digitaldome_logo.png",
+      "tags": [
+        "הסברה",
+        "דיגיטל",
+        "הייטק",
+        "רשתות חברתיות",
+        "הסרת תוכן",
+        "דיווח"
+      ]
+    },
+    {
+      "name": "BlueWhitePublicity",
+      "displayName": "הסברה כחול לבן",
+      "description": "אגרגטור של יוזמות פרסומת. קהילת הסברה כחול לבן, שיתוף פוסטים, מחיקת פוסטים אנטישמיים ועוד.",
+      "url": "https://www.hasbaracahollavan.com/",
+      "initiativeImage": "https://static.wixstatic.com/media/2a233b_e3197264f7a649738ce658e0c4a6f819~mv2.png/v1/fill/w_501,h_498,al_c,lg_1,q_85,enc_auto/Screenshot_5.png",
+      "website": "https://www.hasbaracahollavan.com/",
+      "whatsapp": "https://chat.whatsapp.com/HYMhYDs0axhITaeR69A8TE",
+      "tags": [
+        "סושיאל",
+        "אינסטגרם",
+        "פייסבוק",
+        "טוויטר",
+        "טיקטוק",
+        "הסברה"
+      ]
+    },
+    {
+      "name": "HamalMeida",
+      "displayName": "החזית האזרחית - The Civilian Front",
+      "shortDescription": "קהילת הסברה בינלאומית (מעל 15 מדינות)",
+      "description": "קהילת הסברה בינלאומית (מעל 15 מדינות), קבוצה נפרדת לקהילה הבינלאומית - https://chat.whatsapp.com/FiuvEYDFBY6H7y924iUier",
+      "initiativeValidationDetails": "Verified by @4tal",
+      "initiativeImage": "https://pps.whatsapp.net/v/t61.24694-24/323145474_1454373948746855_2011629331355288948_n.jpg?ccb=11-4&oh=01_AdRgn7CROTyg907d0O1opxQwAEBYfZdHeAOVLAd6WqH8Uw&oe=654D2AC0&_nc_sid=000000&_nc_cat=100",
+      "url": "https://chat.whatsapp.com/DN9ftltVwzt366qOOXqSAH",
+      "whatsapp": "https://chat.whatsapp.com/DN9ftltVwzt366qOOXqSAH",
+      "tags": [
+        "סושיאל",
+        "אינסטגרם",
+        "פייסבוק",
+        "טוויטר",
+        "טיקטוק",
+        "הסברה",
+        "חזית-אזרחית"
+      ]
+    },
+    {
+      "name": "ExplainIsrael",
+      "displayName": "Explain Israel",
+      "shortDescription": "Join the fight for Israel🇮🇱 Spreading truth against terrorism.",
+      "description": "מטה שהוקם עי אזרחים ישראלים שאכפת להם מהמדינה במטרה לסייע במאבק ההסברה העולמי - גוגל דרייב עם תכני הסברה בכל השפות",
+      "drive": "https://drive.google.com/drive/folders/1yzLNJmkM73o5Kl8eryPj4BBAA6qSTL7i",
+      "url": "https://linktr.ee/mate.hasbara",
+      "initiativeImage": "https://ugc.production.linktr.ee/5a418aba-a767-4047-acfa-8e20da915d30_HASBARA-LOGO3.png?io=true&size=avatar",
+      "website": "https://linktr.ee/mate.hasbara",
+      "twitter": "https://twitter.com/explain_israel",
+      "instagram": "https://www.instagram.com/explain.israel/",
+      "whatsapp": "https://chat.whatsapp.com/GXyA8C75dOm6Y2revbzPje/",
+      "tiktok": "https://www.tiktok.com/@explain.israel",
+      "tags": [
+        "סושיאל",
+        "אינסטגרם",
+        "פייסבוק",
+        "טוויטר",
+        "טיקטוק",
+        "הסברה"
+      ]
+    },
+    {
+      "name": "ShareItIl",
+      "displayName": "ShareItIl - שייר איט ישראל",
+      "shortDescription": "אוספת ומאגדת במקום אחד את כל התכנים המופקים על ידי חמלי הסברה בארץ ובעולם",
+      "description": "מערכת ShareItIL אוספת ומאגדת במקום אחד את כל התכנים המופקים על ידי חמלי הסברה בארץ ובעולם ומאפשרת לך לבחור את התוכן המתאים עבורך ולשתף בקלות",
+      "url": "https://shareitil.com/",
+      "website": "https://shareitil.com/"
+    },
+    {
+      "name": "Iron Likes",
+      "displayName": "Iron Likes - לייקים של ברזל",
+      "shortDescription": "מאפשרת למשתמשים לעשות מאות ואלפי לייקים ללא מאמץ לפוסטים פרו-ישראלים",
+      "description": "מערכת Iron Likes מאפשרת למשתמשים לעשות מאות ואלפי לייקים ללא מאמץ לפוסטים פרו-ישראלים, באמצעות אתר ותוסף לדפדפן. הציוצים והפוסטים המקודמים נבחרים בקפידה על ידי צוות מצומצם ואיכותי של מתנדבים. לייק הינה הדרך היעילה ביותר לקדם פוסטים, ולכן הכלי יכול להיות בעל השפעה משמעותית על התפוצה של חומרים פרו-ישראליים ברשת.",
+      "url": "https://ironlikes.com/",
+      "website": "https://ironlikes.com/",
+      "tags": [
+        "סושיאל",
+        "פייסבוק",
+        "טוויטר",
+        "הסברה"
+      ]
+    },
+    {
+      "name": "HasbaraTeam",
+      "displayName": "הארגון להסברה - Advocacy Organization",
+      "shortDescription": "בוסט לפוסטים בקבוצה ומספר פרויקטי הסברה",
+      "description": "הארגון שלנו עובד על מספר פרויקטים במקביל בתחום ההסברה💪🏻💙🇮🇱. בקבוצה זו ניתן בוסט לפוסטים ונדווח על פוסטים מסיתים.",
+      "url": "https://israelsocialwar.com/",
+      "whatsapp": "https://chat.whatsapp.com/KmsPfwYJaBEIPyzP8n3XrQ",
+      "drive": "https://drive.google.com/drive/folders/1UVuvVGSbiMpMWhBFXxpoAM5d0FjJ7pvB",
+      "tags": [
+        "הסברה",
+        "דיווח",
+        "אינסטגרם",
+        "פייסבוק",
+        "טיקטוק",
+        "הסתה",
+        "תמיכה"
+      ]
+    },
+    {
+      "name": "LinkedInPublicity",
+      "displayName": "קול קורא: בואו תעזרו לנו בהסברה בלינקדאין",
+      "description": "קבוצה של משפיענים בלינקדאין להגדיל חשיפה, חידוד מסרים, דיווחים על פרופילים ועוד.",
+      "shortDescription": "קבוצה של משפיענים בלינקדאין להגדיל חשיפה, חידוד מסרים, דיווחים על פרופילים ועוד.",
+      "initiativeValidationDetails": "קורא: אני שוחחתי עם הקולגה שלי, הוא לשעבר עובד ב-MS, מאמת כל חבר חדש",
+      "url": "https://chat.whatsapp.com/EQopAWUyRrt8IIg5M7ZvbV",
+      "whatsapp": "https://chat.whatsapp.com/EQopAWUyRrt8IIg5M7ZvbV",
+      "docs": "https://docs.google.com/spreadsheets/d/1z9-2aXt_CmmAOyXEhtoGO-G0HEM-2fx8MGIn3AzLRNk/edit?usp=sharing",
+      "tags": [
+        "הסברה",
+        "לינקדאין",
+        "משפיענים",
+        "חשיפה"
+      ]
+    },
+    {
+      "name": "ChildrenPublicity",
+      "displayName": "התנדבות ילדים להסברה",
+      "shortDescription": "ילדים מסבירים את עמדת ישראל במלחמה",
+      "description": "אתר בו ילדים מסבירים באמצעות אודיו וציורים את עמדת ישראל לקהל הבינלאומי.",
+      "url": "https://helek.israelsite.co.il/war/",
+      "website": "https://helek.israelsite.co.il/war/",
+      "tags": [
+        "הסברה",
+        "ילדים",
+        "ציורים",
+        "מלחמה"
+      ]
+    },
+    {
+      "displayName": "לא עוצרים עד שמנצחים",
+      "name": "menatzchim",
+      "shortDescription": "אנחנו אזרחים שרוצים – כמו כולם – לראות נצחון אמיתי.",
+      "description": "מי אנחנו? אנחנו אזרחים שרוצים – כמו כולם – לראות נצחון אמיתי. מאחורי היוזמה עומדת שורה של אנשי ציבור, רבנים ומובילי דעת קהל, פעילים חברתיים ואנשים שאכפת להם. המטרה היא לבטא קריאה ציבורית מקיפה ורחבה, דעת קהל מכל גווני הקשת – המחזקת את הנהגת המדינה והצבא להלחם עד לנצחון האמיתי. כדי להבהיר את הדרך, כדי לא להיכנע ללחצים מבית ומחוץ, כדי לא לאפשר לאף אחד לחזור על טעויות העבר ולהסתפק בחצי-עבודה – אנחנו מגדירים מראש את היעדים של הנצחון. ודורשים לבצע אותם, עד לנצחון המלא בעזרת השם.",
+      "initiativeValidationDetails": "https://www.inn.co.il/news/616983, https://www.guidestar.org.il/organization/580622041",
+      "url": "https://givechak.co.il/menatzchim",
+      "website": "https://givechak.co.il/menatzchim",
+      "whatsapp": "https://chat.whatsapp.com/L1tGwh6LcVk13tX6ak59Xi",
+      "form": "https://docs.google.com/forms/d/e/1FAIpQLScRx5EvlH76S3UMqHS47nSijBOqaId1JhDE-1tl1DdQtKiCRQ/viewform",
+      "initiativeImage": "https://static.tickchak.co.il/all/dln_00DNaVjdrkUR35EdpVXc0pVU0YUdwUnQnRnR1I2aERHa1FjYmFXay50KmZzY_090zdopFT2EDa5Z1U1wGNBNne5k2YzVzS.jpg_65ed8799-213e-4a49-91af-4f5131c62577.jpg",
+      "tags": [
+        "נצחון",
+        "אזרחים",
+        "אנשי ציבור",
+        "פעילים חברתיים",
+        "דעת קהל"
+      ]
+    },
+    {
+      "displayName": "תנועת החזית האזרחית",
+      "name": "hachazit",
+      "shortDescription": "בעוצמה, בנחישות, ללא תנאים",
+      "description": "תנועת החזית האזרחית הוקמה על רקע אירועי טבח אוקטובר אשר יצרו קרע קשה באמונו של עם ישראל במערכות הביטחון בישראל ובהגנה לה הוא זקוק. התנועה הוקמה במטרה להחזיר את אמון העם ולהבטיח כי צה'ל ומדינת ישראל יפעלו באופן חופשי במהלך מלחמת עזה, כשיעדי המלחמה, אורכה ודרכי הפעולה שלה, יהיו כפופים אך ורק לצרכיה הביטחוניים והמדיניים של מדינת ישראל, וללא התחשבות בגורמים זרים. התנועה הינה תנועה א-פוליטית, ומאחוריה עומדת קבוצת ישראלים ובהם לוחמים, מפקדים, משפחות שכולות, תושבי העוטף, אנשי תוכן ולוחמי סייבר, שכאבו וכואבים את האירועים הנוראים והחליטו לחבור יחדיו ולפעול כדי להבטיח שלעולם לא עוד.",
+      "initiativeValidationDetails": "https://www.maariv.co.il/news/viral/Article-1049297",
+      "url": "https://www.hachazit.co.il/",
+      "website": "https://www.hachazit.co.il/",
+      "telegram": "https://t.me/hachazit",
+      "facebook": "https://www.facebook.com/the.civil.front",
+      "instagram": "https://www.instagram.com/the.civil.front.il/",
+      "tiktok": "https://www.tiktok.com/@the.civil.front",
+      "twitter": "https://twitter.com/The_civil_front",
+      "youtube": "https://www.youtube.com/@thecivilfront",
+      "initiativeImage": "https://www.hachazit.co.il/wp-content/uploads/2023/10/%D7%94%D7%97%D7%96%D7%99%D7%AA-%D7%94%D7%90%D7%96%D7%A8%D7%97%D7%99%D7%AA-%D7%94%D7%99%D7%A8%D7%95-1.png",
+      "tags": [
+        "חזית",
+        "החזית האזרחית",
+        "תנועה",
+        "לא פוליטית"
+      ]
+    }
+  ]
+}
