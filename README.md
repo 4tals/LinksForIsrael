@@ -1,12 +1,6 @@
 # **Links For Israel - לינק לישראל**
 
-🌐 **Featured Websites:**
-
-- [LinksForIsrael](https://linksforisrael.com/)
-- [IronPortal](https://iron-portal.io/)
-- [IronLinks](https://iron-links.com)
-
----
+🌐 **https://www.linksforisrael.com/**
 
 ## 📖 **Introduction**
 
