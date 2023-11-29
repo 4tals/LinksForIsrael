@@ -1,12 +1,13 @@
 "use client";
 
-import { useContext } from "react";
+import React, { useContext } from "react";
 
 import { NoCategoryZeroState } from "@/app/[[...category]]/ZeroStates/NoCategoryZeroState";
 import { NoResultsZeroState } from "@/app/[[...category]]/ZeroStates/NoResultsZeroState";
 import { CategoryContent } from "@/app/components/Categories/CategoryContent";
 import { SearchContext } from "@/app/components/RootApp";
 import { Category, SubCategoryData } from "@/app/utils/categories";
+import { Box, VStack, Text } from "@chakra-ui/react";
 
 interface Props {
 	categories: Array<Category>;
@@ -14,43 +15,51 @@ interface Props {
 	categoryId?: string;
 }
 
-export function Body(props: Props) {
-	const { categories, categoryId, assistanceSubCategory } = props;
+export const Body: React.FC<Props> = ({
+	categories,
+	categoryId,
+	assistanceSubCategory,
+}) => {
 	const { search, results } = useContext(SearchContext);
 	const pageCategory = categoryId
 		? categories.find((category) => category.id === categoryId)
 		: null;
+
 	if (search) {
 		return (
-			<div className="desktop-content">
+			<Box>
 				{results.length > 0 ? (
 					results.map((category) => (
-						<div key={category.id}>
-							<p className="search-category-title">{category.displayName}</p>
+						<VStack key={category.id} spacing={4}>
+							<Text fontSize="2xl" fontWeight="bold">
+								{category.displayName}
+							</Text>
 							<CategoryContent
 								subCategories={category.subCategories}
 								categoryName={category.displayName}
 								categoryDescription={category.description}
 							/>
-						</div>
+						</VStack>
 					))
 				) : (
 					<NoResultsZeroState />
 				)}
-			</div>
+			</Box>
 		);
 	}
+
 	if (pageCategory) {
 		return (
-			<div className="desktop-content">
+			<Box>
 				<CategoryContent
 					subCategories={pageCategory.subCategories}
 					categoryName={pageCategory.displayName}
 					categoryDescription={pageCategory.description}
 				/>
 				<CategoryContent subCategories={[assistanceSubCategory]} />
-			</div>
+			</Box>
 		);
 	}
+
 	return <NoCategoryZeroState />;
-}
+};
