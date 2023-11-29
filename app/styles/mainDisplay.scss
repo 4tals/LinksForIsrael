@@ -3,55 +3,6 @@
 	font-size: 1.3rem;
 }
 
-.links-section-list {
-	display: flex;
-	flex-direction: column;
-	width: 100%;
-	overflow-x: hidden;
-	.tooltip-validation {
-		position: absolute;
-		top: 0px;
-		left: 0px;
-	}
-}
-
-.links-section-item {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	position: relative;
-	p {
-		font-size: 0.9rem; // Adjust this value as desired
-		font-weight: 600;
-	}
-
-	.more-btn {
-		display: flex;
-		justify-content: end;
-		padding-block: 10px;
-	}
-
-	padding: 16px 24px;
-	border-radius: 2px;
-	margin-top: 10px;
-	min-width: 250px; // You can adjust this value as needed
-	max-width: 350px;
-	height: 150px; // You can adjust this value as needed
-	overflow-y: auto; // Makes the content inside scrollable if it exceeds max-height
-
-	background: linear-gradient(to bottom right, #e6e9ec, #f5f7fa);
-	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-	transition:
-		box-shadow 0.3s ease,
-		transform 0.3s ease;
-
-	&:hover {
-		background: linear-gradient(to bottom right, #d4d9dd, #e2e7ea);
-		box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-		transform: translateY(-3px);
-	}
-}
-
 .popup-link-btn {
 	display: inline-block;
 	padding: 10px 20px;
@@ -130,6 +81,25 @@
 			font-size: 2rem;
 			font-weight: 600;
 			margin-top: 10px;
+		}
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.main-content .desktop-content {
+		margin-inline: 0;
+	}
+	.main-content {
+		display: flex;
+		flex-direction: column;
+		height: 85svh;
+		max-width: 64em;
+		font-size: 1rem;
+		overflow-y: hidden;
+
+		.desktop-grid {
+			position: relative;
+			display: block;
 		}
 	}
 }

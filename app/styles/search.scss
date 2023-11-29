@@ -17,10 +17,6 @@ a {
 	cursor: pointer;
 }
 
-// Web search styles
-#webSearchWrapper {
-	margin-right: $common-padding;
-}
 
 .search-wrapper {
 	@include flex-center;
@@ -39,98 +35,9 @@ a {
 	width: 100%;
 }
 
-// Search results container
-.search-results-div {
-	@include flex-center;
-	margin-top: $common-padding;
-}
-
-#search-results {
-	list-style-type: none;
-	padding-right: 0;
-	padding-left: 10px;
-}
-
-.search-results-wrapper {
-	height: 380px;
-	width: $search-width;
-	background-color: #fff;
-	border-radius: $rounded-border;
-	padding: 0 $common-padding $common-padding $common-padding;
-}
-
-.searchResultItem {
-	@include flex-center;
-	justify-content: space-between;
-	height: 48px;
-}
-
-.searchResultLinks a {
-	color: $primary-color;
-}
-
-.searchResultTitle {
-	text-align: right;
-	max-width: 50%;
-	white-space: nowrap;
-	overflow: hidden;
-	text-overflow: ellipsis;
-}
-
-// Mobile-specific styles
-.mobile-search-button {
-	display: none;
-}
-
-// Web search results
-.search-results-div-web {
-	@include flex-center;
-	top: 20px;
-	width: 80%;
-	inset-inline-start: 10%;
-	height: 70%;
-	position: relative;
-}
-
-.search-results-wrapper-web {
-	display: flex;
-	flex-direction: column;
-	background-color: #fff;
-	width: 800px;
-	border-radius: $rounded-border;
-	margin: $common-padding 0;
-	padding: 0 $common-padding;
-}
-
-#search-results-web {
-	list-style-type: none;
-	padding: $common-padding;
-	overflow: auto;
-}
-
-.search-results-header {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	padding: $common-padding;
-}
-
-.close-btn {
-	font-size: 1.5rem;
-	cursor: pointer;
-}
-
-.mobile-search {
-	display: none;
-}
-
 @media only screen and (max-width: 768px) {
 	.mobile-search-button {
 		display: block;
-	}
-
-	#webSearchWrapper {
-		display: none;
 	}
 
 	.search-wrapper {
@@ -149,15 +56,4 @@ a {
 		background-color: rgba(0, 0, 0, 0.2);
 		overflow: hidden;
 	}
-
-	.mobile-search-open {
-		height: 7vh;
-		transition: height .1s ease-in;
-	}
-	
-	.mobile-search-close {
-		height: 0vh;
-		transition: height .1s ease-out;
-	}
-	
 }
