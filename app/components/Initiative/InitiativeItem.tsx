@@ -55,7 +55,9 @@ export const InitiativeItem: React.FC<InitiativeItemProps> = ({
 			bg={"gray.100"}
 			borderRadius="md"
 			overflow="hidden"
-			minWidth={{ base: "250px", md: "300px" }}
+			// Responsive minWidth and width
+			minWidth={{ base: "125px", md: "300px" }}
+			width={{ base: "70%", md: "full" }}
 			transition="all 0.3s"
 			_hover={{ bg: "gray.200", transform: "scale(1.05)", boxShadow: "xl" }}
 			onClick={handleLinkClick}
@@ -66,20 +68,32 @@ export const InitiativeItem: React.FC<InitiativeItemProps> = ({
 				alt={link.displayName}
 				objectFit="cover"
 				opacity="0.3"
+				// Responsive width and height
 				w={{ base: "full", md: "full" }}
-				h={{ base: "50px", md: "100px" }}
+				h={{ base: "40px", md: "100px" }} // Adjusted for mobile
 				onError={() => setImageError(true)}
 			/>
 			<Flex direction="column" p="16px 24px">
-				<Text fontSize="lg" fontWeight="bold" noOfLines={1}>
+				<Text
+					fontSize={{ base: "sm", md: "lg" }} // Smaller font size for mobile
+					fontWeight="bold"
+					noOfLines={{ base: 7, md: 1 }}
+				>
 					{link.displayName}
 				</Text>
 				{link.shortDescription && (
-					<Text fontSize="md" fontWeight="medium" mt={1} noOfLines={2}>
+					<Text
+						fontSize={{ base: "xs", md: "md" }} // Smaller font size for mobile
+						fontWeight="medium"
+						mt={1}
+						noOfLines={{ base: 5, md: 2 }}
+					>
 						{link.shortDescription}
 					</Text>
 				)}
-				<InitiativeIcons link={link} limit={3} />
+				<Box display={{ base: "none", md: "block" }}>
+					<InitiativeIcons link={link} limit={3} />
+				</Box>
 			</Flex>
 		</Box>
 	);
