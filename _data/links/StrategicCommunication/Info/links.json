@@ -4,7 +4,7 @@
   "links": [
     {
       "displayName": "Mapping the Massacres",
-      "name": "מיפוי אירועי והרוגי הטבח",
+      "name": "oct7map",
       "shortDescription": "A geovisualization depicting the atrocities perpetrated by Hamas on Israeli lands on October 7th",
       "description": "The October 7th Geo-visualization Project strives to provide a comprehensive representation of the atrocities committed by Hamas on that day. This interactive map serves as a reflection and an educational tool, promoting awareness of the gravity of the horrors.",
       "url": "https://oct7map.com/",
@@ -12,7 +12,8 @@
       "tags": [
         "מיפוי",
         "ויזואליזציה"
-      ]
+      ],
+      "createdAt": "2023-10-31T17:07:44+02:00"
     },
     {
       "name": "Stand4Israel",
@@ -27,7 +28,8 @@
         "הסברה",
         "תיעוד",
         "שימור"
-      ]
+      ],
+      "createdAt": "2023-10-30T20:58:14+02:00"
     },
     {
       "name": "OnlyTrueInformation",
@@ -43,7 +45,8 @@
         "קונסוליה",
         "ניו יורק",
         "אמת"
-      ]
+      ],
+      "createdAt": "2023-11-02T13:01:02+02:00"
     },
     {
       "displayName": "מאגר משאבים לטובת הסברה - לפי שפות",
@@ -60,7 +63,8 @@
         "שפות",
         "משאבים",
         "ישראל"
-      ]
+      ],
+      "createdAt": "2023-11-06T22:54:58+02:00"
     },
     {
       "displayName": "חרבות ברזל עדכונים ותמונת מצב",
@@ -84,7 +88,8 @@
         "מלחמה",
         "ביטחון לאומי",
         "אזרחים"
-      ]
+      ],
+      "createdAt": "2023-11-09T23:24:54+02:00"
     },
     {
       "displayName": "ארכיון ההסברה - טאגבוקס",
@@ -97,11 +102,12 @@
       "tags": [
         "סרטונים",
         "הסברה"
-      ]
+      ],
+      "createdAt": "2023-11-19T16:44:01+02:00"
     },
     {
       "displayName": "הסברה ישראלית - הפצה",
-      "name": "הסברה ישראלית - הפצה",
+      "name": "StrategicCommunicationDistribution",
       "shortDescription": "קבוצת ואצאפ להפצה של חומרי הסברה לחו'ל - לכל המדינות",
       "description": "קבוצת הפצה של חומרי הסברה לחו'ל - לכל המדינות. ערוץ תקשורת מרכזי של המערך החוצה - כולל גם עדכונים, שיתופי פעולה וכו'",
       "url": "https://chat.whatsapp.com/HXJqKmfzwT0HIb477Xx9ir",
@@ -112,7 +118,8 @@
         "ישראל",
         "חומר הסברה",
         "קבוצת הפצה"
-      ]
+      ],
+      "createdAt": "2023-11-16T14:35:34+02:00"
     },
     {
       "displayName": "הספרייה הלאומית - רשימת פרויקטים - מאגר הלאומי לתיעוד מאורעות ה - 7.10",
@@ -127,7 +134,8 @@
         "עדויות",
         "צילומים",
         "מאגר"
-      ]
+      ],
+      "createdAt": "2023-11-21T22:03:35+02:00"
     }
   ]
 }

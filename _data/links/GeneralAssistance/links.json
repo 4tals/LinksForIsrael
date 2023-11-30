@@ -11,7 +11,8 @@
       "website": "https://www.iron-swords-volunteers.com/",
       "initiativeImage": "https://static.wixstatic.com/media/3efa7e_fb5268c45ef24008b233ca8ca3369005~mv2.png/v1/crop/x_38,y_0,w_3935,h_1319/fill/w_150,h_43,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_auto/Logo%202%20PNG.png",
       "initiativeValidationDetails": "Known initiative, verified by @4tal",
-      "facebook": "https://m.facebook.com/groups/780925150471197/?ref=share&mibextid=lURqYx"
+      "facebook": "https://m.facebook.com/groups/780925150471197/?ref=share&mibextid=lURqYx",
+      "createdAt": "2023-10-12T22:22:49+03:00"
     },
     {
       "name": "Yedidim",
@@ -22,7 +23,8 @@
       "initiativeImage": "https://yedidim-il.org/wp-content/uploads/2021/03/logo-1230.png",
       "article": "https://yedidim-il.org/%D7%99%D7%93%D7%99%D7%93%D7%99%D7%9D-%D7%9E%D7%AA%D7%92%D7%99%D7%99%D7%A1%D7%99%D7%9D-%D7%9C%D7%9E%D7%9C%D7%97%D7%9E%D7%AA-%D7%97%D7%A8%D7%91%D7%95%D7%AA-%D7%91%D7%A8%D7%96%D7%9C/",
       "phone": "1230",
-      "whatsapp": "https://chat.whatsapp.com/DgspcM7Yuav5uUJFK9OinT"
+      "whatsapp": "https://chat.whatsapp.com/DgspcM7Yuav5uUJFK9OinT",
+      "createdAt": "2023-10-21T20:57:25+03:00"
     },
     {
       "name": "LevEhad",
@@ -34,7 +36,8 @@
       "initiativeImage": "https://static.wixstatic.com/media/b1b124_6098f6d126c84f5cb6d1e59a3c88e7b1~mv2.png/v1/fill/w_130,h_63,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/levlev1.png",
       "initiativeValidationDetails": "Known initiative, verified by @4tal",
       "phone": "*3197",
-      "donation": "https://www.levechad.org/donations"
+      "donation": "https://www.levechad.org/donations",
+      "createdAt": "2023-10-12T22:22:49+03:00"
     },
     {
       "displayName": "חמ״ל אזרחי - סיוע לתושבי קו הלחימה",
@@ -52,7 +55,8 @@
         "סיוע",
         "תושבים",
         "לחימה"
-      ]
+      ],
+      "createdAt": "2023-10-12T22:22:49+03:00"
     },
     {
       "displayName": "חמ'ל אזרחי דנה גת",
@@ -77,7 +81,8 @@
         "ריהוט",
         "מפונים",
         "תוצרת חקלאית"
-      ]
+      ],
+      "createdAt": "2023-11-09T23:22:36+02:00"
     },
     {
       "name": "ReserveSoldiersSupport",
@@ -97,7 +102,8 @@
         "מפקדים במילואים",
         "חמ״ל",
         "קהילה"
-      ]
+      ],
+      "createdAt": "2023-10-28T23:39:59+03:00"
     },
     {
       "displayName": "עזרא בוט",
@@ -116,7 +122,8 @@
         "עזרה",
         "גיבורים",
         "בוט"
-      ]
+      ],
+      "createdAt": "2023-11-09T23:35:17+02:00"
     },
     {
       "displayName": "בוט הברזל",
@@ -137,35 +144,40 @@
         "מערכת חיבורים חכמה",
         "התנדבות",
         "מציאת תעסוקה למפונים"
-      ]
+      ],
+      "createdAt": "2023-10-12T22:22:49+03:00"
     },
     {
       "name": "IrgunSiuaEzrahimClali1",
       "displayName": "ארגון סיוע אזרחים - מרכז",
       "shortDescription": "",
       "url": "https://chat.whatsapp.com/Bsy4Sc9jM4PIS64JD1aRnp",
-      "whatsapp": "https://chat.whatsapp.com/Bsy4Sc9jM4PIS64JD1aRnp"
+      "whatsapp": "https://chat.whatsapp.com/Bsy4Sc9jM4PIS64JD1aRnp",
+      "createdAt": "2023-10-12T22:22:49+03:00"
     },
     {
       "name": "IrgunSiuaEzrahimClali2",
       "displayName": "ארגון סיוע אזרחים - צפון",
       "shortDescription": "",
       "url": "https://chat.whatsapp.com/ChDI2XilcBSCuQG1ZIzQQp",
-      "whatsapp": "https://chat.whatsapp.com/ChDI2XilcBSCuQG1ZIzQQp"
+      "whatsapp": "https://chat.whatsapp.com/ChDI2XilcBSCuQG1ZIzQQp",
+      "createdAt": "2023-10-12T22:22:49+03:00"
     },
     {
       "name": "IrgunSiuaEzrahimClali3",
       "displayName": "ארגון סיוע אזרחים - דרום",
       "shortDescription": "",
       "url": "https://chat.whatsapp.com/GY2MwfFLaLwAfJbydxte2X",
-      "whatsapp": "https://chat.whatsapp.com/GY2MwfFLaLwAfJbydxte2X"
+      "whatsapp": "https://chat.whatsapp.com/GY2MwfFLaLwAfJbydxte2X",
+      "createdAt": "2023-10-12T22:22:49+03:00"
     },
     {
       "name": "IrgunSiuaEzrahimClali4",
       "displayName": "ארגון סיוע אזרחים - ירושלים",
       "shortDescription": "",
       "url": "https://chat.whatsapp.com/BS2qZmtb9zGEdRgrqZlW9h",
-      "whatsapp": "https://chat.whatsapp.com/BS2qZmtb9zGEdRgrqZlW9h"
+      "whatsapp": "https://chat.whatsapp.com/BS2qZmtb9zGEdRgrqZlW9h",
+      "createdAt": "2023-10-12T22:22:49+03:00"
     },
     {
       "displayName": "מתגייסים באהבה",
@@ -184,14 +196,16 @@
         "כנסת ישראל",
         "סיוע",
         "חברי הכנסת"
-      ]
+      ],
+      "createdAt": "2023-11-08T23:46:54+02:00"
     },
     {
       "name": "Yahad",
       "displayName": "יחד - עזרה וחיבור: מגורים וכל דבר אפשרי",
       "description": "יחד - עזרה וחיבור: מגורים וכל דבר אפשרי",
       "shortDescription": "יחד - עזרה וחיבור: מגורים וכל דבר אפשרי",
-      "whatsapp": "https://chat.whatsapp.com/BdJOprWONBq8qLRRlyzNl8"
+      "whatsapp": "https://chat.whatsapp.com/BdJOprWONBq8qLRRlyzNl8",
+      "createdAt": "2023-10-26T10:03:47+03:00"
     }
   ]
 }
