@@ -50,7 +50,9 @@ export function RootApp({
 			<MenuContext.Provider value={{ isMenuOpen, toggleMenu, isMobile }}>
 				<Header />
 				<MobileSearchInput />
-				{children}
+				<main id="content" className="main-content" role="main">
+					{children}
+				</main>
 				<Footer />
 			</MenuContext.Provider>
 		</SearchContext.Provider>

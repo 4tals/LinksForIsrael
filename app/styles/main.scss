@@ -48,6 +48,7 @@
 	}
 }
 
+
 .item-container {
 	height: 95%;
 	overflow-y: auto;
@@ -121,6 +122,67 @@ $icon-hover-scale: scale(1.1);
 .telegram-btn {
 	@extend .share-button-common;
 }
+
+
+.main-content {
+	max-width: 100vw;
+	height: 85vh;
+
+	& .desktop-open {
+		border-color: var(--color-blue);
+	}
+
+	.desktop-grid {
+		display: flex;
+		gap: 8px;
+		height: 100%;
+		text-wrap: nowrap;
+	}
+
+	.desktop-content {
+		display: block;
+		width: 100%;
+		height: calc(100vh - 210px);
+		overflow-y: auto;
+		overflow-x: hidden;
+		padding: 0 10px;
+
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		p {
+			grid-area: span 1 / span 3;
+		}
+
+		.search-category-title {
+			font-size: 2rem;
+			font-weight: 600;
+			margin-top: 10px;
+		}
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.main-content .desktop-content {
+		margin-inline: 0;
+	}
+	.main-content {
+		display: flex;
+		flex-direction: column;
+		height: 85svh;
+		max-width: 64em;
+		font-size: 1rem;
+		overflow-y: hidden;
+
+		.desktop-grid {
+			position: relative;
+			display: block;
+		}
+	}
+}
+
 
 .whatsapp-btn {
 	color: #25d366;

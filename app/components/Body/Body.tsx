@@ -50,14 +50,14 @@ export const Body: React.FC<Props> = ({
 
 	if (pageCategory) {
 		return (
-			<Box>
+			<div className="desktop-content">
 				<CategoryContent
 					subCategories={pageCategory.subCategories}
 					categoryName={pageCategory.displayName}
 					categoryDescription={pageCategory.description}
 				/>
 				<CategoryContent subCategories={[assistanceSubCategory]} />
-			</Box>
+			</div>
 		);
 	}
 
