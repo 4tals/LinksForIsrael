@@ -48,7 +48,6 @@
 	}
 }
 
-
 .item-container {
 	height: 95%;
 	overflow-y: auto;
@@ -73,7 +72,6 @@
 .telegram-btn {
 	@extend .share-button-style;
 }
-
 
 // Variables
 $icon-hover-filter: brightness(120%);
@@ -123,7 +121,6 @@ $icon-hover-scale: scale(1.1);
 	@extend .share-button-common;
 }
 
-
 .main-content {
 	max-width: 100vw;
 	height: 85vh;
@@ -142,7 +139,7 @@ $icon-hover-scale: scale(1.1);
 	.desktop-content {
 		display: block;
 		width: 100%;
-		height: calc(100vh - 210px);
+		height: calc(100vh - 300px);
 		overflow-y: auto;
 		overflow-x: hidden;
 		padding: 0 10px;
@@ -182,7 +179,6 @@ $icon-hover-scale: scale(1.1);
 		}
 	}
 }
-
 
 .whatsapp-btn {
 	color: #25d366;
