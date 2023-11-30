@@ -73,6 +73,23 @@
         "פודקאסט חלל על הזמן",
         "מערכי שיעור לאנשי הוראה"
       ]
+    },
+    {
+      "displayName": "משפחה ובע\"ח",
+      "name": "IronDoctors2",
+      "shortDescription": "Foo2-Baz",
+      "description": "Foo2-helloFoo-world",
+      "initiativeValidationDetails": "by @4tal",
+      "initiativeImage": "/images/IronDoctors2-0535cfc6-cd17-4192-b4d5-e88cc83da7a0.jpg",
+      "tags": [
+        "החמ'ל המתוק",
+        "הילדים/ראשי",
+        "באר213111",
+        "FooBaz",
+        "עולם שלום"
+      ],
+      "foo": null,
+      "createdAt": "2023-11-30T18:59:03.510Z"
     }
   ]
 }
