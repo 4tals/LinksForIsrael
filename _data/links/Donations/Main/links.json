@@ -5,24 +5,24 @@
     {
       "name": "SafeDonate",
       "displayName": "Safe Donate",
-      "shortDescription": "אימות קישורים לתרומות",
-      "description": "אימות קישורים לתרומות",
+      "shortDescription": "אימות קישורים לתרומות - Donation link validation (abroad-friendly)",
+      "description": "אנו עושים כל שניתן על מנת לוודא ולאשר את הלינקים שמגיעים אלינו. אנו בוחנים את המתרימים, אמינותם ומהימנותם, מנסים לברר את מהות התרומה ולקבל אישור לכך שהיא מגיעה ליעדה והכל במטרה להבטיח לכם שהתרומה שלכם מגיעה לאנשים טובים שבאמת עושים בכסף שלכם שימוש ראוי. \n SafeDonate does everything possible to verify and confirm the links we receive. We examine the fund-raisers, their reliability and credibility, try to determine the nature of the contribution, and to confirm that it reaches its intended destination. All this is done with the aim of ensuring that your donation goes to its intended destination in order to genuinely make proper use of your money. ",
       "url": "https://naboo.ai/safedonate",
       "website": "https://naboo.ai/safedonate"
     },
     {
       "name": "GiveIsrael",
       "displayName": "Give Israel",
-      "shortDescription": "תרומות מאומתות לישראל",
-      "description": "ריכוז תרומות מאומתות בחלוקה לרפואי, צוותית בחזית, יחידות ועוד",
+      "shortDescription": "Donating for Israel",
+      "description": "At Give Israel, our primary mission in these challenging times following the recent attack on Israel is to work closely with verified voluntary organizations within the country. Our devoted team of volunteers has meticulously validated each of these organizations to ensure they are credible and effectively supporting the nation through crucial initiatives. These validated groups actively supply soldiers with essential items like boots and warm food, purchase vital equipment for hospitals, and offer comprehensive support to attack survivors — providing food, clothing, essentials, and much-needed mental support.",
       "url": "https://giveisrael.org/",
       "website": "https://giveisrael.org/"
     },
     {
       "name": "Isra-Aid",
       "displayName": "Isra-Aid",
-      "shortDescription": "תמיכה בעורף ובחזית",
-      "description": "ריכוז תרומות לחיזוק העורף והלחימה",
+      "shortDescription": "Support Israel's Resilience from abroad"
+      "description": "We are hi-tech professionals who care deeply about Israel. We've come together to create a website that helps people from abroad contribute to Israel's resilience.",
       "initiativeImage": "https://www.israaid.org/wp-content/uploads/Emergency-Home-Page-Website-1024x682.jpg",
       "url": "https://isra-aid.org/",
       "website": "https://isra-aid.org/"
