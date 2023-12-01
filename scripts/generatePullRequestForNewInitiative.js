@@ -120,7 +120,8 @@ See GitHub Action logs for more details: ${context.serverUrl}/${context.repo.own
     var redundantValues = new Set([undefined, "", "N/A", "NOTAPPLICABLE", "NOTAVAILABLE", "UNAVAILABLE"])
     for (const prop in json) {
       const value = json[prop];
-      if (typeof value !== "string") {
+
+      if (typeof value !== "string" && value != null) {
         continue;
       }
       
