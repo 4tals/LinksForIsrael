@@ -7,7 +7,8 @@
       "displayName": "ביחד למען הנעדרים",
       "shortDescription": "",
       "url": "https://needarim.org.il/",
-      "website": "https://needarim.org.il/"
+      "website": "https://needarim.org.il/",
+      "createdAt": "2023-10-12T22:22:49+03:00"
     },
     {
       "name": "FindMe",
@@ -16,7 +17,8 @@
       "shortDescription": "מאפשר למשפחות לשלוח פרטים נוספים על הנעדרים לסיוע בזיהוי כחטופים או חללים - מיזם בשיתוף מתנדבים מחברת פאלו-אלטו ",
       "url": "https://www.findme-service.org/form",
       "website": "https://www.findme-service.org/form",
-      "email": "support@findme-service.org"
+      "email": "support@findme-service.org",
+      "createdAt": "2023-10-14T23:32:18+03:00"
     },
     {
       "name": "IkhunMakhshirim",
@@ -24,7 +26,8 @@
       "shortDescription": "מתנדבים למציאת נעדרים ע״י מכשור טכנולוגי (לפטופ, טלפון ישן וכיו״ב)",
       "description": "מתנדבים למציאת נעדרים ע״י מכשור טכנולוגי (לפטופ, טלפון ישן וכיו״ב)",
       "url": "https://docs.google.com/forms/d/e/1FAIpQLSduujH277Cqt31XgOZfTZFAD4ua_YN8fXUtAlwOAHX2q9Emww/viewform?usp=sf_link",
-      "docs": "https://docs.google.com/forms/d/e/1FAIpQLSduujH277Cqt31XgOZfTZFAD4ua_YN8fXUtAlwOAHX2q9Emww/viewform?usp=sf_link"
+      "docs": "https://docs.google.com/forms/d/e/1FAIpQLSduujH277Cqt31XgOZfTZFAD4ua_YN8fXUtAlwOAHX2q9Emww/viewform?usp=sf_link",
+      "createdAt": "2023-10-12T22:22:49+03:00"
     },
     {
       "displayName": "פלטפורמת חרבות הברזל לאיתור נעדרים",
@@ -40,7 +43,8 @@
         "חיפוש",
         "ישראל",
         "חרבות הברזל"
-      ]
+      ],
+      "createdAt": "2023-11-09T23:43:27+02:00"
     }
   ]
 }

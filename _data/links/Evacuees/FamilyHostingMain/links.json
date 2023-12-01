@@ -19,7 +19,8 @@
         "תמיכה",
         "משפחות",
         "אירוח"
-      ]
+      ],
+      "createdAt": "2023-11-09T23:49:45+02:00"
     },
     {
       "name": "SafePlace",
@@ -27,7 +28,8 @@
       "shortDescription": "יוזמה לאיתור מארחים נדיבים בארץ",
       "description": "אפליקציה המקשרת בין מארחים למתארחים ומסייעת במציאת דיור למפונים מאזורי ירי מוגבר, עקורים וכאלה שאיבדו את ביתם. היוזמה מאפשרת למצוא מקום לשהות בו בחינם ברחבי הארץ אצל מארחים אדיבים אשר פותחים את דלתם וליבם לתושבי ישראל. ניתן לסנן מקומות אירוח על פי מיקום גאוגרפי, כמות אנשים, נגישות לנכים ועוד.",
       "url": "https://safe-zone.spiritt.app/",
-      "website": "https://safe-zone.spiritt.app/"
+      "website": "https://safe-zone.spiritt.app/",
+      "createdAt": "2023-10-21T01:22:33+03:00"
     },
     {
       "name": "AtarMearhim",
@@ -35,7 +37,8 @@
       "shortDescription": "חיפוש בתים מארחים למשפחות",
       "description": "אתר לחיפוש בתים מארחים למשפחות",
       "url": "https://mearhim.vercel.app",
-      "website": "https://mearhim.vercel.app"
+      "website": "https://mearhim.vercel.app",
+      "createdAt": "2023-10-12T22:22:49+03:00"
     },
     {
       "name": "MiklatMugan",
@@ -43,7 +46,8 @@
       "shortDescription": "לוח מודעות לחיפוש בתים מארחים",
       "description": "לוח מודעות לחיפוש בתים מארחים",
       "url": "https://protected-shelter.vercel.app",
-      "website": "https://protected-shelter.vercel.app"
+      "website": "https://protected-shelter.vercel.app",
+      "createdAt": "2023-10-12T22:22:49+03:00"
     },
     {
       "name": "MitaBetooha",
@@ -58,7 +62,8 @@
         "משפחה",
         "בית",
         "מגורים"
-      ]
+      ],
+      "createdAt": "2023-10-21T21:54:22+03:00"
     },
     {
       "name": "PeopleFromSouthHosting",
@@ -66,7 +71,8 @@
       "shortDescription": "ואצאפ לחיבור בין מארחים למשפחות בדרום",
       "description": "קבוצת וואטסאפ לחיבור בין בתים מארחים למשפחות",
       "url": "https://chat.whatsapp.com/E6GofQiyosDLndYKKCcC4v",
-      "whatsapp": "https://chat.whatsapp.com/E6GofQiyosDLndYKKCcC4v"
+      "whatsapp": "https://chat.whatsapp.com/E6GofQiyosDLndYKKCcC4v",
+      "createdAt": "2023-10-12T22:22:49+03:00"
     },
     {
       "name": "AbraHosting",
@@ -74,7 +80,8 @@
       "shortDescription": "אירוח לתקופת המלחמה במגוון בתים",
       "description": "הפלטפורמה מאפשרת חיבור והתאמה בין משפחות...",
       "url": "https://bait-israeli.abra-it.com/",
-      "website": "https://bait-israeli.abra-it.com/"
+      "website": "https://bait-israeli.abra-it.com/",
+      "createdAt": "2023-10-15T18:43:40+03:00"
     },
     {
       "name": "HostingFromTheHeart",
@@ -82,7 +89,8 @@
       "shortDescription": "אפליקציה לאירוח בביטחה במלחמה",
       "description": "האפליקציה ״אירוח מהלב״ נועדה לחבר בין אנשים...",
       "url": "https://www.letitsorti.com/hostingfromtheheartapp",
-      "website": "https://www.letitsorti.com/hostingfromtheheartapp"
+      "website": "https://www.letitsorti.com/hostingfromtheheartapp",
+      "createdAt": "2023-10-16T15:20:00+03:00"
     },
     {
       "name": "BrothersHostingBrothers",
@@ -98,7 +106,8 @@
         "דירה",
         "מלחמה",
         "קהילה"
-      ]
+      ],
+      "createdAt": "2023-10-23T20:21:09+03:00"
     },
     {
       "displayName": "התאמת אורחים למארחים",
@@ -114,7 +123,8 @@
         "מארח",
         "התאמת אורחים",
         "משפחה"
-      ]
+      ],
+      "createdAt": "2023-11-06T16:13:56+02:00"
     },
     {
       "displayName": "מארחים ומתארחים",
@@ -128,7 +138,8 @@
         "אירוח",
         "משפחה",
         "התנדבות"
-      ]
+      ],
+      "createdAt": "2023-11-09T23:46:07+02:00"
     },
     {
       "displayName": "נגישות ישראל - האפוד הסגול",
@@ -149,7 +160,8 @@
         "האפוד הסגול",
         "נגישות",
         "פינוי אנשים עם מוגבלויות"
-      ]
+      ],
+      "createdAt": "2023-11-13T22:19:47+02:00"
     },
     {
       "displayName": "אירוח ישראל מנצחת",
@@ -167,7 +179,8 @@
         "ישראל",
         "דרום",
         "מארחים"
-      ]
+      ],
+      "createdAt": "2023-11-16T14:27:41+02:00"
     }
   ]
 }

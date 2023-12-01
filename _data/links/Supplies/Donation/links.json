@@ -9,7 +9,8 @@
       "description": "מארזי תרומות של מזון דרך ולט לקניה של מזון בסיסי ושימורים",
       "initiativeImage": "https://d21buns5ku92am.cloudfront.net/69274/documents/43826-1608038201-Wolt_logo_RGB-86ecff-medium.png",
       "url": "https://wolt.com/he/isr/tel-aviv/venue/support-the-south",
-      "website": "https://wolt.com/he/isr/tel-aviv/venue/support-the-south"
+      "website": "https://wolt.com/he/isr/tel-aviv/venue/support-the-south",
+      "createdAt": "2023-10-12T22:22:49+03:00"
     },
     {
       "name": "GivBBQ for the Frontline",
@@ -18,7 +19,8 @@
       "description": "תרומות להרמת המורל לחיילים בחזית - ברביקיו שמח מבית הרבי",
       "initiativeImage": "https://b313e8803f7a4150a884-6e0b076a1e92e31c40be44f466689c50.ssl.cf5.rackcdn.com/images/loginid181479/6565323639303862663936323965656234623337646163333530663437353461_31363938333938343337",
       "url": "https://www.charidy.com/beitharabi/Braai",
-      "website": "https://www.charidy.com/beitharabi/Braai"
+      "website": "https://www.charidy.com/beitharabi/Braai",
+      "createdAt": "2023-10-29T17:34:24+02:00"
     },
     {
       "name": "SweetOperation",
@@ -33,7 +35,8 @@
         "התנדבות",
         "חיילים",
         "מבצע החמאל המתוק"
-      ]
+      ],
+      "createdAt": "2023-11-05T13:05:01+02:00"
     },
     {
       "displayName": "מוקד תרומת ציוד מיגון אישי בכמויות גדולות לצה'ל",
@@ -48,7 +51,8 @@
         "ציוד מיגון",
         "צה'ל",
         "אגודה למען החייל"
-      ]
+      ],
+      "createdAt": "2023-11-08T23:56:10+02:00"
     }
   ]
 }

@@ -16,7 +16,8 @@
         "פתרונות",
         "טכנולוגיים",
         "מתנדבים"
-      ]
+      ],
+      "createdAt": "2023-10-26T10:19:07+03:00"
     },
     {
       "displayName": "WeHelpIsrael חמ'ל יוזמות",
@@ -40,7 +41,8 @@
         "אנשי מדיה",
         "ייזמים",
         "מורים"
-      ]
+      ],
+      "createdAt": "2023-10-22T16:40:34+03:00"
     },
     {
       "name": "PitronotTechEmergency",
@@ -49,7 +51,8 @@
       "shortDescription": "מתנדבים טכנולוגים",
       "url": "https://chat.whatsapp.com/DyIdNxWEONu69Oksm3mRmS",
       "whatsapp": "https://chat.whatsapp.com/DyIdNxWEONu69Oksm3mRmS",
-      "phone": "0552419583"
+      "phone": "0552419583",
+      "createdAt": "2023-10-12T22:22:49+03:00"
     }
   ]
 }

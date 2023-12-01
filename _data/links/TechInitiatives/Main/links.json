@@ -14,7 +14,8 @@
         "open-source",
         "טכנולוגיה",
         "חיפוש"
-      ]
+      ],
+      "createdAt": "2023-11-05T23:59:45+02:00"
     },
     {
       "name": "NationalDroneInitiative",
@@ -31,7 +32,8 @@
         "הרחפנים הלאומי",
         "רחפן",
         "טכנולוגיה"
-      ]
+      ],
+      "createdAt": "2023-10-27T12:17:44+03:00"
     },
     {
       "name": "BotsForIsrael",
@@ -39,7 +41,8 @@
       "description": "",
       "shortDescription": "",
       "url": "https://chat.whatsapp.com/CWmy7ai0VJ1449FVgShVGk",
-      "whatsapp": "https://chat.whatsapp.com/CWmy7ai0VJ1449FVgShVGk"
+      "whatsapp": "https://chat.whatsapp.com/CWmy7ai0VJ1449FVgShVGk",
+      "createdAt": "2023-10-12T22:22:49+03:00"
     },
     {
       "displayName": "מערך הדיגיטל הלאומי - איסוף מדיה מיום מתקפת הפתע",
@@ -55,7 +58,8 @@
         "תמונות",
         "סרטונים",
         "מתקפה"
-      ]
+      ],
+      "createdAt": "2023-11-07T00:04:38+02:00"
     }
   ]
 }
