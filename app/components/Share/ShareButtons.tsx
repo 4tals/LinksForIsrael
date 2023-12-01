@@ -10,6 +10,7 @@ import {
 	Flex,
 	IconButton,
 	Link,
+	Tooltip,
 	useClipboard,
 	useToast,
 } from "@chakra-ui/react";
@@ -39,29 +40,43 @@ export function ShareButtons({ category }: { category: string }) {
 	return isMobile ? (
 		<MobileShareButton url={currentUrl} category={category} />
 	) : (
-		<Flex alignItems="center" gap={1}>
-			<IconButton
-				aria-label="Copy link"
-				icon={<FaLink />}
-				onClick={handleCopy}
-				size="sm"
-				colorScheme="gray"
-			/>
-			<Link href={`https://wa.me/?text=${currentUrl}`} isExternal>
+		<Flex alignItems="center" gap={2}>
+			<Tooltip label="Copy link" aria-label="Tooltip for copy link button">
 				<IconButton
-					icon={<FaWhatsapp />}
-					colorScheme="whatsapp"
-					aria-label="Share on WhatsApp"
+					aria-label="Copy link"
+					icon={<FaLink />}
+					onClick={handleCopy}
 					size="sm"
+					colorScheme="gray"
 				/>
+			</Tooltip>
+			<Link href={`https://wa.me/?text=${currentUrl}`} isExternal>
+				<Tooltip
+					label="Share on WhatsApp"
+					aria-label="Tooltip for WhatsApp button"
+				>
+					<IconButton
+						icon={<FaWhatsapp />}
+						_hover={{ colorScheme: "whatsapp" }}
+						aria-label="Share on WhatsApp"
+						size="sm"
+						colorScheme="whatsapp"
+					/>
+				</Tooltip>
 			</Link>
 			<Link href={`https://t.me/share/url?url=${currentUrl}`} isExternal>
-				<IconButton
-					icon={<FaTelegramPlane />}
-					aria-label="Share on Telegram"
-					colorScheme="telegram"
-					size="sm"
-				/>
+				<Tooltip
+					label="Share on Telegram"
+					aria-label="Tooltip for Telegram button"
+				>
+					<IconButton
+						icon={<FaTelegramPlane />}
+						_hover={{ colorScheme: "telegram" }}
+						aria-label="Share on Telegram"
+						size="sm"
+						colorScheme="telegram"
+					/>
+				</Tooltip>
 			</Link>
 		</Flex>
 	);
