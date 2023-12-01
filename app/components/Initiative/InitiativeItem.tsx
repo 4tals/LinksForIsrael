@@ -56,12 +56,15 @@ export const InitiativeItem: React.FC<InitiativeItemProps> = ({
 			borderRadius="md"
 			overflow="hidden"
 			// Responsive minWidth and width
-			minWidth={{ base: "125px", md: "300px" }}
-			width={{ base: "70%", md: "full" }}
+			minWidth={{ base: "150px", md: "250px" }}
+			width={{ base: "70%", md: "250px" }}
 			transition="all 0.3s"
 			_hover={{ bg: "gray.200", transform: "scale(1.05)", boxShadow: "xl" }}
 			onClick={handleLinkClick}
 			style={{ direction: isRtl ? "rtl" : "ltr" }}
+			aspectRatio={1 / 1}
+			paddingBlockEnd={{ base: "30px" }}
+			//ellipsis after 3 lines
 		>
 			<Image
 				src={imageUrl}
@@ -71,13 +74,14 @@ export const InitiativeItem: React.FC<InitiativeItemProps> = ({
 				// Responsive width and height
 				w={{ base: "full", md: "full" }}
 				h={{ base: "40px", md: "100px" }} // Adjusted for mobile
+				display={{ base: "none", md: "block" }}
 				onError={() => setImageError(true)}
 			/>
 			<Flex direction="column" p="16px 24px">
 				<Text
 					fontSize={{ base: "sm", md: "lg" }} // Smaller font size for mobile
 					fontWeight="bold"
-					noOfLines={{ base: 7, md: 1 }}
+					noOfLines={{ base: 3, md: 1 }}
 				>
 					{link.displayName}
 				</Text>
@@ -86,7 +90,8 @@ export const InitiativeItem: React.FC<InitiativeItemProps> = ({
 						fontSize={{ base: "xs", md: "md" }} // Smaller font size for mobile
 						fontWeight="medium"
 						mt={1}
-						noOfLines={{ base: 5, md: 2 }}
+						noOfLines={{ base: 3, md: 2 }}
+						overflow="hidden"
 					>
 						{link.shortDescription}
 					</Text>

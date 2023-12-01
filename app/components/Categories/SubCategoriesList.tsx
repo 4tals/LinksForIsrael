@@ -55,7 +55,7 @@ export const SubCategoriesList: React.FC<SubCategoriesListProps> = ({
 					rounded="lg"
 					p={4}
 					bg="white"
-					_hover={{ boxShadow: "md" }}
+					// _hover={{ boxShadow: "md" }}
 				>
 					<Box
 						display="flex"
