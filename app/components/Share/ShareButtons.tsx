@@ -10,9 +10,9 @@ import {
 	Flex,
 	IconButton,
 	Link,
-	Tooltip,
 	useClipboard,
 	useToast,
+	Tooltip,
 } from "@chakra-ui/react";
 
 export function ShareButtons({ category }: { category: string }) {
@@ -57,7 +57,7 @@ export function ShareButtons({ category }: { category: string }) {
 				>
 					<IconButton
 						icon={<FaWhatsapp />}
-						_hover={{ colorScheme: "whatsapp" }}
+						// _hover={{ colorScheme: "whatsapp" }}
 						aria-label="Share on WhatsApp"
 						size="sm"
 						colorScheme="whatsapp"
@@ -71,7 +71,7 @@ export function ShareButtons({ category }: { category: string }) {
 				>
 					<IconButton
 						icon={<FaTelegramPlane />}
-						_hover={{ colorScheme: "telegram" }}
+						// _hover={{ colorScheme: "telegram" }}
 						aria-label="Share on Telegram"
 						size="sm"
 						colorScheme="telegram"
