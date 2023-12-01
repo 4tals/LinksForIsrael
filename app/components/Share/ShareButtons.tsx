@@ -47,6 +47,7 @@ export function ShareButtons({ category }: { category: string }) {
 					icon={<FaLink />}
 					onClick={handleCopy}
 					size="sm"
+					fontWeight={500}
 					colorScheme="gray"
 				/>
 			</Tooltip>
@@ -60,7 +61,9 @@ export function ShareButtons({ category }: { category: string }) {
 						// _hover={{ colorScheme: "whatsapp" }}
 						aria-label="Share on WhatsApp"
 						size="sm"
+						fontWeight={500}
 						colorScheme="whatsapp"
+						color="#25D366" // WhatsApp color
 					/>
 				</Tooltip>
 			</Link>
@@ -74,7 +77,9 @@ export function ShareButtons({ category }: { category: string }) {
 						// _hover={{ colorScheme: "telegram" }}
 						aria-label="Share on Telegram"
 						size="sm"
+						fontWeight={500}
 						colorScheme="telegram"
+						color="#0088cc" // Telegram color
 					/>
 				</Tooltip>
 			</Link>
