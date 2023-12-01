@@ -73,8 +73,7 @@ export const InitiativeItem: React.FC<InitiativeItemProps> = ({
 				opacity="0.3"
 				// Responsive width and height
 				w={{ base: "full", md: "full" }}
-				h={{ base: "40px", md: "100px" }} // Adjusted for mobile
-				display={{ base: "none", md: "block" }}
+				h={{ base: "20px", md: "100px" }} // Adjusted for mobile
 				onError={() => setImageError(true)}
 			/>
 			<Flex direction="column" p="16px 24px">

@@ -1,48 +1,89 @@
-"use client";
+import React, { useEffect, useState } from "react";
+import {
+	FaTelegramPlane,
+	FaWhatsapp,
+	FaLink,
+	FaShareAlt,
+} from "react-icons/fa";
 
 import {
-	faTelegramPlane,
-	faWhatsapp,
-} from "@fortawesome/free-brands-svg-icons";
-import { faLink, faShareAlt } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
-import { useIsMobile, useUrl } from "../../utils/general";
-import { CopyButton } from "../CopyButton/CopyButton";
+	Flex,
+	IconButton,
+	Link,
+	useClipboard,
+	useToast,
+	Tooltip,
+} from "@chakra-ui/react";
 
 export function ShareButtons({ category }: { category: string }) {
-	const isMobile = useIsMobile();
-	const url = useUrl();
-	return isMobile && "share" in navigator ? (
-		<MobileShareButton url={url} category={category} />
-	) : (
-		<DesktopShareButtons url={url} />
-	);
-}
+	const [currentUrl, setCurrentUrl] = useState("");
+	useEffect(() => {
+		if (typeof window !== "undefined") {
+			setCurrentUrl(window.location.href);
+		}
+	}, []);
 
-function DesktopShareButtons({ url }: { url: string }) {
-	return (
-		<div className="inline-flex gap-3 items-center">
-			<CopyButton copyText={url}>
-				<FontAwesomeIcon icon={faLink} />
-			</CopyButton>
-			<a
-				href={`https://wa.me/?text=${url}`}
-				target="_blank"
-				rel="noreferrer noopener"
-				className="whatsapp-btn"
-			>
-				<FontAwesomeIcon icon={faWhatsapp} />
-			</a>
-			<a
-				href={`https://t.me/share/url?url=${url}`}
-				target="_blank"
-				rel="noreferrer noopener"
-				className="telegram-btn"
-			>
-				<FontAwesomeIcon icon={faTelegramPlane} />
-			</a>
-		</div>
+	const { onCopy } = useClipboard(currentUrl);
+	const toast = useToast();
+	const handleCopy = () => {
+		onCopy();
+		toast({
+			title: "Link copied",
+			status: "success",
+			duration: 2000,
+			isClosable: true,
+		});
+	};
+
+	const isMobile = typeof navigator !== "undefined" && "share" in navigator;
+
+	return isMobile ? (
+		<MobileShareButton url={currentUrl} category={category} />
+	) : (
+		<Flex alignItems="center" gap={2}>
+			<Tooltip label="Copy link" aria-label="Tooltip for copy link button">
+				<IconButton
+					aria-label="Copy link"
+					icon={<FaLink />}
+					onClick={handleCopy}
+					size="sm"
+					fontWeight={500}
+					colorScheme="gray"
+				/>
+			</Tooltip>
+			<Link href={`https://wa.me/?text=${currentUrl}`} isExternal>
+				<Tooltip
+					label="Share on WhatsApp"
+					aria-label="Tooltip for WhatsApp button"
+				>
+					<IconButton
+						icon={<FaWhatsapp />}
+						// _hover={{ colorScheme: "whatsapp" }}
+						aria-label="Share on WhatsApp"
+						size="sm"
+						fontWeight={500}
+						colorScheme="whatsapp"
+						color="#25D366" // WhatsApp color
+					/>
+				</Tooltip>
+			</Link>
+			<Link href={`https://t.me/share/url?url=${currentUrl}`} isExternal>
+				<Tooltip
+					label="Share on Telegram"
+					aria-label="Tooltip for Telegram button"
+				>
+					<IconButton
+						icon={<FaTelegramPlane />}
+						// _hover={{ colorScheme: "telegram" }}
+						aria-label="Share on Telegram"
+						size="sm"
+						fontWeight={500}
+						colorScheme="telegram"
+						color="#0088cc" // Telegram color
+					/>
+				</Tooltip>
+			</Link>
+		</Flex>
 	);
 }
 
@@ -53,22 +94,24 @@ function MobileShareButton({
 	category: string;
 	url: string;
 }) {
+	const onMobileShare = async () => {
+		try {
+			await navigator.share({
+				title: "פורטל לינק לישראל - כל אתרי הסיוע למלחמה במקום אחד 🇮🇱",
+				text: category,
+				url,
+			});
+		} catch (err) {
+			console.error(err);
+		}
+	};
+
 	return (
-		<button
-			className="share-mobile-btn"
-			onClick={async () => {
-				try {
-					await navigator.share({
-						title: "פורטל לינק לישראל - כל אתרי הסיוע למלחמה במקום אחד 🇮🇱",
-						text: category,
-						url: url,
-					});
-				} catch (err) {
-					console.log(err);
-				}
-			}}
-		>
-			<FontAwesomeIcon icon={faShareAlt} />
-		</button>
+		<IconButton
+			aria-label="Share"
+			icon={<FaShareAlt />}
+			onClick={onMobileShare}
+			size="sm"
+		/>
 	);
 }
