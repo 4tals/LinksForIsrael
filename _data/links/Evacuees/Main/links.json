@@ -1,48 +1,7 @@
 {
-  "name": "EvacueesMain",
-  "displayName": "סיוע למפונים",
+  "name": "Main",
+  "displayName": "ראשי",
   "links": [
-    {
-      "name": "HandInHandForEvacuees",
-      "displayName": "יד ביד למפונים",
-      "description": "היד שמחברת בין בעלי מקצוע שנאלצו להתפנות מבתיהם, לתושבים שמחפשים בעל מקצוע",
-      "shortDescription": "היד שמחברת בין בעלי מקצוע שנאלצו להתפנות מבתיהם, לתושבים שמחפשים בעל מקצוע",
-      "initiativeImage": "https://wpstaq-ap-southeast-2-media.s3.amazonaws.com/darom/wp-content/uploads/media/2023/10/logo_v1.png",
-      "initiativeValidationDetails": "מקור: נשלח על ידי חבר. קישור לאתר מהימן המקדם את היוזמה: https://www.ice.co.il/digital-140/news/article/985019",
-      "url": "https://ironpro.zigit.co.il/",
-      "website": "https://ironpro.zigit.co.il/",
-      "article": "https://www.ice.co.il/digital-140/news/article/985019",
-      "tags": [
-        "סושיאל",
-        "בעל מקצוע",
-        "מפונים",
-        " קהילה",
-        "משפחות"
-      ],
-      "createdAt": "2023-10-27T11:47:19+03:00"
-    },
-    {
-      "displayName": "עיצוב וריהוט בתי משפחות מפונות",
-      "name": "BNF-furniture",
-      "shortDescription": "בימים אלו אנו מסייעים ככל האפשר בשינוע וריהוט דירות של משפחות שנאלצו לעזוב את ביתם בעקבות המלחמה",
-      "description": "תרומות ריהוט ומוצרי חשמל: אם יש ברשותכם רהיטים כגון: מיטות, מזרונים, כלי מטבח ועוד או מוצרי חשמל שאינם בשימוש ושהייתם רוצים לתרום, אנו נשמח לאסוף אותם ולספק אותם עבור משפחות שפונו (גם אקססוריז לבית, כריות ותמונות יתקבלו בברכה).",
-      "initiativeValidationDetails": "BNF is already on the site, this is a different initiative from the same group",
-      "url": "https://www.bnf.co.il/stay-together/",
-      "initiativeImage": "https://www.bnf.co.il/wp-content/uploads/2023/03/323423444-removebg-preview.png",
-      "website": "https://www.bnf.co.il/stay-together/",
-      "whatsapp": "https://api.whatsapp.com/send/?phone=972533042487&text&type=phone_number&app_absent=0",
-      "form": "https://www.bnf.co.il/%D7%98%D7%95%D7%A4%D7%A1-%D7%AA%D7%A8%D7%95%D7%9E%D7%AA-%D7%A8%D7%99%D7%94%D7%95%D7%98",
-      "docs": "https://www.bnf.co.il/%D7%98%D7%95%D7%A4%D7%A1-%D7%A1%D7%99%D7%95%D7%A2-%D7%A9%D7%99%D7%A0%D7%95%D7%A2-%D7%A8%D7%99%D7%94%D7%95%D7%98",
-      "facebook": "https://www.facebook.com/profile.php?id=100094059004579",
-      "instagram": "https://www.instagram.com/bnf_designs/",
-      "tags": [
-        "ריהוט",
-        "תמיכה",
-        "משפחות מפונות",
-        "מפונים"
-      ],
-      "createdAt": "2023-11-22T08:01:45+02:00"
-    },
     {
       "displayName": "ironWings",
       "name": "כנפי ברזל",
@@ -64,27 +23,6 @@
         "חרבות ברזל"
       ],
       "createdAt": "2023-11-28T01:29:07+02:00"
-    },
-    {
-      "displayName": "עסקים מעוטף ישראל",
-      "name": "otefisrael",
-      "shortDescription": "אתר לחיפוש בעלי מקצוע מעוטף ישראל- מדרום ועד צפון",
-      "description": "אתר 'עוטף ישראל' הוקם בשיתוף פעולה בין עמותת 'רוח טובה' מקבוצת אריסון ו- B144 מקבוצת בזק, במטרה לחבר בין בעלי מקצוע ועסקים מישובי 'עוטף ישראל' – בדרום הארץ ובצפונה, שפעילותם העסקית נפגעה בעקבות המלחמה. האתר מאפשר לבעלי עסק מישובים אלה, להופיע במדריך העסקים לפי תחום עיסוקם, כתובתם והערים ברחבי הארץ בהן הם מעוניינים לתת את שירותיהם. הרישום הוא חינמי ומעניק לכל עסק, דף עסקי שבו יוכל להכניס את פרטי העסק, פרטים ליצירת קשר בטלפון או בוואטסאפ, גלריית תמונות מהעסק, אפשרות לחוות דעת ועוד. לקוחות מכל הארץ יוזמנו ליצור קשר ולהזמין את השירותים המפורסמים על ידי בעל העסק, ובכך לסייע ולתמוך בחזרתם של העסקים בדרום ובצפון לשגרת עבודה.",
-      "initiativeValidationDetails": "Subdomain of Bezeq's site",
-      "url": "https://otefisrael.org.il/",
-      "initiativeImage": "/images/otefisrael-e6dbdddf-ea82-409d-8814-e91ce27ec662.png",
-      "website": "https://otefisrael.org.il/",
-      "form": "https://otefisrael.b144.co.il/selfRegister/",
-      "tags": [
-        "עסקים",
-        "עוטף ישראל",
-        "בעלי מקצוע",
-        "תמיכה בעסקים",
-        "מלחמה",
-        "דרום ישראל",
-        "צפון ישראל"
-      ],
-      "createdAt": "2023-11-29T15:05:28+02:00"
     }
   ]
 }

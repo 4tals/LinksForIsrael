@@ -1,0 +1,11 @@
+{
+  "name": "SuppliesAndTransportation",
+  "displayName": "ציוד/מזון ושינוע",
+  "description": "יוזמות לקניה ואספקה של מזון וציוד לכוחות הלוחמים",
+  "image": "https://static-00.iconduck.com/assets.00/supply-chain-management-icon-2048x1937-54eit1e1.png",
+  "subCategories": [
+    "Transportation",
+    "Equipment",
+    "Food"
+  ]
+}

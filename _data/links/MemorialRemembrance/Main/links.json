@@ -1,6 +1,6 @@
 {
-  "name": "MemorialRemembranceMain",
-  "displayName": "",
+  "name": "Main",
+  "displayName": "ראשי",
   "links": [
     {
       "name": "IzkorNoflim",
@@ -57,8 +57,8 @@
       "createdAt": "2023-10-25T21:51:36+03:00"
     },
     {
-      "displayName": "תבנית לאתרי יזכור",
       "name": "WixRememberThem",
+      "displayName": "תבנית לאתרי יזכור",
       "shortDescription": "אתר הנצחה דיגיטלי, ללא עלות",
       "description": "אנחנו מקבלים לוויקס המון פניות ממשפחות וחברים להקמת אתרי הנצחה דיגיטליים לחללי חרבות ברזל - מקום שבו יוכלו להנציח את יקיריהם, לשתף בסיפורים ותמונות ולהזמין משפחה וחברים להעלות זכרונות ביחד. החלטנו לייצר למשפחות נקודת התחלה קלה יותר לבניית האתרים האלו. באתר ״לזכור אותם״ מוצעים 4 עיצובים שונים (תבניות/ טמפלטים) לאתרי הנצחה אישיים. כל מה שצריך לעשות זה להחליף תמונות ולערוך לתכנים האישיים. האתר כולל גם סרטון הדרכה קצר שמראה כיצד ניתן לעבוד בקלות עם הטמפלטים. וויקס תספק למשפחות דומיין לאתר וכן תמיכה אישית במהלך הבנייה, במידה ויצטרכו.",
       "initiativeValidationDetails": "Subdomain on wix.com (official Wix domain)\nAlso vetted by a colleague as coming directly from Wix",
@@ -75,8 +75,8 @@
       "createdAt": "2023-11-10T22:51:27+02:00"
     },
     {
-      "displayName": "חרבות ברזל - ממוריאליין",
       "name": "ironswords.info",
+      "displayName": "חרבות ברזל - ממוריאליין",
       "shortDescription": "האתר להנצחת הנופלים והנרצחים",
       "description": "Memorialine היא פלטפורמה חברתית דיגיטלית הנועדה לתעד ולשמר את המורשת של הפרט, המשפחה והקהילה.",
       "initiativeValidationDetails": "https://www.maariv.co.il/business/Article-1051444",
@@ -96,8 +96,8 @@
       "createdAt": "2023-11-18T01:34:40+02:00"
     },
     {
-      "displayName": "תיבת תהודה",
       "name": "echoBox",
+      "displayName": "תיבת תהודה",
       "shortDescription": "המיזם, אשר מבוסס על ניסיון בני משפחות שכולות, נועד לאגד זיכרונות, סיפורים ותמונות על הנופלים והנרצחים.",
       "description": "חלק מ'קהילה זוכרת' - קהילה דיגיטלית לקידום הנצחה חיה לזכר חללי מערכות ישראל ונפגעי פעולות איבה",
       "initiativeValidationDetails": "שמעתי על זה ברדיו ונכנסתי לאתר שלהם",

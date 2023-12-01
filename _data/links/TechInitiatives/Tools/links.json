@@ -1,0 +1,61 @@
+{
+  "name": "Tools",
+  "displayName": "כלים לפיתוח טכנולוגי",
+  "links": [
+    {
+      "name": "ZihuiBadge",
+      "displayName": "תו זהות",
+      "shortDescription": "מערכת לזיהוי ואימות מתנדבים",
+      "description": "תו זהות - יוזמה חברתית המאפשרת אימות זהות למשתתפים בארגונים וחברות. אנחנו עובדים בשיתוף פעולה עם עמותות המתנדבים הגדולות בישראל ומסייעים להם לאמת את זהות החברים בקבוצות, בכל יישומוני הממסרים המהירים. מתחילת המלחמה אימתנו 5,000+ אנשים. תו זהות הוא יוזמה התנדבותית של אנשי סייבר מנוסים ויזמי הייטק. אנחנו עובדים בשיתוף עם קבוצות ההתנדבות הגדולות בישראל במטרה לשמור על הביטחון של מתנדבים ואנשים שזקוקים לעזרה מפני גניבת זהויות, שימוש במכשירים סלולרים של חטופים/נעדרים/נרצחים או כל סכנה אחרת.",
+      "initiativeValidationDetails": "https://www.ynet.co.il/digital/technews/article/bys217vwt",
+      "url": "https://zihui.org",
+      "website": "https://zihui.org",
+      "form": "https://docs.google.com/forms/d/e/1FAIpQLSfSltDTyX4YrNQb3coo-z0Biht4W-Q9FDinuBh2heZnUr7bSA/viewform",
+      "initiativeImage": "https://zihui.org/logo.png",
+      "tags": [
+        "אימות זהות",
+        "מתנדבים",
+        "חברתית",
+        "התנדבות",
+        "זיהוי",
+        "סייבר",
+        "הייטק"
+      ],
+      "createdAt": "2023-11-09T22:17:55+02:00"
+    },
+    {
+      "name": "Oct7.API",
+      "displayName": "אוקט7 - API",
+      "shortDescription": "Integrate with our API and collaborate with us to build powerful solutions, powered by our comprehensive data.",
+      "description": "We provide a data out service and an API to help you access our data and build innovative new products and experiences.\nYou have 2 options with the OCT7 System:\nContribute data (minimum of a media link and “good”/”bad” tagging) – we’ll make sure good things happen to it.\nConsumer data – get access to our API (pull or push)",
+      "initiativeValidationDetails": "Posted by legit account: https://www.linkedin.com/posts/shlomit-cohen_oct7-home-winning-the-social-media-war-activity-7129491902894120961-c_1q?utm_source=share&utm_medium=member_desktop",
+      "url": "https://www.oct7.io/api-integrations/",
+      "website": "https://www.oct7.io/api-integrations/",
+      "linkedin": "https://www.linkedin.com/posts/shlomit-cohen_oct7-home-winning-the-social-media-war-activity-7129491902894120961-c_1q?utm_source=share&utm_medium=member_desktop",
+      "initiativeImage": "https://www.oct7.io/wp-content/uploads/2023/10/oct7-logo-squre-dark-mode-e1699204867126.webp",
+      "tags": [
+        "אוקט7",
+        "תגובות",
+        "פוסטים ויראליים",
+        "סנטימנט פרו-ישראלי",
+        "תקשורת אסטרטגית"
+      ],
+      "createdAt": "2023-11-17T01:00:49+02:00"
+    },
+    {
+      "name": "MiklatFinder",
+      "displayName": "קוד למציאת מקלט",
+      "shortDescription": "Sample open source code for websites to show the nearest shelter to your location",
+      "description": "To make the residents feel safer, we developed a website that shows the nearest miklats to their location, or from a particular address. The list of miklats was collected from both the iriyah, and from friends around the city. The website shows a table with details of the 3 nearest miklats, as well as a map containing the location of those miklats relative to your location/address. It is available in both English and Hebrew, and contains instructions taken from Pikud Haoref on what to do if you can't get to a miklat in time. We decided to make our code open source, so that other developers could host their own versions of the website for their particular city. They will need to create their own database of miklat locations. Everything that is necessary is explained in detail in the repo's README.",
+      "initiativeValidationDetails": "@ohadschn talked with creator",
+      "url": "https://github.com/LeggoMahEggo/miklat-finder-open-source/",
+      "tags": [
+        "מקלט",
+        "open-source",
+        "טכנולוגיה",
+        "חיפוש"
+      ],
+      "createdAt": "2023-11-05T23:59:45+02:00"
+    }
+  ]
+}

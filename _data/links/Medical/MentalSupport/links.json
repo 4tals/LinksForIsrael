@@ -1,5 +1,5 @@
 {
-  "name": "MentalSupportMain",
+  "name": "MentalSupport",
   "displayName": "תמיכה נפשית",
   "links": [
     {
@@ -19,15 +19,6 @@
       "url": "https://vt.tiktok.com/ZSNYX41uP/",
       "tiktok": "https://vt.tiktok.com/ZSNYX41uP/",
       "createdAt": "2023-10-14T01:43:22+03:00"
-    },
-    {
-      "name": "MentalSupportIsraHelp",
-      "displayName": "עמוד תמיכה נפשית מתוך יוזמת IsraHelp",
-      "shortDescription": "עמוד תמיכה נפשית מתוך יוזמת IsraHelp",
-      "url": "https://www.coing.co/Israhelp_Emotional",
-      "website": "https://www.coing.co/Israhelp_Emotional",
-      "initiativeImage": "https://coing-images.s3.eu-central-1.amazonaws.com/communities-logos/0e217d4104a154192dbc96b9467de608.png",
-      "createdAt": "2023-10-12T22:22:49+03:00"
     },
     {
       "name": "ZGIL",
@@ -95,8 +86,8 @@
       "createdAt": "2023-11-07T00:04:57+02:00"
     },
     {
-      "displayName": "עוטף לב",
       "name": "OtefLev",
+      "displayName": "עוטף לב",
       "shortDescription": "סיוע ראשוני לכל תושבות ותושבי ישראל על ידי נשות ואנשי מקצועות בריאות הנפש",
       "description": "אירועי ה-7 באוקטובר והמלחמה שהחלה בעקבותיהם, גורמים לטלטלה, זעזוע וכאב בחברה הישראלית. עוטף לב - סיוע נפשי ישראלי, מציע לכם מענה ראשוני מנשות ואנשי מקצועות בריאות הנפש.",
       "initiativeValidationDetails": "https://newmedia.calcalist.co.il/magazine-02-11-23/m02.html",
@@ -112,8 +103,8 @@
       "createdAt": "2023-11-09T23:41:57+02:00"
     },
     {
-      "displayName": "לב בטוח",
       "name": "SafeHeart",
+      "displayName": "לב בטוח",
       "shortDescription": "לב בטוח - המערך לתמיכה בנפגעי פעולות הטרור במסיבות עוטף עזה",
       "description": "אנחנו פרוייקט בריאות נפש חירומי אשר מופעל על ידי רשת של פסיכולוגים, פסיכיאטרים, עובדים סוציאלים קליניים, פסיכותרפיסטים ומדריכים קליניים מוסמכים, בעלי נסיון בעבודה עם חוויות טראומתיות קשות ובתחום מזעור הנזקים הפסיכדלי. אנחנו רק יכולים לתאר כמה קשה לעבור חוויה כזו קשה בזמן מסיבה. אנחנו פה לתמיכה בשביל כל מי שהיו במסיבות בעוטף עזה. אנחנו מבינים גם שחלקכם.ן הייתם.ן תחת השפעה של חומרים, ואולי חוויתם את התקיפה בצורה חזקה ומבלבלת עוד יותר.\n\nאנחנו מזמינים את כל מי שהיה במסיבה ברעים (ובמסיבות אחרות בעוטף) ורוצים לשתף, לדבר, ולקבל תמיכה ממטפלים מנוסים בעבודה עם חוויות טראומטיות קשות, המבינים מה זאת מסיבה ומנוסים בתמיכה באנשים שצרכו חומרים משני תודעה. כמובן שאפשר לפנות אלינו גם אם לא צרכתם.ן חומרים.\n\nיש פה קהילה של מטפלות ומטפלים מנוסים שמתנדבים לעזור, אפשר לבוא עם כל צורך ומצב. השבט של 'לב בטוח' פה בשבילכם. פנו למטפלים המתנדבים שלנו בטופס ונחזור אליכם בהקדם האפשרי!",
       "initiativeValidationDetails": "https://twitter.com/royesal/status/1711375837864276107",
@@ -128,8 +119,8 @@
       "createdAt": "2023-11-08T23:52:26+02:00"
     },
     {
-      "displayName": "מאזינים ומקשיבים",
       "name": "EzraLive",
+      "displayName": "מאזינים ומקשיבים",
       "shortDescription": "מרגיש חנוק.ה? רוצה לשתף בתחושות/חוויות מהימים האחרונים? זקוק.ה לתמיכה לאור המצב  כאן תפגוש.י א.נשים כמוך לשיחה אישית/חברית",
       "description": "ברגעים של מצוקה וחוסר ודאות, טבעי להרגיש מוצף ולהרגיש צורך בשיחה עם מישהו. אחד מהדברים שהכי מכבידים בתקופה הזאת זה התחושה שאני לבד בתוך כל מה שקורה ואל מול זה אחד הדברים שהכי עוזרים להתמודד זה להרגיש שאני לא לבד, שאני מובן, שהקושי שלי הגיוני, שיש עוד אנשים שמרגישים כמוני.",
       "initiativeValidationDetails": "Created by legit company: https://www.linkedin.com/feed/update/urn:li:activity:7124977738205016064/",
@@ -147,6 +138,30 @@
         "חלל בטוח"
       ],
       "createdAt": "2023-11-13T17:11:29+02:00"
+    },
+    {
+      "name": "didihugs",
+      "displayName": "חיבוק דידי",
+      "shortDescription": "התערבות פסיכולוגית קצרה לילדים בעת משבר",
+      "description": "בעקבות המשבר הנוכחי במדינה, ילדים רבים חווים סטרס וקושי משמעותי. אלה יכולים לבוא לידי ביטוי במגוון התנהגויות, כגון פחדים ודריכות, היצמדות להורים, קשיי שינה, עצבנות רבה מהרגיל, כאבי בטן וכאבים גופניים אחרים, שינויים בתאבון ועוד. אנחנו צוות של פסיכולוגים קליניים וחוקרי בריאות נפש שהוקם בעקבות שבת ה-7 באוקטובר ומלחמת חרבות ברזל, כדי לתמוך בילדים ולסייע להם להתמודד עם המצב. אנו מציעים התערבות פסיכולוגית קצרה, המתבססת על יכולות הדמיון והמשחקיות של הילד. ההתערבות נועדה לקדם את החוסן של הילד, ולתמוך בו בעתות של סטרס. ההתערבות ניתנת בטלפון, ובאמצעות ההורים בביתכם. ההשתתפות הינה ללא תשלום. אנו מזמינים הורים לילדים בגילאי 3-8 לפנות אלינו.",
+      "initiativeValidationDetails": "Published by legit profile: https://www.facebook.com/groups/OurModin/posts/2934268490047516",
+      "url": "https://www.didihugs.com/",
+      "website": "https://www.didihugs.com/",
+      "email": "Didihugs@gmail.com",
+      "whatsapp": "https://l.facebook.com/l.php?u=https%3A%2F%2Fchat.whatsapp.com%2FFF545QFIUVz27iUFGeC7rx%3Ffbclid%3DIwAR1FqdxP-6zCm5aA1PAVtoYf9A2rxlN5SauTDn44z4-PHoJ170_jMoYc4Ac&h=AT3WhYrGMiGdSuGdmSF8UXVBXHTk2FaFbXgLabDYkfFO87jQxrIZRjkBmnGkoyU189Rx6_IB3gBKyk_VWr9iiN82wHd5GRPQcgpc5188Y5q5t6kgt8J024dkbZwhlU1Pcg&__tn__=-UK-R]-R&c[0]=AT2p-M5zZyrUiH8yWWDFcZOcVcFgNI0LWM4jMFX9HHCtb3-kwtjFf__Kj7wa71hLolkPFTWsHJtUasOEO4CgQ-9CYthLYqbwAGK2iumrohDLmf4n5hW4PbxbEyxR9T7XAzug3mIMzS6QRy6LoOmvXG5vmq-1UeAEv7y8tmdJ5VNAwT3YTP-4c9toM8S7zNkuPWr4JLPhl_lG-DbC9NUr_A&c[1]=AT2p-M5zZyrUiH8yWWDFcZOcVcFgNI0LWM4jMFX9HHCtb3-kwtjFf__Kj7wa71hLolkPFTWsHJtUasOEO4CgQ-9CYthLYqbwAGK2iumrohDLmf4n5hW4PbxbEyxR9T7XAzug3mIMzS6QRy6LoOmvXG5vmq-1UeAEv7y8tmdJ5VNAwT3YTP-4c9toM8S7zNkuPWr4JLPhl_lG-DbC9NUr_A",
+      "form": "https://docs.google.com/forms/d/e/1FAIpQLSfYFO0RUPMYB_7XGYSv1pkS7T7QhZc8pwBShfWavYnBCKG5hw/viewform",
+      "facebook": "https://www.facebook.com/groups/780925150471197/?multi_permalinks=804305348133177%2C803529831544062%2C802201208343591%2C801658978397814%2C801733738390338%2C800619231835122%2C800520018511710%2C800601741836871&notif_id=1699619614332073&notif_t=group_highlights&ref=notif",
+      "initiativeImage": "https://static.wixstatic.com/media/8d91c5_6436b03227a940fb8d4eee051e5bab8a~mv2.png/v1/fill/w_999,h_791,al_c,q_90,enc_auto/Shutterstock_2258789467_edited_edited_ed.png",
+      "tags": [
+        "קורונה",
+        "ילדים",
+        "שירות",
+        "לא מסחר",
+        "עזרה לילדים",
+        "פסיכולוגיה",
+        "מלחמה"
+      ],
+      "createdAt": "2023-11-17T13:20:38+02:00"
     }
   ]
 }

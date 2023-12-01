@@ -1,0 +1,70 @@
+{
+  "name": "Family",
+  "displayName": "משפחה",
+  "links": [
+    {
+      "name": "NewDealBabysitter",
+      "displayName": "מערך בייביסיטר ארצי",
+      "shortDescription": "מערך בייביסיטר ארצי",
+      "description": "זקוקים/ות לבייביסיטר בזמן המלחמה? 'חוזה חדש' פה בשבילכם! משפחות רבות מוצאות עצמן במצב קשה בו אחד או יותר מהורי המשפחה אינו בבית, והמשפחה זקוקה לעזרה עם הילדים. לצורך כך הקמנו מערך ארצי של שמרטפים ושמרטפיות (הצטרפות מגיל 18). מוזמנים להצטרף לאחת מהקבוצות האזוריות, בה יבוצע חיבור בין משפחות הזקוקת לעזרה לבין המתנדבים שלנו.",
+      "initiativeValidationDetails": "Known organization from before the war",
+      "url": "https://www.new-deal.org.il/babysitter",
+      "website": "https://www.new-deal.org.il/babysitter",
+      "whatsapp": "https://chat.whatsapp.com/E7POYA8pBlu1C1EZy1fDLq",
+      "docs": "https://www.hopp.bio/new-deal",
+      "initiativeImage": "https://scontent.ftlv6-1.fna.fbcdn.net/v/t39.30808-6/307851307_420511490189366_1794830304047005228_n.png?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=wuiPNY9ShrMAX8tE1tR&_nc_ht=scontent.ftlv6-1.fna&oh=00_AfBe0c3Ywgl9gSTeoSmWSjtCyX51nr97EMMExVLbo_z28Q&oe=65547942",
+      "tags": [
+        "חוזה חדש",
+        "בייביסיטר",
+        "שמרטף",
+        "מלחמה",
+        "משפחה",
+        "ילדים"
+      ],
+      "createdAt": "2023-11-12T02:52:36+02:00"
+    },
+    {
+      "name": "MiluimSite",
+      "displayName": "תומכים מהבית",
+      "shortDescription": "עוזרים למשפחות המילואימניקים",
+      "description": "ביום שבת 7.10.2023, פרצה מלחמה בישראל והתעוררנו למציאות חדשה ואכזרית.  רבים ורבות מאיתנו עזבו הכול מיד, השאירו את היקרים להם מכול בעורף והתייצבו לעמוד לצד חבריהם לנשק במערכה הקשה.  אנו יוצאי־ות היחידות הקרביות והמודיעיניות, מסייעים בכל הנדרש למשפחות המילואמינקים־יות בהבנה שלפנינו אירוע מתגלגל המשתנה מדי שעה. אנחנו, תומכים־ות מהבית נעשה הכול כדי שאף אחד לא ישאר לבד.",
+      "initiativeValidationDetails": "Old group from start of war. Close to 1K members (including a friend from my contact list). Published by legit accounts: https://twitter.com/rotempe4/status/1711720860178886758, https://www.facebook.com/Arieli_Chen/posts/pfbid02E9eembsnK22iKAkDuZYNkbYtnkzJFKXNCgL74E6PSPWrNSyYR78PEzENBUrkPzrXl?__cft__[0]=AZUQr9WSxWcC-BN-LsG1fBYEL51gr6mHCzrexE6qAwxzaLVj_l0FMynzFW8bBdN3s_xzDSZYOmzjLLclBGw2Hj4zI5SCYvQyVeqX_WsEK6l-B9elyh8JyEbytYi8ENu5aqDzKs4Yy2-2geA08dQ7PHii&__tn__=%2CO%2CP-R",
+      "url": "https://www.miluimnik.org/",
+      "initiativeImage": "https://scontent.ftlv6-1.fna.fbcdn.net/v/t39.30808-6/391520799_122100336878071404_1547364722720635123_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=N4kFuNiQN8MAX9P1tfD&_nc_ht=scontent.ftlv6-1.fna&oh=00_AfDN1iOjWkhMxYldYmBq5TSr9tPOOV_Y4Ed6mBfYD1bioA&oe=65597F3A",
+      "website": "https://www.miluimnik.org/",
+      "phone": "0732272182",
+      "whatsapp": "https://chat.whatsapp.com/D5PH3yDjcJa2wB2oDnHeZC",
+      "telegram": "https://chat.whatsapp.com/DyVgn7FHpr73y9PilAfCI9",
+      "form": "https://www.miluimnik.org/volunteer-signup",
+      "facebook": "https://www.facebook.com/tomchimmehabait",
+      "tags": [
+        "מילואים",
+        "תמיכה",
+        "משפחות המילואימניקים"
+      ],
+      "createdAt": "2023-10-12T22:22:49+03:00"
+    },
+    {
+      "name": "AnchorForReserveFamilies",
+      "displayName": "העוגן למשפחות המילואים",
+      "description": "עזרה למשפחות משרתי מילואים, משרתי קבע והורים יחדניים מגני תקווה",
+      "shortDescription": "עזרה למשפחות משרתי מילואים, משרתי קבע והורים יחדניים מגני תקווה",
+      "initiativeValidationDetails": "מקור: קבוצת WhatsApp. קישור למקורות מהימנים המקדמים את היוזמה: https://govextra.gov.il/muni/maaleedomim/home/ פרטי קשר של חברי צוות היוזמה",
+      "url": "https://bit.ly/m/haogen4families",
+      "initiativeImage": "https://scontent.ftlv19-2.fna.fbcdn.net/v/t39.30808-6/394267775_122105624072076295_6369174910357387923_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=TO5Ssd1C9LEAX_aAMwZ&_nc_ht=scontent.ftlv19-2.fna&oh=00_AfDGX0zVziFXUq2cM10Tupero0eMGik5s0CdELPVkCIWCA&oe=653FD116",
+      "website": "https://bit.ly/m/haogen4families",
+      "facebook": "https://www.facebook.com/haogen4families?locale=he_IL",
+      "form": "https://forms.monday.com/forms/283d7bd8e98ba4fc2f2f1ab888c455a0?r=euc1",
+      "tags": [
+        "משרתי מילואים",
+        "משרתי קבע",
+        "הורים יחדניים",
+        "גני תקווה",
+        "דרום",
+        "מרכז",
+        "צפון"
+      ],
+      "createdAt": "2023-10-27T12:03:05+03:00"
+    }
+  ]
+}

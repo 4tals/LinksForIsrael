@@ -1,0 +1,32 @@
+{
+  "name": "Food",
+  "displayName": "יוזמות עבור אוכל לחיילים בחזית",
+  "links": [
+    {
+      "name": "WoltFoodDonations",
+      "displayName": "תרומות מזון ישירות דרך וולט",
+      "shortDescription": "מארזי תרומה למזון בסיסי",
+      "description": "מארזי תרומות של מזון דרך ולט לקניה של מזון בסיסי ושימורים",
+      "initiativeImage": "https://d21buns5ku92am.cloudfront.net/69274/documents/43826-1608038201-Wolt_logo_RGB-86ecff-medium.png",
+      "url": "https://wolt.com/he/isr/tel-aviv/venue/support-the-south",
+      "website": "https://wolt.com/he/isr/tel-aviv/venue/support-the-south",
+      "createdAt": "2023-10-12T22:22:49+03:00"
+    },
+    {
+      "name": "SweetOperation",
+      "displayName": "מבצע החמל המתוק",
+      "shortDescription": "מאפים ביתיים לכוחותינו בשטח",
+      "description": "החמ\"ל המתוק שלנו ממשיך לפנק את כוחותינו בשטח. בשישי הקרוב נגיע לחיילים ולשוטרים בדרום. רוצים להצטרף לאפייה / לעשייה? 🧁 מוזמנים לאפות עוגות, עוגיות ולהעביר לאחת מנקודות האיסוף שלנו (פירוט בהמשך). 🧁 אם אפייה היא לא הצד החזק שלכם ויש לכם רכב – נשמח שתצטרפו אלינו לשינוע וחלוקה בשישי בבוקר. 🧁 רוצים לפתוח נקודת איסוף באיזור מגוריכם? פנו אלינו בפרטי. ניתן להביא את התוצרים עד יום חמישי בערב (המשלוח יצא בבוקר). עזרו לנו לעשות לחיילים שלנו שבת מתוקה.",
+      "initiativeValidationDetails": "Source: Tamar Arbel - known public figure (talked to her personally) Link to reputable source(s) promoting the initiative: https://www.facebook.com/arbel.tamar/posts/pfbid0ZM3GfZ9MX7AAkfnsPZeFiE7Sf2sJMMxxpDebJJaeQeDyN62kSSwqZETAnR5PZY1al?locale=he_IL",
+      "initiativeImage": "https://hamalmatok.co.il/wp-content/uploads/2023/10/cropped-logotext.png",
+      "url": "https://hamalmatok.co.il/",
+      "tags": [
+        "חמאל",
+        "התנדבות",
+        "חיילים",
+        "מבצע החמל המתוק"
+      ],
+      "createdAt": "2023-11-05T13:05:01+02:00"
+    }
+  ]
+}

@@ -1,10 +1,10 @@
 {
-  "name": "InfoMain",
+  "name": "Info",
   "displayName": "מקורות מידע שעוזרים להסברה",
   "links": [
     {
-      "displayName": "Mapping the Massacres",
       "name": "oct7map",
+      "displayName": "Mapping the Massacres",
       "shortDescription": "A geovisualization depicting the atrocities perpetrated by Hamas on Israeli lands on October 7th",
       "description": "The October 7th Geo-visualization Project strives to provide a comprehensive representation of the atrocities committed by Hamas on that day. This interactive map serves as a reflection and an educational tool, promoting awareness of the gravity of the horrors.",
       "url": "https://oct7map.com/",
@@ -49,8 +49,8 @@
       "createdAt": "2023-11-02T13:01:02+02:00"
     },
     {
-      "displayName": "מאגר משאבים לטובת הסברה - לפי שפות",
       "name": "StrategicCommunicationsRepository",
+      "displayName": "מאגר משאבים לטובת הסברה - לפי שפות",
       "shortDescription": "מאגר של סרטוני הסברה ב-25 שפות",
       "description": "מאגר של סרטוני הסברה ב-25 שפות",
       "initiativeValidationDetails": "אומת על ידי עמית לעבודה",
@@ -67,8 +67,8 @@
       "createdAt": "2023-11-06T22:54:58+02:00"
     },
     {
-      "displayName": "חרבות ברזל עדכונים ותמונת מצב",
       "name": "InssWarData",
+      "displayName": "חרבות ברזל עדכונים ותמונת מצב",
       "shortDescription": "דסק הנתונים של המכון למחקרי ביטחון לאומי אוסף עבורכם את המידע העדכני והמדויק במהלך ימי המלחמה",
       "description": "לרבות נתונים שוטפים על הזירה הפנים-ישראלית, גזרת עזה, לבנון, איו'ש, הזירה האזורית והבינ'ל. בעמוד זה שבעה קבצי נתונים שונים - גללו מטה לצפייה בכולם. למשתמשי הסלולר מומלץ לצפות בעמוד במצב מאוזן.",
       "initiativeValidationDetails": "Known institution",
@@ -92,8 +92,8 @@
       "createdAt": "2023-11-09T23:24:54+02:00"
     },
     {
-      "displayName": "ארכיון ההסברה - טאגבוקס",
       "name": "hasbaraArchive",
+      "displayName": "ארכיון ההסברה - טאגבוקס",
       "shortDescription": "ארכיון ממוין לפי תגיות, נושאים ושפות של כל החומרים הרלוונטיים להסברה מתעדכן על ידי צוות ייעודיי",
       "description": "ארכיון ממוין לפי תגיות, נושאים ושפות של כל החומרים הרלוונטיים להסברה מתעדכן על ידי צוות ייעודיי",
       "initiativeValidationDetails": "Verified by @4tal, part of other shared Hasbara initiative",
@@ -106,24 +106,8 @@
       "createdAt": "2023-11-19T16:44:01+02:00"
     },
     {
-      "displayName": "הסברה ישראלית - הפצה",
-      "name": "StrategicCommunicationDistribution",
-      "shortDescription": "קבוצת ואצאפ להפצה של חומרי הסברה לחו'ל - לכל המדינות",
-      "description": "קבוצת הפצה של חומרי הסברה לחו'ל - לכל המדינות. ערוץ תקשורת מרכזי של המערך החוצה - כולל גם עדכונים, שיתופי פעולה וכו'",
-      "url": "https://chat.whatsapp.com/HXJqKmfzwT0HIb477Xx9ir",
-      "whatsapp": "https://chat.whatsapp.com/HXJqKmfzwT0HIb477Xx9ir",
-      "drive": "https://dwv4ag7si3i3i.cloudfront.net/index.html",
-      "tags": [
-        "הסברה",
-        "ישראל",
-        "חומר הסברה",
-        "קבוצת הפצה"
-      ],
-      "createdAt": "2023-11-16T14:35:34+02:00"
-    },
-    {
-      "displayName": "הספרייה הלאומית - רשימת פרויקטים - מאגר הלאומי לתיעוד מאורעות ה - 7.10",
       "name": "TheNationalLibrary",
+      "displayName": "הספרייה הלאומית - רשימת פרויקטים - מאגר הלאומי לתיעוד מאורעות ה - 7.10",
       "shortDescription": "המאגר של הספרייה הלאומית לתיעוד מאורעות ה - 7.10 למלחמה.",
       "description": "המאגר הלאומי לתיעוד מאורעות ה - 7.10 למלחמה. https://www.nli.org.il/he/at-your-service/who-we-are/projects/7-october-documentation",
       "initiativeValidationDetails": "Well Known Source, validated by @4tal",

@@ -1,6 +1,6 @@
 {
-  "name": "MissingPersonsMain",
-  "displayName": "נעדרים וחטופים",
+  "name": "Main",
+  "displayName": "ראשי",
   "links": [
     {
       "name": "TogetherForMissingPeople",
@@ -30,8 +30,8 @@
       "createdAt": "2023-10-12T22:22:49+03:00"
     },
     {
-      "displayName": "פלטפורמת חרבות הברזל לאיתור נעדרים",
       "name": "IronSwordsMissingPersonsLocation",
+      "displayName": "פלטפורמת חרבות הברזל לאיתור נעדרים",
       "shortDescription": "אנחנו כאן בשביל לעזור לכם למצוא את יקירכם. חפשו את שם הנעדר או הנעדרת, התעדכנו לגבי מצבם או שליחצו על הכפתור ושילחו לנו פרטים נוספים",
       "description": "אנחנו קבוצה פרטית של אנשים פרטיים שמנסים לעזור. האתר אינו של גורם רשמי של המדינה. אנחנו עושים את המיטב למיין ולבדוק את אמיתות המידע שנמסר, אך אין לנו דרך להגיע לדיוק של 100%.",
       "initiativeValidationDetails": "https://www.calcalistech.com/ctechnews/article/byez28ww6",

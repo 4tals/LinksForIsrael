@@ -25,7 +25,7 @@ body:
     attributes:
       label: Initiative Details
       description: Provide more details about the initiative
-      placeholder: >
+      placeholder: |
         Produces iron widgets in order to help the war effort. 
         Can also produce swords, but it's not our specialty.
     validations:
@@ -36,7 +36,7 @@ body:
     attributes:
       label: Initiative Validation Details
       description: Provide as much information as possible for us to be able to validate the authenticity of the initiative
-      value: |
+      placeholder: |
         Source: Are you the developer? If not, how did you hear about it?
         Link to reputable source(s) promoting the initiative: [e.g. https://www.israelhayom.co.il/tech/tech-news/iron-swords]
         Contact details for members of the initiative's team (so we can contact them directly for validation): [e.g. info@iron-widgets.com]
@@ -48,35 +48,36 @@ body:
     attributes:
       label: Initiative Category
       options:
-        - Agriculture/Main
-        - Children/Main
-        - Children/ReserveFamily
-        - Defense/Evacuation
-        - Defense/Shelters
-        - Defense/Weapons
-        - Donations/Agriculture
-        - Donations/Main
-        - Donations/Economy
-        - Evacuees/Main
-        - Evacuees/FamilyHostingMain
         - GeneralAssistance
-        - Initiatives/Main
-        - Medical/Main
-        - Medical/Info
-        - MemorialRemembrance/Main
-        - MissingPersons/Main
-        - StrategicCommunication/Funding
         - StrategicCommunication/Info
         - StrategicCommunication/Main
         - StrategicCommunication/SocialNetworks
         - StrategicCommunication/Tools
-        - Supplies/Donation
-        - Supplies/Main
-        - Supplies/Transportation
-        - TechInitiatives/Main
+        - Evacuees/Main
+        - Evacuees/FamilyHosting
+        - Defense/Main
+        - Defense/Rescue
+        - Defense/Shelters
+        - TechInitiatives/Tools
         - TechInitiatives/Support
         - TechInitiatives/Incubation
-        - Volunteering/Main
+        - SuppliesAndTransportation/Transportation
+        - SuppliesAndTransportation/Equipment
+        - SuppliesAndTransportation/Food
+        - Agriculture/Volunteer
+        - Agriculture/Support
+        - Economic/Donations
+        - Economic/Businesses
+        - Economic/Benefits
+        - FamilyAndPets/ChildrenContent
+        - FamilyAndPets/Pets
+        - FamilyAndPets/Family
+        - MissingPersons/Main
+        - Medical/Main
+        - Medical/MentalSupport
+        - MemorialRemembrance/Main
+        - Aggregators/Main
+
     validations:
       required: true
 

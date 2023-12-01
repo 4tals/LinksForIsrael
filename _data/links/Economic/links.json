@@ -1,0 +1,11 @@
+{
+  "name": "Economic",
+  "displayName": "כלכלי ועסקי",
+  "description": "תרומות כספיות, סיוע לעסקים, והטבות לצרכנים",
+  "image": "https://cdn-icons-png.flaticon.com/512/6203/6203343.png",
+  "subCategories": [
+    "Donations",
+    "Businesses",
+    "Benefits"
+  ]
+}

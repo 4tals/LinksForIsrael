@@ -1,6 +1,6 @@
 {
-  "name": "DefenseShelters",
-  "displayName": "השמשת מקלטים",
+  "name": "Shelters",
+  "displayName": "מקלטים",
   "links": [
     {
       "name": "MidragSheltersProject",
@@ -25,7 +25,6 @@
       "url": "https://rcu.co.il/",
       "initiativeImage": "https://rcu.co.il/wp-content/uploads/2022/10/new-logo.jpg",
       "phone": "1-700-700-426",
-      "article": "https://nadlan.walla.co.il/item/3614681",
       "tags": [
         "תיקון",
         "ממ\"ד",
