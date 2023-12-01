@@ -78,7 +78,13 @@ const CategoriesList: React.FC<CategoriesListProps> = ({
 									mx="auto"
 								/>
 							)}
-							<Text fontSize="xs" fontWeight="bold" mt={2} textAlign="center">
+							<Text
+								fontSize="xs"
+								width="80px"
+								fontWeight="bold"
+								mt={2}
+								textAlign="center"
+							>
 								{category.displayName}
 							</Text>
 						</Link>
