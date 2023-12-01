@@ -9,7 +9,8 @@
       "description": "יוזמה המחברת בין מבקשי ציוד לנותני ציוד",
       "tags": [],
       "url": "https://supply-match.com/",
-      "website": "https://supply-match.com/"
+      "website": "https://supply-match.com/",
+      "createdAt": "2023-10-12T22:22:08+03:00"
     },
     {
       "name": "IsraelGivesEmergencyAid",
@@ -27,7 +28,8 @@
         "ציוד",
         "אזרחים",
         "קרב"
-      ]
+      ],
+      "createdAt": "2023-10-23T19:46:52+03:00"
     },
     {
       "displayName": "מוקד אט'ל לפניות ציוד חסר בצבא",
@@ -49,7 +51,8 @@
         "ציוד חסר",
         "חרבות ברזל",
         "משרתי צהל"
-      ]
+      ],
+      "createdAt": "2023-11-09T23:40:39+02:00"
     }
   ]
 }

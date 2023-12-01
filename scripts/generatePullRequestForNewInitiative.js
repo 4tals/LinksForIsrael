@@ -338,6 +338,7 @@ ${linksJsonString}
     categoryJson.links[existingInitiativeIndex] = newInitiativeJson;
   }
   else {
+    newInitiativeJson.createdAt = (new Date()).toISOString();
     categoryJson.links.push(newInitiativeJson);
   }
   
