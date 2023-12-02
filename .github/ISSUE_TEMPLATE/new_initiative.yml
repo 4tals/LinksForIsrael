@@ -54,24 +54,17 @@ body:
         - StrategicCommunication/SocialNetworks
         - StrategicCommunication/Tools
         - Evacuees/Main
-        - Evacuees/FamilyHosting
         - Defense/Main
-        - Defense/Rescue
-        - Defense/Shelters
+        - Defense/Emergency
+        - TechInitiatives/SupportAndIncubation
         - TechInitiatives/Tools
-        - TechInitiatives/Support
-        - TechInitiatives/Incubation
+        - SuppliesAndTransportation/EquipmentAndFood
         - SuppliesAndTransportation/Transportation
-        - SuppliesAndTransportation/Equipment
-        - SuppliesAndTransportation/Food
-        - Agriculture/Volunteer
-        - Agriculture/Support
+        - Agriculture/Main
         - Economic/Donations
         - Economic/Businesses
-        - Economic/Benefits
+        - FamilyAndPets/Main
         - FamilyAndPets/ChildrenContent
-        - FamilyAndPets/Pets
-        - FamilyAndPets/Family
         - MissingPersons/Main
         - Medical/Main
         - Medical/MentalSupport
