@@ -1,6 +1,6 @@
 {
-  "name": "StrategicCommunicationTools",
-  "displayName": "כלים שימושיים לתמיכה בהסברה",
+  "name": "Tools",
+  "displayName": "כלים לתמיכה בהסברה",
   "links": [
     {
       "name": "HaravotDubbing",
@@ -20,8 +20,8 @@
       "createdAt": "2023-11-02T13:07:16+02:00"
     },
     {
-      "displayName": "Media Guard (by Social Media For Israel)",
       "name": "MediaGuard",
+      "displayName": "Media Guard (by Social Media For Israel)",
       "shortDescription": "כלים טכנולוגיים לניטור, איסוף וריכוז פוסטים רלוונטים למלחמה",
       "description": "אנחנו מפתחים כלים טכנולוגיים על מנת לנטר, לאסוף ולרכז את הפוסטים הרלוונטים ביותר למלחמה במקום אחד זמין ומונגש המאפשר למשתמשים וארגונים הן לבוא באינטראקציה עם הפוסטים והן להעביר את הדאטה (פוסטים) אל המערכות שלהם. בנוסף אנחנו מעשירים את הדאטה עם מודלים של AI לחיזוי ויראליות, תרגום אוטומאטי של פוסטים ויראליים וקלאסיפיקציה של עמדת הפוסט (פרו, אנטי ישראלי או נייטראלי).",
       "url": "https://chat.whatsapp.com/GhCCbHJ5Xn70wgCqb0753R",
@@ -52,27 +52,8 @@
       "createdAt": "2023-11-02T11:01:27+02:00"
     },
     {
-      "name": "WordsOfIron",
-      "displayName": "Words of Iron",
-      "shortDescription": "Boost Israel's Voice on Social Media with a Single Click!",
-      "description": "Boost Israel's Voice on Social Media with a Single Click!",
-      "initiativeValidationDetails": "https://www.calcalistech.com/ctechnews/article/bj9qt8hzt",
-      "initiativeImage": "https://wordsofiron.com/opengraph-image.jpg",
-      "url": "https://www.wordsofiron.com/en",
-      "website": "https://www.wordsofiron.com/en",
-      "tags": [
-        "חדשות",
-        "מדיה",
-        "כלי הסברה",
-        "עשייה משולבת",
-        "מיזמים",
-        "תקשורת חזקה"
-      ],
-      "createdAt": "2023-11-03T20:36:04+02:00"
-    },
-    {
-      "displayName": "טופס להוספת כתוביות לסרטונים",
       "name": "Autocap",
+      "displayName": "טופס להוספת כתוביות לסרטונים",
       "shortDescription": "גישה חינם לאפליקציית מובייל להוספת כתוביות לסרטוני הסברה בכל שפה",
       "description": "אפליקציה בתשלום אך מאפשרת שימוש חינם לטובת סרטוני הסברה לטובת ישראל, כל מי שמעוניין שימלא את הטופס ויקבל מייל תגובה עם פרטי הורדה ושימוש חינמי. האפליקציה מאפשרת לתמלל סרטונים ובסוף תהליך התמלול גם לתרגם בעזרת גוגל טרנסלייט",
       "initiativeValidationDetails": "Over 500K downloads in the android app store alone (Probably more in the Apple store",
@@ -87,8 +68,8 @@
       "createdAt": "2023-11-07T20:44:10+02:00"
     },
     {
-      "displayName": "חמ'ל עיצוב",
       "name": "DesignHamal",
+      "displayName": "חמ'ל עיצוב",
       "shortDescription": "מתנדבים יוצרים פרויקטים למטרות סיוע והסברה",
       "description": "בזמנים קשים אלו, אנו מעצבים ומעצבות, מציעים ללא תשלום את שירותינו לעמותות ויוזמות עצמאיות  שרוצות להיעזר בנו, לעיצוב פוסטים ועיצובים לסושיאל, הכנת סרטונים, עיצוב אתרים, איור וכו׳",
       "initiativeValidationDetails": "https://www.prtfl.co.il/archives/190109",
@@ -106,11 +87,11 @@
       "createdAt": "2023-11-09T22:18:22+02:00"
     },
     {
-      "displayName": "להלחם בחזרה בטלגרם",
       "name": "FightBackAI",
+      "displayName": "להלחם בחזרה בטלגרם",
       "shortDescription": "LLM’s enlisted to help Hasbara",
       "description": "We've empowered over 1,700 individuals through our AI-driven public diplomacy efforts, and we're just getting started 🇮🇱. One month ago was the deadliest day Israel ever had. After the first two weeks of shock, Roy S. and I felt the call to help in the public diplomacy front. With our product and tech background, we developed a genAI solution.",
-      "initiativeValidationDetails": "Source: Are you the developer? If not, how did you hear about it?",
+      "initiativeValidationDetails": "Legit profile: https://www.linkedin.com/in/yehonatan-yosefi-1091261b9",
       "url": "https://t.me/fightbackai_bot",
       "website": "https://t.me/fightbackai_bot",
       "telegram": "https://t.me/fightbackai_bot",
@@ -125,48 +106,8 @@
       "createdAt": "2023-11-17T14:58:53+02:00"
     },
     {
-      "displayName": "לנצח כל אדיוט בויכוח",
-      "name": "fuck-hamas",
-      "shortDescription": "Argue Down Any Idiot In a matter of seconds",
-      "description": "Use our tool to fight antisemitism and pro-Palestinian idiots by fighting with hard facts and clear conviction",
-      "initiativeValidationDetails": "Published by legitimate profile: https://www.linkedin.com/feed/update/urn:li:activity:7119216100805857280?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7119216100805857280%2C7119226823388872704%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287119226823388872704%2Curn%3Ali%3Aactivity%3A7119216100805857280%29",
-      "url": "https://www.commentron.ai/fuck-hamas",
-      "website": "https://www.commentron.ai/fuck-hamas",
-      "linkedin": "https://www.linkedin.com/feed/update/urn:li:activity:7119216100805857280?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7119216100805857280%2C7119226823388872704%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287119226823388872704%2Curn%3Ali%3Aactivity%3A7119216100805857280%29",
-      "youtube": "https://www.youtube.com/watch?v=frUmtcaKnR4",
-      "initiativeImage": "https://static.wixstatic.com/media/7fc51c_44f03a54c5444ae09c34d96d1161643f~mv2.png/v1/fill/w_214,h_214,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/%D7%9E%D7%99%D7%96%D7%9D%20%D7%97%D7%93%D7%A9.png",
-      "tags": [
-        "לנצח",
-        "אדיוט",
-        "בויכוח",
-        "התנגדות",
-        "אנטישמיות"
-      ],
-      "createdAt": "2023-10-11T11:59:18+03:00"
-    },
-    {
-      "displayName": "ישראל נלחמת בחזרה",
-      "name": "israelfightsback",
-      "shortDescription": "harness the global Israeli-supporting public to the advocacy efforts",
-      "description": "The platform fetches thousands of Tweets daily, employs various machine learning techniques and identifies each if it is pro Israel or against it. Use this tool to identify posts you support and report the bad guys.",
-      "initiativeValidationDetails": "Published by credible profile: https://www.linkedin.com/feed/update/urn:li:activity:7129593577231310848/",
-      "url": "http://israelfightsback.info/",
-      "website": "http://israelfightsback.info/",
-      "linkedin": "https://www.linkedin.com/feed/update/urn:li:activity:7129593577231310848/",
-      "initiativeImage": "https://www.gstatic.com/analytics-lego/svg/ic_looker_studio.svg",
-      "tags": [
-        "ישראל",
-        "נלחמת",
-        "חיזור",
-        "כלים",
-        "טוויטר",
-        "מערכתי למידה"
-      ],
-      "createdAt": "2023-11-17T13:28:31+02:00"
-    },
-    {
-      "displayName": "אלה GPT",
       "name": "EllaGPT",
+      "displayName": "אלה GPT",
       "shortDescription": "Sharp, sarcastic tweets countering hate speech in 220 characters.",
       "description": "התחלתי לשחק עם GPTs והדבר הראשון שחשבתי עליו הוא בוט שכותב תגובות לאנטישמים ומכחישי מציאות בטוויטר. מוזמנים להשתמש ב-EllaGPT. פשוט תעתיקו פוסט ותעתיקו את התשובה אליו חזרה. אם יש לכם הצעות לשיפור, מוזמנים לשלוח הודעה",
       "initiativeValidationDetails": "published by legit profile: https://twitter.com/alono88/status/1723275520798769174",
@@ -184,24 +125,8 @@
       "createdAt": "2023-11-17T22:29:40+02:00"
     },
     {
-      "displayName": "Scooper - ניטור ומחקר ברשת",
-      "name": "Scooper - ניטור ומחקר ברשת",
-      "shortDescription": "ניתור ומחקר ברשת, מאפשר לראות פוסטים טרנדים לפי איזורים ופוסטים עם הכי הרבה מעורבות",
-      "description": "ניתור ומחקר ברשת, מאפשר לראות פוסטים טרנדים לפי איזורים ופוסטים עם הכי הרבה מעורבות",
-      "initiativeValidationDetails": "Verified Manually by @4tal",
-      "url": "https://access.scooper.co.il/app/project/7821ad26-cc00-4a3f-998b-a3521c2f7cfe/shared_dashboard/export_Scooper6_hVq6X5yN.html#/SHARED_DASHBOARD#co=project&cid=7821ad26-cc00-4a3f-998b-a3521c2f7cfe&psid=export_Scooper6_hVq6X5yN.html&keyid=undefined&data=eyJyIjp7ImEiOnsiYWN0aXZlUGFnZUlkIjoiREVGQVVMVC1EQVNILVNFQ1RJT04ifSwiaSI6IlNIQVJFRF9EQVNIQk9BUkQiLCJzIjpbXX19",
-      "initiativeImage": "https://access.scooper.co.il/app/image/ae8a9c0a-2f60-4b7a-b00e-25332e68583a",
-      "website": "https://access.scooper.co.il/app/project/7821ad26-cc00-4a3f-998b-a3521c2f7cfe/shared_dashboard/export_Scooper6_hVq6X5yN.html#/SHARED_DASHBOARD#co=project&cid=7821ad26-cc00-4a3f-998b-a3521c2f7cfe&psid=export_Scooper6_hVq6X5yN.html&keyid=undefined&data=eyJyIjp7ImEiOnsiYWN0aXZlUGFnZUlkIjoiREVGQVVMVC1EQVNILVNFQ1RJT04ifSwiaSI6IlNIQVJFRF9EQVNIQk9BUkQiLCJzIjpbXX19",
-      "tags": [
-        "ניטור",
-        "מחקר",
-        "פוסטים"
-      ],
-      "createdAt": "2023-11-24T15:28:39+02:00"
-    },
-    {
-      "displayName": "Hasbaraa.com",
       "name": "Hasbaraa",
+      "displayName": "Hasbaraa.com",
       "shortDescription": "כלים, חומרים, והדרכות בנושא הסברה",
       "description": "צוות מצומצם ומפוקס של אנשי מקצוע שהתאגדו יחד עם מומחים בהסברה ושכנוע, מיתוג ואסטרטגיה במטרה לתמוך בכוחות שנלחמים עבור המדינה בחזית ההסברה. אנו פועלים תוך כדי התוויית אסטרטגיה, חינוך והעשרה להסברה אפקטיבית, ייעוץ ותמיכה מקצועית ויצירת סינרגיות בין החמ״לים השונים, מובילי דעת קהל וגופים ממשלתיים לריכוז מאמץ ואימפקט.",
       "initiativeValidationDetails": "https://www.linkedin.com/in/ariel-halevi-82100a1/",

@@ -1,0 +1,65 @@
+{
+  "name": "Main",
+  "displayName": "ראשי",
+  "links": [
+    {
+      "name": "PoliceAreyil",
+      "displayName": "גיוס מתנדבים - הערכות למהומות",
+      "shortDescription": "גיוס אזרחי לסיוע לתושבים בערים המעורבות, בנגב ובגליל.",
+      "description": "חמ'ל אחוד של הארגונים 'ערי ישראל' ו'ישראל שלי' מגייס מתנדבים לסיוע למערכי החירום בתיאום עם משטרת ישראל, על פי הצורך שיעלה מהשטח ועל פי הכוונת המשטרה",
+      "initiativeValidationDetails": "https://www.kan.org.il/content/kan-news/defense/558950/",
+      "url": "https://bit.ly/PoliceAreyil",
+      "website": "https://myisrael.org.il/",
+      "whatsapp": "https://wa.me/972533906252",
+      "telegram": "http://t.me/myisrael2",
+      "form": "https://bit.ly/PoliceAreyil",
+      "facebook": "https://www.facebook.com/MyIsrael",
+      "instagram": "https://www.instagram.com/myisraelorg/",
+      "tiktok": "https://tiktok.com/@my_israel22",
+      "twitter": "https://twitter.com/MyIsraelorgil",
+      "tags": [
+        "ערי ישראל",
+        "ישראל שלי",
+        "מתנדבים",
+        "חירום",
+        "משטרה"
+      ],
+      "createdAt": "2023-11-09T23:47:14+02:00"
+    },
+    {
+      "name": "NationalDroneInitiative",
+      "displayName": "מיזם הרחפנים הלאומי - National Drone Initiative",
+      "shortDescription": "התנדבות ליוזמות הטסה",
+      "description": "מיזם הרחפנים הלאומי עוסק בהסדרת המרחב האווירי ובניית תשתיות רגולטוריות להטסת כלים אוטונומיים לתועלת הציבור.",
+      "url": "https://innovationisrael.org.il/civiliandronecenter/",
+      "website": "https://innovationisrael.org.il/civiliandronecenter/",
+      "initiativeValidationDetails": "המקור: קבוצת וואטסאפ. קישור למקור מהימן שמקדם את המיזם: https://innovationisrael.org.il/civiliandronecenter/. האתר הרשמי של רשות החדשנות.",
+      "initiativeImage": "https://innovationisrael.org.il/wp-content/uploads/2023/10/Untitled-1-1024x188.png",
+      "tags": [
+        "התנדבות",
+        "רחפנים",
+        "הרחפנים הלאומי",
+        "רחפן",
+        "טכנולוגיה"
+      ],
+      "createdAt": "2023-10-27T12:17:44+03:00"
+    },
+    {
+      "name": "AttackMediaCollecting",
+      "displayName": "מערך הדיגיטל הלאומי - איסוף מדיה מיום מתקפת הפתע",
+      "shortDescription": "מיזם שמשתמש ביכולות  ופלטפורמת המוצר שלנו Cloudinary בכדי לייצר פתרון להעלאת סרטונים, תמונות ומידע  מאזרחים הקשור לאירועי מתקפת  ה-07.10.2023.",
+      "description": "מיזם שמשתמש ביכולות  ופלטפורמת המוצר שלנו Cloudinary בכדי לייצר פתרון להעלאת סרטונים, תמונות ומידע  מאזרחים הקשור לאירועי מתקפת  ה-07.10.2023. המיזם נעשה בשיתוף עם נציג המערך הדיגיטלי הלאומי  תחת מוקד ערב״ה שהוקם לצרכי נתינת  פתרונות טכנולוגיים בשעת חירום זו. המידע יועבר למוקד 105 וכן לגופי בטחון ומודיעין. המוקד מבקש כעת מהציבור לשתף תמונות וסרטונים מהימים הנוראים הללו, לצורך העברתם למשטרת ישראל וגופי הביטחון השונים.  ניתן להעביר תמונות וסרטונים באמצעות הטופס המקוון הבא: *ייעשה שימוש במידע רק למטרות שלשמן התקבל המידע.",
+      "initiativeValidationDetails": "Reputable source: https://www.facebook.com/israelgov/posts/pfbid04pwm1er9x5a4YXvHfPoeN3tpy4xAKcEVrC3g5LCd8GHkwEsWANvUYrVfdZEsWtHHl?locale=he_IL",
+      "url": "https://upload.mokedarava.org/",
+      "form": "https://upload.mokedarava.org/",
+      "tags": [
+        "איסוף מדיה",
+        "מערך דיגיטל לאומי",
+        "תמונות",
+        "סרטונים",
+        "מתקפה"
+      ],
+      "createdAt": "2023-11-07T00:04:38+02:00"
+    }
+  ]
+}

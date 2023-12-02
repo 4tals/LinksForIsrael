@@ -1,7 +1,38 @@
 {
-  "name": "AgricultureMain",
-  "displayName": "חקלאות",
+  "name": "Main",
+  "displayName": "ראשי",
   "links": [
+    {
+      "name": "BuyFromIsraeliAgriculture",
+      "displayName": "קונים חקלאות ישראלית",
+      "shortDescription": "מיזם מתכלל שנועד לחבר בין חקלאים שנפגעו במלחמה לצרכנים מכל הסוגים.",
+      "description": "מטרת המיזם היא הצלת הפרנסה של החקלאים, הצלת הסחורה והתוצרת, ומכירה במחירים רואיים לצרכנים.",
+      "initiativeValidationDetails": "https://www.facebook.com/groups/buying.agr.il , https://www.instagram.com/buying.agr.il/ , https://www.linkedin.com/in/%D7%A7%D7%95%D7%A0%D7%99%D7%9D-%D7%97%D7%A7%D7%9C%D7%90%D7%95%D7%AA-%D7%99%D7%A9%D7%A8%D7%90%D7%9C%D7%99%D7%AA-volunteers-4756a129a/",
+      "url": "https://linktr.ee/buying.agr.il",
+      "initiativeImage": "/images/BuyFromIsraeliAgriculture-e18b19e7-d8b9-48be-8450-57d9210ed5f5.jpg",
+      "website": "https://linktr.ee/buying.agr.il",
+      "phone": "054-6351023",
+      "email": "liat.arbel@thenaturalstep.co.il",
+      "whatsapp": "https://chat.whatsapp.com/HH2MoZqhgCy1fkm7n8LiCn",
+      "facebook": "https://www.facebook.com/groups/buying.agr.il",
+      "instagram": "https://www.instagram.com/buying.agr.il/",
+      "twitter": "https://twitter.com/buying_agr_il",
+      "linkedin": "https://www.linkedin.com/search/results/all/?heroEntityKey=urn%3Ali%3Afsd_profile%3AACoAAEhcW1kBbaQ1OLJoZP6Ttqk8narjZvZhy5Q&keywords=%D7%A7%D7%95%D7%A0%D7%99%D7%9D%20%D7%97%D7%A7%D7%9C%D7%90%D7%95%D7%AA%20%D7%99%D7%A9%D7%A8%D7%90%D7%9C%D7%99%D7%AA%20volunteers&origin=ENTITY_SEARCH_HOME_HISTORY&sid=4%2C3",
+      "tags": [
+        "חקלאות",
+        "ישראל",
+        "מזרח תיכון",
+        "חקלאים",
+        "קנייה",
+        "הפקת מזון",
+        "משא ומתן",
+        "גיוס כספים מהציבור",
+        "צרכנים",
+        "פרנסה",
+        "מייבאים"
+      ],
+      "createdAt": "2023-11-30T16:58:21+02:00"
+    },
     {
       "name": "NewGuard",
       "displayName": "השומר החדש",
@@ -25,7 +56,6 @@
       "shortDescription": "פלטפורמה המחברת חקלאים ומתנדבים לסיוע חקלאי.",
       "website": "https://www.hashomer.org.il/featured_item/sundo/",
       "url": "https://www.hashomer.org.il/featured_item/sundo/",
-      "article": "https://www.hashomer.org.il/featured_item/sundo/",
       "initiativeImage": "https://play-lh.googleusercontent.com/F-KqLf99JGeA2GqZ6ZlQO0mOA-6w5VDLD8pUdU9vRKljcf56eTP8fipJdw2EzFUZxo4=s48-rw",
       "initiativeValidationDetails": "המקור: הקבוצה בטלגרם. הקישור למקור מאוד מוכר שמקדם את היוזמה: https://www.hashomer.org.il/featured_item/sundo/ השומר הצעיר - עמותה ידועה ומהימנה.",
       "tags": [
@@ -56,8 +86,8 @@
       "createdAt": "2023-10-31T20:43:13+02:00"
     },
     {
-      "displayName": "לקט ישראל - מתנדבים למשקים",
       "name": "LeketIsraelFarmersVolonteers",
+      "displayName": "לקט ישראל - מתנדבים למשקים",
       "shortDescription": "התנדבות למשקים בדרום בעקבות המלחמה",
       "description": "חקלאים רבים גוייסו למלחמה, ועובדים זרים עזבו את השדות. משקים חקלאים נותרו ללא ידיים עובדות ועם תוצרת חקלאית שצריך לקטוף.\nארגון לקט ישראל מסייע לחקלאים בגיוס מתנדבים וקורא לכם לסייע לחקלאות הישראלית בעת משבר.",
       "initiativeValidationDetails": "Well established organization: https://en.wikipedia.org/wiki/Leket_Israel",
@@ -76,8 +106,8 @@
       "createdAt": "2023-11-03T20:47:47+02:00"
     },
     {
-      "displayName": "אחים למשק",
       "name": "BrothersInFarms",
+      "displayName": "אחים למשק",
       "shortDescription": "התנדבויות חקלאיות ברחבי הארץ",
       "description": "הארגון משדך אזרחים שמעוניינים להתנדב לעבודה חקלאית (חלקה בתנאים קשים, בשמש ותחת איום טילים) במשקים הזקוקים לידיים עובדות",
       "initiativeValidationDetails": "פרטים אישיים של חברה בארגון",
@@ -95,8 +125,8 @@
       "createdAt": "2023-11-11T15:14:44+02:00"
     },
     {
-      "displayName": "משק חי",
       "name": "MeshekHai",
+      "displayName": "משק חי",
       "shortDescription": "מסייעים ביחד למשקים של ישראל",
       "description": "מצטרפים לקרב על הבית! בעקבות מחסור בכוח אדם שעזב בשל המצב, עשרות משקים בישראל זקוקים למתנדבים שיוכלו לסייע באופן מיידי לקטוף את היבול לפני שהוא נרקב. כאן תוכלו למצוא את המקומות שניתן להתנדב בהם, באמצעות פניה ישירות לבעלי המשקים.",
       "initiativeValidationDetails": "https://www.calcalist.co.il/local_news/article/bkgy6ec11t",
@@ -112,8 +142,8 @@
       "createdAt": "2023-11-11T15:28:14+02:00"
     },
     {
-      "displayName": "התנדבות לחקלאות בעוטף ובצפון",
       "name": "FarmingIsrael",
+      "displayName": "התנדבות לחקלאות בעוטף ובצפון",
       "shortDescription": "מדי יום נשלחות בקבוצה בקשות לעזרה בחקלאות בעוטף ובצפון מכ-40 משקים שאנו מסייעים להם",
       "description": "בחרו משימה, הצטרפו לקבוצת ווטסאפ עם החקלאי וקבלו את כל הפרטים. אנו קבוצת מתנדבים פרטיים שלא קשורים לשום גוף או עמותה. כל הקבוצות זהות ומספיק להיות בקבוצה אחת בלבד",
       "initiativeValidationDetails": "groups have thousands of members, talked personally with the owner (in fact I suggested the linktree)",
@@ -133,8 +163,8 @@
       "createdAt": "2023-11-11T15:44:24+02:00"
     },
     {
-      "displayName": "טרמפים למשקים הלוך וחזור",
       "name": "FarmRide",
+      "displayName": "טרמפים למשקים הלוך וחזור",
       "shortDescription": "קבוצות טרמפים מרוכזת לכל המשקים",
       "description": "רוב המשקים נמצאים סמוך זה לזה וכשמגיעים לאיזור קל יותר להגיע למשק. כרגע התחברוה הציבורית היא רק עד לצאלים. אז תעזרו אחד לשני בקבוצה הזו ובמידה ואתם חוששים תעשו שיחת וידאו עם הבנאדם לפני כן כדי לוודא שאפשר לסמוך עליו. אנחנו מנסים להשיג הסעות אז תתעדכנו מידי פעם על הסעה/",
       "initiativeValidationDetails": "I talked to the admin, who posted and validated the rest of the groups: https://www.facebook.com/groups/farmingil/posts/854044209501014/",
@@ -151,8 +181,8 @@
       "createdAt": "2023-11-12T02:44:41+02:00"
     },
     {
-      "displayName": "עבודה בחקלאות בזמן מלחמה",
       "name": "WorkInAgricultureDuringWar",
+      "displayName": "עבודה בחקלאות בזמן מלחמה",
       "shortDescription": "בקבוצה מפרסמים רק עבודות, כולל מקומות שיש עובדים לטווח ארוך לצד מתנדבים לטווח קצר.",
       "description": "אנחנו  מבינים שכרגע חלק מהחקלאים זקוקים למתנדבים להצלת יבול לאור המצב ואין ביכולתם לשלם, ולהם יתאימו מתנדבים שבאים ליומיים שלושה. ואילו אחרים שנפגעו פחות משלל אילוצי המלחמה יוכלו לשלם בקבלנות או לפי שעות לשיקולם, מחפשים עובדים שיכולים להתחייב לטווח ארוך יותר, ובלבד שיש ניסיון/כושר נדרש. קבלו בהבנה שאתם מתחרים בשכר וביכולת עבודה של תאילנדים..... כולנו במצב מלחמה ונעבור את זה ביחד.",
       "initiativeValidationDetails": "Talked to the group's creator: https://www.facebook.com/groups/farmingil/posts/856664899238945/",
@@ -172,8 +202,8 @@
       "createdAt": "2023-11-12T02:54:08+02:00"
     },
     {
-      "displayName": "נרתמים לחקלאות",
       "name": "HarnessedToAgriculture",
+      "displayName": "נרתמים לחקלאות",
       "shortDescription": "פועל  לילות כימים כדי לסייע לחקלאות הישראלית, באמצעות גיוס מתנדבים ומתנדבות מצפון ועד דרום",
       "description": "הצטרפו אלינו כבר למעלה מ- 2,500 מתנדבים שמסייעים מידי יום לעשרות חקלאים בכל רחבי הארץ כולל בעוטף. אנחנו מזמינים אתכם להצטרף אלינו, לתת כתף, לצאת קצת לשטח להרגיש אדמה ולסייע במקום בו באמת צריכים אתכם. הצטרפו לקבוצת הוואטסאפ, שם אנחנו מפרסמים מידי יום מידע על התנדבויות במשקים חקלאים. את פירות העבודה שלכם תגלו אצל הירקנים בעוד שבוע.",
       "initiativeValidationDetails": "Initiative Backed by IBI: https://www.facebook.com/IBIinvest/posts/pfbid0CzNhpa2Aq5JMfY4WpbwPkjsy9xH7pgksBtYR1FZsXr5ixScTiAUeBaDsTdHvzM8Jl?locale=el_GR",
@@ -192,8 +222,8 @@
       "createdAt": "2023-11-12T03:04:16+02:00"
     },
     {
-      "displayName": "מרתון ישראל - רצים למען החקלאות",
       "name": "RunForAgriculture",
+      "displayName": "מרתון ישראל - רצים למען החקלאות",
       "shortDescription": "צוות מרתון ישראל למען החקלאים",
       "description": "עוד יום פורה ומספק עבר על כוחותינו במיזם 'רצים למען החקלאים'  ברחבי הארץ- מצפון עד דרום.  מעל ל- 1500 רצים וחברים שותפים לו. \nגם הבוקר קטפנו, מסקנו, שתלנו, ניקינו, ארזנו ובעיקר- עזרנו לעשרות חקלאים קצת לנשום לרווחה ולהוריד מהם לחצים וקשיים. ",
       "initiativeValidationDetails": "Well known group from way before th war",
@@ -210,8 +240,8 @@
       "createdAt": "2023-11-12T03:09:51+02:00"
     },
     {
-      "displayName": "קוטף בעוטף",
       "name": "KotefBaotef",
+      "displayName": "קוטף בעוטף",
       "shortDescription": "מתנדבים בעזרה לחקלאים בעוטף עזה",
       "description": "אנחנו  פועלים בכמה משקים, ונשמח לעזור :) מי שלא יכול להגיע לעזור פיזית, יכול לעזור בתמיכה מרחוק במתנדבים, אנחנו צריכים ארוחות חמות צהריים וערב ל20 איש כל יום בימים הקרובים. אם יש שאלות ספציפיות אל תהססו לשאול. מחכים לכם אלופים.",
       "initiativeValidationDetails": "Known group with thousands of members, published by one of the main agriculture organizers: https://www.facebook.com/groups/846411716930930?multi_permalinks=858500252388743&hoisted_section_header_type=recently_seen",
@@ -228,8 +258,8 @@
       "createdAt": "2023-11-12T03:13:54+02:00"
     },
     {
-      "displayName": "מחזקים את החקלאים",
       "name": "StrengtheningTheFarmers",
+      "displayName": "מחזקים את החקלאים",
       "shortDescription": "תנועת 'אם תרצו' מזמינה אתכם להצטרף אלינו לפעילות חקלאית התנדבותית ברחבי הארץ.",
       "description": "הפעילות מגוונת ותלויה בצרכי החקלאים. הרשמו עכשיו והצטרפו אלינו למעגל של סולידריות חברתית ואהבת הארץ.",
       "initiativeValidationDetails": "https://eng.imti.org.il/%D7%9E%D7%97%D7%96%D7%A7%D7%99%D7%9D-%D7%90%D7%AA-%D7%94%D7%97%D7%A7%D7%9C%D7%90%D7%99%D7%9D-%D7%A4%D7%A8%D7%95%D7%99%D7%A7%D7%98-%D7%9E%D7%AA%D7%A0%D7%93%D7%91%D7%99%D7%9D/",
@@ -250,37 +280,6 @@
         "חקלאים"
       ],
       "createdAt": "2023-11-13T21:36:20+02:00"
-    },
-    {
-      "displayName": "קונים חקלאות ישראלית",
-      "name": "BuyFromIsraeliAgriculture",
-      "shortDescription": "מיזם מתכלל שנועד לחבר בין חקלאים שנפגעו במלחמה לצרכנים מכל הסוגים.",
-      "description": "מטרת המיזם היא הצלת הפרנסה של החקלאים, הצלת הסחורה והתוצרת, ומכירה במחירים רואיים לצרכנים.",
-      "initiativeValidationDetails": "https://www.facebook.com/groups/buying.agr.il , https://www.instagram.com/buying.agr.il/ , https://www.linkedin.com/in/%D7%A7%D7%95%D7%A0%D7%99%D7%9D-%D7%97%D7%A7%D7%9C%D7%90%D7%95%D7%AA-%D7%99%D7%A9%D7%A8%D7%90%D7%9C%D7%99%D7%AA-volunteers-4756a129a/",
-      "url": "https://linktr.ee/buying.agr.il",
-      "initiativeImage": "/images/BuyFromIsraeliAgriculture-e18b19e7-d8b9-48be-8450-57d9210ed5f5.jpg",
-      "website": "https://linktr.ee/buying.agr.il",
-      "phone": "054-6351023",
-      "email": "liat.arbel@thenaturalstep.co.il",
-      "whatsapp": "https://chat.whatsapp.com/HH2MoZqhgCy1fkm7n8LiCn",
-      "facebook": "https://www.facebook.com/groups/buying.agr.il",
-      "instagram": "https://www.instagram.com/buying.agr.il/",
-      "twitter": "https://twitter.com/buying_agr_il",
-      "linkedin": "https://www.linkedin.com/search/results/all/?heroEntityKey=urn%3Ali%3Afsd_profile%3AACoAAEhcW1kBbaQ1OLJoZP6Ttqk8narjZvZhy5Q&keywords=%D7%A7%D7%95%D7%A0%D7%99%D7%9D%20%D7%97%D7%A7%D7%9C%D7%90%D7%95%D7%AA%20%D7%99%D7%A9%D7%A8%D7%90%D7%9C%D7%99%D7%AA%20volunteers&origin=ENTITY_SEARCH_HOME_HISTORY&sid=4%2C3",
-      "tags": [
-        "חקלאות",
-        "ישראל",
-        "מזרח תיכון",
-        "חקלאים",
-        "קנייה",
-        "הפקת מזון",
-        "משא ומתן",
-        "גיוס כספים מהציבור",
-        "צרכנים",
-        "פרנסה",
-        "מייבאים"
-      ],
-      "createdAt": "2023-11-30T16:58:21+02:00"
     }
   ]
 }

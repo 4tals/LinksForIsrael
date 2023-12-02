@@ -1,10 +1,9 @@
 {
   "name": "Evacuees",
-  "displayName": "מפונים",
-  "description": "מפונים ונפגעים מקו הלחימה",
+  "displayName": "אירוח ותמיכה במפונים",
+  "description": "אירוח ותמיכה במפונים ונפגעים מקו הלחימה",
   "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScbD8TP2_MijgcqaBOR4BCwYA25jL-Z8_3fQ&usqp=CAU",
   "subCategories": [
-    "Main",
-    "FamilyHostingMain"
+    "Main"
   ]
 }

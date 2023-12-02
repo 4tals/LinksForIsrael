@@ -1,17 +1,207 @@
 {
-  "name": "StrategicCommunicationSocialNetworks",
+  "name": "SocialNetworks",
   "displayName": "רשתות חברתיות",
   "links": [
     {
-      "name": "The Iron Fire - פיטורי הברזל",
+      "name": "WordsOfIron",
+      "displayName": "Words of Iron",
+      "shortDescription": "Boost Israel's Voice on Social Media with a Single Click!",
+      "description": "Boost Israel's Voice on Social Media with a Single Click!",
+      "initiativeValidationDetails": "https://www.calcalistech.com/ctechnews/article/bj9qt8hzt",
+      "initiativeImage": "https://wordsofiron.com/opengraph-image.jpg",
+      "url": "https://www.wordsofiron.com/en",
+      "website": "https://www.wordsofiron.com/en",
+      "tags": [
+        "חדשות",
+        "מדיה",
+        "כלי הסברה",
+        "עשייה משולבת",
+        "מיזמים",
+        "תקשורת חזקה"
+      ],
+      "createdAt": "2023-11-03T20:36:04+02:00"
+    },
+    {
+      "name": "IronLikes",
+      "displayName": "Iron Likes - לייקים של ברזל",
+      "shortDescription": "מאפשרת למשתמשים לעשות מאות ואלפי לייקים ללא מאמץ לפוסטים פרו-ישראלים",
+      "description": "מערכת Iron Likes מאפשרת למשתמשים לעשות מאות ואלפי לייקים ללא מאמץ לפוסטים פרו-ישראלים, באמצעות אתר ותוסף לדפדפן. הציוצים והפוסטים המקודמים נבחרים בקפידה על ידי צוות מצומצם ואיכותי של מתנדבים. לייק הינה הדרך היעילה ביותר לקדם פוסטים, ולכן הכלי יכול להיות בעל השפעה משמעותית על התפוצה של חומרים פרו-ישראליים ברשת.",
+      "url": "https://ironlikes.com/",
+      "website": "https://ironlikes.com/",
+      "tags": [
+        "סושיאל",
+        "פייסבוק",
+        "טוויטר",
+        "הסברה"
+      ],
+      "createdAt": "2023-10-18T23:53:13+03:00"
+    },
+    {
+      "name": "israelfightsback",
+      "displayName": "ישראל נלחמת בחזרה",
+      "shortDescription": "harness the global Israeli-supporting public to the advocacy efforts",
+      "description": "The platform fetches thousands of Tweets daily, employs various machine learning techniques and identifies each if it is pro Israel or against it. Use this tool to identify posts you support and report the bad guys.",
+      "initiativeValidationDetails": "Published by credible profile: https://www.linkedin.com/feed/update/urn:li:activity:7129593577231310848/",
+      "url": "http://israelfightsback.info/",
+      "website": "http://israelfightsback.info/",
+      "linkedin": "https://www.linkedin.com/feed/update/urn:li:activity:7129593577231310848/",
+      "initiativeImage": "https://www.gstatic.com/analytics-lego/svg/ic_looker_studio.svg",
+      "tags": [
+        "ישראל",
+        "נלחמת",
+        "חיזור",
+        "כלים",
+        "טוויטר",
+        "מערכתי למידה"
+      ],
+      "createdAt": "2023-11-17T13:28:31+02:00"
+    },
+    {
+      "name": "Oct7.App",
+      "displayName": "אוקט7 - אפילקצית תגובות",
+      "shortDescription": "אפליקציה לתגובות מהירות על פוסטים ויראליים",
+      "description": "חיזוק הסנטימנט הפרו-ישראלי באמצעות תגובות לפוסטים בעלי השפעה",
+      "initiativeValidationDetails": "Posted by legit account: https://www.linkedin.com/posts/shlomit-cohen_oct7-home-winning-the-social-media-war-activity-7129491902894120961-c_1q?utm_source=share&utm_medium=member_desktop",
+      "url": "https://app.oct7.io/",
+      "website": "https://www.oct7.io/",
+      "form": "https://docs.google.com/forms/d/e/1FAIpQLSelJNsyZfpKVdcIyrDKlGpb2Y65w3spI8PeWyd3nzKp8Yl_zA/viewform",
+      "linkedin": "https://www.linkedin.com/posts/shlomit-cohen_oct7-home-winning-the-social-media-war-activity-7129491902894120961-c_1q?utm_source=share&utm_medium=member_desktop",
+      "initiativeImage": "https://www.oct7.io/wp-content/uploads/2023/10/oct7-logo-squre-dark-mode-e1699204867126.webp",
+      "tags": [
+        "אוקט7",
+        "תגובות",
+        "פוסטים ויראליים",
+        "סנטימנט פרו-ישראלי",
+        "תקשורת אסטרטגית"
+      ],
+      "createdAt": "2023-11-17T01:00:49+02:00"
+    },
+    {
+      "name": "ShareItIl",
+      "displayName": "ShareItIl - שייר איט ישראל",
+      "shortDescription": "אוספת ומאגדת במקום אחד את כל התכנים המופקים על ידי חמלי הסברה בארץ ובעולם",
+      "description": "מערכת ShareItIL אוספת ומאגדת במקום אחד את כל התכנים המופקים על ידי חמלי הסברה בארץ ובעולם ומאפשרת לך לבחור את התוכן המתאים עבורך ולשתף בקלות",
+      "url": "https://shareitil.com/",
+      "website": "https://shareitil.com/",
+      "createdAt": "2023-10-16T19:42:12+03:00"
+    },
+    {
+      "name": "HamalHasbara",
+      "displayName": "חמל הסברה חרבות ברזל",
+      "shortDescription": "הסברה אפקטיבית במדיה החברתית",
+      "description": "קבוצת פייסבוק עם 6000 משתתפים בעברית. יצירת סרטוני הסברה, תרגום לשפות והפצה יעילה ואפקטיבית על ידי שימוש בכלים מתקדמים. שימוש אפקטיבי במדייה החברתית. הדרכות",
+      "initiativeValidationDetails": "קבוצת פייסבוק עברית https://facebook.com/groups/civiladvocacyisrael/ וואטסאפ עברית https://chat.whatsapp.com/EngMkWhPAXkKp4ejdP5EtK קבוצת פייסבוק דוברי אנגלית https://www.facebook.com/groups/swordsofironsupportil אינסטגרם https://www.instagram.com/civiladvocacyil/",
+      "url": "https://www.facebook.com/groups/697258502313200",
+      "initiativeImage": "/images/חמל הסברה חרבות ברזל-9afb4cc0-c771-41a1-be86-f4dfa0f1e893.jpeg",
+      "website": "https://facebook.com/groups/civiladvocacyisrael/",
+      "phone": "0524257575",
+      "email": "hershkoy@gmail.com",
+      "whatsapp": "0524257575",
+      "drive": "https://bit.ly/IsraeliAdvocacyMaterials",
+      "instagram": "https://www.instagram.com/civiladvocacyil",
+      "tiktok": "https://www.tiktok.com/@civiladvocacyil",
+      "tags": [
+        "social media",
+        "hasbara",
+        "מדיה חברתית",
+        "הסברה",
+        "סרטונים",
+        "תרגומים",
+        "הפצה"
+      ],
+      "createdAt": "2023-11-30T17:05:16+02:00"
+    },
+    {
+      "name": "HasbaraTeam",
+      "displayName": "הארגון להסברה - Advocacy Organization",
+      "shortDescription": "בוסט לפוסטים בקבוצה ומספר פרויקטי הסברה",
+      "description": "הארגון שלנו עובד על מספר פרויקטים במקביל בתחום ההסברה💪🏻💙🇮🇱. בקבוצה זו ניתן בוסט לפוסטים ונדווח על פוסטים מסיתים.",
+      "url": "https://israelsocialwar.com/",
+      "whatsapp": "https://chat.whatsapp.com/KmsPfwYJaBEIPyzP8n3XrQ",
+      "drive": "https://drive.google.com/drive/folders/1UVuvVGSbiMpMWhBFXxpoAM5d0FjJ7pvB",
+      "tags": [
+        "הסברה",
+        "דיווח",
+        "אינסטגרם",
+        "פייסבוק",
+        "טיקטוק",
+        "הסתה",
+        "תמיכה"
+      ],
+      "createdAt": "2023-10-21T21:07:53+03:00"
+    },
+    {
+      "name": "LinkedInPublicity",
+      "displayName": "קול קורא: בואו תעזרו לנו בהסברה בלינקדאין",
+      "description": "קבוצה של משפיענים בלינקדאין להגדיל חשיפה, חידוד מסרים, דיווחים על פרופילים ועוד.",
+      "shortDescription": "קבוצה של משפיענים בלינקדאין להגדיל חשיפה, חידוד מסרים, דיווחים על פרופילים ועוד.",
+      "initiativeValidationDetails": "קורא: אני שוחחתי עם הקולגה שלי, הוא לשעבר עובד ב-MS, מאמת כל חבר חדש",
+      "url": "https://chat.whatsapp.com/EQopAWUyRrt8IIg5M7ZvbV",
+      "whatsapp": "https://chat.whatsapp.com/EQopAWUyRrt8IIg5M7ZvbV",
+      "docs": "https://docs.google.com/spreadsheets/d/1z9-2aXt_CmmAOyXEhtoGO-G0HEM-2fx8MGIn3AzLRNk/edit?usp=sharing",
+      "tags": [
+        "הסברה",
+        "לינקדאין",
+        "משפיענים",
+        "חשיפה"
+      ],
+      "createdAt": "2023-10-23T20:37:53+03:00"
+    },
+    {
+      "name": "scooper",
+      "displayName": "Scooper - ניטור ומחקר ברשת",
+      "shortDescription": "ניתור ומחקר ברשת, מאפשר לראות פוסטים טרנדים לפי איזורים ופוסטים עם הכי הרבה מעורבות",
+      "description": "ניתור ומחקר ברשת, מאפשר לראות פוסטים טרנדים לפי איזורים ופוסטים עם הכי הרבה מעורבות",
+      "initiativeValidationDetails": "Verified Manually by @4tal",
+      "url": "https://access.scooper.co.il/app/project/7821ad26-cc00-4a3f-998b-a3521c2f7cfe/shared_dashboard/export_Scooper6_hVq6X5yN.html#/SHARED_DASHBOARD#co=project&cid=7821ad26-cc00-4a3f-998b-a3521c2f7cfe&psid=export_Scooper6_hVq6X5yN.html&keyid=undefined&data=eyJyIjp7ImEiOnsiYWN0aXZlUGFnZUlkIjoiREVGQVVMVC1EQVNILVNFQ1RJT04ifSwiaSI6IlNIQVJFRF9EQVNIQk9BUkQiLCJzIjpbXX19",
+      "initiativeImage": "https://access.scooper.co.il/app/image/ae8a9c0a-2f60-4b7a-b00e-25332e68583a",
+      "website": "https://access.scooper.co.il/app/project/7821ad26-cc00-4a3f-998b-a3521c2f7cfe/shared_dashboard/export_Scooper6_hVq6X5yN.html#/SHARED_DASHBOARD#co=project&cid=7821ad26-cc00-4a3f-998b-a3521c2f7cfe&psid=export_Scooper6_hVq6X5yN.html&keyid=undefined&data=eyJyIjp7ImEiOnsiYWN0aXZlUGFnZUlkIjoiREVGQVVMVC1EQVNILVNFQ1RJT04ifSwiaSI6IlNIQVJFRF9EQVNIQk9BUkQiLCJzIjpbXX19",
+      "tags": [
+        "ניטור",
+        "מחקר",
+        "פוסטים"
+      ],
+      "createdAt": "2023-11-24T15:28:39+02:00"
+    },
+    {
+      "name": "fuck-hamas",
+      "displayName": "לנצח כל אדיוט בויכוח",
+      "shortDescription": "Argue Down Any Idiot In a matter of seconds",
+      "description": "Use our tool to fight antisemitism and pro-Palestinian idiots by fighting with hard facts and clear conviction",
+      "initiativeValidationDetails": "Published by legitimate profile: https://www.linkedin.com/feed/update/urn:li:activity:7119216100805857280?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7119216100805857280%2C7119226823388872704%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287119226823388872704%2Curn%3Ali%3Aactivity%3A7119216100805857280%29",
+      "url": "https://www.commentron.ai/fuck-hamas",
+      "website": "https://www.commentron.ai/fuck-hamas",
+      "linkedin": "https://www.linkedin.com/feed/update/urn:li:activity:7119216100805857280?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7119216100805857280%2C7119226823388872704%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287119226823388872704%2Curn%3Ali%3Aactivity%3A7119216100805857280%29",
+      "youtube": "https://www.youtube.com/watch?v=frUmtcaKnR4",
+      "initiativeImage": "https://static.wixstatic.com/media/7fc51c_44f03a54c5444ae09c34d96d1161643f~mv2.png/v1/fill/w_214,h_214,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/%D7%9E%D7%99%D7%96%D7%9D%20%D7%97%D7%93%D7%A9.png",
+      "tags": [
+        "לנצח",
+        "אדיוט",
+        "בויכוח",
+        "התנגדות",
+        "אנטישמיות"
+      ],
+      "createdAt": "2023-10-11T11:59:18+03:00"
+    },
+    {
+      "name": "TerrorSupportersTrolling",
+      "displayName": "להטריל תומכי טרור",
+      "shortDescription": "אתר להטרלת תומכי טרור ברשתות החברתיות",
+      "description": "אתר להטרלת תומכי טרור ברשתות החברתיות",
+      "initiativeImage": "https://cdn4.telegram-cdn.org/file/ROis87ikX-g98-COcnS1vizOViivUpUeoDIc6-2z0vy2dbiH8iMZMnjqhAQ77ueFQZozYcNHHhgau3Lmqd0TIbwOb0UP0dPgkFbMJsiQ_aqAR_Ufn6JB7lv_bZ3xgebG-qF7SNS8Qyw2NsC5Z4Ghydd1arGzN4VZiIyqxe93qEbvMntZauEwey4C5PjkHs_5jJxOHcK5SfiWkyPbiP_d907Vv63HpYizcysN0u6DyTuY_uhp96t-0u-JT527C8Pm_gQ7NPayzcy1TDtWYPP2EAk2CB5OBSrUuY8huZgXCc_1-ikUxflFWDJKGXKnmPybdeeIIqs5-6uMo5r3cypbRw.jpg",
+      "website": "https://devhelps.github.io/you-stand-with-israel/",
+      "url": "https://devhelps.github.io/you-stand-with-israel/",
+      "createdAt": "2023-10-12T22:22:49+03:00"
+    },
+    {
+      "name": "TheIronFire",
       "displayName": "פיטורי הברזל - The Iron Fire",
       "description": "כלי עזר לדיווח למעסיקים בינלאומיים על עובדים המפיצים תוכן התומך בטרור החמאס",
       "shortDescription": "כלי עזר לדיווח למעסיקים בינלאומיים על עובדים המפיצים תוכן התומך בטרור החמאס",
-      "initiativeValidationDetails": "נמסר בקבוצת WhatsApp. נראה כמו חשבון לגיטימי שנוצר לפני למעלה מ-8 שנים ויש לו כמעט 11 אלף מנויים",
+      "initiativeValidationDetails": "נמסר בקבוצת WhatsApp. נראה כמו חשבון לגיטימי שנוצר לפני למעלה מ-8 שנים ויש לו כמעט 11 אלף מנויים https://twitter.com/NaorNarkis/status/1717182734802526236",
       "website": "https://the-iron-fire.unicornplatform.page/",
       "url": "https://the-iron-fire.unicornplatform.page/",
       "twitter": "https://twitter.com/unicornplatform",
-      "article": "https://twitter.com/NaorNarkis/status/1717182734802526236",
       "tags": [
         "רשת-חברתית",
         "הגנה",
@@ -50,7 +240,7 @@
       "createdAt": "2023-10-23T20:30:50+03:00"
     },
     {
-      "name": "Digital Dome",
+      "name": "DigitalDome",
       "displayName": "Digital Dome - דיגיטל דום",
       "shortDescription": "הפסקת תוכן פגעני ברשת",
       "description": "פלטפורמה לדיווח על תכנים זדוניים ברשת. מאימות ודיווח לרשתות להסרתם. התגייסות של כמה חברות הייטק ובכירים בתעשייה.",
@@ -87,18 +277,8 @@
       "createdAt": "2023-10-24T20:11:16+03:00"
     },
     {
-      "name": "TerrorSupportersTrolling",
-      "displayName": "להטריל תומכי טרור",
-      "shortDescription": "אתר להטרלת תומכי טרור ברשתות החברתיות",
-      "description": "אתר להטרלת תומכי טרור ברשתות החברתיות",
-      "initiativeImage": "https://cdn4.telegram-cdn.org/file/ROis87ikX-g98-COcnS1vizOViivUpUeoDIc6-2z0vy2dbiH8iMZMnjqhAQ77ueFQZozYcNHHhgau3Lmqd0TIbwOb0UP0dPgkFbMJsiQ_aqAR_Ufn6JB7lv_bZ3xgebG-qF7SNS8Qyw2NsC5Z4Ghydd1arGzN4VZiIyqxe93qEbvMntZauEwey4C5PjkHs_5jJxOHcK5SfiWkyPbiP_d907Vv63HpYizcysN0u6DyTuY_uhp96t-0u-JT527C8Pm_gQ7NPayzcy1TDtWYPP2EAk2CB5OBSrUuY8huZgXCc_1-ikUxflFWDJKGXKnmPybdeeIIqs5-6uMo5r3cypbRw.jpg",
-      "website": "https://devhelps.github.io/you-stand-with-israel/",
-      "url": "https://devhelps.github.io/you-stand-with-israel/",
-      "createdAt": "2023-10-12T22:22:49+03:00"
-    },
-    {
-      "displayName": "Stop Antisemitism",
       "name": "StopAntisemitism",
+      "displayName": "Stop Antisemitism",
       "shortDescription": "Leading Non-Partisan U.S Based Organization Fighting & Exposing Antisemitism",
       "description": "StopAntisemitism is a grassroots watchdog organization dedicated to exposing groups and individuals that espouse incitement towards the Jewish people and State and engage in antisemitic behaviors. Founded in 2018, StopAntisemitism was born in response to increasing antisemitic violence and sentiment across the United States. StopAntisemitism has developed a unique and dedicated following, reaching millions of actively engaged individuals through social media, mailers, and its website. By publicly exposing antisemites, StopAntisemitism has created an environment where those who propagate hatred against the Jewish people are met with real-world consequences including but not limited to job loss and school expulsions. StopAntisemitism also produces reports on the state of antisemitism in the United States.",
       "initiativeValidationDetails": "https://www.ynet.co.il/judaism/discourse/article/bjwvwpoxt",
@@ -118,26 +298,6 @@
         "מאבק אנטישמיות"
       ],
       "createdAt": "2023-11-11T15:29:07+02:00"
-    },
-    {
-      "displayName": "אוקט7 - אפילקצית תגובות",
-      "name": "Oct7.App",
-      "shortDescription": "אפליקציה לתגובות מהירות על פוסטים ויראליים",
-      "description": "חיזוק הסנטימנט הפרו-ישראלי באמצעות תגובות לפוסטים בעלי השפעה",
-      "initiativeValidationDetails": "Posted by legit account: https://www.linkedin.com/posts/shlomit-cohen_oct7-home-winning-the-social-media-war-activity-7129491902894120961-c_1q?utm_source=share&utm_medium=member_desktop",
-      "url": "https://app.oct7.io/",
-      "website": "https://www.oct7.io/",
-      "form": "https://docs.google.com/forms/d/e/1FAIpQLSelJNsyZfpKVdcIyrDKlGpb2Y65w3spI8PeWyd3nzKp8Yl_zA/viewform",
-      "linkedin": "https://www.linkedin.com/posts/shlomit-cohen_oct7-home-winning-the-social-media-war-activity-7129491902894120961-c_1q?utm_source=share&utm_medium=member_desktop",
-      "initiativeImage": "https://www.oct7.io/wp-content/uploads/2023/10/oct7-logo-squre-dark-mode-e1699204867126.webp",
-      "tags": [
-        "אוקט7",
-        "תגובות",
-        "פוסטים ויראליים",
-        "סנטימנט פרו-ישראלי",
-        "תקשורת אסטרטגית"
-      ],
-      "createdAt": "2023-11-17T01:00:49+02:00"
     },
     {
       "name": "niliOnline",

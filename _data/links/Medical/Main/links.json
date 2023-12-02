@@ -1,6 +1,6 @@
 {
-  "name": "MedicalMain",
-  "displayName": "כלליות",
+  "name": "Main",
+  "displayName": "ראשי",
   "links": [
     {
       "name": "IronDoctors",
@@ -19,9 +19,9 @@
     },
     {
       "name": "MedicalVolunteersforIsrael",
-      "displayName": "מתנדבים רפואיים לישראל",
-      "shortDescription": "המשרד הישראלי לבריאות מגייס רשימה של צוות רפואי מחו״ל להתנדבות בישראל במקרה הצורך",
-      "description": "ברגע שהשורשים שוב יתעממו על מערכת הבריאות, וכמבנה לאסונות טבע או בני אדם עתידיים, אנו מזמינים חברים של ישראל להוסיף את שמם לקהילה המתרחבת שלנו של צוות רפואי שנמצא עם ישראל. הירשמו לקבלת נקודות CME בעתיד, להתאמן עם צוותים ישראליים, ולהתחבר אל חברים של ישראל באזור שלך.",
+      "displayName": "Medical Volunteers for Israel",
+      "shortDescription": "In light of the ongoing situation in Israel, the Israeli Ministry of Health is building a list of medical personnel from abroad to volunteer in Israel should the need arise.",
+      "description": "In the event of further strains on the health system, as well as in preparation for future natural or man-made disasters, we invite friends of Israel to add their names to our growing community of medical personnel who stand with Israel.       Doctors, nurses, paramedics, and other medical personnel licensed abroad who wish to volunteer should join using the Ministry of Health’s online form, to ensure pre-clearance of medical licenses.",
       "url": "https://survey.gov.il/en/internationalvolunteers?utm_source=go.gov.il&utm_medium=referral",
       "website": "https://survey.gov.il/en/internationalvolunteers?utm_source=go.gov.il&utm_medium=referral",
       "initiativeValidationDetails": "המקור: דף המשרד הראשי של המשרד לבריאות",
@@ -37,8 +37,8 @@
       "createdAt": "2023-10-28T23:39:59+03:00"
     },
     {
-      "displayName": "תרומות דם דרך מד'א",
       "name": "MdaBloodDonation",
+      "displayName": "תרומות דם דרך מד'א",
       "shortDescription": "איתור מרכזי תרומות דם בכל רחבי הארץ לפי תאריך",
       "description": "שירותי הדם של מגן דוד אדום אחראים על התרמה ואספקת מנות הדם לבתי החולים בארץ וליחידות צה'ל, הן בשעת חירום והן בשגרה עבור חולים הזקוקים לעירויי דם במהלך אשפוזם. כדי לעמוד בדרישות הגוברות של מערכת הבריאות בישראל, יש צורך להתרים 1200 מנות דם כל יום. לדם האדם אין תחליף, לפיכך רק תרומת דם מאדם אחד יכולה להציל חיים של אנשים אחרים. ממנת דם אחת אפשר להציל חיים של שלושה איש לפחות. על-מנת להשיג כמות כזו של תורמי דם מתנדבים, אנו מקיימים מבצעי התרמות דם במגזרים שונים כגון: מפעלים, חברות, התיישבות עובדת, בסיסי צה'ל, מכללות, קניונים וכו'. נשמח לקדם נושא כה חשוב העוסק רובו ככולו בהצלת חיי אדם ולצרף אתכם למאגר 'קבוצות תורמות דם' של שירותי הדם של מד'א.",
       "initiativeValidationDetails": "Official website of MADA",
@@ -56,28 +56,22 @@
       "createdAt": "2023-11-08T23:49:54+02:00"
     },
     {
-      "displayName": "חיבוק דידי",
-      "name": "didihugs",
-      "shortDescription": "התערבות פסיכולוגית קצרה לילדים בעת משבר",
-      "description": "בעקבות המשבר הנוכחי במדינה, ילדים רבים חווים סטרס וקושי משמעותי. אלה יכולים לבוא לידי ביטוי במגוון התנהגויות, כגון פחדים ודריכות, היצמדות להורים, קשיי שינה, עצבנות רבה מהרגיל, כאבי בטן וכאבים גופניים אחרים, שינויים בתאבון ועוד. אנחנו צוות של פסיכולוגים קליניים וחוקרי בריאות נפש שהוקם בעקבות שבת ה-7 באוקטובר ומלחמת חרבות ברזל, כדי לתמוך בילדים ולסייע להם להתמודד עם המצב. אנו מציעים התערבות פסיכולוגית קצרה, המתבססת על יכולות הדמיון והמשחקיות של הילד. ההתערבות נועדה לקדם את החוסן של הילד, ולתמוך בו בעתות של סטרס. ההתערבות ניתנת בטלפון, ובאמצעות ההורים בביתכם. ההשתתפות הינה ללא תשלום. אנו מזמינים הורים לילדים בגילאי 3-8 לפנות אלינו.",
-      "initiativeValidationDetails": "Published by legit profile: https://www.facebook.com/groups/OurModin/posts/2934268490047516",
-      "url": "https://www.didihugs.com/",
-      "website": "https://www.didihugs.com/",
-      "email": "Didihugs@gmail.com",
-      "whatsapp": "https://l.facebook.com/l.php?u=https%3A%2F%2Fchat.whatsapp.com%2FFF545QFIUVz27iUFGeC7rx%3Ffbclid%3DIwAR1FqdxP-6zCm5aA1PAVtoYf9A2rxlN5SauTDn44z4-PHoJ170_jMoYc4Ac&h=AT3WhYrGMiGdSuGdmSF8UXVBXHTk2FaFbXgLabDYkfFO87jQxrIZRjkBmnGkoyU189Rx6_IB3gBKyk_VWr9iiN82wHd5GRPQcgpc5188Y5q5t6kgt8J024dkbZwhlU1Pcg&__tn__=-UK-R]-R&c[0]=AT2p-M5zZyrUiH8yWWDFcZOcVcFgNI0LWM4jMFX9HHCtb3-kwtjFf__Kj7wa71hLolkPFTWsHJtUasOEO4CgQ-9CYthLYqbwAGK2iumrohDLmf4n5hW4PbxbEyxR9T7XAzug3mIMzS6QRy6LoOmvXG5vmq-1UeAEv7y8tmdJ5VNAwT3YTP-4c9toM8S7zNkuPWr4JLPhl_lG-DbC9NUr_A&c[1]=AT2p-M5zZyrUiH8yWWDFcZOcVcFgNI0LWM4jMFX9HHCtb3-kwtjFf__Kj7wa71hLolkPFTWsHJtUasOEO4CgQ-9CYthLYqbwAGK2iumrohDLmf4n5hW4PbxbEyxR9T7XAzug3mIMzS6QRy6LoOmvXG5vmq-1UeAEv7y8tmdJ5VNAwT3YTP-4c9toM8S7zNkuPWr4JLPhl_lG-DbC9NUr_A",
-      "form": "https://docs.google.com/forms/d/e/1FAIpQLSfYFO0RUPMYB_7XGYSv1pkS7T7QhZc8pwBShfWavYnBCKG5hw/viewform",
-      "facebook": "https://www.facebook.com/groups/780925150471197/?multi_permalinks=804305348133177%2C803529831544062%2C802201208343591%2C801658978397814%2C801733738390338%2C800619231835122%2C800520018511710%2C800601741836871&notif_id=1699619614332073&notif_t=group_highlights&ref=notif",
-      "initiativeImage": "https://static.wixstatic.com/media/8d91c5_6436b03227a940fb8d4eee051e5bab8a~mv2.png/v1/fill/w_999,h_791,al_c,q_90,enc_auto/Shutterstock_2258789467_edited_edited_ed.png",
+      "name": "MdaFirstAidCourse",
+      "displayName": "קורס עזרה ראשונה לשעת חירום - מגן דוד אדום",
+      "shortDescription": "קורס עזרה ראשונה בשעת חירום בהיקף 3 שעות לימוד",
+      "description": "קורס זה מספק דגשים עיקריים בהגשת עזרה ראשונה בשעת חירום ומקנה כלים ודרכי ההתמודדות לסיוע בפציעות ובמצבי חירום רפואיים בחזית ובעורף. התכנים מתאימים לכל אדם שמעוניין לרכוש כלים וידע ולסייע בהצלת חיים ואינו דורש ידע מוקדם ו/או הכשרה רפואית. הקורס הינו אינטרנטי בלבד באמצעות אתר הקורסים של מד'א ודורש הרשמה מוקדמת ושימוש במחשב ביתי עם גישה לאינטרנט. לתשומת ליבכם, המועד הרשום באתר הינו המועד האחרון לסיום הלימוד המקוון. כמו כן, לא יתקיים מפגש עיוני/ מקוון או מעשי. היקף שעות לימוד: 3 שעות (במתכונת מתוקשבת בלבד באמצעות אתר הקורסים של מד'א). מחיר הקורס: הקורס ללא עלות ומוגש ממגן דוד אדום בישראל כשירות לציבור. תעודה: תעודה דיגיטלית תינתן לעומדים בהצלחה בתנאים ובדרישות הקורס. התנאים כוללים קבלת ציון של לפחות 80% מסך המטלות בקורס.",
+      "initiativeValidationDetails": "Official MDA course",
+      "url": "https://www.mdais.org/kursim/iron-swords-first-aid-course",
+      "website": "https://www.mdais.org/kursim/iron-swords-first-aid-course",
+      "initiativeImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Mada_logo.svg/768px-Mada_logo.svg.png",
       "tags": [
-        "קורונה",
-        "ילדים",
-        "שירות",
-        "לא מסחר",
-        "עזרה לילדים",
-        "פסיכולוגיה",
-        "מלחמה"
+        "מגן דוד אדום",
+        "קורס עזרה ראשונה",
+        "מדיקל",
+        "חירום",
+        "לימוד מקוון"
       ],
-      "createdAt": "2023-11-17T13:20:38+02:00"
+      "createdAt": "2023-11-07T00:06:34+02:00"
     }
   ]
 }
