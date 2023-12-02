@@ -4,10 +4,30 @@ const nextConfig = {
   async redirects() {
     return [
       {
-        source: '/RedirectExample',
-        destination: '/',
-        permanent: true, // set to `false` if it's a temporary redirect
+        source: '/Children',
+        destination: '/FamilyAndPets',
+        permanent: true,
       },
+      {
+        source: '/Donations',
+        destination: '/Economic',
+        permanent: true,
+      },
+      {
+        source: '/Transportation',
+        destination: '/SuppliesAndTransportation',
+        permanent: true,
+      },
+      {
+        source: '/Supplies',
+        destination: '/SuppliesAndTransportation',
+        permanent: true,
+      },
+      {
+        source: '/Initiatives',
+        destination: '/Aggregators',
+        permanent: true,
+      }
     ];
   },
 };

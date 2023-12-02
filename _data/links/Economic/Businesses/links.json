@@ -1,0 +1,106 @@
+{
+  "name": "Businesses",
+  "displayName": "תמיכה בעסקים והטבות לצרכנים",
+  "links": [
+    {
+      "name": "CentralizedBenefitsAndRights",
+      "displayName": "טבלה מרכזת ןמתעדכנת של הטבות וזכויות",
+      "shortDescription": "כל ההקלות, ההטבות והעדכונים בטבלה אחת מתעדכנת",
+      "description": "קובץ חשוב 📌 ומתעדכן: כל ההקלות, ההטבות והעדכונים בטבלה אחת מתעדכנת. לאור המצב עסקים רבים באים לקראת הציבור הישראלי במגוון דרכים שונות. מורן אברהם (מורן תסדר), עושה סדר חשוב מאד בכל ההצעות והעדכונים שיכולים קצת להקל עליכם כרגע. מבנקים ועד חברות סלולרי, ביטוחים ומשרדי ממשלה הכל פה (וממשיך להתעדכן)",
+      "initiativeValidationDetails": "Source: Work WhatsApp group\nLink to reputable source(s) promoting the initiative: https://t.me/s/techisrael",
+      "url": "https://docs.google.com/spreadsheets/d/1wLdbhIUtG2rpZxH4qEkNsDjugbQ0VthFjQjvxhGl5qM/edit?usp=sharing",
+      "website": "https://docs.google.com/spreadsheets/d/1wLdbhIUtG2rpZxH4qEkNsDjugbQ0VthFjQjvxhGl5qM/edit?usp=sharing",
+      "docs": "https://docs.google.com/spreadsheets/d/1wLdbhIUtG2rpZxH4qEkNsDjugbQ0VthFjQjvxhGl5qM/edit?usp=sharing",
+      "tags": [
+        "הטבות",
+        "זכויות",
+        "אנוש",
+        "מצב חירום",
+        "משבר",
+        "עזרה",
+        "כלכלה"
+      ],
+      "createdAt": "2023-11-07T00:20:57+02:00"
+    },
+    {
+      "name": "HandInHandForEvacuees",
+      "displayName": "יד ביד למפונים",
+      "description": "היד שמחברת בין בעלי מקצוע שנאלצו להתפנות מבתיהם, לתושבים שמחפשים בעל מקצוע",
+      "shortDescription": "היד שמחברת בין בעלי מקצוע שנאלצו להתפנות מבתיהם, לתושבים שמחפשים בעל מקצוע",
+      "initiativeImage": "https://wpstaq-ap-southeast-2-media.s3.amazonaws.com/darom/wp-content/uploads/media/2023/10/logo_v1.png",
+      "initiativeValidationDetails": "מקור: נשלח על ידי חבר. קישור לאתר מהימן המקדם את היוזמה: https://www.ice.co.il/digital-140/news/article/985019",
+      "url": "https://ironpro.zigit.co.il/",
+      "website": "https://ironpro.zigit.co.il/",
+      "tags": [
+        "סושיאל",
+        "בעל מקצוע",
+        "מפונים",
+        " קהילה",
+        "משפחות"
+      ],
+      "createdAt": "2023-10-27T11:47:19+03:00"
+    },
+    {
+      "name": "otefisrael",
+      "displayName": "עסקים מעוטף ישראל",
+      "shortDescription": "אתר לחיפוש בעלי מקצוע מעוטף ישראל- מדרום ועד צפון",
+      "description": "אתר 'עוטף ישראל' הוקם בשיתוף פעולה בין עמותת 'רוח טובה' מקבוצת אריסון ו- B144 מקבוצת בזק, במטרה לחבר בין בעלי מקצוע ועסקים מישובי 'עוטף ישראל' – בדרום הארץ ובצפונה, שפעילותם העסקית נפגעה בעקבות המלחמה. האתר מאפשר לבעלי עסק מישובים אלה, להופיע במדריך העסקים לפי תחום עיסוקם, כתובתם והערים ברחבי הארץ בהן הם מעוניינים לתת את שירותיהם. הרישום הוא חינמי ומעניק לכל עסק, דף עסקי שבו יוכל להכניס את פרטי העסק, פרטים ליצירת קשר בטלפון או בוואטסאפ, גלריית תמונות מהעסק, אפשרות לחוות דעת ועוד. לקוחות מכל הארץ יוזמנו ליצור קשר ולהזמין את השירותים המפורסמים על ידי בעל העסק, ובכך לסייע ולתמוך בחזרתם של העסקים בדרום ובצפון לשגרת עבודה.",
+      "initiativeValidationDetails": "Subdomain of Bezeq's site",
+      "url": "https://otefisrael.org.il/",
+      "initiativeImage": "/images/otefisrael-e6dbdddf-ea82-409d-8814-e91ce27ec662.png",
+      "website": "https://otefisrael.org.il/",
+      "form": "https://otefisrael.b144.co.il/selfRegister/",
+      "tags": [
+        "עסקים",
+        "עוטף ישראל",
+        "בעלי מקצוע",
+        "תמיכה בעסקים",
+        "מלחמה",
+        "דרום ישראל",
+        "צפון ישראל"
+      ],
+      "createdAt": "2023-11-29T15:05:28+02:00"
+    },
+    {
+      "name": "AllClub",
+      "displayName": "עסקים בזמן מלחמה",
+      "shortDescription": "הטבות לעסקים בתקופת המלחמה",
+      "description": "אנו קהילת ALL CLUB  הקהילה הראשונה והגדולה ביותר בישראל המונה מעל 200,000 חברים! מזמינים אתכם להצטרף ולהנות מכלל השירותים שלנו – ללא עלות וללא התחייבות לתקופה של חודש!",
+      "initiativeValidationDetails": "Reputable source: https://www.facebook.com/RaananaBusinessCenter/posts/pfbid0gpAgJa4dGnrgQWWGchgtcmDEfgFmqatRFntnBCp9MUiWSBuPGn4XpejELEZfeJdMl?locale=ms_MY",
+      "url": "https://allclub.minisite.ms/71",
+      "website": "https://allclub.minisite.ms/71",
+      "tags": [
+        "עסקים",
+        "מלחמה",
+        "ALL CLUB",
+        "הטבות"
+      ],
+      "createdAt": "2023-11-07T00:20:57+02:00"
+    },
+    {
+      "name": "SocialSolidarityHome",
+      "displayName": "הבית לסולידריות חברתית",
+      "shortDescription": "מוקד מידע לעסקים",
+      "description": "בימים קשים אלו הבית לסולידריות חברתית מטעם קרן משפחת שעשוע עומדים לצד העסקים בישראל",
+      "initiativeValidationDetails": "Operations volunteer",
+      "url": "https://www.solidarity-foundation.org.il/ironswords",
+      "website": "https://www.solidarity-foundation.org.il/ironswords",
+      "email": "info@solidarity-foundation.org.il",
+      "whatsapp": "https://api.whatsapp.com/send?phone=972523299519",
+      "form": "https://forms.gle/XH27b88nx9ynXqS36",
+      "facebook": "https://www.facebook.com/wer1solidarity",
+      "instagram": "https://www.instagram.com/social_solidarity_il/?utm_medium=copy_link",
+      "linkedin": "https://www.linkedin.com/company/the-social-solidarity-foundation/",
+      "youtube": "https://www.youtube.com/channel/UCooKVLFJQOvggvuklgYwq_w",
+      "tags": [
+        "סולידריות חברתית",
+        "עסקים",
+        "מוקד מידע",
+        "משפחת שעשוע",
+        "קרן",
+        "ישראל"
+      ],
+      "createdAt": "2023-11-28T22:11:18+02:00"
+    }
+  ]
+}

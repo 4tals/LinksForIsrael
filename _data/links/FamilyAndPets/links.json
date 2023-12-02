@@ -1,0 +1,10 @@
+{
+  "name": "FamilyAndPets",
+  "displayName": "משפחה ובע\"ח",
+  "description": "תמיכה במשפחות המילואים, ילדיהן, וחיות המחמד שלהן",
+  "image": "https://cdn-icons-png.flaticon.com/512/3079/3079247.png",
+  "subCategories": [
+    "Main",
+    "ChildrenContent"
+  ]
+}
