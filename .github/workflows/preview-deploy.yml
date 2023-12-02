@@ -5,7 +5,7 @@ on:
     inputs:
       REF:
         type: string
-        description: Git ref to deploy (note that a SHA from a fork will work if a PR was issues on that SHA)
+        description: Git ref to deploy (SHA from a fork will work if a PR was issued on that SHA)
         required: false
         default: ""
 
