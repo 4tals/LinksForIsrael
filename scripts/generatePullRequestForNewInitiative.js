@@ -100,8 +100,8 @@ See GitHub Action logs for more details: ${context.serverUrl}/${context.repo.own
   }
   
   function pushPrBranch(branch, categoryLinksJsonFile, retainedImagePath, initiativeName) {
-    executeGitCommand(["config", "user.name", "github-actions"]);
-    executeGitCommand(["config", "user.email", "41898282+github-actions[bot]@users.noreply.github.com"]); //https://github.com/orgs/community/discussions/26560
+    executeGitCommand(["config", "user.name", process.env.AUTP_PR_GIT_USER_NAME]);
+    executeGitCommand(["config", "user.email", process.env.AUTP_PR_GIT_EMAIL]);
     executeGitCommand(["checkout", "-b", branch]);
     executeGitCommand(["add", categoryLinksJsonFile]);
     if (retainedImagePath) {

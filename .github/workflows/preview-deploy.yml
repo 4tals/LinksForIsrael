@@ -1,6 +1,13 @@
 name: Preview Deployment
 
-on: workflow_dispatch
+on: 
+  workflow_dispatch:
+    inputs:
+      REF:
+        type: string
+        description: Git ref to deploy (SHA from a fork will work if a PR was issued on that SHA)
+        required: false
+        default: ""
 
 jobs:
   deploy:
@@ -8,6 +15,9 @@ jobs:
       contents: read
 
     uses: ./.github/workflows/reusable-deploy-vercel.yml
+
+    with:
+      REF: ${{ inputs.REF || github.ref }}
     
     secrets:
       VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}

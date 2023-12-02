@@ -7,6 +7,10 @@ on:
         required: false
         type: boolean
         default: false
+      REF:
+        required: false
+        type: string
+        default: main
     secrets:
       VERCEL_ORG_ID:
         required: true
@@ -27,6 +31,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
+      with:
+        ref: ${{ inputs.REF }}
 
     - name: Install pnpm
       run: npm install -g pnpm
