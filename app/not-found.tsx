@@ -7,7 +7,7 @@ const NotFoundPage = () => {
 	return (
 		<NextLink href="/">
 			<Grid width="100vw" height="80vh" placeContent="center">
-				<Box position="relative" width={["95%", "80%", "400px"]} _hover={0.9}>
+				<Box position="relative" width={["95%", "80%", "400px"]}>
 					<Logo opacity={0.2} />
 					<Box position="absolute" left="0" top="0" width="100%" height="100%">
 						<Grid
