@@ -82,6 +82,23 @@
         "מזון"
       ],
       "createdAt": "2023-11-28T22:11:51+02:00"
+    },
+    {
+      "displayName": "Shoreshfund",
+      "name": "קרן שורש",
+      "shortDescription": "קרן סיוע למשפחות שנפגעו בקו העימות",
+      "description": "קרן שורש ממקדת את פעילותה בסיוע חירום למשפחות שנפגעו בקו העימות. הקרן מפנה תרומות למשפחות כדי לסייע להן להתמודד עם צרכי היום-יום הקיומיים עד לכניסת מנגנוני המדינה לפעולה.",
+      "initiativeValidationDetails": "Shoresh fund is actually using Jgive and GiveBack platforms for its donations so I'm not sure how relevant it is.",
+      "url": "https://www.shoreshfund.org/he",
+      "initiativeImage": "/images/קרן שורש-f49e9ad3-3b1c-4974-bbe0-6ecfb377edf0.png",
+      "website": "https://www.shoreshfund.org/he",
+      "phone": "+972 51 2634043",
+      "tags": [
+        "קרן שורש",
+        "תרומה",
+        "סיוע"
+      ],
+      "createdAt": "2023-12-08T11:56:47.306Z"
     }
   ]
 }
