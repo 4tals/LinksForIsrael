@@ -83,6 +83,26 @@
         "יוזמה"
       ],
       "createdAt": "2023-11-23T21:48:43+02:00"
+    },
+    {
+      "displayName": "עטופים באהבה",
+      "name": "IsraeliChildrensFund",
+      "shortDescription": "קרן שתומכת בילדים שהוריהם נרצחו או נחטפו ב7 באוקטובר",
+      "description": "Providing Israeli children who have lost one or both parents during the October 7th massacre, or who have one or both parents being held hostage, with the security and stability they need to thrive",
+      "initiativeValidationDetails": "https://www.calcalistech.com/ctechnews/article/ryukzo5zp",
+      "url": "https://www.israelichildrensfund.org",
+      "initiativeImage": "/images/IsraeliChildrensFund-27f45052-5298-4d62-845a-24a2063a9013.png",
+      "website": "https://www.israelichildrensfund.org",
+      "facebook": "https://www.facebook.com/israelichildrensfund/",
+      "instagram": "https://www.instagram.com/israelichildrensfund/",
+      "twitter": "https://twitter.com/ilchildrensfund",
+      "linkedin": "https://www.linkedin.com/company/israelichildrensfund/",
+      "tags": [
+        "עטופים באהבה",
+        "ילדים",
+        "תמיכה"
+      ],
+      "createdAt": "2023-12-08T13:38:18.018Z"
     }
   ]
 }
