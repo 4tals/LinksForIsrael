@@ -110,6 +110,24 @@
         "שואה"
       ],
       "createdAt": "2023-11-28T01:25:55+02:00"
+    },
+    {
+      "displayName": "שבעה באוקטובר - האהובים שאיבדנו",
+      "name": "OctSevenLostLovedOnes",
+      "shortDescription": "אתר הנצחה לנופלים ב7 באקוטובר ובמלחמת חרבות ברזל",
+      "description": "מתקפת הטרור באותה שבת שחורה ומלחמת 'חרבות ברזל' שבאה בעקבותיה הותירו חלל עצום הנוגע בכל בית בישראל, בכל לב אנושי.  האתר הוקם כבית לתמונות ולסיפורים של האנשים היקרים שנקטפו בטרם עת.",
+      "initiativeValidationDetails": "https://www.linkedin.com/feed/update/urn:li:activity:7129843344486072320/",
+      "url": "https://octseven.co.il",
+      "initiativeImage": "/images/OctSevenLostLovedOnes-2fbbc349-3c9c-46d2-b339-116d4410dd3b.png",
+      "website": "https://octseven.co.il",
+      "email": "support@octseven.com",
+      "tags": [
+        "נופלים",
+        "אוקטובר",
+        "חרבות ברזל",
+        "האהובים שאיבדנו"
+      ],
+      "createdAt": "2023-12-08T13:01:25.514Z"
     }
   ]
 }
