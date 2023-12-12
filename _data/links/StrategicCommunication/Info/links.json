@@ -16,20 +16,32 @@
       "createdAt": "2023-10-31T17:07:44+02:00"
     },
     {
-      "name": "Stand4Israel",
       "displayName": "Stand4Israel",
-      "shortDescription": "Preserving and sharing the truth about the ״Iron Swords War״",
-      "description": "Following the tragic October 7, 2023 massacre, Stand4Israel.net is dedicated to preserving and sharing the truth about the ״Iron Swords War״",
-      "initiativeImage": "https://api.stand4israel.net/p/5580612/sp/558061200/raw/entry_id/1_xa45nwou/version/100001",
+      "name": "Stand4Israel",
+      "shortDescription": "In the emergence of the October 7 massacre, Stand4Israel.net was born out of a passion for sharing the unfiltered reality of the horrific bloodshed and atrocities",
+      "description": "Since the war started, Kaltura (Nasdaq:KLTR) and it's tech partners have founded a project dedicated to fight misinformation and share the true events happened since October 7th. In collaboration with IDF, Israel PM office and over 15 civil organizations that volunteered to support israel, we’ve developed stand4israel.net where all advocacy content is aggregated into one place, secured with highest standards, cataloged with AI and ready to be distributed to the relevant audiences.",
+      "initiativeValidationDetails": "https://www.pc.co.il/featured/398619/",
       "url": "https://stand4israel.net/",
+      "initiativeImage": "/images/Stand4Israel-5d05598d-6f22-44db-ac7f-02b0c0e932bf.png",
       "website": "https://stand4israel.net/",
+      "phone": "+972-50-559-9956",
+      "email": "roi.etam@kaltura.com",
+      "whatsapp": "https://wa.me/972505599956",
+      "drive": "stand4israel.net",
+      "facebook": "https://www.facebook.com/profile.php?id=61552986591858",
+      "donation": "https://stand4israel.net/support",
       "tags": [
+        "Stand4Israel",
+        "Kaltura",
+        "IDF",
         "מידע",
-        "הסברה",
-        "תיעוד",
-        "שימור"
-      ],
-      "createdAt": "2023-10-30T20:58:14+02:00"
+        "התמודדות עם מידע שגוי",
+        "ביקורת מדיה",
+        "אמת",
+        "מאמץ משותף",
+        "הגנה",
+        "ישראל"
+      ]
     },
     {
       "name": "OnlyTrueInformation",
