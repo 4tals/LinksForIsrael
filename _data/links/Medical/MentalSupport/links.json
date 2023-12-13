@@ -162,6 +162,24 @@
         "מלחמה"
       ],
       "createdAt": "2023-11-17T13:20:38+02:00"
+    },
+    {
+      "displayName": "מוקדי סיוע נפשי מידי",
+      "name": "MentalHeathCentralCalls",
+      "shortDescription": "רשימה מתעדכנת של מוקדי סיוע נפשי מידי",
+      "description": "רשימה מתעדכנת של מוקדים, ארגונים ועמותות שמעניקות סיוע נפשי מידי.",
+      "initiativeValidationDetails": "Hosted on government site",
+      "url": "https://govextra.gov.il/media/sjzpkvlq/%D7%A8%D7%A9%D7%99%D7%9E%D7%94-%D7%9E%D7%AA%D7%A2%D7%93%D7%9B%D7%A0%D7%AA-%D7%A9%D7%9C-%D7%9E%D7%95%D7%A7%D7%93%D7%99-%D7%A1%D7%99%D7%95%D7%A2-%D7%A0%D7%A4%D7%A9%D7%99-%D7%9E%D7%99%D7%99%D7%93%D7%99.pdf",
+      "website": "https://docs.google.com/spreadsheets/d/1cbOVeDNsokmoRjEtb73n9Kw8ew1n6MIx9ZWiMoKybsg/edit?fbclid=IwAR1UyeOidsAtqjweNtEoVBRW4JVo5--bs1fvojuZ1mUwp6Rp55woOKv6H60#gid=0",
+      "email": "mailto:ayeletle555@gmail.com",
+      "docs": "https://govextra.gov.il/media/sjzpkvlq/%D7%A8%D7%A9%D7%99%D7%9E%D7%94-%D7%9E%D7%AA%D7%A2%D7%93%D7%9B%D7%A0%D7%AA-%D7%A9%D7%9C-%D7%9E%D7%95%D7%A7%D7%93%D7%99-%D7%A1%D7%99%D7%95%D7%A2-%D7%A0%D7%A4%D7%A9%D7%99-%D7%9E%D7%99%D7%99%D7%93%D7%99.pdf",
+      "tags": [
+        "מוקדי סיוע נפשי",
+        "משא ומתן נפשי",
+        "גילוי מודעות נפשית",
+        "רווחה נפשית"
+      ],
+      "createdAt": "2023-12-12T12:07:13.299Z"
     }
   ]
 }
