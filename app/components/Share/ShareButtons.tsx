@@ -48,7 +48,7 @@ export function ShareButtons({ category }: { category: string }) {
 					onClick={handleCopy}
 					size="sm"
 					fontWeight={500}
-					colorScheme="gray"
+					color="blue.500" // Custom color for the link icon
 				/>
 			</Tooltip>
 			<Link href={`https://wa.me/?text=${currentUrl}`} isExternal>
@@ -58,11 +58,9 @@ export function ShareButtons({ category }: { category: string }) {
 				>
 					<IconButton
 						icon={<FaWhatsapp />}
-						// _hover={{ colorScheme: "whatsapp" }}
 						aria-label="Share on WhatsApp"
 						size="sm"
 						fontWeight={500}
-						colorScheme="whatsapp"
 						color="#25D366" // WhatsApp color
 					/>
 				</Tooltip>
@@ -74,11 +72,9 @@ export function ShareButtons({ category }: { category: string }) {
 				>
 					<IconButton
 						icon={<FaTelegramPlane />}
-						// _hover={{ colorScheme: "telegram" }}
 						aria-label="Share on Telegram"
 						size="sm"
 						fontWeight={500}
-						colorScheme="telegram"
 						color="#0088cc" // Telegram color
 					/>
 				</Tooltip>
