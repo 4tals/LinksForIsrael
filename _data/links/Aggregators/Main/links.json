@@ -65,7 +65,7 @@
       "name": "Hamalim",
       "displayName": "אינדקס החמ'לים",
       "shortDescription": "כל החמ״לים הפעילים במקום אחד",
-      "description": "אינדקס החמ'לים מהווה מאגר עדכני ודינמי של החמ'לים ומוקדי הסיוע והמידע המרכזיים בישראל. מטרת האתר היא לאפשר חיפוש אפקטיבי ומהיר של עזרה, חשיפה של יוזמות קיימות וארגונן.\u2028זקוקים לעזרה? רוצים להתחבר ליוזמות? - השתמשו בשורת החיפוש.\u2028אם אתם מנהלים חמ״ל ורוצים להצטרף למאגר מלאו את טופס ההרשמה מטה.",
+      "description": "אינדקס החמ'לים מהווה מאגר עדכני ודינמי של החמ'לים ומוקדי הסיוע והמידע המרכזיים בישראל. מטרת האתר היא לאפשר חיפוש אפקטיבי ומהיר של עזרה, חשיפה של יוזמות קיימות וארגונן. זקוקים לעזרה? רוצים להתחבר ליוזמות? - השתמשו בשורת החיפוש. אם אתם מנהלים חמ״ל ורוצים להצטרף למאגר מלאו את טופס ההרשמה מטה.",
       "initiativeValidationDetails": "Moked Arava initiative (linked from https://www.mokedarava.org/)",
       "url": "https://www.hamalim.org/",
       "website": "https://www.hamalim.org/",
@@ -157,6 +157,28 @@
         "חיבור"
       ],
       "createdAt": "2023-10-28T22:17:22+03:00"
+    },
+    {
+      "displayName": "TechHamal",
+      "name": "חמ״ל ההייטק",
+      "shortDescription": "חמ״ל שמטרתו איסוף ציוד ומימון שיתועל לטובת המאמץ המלחמתי ונפגעיו",
+      "description": "חמ'ל ההייטק הוא מיזם של הייטקיסטים ישראליים, שרואים את החובה לסייע לחיילי צה'ל והאוכלוסייה בשעה קשה זו. באמצעות חיבורים למעלה מ-200 מוקדים צבאיים ואזרחיים, אנו עומדים לשירות המדינה והאזרחים כדי לספק את הציוד והסיוע הדרושים בצורה היעילה ביותר.",
+      "initiativeValidationDetails": "https://www.linkedin.com/company/hi-tech-4-israel/",
+      "url": "https://www.hitech4israel.com",
+      "initiativeImage": "/images/חמ״ל ההייטק-47a90bca-3508-449f-9989-d2663c7c50bd.png",
+      "website": "https://www.hitech4israel.com",
+      "whatsapp": "https://chat.whatsapp.com/FuDUGe6hC1L9I0e1NA06gD",
+      "instagram": "https://www.instagram.com/hitech4israel/?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr",
+      "linkedin": "https://www.linkedin.com/company/hi-tech-4-israel/",
+      "tags": [
+        "חמ\"ל ההייטק",
+        "איסוף ציוד",
+        "מימון",
+        "הייטק",
+        "שירות מדינה",
+        "עזרה לצה\"ל"
+      ],
+      "createdAt": "2023-12-14T13:01:43.507Z"
     }
   ]
 }
