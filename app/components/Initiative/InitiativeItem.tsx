@@ -1,6 +1,15 @@
 import React, { useState } from "react";
+import { FaHandPointer } from "react-icons/fa";
 
-import { Box, Flex, Image, Text, useColorModeValue } from "@chakra-ui/react";
+import {
+	Box,
+	Flex,
+	Icon,
+	Image,
+	Text,
+	Tooltip,
+	useColorModeValue,
+} from "@chakra-ui/react";
 
 import { InitiativeLink as LinkType } from "../../utils/categories";
 import { InitiativeIcons } from "./InitiativeIcons";
@@ -66,16 +75,17 @@ export const InitiativeItem: React.FC<InitiativeItemProps> = ({
 			paddingBlockEnd={{ base: "30px" }}
 			//ellipsis after 3 lines
 		>
-			<Image
-				src={imageUrl}
-				alt={link.displayName}
-				objectFit="cover"
-				opacity="0.3"
-				// Responsive width and height
-				w={{ base: "full", md: "full" }}
-				h={{ base: "20px", md: "100px" }} // Adjusted for mobile
-				onError={() => setImageError(true)}
-			/>
+			<Tooltip label="לחץ לפרטים נוספים" hasArrow>
+				<Image
+					src={imageUrl}
+					alt={link.displayName}
+					objectFit="cover"
+					opacity="0.3"
+					w={{ base: "full", md: "full" }}
+					h={{ base: "20px", md: "100px" }} // Adjusted for mobile
+					onError={() => setImageError(true)}
+				/>
+			</Tooltip>
 			<Flex direction="column" p="16px 24px">
 				<Text
 					fontSize={{ base: "sm", md: "lg" }} // Smaller font size for mobile
