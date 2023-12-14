@@ -47,12 +47,13 @@ export function SearchInput() {
 					}
 				}}
 				border="none"
+				color={"black"}
 				outline="none"
 				marginRight="7px"
 				width="100%"
 				list="search-suggestions"
 				borderRadius="20px"
-				bgColor="transparent" // Set background to transparent
+				// bgColor="transparent" // Set background to transparent
 				_focus={{ boxShadow: "none" }} // Remove focus outline
 			/>
 		</Box>
