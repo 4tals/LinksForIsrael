@@ -110,6 +110,66 @@
         "שואה"
       ],
       "createdAt": "2023-11-28T01:25:55+02:00"
+    },
+    {
+      "displayName": "שבעה באוקטובר - האהובים שאיבדנו",
+      "name": "OctSevenLostLovedOnes",
+      "shortDescription": "אתר הנצחה לנופלים ב7 באקוטובר ובמלחמת חרבות ברזל",
+      "description": "מתקפת הטרור באותה שבת שחורה ומלחמת 'חרבות ברזל' שבאה בעקבותיה הותירו חלל עצום הנוגע בכל בית בישראל, בכל לב אנושי.  האתר הוקם כבית לתמונות ולסיפורים של האנשים היקרים שנקטפו בטרם עת.",
+      "initiativeValidationDetails": "https://www.linkedin.com/feed/update/urn:li:activity:7129843344486072320/",
+      "url": "https://octseven.co.il",
+      "initiativeImage": "/images/OctSevenLostLovedOnes-2fbbc349-3c9c-46d2-b339-116d4410dd3b.png",
+      "website": "https://octseven.co.il",
+      "email": "support@octseven.com",
+      "tags": [
+        "נופלים",
+        "אוקטובר",
+        "חרבות ברזל",
+        "האהובים שאיבדנו"
+      ],
+      "createdAt": "2023-12-08T13:01:25.514Z"
+    },
+    {
+      "displayName": "מנחמים את משפחות הנופלים",
+      "name": "ConsolingMourningFamilies",
+      "shortDescription": "אתר המרכז זמני שבעה של נופלים במלחמת חרבות ברזל",
+      "description": "המיזם הוקם במטרה להנגיש את מיקומי וזמני השבעה של משפחות הנופלים. בלי תירוצים! כולנו יוצאים מהבית והולכים לנחם, לחבק, ולחזק את האבלים.",
+      "initiativeValidationDetails": "https://www.linkedin.com/posts/sam-luky_send-condolences-to-our-brothers-and-sisters-activity-7119984759186894849-IS2h",
+      "url": "https://noflim.org.il",
+      "initiativeImage": "/images/ConsolingMourningFamilies-99d68611-7f58-45a2-87f5-b3c0f5ce136d.svg",
+      "website": "https://noflim.org.il",
+      "phone": "+972525269321",
+      "whatsapp": "https://chat.whatsapp.com/KUOYaZ8mlaVAFy5jDhOCWQ",
+      "facebook": "https://www.facebook.com/noflim2023/?show_switched_toast=0&show_invite_to_follow=0&show_switched_tooltip=0&show_podcast_settings=0&show_community_review_changes=0&show_community_rollback=0&show_follower_visibility_disclosure=0",
+      "instagram": "https://www.instagram.com/menahmim_/?igshid=OGQ5ZDc2ODk2ZA%3D%3D",
+      "tags": [
+        "מפת האבל",
+        "משפחות נופלים",
+        "חרבות ברזל",
+        "מנחם אבלים"
+      ],
+      "createdAt": "2023-12-12T12:18:50.266Z"
+    },
+    {
+      "displayName": "קדיש למען הנרצחים",
+      "name": "Givethemakaddish",
+      "shortDescription": "קדיש עבור הנרצחים",
+      "description": "יוזמה לאיתור מתנדבים שיאמרו קדיש על הנרצחים בשמחת תורה. מכיוון שיש משפחות שלמות או ו ילדים או ו עוד אנשים שאין מי שיאמר עליהם קדיש",
+      "initiativeValidationDetails": "Givethemakaddish.org",
+      "url": "https://www.givethemakaddish.org",
+      "website": "https://www.givethemakaddish.org",
+      "phone": "+18457094787",
+      "email": "givethemakaddish@gmail.com",
+      "whatsapp": "+18457094787",
+      "tags": [
+        "קדיש",
+        "נרצחים",
+        "תורה",
+        "משפחה",
+        "ילדים",
+        "מתנדבים"
+      ],
+      "createdAt": "2023-12-30T20:21:28.971Z"
     }
   ]
 }

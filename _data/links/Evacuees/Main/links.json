@@ -225,6 +225,23 @@
         "מארחים"
       ],
       "createdAt": "2023-11-16T14:27:41+02:00"
+    },
+    {
+      "displayName": "מקלחת וקפה",
+      "name": "ShowerAndCoffee",
+      "shortDescription": "אירוח משפחות להתרעננות בקרבה לבתי חולים",
+      "description": "מיזם מקלחת וקפה נועד לעזור למשפחות הפצועים ולתת להן כמה דקות של שקט ומקלחת להתרעננות באזור בית החולים, כדי שיוכלו לחזור לשם בכוחות מחודשים.",
+      "initiativeValidationDetails": "https://twitter.com/boaz_karni/status/1711752838571864172",
+      "url": "https://showerandcoffee.info",
+      "website": "https://showerandcoffee.info",
+      "twitter": "https://twitter.com/boaz_karni/status/1711752838571864172",
+      "tags": [
+        "מקלחת",
+        "קפה",
+        "אירוח משפחות",
+        "אזור בית החולים"
+      ],
+      "createdAt": "2023-12-08T14:46:30.604Z"
     }
   ]
 }

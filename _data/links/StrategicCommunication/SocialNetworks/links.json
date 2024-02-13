@@ -333,6 +333,28 @@
         "רשתות-חברתיות"
       ],
       "createdAt": "2023-10-27T12:11:10+03:00"
+    },
+    {
+      "displayName": "לוחמי רשת",
+      "name": "WebFighters",
+      "shortDescription": "לוחמי רשת - הסברה ישראלית שעובדת חזק בעולם",
+      "description": "באתר זה תוכלו לבחור לאיזה טוויט להגיב ובאיזו צורה, אם בניסוח שלכם או בשימוש בניסוחים ערוכים מראש ומותאמים לפוסט הרלוונטי.",
+      "initiativeValidationDetails": "Facebook group has 5.4K members",
+      "url": "https://fighthamas.co.il",
+      "website": "https://fighthamas.co.il",
+      "facebook": "https://www.facebook.com/groups/socialfighters",
+      "tags": [
+        "לוחמי רשת",
+        "הסברה",
+        "חזק",
+        "טוויט",
+        "ניסוח",
+        "פוסט",
+        "רלוונטי",
+        "Facebook",
+        "חברים"
+      ],
+      "createdAt": "2023-12-12T12:12:10.366Z"
     }
   ]
 }
