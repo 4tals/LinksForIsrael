@@ -14,7 +14,6 @@
 ### Find new initiatives to add
 
 - Scan existing aggregation sites:
-  - <https://www.coing.co/Israhelp>
   - <https://www.bnf.co.il/stay-together/>
   - More: <https://www.linksforisrael.com/#Aggregators>
 - Follow and search the news, social media, and chat groups
