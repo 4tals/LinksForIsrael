@@ -2,16 +2,16 @@
 
 [**Join our WhatsApp group**](https://chat.whatsapp.com/JjD8eijWfDXD10QbM2VyaX) - this is where we discuss everything, from product to development.
 
-# Ways to participate
+## Ways to participate
 
-## GitHub Issues
+### GitHub Issues
 
 <https://github.com/4tals/LinksForIsrael/issues>
 
 - Browse our website and report bugs, suggest features, and request to add missing initiatives.
 - Review open issues, if you find one you would like to work on, talk to us on the chat!
 
-## Find new initiatives to add
+### Find new initiatives to add
 
 - Scan existing aggregation sites:
   - <https://www.coing.co/Israhelp>
@@ -23,7 +23,7 @@
   - Ynet / Channel 11, 12, 13, 14
   - etc.
 
-## Review existing initiatives
+### Review existing initiatives
 
 For every existing initiative:
 
@@ -35,11 +35,11 @@ For every existing initiative:
 
 If you find anything to improve, feel free to open a PR on the relevant JSON: <https://github.com/4tals/LinksForIsrael/tree/main/_data/links>
 
-## Support the development effort
+### Support the development effort
 
 We always appreciate more eyes reviewing our PRs and monitoring our pipelines for warnings and errors!
 
-# 🚀 Setting up the environment
+## 🚀 Setting up the environment
 
 1. **Prerequisites**
 

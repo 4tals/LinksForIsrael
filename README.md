@@ -1,6 +1,6 @@
 # **Links For Israel - לינק לישראל**
 
-🌐 **https://www.linksforisrael.com/**
+🌐 **<https://www.linksforisrael.com/>**
 
 ## 📖 **Introduction**
 
