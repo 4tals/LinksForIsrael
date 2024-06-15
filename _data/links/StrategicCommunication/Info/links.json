@@ -61,24 +61,6 @@
       "createdAt": "2023-11-02T13:01:02+02:00"
     },
     {
-      "name": "StrategicCommunicationsRepository",
-      "displayName": "מאגר משאבים לטובת הסברה - לפי שפות",
-      "shortDescription": "מאגר של סרטוני הסברה ב-25 שפות",
-      "description": "מאגר של סרטוני הסברה ב-25 שפות",
-      "initiativeValidationDetails": "אומת על ידי עמית לעבודה",
-      "url": "https://dwv4ag7si3i3i.cloudfront.net/index.html",
-      "website": "https://dwv4ag7si3i3i.cloudfront.net/index.html",
-      "tags": [
-        "מאגר",
-        "הסברה",
-        "וידאו",
-        "שפות",
-        "משאבים",
-        "ישראל"
-      ],
-      "createdAt": "2023-11-06T22:54:58+02:00"
-    },
-    {
       "name": "InssWarData",
       "displayName": "חרבות ברזל עדכונים ותמונת מצב",
       "shortDescription": "דסק הנתונים של המכון למחקרי ביטחון לאומי אוסף עבורכם את המידע העדכני והמדויק במהלך ימי המלחמה",
