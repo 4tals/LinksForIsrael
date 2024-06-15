@@ -19,32 +19,6 @@
       "website": "https://www.findme-service.org/form",
       "email": "support@findme-service.org",
       "createdAt": "2023-10-14T23:32:18+03:00"
-    },
-    {
-      "name": "IkhunMakhshirim",
-      "displayName": "היוזמה לאיכון מכשירי נעדרים - בוגרי יחידות טכנולוגיות",
-      "shortDescription": "מתנדבים למציאת נעדרים ע״י מכשור טכנולוגי (לפטופ, טלפון ישן וכיו״ב)",
-      "description": "מתנדבים למציאת נעדרים ע״י מכשור טכנולוגי (לפטופ, טלפון ישן וכיו״ב)",
-      "url": "https://docs.google.com/forms/d/e/1FAIpQLSduujH277Cqt31XgOZfTZFAD4ua_YN8fXUtAlwOAHX2q9Emww/viewform?usp=sf_link",
-      "docs": "https://docs.google.com/forms/d/e/1FAIpQLSduujH277Cqt31XgOZfTZFAD4ua_YN8fXUtAlwOAHX2q9Emww/viewform?usp=sf_link",
-      "createdAt": "2023-10-12T22:22:49+03:00"
-    },
-    {
-      "name": "IronSwordsMissingPersonsLocation",
-      "displayName": "פלטפורמת חרבות הברזל לאיתור נעדרים",
-      "shortDescription": "אנחנו כאן בשביל לעזור לכם למצוא את יקירכם. חפשו את שם הנעדר או הנעדרת, התעדכנו לגבי מצבם או שליחצו על הכפתור ושילחו לנו פרטים נוספים",
-      "description": "אנחנו קבוצה פרטית של אנשים פרטיים שמנסים לעזור. האתר אינו של גורם רשמי של המדינה. אנחנו עושים את המיטב למיין ולבדוק את אמיתות המידע שנמסר, אך אין לנו דרך להגיע לדיוק של 100%.",
-      "initiativeValidationDetails": "https://www.calcalistech.com/ctechnews/article/byez28ww6",
-      "url": "https://swordsofsteel.org/",
-      "website": "https://swordsofsteel.org/",
-      "form": "https://swordsofsteel.org/add-person",
-      "tags": [
-        "נעדרים",
-        "חיפוש",
-        "ישראל",
-        "חרבות הברזל"
-      ],
-      "createdAt": "2023-11-09T23:43:27+02:00"
     }
   ]
 }

@@ -73,23 +73,6 @@
       "createdAt": "2023-11-11T15:31:44+02:00"
     },
     {
-      "name": "barzel.info",
-      "displayName": "מרכז מידע אזרחי",
-      "shortDescription": "אתר זה פותח כדי להנגיש מידע הקשור למלחמת חרבות ברזל",
-      "description": "החל מצ'אט הסברה מבוסס בינה מלאכותית, דרך קישור למידע על זכויות של נפגעי טרור במס הכנסה וביטוח לאומי, חשיפה לזוועות הנוראיות של מחבלי חמאס-דאעש-נאצים, סרטוני הסברה להתמודדות עם השקרים שמפיצים בעולם וכלה בהפניות להתנדבות לסיוע וליצירת מודעות אבל.",
-      "initiativeValidationDetails": "Joint effort with my workplace (Microsoft)",
-      "url": "https://barzel.info/",
-      "website": "https://barzel.info/",
-      "email": "mailto:yuval@hackit.co.il",
-      "initiativeImage": "https://barzel.info/static/soi-image.png",
-      "tags": [
-        "מידע",
-        "חרבות ברזל",
-        "זכויות נפגעי טרור"
-      ],
-      "createdAt": "2023-11-12T03:00:07+02:00"
-    },
-    {
       "name": "IsraelWins",
       "displayName": "ישראל מנצחת",
       "shortDescription": "עמוד סיקור מיוחד של ערוץ 14 עם כל האפשרויות להתנדב ולסייע",
@@ -112,24 +95,6 @@
         "אירועים"
       ],
       "createdAt": "2023-11-15T20:09:48+02:00"
-    },
-    {
-      "name": "help4israel.com",
-      "displayName": "help4israel.com - חברי״ם",
-      "shortDescription": "חרבות ברזל - ריכוז מידע",
-      "description": "חברי״ם חרבות ברזל - ריכוז מידע אנו משתדלים לתת מידע עדכני ככל הניתן אנשים המעוניינים לעזור ולעדכן סטטוס נעדרים מוזמנים ליצור קשר מי שמעוניין לעדכן סטטוסים של נעדרים חייב להירשם לאתר על מנת לבצע אימות זהות",
-      "initiativeValidationDetails": "@ohadschn talked with creator",
-      "url": "https://help4israel.com/",
-      "initiativeImage": "https://help4israel.com/wp-content/uploads/2023/10/cbab9783f78746458fa5e64e721ac4ff.png",
-      "website": "https://help4israel.com/",
-      "tags": [
-        "חברי״ם",
-        "חרבות ברזל",
-        "ריכוז מידע",
-        "נעדרים",
-        "עזרה"
-      ],
-      "createdAt": "2023-11-24T15:18:01+02:00"
     },
     {
       "name": "NationalHelpAndVolunteerPortal",

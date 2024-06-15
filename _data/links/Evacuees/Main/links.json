@@ -76,15 +76,6 @@
       "createdAt": "2023-10-21T01:22:33+03:00"
     },
     {
-      "name": "AtarMearhim",
-      "displayName": "אתר מארחים",
-      "shortDescription": "חיפוש בתים מארחים למשפחות",
-      "description": "אתר לחיפוש בתים מארחים למשפחות",
-      "url": "https://mearhim.vercel.app",
-      "website": "https://mearhim.vercel.app",
-      "createdAt": "2023-10-12T22:22:49+03:00"
-    },
-    {
       "name": "MiklatMugan",
       "displayName": "מקלט מוגן",
       "shortDescription": "לוח מודעות לחיפוש בתים מארחים",
@@ -169,21 +160,6 @@
         "משפחה"
       ],
       "createdAt": "2023-11-06T16:13:56+02:00"
-    },
-    {
-      "name": "HostersAndGuests",
-      "displayName": "מארחים ומתארחים",
-      "shortDescription": "חיבור בין משפחות מהדרום למשפחות מארחות",
-      "description": "המיזם בהתנדבות מלאה. כל המידע באתר נשמר לצורך קישור בין משפחות שמחפשות לארח, ומשפחות שמחפשות להתארח, ולמטרה זו בלבד. המידע לעולם לא יועבר לאף גוף צד שלישי.",
-      "initiativeValidationDetails": "I talked to the owner (video chat), it's legit.",
-      "url": "https://findhosts.co/",
-      "website": "https://findhosts.co/",
-      "tags": [
-        "אירוח",
-        "משפחה",
-        "התנדבות"
-      ],
-      "createdAt": "2023-11-09T23:46:07+02:00"
     },
     {
       "name": "AccessibilityIsrael-VioletVest",
