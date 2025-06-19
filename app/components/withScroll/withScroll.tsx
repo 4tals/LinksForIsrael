@@ -20,7 +20,7 @@ const getScrollableProps = (element: HTMLElement | null): ScrollProps => {
 				isScrollableLeft:
 					element.scrollLeft - 1 > element.clientWidth - element.scrollWidth,
 				isScrollableRight: element.scrollLeft < 0,
-		  }
+			}
 		: initialScrollProps;
 };
 
