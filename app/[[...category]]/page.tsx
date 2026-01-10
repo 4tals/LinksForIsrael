@@ -3,6 +3,8 @@ import { Body } from "@/app/components/Body/Body";
 import { ScrollableCategoriesList } from "../components/Categories/CategoriesList";
 import { getAssistanceSubCategory, getCategories } from "../utils/categories";
 
+export const dynamicParams = false;
+
 type CategoryParam =
 	| []
 	| [string]

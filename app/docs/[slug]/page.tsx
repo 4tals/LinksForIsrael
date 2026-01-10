@@ -2,6 +2,8 @@ import { getAllDocs, getDocById } from "@/app/utils/docs-links";
 
 import styles from "./docs.module.scss";
 
+export const dynamicParams = false;
+
 export async function generateMetadata({
 	params: { slug },
 }: {
