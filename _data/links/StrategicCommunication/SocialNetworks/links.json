@@ -22,32 +22,12 @@
       "createdAt": "2023-11-03T20:36:04+02:00"
     },
     {
-      "name": "israelfightsback",
-      "displayName": "ישראל נלחמת בחזרה",
-      "shortDescription": "harness the global Israeli-supporting public to the advocacy efforts",
-      "description": "The platform fetches thousands of Tweets daily, employs various machine learning techniques and identifies each if it is pro Israel or against it. Use this tool to identify posts you support and report the bad guys.",
-      "initiativeValidationDetails": "Published by credible profile: https://www.linkedin.com/feed/update/urn:li:activity:7129593577231310848/",
-      "url": "http://israelfightsback.info/",
-      "website": "http://israelfightsback.info/",
-      "linkedin": "https://www.linkedin.com/feed/update/urn:li:activity:7129593577231310848/",
-      "initiativeImage": "https://www.gstatic.com/analytics-lego/svg/ic_looker_studio.svg",
-      "tags": [
-        "ישראל",
-        "נלחמת",
-        "חיזור",
-        "כלים",
-        "טוויטר",
-        "מערכתי למידה"
-      ],
-      "createdAt": "2023-11-17T13:28:31+02:00"
-    },
-    {
       "name": "Oct7.App",
       "displayName": "אוקט7 - אפילקצית תגובות",
       "shortDescription": "אפליקציה לתגובות מהירות על פוסטים ויראליים",
       "description": "חיזוק הסנטימנט הפרו-ישראלי באמצעות תגובות לפוסטים בעלי השפעה",
       "initiativeValidationDetails": "Posted by legit account: https://www.linkedin.com/posts/shlomit-cohen_oct7-home-winning-the-social-media-war-activity-7129491902894120961-c_1q?utm_source=share&utm_medium=member_desktop",
-      "url": "https://app.oct7.io/",
+      "url": "https://www.oct7.io/",
       "website": "https://www.oct7.io/",
       "form": "https://docs.google.com/forms/d/e/1FAIpQLSelJNsyZfpKVdcIyrDKlGpb2Y65w3spI8PeWyd3nzKp8Yl_zA/viewform",
       "linkedin": "https://www.linkedin.com/posts/shlomit-cohen_oct7-home-winning-the-social-media-war-activity-7129491902894120961-c_1q?utm_source=share&utm_medium=member_desktop",
@@ -60,15 +40,6 @@
         "תקשורת אסטרטגית"
       ],
       "createdAt": "2023-11-17T01:00:49+02:00"
-    },
-    {
-      "name": "ShareItIl",
-      "displayName": "ShareItIl - שייר איט ישראל",
-      "shortDescription": "אוספת ומאגדת במקום אחד את כל התכנים המופקים על ידי חמלי הסברה בארץ ובעולם",
-      "description": "מערכת ShareItIL אוספת ומאגדת במקום אחד את כל התכנים המופקים על ידי חמלי הסברה בארץ ובעולם ומאפשרת לך לבחור את התוכן המתאים עבורך ולשתף בקלות",
-      "url": "https://shareitil.com/",
-      "website": "https://shareitil.com/",
-      "createdAt": "2023-10-16T19:42:12+03:00"
     },
     {
       "name": "HamalHasbara",
@@ -167,25 +138,6 @@
       "url": "https://chat.whatsapp.com/IKrNlfjrV8O5tBuBMpPOmV",
       "whatsapp": "https://chat.whatsapp.com/IKrNlfjrV8O5tBuBMpPOmV",
       "createdAt": "2023-10-12T22:22:49+03:00"
-    },
-    {
-      "name": "BlockTheHate",
-      "displayName": "Block The Hate - בלוק השנאה",
-      "description": "בשבוע האחרון הקמנו פרויקט שמטרתו להילחם בשנאה לישראל ברשתות. הפלטפורמות הפכו לזירת מלחמה עם תכנים אלימים ואנטישמיים. פיתחנו בוט לסריקה אוטומטית, דיווח וחסימה.",
-      "shortDescription": "בשבוע האחרון הקמנו פרויקט שמטרתו להילחם בשנאה לישראל ברשתות",
-      "url": "https://www.blockthehateil.com/",
-      "website": "https://www.blockthehateil.com/",
-      "whatsapp": "https://chat.whatsapp.com/Ij3IPuMRMT88NbwsCz31Aq",
-      "telegram": "https://t.me/BlockTheHateIL_Bot",
-      "twitter": "https://twitter.com/hyper12p/status/1715972557902409948",
-      "tags": [
-        "הסברה",
-        "בוט",
-        "חסימה",
-        "דיווח",
-        "שנאה"
-      ],
-      "createdAt": "2023-10-23T20:30:50+03:00"
     },
     {
       "name": "DigitalDome",
