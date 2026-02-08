@@ -10,26 +10,47 @@
 }
 
 .closeFormButton {
-	background-color: #780707;
+	background-color: #1a1a2e;
 	color: #fff;
-	padding: 10px 20px;
-	border-radius: 5px;
+	padding: 12px 24px;
+	border-radius: 8px;
 	text-decoration: none;
-	transition: background-color 0.2s;
-	display: inline-block;
-	margin-top: 20px;
-	position: absolute;
-	bottom: 40px;
-	left: 60px;
+	transition: all 0.2s ease;
+	display: block;
+	margin: 12px auto;
+	font-size: 14px;
+	font-weight: 500;
+	cursor: pointer;
+	border: none;
+	flex-shrink: 0;
+
+	&:hover {
+		background-color: #16213e;
+	}
 }
 
 .closeFormXButton {
-	font-size: 2rem;
+	font-size: 1.5rem;
 	position: absolute;
-	top: 20px;
-	right: 20px;
+	top: 12px;
+	right: 12px;
 	cursor: pointer;
-	color: black;
+	color: #666;
+	background: rgba(0, 0, 0, 0.05);
+	border: none;
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+	z-index: 10;
+
+	&:hover {
+		background: rgba(0, 0, 0, 0.1);
+		color: #333;
+	}
 }
 
 button.addSiteButton {
@@ -62,37 +83,37 @@ button.addSiteButton {
 
 .addSiteForm {
 	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
+	inset: 0;
 	z-index: 9999;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .formContainerBackdrop {
-	width: 100%;
-	height: 100%;
+	position: absolute;
+	inset: 0;
 	backdrop-filter: blur(4px);
 	background: rgba(0, 0, 0, 0.5);
 }
 
 .formContainer {
-	position: fixed;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+	position: relative;
 	width: 90vw;
 	max-width: 400px;
-	height: auto;
-	max-height: 85vh;
+	height: 600px;
+	max-height: 80vh;
 	background: white;
-	overflow-y: auto;
+	overflow: hidden;
 	box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
 	border-radius: 16px;
+	display: flex;
+	flex-direction: column;
 
 	iframe {
 		width: 100%;
-		height: 520px;
+		flex: 1;
+		min-height: 0;
 		border: none;
 	}
 }
