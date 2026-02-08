@@ -1,13 +1,12 @@
 export const socialLinks = [
 	{
 		href: "https://www.instagram.com/links_for_israel/",
-		imgSrc: "/images/instagram_icon.png",
+		imgSrc: "https://cdn-icons-png.flaticon.com/512/174/174855.png",
 		alt: "Instagram",
 	},
 	{
 		href: "https://www.facebook.com/LinksForIsrael/",
-		imgSrc:
-			"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/1024px-2021_Facebook_icon.svg.png",
+		imgSrc: "https://cdn-icons-png.flaticon.com/512/124/124010.png",
 		alt: "Facebook",
 	},
 	{
@@ -35,7 +34,7 @@ export const ICONS = {
 		alt: "WhatsApp Link",
 	},
 	facebook: {
-		src: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Facebook_icon.svg/2048px-Facebook_icon.svg.png",
+		src: "https://cdn-icons-png.flaticon.com/512/124/124010.png",
 		alt: "Facebook Link",
 	},
 	telegram: {
@@ -63,7 +62,7 @@ export const ICONS = {
 		alt: "Discord Link",
 	},
 	instagram: {
-		src: "/images/instagram_icon.png",
+		src: "https://cdn-icons-png.flaticon.com/512/174/174855.png",
 		alt: "Instagram Link",
 	},
 	tiktok: {
