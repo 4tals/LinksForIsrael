@@ -9,6 +9,8 @@ import {
 	Box,
 	Flex,
 	Image,
+	LinkBox,
+	LinkOverlay,
 	Text,
 	Tooltip,
 	useMediaQuery,
@@ -47,6 +49,11 @@ const CategoriesList: React.FC<CategoriesListProps> = ({
 	const isSelected = (category: CategoryType) =>
 		!search && category.id === categoryId;
 
+	const handleCategoryClick = (category: CategoryType) => {
+		analyticsService.trackCategoryView(category.id);
+		onSearch("");
+	};
+
 	return (
 		<Flex
 			direction="row"
@@ -69,13 +76,9 @@ const CategoriesList: React.FC<CategoriesListProps> = ({
 					py={2}
 					borderRadius="lg"
 				>
-					<Box
+					<LinkBox
+						as="article"
 						id={category.name}
-						onClick={() => {
-							analyticsService.trackCategoryView(category.id);
-							onSearch("");
-						}}
-						cursor="pointer"
 						p={4}
 						borderRadius="xl"
 						bg={isSelected(category) ? "blue.50" : "white"}
@@ -97,32 +100,36 @@ const CategoriesList: React.FC<CategoriesListProps> = ({
 						flexDirection="column"
 						alignItems="center"
 						justifyContent="center"
+						cursor="pointer"
 					>
-						<Link
+						{category.image && (
+							<Box
+								p={2}
+								borderRadius="full"
+								bg={isSelected(category) ? "blue.100" : "gray.50"}
+								mb={3}
+								transition="all 0.25s ease"
+							>
+								<Image
+									src={category.image}
+									alt={`${category.displayName} Icon`}
+									boxSize="44px"
+									objectFit="contain"
+								/>
+							</Box>
+						)}
+						<LinkOverlay
+							as={Link}
 							href={`/${category.id}`}
-							style={{
-								display: "flex",
-								flexDirection: "column",
-								alignItems: "center",
-								textDecoration: "none",
+							onClick={() => handleCategoryClick(category)}
+							_focus={{ outline: "none", boxShadow: "none" }}
+							_focusVisible={{
+								outline: "2px solid",
+								outlineColor: "blue.400",
+								outlineOffset: "2px",
+								borderRadius: "md",
 							}}
 						>
-							{category.image && (
-								<Box
-									p={2}
-									borderRadius="full"
-									bg={isSelected(category) ? "blue.100" : "gray.50"}
-									mb={3}
-									transition="all 0.25s ease"
-								>
-									<Image
-										src={category.image}
-										alt={`${category.displayName} Icon`}
-										boxSize="44px"
-										objectFit="contain"
-									/>
-								</Box>
-							)}
 							<Text
 								fontSize="sm"
 								fontWeight={isSelected(category) ? "700" : "600"}
@@ -133,16 +140,16 @@ const CategoriesList: React.FC<CategoriesListProps> = ({
 							>
 								{category.displayName}
 							</Text>
-							<Text
-								fontSize="xs"
-								color={isSelected(category) ? "blue.500" : "gray.400"}
-								mt={1}
-								fontWeight="500"
-							>
-								{getNumberOfInitiatives(category)} יוזמות
-							</Text>
-						</Link>
-					</Box>
+						</LinkOverlay>
+						<Text
+							fontSize="xs"
+							color={isSelected(category) ? "blue.500" : "gray.400"}
+							mt={1}
+							fontWeight="500"
+						>
+							{getNumberOfInitiatives(category)} יוזמות
+						</Text>
+					</LinkBox>
 				</Tooltip>
 			))}
 		</Flex>
