@@ -8,11 +8,9 @@ import {
 	VStack,
 	useColorModeValue,
 	Flex,
-	Divider,
 	Skeleton,
 	useToast,
 	Image,
-	Fade,
 } from "@chakra-ui/react";
 
 import { InitiativeLink as LinkType } from "../../utils/categories";
@@ -31,13 +29,19 @@ export const ShowMoreModal: React.FC<ShowMoreModalProps> = ({
 	link,
 	setOpenDialog,
 }) => {
+	// All color mode values at top level
 	const bgColor = useColorModeValue("white", "gray.800");
 	const textColor = useColorModeValue("gray.700", "gray.200");
-	const borderColor = useColorModeValue("gray.200", "gray.600");
-	const buttonBgColor = useColorModeValue("blue.500", "blue.300");
-	const buttonHoverColor = useColorModeValue("blue.600", "blue.400");
-	const linkHoverBg = useColorModeValue("blue.50", "blue.900");
-	const tagBgColor = useColorModeValue("gray.100", "gray.700");
+	const subtleTextColor = useColorModeValue("gray.500", "gray.400");
+	const accentColor = useColorModeValue("blue.500", "blue.400");
+	const accentHoverColor = useColorModeValue("blue.600", "blue.300");
+	const tagBgColor = useColorModeValue("gray.50", "gray.700");
+	const tagBorderColor = useColorModeValue("gray.200", "gray.600");
+	const dividerColor = useColorModeValue("gray.100", "gray.700");
+	const imageOverlayGradient = useColorModeValue(
+		"linear-gradient(to top, rgba(255,255,255,1) 0%, rgba(255,255,255,0.8) 30%, transparent 100%)",
+		"linear-gradient(to top, rgba(26,32,44,1) 0%, rgba(26,32,44,0.8) 30%, transparent 100%)",
+	);
 
 	const toast = useToast();
 	const buttonRef = useRef<HTMLButtonElement>(null);
@@ -62,7 +66,6 @@ export const ShowMoreModal: React.FC<ShowMoreModalProps> = ({
 	// Handle link click with error handling
 	const handleLinkClick = () => {
 		try {
-			// Analytics or tracking could be added here
 			window.open(link.url, "_blank", "noopener,noreferrer");
 		} catch (error) {
 			toast({
@@ -81,187 +84,200 @@ export const ShowMoreModal: React.FC<ShowMoreModalProps> = ({
 	};
 
 	return (
-		<Fade in>
-			<Box
-				bg={bgColor}
-				borderRadius="lg"
-				border="1px solid"
-				borderColor={borderColor}
-				boxShadow="lg"
-				overflow="hidden"
-				maxW={{ base: "90vw", md: "500px" }}
-				role="dialog"
-				aria-labelledby="modal-title"
-				aria-describedby="modal-description"
-				style={{ direction: isRtl ? "rtl" : "ltr" }}
-			>
-				{/* Header with initiative image and title */}
-				{link.initiativeImage && (
-					<Box position="relative" h="120px" overflow="hidden">
-						<Image
-							src={link.initiativeImage}
-							alt={link.displayName}
-							w="100%"
-							h="100%"
-							objectFit="cover"
-							fallback={<Skeleton h="120px" />}
-						/>
-						<Box
-							position="absolute"
-							bottom={0}
-							left={0}
-							right={0}
-							bg="linear-gradient(transparent, rgba(0,0,0,0.7))"
-							p={4}
+		<Box
+			bg={bgColor}
+			overflow="hidden"
+			role="dialog"
+			aria-labelledby="modal-title"
+			aria-describedby="modal-description"
+			style={{ direction: isRtl ? "rtl" : "ltr" }}
+		>
+			{/* Hero image section */}
+			{link.initiativeImage && (
+				<Box
+					position="relative"
+					h={{ base: "140px", md: "180px" }}
+					overflow="hidden"
+				>
+					<Image
+						src={link.initiativeImage}
+						alt={link.displayName}
+						w="100%"
+						h="100%"
+						objectFit="cover"
+						fallback={<Skeleton h="100%" />}
+					/>
+					<Box
+						position="absolute"
+						bottom={0}
+						left={0}
+						right={0}
+						h="100%"
+						bg={imageOverlayGradient}
+					/>
+					<Box position="absolute" bottom={0} left={0} right={0} p={6} pb={4}>
+						<Text
+							id="modal-title"
+							color={textColor}
+							fontSize={{ base: "xl", md: "2xl" }}
+							fontWeight="bold"
+							letterSpacing="tight"
+							lineHeight="1.2"
 						>
-							<Text
-								id="modal-title"
-								color="white"
-								fontSize="xl"
-								fontWeight="bold"
-								textShadow="0 1px 2px rgba(0,0,0,0.8)"
-							>
-								{link.displayName}
-							</Text>
-						</Box>
+							{link.displayName}
+						</Text>
 					</Box>
+				</Box>
+			)}
+
+			<VStack
+				spacing={5}
+				align="stretch"
+				p={6}
+				pt={link.initiativeImage ? 2 : 6}
+			>
+				{/* Title for cases without image */}
+				{!link.initiativeImage && (
+					<Text
+						id="modal-title"
+						fontSize={{ base: "xl", md: "2xl" }}
+						fontWeight="bold"
+						color={textColor}
+						letterSpacing="tight"
+					>
+						{link.displayName}
+					</Text>
 				)}
 
-				<VStack spacing={4} align="stretch" p={6}>
-					{/* Title for cases without image */}
-					{!link.initiativeImage && (
-						<>
-							<Text
-								id="modal-title"
-								fontSize="xl"
-								fontWeight="bold"
-								color={textColor}
-							>
-								{link.displayName}
-							</Text>
-							<Divider />
-						</>
-					)}
-
-					{/* Short description */}
-					{link.shortDescription && (
-						<Text
-							fontSize="md"
-							color={textColor}
-							fontWeight="medium"
-							lineHeight="1.6"
-						>
-							{link.shortDescription}
-						</Text>
-					)}
-
-					{/* Main description */}
-					{link.description && (
-						<Text
-							id="modal-description"
-							fontSize={{ base: "sm", md: "md" }}
-							color={textColor}
-							lineHeight="1.6"
-							whiteSpace="pre-wrap"
-						>
-							{link.description}
-						</Text>
-					)}
-
-					{/* Initiative icons/links */}
-					<Box>
-						<Text fontSize="sm" fontWeight="semibold" color={textColor} mb={2}>
-							{isRtl ? "קישורים נוספים:" : "Additional Links:"}
-						</Text>
-						<InitiativeIcons link={link} />
-					</Box>
-
-					{/* Action buttons */}
-					<Flex
-						direction={{ base: "column", sm: "row" }}
-						gap={3}
-						pt={2}
-						justify={{ base: "stretch", sm: "space-between" }}
-						align={{ base: "stretch", sm: "center" }}
+				{/* Short description - highlighted */}
+				{link.shortDescription && (
+					<Text
+						fontSize={{ base: "md", md: "lg" }}
+						color={textColor}
+						fontWeight="medium"
+						lineHeight="1.7"
 					>
-						<Button
-							ref={buttonRef}
-							colorScheme="blue"
-							size="lg"
-							onClick={handleLinkClick}
-							rightIcon={!isRtl ? <ExternalLinkIcon /> : undefined}
-							leftIcon={isRtl ? <ExternalLinkIcon /> : undefined}
-							bg={buttonBgColor}
-							_hover={{ bg: buttonHoverColor, transform: "translateY(-1px)" }}
-							_active={{ transform: "translateY(0)" }}
-							transition="all 0.2s"
-							flex={{ base: "1", sm: "0" }}
-							minW={{ base: "auto", sm: "140px" }}
-							aria-label={`פתח יוזמה: ${link.displayName}`}
-						>
-							{isRtl ? "פתח יוזמה" : "Open Initiative"}
-						</Button>
+						{link.shortDescription}
+					</Text>
+				)}
 
-						<Button
-							variant="outline"
-							size="lg"
-							onClick={handleClose}
-							colorScheme="gray"
-							_hover={{
-								bg: linkHoverBg,
-								borderColor: buttonBgColor,
-								transform: "translateY(-1px)",
-							}}
-							_active={{ transform: "translateY(0)" }}
-							transition="all 0.2s"
-							flex={{ base: "1", sm: "0" }}
-							minW={{ base: "auto", sm: "80px" }}
-							aria-label="סגור"
-						>
-							{isRtl ? "סגור" : "Close"}
-						</Button>
-					</Flex>
+				{/* Main description */}
+				{link.description && (
+					<Text
+						id="modal-description"
+						fontSize={{ base: "sm", md: "md" }}
+						color={subtleTextColor}
+						lineHeight="1.8"
+						whiteSpace="pre-wrap"
+					>
+						{link.description}
+					</Text>
+				)}
 
-					{/* Additional info or tags if available */}
-					{link.tags && link.tags.length > 0 && (
-						<>
-							<Divider />
-							<Box>
-								<Text fontSize="xs" color={textColor} opacity={0.8} mb={2}>
-									{isRtl ? "תגיות:" : "Tags:"}
+				{/* Initiative icons/links */}
+				<Box pt={2} borderTop="1px solid" borderColor={dividerColor}>
+					<Text
+						fontSize="xs"
+						fontWeight="semibold"
+						color={subtleTextColor}
+						mb={3}
+						textTransform="uppercase"
+						letterSpacing="wide"
+					>
+						{isRtl ? "קישורים נוספים" : "Additional Links"}
+					</Text>
+					<InitiativeIcons link={link} />
+				</Box>
+
+				{/* Action buttons */}
+				<Flex
+					direction={{ base: "column", sm: "row" }}
+					gap={3}
+					pt={4}
+					justify={{ base: "stretch", sm: "flex-start" }}
+					align={{ base: "stretch", sm: "center" }}
+				>
+					<Button
+						ref={buttonRef}
+						size="lg"
+						onClick={handleLinkClick}
+						rightIcon={!isRtl ? <ExternalLinkIcon /> : undefined}
+						leftIcon={isRtl ? <ExternalLinkIcon /> : undefined}
+						bg={accentColor}
+						color="white"
+						_hover={{
+							bg: accentHoverColor,
+							transform: "translateY(-2px)",
+							boxShadow: "lg",
+						}}
+						_active={{
+							transform: "translateY(0)",
+							boxShadow: "md",
+						}}
+						transition="all 0.2s cubic-bezier(0.4, 0, 0.2, 1)"
+						borderRadius="xl"
+						px={8}
+						fontWeight="semibold"
+						boxShadow="md"
+						aria-label={`פתח יוזמה: ${link.displayName}`}
+					>
+						{isRtl ? "פתח יוזמה" : "Open Initiative"}
+					</Button>
+
+					<Button
+						variant="ghost"
+						size="lg"
+						onClick={handleClose}
+						color={subtleTextColor}
+						_hover={{
+							bg: dividerColor,
+							color: textColor,
+						}}
+						transition="all 0.2s"
+						borderRadius="xl"
+						px={6}
+						fontWeight="medium"
+						aria-label="סגור"
+					>
+						{isRtl ? "סגור" : "Close"}
+					</Button>
+				</Flex>
+
+				{/* Tags section */}
+				{link.tags && link.tags.length > 0 && (
+					<Box pt={4} borderTop="1px solid" borderColor={dividerColor}>
+						<Flex wrap="wrap" gap={2}>
+							{link.tags.slice(0, 6).map((tag, index) => (
+								<Text
+									key={index}
+									fontSize="xs"
+									bg={tagBgColor}
+									color={subtleTextColor}
+									px={3}
+									py={1.5}
+									borderRadius="full"
+									border="1px solid"
+									borderColor={tagBorderColor}
+									fontWeight="medium"
+								>
+									{tag}
 								</Text>
-								<Flex wrap="wrap" gap={1}>
-									{link.tags.slice(0, 5).map((tag, index) => (
-										<Text
-											key={index}
-											fontSize="xs"
-											bg={tagBgColor}
-											color={textColor}
-											px={2}
-											py={1}
-											borderRadius="full"
-											opacity={0.8}
-										>
-											{tag}
-										</Text>
-									))}
-									{link.tags.length > 5 && (
-										<Text
-											fontSize="xs"
-											color={textColor}
-											opacity={0.6}
-											px={2}
-											py={1}
-										>
-											+{link.tags.length - 5}
-										</Text>
-									)}
-								</Flex>
-							</Box>
-						</>
-					)}
-				</VStack>
-			</Box>
-		</Fade>
+							))}
+							{link.tags.length > 6 && (
+								<Text
+									fontSize="xs"
+									color={subtleTextColor}
+									px={3}
+									py={1.5}
+									fontWeight="medium"
+								>
+									+{link.tags.length - 6}
+								</Text>
+							)}
+						</Flex>
+					</Box>
+				)}
+			</VStack>
+		</Box>
 	);
 };
