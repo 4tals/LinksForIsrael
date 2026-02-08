@@ -12,11 +12,16 @@ export function SearchButtonMobile() {
 			aria-label="Search"
 			icon={<SearchIcon />}
 			onClick={toggleMobileSearch}
-			size="lg"
-			colorScheme="blue"
+			size="md"
+			variant="ghost"
 			borderRadius="full"
-			variant="solid"
-			color="white"
+			color="whiteAlpha.900"
+			_hover={{
+				bg: "whiteAlpha.200",
+			}}
+			_active={{
+				bg: "whiteAlpha.300",
+			}}
 		/>
 	);
 }
