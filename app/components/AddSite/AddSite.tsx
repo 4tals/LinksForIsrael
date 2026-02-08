@@ -31,11 +31,7 @@ export function AddSite() {
 						<div className={styles.formContainer}>
 							<iframe
 								src="https://docs.google.com/forms/d/e/1FAIpQLSco2RfeIn1glCPqC2JoPtN-lfmdmxu6HPy7JjHnt66ktk8SAw/viewform?embedded=true"
-								width="300"
-								height="520"
-								frameBorder={0}
-								marginHeight={0}
-								marginWidth={0}
+								title="Add Initiative Form"
 							>
 								Loading…
 							</iframe>
