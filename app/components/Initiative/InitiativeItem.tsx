@@ -40,7 +40,17 @@ export const InitiativeItem: React.FC<InitiativeItemProps> = ({
 	const isRtl = containsHebrewLetters(
 		`${link.displayName}${link?.shortDescription}`,
 	);
+
+	// All color mode values must be called at the top level
 	const bgColor = useColorModeValue("white", "gray.700");
+	const borderColor = useColorModeValue("gray.200", "gray.600");
+	const hoverBorderColor = useColorModeValue("blue.300", "blue.500");
+	const gradientOverlay = useColorModeValue(
+		"linear(to-b, transparent 0%, white 100%)",
+		"linear(to-b, transparent 0%, gray.700 100%)",
+	);
+	const titleColor = useColorModeValue("gray.800", "gray.100");
+	const descriptionColor = useColorModeValue("gray.600", "gray.400");
 
 	// Explicitly type the event parameter
 	const handleLinkClick = (e: React.MouseEvent<HTMLDivElement>) => {
@@ -70,11 +80,11 @@ export const InitiativeItem: React.FC<InitiativeItemProps> = ({
 			cursor={link.description?.length > 0 ? "pointer" : "default"}
 			boxShadow="md"
 			border="1px solid"
-			borderColor={useColorModeValue("gray.200", "gray.600")}
+			borderColor={borderColor}
 			_hover={{
 				transform: "translateY(-4px)",
 				boxShadow: "2xl",
-				borderColor: useColorModeValue("blue.300", "blue.500"),
+				borderColor: hoverBorderColor,
 			}}
 			onClick={handleLinkClick}
 			style={{ direction: isRtl ? "rtl" : "ltr" }}
@@ -100,20 +110,21 @@ export const InitiativeItem: React.FC<InitiativeItemProps> = ({
 						left="0"
 						right="0"
 						bottom="0"
-						bgGradient={useColorModeValue(
-							"linear(to-b, transparent 0%, white 100%)",
-							"linear(to-b, transparent 0%, gray.700 100%)",
-						)}
+						bgGradient={gradientOverlay}
 						opacity="0.9"
 					/>
 				</Box>
 			</Tooltip>
-			<Flex direction="column" p={{ base: "12px 16px", md: "16px 20px" }} gap={2}>
+			<Flex
+				direction="column"
+				p={{ base: "12px 16px", md: "16px 20px" }}
+				gap={2}
+			>
 				<Text
 					fontSize={{ base: "sm", md: "lg" }}
 					fontWeight="semibold"
 					noOfLines={{ base: 3, md: 1 }}
-					color={useColorModeValue("gray.800", "gray.100")}
+					color={titleColor}
 					letterSpacing="tight"
 				>
 					{link.displayName}
@@ -123,7 +134,7 @@ export const InitiativeItem: React.FC<InitiativeItemProps> = ({
 						fontSize={{ base: "xs", md: "sm" }}
 						fontWeight="normal"
 						noOfLines={{ base: 3, md: 2 }}
-						color={useColorModeValue("gray.600", "gray.400")}
+						color={descriptionColor}
 						lineHeight="1.5"
 					>
 						{link.shortDescription}
