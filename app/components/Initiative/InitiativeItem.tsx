@@ -61,46 +61,70 @@ export const InitiativeItem: React.FC<InitiativeItemProps> = ({
 
 	return (
 		<Box
-			bg={"gray.100"}
-			borderRadius="md"
+			bg={bgColor}
+			borderRadius="xl"
 			overflow="hidden"
-			// Responsive minWidth and width
 			minWidth={{ base: "150px", md: "250px" }}
 			width={{ base: "70%", md: "250px" }}
-			transition="all 0.3s"
-			_hover={{ bg: "gray.200", transform: "scale(1.05)", boxShadow: "xl" }}
+			transition="all 0.3s cubic-bezier(0.4, 0, 0.2, 1)"
+			cursor={link.description?.length > 0 ? "pointer" : "default"}
+			boxShadow="md"
+			border="1px solid"
+			borderColor={useColorModeValue("gray.200", "gray.600")}
+			_hover={{
+				transform: "translateY(-4px)",
+				boxShadow: "2xl",
+				borderColor: useColorModeValue("blue.300", "blue.500"),
+			}}
 			onClick={handleLinkClick}
 			style={{ direction: isRtl ? "rtl" : "ltr" }}
 			aspectRatio={1 / 1}
 			paddingBlockEnd={{ base: "30px" }}
-			//ellipsis after 3 lines
+			position="relative"
 		>
-			<Tooltip label="לחץ לפרטים נוספים" hasArrow>
-				<Image
-					src={imageUrl}
-					alt={link.displayName}
-					objectFit="cover"
-					opacity="0.3"
-					w={{ base: "full", md: "full" }}
-					h={{ base: "20px", md: "100px" }} // Adjusted for mobile
-					onError={() => setImageError(true)}
-				/>
+			<Tooltip label="לחץ לפרטים נוספים" hasArrow placement="top">
+				<Box position="relative" overflow="hidden">
+					<Image
+						src={imageUrl}
+						alt={link.displayName}
+						objectFit="cover"
+						w="full"
+						h={{ base: "60px", md: "110px" }}
+						onError={() => setImageError(true)}
+						transition="transform 0.3s ease"
+						_hover={{ transform: "scale(1.05)" }}
+					/>
+					<Box
+						position="absolute"
+						top="0"
+						left="0"
+						right="0"
+						bottom="0"
+						bgGradient={useColorModeValue(
+							"linear(to-b, transparent 0%, white 100%)",
+							"linear(to-b, transparent 0%, gray.700 100%)",
+						)}
+						opacity="0.9"
+					/>
+				</Box>
 			</Tooltip>
-			<Flex direction="column" p="16px 24px">
+			<Flex direction="column" p={{ base: "12px 16px", md: "16px 20px" }} gap={2}>
 				<Text
-					fontSize={{ base: "sm", md: "lg" }} // Smaller font size for mobile
-					fontWeight="bold"
+					fontSize={{ base: "sm", md: "lg" }}
+					fontWeight="semibold"
 					noOfLines={{ base: 3, md: 1 }}
+					color={useColorModeValue("gray.800", "gray.100")}
+					letterSpacing="tight"
 				>
 					{link.displayName}
 				</Text>
 				{link.shortDescription && (
 					<Text
-						fontSize={{ base: "xs", md: "md" }} // Smaller font size for mobile
-						fontWeight="medium"
-						mt={1}
+						fontSize={{ base: "xs", md: "sm" }}
+						fontWeight="normal"
 						noOfLines={{ base: 3, md: 2 }}
-						overflow="hidden"
+						color={useColorModeValue("gray.600", "gray.400")}
+						lineHeight="1.5"
 					>
 						{link.shortDescription}
 					</Text>
