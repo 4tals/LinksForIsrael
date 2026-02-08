@@ -20,18 +20,32 @@ export function SearchInput() {
 		<Box
 			display="flex"
 			alignItems="center"
-			backgroundColor="white"
-			width={isMobile ? "100%" : "400px"}
-			height={isMobile ? "35px" : "44px"}
-			borderRadius="20px"
-			padding="0 10px"
+			bg="whiteAlpha.100"
+			border="1px solid"
+			borderColor="whiteAlpha.200"
+			width={isMobile ? "100%" : "100%"}
+			maxW="400px"
+			height={isMobile ? "36px" : "40px"}
+			borderRadius="full"
+			px={4}
+			transition="all 0.2s ease"
+			_hover={{
+				bg: "whiteAlpha.150",
+				borderColor: "whiteAlpha.300",
+			}}
+			_focusWithin={{
+				bg: "whiteAlpha.200",
+				borderColor: "whiteAlpha.400",
+				boxShadow: "0 0 0 2px rgba(255, 255, 255, 0.1)",
+			}}
 		>
 			<Icon
 				as={Search2Icon}
-				color="gray.500"
-				w={6}
-				h={6}
-				display={{ base: "none", md: "flex" }}
+				color="whiteAlpha.700"
+				w={4}
+				h={4}
+				mr={2}
+				flexShrink={0}
 			/>
 			<Input
 				ref={inputRef}
@@ -47,14 +61,19 @@ export function SearchInput() {
 					}
 				}}
 				border="none"
-				color={"black"}
+				bg="transparent"
+				color="white"
+				fontSize="sm"
 				outline="none"
-				marginRight="7px"
 				width="100%"
 				list="search-suggestions"
-				borderRadius="20px"
-				// bgColor="transparent" // Set background to transparent
-				_focus={{ boxShadow: "none" }} // Remove focus outline
+				p={0}
+				_placeholder={{
+					color: "whiteAlpha.600",
+				}}
+				_focus={{
+					boxShadow: "none",
+				}}
 			/>
 		</Box>
 	);
