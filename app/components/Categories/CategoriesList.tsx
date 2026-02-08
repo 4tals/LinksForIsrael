@@ -9,6 +9,8 @@ import {
 	Box,
 	Flex,
 	Image,
+	LinkBox,
+	LinkOverlay,
 	Text,
 	Tooltip,
 	useMediaQuery,
@@ -44,51 +46,110 @@ const CategoriesList: React.FC<CategoriesListProps> = ({
 		}
 	}, [categoryId, isLargerThan768]);
 
+	const isSelected = (category: CategoryType) =>
+		!search && category.id === categoryId;
+
+	const handleCategoryClick = (category: CategoryType) => {
+		analyticsService.trackCategoryView(category.id);
+		onSearch("");
+	};
+
 	return (
-		<Flex direction="row" wrap="nowrap" p={4} alignItems="center">
+		<Flex
+			direction="row"
+			wrap="nowrap"
+			py={4}
+			px={2}
+			alignItems="stretch"
+			gap={3}
+		>
 			{categories.map((category) => (
 				<Tooltip
 					label={category.displayName}
 					placement="top"
 					hasArrow
 					key={category.name}
+					bg="gray.800"
+					color="white"
+					fontSize="sm"
+					px={3}
+					py={2}
+					borderRadius="lg"
 				>
-					<Box
+					<LinkBox
+						as="article"
 						id={category.name}
-						onClick={() => {
-							analyticsService.trackCategoryView(category.id);
-							onSearch("");
+						p={4}
+						borderRadius="xl"
+						bg={isSelected(category) ? "blue.50" : "white"}
+						boxShadow={
+							isSelected(category)
+								? "0 4px 20px rgba(66, 153, 225, 0.3)"
+								: "0 2px 8px rgba(0, 0, 0, 0.06)"
+						}
+						border="1px solid"
+						borderColor={isSelected(category) ? "blue.200" : "transparent"}
+						_hover={{
+							boxShadow: "0 8px 24px rgba(0, 0, 0, 0.12)",
+							transform: "translateY(-4px)",
+							bg: isSelected(category) ? "blue.50" : "gray.50",
 						}}
+						transition="all 0.25s cubic-bezier(0.4, 0, 0.2, 1)"
+						minW="100px"
+						display="flex"
+						flexDirection="column"
+						alignItems="center"
+						justifyContent="center"
 						cursor="pointer"
-						m={2}
-						p={2}
-						borderWidth="1px"
-						borderRadius="md"
-						_hover={{ boxShadow: "lg", transform: "translateY(-2px)" }}
-						bg={!search && category.id === categoryId ? "blue.200" : "white"}
-						transition="all 0.2s ease-in-out"
 					>
-						<Link href={`/${category.id}`}>
-							{category.image && (
+						{category.image && (
+							<Box
+								p={2}
+								borderRadius="full"
+								bg={isSelected(category) ? "blue.100" : "gray.50"}
+								mb={3}
+								transition="all 0.25s ease"
+							>
 								<Image
 									src={category.image}
 									alt={`${category.displayName} Icon`}
-									boxSize="40px"
-									objectFit="cover"
-									mx="auto"
+									boxSize="44px"
+									objectFit="contain"
 								/>
-							)}
+							</Box>
+						)}
+						<LinkOverlay
+							as={Link}
+							href={`/${category.id}`}
+							onClick={() => handleCategoryClick(category)}
+							_focus={{ outline: "none", boxShadow: "none" }}
+							_focusVisible={{
+								outline: "2px solid",
+								outlineColor: "blue.400",
+								outlineOffset: "2px",
+								borderRadius: "md",
+							}}
+						>
 							<Text
-								fontSize="xs"
-								width="80px"
-								fontWeight="bold"
-								mt={2}
+								fontSize="sm"
+								fontWeight={isSelected(category) ? "700" : "600"}
+								color={isSelected(category) ? "blue.700" : "gray.700"}
 								textAlign="center"
+								lineHeight="1.3"
+								noOfLines={2}
 							>
 								{category.displayName}
 							</Text>
-						</Link>
-					</Box>
+						</LinkOverlay>
+						<Text
+							fontSize="xs"
+							color={isSelected(category) ? "blue.500" : "gray.400"}
+							mt={1}
+							fontWeight="500"
+						>
+							{getNumberOfInitiatives(category)} יוזמות
+						</Text>
+					</LinkBox>
 				</Tooltip>
 			))}
 		</Flex>
