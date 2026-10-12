@@ -50,42 +50,6 @@
       "createdAt": "2023-10-25T23:30:30+03:00"
     },
     {
-      "name": "SunDoAgricultureVolunteering",
-      "displayName": "סאנדו התנדבות בחקלאות",
-      "description": "פלטפורמה המחברת חקלאים ומתנדבים לסיוע חקלאי, משמעותי וחוויתי. עם אפליקציית סאנדו, כל אחד יכול למצוא פעילות נכונה.",
-      "shortDescription": "פלטפורמה המחברת חקלאים ומתנדבים לסיוע חקלאי.",
-      "website": "https://www.hashomer.org.il/featured_item/sundo/",
-      "url": "https://www.hashomer.org.il/featured_item/sundo/",
-      "initiativeImage": "https://play-lh.googleusercontent.com/F-KqLf99JGeA2GqZ6ZlQO0mOA-6w5VDLD8pUdU9vRKljcf56eTP8fipJdw2EzFUZxo4=s48-rw",
-      "initiativeValidationDetails": "המקור: הקבוצה בטלגרם. הקישור למקור מאוד מוכר שמקדם את היוזמה: https://www.hashomer.org.il/featured_item/sundo/ השומר הצעיר - עמותה ידועה ומהימנה.",
-      "tags": [
-        "התנדבות",
-        "חקלאות",
-        "סאנדו",
-        "חקלאים",
-        "חוויתי",
-        "משמעותי"
-      ],
-      "createdAt": "2023-10-27T11:24:46+03:00"
-    },
-    {
-      "name": "SupportingIsraeliFarmers",
-      "displayName": "צו 8 לחקלאות הישראלית",
-      "description": "הטרור המחריד ב-7.10 פגע בחקלאות. חקלאים נפגעו ותשתיות הוזקו. אנו יוצרים שיתוף פעולה לסייע לחקלאים ולשלב מאמצים למען החקלאות המקומית.",
-      "shortDescription": "הטרור ב-7.10 פגע בחקלאות. שיתוף פעולה יסייע לחקלאי ישראל ותמיכה בעת חירום לעתיד החקלאות.",
-      "website": "https://supportingisraelifarmers.co.il/",
-      "url": "https://supportingisraelifarmers.co.il/",
-      "initiativeImage": "https://www.hayadan.org.il/images/content3/2018/01/farmer-880567_1280.jpg",
-      "tags": [
-        "התנדבות",
-        "חקלאות",
-        "צו-8",
-        "חקלאים",
-        "משמעותי"
-      ],
-      "createdAt": "2023-10-31T20:43:13+02:00"
-    },
-    {
       "name": "LeketIsraelFarmersVolonteers",
       "displayName": "לקט ישראל - מתנדבים למשקים",
       "shortDescription": "התנדבות למשקים בדרום בעקבות המלחמה",
