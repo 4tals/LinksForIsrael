@@ -3,24 +3,6 @@
   "displayName": "ראשי",
   "links": [
     {
-      "name": "IzkorNoflim",
-      "displayName": "יזכור הנופלים",
-      "shortDescription": "מידע על כלל חללי ׳חרבות ברזל׳",
-      "description": "האתר הוקם במטרה לרכז מידע על כלל חללי ׳חרבות ברזל׳, מועדי הלוויה ומיקומי השבעה על מנת שנוכל לחלוק להם כבוד אחרון וללוותם בדרכם האחרונה",
-      "url": "https://www.izkorharavot.com/",
-      "website": "https://www.izkorharavot.com/",
-      "createdAt": "2023-10-14T02:10:56+03:00"
-    },
-    {
-      "name": "LevEhad",
-      "displayName": "לב אחד - טופס רישום לנציגים אזרחיים",
-      "shortDescription": "ארגון לב אחד דואג שלא תהיה לוויה ללא נציגים אזרחיים",
-      "description": "ארגון לב אחד דואג שלא תהיה לוויה ללא נציגים אזרחיים",
-      "url": "https://wkf.ms/46mj8OG",
-      "forms": "https://wkf.ms/46mj8OG",
-      "createdAt": "2023-10-12T22:22:49+03:00"
-    },
-    {
       "name": "IllustrationNofalim",
       "displayName": "איורים של הנופלים - Benzi Wolman",
       "shortDescription": "אני יושב ומאייר את דמותם של הנופלים שהיו שם בשבילנו. אם אתם יודעים על משפחה שעשויה לרצות",
@@ -117,9 +99,7 @@
       "shortDescription": "אתר הנצחה לנופלים ב7 באקוטובר ובמלחמת חרבות ברזל",
       "description": "מתקפת הטרור באותה שבת שחורה ומלחמת 'חרבות ברזל' שבאה בעקבותיה הותירו חלל עצום הנוגע בכל בית בישראל, בכל לב אנושי.  האתר הוקם כבית לתמונות ולסיפורים של האנשים היקרים שנקטפו בטרם עת.",
       "initiativeValidationDetails": "https://www.linkedin.com/feed/update/urn:li:activity:7129843344486072320/",
-      "url": "https://octseven.co.il",
       "initiativeImage": "/images/OctSevenLostLovedOnes-2fbbc349-3c9c-46d2-b339-116d4410dd3b.png",
-      "website": "https://octseven.co.il",
       "email": "support@octseven.com",
       "tags": [
         "נופלים",

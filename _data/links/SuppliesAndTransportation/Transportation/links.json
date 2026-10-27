@@ -7,8 +7,6 @@
       "displayName": "חמל השינוע הארצי",
       "shortDescription": "חמ״ל השינוע הארצי, הינו מיזם התנדבותי המחבר בין אזרחים וכוחות ביטחון לצורך שינוע בזמן חירום.",
       "description": "חמ״ל השינוע הארצי, הינו מיזם התנדבותי המחבר בין אזרחים וכוחות ביטחון לצורך שינוע בזמן חירום.",
-      "url": "https://www.transportaid.org/",
-      "website": "https://www.transportaid.org/",
       "initiativeImage": "https://static.wixstatic.com/media/6e2c6c_05022fd4446e4f258ee9a6ffa599e405~mv2.png/v1/fill/w_211,h_56,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/CSA-wide-Logo.png",
       "form": "https://forms.monday.com/forms/a581779b065798bdbac2a5d206419ae6?r=euc1",
       "createdAt": "2023-10-29T08:46:29+02:00"
@@ -67,21 +65,6 @@
         "הסעות"
       ],
       "createdAt": "2023-11-15T22:53:09+02:00"
-    },
-    {
-      "name": "Hasaot",
-      "displayName": "הסעות - חרבות ברזל",
-      "shortDescription": "אנו ננסה לתאם בין נהגים מתנדבים לבין חיילים הזקוקים להסעה",
-      "description": "אתר המאמת נהגים ומבקשי הסעה, ולאחר מכן מפנה אותם לקבוצת ואצאפ סגורה לצורך תיאום",
-      "initiativeValidationDetails": "Video chatted with site owner",
-      "url": "https://hasaot.mrwp.co.il/",
-      "website": "https://hasaot.mrwp.co.il/",
-      "tags": [
-        "הסעה",
-        "נהגים",
-        "חיילים"
-      ],
-      "createdAt": "2023-11-15T22:58:29+02:00"
     },
     {
       "name": "ReserveRides",

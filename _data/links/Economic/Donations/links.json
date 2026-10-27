@@ -3,15 +3,6 @@
   "displayName": "תרומות כספיות",
   "links": [
     {
-      "name": "SafeDonate",
-      "displayName": "Safe Donate",
-      "shortDescription": "אימות קישורים לתרומות - Donation link validation (abroad-friendly)",
-      "description": "אנו עושים כל שניתן על מנת לוודא ולאשר את הלינקים שמגיעים אלינו. אנו בוחנים את המתרימים, אמינותם ומהימנותם, מנסים לברר את מהות התרומה ולקבל אישור לכך שהיא מגיעה ליעדה והכל במטרה להבטיח לכם שהתרומה שלכם מגיעה לאנשים טובים שבאמת עושים בכסף שלכם שימוש ראוי. \n SafeDonate does everything possible to verify and confirm the links we receive. We examine the fund-raisers, their reliability and credibility, try to determine the nature of the contribution, and to confirm that it reaches its intended destination. All this is done with the aim of ensuring that your donation goes to its intended destination in order to genuinely make proper use of your money. ",
-      "url": "https://naboo.ai/safedonate",
-      "website": "https://naboo.ai/safedonate",
-      "createdAt": "2023-10-12T22:22:49+03:00"
-    },
-    {
       "name": "GiveIsrael",
       "displayName": "Give Israel",
       "shortDescription": "Donating for Israel",
