@@ -2,8 +2,15 @@
 
 import NextLink from "next/link";
 import React, { useMemo, useState } from "react";
-import { FaFlag, FaGlobe, FaSearch } from "react-icons/fa";
+import {
+	FaArrowRight,
+	FaFlag,
+	FaGlobe,
+	FaLink,
+	FaSearch,
+} from "react-icons/fa";
 
+import { OrgAvatar } from "@/app/components/Initiative/OrgAvatar";
 import { Logo } from "@/app/components/Logo";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 import {
@@ -15,12 +22,15 @@ import {
 	Heading,
 	HStack,
 	Icon,
+	IconButton,
 	Input,
 	InputGroup,
 	InputLeftElement,
 	Link,
 	SimpleGrid,
 	Text,
+	Tooltip,
+	useToast,
 	VStack,
 } from "@chakra-ui/react";
 
@@ -34,9 +44,25 @@ const CATEGORIES = [
 	{ id: "advocacy", label: "Advocacy & Remembrance" },
 ] as const;
 
+const CATEGORY_COLORS: Record<string, { bg: string; color: string }> = {
+	donate: { bg: "purple.50", color: "purple.700" },
+	rehab: { bg: "blue.50", color: "blue.700" },
+	volunteer: { bg: "teal.50", color: "teal.700" },
+	advocacy: { bg: "orange.50", color: "orange.700" },
+};
+
+function getDisplayDomain(url: string): string {
+	try {
+		return new URL(url).hostname.replace(/^www\./, "");
+	} catch {
+		return "";
+	}
+}
+
 export function EnglishPortal() {
 	const [selectedCategory, setSelectedCategory] = useState<string>("all");
 	const [query, setQuery] = useState("");
+	const toast = useToast();
 
 	const filtered = useMemo(() => {
 		const q = query.trim().toLowerCase();
@@ -53,6 +79,20 @@ export function EnglishPortal() {
 			);
 		});
 	}, [selectedCategory, query]);
+
+	const handleCopy = async (url: string) => {
+		try {
+			await navigator.clipboard.writeText(url);
+			toast({
+				title: "Link copied",
+				status: "success",
+				duration: 1800,
+				isClosable: true,
+			});
+		} catch {
+			// Ignore
+		}
+	};
 
 	return (
 		<Box dir="ltr" textAlign="left" py={{ base: 6, md: 10 }}>
@@ -210,7 +250,7 @@ export function EnglishPortal() {
 					</Box>
 				) : (
 					<SimpleGrid
-						columns={{ base: 1, sm: 2, lg: 3 }}
+						columns={{ base: 1, md: 2, xl: 3 }}
 						spacing={{ base: 4, md: 5 }}
 					>
 						{filtered.map((item) => {
@@ -219,61 +259,142 @@ export function EnglishPortal() {
 							)}&initiative=${encodeURIComponent(
 								item.name,
 							)}&url=${encodeURIComponent(item.url)}`;
+							const badgeStyle =
+								CATEGORY_COLORS[item.category] || CATEGORY_COLORS.rehab;
 
 							return (
 								<Flex
 									key={item.id}
+									as="article"
+									role="group"
 									direction="column"
+									position="relative"
 									bg="white"
-									borderRadius="xl"
+									borderRadius="16px"
 									borderWidth="1px"
 									borderColor="gray.200"
 									p={5}
-									boxShadow="xs"
-									transition="all 0.2s ease"
+									overflow="hidden"
+									boxShadow="0 1px 2px rgba(15, 23, 42, 0.04)"
+									transition="transform 0.22s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.22s ease, border-color 0.22s ease"
 									_hover={{
-										borderColor: "brand.400",
-										boxShadow: "md",
-										transform: "translateY(-2px)",
+										borderColor: "brand.300",
+										transform: "translateY(-3px)",
+										boxShadow:
+											"0 14px 28px -10px rgba(0, 56, 184, 0.14), 0 4px 10px -4px rgba(15, 23, 42, 0.06)",
 									}}
 									justify="space-between"
-									gap={4}
+									gap={3}
 								>
+									{/* Top gradient accent on hover */}
+									<Box
+										position="absolute"
+										top={0}
+										left={0}
+										right={0}
+										h="3px"
+										bgGradient="linear(to-r, brand.500, cyan.400)"
+										opacity={0}
+										transition="opacity 0.22s ease"
+										_groupHover={{ opacity: 1 }}
+									/>
+
 									<Box>
+										<Flex
+											align="flex-start"
+											justify="space-between"
+											gap={3}
+											mb={3}
+										>
+											<Flex align="center" gap={3} minW={0} flex="1">
+												<OrgAvatar name={item.name} primaryUrl={item.url} />
+												<Box minW={0} flex="1">
+													<Heading
+														as="h2"
+														fontSize="md"
+														fontWeight="bold"
+														color="gray.900"
+														lineHeight="1.35"
+														noOfLines={2}
+														_groupHover={{ color: "brand.600" }}
+														transition="color 0.15s ease"
+													>
+														{item.name}
+													</Heading>
+													<Text fontSize="xs" color="gray.400" noOfLines={1}>
+														{getDisplayDomain(item.url)}
+													</Text>
+												</Box>
+											</Flex>
+
+											<Tooltip label="Copy link" placement="top" hasArrow>
+												<IconButton
+													aria-label={`Copy link for ${item.name}`}
+													icon={<FaLink size={12} />}
+													size="xs"
+													variant="ghost"
+													color="gray.400"
+													borderRadius="lg"
+													opacity={{ base: 1, md: 0 }}
+													_groupHover={{ opacity: 1 }}
+													_hover={{ bg: "gray.100", color: "brand.600" }}
+													onClick={() => handleCopy(item.url)}
+												/>
+											</Tooltip>
+										</Flex>
+
 										<Badge
-											colorScheme="blue"
-											variant="subtle"
+											bg={badgeStyle.bg}
+											color={badgeStyle.color}
 											borderRadius="full"
 											px={2.5}
 											py={0.5}
 											fontSize="2xs"
+											fontWeight="semibold"
+											textTransform="none"
 											mb={2.5}
 										>
 											{item.categoryLabel}
 										</Badge>
-										<Heading as="h2" size="md" color="gray.800" mb={2}>
-											{item.name}
-										</Heading>
-										<Text fontSize="sm" color="gray.600" lineHeight="1.6">
+
+										<Text
+											fontSize="sm"
+											color="gray.600"
+											lineHeight="1.55"
+											noOfLines={3}
+										>
 											{item.summary}
 										</Text>
 									</Box>
 
-									<Box pt={3} borderTopWidth="1px" borderColor="gray.100">
+									<Box
+										pt={3}
+										mt="auto"
+										borderTopWidth="1px"
+										borderColor="gray.100"
+									>
 										<Flex align="center" justify="space-between" gap={2}>
-											<Button
-												as={Link}
+											<Link
 												href={item.url}
 												isExternal
-												size="sm"
-												colorScheme="blue"
-												bg="brand.600"
-												_hover={{ bg: "brand.700", textDecoration: "none" }}
-												borderRadius="lg"
-												rightIcon={<ExternalLinkIcon />}
+												fontSize="sm"
+												fontWeight="semibold"
+												color="brand.600"
+												display="inline-flex"
+												alignItems="center"
+												gap={1.5}
+												_hover={{ color: "brand.700", textDecoration: "none" }}
 											>
-												Visit Website
-											</Button>
+												<span>Visit Website</span>
+												<Icon
+													as={FaArrowRight}
+													boxSize={2.5}
+													transition="transform 0.2s ease"
+													_groupHover={{ transform: "translateX(3px)" }}
+												/>
+												<ExternalLinkIcon boxSize={3} opacity={0.7} />
+											</Link>
+
 											<Link
 												href={reportUrl}
 												isExternal

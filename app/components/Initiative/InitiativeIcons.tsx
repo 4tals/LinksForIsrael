@@ -58,7 +58,7 @@ export const InitiativeIcons: React.FC<InitiativeIconsProps> = ({
 	}
 
 	return (
-		<Flex direction="column" gap={2} mt={2}>
+		<Flex direction="column" gap={2} mt={showContactDetails ? 2 : 0}>
 			{showIcons.length > 0 && (
 				<Flex direction="row" wrap="wrap" align="center" gap={1.5}>
 					{showIcons.map(({ key, href }) => (

@@ -32,8 +32,8 @@ export function InitiativeList({
 
 	return (
 		<SimpleGrid
-			columns={{ base: 1, sm: 2, lg: 3, xl: 4 }}
-			spacing={{ base: 3.5, md: 5 }}
+			columns={{ base: 1, md: 2, xl: 3 }}
+			spacing={{ base: 3.5, md: 4 }}
 			pt={2}
 		>
 			{links.map((link) => (
