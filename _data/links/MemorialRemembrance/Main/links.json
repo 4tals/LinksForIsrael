@@ -35,7 +35,21 @@
 				"חללי חרבות ברזל",
 				"עיצוב אתרים"
 			],
-			"createdAt": "2023-11-10T22:51:27+02:00"
+			"createdAt": "2023-11-10T22:51:27+02:00",
+			"references": [
+				{
+					"url": "https://www.mako.co.il/nexter-news/Article-7efe3cb1dff01a1027.htm",
+					"type": "article",
+					"source": "Mako / N12",
+					"title": "פתרונות ההנצחה והזיכרון הדיגיטליים של Wix"
+				},
+				{
+					"url": "https://www.geektime.co.il/the-virtual-death-scene-in-israel/",
+					"type": "article",
+					"source": "Geektime",
+					"title": "תיעוד והנצחה דיגיטלית: השירותים הזמינים בישראל"
+				}
+			]
 		},
 		{
 			"name": "ironswords.info",

@@ -3,9 +3,136 @@
   "source": "https://www.linksforisrael.com",
   "repository": "https://github.com/4tals/LinksForIsrael",
   "license": "Open Data / Community Maintained",
-  "generatedAt": "2026-11-21T21:45:43.298Z",
+  "generatedAt": "2026-11-21T21:59:24.437Z",
   "count": 103,
   "initiatives": [
+    {
+      "id": "Economic/Donations/Latet",
+      "name": "Latet",
+      "displayName": "ארגון לתת",
+      "categoryId": "Economic",
+      "categoryName": "כלכלי ועסקי",
+      "subCategoryId": "Donations",
+      "subCategoryName": "תרומות כספיות",
+      "shortDescription": "סיוע הומניטרי, ביטחון תזונתי ותמיכה במשפחות נזקקות וניצולי שואה",
+      "description": "ארגון לתת פועל לצמצום העוני וחוסר הביטחון התזונתי בישראל באמצעות חלוקת מזון שוטפת, התנדבות ארצית, סיוע לניצולי שואה ותגובה מהירה למצבי חירום.",
+      "url": "https://www.latet.org.il/",
+      "website": "https://www.latet.org.il/",
+      "phone": null,
+      "email": null,
+      "intents": [
+        "donate",
+        "volunteer",
+        "get-help"
+      ],
+      "verified": true,
+      "taxDeductible46": true,
+      "organizationType": "ngo",
+      "references": [
+        {
+          "url": "https://he.wikipedia.org/wiki/%D7%90%D7%A8%D7%92%D7%95%D7%9F_%D7%9C%D7%AA%D7%AA",
+          "type": "registry",
+          "source": "Wikipedia",
+          "title": "ארגון לתת – סיוע הומניטרי ישראלי (ויקיפדיה)"
+        },
+        {
+          "url": "https://www.guidestar.org.il/organization/580294940",
+          "type": "registry",
+          "source": "GuideStar Israel",
+          "title": "ארגון לתת – רישום עמותה וניהול תקין בגיידסטאר"
+        },
+        {
+          "url": "https://www.ynet.co.il/news/article/skja96xfzg",
+          "type": "article",
+          "source": "Ynet",
+          "title": "דוח העוני של ארגון ״לתת״: עלויות המחיה קפצו ב-10%"
+        },
+        {
+          "url": "https://www.calcalist.co.il/local_news/article/hkjrximos",
+          "type": "article",
+          "source": "Calcalist",
+          "title": "דו״ח העוני של ״לתת״: זינוק במספר החוסכים על אוכל ותרופות"
+        }
+      ],
+      "rankScore": 100,
+      "tags": [
+        "לתת",
+        "תרומות",
+        "מזון",
+        "התנדבות",
+        "סיוע הומניטרי",
+        "עמותה"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/Economic/Donations/Latet",
+      "createdAt": "2026-11-21T18:55:00+02:00"
+    },
+    {
+      "id": "FamilyAndPets/Main/KremboWings",
+      "name": "KremboWings",
+      "displayName": "כנפיים של קרמבו",
+      "categoryId": "FamilyAndPets",
+      "categoryName": "משפחה ובע\"ח",
+      "subCategoryId": "Main",
+      "subCategoryName": "ראשי",
+      "shortDescription": "תנועת נוער משלבת לילדים ונוער עם ובלי צרכים מיוחדים בכל הארץ",
+      "description": "תנועת הנוער כנפיים של קרמבו פועלת בעשרות סניפים ברחבי ישראל ומשלבת חניכים עם ובלי צרכים מיוחדים בפעילות חברתית, הדרכה והתנדבות.",
+      "url": "https://www.krembo.org.il/",
+      "website": "https://www.krembo.org.il/",
+      "phone": null,
+      "email": null,
+      "intents": [
+        "volunteer",
+        "donate",
+        "get-help"
+      ],
+      "verified": true,
+      "taxDeductible46": true,
+      "organizationType": "ngo",
+      "references": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Krembo_Wings",
+          "type": "registry",
+          "source": "Wikipedia",
+          "title": "Krembo Wings – Inclusive Youth Movement (Wikipedia)"
+        },
+        {
+          "url": "https://www.guidestar.org.il/organization/580455681",
+          "type": "registry",
+          "source": "GuideStar Israel",
+          "title": "כנפיים של קרמבו – רישום וניהול תקין בגיידסטאר"
+        },
+        {
+          "url": "https://www.ynet.co.il/articles/0,7340,L-5322545,00.html",
+          "type": "article",
+          "source": "Ynet",
+          "title": "גאווה ישראלית: ״כנפיים של קרמבו״ הוכרה כ״יועץ מיוחד״ לאו״ם"
+        },
+        {
+          "url": "https://campusil.podbean.com/e/%D7%A2%D7%93%D7%99-%D7%90%D7%9C%D7%98%D7%A9%D7%95%D7%9C%D7%A8/",
+          "type": "podcast",
+          "source": "פודקאסט המאסטרים · קמפוס IL",
+          "author": "עדי אלטשולר",
+          "title": "שינוי ועשייה חברתית – הסיפור מאחורי הקמת ״כנפיים של קרמבו״"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=8yh8F3YKQDU",
+          "type": "video",
+          "source": "YouTube · מטח",
+          "author": "מטח המרכז לטכנולוגיה חינוכית",
+          "title": "איך מחנכים לזיכרון, שייכות ותקווה – ראיון עם עדי אלטשולר"
+        }
+      ],
+      "rankScore": 100,
+      "tags": [
+        "כנפיים של קרמבו",
+        "נוער",
+        "צרכים מיוחדים",
+        "התנדבות",
+        "חינוך"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/FamilyAndPets/Main/KremboWings",
+      "createdAt": "2026-11-21T18:55:00+02:00"
+    },
     {
       "id": "GeneralAssistance/Main/Yedidim",
       "name": "Yedidim",
@@ -55,6 +182,54 @@
       "tags": [],
       "portalUrl": "https://www.linksforisrael.com/",
       "createdAt": "2023-10-21T20:57:25+03:00"
+    },
+    {
+      "id": "StrategicCommunication/Info/TheNationalLibrary",
+      "name": "TheNationalLibrary",
+      "displayName": "הספרייה הלאומית - רשימת פרויקטים - מאגר הלאומי לתיעוד מאורעות ה - 7.10",
+      "categoryId": "StrategicCommunication",
+      "categoryName": "הסברה",
+      "subCategoryId": "Info",
+      "subCategoryName": "מקורות מידע לסיוע בהסברה",
+      "shortDescription": "המאגר של הספרייה הלאומית לתיעוד מאורעות ה - 7.10 למלחמה.",
+      "description": "המאגר הלאומי לתיעוד מאורעות ה - 7.10 למלחמה. https://www.nli.org.il/he/at-your-service/who-we-are/projects/7-october-documentation",
+      "url": "https://www.nli.org.il/he/at-your-service/who-we-are/projects/7-october-documentation#projects",
+      "website": "https://www.nli.org.il/he/at-your-service/who-we-are/projects/7-october-documentation#projects",
+      "phone": null,
+      "email": null,
+      "intents": null,
+      "verified": true,
+      "taxDeductible46": false,
+      "organizationType": "official",
+      "references": [
+        {
+          "url": "https://he.wikipedia.org/wiki/%D7%94%D7%A1%D7%A4%D7%A8%D7%99%D7%99%D7%94_%D7%94%D7%9C%D7%90%D7%95%D7%9E%D7%99%D7%AA",
+          "type": "registry",
+          "source": "Wikipedia",
+          "title": "הספרייה הלאומית (ויקיפדיה)"
+        },
+        {
+          "url": "https://www.btl.gov.il/About/news/Pages/NationalLibraryProject-7Oct.aspx",
+          "type": "official",
+          "source": "ביטוח לאומי (gov.il)",
+          "title": "פרויקט ״כרוך בזיכרון״ של הספרייה הלאומית להנצחת חללי ה-7 באוקטובר"
+        },
+        {
+          "url": "https://www.ynet.co.il/news/article/rkaep9vqt",
+          "type": "article",
+          "source": "Ynet",
+          "title": "הספרייה הלאומית אוספת עדויות מאירועי ה-7 באוקטובר"
+        }
+      ],
+      "rankScore": 96,
+      "tags": [
+        "תיעוד",
+        "עדויות",
+        "צילומים",
+        "מאגר"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/StrategicCommunication/Info/TheNationalLibrary",
+      "createdAt": "2023-11-21T22:03:35+02:00"
     },
     {
       "id": "Medical/MentalSupport/ERAN",
@@ -330,57 +505,53 @@
       "createdAt": "2026-11-21T18:55:00+02:00"
     },
     {
-      "id": "FamilyAndPets/Main/KremboWings",
-      "name": "KremboWings",
-      "displayName": "כנפיים של קרמבו",
-      "categoryId": "FamilyAndPets",
-      "categoryName": "משפחה ובע\"ח",
-      "subCategoryId": "Main",
-      "subCategoryName": "ראשי",
-      "shortDescription": "תנועת נוער משלבת לילדים ונוער עם ובלי צרכים מיוחדים בכל הארץ",
-      "description": "תנועת הנוער כנפיים של קרמבו פועלת בעשרות סניפים ברחבי ישראל ומשלבת חניכים עם ובלי צרכים מיוחדים בפעילות חברתית, הדרכה והתנדבות.",
-      "url": "https://www.krembo.org.il/",
-      "website": "https://www.krembo.org.il/",
+      "id": "Economic/Donations/jgive",
+      "name": "jgive",
+      "displayName": "JGive",
+      "categoryId": "Economic",
+      "categoryName": "כלכלי ועסקי",
+      "subCategoryId": "Donations",
+      "subCategoryName": "תרומות כספיות",
+      "shortDescription": "קרן חירום לאומית לסיוע לנפגעי המלחמה",
+      "description": "קרן החירום הלאומית הוקמה על ידי שותפים יחד עם JGive במטרה להעניק סיוע לנפגעים במלחמה הקשה שפקדה אותנו. כל כספי התרומות שייאספו בקרן, יחולקו לעמותות המציעות שירותי סעד, רווחה, ציוד, מזון ועוד לנפגעי המלחמה. הכספים יחולקו באמצעות ועדה ציבורית בראשות אליעזר שקדי (אלוף במיל'). העמותות הפועלות בגזרות השונות מכירות מקרוב את האתגרים ואת דרכי הפעולה האפשריות. תמיכה בהם היא הדרך הטובה ביותר שאנו מכירים כדי להשפיע, ולו במעט, על חייהם של רבים. הצטרפו אלינו ותרמו. כל התרומות מוכרות לפי סעיף 46. הכסף עובר במלואו , למעט עמלת סליקת האשראי במקרה של תרומה באשראי",
+      "url": "https://www.jgive.com/new/he/ils/donation-targets/110048?utm_source=homepage",
+      "website": "https://www.jgive.com/new/he/ils/donation-targets/110048?utm_source=homepage",
       "phone": null,
-      "email": null,
-      "intents": [
-        "volunteer",
-        "donate",
-        "get-help"
-      ],
+      "email": "circle@jgive.com",
+      "intents": null,
       "verified": true,
       "taxDeductible46": true,
       "organizationType": "ngo",
       "references": [
         {
-          "url": "https://en.wikipedia.org/wiki/Krembo_Wings",
+          "url": "https://he.wikipedia.org/wiki/Jgive",
           "type": "registry",
           "source": "Wikipedia",
-          "title": "Krembo Wings – Inclusive Youth Movement (Wikipedia)"
+          "title": "JGive – פלטפורמת התרומות הישראלית (ויקיפדיה)"
         },
         {
-          "url": "https://www.guidestar.org.il/organization/580455681",
+          "url": "https://www.guidestar.org.il/organization/580586998",
           "type": "registry",
           "source": "GuideStar Israel",
-          "title": "כנפיים של קרמבו – רישום וניהול תקין בגיידסטאר"
+          "title": "קרן עשור – ג׳ייגיב (רישום עמותה וניהול תקין בגיידסטאר)"
         },
         {
-          "url": "https://www.ynet.co.il/articles/0,7340,L-5322545,00.html",
+          "url": "https://www.ynet.co.il/activism/article/r1ke7tr11mg",
           "type": "article",
           "source": "Ynet",
-          "title": "גאווה ישראלית: ״כנפיים של קרמבו״ הוכרה כ״יועץ מיוחד״ לאו״ם"
+          "title": "״הדור הצעיר כבר לא מסתפק בהפגנות, הוא שם כסף״: נתוני התרומות ב-JGive"
         }
       ],
       "rankScore": 91,
       "tags": [
-        "כנפיים של קרמבו",
-        "נוער",
-        "צרכים מיוחדים",
-        "התנדבות",
-        "חינוך"
+        "תרומות",
+        "אשראי",
+        "רווחה",
+        "ציוד",
+        "מזון"
       ],
-      "portalUrl": "https://www.linksforisrael.com/FamilyAndPets/Main/KremboWings",
-      "createdAt": "2026-11-21T18:55:00+02:00"
+      "portalUrl": "https://www.linksforisrael.com/Economic/Donations/jgive",
+      "createdAt": "2023-11-28T22:11:51+02:00"
     },
     {
       "id": "FamilyAndPets/Main/Elem",
@@ -695,6 +866,183 @@
       "createdAt": "2026-11-21T18:55:00+02:00"
     },
     {
+      "id": "Defense/Main/NationalDroneInitiative",
+      "name": "NationalDroneInitiative",
+      "displayName": "מיזם הרחפנים הלאומי - National Drone Initiative",
+      "categoryId": "Defense",
+      "categoryName": "הגנה",
+      "subCategoryId": "Main",
+      "subCategoryName": "ראשי",
+      "shortDescription": "התנדבות ליוזמות הטסה",
+      "description": "מיזם הרחפנים הלאומי עוסק בהסדרת המרחב האווירי ובניית תשתיות רגולטוריות להטסת כלים אוטונומיים לתועלת הציבור.",
+      "url": "https://innovationisrael.org.il/civiliandronecenter/",
+      "website": "https://innovationisrael.org.il/civiliandronecenter/",
+      "phone": null,
+      "email": null,
+      "intents": null,
+      "verified": true,
+      "taxDeductible46": false,
+      "organizationType": "official",
+      "references": [
+        {
+          "url": "https://www.calcalist.co.il/local_news/article/h1vpq03g6",
+          "type": "article",
+          "source": "Calcalist",
+          "title": "מדינת ישראל נערכת לגייס את הרחפנים הפרטיים למאמץ המלחמתי"
+        },
+        {
+          "url": "https://techtime.co.il/2025/11/18/drones-6/",
+          "type": "article",
+          "source": "Techtime",
+          "title": "מיזם הרחפנים הלאומי מגיע לשלב השירותים המסחריים"
+        }
+      ],
+      "rankScore": 81,
+      "tags": [
+        "התנדבות",
+        "רחפנים",
+        "הרחפנים הלאומי",
+        "רחפן",
+        "טכנולוגיה"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/Defense/Main/NationalDroneInitiative",
+      "createdAt": "2023-10-27T12:17:44+03:00"
+    },
+    {
+      "id": "GeneralAssistance/Main/CivilianHamal",
+      "name": "CivilianHamal",
+      "displayName": "חמ״ל אזרחי - סיוע לתושבי קו הלחימה",
+      "categoryId": "GeneralAssistance",
+      "categoryName": "סיוע אזרחי כללי",
+      "subCategoryId": "Main",
+      "subCategoryName": "סיוע אזרחי כללי",
+      "shortDescription": "זקוקים לסיוע? יכולים להציע עזרה? חמ״ל אזרחי מאחד את כל היוזמות עבור המשפחות והחיילים, בחזית ובעורף.  חמ'ל אזרחי אחד - עם אחד",
+      "description": "החמ'ל האזרחי - עוזרים לצה״ל לנצח ותומכים מכל הלב באזרחים 7 באוקטובר 2023 ישראל התעוררה למלחמה קשה. מתוך הזוועה והשבר, על פי מיטב הרוח הישראלית - כי אנחנו עם אחד, קם החמ״ל האזרחי - מרכז ההתנדבות הגדול בישראל.",
+      "url": "https://www.bsil.org.il/",
+      "website": "https://www.bsil.org.il/",
+      "phone": null,
+      "email": null,
+      "intents": null,
+      "verified": true,
+      "taxDeductible46": false,
+      "organizationType": "ngo",
+      "references": [
+        {
+          "url": "https://he.wikipedia.org/wiki/%D7%90%D7%97%D7%99%D7%9D_%D7%95%D7%90%D7%97%D7%99%D7%95%D7%AA_%D7%9C%D7%A0%D7%A9%D7%A7",
+          "type": "registry",
+          "source": "Wikipedia",
+          "title": "אחים ואחיות לנשק / החמ״ל האזרחי (ויקיפדיה)"
+        },
+        {
+          "url": "https://www.guidestar.org.il/organization/580768935",
+          "type": "registry",
+          "source": "GuideStar Israel",
+          "title": "אחים ואחיות לישראל – חמ״ל אזרחי (רישום בגיידסטאר)"
+        },
+        {
+          "url": "https://www.ynet.co.il/news/article/syvrhdvbr",
+          "type": "article",
+          "source": "Ynet",
+          "title": "החמ״ל האזרחי נבחר לקבל את אות הנשיא להתנדבות"
+        }
+      ],
+      "rankScore": 81,
+      "tags": [
+        "חמ״ל",
+        "אזרחי",
+        "סיוע",
+        "תושבים",
+        "לחימה"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/",
+      "createdAt": "2023-10-12T22:22:49+03:00"
+    },
+    {
+      "id": "Economic/Donations/hakvutza",
+      "name": "hakvutza",
+      "displayName": "עמותת הקבוצה",
+      "categoryId": "Economic",
+      "categoryName": "כלכלי ועסקי",
+      "subCategoryId": "Donations",
+      "subCategoryName": "תרומות כספיות",
+      "shortDescription": "גיוס חברתי לטובת משפחות ובודדים המטופלים ברווחה עבור מגוון צרכים מהותיים והכרחיים עכשיו מתגייסים לעזרה למשפחות מאזורי לחימה!",
+      "description": "עמותת הקבוצה קיימת כבר כ-6 שנים ועובדת בצמוד עם העבודות והעובדים הסוציאלים במחלקות הרווחה ועוזרת להם לטפל במקרים שהמדינה לא יודעת להתמודד איתם. פיתחנו את הקשרים, הטכנולוגיה והמנגנונים כדי לטפל בהרבה מקרים בצורה יעילה על בסיס מתנדבים בלבד כך ש100% מהתרומה הולך ליעד. עמותת הקבוצה טיפלה עד היום באלפי מקרים ומיליוני שקלים.",
+      "url": "https://hakvutza.org",
+      "website": "https://hakvutza.org",
+      "phone": null,
+      "email": null,
+      "intents": null,
+      "verified": true,
+      "taxDeductible46": true,
+      "organizationType": "ngo",
+      "references": [
+        {
+          "url": "https://www.guidestar.org.il/organization/580601946",
+          "type": "registry",
+          "source": "GuideStar Israel",
+          "title": "הקבוצה תורמים שקוף – רישום עמותה וניהול תקין בגיידסטאר"
+        },
+        {
+          "url": "https://www.ynet.co.il/activism/article/hk44b6g11ge",
+          "type": "article",
+          "source": "Ynet",
+          "title": "יוזמת הגיוס החברתית של עמותת הקבוצה למען משפחות נזקקות"
+        }
+      ],
+      "rankScore": 78,
+      "tags": [
+        "היום לעזרה",
+        "לעזרה למשפחות",
+        "לטובת משפחות"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/Economic/Donations/hakvutza",
+      "createdAt": "2023-11-24T15:21:43+02:00"
+    },
+    {
+      "id": "Economic/Businesses/SocialSolidarityHome",
+      "name": "SocialSolidarityHome",
+      "displayName": "הבית לסולידריות חברתית",
+      "categoryId": "Economic",
+      "categoryName": "כלכלי ועסקי",
+      "subCategoryId": "Businesses",
+      "subCategoryName": "תמיכה בעסקים והטבות לצרכנים",
+      "shortDescription": "מוקד מידע לעסקים",
+      "description": "בימים קשים אלו הבית לסולידריות חברתית מטעם קרן משפחת שעשוע עומדים לצד העסקים בישראל",
+      "url": "https://www.solidarity-foundation.org.il/",
+      "website": "https://www.solidarity-foundation.org.il/",
+      "phone": null,
+      "email": "info@solidarity-foundation.org.il",
+      "intents": null,
+      "verified": true,
+      "taxDeductible46": true,
+      "organizationType": "ngo",
+      "references": [
+        {
+          "url": "https://www.guidestar.org.il/organization/516267911",
+          "type": "registry",
+          "source": "GuideStar Israel",
+          "title": "הבית לסולידריות חברתית – רישום חל״צ בגיידסטאר"
+        },
+        {
+          "url": "https://www.ynet.co.il/article/sk9zkk00s5",
+          "type": "article",
+          "source": "Ynet",
+          "title": "״הבית לסולידריות חברתית״: הבית של קהילת בעלי העסקים הקטנים בישראל"
+        }
+      ],
+      "rankScore": 78,
+      "tags": [
+        "סולידריות חברתית",
+        "עסקים",
+        "מוקד מידע",
+        "משפחת שעשוע",
+        "קרן",
+        "ישראל"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/Economic/Businesses/SocialSolidarityHome",
+      "createdAt": "2023-11-28T22:11:18+02:00"
+    },
+    {
       "id": "Medical/Main/MdaBloodDonation",
       "name": "MdaBloodDonation",
       "displayName": "תרומות דם דרך מד'א",
@@ -820,54 +1168,6 @@
       "createdAt": "2023-11-03T20:47:47+02:00"
     },
     {
-      "id": "Economic/Donations/Latet",
-      "name": "Latet",
-      "displayName": "ארגון לתת",
-      "categoryId": "Economic",
-      "categoryName": "כלכלי ועסקי",
-      "subCategoryId": "Donations",
-      "subCategoryName": "תרומות כספיות",
-      "shortDescription": "סיוע הומניטרי, ביטחון תזונתי ותמיכה במשפחות נזקקות וניצולי שואה",
-      "description": "ארגון לתת פועל לצמצום העוני וחוסר הביטחון התזונתי בישראל באמצעות חלוקת מזון שוטפת, התנדבות ארצית, סיוע לניצולי שואה ותגובה מהירה למצבי חירום.",
-      "url": "https://www.latet.org.il/",
-      "website": "https://www.latet.org.il/",
-      "phone": null,
-      "email": null,
-      "intents": [
-        "donate",
-        "volunteer",
-        "get-help"
-      ],
-      "verified": true,
-      "taxDeductible46": true,
-      "organizationType": "ngo",
-      "references": [
-        {
-          "url": "https://he.wikipedia.org/wiki/%D7%90%D7%A8%D7%92%D7%95%D7%9F_%D7%9C%D7%AA%D7%AA",
-          "type": "registry",
-          "source": "Wikipedia",
-          "title": "ארגון לתת – סיוע הומניטרי ישראלי (ויקיפדיה)"
-        },
-        {
-          "url": "https://www.guidestar.org.il/organization/580294940",
-          "type": "registry",
-          "source": "GuideStar Israel",
-          "title": "ארגון לתת – רישום עמותה וניהול תקין בגיידסטאר"
-        }
-      ],
-      "rankScore": 76,
-      "tags": [
-        "לתת",
-        "תרומות",
-        "מזון",
-        "התנדבות",
-        "סיוע הומניטרי",
-        "עמותה"
-      ],
-      "portalUrl": "https://www.linksforisrael.com/Economic/Donations/Latet",
-      "createdAt": "2026-11-21T18:55:00+02:00"
-    },
-    {
       "id": "FamilyAndPets/Main/SPCAIsrael",
       "name": "SPCAIsrael",
       "displayName": "אגודת צער בעלי חיים בישראל",
@@ -964,6 +1264,47 @@
       "createdAt": "2026-11-21T18:55:00+02:00"
     },
     {
+      "id": "StrategicCommunication/SocialNetworks/StopAntisemitism",
+      "name": "StopAntisemitism",
+      "displayName": "Stop Antisemitism",
+      "categoryId": "StrategicCommunication",
+      "categoryName": "הסברה",
+      "subCategoryId": "SocialNetworks",
+      "subCategoryName": "רשתות חברתיות",
+      "shortDescription": "Leading Non-Partisan U.S Based Organization Fighting & Exposing Antisemitism",
+      "description": "StopAntisemitism is a grassroots watchdog organization dedicated to exposing groups and individuals that espouse incitement towards the Jewish people and State and engage in antisemitic behaviors. Founded in 2018, StopAntisemitism was born in response to increasing antisemitic violence and sentiment across the United States. StopAntisemitism has developed a unique and dedicated following, reaching millions of actively engaged individuals through social media, mailers, and its website. By publicly exposing antisemites, StopAntisemitism has created an environment where those who propagate hatred against the Jewish people are met with real-world consequences including but not limited to job loss and school expulsions. StopAntisemitism also produces reports on the state of antisemitism in the United States.",
+      "url": "https://www.stopantisemitism.org/",
+      "website": "https://www.stopantisemitism.org/",
+      "phone": null,
+      "email": null,
+      "intents": null,
+      "verified": true,
+      "taxDeductible46": false,
+      "organizationType": "ngo",
+      "references": [
+        {
+          "url": "https://www.ynet.co.il/judaism/discourse/article/bjwvwpoxt",
+          "type": "article",
+          "source": "Ynet"
+        },
+        {
+          "url": "https://he.wikipedia.org/wiki/StopAntisemitism",
+          "type": "registry",
+          "source": "Wikipedia",
+          "title": "StopAntisemitism (ויקיפדיה)"
+        }
+      ],
+      "rankScore": 68,
+      "tags": [
+        "אנטישמיות",
+        "ארגון",
+        "ארה\"ב",
+        "מאבק אנטישמיות"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/StrategicCommunication/SocialNetworks/StopAntisemitism",
+      "createdAt": "2023-11-11T15:29:07+02:00"
+    },
+    {
       "id": "Defense/Main/MiluimIDF",
       "name": "MiluimIDF",
       "displayName": "אתר המילואים הרשמי של צה״ל",
@@ -1041,63 +1382,54 @@
       "createdAt": "2023-11-07T00:06:34+02:00"
     },
     {
-      "id": "StrategicCommunication/Info/TheNationalLibrary",
-      "name": "TheNationalLibrary",
-      "displayName": "הספרייה הלאומית - רשימת פרויקטים - מאגר הלאומי לתיעוד מאורעות ה - 7.10",
+      "id": "StrategicCommunication/Info/InssWarData",
+      "name": "InssWarData",
+      "displayName": "חרבות ברזל עדכונים ותמונת מצב",
       "categoryId": "StrategicCommunication",
       "categoryName": "הסברה",
       "subCategoryId": "Info",
       "subCategoryName": "מקורות מידע לסיוע בהסברה",
-      "shortDescription": "המאגר של הספרייה הלאומית לתיעוד מאורעות ה - 7.10 למלחמה.",
-      "description": "המאגר הלאומי לתיעוד מאורעות ה - 7.10 למלחמה. https://www.nli.org.il/he/at-your-service/who-we-are/projects/7-october-documentation",
-      "url": "https://www.nli.org.il/he/at-your-service/who-we-are/projects/7-october-documentation#projects",
-      "website": "https://www.nli.org.il/he/at-your-service/who-we-are/projects/7-october-documentation#projects",
+      "shortDescription": "דסק הנתונים של המכון למחקרי ביטחון לאומי אוסף עבורכם את המידע העדכני והמדויק במהלך ימי המלחמה",
+      "description": "לרבות נתונים שוטפים על הזירה הפנים-ישראלית, גזרת עזה, לבנון, איו'ש, הזירה האזורית והבינ'ל. בעמוד זה שבעה קבצי נתונים שונים - גללו מטה לצפייה בכולם. למשתמשי הסלולר מומלץ לצפות בעמוד במצב מאוזן.",
+      "url": "https://www.inss.org.il/he/publication/war-data/",
+      "website": "https://www.inss.org.il/he/publication/war-data/",
       "phone": null,
       "email": null,
       "intents": null,
       "verified": true,
       "taxDeductible46": false,
-      "organizationType": "official",
-      "references": [],
-      "rankScore": 54,
-      "tags": [
-        "תיעוד",
-        "עדויות",
-        "צילומים",
-        "מאגר"
+      "organizationType": "ngo",
+      "references": [
+        {
+          "url": "https://he.wikipedia.org/wiki/%D7%94%D7%9E%D7%9B%D7%95%D7%9F_%D7%9C%D7%9E%D7%97%D7%A7%D7%A8%D7%99_%D7%91%D7%99%D7%98%D7%97%D7%95%D7%9F_%D7%9C%D7%90%D7%95%D7%9E%D7%99",
+          "type": "registry",
+          "source": "Wikipedia",
+          "title": "המכון למחקרי ביטחון לאומי – INSS (ויקיפדיה)"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Institute_for_National_Security_Studies_(Israel)",
+          "type": "registry",
+          "source": "Wikipedia (EN)",
+          "title": "Institute for National Security Studies (Israel)"
+        },
+        {
+          "url": "https://www.guidestar.org.il/organization/513861435",
+          "type": "registry",
+          "source": "GuideStar Israel",
+          "title": "המכון למחקרי ביטחון לאומי – רישום חל״צ בגיידסטאר"
+        }
       ],
-      "portalUrl": "https://www.linksforisrael.com/StrategicCommunication/Info/TheNationalLibrary",
-      "createdAt": "2023-11-21T22:03:35+02:00"
-    },
-    {
-      "id": "Defense/Main/NationalDroneInitiative",
-      "name": "NationalDroneInitiative",
-      "displayName": "מיזם הרחפנים הלאומי - National Drone Initiative",
-      "categoryId": "Defense",
-      "categoryName": "הגנה",
-      "subCategoryId": "Main",
-      "subCategoryName": "ראשי",
-      "shortDescription": "התנדבות ליוזמות הטסה",
-      "description": "מיזם הרחפנים הלאומי עוסק בהסדרת המרחב האווירי ובניית תשתיות רגולטוריות להטסת כלים אוטונומיים לתועלת הציבור.",
-      "url": "https://innovationisrael.org.il/civiliandronecenter/",
-      "website": "https://innovationisrael.org.il/civiliandronecenter/",
-      "phone": null,
-      "email": null,
-      "intents": null,
-      "verified": true,
-      "taxDeductible46": false,
-      "organizationType": "official",
-      "references": [],
-      "rankScore": 54,
+      "rankScore": 66,
       "tags": [
-        "התנדבות",
-        "רחפנים",
-        "הרחפנים הלאומי",
-        "רחפן",
-        "טכנולוגיה"
+        "חרבות ברזל",
+        "עדכונים",
+        "תמונת מצב",
+        "מלחמה",
+        "ביטחון לאומי",
+        "אזרחים"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Defense/Main/NationalDroneInitiative",
-      "createdAt": "2023-10-27T12:17:44+03:00"
+      "portalUrl": "https://www.linksforisrael.com/StrategicCommunication/Info/InssWarData",
+      "createdAt": "2023-11-09T23:24:54+02:00"
     },
     {
       "id": "Medical/Main/MedicalVolunteersforIsrael",
@@ -1117,8 +1449,15 @@
       "verified": true,
       "taxDeductible46": false,
       "organizationType": "official",
-      "references": [],
-      "rankScore": 54,
+      "references": [
+        {
+          "url": "https://www.jpost.com/health-and-wellness/article-897449",
+          "type": "article",
+          "source": "The Jerusalem Post",
+          "title": "Volunteer network comes to the aid of Israel's overstretched emergency rooms"
+        }
+      ],
+      "rankScore": 66,
       "tags": [
         "רפואי",
         "ישראל",
@@ -1129,6 +1468,42 @@
       ],
       "portalUrl": "https://www.linksforisrael.com/Medical/Main/MedicalVolunteersforIsrael",
       "createdAt": "2023-10-28T23:39:59+03:00"
+    },
+    {
+      "id": "StrategicCommunication/Main/voicesOfIsrael",
+      "name": "voicesOfIsrael",
+      "displayName": "קולות מישראל - Voice Of Israel",
+      "categoryId": "StrategicCommunication",
+      "categoryName": "הסברה",
+      "subCategoryId": "Main",
+      "subCategoryName": "ראשי",
+      "shortDescription": "גוף תומך בפעילויות הסברתיות פרו-ישראלית מסביב לעולם",
+      "description": "בעקבות מלחמת ׳חרבות הברזל׳, אנו מזמינים ארגונים, פרויקטים וגופים (עמותות, חברות, עוסקים מורשים) להגיש הצעות למיזמים לחיזוק הנרטיב של ישראל בזירה הבין לאומית בהקשר למאמץ ההסברתי מלחמתי.  פרויקטים שיבחרו יזכו למימון משלים – Match funding על בסיס תצהיר חתום על יכולות המימון, בשיעור של עד 50% מעלות התוכנית. ניתן למצוא את הפרטים המלאים באתר שלנו - https://voicesofisrael.org/ זמינים לשאלות בפרטי ובמייל. info@voicesofisrael.org",
+      "url": "https://voicesofisrael.org/",
+      "website": "https://voicesofisrael.org/",
+      "phone": null,
+      "email": null,
+      "intents": null,
+      "verified": true,
+      "taxDeductible46": false,
+      "organizationType": "ngo",
+      "references": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Voices_of_Israel",
+          "type": "registry",
+          "source": "Wikipedia",
+          "title": "Voices of Israel – Public Diplomacy Initiative (Wikipedia)"
+        }
+      ],
+      "rankScore": 53,
+      "tags": [
+        "ישראל",
+        "הסברה",
+        "חרבות הברזל",
+        "קולות מישראל"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/StrategicCommunication/Main/voicesOfIsrael",
+      "createdAt": "2023-11-02T14:34:45+02:00"
     },
     {
       "id": "StrategicCommunication/Info/OnlyTrueInformation",
@@ -1162,218 +1537,96 @@
       "createdAt": "2023-11-02T13:01:02+02:00"
     },
     {
-      "id": "StrategicCommunication/SocialNetworks/StopAntisemitism",
-      "name": "StopAntisemitism",
-      "displayName": "Stop Antisemitism",
-      "categoryId": "StrategicCommunication",
-      "categoryName": "הסברה",
-      "subCategoryId": "SocialNetworks",
-      "subCategoryName": "רשתות חברתיות",
-      "shortDescription": "Leading Non-Partisan U.S Based Organization Fighting & Exposing Antisemitism",
-      "description": "StopAntisemitism is a grassroots watchdog organization dedicated to exposing groups and individuals that espouse incitement towards the Jewish people and State and engage in antisemitic behaviors. Founded in 2018, StopAntisemitism was born in response to increasing antisemitic violence and sentiment across the United States. StopAntisemitism has developed a unique and dedicated following, reaching millions of actively engaged individuals through social media, mailers, and its website. By publicly exposing antisemites, StopAntisemitism has created an environment where those who propagate hatred against the Jewish people are met with real-world consequences including but not limited to job loss and school expulsions. StopAntisemitism also produces reports on the state of antisemitism in the United States.",
-      "url": "https://www.stopantisemitism.org/",
-      "website": "https://www.stopantisemitism.org/",
+      "id": "FamilyAndPets/ChildrenContent/BrainPop",
+      "name": "BrainPop",
+      "displayName": "BrainPop",
+      "categoryId": "FamilyAndPets",
+      "categoryName": "משפחה ובע\"ח",
+      "subCategoryId": "ChildrenContent",
+      "subCategoryName": "תכנים לילדים",
+      "shortDescription": "תכנים חינוכיים עם קוד חינמי",
+      "description": "קוד: בריינפופ23",
+      "url": "https://il.brainpop.com/",
+      "website": "https://il.brainpop.com/",
       "phone": null,
       "email": null,
       "intents": null,
-      "verified": true,
+      "verified": false,
       "taxDeductible46": false,
-      "organizationType": "ngo",
+      "organizationType": null,
       "references": [
         {
-          "url": "https://www.ynet.co.il/judaism/discourse/article/bjwvwpoxt",
+          "url": "https://he.wikipedia.org/wiki/%D7%91%D7%A8%D7%99%D7%99%D7%A0%D7%A4%D7%95%D7%A4",
+          "type": "registry",
+          "source": "Wikipedia",
+          "title": "בריינפופ – סביבת הלמידה הדיגיטלית (ויקיפדיה)"
+        },
+        {
+          "url": "https://ecat.education.gov.il/brainpop",
+          "type": "official",
+          "source": "משרד החינוך",
+          "title": "בריינפופ ישראל – הקטלוג החינוכי של משרד החינוך"
+        },
+        {
+          "url": "https://www.calcalist.co.il/calcalistech/article/by8qu72mo",
           "type": "article",
-          "source": "Ynet"
+          "source": "Calcalist",
+          "title": "סיפור ההצלחה והרכישה של בריינפופ בישראל"
         }
       ],
-      "rankScore": 51,
-      "tags": [
-        "אנטישמיות",
-        "ארגון",
-        "ארה\"ב",
-        "מאבק אנטישמיות"
-      ],
-      "portalUrl": "https://www.linksforisrael.com/StrategicCommunication/SocialNetworks/StopAntisemitism",
-      "createdAt": "2023-11-11T15:29:07+02:00"
+      "rankScore": 46,
+      "tags": [],
+      "portalUrl": "https://www.linksforisrael.com/FamilyAndPets/ChildrenContent/BrainPop",
+      "createdAt": "2023-10-08T18:03:26+03:00"
     },
     {
-      "id": "Economic/Donations/hakvutza",
-      "name": "hakvutza",
-      "displayName": "עמותת הקבוצה",
-      "categoryId": "Economic",
-      "categoryName": "כלכלי ועסקי",
-      "subCategoryId": "Donations",
-      "subCategoryName": "תרומות כספיות",
-      "shortDescription": "גיוס חברתי לטובת משפחות ובודדים המטופלים ברווחה עבור מגוון צרכים מהותיים והכרחיים עכשיו מתגייסים לעזרה למשפחות מאזורי לחימה!",
-      "description": "עמותת הקבוצה קיימת כבר כ-6 שנים ועובדת בצמוד עם העבודות והעובדים הסוציאלים במחלקות הרווחה ועוזרת להם לטפל במקרים שהמדינה לא יודעת להתמודד איתם. פיתחנו את הקשרים, הטכנולוגיה והמנגנונים כדי לטפל בהרבה מקרים בצורה יעילה על בסיס מתנדבים בלבד כך ש100% מהתרומה הולך ליעד. עמותת הקבוצה טיפלה עד היום באלפי מקרים ומיליוני שקלים.",
-      "url": "https://hakvutza.org",
-      "website": "https://hakvutza.org",
-      "phone": null,
-      "email": null,
-      "intents": null,
-      "verified": true,
-      "taxDeductible46": true,
-      "organizationType": "ngo",
-      "references": [],
-      "rankScore": 49,
-      "tags": [
-        "היום לעזרה",
-        "לעזרה למשפחות",
-        "לטובת משפחות"
-      ],
-      "portalUrl": "https://www.linksforisrael.com/Economic/Donations/hakvutza",
-      "createdAt": "2023-11-24T15:21:43+02:00"
-    },
-    {
-      "id": "Economic/Donations/jgive",
-      "name": "jgive",
-      "displayName": "JGive",
-      "categoryId": "Economic",
-      "categoryName": "כלכלי ועסקי",
-      "subCategoryId": "Donations",
-      "subCategoryName": "תרומות כספיות",
-      "shortDescription": "קרן חירום לאומית לסיוע לנפגעי המלחמה",
-      "description": "קרן החירום הלאומית הוקמה על ידי שותפים יחד עם JGive במטרה להעניק סיוע לנפגעים במלחמה הקשה שפקדה אותנו. כל כספי התרומות שייאספו בקרן, יחולקו לעמותות המציעות שירותי סעד, רווחה, ציוד, מזון ועוד לנפגעי המלחמה. הכספים יחולקו באמצעות ועדה ציבורית בראשות אליעזר שקדי (אלוף במיל'). העמותות הפועלות בגזרות השונות מכירות מקרוב את האתגרים ואת דרכי הפעולה האפשריות. תמיכה בהם היא הדרך הטובה ביותר שאנו מכירים כדי להשפיע, ולו במעט, על חייהם של רבים. הצטרפו אלינו ותרמו. כל התרומות מוכרות לפי סעיף 46. הכסף עובר במלואו , למעט עמלת סליקת האשראי במקרה של תרומה באשראי",
-      "url": "https://www.jgive.com/new/he/ils/donation-targets/110048?utm_source=homepage",
-      "website": "https://www.jgive.com/new/he/ils/donation-targets/110048?utm_source=homepage",
-      "phone": null,
-      "email": "circle@jgive.com",
-      "intents": null,
-      "verified": true,
-      "taxDeductible46": true,
-      "organizationType": "ngo",
-      "references": [],
-      "rankScore": 49,
-      "tags": [
-        "תרומות",
-        "אשראי",
-        "רווחה",
-        "ציוד",
-        "מזון"
-      ],
-      "portalUrl": "https://www.linksforisrael.com/Economic/Donations/jgive",
-      "createdAt": "2023-11-28T22:11:51+02:00"
-    },
-    {
-      "id": "Economic/Businesses/SocialSolidarityHome",
-      "name": "SocialSolidarityHome",
-      "displayName": "הבית לסולידריות חברתית",
-      "categoryId": "Economic",
-      "categoryName": "כלכלי ועסקי",
-      "subCategoryId": "Businesses",
-      "subCategoryName": "תמיכה בעסקים והטבות לצרכנים",
-      "shortDescription": "מוקד מידע לעסקים",
-      "description": "בימים קשים אלו הבית לסולידריות חברתית מטעם קרן משפחת שעשוע עומדים לצד העסקים בישראל",
-      "url": "https://www.solidarity-foundation.org.il/",
-      "website": "https://www.solidarity-foundation.org.il/",
-      "phone": null,
-      "email": "info@solidarity-foundation.org.il",
-      "intents": null,
-      "verified": true,
-      "taxDeductible46": true,
-      "organizationType": "ngo",
-      "references": [],
-      "rankScore": 49,
-      "tags": [
-        "סולידריות חברתית",
-        "עסקים",
-        "מוקד מידע",
-        "משפחת שעשוע",
-        "קרן",
-        "ישראל"
-      ],
-      "portalUrl": "https://www.linksforisrael.com/Economic/Businesses/SocialSolidarityHome",
-      "createdAt": "2023-11-28T22:11:18+02:00"
-    },
-    {
-      "id": "StrategicCommunication/Main/voicesOfIsrael",
-      "name": "voicesOfIsrael",
-      "displayName": "קולות מישראל - Voice Of Israel",
-      "categoryId": "StrategicCommunication",
-      "categoryName": "הסברה",
+      "id": "Evacuees/Main/AccessibilityIsrael-VioletVest",
+      "name": "AccessibilityIsrael-VioletVest",
+      "displayName": "נגישות ישראל - האפוד הסגול",
+      "categoryId": "Evacuees",
+      "categoryName": "אירוח ותמיכה במפונים",
       "subCategoryId": "Main",
       "subCategoryName": "ראשי",
-      "shortDescription": "גוף תומך בפעילויות הסברתיות פרו-ישראלית מסביב לעולם",
-      "description": "בעקבות מלחמת ׳חרבות הברזל׳, אנו מזמינים ארגונים, פרויקטים וגופים (עמותות, חברות, עוסקים מורשים) להגיש הצעות למיזמים לחיזוק הנרטיב של ישראל בזירה הבין לאומית בהקשר למאמץ ההסברתי מלחמתי.  פרויקטים שיבחרו יזכו למימון משלים – Match funding על בסיס תצהיר חתום על יכולות המימון, בשיעור של עד 50% מעלות התוכנית. ניתן למצוא את הפרטים המלאים באתר שלנו - https://voicesofisrael.org/ זמינים לשאלות בפרטי ובמייל. info@voicesofisrael.org",
-      "url": "https://voicesofisrael.org/",
-      "website": "https://voicesofisrael.org/",
+      "shortDescription": "",
+      "description": "מוזמנים להצטרף למערך ההתנדבות והסיוע של עמותת 'נגישות ישראל' תחת 'יוזמת האפוד הסגול'\nהעמותה מסייעת ביום-יום לאנשים עם מוגבלויות עם דגש על הנגשת המרחב הציבורי והגברת המודעות להכללה של אנשים עם מוגבלויות בכל תחומי החיים.\nעם תחילת המלחמה 'האפוד הסגול' הקים חמ'ל לסיוע ופינוי אנשים עם מוגבלויות מאזורי הגבול ומציאת פתרונות אירוח נגישים עבורם.\nמוזמנים להצטרף כמתנדב, להציע לארח או אם אתם זקוקים לסיוע - \n\nבקשה לאירוח נגיש:\nhttps://shorturl.at/dCFPU\n\nטופס מילוי צרכים וציוד למפונים:\nhttps://shorturl.at/hjtEQ\n\nרישום להדרכות האפוד הסגול:\nhttps://shorturl.at/oxFV4\n\nרישום למתנדבים:\nhttps://shorturl.at/czLZ1\nמוקד המידע לנגישות בשעת חירום– 054-2422973",
+      "url": "https://purple-vest.net/he/",
+      "website": "https://purple-vest.net/he/",
       "phone": null,
       "email": null,
       "intents": null,
-      "verified": true,
+      "verified": false,
       "taxDeductible46": false,
-      "organizationType": "ngo",
-      "references": [],
-      "rankScore": 39,
-      "tags": [
-        "ישראל",
-        "הסברה",
-        "חרבות הברזל",
-        "קולות מישראל"
+      "organizationType": null,
+      "references": [
+        {
+          "url": "https://he.wikipedia.org/wiki/%D7%A0%D7%92%D7%99%D7%A9%D7%95%D7%AA_%D7%99%D7%A9%D7%A8%D7%90%D7%9C",
+          "type": "registry",
+          "source": "Wikipedia",
+          "title": "עמותת נגישות ישראל (ויקיפדיה)"
+        },
+        {
+          "url": "https://www.ynet.co.il/activism/article/skvzliimge",
+          "type": "article",
+          "source": "Ynet",
+          "title": "״חזרתי הביתה רוקד על כיסא הגלגלים״: מתנדבי האפוד הסגול מסייעים תחת אש"
+        },
+        {
+          "url": "https://www.ynet.co.il/news/article/yokra14801962",
+          "type": "article",
+          "source": "Ynet",
+          "title": "בלי ממ״ד, ללא מענה: המאבק להנגשת חירום לאנשים עם מוגבלות"
+        }
       ],
-      "portalUrl": "https://www.linksforisrael.com/StrategicCommunication/Main/voicesOfIsrael",
-      "createdAt": "2023-11-02T14:34:45+02:00"
-    },
-    {
-      "id": "StrategicCommunication/Info/InssWarData",
-      "name": "InssWarData",
-      "displayName": "חרבות ברזל עדכונים ותמונת מצב",
-      "categoryId": "StrategicCommunication",
-      "categoryName": "הסברה",
-      "subCategoryId": "Info",
-      "subCategoryName": "מקורות מידע לסיוע בהסברה",
-      "shortDescription": "דסק הנתונים של המכון למחקרי ביטחון לאומי אוסף עבורכם את המידע העדכני והמדויק במהלך ימי המלחמה",
-      "description": "לרבות נתונים שוטפים על הזירה הפנים-ישראלית, גזרת עזה, לבנון, איו'ש, הזירה האזורית והבינ'ל. בעמוד זה שבעה קבצי נתונים שונים - גללו מטה לצפייה בכולם. למשתמשי הסלולר מומלץ לצפות בעמוד במצב מאוזן.",
-      "url": "https://www.inss.org.il/he/publication/war-data/",
-      "website": "https://www.inss.org.il/he/publication/war-data/",
-      "phone": null,
-      "email": null,
-      "intents": null,
-      "verified": true,
-      "taxDeductible46": false,
-      "organizationType": "ngo",
-      "references": [],
-      "rankScore": 39,
+      "rankScore": 43,
       "tags": [
-        "חרבות ברזל",
-        "עדכונים",
-        "תמונת מצב",
-        "מלחמה",
-        "ביטחון לאומי",
-        "אזרחים"
+        "התנדבות",
+        "אירוח נגיש",
+        "האפוד הסגול",
+        "נגישות",
+        "פינוי אנשים עם מוגבלויות"
       ],
-      "portalUrl": "https://www.linksforisrael.com/StrategicCommunication/Info/InssWarData",
-      "createdAt": "2023-11-09T23:24:54+02:00"
-    },
-    {
-      "id": "GeneralAssistance/Main/CivilianHamal",
-      "name": "CivilianHamal",
-      "displayName": "חמ״ל אזרחי - סיוע לתושבי קו הלחימה",
-      "categoryId": "GeneralAssistance",
-      "categoryName": "סיוע אזרחי כללי",
-      "subCategoryId": "Main",
-      "subCategoryName": "סיוע אזרחי כללי",
-      "shortDescription": "זקוקים לסיוע? יכולים להציע עזרה? חמ״ל אזרחי מאחד את כל היוזמות עבור המשפחות והחיילים, בחזית ובעורף.  חמ'ל אזרחי אחד - עם אחד",
-      "description": "החמ'ל האזרחי - עוזרים לצה״ל לנצח ותומכים מכל הלב באזרחים 7 באוקטובר 2023 ישראל התעוררה למלחמה קשה. מתוך הזוועה והשבר, על פי מיטב הרוח הישראלית - כי אנחנו עם אחד, קם החמ״ל האזרחי - מרכז ההתנדבות הגדול בישראל.",
-      "url": "https://www.bsil.org.il/",
-      "website": "https://www.bsil.org.il/",
-      "phone": null,
-      "email": null,
-      "intents": null,
-      "verified": true,
-      "taxDeductible46": false,
-      "organizationType": "ngo",
-      "references": [],
-      "rankScore": 39,
-      "tags": [
-        "חמ״ל",
-        "אזרחי",
-        "סיוע",
-        "תושבים",
-        "לחימה"
-      ],
-      "portalUrl": "https://www.linksforisrael.com/",
-      "createdAt": "2023-10-12T22:22:49+03:00"
+      "portalUrl": "https://www.linksforisrael.com/Evacuees/Main/AccessibilityIsrael-VioletVest",
+      "createdAt": "2023-11-13T22:19:47+02:00"
     },
     {
       "id": "StrategicCommunication/Main/menatzchim",
@@ -1415,6 +1668,208 @@
       ],
       "portalUrl": "https://www.linksforisrael.com/StrategicCommunication/Main/menatzchim",
       "createdAt": "2023-11-10T22:30:31+02:00"
+    },
+    {
+      "id": "Economic/Donations/PayboxSection",
+      "name": "PayboxSection",
+      "displayName": "פייבוקס - תרומה לעמותות",
+      "categoryId": "Economic",
+      "categoryName": "כלכלי ועסקי",
+      "subCategoryId": "Donations",
+      "subCategoryName": "תרומות כספיות",
+      "shortDescription": "תרומה ישירה דרך האפליקציה",
+      "description": "באפליקציה של פייבוקס יש עמוד של תרומות לעמותות וניתן לבחור עמותה ולתרום לה ישירות",
+      "url": "https://www.payboxapp.com/",
+      "website": "https://www.payboxapp.com/",
+      "phone": null,
+      "email": null,
+      "intents": null,
+      "verified": false,
+      "taxDeductible46": false,
+      "organizationType": null,
+      "references": [
+        {
+          "url": "https://he.wikipedia.org/wiki/PayBox",
+          "type": "registry",
+          "source": "Wikipedia",
+          "title": "PayBox – אפליקציית התשלומים והתרומות (ויקיפדיה)"
+        },
+        {
+          "url": "https://www.ynet.co.il/economy/article/syg0z67b6",
+          "type": "article",
+          "source": "Ynet",
+          "title": "בעקבות התרומות: פייבוקס מגדילה את תקרת סכום האיסוף ל-200 אלף שקל"
+        }
+      ],
+      "rankScore": 33,
+      "tags": [],
+      "portalUrl": "https://www.linksforisrael.com/Economic/Donations/PayboxSection",
+      "createdAt": "2023-10-26T16:26:30+03:00"
+    },
+    {
+      "id": "Medical/Main/IronDoctors",
+      "name": "IronDoctors",
+      "displayName": "רופאות הברזל - ⚡יעוץ רפואי מהיר בשעת חרום⚡",
+      "categoryId": "Medical",
+      "categoryName": "בריאות ונפש",
+      "subCategoryId": "Main",
+      "subCategoryName": "ראשי",
+      "shortDescription": "ניתן על ידי חברת ניתאי שירותי עזרה ראשונה",
+      "description": "לאור מצב החירום בו נמצאת ישראל בזמנים אלו, שיבא beyond, בית החולים הוירטואלי בשיבא, ובשיתוף קבוצת חדר רופאות הקימו עבורכם/ן מוקד ובו מערך רופאות ורופאים מתנדבים/ות בתחומים שונים. המערך זמין למתן ייעוץ רפואי מהיר דרך הוואטסאפ במצבים לא דחופים ובתחומים שונים: רפואה פנימית ומשפחה, רפואת ילדים, רפואת שיניים, ועוד. שעות פעילות המוקד יתעדכנו מעת לעת, ובהמשך המוקד מיועד לפעילות של 24/7. שעות פעילות המוקד כרגע: 16:00-20:00. אנא התעדכנו בשעות הפעילות בדף זה.",
+      "url": "https://www.hopp.bio/irondoctors",
+      "website": null,
+      "phone": null,
+      "email": null,
+      "intents": null,
+      "verified": false,
+      "taxDeductible46": false,
+      "organizationType": null,
+      "references": [
+        {
+          "url": "https://www.bgu.ac.il/articles/iron-doctors-female-venture-to-provide-remote-medical-care/",
+          "type": "official",
+          "source": "אוניברסיטת בן-גוריון",
+          "title": "רופאות הברזל – מגדלור של תקווה בייעוץ רפואי מרחוק בחירום"
+        },
+        {
+          "url": "https://www.ice.co.il/digital-140/news/article/985993",
+          "type": "article",
+          "source": "ICE",
+          "title": "רופאות ברזל: מוקד הייעוץ הרפואי ההתנדבותי בחירום"
+        }
+      ],
+      "rankScore": 33,
+      "tags": [
+        "רפואה",
+        "התנדבות",
+        "מתנדב"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/Medical/Main/IronDoctors",
+      "createdAt": "2023-10-16T20:14:54+03:00"
+    },
+    {
+      "id": "FamilyAndPets/ChildrenContent/OrnaPoratTheater",
+      "name": "OrnaPoratTheater",
+      "displayName": "תאטרון אורנה פורת",
+      "categoryId": "FamilyAndPets",
+      "categoryName": "משפחה ובע\"ח",
+      "subCategoryId": "ChildrenContent",
+      "subCategoryName": "תכנים לילדים",
+      "shortDescription": "הצגות באינטרנט לילדים",
+      "description": "תיאטרון אורנה פורת לילדים ולנוער מזמין את ילדי ישראל להפוגה תיאטרלית ומהנה. מוזמנים להיכנס ולצפות בהצגות האון ליין שלנו. חיבוק ואהבה מאיתנו.",
+      "url": "https://www.porat-theater.co.il/%D7%94%D7%A6%D7%92%D7%95%D7%AA_%D7%9C%D7%A6%D7%A4%D7%99%D7%94_%D7%97%D7%95%D7%A4%D7%A9%D7%99%D7%AA",
+      "website": "https://www.porat-theater.co.il/%D7%94%D7%A6%D7%92%D7%95%D7%AA_%D7%9C%D7%A6%D7%A4%D7%99%D7%94_%D7%97%D7%95%D7%A4%D7%A9%D7%99%D7%AA",
+      "phone": null,
+      "email": null,
+      "intents": null,
+      "verified": false,
+      "taxDeductible46": false,
+      "organizationType": null,
+      "references": [
+        {
+          "url": "https://he.wikipedia.org/wiki/%D7%AA%D7%99%D7%90%D7%98%D7%A8%D7%95%D7%9F_%D7%90%D7%95%D7%A8%D7%A0%D7%94_%D7%A4%D7%95%D7%A8%D7%AA_%D7%9C%D7%99%D7%9C%D7%93%D7%99%D7%9D_%D7%95%D7%9C%D7%A0%D7%95%D7%A2%D7%A8",
+          "type": "registry",
+          "source": "Wikipedia",
+          "title": "תיאטרון אורנה פורת לילדים ולנוער (ויקיפדיה)"
+        },
+        {
+          "url": "https://www.guidestar.org.il/organization/580013167",
+          "type": "registry",
+          "source": "GuideStar Israel",
+          "title": "תיאטרון אורנה פורת – רישום עמותה וניהול תקין בגיידסטאר"
+        }
+      ],
+      "rankScore": 31,
+      "tags": [],
+      "portalUrl": "https://www.linksforisrael.com/FamilyAndPets/ChildrenContent/OrnaPoratTheater",
+      "createdAt": "2023-10-12T22:22:49+03:00"
+    },
+    {
+      "id": "MemorialRemembrance/Main/WixRememberThem",
+      "name": "WixRememberThem",
+      "displayName": "תבנית לאתרי יזכור",
+      "categoryId": "MemorialRemembrance",
+      "categoryName": "שכול וזיכרון",
+      "subCategoryId": "Main",
+      "subCategoryName": "ראשי",
+      "shortDescription": "אתר הנצחה דיגיטלי, ללא עלות",
+      "description": "אנחנו מקבלים לוויקס המון פניות ממשפחות וחברים להקמת אתרי הנצחה דיגיטליים לחללי חרבות ברזל - מקום שבו יוכלו להנציח את יקיריהם, לשתף בסיפורים ותמונות ולהזמין משפחה וחברים להעלות זכרונות ביחד. החלטנו לייצר למשפחות נקודת התחלה קלה יותר לבניית האתרים האלו. באתר ״לזכור אותם״ מוצעים 4 עיצובים שונים (תבניות/ טמפלטים) לאתרי הנצחה אישיים. כל מה שצריך לעשות זה להחליף תמונות ולערוך לתכנים האישיים. האתר כולל גם סרטון הדרכה קצר שמראה כיצד ניתן לעבוד בקלות עם הטמפלטים. וויקס תספק למשפחות דומיין לאתר וכן תמיכה אישית במהלך הבנייה, במידה ויצטרכו.",
+      "url": "https://memorial-templates.wix.com/",
+      "website": "https://memorial-templates.wix.com/",
+      "phone": null,
+      "email": null,
+      "intents": null,
+      "verified": false,
+      "taxDeductible46": false,
+      "organizationType": null,
+      "references": [
+        {
+          "url": "https://www.mako.co.il/nexter-news/Article-7efe3cb1dff01a1027.htm",
+          "type": "article",
+          "source": "Mako / N12",
+          "title": "פתרונות ההנצחה והזיכרון הדיגיטליים של Wix"
+        },
+        {
+          "url": "https://www.geektime.co.il/the-virtual-death-scene-in-israel/",
+          "type": "article",
+          "source": "Geektime",
+          "title": "תיעוד והנצחה דיגיטלית: השירותים הזמינים בישראל"
+        }
+      ],
+      "rankScore": 31,
+      "tags": [
+        "וויקס",
+        "אתר הנצחה",
+        "חללי חרבות ברזל",
+        "עיצוב אתרים"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/MemorialRemembrance/Main/WixRememberThem",
+      "createdAt": "2023-11-10T22:51:27+02:00"
+    },
+    {
+      "id": "StrategicCommunication/SocialNetworks/DigitalDome",
+      "name": "DigitalDome",
+      "displayName": "Digital Dome - דיגיטל דום",
+      "categoryId": "StrategicCommunication",
+      "categoryName": "הסברה",
+      "subCategoryId": "SocialNetworks",
+      "subCategoryName": "רשתות חברתיות",
+      "shortDescription": "הפסקת תוכן פגעני ברשת",
+      "description": "פלטפורמה לדיווח על תכנים זדוניים ברשת. מאימות ודיווח לרשתות להסרתם. התגייסות של כמה חברות הייטק ובכירים בתעשייה.",
+      "url": "https://digitaldome.io/",
+      "website": null,
+      "phone": null,
+      "email": null,
+      "intents": null,
+      "verified": false,
+      "taxDeductible46": false,
+      "organizationType": null,
+      "references": [
+        {
+          "url": "https://www.globes.co.il/news/article.aspx?did=1001463304",
+          "type": "article",
+          "source": "Globes",
+          "title": "המאבק להסרת תכנים פוגעניים ודיסאינפורמציה ברשתות החברתיות"
+        },
+        {
+          "url": "https://www.revitalsalomon.com/?p=2391",
+          "type": "blog",
+          "source": "הבלוג של רויטל סלומון",
+          "author": "רויטל סלומון",
+          "title": "איך מזהים ומדווחים על רשתות בוטים ודיסאינפורמציה"
+        }
+      ],
+      "rankScore": 25,
+      "tags": [
+        "הסברה",
+        "דיגיטל",
+        "הייטק",
+        "רשתות חברתיות",
+        "הסרת תוכן",
+        "דיווח"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/StrategicCommunication/SocialNetworks/DigitalDome",
+      "createdAt": "2023-10-24T10:29:00+03:00"
     },
     {
       "id": "Defense/Emergency/MamadFixes",
@@ -1528,6 +1983,41 @@
       "createdAt": "2023-11-12T02:50:13+02:00"
     },
     {
+      "id": "Defense/Emergency/MidragSheltersProject",
+      "name": "MidragSheltersProject",
+      "displayName": "פרויקט מדרג להשמשת מקלטים",
+      "categoryId": "Defense",
+      "categoryName": "הגנה",
+      "subCategoryId": "Emergency",
+      "subCategoryName": "חירום",
+      "shortDescription": "השמשת מקלטים ע״י בעלי מקצוע, מקלטי בניינים בלבד, לא כולל החלפת דלתות וחלונות",
+      "description": "השמשת מקלטים ע״י בעלי מקצוע, מקלטי בניינים בלבד (לא פרטיים),  לא כולל החלפת דלתות וחלונות",
+      "url": "https://forms.monday.com/forms/f1e1014123cf1aac6615780795aec231?r=use1",
+      "website": null,
+      "phone": null,
+      "email": null,
+      "intents": null,
+      "verified": false,
+      "taxDeductible46": false,
+      "organizationType": null,
+      "references": [
+        {
+          "url": "https://finance.walla.co.il/item/3614986",
+          "type": "article",
+          "source": "Walla",
+          "title": "הציעו השמשת מקלטים בחינם וקרסו תחת עומס הפניות"
+        }
+      ],
+      "rankScore": 16,
+      "tags": [
+        "מקלטים",
+        "הכנה",
+        "ביטחון"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/Defense/Emergency/MidragSheltersProject",
+      "createdAt": "2023-10-15T00:25:34+03:00"
+    },
+    {
       "id": "Agriculture/Main/MeshekHai",
       "name": "MeshekHai",
       "displayName": "משק חי",
@@ -1595,6 +2085,44 @@
       ],
       "portalUrl": "https://www.linksforisrael.com/MemorialRemembrance/Main/ironswords.info",
       "createdAt": "2023-11-18T01:34:40+02:00"
+    },
+    {
+      "id": "Aggregators/Main/חמ״ל ההייטק",
+      "name": "חמ״ל ההייטק",
+      "displayName": "TechHamal",
+      "categoryId": "Aggregators",
+      "categoryName": "איגודי יוזמות",
+      "subCategoryId": "Main",
+      "subCategoryName": "ראשי",
+      "shortDescription": "חמ״ל שמטרתו איסוף ציוד ומימון שיתועל לטובת המאמץ המלחמתי ונפגעיו",
+      "description": "חמ'ל ההייטק הוא מיזם של הייטקיסטים ישראליים, שרואים את החובה לסייע לחיילי צה'ל והאוכלוסייה בשעה קשה זו. באמצעות חיבורים למעלה מ-200 מוקדים צבאיים ואזרחיים, אנו עומדים לשירות המדינה והאזרחים כדי לספק את הציוד והסיוע הדרושים בצורה היעילה ביותר.",
+      "url": "https://www.hitech4israel.com",
+      "website": "https://www.hitech4israel.com",
+      "phone": null,
+      "email": null,
+      "intents": null,
+      "verified": false,
+      "taxDeductible46": false,
+      "organizationType": null,
+      "references": [
+        {
+          "url": "https://www.israelhayom.co.il/tech/tech-news/article/14740566",
+          "type": "article",
+          "source": "ישראל היום",
+          "title": "לא מתעייפים: חמ״ל ההייטק שמסייע באלפי פניות"
+        }
+      ],
+      "rankScore": 16,
+      "tags": [
+        "חמ\"ל ההייטק",
+        "איסוף ציוד",
+        "מימון",
+        "הייטק",
+        "שירות מדינה",
+        "עזרה לצה\"ל"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/Aggregators/Main/%D7%97%D7%9E%D7%B4%D7%9C%20%D7%94%D7%94%D7%99%D7%99%D7%98%D7%A7",
+      "createdAt": "2023-12-14T13:01:43.507Z"
     },
     {
       "id": "GeneralAssistance/Main/HamalDana",
@@ -1673,6 +2201,42 @@
       ],
       "portalUrl": "https://www.linksforisrael.com/",
       "createdAt": "2023-10-28T22:36:27+03:00"
+    },
+    {
+      "id": "GeneralAssistance/Main/Banu",
+      "name": "Banu",
+      "displayName": "באנו",
+      "categoryId": "GeneralAssistance",
+      "categoryName": "סיוע אזרחי כללי",
+      "subCategoryId": "Main",
+      "subCategoryName": "סיוע אזרחי כללי",
+      "shortDescription": "קהילת המתנדבים שלנו מורכבת ממיטב אנשי המקצוע מתחומים שונים, הפועלים בהתנדבות מלאה ומבקשים לרתום מזמנם ומנסיונם לטובת תושבי עוטף ישראל, כוחות הבטחון ומשפחותיהם.",
+      "description": "*חברות וחברים יקרים*, זכות עצומה נפלה בחלקנו להקים את חמ'ל *Medison Aid* שסיפק מאות אלפי פריטים לחיילים ולתושבי עוטף ישראל. רבים מכם הייתם שותפים לפעילות החמ'ל – נרתמתם ותמכתם בדרכים שונות.  השותפות ורוח ההתנדבות שלכם עומדים בבסיס הצלחת פעילות החמ'ל. מתוך הרצון והחזון לשמר ולהעצים את רוח ההתנדבות, ומתוך ההבנה שאתגרים רבים נוספו בחזיתות נוספות, אנו מרחיבים את משימת 'קהילת המתנדבים' לטובת סיוע באתגרים אלה. *באנו* - קהילת המתנדבים שלנו מורכבת ממיטב אנשי המקצוע מתחומים שונים, הפועלים בהתנדבות מלאה ומבקשים לרתום מזמנם ומנסיונם לטובת תושבי עוטף ישראל, כוחות הבטחון ומשפחותיהם. אנו מזמינים אתכם להצטרף ולקחת חלק בקהילת *באנו* בכל אחד מהתחומים הבאים:\n•\tבנקים ומשכנתאות\n•\tהתנהלות מול משכירים\n•\tביטוח לאומי\n•\tרשויות מקומיות\n•\tייעוץ רפואי\n•\tליווי ויעוץ עסקי\n•\tאקדמיה וחינוך\n•\tמענים ייחודיים לנשים וחיילות\n•\tאחר",
+      "url": "https://www.ba-nu.org.il/volunteer",
+      "website": "https://www.ba-nu.org.il/volunteer",
+      "phone": null,
+      "email": null,
+      "intents": null,
+      "verified": false,
+      "taxDeductible46": false,
+      "organizationType": null,
+      "references": [
+        {
+          "url": "https://www.globes.co.il/news/article.aspx?did=1001475285",
+          "type": "article",
+          "source": "Globes",
+          "title": "המנטורים והמתנדבים של יוזמת ״באנו״ למען עסקים וקהילות בחירום"
+        }
+      ],
+      "rankScore": 16,
+      "tags": [
+        "התנדבות",
+        "עזרה כללית",
+        "ייעוץ",
+        "עוטף ישראל"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/",
+      "createdAt": "2024-02-16T17:06:42.559Z"
     },
     {
       "id": "Medical/Main/מהנדסים ללא גבולות - הנגשת בתים",
@@ -2278,37 +2842,6 @@
       "createdAt": "2023-10-12T22:22:49+03:00"
     },
     {
-      "id": "StrategicCommunication/SocialNetworks/DigitalDome",
-      "name": "DigitalDome",
-      "displayName": "Digital Dome - דיגיטל דום",
-      "categoryId": "StrategicCommunication",
-      "categoryName": "הסברה",
-      "subCategoryId": "SocialNetworks",
-      "subCategoryName": "רשתות חברתיות",
-      "shortDescription": "הפסקת תוכן פגעני ברשת",
-      "description": "פלטפורמה לדיווח על תכנים זדוניים ברשת. מאימות ודיווח לרשתות להסרתם. התגייסות של כמה חברות הייטק ובכירים בתעשייה.",
-      "url": "https://digitaldome.io/",
-      "website": null,
-      "phone": null,
-      "email": null,
-      "intents": null,
-      "verified": false,
-      "taxDeductible46": false,
-      "organizationType": null,
-      "references": [],
-      "rankScore": 4,
-      "tags": [
-        "הסברה",
-        "דיגיטל",
-        "הייטק",
-        "רשתות חברתיות",
-        "הסרת תוכן",
-        "דיווח"
-      ],
-      "portalUrl": "https://www.linksforisrael.com/StrategicCommunication/SocialNetworks/DigitalDome",
-      "createdAt": "2023-10-24T10:29:00+03:00"
-    },
-    {
       "id": "StrategicCommunication/SocialNetworks/BotEmetHaBarzel",
       "name": "BotEmetHaBarzel",
       "displayName": "בוט אמת הברזל",
@@ -2536,34 +3069,6 @@
       ],
       "portalUrl": "https://www.linksforisrael.com/Evacuees/Main/BrothersHostingBrothers",
       "createdAt": "2023-10-23T20:21:09+03:00"
-    },
-    {
-      "id": "Defense/Emergency/MidragSheltersProject",
-      "name": "MidragSheltersProject",
-      "displayName": "פרויקט מדרג להשמשת מקלטים",
-      "categoryId": "Defense",
-      "categoryName": "הגנה",
-      "subCategoryId": "Emergency",
-      "subCategoryName": "חירום",
-      "shortDescription": "השמשת מקלטים ע״י בעלי מקצוע, מקלטי בניינים בלבד, לא כולל החלפת דלתות וחלונות",
-      "description": "השמשת מקלטים ע״י בעלי מקצוע, מקלטי בניינים בלבד (לא פרטיים),  לא כולל החלפת דלתות וחלונות",
-      "url": "https://forms.monday.com/forms/f1e1014123cf1aac6615780795aec231?r=use1",
-      "website": null,
-      "phone": null,
-      "email": null,
-      "intents": null,
-      "verified": false,
-      "taxDeductible46": false,
-      "organizationType": null,
-      "references": [],
-      "rankScore": 4,
-      "tags": [
-        "מקלטים",
-        "הכנה",
-        "ביטחון"
-      ],
-      "portalUrl": "https://www.linksforisrael.com/Defense/Emergency/MidragSheltersProject",
-      "createdAt": "2023-10-15T00:25:34+03:00"
     },
     {
       "id": "TechInitiatives/SupportAndIncubation/AWSIsraelSupport",
@@ -2934,30 +3439,6 @@
       "createdAt": "2023-10-21T21:12:39+03:00"
     },
     {
-      "id": "Economic/Donations/PayboxSection",
-      "name": "PayboxSection",
-      "displayName": "פייבוקס - תרומה לעמותות",
-      "categoryId": "Economic",
-      "categoryName": "כלכלי ועסקי",
-      "subCategoryId": "Donations",
-      "subCategoryName": "תרומות כספיות",
-      "shortDescription": "תרומה ישירה דרך האפליקציה",
-      "description": "באפליקציה של פייבוקס יש עמוד של תרומות לעמותות וניתן לבחור עמותה ולתרום לה ישירות",
-      "url": "https://www.payboxapp.com/",
-      "website": "https://www.payboxapp.com/",
-      "phone": null,
-      "email": null,
-      "intents": null,
-      "verified": false,
-      "taxDeductible46": false,
-      "organizationType": null,
-      "references": [],
-      "rankScore": 4,
-      "tags": [],
-      "portalUrl": "https://www.linksforisrael.com/Economic/Donations/PayboxSection",
-      "createdAt": "2023-10-26T16:26:30+03:00"
-    },
-    {
       "id": "Economic/Businesses/CentralizedBenefitsAndRights",
       "name": "CentralizedBenefitsAndRights",
       "displayName": "טבלה מרכזת ןמתעדכנת של הטבות וזכויות",
@@ -3102,30 +3583,6 @@
       "createdAt": "2023-10-24T10:16:38+03:00"
     },
     {
-      "id": "FamilyAndPets/ChildrenContent/OrnaPoratTheater",
-      "name": "OrnaPoratTheater",
-      "displayName": "תאטרון אורנה פורת",
-      "categoryId": "FamilyAndPets",
-      "categoryName": "משפחה ובע\"ח",
-      "subCategoryId": "ChildrenContent",
-      "subCategoryName": "תכנים לילדים",
-      "shortDescription": "הצגות באינטרנט לילדים",
-      "description": "תיאטרון אורנה פורת לילדים ולנוער מזמין את ילדי ישראל להפוגה תיאטרלית ומהנה. מוזמנים להיכנס ולצפות בהצגות האון ליין שלנו. חיבוק ואהבה מאיתנו.",
-      "url": "https://www.porat-theater.co.il/%D7%94%D7%A6%D7%92%D7%95%D7%AA_%D7%9C%D7%A6%D7%A4%D7%99%D7%94_%D7%97%D7%95%D7%A4%D7%A9%D7%99%D7%AA",
-      "website": "https://www.porat-theater.co.il/%D7%94%D7%A6%D7%92%D7%95%D7%AA_%D7%9C%D7%A6%D7%A4%D7%99%D7%94_%D7%97%D7%95%D7%A4%D7%A9%D7%99%D7%AA",
-      "phone": null,
-      "email": null,
-      "intents": null,
-      "verified": false,
-      "taxDeductible46": false,
-      "organizationType": null,
-      "references": [],
-      "rankScore": 4,
-      "tags": [],
-      "portalUrl": "https://www.linksforisrael.com/FamilyAndPets/ChildrenContent/OrnaPoratTheater",
-      "createdAt": "2023-10-12T22:22:49+03:00"
-    },
-    {
       "id": "FamilyAndPets/ChildrenContent/ChildrenActivities",
       "name": "ChildrenActivities",
       "displayName": "דעת - פעילויות לילדים",
@@ -3148,30 +3605,6 @@
       "tags": [],
       "portalUrl": "https://www.linksforisrael.com/FamilyAndPets/ChildrenContent/ChildrenActivities",
       "createdAt": "2023-10-12T22:22:49+03:00"
-    },
-    {
-      "id": "FamilyAndPets/ChildrenContent/BrainPop",
-      "name": "BrainPop",
-      "displayName": "BrainPop",
-      "categoryId": "FamilyAndPets",
-      "categoryName": "משפחה ובע\"ח",
-      "subCategoryId": "ChildrenContent",
-      "subCategoryName": "תכנים לילדים",
-      "shortDescription": "תכנים חינוכיים עם קוד חינמי",
-      "description": "קוד: בריינפופ23",
-      "url": "https://il.brainpop.com/",
-      "website": "https://il.brainpop.com/",
-      "phone": null,
-      "email": null,
-      "intents": null,
-      "verified": false,
-      "taxDeductible46": false,
-      "organizationType": null,
-      "references": [],
-      "rankScore": 4,
-      "tags": [],
-      "portalUrl": "https://www.linksforisrael.com/FamilyAndPets/ChildrenContent/BrainPop",
-      "createdAt": "2023-10-08T18:03:26+03:00"
     },
     {
       "id": "FamilyAndPets/ChildrenContent/Simplesteps - סימפלסטפס",
@@ -3203,34 +3636,6 @@
       ],
       "portalUrl": "https://www.linksforisrael.com/FamilyAndPets/ChildrenContent/Simplesteps%20-%20%D7%A1%D7%99%D7%9E%D7%A4%D7%9C%D7%A1%D7%98%D7%A4%D7%A1",
       "createdAt": "2023-11-24T15:31:40+02:00"
-    },
-    {
-      "id": "Medical/Main/IronDoctors",
-      "name": "IronDoctors",
-      "displayName": "רופאות הברזל - ⚡יעוץ רפואי מהיר בשעת חרום⚡",
-      "categoryId": "Medical",
-      "categoryName": "בריאות ונפש",
-      "subCategoryId": "Main",
-      "subCategoryName": "ראשי",
-      "shortDescription": "ניתן על ידי חברת ניתאי שירותי עזרה ראשונה",
-      "description": "לאור מצב החירום בו נמצאת ישראל בזמנים אלו, שיבא beyond, בית החולים הוירטואלי בשיבא, ובשיתוף קבוצת חדר רופאות הקימו עבורכם/ן מוקד ובו מערך רופאות ורופאים מתנדבים/ות בתחומים שונים. המערך זמין למתן ייעוץ רפואי מהיר דרך הוואטסאפ במצבים לא דחופים ובתחומים שונים: רפואה פנימית ומשפחה, רפואת ילדים, רפואת שיניים, ועוד. שעות פעילות המוקד יתעדכנו מעת לעת, ובהמשך המוקד מיועד לפעילות של 24/7. שעות פעילות המוקד כרגע: 16:00-20:00. אנא התעדכנו בשעות הפעילות בדף זה.",
-      "url": "https://www.hopp.bio/irondoctors",
-      "website": null,
-      "phone": null,
-      "email": null,
-      "intents": null,
-      "verified": false,
-      "taxDeductible46": false,
-      "organizationType": null,
-      "references": [],
-      "rankScore": 4,
-      "tags": [
-        "רפואה",
-        "התנדבות",
-        "מתנדב"
-      ],
-      "portalUrl": "https://www.linksforisrael.com/Medical/Main/IronDoctors",
-      "createdAt": "2023-10-16T20:14:54+03:00"
     },
     {
       "id": "Medical/MentalSupport/HugIntoTheNight",
@@ -3312,35 +3717,6 @@
       "createdAt": "2023-10-21T23:09:40+03:00"
     },
     {
-      "id": "MemorialRemembrance/Main/WixRememberThem",
-      "name": "WixRememberThem",
-      "displayName": "תבנית לאתרי יזכור",
-      "categoryId": "MemorialRemembrance",
-      "categoryName": "שכול וזיכרון",
-      "subCategoryId": "Main",
-      "subCategoryName": "ראשי",
-      "shortDescription": "אתר הנצחה דיגיטלי, ללא עלות",
-      "description": "אנחנו מקבלים לוויקס המון פניות ממשפחות וחברים להקמת אתרי הנצחה דיגיטליים לחללי חרבות ברזל - מקום שבו יוכלו להנציח את יקיריהם, לשתף בסיפורים ותמונות ולהזמין משפחה וחברים להעלות זכרונות ביחד. החלטנו לייצר למשפחות נקודת התחלה קלה יותר לבניית האתרים האלו. באתר ״לזכור אותם״ מוצעים 4 עיצובים שונים (תבניות/ טמפלטים) לאתרי הנצחה אישיים. כל מה שצריך לעשות זה להחליף תמונות ולערוך לתכנים האישיים. האתר כולל גם סרטון הדרכה קצר שמראה כיצד ניתן לעבוד בקלות עם הטמפלטים. וויקס תספק למשפחות דומיין לאתר וכן תמיכה אישית במהלך הבנייה, במידה ויצטרכו.",
-      "url": "https://memorial-templates.wix.com/",
-      "website": "https://memorial-templates.wix.com/",
-      "phone": null,
-      "email": null,
-      "intents": null,
-      "verified": false,
-      "taxDeductible46": false,
-      "organizationType": null,
-      "references": [],
-      "rankScore": 4,
-      "tags": [
-        "וויקס",
-        "אתר הנצחה",
-        "חללי חרבות ברזל",
-        "עיצוב אתרים"
-      ],
-      "portalUrl": "https://www.linksforisrael.com/MemorialRemembrance/Main/WixRememberThem",
-      "createdAt": "2023-11-10T22:51:27+02:00"
-    },
-    {
       "id": "MemorialRemembrance/Main/echoBox",
       "name": "echoBox",
       "displayName": "תיבת תהודה",
@@ -3401,37 +3777,6 @@
       "createdAt": "2023-10-28T22:17:22+03:00"
     },
     {
-      "id": "Aggregators/Main/חמ״ל ההייטק",
-      "name": "חמ״ל ההייטק",
-      "displayName": "TechHamal",
-      "categoryId": "Aggregators",
-      "categoryName": "איגודי יוזמות",
-      "subCategoryId": "Main",
-      "subCategoryName": "ראשי",
-      "shortDescription": "חמ״ל שמטרתו איסוף ציוד ומימון שיתועל לטובת המאמץ המלחמתי ונפגעיו",
-      "description": "חמ'ל ההייטק הוא מיזם של הייטקיסטים ישראליים, שרואים את החובה לסייע לחיילי צה'ל והאוכלוסייה בשעה קשה זו. באמצעות חיבורים למעלה מ-200 מוקדים צבאיים ואזרחיים, אנו עומדים לשירות המדינה והאזרחים כדי לספק את הציוד והסיוע הדרושים בצורה היעילה ביותר.",
-      "url": "https://www.hitech4israel.com",
-      "website": "https://www.hitech4israel.com",
-      "phone": null,
-      "email": null,
-      "intents": null,
-      "verified": false,
-      "taxDeductible46": false,
-      "organizationType": null,
-      "references": [],
-      "rankScore": 4,
-      "tags": [
-        "חמ\"ל ההייטק",
-        "איסוף ציוד",
-        "מימון",
-        "הייטק",
-        "שירות מדינה",
-        "עזרה לצה\"ל"
-      ],
-      "portalUrl": "https://www.linksforisrael.com/Aggregators/Main/%D7%97%D7%9E%D7%B4%D7%9C%20%D7%94%D7%94%D7%99%D7%99%D7%98%D7%A7",
-      "createdAt": "2023-12-14T13:01:43.507Z"
-    },
-    {
       "id": "GeneralAssistance/Main/IronSwordsVolunteers",
       "name": "IronSwordsVolunteers",
       "displayName": "מתנדבי חרבות ברזל - חמל חיבורים",
@@ -3456,65 +3801,6 @@
       ],
       "portalUrl": "https://www.linksforisrael.com/",
       "createdAt": "2023-10-12T22:22:49+03:00"
-    },
-    {
-      "id": "GeneralAssistance/Main/Banu",
-      "name": "Banu",
-      "displayName": "באנו",
-      "categoryId": "GeneralAssistance",
-      "categoryName": "סיוע אזרחי כללי",
-      "subCategoryId": "Main",
-      "subCategoryName": "סיוע אזרחי כללי",
-      "shortDescription": "קהילת המתנדבים שלנו מורכבת ממיטב אנשי המקצוע מתחומים שונים, הפועלים בהתנדבות מלאה ומבקשים לרתום מזמנם ומנסיונם לטובת תושבי עוטף ישראל, כוחות הבטחון ומשפחותיהם.",
-      "description": "*חברות וחברים יקרים*, זכות עצומה נפלה בחלקנו להקים את חמ'ל *Medison Aid* שסיפק מאות אלפי פריטים לחיילים ולתושבי עוטף ישראל. רבים מכם הייתם שותפים לפעילות החמ'ל – נרתמתם ותמכתם בדרכים שונות.  השותפות ורוח ההתנדבות שלכם עומדים בבסיס הצלחת פעילות החמ'ל. מתוך הרצון והחזון לשמר ולהעצים את רוח ההתנדבות, ומתוך ההבנה שאתגרים רבים נוספו בחזיתות נוספות, אנו מרחיבים את משימת 'קהילת המתנדבים' לטובת סיוע באתגרים אלה. *באנו* - קהילת המתנדבים שלנו מורכבת ממיטב אנשי המקצוע מתחומים שונים, הפועלים בהתנדבות מלאה ומבקשים לרתום מזמנם ומנסיונם לטובת תושבי עוטף ישראל, כוחות הבטחון ומשפחותיהם. אנו מזמינים אתכם להצטרף ולקחת חלק בקהילת *באנו* בכל אחד מהתחומים הבאים:\n•\tבנקים ומשכנתאות\n•\tהתנהלות מול משכירים\n•\tביטוח לאומי\n•\tרשויות מקומיות\n•\tייעוץ רפואי\n•\tליווי ויעוץ עסקי\n•\tאקדמיה וחינוך\n•\tמענים ייחודיים לנשים וחיילות\n•\tאחר",
-      "url": "https://www.ba-nu.org.il/volunteer",
-      "website": "https://www.ba-nu.org.il/volunteer",
-      "phone": null,
-      "email": null,
-      "intents": null,
-      "verified": false,
-      "taxDeductible46": false,
-      "organizationType": null,
-      "references": [],
-      "rankScore": 4,
-      "tags": [
-        "התנדבות",
-        "עזרה כללית",
-        "ייעוץ",
-        "עוטף ישראל"
-      ],
-      "portalUrl": "https://www.linksforisrael.com/",
-      "createdAt": "2024-02-16T17:06:42.559Z"
-    },
-    {
-      "id": "Evacuees/Main/AccessibilityIsrael-VioletVest",
-      "name": "AccessibilityIsrael-VioletVest",
-      "displayName": "נגישות ישראל - האפוד הסגול",
-      "categoryId": "Evacuees",
-      "categoryName": "אירוח ותמיכה במפונים",
-      "subCategoryId": "Main",
-      "subCategoryName": "ראשי",
-      "shortDescription": "",
-      "description": "מוזמנים להצטרף למערך ההתנדבות והסיוע של עמותת 'נגישות ישראל' תחת 'יוזמת האפוד הסגול'\nהעמותה מסייעת ביום-יום לאנשים עם מוגבלויות עם דגש על הנגשת המרחב הציבורי והגברת המודעות להכללה של אנשים עם מוגבלויות בכל תחומי החיים.\nעם תחילת המלחמה 'האפוד הסגול' הקים חמ'ל לסיוע ופינוי אנשים עם מוגבלויות מאזורי הגבול ומציאת פתרונות אירוח נגישים עבורם.\nמוזמנים להצטרף כמתנדב, להציע לארח או אם אתם זקוקים לסיוע - \n\nבקשה לאירוח נגיש:\nhttps://shorturl.at/dCFPU\n\nטופס מילוי צרכים וציוד למפונים:\nhttps://shorturl.at/hjtEQ\n\nרישום להדרכות האפוד הסגול:\nhttps://shorturl.at/oxFV4\n\nרישום למתנדבים:\nhttps://shorturl.at/czLZ1\nמוקד המידע לנגישות בשעת חירום– 054-2422973",
-      "url": "https://purple-vest.net/he/",
-      "website": "https://purple-vest.net/he/",
-      "phone": null,
-      "email": null,
-      "intents": null,
-      "verified": false,
-      "taxDeductible46": false,
-      "organizationType": null,
-      "references": [],
-      "rankScore": 2,
-      "tags": [
-        "התנדבות",
-        "אירוח נגיש",
-        "האפוד הסגול",
-        "נגישות",
-        "פינוי אנשים עם מוגבלויות"
-      ],
-      "portalUrl": "https://www.linksforisrael.com/Evacuees/Main/AccessibilityIsrael-VioletVest",
-      "createdAt": "2023-11-13T22:19:47+02:00"
     },
     {
       "id": "FamilyAndPets/ChildrenContent/AnakShelSfarim",

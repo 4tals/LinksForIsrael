@@ -1,97 +1,137 @@
 {
-  "name": "Info",
-  "displayName": "מקורות מידע לסיוע בהסברה",
-  "links": [
-    {
-      "name": "oct7map",
-      "displayName": "Mapping the Massacres",
-      "shortDescription": "A geo-visualization depicting the atrocities perpetrated by Hamas on Israeli lands on October 7th",
-      "description": "The October 7th Geo-visualization Project strives to provide a comprehensive representation of the atrocities committed by Hamas on that day. This interactive map serves as a reflection and an educational tool, promoting awareness of the gravity of the horrors.",
-      "url": "https://oct7map.com/",
-      "website": "https://oct7map.com/",
-      "tags": [
-        "מיפוי",
-        "ויזואליזציה"
-      ],
-      "createdAt": "2023-10-31T17:07:44+02:00"
-    },
-    {
-      "name": "OnlyTrueInformation",
-      "displayName": "הקונסוליה הישראלית בניו יורק",
-      "initiativeImage": "https://www.onlytrueinformation.com/logo.jpeg",
-      "description": "אתר עם פרסומים מאומתים שאושרו למי שמעוניין לשתף את האמת, להגן על ישראל ולוודא שהמידע האמיתי קודם לפני השקר.",
-      "url": "https://www.onlytrueinformation.com/",
-      "website": "https://www.onlytrueinformation.com/",
-      "tags": [
-        "מידע",
-        "הגנה",
-        "ישראל",
-        "קונסוליה",
-        "ניו יורק",
-        "אמת"
-      ],
-      "createdAt": "2023-11-02T13:01:02+02:00",
-      "verified": true,
-      "organizationType": "official"
-    },
-    {
-      "name": "InssWarData",
-      "displayName": "חרבות ברזל עדכונים ותמונת מצב",
-      "shortDescription": "דסק הנתונים של המכון למחקרי ביטחון לאומי אוסף עבורכם את המידע העדכני והמדויק במהלך ימי המלחמה",
-      "description": "לרבות נתונים שוטפים על הזירה הפנים-ישראלית, גזרת עזה, לבנון, איו'ש, הזירה האזורית והבינ'ל. בעמוד זה שבעה קבצי נתונים שונים - גללו מטה לצפייה בכולם. למשתמשי הסלולר מומלץ לצפות בעמוד במצב מאוזן.",
-      "initiativeValidationDetails": "Known institution",
-      "url": "https://www.inss.org.il/he/publication/war-data/",
-      "website": "https://www.inss.org.il/he/publication/war-data/",
-      "telegram": "https://t.me/inssisrael",
-      "facebook": "https://www.facebook.com/INSS.Israel/",
-      "instagram": "https://www.instagram.com/inss.israel/",
-      "tiktok": "https://www.tiktok.com/@inss_israel?lang=en",
-      "twitter": "https://twitter.com/INSS_Hebrew",
-      "linkedin": "https://il.linkedin.com/company/inss-israel",
-      "initiativeImage": "https://www.inss.org.il/he/wp-content/uploads/sites/2/2018/08/Asset-1-442x56a.png",
-      "tags": [
-        "חרבות ברזל",
-        "עדכונים",
-        "תמונת מצב",
-        "מלחמה",
-        "ביטחון לאומי",
-        "אזרחים"
-      ],
-      "createdAt": "2023-11-09T23:24:54+02:00",
-      "verified": true,
-      "organizationType": "ngo"
-    },
-    {
-      "name": "hasbaraArchive",
-      "displayName": "ארכיון ההסברה - טאגבוקס",
-      "shortDescription": "ארכיון ממוין לפי תגיות, נושאים ושפות של כל החומרים הרלוונטיים להסברה מתעדכן על ידי צוות ייעודיי",
-      "description": "ארכיון ממוין לפי תגיות, נושאים ושפות של כל החומרים הרלוונטיים להסברה מתעדכן על ידי צוות ייעודיי",
-      "initiativeValidationDetails": "Verified by @4tal, part of other shared Hasbara initiative",
-      "url": "https://app.tagbox.io/w/652956971319a00011a82b71",
-      "website": "https://app.tagbox.io/w/652956971319a00011a82b71",
-      "tags": [
-        "סרטונים",
-        "הסברה"
-      ],
-      "createdAt": "2023-11-19T16:44:01+02:00"
-    },
-    {
-      "name": "TheNationalLibrary",
-      "displayName": "הספרייה הלאומית - רשימת פרויקטים - מאגר הלאומי לתיעוד מאורעות ה - 7.10",
-      "shortDescription": "המאגר של הספרייה הלאומית לתיעוד מאורעות ה - 7.10 למלחמה.",
-      "description": "המאגר הלאומי לתיעוד מאורעות ה - 7.10 למלחמה. https://www.nli.org.il/he/at-your-service/who-we-are/projects/7-october-documentation",
-      "initiativeValidationDetails": "Well Known Source, validated by @4tal",
-      "url": "https://www.nli.org.il/he/at-your-service/who-we-are/projects/7-october-documentation#projects",
-      "website": "https://www.nli.org.il/he/at-your-service/who-we-are/projects/7-october-documentation#projects",
-      "tags": [
-        "תיעוד",
-        "עדויות",
-        "צילומים",
-        "מאגר"
-      ],
-      "createdAt": "2023-11-21T22:03:35+02:00",
-      "verified": true,
-      "organizationType": "official"
-    }
-  ]
+	"name": "Info",
+	"displayName": "מקורות מידע לסיוע בהסברה",
+	"links": [
+		{
+			"name": "oct7map",
+			"displayName": "Mapping the Massacres",
+			"shortDescription": "A geo-visualization depicting the atrocities perpetrated by Hamas on Israeli lands on October 7th",
+			"description": "The October 7th Geo-visualization Project strives to provide a comprehensive representation of the atrocities committed by Hamas on that day. This interactive map serves as a reflection and an educational tool, promoting awareness of the gravity of the horrors.",
+			"url": "https://oct7map.com/",
+			"website": "https://oct7map.com/",
+			"tags": [
+				"מיפוי",
+				"ויזואליזציה"
+			],
+			"createdAt": "2023-10-31T17:07:44+02:00"
+		},
+		{
+			"name": "OnlyTrueInformation",
+			"displayName": "הקונסוליה הישראלית בניו יורק",
+			"initiativeImage": "https://www.onlytrueinformation.com/logo.jpeg",
+			"description": "אתר עם פרסומים מאומתים שאושרו למי שמעוניין לשתף את האמת, להגן על ישראל ולוודא שהמידע האמיתי קודם לפני השקר.",
+			"url": "https://www.onlytrueinformation.com/",
+			"website": "https://www.onlytrueinformation.com/",
+			"tags": [
+				"מידע",
+				"הגנה",
+				"ישראל",
+				"קונסוליה",
+				"ניו יורק",
+				"אמת"
+			],
+			"createdAt": "2023-11-02T13:01:02+02:00",
+			"verified": true,
+			"organizationType": "official"
+		},
+		{
+			"name": "InssWarData",
+			"displayName": "חרבות ברזל עדכונים ותמונת מצב",
+			"shortDescription": "דסק הנתונים של המכון למחקרי ביטחון לאומי אוסף עבורכם את המידע העדכני והמדויק במהלך ימי המלחמה",
+			"description": "לרבות נתונים שוטפים על הזירה הפנים-ישראלית, גזרת עזה, לבנון, איו'ש, הזירה האזורית והבינ'ל. בעמוד זה שבעה קבצי נתונים שונים - גללו מטה לצפייה בכולם. למשתמשי הסלולר מומלץ לצפות בעמוד במצב מאוזן.",
+			"initiativeValidationDetails": "Known institution",
+			"url": "https://www.inss.org.il/he/publication/war-data/",
+			"website": "https://www.inss.org.il/he/publication/war-data/",
+			"telegram": "https://t.me/inssisrael",
+			"facebook": "https://www.facebook.com/INSS.Israel/",
+			"instagram": "https://www.instagram.com/inss.israel/",
+			"tiktok": "https://www.tiktok.com/@inss_israel?lang=en",
+			"twitter": "https://twitter.com/INSS_Hebrew",
+			"linkedin": "https://il.linkedin.com/company/inss-israel",
+			"initiativeImage": "https://www.inss.org.il/he/wp-content/uploads/sites/2/2018/08/Asset-1-442x56a.png",
+			"tags": [
+				"חרבות ברזל",
+				"עדכונים",
+				"תמונת מצב",
+				"מלחמה",
+				"ביטחון לאומי",
+				"אזרחים"
+			],
+			"createdAt": "2023-11-09T23:24:54+02:00",
+			"verified": true,
+			"organizationType": "ngo",
+			"references": [
+				{
+					"url": "https://he.wikipedia.org/wiki/%D7%94%D7%9E%D7%9B%D7%95%D7%9F_%D7%9C%D7%9E%D7%97%D7%A7%D7%A8%D7%99_%D7%91%D7%99%D7%98%D7%97%D7%95%D7%9F_%D7%9C%D7%90%D7%95%D7%9E%D7%99",
+					"type": "registry",
+					"source": "Wikipedia",
+					"title": "המכון למחקרי ביטחון לאומי – INSS (ויקיפדיה)"
+				},
+				{
+					"url": "https://en.wikipedia.org/wiki/Institute_for_National_Security_Studies_(Israel)",
+					"type": "registry",
+					"source": "Wikipedia (EN)",
+					"title": "Institute for National Security Studies (Israel)"
+				},
+				{
+					"url": "https://www.guidestar.org.il/organization/513861435",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "המכון למחקרי ביטחון לאומי – רישום חל״צ בגיידסטאר"
+				}
+			]
+		},
+		{
+			"name": "hasbaraArchive",
+			"displayName": "ארכיון ההסברה - טאגבוקס",
+			"shortDescription": "ארכיון ממוין לפי תגיות, נושאים ושפות של כל החומרים הרלוונטיים להסברה מתעדכן על ידי צוות ייעודיי",
+			"description": "ארכיון ממוין לפי תגיות, נושאים ושפות של כל החומרים הרלוונטיים להסברה מתעדכן על ידי צוות ייעודיי",
+			"initiativeValidationDetails": "Verified by @4tal, part of other shared Hasbara initiative",
+			"url": "https://app.tagbox.io/w/652956971319a00011a82b71",
+			"website": "https://app.tagbox.io/w/652956971319a00011a82b71",
+			"tags": [
+				"סרטונים",
+				"הסברה"
+			],
+			"createdAt": "2023-11-19T16:44:01+02:00"
+		},
+		{
+			"name": "TheNationalLibrary",
+			"displayName": "הספרייה הלאומית - רשימת פרויקטים - מאגר הלאומי לתיעוד מאורעות ה - 7.10",
+			"shortDescription": "המאגר של הספרייה הלאומית לתיעוד מאורעות ה - 7.10 למלחמה.",
+			"description": "המאגר הלאומי לתיעוד מאורעות ה - 7.10 למלחמה. https://www.nli.org.il/he/at-your-service/who-we-are/projects/7-october-documentation",
+			"initiativeValidationDetails": "Well Known Source, validated by @4tal",
+			"url": "https://www.nli.org.il/he/at-your-service/who-we-are/projects/7-october-documentation#projects",
+			"website": "https://www.nli.org.il/he/at-your-service/who-we-are/projects/7-october-documentation#projects",
+			"tags": [
+				"תיעוד",
+				"עדויות",
+				"צילומים",
+				"מאגר"
+			],
+			"createdAt": "2023-11-21T22:03:35+02:00",
+			"verified": true,
+			"organizationType": "official",
+			"references": [
+				{
+					"url": "https://he.wikipedia.org/wiki/%D7%94%D7%A1%D7%A4%D7%A8%D7%99%D7%99%D7%94_%D7%94%D7%9C%D7%90%D7%95%D7%9E%D7%99%D7%AA",
+					"type": "registry",
+					"source": "Wikipedia",
+					"title": "הספרייה הלאומית (ויקיפדיה)"
+				},
+				{
+					"url": "https://www.btl.gov.il/About/news/Pages/NationalLibraryProject-7Oct.aspx",
+					"type": "official",
+					"source": "ביטוח לאומי (gov.il)",
+					"title": "פרויקט ״כרוך בזיכרון״ של הספרייה הלאומית להנצחת חללי ה-7 באוקטובר"
+				},
+				{
+					"url": "https://www.ynet.co.il/news/article/rkaep9vqt",
+					"type": "article",
+					"source": "Ynet",
+					"title": "הספרייה הלאומית אוספת עדויות מאירועי ה-7 באוקטובר"
+				}
+			]
+		}
+	]
 }

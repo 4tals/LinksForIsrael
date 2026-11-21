@@ -86,7 +86,22 @@
 				"הסרת תוכן",
 				"דיווח"
 			],
-			"createdAt": "2023-10-24T10:29:00+03:00"
+			"createdAt": "2023-10-24T10:29:00+03:00",
+			"references": [
+				{
+					"url": "https://www.globes.co.il/news/article.aspx?did=1001463304",
+					"type": "article",
+					"source": "Globes",
+					"title": "המאבק להסרת תכנים פוגעניים ודיסאינפורמציה ברשתות החברתיות"
+				},
+				{
+					"url": "https://www.revitalsalomon.com/?p=2391",
+					"type": "blog",
+					"source": "הבלוג של רויטל סלומון",
+					"author": "רויטל סלומון",
+					"title": "איך מזהים ומדווחים על רשתות בוטים ודיסאינפורמציה"
+				}
+			]
 		},
 		{
 			"name": "BotEmetHaBarzel",
@@ -133,6 +148,12 @@
 					"url": "https://www.ynet.co.il/judaism/discourse/article/bjwvwpoxt",
 					"type": "article",
 					"source": "Ynet"
+				},
+				{
+					"url": "https://he.wikipedia.org/wiki/StopAntisemitism",
+					"type": "registry",
+					"source": "Wikipedia",
+					"title": "StopAntisemitism (ויקיפדיה)"
 				}
 			]
 		},

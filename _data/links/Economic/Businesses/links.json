@@ -1,70 +1,84 @@
 {
-  "name": "Businesses",
-  "displayName": "תמיכה בעסקים והטבות לצרכנים",
-  "links": [
-    {
-      "name": "CentralizedBenefitsAndRights",
-      "displayName": "טבלה מרכזת ןמתעדכנת של הטבות וזכויות",
-      "shortDescription": "כל ההקלות, ההטבות והעדכונים בטבלה אחת מתעדכנת",
-      "description": "קובץ חשוב 📌 ומתעדכן: כל ההקלות, ההטבות והעדכונים בטבלה אחת מתעדכנת. לאור המצב עסקים רבים באים לקראת הציבור הישראלי במגוון דרכים שונות. מורן אברהם (מורן תסדר), עושה סדר חשוב מאד בכל ההצעות והעדכונים שיכולים קצת להקל עליכם כרגע. מבנקים ועד חברות סלולרי, ביטוחים ומשרדי ממשלה הכל פה (וממשיך להתעדכן)",
-      "initiativeValidationDetails": "Source: Work WhatsApp group\nLink to reputable source(s) promoting the initiative: https://t.me/s/techisrael",
-      "url": "https://docs.google.com/spreadsheets/d/1wLdbhIUtG2rpZxH4qEkNsDjugbQ0VthFjQjvxhGl5qM/edit?usp=sharing",
-      "website": "https://docs.google.com/spreadsheets/d/1wLdbhIUtG2rpZxH4qEkNsDjugbQ0VthFjQjvxhGl5qM/edit?usp=sharing",
-      "docs": "https://docs.google.com/spreadsheets/d/1wLdbhIUtG2rpZxH4qEkNsDjugbQ0VthFjQjvxhGl5qM/edit?usp=sharing",
-      "tags": [
-        "הטבות",
-        "זכויות",
-        "אנוש",
-        "מצב חירום",
-        "משבר",
-        "עזרה",
-        "כלכלה"
-      ],
-      "createdAt": "2023-11-07T00:20:57+02:00"
-    },
-    {
-      "name": "SocialSolidarityHome",
-      "displayName": "הבית לסולידריות חברתית",
-      "shortDescription": "מוקד מידע לעסקים",
-      "description": "בימים קשים אלו הבית לסולידריות חברתית מטעם קרן משפחת שעשוע עומדים לצד העסקים בישראל",
-      "initiativeValidationDetails": "Operations volunteer",
-      "url": "https://www.solidarity-foundation.org.il/",
-      "website": "https://www.solidarity-foundation.org.il/",
-      "email": "info@solidarity-foundation.org.il",
-      "whatsapp": "https://api.whatsapp.com/send?phone=972523299519",
-      "form": "https://forms.gle/XH27b88nx9ynXqS36",
-      "facebook": "https://www.facebook.com/wer1solidarity",
-      "instagram": "https://www.instagram.com/social_solidarity_il/?utm_medium=copy_link",
-      "linkedin": "https://www.linkedin.com/company/the-social-solidarity-foundation/",
-      "youtube": "https://www.youtube.com/channel/UCooKVLFJQOvggvuklgYwq_w",
-      "tags": [
-        "סולידריות חברתית",
-        "עסקים",
-        "מוקד מידע",
-        "משפחת שעשוע",
-        "קרן",
-        "ישראל"
-      ],
-      "createdAt": "2023-11-28T22:11:18+02:00",
-      "verified": true,
-      "organizationType": "ngo",
-      "taxDeductible46": true
-    },
-    {
-      "displayName": "מחבקים את המילואימניקים",
-      "name": "HuggingTheReserveSoldiers",
-      "shortDescription": "רשימה מסודרת של עסקי מילאומניקים",
-      "description": "יש ברשימה בתי קפה ומסעדות, עורכי דין, מאמני כושר, מובילים, נגרים ומה לא - שהבעלים שלהם נמצאים גם כעת עמוק בעזה או ישנים באוהלים בגבול הצפון כבר מעל 70 יום, ומגיע להם שנקנה אצלם, מגיע להם שנחבק אותם. חלקם אמנם לא יכולים לתת שירות מיידי כי הם לא בזמינות (יש למשל שף פרטי שנמצא בלחימה. אחיו נהרג כשיצא מעזה והוא ממשיך להילחם), אבל הם ישמחו שתבקרו אצלם באתר, תתרשמו ותרשמו להיות לקוחות שלהם בעתיד. אפרת בדקה ודיברה עם כל המילאומניקים (והמילואמניקיות) ברשימה (או עם בני המשפחה שלהם), יש בלינק דרכים ליצירת קשר,  ואפשר גם לעשות חיפוש דרך אפליקציית איזי כדי לדעת מה מהם קרוב אליכם.",
-      "initiativeValidationDetails": "יוזמה בשיתוף אפליקציית EASY",
-      "url": "https://go.easy.co.il/Hanoch",
-      "initiativeImage": "/images/HuggingTheReserveSoldiers-34b83f51-134b-4766-8517-9d9f73dcbc7c.png",
-      "website": "https://go.easy.co.il/Hanoch",
-      "tags": [
-        "מילואים",
-        "עסקים",
-        "תמיכה"
-      ],
-      "createdAt": "2024-01-07T14:51:55.218Z"
-    }
-  ]
+	"name": "Businesses",
+	"displayName": "תמיכה בעסקים והטבות לצרכנים",
+	"links": [
+		{
+			"name": "CentralizedBenefitsAndRights",
+			"displayName": "טבלה מרכזת ןמתעדכנת של הטבות וזכויות",
+			"shortDescription": "כל ההקלות, ההטבות והעדכונים בטבלה אחת מתעדכנת",
+			"description": "קובץ חשוב 📌 ומתעדכן: כל ההקלות, ההטבות והעדכונים בטבלה אחת מתעדכנת. לאור המצב עסקים רבים באים לקראת הציבור הישראלי במגוון דרכים שונות. מורן אברהם (מורן תסדר), עושה סדר חשוב מאד בכל ההצעות והעדכונים שיכולים קצת להקל עליכם כרגע. מבנקים ועד חברות סלולרי, ביטוחים ומשרדי ממשלה הכל פה (וממשיך להתעדכן)",
+			"initiativeValidationDetails": "Source: Work WhatsApp group\nLink to reputable source(s) promoting the initiative: https://t.me/s/techisrael",
+			"url": "https://docs.google.com/spreadsheets/d/1wLdbhIUtG2rpZxH4qEkNsDjugbQ0VthFjQjvxhGl5qM/edit?usp=sharing",
+			"website": "https://docs.google.com/spreadsheets/d/1wLdbhIUtG2rpZxH4qEkNsDjugbQ0VthFjQjvxhGl5qM/edit?usp=sharing",
+			"docs": "https://docs.google.com/spreadsheets/d/1wLdbhIUtG2rpZxH4qEkNsDjugbQ0VthFjQjvxhGl5qM/edit?usp=sharing",
+			"tags": [
+				"הטבות",
+				"זכויות",
+				"אנוש",
+				"מצב חירום",
+				"משבר",
+				"עזרה",
+				"כלכלה"
+			],
+			"createdAt": "2023-11-07T00:20:57+02:00"
+		},
+		{
+			"name": "SocialSolidarityHome",
+			"displayName": "הבית לסולידריות חברתית",
+			"shortDescription": "מוקד מידע לעסקים",
+			"description": "בימים קשים אלו הבית לסולידריות חברתית מטעם קרן משפחת שעשוע עומדים לצד העסקים בישראל",
+			"initiativeValidationDetails": "Operations volunteer",
+			"url": "https://www.solidarity-foundation.org.il/",
+			"website": "https://www.solidarity-foundation.org.il/",
+			"email": "info@solidarity-foundation.org.il",
+			"whatsapp": "https://api.whatsapp.com/send?phone=972523299519",
+			"form": "https://forms.gle/XH27b88nx9ynXqS36",
+			"facebook": "https://www.facebook.com/wer1solidarity",
+			"instagram": "https://www.instagram.com/social_solidarity_il/?utm_medium=copy_link",
+			"linkedin": "https://www.linkedin.com/company/the-social-solidarity-foundation/",
+			"youtube": "https://www.youtube.com/channel/UCooKVLFJQOvggvuklgYwq_w",
+			"tags": [
+				"סולידריות חברתית",
+				"עסקים",
+				"מוקד מידע",
+				"משפחת שעשוע",
+				"קרן",
+				"ישראל"
+			],
+			"createdAt": "2023-11-28T22:11:18+02:00",
+			"verified": true,
+			"organizationType": "ngo",
+			"taxDeductible46": true,
+			"references": [
+				{
+					"url": "https://www.guidestar.org.il/organization/516267911",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "הבית לסולידריות חברתית – רישום חל״צ בגיידסטאר"
+				},
+				{
+					"url": "https://www.ynet.co.il/article/sk9zkk00s5",
+					"type": "article",
+					"source": "Ynet",
+					"title": "״הבית לסולידריות חברתית״: הבית של קהילת בעלי העסקים הקטנים בישראל"
+				}
+			]
+		},
+		{
+			"displayName": "מחבקים את המילואימניקים",
+			"name": "HuggingTheReserveSoldiers",
+			"shortDescription": "רשימה מסודרת של עסקי מילאומניקים",
+			"description": "יש ברשימה בתי קפה ומסעדות, עורכי דין, מאמני כושר, מובילים, נגרים ומה לא - שהבעלים שלהם נמצאים גם כעת עמוק בעזה או ישנים באוהלים בגבול הצפון כבר מעל 70 יום, ומגיע להם שנקנה אצלם, מגיע להם שנחבק אותם. חלקם אמנם לא יכולים לתת שירות מיידי כי הם לא בזמינות (יש למשל שף פרטי שנמצא בלחימה. אחיו נהרג כשיצא מעזה והוא ממשיך להילחם), אבל הם ישמחו שתבקרו אצלם באתר, תתרשמו ותרשמו להיות לקוחות שלהם בעתיד. אפרת בדקה ודיברה עם כל המילאומניקים (והמילואמניקיות) ברשימה (או עם בני המשפחה שלהם), יש בלינק דרכים ליצירת קשר,  ואפשר גם לעשות חיפוש דרך אפליקציית איזי כדי לדעת מה מהם קרוב אליכם.",
+			"initiativeValidationDetails": "יוזמה בשיתוף אפליקציית EASY",
+			"url": "https://go.easy.co.il/Hanoch",
+			"initiativeImage": "/images/HuggingTheReserveSoldiers-34b83f51-134b-4766-8517-9d9f73dcbc7c.png",
+			"website": "https://go.easy.co.il/Hanoch",
+			"tags": [
+				"מילואים",
+				"עסקים",
+				"תמיכה"
+			],
+			"createdAt": "2024-01-07T14:51:55.218Z"
+		}
+	]
 }

@@ -64,7 +64,15 @@
 				"שירות מדינה",
 				"עזרה לצה\"ל"
 			],
-			"createdAt": "2023-12-14T13:01:43.507Z"
+			"createdAt": "2023-12-14T13:01:43.507Z",
+			"references": [
+				{
+					"url": "https://www.israelhayom.co.il/tech/tech-news/article/14740566",
+					"type": "article",
+					"source": "ישראל היום",
+					"title": "לא מתעייפים: חמ״ל ההייטק שמסייע באלפי פניות"
+				}
+			]
 		}
 	]
 }

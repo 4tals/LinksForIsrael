@@ -38,6 +38,18 @@
 					"type": "registry",
 					"source": "GuideStar Israel",
 					"title": "ארגון לתת – רישום עמותה וניהול תקין בגיידסטאר"
+				},
+				{
+					"url": "https://www.ynet.co.il/news/article/skja96xfzg",
+					"type": "article",
+					"source": "Ynet",
+					"title": "דוח העוני של ארגון ״לתת״: עלויות המחיה קפצו ב-10%"
+				},
+				{
+					"url": "https://www.calcalist.co.il/local_news/article/hkjrximos",
+					"type": "article",
+					"source": "Calcalist",
+					"title": "דו״ח העוני של ״לתת״: זינוק במספר החוסכים על אוכל ותרופות"
 				}
 			]
 		},
@@ -103,7 +115,21 @@
 			"initiativeImage": "https://cdn6.aptoide.com/imgs/6/1/a/61a33873bfe452538aa25b9444692ad0_fgraphic.jpg",
 			"website": "https://www.payboxapp.com/",
 			"url": "https://www.payboxapp.com/",
-			"createdAt": "2023-10-26T16:26:30+03:00"
+			"createdAt": "2023-10-26T16:26:30+03:00",
+			"references": [
+				{
+					"url": "https://he.wikipedia.org/wiki/PayBox",
+					"type": "registry",
+					"source": "Wikipedia",
+					"title": "PayBox – אפליקציית התשלומים והתרומות (ויקיפדיה)"
+				},
+				{
+					"url": "https://www.ynet.co.il/economy/article/syg0z67b6",
+					"type": "article",
+					"source": "Ynet",
+					"title": "בעקבות התרומות: פייבוקס מגדילה את תקרת סכום האיסוף ל-200 אלף שקל"
+				}
+			]
 		},
 		{
 			"name": "hakvutza",
@@ -121,7 +147,21 @@
 			"createdAt": "2023-11-24T15:21:43+02:00",
 			"verified": true,
 			"organizationType": "ngo",
-			"taxDeductible46": true
+			"taxDeductible46": true,
+			"references": [
+				{
+					"url": "https://www.guidestar.org.il/organization/580601946",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "הקבוצה תורמים שקוף – רישום עמותה וניהול תקין בגיידסטאר"
+				},
+				{
+					"url": "https://www.ynet.co.il/activism/article/hk44b6g11ge",
+					"type": "article",
+					"source": "Ynet",
+					"title": "יוזמת הגיוס החברתית של עמותת הקבוצה למען משפחות נזקקות"
+				}
+			]
 		},
 		{
 			"name": "jgive",
@@ -143,7 +183,27 @@
 			"createdAt": "2023-11-28T22:11:51+02:00",
 			"verified": true,
 			"organizationType": "ngo",
-			"taxDeductible46": true
+			"taxDeductible46": true,
+			"references": [
+				{
+					"url": "https://he.wikipedia.org/wiki/Jgive",
+					"type": "registry",
+					"source": "Wikipedia",
+					"title": "JGive – פלטפורמת התרומות הישראלית (ויקיפדיה)"
+				},
+				{
+					"url": "https://www.guidestar.org.il/organization/580586998",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "קרן עשור – ג׳ייגיב (רישום עמותה וניהול תקין בגיידסטאר)"
+				},
+				{
+					"url": "https://www.ynet.co.il/activism/article/r1ke7tr11mg",
+					"type": "article",
+					"source": "Ynet",
+					"title": "״הדור הצעיר כבר לא מסתפק בהפגנות, הוא שם כסף״: נתוני התרומות ב-JGive"
+				}
+			]
 		}
 	]
 }

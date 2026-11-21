@@ -98,7 +98,21 @@
 				"התנדבות",
 				"מתנדב"
 			],
-			"createdAt": "2023-10-16T20:14:54+03:00"
+			"createdAt": "2023-10-16T20:14:54+03:00",
+			"references": [
+				{
+					"url": "https://www.bgu.ac.il/articles/iron-doctors-female-venture-to-provide-remote-medical-care/",
+					"type": "official",
+					"source": "אוניברסיטת בן-גוריון",
+					"title": "רופאות הברזל – מגדלור של תקווה בייעוץ רפואי מרחוק בחירום"
+				},
+				{
+					"url": "https://www.ice.co.il/digital-140/news/article/985993",
+					"type": "article",
+					"source": "ICE",
+					"title": "רופאות ברזל: מוקד הייעוץ הרפואי ההתנדבותי בחירום"
+				}
+			]
 		},
 		{
 			"name": "MedicalVolunteersforIsrael",
@@ -118,7 +132,15 @@
 			],
 			"createdAt": "2023-10-28T23:39:59+03:00",
 			"verified": true,
-			"organizationType": "official"
+			"organizationType": "official",
+			"references": [
+				{
+					"url": "https://www.jpost.com/health-and-wellness/article-897449",
+					"type": "article",
+					"source": "The Jerusalem Post",
+					"title": "Volunteer network comes to the aid of Israel's overstretched emergency rooms"
+				}
+			]
 		},
 		{
 			"name": "MdaBloodDonation",

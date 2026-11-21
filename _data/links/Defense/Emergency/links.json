@@ -52,7 +52,15 @@
 				"הכנה",
 				"ביטחון"
 			],
-			"createdAt": "2023-10-15T00:25:34+03:00"
+			"createdAt": "2023-10-15T00:25:34+03:00",
+			"references": [
+				{
+					"url": "https://finance.walla.co.il/item/3614986",
+					"type": "article",
+					"source": "Walla",
+					"title": "הציעו השמשת מקלטים בחינם וקרסו תחת עומס הפניות"
+				}
+			]
 		},
 		{
 			"name": "MamadFixes",
