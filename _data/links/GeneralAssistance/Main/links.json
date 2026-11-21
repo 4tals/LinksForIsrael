@@ -1,0 +1,427 @@
+{
+	"name": "Main",
+	"displayName": "התנדבות, זכויות וקהילה",
+	"links": [
+		{
+			"name": "KavLaOved",
+			"displayName": "קו לעובד – הגנה על זכויות עובדים",
+			"shortDescription": "ייעוץ, סיוע משפטי ומידע במיצוי זכויות עבודה ושכר לעובדים בישראל ללא הבדל מעמד",
+			"description": "עמותת קו לעובד פועלת מאז 1991 להגן על זכויות עובדים מוחלשים בישראל, מפעילה מוקדי ייעוץ וקבלת קהל, מפרסמת זכותונים במגוון שפות ומספקת סיוע משפטי מול מעסיקים ורשויות.",
+			"url": "https://kavlaoved.org.il/",
+			"website": "https://kavlaoved.org.il/",
+			"tags": [
+				"זכויות עובדים",
+				"דיני עבודה",
+				"סיוע משפטי",
+				"Kav LaOved"
+			],
+			"intents": [
+				"get-help",
+				"volunteer",
+				"donate"
+			],
+			"verified": true,
+			"taxDeductible46": false,
+			"organizationType": "ngo",
+			"createdAt": "2026-11-22",
+			"references": [
+				{
+					"url": "https://he.wikipedia.org/wiki/%D7%A7%D7%95_%D7%9C%D7%A2%D7%95%D7%91%D7%93",
+					"type": "registry",
+					"source": "Wikipedia",
+					"title": "קו לעובד (ויקיפדיה)"
+				},
+				{
+					"url": "https://www.guidestar.org.il/organization/580175545",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "קו לעובד (ע״ר) – רישום עמותה וניהול תקין בגיידסטאר"
+				}
+			]
+		},
+		{
+			"name": "KolZchut",
+			"displayName": "כל זכות",
+			"shortDescription": "מאגר המידע המקיף בישראל לזכויות אזרחים, מילואים, בריאות, רווחה ותעסוקה",
+			"description": "כל זכות הוא מאגר מידע חינמי וללא מטרות רווח המרכז באופן ברור ונגיש את כל זכויות תושבי ישראל — ביטוח לאומי, מילואים, בריאות, חינוך, עבודה, משפחה וסיוע בשגרה ובחירום.",
+			"url": "https://www.kolzchut.org.il/he/",
+			"website": "https://www.kolzchut.org.il/he/",
+			"intents": [
+				"get-help"
+			],
+			"tags": [
+				"זכויות",
+				"כל זכות",
+				"ביטוח לאומי",
+				"מילואים",
+				"מידע",
+				"סיוע"
+			],
+			"createdAt": "2026-11-21T18:55:00+02:00",
+			"verified": true,
+			"organizationType": "ngo",
+			"taxDeductible46": true,
+			"references": [
+				{
+					"url": "https://he.wikipedia.org/wiki/%D7%9B%D7%9C_%D7%96%D7%9B%D7%95%D7%AA",
+					"type": "registry",
+					"source": "Wikipedia",
+					"title": "כל זכות – מאגר הזכויות הציבורי (ויקיפדיה)"
+				},
+				{
+					"url": "https://www.ynet.co.il/economy/article/bj7inv2to",
+					"type": "article",
+					"source": "Ynet",
+					"title": "לאישור הממשלה: 12 מיליון שקל לאתר ״כל זכות״"
+				},
+				{
+					"url": "https://www.calcalist.co.il/local/articles/0,7340,L-3718653,00.html",
+					"type": "article",
+					"source": "Calcalist",
+					"title": "ממשלת ישראל משקיעה 10 מיליון שקל באתר ״כל זכות״"
+				}
+			]
+		},
+		{
+			"name": "RuachTova",
+			"displayName": "רוח טובה",
+			"shortDescription": "מאגר ההתנדבות הגדול בישראל — חיבור אישי להתנדבות בעמותות בכל הארץ",
+			"description": "עמותת רוח טובה מקבוצת אריסון מחברת בין אנשים וצוותים שרוצים להתנדב לבין אלפי עמותות וארגונים חברתיים בכל רחבי הארץ, בהתנדבות חד-פעמית או קבועה.",
+			"url": "https://www.ruachtova.org.il/",
+			"website": "https://www.ruachtova.org.il/",
+			"intents": [
+				"volunteer"
+			],
+			"tags": [
+				"התנדבות",
+				"רוח טובה",
+				"עמותות",
+				"קהילה",
+				"נתינה"
+			],
+			"createdAt": "2026-11-21T18:55:00+02:00",
+			"verified": true,
+			"organizationType": "ngo",
+			"taxDeductible46": true,
+			"references": [
+				{
+					"url": "https://he.wikipedia.org/wiki/%D7%A8%D7%95%D7%97_%D7%98%D7%95%D7%91%D7%94",
+					"type": "registry",
+					"source": "Wikipedia",
+					"title": "רוח טובה – מערך ההתנדבות הארצי (ויקיפדיה)"
+				},
+				{
+					"url": "https://www.guidestar.org.il/organization/580277481",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "רוח טובה – רישום עמותה וניהול תקין בגיידסטאר"
+				},
+				{
+					"url": "https://www.ynet.co.il/activism/article/bjx1ptz2lg",
+					"type": "article",
+					"source": "Ynet",
+					"title": "רוח ההתנדבות הישראלית: 169 אלף מתנדבים בתשפ״ה למרות המלחמה"
+				}
+			]
+		},
+		{
+			"name": "IronSwordsVolunteers",
+			"displayName": "מתנדבי חרבות ברזל - חמל חיבורים",
+			"shortDescription": "הקבוצה למתנדבים ולמבקשי סיוע",
+			"description": "קבוצת הפייסבוק הוקמה במטרה לחבר בין אנשים המעוניינים להתנדב לבין מבקשי סיוע, לפרסום של הצעות ובקשות להתנדבות ותרומות.",
+			"initiativeValidationDetails": "מקור: קבוצת ה WhatsApp. הקבוצה כוללת מעל 50 אלף חברים, והיא אחת הגדולות ביותר בארץ.",
+			"url": "https://www.facebook.com/groups/780925150471197",
+			"website": "https://www.iron-swords-volunteers.com/",
+			"facebook": "https://www.facebook.com/groups/780925150471197",
+			"form": "https://forms.monday.com/forms/a7336252634e20dc9b7fbefb2e2f8b53?r=use1",
+			"tags": [
+				"התנדבות"
+			],
+			"createdAt": "2023-10-12T22:22:49+03:00"
+		},
+		{
+			"name": "CivilianHamal",
+			"displayName": "חמ״ל אזרחי - סיוע לתושבי קו הלחימה",
+			"shortDescription": "זקוקים לסיוע? יכולים להציע עזרה? חמ״ל אזרחי מאחד את כל היוזמות עבור המשפחות והחיילים, בחזית ובעורף.  חמ'ל אזרחי אחד - עם אחד",
+			"description": "החמ'ל האזרחי - עוזרים לצה״ל לנצח ותומכים מכל הלב באזרחים 7 באוקטובר 2023 ישראל התעוררה למלחמה קשה. מתוך הזוועה והשבר, על פי מיטב הרוח הישראלית - כי אנחנו עם אחד, קם החמ״ל האזרחי - מרכז ההתנדבות הגדול בישראל.",
+			"initiativeValidationDetails": "Known initiative, verified by @4tal",
+			"url": "https://www.bsil.org.il/",
+			"initiativeImage": "https://static.wixstatic.com/media/dea07e_2159e1a1df9d4b5097955583837debb2~mv2.png/v1/fill/w_108,h_70,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_auto/logoHamal%201.png",
+			"website": "https://www.bsil.org.il/",
+			"donation": "https://meshulam.co.il/purchase?b=d635b86acaf6057aa68cb24da64b35c0",
+			"tags": [
+				"חמ״ל",
+				"אזרחי",
+				"סיוע",
+				"תושבים",
+				"לחימה"
+			],
+			"createdAt": "2023-10-12T22:22:49+03:00",
+			"verified": true,
+			"organizationType": "ngo",
+			"references": [
+				{
+					"url": "https://he.wikipedia.org/wiki/%D7%90%D7%97%D7%99%D7%9D_%D7%95%D7%90%D7%97%D7%99%D7%95%D7%AA_%D7%9C%D7%A0%D7%A9%D7%A7",
+					"type": "registry",
+					"source": "Wikipedia",
+					"title": "אחים ואחיות לנשק / החמ״ל האזרחי (ויקיפדיה)"
+				},
+				{
+					"url": "https://www.guidestar.org.il/organization/580768935",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "אחים ואחיות לישראל – חמ״ל אזרחי (רישום בגיידסטאר)"
+				},
+				{
+					"url": "https://www.ynet.co.il/news/article/syvrhdvbr",
+					"type": "article",
+					"source": "Ynet",
+					"title": "החמ״ל האזרחי נבחר לקבל את אות הנשיא להתנדבות"
+				}
+			]
+		},
+		{
+			"name": "HamalDana",
+			"displayName": "חמ'ל אזרחי דנה גת",
+			"shortDescription": "חמ'ל קטן עם קו חם מאוייש שמנתב את הבקשות לכל אחת מקבוצות המתנדבים לפי העניין",
+			"description": "חמ״ל אזרחי – דנה גת, התחיל לפעול בצהרי השבת השחורה וממשיך גם בימים אלה. שלושה שבועות לתוך המלחמה והחמ״ל הוגדר ע״י העיתונאים, כהשני בגודלו ובפעילותו. עם צוות של אלפי מתנדבים החמ״ל נותן מענה למגוון צרכים שהתעוררו עקב המצב. מול חוסרים שמגיעים אלינו, אנחנו דואגים למצוא ספםקים ולעשות מאטצ׳ לתרומות ותורמים. הדרישות מגיעות אלינו ישירות מיחידות החיילים הפרוסים בכל הארץ מגרביים ועד מים, בקשות לאוכל חם ומנחם, עזרה במציאת פתרונות דיור וריהוט למפונים מדרום ועד הצפון, ולאחרונה חיבור תוצרת חקלאית לצרכנים",
+			"initiativeValidationDetails": "https://news.walla.co.il/item/3618252",
+			"url": "https://linktr.ee/hamaldana",
+			"website": "https://linktr.ee/hamaldana",
+			"whatsapp": "https://chat.whatsapp.com/FN0pym4IHL38yZqFVPDB84",
+			"twitter": "https://twitter.com/DanaGat1/status/1718642453173899661",
+			"tags": [
+				"חמל",
+				"דנה גת",
+				"קו חם",
+				"מתנדבים",
+				"תרומות",
+				"חיילים",
+				"אוכל חם",
+				"דיור",
+				"ריהוט",
+				"מפונים",
+				"תוצרת חקלאית"
+			],
+			"createdAt": "2023-11-09T23:22:36+02:00",
+			"references": [
+				{
+					"url": "https://news.walla.co.il/item/3618252",
+					"type": "article",
+					"source": "Walla"
+				}
+			]
+		},
+		{
+			"name": "IsraelIsEnlisting",
+			"displayName": "ישראל מתגייסת",
+			"shortDescription": "N12 מחברים בין מי שנותן - לכל מי שצריך",
+			"description": "יותר מ-250 אלף ישראלים עזבו את ביתם בגלל המלחמה שפרצה מול חמאס ומאות אלפי חיילי מילואים גוייסו • כאן ב-N12 אנחנו מתגייסים לחבר בין מי שזקוק לסיוע לבין שפע יוזמות הסיוע של הישראלים • יוזמות אירוח, סיוע לוגיסטי, סיוע לחיילים בסדיר ובמילואים • רוצים לעזור? צריכים עזרה? כתבו לנו בוואטסאפ",
+			"url": "https://www.mako.co.il/news-military/6361323ddea5a810/Article-8f71cf63bca0b81026.htm",
+			"instagram": "https://www.instagram.com/p/Cyc7OYkAbdi/?igshid=MTc4MmM1YmI2Ng%3D%3D",
+			"whatsapp": "https://wa.me/+972502210169",
+			"phone": "0502210169",
+			"tags": [
+				"עזרה",
+				"סיוע",
+				"אזרחים",
+				"קשר",
+				"התנדבות"
+			],
+			"createdAt": "2023-10-23T19:22:48+03:00"
+		},
+		{
+			"name": "IsraelaBot",
+			"displayName": "ישראלה - בוטית ההתנדבות של ישראל",
+			"shortDescription": "פיתוח והנגשה של בוט בשם 'ישראלה' שמקשר בין מתנדבים לאנשים הזקוקים לסיוע",
+			"description": "אני כאן עבור אלו הזקוקים לסיוע, ועבור המתנדבים, על מנת להתאים בין כל מתנדב לכל אחד שזקוק לעזרה",
+			"url": "https://api.whatsapp.com/send/?phone=972733742036&text|%D7%A9%D7%9C%D7%97+%D7%94%D7%95%D7%93%D7%A2%D7%94+%D7%9C%D7%94%D7%AA%D7%97%D7%99%D7%9C&type=phone_number&app_absent=0",
+			"initiativeValidationDetails": "WeHelpIsrael הם קבוצה לגיטימית מתנדבת, פורסמת גם בתקשורת, לדוגמה: https://www.ynet.co.il/digital/technews/article/bys217vwt",
+			"whatsapp": "https://api.whatsapp.com/send/?phone=972733742036&text=%D7%A9%D7%9C%D7%97+%D7%94%D7%95%D7%93%D7%A2%D7%94+%D7%9C%D7%94%D7%AA%D7%97%D7%99%D7%9C&type=phone_number&app_absent=0",
+			"tags": [
+				"התנדבות",
+				"עזרה",
+				"ישראל",
+				"בוט",
+				"ישראלה"
+			],
+			"createdAt": "2023-10-28T22:36:27+03:00",
+			"references": [
+				{
+					"url": "https://www.ynet.co.il/digital/technews/article/bys217vwt",
+					"type": "article",
+					"source": "Ynet"
+				}
+			]
+		},
+		{
+			"name": "Yedidim",
+			"displayName": "ידידים",
+			"shortDescription": "לתת חוסן לעורף ולסייע בכל מה שאפשר להצלחת מערך המלחמה!",
+			"description": "מאז פרוץ המלחמה פעל ארגון ידידים בתחומים רבים ומגוונים על מנת לתת חוסן לעורף ולסייע בכל מה שאפשר להצלחת מערך המלחמה • ישראל אלמסי – מנכ”ל ידידים: הכאב קשה מנשוא אבל עכשיו הזמן לפעול. באחדותנו ננצח!",
+			"url": "https://yedidim-il.org/",
+			"initiativeImage": "https://yedidim-il.org/wp-content/uploads/2021/03/logo-1230.png",
+			"initiativeValidationDetails": "Known organization since before the war",
+			"phone": "1230",
+			"whatsapp": "https://chat.whatsapp.com/DgspcM7Yuav5uUJFK9OinT",
+			"createdAt": "2023-10-21T20:57:25+03:00",
+			"verified": true,
+			"organizationType": "ngo",
+			"taxDeductible46": true,
+			"references": [
+				{
+					"url": "https://he.wikipedia.org/wiki/%D7%99%D7%93%D7%99%D7%93%D7%99%D7%9D_-_%D7%A1%D7%99%D7%95%D7%A2_%D7%91%D7%93%D7%A8%D7%9B%D7%99%D7%9D",
+					"type": "registry",
+					"source": "Wikipedia",
+					"title": "ידידים – סיוע בדרכים (ויקיפדיה)"
+				},
+				{
+					"url": "https://www.guidestar.org.il/organization/580631620",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "ידידים סיוע בדרכים – רישום וניהול תקין בגיידסטאר"
+				},
+				{
+					"url": "https://www.ynet.co.il/activism/helpontheway2023/article/s1yhsus00h",
+					"type": "article",
+					"source": "Ynet",
+					"title": "הכירו את המתנדבים השיאנים של ארגון ״ידידים״"
+				},
+				{
+					"url": "https://www.youtube.com/watch?v=oO7WGRiWqL8",
+					"type": "video",
+					"source": "כאן 11",
+					"author": "כאן חדשות",
+					"title": "ידידים עם הטבות: המתנדבים שמסייעים לנהגים בכפור הירושלמי"
+				}
+			]
+		},
+		{
+			"name": "LevEhad",
+			"displayName": "לב אחד",
+			"shortDescription": "ארגון המקנה חוסן חברתי ומעניק כוח לרשויות המקומיות בשעות חירום.",
+			"description": "ארגון המקנה חוסן חברתי ומעניק כוח לרשויות המקומיות בשעות חירום.",
+			"url": "https://www.levechad.org/",
+			"website": "https://www.levechad.org/",
+			"initiativeImage": "https://static.wixstatic.com/media/b1b124_6098f6d126c84f5cb6d1e59a3c88e7b1~mv2.png/v1/fill/w_130,h_63,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/levlev1.png",
+			"initiativeValidationDetails": "Known initiative, verified by @4tal",
+			"phone": "*3197",
+			"donation": "https://www.levechad.org/donations",
+			"createdAt": "2023-10-12T22:22:49+03:00",
+			"verified": true,
+			"organizationType": "ngo",
+			"taxDeductible46": true,
+			"references": [
+				{
+					"url": "https://he.wikipedia.org/wiki/%D7%9C%D7%91_%D7%90%D7%97%D7%93_-_%D7%A1%D7%99%D7%95%D7%A2_%D7%90%D7%96%D7%A8%D7%97%D7%99_%D7%91%D7%97%D7%99%D7%A8%D7%95%D7%9D",
+					"type": "registry",
+					"source": "Wikipedia",
+					"title": "לב אחד – סיוע אזרחי בחירום (ויקיפדיה)"
+				},
+				{
+					"url": "https://www.guidestar.org.il/organization/580461689",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "לב אחד – רישום עמותה בגיידסטאר"
+				}
+			]
+		},
+		{
+			"displayName": "באנו",
+			"name": "Banu",
+			"shortDescription": "קהילת המתנדבים שלנו מורכבת ממיטב אנשי המקצוע מתחומים שונים, הפועלים בהתנדבות מלאה ומבקשים לרתום מזמנם ומנסיונם לטובת תושבי עוטף ישראל, כוחות הבטחון ומשפחותיהם.",
+			"description": "*חברות וחברים יקרים*, זכות עצומה נפלה בחלקנו להקים את חמ'ל *Medison Aid* שסיפק מאות אלפי פריטים לחיילים ולתושבי עוטף ישראל. רבים מכם הייתם שותפים לפעילות החמ'ל – נרתמתם ותמכתם בדרכים שונות.  השותפות ורוח ההתנדבות שלכם עומדים בבסיס הצלחת פעילות החמ'ל. מתוך הרצון והחזון לשמר ולהעצים את רוח ההתנדבות, ומתוך ההבנה שאתגרים רבים נוספו בחזיתות נוספות, אנו מרחיבים את משימת 'קהילת המתנדבים' לטובת סיוע באתגרים אלה. *באנו* - קהילת המתנדבים שלנו מורכבת ממיטב אנשי המקצוע מתחומים שונים, הפועלים בהתנדבות מלאה ומבקשים לרתום מזמנם ומנסיונם לטובת תושבי עוטף ישראל, כוחות הבטחון ומשפחותיהם. אנו מזמינים אתכם להצטרף ולקחת חלק בקהילת *באנו* בכל אחד מהתחומים הבאים:\n•\tבנקים ומשכנתאות\n•\tהתנהלות מול משכירים\n•\tביטוח לאומי\n•\tרשויות מקומיות\n•\tייעוץ רפואי\n•\tליווי ויעוץ עסקי\n•\tאקדמיה וחינוך\n•\tמענים ייחודיים לנשים וחיילות\n•\tאחר",
+			"initiativeValidationDetails": "[ohadschn] זו קולגה שלי בעבודה שעובדת שם אישית",
+			"url": "https://www.ba-nu.org.il/volunteer",
+			"initiativeImage": "/images/Banu-ee4271c0-841e-4835-b288-8be3a55b0983.png",
+			"website": "https://www.ba-nu.org.il/volunteer",
+			"form": "https://www.ba-nu.org.il/consult",
+			"tags": [
+				"התנדבות",
+				"עזרה כללית",
+				"ייעוץ",
+				"עוטף ישראל"
+			],
+			"createdAt": "2024-02-16T17:06:42.559Z",
+			"references": [
+				{
+					"url": "https://www.globes.co.il/news/article.aspx?did=1001475285",
+					"type": "article",
+					"source": "Globes",
+					"title": "המנטורים והמתנדבים של יוזמת ״באנו״ למען עסקים וקהילות בחירום"
+				}
+			]
+		},
+		{
+			"name": "IsraelWins",
+			"displayName": "ישראל מנצחת",
+			"shortDescription": "עמוד סיקור מיוחד של ערוץ 14 עם כל האפשרויות להתנדב ולסייע",
+			"description": "החברה הישראלית עוברת את אחת התקופה הקשות והמורכבות שעבר העם היהודי. אנו מזמינים אתכם לצפות בכל המידע והאירועים שהתרחשו ומתרחשים. גם במציאות הקשה הזו אנו לא נשברים, נשארים מאוחדים ומקווים לימים טובים יותר!",
+			"initiativeValidationDetails": "Official Channel 14 page",
+			"url": "https://special.now14.co.il/israel-wins/",
+			"website": "https://special.now14.co.il/israel-wins/",
+			"phone": "tel:+972-1-700-501-414",
+			"email": "mailto:info@now14.co.il",
+			"facebook": "https://www.facebook.com/Now14israel/",
+			"instagram": "https://instagram.com/now14israel",
+			"twitter": "https://twitter.com/Now14Israel",
+			"youtube": "https://www.youtube.com/channel/UCKEImtWikw9usC1pl_9m1nQ",
+			"initiativeImage": "https://special.now14.co.il/wp-content/uploads/2023/10/%D7%99%D7%A9%D7%A8%D7%90%D7%9C-%D7%9E%D7%A0%D7%A6%D7%97%D7%AA2.png",
+			"tags": [
+				"ערוץ 14",
+				"ישראל",
+				"מנצחת",
+				"התנדבות",
+				"אירועים"
+			],
+			"createdAt": "2023-11-15T20:09:48+02:00"
+		},
+		{
+			"name": "NationalHelpAndVolunteerPortal",
+			"displayName": "פורטל התנדבות וסיוע ארצי",
+			"shortDescription": "פורטל התנדבות וסיוע ארצי",
+			"description": "שלום, עלה לאוויר פורטל התנדבות וסיוע ארצי מתכלל. ישנו צוות מתנדבים שמתפעל ומעדכן את המידע באופן שוטף.",
+			"url": "https://rebrand.ly/go-to-volunteer",
+			"initiativeValidationDetails": "התחילה מאישית בטלפון עם הבעלים",
+			"tags": [
+				"מיזמות האגדה",
+				"האגדה",
+				"תרומה",
+				"התנדבות",
+				"צוות",
+				"חיבור"
+			],
+			"createdAt": "2023-10-28T22:17:22+03:00"
+		},
+		{
+			"displayName": "TechHamal",
+			"name": "חמ״ל ההייטק",
+			"shortDescription": "חמ״ל שמטרתו איסוף ציוד ומימון שיתועל לטובת המאמץ המלחמתי ונפגעיו",
+			"description": "חמ'ל ההייטק הוא מיזם של הייטקיסטים ישראליים, שרואים את החובה לסייע לחיילי צה'ל והאוכלוסייה בשעה קשה זו. באמצעות חיבורים למעלה מ-200 מוקדים צבאיים ואזרחיים, אנו עומדים לשירות המדינה והאזרחים כדי לספק את הציוד והסיוע הדרושים בצורה היעילה ביותר.",
+			"initiativeValidationDetails": "https://www.linkedin.com/company/hi-tech-4-israel/",
+			"url": "https://www.hitech4israel.com",
+			"initiativeImage": "/images/חמ״ל ההייטק-47a90bca-3508-449f-9989-d2663c7c50bd.png",
+			"website": "https://www.hitech4israel.com",
+			"whatsapp": "https://chat.whatsapp.com/FuDUGe6hC1L9I0e1NA06gD",
+			"instagram": "https://www.instagram.com/hitech4israel/?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr",
+			"linkedin": "https://www.linkedin.com/company/hi-tech-4-israel/",
+			"tags": [
+				"חמ\"ל ההייטק",
+				"איסוף ציוד",
+				"מימון",
+				"הייטק",
+				"שירות מדינה",
+				"עזרה לצה\"ל"
+			],
+			"createdAt": "2023-12-14T13:01:43.507Z",
+			"references": [
+				{
+					"url": "https://www.israelhayom.co.il/tech/tech-news/article/14740566",
+					"type": "article",
+					"source": "ישראל היום",
+					"title": "לא מתעייפים: חמ״ל ההייטק שמסייע באלפי פניות"
+				}
+			]
+		}
+	]
+}

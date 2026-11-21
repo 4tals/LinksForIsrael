@@ -1,12 +1,12 @@
 {
-  "name": "StrategicCommunication",
-  "displayName": "הסברה",
-  "description": "רוצים לקחת חלק במלחמה על התודעה העולמית?",
-  "image": "https://cdn-icons-png.flaticon.com/512/7553/7553719.png",
-  "subCategories": [
-    "Main",
-    "SocialNetworks",
-    "Tools",
-    "Info"
-  ]
+	"name": "StrategicCommunication",
+	"displayName": "הסברה ודיפלומטיה",
+	"description": "הסברה בינלאומית, מאבק באנטישמיות, תיעוד ומאגרי מידע",
+	"image": "https://cdn-icons-png.flaticon.com/512/7553/7553719.png",
+	"subCategories": [
+		"Main",
+		"SocialNetworks",
+		"Tools",
+		"Info"
+	]
 }

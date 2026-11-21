@@ -20,17 +20,23 @@ function filterCategories(
 	const expandedTerms = expandSearchTerms(searchTerm);
 	if (expandedTerms.length === 0 && !activeIntent) return [];
 
-	const generalAssistanceCategory: Category = {
-		id: "GeneralAssistance",
-		name: "GeneralAssistance",
-		displayName: "סיוע אזרחי כללי",
-		longDisplayName: "סיוע אזרחי כללי",
-		description: "",
-		image: "",
-		subCategories: [generalAssistanceSubCategory],
-	};
-
-	const allCategories = [...categories, generalAssistanceCategory];
+	const hasGeneralAssistance = categories.some(
+		(c) => c.id === "GeneralAssistance",
+	);
+	const allCategories = hasGeneralAssistance
+		? categories
+		: [
+				...categories,
+				{
+					id: "GeneralAssistance",
+					name: "GeneralAssistance",
+					displayName: "התנדבות, זכויות וקהילה",
+					longDisplayName: "התנדבות, זכויות וקהילה",
+					description: "",
+					image: "",
+					subCategories: [generalAssistanceSubCategory],
+				} satisfies Category,
+			];
 
 	const matchesAnyTerm = (haystack: string): boolean => {
 		const lower = haystack.toLowerCase();

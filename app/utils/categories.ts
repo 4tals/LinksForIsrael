@@ -234,7 +234,6 @@ export function getInitiativeIntents(
 	if (
 		categoryId === "Agriculture" ||
 		categoryId === "StrategicCommunication" ||
-		categoryId === "TechInitiatives" ||
 		categoryId === "GeneralAssistance" ||
 		/התנדב|מתנדב|volunteer|חמ״ל|חמל|הסברה|הסעות|שינוע|קדיש/.test(text)
 	) {
@@ -243,7 +242,6 @@ export function getInitiativeIntents(
 
 	if (
 		categoryId === "Medical" ||
-		categoryId === "Evacuees" ||
 		categoryId === "Defense" ||
 		categoryId === "FamilyAndPets" ||
 		categoryId === "GeneralAssistance" ||
@@ -322,7 +320,7 @@ export async function getCategory(category: string) {
 }
 
 export async function getAssistanceSubCategory() {
-	const data = (await import(`@/_data/links/GeneralAssistance/links.json`))
+	const data = (await import(`@/_data/links/GeneralAssistance/Main/links.json`))
 		.default as unknown as SubCategoryData;
 	return {
 		...data,

@@ -48,27 +48,21 @@ body:
     attributes:
       label: Initiative Category
       options:
-        - GeneralAssistance
-        - StrategicCommunication/Info
-        - StrategicCommunication/Main
-        - StrategicCommunication/SocialNetworks
-        - StrategicCommunication/Tools
-        - Evacuees/Main
-        - Defense/Main
+        - Medical/Main
+        - Medical/MentalSupport
         - Defense/Emergency
-        - TechInitiatives/SupportAndIncubation
-        - TechInitiatives/Tools
-        - SuppliesAndTransportation/EquipmentAndFood
-        - SuppliesAndTransportation/Transportation
-        - Agriculture/Main
+        - Defense/Main
         - Economic/Donations
         - Economic/Businesses
         - FamilyAndPets/Main
         - FamilyAndPets/ChildrenContent
-        - Medical/Main
-        - Medical/MentalSupport
+        - GeneralAssistance/Main
+        - Agriculture/Main
         - MemorialRemembrance/Main
-        - Aggregators/Main
+        - StrategicCommunication/Main
+        - StrategicCommunication/Info
+        - StrategicCommunication/SocialNetworks
+        - StrategicCommunication/Tools
 
     validations:
       required: true

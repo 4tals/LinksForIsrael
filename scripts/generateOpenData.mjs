@@ -150,39 +150,6 @@ async function main() {
 		});
 	}
 
-	const gaData = JSON.parse(
-		await fs.readFile(
-			path.join(REPO_ROOT, "_data/links/GeneralAssistance/links.json"),
-			"utf8",
-		),
-	);
-	for (const link of gaData.links) {
-		apiInitiatives.push({
-			id: `GeneralAssistance/Main/${link.name}`,
-			name: link.name,
-			displayName: link.displayName,
-			categoryId: "GeneralAssistance",
-			categoryName: gaData.displayName,
-			subCategoryId: "Main",
-			subCategoryName: gaData.displayName,
-			shortDescription: link.shortDescription || "",
-			description: link.description || "",
-			url: link.url || link.website || null,
-			website: link.website || null,
-			phone: link.phone || null,
-			email: link.email || link.contactEmail || null,
-			intents: link.intents || null,
-			verified: Boolean(link.verified),
-			taxDeductible46: Boolean(link.taxDeductible46),
-			organizationType: link.organizationType || null,
-			references: link.references || [],
-			rankScore: computeRankScore(link),
-			tags: link.tags || [],
-			portalUrl: `${SITE_URL}/`,
-			createdAt: link.createdAt || null,
-		});
-	}
-
 	apiInitiatives.sort((a, b) => b.rankScore - a.rankScore);
 
 	const generatedAt = new Date().toISOString();

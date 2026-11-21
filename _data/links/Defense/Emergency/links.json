@@ -132,6 +132,92 @@
 					"source": "Walla"
 				}
 			]
+		},
+		{
+			"name": "SafePlace",
+			"displayName": "מקום בטוח - Safe Place",
+			"shortDescription": "יוזמה לאיתור מארחים נדיבים בארץ",
+			"description": "אפליקציה המקשרת בין מארחים למתארחים ומסייעת במציאת דיור למפונים מאזורי ירי מוגבר, עקורים וכאלה שאיבדו את ביתם. היוזמה מאפשרת למצוא מקום לשהות בו בחינם ברחבי הארץ אצל מארחים אדיבים אשר פותחים את דלתם וליבם לתושבי ישראל. ניתן לסנן מקומות אירוח על פי מיקום גאוגרפי, כמות אנשים, נגישות לנכים ועוד.",
+			"url": "https://safe-zone.spiritt.app/",
+			"website": "https://safe-zone.spiritt.app/",
+			"createdAt": "2023-10-21T01:22:33+03:00"
+		},
+		{
+			"name": "BrothersHostingBrothers",
+			"displayName": "אחים מארחים אחים",
+			"shortDescription": "תאום אירוח בין אנשים בתגובה למלחמה",
+			"description": "מיזם המתאים בין אורחים למארחים...",
+			"url": "https://apartments-brokerage.onrender.com/",
+			"website": "https://apartments-brokerage.onrender.com/",
+			"contactEmail": "apartmentbrokerage22@gmail.com",
+			"tags": [
+				"אירוח",
+				"אחים",
+				"דירה",
+				"מלחמה",
+				"קהילה"
+			],
+			"createdAt": "2023-10-23T20:21:09+03:00"
+		},
+		{
+			"name": "AccessibilityIsrael-VioletVest",
+			"displayName": "נגישות ישראל - האפוד הסגול",
+			"url": "https://purple-vest.net/he/",
+			"website": "https://purple-vest.net/he/",
+			"description": "מוזמנים להצטרף למערך ההתנדבות והסיוע של עמותת 'נגישות ישראל' תחת 'יוזמת האפוד הסגול'\nהעמותה מסייעת ביום-יום לאנשים עם מוגבלויות עם דגש על הנגשת המרחב הציבורי והגברת המודעות להכללה של אנשים עם מוגבלויות בכל תחומי החיים.\nעם תחילת המלחמה 'האפוד הסגול' הקים חמ'ל לסיוע ופינוי אנשים עם מוגבלויות מאזורי הגבול ומציאת פתרונות אירוח נגישים עבורם.\nמוזמנים להצטרף כמתנדב, להציע לארח או אם אתם זקוקים לסיוע - \n\nבקשה לאירוח נגיש:\nhttps://shorturl.at/dCFPU\n\nטופס מילוי צרכים וציוד למפונים:\nhttps://shorturl.at/hjtEQ\n\nרישום להדרכות האפוד הסגול:\nhttps://shorturl.at/oxFV4\n\nרישום למתנדבים:\nhttps://shorturl.at/czLZ1\nמוקד המידע לנגישות בשעת חירום– 054-2422973",
+			"whatsapp": "wa.me/972542422973",
+			"facebook": "https://www.facebook.com/Negishut.Israel",
+			"initiativeImage": "https://purple-vest.net/wp-content/uploads/2023/09/pv-logo-1-1.svg",
+			"form": "https://shorturl.at/dCFPU",
+			"doc": "https://shorturl.at/hjtEQ",
+			"discord": "https://shorturl.at/oxFV4",
+			"telegram": "https://shorturl.at/czLZ1",
+			"tags": [
+				"התנדבות",
+				"אירוח נגיש",
+				"האפוד הסגול",
+				"נגישות",
+				"פינוי אנשים עם מוגבלויות"
+			],
+			"createdAt": "2023-11-13T22:19:47+02:00",
+			"references": [
+				{
+					"url": "https://he.wikipedia.org/wiki/%D7%A0%D7%92%D7%99%D7%A9%D7%95%D7%AA_%D7%99%D7%A9%D7%A8%D7%90%D7%9C",
+					"type": "registry",
+					"source": "Wikipedia",
+					"title": "עמותת נגישות ישראל (ויקיפדיה)"
+				},
+				{
+					"url": "https://www.ynet.co.il/activism/article/skvzliimge",
+					"type": "article",
+					"source": "Ynet",
+					"title": "״חזרתי הביתה רוקד על כיסא הגלגלים״: מתנדבי האפוד הסגול מסייעים תחת אש"
+				},
+				{
+					"url": "https://www.ynet.co.il/news/article/yokra14801962",
+					"type": "article",
+					"source": "Ynet",
+					"title": "בלי ממ״ד, ללא מענה: המאבק להנגשת חירום לאנשים עם מוגבלות"
+				}
+			],
+			"verified": true,
+			"taxDeductible46": true,
+			"organizationType": "ngo"
+		},
+		{
+			"name": "MiklatFinder",
+			"displayName": "קוד למציאת מקלט",
+			"shortDescription": "Sample open source code for websites to show the nearest shelter to your location",
+			"description": "To make the residents feel safer, we developed a website that shows the nearest miklats to their location, or from a particular address. The list of miklats was collected from both the iriyah, and from friends around the city. The website shows a table with details of the 3 nearest miklats, as well as a map containing the location of those miklats relative to your location/address. It is available in both English and Hebrew, and contains instructions taken from Pikud Haoref on what to do if you can't get to a miklat in time. We decided to make our code open source, so that other developers could host their own versions of the website for their particular city. They will need to create their own database of miklat locations. Everything that is necessary is explained in detail in the repo's README.",
+			"initiativeValidationDetails": "@ohadschn talked with creator",
+			"url": "https://github.com/LeggoMahEggo/miklat-finder-open-source/",
+			"tags": [
+				"מקלט",
+				"open-source",
+				"טכנולוגיה",
+				"חיפוש"
+			],
+			"createdAt": "2023-11-05T23:59:45+02:00"
 		}
 	]
 }

@@ -1,10 +1,10 @@
 {
-  "name": "Medical",
-  "displayName": "בריאות ונפש",
-  "description": "",
-  "image": "https://cdn-icons-png.flaticon.com/512/2966/2966327.png",
-  "subCategories": [
-    "Main",
-    "MentalSupport"
-  ]
+	"name": "Medical",
+	"displayName": "בריאות ונפש",
+	"description": "מוקדי סיוע נפשי 24/7, ציוד רפואי, הצלה, שיקום וליווי חולים ופצועים",
+	"image": "https://cdn-icons-png.flaticon.com/512/2966/2966327.png",
+	"subCategories": [
+		"Main",
+		"MentalSupport"
+	]
 }

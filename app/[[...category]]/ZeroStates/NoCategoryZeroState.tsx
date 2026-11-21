@@ -78,9 +78,10 @@ export const NoCategoryZeroState: React.FC<NoCategoryZeroStateProps> = ({
 }) => {
 	const { onSearch, setActiveIntent } = useContext(SearchContext);
 
-	const totalInitiatives =
-		categories.reduce((acc, cat) => acc + getNumberOfInitiatives(cat), 0) +
-		assistanceSubCategory.links.length;
+	const totalInitiatives = categories.reduce(
+		(acc, cat) => acc + getNumberOfInitiatives(cat),
+		0,
+	);
 
 	return (
 		<Box px={{ base: 3, md: 6 }} pt={{ base: 5, md: 8 }} pb={8}>

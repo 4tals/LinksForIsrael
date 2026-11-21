@@ -1,10 +1,10 @@
 {
-  "name": "FamilyAndPets",
-  "displayName": "משפחה ובע\"ח",
-  "description": "תמיכה במשפחות המילואים, ילדיהן, וחיות המחמד שלהן",
-  "image": "https://cdn-icons-png.flaticon.com/512/3079/3079247.png",
-  "subCategories": [
-    "Main",
-    "ChildrenContent"
-  ]
+	"name": "FamilyAndPets",
+	"displayName": "משפחה, נוער ובע״ח",
+	"description": "תנועות נוער, צרכים מיוחדים, משפחות מילואים, תכנים לילדים ובעלי חיים",
+	"image": "https://cdn-icons-png.flaticon.com/512/3079/3079247.png",
+	"subCategories": [
+		"Main",
+		"ChildrenContent"
+	]
 }

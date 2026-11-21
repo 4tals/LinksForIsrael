@@ -1,13 +1,131 @@
 {
   "version": "1.0",
   "source": "https://www.linksforisrael.com",
-  "generatedAt": "2026-11-21T22:09:45.590Z",
-  "count": 11,
+  "generatedAt": "2026-11-21T22:30:54.401Z",
+  "count": 8,
   "categories": [
     {
+      "id": "Medical",
+      "displayName": "בריאות ונפש",
+      "description": "מוקדי סיוע נפשי 24/7, ציוד רפואי, הצלה, שיקום וליווי חולים ופצועים",
+      "count": 20,
+      "portalUrl": "https://www.linksforisrael.com/Medical",
+      "subCategories": [
+        {
+          "id": "Main",
+          "displayName": "ראשי",
+          "count": 11
+        },
+        {
+          "id": "MentalSupport",
+          "displayName": "תמיכה נפשית",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "id": "Defense",
+      "displayName": "חירום, ביטחון ומילואים",
+      "description": "פיקוד העורף, חילוץ והצלה, מקלטים, מערך המילואים וסיוע בחירום",
+      "count": 14,
+      "portalUrl": "https://www.linksforisrael.com/Defense",
+      "subCategories": [
+        {
+          "id": "Main",
+          "displayName": "מילואים, לוגיסטיקה וביטחון",
+          "count": 6
+        },
+        {
+          "id": "Emergency",
+          "displayName": "חירום",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "Economic",
+      "displayName": "תרומות, מזון וכלכלה",
+      "description": "ארגוני מזון, עמותות מאומתות לתרומה, ייעוץ כלכלי למשפחות וסיוע לעסקים",
+      "count": 13,
+      "portalUrl": "https://www.linksforisrael.com/Economic",
+      "subCategories": [
+        {
+          "id": "Donations",
+          "displayName": "תרומות כספיות",
+          "count": 7
+        },
+        {
+          "id": "Businesses",
+          "displayName": "ייעוץ כלכלי, עסקים והייטק",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "id": "FamilyAndPets",
+      "displayName": "משפחה, נוער ובע״ח",
+      "description": "תנועות נוער, צרכים מיוחדים, משפחות מילואים, תכנים לילדים ובעלי חיים",
+      "count": 15,
+      "portalUrl": "https://www.linksforisrael.com/FamilyAndPets",
+      "subCategories": [
+        {
+          "id": "Main",
+          "displayName": "ראשי",
+          "count": 8
+        },
+        {
+          "id": "ChildrenContent",
+          "displayName": "תכנים לילדים",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "id": "GeneralAssistance",
+      "displayName": "התנדבות, זכויות וקהילה",
+      "description": "זכויות אזרחים ועובדים, מאגרי התנדבות ארציים, סיוע בדרכים וקהילות חברתיות",
+      "count": 14,
+      "portalUrl": "https://www.linksforisrael.com/GeneralAssistance",
+      "subCategories": [
+        {
+          "id": "Main",
+          "displayName": "התנדבות, זכויות וקהילה",
+          "count": 14
+        }
+      ]
+    },
+    {
+      "id": "Agriculture",
+      "displayName": "חקלאות ותוצרת הארץ",
+      "description": "התנדבות במשקים, חיזוק חקלאים ורכישת תוצרת חקלאית ישראלית",
+      "count": 11,
+      "portalUrl": "https://www.linksforisrael.com/Agriculture",
+      "subCategories": [
+        {
+          "id": "Main",
+          "displayName": "ראשי",
+          "count": 11
+        }
+      ]
+    },
+    {
+      "id": "MemorialRemembrance",
+      "displayName": "שכול, הנצחה וזיכרון",
+      "description": "זיכרון בסלון, ליווי משפחות שכולות, פרויקטי הנצחה ואתרי זיכרון",
+      "count": 7,
+      "portalUrl": "https://www.linksforisrael.com/MemorialRemembrance",
+      "subCategories": [
+        {
+          "id": "Main",
+          "displayName": "ראשי",
+          "count": 7
+        }
+      ]
+    },
+    {
       "id": "StrategicCommunication",
-      "displayName": "הסברה",
-      "description": "רוצים לקחת חלק במלחמה על התודעה העולמית?",
+      "displayName": "הסברה ודיפלומטיה",
+      "description": "הסברה בינלאומית, מאבק באנטישמיות, תיעוד ומאגרי מידע",
       "count": 24,
       "portalUrl": "https://www.linksforisrael.com/StrategicCommunication",
       "subCategories": [
@@ -30,176 +148,6 @@
           "id": "Info",
           "displayName": "מקורות מידע לסיוע בהסברה",
           "count": 5
-        }
-      ]
-    },
-    {
-      "id": "Evacuees",
-      "displayName": "אירוח ותמיכה במפונים",
-      "description": "אירוח ותמיכה במפונים ונפגעים מקו הלחימה",
-      "count": 3,
-      "portalUrl": "https://www.linksforisrael.com/Evacuees",
-      "subCategories": [
-        {
-          "id": "Main",
-          "displayName": "ראשי",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "Defense",
-      "displayName": "הגנה",
-      "description": "הגנה אישית וחברתית - מידע וכלים עבור לשגרה וחירום",
-      "count": 6,
-      "portalUrl": "https://www.linksforisrael.com/Defense",
-      "subCategories": [
-        {
-          "id": "Main",
-          "displayName": "ראשי",
-          "count": 2
-        },
-        {
-          "id": "Emergency",
-          "displayName": "חירום",
-          "count": 4
-        }
-      ]
-    },
-    {
-      "id": "TechInitiatives",
-      "displayName": "טכנולוגיה",
-      "description": "טכנולוגיה ופיתוח כלים ומיזמים",
-      "count": 3,
-      "portalUrl": "https://www.linksforisrael.com/TechInitiatives",
-      "subCategories": [
-        {
-          "id": "SupportAndIncubation",
-          "displayName": "תמיכה ואינקובציה עבור יוזמות טכנולוגיות",
-          "count": 2
-        },
-        {
-          "id": "Tools",
-          "displayName": "כלים לפיתוח טכנולוגי",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "id": "SuppliesAndTransportation",
-      "displayName": "ציוד/מזון ושינוע",
-      "description": "יוזמות לקניה ואספקה של מזון וציוד לכוחות הלוחמים",
-      "count": 4,
-      "portalUrl": "https://www.linksforisrael.com/SuppliesAndTransportation",
-      "subCategories": [
-        {
-          "id": "EquipmentAndFood",
-          "displayName": "ציוד ואוכל",
-          "count": 2
-        },
-        {
-          "id": "Transportation",
-          "displayName": "שינוע והסעה",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "Agriculture",
-      "displayName": "חקלאות",
-      "description": "כל מה שקשור לחקלאות",
-      "count": 11,
-      "portalUrl": "https://www.linksforisrael.com/Agriculture",
-      "subCategories": [
-        {
-          "id": "Main",
-          "displayName": "ראשי",
-          "count": 11
-        }
-      ]
-    },
-    {
-      "id": "Economic",
-      "displayName": "כלכלי ועסקי",
-      "description": "תרומות כספיות, סיוע לעסקים, והטבות לצרכנים",
-      "count": 11,
-      "portalUrl": "https://www.linksforisrael.com/Economic",
-      "subCategories": [
-        {
-          "id": "Donations",
-          "displayName": "תרומות כספיות",
-          "count": 7
-        },
-        {
-          "id": "Businesses",
-          "displayName": "תמיכה בעסקים והטבות לצרכנים",
-          "count": 4
-        }
-      ]
-    },
-    {
-      "id": "FamilyAndPets",
-      "displayName": "משפחה ובע\"ח",
-      "description": "תמיכה במשפחות המילואים, ילדיהן, וחיות המחמד שלהן",
-      "count": 15,
-      "portalUrl": "https://www.linksforisrael.com/FamilyAndPets",
-      "subCategories": [
-        {
-          "id": "Main",
-          "displayName": "ראשי",
-          "count": 8
-        },
-        {
-          "id": "ChildrenContent",
-          "displayName": "תכנים לילדים",
-          "count": 7
-        }
-      ]
-    },
-    {
-      "id": "Medical",
-      "displayName": "בריאות ונפש",
-      "description": "",
-      "count": 20,
-      "portalUrl": "https://www.linksforisrael.com/Medical",
-      "subCategories": [
-        {
-          "id": "Main",
-          "displayName": "ראשי",
-          "count": 11
-        },
-        {
-          "id": "MentalSupport",
-          "displayName": "תמיכה נפשית",
-          "count": 9
-        }
-      ]
-    },
-    {
-      "id": "MemorialRemembrance",
-      "displayName": "שכול וזיכרון",
-      "description": "",
-      "count": 7,
-      "portalUrl": "https://www.linksforisrael.com/MemorialRemembrance",
-      "subCategories": [
-        {
-          "id": "Main",
-          "displayName": "ראשי",
-          "count": 7
-        }
-      ]
-    },
-    {
-      "id": "Aggregators",
-      "displayName": "איגודי יוזמות",
-      "description": "איגודי יוזמות והתנדבויות - חרבות ברזל",
-      "count": 3,
-      "portalUrl": "https://www.linksforisrael.com/Aggregators",
-      "subCategories": [
-        {
-          "id": "Main",
-          "displayName": "ראשי",
-          "count": 3
         }
       ]
     }

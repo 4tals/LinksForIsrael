@@ -1,13 +1,10 @@
 [
-  "StrategicCommunication",
-  "Evacuees",
-  "Defense",
-  "TechInitiatives",
-  "SuppliesAndTransportation",
-  "Agriculture",
-  "Economic",
-  "FamilyAndPets",
-  "Medical",
-  "MemorialRemembrance",
-  "Aggregators"
+	"Medical",
+	"Defense",
+	"Economic",
+	"FamilyAndPets",
+	"GeneralAssistance",
+	"Agriculture",
+	"MemorialRemembrance",
+	"StrategicCommunication"
 ]

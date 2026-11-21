@@ -163,12 +163,6 @@ export const Body: React.FC<Props> = ({
 					initialSubCategoryName={subCategoryName}
 					initialLinkName={linkName}
 				/>
-				<Box mt={6}>
-					<CategoryContent
-						categoryId="GeneralAssistance"
-						subCategories={[assistanceSubCategory]}
-					/>
-				</Box>
 			</Box>
 		);
 	}
