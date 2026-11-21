@@ -15,19 +15,19 @@
 ## Portals & Open Data API
 - Hebrew Portal: https://www.linksforisrael.com/
 - English / Diaspora Support Portal: https://www.linksforisrael.com/en
-- Open JSON API (all 111 ranked initiatives + references): https://www.linksforisrael.com/api/v1/initiatives.json
+- Open JSON API (all 115 ranked initiatives + references): https://www.linksforisrael.com/api/v1/initiatives.json
 - Categories JSON API: https://www.linksforisrael.com/api/v1/categories.json
 - Sitemap: https://www.linksforisrael.com/sitemap.xml
 - GitHub Repository (submit initiatives, references, or broken links via Issues): https://github.com/4tals/LinksForIsrael
 
 ## Categories
 - [בריאות ונפש](https://www.linksforisrael.com/Medical): 20 initiatives
-- [חירום, ביטחון ומילואים](https://www.linksforisrael.com/Defense): 12 initiatives
+- [חירום, ביטחון ומילואים](https://www.linksforisrael.com/Defense): 13 initiatives
 - [תרומות, מזון וכלכלה](https://www.linksforisrael.com/Economic): 13 initiatives
-- [משפחה, נוער ובע״ח](https://www.linksforisrael.com/FamilyAndPets): 14 initiatives
-- [התנדבות, זכויות וקהילה](https://www.linksforisrael.com/GeneralAssistance): 14 initiatives
+- [משפחה, נוער ובע״ח](https://www.linksforisrael.com/FamilyAndPets): 15 initiatives
+- [התנדבות, זכויות וקהילה](https://www.linksforisrael.com/GeneralAssistance): 15 initiatives
 - [חקלאות ותוצרת הארץ](https://www.linksforisrael.com/Agriculture): 8 initiatives
-- [שכול, הנצחה וזיכרון](https://www.linksforisrael.com/MemorialRemembrance): 7 initiatives
+- [שכול, הנצחה וזיכרון](https://www.linksforisrael.com/MemorialRemembrance): 8 initiatives
 - [הסברה ודיפלומטיה](https://www.linksforisrael.com/StrategicCommunication): 23 initiatives
 
 ## Verified Flagship Organizations
@@ -65,6 +65,7 @@
 - [תרומות דם דרך מד'א](https://www.mdais.org/blood-donation): איתור מרכזי תרומות דם בכל רחבי הארץ לפי תאריך
 - [עמותת הקבוצה](https://hakvutza.org): גיוס חברתי לטובת משפחות ובודדים המטופלים ברווחה עבור מגוון צרכים מהותיים והכרחיים עכשיו מתגייסים לעזרה למשפחות מאזורי לחימה!
 - [הבית לסולידריות חברתית](https://www.solidarity-foundation.org.il/): מוקד מידע לעסקים
+- [עטופים באהבה (Israeli Children's Fund)](https://www.atufim.org/): מעטפת תמיכה כלכלית, רגשית, חינוכית ואישית ארוכת טווח לילדים ולצעירים שהתייתמו ב-7 באוקטובר ובמלחמה
 - [לב אחד](https://www.levechad.org/) (*3197): ארגון המקנה חוסן חברתי ומעניק כוח לרשויות המקומיות בשעות חירום.
 - [אחים לחיים (Brothers For Life)](https://www.brothersforlife.com/): לוחמים פצועים מלווים ומשקמים לוחמים פצועים בגוף ובנפש
 - [הקואליציה הישראלית לטראומה](https://israeltraumacoalition.org/): ארגון הגג הלאומי המפעיל את מרכזי החוסן בישראל ומעניק טיפול בטראומה והכשרות חירום לקהילות
@@ -77,5 +78,6 @@
 - [Medical Volunteers for Israel](https://survey.gov.il/en/internationalvolunteers?utm_source=go.gov.il&utm_medium=referral): In light of the ongoing situation in Israel, the Israeli Ministry of Health is building a list of medical personnel from abroad to volunteer in Israel should the need arise.
 - [קו לעובד – הגנה על זכויות עובדים](https://kavlaoved.org.il/): ייעוץ, סיוע משפטי ומידע במיצוי זכויות עבודה ושכר לעובדים בישראל ללא הבדל מעמד
 - [חרבות ברזל עדכונים ותמונת מצב](https://www.inss.org.il/he/publication/war-data/): דסק הנתונים של המכון למחקרי ביטחון לאומי אוסף עבורכם את המידע העדכני והמדויק במהלך ימי המלחמה
+- [עמותת נתינה לאחר ישראל](https://netinalahaher.org.il/): התנדבות לבישול ביתי ושינוע ארוחות חמות מדי שבוע למשפחות מעוטות יכולת וקשישים ברחבי הארץ (ללא תרומות כספיות)
 - [קולות מישראל - Voice Of Israel](https://voicesofisrael.org/): גוף תומך בפעילויות הסברתיות פרו-ישראלית מסביב לעולם
 - [הקונסוליה הישראלית בניו יורק](https://www.onlytrueinformation.com/): 

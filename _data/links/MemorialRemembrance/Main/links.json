@@ -189,6 +189,26 @@
 				"מתנדבים"
 			],
 			"createdAt": "2023-12-30T20:21:28.971Z"
+		},
+		{
+			"name": "Mishna1ForNeshama1",
+			"displayName": "משנה 1 לנשמה 1",
+			"shortDescription": "קבוצת לימוד יומית ללימוד משנה אחת ביום לעילוי נשמת נופל או נרצח מאירועי ה-7 באוקטובר והמלחמה",
+			"description": "קבוצת וואטסאפ קהילתית שבה מתפרסמים מדי יום שם אחד של חלל או נרצח מה-7 באוקטובר ומשנה אחת יומית ללימוד משותף לעילוי נשמתו.",
+			"url": "https://chat.whatsapp.com/Ft9Qwkinj0010HxjPbfwa3",
+			"whatsapp": "https://chat.whatsapp.com/Ft9Qwkinj0010HxjPbfwa3",
+			"tags": [
+				"משנה",
+				"זיכרון",
+				"הנצחה",
+				"לעילוי נשמת",
+				"7 באוקטובר"
+			],
+			"intents": [
+				"volunteer"
+			],
+			"verified": false,
+			"createdAt": "2026-11-22"
 		}
 	]
 }

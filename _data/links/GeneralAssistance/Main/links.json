@@ -422,6 +422,39 @@
 					"title": "לא מתעייפים: חמ״ל ההייטק שמסייע באלפי פניות"
 				}
 			]
+		},
+		{
+			"name": "NetinaLaAcher",
+			"displayName": "עמותת נתינה לאחר ישראל",
+			"shortDescription": "התנדבות לבישול ביתי ושינוע ארוחות חמות מדי שבוע למשפחות מעוטות יכולת וקשישים ברחבי הארץ (ללא תרומות כספיות)",
+			"description": "עמותת נתינה לאחר ישראל (ע״ר 580777118, הוקמה ב-2021) פועלת בעשרות יישובים בישראל במודל התנדבותי טהור ללא קבלת תרומות כספיות — מתנדבים מבשלים ארוחות חמות במטבחם הביתי ומתנדבים משנעים אותן בצנעה ובכבוד למשפחות במצוקה.",
+			"url": "https://netinalahaher.org.il/",
+			"website": "https://netinalahaher.org.il/",
+			"facebook": "https://www.facebook.com/profile.php?id=61552532283263",
+			"tags": [
+				"אוכל ביתי",
+				"בישול",
+				"התנדבות",
+				"שינוע",
+				"מעוטי יכולת",
+				"נתינה לאחר"
+			],
+			"intents": [
+				"volunteer",
+				"get-help"
+			],
+			"verified": true,
+			"taxDeductible46": false,
+			"organizationType": "ngo",
+			"createdAt": "2026-11-22",
+			"references": [
+				{
+					"url": "https://www.guidestar.org.il/organization/580777118",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "נתינה לאחר ישראל (ע״ר) – רישום עמותה וניהול תקין בגיידסטאר"
+				}
+			]
 		}
 	]
 }

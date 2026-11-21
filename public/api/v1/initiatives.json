@@ -3,8 +3,8 @@
   "source": "https://www.linksforisrael.com",
   "repository": "https://github.com/4tals/LinksForIsrael",
   "license": "Open Data / Community Maintained",
-  "generatedAt": "2026-11-21T22:55:48.360Z",
-  "count": 111,
+  "generatedAt": "2026-11-21T23:16:19.054Z",
+  "count": 115,
   "initiatives": [
     {
       "id": "Medical/Main/EzerMizion",
@@ -1775,6 +1775,53 @@
       "createdAt": "2023-11-28T22:11:18+02:00"
     },
     {
+      "id": "FamilyAndPets/Main/IsraeliChildrensFund",
+      "name": "IsraeliChildrensFund",
+      "displayName": "עטופים באהבה (Israeli Children's Fund)",
+      "categoryId": "FamilyAndPets",
+      "categoryName": "משפחה, נוער ובע״ח",
+      "subCategoryId": "Main",
+      "subCategoryName": "ראשי",
+      "shortDescription": "מעטפת תמיכה כלכלית, רגשית, חינוכית ואישית ארוכת טווח לילדים ולצעירים שהתייתמו ב-7 באוקטובר ובמלחמה",
+      "description": "עטופים באהבה (ICF) הוקמה בימים שלאחר ה-7 באוקטובר כחברה לתועלת הציבור (חל״צ 516907888, סעיף 46) ומלווה מאות ילדים, בני נוער וצעירים עד גיל 30 שאיבדו הורה אחד או שניים, באמצעות מענקים גמישים, ליווי עובדות סוציאליות, מלגות השכלה ותוכניות עצמאות.",
+      "url": "https://www.atufim.org/",
+      "website": "https://israelichildrensfund.org/",
+      "phone": null,
+      "email": null,
+      "intents": [
+        "get-help",
+        "donate"
+      ],
+      "verified": true,
+      "taxDeductible46": true,
+      "organizationType": "ngo",
+      "references": [
+        {
+          "url": "https://www.guidestar.org.il/organization/516907888",
+          "type": "registry",
+          "source": "GuideStar Israel",
+          "title": "עטופים באהבה איי.סי.אף (חל״צ) – רישום וניהול תקין בגיידסטאר"
+        },
+        {
+          "url": "https://www.calcalistech.com/ctechnews/article/ryukzo5zp",
+          "type": "article",
+          "source": "CTech / Calcalist",
+          "title": "Entrepreneurs launch Israeli Children's Fund for children affected by October 7"
+        }
+      ],
+      "rankScore": 78,
+      "tags": [
+        "יתומים",
+        "ילדים",
+        "משפחות",
+        "7 באוקטובר",
+        "עטופים באהבה",
+        "Israeli Children's Fund"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/FamilyAndPets/Main/IsraeliChildrensFund",
+      "createdAt": "2026-11-22"
+    },
+    {
       "id": "GeneralAssistance/Main/LevEhad",
       "name": "LevEhad",
       "displayName": "לב אחד",
@@ -2296,6 +2343,47 @@
       ],
       "portalUrl": "https://www.linksforisrael.com/StrategicCommunication/Info/InssWarData",
       "createdAt": "2023-11-09T23:24:54+02:00"
+    },
+    {
+      "id": "GeneralAssistance/Main/NetinaLaAcher",
+      "name": "NetinaLaAcher",
+      "displayName": "עמותת נתינה לאחר ישראל",
+      "categoryId": "GeneralAssistance",
+      "categoryName": "התנדבות, זכויות וקהילה",
+      "subCategoryId": "Main",
+      "subCategoryName": "התנדבות, זכויות וקהילה",
+      "shortDescription": "התנדבות לבישול ביתי ושינוע ארוחות חמות מדי שבוע למשפחות מעוטות יכולת וקשישים ברחבי הארץ (ללא תרומות כספיות)",
+      "description": "עמותת נתינה לאחר ישראל (ע״ר 580777118, הוקמה ב-2021) פועלת בעשרות יישובים בישראל במודל התנדבותי טהור ללא קבלת תרומות כספיות — מתנדבים מבשלים ארוחות חמות במטבחם הביתי ומתנדבים משנעים אותן בצנעה ובכבוד למשפחות במצוקה.",
+      "url": "https://netinalahaher.org.il/",
+      "website": "https://netinalahaher.org.il/",
+      "phone": null,
+      "email": null,
+      "intents": [
+        "volunteer",
+        "get-help"
+      ],
+      "verified": true,
+      "taxDeductible46": false,
+      "organizationType": "ngo",
+      "references": [
+        {
+          "url": "https://www.guidestar.org.il/organization/580777118",
+          "type": "registry",
+          "source": "GuideStar Israel",
+          "title": "נתינה לאחר ישראל (ע״ר) – רישום עמותה וניהול תקין בגיידסטאר"
+        }
+      ],
+      "rankScore": 53,
+      "tags": [
+        "אוכל ביתי",
+        "בישול",
+        "התנדבות",
+        "שינוע",
+        "מעוטי יכולת",
+        "נתינה לאחר"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/GeneralAssistance/Main/NetinaLaAcher",
+      "createdAt": "2026-11-22"
     },
     {
       "id": "StrategicCommunication/Main/voicesOfIsrael",
@@ -3469,6 +3557,39 @@
       "createdAt": "2023-11-09T23:40:39+02:00"
     },
     {
+      "id": "Defense/Main/DrushimMiluim",
+      "name": "DrushimMiluim",
+      "displayName": "דרושים – למילואים",
+      "categoryId": "Defense",
+      "categoryName": "חירום, ביטחון ומילואים",
+      "subCategoryId": "Main",
+      "subCategoryName": "מילואים, לוגיסטיקה וביטחון",
+      "shortDescription": "קהילת גיוס ושיבוץ התנדבותית (מעל 26,000 חברים) המחברת בין משרתי מילואים ליחידות צה״ל הזקוקות לכוח אדם",
+      "description": "קהילת ״דרושים – למילואים״ הוקמה בשנת 2021 כיוזמה אזרחית מהשטח ומחברת בין אנשי ונשות מילואים ומתנדבים לבין תפקידים פתוחים ביחידות צה״ל דרך מערכת מודעות ייעודית, ערוץ טלגרם וקהילת וואטסאפ.",
+      "url": "https://user.drushim-miluim.co.il/",
+      "website": "https://user.drushim-miluim.co.il/",
+      "phone": null,
+      "email": null,
+      "intents": [
+        "volunteer",
+        "get-help"
+      ],
+      "verified": false,
+      "taxDeductible46": false,
+      "organizationType": null,
+      "references": [],
+      "rankScore": 4,
+      "tags": [
+        "מילואים",
+        "שיבוץ",
+        "התנדבות",
+        "דרושים",
+        "צה״ל"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/Defense/Main/DrushimMiluim",
+      "createdAt": "2026-11-22"
+    },
+    {
       "id": "Defense/Emergency/SafePlace",
       "name": "SafePlace",
       "displayName": "מקום בטוח - Safe Place",
@@ -3994,6 +4115,38 @@
       ],
       "portalUrl": "https://www.linksforisrael.com/MemorialRemembrance/Main/echoBox",
       "createdAt": "2023-11-28T01:25:55+02:00"
+    },
+    {
+      "id": "MemorialRemembrance/Main/Mishna1ForNeshama1",
+      "name": "Mishna1ForNeshama1",
+      "displayName": "משנה 1 לנשמה 1",
+      "categoryId": "MemorialRemembrance",
+      "categoryName": "שכול, הנצחה וזיכרון",
+      "subCategoryId": "Main",
+      "subCategoryName": "ראשי",
+      "shortDescription": "קבוצת לימוד יומית ללימוד משנה אחת ביום לעילוי נשמת נופל או נרצח מאירועי ה-7 באוקטובר והמלחמה",
+      "description": "קבוצת וואטסאפ קהילתית שבה מתפרסמים מדי יום שם אחד של חלל או נרצח מה-7 באוקטובר ומשנה אחת יומית ללימוד משותף לעילוי נשמתו.",
+      "url": "https://chat.whatsapp.com/Ft9Qwkinj0010HxjPbfwa3",
+      "website": null,
+      "phone": null,
+      "email": null,
+      "intents": [
+        "volunteer"
+      ],
+      "verified": false,
+      "taxDeductible46": false,
+      "organizationType": null,
+      "references": [],
+      "rankScore": 4,
+      "tags": [
+        "משנה",
+        "זיכרון",
+        "הנצחה",
+        "לעילוי נשמת",
+        "7 באוקטובר"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/MemorialRemembrance/Main/Mishna1ForNeshama1",
+      "createdAt": "2026-11-22"
     },
     {
       "id": "StrategicCommunication/Main/אתר בין לאומי למלחמת חרבות ברזל",

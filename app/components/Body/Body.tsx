@@ -161,6 +161,11 @@ export const Body: React.FC<Props> = ({
 									categoryDescription={category.description}
 									headingAs="h2"
 									enableTrustFilters={false}
+									categoryHref={`/${category.id}`}
+									onCategoryJump={() => {
+										onSearch("");
+										setActiveIntent(null);
+									}}
 								/>
 							</Box>
 						))}

@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "source": "https://www.linksforisrael.com",
-  "generatedAt": "2026-11-21T22:55:48.360Z",
+  "generatedAt": "2026-11-21T23:16:19.054Z",
   "count": 8,
   "categories": [
     {
@@ -27,13 +27,13 @@
       "id": "Defense",
       "displayName": "חירום, ביטחון ומילואים",
       "description": "פיקוד העורף, חילוץ והצלה, מקלטים, מערך המילואים וסיוע בחירום",
-      "count": 12,
+      "count": 13,
       "portalUrl": "https://www.linksforisrael.com/Defense",
       "subCategories": [
         {
           "id": "Main",
           "displayName": "מילואים, לוגיסטיקה וביטחון",
-          "count": 4
+          "count": 5
         },
         {
           "id": "Emergency",
@@ -65,13 +65,13 @@
       "id": "FamilyAndPets",
       "displayName": "משפחה, נוער ובע״ח",
       "description": "תנועות נוער, צרכים מיוחדים, משפחות מילואים, תכנים לילדים ובעלי חיים",
-      "count": 14,
+      "count": 15,
       "portalUrl": "https://www.linksforisrael.com/FamilyAndPets",
       "subCategories": [
         {
           "id": "Main",
           "displayName": "ראשי",
-          "count": 8
+          "count": 9
         },
         {
           "id": "ChildrenContent",
@@ -84,13 +84,13 @@
       "id": "GeneralAssistance",
       "displayName": "התנדבות, זכויות וקהילה",
       "description": "זכויות אזרחים ועובדים, מאגרי התנדבות ארציים, סיוע בדרכים וקהילות חברתיות",
-      "count": 14,
+      "count": 15,
       "portalUrl": "https://www.linksforisrael.com/GeneralAssistance",
       "subCategories": [
         {
           "id": "Main",
           "displayName": "התנדבות, זכויות וקהילה",
-          "count": 14
+          "count": 15
         }
       ]
     },
@@ -112,13 +112,13 @@
       "id": "MemorialRemembrance",
       "displayName": "שכול, הנצחה וזיכרון",
       "description": "זיכרון בסלון, ליווי משפחות שכולות, פרויקטי הנצחה ואתרי זיכרון",
-      "count": 7,
+      "count": 8,
       "portalUrl": "https://www.linksforisrael.com/MemorialRemembrance",
       "subCategories": [
         {
           "id": "Main",
           "displayName": "ראשי",
-          "count": 7
+          "count": 8
         }
       ]
     },

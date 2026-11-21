@@ -75,7 +75,16 @@ function filterCategories(
 							link.displayName,
 							link.shortDescription,
 							link.description,
+							link.url,
+							link.website,
+							link.portal,
+							link.phone,
+							link.facebook,
+							link.instagram,
+							link.whatsapp,
+							link.telegram,
 							...(link.tags || []),
+							...(link.references || []).map((r) => r.source || ""),
 						]
 							.filter(Boolean)
 							.join(" ");

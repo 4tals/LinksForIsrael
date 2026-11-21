@@ -38,6 +38,8 @@ interface CategoryContentProps {
 	initialLinkName?: string;
 	headingAs?: "h1" | "h2";
 	enableTrustFilters?: boolean;
+	categoryHref?: string;
+	onCategoryJump?: () => void;
 }
 
 const containsHebrewLetters = (str: string): boolean =>
@@ -52,6 +54,8 @@ export const CategoryContent = ({
 	initialLinkName,
 	headingAs = "h1",
 	enableTrustFilters = true,
+	categoryHref,
+	onCategoryJump,
 }: CategoryContentProps) => {
 	const [openDialog, setOpenDialogState] = useState(false);
 	const [description, setDescriptionState] = useState<{
@@ -201,6 +205,8 @@ export const CategoryContent = ({
 					categoryName={categoryName}
 					categoryDescription={categoryDescription}
 					headingAs={headingAs}
+					categoryHref={categoryHref}
+					onCategoryJump={onCategoryJump}
 				/>
 			)}
 

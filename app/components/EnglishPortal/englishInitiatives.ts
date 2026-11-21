@@ -250,6 +250,16 @@ export const ENGLISH_INITIATIVES: EnglishInitiative[] = [
 		tags: ["rescue", "emergency", "volunteer", "donate"],
 	},
 	{
+		id: "IsraeliChildrensFund",
+		name: "Israeli Children's Fund (Atufim B'Ahava)",
+		category: "donate",
+		categoryLabel: "Humanitarian & Donations",
+		summary:
+			"Provides long-term financial, emotional, educational, and mentorship support to hundreds of children and young adults orphaned on October 7 and during the war.",
+		url: "https://israelichildrensfund.org/",
+		tags: ["children", "orphans", "October 7", "donate", "family"],
+	},
+	{
 		id: "LargerThanLife",
 		name: "Larger Than Life (Gdolim MeHaChaim)",
 		category: "donate",

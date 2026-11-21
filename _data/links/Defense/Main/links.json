@@ -111,6 +111,30 @@
 					"source": "Facebook"
 				}
 			]
+		},
+		{
+			"name": "DrushimMiluim",
+			"displayName": "דרושים – למילואים",
+			"shortDescription": "קהילת גיוס ושיבוץ התנדבותית (מעל 26,000 חברים) המחברת בין משרתי מילואים ליחידות צה״ל הזקוקות לכוח אדם",
+			"description": "קהילת ״דרושים – למילואים״ הוקמה בשנת 2021 כיוזמה אזרחית מהשטח ומחברת בין אנשי ונשות מילואים ומתנדבים לבין תפקידים פתוחים ביחידות צה״ל דרך מערכת מודעות ייעודית, ערוץ טלגרם וקהילת וואטסאפ.",
+			"url": "https://user.drushim-miluim.co.il/",
+			"website": "https://user.drushim-miluim.co.il/",
+			"whatsapp": "https://chat.whatsapp.com/HuBGxQ7FmFxCts2WBxeK2D",
+			"telegram": "https://t.me/+MaG5nzqa0y83YjZk",
+			"facebook": "https://www.facebook.com/DrushimMiluim/",
+			"tags": [
+				"מילואים",
+				"שיבוץ",
+				"התנדבות",
+				"דרושים",
+				"צה״ל"
+			],
+			"intents": [
+				"volunteer",
+				"get-help"
+			],
+			"verified": false,
+			"createdAt": "2026-11-22"
 		}
 	]
 }

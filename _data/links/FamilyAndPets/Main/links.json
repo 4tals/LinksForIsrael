@@ -321,6 +321,48 @@
 				"יוזמה"
 			],
 			"createdAt": "2023-11-23T21:48:43+02:00"
+		},
+		{
+			"name": "IsraeliChildrensFund",
+			"displayName": "עטופים באהבה (Israeli Children's Fund)",
+			"shortDescription": "מעטפת תמיכה כלכלית, רגשית, חינוכית ואישית ארוכת טווח לילדים ולצעירים שהתייתמו ב-7 באוקטובר ובמלחמה",
+			"description": "עטופים באהבה (ICF) הוקמה בימים שלאחר ה-7 באוקטובר כחברה לתועלת הציבור (חל״צ 516907888, סעיף 46) ומלווה מאות ילדים, בני נוער וצעירים עד גיל 30 שאיבדו הורה אחד או שניים, באמצעות מענקים גמישים, ליווי עובדות סוציאליות, מלגות השכלה ותוכניות עצמאות.",
+			"url": "https://www.atufim.org/",
+			"website": "https://israelichildrensfund.org/",
+			"facebook": "https://www.facebook.com/israelichildrensfund/",
+			"instagram": "https://www.instagram.com/israelichildrensfund/",
+			"twitter": "https://twitter.com/ilchildrensfund",
+			"linkedin": "https://www.linkedin.com/company/israelichildrensfund/",
+			"tags": [
+				"יתומים",
+				"ילדים",
+				"משפחות",
+				"7 באוקטובר",
+				"עטופים באהבה",
+				"Israeli Children's Fund"
+			],
+			"intents": [
+				"get-help",
+				"donate"
+			],
+			"verified": true,
+			"taxDeductible46": true,
+			"organizationType": "ngo",
+			"createdAt": "2026-11-22",
+			"references": [
+				{
+					"url": "https://www.guidestar.org.il/organization/516907888",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "עטופים באהבה איי.סי.אף (חל״צ) – רישום וניהול תקין בגיידסטאר"
+				},
+				{
+					"url": "https://www.calcalistech.com/ctechnews/article/ryukzo5zp",
+					"type": "article",
+					"source": "CTech / Calcalist",
+					"title": "Entrepreneurs launch Israeli Children's Fund for children affected by October 7"
+				}
+			]
 		}
 	]
 }
