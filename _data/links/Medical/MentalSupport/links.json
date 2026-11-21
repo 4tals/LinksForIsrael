@@ -114,7 +114,14 @@
       "createdAt": "2023-11-08T23:52:26+02:00",
       "verified": true,
       "organizationType": "ngo",
-      "taxDeductible46": true
+      "taxDeductible46": true,
+      "references": [
+        {
+          "url": "https://twitter.com/royesal/status/1711375837864276107",
+          "type": "x_post",
+          "source": "X"
+        }
+      ]
     }
   ]
 }

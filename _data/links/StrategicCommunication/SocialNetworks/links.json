@@ -26,7 +26,24 @@
         "תרגומים",
         "הפצה"
       ],
-      "createdAt": "2023-11-30T17:05:16+02:00"
+      "createdAt": "2023-11-30T17:05:16+02:00",
+      "references": [
+        {
+          "url": "https://facebook.com/groups/civiladvocacyisrael/",
+          "type": "social",
+          "source": "Facebook"
+        },
+        {
+          "url": "https://www.facebook.com/groups/swordsofironsupportil",
+          "type": "social",
+          "source": "Facebook"
+        },
+        {
+          "url": "https://www.instagram.com/civiladvocacyil/",
+          "type": "social",
+          "source": "Instagram"
+        }
+      ]
     },
     {
       "name": "LinkedInPublicity",
@@ -127,7 +144,14 @@
       ],
       "createdAt": "2023-11-11T15:29:07+02:00",
       "verified": true,
-      "organizationType": "ngo"
+      "organizationType": "ngo",
+      "references": [
+        {
+          "url": "https://www.ynet.co.il/judaism/discourse/article/bjwvwpoxt",
+          "type": "article",
+          "source": "Ynet"
+        }
+      ]
     },
     {
       "name": "niliOnline",

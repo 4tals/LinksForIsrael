@@ -56,7 +56,14 @@
         "מורשת",
         "זיכרון"
       ],
-      "createdAt": "2023-11-18T01:34:40+02:00"
+      "createdAt": "2023-11-18T01:34:40+02:00",
+      "references": [
+        {
+          "url": "https://www.maariv.co.il/business/Article-1051444",
+          "type": "article",
+          "source": "Maariv"
+        }
+      ]
     },
     {
       "name": "echoBox",
@@ -93,7 +100,14 @@
         "חרבות ברזל",
         "מנחם אבלים"
       ],
-      "createdAt": "2023-12-12T12:18:50.266Z"
+      "createdAt": "2023-12-12T12:18:50.266Z",
+      "references": [
+        {
+          "url": "https://www.linkedin.com/posts/sam-luky_send-condolences-to-our-brothers-and-sisters-activity-7119984759186894849-IS2h",
+          "type": "linkedin",
+          "source": "LinkedIn"
+        }
+      ]
     },
     {
       "displayName": "קדיש למען הנרצחים",

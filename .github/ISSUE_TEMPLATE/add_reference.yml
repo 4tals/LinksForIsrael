@@ -1,0 +1,60 @@
+name: Add reference / article / post
+description: Add a press article, GuideStar registry page, X post, or other reference to an existing initiative
+title: "[REFERENCE]: "
+labels: ["reference"]
+body:
+  - type: input
+    id: initiative
+    attributes:
+      label: Initiative Name
+      placeholder: ERAN (ער״ן)
+    validations:
+      required: true
+
+  - type: input
+    id: reference_url
+    attributes:
+      label: Reference URL
+      description: Direct link to the article, X/Twitter post, LinkedIn post, or GuideStar page
+      placeholder: https://www.ynet.co.il/...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: reference_type
+    attributes:
+      label: Reference Type
+      options:
+        - article (Press / news article)
+        - registry (GuideStar Israel / Wikipedia)
+        - official (Government / official body)
+        - x_post (X / Twitter post)
+        - linkedin (LinkedIn post)
+        - social (Facebook / Instagram / YouTube)
+        - other
+    validations:
+      required: true
+
+  - type: input
+    id: source
+    attributes:
+      label: Source Name
+      placeholder: Ynet / Calcalist / X / GuideStar Israel
+    validations:
+      required: false
+
+  - type: input
+    id: title
+    attributes:
+      label: Short Title or Summary (optional)
+      placeholder: Article headline or brief context
+    validations:
+      required: false
+
+  - type: input
+    id: date
+    attributes:
+      label: Publication Date (optional, YYYY-MM-DD)
+      placeholder: 2026-11-21
+    validations:
+      required: false

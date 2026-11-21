@@ -31,6 +31,7 @@ import {
 	InitiativeLink as LinkType,
 } from "../../utils/categories";
 import { InitiativeIcons } from "./InitiativeIcons";
+import { InitiativeReferences } from "./InitiativeReferences";
 
 const containsHebrewLetters = (str: string): boolean =>
 	/[\u0590-\u05EA]/.test(str);
@@ -250,6 +251,10 @@ export const ShowMoreModal: React.FC<ShowMoreModalProps> = ({
 					</Text>
 					<InitiativeIcons link={link} showContactDetails />
 				</Box>
+
+				<Divider />
+
+				<InitiativeReferences link={link} isRtl={isRtl} />
 
 				{link.tags && link.tags.length > 0 && (
 					<>

@@ -31,7 +31,24 @@
         "פרנסה",
         "מייבאים"
       ],
-      "createdAt": "2023-11-30T16:58:21+02:00"
+      "createdAt": "2023-11-30T16:58:21+02:00",
+      "references": [
+        {
+          "url": "https://www.facebook.com/groups/buying.agr.il",
+          "type": "social",
+          "source": "Facebook"
+        },
+        {
+          "url": "https://www.instagram.com/buying.agr.il/",
+          "type": "social",
+          "source": "Instagram"
+        },
+        {
+          "url": "https://www.linkedin.com/in/%D7%A7%D7%95%D7%A0%D7%99%D7%9D-%D7%97%D7%A7%D7%9C%D7%90%D7%95%D7%AA-%D7%99%D7%A9%D7%A8%D7%90%D7%9C%D7%99%D7%AA-volunteers-4756a129a/",
+          "type": "linkedin",
+          "source": "LinkedIn"
+        }
+      ]
     },
     {
       "name": "NewGuard",
@@ -72,7 +89,14 @@
       "createdAt": "2023-11-03T20:47:47+02:00",
       "verified": true,
       "organizationType": "ngo",
-      "taxDeductible46": true
+      "taxDeductible46": true,
+      "references": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Leket_Israel",
+          "type": "registry",
+          "source": "Wikipedia"
+        }
+      ]
     },
     {
       "name": "MeshekHai",
@@ -88,7 +112,14 @@
         "התנדבות",
         "משק חי"
       ],
-      "createdAt": "2023-11-11T15:28:14+02:00"
+      "createdAt": "2023-11-11T15:28:14+02:00",
+      "references": [
+        {
+          "url": "https://www.calcalist.co.il/local_news/article/bkgy6ec11t",
+          "type": "article",
+          "source": "Calcalist"
+        }
+      ]
     },
     {
       "name": "FarmingIsrael",
@@ -126,7 +157,14 @@
         "משקים",
         "הובלה"
       ],
-      "createdAt": "2023-11-12T02:44:41+02:00"
+      "createdAt": "2023-11-12T02:44:41+02:00",
+      "references": [
+        {
+          "url": "https://www.facebook.com/groups/farmingil/posts/854044209501014/",
+          "type": "social",
+          "source": "Facebook"
+        }
+      ]
     },
     {
       "name": "WorkInAgricultureDuringWar",
@@ -147,7 +185,14 @@
         "קבלנות",
         "תאילנדים"
       ],
-      "createdAt": "2023-11-12T02:54:08+02:00"
+      "createdAt": "2023-11-12T02:54:08+02:00",
+      "references": [
+        {
+          "url": "https://www.facebook.com/groups/farmingil/posts/856664899238945/",
+          "type": "social",
+          "source": "Facebook"
+        }
+      ]
     },
     {
       "name": "HarnessedToAgriculture",
@@ -165,7 +210,14 @@
         "עבודה",
         "חקלאים"
       ],
-      "createdAt": "2023-11-12T03:04:16+02:00"
+      "createdAt": "2023-11-12T03:04:16+02:00",
+      "references": [
+        {
+          "url": "https://www.facebook.com/IBIinvest/posts/pfbid0CzNhpa2Aq5JMfY4WpbwPkjsy9xH7pgksBtYR1FZsXr5ixScTiAUeBaDsTdHvzM8Jl?locale=el_GR",
+          "type": "social",
+          "source": "Facebook"
+        }
+      ]
     },
     {
       "name": "RunForAgriculture",
@@ -199,7 +251,14 @@
         "עזרה",
         "מתנדבים"
       ],
-      "createdAt": "2023-11-12T03:13:54+02:00"
+      "createdAt": "2023-11-12T03:13:54+02:00",
+      "references": [
+        {
+          "url": "https://www.facebook.com/groups/846411716930930?multi_permalinks=858500252388743&hoisted_section_header_type=recently_seen",
+          "type": "social",
+          "source": "Facebook"
+        }
+      ]
     },
     {
       "name": "StrengtheningTheFarmers",
@@ -223,7 +282,14 @@
         "אם תרצו",
         "חקלאים"
       ],
-      "createdAt": "2023-11-13T21:36:20+02:00"
+      "createdAt": "2023-11-13T21:36:20+02:00",
+      "references": [
+        {
+          "url": "https://eng.imti.org.il/%D7%9E%D7%97%D7%96%D7%A7%D7%99%D7%9D-%D7%90%D7%AA-%D7%94%D7%97%D7%A7%D7%9C%D7%90%D7%99%D7%9D-%D7%A4%D7%A8%D7%95%D7%99%D7%A7%D7%98-%D7%9E%D7%AA%D7%A0%D7%93%D7%91%D7%99%D7%9D/",
+          "type": "other",
+          "source": "eng.imti.org.il"
+        }
+      ]
     }
   ]
 }

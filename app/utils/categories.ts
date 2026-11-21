@@ -2,6 +2,22 @@ import categories from "@/_data/categories.json";
 
 export type InitiativeIntent = "get-help" | "volunteer" | "donate";
 export type OrganizationType = "ngo" | "official" | "community";
+export type ReferenceType =
+	| "official"
+	| "registry"
+	| "article"
+	| "x_post"
+	| "linkedin"
+	| "social"
+	| "other";
+
+export interface InitiativeReference {
+	url: string;
+	type: ReferenceType;
+	source?: string;
+	title?: string;
+	date?: string;
+}
 
 export interface CategoryData {
 	name: string;
@@ -51,7 +67,60 @@ export interface InitiativeLink {
 	verified?: boolean;
 	taxDeductible46?: boolean;
 	organizationType?: OrganizationType;
+	references?: InitiativeReference[];
 	createdAt?: string;
+}
+
+export function computeInitiativeRankScore(link: InitiativeLink): number {
+	let score = 0;
+
+	if (link.verified) score += 35;
+	if (link.organizationType === "official") score += 15;
+	if (link.taxDeductible46) score += 10;
+
+	// Weighted references with per-tier caps to prevent spam gaming
+	const refs = link.references || [];
+	let officialRegPoints = 0;
+	let articlePoints = 0;
+	let socialPoints = 0;
+
+	for (const ref of refs) {
+		switch (ref.type) {
+			case "official":
+			case "registry":
+				officialRegPoints += 15;
+				break;
+			case "article":
+				articlePoints += 12;
+				break;
+			case "x_post":
+			case "linkedin":
+			case "social":
+				socialPoints += 5;
+				break;
+			default:
+				socialPoints += 3;
+		}
+	}
+
+	score += Math.min(20, officialRegPoints);
+	score += Math.min(24, articlePoints);
+	score += Math.min(15, socialPoints);
+
+	// Contact & profile completeness (up to +6)
+	if (link.website || link.url) score += 2;
+	if (link.phone) score += 2;
+	if (link.shortDescription && link.description) score += 2;
+
+	return Math.min(100, score);
+}
+
+export function sortInitiativesByRank(
+	links: InitiativeLink[],
+): InitiativeLink[] {
+	return [...links].sort(
+		(a, b) => computeInitiativeRankScore(b) - computeInitiativeRankScore(a),
+	);
 }
 
 export function getInitiativeIntents(
@@ -154,9 +223,13 @@ export async function getCategory(category: string) {
 
 	const subCategories = await Promise.all(
 		categoryData.subCategories.map(async (subCategory) => {
-			return (
+			const data = (
 				await import(`@/_data/links/${category}/${subCategory}/links.json`)
 			).default as SubCategoryData;
+			return {
+				...data,
+				links: sortInitiativesByRank(data.links),
+			};
 		}),
 	);
 
@@ -168,6 +241,10 @@ export async function getCategory(category: string) {
 }
 
 export async function getAssistanceSubCategory() {
-	return (await import(`@/_data/links/GeneralAssistance/links.json`))
+	const data = (await import(`@/_data/links/GeneralAssistance/links.json`))
 		.default as unknown as SubCategoryData;
+	return {
+		...data,
+		links: sortInitiativesByRank(data.links),
+	};
 }

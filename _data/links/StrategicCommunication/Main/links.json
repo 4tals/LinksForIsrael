@@ -94,7 +94,19 @@
         "פעילים חברתיים",
         "דעת קהל"
       ],
-      "createdAt": "2023-11-10T22:30:31+02:00"
+      "createdAt": "2023-11-10T22:30:31+02:00",
+      "references": [
+        {
+          "url": "https://www.inn.co.il/news/616983",
+          "type": "article",
+          "source": "ערוץ 7"
+        },
+        {
+          "url": "https://www.guidestar.org.il/organization/580622041",
+          "type": "registry",
+          "source": "GuideStar Israel"
+        }
+      ]
     },
     {
       "name": "ExplainIsrael",
@@ -140,7 +152,14 @@
         "תנועה",
         "לא פוליטית"
       ],
-      "createdAt": "2023-11-12T02:50:13+02:00"
+      "createdAt": "2023-11-12T02:50:13+02:00",
+      "references": [
+        {
+          "url": "https://www.maariv.co.il/news/viral/Article-1049297",
+          "type": "article",
+          "source": "Maariv"
+        }
+      ]
     },
     {
       "name": "StrategicCommunicationDistribution",

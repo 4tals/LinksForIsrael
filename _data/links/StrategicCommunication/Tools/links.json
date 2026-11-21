@@ -34,7 +34,14 @@
         "לוחמה באנטישמיות",
         "בוט טלגרם"
       ],
-      "createdAt": "2023-11-17T14:58:53+02:00"
+      "createdAt": "2023-11-17T14:58:53+02:00",
+      "references": [
+        {
+          "url": "https://www.linkedin.com/in/yehonatan-yosefi-1091261b9",
+          "type": "linkedin",
+          "source": "LinkedIn"
+        }
+      ]
     },
     {
       "name": "EllaGPT",
@@ -53,7 +60,14 @@
         "מכחישי מציאות",
         "אנטישמים"
       ],
-      "createdAt": "2023-11-17T22:29:40+02:00"
+      "createdAt": "2023-11-17T22:29:40+02:00",
+      "references": [
+        {
+          "url": "https://twitter.com/alono88/status/1723275520798769174",
+          "type": "x_post",
+          "source": "X"
+        }
+      ]
     }
   ]
 }

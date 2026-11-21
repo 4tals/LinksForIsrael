@@ -35,7 +35,14 @@
         "משבר",
         "יזמות"
       ],
-      "createdAt": "2023-11-17T13:00:16+02:00"
+      "createdAt": "2023-11-17T13:00:16+02:00",
+      "references": [
+        {
+          "url": "https://www.facebook.com/groups/startupforstartup/posts/1540440326827937/",
+          "type": "social",
+          "source": "Facebook"
+        }
+      ]
     }
   ]
 }

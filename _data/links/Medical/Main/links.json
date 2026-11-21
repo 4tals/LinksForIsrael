@@ -147,7 +147,14 @@
         "משקמים",
         "הנגשה"
       ],
-      "createdAt": "2024-02-04T13:46:18.113Z"
+      "createdAt": "2024-02-04T13:46:18.113Z",
+      "references": [
+        {
+          "url": "https://irrelevant.org.il/2024/01/30/6275",
+          "type": "other",
+          "source": "irrelevant.org.il"
+        }
+      ]
     }
   ]
 }

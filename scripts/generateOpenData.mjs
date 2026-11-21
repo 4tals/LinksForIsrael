@@ -4,6 +4,38 @@ import path from "path";
 const REPO_ROOT = process.cwd();
 const SITE_URL = "https://www.linksforisrael.com";
 
+function computeRankScore(link) {
+	let score = 0;
+	if (link.verified) score += 35;
+	if (link.organizationType === "official") score += 15;
+	if (link.taxDeductible46) score += 10;
+
+	let officialRegPoints = 0;
+	let articlePoints = 0;
+	let socialPoints = 0;
+	for (const ref of link.references || []) {
+		if (ref.type === "official" || ref.type === "registry")
+			officialRegPoints += 15;
+		else if (ref.type === "article") articlePoints += 12;
+		else if (
+			ref.type === "x_post" ||
+			ref.type === "linkedin" ||
+			ref.type === "social"
+		)
+			socialPoints += 5;
+		else socialPoints += 3;
+	}
+
+	score += Math.min(20, officialRegPoints);
+	score += Math.min(24, articlePoints);
+	score += Math.min(15, socialPoints);
+
+	if (link.website || link.url) score += 2;
+	if (link.phone) score += 2;
+	if (link.shortDescription && link.description) score += 2;
+	return Math.min(100, score);
+}
+
 async function main() {
 	const categoriesList = JSON.parse(
 		await fs.readFile(path.join(REPO_ROOT, "_data/categories.json"), "utf8"),
@@ -57,6 +89,8 @@ async function main() {
 					verified: Boolean(link.verified),
 					taxDeductible46: Boolean(link.taxDeductible46),
 					organizationType: link.organizationType || null,
+					references: link.references || [],
+					rankScore: computeRankScore(link),
 					tags: link.tags || [],
 					portalUrl: `${SITE_URL}/${encodeURIComponent(
 						catId,
@@ -76,7 +110,6 @@ async function main() {
 		});
 	}
 
-	// Include GeneralAssistance
 	const gaData = JSON.parse(
 		await fs.readFile(
 			path.join(REPO_ROOT, "_data/links/GeneralAssistance/links.json"),
@@ -102,11 +135,15 @@ async function main() {
 			verified: Boolean(link.verified),
 			taxDeductible46: Boolean(link.taxDeductible46),
 			organizationType: link.organizationType || null,
+			references: link.references || [],
+			rankScore: computeRankScore(link),
 			tags: link.tags || [],
 			portalUrl: `${SITE_URL}/`,
 			createdAt: link.createdAt || null,
 		});
 	}
+
+	apiInitiatives.sort((a, b) => b.rankScore - a.rankScore);
 
 	const generatedAt = new Date().toISOString();
 	const apiDir = path.join(REPO_ROOT, "public/api/v1");
@@ -146,7 +183,6 @@ async function main() {
 		"utf8",
 	);
 
-	// Generate /public/llms.txt for AI assistant discoverability
 	const verifiedOrgs = apiInitiatives.filter((i) => i.verified);
 	const llmsLines = [
 		"# Links For Israel (לינק לישראל)",
@@ -164,10 +200,10 @@ async function main() {
 		"## Portals & Open Data API",
 		`- Hebrew Portal: ${SITE_URL}/`,
 		`- English / Diaspora Support Portal: ${SITE_URL}/en`,
-		`- Open JSON API (all ${apiInitiatives.length} initiatives): ${SITE_URL}/api/v1/initiatives.json`,
+		`- Open JSON API (all ${apiInitiatives.length} ranked initiatives + references): ${SITE_URL}/api/v1/initiatives.json`,
 		`- Categories JSON API: ${SITE_URL}/api/v1/categories.json`,
 		`- Sitemap: ${SITE_URL}/sitemap.xml`,
-		`- GitHub Repository (submit/report via Issues): https://github.com/4tals/LinksForIsrael`,
+		`- GitHub Repository (submit initiatives, references, or broken links via Issues): https://github.com/4tals/LinksForIsrael`,
 		"",
 		"## Categories",
 		...apiCategories.map(
@@ -191,7 +227,7 @@ async function main() {
 	);
 
 	console.log(
-		`Generated open civic data: ${apiInitiatives.length} initiatives, ${apiCategories.length} categories, and public/llms.txt`,
+		`Generated open civic data: ${apiInitiatives.length} ranked initiatives, ${apiCategories.length} categories, and public/llms.txt`,
 	);
 }
 

@@ -5,6 +5,7 @@ import {
 	Category,
 	getInitiativeIntents,
 	InitiativeIntent,
+	sortInitiativesByRank,
 	SubCategoryData,
 } from "@/app/utils/categories";
 
@@ -71,7 +72,10 @@ function filterCategories(
 						return matchesAnyTerm(searchableText);
 					});
 
-					return { ...subCategory, links: filteredLinks };
+					return {
+						...subCategory,
+						links: sortInitiativesByRank(filteredLinks),
+					};
 				})
 				.filter((subCategory) => subCategory.links.length > 0);
 

@@ -7,6 +7,7 @@ import {
 	FaBookmark,
 	FaCheckCircle,
 	FaLink,
+	FaNewspaper,
 	FaPhoneAlt,
 	FaRegBookmark,
 } from "react-icons/fa";
@@ -373,6 +374,36 @@ export const InitiativeItem: React.FC<InitiativeItemProps> = ({
 					>
 						סעיף 46
 					</Badge>
+				)}
+				{link.references && link.references.length > 0 && (
+					<Tooltip
+						label={link.references
+							.map((r) => r.source || r.title || r.url)
+							.join(" · ")}
+						placement="top"
+						hasArrow
+					>
+						<Badge
+							bg="gray.100"
+							color="gray.700"
+							fontSize="2xs"
+							fontWeight="medium"
+							px={2}
+							py={0.5}
+							borderRadius="full"
+							textTransform="none"
+							display="inline-flex"
+							alignItems="center"
+							gap={1}
+						>
+							<Icon as={FaNewspaper} boxSize={2.5} color="brand.500" />
+							<span>
+								{link.references.length === 1 && link.references[0].source
+									? link.references[0].source
+									: `${link.references.length} אזכורים`}
+							</span>
+						</Badge>
+					</Tooltip>
 				)}
 				{link.phone && (
 					<Link

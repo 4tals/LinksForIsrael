@@ -94,7 +94,14 @@
         "מרכז",
         "צפון"
       ],
-      "createdAt": "2023-10-27T12:03:05+03:00"
+      "createdAt": "2023-10-27T12:03:05+03:00",
+      "references": [
+        {
+          "url": "https://govextra.gov.il/muni/maaleedomim/home/",
+          "type": "official",
+          "source": "govextra.gov.il"
+        }
+      ]
     },
     {
       "name": "FluffyFinder",
@@ -112,7 +119,14 @@
         "בינה מלאכותית",
         "יוזמה"
       ],
-      "createdAt": "2023-11-23T21:48:43+02:00"
+      "createdAt": "2023-11-23T21:48:43+02:00",
+      "references": [
+        {
+          "url": "https://www.linkedin.com/in/nir-diamant-759323134",
+          "type": "linkedin",
+          "source": "LinkedIn"
+        }
+      ]
     }
   ]
 }

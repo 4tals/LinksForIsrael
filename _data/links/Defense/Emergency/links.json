@@ -57,7 +57,14 @@
         "דלתות",
         "מיגון"
       ],
-      "createdAt": "2023-11-05T13:53:26+02:00"
+      "createdAt": "2023-11-05T13:53:26+02:00",
+      "references": [
+        {
+          "url": "https://nadlan.walla.co.il/item/3614681",
+          "type": "article",
+          "source": "Walla"
+        }
+      ]
     }
   ]
 }

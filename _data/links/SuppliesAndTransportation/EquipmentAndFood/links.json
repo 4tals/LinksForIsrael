@@ -39,7 +39,14 @@
         "חיילים",
         "מבצע החמל המתוק"
       ],
-      "createdAt": "2023-11-05T13:05:01+02:00"
+      "createdAt": "2023-11-05T13:05:01+02:00",
+      "references": [
+        {
+          "url": "https://www.facebook.com/arbel.tamar/posts/pfbid0ZM3GfZ9MX7AAkfnsPZeFiE7Sf2sJMMxxpDebJJaeQeDyN62kSSwqZETAnR5PZY1al?locale=he_IL",
+          "type": "social",
+          "source": "Facebook"
+        }
+      ]
     }
   ]
 }

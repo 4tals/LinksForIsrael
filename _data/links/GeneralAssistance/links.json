@@ -106,7 +106,14 @@
         "מפונים",
         "תוצרת חקלאית"
       ],
-      "createdAt": "2023-11-09T23:22:36+02:00"
+      "createdAt": "2023-11-09T23:22:36+02:00",
+      "references": [
+        {
+          "url": "https://news.walla.co.il/item/3618252",
+          "type": "article",
+          "source": "Walla"
+        }
+      ]
     },
     {
       "name": "IsraelIsEnlisting",
@@ -141,7 +148,14 @@
         "בוט",
         "ישראלה"
       ],
-      "createdAt": "2023-10-28T22:36:27+03:00"
+      "createdAt": "2023-10-28T22:36:27+03:00",
+      "references": [
+        {
+          "url": "https://www.ynet.co.il/digital/technews/article/bys217vwt",
+          "type": "article",
+          "source": "Ynet"
+        }
+      ]
     },
     {
       "name": "Yedidim",
