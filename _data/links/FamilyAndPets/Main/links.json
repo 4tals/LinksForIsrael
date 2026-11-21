@@ -1,132 +1,180 @@
 {
-  "name": "Main",
-  "displayName": "ראשי",
-  "links": [
-    {
-      "name": "KremboWings",
-      "displayName": "כנפיים של קרמבו",
-      "shortDescription": "תנועת נוער משלבת לילדים ונוער עם ובלי צרכים מיוחדים בכל הארץ",
-      "description": "תנועת הנוער כנפיים של קרמבו פועלת בעשרות סניפים ברחבי ישראל ומשלבת חניכים עם ובלי צרכים מיוחדים בפעילות חברתית, הדרכה והתנדבות.",
-      "url": "https://www.krembo.org.il/",
-      "website": "https://www.krembo.org.il/",
-      "intents": [
-        "volunteer",
-        "donate",
-        "get-help"
-      ],
-      "tags": [
-        "כנפיים של קרמבו",
-        "נוער",
-        "צרכים מיוחדים",
-        "התנדבות",
-        "חינוך"
-      ],
-      "createdAt": "2026-11-21T18:55:00+02:00",
-      "verified": true,
-      "organizationType": "ngo",
-      "taxDeductible46": true
-    },
-    {
-      "name": "Elem",
-      "displayName": "עלם – עמותה לנוער במצבי סיכון",
-      "shortDescription": "ליווי, אוזן קשבת, מרכזי סיוע ותמיכה מקצועית לנוער וצעירים במצוקה",
-      "description": "עמותת עלם מפעילה עשרות פרויקטים בפריסה ארצית וברשת לאיתור, ליווי וסיוע לבני נוער וצעירים במצבי סיכון ומצוקה.",
-      "url": "https://elem.org.il/",
-      "website": "https://elem.org.il/",
-      "intents": [
-        "get-help",
-        "volunteer",
-        "donate"
-      ],
-      "tags": [
-        "עלם",
-        "נוער",
-        "צעירים",
-        "תמיכה",
-        "התנדבות",
-        "סיוע"
-      ],
-      "createdAt": "2026-11-21T18:55:00+02:00",
-      "verified": true,
-      "organizationType": "ngo",
-      "taxDeductible46": true
-    },
-    {
-      "name": "SPCAIsrael",
-      "displayName": "אגודת צער בעלי חיים בישראל",
-      "shortDescription": "אימוץ כלבים וחתולים, מרפאה וטרינרית והתנדבות למען בעלי חיים",
-      "description": "אגודת צער בעלי חיים בישראל פועלת למניעת צער וסבל מבעלי חיים, מציאת בתים מאמצים לכלבים וחתולים, התנדבות ושירותים וטרינריים.",
-      "url": "https://spca.co.il/",
-      "website": "https://spca.co.il/",
-      "intents": [
-        "volunteer",
-        "donate",
-        "get-help"
-      ],
-      "tags": [
-        "בעלי חיים",
-        "אימוץ",
-        "כלבים",
-        "חתולים",
-        "התנדבות",
-        "צער בעלי חיים"
-      ],
-      "createdAt": "2026-11-21T18:55:00+02:00",
-      "verified": true,
-      "organizationType": "ngo",
-      "taxDeductible46": true
-    },
-    {
-      "name": "AnchorForReserveFamilies",
-      "displayName": "העוגן למשפחות המילואים",
-      "description": "עזרה למשפחות משרתי מילואים, משרתי קבע והורים יחדניים מגני תקווה",
-      "shortDescription": "עזרה למשפחות משרתי מילואים, משרתי קבע והורים יחדניים מגני תקווה",
-      "initiativeValidationDetails": "מקור: קבוצת WhatsApp. קישור למקורות מהימנים המקדמים את היוזמה: https://govextra.gov.il/muni/maaleedomim/home/ פרטי קשר של חברי צוות היוזמה",
-      "url": "https://bit.ly/m/haogen4families",
-      "website": "https://bit.ly/m/haogen4families",
-      "facebook": "https://www.facebook.com/haogen4families?locale=he_IL",
-      "tags": [
-        "משרתי מילואים",
-        "משרתי קבע",
-        "הורים יחדניים",
-        "גני תקווה",
-        "דרום",
-        "מרכז",
-        "צפון"
-      ],
-      "createdAt": "2023-10-27T12:03:05+03:00",
-      "references": [
-        {
-          "url": "https://govextra.gov.il/muni/maaleedomim/home/",
-          "type": "official",
-          "source": "govextra.gov.il"
-        }
-      ]
-    },
-    {
-      "name": "FluffyFinder",
-      "displayName": "Fluffy Finder",
-      "shortDescription": "פלטפורמה לחיבור בין כלבים אבודים לבעליהם - מבוססת בינה מלאכותית",
-      "description": "אנו קבוצת מתנדבים בעלי רקע טכנולוגי שהחליטו לקחת יוזמה וליצור פתרון טכנולוגי לאיתור כלבים אבודים וחיבורם לבעליהם, ולכלבים שבעליהם חסרים וזקוקים לבית. כרגע הפתרון הוא מגוון קבוצות וואטסאפ לא מאורגנות עם אינספור תמונות חוזרות ומתנדבים שצריכים למיין ולחפש התאמות באופן ידני - תהליך סיזיפי, ידני, מאוד מבולגן ולא יעיל. הפתרון שלנו עושה סדר בבלאגן ובנוסף, באמצעות אלגוריתמים של בינה מלאכותית, מסייע בחיפוש במסד הנתונים ומציע אפשרויות רלוונטיות תוך מספר שניות.",
-      "initiativeValidationDetails": "legit profile: https://www.linkedin.com/in/nir-diamant-759323134",
-      "url": "https://fluffyfinder.org/",
-      "website": "https://fluffyfinder.org/",
-      "email": "fluffyfinderinitiative@gmail.com",
-      "tags": [
-        "איתור כלבים",
-        "טכנולוגיה",
-        "מתנדבים",
-        "בינה מלאכותית",
-        "יוזמה"
-      ],
-      "createdAt": "2023-11-23T21:48:43+02:00",
-      "references": [
-        {
-          "url": "https://www.linkedin.com/in/nir-diamant-759323134",
-          "type": "linkedin",
-          "source": "LinkedIn"
-        }
-      ]
-    }
-  ]
+	"name": "Main",
+	"displayName": "ראשי",
+	"links": [
+		{
+			"name": "KremboWings",
+			"displayName": "כנפיים של קרמבו",
+			"shortDescription": "תנועת נוער משלבת לילדים ונוער עם ובלי צרכים מיוחדים בכל הארץ",
+			"description": "תנועת הנוער כנפיים של קרמבו פועלת בעשרות סניפים ברחבי ישראל ומשלבת חניכים עם ובלי צרכים מיוחדים בפעילות חברתית, הדרכה והתנדבות.",
+			"url": "https://www.krembo.org.il/",
+			"website": "https://www.krembo.org.il/",
+			"intents": [
+				"volunteer",
+				"donate",
+				"get-help"
+			],
+			"tags": [
+				"כנפיים של קרמבו",
+				"נוער",
+				"צרכים מיוחדים",
+				"התנדבות",
+				"חינוך"
+			],
+			"createdAt": "2026-11-21T18:55:00+02:00",
+			"verified": true,
+			"organizationType": "ngo",
+			"taxDeductible46": true,
+			"references": [
+				{
+					"url": "https://en.wikipedia.org/wiki/Krembo_Wings",
+					"type": "registry",
+					"source": "Wikipedia",
+					"title": "Krembo Wings – Inclusive Youth Movement (Wikipedia)"
+				},
+				{
+					"url": "https://www.guidestar.org.il/organization/580455681",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "כנפיים של קרמבו – רישום וניהול תקין בגיידסטאר"
+				},
+				{
+					"url": "https://www.ynet.co.il/articles/0,7340,L-5322545,00.html",
+					"type": "article",
+					"source": "Ynet",
+					"title": "גאווה ישראלית: ״כנפיים של קרמבו״ הוכרה כ״יועץ מיוחד״ לאו״ם"
+				}
+			]
+		},
+		{
+			"name": "Elem",
+			"displayName": "עלם – עמותה לנוער במצבי סיכון",
+			"shortDescription": "ליווי, אוזן קשבת, מרכזי סיוע ותמיכה מקצועית לנוער וצעירים במצוקה",
+			"description": "עמותת עלם מפעילה עשרות פרויקטים בפריסה ארצית וברשת לאיתור, ליווי וסיוע לבני נוער וצעירים במצבי סיכון ומצוקה.",
+			"url": "https://elem.org.il/",
+			"website": "https://elem.org.il/",
+			"intents": [
+				"get-help",
+				"volunteer",
+				"donate"
+			],
+			"tags": [
+				"עלם",
+				"נוער",
+				"צעירים",
+				"תמיכה",
+				"התנדבות",
+				"סיוע"
+			],
+			"createdAt": "2026-11-21T18:55:00+02:00",
+			"verified": true,
+			"organizationType": "ngo",
+			"taxDeductible46": true,
+			"references": [
+				{
+					"url": "https://he.wikipedia.org/wiki/%D7%A2%D7%9C%D7%9D",
+					"type": "registry",
+					"source": "Wikipedia",
+					"title": "עלם – עמותה לנוער במצבי סיכון (ויקיפדיה)"
+				},
+				{
+					"url": "https://www.guidestar.org.il/organization/580036945",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "עלם – רישום עמותה וניהול תקין בגיידסטאר"
+				},
+				{
+					"url": "https://www.ynet.co.il/articles/0,7340,L-4804409,00.html",
+					"type": "article",
+					"source": "Ynet",
+					"title": "דו״ח עמותת עלם על מצב הנוער בסיכון בישראל"
+				}
+			]
+		},
+		{
+			"name": "SPCAIsrael",
+			"displayName": "אגודת צער בעלי חיים בישראל",
+			"shortDescription": "אימוץ כלבים וחתולים, מרפאה וטרינרית והתנדבות למען בעלי חיים",
+			"description": "אגודת צער בעלי חיים בישראל פועלת למניעת צער וסבל מבעלי חיים, מציאת בתים מאמצים לכלבים וחתולים, התנדבות ושירותים וטרינריים.",
+			"url": "https://spca.co.il/",
+			"website": "https://spca.co.il/",
+			"intents": [
+				"volunteer",
+				"donate",
+				"get-help"
+			],
+			"tags": [
+				"בעלי חיים",
+				"אימוץ",
+				"כלבים",
+				"חתולים",
+				"התנדבות",
+				"צער בעלי חיים"
+			],
+			"createdAt": "2026-11-21T18:55:00+02:00",
+			"verified": true,
+			"organizationType": "ngo",
+			"taxDeductible46": true,
+			"references": [
+				{
+					"url": "https://he.wikipedia.org/wiki/%D7%A6%D7%A2%D7%A8_%D7%91%D7%A2%D7%9C%D7%99_%D7%97%D7%99%D7%99%D7%9D_(%D7%A2%D7%9E%D7%95%D7%AA%D7%95%D7%AA)",
+					"type": "registry",
+					"source": "Wikipedia",
+					"title": "צער בעלי חיים (ויקיפדיה)"
+				},
+				{
+					"url": "https://www.guidestar.org.il/organization/580000156",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "אגודת צער בעלי חיים בישראל – רישום בגיידסטאר"
+				}
+			]
+		},
+		{
+			"name": "AnchorForReserveFamilies",
+			"displayName": "העוגן למשפחות המילואים",
+			"description": "עזרה למשפחות משרתי מילואים, משרתי קבע והורים יחדניים מגני תקווה",
+			"shortDescription": "עזרה למשפחות משרתי מילואים, משרתי קבע והורים יחדניים מגני תקווה",
+			"initiativeValidationDetails": "מקור: קבוצת WhatsApp. קישור למקורות מהימנים המקדמים את היוזמה: https://govextra.gov.il/muni/maaleedomim/home/ פרטי קשר של חברי צוות היוזמה",
+			"url": "https://bit.ly/m/haogen4families",
+			"website": "https://bit.ly/m/haogen4families",
+			"facebook": "https://www.facebook.com/haogen4families?locale=he_IL",
+			"tags": [
+				"משרתי מילואים",
+				"משרתי קבע",
+				"הורים יחדניים",
+				"גני תקווה",
+				"דרום",
+				"מרכז",
+				"צפון"
+			],
+			"createdAt": "2023-10-27T12:03:05+03:00",
+			"references": [
+				{
+					"url": "https://govextra.gov.il/muni/maaleedomim/home/",
+					"type": "official",
+					"source": "עיריית מעלה אדומים (gov.il)",
+					"title": "אזכור והפניה רשמית ליוזמה באתר העירוני"
+				}
+			]
+		},
+		{
+			"name": "FluffyFinder",
+			"displayName": "Fluffy Finder",
+			"shortDescription": "פלטפורמה לחיבור בין כלבים אבודים לבעליהם - מבוססת בינה מלאכותית",
+			"description": "אנו קבוצת מתנדבים בעלי רקע טכנולוגי שהחליטו לקחת יוזמה וליצור פתרון טכנולוגי לאיתור כלבים אבודים וחיבורם לבעליהם, ולכלבים שבעליהם חסרים וזקוקים לבית. כרגע הפתרון הוא מגוון קבוצות וואטסאפ לא מאורגנות עם אינספור תמונות חוזרות ומתנדבים שצריכים למיין ולחפש התאמות באופן ידני - תהליך סיזיפי, ידני, מאוד מבולגן ולא יעיל. הפתרון שלנו עושה סדר בבלאגן ובנוסף, באמצעות אלגוריתמים של בינה מלאכותית, מסייע בחיפוש במסד הנתונים ומציע אפשרויות רלוונטיות תוך מספר שניות.",
+			"initiativeValidationDetails": "legit profile: https://www.linkedin.com/in/nir-diamant-759323134",
+			"url": "https://fluffyfinder.org/",
+			"website": "https://fluffyfinder.org/",
+			"email": "fluffyfinderinitiative@gmail.com",
+			"tags": [
+				"איתור כלבים",
+				"טכנולוגיה",
+				"מתנדבים",
+				"בינה מלאכותית",
+				"יוזמה"
+			],
+			"createdAt": "2023-11-23T21:48:43+02:00"
+		}
+	]
 }

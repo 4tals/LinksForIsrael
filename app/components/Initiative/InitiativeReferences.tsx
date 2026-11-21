@@ -5,10 +5,14 @@ import {
 	FaGlobe,
 	FaLinkedin,
 	FaNewspaper,
+	FaPenNib,
 	FaPlus,
+	FaPodcast,
+	FaQuoteRight,
 	FaShareAlt,
 	FaShieldAlt,
 	FaTwitter,
+	FaVideo,
 } from "react-icons/fa";
 
 import { ExternalLinkIcon } from "@chakra-ui/icons";
@@ -18,49 +22,90 @@ import { InitiativeLink, ReferenceType } from "../../utils/categories";
 
 const REF_TYPE_META: Record<
 	ReferenceType,
-	{ icon: React.ElementType; labelHe: string; labelEn: string; color: string }
+	{
+		icon: React.ElementType;
+		labelHe: string;
+		labelEn: string;
+		color: string;
+		badgeScheme: string;
+	}
 > = {
 	official: {
 		icon: FaShieldAlt,
 		labelHe: "מקור רשמי",
 		labelEn: "Official",
 		color: "green.600",
+		badgeScheme: "green",
 	},
 	registry: {
 		icon: FaShieldAlt,
-		labelHe: "רישום / אימות",
-		labelEn: "Registry",
-		color: "green.600",
+		labelHe: "רישום / ויקיפדיה",
+		labelEn: "Registry / Wiki",
+		color: "teal.600",
+		badgeScheme: "teal",
 	},
 	article: {
 		icon: FaNewspaper,
-		labelHe: "כתבה",
-		labelEn: "Article",
+		labelHe: "כתבה בתקשורת",
+		labelEn: "Press Article",
 		color: "brand.600",
+		badgeScheme: "blue",
+	},
+	video: {
+		icon: FaVideo,
+		labelHe: "וידאו / טלוויזיה",
+		labelEn: "Video / TV",
+		color: "red.600",
+		badgeScheme: "red",
+	},
+	podcast: {
+		icon: FaPodcast,
+		labelHe: "פודקאסט / ראיון",
+		labelEn: "Podcast",
+		color: "purple.600",
+		badgeScheme: "purple",
+	},
+	blog: {
+		icon: FaPenNib,
+		labelHe: "בלוג / בדיקת עובדות",
+		labelEn: "Blog / Fact-check",
+		color: "orange.600",
+		badgeScheme: "orange",
+	},
+	endorsement: {
+		icon: FaQuoteRight,
+		labelHe: "המלצה חיצונית",
+		labelEn: "Endorsement",
+		color: "cyan.700",
+		badgeScheme: "cyan",
 	},
 	x_post: {
 		icon: FaTwitter,
-		labelHe: "פוסט ב-X",
-		labelEn: "X Post",
+		labelHe: "אזכור ב-X",
+		labelEn: "X Mention",
 		color: "gray.800",
+		badgeScheme: "gray",
 	},
 	linkedin: {
 		icon: FaLinkedin,
-		labelHe: "לינקדאין",
-		labelEn: "LinkedIn",
+		labelHe: "פוסט בלינקדאין",
+		labelEn: "LinkedIn Post",
 		color: "blue.700",
+		badgeScheme: "linkedin",
 	},
 	social: {
 		icon: FaShareAlt,
-		labelHe: "פוסט ברשת",
-		labelEn: "Social Post",
+		labelHe: "אזכור ברשת",
+		labelEn: "Community Mention",
 		color: "purple.600",
+		badgeScheme: "purple",
 	},
 	other: {
 		icon: FaGlobe,
-		labelHe: "סימוכין",
-		labelEn: "Reference",
+		labelHe: "מקור חיצוני",
+		labelEn: "External Source",
 		color: "gray.600",
+		badgeScheme: "gray",
 	},
 };
 
@@ -90,7 +135,9 @@ export const InitiativeReferences: React.FC<InitiativeReferencesProps> = ({
 					color="gray.500"
 					textTransform="uppercase"
 				>
-					{isRtl ? "כתבות, פוסטים וסימוכין" : "Articles, Posts & References"}
+					{isRtl
+						? "אזכורים ממקורות חיצוניים"
+						: "Third-Party Mentions & Coverage"}
 				</Text>
 				<Link
 					href={addReferenceIssueUrl}
@@ -104,7 +151,7 @@ export const InitiativeReferences: React.FC<InitiativeReferencesProps> = ({
 					_hover={{ textDecoration: "underline" }}
 				>
 					<Icon as={FaPlus} boxSize={2.5} />
-					{isRtl ? "הוסף אזכור / כתבה" : "Add reference"}
+					{isRtl ? "הוסף אזכור / כתבה" : "Add mention"}
 				</Link>
 			</Flex>
 
@@ -120,11 +167,11 @@ export const InitiativeReferences: React.FC<InitiativeReferencesProps> = ({
 								_hover={{ textDecoration: "none" }}
 							>
 								<Flex
-									align="center"
+									align="flex-start"
 									justify="space-between"
 									gap={3}
 									px={3}
-									py={2}
+									py={2.5}
 									borderRadius="lg"
 									bg="gray.50"
 									borderWidth="1px"
@@ -135,11 +182,12 @@ export const InitiativeReferences: React.FC<InitiativeReferencesProps> = ({
 										borderColor: "blue.200",
 									}}
 								>
-									<Flex align="center" gap={2.5} minW={0} flex="1">
+									<Flex align="flex-start" gap={2.5} minW={0} flex="1">
 										<Icon
 											as={meta.icon}
 											color={meta.color}
 											boxSize={3.5}
+											mt={0.5}
 											flexShrink={0}
 										/>
 										<Box minW={0} flex="1">
@@ -147,14 +195,28 @@ export const InitiativeReferences: React.FC<InitiativeReferencesProps> = ({
 												fontSize="xs"
 												fontWeight="semibold"
 												color="gray.800"
-												noOfLines={1}
+												noOfLines={2}
 											>
 												{ref.title || ref.source || ref.url}
 											</Text>
-											<Flex align="center" gap={1.5} mt={0.5}>
+											{ref.quote && (
+												<Text
+													fontSize="2xs"
+													color="gray.600"
+													fontStyle="italic"
+													mt={1}
+													ps={2}
+													borderInlineStartWidth="2px"
+													borderColor="brand.200"
+													noOfLines={2}
+												>
+													&ldquo;{ref.quote}&rdquo;
+												</Text>
+											)}
+											<Flex align="center" wrap="wrap" gap={1.5} mt={1}>
 												<Badge
 													fontSize="2xs"
-													colorScheme="gray"
+													colorScheme={meta.badgeScheme}
 													variant="subtle"
 													borderRadius="full"
 													px={1.5}
@@ -163,8 +225,18 @@ export const InitiativeReferences: React.FC<InitiativeReferencesProps> = ({
 													{isRtl ? meta.labelHe : meta.labelEn}
 												</Badge>
 												{ref.source && ref.title && (
-													<Text fontSize="2xs" color="gray.500" noOfLines={1}>
+													<Text
+														fontSize="2xs"
+														fontWeight="medium"
+														color="gray.600"
+														noOfLines={1}
+													>
 														{ref.source}
+													</Text>
+												)}
+												{ref.author && (
+													<Text fontSize="2xs" color="gray.500" noOfLines={1}>
+														{isRtl ? `· ${ref.author}` : `· by ${ref.author}`}
 													</Text>
 												)}
 												{ref.date && (
@@ -178,6 +250,7 @@ export const InitiativeReferences: React.FC<InitiativeReferencesProps> = ({
 									<ExternalLinkIcon
 										color="gray.400"
 										boxSize={3}
+										mt={0.5}
 										flexShrink={0}
 									/>
 								</Flex>
@@ -188,8 +261,8 @@ export const InitiativeReferences: React.FC<InitiativeReferencesProps> = ({
 			) : (
 				<Text fontSize="xs" color="gray.400">
 					{isRtl
-						? "טרם נוספו כתבות או אזכורים. מכירים כתבה או פוסט רלוונטי? הוסיפו דרך GitHub."
-						: "No references yet. Know an article or post about this initiative? Add it via GitHub."}
+						? "טרם נוספו כתבות או אזכורים ממקורות חיצוניים. מכירים כתבה, ראיון, ערך ויקיפדיה או המלצה של גורם אחר? הוסיפו דרך GitHub."
+						: "No third-party mentions yet. Know an article, interview, Wikipedia entry, or independent recommendation? Add it via GitHub."}
 				</Text>
 			)}
 		</Box>

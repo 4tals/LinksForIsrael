@@ -32,35 +32,35 @@
 - [איגודי יוזמות](https://www.linksforisrael.com/Aggregators): 3 initiatives
 
 ## Verified Flagship Organizations
-- [לקט ישראל - מתנדבים למשקים](https://www.leket.org/volunteering-for-farmers/): התנדבות למשקים בדרום בעקבות המלחמה
-- [פיקוד העורף – פורטל החירום הלאומי](https://www.oref.org.il/) (104): הנחיות התגוננות, התרעות, מיגון ומוקד מידע רשמי 104
-- [הספרייה הלאומית - רשימת פרויקטים - מאגר הלאומי לתיעוד מאורעות ה - 7.10](https://www.nli.org.il/he/at-your-service/who-we-are/projects/7-october-documentation#projects): המאגר של הספרייה הלאומית לתיעוד מאורעות ה - 7.10 למלחמה.
-- [אתר המילואים הרשמי של צה״ל](https://www.miluim.idf.il/): זכויות, תגמולים, מענקים, טפסים ושירותים למשרתי המילואים ומשפחותיהם
-- [מיזם הרחפנים הלאומי - National Drone Initiative](https://innovationisrael.org.il/civiliandronecenter/): התנדבות ליוזמות הטסה
-- [Medical Volunteers for Israel](https://survey.gov.il/en/internationalvolunteers?utm_source=go.gov.il&utm_medium=referral): In light of the ongoing situation in Israel, the Israeli Ministry of Health is building a list of medical personnel from abroad to volunteer in Israel should the need arise.
-- [תרומות דם דרך מד'א](https://www.mdais.org/blood-donation): איתור מרכזי תרומות דם בכל רחבי הארץ לפי תאריך
-- [קורס עזרה ראשונה לשעת חירום - מגן דוד אדום](https://www.mdais.org/kursim/iron-swords-first-aid-course): קורס עזרה ראשונה בשעת חירום בהיקף 3 שעות לימוד
-- [לב בטוח](https://www.safeheartil.com/): לב בטוח - המערך לתמיכה בנפגעי פעולות הטרור במסיבות עוטף עזה
-- [הקונסוליה הישראלית בניו יורק](https://www.onlytrueinformation.com/): 
-- [Stop Antisemitism](https://www.stopantisemitism.org/): Leading Non-Partisan U.S Based Organization Fighting & Exposing Antisemitism
+- [ידידים](https://yedidim-il.org/) (1230): לתת חוסן לעורף ולסייע בכל מה שאפשר להצלחת מערך המלחמה!
 - [ער״ן – עזרה ראשונה נפשית](https://www.eran.org.il/) (1201): סיוע נפשי מיידי, אנונימי וחינמי 24/7 בטלפון 1201, בצ׳אט ובוואטסאפ
 - [נט״ל – נפגעי טראומה על רקע לאומי](https://www.natal.org.il/) (1-800-363-363): קו סיוע וטיפול נפשי לנפגעי טראומה, מלחמה, מילואים וטרור
-- [ידידים](https://yedidim-il.org/) (1230): לתת חוסן לעורף ולסייע בכל מה שאפשר להצלחת מערך המלחמה!
-- [לב אחד](https://www.levechad.org/) (*3197): ארגון המקנה חוסן חברתי ומעניק כוח לרשויות המקומיות בשעות חירום.
+- [כל זכות](https://www.kolzchut.org.il/he/): מאגר המידע המקיף בישראל לזכויות אזרחים, מילואים, בריאות, רווחה ותעסוקה
 - [השומר החדש](https://www.hashomer.org.il/): גיוס מתנדבים לאבטחת חוות, סיוע חקלאי
-- [ארגון לתת](https://www.latet.org.il/): סיוע הומניטרי, ביטחון תזונתי ותמיכה במשפחות נזקקות וניצולי שואה
 - [פתחון לב](https://www.pitchonlev.org.il/): סיוע במזון, ביגוד ומיצוי זכויות ליציאה ממעגל העוני
+- [כנפיים של קרמבו](https://www.krembo.org.il/): תנועת נוער משלבת לילדים ונוער עם ובלי צרכים מיוחדים בכל הארץ
+- [עלם – עמותה לנוער במצבי סיכון](https://elem.org.il/): ליווי, אוזן קשבת, מרכזי סיוע ותמיכה מקצועית לנוער וצעירים במצוקה
+- [ארגון נכי צה״ל](https://www.inz.org.il/): ליווי, שיקום, זכויות ופעילות בתי הלוחם לפצועי ונכי צה״ל וכוחות הביטחון
+- [סה״ר – סיוע והקשבה ברשת](https://sahar.org.il/): צ׳אט סיוע נפשי אנונימי ומיידי לאנשים במצוקה נפשית קשה
+- [רוח טובה](https://www.ruachtova.org.il/): מאגר ההתנדבות הגדול בישראל — חיבור אישי להתנדבות בעמותות בכל הארץ
+- [לב בטוח](https://www.safeheartil.com/): לב בטוח - המערך לתמיכה בנפגעי פעולות הטרור במסיבות עוטף עזה
+- [פיקוד העורף – פורטל החירום הלאומי](https://www.oref.org.il/) (104): הנחיות התגוננות, התרעות, מיגון ומוקד מידע רשמי 104
+- [תרומות דם דרך מד'א](https://www.mdais.org/blood-donation): איתור מרכזי תרומות דם בכל רחבי הארץ לפי תאריך
+- [לב אחד](https://www.levechad.org/) (*3197): ארגון המקנה חוסן חברתי ומעניק כוח לרשויות המקומיות בשעות חירום.
+- [לקט ישראל - מתנדבים למשקים](https://www.leket.org/volunteering-for-farmers/): התנדבות למשקים בדרום בעקבות המלחמה
+- [ארגון לתת](https://www.latet.org.il/): סיוע הומניטרי, ביטחון תזונתי ותמיכה במשפחות נזקקות וניצולי שואה
+- [אגודת צער בעלי חיים בישראל](https://spca.co.il/): אימוץ כלבים וחתולים, מרפאה וטרינרית והתנדבות למען בעלי חיים
+- [אחים לחיים (Brothers For Life)](https://www.brothersforlife.com/): לוחמים פצועים מלווים ומשקמים לוחמים פצועים בגוף ובנפש
+- [אתר המילואים הרשמי של צה״ל](https://www.miluim.idf.il/): זכויות, תגמולים, מענקים, טפסים ושירותים למשרתי המילואים ומשפחותיהם
+- [קורס עזרה ראשונה לשעת חירום - מגן דוד אדום](https://www.mdais.org/kursim/iron-swords-first-aid-course): קורס עזרה ראשונה בשעת חירום בהיקף 3 שעות לימוד
+- [הספרייה הלאומית - רשימת פרויקטים - מאגר הלאומי לתיעוד מאורעות ה - 7.10](https://www.nli.org.il/he/at-your-service/who-we-are/projects/7-october-documentation#projects): המאגר של הספרייה הלאומית לתיעוד מאורעות ה - 7.10 למלחמה.
+- [מיזם הרחפנים הלאומי - National Drone Initiative](https://innovationisrael.org.il/civiliandronecenter/): התנדבות ליוזמות הטסה
+- [Medical Volunteers for Israel](https://survey.gov.il/en/internationalvolunteers?utm_source=go.gov.il&utm_medium=referral): In light of the ongoing situation in Israel, the Israeli Ministry of Health is building a list of medical personnel from abroad to volunteer in Israel should the need arise.
+- [הקונסוליה הישראלית בניו יורק](https://www.onlytrueinformation.com/): 
+- [Stop Antisemitism](https://www.stopantisemitism.org/): Leading Non-Partisan U.S Based Organization Fighting & Exposing Antisemitism
 - [עמותת הקבוצה](https://hakvutza.org): גיוס חברתי לטובת משפחות ובודדים המטופלים ברווחה עבור מגוון צרכים מהותיים והכרחיים עכשיו מתגייסים לעזרה למשפחות מאזורי לחימה!
 - [JGive](https://www.jgive.com/new/he/ils/donation-targets/110048?utm_source=homepage): קרן חירום לאומית לסיוע לנפגעי המלחמה
 - [הבית לסולידריות חברתית](https://www.solidarity-foundation.org.il/): מוקד מידע לעסקים
-- [כנפיים של קרמבו](https://www.krembo.org.il/): תנועת נוער משלבת לילדים ונוער עם ובלי צרכים מיוחדים בכל הארץ
-- [עלם – עמותה לנוער במצבי סיכון](https://elem.org.il/): ליווי, אוזן קשבת, מרכזי סיוע ותמיכה מקצועית לנוער וצעירים במצוקה
-- [אגודת צער בעלי חיים בישראל](https://spca.co.il/): אימוץ כלבים וחתולים, מרפאה וטרינרית והתנדבות למען בעלי חיים
-- [ארגון נכי צה״ל](https://www.inz.org.il/): ליווי, שיקום, זכויות ופעילות בתי הלוחם לפצועי ונכי צה״ל וכוחות הביטחון
-- [אחים לחיים (Brothers For Life)](https://www.brothersforlife.com/): לוחמים פצועים מלווים ומשקמים לוחמים פצועים בגוף ובנפש
-- [סה״ר – סיוע והקשבה ברשת](https://sahar.org.il/): צ׳אט סיוע נפשי אנונימי ומיידי לאנשים במצוקה נפשית קשה
-- [כל זכות](https://www.kolzchut.org.il/he/): מאגר המידע המקיף בישראל לזכויות אזרחים, מילואים, בריאות, רווחה ותעסוקה
-- [רוח טובה](https://www.ruachtova.org.il/): מאגר ההתנדבות הגדול בישראל — חיבור אישי להתנדבות בעמותות בכל הארץ
 - [קולות מישראל - Voice Of Israel](https://voicesofisrael.org/): גוף תומך בפעילויות הסברתיות פרו-ישראלית מסביב לעולם
 - [חרבות ברזל עדכונים ותמונת מצב](https://www.inss.org.il/he/publication/war-data/): דסק הנתונים של המכון למחקרי ביטחון לאומי אוסף עבורכם את המידע העדכני והמדויק במהלך ימי המלחמה
 - [חמ״ל אזרחי - סיוע לתושבי קו הלחימה](https://www.bsil.org.il/): זקוקים לסיוע? יכולים להציע עזרה? חמ״ל אזרחי מאחד את כל היוזמות עבור המשפחות והחיילים, בחזית ובעורף.  חמ'ל אזרחי אחד - עם אחד

@@ -1,134 +1,136 @@
 {
-  "name": "Main",
-  "displayName": "ראשי",
-  "links": [
-    {
-      "name": "IllustrationNofalim",
-      "displayName": "איורים של הנופלים - Benzi Wolman",
-      "shortDescription": "אני יושב ומאייר את דמותם של הנופלים שהיו שם בשבילנו. אם אתם יודעים על משפחה שעשויה לרצות",
-      "description": "בימים האחרונים אני יושב ומאייר את דמותם של הנופלים שהיו שם בשבילנו. הורים, צעירים וצעירות ששילמו בחייהם כדי להגן עלינו. זה עוזר לי לעצור, להסתכל להם בעיניים, לחשוב על המשפחות שלהם ועל החברים שלהם, ולכאוב את הכאב שלהם. אם אתם יודעים על משפחה שעשויה לרצות את הציור של יקירם, ניתן לפנות אלי במייל.",
-      "url": "mailto:Benziwolman@gmail.com",
-      "email": "Benziwolman@gmail.com",
-      "tags": [
-        "איור",
-        "נופלים",
-        "זיכרון",
-        "משפחה",
-        "צעירים",
-        "הוקרה"
-      ],
-      "createdAt": "2023-10-21T23:09:40+03:00"
-    },
-    {
-      "name": "WixRememberThem",
-      "displayName": "תבנית לאתרי יזכור",
-      "shortDescription": "אתר הנצחה דיגיטלי, ללא עלות",
-      "description": "אנחנו מקבלים לוויקס המון פניות ממשפחות וחברים להקמת אתרי הנצחה דיגיטליים לחללי חרבות ברזל - מקום שבו יוכלו להנציח את יקיריהם, לשתף בסיפורים ותמונות ולהזמין משפחה וחברים להעלות זכרונות ביחד. החלטנו לייצר למשפחות נקודת התחלה קלה יותר לבניית האתרים האלו. באתר ״לזכור אותם״ מוצעים 4 עיצובים שונים (תבניות/ טמפלטים) לאתרי הנצחה אישיים. כל מה שצריך לעשות זה להחליף תמונות ולערוך לתכנים האישיים. האתר כולל גם סרטון הדרכה קצר שמראה כיצד ניתן לעבוד בקלות עם הטמפלטים. וויקס תספק למשפחות דומיין לאתר וכן תמיכה אישית במהלך הבנייה, במידה ויצטרכו.",
-      "initiativeValidationDetails": "Subdomain on wix.com (official Wix domain)\nAlso vetted by a colleague as coming directly from Wix",
-      "url": "https://memorial-templates.wix.com/",
-      "website": "https://memorial-templates.wix.com/",
-      "whatsapp": "https://chat.whatsapp.com/Iz0CxyHnFfkKDZhB5Ln7u3",
-      "initiativeImage": "https://upload.wikimedia.org/wikipedia/commons/7/76/Wix.com_website_logo.svg",
-      "tags": [
-        "וויקס",
-        "אתר הנצחה",
-        "חללי חרבות ברזל",
-        "עיצוב אתרים"
-      ],
-      "createdAt": "2023-11-10T22:51:27+02:00"
-    },
-    {
-      "name": "ironswords.info",
-      "displayName": "חרבות ברזל - ממוריאליין",
-      "shortDescription": "האתר להנצחת הנופלים והנרצחים",
-      "description": "Memorialine היא פלטפורמה חברתית דיגיטלית הנועדה לתעד ולשמר את המורשת של הפרט, המשפחה והקהילה.",
-      "initiativeValidationDetails": "https://www.maariv.co.il/business/Article-1051444",
-      "url": "https://ironswords.info/",
-      "website": "https://ironswords.info/",
-      "telegram": "https://t.me/+oGmyF9NDeNJhY2Rk",
-      "form": "https://ironswords.info/ContactUs",
-      "facebook": "https://www.facebook.com/dorotmemorialneil/",
-      "twitter": "https://twitter.com/DorotNextGen",
-      "donation": "https://ironswords.info/Contributions",
-      "initiativeImage": "https://ironswords.info/logo/ironswords/logo.png",
-      "tags": [
-        "נופלים",
-        "מורשת",
-        "זיכרון"
-      ],
-      "createdAt": "2023-11-18T01:34:40+02:00",
-      "references": [
-        {
-          "url": "https://www.maariv.co.il/business/Article-1051444",
-          "type": "article",
-          "source": "Maariv"
-        }
-      ]
-    },
-    {
-      "name": "echoBox",
-      "displayName": "תיבת תהודה",
-      "shortDescription": "המיזם, אשר מבוסס על ניסיון בני משפחות שכולות, נועד לאגד זיכרונות, סיפורים ותמונות על הנופלים והנרצחים.",
-      "description": "חלק מ'קהילה זוכרת' - קהילה דיגיטלית לקידום הנצחה חיה לזכר חללי מערכות ישראל ונפגעי פעולות איבה",
-      "initiativeValidationDetails": "שמעתי על זה ברדיו ונכנסתי לאתר שלהם",
-      "url": "https://www.coing.co/Remember_Registration_Haravot_Barzel",
-      "initiativeImage": "https://coing-images.s3.eu-central-1.amazonaws.com/communities-logos/a32ca4a0486db7a70131fd010ef8b90b.png",
-      "tags": [
-        "זיכרון",
-        "נופלים",
-        "נרצחים",
-        "שואה"
-      ],
-      "createdAt": "2023-11-28T01:25:55+02:00"
-    },
-    {
-      "displayName": "מנחמים את משפחות הנופלים",
-      "name": "ConsolingMourningFamilies",
-      "shortDescription": "אתר המרכז זמני שבעה של נופלים במלחמת חרבות ברזל",
-      "description": "המיזם הוקם במטרה להנגיש את מיקומי וזמני השבעה של משפחות הנופלים. בלי תירוצים! כולנו יוצאים מהבית והולכים לנחם, לחבק, ולחזק את האבלים.",
-      "initiativeValidationDetails": "https://www.linkedin.com/posts/sam-luky_send-condolences-to-our-brothers-and-sisters-activity-7119984759186894849-IS2h",
-      "url": "https://noflim.org.il",
-      "initiativeImage": "/images/ConsolingMourningFamilies-99d68611-7f58-45a2-87f5-b3c0f5ce136d.svg",
-      "website": "https://noflim.org.il",
-      "phone": "+972525269321",
-      "whatsapp": "https://chat.whatsapp.com/KUOYaZ8mlaVAFy5jDhOCWQ",
-      "facebook": "https://www.facebook.com/noflim2023/?show_switched_toast=0&show_invite_to_follow=0&show_switched_tooltip=0&show_podcast_settings=0&show_community_review_changes=0&show_community_rollback=0&show_follower_visibility_disclosure=0",
-      "instagram": "https://www.instagram.com/menahmim_/?igshid=OGQ5ZDc2ODk2ZA%3D%3D",
-      "tags": [
-        "מפת האבל",
-        "משפחות נופלים",
-        "חרבות ברזל",
-        "מנחם אבלים"
-      ],
-      "createdAt": "2023-12-12T12:18:50.266Z",
-      "references": [
-        {
-          "url": "https://www.linkedin.com/posts/sam-luky_send-condolences-to-our-brothers-and-sisters-activity-7119984759186894849-IS2h",
-          "type": "linkedin",
-          "source": "LinkedIn"
-        }
-      ]
-    },
-    {
-      "displayName": "קדיש למען הנרצחים",
-      "name": "Givethemakaddish",
-      "shortDescription": "קדיש עבור הנרצחים",
-      "description": "יוזמה לאיתור מתנדבים שיאמרו קדיש על הנרצחים בשמחת תורה. מכיוון שיש משפחות שלמות או ו ילדים או ו עוד אנשים שאין מי שיאמר עליהם קדיש",
-      "initiativeValidationDetails": "Givethemakaddish.org",
-      "url": "https://www.givethemakaddish.org",
-      "website": "https://www.givethemakaddish.org",
-      "phone": "+18457094787",
-      "email": "givethemakaddish@gmail.com",
-      "whatsapp": "https://wa.me/18457094787",
-      "tags": [
-        "קדיש",
-        "נרצחים",
-        "תורה",
-        "משפחה",
-        "ילדים",
-        "מתנדבים"
-      ],
-      "createdAt": "2023-12-30T20:21:28.971Z"
-    }
-  ]
+	"name": "Main",
+	"displayName": "ראשי",
+	"links": [
+		{
+			"name": "IllustrationNofalim",
+			"displayName": "איורים של הנופלים - Benzi Wolman",
+			"shortDescription": "אני יושב ומאייר את דמותם של הנופלים שהיו שם בשבילנו. אם אתם יודעים על משפחה שעשויה לרצות",
+			"description": "בימים האחרונים אני יושב ומאייר את דמותם של הנופלים שהיו שם בשבילנו. הורים, צעירים וצעירות ששילמו בחייהם כדי להגן עלינו. זה עוזר לי לעצור, להסתכל להם בעיניים, לחשוב על המשפחות שלהם ועל החברים שלהם, ולכאוב את הכאב שלהם. אם אתם יודעים על משפחה שעשויה לרצות את הציור של יקירם, ניתן לפנות אלי במייל.",
+			"url": "mailto:Benziwolman@gmail.com",
+			"email": "Benziwolman@gmail.com",
+			"tags": [
+				"איור",
+				"נופלים",
+				"זיכרון",
+				"משפחה",
+				"צעירים",
+				"הוקרה"
+			],
+			"createdAt": "2023-10-21T23:09:40+03:00"
+		},
+		{
+			"name": "WixRememberThem",
+			"displayName": "תבנית לאתרי יזכור",
+			"shortDescription": "אתר הנצחה דיגיטלי, ללא עלות",
+			"description": "אנחנו מקבלים לוויקס המון פניות ממשפחות וחברים להקמת אתרי הנצחה דיגיטליים לחללי חרבות ברזל - מקום שבו יוכלו להנציח את יקיריהם, לשתף בסיפורים ותמונות ולהזמין משפחה וחברים להעלות זכרונות ביחד. החלטנו לייצר למשפחות נקודת התחלה קלה יותר לבניית האתרים האלו. באתר ״לזכור אותם״ מוצעים 4 עיצובים שונים (תבניות/ טמפלטים) לאתרי הנצחה אישיים. כל מה שצריך לעשות זה להחליף תמונות ולערוך לתכנים האישיים. האתר כולל גם סרטון הדרכה קצר שמראה כיצד ניתן לעבוד בקלות עם הטמפלטים. וויקס תספק למשפחות דומיין לאתר וכן תמיכה אישית במהלך הבנייה, במידה ויצטרכו.",
+			"initiativeValidationDetails": "Subdomain on wix.com (official Wix domain)\nAlso vetted by a colleague as coming directly from Wix",
+			"url": "https://memorial-templates.wix.com/",
+			"website": "https://memorial-templates.wix.com/",
+			"whatsapp": "https://chat.whatsapp.com/Iz0CxyHnFfkKDZhB5Ln7u3",
+			"initiativeImage": "https://upload.wikimedia.org/wikipedia/commons/7/76/Wix.com_website_logo.svg",
+			"tags": [
+				"וויקס",
+				"אתר הנצחה",
+				"חללי חרבות ברזל",
+				"עיצוב אתרים"
+			],
+			"createdAt": "2023-11-10T22:51:27+02:00"
+		},
+		{
+			"name": "ironswords.info",
+			"displayName": "חרבות ברזל - ממוריאליין",
+			"shortDescription": "האתר להנצחת הנופלים והנרצחים",
+			"description": "Memorialine היא פלטפורמה חברתית דיגיטלית הנועדה לתעד ולשמר את המורשת של הפרט, המשפחה והקהילה.",
+			"initiativeValidationDetails": "https://www.maariv.co.il/business/Article-1051444",
+			"url": "https://ironswords.info/",
+			"website": "https://ironswords.info/",
+			"telegram": "https://t.me/+oGmyF9NDeNJhY2Rk",
+			"form": "https://ironswords.info/ContactUs",
+			"facebook": "https://www.facebook.com/dorotmemorialneil/",
+			"twitter": "https://twitter.com/DorotNextGen",
+			"donation": "https://ironswords.info/Contributions",
+			"initiativeImage": "https://ironswords.info/logo/ironswords/logo.png",
+			"tags": [
+				"נופלים",
+				"מורשת",
+				"זיכרון"
+			],
+			"createdAt": "2023-11-18T01:34:40+02:00",
+			"references": [
+				{
+					"url": "https://www.maariv.co.il/business/Article-1051444",
+					"type": "article",
+					"source": "Maariv"
+				}
+			]
+		},
+		{
+			"name": "echoBox",
+			"displayName": "תיבת תהודה",
+			"shortDescription": "המיזם, אשר מבוסס על ניסיון בני משפחות שכולות, נועד לאגד זיכרונות, סיפורים ותמונות על הנופלים והנרצחים.",
+			"description": "חלק מ'קהילה זוכרת' - קהילה דיגיטלית לקידום הנצחה חיה לזכר חללי מערכות ישראל ונפגעי פעולות איבה",
+			"initiativeValidationDetails": "שמעתי על זה ברדיו ונכנסתי לאתר שלהם",
+			"url": "https://www.coing.co/Remember_Registration_Haravot_Barzel",
+			"initiativeImage": "https://coing-images.s3.eu-central-1.amazonaws.com/communities-logos/a32ca4a0486db7a70131fd010ef8b90b.png",
+			"tags": [
+				"זיכרון",
+				"נופלים",
+				"נרצחים",
+				"שואה"
+			],
+			"createdAt": "2023-11-28T01:25:55+02:00"
+		},
+		{
+			"displayName": "מנחמים את משפחות הנופלים",
+			"name": "ConsolingMourningFamilies",
+			"shortDescription": "אתר המרכז זמני שבעה של נופלים במלחמת חרבות ברזל",
+			"description": "המיזם הוקם במטרה להנגיש את מיקומי וזמני השבעה של משפחות הנופלים. בלי תירוצים! כולנו יוצאים מהבית והולכים לנחם, לחבק, ולחזק את האבלים.",
+			"initiativeValidationDetails": "https://www.linkedin.com/posts/sam-luky_send-condolences-to-our-brothers-and-sisters-activity-7119984759186894849-IS2h",
+			"url": "https://noflim.org.il",
+			"initiativeImage": "/images/ConsolingMourningFamilies-99d68611-7f58-45a2-87f5-b3c0f5ce136d.svg",
+			"website": "https://noflim.org.il",
+			"phone": "+972525269321",
+			"whatsapp": "https://chat.whatsapp.com/KUOYaZ8mlaVAFy5jDhOCWQ",
+			"facebook": "https://www.facebook.com/noflim2023/?show_switched_toast=0&show_invite_to_follow=0&show_switched_tooltip=0&show_podcast_settings=0&show_community_review_changes=0&show_community_rollback=0&show_follower_visibility_disclosure=0",
+			"instagram": "https://www.instagram.com/menahmim_/?igshid=OGQ5ZDc2ODk2ZA%3D%3D",
+			"tags": [
+				"מפת האבל",
+				"משפחות נופלים",
+				"חרבות ברזל",
+				"מנחם אבלים"
+			],
+			"createdAt": "2023-12-12T12:18:50.266Z",
+			"references": [
+				{
+					"url": "https://www.linkedin.com/posts/sam-luky_send-condolences-to-our-brothers-and-sisters-activity-7119984759186894849-IS2h",
+					"type": "endorsement",
+					"source": "LinkedIn",
+					"author": "Sam Luky",
+					"title": "המלצה ושיתוף היוזמה בפוסט בלינקדאין"
+				}
+			]
+		},
+		{
+			"displayName": "קדיש למען הנרצחים",
+			"name": "Givethemakaddish",
+			"shortDescription": "קדיש עבור הנרצחים",
+			"description": "יוזמה לאיתור מתנדבים שיאמרו קדיש על הנרצחים בשמחת תורה. מכיוון שיש משפחות שלמות או ו ילדים או ו עוד אנשים שאין מי שיאמר עליהם קדיש",
+			"initiativeValidationDetails": "Givethemakaddish.org",
+			"url": "https://www.givethemakaddish.org",
+			"website": "https://www.givethemakaddish.org",
+			"phone": "+18457094787",
+			"email": "givethemakaddish@gmail.com",
+			"whatsapp": "https://wa.me/18457094787",
+			"tags": [
+				"קדיש",
+				"נרצחים",
+				"תורה",
+				"משפחה",
+				"ילדים",
+				"מתנדבים"
+			],
+			"createdAt": "2023-12-30T20:21:28.971Z"
+		}
+	]
 }

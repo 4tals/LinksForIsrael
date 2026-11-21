@@ -1,115 +1,149 @@
 {
-  "name": "Donations",
-  "displayName": "תרומות כספיות",
-  "links": [
-    {
-      "name": "Latet",
-      "displayName": "ארגון לתת",
-      "shortDescription": "סיוע הומניטרי, ביטחון תזונתי ותמיכה במשפחות נזקקות וניצולי שואה",
-      "description": "ארגון לתת פועל לצמצום העוני וחוסר הביטחון התזונתי בישראל באמצעות חלוקת מזון שוטפת, התנדבות ארצית, סיוע לניצולי שואה ותגובה מהירה למצבי חירום.",
-      "url": "https://www.latet.org.il/",
-      "website": "https://www.latet.org.il/",
-      "intents": [
-        "donate",
-        "volunteer",
-        "get-help"
-      ],
-      "tags": [
-        "לתת",
-        "תרומות",
-        "מזון",
-        "התנדבות",
-        "סיוע הומניטרי",
-        "עמותה"
-      ],
-      "createdAt": "2026-11-21T18:55:00+02:00",
-      "verified": true,
-      "organizationType": "ngo",
-      "taxDeductible46": true
-    },
-    {
-      "name": "PitchonLev",
-      "displayName": "פתחון לב",
-      "shortDescription": "סיוע במזון, ביגוד ומיצוי זכויות ליציאה ממעגל העוני",
-      "description": "ארגון פתחון לב מסייע לאלפי משפחות בישראל באמצעות מרכזי סיוע במזון וביגוד, מיצוי זכויות ותוכניות חינוכיות לנוער וצעירים.",
-      "url": "https://www.pitchonlev.org.il/",
-      "website": "https://www.pitchonlev.org.il/",
-      "intents": [
-        "donate",
-        "volunteer",
-        "get-help"
-      ],
-      "tags": [
-        "פתחון לב",
-        "תרומות",
-        "מזון",
-        "ביגוד",
-        "התנדבות",
-        "סיוע"
-      ],
-      "createdAt": "2026-11-21T18:55:00+02:00",
-      "verified": true,
-      "organizationType": "ngo",
-      "taxDeductible46": true
-    },
-    {
-      "name": "GiveIsrael",
-      "displayName": "Give Israel",
-      "shortDescription": "Donating for Israel",
-      "description": "At Give Israel, our primary mission in these challenging times following the recent attack on Israel is to work closely with verified voluntary organizations within the country. Our devoted team of volunteers has meticulously validated each of these organizations to ensure they are credible and effectively supporting the nation through crucial initiatives. These validated groups actively supply soldiers with essential items like boots and warm food, purchase vital equipment for hospitals, and offer comprehensive support to attack survivors — providing food, clothing, essentials, and much-needed mental support.",
-      "url": "https://giveisrael.org/",
-      "website": "https://giveisrael.org/",
-      "createdAt": "2023-10-21T21:12:39+03:00"
-    },
-    {
-      "name": "PayboxSection",
-      "displayName": "פייבוקס - תרומה לעמותות",
-      "shortDescription": "תרומה ישירה דרך האפליקציה",
-      "description": "באפליקציה של פייבוקס יש עמוד של תרומות לעמותות וניתן לבחור עמותה ולתרום לה ישירות",
-      "initiativeImage": "https://cdn6.aptoide.com/imgs/6/1/a/61a33873bfe452538aa25b9444692ad0_fgraphic.jpg",
-      "website": "https://www.payboxapp.com/",
-      "url": "https://www.payboxapp.com/",
-      "createdAt": "2023-10-26T16:26:30+03:00"
-    },
-    {
-      "name": "hakvutza",
-      "displayName": "עמותת הקבוצה",
-      "shortDescription": "גיוס חברתי לטובת משפחות ובודדים המטופלים ברווחה עבור מגוון צרכים מהותיים והכרחיים עכשיו מתגייסים לעזרה למשפחות מאזורי לחימה!",
-      "description": "עמותת הקבוצה קיימת כבר כ-6 שנים ועובדת בצמוד עם העבודות והעובדים הסוציאלים במחלקות הרווחה ועוזרת להם לטפל במקרים שהמדינה לא יודעת להתמודד איתם. פיתחנו את הקשרים, הטכנולוגיה והמנגנונים כדי לטפל בהרבה מקרים בצורה יעילה על בסיס מתנדבים בלבד כך ש100% מהתרומה הולך ליעד. עמותת הקבוצה טיפלה עד היום באלפי מקרים ומיליוני שקלים.",
-      "initiativeValidationDetails": "Known organization since before the war",
-      "url": "https://hakvutza.org",
-      "website": "https://hakvutza.org",
-      "tags": [
-        "היום לעזרה",
-        "לעזרה למשפחות",
-        "לטובת משפחות"
-      ],
-      "createdAt": "2023-11-24T15:21:43+02:00",
-      "verified": true,
-      "organizationType": "ngo",
-      "taxDeductible46": true
-    },
-    {
-      "name": "jgive",
-      "displayName": "JGive",
-      "shortDescription": "קרן חירום לאומית לסיוע לנפגעי המלחמה",
-      "description": "קרן החירום הלאומית הוקמה על ידי שותפים יחד עם JGive במטרה להעניק סיוע לנפגעים במלחמה הקשה שפקדה אותנו. כל כספי התרומות שייאספו בקרן, יחולקו לעמותות המציעות שירותי סעד, רווחה, ציוד, מזון ועוד לנפגעי המלחמה. הכספים יחולקו באמצעות ועדה ציבורית בראשות אליעזר שקדי (אלוף במיל'). העמותות הפועלות בגזרות השונות מכירות מקרוב את האתגרים ואת דרכי הפעולה האפשריות. תמיכה בהם היא הדרך הטובה ביותר שאנו מכירים כדי להשפיע, ולו במעט, על חייהם של רבים. הצטרפו אלינו ותרמו. כל התרומות מוכרות לפי סעיף 46. הכסף עובר במלואו , למעט עמלת סליקת האשראי במקרה של תרומה באשראי",
-      "initiativeValidationDetails": "Operations volunteer.",
-      "url": "https://www.jgive.com/new/he/ils/donation-targets/110048?utm_source=homepage",
-      "initiativeImage": "/images/JGive-5255f699-3539-481b-bb6d-e229ecbe2a70.png",
-      "website": "https://www.jgive.com/new/he/ils/donation-targets/110048?utm_source=homepage",
-      "email": "circle@jgive.com",
-      "tags": [
-        "תרומות",
-        "אשראי",
-        "רווחה",
-        "ציוד",
-        "מזון"
-      ],
-      "createdAt": "2023-11-28T22:11:51+02:00",
-      "verified": true,
-      "organizationType": "ngo",
-      "taxDeductible46": true
-    }
-  ]
+	"name": "Donations",
+	"displayName": "תרומות כספיות",
+	"links": [
+		{
+			"name": "Latet",
+			"displayName": "ארגון לתת",
+			"shortDescription": "סיוע הומניטרי, ביטחון תזונתי ותמיכה במשפחות נזקקות וניצולי שואה",
+			"description": "ארגון לתת פועל לצמצום העוני וחוסר הביטחון התזונתי בישראל באמצעות חלוקת מזון שוטפת, התנדבות ארצית, סיוע לניצולי שואה ותגובה מהירה למצבי חירום.",
+			"url": "https://www.latet.org.il/",
+			"website": "https://www.latet.org.il/",
+			"intents": [
+				"donate",
+				"volunteer",
+				"get-help"
+			],
+			"tags": [
+				"לתת",
+				"תרומות",
+				"מזון",
+				"התנדבות",
+				"סיוע הומניטרי",
+				"עמותה"
+			],
+			"createdAt": "2026-11-21T18:55:00+02:00",
+			"verified": true,
+			"organizationType": "ngo",
+			"taxDeductible46": true,
+			"references": [
+				{
+					"url": "https://he.wikipedia.org/wiki/%D7%90%D7%A8%D7%92%D7%95%D7%9F_%D7%9C%D7%AA%D7%AA",
+					"type": "registry",
+					"source": "Wikipedia",
+					"title": "ארגון לתת – סיוע הומניטרי ישראלי (ויקיפדיה)"
+				},
+				{
+					"url": "https://www.guidestar.org.il/organization/580294940",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "ארגון לתת – רישום עמותה וניהול תקין בגיידסטאר"
+				}
+			]
+		},
+		{
+			"name": "PitchonLev",
+			"displayName": "פתחון לב",
+			"shortDescription": "סיוע במזון, ביגוד ומיצוי זכויות ליציאה ממעגל העוני",
+			"description": "ארגון פתחון לב מסייע לאלפי משפחות בישראל באמצעות מרכזי סיוע במזון וביגוד, מיצוי זכויות ותוכניות חינוכיות לנוער וצעירים.",
+			"url": "https://www.pitchonlev.org.il/",
+			"website": "https://www.pitchonlev.org.il/",
+			"intents": [
+				"donate",
+				"volunteer",
+				"get-help"
+			],
+			"tags": [
+				"פתחון לב",
+				"תרומות",
+				"מזון",
+				"ביגוד",
+				"התנדבות",
+				"סיוע"
+			],
+			"createdAt": "2026-11-21T18:55:00+02:00",
+			"verified": true,
+			"organizationType": "ngo",
+			"taxDeductible46": true,
+			"references": [
+				{
+					"url": "https://he.wikipedia.org/wiki/%D7%A4%D7%AA%D7%97%D7%95%D7%9F_%D7%9C%D7%91",
+					"type": "registry",
+					"source": "Wikipedia",
+					"title": "פתחון לב (ויקיפדיה)"
+				},
+				{
+					"url": "https://www.guidestar.org.il/organization/580328839",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "פתחון לב – רישום עמותה וניהול תקין בגיידסטאר"
+				},
+				{
+					"url": "https://www.ynet.co.il/economy/article/syznlvtoxl",
+					"type": "article",
+					"source": "Ynet",
+					"title": "הפרויקט של פתחון לב שמוציא משפחות ממעגל העוני"
+				}
+			]
+		},
+		{
+			"name": "GiveIsrael",
+			"displayName": "Give Israel",
+			"shortDescription": "Donating for Israel",
+			"description": "At Give Israel, our primary mission in these challenging times following the recent attack on Israel is to work closely with verified voluntary organizations within the country. Our devoted team of volunteers has meticulously validated each of these organizations to ensure they are credible and effectively supporting the nation through crucial initiatives. These validated groups actively supply soldiers with essential items like boots and warm food, purchase vital equipment for hospitals, and offer comprehensive support to attack survivors — providing food, clothing, essentials, and much-needed mental support.",
+			"url": "https://giveisrael.org/",
+			"website": "https://giveisrael.org/",
+			"createdAt": "2023-10-21T21:12:39+03:00"
+		},
+		{
+			"name": "PayboxSection",
+			"displayName": "פייבוקס - תרומה לעמותות",
+			"shortDescription": "תרומה ישירה דרך האפליקציה",
+			"description": "באפליקציה של פייבוקס יש עמוד של תרומות לעמותות וניתן לבחור עמותה ולתרום לה ישירות",
+			"initiativeImage": "https://cdn6.aptoide.com/imgs/6/1/a/61a33873bfe452538aa25b9444692ad0_fgraphic.jpg",
+			"website": "https://www.payboxapp.com/",
+			"url": "https://www.payboxapp.com/",
+			"createdAt": "2023-10-26T16:26:30+03:00"
+		},
+		{
+			"name": "hakvutza",
+			"displayName": "עמותת הקבוצה",
+			"shortDescription": "גיוס חברתי לטובת משפחות ובודדים המטופלים ברווחה עבור מגוון צרכים מהותיים והכרחיים עכשיו מתגייסים לעזרה למשפחות מאזורי לחימה!",
+			"description": "עמותת הקבוצה קיימת כבר כ-6 שנים ועובדת בצמוד עם העבודות והעובדים הסוציאלים במחלקות הרווחה ועוזרת להם לטפל במקרים שהמדינה לא יודעת להתמודד איתם. פיתחנו את הקשרים, הטכנולוגיה והמנגנונים כדי לטפל בהרבה מקרים בצורה יעילה על בסיס מתנדבים בלבד כך ש100% מהתרומה הולך ליעד. עמותת הקבוצה טיפלה עד היום באלפי מקרים ומיליוני שקלים.",
+			"initiativeValidationDetails": "Known organization since before the war",
+			"url": "https://hakvutza.org",
+			"website": "https://hakvutza.org",
+			"tags": [
+				"היום לעזרה",
+				"לעזרה למשפחות",
+				"לטובת משפחות"
+			],
+			"createdAt": "2023-11-24T15:21:43+02:00",
+			"verified": true,
+			"organizationType": "ngo",
+			"taxDeductible46": true
+		},
+		{
+			"name": "jgive",
+			"displayName": "JGive",
+			"shortDescription": "קרן חירום לאומית לסיוע לנפגעי המלחמה",
+			"description": "קרן החירום הלאומית הוקמה על ידי שותפים יחד עם JGive במטרה להעניק סיוע לנפגעים במלחמה הקשה שפקדה אותנו. כל כספי התרומות שייאספו בקרן, יחולקו לעמותות המציעות שירותי סעד, רווחה, ציוד, מזון ועוד לנפגעי המלחמה. הכספים יחולקו באמצעות ועדה ציבורית בראשות אליעזר שקדי (אלוף במיל'). העמותות הפועלות בגזרות השונות מכירות מקרוב את האתגרים ואת דרכי הפעולה האפשריות. תמיכה בהם היא הדרך הטובה ביותר שאנו מכירים כדי להשפיע, ולו במעט, על חייהם של רבים. הצטרפו אלינו ותרמו. כל התרומות מוכרות לפי סעיף 46. הכסף עובר במלואו , למעט עמלת סליקת האשראי במקרה של תרומה באשראי",
+			"initiativeValidationDetails": "Operations volunteer.",
+			"url": "https://www.jgive.com/new/he/ils/donation-targets/110048?utm_source=homepage",
+			"initiativeImage": "/images/JGive-5255f699-3539-481b-bb6d-e229ecbe2a70.png",
+			"website": "https://www.jgive.com/new/he/ils/donation-targets/110048?utm_source=homepage",
+			"email": "circle@jgive.com",
+			"tags": [
+				"תרומות",
+				"אשראי",
+				"רווחה",
+				"ציוד",
+				"מזון"
+			],
+			"createdAt": "2023-11-28T22:11:51+02:00",
+			"verified": true,
+			"organizationType": "ngo",
+			"taxDeductible46": true
+		}
+	]
 }

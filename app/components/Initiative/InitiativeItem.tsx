@@ -32,6 +32,7 @@ import {
 import {
 	getInitiativeIntents,
 	getPrimaryInitiativeUrl,
+	getReferenceSummary,
 	InitiativeIntent,
 	InitiativeLink as LinkType,
 } from "../../utils/categories";
@@ -91,6 +92,7 @@ export const InitiativeItem: React.FC<InitiativeItemProps> = ({
 	const primaryUrl = getPrimaryInitiativeUrl(link);
 	const displayDomain = formatDisplayDomain(primaryUrl);
 	const intents = getInitiativeIntents(link, categoryId).slice(0, 2);
+	const refSummary = getReferenceSummary(link, 2);
 
 	const sharePath =
 		categoryId && subCategoryName
@@ -375,14 +377,8 @@ export const InitiativeItem: React.FC<InitiativeItemProps> = ({
 						סעיף 46
 					</Badge>
 				)}
-				{link.references && link.references.length > 0 && (
-					<Tooltip
-						label={link.references
-							.map((r) => r.source || r.title || r.url)
-							.join(" · ")}
-						placement="top"
-						hasArrow
-					>
+				{refSummary && (
+					<Tooltip label={refSummary.tooltip} placement="top" hasArrow>
 						<Badge
 							bg="gray.100"
 							color="gray.700"
@@ -395,13 +391,17 @@ export const InitiativeItem: React.FC<InitiativeItemProps> = ({
 							display="inline-flex"
 							alignItems="center"
 							gap={1}
+							maxW="200px"
 						>
-							<Icon as={FaNewspaper} boxSize={2.5} color="brand.500" />
-							<span>
-								{link.references.length === 1 && link.references[0].source
-									? link.references[0].source
-									: `${link.references.length} אזכורים`}
-							</span>
+							<Icon
+								as={FaNewspaper}
+								boxSize={2.5}
+								color="brand.500"
+								flexShrink={0}
+							/>
+							<Text as="span" noOfLines={1}>
+								{refSummary.label}
+							</Text>
 						</Badge>
 					</Tooltip>
 				)}

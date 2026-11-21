@@ -1,70 +1,84 @@
 {
-  "name": "Emergency",
-  "displayName": "חירום",
-  "links": [
-    {
-      "name": "HomeFrontCommand",
-      "displayName": "פיקוד העורף – פורטל החירום הלאומי",
-      "shortDescription": "הנחיות התגוננות, התרעות, מיגון ומוקד מידע רשמי 104",
-      "description": "הפורטל הרשמי של פיקוד העורף: הנחיות התגוננות מעודכנות, הנחיות מיגון וממ״ד, זמני התגוננות לפי יישוב ומוקד מידע ארצי בטלפון 104.",
-      "url": "https://www.oref.org.il/",
-      "website": "https://www.oref.org.il/",
-      "phone": "104",
-      "intents": [
-        "get-help"
-      ],
-      "tags": [
-        "פיקוד העורף",
-        "104",
-        "חירום",
-        "התרעות",
-        "מיגון",
-        "מקלט",
-        "ממד"
-      ],
-      "createdAt": "2026-11-21T18:55:00+02:00",
-      "verified": true,
-      "organizationType": "official"
-    },
-    {
-      "name": "MidragSheltersProject",
-      "displayName": "פרויקט מדרג להשמשת מקלטים",
-      "shortDescription": "השמשת מקלטים ע״י בעלי מקצוע, מקלטי בניינים בלבד, לא כולל החלפת דלתות וחלונות",
-      "description": "השמשת מקלטים ע״י בעלי מקצוע, מקלטי בניינים בלבד (לא פרטיים),  לא כולל החלפת דלתות וחלונות",
-      "url": "https://forms.monday.com/forms/f1e1014123cf1aac6615780795aec231?r=use1",
-      "forms": "https://forms.monday.com/forms/f1e1014123cf1aac6615780795aec231?r=use1",
-      "tags": [
-        "מקלטים",
-        "הכנה",
-        "ביטחון"
-      ],
-      "createdAt": "2023-10-15T00:25:34+03:00"
-    },
-    {
-      "name": "MamadFixes",
-      "displayName": "MamadFixes - סיירת תיקונים התנדבותית של חלונות ודלתות ממד",
-      "shortDescription": "סיירת תיקונים התנדבותית של חלונות ודלתות ממ״ד למען הקהילה",
-      "description": "עד כה ההתאחדות קיבלה המון פניות מהציבור לתיקון חלונות ודלתות של ממ״דים שנהרסו, ״על כן, לא יכולנו להישאר אדישים והחלטנו למען העם הנפלא הזה להקים סיירת של קבלני שיפוצים שיסיירו ויתקנו את הכשלים בדירות בהתנדבות וללא תשלום מצד בעלי הדירות.",
-      "initiativeValidationDetails": "Reputable source: https://nadlan.walla.co.il/item/3614681",
-      "url": "https://rcu.co.il/",
-      "initiativeImage": "https://rcu.co.il/wp-content/uploads/2022/10/new-logo.jpg",
-      "phone": "1-700-700-426",
-      "tags": [
-        "תיקון",
-        "ממ\"ד",
-        "התנדבות",
-        "חלונות",
-        "דלתות",
-        "מיגון"
-      ],
-      "createdAt": "2023-11-05T13:53:26+02:00",
-      "references": [
-        {
-          "url": "https://nadlan.walla.co.il/item/3614681",
-          "type": "article",
-          "source": "Walla"
-        }
-      ]
-    }
-  ]
+	"name": "Emergency",
+	"displayName": "חירום",
+	"links": [
+		{
+			"name": "HomeFrontCommand",
+			"displayName": "פיקוד העורף – פורטל החירום הלאומי",
+			"shortDescription": "הנחיות התגוננות, התרעות, מיגון ומוקד מידע רשמי 104",
+			"description": "הפורטל הרשמי של פיקוד העורף: הנחיות התגוננות מעודכנות, הנחיות מיגון וממ״ד, זמני התגוננות לפי יישוב ומוקד מידע ארצי בטלפון 104.",
+			"url": "https://www.oref.org.il/",
+			"website": "https://www.oref.org.il/",
+			"phone": "104",
+			"intents": [
+				"get-help"
+			],
+			"tags": [
+				"פיקוד העורף",
+				"104",
+				"חירום",
+				"התרעות",
+				"מיגון",
+				"מקלט",
+				"ממד"
+			],
+			"createdAt": "2026-11-21T18:55:00+02:00",
+			"verified": true,
+			"organizationType": "official",
+			"references": [
+				{
+					"url": "https://en.wikipedia.org/wiki/Home_Front_Command",
+					"type": "registry",
+					"source": "Wikipedia",
+					"title": "Israel Home Front Command (Wikipedia)"
+				},
+				{
+					"url": "https://www.idf.il/%D7%90%D7%AA%D7%A8%D7%99-%D7%99%D7%97%D7%99%D7%93%D7%95%D7%AA/%D7%A4%D7%99%D7%A7%D7%95%D7%93-%D7%94%D7%A2%D7%95%D7%A8%D7%A3/%D7%90%D7%95%D7%93%D7%95%D7%AA/",
+					"type": "official",
+					"source": "אתר צה״ל",
+					"title": "אודות פיקוד העורף – האתר הרשמי של צה״ל"
+				}
+			]
+		},
+		{
+			"name": "MidragSheltersProject",
+			"displayName": "פרויקט מדרג להשמשת מקלטים",
+			"shortDescription": "השמשת מקלטים ע״י בעלי מקצוע, מקלטי בניינים בלבד, לא כולל החלפת דלתות וחלונות",
+			"description": "השמשת מקלטים ע״י בעלי מקצוע, מקלטי בניינים בלבד (לא פרטיים),  לא כולל החלפת דלתות וחלונות",
+			"url": "https://forms.monday.com/forms/f1e1014123cf1aac6615780795aec231?r=use1",
+			"forms": "https://forms.monday.com/forms/f1e1014123cf1aac6615780795aec231?r=use1",
+			"tags": [
+				"מקלטים",
+				"הכנה",
+				"ביטחון"
+			],
+			"createdAt": "2023-10-15T00:25:34+03:00"
+		},
+		{
+			"name": "MamadFixes",
+			"displayName": "MamadFixes - סיירת תיקונים התנדבותית של חלונות ודלתות ממד",
+			"shortDescription": "סיירת תיקונים התנדבותית של חלונות ודלתות ממ״ד למען הקהילה",
+			"description": "עד כה ההתאחדות קיבלה המון פניות מהציבור לתיקון חלונות ודלתות של ממ״דים שנהרסו, ״על כן, לא יכולנו להישאר אדישים והחלטנו למען העם הנפלא הזה להקים סיירת של קבלני שיפוצים שיסיירו ויתקנו את הכשלים בדירות בהתנדבות וללא תשלום מצד בעלי הדירות.",
+			"initiativeValidationDetails": "Reputable source: https://nadlan.walla.co.il/item/3614681",
+			"url": "https://rcu.co.il/",
+			"initiativeImage": "https://rcu.co.il/wp-content/uploads/2022/10/new-logo.jpg",
+			"phone": "1-700-700-426",
+			"tags": [
+				"תיקון",
+				"ממ\"ד",
+				"התנדבות",
+				"חלונות",
+				"דלתות",
+				"מיגון"
+			],
+			"createdAt": "2023-11-05T13:53:26+02:00",
+			"references": [
+				{
+					"url": "https://nadlan.walla.co.il/item/3614681",
+					"type": "article",
+					"source": "Walla"
+				}
+			]
+		}
+	]
 }

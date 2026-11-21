@@ -6,6 +6,10 @@ export type ReferenceType =
 	| "official"
 	| "registry"
 	| "article"
+	| "video"
+	| "podcast"
+	| "blog"
+	| "endorsement"
 	| "x_post"
 	| "linkedin"
 	| "social"
@@ -16,6 +20,8 @@ export interface InitiativeReference {
 	type: ReferenceType;
 	source?: string;
 	title?: string;
+	author?: string;
+	quote?: string;
 	date?: string;
 }
 
@@ -71,6 +77,66 @@ export interface InitiativeLink {
 	createdAt?: string;
 }
 
+function extractNormalizedHost(url?: string): string | null {
+	if (!url) return null;
+	try {
+		return new URL(url).hostname
+			.toLowerCase()
+			.replace(/^(www|m|he|en|news|nadlan)\./, "");
+	} catch {
+		return null;
+	}
+}
+
+export function isThirdPartyReference(
+	link: InitiativeLink,
+	ref: InitiativeReference,
+): boolean {
+	const refHost = extractNormalizedHost(ref.url);
+	if (!refHost) return false;
+	const ownHosts = new Set(
+		[link.url, link.website, link.portal]
+			.map((u) => extractNormalizedHost(u))
+			.filter((h): h is string => Boolean(h)),
+	);
+	return !ownHosts.has(refHost);
+}
+
+export function getReferenceSummary(
+	link: InitiativeLink,
+	maxSources = 2,
+): { label: string; tooltip: string; count: number } | null {
+	const refs = link.references || [];
+	if (refs.length === 0) return null;
+
+	const uniqueSources: string[] = [];
+	for (const ref of refs) {
+		const name =
+			ref.source || extractNormalizedHost(ref.url) || ref.author || "";
+		if (name && !uniqueSources.includes(name)) {
+			uniqueSources.push(name);
+		}
+	}
+
+	const shown = uniqueSources.slice(0, maxSources);
+	const remaining = refs.length - shown.length;
+	const label =
+		shown.length > 0
+			? remaining > 0
+				? `${shown.join(" · ")} +${remaining}`
+				: shown.join(" · ")
+			: `${refs.length} אזכורים`;
+
+	const tooltip = refs
+		.map((r) => {
+			const src = r.source || extractNormalizedHost(r.url) || r.url;
+			return r.title ? `${src}: ${r.title}` : src;
+		})
+		.join(" | ");
+
+	return { label, tooltip, count: refs.length };
+}
+
 export function computeInitiativeRankScore(link: InitiativeLink): number {
 	let score = 0;
 
@@ -78,34 +144,49 @@ export function computeInitiativeRankScore(link: InitiativeLink): number {
 	if (link.organizationType === "official") score += 15;
 	if (link.taxDeductible46) score += 10;
 
-	// Weighted references with per-tier caps to prevent spam gaming
+	// Weighted independent third-party references with per-tier caps + source diversity bonus
 	const refs = link.references || [];
 	let officialRegPoints = 0;
-	let articlePoints = 0;
-	let socialPoints = 0;
+	let mediaPoints = 0;
+	let communityPoints = 0;
+	const distinctThirdPartyDomains = new Set<string>();
 
 	for (const ref of refs) {
+		if (!isThirdPartyReference(link, ref)) continue;
+
+		const host = extractNormalizedHost(ref.url);
+		if (host) distinctThirdPartyDomains.add(host);
+
 		switch (ref.type) {
 			case "official":
 			case "registry":
-				officialRegPoints += 15;
+				officialRegPoints += 14;
 				break;
 			case "article":
-				articlePoints += 12;
+			case "video":
+			case "podcast":
+				mediaPoints += 12;
 				break;
+			case "blog":
+			case "endorsement":
 			case "x_post":
 			case "linkedin":
 			case "social":
-				socialPoints += 5;
+				communityPoints += 6;
 				break;
 			default:
-				socialPoints += 3;
+				communityPoints += 3;
 		}
 	}
 
-	score += Math.min(20, officialRegPoints);
-	score += Math.min(24, articlePoints);
-	score += Math.min(15, socialPoints);
+	score += Math.min(24, officialRegPoints);
+	score += Math.min(24, mediaPoints);
+	score += Math.min(15, communityPoints);
+
+	// Reward mentions across multiple distinct independent sources (+3 each beyond first, cap +9)
+	if (distinctThirdPartyDomains.size > 1) {
+		score += Math.min(9, (distinctThirdPartyDomains.size - 1) * 3);
+	}
 
 	// Contact & profile completeness (up to +6)
 	if (link.website || link.url) score += 2;

@@ -1,48 +1,56 @@
 {
-  "name": "Main",
-  "displayName": "ראשי",
-  "links": [
-    {
-      "name": "MiluimIDF",
-      "displayName": "אתר המילואים הרשמי של צה״ל",
-      "shortDescription": "זכויות, תגמולים, מענקים, טפסים ושירותים למשרתי המילואים ומשפחותיהם",
-      "description": "הפורטל הרשמי למשרתי המילואים בצה״ל: מידע עדכני על מענקים, זכויות בעבודה ובלימודים, אישורי מילואים, הטבות ושירותים למשפחות.",
-      "url": "https://www.miluim.idf.il/",
-      "website": "https://www.miluim.idf.il/",
-      "intents": [
-        "get-help"
-      ],
-      "tags": [
-        "מילואים",
-        "צהל",
-        "זכויות",
-        "מענקים",
-        "משפחות מילואים",
-        "טפסים"
-      ],
-      "createdAt": "2026-11-21T18:55:00+02:00",
-      "verified": true,
-      "organizationType": "official"
-    },
-    {
-      "name": "NationalDroneInitiative",
-      "displayName": "מיזם הרחפנים הלאומי - National Drone Initiative",
-      "shortDescription": "התנדבות ליוזמות הטסה",
-      "description": "מיזם הרחפנים הלאומי עוסק בהסדרת המרחב האווירי ובניית תשתיות רגולטוריות להטסת כלים אוטונומיים לתועלת הציבור.",
-      "url": "https://innovationisrael.org.il/civiliandronecenter/",
-      "website": "https://innovationisrael.org.il/civiliandronecenter/",
-      "initiativeValidationDetails": "המקור: קבוצת וואטסאפ. קישור למקור מהימן שמקדם את המיזם: https://innovationisrael.org.il/civiliandronecenter/. האתר הרשמי של רשות החדשנות.",
-      "initiativeImage": "https://innovationisrael.org.il/wp-content/uploads/2023/10/Untitled-1-1024x188.png",
-      "tags": [
-        "התנדבות",
-        "רחפנים",
-        "הרחפנים הלאומי",
-        "רחפן",
-        "טכנולוגיה"
-      ],
-      "createdAt": "2023-10-27T12:17:44+03:00",
-      "verified": true,
-      "organizationType": "official"
-    }
-  ]
+	"name": "Main",
+	"displayName": "ראשי",
+	"links": [
+		{
+			"name": "MiluimIDF",
+			"displayName": "אתר המילואים הרשמי של צה״ל",
+			"shortDescription": "זכויות, תגמולים, מענקים, טפסים ושירותים למשרתי המילואים ומשפחותיהם",
+			"description": "הפורטל הרשמי למשרתי המילואים בצה״ל: מידע עדכני על מענקים, זכויות בעבודה ובלימודים, אישורי מילואים, הטבות ושירותים למשפחות.",
+			"url": "https://www.miluim.idf.il/",
+			"website": "https://www.miluim.idf.il/",
+			"intents": [
+				"get-help"
+			],
+			"tags": [
+				"מילואים",
+				"צהל",
+				"זכויות",
+				"מענקים",
+				"משפחות מילואים",
+				"טפסים"
+			],
+			"createdAt": "2026-11-21T18:55:00+02:00",
+			"verified": true,
+			"organizationType": "official",
+			"references": [
+				{
+					"url": "https://he.wikipedia.org/wiki/%D7%A9%D7%99%D7%A8%D7%95%D7%AA_%D7%94%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D_%D7%91%D7%99%D7%A9%D7%A8%D7%90%D7%9C",
+					"type": "registry",
+					"source": "Wikipedia",
+					"title": "שירות המילואים בישראל (ויקיפדיה)"
+				}
+			]
+		},
+		{
+			"name": "NationalDroneInitiative",
+			"displayName": "מיזם הרחפנים הלאומי - National Drone Initiative",
+			"shortDescription": "התנדבות ליוזמות הטסה",
+			"description": "מיזם הרחפנים הלאומי עוסק בהסדרת המרחב האווירי ובניית תשתיות רגולטוריות להטסת כלים אוטונומיים לתועלת הציבור.",
+			"url": "https://innovationisrael.org.il/civiliandronecenter/",
+			"website": "https://innovationisrael.org.il/civiliandronecenter/",
+			"initiativeValidationDetails": "המקור: קבוצת וואטסאפ. קישור למקור מהימן שמקדם את המיזם: https://innovationisrael.org.il/civiliandronecenter/. האתר הרשמי של רשות החדשנות.",
+			"initiativeImage": "https://innovationisrael.org.il/wp-content/uploads/2023/10/Untitled-1-1024x188.png",
+			"tags": [
+				"התנדבות",
+				"רחפנים",
+				"הרחפנים הלאומי",
+				"רחפן",
+				"טכנולוגיה"
+			],
+			"createdAt": "2023-10-27T12:17:44+03:00",
+			"verified": true,
+			"organizationType": "official"
+		}
+	]
 }

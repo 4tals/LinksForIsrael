@@ -1,8 +1,13 @@
-name: Add reference / article / post
-description: Add a press article, GuideStar registry page, X post, or other reference to an existing initiative
+name: Add third-party mention / coverage
+description: Add an independent press article, Wikipedia/GuideStar entry, TV/YouTube interview, podcast, or third-party recommendation for an initiative
 title: "[REFERENCE]: "
 labels: ["reference"]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Submit an **independent third-party source** mentioning or recommending an initiative (not the organization's own website or LinkedIn/Facebook profile page).
+
   - type: input
     id: initiative
     attributes:
@@ -14,8 +19,8 @@ body:
   - type: input
     id: reference_url
     attributes:
-      label: Reference URL
-      description: Direct link to the article, X/Twitter post, LinkedIn post, or GuideStar page
+      label: Third-Party Mention URL
+      description: Direct link to the press article, Wikipedia/GuideStar record, video/podcast interview, blog post, or independent post by another person/org
       placeholder: https://www.ynet.co.il/...
     validations:
       required: true
@@ -23,14 +28,18 @@ body:
   - type: dropdown
     id: reference_type
     attributes:
-      label: Reference Type
+      label: Mention Type
       options:
         - article (Press / news article)
-        - registry (GuideStar Israel / Wikipedia)
-        - official (Government / official body)
-        - x_post (X / Twitter post)
-        - linkedin (LinkedIn post)
-        - social (Facebook / Instagram / YouTube)
+        - registry (GuideStar Israel / Wikipedia / Midot)
+        - official (Government / municipality / official body)
+        - video (TV segment / YouTube interview)
+        - podcast (Podcast / radio episode)
+        - blog (Independent blog / Substack / fact-checker)
+        - endorsement (Independent recommendation by another person/org)
+        - x_post (Independent X / Twitter post by someone else)
+        - linkedin (Independent LinkedIn post by someone else)
+        - social (Independent community post)
         - other
     validations:
       required: true
@@ -38,16 +47,34 @@ body:
   - type: input
     id: source
     attributes:
-      label: Source Name
-      placeholder: Ynet / Calcalist / X / GuideStar Israel
+      label: Source / Publication Name
+      placeholder: Ynet / Calcalist / Kan 11 / Wikipedia / GuideStar Israel
+    validations:
+      required: false
+
+  - type: input
+    id: author
+    attributes:
+      label: Author / Recommender (optional)
+      description: Who wrote the article or posted the recommendation? (e.g., journalist name, @handle, municipality)
+      placeholder: "@royesal / כאן 11 / עיריית תל אביב"
     validations:
       required: false
 
   - type: input
     id: title
     attributes:
-      label: Short Title or Summary (optional)
+      label: Headline or Short Summary (optional)
       placeholder: Article headline or brief context
+    validations:
+      required: false
+
+  - type: textarea
+    id: quote
+    attributes:
+      label: Highlight Quote / Why Recommended (optional)
+      description: Optional 1-sentence excerpt explaining why this source mentioned or vouched for the initiative
+      placeholder: Short quote or summary
     validations:
       required: false
 

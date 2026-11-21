@@ -43,6 +43,12 @@ const expectedHostErrors = {
 	"rebrand.ly": "FORBIDDEN",
 	"easy.co.il": "FORBIDDEN",
 	"go.easy.co.il": "FORBIDDEN",
+	"www.guidestar.org.il": "FORBIDDEN",
+	"www.facebook.com": "FORBIDDEN",
+	"facebook.com": "FORBIDDEN",
+	"www.linkedin.com": "999",
+	"twitter.com": "FORBIDDEN",
+	"x.com": "FORBIDDEN",
 };
 
 const SUSPICIOUS_CONTENT_PATTERNS = [
@@ -211,6 +217,36 @@ for (const dirent of dirents) {
 
 		for (const prop in link) {
 			const val = link[prop];
+
+			if (prop === "references" && Array.isArray(val)) {
+				for (let refIdx = 0; refIdx < val.length; refIdx++) {
+					const refUrlStr = val[refIdx]?.url;
+					if (
+						typeof refUrlStr !== "string" ||
+						!refUrlStr.toLocaleUpperCase("en-us").startsWith("HTTP")
+					) {
+						continue;
+					}
+					let refUrl;
+					try {
+						refUrl = new URL(refUrlStr.trim());
+					} catch {
+						continue;
+					}
+					if (processedUrls.has(refUrl.href)) continue;
+					processedUrls.add(refUrl.href);
+					fetchPromises.push(
+						concurrencyLimit(
+							checkUrlAvailabilityAsync,
+							absolutePath,
+							link.name,
+							`references[${refIdx}]`,
+							refUrl,
+						),
+					);
+				}
+				continue;
+			}
 
 			if (typeof val !== "string") continue;
 			if (!val.toLocaleUpperCase("en-us").startsWith("HTTP")) continue;

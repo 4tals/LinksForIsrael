@@ -1,127 +1,219 @@
 {
-  "name": "MentalSupport",
-  "displayName": "תמיכה נפשית",
-  "links": [
-    {
-      "name": "ERAN",
-      "displayName": "ער״ן – עזרה ראשונה נפשית",
-      "shortDescription": "סיוע נפשי מיידי, אנונימי וחינמי 24/7 בטלפון 1201, בצ׳אט ובוואטסאפ",
-      "description": "עמותת ער״ן מעניקה עזרה ראשונה נפשית לכל אדם במצוקה, בחרדה או במשבר — 24 שעות ביממה, 7 ימים בשבוע, באופן אנונימי וחינמי בטלפון 1201 ובאונליין.",
-      "url": "https://www.eran.org.il/",
-      "website": "https://www.eran.org.il/",
-      "phone": "1201",
-      "intents": [
-        "get-help",
-        "volunteer",
-        "donate"
-      ],
-      "tags": [
-        "ערן",
-        "סיוע נפשי",
-        "1201",
-        "חרדה",
-        "מצוקה",
-        "חינם",
-        "24/7"
-      ],
-      "createdAt": "2026-11-21T18:55:00+02:00",
-      "verified": true,
-      "organizationType": "ngo",
-      "taxDeductible46": true
-    },
-    {
-      "name": "NATAL",
-      "displayName": "נט״ל – נפגעי טראומה על רקע לאומי",
-      "shortDescription": "קו סיוע וטיפול נפשי לנפגעי טראומה, מלחמה, מילואים וטרור",
-      "description": "נט״ל מספקת סיוע נפשי מקצועי, קו סיוע 24/7 וטיפולים ארוכי טווח לאזרחים, חיילים, מילואימניקים ובני משפחותיהם המתמודדים עם חרדה וטראומה.",
-      "url": "https://www.natal.org.il/",
-      "website": "https://www.natal.org.il/",
-      "phone": "1-800-363-363",
-      "intents": [
-        "get-help",
-        "donate"
-      ],
-      "tags": [
-        "נטל",
-        "טראומה",
-        "פוסט טראומה",
-        "סיוע נפשי",
-        "מילואים",
-        "חרדה"
-      ],
-      "createdAt": "2026-11-21T18:55:00+02:00",
-      "verified": true,
-      "organizationType": "ngo",
-      "taxDeductible46": true
-    },
-    {
-      "name": "SAHAR",
-      "displayName": "סה״ר – סיוע והקשבה ברשת",
-      "shortDescription": "צ׳אט סיוע נפשי אנונימי ומיידי לאנשים במצוקה נפשית קשה",
-      "description": "עמותת סה״ר מפעילה מוקד צ׳אט אנונימי ומיידי לתמיכה נפשית ומניעת אובדנות, המופעל על ידי מתנדבים שהוכשרו לכך בליווי אנשי מקצוע.",
-      "url": "https://sahar.org.il/",
-      "website": "https://sahar.org.il/",
-      "intents": [
-        "get-help",
-        "volunteer",
-        "donate"
-      ],
-      "tags": [
-        "סהר",
-        "צאט",
-        "סיוע נפשי",
-        "תמיכה",
-        "אנונימי",
-        "הקשבה"
-      ],
-      "createdAt": "2026-11-21T18:55:00+02:00",
-      "verified": true,
-      "organizationType": "ngo",
-      "taxDeductible46": true
-    },
-    {
-      "name": "HugIntoTheNight",
-      "displayName": "חיבוק לתוך הלילה",
-      "shortDescription": "מיזם מהעורף האוסטרלי. לא מצליח.ה לישון? האחיות האוסטרליות שלך כאן בשבילך",
-      "description": "מיזם מהעורף האוסטרלי. לא מצליח.ה לישון? האחיות האוסטרליות שלך כאן בשבילך חברנו יחד כמה מנחות ומטפלות ישראליות שגרות באוסטרליה למיזם ״חיבוק לתוך הלילה״ - לתת עזרה למי שבישראל בשעות שהן הכי קשות להרבה מאיתנו - שעות הלילה. הזום שלנו פתוח מ23:00 עד 2:00 בלילה של ישראל. אם קשה לך לישון, אנחנו נהיה שם איתך לנשימה משותפת, שיתוף ואוורור רגשי, מרחב בטוח לביטוי ויחד. אל תשארו לבד עם נדודי השינה. בואו 🩷 קישור לקבוצת ווצאפ שבה נשלח את הקישורים והתזכורות",
-      "url": "https://chat.whatsapp.com/K7k9bNxAkTR398D034BiC8",
-      "whatsapp": "https://chat.whatsapp.com/K7k9bNxAkTR398D034BiC8",
-      "createdAt": "2023-10-21T16:47:59+03:00"
-    },
-    {
-      "name": "MentalSupportForm",
-      "displayName": "טופס לבקשת טיפול נפשי",
-      "shortDescription": "מערך מטפלים תודעתיים, רגשיים, תרפיית מימדים",
-      "description": "מערך מטפלים תודעתיים, רגשיים, תרפיית מימדים, NLP, EMP , מומחים בטראומה שיוכל לסייע לנפגעי נפש, חרדה וטראומה. אנו כ 70 מטפלים וזה עוד יגדל. המחזות קשים ונשמח לסייע ולעזור לכל מי שמעוניין מהעוטף, מהעורף, לילדים, מבוגרים, כוחות הביטחון, זק״א, מד״א וכל השאר. כמובן בהתנדבות ובאהבה ❤ כוחנו באחדותיינו זה הזמן להיות אחד למען השני. אנחנו פה בשבילכם ויחד ננצח את המצב נפשית, תודעתית וביטחונית. כל מי שזקוק לעזרה וטיפול אתם מוזמנים למלא את הטופס ונתאים לכם מטפל/ת. אני פה בשבילכם ❤ בעזרת השם ובעזרת עם ישראל נצא מחוזקים מהתקופה הזו יחד🙏",
-      "url": "https://docs.google.com/forms/d/e/1FAIpQLSe63ECMBD1YEmAbLovFTvpxek46ZCSuKV9N2mT-G27tTwN2hA/viewform",
-      "docs": "https://docs.google.com/forms/d/e/1FAIpQLSe63ECMBD1YEmAbLovFTvpxek46ZCSuKV9N2mT-G27tTwN2hA/viewform",
-      "createdAt": "2023-10-12T22:22:49+03:00"
-    },
-    {
-      "name": "SafeHeart",
-      "displayName": "לב בטוח",
-      "shortDescription": "לב בטוח - המערך לתמיכה בנפגעי פעולות הטרור במסיבות עוטף עזה",
-      "description": "אנחנו פרוייקט בריאות נפש חירומי אשר מופעל על ידי רשת של פסיכולוגים, פסיכיאטרים, עובדים סוציאלים קליניים, פסיכותרפיסטים ומדריכים קליניים מוסמכים, בעלי נסיון בעבודה עם חוויות טראומתיות קשות ובתחום מזעור הנזקים הפסיכדלי. אנחנו רק יכולים לתאר כמה קשה לעבור חוויה כזו קשה בזמן מסיבה. אנחנו פה לתמיכה בשביל כל מי שהיו במסיבות בעוטף עזה. אנחנו מבינים גם שחלקכם.ן הייתם.ן תחת השפעה של חומרים, ואולי חוויתם את התקיפה בצורה חזקה ומבלבלת עוד יותר.\n\nאנחנו מזמינים את כל מי שהיה במסיבה ברעים (ובמסיבות אחרות בעוטף) ורוצים לשתף, לדבר, ולקבל תמיכה ממטפלים מנוסים בעבודה עם חוויות טראומטיות קשות, המבינים מה זאת מסיבה ומנוסים בתמיכה באנשים שצרכו חומרים משני תודעה. כמובן שאפשר לפנות אלינו גם אם לא צרכתם.ן חומרים.\n\nיש פה קהילה של מטפלות ומטפלים מנוסים שמתנדבים לעזור, אפשר לבוא עם כל צורך ומצב. השבט של 'לב בטוח' פה בשבילכם. פנו למטפלים המתנדבים שלנו בטופס ונחזור אליכם בהקדם האפשרי!",
-      "initiativeValidationDetails": "https://twitter.com/royesal/status/1711375837864276107",
-      "url": "https://www.safeheartil.com/",
-      "website": "https://www.safeheartil.com/",
-      "form": "https://www.safeheartil.com/signup",
-      "docs": "https://docs.google.com/spreadsheets/d/1cbOVeDNsokmoRjEtb73n9Kw8ew1n6MIx9ZWiMoKybsg/edit#gid=0",
-      "tags": [
-        "טראומה",
-        "בריאות נפש"
-      ],
-      "createdAt": "2023-11-08T23:52:26+02:00",
-      "verified": true,
-      "organizationType": "ngo",
-      "taxDeductible46": true,
-      "references": [
-        {
-          "url": "https://twitter.com/royesal/status/1711375837864276107",
-          "type": "x_post",
-          "source": "X"
-        }
-      ]
-    }
-  ]
+	"name": "MentalSupport",
+	"displayName": "תמיכה נפשית",
+	"links": [
+		{
+			"name": "ERAN",
+			"displayName": "ער״ן – עזרה ראשונה נפשית",
+			"shortDescription": "סיוע נפשי מיידי, אנונימי וחינמי 24/7 בטלפון 1201, בצ׳אט ובוואטסאפ",
+			"description": "עמותת ער״ן מעניקה עזרה ראשונה נפשית לכל אדם במצוקה, בחרדה או במשבר — 24 שעות ביממה, 7 ימים בשבוע, באופן אנונימי וחינמי בטלפון 1201 ובאונליין.",
+			"url": "https://www.eran.org.il/",
+			"website": "https://www.eran.org.il/",
+			"phone": "1201",
+			"intents": [
+				"get-help",
+				"volunteer",
+				"donate"
+			],
+			"tags": [
+				"ערן",
+				"סיוע נפשי",
+				"1201",
+				"חרדה",
+				"מצוקה",
+				"חינם",
+				"24/7"
+			],
+			"createdAt": "2026-11-21T18:55:00+02:00",
+			"verified": true,
+			"organizationType": "ngo",
+			"taxDeductible46": true,
+			"references": [
+				{
+					"url": "https://he.wikipedia.org/wiki/%D7%A2%D7%A8%22%D7%9F",
+					"type": "registry",
+					"source": "Wikipedia",
+					"title": "ער״ן – עזרה ראשונה נפשית (ויקיפדיה)"
+				},
+				{
+					"url": "https://www.guidestar.org.il/organization/580030047",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "ער״ן – רישום עמותה וניהול תקין בגיידסטאר"
+				},
+				{
+					"url": "https://www.kolzchut.org.il/he/%D7%A2%D7%A8%22%D7%9F_-_%D7%A2%D7%96%D7%A8%D7%94_%D7%A8%D7%90%D7%A9%D7%95%D7%A0%D7%94_%D7%A0%D7%A4%D7%A9%D7%99%D7%AA_%D7%91%D7%98%D7%9C%D7%A4%D7%95%D7%9F_%D7%95%D7%91%D7%90%D7%99%D7%A0%D7%98%D7%A8%D7%A0%D7%98",
+					"type": "official",
+					"source": "כל זכות",
+					"title": "ער״ן – עזרה ראשונה נפשית בטלפון ובאינטרנט (מדריך זכויות)"
+				},
+				{
+					"url": "https://www.ynet.co.il/news/article/s1aelsmzzx",
+					"type": "article",
+					"source": "Ynet",
+					"title": "עמותת ער״ן מתגברת את מוקדי הסיוע בחירום"
+				}
+			]
+		},
+		{
+			"name": "NATAL",
+			"displayName": "נט״ל – נפגעי טראומה על רקע לאומי",
+			"shortDescription": "קו סיוע וטיפול נפשי לנפגעי טראומה, מלחמה, מילואים וטרור",
+			"description": "נט״ל מספקת סיוע נפשי מקצועי, קו סיוע 24/7 וטיפולים ארוכי טווח לאזרחים, חיילים, מילואימניקים ובני משפחותיהם המתמודדים עם חרדה וטראומה.",
+			"url": "https://www.natal.org.il/",
+			"website": "https://www.natal.org.il/",
+			"phone": "1-800-363-363",
+			"intents": [
+				"get-help",
+				"donate"
+			],
+			"tags": [
+				"נטל",
+				"טראומה",
+				"פוסט טראומה",
+				"סיוע נפשי",
+				"מילואים",
+				"חרדה"
+			],
+			"createdAt": "2026-11-21T18:55:00+02:00",
+			"verified": true,
+			"organizationType": "ngo",
+			"taxDeductible46": true,
+			"references": [
+				{
+					"url": "https://he.wikipedia.org/wiki/%D7%A0%D7%98%22%D7%9C",
+					"type": "registry",
+					"source": "Wikipedia",
+					"title": "נט״ל – נפגעי טראומה על רקע לאומי (ויקיפדיה)"
+				},
+				{
+					"url": "https://www.guidestar.org.il/organization/580318129",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "נט״ל – רישום עמותה וניהול תקין בגיידסטאר"
+				},
+				{
+					"url": "https://www.ynet.co.il/news/article/r1y11t375",
+					"type": "article",
+					"source": "Ynet",
+					"title": "קו הסיוע של עמותת נט״ל פועל במתכונת חירום"
+				},
+				{
+					"url": "https://en.wikipedia.org/wiki/NATAL_Israel",
+					"type": "registry",
+					"source": "Wikipedia (EN)",
+					"title": "NATAL – Israel Trauma and Resiliency Center"
+				}
+			]
+		},
+		{
+			"name": "SAHAR",
+			"displayName": "סה״ר – סיוע והקשבה ברשת",
+			"shortDescription": "צ׳אט סיוע נפשי אנונימי ומיידי לאנשים במצוקה נפשית קשה",
+			"description": "עמותת סה״ר מפעילה מוקד צ׳אט אנונימי ומיידי לתמיכה נפשית ומניעת אובדנות, המופעל על ידי מתנדבים שהוכשרו לכך בליווי אנשי מקצוע.",
+			"url": "https://sahar.org.il/",
+			"website": "https://sahar.org.il/",
+			"intents": [
+				"get-help",
+				"volunteer",
+				"donate"
+			],
+			"tags": [
+				"סהר",
+				"צאט",
+				"סיוע נפשי",
+				"תמיכה",
+				"אנונימי",
+				"הקשבה"
+			],
+			"createdAt": "2026-11-21T18:55:00+02:00",
+			"verified": true,
+			"organizationType": "ngo",
+			"taxDeductible46": true,
+			"references": [
+				{
+					"url": "https://he.wikipedia.org/wiki/%D7%A2%D7%9E%D7%95%D7%AA%D7%AA_%D7%A1%D7%94%22%D7%A8",
+					"type": "registry",
+					"source": "Wikipedia",
+					"title": "עמותת סה״ר – סיוע והקשבה ברשת (ויקיפדיה)"
+				},
+				{
+					"url": "https://www.guidestar.org.il/organization/580399681",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "עמותת סה״ר – רישום וניהול תקין בגיידסטאר"
+				},
+				{
+					"url": "https://www.ynet.co.il/health/article/Hy8MIrNJv",
+					"type": "article",
+					"source": "Ynet",
+					"title": "דו״ח עמותת סה״ר: זינוק בפניות על רקע בדידות ומצוקה נפשית"
+				}
+			]
+		},
+		{
+			"name": "HugIntoTheNight",
+			"displayName": "חיבוק לתוך הלילה",
+			"shortDescription": "מיזם מהעורף האוסטרלי. לא מצליח.ה לישון? האחיות האוסטרליות שלך כאן בשבילך",
+			"description": "מיזם מהעורף האוסטרלי. לא מצליח.ה לישון? האחיות האוסטרליות שלך כאן בשבילך חברנו יחד כמה מנחות ומטפלות ישראליות שגרות באוסטרליה למיזם ״חיבוק לתוך הלילה״ - לתת עזרה למי שבישראל בשעות שהן הכי קשות להרבה מאיתנו - שעות הלילה. הזום שלנו פתוח מ23:00 עד 2:00 בלילה של ישראל. אם קשה לך לישון, אנחנו נהיה שם איתך לנשימה משותפת, שיתוף ואוורור רגשי, מרחב בטוח לביטוי ויחד. אל תשארו לבד עם נדודי השינה. בואו 🩷 קישור לקבוצת ווצאפ שבה נשלח את הקישורים והתזכורות",
+			"url": "https://chat.whatsapp.com/K7k9bNxAkTR398D034BiC8",
+			"whatsapp": "https://chat.whatsapp.com/K7k9bNxAkTR398D034BiC8",
+			"createdAt": "2023-10-21T16:47:59+03:00"
+		},
+		{
+			"name": "MentalSupportForm",
+			"displayName": "טופס לבקשת טיפול נפשי",
+			"shortDescription": "מערך מטפלים תודעתיים, רגשיים, תרפיית מימדים",
+			"description": "מערך מטפלים תודעתיים, רגשיים, תרפיית מימדים, NLP, EMP , מומחים בטראומה שיוכל לסייע לנפגעי נפש, חרדה וטראומה. אנו כ 70 מטפלים וזה עוד יגדל. המחזות קשים ונשמח לסייע ולעזור לכל מי שמעוניין מהעוטף, מהעורף, לילדים, מבוגרים, כוחות הביטחון, זק״א, מד״א וכל השאר. כמובן בהתנדבות ובאהבה ❤ כוחנו באחדותיינו זה הזמן להיות אחד למען השני. אנחנו פה בשבילכם ויחד ננצח את המצב נפשית, תודעתית וביטחונית. כל מי שזקוק לעזרה וטיפול אתם מוזמנים למלא את הטופס ונתאים לכם מטפל/ת. אני פה בשבילכם ❤ בעזרת השם ובעזרת עם ישראל נצא מחוזקים מהתקופה הזו יחד🙏",
+			"url": "https://docs.google.com/forms/d/e/1FAIpQLSe63ECMBD1YEmAbLovFTvpxek46ZCSuKV9N2mT-G27tTwN2hA/viewform",
+			"docs": "https://docs.google.com/forms/d/e/1FAIpQLSe63ECMBD1YEmAbLovFTvpxek46ZCSuKV9N2mT-G27tTwN2hA/viewform",
+			"createdAt": "2023-10-12T22:22:49+03:00"
+		},
+		{
+			"name": "SafeHeart",
+			"displayName": "לב בטוח",
+			"shortDescription": "לב בטוח - המערך לתמיכה בנפגעי פעולות הטרור במסיבות עוטף עזה",
+			"description": "אנחנו פרוייקט בריאות נפש חירומי אשר מופעל על ידי רשת של פסיכולוגים, פסיכיאטרים, עובדים סוציאלים קליניים, פסיכותרפיסטים ומדריכים קליניים מוסמכים, בעלי נסיון בעבודה עם חוויות טראומתיות קשות ובתחום מזעור הנזקים הפסיכדלי. אנחנו רק יכולים לתאר כמה קשה לעבור חוויה כזו קשה בזמן מסיבה. אנחנו פה לתמיכה בשביל כל מי שהיו במסיבות בעוטף עזה. אנחנו מבינים גם שחלקכם.ן הייתם.ן תחת השפעה של חומרים, ואולי חוויתם את התקיפה בצורה חזקה ומבלבלת עוד יותר.\n\nאנחנו מזמינים את כל מי שהיה במסיבה ברעים (ובמסיבות אחרות בעוטף) ורוצים לשתף, לדבר, ולקבל תמיכה ממטפלים מנוסים בעבודה עם חוויות טראומטיות קשות, המבינים מה זאת מסיבה ומנוסים בתמיכה באנשים שצרכו חומרים משני תודעה. כמובן שאפשר לפנות אלינו גם אם לא צרכתם.ן חומרים.\n\nיש פה קהילה של מטפלות ומטפלים מנוסים שמתנדבים לעזור, אפשר לבוא עם כל צורך ומצב. השבט של 'לב בטוח' פה בשבילכם. פנו למטפלים המתנדבים שלנו בטופס ונחזור אליכם בהקדם האפשרי!",
+			"initiativeValidationDetails": "https://twitter.com/royesal/status/1711375837864276107",
+			"url": "https://www.safeheartil.com/",
+			"website": "https://www.safeheartil.com/",
+			"form": "https://www.safeheartil.com/signup",
+			"docs": "https://docs.google.com/spreadsheets/d/1cbOVeDNsokmoRjEtb73n9Kw8ew1n6MIx9ZWiMoKybsg/edit#gid=0",
+			"tags": [
+				"טראומה",
+				"בריאות נפש"
+			],
+			"createdAt": "2023-11-08T23:52:26+02:00",
+			"verified": true,
+			"organizationType": "ngo",
+			"taxDeductible46": true,
+			"references": [
+				{
+					"url": "https://www.ynet.co.il/activism/article/skcqv111a1x",
+					"type": "article",
+					"source": "Ynet",
+					"title": "״תחת אש פיתחנו מודלים לטיפול בטראומה״: מיזמים ישראליים מוצגים באו״ם"
+				},
+				{
+					"url": "https://www.calcalist.co.il/local_news/article/h1yiferszx",
+					"type": "article",
+					"source": "Calcalist",
+					"title": "מי שומר על המטפלים? כיפת הברזל של הנפש הישראלית"
+				},
+				{
+					"url": "https://www.mako.co.il/health-magazine/Article-e2f9c873ad0d391027.htm",
+					"type": "article",
+					"source": "Mako / N12",
+					"title": "אסון מסיבות הטבע: מי מטפל במטפלים?"
+				},
+				{
+					"url": "https://twitter.com/royesal/status/1711375837864276107",
+					"type": "x_post",
+					"source": "X",
+					"author": "@royesal",
+					"title": "המלצה ציבורית מוקדמת על מערך הסיוע לב בטוח"
+				}
+			]
+		}
+	]
 }

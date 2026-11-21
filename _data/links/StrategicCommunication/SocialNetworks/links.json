@@ -1,176 +1,159 @@
 {
-  "name": "SocialNetworks",
-  "displayName": "רשתות חברתיות",
-  "links": [
-    {
-      "name": "HamalHasbara",
-      "displayName": "חמל הסברה חרבות ברזל",
-      "shortDescription": "הסברה אפקטיבית במדיה החברתית",
-      "description": "קבוצת פייסבוק עם 6000 משתתפים בעברית. יצירת סרטוני הסברה, תרגום לשפות והפצה יעילה ואפקטיבית על ידי שימוש בכלים מתקדמים. שימוש אפקטיבי במדייה החברתית. הדרכות",
-      "initiativeValidationDetails": "קבוצת פייסבוק עברית https://facebook.com/groups/civiladvocacyisrael/ וואטסאפ עברית https://chat.whatsapp.com/EngMkWhPAXkKp4ejdP5EtK קבוצת פייסבוק דוברי אנגלית https://www.facebook.com/groups/swordsofironsupportil אינסטגרם https://www.instagram.com/civiladvocacyil/",
-      "url": "https://www.facebook.com/groups/697258502313200",
-      "initiativeImage": "/images/חמל הסברה חרבות ברזל-9afb4cc0-c771-41a1-be86-f4dfa0f1e893.jpeg",
-      "website": "https://facebook.com/groups/civiladvocacyisrael/",
-      "phone": "0524257575",
-      "email": "hershkoy@gmail.com",
-      "whatsapp": "0524257575",
-      "drive": "https://bit.ly/IsraeliAdvocacyMaterials",
-      "instagram": "https://www.instagram.com/civiladvocacyil",
-      "tiktok": "https://www.tiktok.com/@civiladvocacyil",
-      "tags": [
-        "social media",
-        "hasbara",
-        "מדיה חברתית",
-        "הסברה",
-        "סרטונים",
-        "תרגומים",
-        "הפצה"
-      ],
-      "createdAt": "2023-11-30T17:05:16+02:00",
-      "references": [
-        {
-          "url": "https://facebook.com/groups/civiladvocacyisrael/",
-          "type": "social",
-          "source": "Facebook"
-        },
-        {
-          "url": "https://www.facebook.com/groups/swordsofironsupportil",
-          "type": "social",
-          "source": "Facebook"
-        },
-        {
-          "url": "https://www.instagram.com/civiladvocacyil/",
-          "type": "social",
-          "source": "Instagram"
-        }
-      ]
-    },
-    {
-      "name": "LinkedInPublicity",
-      "displayName": "קול קורא: בואו תעזרו לנו בהסברה בלינקדאין",
-      "description": "קבוצה של משפיענים בלינקדאין להגדיל חשיפה, חידוד מסרים, דיווחים על פרופילים ועוד.",
-      "shortDescription": "קבוצה של משפיענים בלינקדאין להגדיל חשיפה, חידוד מסרים, דיווחים על פרופילים ועוד.",
-      "initiativeValidationDetails": "קורא: אני שוחחתי עם הקולגה שלי, הוא לשעבר עובד ב-MS, מאמת כל חבר חדש",
-      "url": "https://chat.whatsapp.com/EQopAWUyRrt8IIg5M7ZvbV",
-      "whatsapp": "https://chat.whatsapp.com/EQopAWUyRrt8IIg5M7ZvbV",
-      "docs": "https://docs.google.com/spreadsheets/d/1z9-2aXt_CmmAOyXEhtoGO-G0HEM-2fx8MGIn3AzLRNk/edit?usp=sharing",
-      "tags": [
-        "הסברה",
-        "לינקדאין",
-        "משפיענים",
-        "חשיפה"
-      ],
-      "createdAt": "2023-10-23T20:37:53+03:00"
-    },
-    {
-      "name": "scooper",
-      "displayName": "Scooper - ניטור ומחקר ברשת",
-      "shortDescription": "ניתור ומחקר ברשת, מאפשר לראות פוסטים טרנדים לפי איזורים ופוסטים עם הכי הרבה מעורבות",
-      "description": "ניתור ומחקר ברשת, מאפשר לראות פוסטים טרנדים לפי איזורים ופוסטים עם הכי הרבה מעורבות",
-      "initiativeValidationDetails": "Verified Manually by @4tal",
-      "url": "https://access.scooper.co.il/app/project/7821ad26-cc00-4a3f-998b-a3521c2f7cfe/shared_dashboard/export_Scooper6_hVq6X5yN.html#/SHARED_DASHBOARD#co=project&cid=7821ad26-cc00-4a3f-998b-a3521c2f7cfe&psid=export_Scooper6_hVq6X5yN.html&keyid=undefined&data=eyJyIjp7ImEiOnsiYWN0aXZlUGFnZUlkIjoiREVGQVVMVC1EQVNILVNFQ1RJT04ifSwiaSI6IlNIQVJFRF9EQVNIQk9BUkQiLCJzIjpbXX19",
-      "initiativeImage": "https://access.scooper.co.il/app/image/ae8a9c0a-2f60-4b7a-b00e-25332e68583a",
-      "website": "https://access.scooper.co.il/app/project/7821ad26-cc00-4a3f-998b-a3521c2f7cfe/shared_dashboard/export_Scooper6_hVq6X5yN.html#/SHARED_DASHBOARD#co=project&cid=7821ad26-cc00-4a3f-998b-a3521c2f7cfe&psid=export_Scooper6_hVq6X5yN.html&keyid=undefined&data=eyJyIjp7ImEiOnsiYWN0aXZlUGFnZUlkIjoiREVGQVVMVC1EQVNILVNFQ1RJT04ifSwiaSI6IlNIQVJFRF9EQVNIQk9BUkQiLCJzIjpbXX19",
-      "tags": [
-        "ניטור",
-        "מחקר",
-        "פוסטים"
-      ],
-      "createdAt": "2023-11-24T15:28:39+02:00"
-    },
-    {
-      "name": "SocialNetworksReportWhatsapp",
-      "displayName": "דיווח על עמודים - חרבות ברזל",
-      "shortDescription": "קבוצה לדיווח על פירסומים אנטי-ישראלים, פוגעניים, ופייק ניוז",
-      "description": "קבוצה לדיווח על פירסומים אנטי-ישראלים, פוגעניים, ופייק ניוז",
-      "url": "https://chat.whatsapp.com/IKrNlfjrV8O5tBuBMpPOmV",
-      "whatsapp": "https://chat.whatsapp.com/IKrNlfjrV8O5tBuBMpPOmV",
-      "createdAt": "2023-10-12T22:22:49+03:00"
-    },
-    {
-      "name": "DigitalDome",
-      "displayName": "Digital Dome - דיגיטל דום",
-      "shortDescription": "הפסקת תוכן פגעני ברשת",
-      "description": "פלטפורמה לדיווח על תכנים זדוניים ברשת. מאימות ודיווח לרשתות להסרתם. התגייסות של כמה חברות הייטק ובכירים בתעשייה.",
-      "url": "https://digitaldome.io/",
-      "whatsapp": "https://tinyurl.com/digitaldome",
-      "twitter": "https://twitter.com/digidomee",
-      "tags": [
-        "הסברה",
-        "דיגיטל",
-        "הייטק",
-        "רשתות חברתיות",
-        "הסרת תוכן",
-        "דיווח"
-      ],
-      "createdAt": "2023-10-24T10:29:00+03:00"
-    },
-    {
-      "name": "BotEmetHaBarzel",
-      "displayName": "בוט אמת הברזל",
-      "description": "בוט לדיווח על תכנים שקריים ברשתות החברתיות, עזרו לדווח על תכנים מסיתים שברשת - אלפי מתנדבים ",
-      "shortDescription": "בוט לדיווח על תכנים שקריים ברשתות החברתיות, עזרו לדווח על תכנים מסיתים שברשת ",
-      "url": "https://t.me/IronTruthBot",
-      "telegram": "https://t.me/IronTruthBot",
-      "tags": [
-        "בוט",
-        "דיווח",
-        "תכנים",
-        "שקריים",
-        "רשתות",
-        "חברתיות",
-        "הסתה"
-      ],
-      "createdAt": "2023-10-24T20:11:16+03:00"
-    },
-    {
-      "name": "StopAntisemitism",
-      "displayName": "Stop Antisemitism",
-      "shortDescription": "Leading Non-Partisan U.S Based Organization Fighting & Exposing Antisemitism",
-      "description": "StopAntisemitism is a grassroots watchdog organization dedicated to exposing groups and individuals that espouse incitement towards the Jewish people and State and engage in antisemitic behaviors. Founded in 2018, StopAntisemitism was born in response to increasing antisemitic violence and sentiment across the United States. StopAntisemitism has developed a unique and dedicated following, reaching millions of actively engaged individuals through social media, mailers, and its website. By publicly exposing antisemites, StopAntisemitism has created an environment where those who propagate hatred against the Jewish people are met with real-world consequences including but not limited to job loss and school expulsions. StopAntisemitism also produces reports on the state of antisemitism in the United States.",
-      "initiativeValidationDetails": "https://www.ynet.co.il/judaism/discourse/article/bjwvwpoxt",
-      "url": "https://www.stopantisemitism.org/",
-      "website": "https://www.stopantisemitism.org/",
-      "facebook": "https://www.facebook.com/StopAntisemitismOrg/",
-      "instagram": "https://www.instagram.com/stop_antisemitism/",
-      "twitter": "https://twitter.com/StopAntisemites",
-      "donation": "https://www.stopantisemitism.org/donate",
-      "initiativeImage": "https://images.squarespace-cdn.com/content/v1/5cc20f51ca525b73bdd50e3a/fe206690-25d0-4a9f-88ce-0f2d75dc7e1c/2+small+SA+2022+Logo+for+web.png?format=1500w",
-      "tags": [
-        "אנטישמיות",
-        "ארגון",
-        "ארה\"ב",
-        "מאבק אנטישמיות"
-      ],
-      "createdAt": "2023-11-11T15:29:07+02:00",
-      "verified": true,
-      "organizationType": "ngo",
-      "references": [
-        {
-          "url": "https://www.ynet.co.il/judaism/discourse/article/bjwvwpoxt",
-          "type": "article",
-          "source": "Ynet"
-        }
-      ]
-    },
-    {
-      "name": "niliOnline",
-      "displayName": "ניל״י-אונליין",
-      "shortDescription": "דיווח על סטודנטים תומכי טרור. נזכור כל מי שהביע אהדה, שמחה ושבח.",
-      "description": "פרויקט הדיווח של סטודנטים תומכי טרור. יוצר ע״י אזרחים שרוצים לזכור כל מי שהביע אהדה, שמחה ושבח.",
-      "url": "https://t.me/onlinenili",
-      "initiativeValidationDetails": "נילי-אונליין מאפשר לדווח באמצעות טופס ייעודי או דרך פייסבוק קישור עמוד הפייסבוק זמין בתיאור.",
-      "telegram": "https://t.me/onlinenili",
-      "form": "https://forms.gle/WYi2Vs55iead9zYj9",
-      "facebook": "https://www.facebook.com/profile.php?id=61552513511608",
-      "tags": [
-        "דיווח תומכי טרור",
-        "נילי-אונליין",
-        "חברה",
-        "אוניברסיטה",
-        "רשתות-חברתיות"
-      ],
-      "createdAt": "2023-10-27T12:11:10+03:00"
-    }
-  ]
+	"name": "SocialNetworks",
+	"displayName": "רשתות חברתיות",
+	"links": [
+		{
+			"name": "HamalHasbara",
+			"displayName": "חמל הסברה חרבות ברזל",
+			"shortDescription": "הסברה אפקטיבית במדיה החברתית",
+			"description": "קבוצת פייסבוק עם 6000 משתתפים בעברית. יצירת סרטוני הסברה, תרגום לשפות והפצה יעילה ואפקטיבית על ידי שימוש בכלים מתקדמים. שימוש אפקטיבי במדייה החברתית. הדרכות",
+			"initiativeValidationDetails": "קבוצת פייסבוק עברית https://facebook.com/groups/civiladvocacyisrael/ וואטסאפ עברית https://chat.whatsapp.com/EngMkWhPAXkKp4ejdP5EtK קבוצת פייסבוק דוברי אנגלית https://www.facebook.com/groups/swordsofironsupportil אינסטגרם https://www.instagram.com/civiladvocacyil/",
+			"url": "https://www.facebook.com/groups/697258502313200",
+			"initiativeImage": "/images/חמל הסברה חרבות ברזל-9afb4cc0-c771-41a1-be86-f4dfa0f1e893.jpeg",
+			"website": "https://facebook.com/groups/civiladvocacyisrael/",
+			"phone": "0524257575",
+			"email": "hershkoy@gmail.com",
+			"whatsapp": "0524257575",
+			"drive": "https://bit.ly/IsraeliAdvocacyMaterials",
+			"instagram": "https://www.instagram.com/civiladvocacyil",
+			"tiktok": "https://www.tiktok.com/@civiladvocacyil",
+			"tags": [
+				"social media",
+				"hasbara",
+				"מדיה חברתית",
+				"הסברה",
+				"סרטונים",
+				"תרגומים",
+				"הפצה"
+			],
+			"createdAt": "2023-11-30T17:05:16+02:00"
+		},
+		{
+			"name": "LinkedInPublicity",
+			"displayName": "קול קורא: בואו תעזרו לנו בהסברה בלינקדאין",
+			"description": "קבוצה של משפיענים בלינקדאין להגדיל חשיפה, חידוד מסרים, דיווחים על פרופילים ועוד.",
+			"shortDescription": "קבוצה של משפיענים בלינקדאין להגדיל חשיפה, חידוד מסרים, דיווחים על פרופילים ועוד.",
+			"initiativeValidationDetails": "קורא: אני שוחחתי עם הקולגה שלי, הוא לשעבר עובד ב-MS, מאמת כל חבר חדש",
+			"url": "https://chat.whatsapp.com/EQopAWUyRrt8IIg5M7ZvbV",
+			"whatsapp": "https://chat.whatsapp.com/EQopAWUyRrt8IIg5M7ZvbV",
+			"docs": "https://docs.google.com/spreadsheets/d/1z9-2aXt_CmmAOyXEhtoGO-G0HEM-2fx8MGIn3AzLRNk/edit?usp=sharing",
+			"tags": [
+				"הסברה",
+				"לינקדאין",
+				"משפיענים",
+				"חשיפה"
+			],
+			"createdAt": "2023-10-23T20:37:53+03:00"
+		},
+		{
+			"name": "scooper",
+			"displayName": "Scooper - ניטור ומחקר ברשת",
+			"shortDescription": "ניתור ומחקר ברשת, מאפשר לראות פוסטים טרנדים לפי איזורים ופוסטים עם הכי הרבה מעורבות",
+			"description": "ניתור ומחקר ברשת, מאפשר לראות פוסטים טרנדים לפי איזורים ופוסטים עם הכי הרבה מעורבות",
+			"initiativeValidationDetails": "Verified Manually by @4tal",
+			"url": "https://access.scooper.co.il/app/project/7821ad26-cc00-4a3f-998b-a3521c2f7cfe/shared_dashboard/export_Scooper6_hVq6X5yN.html#/SHARED_DASHBOARD#co=project&cid=7821ad26-cc00-4a3f-998b-a3521c2f7cfe&psid=export_Scooper6_hVq6X5yN.html&keyid=undefined&data=eyJyIjp7ImEiOnsiYWN0aXZlUGFnZUlkIjoiREVGQVVMVC1EQVNILVNFQ1RJT04ifSwiaSI6IlNIQVJFRF9EQVNIQk9BUkQiLCJzIjpbXX19",
+			"initiativeImage": "https://access.scooper.co.il/app/image/ae8a9c0a-2f60-4b7a-b00e-25332e68583a",
+			"website": "https://access.scooper.co.il/app/project/7821ad26-cc00-4a3f-998b-a3521c2f7cfe/shared_dashboard/export_Scooper6_hVq6X5yN.html#/SHARED_DASHBOARD#co=project&cid=7821ad26-cc00-4a3f-998b-a3521c2f7cfe&psid=export_Scooper6_hVq6X5yN.html&keyid=undefined&data=eyJyIjp7ImEiOnsiYWN0aXZlUGFnZUlkIjoiREVGQVVMVC1EQVNILVNFQ1RJT04ifSwiaSI6IlNIQVJFRF9EQVNIQk9BUkQiLCJzIjpbXX19",
+			"tags": [
+				"ניטור",
+				"מחקר",
+				"פוסטים"
+			],
+			"createdAt": "2023-11-24T15:28:39+02:00"
+		},
+		{
+			"name": "SocialNetworksReportWhatsapp",
+			"displayName": "דיווח על עמודים - חרבות ברזל",
+			"shortDescription": "קבוצה לדיווח על פירסומים אנטי-ישראלים, פוגעניים, ופייק ניוז",
+			"description": "קבוצה לדיווח על פירסומים אנטי-ישראלים, פוגעניים, ופייק ניוז",
+			"url": "https://chat.whatsapp.com/IKrNlfjrV8O5tBuBMpPOmV",
+			"whatsapp": "https://chat.whatsapp.com/IKrNlfjrV8O5tBuBMpPOmV",
+			"createdAt": "2023-10-12T22:22:49+03:00"
+		},
+		{
+			"name": "DigitalDome",
+			"displayName": "Digital Dome - דיגיטל דום",
+			"shortDescription": "הפסקת תוכן פגעני ברשת",
+			"description": "פלטפורמה לדיווח על תכנים זדוניים ברשת. מאימות ודיווח לרשתות להסרתם. התגייסות של כמה חברות הייטק ובכירים בתעשייה.",
+			"url": "https://digitaldome.io/",
+			"whatsapp": "https://tinyurl.com/digitaldome",
+			"twitter": "https://twitter.com/digidomee",
+			"tags": [
+				"הסברה",
+				"דיגיטל",
+				"הייטק",
+				"רשתות חברתיות",
+				"הסרת תוכן",
+				"דיווח"
+			],
+			"createdAt": "2023-10-24T10:29:00+03:00"
+		},
+		{
+			"name": "BotEmetHaBarzel",
+			"displayName": "בוט אמת הברזל",
+			"description": "בוט לדיווח על תכנים שקריים ברשתות החברתיות, עזרו לדווח על תכנים מסיתים שברשת - אלפי מתנדבים ",
+			"shortDescription": "בוט לדיווח על תכנים שקריים ברשתות החברתיות, עזרו לדווח על תכנים מסיתים שברשת ",
+			"url": "https://t.me/IronTruthBot",
+			"telegram": "https://t.me/IronTruthBot",
+			"tags": [
+				"בוט",
+				"דיווח",
+				"תכנים",
+				"שקריים",
+				"רשתות",
+				"חברתיות",
+				"הסתה"
+			],
+			"createdAt": "2023-10-24T20:11:16+03:00"
+		},
+		{
+			"name": "StopAntisemitism",
+			"displayName": "Stop Antisemitism",
+			"shortDescription": "Leading Non-Partisan U.S Based Organization Fighting & Exposing Antisemitism",
+			"description": "StopAntisemitism is a grassroots watchdog organization dedicated to exposing groups and individuals that espouse incitement towards the Jewish people and State and engage in antisemitic behaviors. Founded in 2018, StopAntisemitism was born in response to increasing antisemitic violence and sentiment across the United States. StopAntisemitism has developed a unique and dedicated following, reaching millions of actively engaged individuals through social media, mailers, and its website. By publicly exposing antisemites, StopAntisemitism has created an environment where those who propagate hatred against the Jewish people are met with real-world consequences including but not limited to job loss and school expulsions. StopAntisemitism also produces reports on the state of antisemitism in the United States.",
+			"initiativeValidationDetails": "https://www.ynet.co.il/judaism/discourse/article/bjwvwpoxt",
+			"url": "https://www.stopantisemitism.org/",
+			"website": "https://www.stopantisemitism.org/",
+			"facebook": "https://www.facebook.com/StopAntisemitismOrg/",
+			"instagram": "https://www.instagram.com/stop_antisemitism/",
+			"twitter": "https://twitter.com/StopAntisemites",
+			"donation": "https://www.stopantisemitism.org/donate",
+			"initiativeImage": "https://images.squarespace-cdn.com/content/v1/5cc20f51ca525b73bdd50e3a/fe206690-25d0-4a9f-88ce-0f2d75dc7e1c/2+small+SA+2022+Logo+for+web.png?format=1500w",
+			"tags": [
+				"אנטישמיות",
+				"ארגון",
+				"ארה\"ב",
+				"מאבק אנטישמיות"
+			],
+			"createdAt": "2023-11-11T15:29:07+02:00",
+			"verified": true,
+			"organizationType": "ngo",
+			"references": [
+				{
+					"url": "https://www.ynet.co.il/judaism/discourse/article/bjwvwpoxt",
+					"type": "article",
+					"source": "Ynet"
+				}
+			]
+		},
+		{
+			"name": "niliOnline",
+			"displayName": "ניל״י-אונליין",
+			"shortDescription": "דיווח על סטודנטים תומכי טרור. נזכור כל מי שהביע אהדה, שמחה ושבח.",
+			"description": "פרויקט הדיווח של סטודנטים תומכי טרור. יוצר ע״י אזרחים שרוצים לזכור כל מי שהביע אהדה, שמחה ושבח.",
+			"url": "https://t.me/onlinenili",
+			"initiativeValidationDetails": "נילי-אונליין מאפשר לדווח באמצעות טופס ייעודי או דרך פייסבוק קישור עמוד הפייסבוק זמין בתיאור.",
+			"telegram": "https://t.me/onlinenili",
+			"form": "https://forms.gle/WYi2Vs55iead9zYj9",
+			"facebook": "https://www.facebook.com/profile.php?id=61552513511608",
+			"tags": [
+				"דיווח תומכי טרור",
+				"נילי-אונליין",
+				"חברה",
+				"אוניברסיטה",
+				"רשתות-חברתיות"
+			],
+			"createdAt": "2023-10-27T12:11:10+03:00"
+		}
+	]
 }

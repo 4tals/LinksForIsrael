@@ -4,6 +4,28 @@ import path from "path";
 const REPO_ROOT = process.cwd();
 const SITE_URL = "https://www.linksforisrael.com";
 
+function extractNormalizedHost(url) {
+	if (!url) return null;
+	try {
+		return new URL(url).hostname
+			.toLowerCase()
+			.replace(/^(www|m|he|en|news|nadlan)\./, "");
+	} catch {
+		return null;
+	}
+}
+
+function isThirdPartyReference(link, ref) {
+	const refHost = extractNormalizedHost(ref.url);
+	if (!refHost) return false;
+	const ownHosts = new Set(
+		[link.url, link.website, link.portal]
+			.map((u) => extractNormalizedHost(u))
+			.filter(Boolean),
+	);
+	return !ownHosts.has(refHost);
+}
+
 function computeRankScore(link) {
 	let score = 0;
 	if (link.verified) score += 35;
@@ -11,24 +33,42 @@ function computeRankScore(link) {
 	if (link.taxDeductible46) score += 10;
 
 	let officialRegPoints = 0;
-	let articlePoints = 0;
-	let socialPoints = 0;
+	let mediaPoints = 0;
+	let communityPoints = 0;
+	const distinctThirdPartyDomains = new Set();
+
 	for (const ref of link.references || []) {
+		if (!isThirdPartyReference(link, ref)) continue;
+
+		const host = extractNormalizedHost(ref.url);
+		if (host) distinctThirdPartyDomains.add(host);
+
 		if (ref.type === "official" || ref.type === "registry")
-			officialRegPoints += 15;
-		else if (ref.type === "article") articlePoints += 12;
+			officialRegPoints += 14;
 		else if (
+			ref.type === "article" ||
+			ref.type === "video" ||
+			ref.type === "podcast"
+		)
+			mediaPoints += 12;
+		else if (
+			ref.type === "blog" ||
+			ref.type === "endorsement" ||
 			ref.type === "x_post" ||
 			ref.type === "linkedin" ||
 			ref.type === "social"
 		)
-			socialPoints += 5;
-		else socialPoints += 3;
+			communityPoints += 6;
+		else communityPoints += 3;
 	}
 
-	score += Math.min(20, officialRegPoints);
-	score += Math.min(24, articlePoints);
-	score += Math.min(15, socialPoints);
+	score += Math.min(24, officialRegPoints);
+	score += Math.min(24, mediaPoints);
+	score += Math.min(15, communityPoints);
+
+	if (distinctThirdPartyDomains.size > 1) {
+		score += Math.min(9, (distinctThirdPartyDomains.size - 1) * 3);
+	}
 
 	if (link.website || link.url) score += 2;
 	if (link.phone) score += 2;
