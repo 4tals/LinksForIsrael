@@ -3,6 +3,138 @@
 	"displayName": "ראשי",
 	"links": [
 		{
+			"name": "ADIIsrael",
+			"displayName": "רשת עדי (עדי נגב – נחלת ערן ועדי ירושלים)",
+			"shortDescription": "מרכזי שיקום, חינוך מיוחד, בית החולים השיקומי בנגב וליווי למשפחות של ילדים ובוגרים עם מוגבלויות קשות",
+			"description": "רשת עדי (לשעבר עלה נגב ועלה ירושלים) מפעילה כפר שיקומי ובית חולים שיקומי ראשון בנגב, מסגרות דיור וחינוך מיוחד ומרכז מידע וליווי חינמי למשפחות (עדי בשבילכם).",
+			"url": "https://adi-il.org.il/",
+			"website": "https://adi-il.org.il/",
+			"tags": [
+				"שיקום",
+				"מוגבלויות",
+				"נגב",
+				"עלה נגב",
+				"ADI Israel"
+			],
+			"intents": [
+				"get-help",
+				"volunteer",
+				"donate"
+			],
+			"verified": true,
+			"taxDeductible46": true,
+			"organizationType": "ngo",
+			"createdAt": "2026-11-22",
+			"references": [
+				{
+					"url": "https://he.wikipedia.org/wiki/%D7%A2%D7%9C%D7%94_(%D7%A2%D7%9E%D7%95%D7%AA%D7%94)",
+					"type": "registry",
+					"source": "Wikipedia",
+					"title": "רשת עלה / עדי (ויקיפדיה)"
+				},
+				{
+					"url": "https://www.guidestar.org.il/organization/580354637",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "עדי נגב – נחלת ערן (ע״ר) – רישום בגיידסטאר"
+				},
+				{
+					"url": "https://www.btl.gov.il/benefits/Victims_of_Hostilities/eyva-centers/Pages/VictimsCenter.aspx?center=7",
+					"type": "official",
+					"source": "ביטוח לאומי (gov.il)",
+					"title": "מרכז השיקום עדי נגב באתר הביטוח הלאומי"
+				}
+			]
+		},
+		{
+			"name": "Etgarim",
+			"displayName": "עמותת אתגרים",
+			"shortDescription": "שיקום, העצמה ושילוב חברתי של ילדים, נוער ובוגרים עם מוגבלויות ופצועי צה״ל באמצעות ספורט אתגרי",
+			"description": "עמותת אתגרים הוקמה ב-1995 על ידי נכי צה״ל ואנשי שיקום, ומפעילה חוגי רכיבה, שייט, ריצה, צלילה וספורט אתגרי מותאם לאלפי משתתפים עם מוגבלויות בפריסה ארצית בליווי מתנדבים.",
+			"url": "https://etgarim.org/",
+			"website": "https://etgarim.org/",
+			"tags": [
+				"ספורט אתגרי",
+				"מוגבלויות",
+				"שיקום",
+				"התנדבות",
+				"Etgarim"
+			],
+			"intents": [
+				"get-help",
+				"volunteer",
+				"donate"
+			],
+			"verified": true,
+			"taxDeductible46": true,
+			"organizationType": "ngo",
+			"createdAt": "2026-11-22",
+			"references": [
+				{
+					"url": "https://he.wikipedia.org/wiki/%D7%A2%D7%9E%D7%95%D7%AA%D7%AA_%D7%90%D7%AA%D7%92%D7%A8%D7%99%D7%9D",
+					"type": "registry",
+					"source": "Wikipedia",
+					"title": "עמותת אתגרים (ויקיפדיה)"
+				},
+				{
+					"url": "https://www.guidestar.org.il/organization/580258242",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "אתגרים (ע״ר) – רישום עמותה וניהול תקין בגיידסטאר"
+				},
+				{
+					"url": "https://www.kolzchut.org.il/he/%D7%A2%D7%9E%D7%95%D7%AA%D7%AA_%D7%90%D7%AA%D7%92%D7%A8%D7%99%D7%9D",
+					"type": "official",
+					"source": "כל זכות",
+					"title": "עמותת אתגרים – פירוט שירותים באתר כל זכות"
+				}
+			]
+		},
+		{
+			"name": "ALUT",
+			"displayName": "אלו״ט – האגודה הלאומית לילדים ובוגרים עם אוטיזם",
+			"shortDescription": "קידום זכויות, מרכזי משפחה, מעונות יום שיקומיים, תעסוקה ודיור לאנשים על הספקטרום האוטיסטי",
+			"description": "אלו״ט פועלת מאז 1974 למען ילדים, צעירים ובוגרים על הספקטרום האוטיסטי ובני משפחותיהם – מרגע האבחון ולאורך כל מעגל החיים – כולל מיצוי זכויות, אלוטפים, בתים לחיים ומסגרות פנאי.",
+			"url": "https://alut.org.il/",
+			"website": "https://alut.org.il/",
+			"tags": [
+				"אוטיזם",
+				"צרכים מיוחדים",
+				"זכויות",
+				"משפחות",
+				"ALUT"
+			],
+			"intents": [
+				"get-help",
+				"volunteer",
+				"donate"
+			],
+			"verified": true,
+			"taxDeductible46": true,
+			"organizationType": "ngo",
+			"createdAt": "2026-11-22",
+			"references": [
+				{
+					"url": "https://he.wikipedia.org/wiki/%D7%90%D7%9C%D7%95%22%D7%98_-_%D7%90%D7%92%D7%95%D7%93%D7%94_%D7%9C%D7%90%D7%95%D7%9E%D7%99%D7%AA_%D7%9C%D7%99%D7%9C%D7%93%D7%99%D7%9D_%D7%95%D7%91%D7%95%D7%92%D7%A8%D7%99%D7%9D_%D7%A2%D7%9D_%D7%90%D7%95%D7%98%D7%99%D7%96%D7%9D",
+					"type": "registry",
+					"source": "Wikipedia",
+					"title": "אלו״ט – האגודה הלאומית לאוטיזם (ויקיפדיה)"
+				},
+				{
+					"url": "https://www.guidestar.org.il/organization/580064335",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "אלו״ט (ע״ר) – רישום עמותה וניהול תקין בגיידסטאר"
+				},
+				{
+					"url": "https://www.kolzchut.org.il/he/%D7%90%D7%9C%D7%95%22%D7%98",
+					"type": "official",
+					"source": "כל זכות",
+					"title": "אלו״ט – פירוט זכויות ושירותים באתר כל זכות"
+				}
+			]
+		},
+		{
 			"name": "KremboWings",
 			"displayName": "כנפיים של קרמבו",
 			"shortDescription": "תנועת נוער משלבת לילדים ונוער עם ובלי צרכים מיוחדים בכל הארץ",

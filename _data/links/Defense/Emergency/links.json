@@ -3,6 +3,51 @@
 	"displayName": "חירום",
 	"links": [
 		{
+			"name": "ZAKA",
+			"displayName": "זק״א – איתור, חילוץ והצלה",
+			"shortDescription": "ארגון התנדבות ארצי לחירום, איתור נעדרים, צלילה, חילוץ והצלה וטיפול בכבוד המת בזירות אסון (מוקד 1220)",
+			"description": "זק״א מפעילה אלפי מתנדבים בפריסה ארצית ובינלאומית (כולל יחידות חילוץ, צוללנים, כלבנים וג׳יפים) לאיתור נעדרים, הגשת עזרה ראשונה וטיפול בכבוד המת בזירות אסון וחירום.",
+			"url": "https://zaka.org.il/",
+			"website": "https://zaka.org.il/",
+			"phone": "1220",
+			"tags": [
+				"חירום",
+				"חילוץ",
+				"איתור נעדרים",
+				"1220",
+				"ZAKA"
+			],
+			"intents": [
+				"get-help",
+				"volunteer",
+				"donate"
+			],
+			"verified": true,
+			"taxDeductible46": true,
+			"organizationType": "ngo",
+			"createdAt": "2026-11-22",
+			"references": [
+				{
+					"url": "https://he.wikipedia.org/wiki/%D7%96%D7%A7%22%D7%90",
+					"type": "registry",
+					"source": "Wikipedia",
+					"title": "זק״א – זיהוי קורבנות אסון וחילוץ (ויקיפדיה)"
+				},
+				{
+					"url": "https://www.guidestar.org.il/organization/580307379",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "זק״א איתור חילוץ והצלה (ע״ר) – רישום בגיידסטאר"
+				},
+				{
+					"url": "https://www.calcalist.co.il/local_news/article/sy21l0gfa",
+					"type": "article",
+					"source": "Calcalist",
+					"title": "פעילות מתנדבי זק״א בזירות החירום והמאבק לתקצוב גופי ההצלה"
+				}
+			]
+		},
+		{
 			"name": "HomeFrontCommand",
 			"displayName": "פיקוד העורף – פורטל החירום הלאומי",
 			"shortDescription": "הנחיות התגוננות, התרעות, מיגון ומוקד מידע רשמי 104",

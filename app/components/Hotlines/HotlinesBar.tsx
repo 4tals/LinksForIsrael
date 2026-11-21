@@ -31,8 +31,20 @@ const ESSENTIAL_HOTLINES = [
 		href: "tel:104",
 	},
 	{
-		name: "מד״א",
+		name: "איחוד הצלה",
 		subtitle: "חירום רפואי",
+		number: "1221",
+		href: "tel:1221",
+	},
+	{
+		name: "סיוע לתקיפה מינית",
+		subtitle: "נשים 24/7",
+		number: "1202",
+		href: "tel:1202",
+	},
+	{
+		name: "מד״א",
+		subtitle: "אמבולנס",
 		number: "101",
 		href: "tel:101",
 	},

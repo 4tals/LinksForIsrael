@@ -3,6 +3,127 @@
 	"displayName": "תמיכה נפשית",
 	"links": [
 		{
+			"name": "IsraelTraumaCoalition",
+			"displayName": "הקואליציה הישראלית לטראומה",
+			"shortDescription": "ארגון הגג הלאומי המפעיל את מרכזי החוסן בישראל ומעניק טיפול בטראומה והכשרות חירום לקהילות",
+			"description": "הקואליציה הישראלית לטראומה (ITC) מאגדת עשרות ארגוני טיפול וחוסן, מפעילה מרכזי חוסן ברחבי הארץ (בעוטף עזה, בצפון ובדרום) ומסייעת לרשויות, צוותים וקהילות בהתמודדות עם טראומה וחירום.",
+			"url": "https://israeltraumacoalition.org/",
+			"website": "https://israeltraumacoalition.org/",
+			"tags": [
+				"טראומה",
+				"מרכזי חוסן",
+				"פוסט טראומה",
+				"חירום",
+				"Israel Trauma Coalition"
+			],
+			"intents": [
+				"get-help",
+				"donate"
+			],
+			"verified": true,
+			"taxDeductible46": true,
+			"organizationType": "ngo",
+			"createdAt": "2026-11-22",
+			"references": [
+				{
+					"url": "https://he.wikipedia.org/wiki/%D7%94%D7%A7%D7%95%D7%90%D7%9C%D7%99%D7%A6%D7%99%D7%94_%D7%94%D7%99%D7%A9%D7%A8%D7%90%D7%9C%D7%99%D7%AA_%D7%9C%D7%98%D7%A8%D7%90%D7%95%D7%9E%D7%94",
+					"type": "registry",
+					"source": "Wikipedia",
+					"title": "הקואליציה הישראלית לטראומה (ויקיפדיה)"
+				},
+				{
+					"url": "https://www.guidestar.org.il/organization/580455491",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "הקואליציה הישראלית לטראומה (ע״ר) – רישום בגיידסטאר"
+				}
+			]
+		},
+		{
+			"name": "ARCCI1202",
+			"displayName": "איגוד מרכזי הסיוע לנפגעות ולנפגעי תקיפה מינית (1202)",
+			"shortDescription": "קווי סיוע אנונימיים 24/7 לנשים (1202) ולגברים (1203), צ׳אט קולמילה וליווי משפטי ורגשי",
+			"description": "איגוד מרכזי הסיוע מפעיל את קווי החירום הלאומיים 1202 (לנשים) ו-1203 (לגברים) 24/7, מערך צ׳אט וואטסאפ אנונימי, קבוצות תמיכה וליווי בהליכים רפואיים ומשפטיים בפריסה ארצית.",
+			"url": "https://1202.org.il/",
+			"website": "https://1202.org.il/",
+			"phone": "1202",
+			"tags": [
+				"1202",
+				"1203",
+				"תקיפה מינית",
+				"סיוע נפשי",
+				"חירום",
+				"24/7"
+			],
+			"intents": [
+				"get-help",
+				"volunteer",
+				"donate"
+			],
+			"verified": true,
+			"taxDeductible46": true,
+			"organizationType": "ngo",
+			"createdAt": "2026-11-22",
+			"references": [
+				{
+					"url": "https://he.wikipedia.org/wiki/%D7%90%D7%99%D7%92%D7%95%D7%93_%D7%9E%D7%A8%D7%9B%D7%96%D7%99_%D7%94%D7%A1%D7%99%D7%95%D7%A2_%D7%9C%D7%A0%D7%A4%D7%92%D7%A2%D7%95%D7%AA_%D7%95%D7%A0%D7%A4%D7%92%D7%A2%D7%99_%D7%AA%D7%A7%D7%99%D7%A4%D7%94_%D7%9E%D7%99%D7%A0%D7%99%D7%AA_%D7%91%D7%99%D7%A9%D7%A8%D7%90%D7%9C",
+					"type": "registry",
+					"source": "Wikipedia",
+					"title": "איגוד מרכזי הסיוע לנפגעות ונפגעי תקיפה מינית (ויקיפדיה)"
+				},
+				{
+					"url": "https://www.guidestar.org.il/organization/580173730",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "איגוד מרכזי הסיוע (ע״ר) – רישום וניהול תקין בגיידסטאר"
+				},
+				{
+					"url": "https://www.kolzchut.org.il/he/%D7%9E%D7%A8%D7%9B%D7%96%D7%99_%D7%94%D7%A1%D7%99%D7%95%D7%A2_%D7%9C%D7%A0%D7%A4%D7%92%D7%A2%D7%95%D7%AA_%D7%95%D7%A0%D7%A4%D7%92%D7%A2%D7%99_%D7%AA%D7%A7%D7%99%D7%A4%D7%94_%D7%9E%D7%99%D7%A0%D7%99%D7%AA",
+					"type": "official",
+					"source": "כל זכות",
+					"title": "מרכזי הסיוע לנפגעות ונפגעי תקיפה מינית – מדריך זכויות בכל זכות"
+				}
+			]
+		},
+		{
+			"name": "Enosh",
+			"displayName": "אנוש – העמותה הישראלית לבריאות הנפש",
+			"shortDescription": "הארגון המוביל בישראל לשיקום, דיור, תעסוקה, מרכזי צעירים (הדספייס) ותמיכה במשפחות מתמודדי נפש",
+			"description": "עמותת אנוש פועלת מזה למעלה מ-45 שנה לקידום רווחתם וזכויותיהם של מתמודדי נפש ובני משפחותיהם ברחבי הארץ באמצעות שירותי שיקום, דיור בקהילה, תעסוקה נתמכת, מרכזי ייעוץ מיל״ם ומרכזי הדספייס לצעירים.",
+			"url": "https://www.enosh.org.il/",
+			"website": "https://www.enosh.org.il/",
+			"tags": [
+				"בריאות הנפש",
+				"שיקום",
+				"משפחות",
+				"הדספייס",
+				"Enosh"
+			],
+			"intents": [
+				"get-help",
+				"volunteer",
+				"donate"
+			],
+			"verified": true,
+			"taxDeductible46": true,
+			"organizationType": "ngo",
+			"createdAt": "2026-11-22",
+			"references": [
+				{
+					"url": "https://he.wikipedia.org/wiki/%D7%90%D7%A0%D7%95%D7%A9_%E2%80%93_%D7%94%D7%A2%D7%9E%D7%95%D7%AA%D7%94_%D7%94%D7%99%D7%A9%D7%A8%D7%90%D7%9C%D7%99%D7%AA_%D7%9C%D7%91%D7%A8%D7%99%D7%90%D7%95%D7%AA_%D7%94%D7%A0%D7%A4%D7%A9",
+					"type": "registry",
+					"source": "Wikipedia",
+					"title": "אנוש – העמותה הישראלית לבריאות הנפש (ויקיפדיה)"
+				},
+				{
+					"url": "https://www.guidestar.org.il/organization/580019800",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "אנוש (ע״ר) – רישום עמותה וניהול תקין בגיידסטאר"
+				}
+			]
+		},
+		{
 			"name": "ERAN",
 			"displayName": "ער״ן – עזרה ראשונה נפשית",
 			"shortDescription": "סיוע נפשי מיידי, אנונימי וחינמי 24/7 בטלפון 1201, בצ׳אט ובוואטסאפ",

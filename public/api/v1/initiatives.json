@@ -3,8 +3,8 @@
   "source": "https://www.linksforisrael.com",
   "repository": "https://github.com/4tals/LinksForIsrael",
   "license": "Open Data / Community Maintained",
-  "generatedAt": "2026-11-21T21:59:24.437Z",
-  "count": 103,
+  "generatedAt": "2026-11-21T22:09:45.590Z",
+  "count": 118,
   "initiatives": [
     {
       "id": "Economic/Donations/Latet",
@@ -132,6 +132,66 @@
       ],
       "portalUrl": "https://www.linksforisrael.com/FamilyAndPets/Main/KremboWings",
       "createdAt": "2026-11-21T18:55:00+02:00"
+    },
+    {
+      "id": "Medical/Main/EzerMizion",
+      "name": "EzerMizion",
+      "displayName": "עזר מציון",
+      "categoryId": "Medical",
+      "categoryName": "בריאות ונפש",
+      "subCategoryId": "Main",
+      "subCategoryName": "ראשי",
+      "shortDescription": "סיוע רפואי ופארא-רפואי לחולים ולמשפחותיהם, המאגר הלאומי לתורמי מח עצם, הסעות חולים וארוחות חמות",
+      "description": "עזר מציון (כלת פרס ישראל) מפעילה את המאגר הלאומי לתורמי מח עצם, מערך הסעות חולים באמבולנסים, השאלת ציוד רפואי, בית אורנית לילדים חולי סרטן, וסיוע נרחב לחולים, קשישים ומשפחות במצבי משבר.",
+      "url": "https://www.ami.org.il/",
+      "website": "https://www.ami.org.il/",
+      "phone": "03-6144444",
+      "email": null,
+      "intents": [
+        "get-help",
+        "volunteer",
+        "donate"
+      ],
+      "verified": true,
+      "taxDeductible46": true,
+      "organizationType": "ngo",
+      "references": [
+        {
+          "url": "https://he.wikipedia.org/wiki/%D7%A2%D7%96%D7%A8_%D7%9E%D7%A6%D7%99%D7%95%D7%9F",
+          "type": "registry",
+          "source": "Wikipedia",
+          "title": "עזר מציון – כלת פרס ישראל (ויקיפדיה)"
+        },
+        {
+          "url": "https://www.guidestar.org.il/organization/580079978",
+          "type": "registry",
+          "source": "GuideStar Israel",
+          "title": "עזר מציון (ע״ר) – רישום עמותה וניהול תקין בגיידסטאר"
+        },
+        {
+          "url": "https://www.ynet.co.il/articles/0,7340,L-5331395,00.html",
+          "type": "article",
+          "source": "Ynet",
+          "title": "מבצעי ההצלה של המאגר הלאומי למח עצם בעזר מציון"
+        },
+        {
+          "url": "https://www.calcalist.co.il/local_news/article/hjxdqiqh6",
+          "type": "article",
+          "source": "Calcalist",
+          "title": "תפקידם הלאומי של גופי ההצלה והסיוע הרפואי בישראל"
+        }
+      ],
+      "rankScore": 100,
+      "tags": [
+        "מח עצם",
+        "סרטן",
+        "חולים",
+        "ציוד רפואי",
+        "הסעות חולים",
+        "Ezer Mizion"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/Medical/Main/EzerMizion",
+      "createdAt": "2026-11-22"
     },
     {
       "id": "GeneralAssistance/Main/Yedidim",
@@ -293,6 +353,113 @@
       "createdAt": "2026-11-21T18:55:00+02:00"
     },
     {
+      "id": "Defense/Emergency/ZAKA",
+      "name": "ZAKA",
+      "displayName": "זק״א – איתור, חילוץ והצלה",
+      "categoryId": "Defense",
+      "categoryName": "הגנה",
+      "subCategoryId": "Emergency",
+      "subCategoryName": "חירום",
+      "shortDescription": "ארגון התנדבות ארצי לחירום, איתור נעדרים, צלילה, חילוץ והצלה וטיפול בכבוד המת בזירות אסון (מוקד 1220)",
+      "description": "זק״א מפעילה אלפי מתנדבים בפריסה ארצית ובינלאומית (כולל יחידות חילוץ, צוללנים, כלבנים וג׳יפים) לאיתור נעדרים, הגשת עזרה ראשונה וטיפול בכבוד המת בזירות אסון וחירום.",
+      "url": "https://zaka.org.il/",
+      "website": "https://zaka.org.il/",
+      "phone": "1220",
+      "email": null,
+      "intents": [
+        "get-help",
+        "volunteer",
+        "donate"
+      ],
+      "verified": true,
+      "taxDeductible46": true,
+      "organizationType": "ngo",
+      "references": [
+        {
+          "url": "https://he.wikipedia.org/wiki/%D7%96%D7%A7%22%D7%90",
+          "type": "registry",
+          "source": "Wikipedia",
+          "title": "זק״א – זיהוי קורבנות אסון וחילוץ (ויקיפדיה)"
+        },
+        {
+          "url": "https://www.guidestar.org.il/organization/580307379",
+          "type": "registry",
+          "source": "GuideStar Israel",
+          "title": "זק״א איתור חילוץ והצלה (ע״ר) – רישום בגיידסטאר"
+        },
+        {
+          "url": "https://www.calcalist.co.il/local_news/article/sy21l0gfa",
+          "type": "article",
+          "source": "Calcalist",
+          "title": "פעילות מתנדבי זק״א בזירות החירום והמאבק לתקצוב גופי ההצלה"
+        }
+      ],
+      "rankScore": 93,
+      "tags": [
+        "חירום",
+        "חילוץ",
+        "איתור נעדרים",
+        "1220",
+        "ZAKA"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/Defense/Emergency/ZAKA",
+      "createdAt": "2026-11-22"
+    },
+    {
+      "id": "Medical/Main/YadSarah",
+      "name": "YadSarah",
+      "displayName": "יד שרה",
+      "categoryId": "Medical",
+      "categoryName": "בריאות ונפש",
+      "subCategoryId": "Main",
+      "subCategoryName": "ראשי",
+      "shortDescription": "אגודת המתנדבים הגדולה בישראל – השאלת ציוד רפואי ושיקומי בחינם, לחצני מצוקה, אשפוז בית ומוקדי סיוע",
+      "description": "יד שרה מפעילה למעלה מ-100 סניפים ברחבי הארץ להשאלת ציוד רפואי ושיקומי ללא תשלום (כיסאות גלגלים, מיטות רפואיות, מחוללי חמצן ועוד), שירותי אשפוז בית, הסעות נכוניות ומוקד מצוקה 24/7.",
+      "url": "https://yad-sarah.net/",
+      "website": "https://yad-sarah.net/",
+      "phone": "*6444",
+      "email": null,
+      "intents": [
+        "get-help",
+        "volunteer",
+        "donate"
+      ],
+      "verified": true,
+      "taxDeductible46": true,
+      "organizationType": "ngo",
+      "references": [
+        {
+          "url": "https://he.wikipedia.org/wiki/%D7%99%D7%93_%D7%A9%D7%A8%D7%94",
+          "type": "registry",
+          "source": "Wikipedia",
+          "title": "יד שרה – כלת פרס ישראל (ויקיפדיה)"
+        },
+        {
+          "url": "https://www.guidestar.org.il/organization/580030104",
+          "type": "registry",
+          "source": "GuideStar Israel",
+          "title": "יד שרה (ע״ר) – רישום עמותה וניהול תקין בגיידסטאר"
+        },
+        {
+          "url": "https://www.ynet.co.il/articles/0,7340,L-5565016,00.html",
+          "type": "article",
+          "source": "Ynet",
+          "title": "לא רק השאלת ציוד: ״יד שרה״ מפעילה מערך אשפוז בית"
+        }
+      ],
+      "rankScore": 93,
+      "tags": [
+        "ציוד רפואי",
+        "השאלה",
+        "שיקום",
+        "קשישים",
+        "התנדבות",
+        "Yad Sarah"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/Medical/Main/YadSarah",
+      "createdAt": "2026-11-22"
+    },
+    {
       "id": "Medical/MentalSupport/NATAL",
       "name": "NATAL",
       "displayName": "נט״ל – נפגעי טראומה על רקע לאומי",
@@ -449,6 +616,60 @@
       ],
       "portalUrl": "https://www.linksforisrael.com/Agriculture/Main/NewGuard",
       "createdAt": "2023-10-25T23:30:30+03:00"
+    },
+    {
+      "id": "Economic/Donations/LeketIsrael",
+      "name": "LeketIsrael",
+      "displayName": "לקט ישראל – בנק המזון הלאומי",
+      "categoryId": "Economic",
+      "categoryName": "כלכלי ועסקי",
+      "subCategoryId": "Donations",
+      "subCategoryName": "תרומות כספיות",
+      "shortDescription": "ארגון הצלת המזון הלאומי של ישראל – הצלת תוצרת חקלאית ומזון מבושל וחלוקתם למאות אלפי נזקקים",
+      "description": "לקט ישראל פועל כבנק המזון הלאומי מאז 2003, מציל מיליוני ארוחות ותוצרת חקלאית איכותית ומעביר אותן דרך מאות עמותות שותפות למשפחות, קשישים וניצולי שואה ברחבי הארץ.",
+      "url": "https://www.leket.org/",
+      "website": "https://www.leket.org/",
+      "phone": null,
+      "email": null,
+      "intents": [
+        "donate",
+        "volunteer",
+        "get-help"
+      ],
+      "verified": true,
+      "taxDeductible46": true,
+      "organizationType": "ngo",
+      "references": [
+        {
+          "url": "https://he.wikipedia.org/wiki/%D7%9C%D7%A7%D7%98_%D7%99%D7%A9%D7%A8%D7%90%D7%9C",
+          "type": "registry",
+          "source": "Wikipedia",
+          "title": "לקט ישראל – ארגון הצלת המזון הלאומי (ויקיפדיה)"
+        },
+        {
+          "url": "https://www.guidestar.org.il/organization/580407633",
+          "type": "registry",
+          "source": "GuideStar Israel",
+          "title": "לקט ישראל (ע״ר) – רישום עמותה וניהול תקין בגיידסטאר"
+        },
+        {
+          "url": "https://www.ynet.co.il/activism/article/h1iuhydj11l",
+          "type": "article",
+          "source": "Ynet",
+          "title": "המלחמה על הצלחת: מהשדה המופגז לשולחן הסדר"
+        }
+      ],
+      "rankScore": 91,
+      "tags": [
+        "מזון",
+        "ביטחון תזונתי",
+        "חקלאות",
+        "תרומה",
+        "התנדבות",
+        "Leket Israel"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/Economic/Donations/LeketIsrael",
+      "createdAt": "2026-11-22"
     },
     {
       "id": "Economic/Donations/PitchonLev",
@@ -715,6 +936,59 @@
       "createdAt": "2026-11-21T18:55:00+02:00"
     },
     {
+      "id": "MemorialRemembrance/Main/ZikaronBaSalon",
+      "name": "ZikaronBaSalon",
+      "displayName": "זיכרון בסלון",
+      "categoryId": "MemorialRemembrance",
+      "categoryName": "שכול וזיכרון",
+      "subCategoryId": "Main",
+      "subCategoryName": "ראשי",
+      "shortDescription": "המיזם החברתי-קהילתי למפגשי עדות, שיתוף ושיח פתוח בבתים בישראל ובעולם סביב יום השואה וזיכרון לאומי",
+      "description": "זיכרון בסלון (נוסד ב-2011) מחבר בין מארחים, אנשי עדות ומאות אלפי משתתפים בישראל ובעולם ליצירת מפגשי זיכרון אינטימיים, משמעותיים ורלוונטיים לדורות הבאים.",
+      "url": "https://www.zikaronbasalon.com/",
+      "website": "https://www.zikaronbasalon.com/",
+      "phone": null,
+      "email": null,
+      "intents": [
+        "volunteer",
+        "donate"
+      ],
+      "verified": true,
+      "taxDeductible46": true,
+      "organizationType": "ngo",
+      "references": [
+        {
+          "url": "https://he.wikipedia.org/wiki/%D7%96%D7%99%D7%9B%D7%A8%D7%95%D7%9F_%D7%91%D7%A1%D7%9C%D7%95%D7%9F",
+          "type": "registry",
+          "source": "Wikipedia",
+          "title": "זיכרון בסלון (ויקיפדיה)"
+        },
+        {
+          "url": "https://www.guidestar.org.il/organization/580662070",
+          "type": "registry",
+          "source": "GuideStar Israel",
+          "title": "זיכרון בסלון (ע״ר) – רישום עמותה וניהול תקין בגיידסטאר"
+        },
+        {
+          "url": "https://www.ynet.co.il/articles/0,7340,L-4647226,00.html",
+          "type": "article",
+          "source": "Ynet",
+          "title": "פרויקט ״זיכרון בסלון״ – עדויות ושיח קהילתי בשידור חי"
+        }
+      ],
+      "rankScore": 91,
+      "tags": [
+        "זיכרון",
+        "שואה",
+        "קהילה",
+        "עדות",
+        "התנדבות",
+        "Zikaron BaSalon"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/MemorialRemembrance/Main/ZikaronBaSalon",
+      "createdAt": "2026-11-22"
+    },
+    {
       "id": "GeneralAssistance/Main/RuachTova",
       "name": "RuachTova",
       "displayName": "רוח טובה",
@@ -909,6 +1183,60 @@
       "createdAt": "2023-10-27T12:17:44+03:00"
     },
     {
+      "id": "Medical/MentalSupport/ARCCI1202",
+      "name": "ARCCI1202",
+      "displayName": "איגוד מרכזי הסיוע לנפגעות ולנפגעי תקיפה מינית (1202)",
+      "categoryId": "Medical",
+      "categoryName": "בריאות ונפש",
+      "subCategoryId": "MentalSupport",
+      "subCategoryName": "תמיכה נפשית",
+      "shortDescription": "קווי סיוע אנונימיים 24/7 לנשים (1202) ולגברים (1203), צ׳אט קולמילה וליווי משפטי ורגשי",
+      "description": "איגוד מרכזי הסיוע מפעיל את קווי החירום הלאומיים 1202 (לנשים) ו-1203 (לגברים) 24/7, מערך צ׳אט וואטסאפ אנונימי, קבוצות תמיכה וליווי בהליכים רפואיים ומשפטיים בפריסה ארצית.",
+      "url": "https://1202.org.il/",
+      "website": "https://1202.org.il/",
+      "phone": "1202",
+      "email": null,
+      "intents": [
+        "get-help",
+        "volunteer",
+        "donate"
+      ],
+      "verified": true,
+      "taxDeductible46": true,
+      "organizationType": "ngo",
+      "references": [
+        {
+          "url": "https://he.wikipedia.org/wiki/%D7%90%D7%99%D7%92%D7%95%D7%93_%D7%9E%D7%A8%D7%9B%D7%96%D7%99_%D7%94%D7%A1%D7%99%D7%95%D7%A2_%D7%9C%D7%A0%D7%A4%D7%92%D7%A2%D7%95%D7%AA_%D7%95%D7%A0%D7%A4%D7%92%D7%A2%D7%99_%D7%AA%D7%A7%D7%99%D7%A4%D7%94_%D7%9E%D7%99%D7%A0%D7%99%D7%AA_%D7%91%D7%99%D7%A9%D7%A8%D7%90%D7%9C",
+          "type": "registry",
+          "source": "Wikipedia",
+          "title": "איגוד מרכזי הסיוע לנפגעות ונפגעי תקיפה מינית (ויקיפדיה)"
+        },
+        {
+          "url": "https://www.guidestar.org.il/organization/580173730",
+          "type": "registry",
+          "source": "GuideStar Israel",
+          "title": "איגוד מרכזי הסיוע (ע״ר) – רישום וניהול תקין בגיידסטאר"
+        },
+        {
+          "url": "https://www.kolzchut.org.il/he/%D7%9E%D7%A8%D7%9B%D7%96%D7%99_%D7%94%D7%A1%D7%99%D7%95%D7%A2_%D7%9C%D7%A0%D7%A4%D7%92%D7%A2%D7%95%D7%AA_%D7%95%D7%A0%D7%A4%D7%92%D7%A2%D7%99_%D7%AA%D7%A7%D7%99%D7%A4%D7%94_%D7%9E%D7%99%D7%A0%D7%99%D7%AA",
+          "type": "official",
+          "source": "כל זכות",
+          "title": "מרכזי הסיוע לנפגעות ונפגעי תקיפה מינית – מדריך זכויות בכל זכות"
+        }
+      ],
+      "rankScore": 81,
+      "tags": [
+        "1202",
+        "1203",
+        "תקיפה מינית",
+        "סיוע נפשי",
+        "חירום",
+        "24/7"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/Medical/MentalSupport/ARCCI1202",
+      "createdAt": "2026-11-22"
+    },
+    {
       "id": "GeneralAssistance/Main/CivilianHamal",
       "name": "CivilianHamal",
       "displayName": "חמ״ל אזרחי - סיוע לתושבי קו הלחימה",
@@ -956,6 +1284,218 @@
       ],
       "portalUrl": "https://www.linksforisrael.com/",
       "createdAt": "2023-10-12T22:22:49+03:00"
+    },
+    {
+      "id": "Economic/Businesses/Paamonim",
+      "name": "Paamonim",
+      "displayName": "פעמונים – ייעוץ כלכלי למשפחות בחינם",
+      "categoryId": "Economic",
+      "categoryName": "כלכלי ועסקי",
+      "subCategoryId": "Businesses",
+      "subCategoryName": "תמיכה בעסקים והטבות לצרכנים",
+      "shortDescription": "ליווי כלכלי אישי ללא תשלום, יציאה מחובות, בניית תקציב משפחתי וחינוך פיננסי בפריסה ארצית",
+      "description": "עמותת פעמונים מפעילה אלפי מתנדבים המסייעים ללא עלות למשפחות ויחידים להבריא כלכלית, להתמודד עם חובות, לבנות תקציב מאוזן ולרכוש כלים להתנהלות פיננסית אחראית.",
+      "url": "https://www.paamonim.org/he/",
+      "website": "https://www.paamonim.org/he/",
+      "phone": null,
+      "email": null,
+      "intents": [
+        "get-help",
+        "volunteer",
+        "donate"
+      ],
+      "verified": true,
+      "taxDeductible46": true,
+      "organizationType": "ngo",
+      "references": [
+        {
+          "url": "https://he.wikipedia.org/wiki/%D7%A4%D7%A2%D7%9E%D7%95%D7%A0%D7%99%D7%9D",
+          "type": "registry",
+          "source": "Wikipedia",
+          "title": "עמותת פעמונים (ויקיפדיה)"
+        },
+        {
+          "url": "https://www.guidestar.org.il/organization/580392702",
+          "type": "registry",
+          "source": "GuideStar Israel",
+          "title": "פעמונים (ע״ר) – רישום עמותה וניהול תקין בגיידסטאר"
+        },
+        {
+          "url": "https://www.kolzchut.org.il/he/%D7%A4%D7%A2%D7%9E%D7%95%D7%A0%D7%99%D7%9D",
+          "type": "official",
+          "source": "כל זכות",
+          "title": "פעמונים – פירוט שירותי הסיוע הכלכלי באתר כל זכות"
+        }
+      ],
+      "rankScore": 79,
+      "tags": [
+        "כלכלת המשפחה",
+        "חובות",
+        "ייעוץ כלכלי",
+        "תקציב",
+        "Paamonim"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/Economic/Businesses/Paamonim",
+      "createdAt": "2026-11-22"
+    },
+    {
+      "id": "FamilyAndPets/Main/ADIIsrael",
+      "name": "ADIIsrael",
+      "displayName": "רשת עדי (עדי נגב – נחלת ערן ועדי ירושלים)",
+      "categoryId": "FamilyAndPets",
+      "categoryName": "משפחה ובע\"ח",
+      "subCategoryId": "Main",
+      "subCategoryName": "ראשי",
+      "shortDescription": "מרכזי שיקום, חינוך מיוחד, בית החולים השיקומי בנגב וליווי למשפחות של ילדים ובוגרים עם מוגבלויות קשות",
+      "description": "רשת עדי (לשעבר עלה נגב ועלה ירושלים) מפעילה כפר שיקומי ובית חולים שיקומי ראשון בנגב, מסגרות דיור וחינוך מיוחד ומרכז מידע וליווי חינמי למשפחות (עדי בשבילכם).",
+      "url": "https://adi-il.org.il/",
+      "website": "https://adi-il.org.il/",
+      "phone": null,
+      "email": null,
+      "intents": [
+        "get-help",
+        "volunteer",
+        "donate"
+      ],
+      "verified": true,
+      "taxDeductible46": true,
+      "organizationType": "ngo",
+      "references": [
+        {
+          "url": "https://he.wikipedia.org/wiki/%D7%A2%D7%9C%D7%94_(%D7%A2%D7%9E%D7%95%D7%AA%D7%94)",
+          "type": "registry",
+          "source": "Wikipedia",
+          "title": "רשת עלה / עדי (ויקיפדיה)"
+        },
+        {
+          "url": "https://www.guidestar.org.il/organization/580354637",
+          "type": "registry",
+          "source": "GuideStar Israel",
+          "title": "עדי נגב – נחלת ערן (ע״ר) – רישום בגיידסטאר"
+        },
+        {
+          "url": "https://www.btl.gov.il/benefits/Victims_of_Hostilities/eyva-centers/Pages/VictimsCenter.aspx?center=7",
+          "type": "official",
+          "source": "ביטוח לאומי (gov.il)",
+          "title": "מרכז השיקום עדי נגב באתר הביטוח הלאומי"
+        }
+      ],
+      "rankScore": 79,
+      "tags": [
+        "שיקום",
+        "מוגבלויות",
+        "נגב",
+        "עלה נגב",
+        "ADI Israel"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/FamilyAndPets/Main/ADIIsrael",
+      "createdAt": "2026-11-22"
+    },
+    {
+      "id": "FamilyAndPets/Main/Etgarim",
+      "name": "Etgarim",
+      "displayName": "עמותת אתגרים",
+      "categoryId": "FamilyAndPets",
+      "categoryName": "משפחה ובע\"ח",
+      "subCategoryId": "Main",
+      "subCategoryName": "ראשי",
+      "shortDescription": "שיקום, העצמה ושילוב חברתי של ילדים, נוער ובוגרים עם מוגבלויות ופצועי צה״ל באמצעות ספורט אתגרי",
+      "description": "עמותת אתגרים הוקמה ב-1995 על ידי נכי צה״ל ואנשי שיקום, ומפעילה חוגי רכיבה, שייט, ריצה, צלילה וספורט אתגרי מותאם לאלפי משתתפים עם מוגבלויות בפריסה ארצית בליווי מתנדבים.",
+      "url": "https://etgarim.org/",
+      "website": "https://etgarim.org/",
+      "phone": null,
+      "email": null,
+      "intents": [
+        "get-help",
+        "volunteer",
+        "donate"
+      ],
+      "verified": true,
+      "taxDeductible46": true,
+      "organizationType": "ngo",
+      "references": [
+        {
+          "url": "https://he.wikipedia.org/wiki/%D7%A2%D7%9E%D7%95%D7%AA%D7%AA_%D7%90%D7%AA%D7%92%D7%A8%D7%99%D7%9D",
+          "type": "registry",
+          "source": "Wikipedia",
+          "title": "עמותת אתגרים (ויקיפדיה)"
+        },
+        {
+          "url": "https://www.guidestar.org.il/organization/580258242",
+          "type": "registry",
+          "source": "GuideStar Israel",
+          "title": "אתגרים (ע״ר) – רישום עמותה וניהול תקין בגיידסטאר"
+        },
+        {
+          "url": "https://www.kolzchut.org.il/he/%D7%A2%D7%9E%D7%95%D7%AA%D7%AA_%D7%90%D7%AA%D7%92%D7%A8%D7%99%D7%9D",
+          "type": "official",
+          "source": "כל זכות",
+          "title": "עמותת אתגרים – פירוט שירותים באתר כל זכות"
+        }
+      ],
+      "rankScore": 79,
+      "tags": [
+        "ספורט אתגרי",
+        "מוגבלויות",
+        "שיקום",
+        "התנדבות",
+        "Etgarim"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/FamilyAndPets/Main/Etgarim",
+      "createdAt": "2026-11-22"
+    },
+    {
+      "id": "FamilyAndPets/Main/ALUT",
+      "name": "ALUT",
+      "displayName": "אלו״ט – האגודה הלאומית לילדים ובוגרים עם אוטיזם",
+      "categoryId": "FamilyAndPets",
+      "categoryName": "משפחה ובע\"ח",
+      "subCategoryId": "Main",
+      "subCategoryName": "ראשי",
+      "shortDescription": "קידום זכויות, מרכזי משפחה, מעונות יום שיקומיים, תעסוקה ודיור לאנשים על הספקטרום האוטיסטי",
+      "description": "אלו״ט פועלת מאז 1974 למען ילדים, צעירים ובוגרים על הספקטרום האוטיסטי ובני משפחותיהם – מרגע האבחון ולאורך כל מעגל החיים – כולל מיצוי זכויות, אלוטפים, בתים לחיים ומסגרות פנאי.",
+      "url": "https://alut.org.il/",
+      "website": "https://alut.org.il/",
+      "phone": null,
+      "email": null,
+      "intents": [
+        "get-help",
+        "volunteer",
+        "donate"
+      ],
+      "verified": true,
+      "taxDeductible46": true,
+      "organizationType": "ngo",
+      "references": [
+        {
+          "url": "https://he.wikipedia.org/wiki/%D7%90%D7%9C%D7%95%22%D7%98_-_%D7%90%D7%92%D7%95%D7%93%D7%94_%D7%9C%D7%90%D7%95%D7%9E%D7%99%D7%AA_%D7%9C%D7%99%D7%9C%D7%93%D7%99%D7%9D_%D7%95%D7%91%D7%95%D7%92%D7%A8%D7%99%D7%9D_%D7%A2%D7%9D_%D7%90%D7%95%D7%98%D7%99%D7%96%D7%9D",
+          "type": "registry",
+          "source": "Wikipedia",
+          "title": "אלו״ט – האגודה הלאומית לאוטיזם (ויקיפדיה)"
+        },
+        {
+          "url": "https://www.guidestar.org.il/organization/580064335",
+          "type": "registry",
+          "source": "GuideStar Israel",
+          "title": "אלו״ט (ע״ר) – רישום עמותה וניהול תקין בגיידסטאר"
+        },
+        {
+          "url": "https://www.kolzchut.org.il/he/%D7%90%D7%9C%D7%95%22%D7%98",
+          "type": "official",
+          "source": "כל זכות",
+          "title": "אלו״ט – פירוט זכויות ושירותים באתר כל זכות"
+        }
+      ],
+      "rankScore": 79,
+      "tags": [
+        "אוטיזם",
+        "צרכים מיוחדים",
+        "זכויות",
+        "משפחות",
+        "ALUT"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/FamilyAndPets/Main/ALUT",
+      "createdAt": "2026-11-22"
     },
     {
       "id": "Economic/Donations/hakvutza",
@@ -1041,6 +1581,106 @@
       ],
       "portalUrl": "https://www.linksforisrael.com/Economic/Businesses/SocialSolidarityHome",
       "createdAt": "2023-11-28T22:11:18+02:00"
+    },
+    {
+      "id": "Medical/Main/LargerThanLife",
+      "name": "LargerThanLife",
+      "displayName": "גדולים מהחיים",
+      "categoryId": "Medical",
+      "categoryName": "בריאות ונפש",
+      "subCategoryId": "Main",
+      "subCategoryName": "ראשי",
+      "shortDescription": "ליווי, תמיכה רגשית, סיוע כלכלי ופעילויות לשיפור איכות החיים של ילדים חולי סרטן ומשפחותיהם",
+      "description": "עמותת גדולים מהחיים מסייעת מדי שנה לכ-1,500 ילדים חולי סרטן מכל המגזרים בישראל, מפעילה את ״גן החלומות״ הסטרילי, ומעניקה מעטפת רגשית, חברתית ורפואית לילדים ולמשפחות.",
+      "url": "https://gdolim.org.il/",
+      "website": "https://gdolim.org.il/",
+      "phone": null,
+      "email": null,
+      "intents": [
+        "get-help",
+        "volunteer",
+        "donate"
+      ],
+      "verified": true,
+      "taxDeductible46": true,
+      "organizationType": "ngo",
+      "references": [
+        {
+          "url": "https://www.guidestar.org.il/organization/580367795",
+          "type": "registry",
+          "source": "GuideStar Israel",
+          "title": "גדולים מהחיים (ע״ר) – רישום עמותה וניהול תקין בגיידסטאר"
+        },
+        {
+          "url": "https://www.calcalist.co.il/article/b1krqr7vyx",
+          "type": "article",
+          "source": "Calcalist",
+          "title": "משלוח גדול מהחיים – פעילות עמותת גדולים מהחיים למען ילדים חולי סרטן"
+        }
+      ],
+      "rankScore": 78,
+      "tags": [
+        "ילדים",
+        "סרטן",
+        "אונקולוגיה",
+        "משפחות",
+        "Larger Than Life"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/Medical/Main/LargerThanLife",
+      "createdAt": "2026-11-22"
+    },
+    {
+      "id": "Medical/Main/UnitedHatzalah",
+      "name": "UnitedHatzalah",
+      "displayName": "איחוד הצלה (1221)",
+      "categoryId": "Medical",
+      "categoryName": "בריאות ונפש",
+      "subCategoryId": "Main",
+      "subCategoryName": "ראשי",
+      "shortDescription": "מערך מתנדבי חירום רפואי ארצי 24/7 המגיע לזירות חירום בתוך דקות באמצעות אופנולנסים וכוננים",
+      "description": "איחוד הצלה מפעיל אלפי חובשים, פראמדיקים ורופאים מתנדבים בפריסה ארצית מלאה ומוקד חירום 1221, להענקת טיפול רפואי ראשוני מציל חיים בדקות הקריטיות עד הגעת אמבולנס הפינוי.",
+      "url": "https://1221.org.il/",
+      "website": "https://1221.org.il/",
+      "phone": "1221",
+      "email": null,
+      "intents": [
+        "get-help",
+        "volunteer",
+        "donate"
+      ],
+      "verified": true,
+      "taxDeductible46": true,
+      "organizationType": "ngo",
+      "references": [
+        {
+          "url": "https://he.wikipedia.org/wiki/%D7%90%D7%99%D7%97%D7%95%D7%93_%D7%94%D7%A6%D7%9C%D7%94",
+          "type": "registry",
+          "source": "Wikipedia",
+          "title": "איחוד הצלה (ויקיפדיה)"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/United_Hatzalah",
+          "type": "registry",
+          "source": "Wikipedia (EN)",
+          "title": "United Hatzalah – Emergency Medical Services (Wikipedia)"
+        },
+        {
+          "url": "https://www.guidestar.org.il/organization/580465979",
+          "type": "registry",
+          "source": "GuideStar Israel",
+          "title": "איחוד הצלה ישראל 1221 (ע״ר) – רישום בגיידסטאר"
+        }
+      ],
+      "rankScore": 78,
+      "tags": [
+        "חירום רפואי",
+        "1221",
+        "הצלה",
+        "חובשים",
+        "United Hatzalah"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/Medical/Main/UnitedHatzalah",
+      "createdAt": "2026-11-22"
     },
     {
       "id": "Medical/Main/MdaBloodDonation",
@@ -1264,6 +1904,99 @@
       "createdAt": "2026-11-21T18:55:00+02:00"
     },
     {
+      "id": "Medical/MentalSupport/IsraelTraumaCoalition",
+      "name": "IsraelTraumaCoalition",
+      "displayName": "הקואליציה הישראלית לטראומה",
+      "categoryId": "Medical",
+      "categoryName": "בריאות ונפש",
+      "subCategoryId": "MentalSupport",
+      "subCategoryName": "תמיכה נפשית",
+      "shortDescription": "ארגון הגג הלאומי המפעיל את מרכזי החוסן בישראל ומעניק טיפול בטראומה והכשרות חירום לקהילות",
+      "description": "הקואליציה הישראלית לטראומה (ITC) מאגדת עשרות ארגוני טיפול וחוסן, מפעילה מרכזי חוסן ברחבי הארץ (בעוטף עזה, בצפון ובדרום) ומסייעת לרשויות, צוותים וקהילות בהתמודדות עם טראומה וחירום.",
+      "url": "https://israeltraumacoalition.org/",
+      "website": "https://israeltraumacoalition.org/",
+      "phone": null,
+      "email": null,
+      "intents": [
+        "get-help",
+        "donate"
+      ],
+      "verified": true,
+      "taxDeductible46": true,
+      "organizationType": "ngo",
+      "references": [
+        {
+          "url": "https://he.wikipedia.org/wiki/%D7%94%D7%A7%D7%95%D7%90%D7%9C%D7%99%D7%A6%D7%99%D7%94_%D7%94%D7%99%D7%A9%D7%A8%D7%90%D7%9C%D7%99%D7%AA_%D7%9C%D7%98%D7%A8%D7%90%D7%95%D7%9E%D7%94",
+          "type": "registry",
+          "source": "Wikipedia",
+          "title": "הקואליציה הישראלית לטראומה (ויקיפדיה)"
+        },
+        {
+          "url": "https://www.guidestar.org.il/organization/580455491",
+          "type": "registry",
+          "source": "GuideStar Israel",
+          "title": "הקואליציה הישראלית לטראומה (ע״ר) – רישום בגיידסטאר"
+        }
+      ],
+      "rankScore": 76,
+      "tags": [
+        "טראומה",
+        "מרכזי חוסן",
+        "פוסט טראומה",
+        "חירום",
+        "Israel Trauma Coalition"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/Medical/MentalSupport/IsraelTraumaCoalition",
+      "createdAt": "2026-11-22"
+    },
+    {
+      "id": "Medical/MentalSupport/Enosh",
+      "name": "Enosh",
+      "displayName": "אנוש – העמותה הישראלית לבריאות הנפש",
+      "categoryId": "Medical",
+      "categoryName": "בריאות ונפש",
+      "subCategoryId": "MentalSupport",
+      "subCategoryName": "תמיכה נפשית",
+      "shortDescription": "הארגון המוביל בישראל לשיקום, דיור, תעסוקה, מרכזי צעירים (הדספייס) ותמיכה במשפחות מתמודדי נפש",
+      "description": "עמותת אנוש פועלת מזה למעלה מ-45 שנה לקידום רווחתם וזכויותיהם של מתמודדי נפש ובני משפחותיהם ברחבי הארץ באמצעות שירותי שיקום, דיור בקהילה, תעסוקה נתמכת, מרכזי ייעוץ מיל״ם ומרכזי הדספייס לצעירים.",
+      "url": "https://www.enosh.org.il/",
+      "website": "https://www.enosh.org.il/",
+      "phone": null,
+      "email": null,
+      "intents": [
+        "get-help",
+        "volunteer",
+        "donate"
+      ],
+      "verified": true,
+      "taxDeductible46": true,
+      "organizationType": "ngo",
+      "references": [
+        {
+          "url": "https://he.wikipedia.org/wiki/%D7%90%D7%A0%D7%95%D7%A9_%E2%80%93_%D7%94%D7%A2%D7%9E%D7%95%D7%AA%D7%94_%D7%94%D7%99%D7%A9%D7%A8%D7%90%D7%9C%D7%99%D7%AA_%D7%9C%D7%91%D7%A8%D7%99%D7%90%D7%95%D7%AA_%D7%94%D7%A0%D7%A4%D7%A9",
+          "type": "registry",
+          "source": "Wikipedia",
+          "title": "אנוש – העמותה הישראלית לבריאות הנפש (ויקיפדיה)"
+        },
+        {
+          "url": "https://www.guidestar.org.il/organization/580019800",
+          "type": "registry",
+          "source": "GuideStar Israel",
+          "title": "אנוש (ע״ר) – רישום עמותה וניהול תקין בגיידסטאר"
+        }
+      ],
+      "rankScore": 76,
+      "tags": [
+        "בריאות הנפש",
+        "שיקום",
+        "משפחות",
+        "הדספייס",
+        "Enosh"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/Medical/MentalSupport/Enosh",
+      "createdAt": "2026-11-22"
+    },
+    {
       "id": "StrategicCommunication/SocialNetworks/StopAntisemitism",
       "name": "StopAntisemitism",
       "displayName": "Stop Antisemitism",
@@ -1468,6 +2201,52 @@
       ],
       "portalUrl": "https://www.linksforisrael.com/Medical/Main/MedicalVolunteersforIsrael",
       "createdAt": "2023-10-28T23:39:59+03:00"
+    },
+    {
+      "id": "GeneralAssistance/Main/KavLaOved",
+      "name": "KavLaOved",
+      "displayName": "קו לעובד – הגנה על זכויות עובדים",
+      "categoryId": "GeneralAssistance",
+      "categoryName": "סיוע אזרחי כללי",
+      "subCategoryId": "Main",
+      "subCategoryName": "סיוע אזרחי כללי",
+      "shortDescription": "ייעוץ, סיוע משפטי ומידע במיצוי זכויות עבודה ושכר לעובדים בישראל ללא הבדל מעמד",
+      "description": "עמותת קו לעובד פועלת מאז 1991 להגן על זכויות עובדים מוחלשים בישראל, מפעילה מוקדי ייעוץ וקבלת קהל, מפרסמת זכותונים במגוון שפות ומספקת סיוע משפטי מול מעסיקים ורשויות.",
+      "url": "https://kavlaoved.org.il/",
+      "website": "https://kavlaoved.org.il/",
+      "phone": null,
+      "email": null,
+      "intents": [
+        "get-help",
+        "volunteer",
+        "donate"
+      ],
+      "verified": true,
+      "taxDeductible46": false,
+      "organizationType": "ngo",
+      "references": [
+        {
+          "url": "https://he.wikipedia.org/wiki/%D7%A7%D7%95_%D7%9C%D7%A2%D7%95%D7%91%D7%93",
+          "type": "registry",
+          "source": "Wikipedia",
+          "title": "קו לעובד (ויקיפדיה)"
+        },
+        {
+          "url": "https://www.guidestar.org.il/organization/580175545",
+          "type": "registry",
+          "source": "GuideStar Israel",
+          "title": "קו לעובד (ע״ר) – רישום עמותה וניהול תקין בגיידסטאר"
+        }
+      ],
+      "rankScore": 66,
+      "tags": [
+        "זכויות עובדים",
+        "דיני עבודה",
+        "סיוע משפטי",
+        "Kav LaOved"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/",
+      "createdAt": "2026-11-22"
     },
     {
       "id": "StrategicCommunication/Main/voicesOfIsrael",

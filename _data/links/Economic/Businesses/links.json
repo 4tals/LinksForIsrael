@@ -3,6 +3,50 @@
 	"displayName": "תמיכה בעסקים והטבות לצרכנים",
 	"links": [
 		{
+			"name": "Paamonim",
+			"displayName": "פעמונים – ייעוץ כלכלי למשפחות בחינם",
+			"shortDescription": "ליווי כלכלי אישי ללא תשלום, יציאה מחובות, בניית תקציב משפחתי וחינוך פיננסי בפריסה ארצית",
+			"description": "עמותת פעמונים מפעילה אלפי מתנדבים המסייעים ללא עלות למשפחות ויחידים להבריא כלכלית, להתמודד עם חובות, לבנות תקציב מאוזן ולרכוש כלים להתנהלות פיננסית אחראית.",
+			"url": "https://www.paamonim.org/he/",
+			"website": "https://www.paamonim.org/he/",
+			"tags": [
+				"כלכלת המשפחה",
+				"חובות",
+				"ייעוץ כלכלי",
+				"תקציב",
+				"Paamonim"
+			],
+			"intents": [
+				"get-help",
+				"volunteer",
+				"donate"
+			],
+			"verified": true,
+			"taxDeductible46": true,
+			"organizationType": "ngo",
+			"createdAt": "2026-11-22",
+			"references": [
+				{
+					"url": "https://he.wikipedia.org/wiki/%D7%A4%D7%A2%D7%9E%D7%95%D7%A0%D7%99%D7%9D",
+					"type": "registry",
+					"source": "Wikipedia",
+					"title": "עמותת פעמונים (ויקיפדיה)"
+				},
+				{
+					"url": "https://www.guidestar.org.il/organization/580392702",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "פעמונים (ע״ר) – רישום עמותה וניהול תקין בגיידסטאר"
+				},
+				{
+					"url": "https://www.kolzchut.org.il/he/%D7%A4%D7%A2%D7%9E%D7%95%D7%A0%D7%99%D7%9D",
+					"type": "official",
+					"source": "כל זכות",
+					"title": "פעמונים – פירוט שירותי הסיוע הכלכלי באתר כל זכות"
+				}
+			]
+		},
+		{
 			"name": "CentralizedBenefitsAndRights",
 			"displayName": "טבלה מרכזת ןמתעדכנת של הטבות וזכויות",
 			"shortDescription": "כל ההקלות, ההטבות והעדכונים בטבלה אחת מתעדכנת",

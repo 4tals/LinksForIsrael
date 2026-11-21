@@ -3,6 +3,50 @@
 	"displayName": "ראשי",
 	"links": [
 		{
+			"name": "ZikaronBaSalon",
+			"displayName": "זיכרון בסלון",
+			"shortDescription": "המיזם החברתי-קהילתי למפגשי עדות, שיתוף ושיח פתוח בבתים בישראל ובעולם סביב יום השואה וזיכרון לאומי",
+			"description": "זיכרון בסלון (נוסד ב-2011) מחבר בין מארחים, אנשי עדות ומאות אלפי משתתפים בישראל ובעולם ליצירת מפגשי זיכרון אינטימיים, משמעותיים ורלוונטיים לדורות הבאים.",
+			"url": "https://www.zikaronbasalon.com/",
+			"website": "https://www.zikaronbasalon.com/",
+			"tags": [
+				"זיכרון",
+				"שואה",
+				"קהילה",
+				"עדות",
+				"התנדבות",
+				"Zikaron BaSalon"
+			],
+			"intents": [
+				"volunteer",
+				"donate"
+			],
+			"verified": true,
+			"taxDeductible46": true,
+			"organizationType": "ngo",
+			"createdAt": "2026-11-22",
+			"references": [
+				{
+					"url": "https://he.wikipedia.org/wiki/%D7%96%D7%99%D7%9B%D7%A8%D7%95%D7%9F_%D7%91%D7%A1%D7%9C%D7%95%D7%9F",
+					"type": "registry",
+					"source": "Wikipedia",
+					"title": "זיכרון בסלון (ויקיפדיה)"
+				},
+				{
+					"url": "https://www.guidestar.org.il/organization/580662070",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "זיכרון בסלון (ע״ר) – רישום עמותה וניהול תקין בגיידסטאר"
+				},
+				{
+					"url": "https://www.ynet.co.il/articles/0,7340,L-4647226,00.html",
+					"type": "article",
+					"source": "Ynet",
+					"title": "פרויקט ״זיכרון בסלון״ – עדויות ושיח קהילתי בשידור חי"
+				}
+			]
+		},
+		{
 			"name": "IllustrationNofalim",
 			"displayName": "איורים של הנופלים - Benzi Wolman",
 			"shortDescription": "אני יושב ומאייר את דמותם של הנופלים שהיו שם בשבילנו. אם אתם יודעים על משפחה שעשויה לרצות",

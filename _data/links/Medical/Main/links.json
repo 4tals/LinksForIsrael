@@ -3,6 +3,187 @@
 	"displayName": "ראשי",
 	"links": [
 		{
+			"name": "LargerThanLife",
+			"displayName": "גדולים מהחיים",
+			"shortDescription": "ליווי, תמיכה רגשית, סיוע כלכלי ופעילויות לשיפור איכות החיים של ילדים חולי סרטן ומשפחותיהם",
+			"description": "עמותת גדולים מהחיים מסייעת מדי שנה לכ-1,500 ילדים חולי סרטן מכל המגזרים בישראל, מפעילה את ״גן החלומות״ הסטרילי, ומעניקה מעטפת רגשית, חברתית ורפואית לילדים ולמשפחות.",
+			"url": "https://gdolim.org.il/",
+			"website": "https://gdolim.org.il/",
+			"tags": [
+				"ילדים",
+				"סרטן",
+				"אונקולוגיה",
+				"משפחות",
+				"Larger Than Life"
+			],
+			"intents": [
+				"get-help",
+				"volunteer",
+				"donate"
+			],
+			"verified": true,
+			"taxDeductible46": true,
+			"organizationType": "ngo",
+			"createdAt": "2026-11-22",
+			"references": [
+				{
+					"url": "https://www.guidestar.org.il/organization/580367795",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "גדולים מהחיים (ע״ר) – רישום עמותה וניהול תקין בגיידסטאר"
+				},
+				{
+					"url": "https://www.calcalist.co.il/article/b1krqr7vyx",
+					"type": "article",
+					"source": "Calcalist",
+					"title": "משלוח גדול מהחיים – פעילות עמותת גדולים מהחיים למען ילדים חולי סרטן"
+				}
+			]
+		},
+		{
+			"name": "UnitedHatzalah",
+			"displayName": "איחוד הצלה (1221)",
+			"shortDescription": "מערך מתנדבי חירום רפואי ארצי 24/7 המגיע לזירות חירום בתוך דקות באמצעות אופנולנסים וכוננים",
+			"description": "איחוד הצלה מפעיל אלפי חובשים, פראמדיקים ורופאים מתנדבים בפריסה ארצית מלאה ומוקד חירום 1221, להענקת טיפול רפואי ראשוני מציל חיים בדקות הקריטיות עד הגעת אמבולנס הפינוי.",
+			"url": "https://1221.org.il/",
+			"website": "https://1221.org.il/",
+			"phone": "1221",
+			"tags": [
+				"חירום רפואי",
+				"1221",
+				"הצלה",
+				"חובשים",
+				"United Hatzalah"
+			],
+			"intents": [
+				"get-help",
+				"volunteer",
+				"donate"
+			],
+			"verified": true,
+			"taxDeductible46": true,
+			"organizationType": "ngo",
+			"createdAt": "2026-11-22",
+			"references": [
+				{
+					"url": "https://he.wikipedia.org/wiki/%D7%90%D7%99%D7%97%D7%95%D7%93_%D7%94%D7%A6%D7%9C%D7%94",
+					"type": "registry",
+					"source": "Wikipedia",
+					"title": "איחוד הצלה (ויקיפדיה)"
+				},
+				{
+					"url": "https://en.wikipedia.org/wiki/United_Hatzalah",
+					"type": "registry",
+					"source": "Wikipedia (EN)",
+					"title": "United Hatzalah – Emergency Medical Services (Wikipedia)"
+				},
+				{
+					"url": "https://www.guidestar.org.il/organization/580465979",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "איחוד הצלה ישראל 1221 (ע״ר) – רישום בגיידסטאר"
+				}
+			]
+		},
+		{
+			"name": "EzerMizion",
+			"displayName": "עזר מציון",
+			"shortDescription": "סיוע רפואי ופארא-רפואי לחולים ולמשפחותיהם, המאגר הלאומי לתורמי מח עצם, הסעות חולים וארוחות חמות",
+			"description": "עזר מציון (כלת פרס ישראל) מפעילה את המאגר הלאומי לתורמי מח עצם, מערך הסעות חולים באמבולנסים, השאלת ציוד רפואי, בית אורנית לילדים חולי סרטן, וסיוע נרחב לחולים, קשישים ומשפחות במצבי משבר.",
+			"url": "https://www.ami.org.il/",
+			"website": "https://www.ami.org.il/",
+			"phone": "03-6144444",
+			"tags": [
+				"מח עצם",
+				"סרטן",
+				"חולים",
+				"ציוד רפואי",
+				"הסעות חולים",
+				"Ezer Mizion"
+			],
+			"intents": [
+				"get-help",
+				"volunteer",
+				"donate"
+			],
+			"verified": true,
+			"taxDeductible46": true,
+			"organizationType": "ngo",
+			"createdAt": "2026-11-22",
+			"references": [
+				{
+					"url": "https://he.wikipedia.org/wiki/%D7%A2%D7%96%D7%A8_%D7%9E%D7%A6%D7%99%D7%95%D7%9F",
+					"type": "registry",
+					"source": "Wikipedia",
+					"title": "עזר מציון – כלת פרס ישראל (ויקיפדיה)"
+				},
+				{
+					"url": "https://www.guidestar.org.il/organization/580079978",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "עזר מציון (ע״ר) – רישום עמותה וניהול תקין בגיידסטאר"
+				},
+				{
+					"url": "https://www.ynet.co.il/articles/0,7340,L-5331395,00.html",
+					"type": "article",
+					"source": "Ynet",
+					"title": "מבצעי ההצלה של המאגר הלאומי למח עצם בעזר מציון"
+				},
+				{
+					"url": "https://www.calcalist.co.il/local_news/article/hjxdqiqh6",
+					"type": "article",
+					"source": "Calcalist",
+					"title": "תפקידם הלאומי של גופי ההצלה והסיוע הרפואי בישראל"
+				}
+			]
+		},
+		{
+			"name": "YadSarah",
+			"displayName": "יד שרה",
+			"shortDescription": "אגודת המתנדבים הגדולה בישראל – השאלת ציוד רפואי ושיקומי בחינם, לחצני מצוקה, אשפוז בית ומוקדי סיוע",
+			"description": "יד שרה מפעילה למעלה מ-100 סניפים ברחבי הארץ להשאלת ציוד רפואי ושיקומי ללא תשלום (כיסאות גלגלים, מיטות רפואיות, מחוללי חמצן ועוד), שירותי אשפוז בית, הסעות נכוניות ומוקד מצוקה 24/7.",
+			"url": "https://yad-sarah.net/",
+			"website": "https://yad-sarah.net/",
+			"phone": "*6444",
+			"tags": [
+				"ציוד רפואי",
+				"השאלה",
+				"שיקום",
+				"קשישים",
+				"התנדבות",
+				"Yad Sarah"
+			],
+			"intents": [
+				"get-help",
+				"volunteer",
+				"donate"
+			],
+			"verified": true,
+			"taxDeductible46": true,
+			"organizationType": "ngo",
+			"createdAt": "2026-11-22",
+			"references": [
+				{
+					"url": "https://he.wikipedia.org/wiki/%D7%99%D7%93_%D7%A9%D7%A8%D7%94",
+					"type": "registry",
+					"source": "Wikipedia",
+					"title": "יד שרה – כלת פרס ישראל (ויקיפדיה)"
+				},
+				{
+					"url": "https://www.guidestar.org.il/organization/580030104",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "יד שרה (ע״ר) – רישום עמותה וניהול תקין בגיידסטאר"
+				},
+				{
+					"url": "https://www.ynet.co.il/articles/0,7340,L-5565016,00.html",
+					"type": "article",
+					"source": "Ynet",
+					"title": "לא רק השאלת ציוד: ״יד שרה״ מפעילה מערך אשפוז בית"
+				}
+			]
+		},
+		{
 			"name": "INZ",
 			"displayName": "ארגון נכי צה״ל",
 			"shortDescription": "ליווי, שיקום, זכויות ופעילות בתי הלוחם לפצועי ונכי צה״ל וכוחות הביטחון",

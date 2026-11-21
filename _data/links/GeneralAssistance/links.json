@@ -3,6 +3,43 @@
 	"displayName": "סיוע אזרחי כללי",
 	"links": [
 		{
+			"name": "KavLaOved",
+			"displayName": "קו לעובד – הגנה על זכויות עובדים",
+			"shortDescription": "ייעוץ, סיוע משפטי ומידע במיצוי זכויות עבודה ושכר לעובדים בישראל ללא הבדל מעמד",
+			"description": "עמותת קו לעובד פועלת מאז 1991 להגן על זכויות עובדים מוחלשים בישראל, מפעילה מוקדי ייעוץ וקבלת קהל, מפרסמת זכותונים במגוון שפות ומספקת סיוע משפטי מול מעסיקים ורשויות.",
+			"url": "https://kavlaoved.org.il/",
+			"website": "https://kavlaoved.org.il/",
+			"tags": [
+				"זכויות עובדים",
+				"דיני עבודה",
+				"סיוע משפטי",
+				"Kav LaOved"
+			],
+			"intents": [
+				"get-help",
+				"volunteer",
+				"donate"
+			],
+			"verified": true,
+			"taxDeductible46": false,
+			"organizationType": "ngo",
+			"createdAt": "2026-11-22",
+			"references": [
+				{
+					"url": "https://he.wikipedia.org/wiki/%D7%A7%D7%95_%D7%9C%D7%A2%D7%95%D7%91%D7%93",
+					"type": "registry",
+					"source": "Wikipedia",
+					"title": "קו לעובד (ויקיפדיה)"
+				},
+				{
+					"url": "https://www.guidestar.org.il/organization/580175545",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "קו לעובד (ע״ר) – רישום עמותה וניהול תקין בגיידסטאר"
+				}
+			]
+		},
+		{
 			"name": "KolZchut",
 			"displayName": "כל זכות",
 			"shortDescription": "מאגר המידע המקיף בישראל לזכויות אזרחים, מילואים, בריאות, רווחה ותעסוקה",

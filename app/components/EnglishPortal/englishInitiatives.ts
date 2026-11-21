@@ -200,6 +200,126 @@ export const ENGLISH_INITIATIVES: EnglishInitiative[] = [
 		tags: ["archive", "documentation", "history", "remembrance"],
 	},
 	{
+		id: "LeketIsraelMain",
+		name: "Leket Israel — National Food Bank",
+		category: "donate",
+		categoryLabel: "Humanitarian & Donations",
+		summary:
+			"Israel's national food rescue organization redistributing surplus agricultural produce and cooked meals through hundreds of local NGOs.",
+		url: "https://www.leket.org/",
+		tags: ["food rescue", "humanitarian", "donate", "volunteer"],
+	},
+	{
+		id: "YadSarah",
+		name: "Yad Sarah",
+		category: "donate",
+		categoryLabel: "Humanitarian & Donations",
+		summary:
+			"Israel's largest volunteer medical-equipment lending network, providing free wheelchairs, hospital beds, home-care, and 24/7 emergency distress buttons.",
+		url: "https://yad-sarah.net/",
+		tags: ["medical", "equipment", "elderly", "volunteer", "donate"],
+	},
+	{
+		id: "EzerMizion",
+		name: "Ezer Mizion",
+		category: "donate",
+		categoryLabel: "Humanitarian & Donations",
+		summary:
+			"Operates the world's largest Jewish bone marrow donor registry alongside comprehensive medical transport, meals, and cancer patient support.",
+		url: "https://www.ami.org.il/",
+		tags: ["bone marrow", "cancer", "medical", "donate"],
+	},
+	{
+		id: "UnitedHatzalah",
+		name: "United Hatzalah (1221)",
+		category: "donate",
+		categoryLabel: "Humanitarian & Donations",
+		summary:
+			"Nationwide 24/7 volunteer emergency medical response network of ambucycles and medics reaching emergencies within minutes.",
+		url: "https://1221.org.il/",
+		tags: ["emergency", "EMS", "medics", "1221", "donate"],
+	},
+	{
+		id: "ZAKA",
+		name: "ZAKA — Search & Rescue (1220)",
+		category: "donate",
+		categoryLabel: "Humanitarian & Donations",
+		summary:
+			"Volunteer emergency response, search-and-rescue, diving, and disaster victim recovery teams operating across Israel and internationally.",
+		url: "https://zaka.org.il/",
+		tags: ["rescue", "emergency", "volunteer", "donate"],
+	},
+	{
+		id: "LargerThanLife",
+		name: "Larger Than Life (Gdolim MeHaChaim)",
+		category: "donate",
+		categoryLabel: "Humanitarian & Donations",
+		summary:
+			"Improves the quality of life for children fighting cancer and their families across Israel regardless of background.",
+		url: "https://gdolim.org.il/",
+		tags: ["children", "cancer", "medical", "donate"],
+	},
+	{
+		id: "Enosh",
+		name: "Enosh — Israeli Mental Health Association",
+		category: "rehab",
+		categoryLabel: "Veterans & Mental Health",
+		summary:
+			"Israel's leading community mental health rehabilitation NGO offering housing, employment, youth Headspace centers, and family counseling.",
+		url: "https://www.enosh.org.il/",
+		tags: ["mental health", "rehabilitation", "youth", "family"],
+	},
+	{
+		id: "IsraelTraumaCoalition",
+		name: "Israel Trauma Coalition (ITC)",
+		category: "rehab",
+		categoryLabel: "Veterans & Mental Health",
+		summary:
+			"Umbrella network operating Israel's Resilience Centers nationwide and training emergency responders and communities in trauma care.",
+		url: "https://israeltraumacoalition.org/",
+		tags: ["trauma", "resilience", "emergency", "mental health"],
+	},
+	{
+		id: "ALUT",
+		name: "ALUT — National Society for Children & Adults with Autism",
+		category: "rehab",
+		categoryLabel: "Veterans & Mental Health",
+		summary:
+			"Supports Israelis on the autism spectrum and their families through rehabilitative daycare, family centers, employment, and housing.",
+		url: "https://alut.org.il/",
+		tags: ["autism", "disabilities", "family", "rehabilitation"],
+	},
+	{
+		id: "ADIIsrael",
+		name: "ADI Israel (ADI Negev-Nahalat Eran)",
+		category: "rehab",
+		categoryLabel: "Veterans & Mental Health",
+		summary:
+			"Operates the Negev's first rehabilitative hospital and specialized residential, medical, and educational care for people with severe disabilities.",
+		url: "https://adi-il.org.il/",
+		tags: ["rehabilitation", "disabilities", "Negev", "hospital"],
+	},
+	{
+		id: "Etgarim",
+		name: "Etgarim — Adaptive Outdoor Sports",
+		category: "volunteer",
+		categoryLabel: "Volunteering & Community",
+		summary:
+			"Empowers children, youth, adults with disabilities, and wounded veterans through cycling, sailing, running, and outdoor adaptive sports.",
+		url: "https://etgarim.org/",
+		tags: ["adaptive sports", "disabilities", "veterans", "volunteer"],
+	},
+	{
+		id: "ZikaronBaSalon",
+		name: "Zikaron BaSalon (Memories in the Living Room)",
+		category: "advocacy",
+		categoryLabel: "Advocacy & Remembrance",
+		summary:
+			"Global grassroots tradition hosting intimate living-room testimonies, music, and dialogue for Holocaust Remembrance Day worldwide.",
+		url: "https://www.zikaronbasalon.com/",
+		tags: ["Holocaust", "remembrance", "community", "global"],
+	},
+	{
 		id: "GiveThemAKaddish",
 		name: "Give Them a Kaddish",
 		category: "advocacy",

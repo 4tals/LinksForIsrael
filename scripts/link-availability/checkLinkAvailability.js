@@ -49,6 +49,8 @@ const expectedHostErrors = {
 	"www.linkedin.com": "999",
 	"twitter.com": "FORBIDDEN",
 	"x.com": "FORBIDDEN",
+	"www.ami.org.il": "FORBIDDEN",
+	"alut.org.il": "FORBIDDEN",
 };
 
 const SUSPICIOUS_CONTENT_PATTERNS = [

@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "source": "https://www.linksforisrael.com",
-  "generatedAt": "2026-11-21T21:59:24.437Z",
+  "generatedAt": "2026-11-21T22:09:45.590Z",
   "count": 11,
   "categories": [
     {
@@ -51,7 +51,7 @@
       "id": "Defense",
       "displayName": "הגנה",
       "description": "הגנה אישית וחברתית - מידע וכלים עבור לשגרה וחירום",
-      "count": 5,
+      "count": 6,
       "portalUrl": "https://www.linksforisrael.com/Defense",
       "subCategories": [
         {
@@ -62,7 +62,7 @@
         {
           "id": "Emergency",
           "displayName": "חירום",
-          "count": 3
+          "count": 4
         }
       ]
     },
@@ -122,18 +122,18 @@
       "id": "Economic",
       "displayName": "כלכלי ועסקי",
       "description": "תרומות כספיות, סיוע לעסקים, והטבות לצרכנים",
-      "count": 9,
+      "count": 11,
       "portalUrl": "https://www.linksforisrael.com/Economic",
       "subCategories": [
         {
           "id": "Donations",
           "displayName": "תרומות כספיות",
-          "count": 6
+          "count": 7
         },
         {
           "id": "Businesses",
           "displayName": "תמיכה בעסקים והטבות לצרכנים",
-          "count": 3
+          "count": 4
         }
       ]
     },
@@ -141,13 +141,13 @@
       "id": "FamilyAndPets",
       "displayName": "משפחה ובע\"ח",
       "description": "תמיכה במשפחות המילואים, ילדיהן, וחיות המחמד שלהן",
-      "count": 12,
+      "count": 15,
       "portalUrl": "https://www.linksforisrael.com/FamilyAndPets",
       "subCategories": [
         {
           "id": "Main",
           "displayName": "ראשי",
-          "count": 5
+          "count": 8
         },
         {
           "id": "ChildrenContent",
@@ -160,18 +160,18 @@
       "id": "Medical",
       "displayName": "בריאות ונפש",
       "description": "",
-      "count": 13,
+      "count": 20,
       "portalUrl": "https://www.linksforisrael.com/Medical",
       "subCategories": [
         {
           "id": "Main",
           "displayName": "ראשי",
-          "count": 7
+          "count": 11
         },
         {
           "id": "MentalSupport",
           "displayName": "תמיכה נפשית",
-          "count": 6
+          "count": 9
         }
       ]
     },
@@ -179,13 +179,13 @@
       "id": "MemorialRemembrance",
       "displayName": "שכול וזיכרון",
       "description": "",
-      "count": 6,
+      "count": 7,
       "portalUrl": "https://www.linksforisrael.com/MemorialRemembrance",
       "subCategories": [
         {
           "id": "Main",
           "displayName": "ראשי",
-          "count": 6
+          "count": 7
         }
       ]
     },

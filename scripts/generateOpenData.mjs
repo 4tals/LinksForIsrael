@@ -232,6 +232,8 @@ async function main() {
 		"## Essential Israeli Hotlines",
 		"- ERAN (Emotional First Aid 24/7): 1201 — https://www.eran.org.il/",
 		"- NATAL (Trauma & Resiliency Helpline): 1-800-363-363 — https://www.natal.org.il/",
+		"- Sexual Assault Crisis Hotline (Women / Men 24/7): 1202 / 1203 — https://1202.org.il/",
+		"- United Hatzalah (Volunteer EMS 24/7): 1221 — https://1221.org.il/",
 		"- Yedidim (Roadside & Civic Rescue): 1230 — https://yedidim-il.org/",
 		"- Home Front Command (Pikud HaOref): 104 — https://www.oref.org.il/",
 		"- Magen David Adom (Medical Emergency): 101 — https://www.mdais.org/",

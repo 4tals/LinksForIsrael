@@ -3,6 +3,51 @@
 	"displayName": "תרומות כספיות",
 	"links": [
 		{
+			"name": "LeketIsrael",
+			"displayName": "לקט ישראל – בנק המזון הלאומי",
+			"shortDescription": "ארגון הצלת המזון הלאומי של ישראל – הצלת תוצרת חקלאית ומזון מבושל וחלוקתם למאות אלפי נזקקים",
+			"description": "לקט ישראל פועל כבנק המזון הלאומי מאז 2003, מציל מיליוני ארוחות ותוצרת חקלאית איכותית ומעביר אותן דרך מאות עמותות שותפות למשפחות, קשישים וניצולי שואה ברחבי הארץ.",
+			"url": "https://www.leket.org/",
+			"website": "https://www.leket.org/",
+			"tags": [
+				"מזון",
+				"ביטחון תזונתי",
+				"חקלאות",
+				"תרומה",
+				"התנדבות",
+				"Leket Israel"
+			],
+			"intents": [
+				"donate",
+				"volunteer",
+				"get-help"
+			],
+			"verified": true,
+			"taxDeductible46": true,
+			"organizationType": "ngo",
+			"createdAt": "2026-11-22",
+			"references": [
+				{
+					"url": "https://he.wikipedia.org/wiki/%D7%9C%D7%A7%D7%98_%D7%99%D7%A9%D7%A8%D7%90%D7%9C",
+					"type": "registry",
+					"source": "Wikipedia",
+					"title": "לקט ישראל – ארגון הצלת המזון הלאומי (ויקיפדיה)"
+				},
+				{
+					"url": "https://www.guidestar.org.il/organization/580407633",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "לקט ישראל (ע״ר) – רישום עמותה וניהול תקין בגיידסטאר"
+				},
+				{
+					"url": "https://www.ynet.co.il/activism/article/h1iuhydj11l",
+					"type": "article",
+					"source": "Ynet",
+					"title": "המלחמה על הצלחת: מהשדה המופגז לשולחן הסדר"
+				}
+			]
+		},
+		{
 			"name": "Latet",
 			"displayName": "ארגון לתת",
 			"shortDescription": "סיוע הומניטרי, ביטחון תזונתי ותמיכה במשפחות נזקקות וניצולי שואה",
