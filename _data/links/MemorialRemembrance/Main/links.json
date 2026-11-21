@@ -3,24 +3,6 @@
   "displayName": "ראשי",
   "links": [
     {
-      "name": "IzkorNoflim",
-      "displayName": "יזכור הנופלים",
-      "shortDescription": "מידע על כלל חללי ׳חרבות ברזל׳",
-      "description": "האתר הוקם במטרה לרכז מידע על כלל חללי ׳חרבות ברזל׳, מועדי הלוויה ומיקומי השבעה על מנת שנוכל לחלוק להם כבוד אחרון וללוותם בדרכם האחרונה",
-      "url": "https://www.izkorharavot.com/",
-      "website": "https://www.izkorharavot.com/",
-      "createdAt": "2023-10-14T02:10:56+03:00"
-    },
-    {
-      "name": "LevEhad",
-      "displayName": "לב אחד - טופס רישום לנציגים אזרחיים",
-      "shortDescription": "ארגון לב אחד דואג שלא תהיה לוויה ללא נציגים אזרחיים",
-      "description": "ארגון לב אחד דואג שלא תהיה לוויה ללא נציגים אזרחיים",
-      "url": "https://wkf.ms/46mj8OG",
-      "forms": "https://wkf.ms/46mj8OG",
-      "createdAt": "2023-10-12T22:22:49+03:00"
-    },
-    {
       "name": "IllustrationNofalim",
       "displayName": "איורים של הנופלים - Benzi Wolman",
       "shortDescription": "אני יושב ומאייר את דמותם של הנופלים שהיו שם בשבילנו. אם אתם יודעים על משפחה שעשויה לרצות",
@@ -36,25 +18,6 @@
         "הוקרה"
       ],
       "createdAt": "2023-10-21T23:09:40+03:00"
-    },
-    {
-      "name": "Shalhevet",
-      "displayName": "שלהבת - להיות חזקים ביחד בזמנים קשים",
-      "shortDescription": "מתחם זום לשידור והשתתפות בלוויה ואירועי זיכרון",
-      "description": "מתחם זום לשידור והשתתפות בלוויה ואירועי זיכרון עבור שלא יכולים להגיע. המפגשים פתוחים ל-24 שע' לעד-500 אנשים.",
-      "url": "https://shalhevet.co/",
-      "website": "https://shalhevet.co/",
-      "initiativeImage": "https://shalhevet.co/candel.png",
-      "tags": [
-        "זום",
-        "לוויה",
-        "אירועי זיכרון",
-        "שלהבת",
-        "התאחדות",
-        "אמדוקס",
-        "נאוטק"
-      ],
-      "createdAt": "2023-10-25T21:51:36+03:00"
     },
     {
       "name": "WixRememberThem",
@@ -112,24 +75,6 @@
       "createdAt": "2023-11-28T01:25:55+02:00"
     },
     {
-      "displayName": "שבעה באוקטובר - האהובים שאיבדנו",
-      "name": "OctSevenLostLovedOnes",
-      "shortDescription": "אתר הנצחה לנופלים ב7 באקוטובר ובמלחמת חרבות ברזל",
-      "description": "מתקפת הטרור באותה שבת שחורה ומלחמת 'חרבות ברזל' שבאה בעקבותיה הותירו חלל עצום הנוגע בכל בית בישראל, בכל לב אנושי.  האתר הוקם כבית לתמונות ולסיפורים של האנשים היקרים שנקטפו בטרם עת.",
-      "initiativeValidationDetails": "https://www.linkedin.com/feed/update/urn:li:activity:7129843344486072320/",
-      "url": "https://octseven.co.il",
-      "initiativeImage": "/images/OctSevenLostLovedOnes-2fbbc349-3c9c-46d2-b339-116d4410dd3b.png",
-      "website": "https://octseven.co.il",
-      "email": "support@octseven.com",
-      "tags": [
-        "נופלים",
-        "אוקטובר",
-        "חרבות ברזל",
-        "האהובים שאיבדנו"
-      ],
-      "createdAt": "2023-12-08T13:01:25.514Z"
-    },
-    {
       "displayName": "מנחמים את משפחות הנופלים",
       "name": "ConsolingMourningFamilies",
       "shortDescription": "אתר המרכז זמני שבעה של נופלים במלחמת חרבות ברזל",
@@ -160,7 +105,7 @@
       "website": "https://www.givethemakaddish.org",
       "phone": "+18457094787",
       "email": "givethemakaddish@gmail.com",
-      "whatsapp": "+18457094787",
+      "whatsapp": "https://wa.me/18457094787",
       "tags": [
         "קדיש",
         "נרצחים",

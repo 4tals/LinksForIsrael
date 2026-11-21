@@ -3,17 +3,6 @@
   "displayName": "שינוע והסעה",
   "links": [
     {
-      "name": "HamalShinoaArtzi",
-      "displayName": "חמל השינוע הארצי",
-      "shortDescription": "חמ״ל השינוע הארצי, הינו מיזם התנדבותי המחבר בין אזרחים וכוחות ביטחון לצורך שינוע בזמן חירום.",
-      "description": "חמ״ל השינוע הארצי, הינו מיזם התנדבותי המחבר בין אזרחים וכוחות ביטחון לצורך שינוע בזמן חירום.",
-      "url": "https://www.transportaid.org/",
-      "website": "https://www.transportaid.org/",
-      "initiativeImage": "https://static.wixstatic.com/media/6e2c6c_05022fd4446e4f258ee9a6ffa599e405~mv2.png/v1/fill/w_211,h_56,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/CSA-wide-Logo.png",
-      "form": "https://forms.monday.com/forms/a581779b065798bdbac2a5d206419ae6?r=euc1",
-      "createdAt": "2023-10-29T08:46:29+02:00"
-    },
-    {
       "name": "HamalFoodLogistics",
       "displayName": "חמ״ל שינוע מזון לחיילים",
       "shortDescription": "קבוצת וואטסאפ לתיאום ושינוע של מזון ללוחמים",
@@ -21,67 +10,6 @@
       "url": "https://chat.whatsapp.com/KPZ7JqQyBLG3OSvtGlUAdx",
       "whatsapp": "https://chat.whatsapp.com/KPZ7JqQyBLG3OSvtGlUAdx",
       "createdAt": "2023-10-12T22:22:49+03:00"
-    },
-    {
-      "name": "HamalDriversArtzi",
-      "displayName": "חמל נהגים מתנדבים ארצי",
-      "shortDescription": "חמל נהגים מתנדבים ארצי",
-      "description": "חמל נהגים מתנדבים ארצי",
-      "url": "https://sh.hagai.co/vdri/",
-      "website": "https://sh.hagai.co/vdri/",
-      "initiativeImage": "https://pps.whatsapp.net/v/t61.24694-24/328638286_308153971976294_7092506465584154056_n.jpg?ccb=11-4&oh=01_AdQ-R72aPI7a1e26bvJU0mwrGIaaiX1WuY4EH7cqKlDdvw&oe=654A5786&_nc_sid=000000&_nc_cat=101",
-      "whatsapp": "https://chat.whatsapp.com/Hm77B53MNjfBhgjmMP0C2s",
-      "createdAt": "2023-10-25T11:36:00+03:00"
-    },
-    {
-      "name": "MotoZon",
-      "displayName": "חמ\"ל אופנועים מוטוזון",
-      "shortDescription": "חמל אופנועים",
-      "description": "קבוצה של 900 אופנוענים, מבצעים שינוע של דברים קטנים, כמובן בהקשר הנוכחי.",
-      "url": "https://sh.hagai.co/bikeil/intake",
-      "initiativeValidationDetails": "מקור: קבוצת WhatsApp, קישור למקורות מהימנים שמקדמים את היוזמה: חיפוש Google מציע שהם חוקיים ומוכרים https://www.google.com/search?q=motozon&oq=motozon&...",
-      "website": "https://sh.hagai.co/bikeil/intake",
-      "facebook": "https://www.facebook.com/groups/motozon/",
-      "instagram": "https://www.instagram.com/motozonil/",
-      "tags": [
-        "הסעות",
-        "אופנועים",
-        "שינוע דברים",
-        "MotoZon",
-        "אופנוע"
-      ],
-      "createdAt": "2023-10-28T21:47:48+03:00"
-    },
-    {
-      "name": "VehicleReturn",
-      "displayName": "החזרת רכבים למשפחות בעורף והסעות בלבד",
-      "shortDescription": "קבוצת החזרת רכבים מהשטח לכל רחבי הארץ",
-      "description": "קבוצה מאובטחת - החזרת רכבים למשפחות בעורף והסעות בלבד (971)\n\n✅כל מי שנכנס לקבוצה עובר אימות ע'י מנהלי הקבוצה. 🙏🏼",
-      "initiativeValidationDetails": "Exists from start of war\n\nAlmost 1K members\n\nTalked to one of the admins",
-      "url": "https://chat.whatsapp.com/EovJcHksm8iDT7Y7H9vC2B",
-      "whatsapp": "https://chat.whatsapp.com/EovJcHksm8iDT7Y7H9vC2B",
-      "initiativeImage": "https://pps.whatsapp.net/v/t61.24694-24/368231958_335251232330419_6905485826851088070_n.jpg?ccb=11-4&oh=01_AdSKoejYPN8ppqIl21fL8tGulMfL1QeFvmRhpH0gxh12uQ&oe=65621899&_nc_sid=e6ed6c&_nc_cat=109",
-      "tags": [
-        "החזרת רכבים",
-        "משפחות בעורף",
-        "הסעות"
-      ],
-      "createdAt": "2023-11-15T22:53:09+02:00"
-    },
-    {
-      "name": "Hasaot",
-      "displayName": "הסעות - חרבות ברזל",
-      "shortDescription": "אנו ננסה לתאם בין נהגים מתנדבים לבין חיילים הזקוקים להסעה",
-      "description": "אתר המאמת נהגים ומבקשי הסעה, ולאחר מכן מפנה אותם לקבוצת ואצאפ סגורה לצורך תיאום",
-      "initiativeValidationDetails": "Video chatted with site owner",
-      "url": "https://hasaot.mrwp.co.il/",
-      "website": "https://hasaot.mrwp.co.il/",
-      "tags": [
-        "הסעה",
-        "נהגים",
-        "חיילים"
-      ],
-      "createdAt": "2023-11-15T22:58:29+02:00"
     },
     {
       "name": "ReserveRides",
@@ -92,7 +20,6 @@
       "url": "https://chat.whatsapp.com/ErCryExAKyKGkI2R6HlYqv",
       "whatsapp": "https://chat.whatsapp.com/ErCryExAKyKGkI2R6HlYqv",
       "form": "https://forms.gle/zupXPPfTv1gEV7Yk6",
-      "initiativeImage": "https://pps.whatsapp.net/v/t61.24694-24/370450779_723421689629126_8700689690841191547_n.jpg?ccb=11-4&oh=01_AdRj5C9h8PZiy5C2n-IZG1o2cdGKFA_S5DGa7BV2dM9pDQ&oe=65622687&_nc_sid=e6ed6c&_nc_cat=103",
       "tags": [
         "טרמפים",
         "מילואים",

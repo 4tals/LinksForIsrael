@@ -3,3 +3,5 @@
 /Transportation /SuppliesAndTransportation 301
 /Supplies /SuppliesAndTransportation 301
 /Initiatives /Aggregators 301
+/MissingPersons / 301
+/MissingPersons/* / 301

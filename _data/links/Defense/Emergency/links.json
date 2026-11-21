@@ -3,20 +3,6 @@
   "displayName": "חירום",
   "links": [
     {
-      "name": "KvarBaimInitiative",
-      "displayName": "יוזמת כבר באים",
-      "shortDescription": "מוקד מתנדבים המחבר לכוחות הצלה וחילוץ במקרי חירום",
-      "description": "מוקד מתנדבים המחבר לכוחות הצלה וחילוץ במקרי חירום",
-      "url": "https://www.kvarbaim.co.il/",
-      "website": "https://www.kvarbaim.co.il/",
-      "tags": [
-        "חילוץ",
-        "הצילו",
-        "כוחות ביטחון"
-      ],
-      "createdAt": "2023-10-15T00:25:34+03:00"
-    },
-    {
       "name": "MidragSheltersProject",
       "displayName": "פרויקט מדרג להשמשת מקלטים",
       "shortDescription": "השמשת מקלטים ע״י בעלי מקצוע, מקלטי בניינים בלבד, לא כולל החלפת דלתות וחלונות",

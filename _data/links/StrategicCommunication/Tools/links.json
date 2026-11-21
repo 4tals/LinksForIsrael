@@ -3,40 +3,6 @@
   "displayName": "כלים לתמיכה בהסברה",
   "links": [
     {
-      "name": "HaravotDubbing",
-      "displayName": "חרבות - מדובבים את הסרטונים שלכם",
-      "initiativeImage": "https://haravot.com/wp-content/uploads/2023/10/haravot-full-colorLogo.png",
-      "description": "העלו סרטון בעברית ואנחנו נדבב אותו באמצעות AI לשפה שתבחרו. הדיבוב מותאם לקולכם ולנאמר.",
-      "url": "https://haravot.com/",
-      "website": "https://haravot.com/",
-      "tags": [
-        "דיבוב",
-        "AI",
-        "סרטונים",
-        "הסברה",
-        "שפה",
-        "תרגום"
-      ],
-      "createdAt": "2023-11-02T13:07:16+02:00"
-    },
-    {
-      "name": "EzDubsAI",
-      "displayName": "EzDubs - דיבוב בזמן אמת AI",
-      "shortDescription": "דיבוב בזמן אמת אנגלית, עוזר בהפקת חומרי הסברה לשפות שונות",
-      "initiativeImage": "https://ezdubs-editor.s3.amazonaws.com/assets/EzDubs-logo-light.png",
-      "description": "שבירת מחסומי השפה בסרטונים ושידורים חיים. מעורר עניין בקוראים ממגוון דמוגרפיות.",
-      "url": "https://www.ezdubs.ai/",
-      "website": "https://www.ezdubs.ai/",
-      "tags": [
-        "דיבוב",
-        "AI",
-        "שפה",
-        "סרטונים",
-        "שידורים חיים"
-      ],
-      "createdAt": "2023-11-02T11:01:27+02:00"
-    },
-    {
       "name": "Autocap",
       "displayName": "טופס להוספת כתוביות לסרטונים",
       "shortDescription": "גישה חינם לאפליקציית מובייל להוספת כתוביות לסרטוני הסברה בכל שפה",
@@ -53,25 +19,6 @@
       "createdAt": "2023-11-07T20:44:10+02:00"
     },
     {
-      "name": "DesignHamal",
-      "displayName": "חמ'ל עיצוב",
-      "shortDescription": "מתנדבים יוצרים פרויקטים למטרות סיוע והסברה",
-      "description": "בזמנים קשים אלו, אנו מעצבים ומעצבות, מציעים ללא תשלום את שירותינו לעמותות ויוזמות עצמאיות  שרוצות להיעזר בנו, לעיצוב פוסטים ועיצובים לסושיאל, הכנת סרטונים, עיצוב אתרים, איור וכו׳",
-      "initiativeValidationDetails": "https://www.prtfl.co.il/archives/190109",
-      "url": "https://www.designhamal.com/",
-      "website": "https://www.designhamal.com/",
-      "form": "https://wkf.ms/3Q9T8jS",
-      "docs": "https://forms.monday.com/forms/4d56aca3a254a2c5c3982f59453d9ec7?r=euc1",
-      "initiativeImage": "https://static.wixstatic.com/media/e3a10a_e9eb35ba322445d78637250a4de70700~mv2.png/v1/crop/x_95,y_206,w_546,h_360/fill/w_655,h_352,fp_0.50_0.50,lg_1,q_85,enc_auto/logo-1-06.png",
-      "tags": [
-        "עיצוב",
-        "מתנדבים",
-        "סיוע",
-        "הסברה"
-      ],
-      "createdAt": "2023-11-09T22:18:22+02:00"
-    },
-    {
       "name": "FightBackAI",
       "displayName": "להלחם בחזרה בטלגרם",
       "shortDescription": "LLM’s enlisted to help Hasbara",
@@ -80,7 +27,6 @@
       "url": "https://t.me/fightbackai_bot",
       "website": "https://t.me/fightbackai_bot",
       "telegram": "https://t.me/fightbackai_bot",
-      "initiativeImage": "https://cdn4.cdn-telegram.org/file/PBHJ3Be-OLv2Kf8CDAiUUcDEBjuURHML_x9P7Omptgo-9_RJhKx-MO1bWyvTFHCiDvUuf4ByK11SLEmWdZz6u7030_mILoKd2Xrk3_5CpSMW2z5_VCx0EGy5t6JzVlpOhyE7XyOU-SxGniGgF5d81Wvbt6N5bfD7t5GvZeGpO61Kdfz14CRaTuCm3_lTzaVzkhf2NC5hDXH-A-V-_Gy8YjnrpoX2FzNVUzsYmZT8gfIUmN_-0lipi3OeEmgCWuYJFiqz3dNpP7f_CPOtEn2Oq8nCae3xYzoDij5SvsIXsey-lxwyBLccLTPhvExRVKI4cf2Mn_h20aHrm69M9GNDuA.jpg",
       "tags": [
         "הסברה",
         "דיפלומטיה ציבורית",
@@ -108,26 +54,6 @@
         "אנטישמים"
       ],
       "createdAt": "2023-11-17T22:29:40+02:00"
-    },
-    {
-      "name": "Hasbaraa",
-      "displayName": "Hasbaraa.com",
-      "shortDescription": "כלים, חומרים, והדרכות בנושא הסברה",
-      "description": "צוות מצומצם ומפוקס של אנשי מקצוע שהתאגדו יחד עם מומחים בהסברה ושכנוע, מיתוג ואסטרטגיה במטרה לתמוך בכוחות שנלחמים עבור המדינה בחזית ההסברה. אנו פועלים תוך כדי התוויית אסטרטגיה, חינוך והעשרה להסברה אפקטיבית, ייעוץ ותמיכה מקצועית ויצירת סינרגיות בין החמ״לים השונים, מובילי דעת קהל וגופים ממשלתיים לריכוז מאמץ ואימפקט.",
-      "initiativeValidationDetails": "https://www.linkedin.com/in/ariel-halevi-82100a1/",
-      "url": "https://www.hasbaraa.com/",
-      "website": "https://www.hasbaraa.com/",
-      "email": "Contact@Hasbaraa.com",
-      "youtube": "https://www.youtube.com/channel/UCZMtJryxUqeaS35MBa9ReoQ",
-      "tags": [
-        "הסברה",
-        "מסעות שכנוע",
-        "תמיכה",
-        "מקצוענים",
-        "חינוך",
-        "אסטרטגיה"
-      ],
-      "createdAt": "2023-11-29T10:02:49+02:00"
     }
   ]
 }

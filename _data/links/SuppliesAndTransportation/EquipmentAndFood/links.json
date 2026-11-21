@@ -26,27 +26,6 @@
       "createdAt": "2023-11-09T23:40:39+02:00"
     },
     {
-      "name": "SupplyMatch",
-      "displayName": "Supply Match",
-      "shortDescription": "חיבור בין מבקשים לנותני ציוד",
-      "description": "יוזמה המחברת בין מבקשי ציוד לנותני ציוד",
-      "tags": [],
-      "url": "https://supply-match.com/",
-      "website": "https://supply-match.com/",
-      "initiativeValidationDetails": "@ohadschn talked with owner",
-      "createdAt": "2023-10-12T22:22:08+03:00"
-    },
-    {
-      "name": "WoltFoodDonations",
-      "displayName": "תרומות מזון ישירות דרך וולט",
-      "shortDescription": "מארזי תרומה למזון בסיסי",
-      "description": "מארזי תרומות של מזון דרך ולט לקניה של מזון בסיסי ושימורים",
-      "initiativeImage": "https://d21buns5ku92am.cloudfront.net/69274/documents/43826-1608038201-Wolt_logo_RGB-86ecff-medium.png",
-      "url": "https://wolt.com/he/isr/tel-aviv/venue/support-the-south",
-      "website": "https://wolt.com/he/isr/tel-aviv/venue/support-the-south",
-      "createdAt": "2023-10-12T22:22:49+03:00"
-    },
-    {
       "name": "SweetOperation",
       "displayName": "מבצע החמל המתוק",
       "shortDescription": "מאפים ביתיים לכוחותינו בשטח",

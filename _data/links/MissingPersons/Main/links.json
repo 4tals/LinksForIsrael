@@ -1,24 +1,5 @@
 {
   "name": "Main",
   "displayName": "ראשי",
-  "links": [
-    {
-      "name": "TogetherForMissingPeople",
-      "displayName": "ביחד למען הנעדרים",
-      "shortDescription": "",
-      "url": "https://needarim.org.il/",
-      "website": "https://needarim.org.il/",
-      "createdAt": "2023-10-12T22:22:49+03:00"
-    },
-    {
-      "name": "FindMe",
-      "displayName": "מיזם FindMe",
-      "description": "מאפשר למשפחות לשלוח פרטים נוספים על הנעדרים לסיוע בזיהוי כחטופים או חללים - מיזם בשיתוף מתנדבים מחברת פאלו-אלטו ",
-      "shortDescription": "מאפשר למשפחות לשלוח פרטים נוספים על הנעדרים לסיוע בזיהוי כחטופים או חללים - מיזם בשיתוף מתנדבים מחברת פאלו-אלטו ",
-      "url": "https://www.findme-service.org/form",
-      "website": "https://www.findme-service.org/form",
-      "email": "support@findme-service.org",
-      "createdAt": "2023-10-14T23:32:18+03:00"
-    }
-  ]
+  "links": []
 }
