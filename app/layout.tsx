@@ -52,6 +52,10 @@ export const metadata: Metadata = {
 	],
 	alternates: {
 		canonical: "/",
+		languages: {
+			"he-IL": "/",
+			"en-US": "/en",
+		},
 	},
 	openGraph: {
 		type: "website",

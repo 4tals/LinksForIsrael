@@ -1,11 +1,12 @@
 "use client";
 
 import NextLink from "next/link";
+import { usePathname } from "next/navigation";
 import React, { useContext } from "react";
 
 import { Logo } from "@/app/components/Logo";
 import { SearchContext } from "@/app/components/RootApp";
-import { Box, Container, Flex, HStack, Text } from "@chakra-ui/react";
+import { Box, Button, Container, Flex, HStack, Text } from "@chakra-ui/react";
 
 import { AddSite } from "../AddSite";
 import { SearchButtonMobile } from "../Search/SearchButtonMobile";
@@ -13,6 +14,8 @@ import { SearchInput } from "../Search/SearchInput";
 
 export function Header() {
 	const { onSearch, setActiveIntent } = useContext(SearchContext);
+	const pathname = usePathname();
+	const isEnglish = pathname === "/en" || pathname?.startsWith("/en/");
 
 	return (
 		<Box
@@ -65,21 +68,41 @@ export function Header() {
 						</NextLink>
 					</Flex>
 
-					<Flex
-						display={{ base: "none", md: "flex" }}
-						flex="1"
-						justify="center"
-						maxW="540px"
-						mx="auto"
-					>
-						<SearchInput />
-					</Flex>
+					{!isEnglish && (
+						<Flex
+							display={{ base: "none", md: "flex" }}
+							flex="1"
+							justify="center"
+							maxW="540px"
+							mx="auto"
+						>
+							<SearchInput />
+						</Flex>
+					)}
 
 					<HStack spacing={2} flex="0 0 auto">
+						<Button
+							as={NextLink}
+							href={isEnglish ? "/" : "/en"}
+							size={{ base: "sm", md: "md" }}
+							variant="ghost"
+							color="white"
+							borderRadius="full"
+							borderWidth="1px"
+							borderColor="whiteAlpha.400"
+							fontWeight="semibold"
+							px={3}
+							_hover={{ bg: "whiteAlpha.200", textDecoration: "none" }}
+							aria-label={isEnglish ? "עבור לעברית" : "Switch to English"}
+						>
+							{isEnglish ? "עברית" : "EN"}
+						</Button>
 						<AddSite />
-						<Box display={{ base: "block", md: "none" }}>
-							<SearchButtonMobile />
-						</Box>
+						{!isEnglish && (
+							<Box display={{ base: "block", md: "none" }}>
+								<SearchButtonMobile />
+							</Box>
+						)}
 					</HStack>
 				</Flex>
 			</Container>

@@ -78,7 +78,13 @@ export async function generateMetadata({
 		return {
 			title: { absolute: DEFAULT_TITLE },
 			description: DEFAULT_DESCRIPTION,
-			alternates: { canonical: "/" },
+			alternates: {
+				canonical: "/",
+				languages: {
+					"he-IL": "/",
+					"en-US": "/en",
+				},
+			},
 		};
 	}
 

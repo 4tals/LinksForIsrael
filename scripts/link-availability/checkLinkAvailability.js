@@ -36,7 +36,22 @@ const expectedHostErrors = {
 	"giveisrael.org": "FORBIDDEN",
 	"www.payboxapp.com": "FORBIDDEN",
 	"www.kolzchut.org.il": "FORBIDDEN",
+	"www.nli.org.il": "FORBIDDEN",
+	"innovationisrael.org.il": "FORBIDDEN",
+	"meshekhai.co.il": "FORBIDDEN",
+	"padlet.com": "FORBIDDEN",
+	"rebrand.ly": "FORBIDDEN",
+	"easy.co.il": "FORBIDDEN",
+	"go.easy.co.il": "FORBIDDEN",
 };
+
+const SUSPICIOUS_CONTENT_PATTERNS = [
+	{ label: "Domain for sale / parked", regex: /domain\s+(is\s+)?for\s+sale|buy\s+this\s+domain|sedoparking|hugedomains|dan\.com|afternic|parkingcrew|bodis\.com/i },
+	{ label: "Wix disconnected domain", regex: /ConnectYourDomain\s+Error|looks\s+like\s+this\s+domain\s+isn.?t\s+connected/i },
+	{ label: "Suspended service/account", regex: /Service\s+Suspended|Account\s+Suspended/i },
+	{ label: "Hijacked gambling/spam content", regex: /\b(fafa247|sunwin|slot\s+gacor|online\s+casino|poker\s+online)\b/i },
+	{ label: "Soft 404 / expired form", regex: /PageNotFound\.aspx|error_page\.htm|no\s+longer\s+accepting\s+responses|כבר\s+לא\s+מקבל\s+תגובות/i },
+];
 
 function addUnavailableUrl(file, name, prop, url, errorMessage) {
 	console.warn(`${errorMessage} [${url}]`);
@@ -105,6 +120,39 @@ async function checkUrlAvailabilityAsync(file, name, prop, url) {
 			`Non-success HTTP status code: ${response.status} ${response.statusText}`,
 		);
 		return;
+	}
+
+	// Inspect HTML body on 200 OK to detect parked, hijacked, or soft-404 pages
+	const contentType = response.headers.get("content-type") || "";
+	if (contentType.includes("text/html") && prop !== "initiativeImage") {
+		try {
+			const html = (await response.text()).slice(0, 20000);
+			if (html.trim().length < 130 && !html.includes("<meta")) {
+				addUnavailableUrl(
+					file,
+					name,
+					prop,
+					url,
+					`Suspicious blank/stub page (${html.length} bytes)`,
+				);
+				return;
+			}
+			const checkTarget = `${response.url} ${html}`;
+			for (const { label, regex } of SUSPICIOUS_CONTENT_PATTERNS) {
+				if (regex.test(checkTarget)) {
+					addUnavailableUrl(
+						file,
+						name,
+						prop,
+						url,
+						`Suspicious 200 OK content detected: ${label} (final URL: ${response.url})`,
+					);
+					return;
+				}
+			}
+		} catch {
+			// Ignore body read failures after 200 OK
+		}
 	}
 
 	console.log(
@@ -200,9 +248,7 @@ console.log(`Waiting for ${fetchPromises.length} unique URLs to be fetched...`);
 await Promise.all(fetchPromises);
 
 if (unavailableUrls.length > 0) {
-	console.warn(
-		`Detected ${unavailableUrls.length} unavailable URL(s)`,
-	);
+	console.warn(`Detected ${unavailableUrls.length} unavailable URL(s)`);
 
 	let count = 1;
 	let body = "";

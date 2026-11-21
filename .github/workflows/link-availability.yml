@@ -1,9 +1,10 @@
-name: Monitor initiative Link Availbility
+name: Monitor Initiative Link Availability
 
 on:
   workflow_dispatch:
   schedule:
-    - cron:  '20 1 * * *'
+    # Weekly on Mondays at 03:00 UTC
+    - cron: '0 3 * * 1'
 
 defaults:
   run:
@@ -13,20 +14,20 @@ jobs:
   monitor-availability:
     runs-on: ubuntu-latest
     permissions:
-        contents: read
-        issues: write
+      contents: read
+      issues: write
 
     steps:
-    - uses: actions/checkout@v4
-    
-    - name: Use Node.js 
-      uses: actions/setup-node@v4
-      with:
-        node-version: 20
+      - uses: actions/checkout@v4
 
-    - run: npm ci
-    - run: npm start
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        GITHUB_AVAILABILITY_ISSUE_NUMBER: ${{ vars.AVAILABILITY_MONITOR_ISSUE_NUMBER }}
-        MAX_CONCURRENCY_LEVEL: 100
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - run: npm ci
+      - run: npm start
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_AVAILABILITY_ISSUE_NUMBER: ${{ vars.AVAILABILITY_MONITOR_ISSUE_NUMBER }}
+          MAX_CONCURRENCY_LEVEL: 50

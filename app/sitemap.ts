@@ -21,6 +21,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 			changeFrequency: "daily",
 			priority: 1,
 		},
+		{
+			url: `${SITE_URL}/en`,
+			lastModified: now,
+			changeFrequency: "weekly",
+			priority: 0.9,
+		},
 	];
 
 	for (const category of categories) {
