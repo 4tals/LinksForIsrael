@@ -3,10 +3,22 @@
 import NextLink from "next/link";
 import { usePathname } from "next/navigation";
 import React, { useContext } from "react";
+import { FaBookmark } from "react-icons/fa";
 
+import { useBookmarks } from "@/app/components/Bookmarks/BookmarksContext";
 import { Logo } from "@/app/components/Logo";
 import { SearchContext } from "@/app/components/RootApp";
-import { Box, Button, Container, Flex, HStack, Text } from "@chakra-ui/react";
+import {
+	Badge,
+	Box,
+	Button,
+	Container,
+	Flex,
+	HStack,
+	IconButton,
+	Text,
+	Tooltip,
+} from "@chakra-ui/react";
 
 import { AddSite } from "../AddSite";
 import { SearchButtonMobile } from "../Search/SearchButtonMobile";
@@ -14,6 +26,7 @@ import { SearchInput } from "../Search/SearchInput";
 
 export function Header() {
 	const { onSearch, setActiveIntent } = useContext(SearchContext);
+	const { savedItems, openDrawer } = useBookmarks();
 	const pathname = usePathname();
 	const isEnglish = pathname === "/en" || pathname?.startsWith("/en/");
 
@@ -76,11 +89,43 @@ export function Header() {
 							maxW="540px"
 							mx="auto"
 						>
-							<SearchInput />
+							<SearchInput enableShortcut />
 						</Flex>
 					)}
 
 					<HStack spacing={2} flex="0 0 auto">
+						{!isEnglish && (
+							<Tooltip label="הרשימה השמורה שלי" hasArrow>
+								<Box position="relative">
+									<IconButton
+										aria-label="פתח רשימה שמורה"
+										icon={<FaBookmark size={14} />}
+										size={{ base: "sm", md: "md" }}
+										variant="ghost"
+										color="white"
+										borderRadius="full"
+										_hover={{ bg: "whiteAlpha.200" }}
+										onClick={openDrawer}
+									/>
+									{savedItems.length > 0 && (
+										<Badge
+											position="absolute"
+											top="-2px"
+											right="-2px"
+											bg="yellow.400"
+											color="gray.900"
+											borderRadius="full"
+											fontSize="2xs"
+											px={1.5}
+											pointerEvents="none"
+										>
+											{savedItems.length}
+										</Badge>
+									)}
+								</Box>
+							</Tooltip>
+						)}
+
 						<Button
 							as={NextLink}
 							href={isEnglish ? "/" : "/en"}

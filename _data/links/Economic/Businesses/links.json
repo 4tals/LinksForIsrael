@@ -45,7 +45,10 @@
         "קרן",
         "ישראל"
       ],
-      "createdAt": "2023-11-28T22:11:18+02:00"
+      "createdAt": "2023-11-28T22:11:18+02:00",
+      "verified": true,
+      "organizationType": "ngo",
+      "taxDeductible46": true
     },
     {
       "displayName": "מחבקים את המילואימניקים",

@@ -1,8 +1,15 @@
 "use client";
 
 import React, { useState } from "react";
-import { FaFlag, FaLink } from "react-icons/fa";
+import {
+	FaBookmark,
+	FaCheckCircle,
+	FaFlag,
+	FaLink,
+	FaRegBookmark,
+} from "react-icons/fa";
 
+import { useBookmarks } from "@/app/components/Bookmarks/BookmarksContext";
 import { analyticsService } from "@/app/utils/analytica/analytics";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 import {
@@ -11,6 +18,7 @@ import {
 	Button,
 	Divider,
 	Flex,
+	Icon,
 	Image,
 	Link,
 	Text,
@@ -40,6 +48,8 @@ export const ShowMoreModal: React.FC<ShowMoreModalProps> = ({
 }) => {
 	const [imageError, setImageError] = useState(false);
 	const toast = useToast();
+	const { isSaved, toggleSave } = useBookmarks();
+	const saved = isSaved(link.name);
 
 	const isRtl = containsHebrewLetters(
 		`${link.displayName || ""}${link.description || ""}${
@@ -54,6 +64,10 @@ export const ShowMoreModal: React.FC<ShowMoreModalProps> = ({
 	)}&initiative=${encodeURIComponent(
 		`${link.displayName || link.name} (${link.name})`,
 	)}&url=${encodeURIComponent(primaryUrl || "")}`;
+
+	const guidestarSearchUrl = `https://www.guidestar.org.il/search?q=${encodeURIComponent(
+		link.displayName || link.name,
+	)}`;
 
 	const handleLinkClick = () => {
 		if (!primaryUrl) {
@@ -105,12 +119,28 @@ export const ShowMoreModal: React.FC<ShowMoreModalProps> = ({
 		}
 	};
 
+	const handleToggleSave = () => {
+		const added = toggleSave({
+			name: link.name,
+			displayName: link.displayName,
+			shortDescription: link.shortDescription,
+			url: primaryUrl,
+			phone: link.phone,
+		});
+		toast({
+			title: added ? "נשמר לרשימה שלך" : "הוסר מהרשימה",
+			status: added ? "success" : "info",
+			duration: 1800,
+			isClosable: true,
+		});
+	};
+
 	return (
 		<Box style={{ direction: isRtl ? "rtl" : "ltr" }}>
 			{link.initiativeImage && !imageError && (
 				<Box
 					w="100%"
-					h={{ base: "150px", md: "190px" }}
+					h={{ base: "140px", md: "170px" }}
 					bg="gray.50"
 					borderBottomWidth="1px"
 					borderColor="gray.100"
@@ -118,19 +148,73 @@ export const ShowMoreModal: React.FC<ShowMoreModalProps> = ({
 					display="flex"
 					alignItems="center"
 					justifyContent="center"
+					p={3}
 				>
 					<Image
 						src={link.initiativeImage}
 						alt={link.displayName}
-						w="100%"
-						h="100%"
-						objectFit="cover"
+						maxW="100%"
+						maxH="100%"
+						objectFit="contain"
 						onError={() => setImageError(true)}
 					/>
 				</Box>
 			)}
 
 			<VStack spacing={4} align="stretch" p={{ base: 5, md: 6 }}>
+				{/* Verification Trust Strip */}
+				{link.verified && (
+					<Flex
+						align="center"
+						justify="space-between"
+						wrap="wrap"
+						gap={2}
+						bg="green.50"
+						borderWidth="1px"
+						borderColor="green.200"
+						borderRadius="lg"
+						px={3.5}
+						py={2.5}
+					>
+						<Flex align="center" gap={2} wrap="wrap">
+							<Icon as={FaCheckCircle} color="green.600" boxSize={4} />
+							<Text fontSize="xs" fontWeight="bold" color="green.800">
+								{link.organizationType === "official"
+									? "גוף רשמי / לאומי מאומת"
+									: "עמותה / ארגון מאומת"}
+							</Text>
+							{link.taxDeductible46 && (
+								<Badge
+									colorScheme="green"
+									variant="solid"
+									fontSize="2xs"
+									borderRadius="full"
+									px={2}
+								>
+									מוכר לסעיף 46
+								</Badge>
+							)}
+						</Flex>
+
+						{link.organizationType === "ngo" && (
+							<Link
+								href={guidestarSearchUrl}
+								isExternal
+								fontSize="xs"
+								fontWeight="semibold"
+								color="green.700"
+								display="inline-flex"
+								alignItems="center"
+								gap={1}
+								_hover={{ textDecoration: "underline" }}
+							>
+								בדיקה בגיידסטאר
+								<ExternalLinkIcon boxSize={3} />
+							</Link>
+						)}
+					</Flex>
+				)}
+
 				{link.shortDescription && (
 					<Text
 						fontSize={{ base: "md", md: "lg" }}
@@ -202,7 +286,12 @@ export const ShowMoreModal: React.FC<ShowMoreModalProps> = ({
 					justify="space-between"
 					align={{ base: "stretch", sm: "center" }}
 				>
-					<Flex gap={2.5} direction={{ base: "column", sm: "row" }} flex="1">
+					<Flex
+						gap={2}
+						direction={{ base: "column", sm: "row" }}
+						flex="1"
+						wrap="wrap"
+					>
 						{primaryUrl && (
 							<Button
 								colorScheme="blue"
@@ -221,14 +310,25 @@ export const ShowMoreModal: React.FC<ShowMoreModalProps> = ({
 						)}
 
 						<Button
-							variant="outline"
+							variant={saved ? "solid" : "outline"}
 							colorScheme="blue"
+							size="md"
+							borderRadius="lg"
+							leftIcon={saved ? <FaBookmark /> : <FaRegBookmark />}
+							onClick={handleToggleSave}
+						>
+							{saved ? "נשמר" : "שמור לרשימה"}
+						</Button>
+
+						<Button
+							variant="outline"
+							colorScheme="gray"
 							size="md"
 							borderRadius="lg"
 							leftIcon={<FaLink />}
 							onClick={handleCopyShareLink}
 						>
-							{isRtl ? "העתק קישור" : "Copy Link"}
+							{isRtl ? "העתק" : "Copy"}
 						</Button>
 					</Flex>
 

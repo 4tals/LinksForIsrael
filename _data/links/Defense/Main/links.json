@@ -20,7 +20,9 @@
         "משפחות מילואים",
         "טפסים"
       ],
-      "createdAt": "2026-11-21T18:55:00+02:00"
+      "createdAt": "2026-11-21T18:55:00+02:00",
+      "verified": true,
+      "organizationType": "official"
     },
     {
       "name": "NationalDroneInitiative",
@@ -38,7 +40,9 @@
         "רחפן",
         "טכנולוגיה"
       ],
-      "createdAt": "2023-10-27T12:17:44+03:00"
+      "createdAt": "2023-10-27T12:17:44+03:00",
+      "verified": true,
+      "organizationType": "official"
     }
   ]
 }

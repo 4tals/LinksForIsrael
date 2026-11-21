@@ -21,7 +21,10 @@
         "זכויות",
         "חיילים"
       ],
-      "createdAt": "2026-11-21T18:55:00+02:00"
+      "createdAt": "2026-11-21T18:55:00+02:00",
+      "verified": true,
+      "organizationType": "ngo",
+      "taxDeductible46": true
     },
     {
       "name": "BrothersForLife",
@@ -43,7 +46,10 @@
         "תמיכה",
         "קהילה"
       ],
-      "createdAt": "2026-11-21T18:55:00+02:00"
+      "createdAt": "2026-11-21T18:55:00+02:00",
+      "verified": true,
+      "organizationType": "ngo",
+      "taxDeductible46": true
     },
     {
       "name": "IronDoctors",
@@ -76,7 +82,9 @@
         "התנדבות",
         "רפואה"
       ],
-      "createdAt": "2023-10-28T23:39:59+03:00"
+      "createdAt": "2023-10-28T23:39:59+03:00",
+      "verified": true,
+      "organizationType": "official"
     },
     {
       "name": "MdaBloodDonation",
@@ -95,7 +103,9 @@
         "תרומת דם במשבר",
         "מדא"
       ],
-      "createdAt": "2023-11-08T23:49:54+02:00"
+      "createdAt": "2023-11-08T23:49:54+02:00",
+      "verified": true,
+      "organizationType": "official"
     },
     {
       "name": "MdaFirstAidCourse",
@@ -112,7 +122,9 @@
         "חירום",
         "לימוד מקוון"
       ],
-      "createdAt": "2023-11-07T00:06:34+02:00"
+      "createdAt": "2023-11-07T00:06:34+02:00",
+      "verified": true,
+      "organizationType": "official"
     },
     {
       "displayName": "מהנדסים ללא גבולות - הנגשת בתים",

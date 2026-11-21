@@ -22,7 +22,9 @@
         "מקלט",
         "ממד"
       ],
-      "createdAt": "2026-11-21T18:55:00+02:00"
+      "createdAt": "2026-11-21T18:55:00+02:00",
+      "verified": true,
+      "organizationType": "official"
     },
     {
       "name": "MidragSheltersProject",

@@ -35,7 +35,9 @@
         "חרבות הברזל",
         "קולות מישראל"
       ],
-      "createdAt": "2023-11-02T14:34:45+02:00"
+      "createdAt": "2023-11-02T14:34:45+02:00",
+      "verified": true,
+      "organizationType": "ngo"
     },
     {
       "name": "TovStrategicCommunications",

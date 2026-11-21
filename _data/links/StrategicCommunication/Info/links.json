@@ -30,7 +30,9 @@
         "ניו יורק",
         "אמת"
       ],
-      "createdAt": "2023-11-02T13:01:02+02:00"
+      "createdAt": "2023-11-02T13:01:02+02:00",
+      "verified": true,
+      "organizationType": "official"
     },
     {
       "name": "InssWarData",
@@ -55,7 +57,9 @@
         "ביטחון לאומי",
         "אזרחים"
       ],
-      "createdAt": "2023-11-09T23:24:54+02:00"
+      "createdAt": "2023-11-09T23:24:54+02:00",
+      "verified": true,
+      "organizationType": "ngo"
     },
     {
       "name": "hasbaraArchive",
@@ -85,7 +89,9 @@
         "צילומים",
         "מאגר"
       ],
-      "createdAt": "2023-11-21T22:03:35+02:00"
+      "createdAt": "2023-11-21T22:03:35+02:00",
+      "verified": true,
+      "organizationType": "official"
     }
   ]
 }

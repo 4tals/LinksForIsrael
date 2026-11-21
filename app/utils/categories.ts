@@ -1,6 +1,7 @@
 import categories from "@/_data/categories.json";
 
 export type InitiativeIntent = "get-help" | "volunteer" | "donate";
+export type OrganizationType = "ngo" | "official" | "community";
 
 export interface CategoryData {
 	name: string;
@@ -47,6 +48,9 @@ export interface InitiativeLink {
 	donation?: string;
 	tags?: string[];
 	intents?: InitiativeIntent[];
+	verified?: boolean;
+	taxDeductible46?: boolean;
+	organizationType?: OrganizationType;
 	createdAt?: string;
 }
 

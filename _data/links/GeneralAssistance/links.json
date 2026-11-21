@@ -20,7 +20,10 @@
         "מידע",
         "סיוע"
       ],
-      "createdAt": "2026-11-21T18:55:00+02:00"
+      "createdAt": "2026-11-21T18:55:00+02:00",
+      "verified": true,
+      "organizationType": "ngo",
+      "taxDeductible46": true
     },
     {
       "name": "RuachTova",
@@ -39,7 +42,10 @@
         "קהילה",
         "נתינה"
       ],
-      "createdAt": "2026-11-21T18:55:00+02:00"
+      "createdAt": "2026-11-21T18:55:00+02:00",
+      "verified": true,
+      "organizationType": "ngo",
+      "taxDeductible46": true
     },
     {
       "name": "IronSwordsVolunteers",
@@ -73,7 +79,9 @@
         "תושבים",
         "לחימה"
       ],
-      "createdAt": "2023-10-12T22:22:49+03:00"
+      "createdAt": "2023-10-12T22:22:49+03:00",
+      "verified": true,
+      "organizationType": "ngo"
     },
     {
       "name": "HamalDana",
@@ -145,7 +153,10 @@
       "initiativeValidationDetails": "Known organization since before the war",
       "phone": "1230",
       "whatsapp": "https://chat.whatsapp.com/DgspcM7Yuav5uUJFK9OinT",
-      "createdAt": "2023-10-21T20:57:25+03:00"
+      "createdAt": "2023-10-21T20:57:25+03:00",
+      "verified": true,
+      "organizationType": "ngo",
+      "taxDeductible46": true
     },
     {
       "name": "LevEhad",
@@ -158,7 +169,10 @@
       "initiativeValidationDetails": "Known initiative, verified by @4tal",
       "phone": "*3197",
       "donation": "https://www.levechad.org/donations",
-      "createdAt": "2023-10-12T22:22:49+03:00"
+      "createdAt": "2023-10-12T22:22:49+03:00",
+      "verified": true,
+      "organizationType": "ngo",
+      "taxDeductible46": true
     },
     {
       "displayName": "באנו",

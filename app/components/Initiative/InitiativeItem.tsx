@@ -1,8 +1,17 @@
 "use client";
 
 import React from "react";
-import { FaArrowLeft, FaArrowRight, FaLink, FaPhoneAlt } from "react-icons/fa";
+import {
+	FaArrowLeft,
+	FaArrowRight,
+	FaBookmark,
+	FaCheckCircle,
+	FaLink,
+	FaPhoneAlt,
+	FaRegBookmark,
+} from "react-icons/fa";
 
+import { useBookmarks } from "@/app/components/Bookmarks/BookmarksContext";
 import { analyticsService } from "@/app/utils/analytica/analytics";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 import {
@@ -71,6 +80,9 @@ export const InitiativeItem: React.FC<InitiativeItemProps> = ({
 	setOpenDialog,
 }) => {
 	const toast = useToast();
+	const { isSaved, toggleSave } = useBookmarks();
+	const saved = isSaved(link.name);
+
 	const isRtl = containsHebrewLetters(
 		`${link.displayName || ""}${link.shortDescription || ""}`,
 	);
@@ -127,6 +139,25 @@ export const InitiativeItem: React.FC<InitiativeItemProps> = ({
 		}
 	};
 
+	const handleToggleBookmark = (e: React.MouseEvent) => {
+		e.stopPropagation();
+		const added = toggleSave({
+			name: link.name,
+			displayName: link.displayName,
+			shortDescription: link.shortDescription,
+			url: primaryUrl,
+			phone: link.phone,
+			categoryId,
+			subCategoryName,
+		});
+		toast({
+			title: added ? "נשמר לרשימה שלך" : "הוסר מהרשימה",
+			status: added ? "success" : "info",
+			duration: 1600,
+			isClosable: true,
+		});
+	};
+
 	return (
 		<Flex
 			as="article"
@@ -138,7 +169,7 @@ export const InitiativeItem: React.FC<InitiativeItemProps> = ({
 			bg="white"
 			borderRadius="16px"
 			borderWidth="1px"
-			borderColor="gray.200"
+			borderColor={saved ? "brand.300" : "gray.200"}
 			p={5}
 			h="100%"
 			cursor="pointer"
@@ -169,13 +200,13 @@ export const InitiativeItem: React.FC<InitiativeItemProps> = ({
 				right={0}
 				h="3px"
 				bgGradient="linear(to-r, brand.500, cyan.400)"
-				opacity={0}
+				opacity={saved ? 0.85 : 0}
 				transition="opacity 0.22s ease"
 				_groupHover={{ opacity: 1 }}
 			/>
 
 			{/* Header Row: 48px Brand Squircle + Title/Domain + Zero-Click Micro-Actions */}
-			<Flex align="flex-start" justify="space-between" gap={3} mb={3}>
+			<Flex align="flex-start" justify="space-between" gap={2.5} mb={3}>
 				<Flex align="center" gap={3} minW={0} flex="1">
 					<OrgAvatar
 						name={link.displayName || link.name}
@@ -183,18 +214,40 @@ export const InitiativeItem: React.FC<InitiativeItemProps> = ({
 						primaryUrl={primaryUrl}
 					/>
 					<Box minW={0} flex="1">
-						<Heading
-							as="h3"
-							fontSize="md"
-							fontWeight="bold"
-							color="gray.900"
-							lineHeight="1.35"
-							noOfLines={2}
-							transition="color 0.15s ease"
-							_groupHover={{ color: "brand.600" }}
-						>
-							{link.displayName}
-						</Heading>
+						<Flex align="center" gap={1.5}>
+							<Heading
+								as="h3"
+								fontSize="md"
+								fontWeight="bold"
+								color="gray.900"
+								lineHeight="1.35"
+								noOfLines={2}
+								transition="color 0.15s ease"
+								_groupHover={{ color: "brand.600" }}
+							>
+								{link.displayName}
+							</Heading>
+							{link.verified && (
+								<Tooltip
+									label={
+										link.organizationType === "official"
+											? "גוף רשמי מאומת"
+											: "עמותה מאומתת"
+									}
+									placement="top"
+									hasArrow
+								>
+									<Box
+										as="span"
+										color="green.500"
+										display="inline-flex"
+										flexShrink={0}
+									>
+										<Icon as={FaCheckCircle} boxSize={3.5} />
+									</Box>
+								</Tooltip>
+							)}
+						</Flex>
 						{displayDomain && (
 							<Text
 								fontSize="xs"
@@ -212,7 +265,28 @@ export const InitiativeItem: React.FC<InitiativeItemProps> = ({
 				</Flex>
 
 				{/* Zero-click micro-actions (isolated from card click) */}
-				<HStack spacing={1} flexShrink={0}>
+				<HStack spacing={0.5} flexShrink={0}>
+					<Tooltip
+						label={saved ? "הסר מהרשימה" : "שמור לרשימה לשיתוף"}
+						placement="top"
+						hasArrow
+					>
+						<IconButton
+							aria-label={saved ? "הסר מהרשימה" : "שמור לרשימה"}
+							icon={
+								saved ? <FaBookmark size={12} /> : <FaRegBookmark size={12} />
+							}
+							size="xs"
+							variant="ghost"
+							color={saved ? "brand.600" : "gray.400"}
+							borderRadius="lg"
+							opacity={saved ? 1 : { base: 1, md: 0.7 }}
+							_groupHover={{ opacity: 1 }}
+							_focusVisible={{ opacity: 1 }}
+							_hover={{ bg: "brand.50", color: "brand.600" }}
+							onClick={handleToggleBookmark}
+						/>
+					</Tooltip>
 					<Tooltip
 						label={isRtl ? "העתק קישור" : "Copy link"}
 						placement="top"
@@ -225,7 +299,7 @@ export const InitiativeItem: React.FC<InitiativeItemProps> = ({
 							variant="ghost"
 							color="gray.400"
 							borderRadius="lg"
-							opacity={{ base: 1, md: 0 }}
+							opacity={{ base: 0.85, md: 0 }}
 							_groupHover={{ opacity: 1 }}
 							_focusVisible={{ opacity: 1 }}
 							_hover={{ bg: "gray.100", color: "brand.600" }}
@@ -268,7 +342,7 @@ export const InitiativeItem: React.FC<InitiativeItemProps> = ({
 				</HStack>
 			</Flex>
 
-			{/* Intent Badges + Optional Hotline Pill */}
+			{/* Intent Badges + Section 46 + Optional Hotline Pill */}
 			<Flex wrap="wrap" gap={1.5} mb={2.5} align="center">
 				{intents.map((intent) => (
 					<Badge
@@ -285,6 +359,21 @@ export const InitiativeItem: React.FC<InitiativeItemProps> = ({
 						{INTENT_STYLES[intent].label}
 					</Badge>
 				))}
+				{link.taxDeductible46 && (
+					<Badge
+						bg="emerald.50"
+						backgroundColor="#ecfdf5"
+						color="#047857"
+						fontSize="2xs"
+						fontWeight="semibold"
+						px={2}
+						py={0.5}
+						borderRadius="full"
+						textTransform="none"
+					>
+						סעיף 46
+					</Badge>
+				)}
 				{link.phone && (
 					<Link
 						href={`tel:${link.phone.replace(/[^\d+*#]/g, "")}`}

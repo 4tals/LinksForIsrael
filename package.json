@@ -4,7 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "prebuild": "node ./scripts/generateOpenData.mjs",
     "build": "next build",
+    "generate-open-data": "node ./scripts/generateOpenData.mjs",
     "start": "serve out -l 3000",
     "lint": "next lint",
     "format": "prettier --loglevel warn --write \"**/*.{ts,tsx,css,md}\"",

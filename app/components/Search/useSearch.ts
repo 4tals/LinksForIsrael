@@ -8,7 +8,7 @@ import {
 	SubCategoryData,
 } from "@/app/utils/categories";
 
-import { mapStringToHebrew } from "./SearchHelpers";
+import { expandSearchTerms, mapStringToHebrew } from "./SearchHelpers";
 
 function filterCategories(
 	categories: Category[],
@@ -16,8 +16,8 @@ function filterCategories(
 	searchTerm: string,
 	activeIntent: InitiativeIntent | null,
 ): Category[] {
-	const lowerSearchTerm = searchTerm.trim().toLowerCase();
-	if (!lowerSearchTerm && !activeIntent) return [];
+	const expandedTerms = expandSearchTerms(searchTerm);
+	if (expandedTerms.length === 0 && !activeIntent) return [];
 
 	const generalAssistanceCategory: Category = {
 		id: "GeneralAssistance",
@@ -31,12 +31,16 @@ function filterCategories(
 
 	const allCategories = [...categories, generalAssistanceCategory];
 
+	const matchesAnyTerm = (haystack: string): boolean => {
+		const lower = haystack.toLowerCase();
+		return expandedTerms.some((term) => lower.includes(term));
+	};
+
 	return allCategories
 		.map((category) => {
 			const categoryMatches =
-				Boolean(lowerSearchTerm) &&
-				(category.displayName?.toLowerCase().includes(lowerSearchTerm) ||
-					category.name?.toLowerCase().includes(lowerSearchTerm));
+				expandedTerms.length > 0 &&
+				matchesAnyTerm(`${category.displayName || ""} ${category.name || ""}`);
 
 			const filteredSubCategories = category.subCategories
 				.map((subCategory) => {
@@ -48,20 +52,23 @@ function filterCategories(
 							}
 						}
 
-						if (!lowerSearchTerm) {
+						if (expandedTerms.length === 0) {
 							return true;
 						}
 
-						return (
-							categoryMatches ||
-							link.name?.toLowerCase().includes(lowerSearchTerm) ||
-							link.displayName?.toLowerCase().includes(lowerSearchTerm) ||
-							link.description?.toLowerCase().includes(lowerSearchTerm) ||
-							link.shortDescription?.toLowerCase().includes(lowerSearchTerm) ||
-							link.tags?.some((tag) =>
-								tag.toLowerCase().includes(lowerSearchTerm),
-							)
-						);
+						if (categoryMatches) return true;
+
+						const searchableText = [
+							link.name,
+							link.displayName,
+							link.shortDescription,
+							link.description,
+							...(link.tags || []),
+						]
+							.filter(Boolean)
+							.join(" ");
+
+						return matchesAnyTerm(searchableText);
 					});
 
 					return { ...subCategory, links: filteredLinks };

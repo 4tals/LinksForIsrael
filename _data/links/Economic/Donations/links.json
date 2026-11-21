@@ -22,7 +22,10 @@
         "סיוע הומניטרי",
         "עמותה"
       ],
-      "createdAt": "2026-11-21T18:55:00+02:00"
+      "createdAt": "2026-11-21T18:55:00+02:00",
+      "verified": true,
+      "organizationType": "ngo",
+      "taxDeductible46": true
     },
     {
       "name": "PitchonLev",
@@ -44,7 +47,10 @@
         "התנדבות",
         "סיוע"
       ],
-      "createdAt": "2026-11-21T18:55:00+02:00"
+      "createdAt": "2026-11-21T18:55:00+02:00",
+      "verified": true,
+      "organizationType": "ngo",
+      "taxDeductible46": true
     },
     {
       "name": "GiveIsrael",
@@ -78,7 +84,10 @@
         "לעזרה למשפחות",
         "לטובת משפחות"
       ],
-      "createdAt": "2023-11-24T15:21:43+02:00"
+      "createdAt": "2023-11-24T15:21:43+02:00",
+      "verified": true,
+      "organizationType": "ngo",
+      "taxDeductible46": true
     },
     {
       "name": "jgive",
@@ -97,7 +106,10 @@
         "ציוד",
         "מזון"
       ],
-      "createdAt": "2023-11-28T22:11:51+02:00"
+      "createdAt": "2023-11-28T22:11:51+02:00",
+      "verified": true,
+      "organizationType": "ngo",
+      "taxDeductible46": true
     }
   ]
 }

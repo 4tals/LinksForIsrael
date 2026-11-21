@@ -125,7 +125,9 @@
         "ארה\"ב",
         "מאבק אנטישמיות"
       ],
-      "createdAt": "2023-11-11T15:29:07+02:00"
+      "createdAt": "2023-11-11T15:29:07+02:00",
+      "verified": true,
+      "organizationType": "ngo"
     },
     {
       "name": "niliOnline",

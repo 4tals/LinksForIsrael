@@ -46,7 +46,10 @@
         "חקלאות",
         "ביטחון מזון"
       ],
-      "createdAt": "2023-10-25T23:30:30+03:00"
+      "createdAt": "2023-10-25T23:30:30+03:00",
+      "verified": true,
+      "organizationType": "ngo",
+      "taxDeductible46": true
     },
     {
       "name": "LeketIsraelFarmersVolonteers",
@@ -66,7 +69,10 @@
         "תמיכה בחקלאים",
         "לקט ישראל"
       ],
-      "createdAt": "2023-11-03T20:47:47+02:00"
+      "createdAt": "2023-11-03T20:47:47+02:00",
+      "verified": true,
+      "organizationType": "ngo",
+      "taxDeductible46": true
     },
     {
       "name": "MeshekHai",

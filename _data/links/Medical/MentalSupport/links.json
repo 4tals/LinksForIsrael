@@ -24,7 +24,10 @@
         "חינם",
         "24/7"
       ],
-      "createdAt": "2026-11-21T18:55:00+02:00"
+      "createdAt": "2026-11-21T18:55:00+02:00",
+      "verified": true,
+      "organizationType": "ngo",
+      "taxDeductible46": true
     },
     {
       "name": "NATAL",
@@ -46,7 +49,10 @@
         "מילואים",
         "חרדה"
       ],
-      "createdAt": "2026-11-21T18:55:00+02:00"
+      "createdAt": "2026-11-21T18:55:00+02:00",
+      "verified": true,
+      "organizationType": "ngo",
+      "taxDeductible46": true
     },
     {
       "name": "SAHAR",
@@ -68,7 +74,10 @@
         "אנונימי",
         "הקשבה"
       ],
-      "createdAt": "2026-11-21T18:55:00+02:00"
+      "createdAt": "2026-11-21T18:55:00+02:00",
+      "verified": true,
+      "organizationType": "ngo",
+      "taxDeductible46": true
     },
     {
       "name": "HugIntoTheNight",
@@ -102,7 +111,10 @@
         "טראומה",
         "בריאות נפש"
       ],
-      "createdAt": "2023-11-08T23:52:26+02:00"
+      "createdAt": "2023-11-08T23:52:26+02:00",
+      "verified": true,
+      "organizationType": "ngo",
+      "taxDeductible46": true
     }
   ]
 }

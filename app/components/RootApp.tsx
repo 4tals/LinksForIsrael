@@ -2,6 +2,8 @@
 
 import React, { createContext, useCallback, useState } from "react";
 
+import { BookmarksProvider } from "@/app/components/Bookmarks/BookmarksContext";
+import { SavedListDrawer } from "@/app/components/Bookmarks/SavedListDrawer";
 import { MobileSearchInput } from "@/app/components/Search/MobileSearchInput";
 import { useSearch } from "@/app/components/Search/useSearch";
 import { useIsMobile } from "@/app/hooks/useIsMobile";
@@ -47,29 +49,32 @@ export function RootApp({
 	}, []);
 
 	return (
-		<SearchContext.Provider
-			value={{
-				search,
-				mappedSearchTerm,
-				activeIntent,
-				setActiveIntent,
-				results,
-				totalResults,
-				onSearch,
-				isMobileSearchOpen,
-				toggleMobileSearch,
-			}}
-		>
-			<MenuContext.Provider value={{ isMenuOpen, toggleMenu, isMobile }}>
-				<div className="app-shell">
-					<Header />
-					<MobileSearchInput />
-					<main id="content" className="main-content" role="main">
-						{children}
-					</main>
-					<Footer />
-				</div>
-			</MenuContext.Provider>
-		</SearchContext.Provider>
+		<BookmarksProvider>
+			<SearchContext.Provider
+				value={{
+					search,
+					mappedSearchTerm,
+					activeIntent,
+					setActiveIntent,
+					results,
+					totalResults,
+					onSearch,
+					isMobileSearchOpen,
+					toggleMobileSearch,
+				}}
+			>
+				<MenuContext.Provider value={{ isMenuOpen, toggleMenu, isMobile }}>
+					<div className="app-shell">
+						<Header />
+						<MobileSearchInput />
+						<main id="content" className="main-content" role="main">
+							{children}
+						</main>
+						<Footer />
+						<SavedListDrawer />
+					</div>
+				</MenuContext.Provider>
+			</SearchContext.Provider>
+		</BookmarksProvider>
 	);
 }

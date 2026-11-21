@@ -70,9 +70,29 @@ export function Footer() {
 						</Text>
 					</HStack>
 
-					<Box>
+					<HStack spacing={3} wrap="wrap" justify="center">
 						<HelpUsButton />
-					</Box>
+						<Link
+							href="/api/v1/initiatives.json"
+							isExternal
+							fontSize="xs"
+							fontWeight="semibold"
+							color="gray.500"
+							_hover={{ color: "brand.600", textDecoration: "underline" }}
+						>
+							Open Data API (JSON)
+						</Link>
+						<Link
+							href="/llms.txt"
+							isExternal
+							fontSize="xs"
+							fontWeight="semibold"
+							color="gray.500"
+							_hover={{ color: "brand.600", textDecoration: "underline" }}
+						>
+							llms.txt
+						</Link>
+					</HStack>
 
 					<HStack spacing={1.5} align="center" wrap="wrap" justify="center">
 						{socialLinks.map((link) => (

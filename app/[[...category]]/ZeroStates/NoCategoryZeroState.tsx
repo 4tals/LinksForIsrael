@@ -8,6 +8,7 @@ import { getNumberOfInitiatives } from "@/app/components/Categories/CategoriesLi
 import { CategoryContent } from "@/app/components/Categories/CategoryContent";
 import { HotlinesBar } from "@/app/components/Hotlines/HotlinesBar";
 import { Logo } from "@/app/components/Logo";
+import { LifeEventPathways } from "@/app/components/Pathways/LifeEventPathways";
 import { SearchContext } from "@/app/components/RootApp";
 import { SearchInput } from "@/app/components/Search/SearchInput";
 import { analyticsService } from "@/app/utils/analytica/analytics";
@@ -221,6 +222,9 @@ export const NoCategoryZeroState: React.FC<NoCategoryZeroStateProps> = ({
 
 			{/* Essential Hotlines Strip */}
 			<HotlinesBar />
+
+			{/* Guided Life-Event Pathways */}
+			<LifeEventPathways />
 
 			{/* Category Grid */}
 			<Box mb={10}>
