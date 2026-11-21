@@ -103,10 +103,9 @@ export const ShowMoreModal: React.FC<ShowMoreModalProps> = ({
 
 	const handleCopyShareLink = async () => {
 		const urlToCopy =
-			typeof window !== "undefined" && sharePath
-				? `${window.location.origin}${sharePath}`
-				: primaryUrl ||
-					(typeof window !== "undefined" ? window.location.href : "");
+			typeof window !== "undefined"
+				? window.location.href
+				: primaryUrl || sharePath || "";
 
 		try {
 			await navigator.clipboard.writeText(urlToCopy);

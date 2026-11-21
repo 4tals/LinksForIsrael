@@ -8,6 +8,11 @@ import {
 	sortInitiativesByRank,
 	SubCategoryData,
 } from "@/app/utils/categories";
+import {
+	getUrlParams,
+	parseIntentParam,
+	updateUrlParams,
+} from "@/app/utils/urlState";
 
 import { expandSearchTerms, mapStringToHebrew } from "./SearchHelpers";
 
@@ -133,11 +138,49 @@ export function useSearch(
 	generalAssistanceSubCategory: SubCategoryData,
 ) {
 	const [search, setSearch] = useState("");
-	const [activeIntent, setActiveIntent] = useState<InitiativeIntent | null>(
-		null,
-	);
+	const [activeIntent, setActiveIntentState] =
+		useState<InitiativeIntent | null>(null);
 	const [isMobileSearchOpen, setIsMobileSearchOpen] = useState(false);
 	const analyticsTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+	const isPortalSearchPath = () => {
+		if (typeof window === "undefined") return false;
+		const p = window.location.pathname;
+		return !p.startsWith("/en") && !p.startsWith("/docs");
+	};
+
+	// Hydrate global search & intent from URL query params (?q=...&intent=...)
+	useEffect(() => {
+		const syncFromUrl = () => {
+			if (!isPortalSearchPath()) return;
+			const params = getUrlParams();
+			const urlQ = params.get("q") || "";
+			const urlIntent = parseIntentParam(params.get("intent"));
+			// Only hijack intent globally on the homepage (category pages own their local intent pill)
+			const isHome = window.location.pathname === "/";
+			setSearch(urlQ);
+			if (isHome || urlQ) {
+				setActiveIntentState(urlIntent);
+			}
+		};
+		syncFromUrl();
+		window.addEventListener("popstate", syncFromUrl);
+		return () => window.removeEventListener("popstate", syncFromUrl);
+	}, []);
+
+	const setActiveIntent = useCallback((next: InitiativeIntent | null) => {
+		setActiveIntentState(next);
+		if (isPortalSearchPath()) {
+			updateUrlParams({ intent: next || null });
+		}
+	}, []);
+
+	const handleChangeSearch = useCallback((searchTerm: string) => {
+		setSearch(searchTerm);
+		if (isPortalSearchPath()) {
+			updateUrlParams({ q: searchTerm.trim() ? searchTerm : null });
+		}
+	}, []);
 
 	const { results, mappedSearchTerm } = useMemo(
 		() =>
@@ -188,10 +231,6 @@ export function useSearch(
 
 	const toggleMobileSearch = useCallback(() => {
 		setIsMobileSearchOpen((prevState) => !prevState);
-	}, []);
-
-	const handleChangeSearch = useCallback((searchTerm: string) => {
-		setSearch(searchTerm);
 	}, []);
 
 	return {

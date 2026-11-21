@@ -1,7 +1,19 @@
 "use client";
 
-import React, { useEffect, useMemo, useState } from "react";
+import React, {
+	useCallback,
+	useEffect,
+	useMemo,
+	useRef,
+	useState,
+} from "react";
 
+import {
+	getUrlParams,
+	parseTrustFiltersFromParams,
+	trustFiltersToUrlPatch,
+	updateUrlParams,
+} from "@/app/utils/urlState";
 import { Box, Button, Text } from "@chakra-ui/react";
 
 import { InitiativeLink, SubCategoryData } from "../../utils/categories";
@@ -41,18 +53,95 @@ export const CategoryContent = ({
 	headingAs = "h1",
 	enableTrustFilters = true,
 }: CategoryContentProps) => {
-	const [openDialog, setOpenDialog] = useState(false);
-	const [description, setDescription] = useState<{
+	const [openDialog, setOpenDialogState] = useState(false);
+	const [description, setDescriptionState] = useState<{
 		body: React.ReactNode;
 		link: InitiativeLink;
 	} | null>(null);
-	const [trustFilters, setTrustFilters] =
+	const [trustFilters, setTrustFiltersState] =
 		useState<TrustFilterState>(INITIAL_TRUST_FILTER);
+	const openedCardRef = useRef<string | null>(null);
 
-	// Reset local category filters when switching categories
+	const setOpenDialog = useCallback((open: boolean) => {
+		setOpenDialogState(open);
+		if (!open && openedCardRef.current) {
+			openedCardRef.current = null;
+			updateUrlParams({ card: null });
+		}
+	}, []);
+
+	const setDescription = useCallback(
+		(next: { body: React.ReactNode; link: InitiativeLink } | null) => {
+			setDescriptionState(next);
+			if (next?.link?.name) {
+				openedCardRef.current = next.link.name;
+				updateUrlParams({ card: next.link.name });
+			}
+		},
+		[],
+	);
+
+	const handleTrustFiltersChange = useCallback(
+		(next: TrustFilterState) => {
+			setTrustFiltersState(next);
+			if (enableTrustFilters) {
+				updateUrlParams(trustFiltersToUrlPatch(next, { includeIntent: true }));
+			}
+		},
+		[enableTrustFilters],
+	);
+
+	const openCardByName = useCallback(
+		(targetName: string, targetSub?: string): boolean => {
+			for (const sub of subCategories) {
+				if (targetSub && sub.name !== targetSub) continue;
+				const matched = sub.links.find((item) => item.name === targetName);
+				if (matched) {
+					const sharePath = categoryId
+						? `/${encodeURIComponent(categoryId)}/${encodeURIComponent(
+								sub.name,
+							)}/${encodeURIComponent(matched.name)}`
+						: undefined;
+					openedCardRef.current = matched.name;
+					setDescriptionState({
+						link: matched,
+						body: (
+							<ShowMoreModal
+								link={matched}
+								setOpenDialog={setOpenDialog}
+								sharePath={sharePath}
+							/>
+						),
+					});
+					setOpenDialogState(true);
+					return true;
+				}
+			}
+			return false;
+		},
+		[categoryId, subCategories, setOpenDialog],
+	);
+
+	// Hydrate trust filters & ?card=... from URL on mount and browser Back/Forward
 	useEffect(() => {
-		setTrustFilters(INITIAL_TRUST_FILTER);
-	}, [categoryId]);
+		const syncFromUrl = () => {
+			const params = getUrlParams();
+			if (enableTrustFilters) {
+				setTrustFiltersState(parseTrustFiltersFromParams(params));
+			}
+			const urlCard = params.get("card");
+			if (urlCard) {
+				openCardByName(urlCard);
+			} else if (openedCardRef.current) {
+				openedCardRef.current = null;
+				setOpenDialogState(false);
+			}
+		};
+
+		syncFromUrl();
+		window.addEventListener("popstate", syncFromUrl);
+		return () => window.removeEventListener("popstate", syncFromUrl);
+	}, [categoryId, enableTrustFilters, openCardByName]);
 
 	const allCategoryLinks = useMemo(
 		() => subCategories.flatMap((s) => s.links),
@@ -76,7 +165,7 @@ export const CategoryContent = ({
 		[filteredSubCategories],
 	);
 
-	// Handle deep links: /[category]/[subCategory] or /[category]/[subCategory]/[linkName]
+	// Handle path deep links: /[category]/[subCategory] or /[category]/[subCategory]/[linkName]
 	useEffect(() => {
 		if (!initialSubCategoryName && !initialLinkName) return;
 
@@ -88,36 +177,14 @@ export const CategoryContent = ({
 			: undefined;
 
 		if (decodedLink) {
-			for (const sub of subCategories) {
-				if (decodedSub && sub.name !== decodedSub) continue;
-				const matched = sub.links.find((item) => item.name === decodedLink);
-				if (matched) {
-					const sharePath = categoryId
-						? `/${encodeURIComponent(categoryId)}/${encodeURIComponent(
-								sub.name,
-							)}/${encodeURIComponent(matched.name)}`
-						: undefined;
-					setDescription({
-						link: matched,
-						body: (
-							<ShowMoreModal
-								link={matched}
-								setOpenDialog={setOpenDialog}
-								sharePath={sharePath}
-							/>
-						),
-					});
-					setOpenDialog(true);
-					return;
-				}
-			}
+			openCardByName(decodedLink, decodedSub);
 		} else if (decodedSub) {
 			const el = document.getElementById(`subcategory-${decodedSub}`);
 			if (el) {
 				el.scrollIntoView({ behavior: "smooth", block: "start" });
 			}
 		}
-	}, [categoryId, initialSubCategoryName, initialLinkName, subCategories]);
+	}, [initialSubCategoryName, initialLinkName, openCardByName]);
 
 	return (
 		<>
@@ -141,7 +208,7 @@ export const CategoryContent = ({
 				<TrustFilterBar
 					links={allCategoryLinks}
 					value={trustFilters}
-					onChange={setTrustFilters}
+					onChange={handleTrustFiltersChange}
 					totalFilteredCount={totalFilteredCount}
 					categoryId={categoryId}
 					locale="he"
@@ -165,7 +232,7 @@ export const CategoryContent = ({
 						size="sm"
 						colorScheme="blue"
 						borderRadius="full"
-						onClick={() => setTrustFilters(INITIAL_TRUST_FILTER)}
+						onClick={() => handleTrustFiltersChange(INITIAL_TRUST_FILTER)}
 					>
 						נקה סינון
 					</Button>

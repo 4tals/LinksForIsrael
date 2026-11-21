@@ -14,6 +14,7 @@ import {
 
 import { useBookmarks } from "@/app/components/Bookmarks/BookmarksContext";
 import { analyticsService } from "@/app/utils/analytica/analytics";
+import { buildUrlWithCard } from "@/app/utils/urlState";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 import {
 	Badge,
@@ -125,8 +126,8 @@ export const InitiativeItem: React.FC<InitiativeItemProps> = ({
 	const handleQuickCopy = async (e: React.MouseEvent) => {
 		e.stopPropagation();
 		const target =
-			typeof window !== "undefined" && sharePath
-				? `${window.location.origin}${sharePath}`
+			typeof window !== "undefined"
+				? buildUrlWithCard(link.name)
 				: primaryUrl || "";
 		if (!target) return;
 		try {

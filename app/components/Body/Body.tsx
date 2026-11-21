@@ -6,6 +6,7 @@ import { NoCategoryZeroState } from "@/app/[[...category]]/ZeroStates/NoCategory
 import { NoResultsZeroState } from "@/app/[[...category]]/ZeroStates/NoResultsZeroState";
 import { CategoryContent } from "@/app/components/Categories/CategoryContent";
 import { SearchContext } from "@/app/components/RootApp";
+import { ShareButtons } from "@/app/components/Share/ShareButtons";
 import {
 	Category,
 	InitiativeIntent,
@@ -128,6 +129,24 @@ export const Body: React.FC<Props> = ({
 						>
 							נקה הכל
 						</Button>
+						<Box
+							bg="gray.50"
+							px={2}
+							py={0.5}
+							borderRadius="full"
+							borderWidth="1px"
+							borderColor="gray.200"
+						>
+							<ShareButtons
+								category={
+									search.trim()
+										? `חיפוש: ${mappedSearchTerm || search}`
+										: activeIntent
+											? INTENT_LABELS[activeIntent]
+											: "תוצאות חיפוש"
+								}
+							/>
+						</Box>
 					</Flex>
 				</Flex>
 

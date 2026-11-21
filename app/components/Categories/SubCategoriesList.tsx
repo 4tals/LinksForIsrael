@@ -19,13 +19,13 @@ import {
 interface SubCategoriesListProps {
 	categoryId?: string;
 	subCategories: SubCategoryData[];
-	setDescription: React.Dispatch<
-		React.SetStateAction<{
+	setDescription: (
+		description: {
 			body: React.ReactNode;
 			link: InitiativeLink;
-		} | null>
-	>;
-	setOpenDialog: React.Dispatch<React.SetStateAction<boolean>>;
+		} | null,
+	) => void;
+	setOpenDialog: (open: boolean) => void;
 }
 
 export const SubCategoriesList: React.FC<SubCategoriesListProps> = ({

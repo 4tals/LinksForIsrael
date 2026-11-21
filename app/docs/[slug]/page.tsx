@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 
+import { MethodologyView } from "@/app/components/Docs/MethodologyView";
+import { getCategories } from "@/app/utils/categories";
 import { getAllDocs, getDocById } from "@/app/utils/docs-links";
 import { DEFAULT_OG_IMAGE, SITE_NAME, SITE_URL } from "@/app/utils/seo";
 
@@ -55,6 +57,33 @@ export default async function Doc({
 }: {
 	params: { slug: string };
 }) {
+	if (slug === "methodology") {
+		const categories = await getCategories();
+		const allLinks = categories.flatMap((c) =>
+			c.subCategories.flatMap((s) => s.links),
+		);
+		const verifiedCount = allLinks.filter((l) => l.verified).length;
+		const withMentionsCount = allLinks.filter(
+			(l) => l.references && l.references.length > 0,
+		).length;
+		const totalMentions = allLinks.reduce(
+			(sum, l) => sum + (l.references?.length || 0),
+			0,
+		);
+
+		return (
+			<MethodologyView
+				stats={{
+					totalInitiatives: allLinks.length,
+					verifiedCount,
+					withMentionsCount,
+					totalMentions,
+					categoriesCount: categories.length,
+				}}
+			/>
+		);
+	}
+
 	const { html } = await getDocById(slug);
 	return (
 		<div className="desktop-grid">

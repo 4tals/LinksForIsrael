@@ -1,24 +1,34 @@
 .docs {
-	@apply text-lg;
+	@apply text-base leading-relaxed bg-white rounded-2xl border border-gray-200 shadow-sm p-6 md:p-10 my-6 max-w-4xl mx-auto;
 
 	h1 {
-		@apply text-4xl mb-10;
+		@apply text-2xl md:text-4xl font-bold mb-6 text-blue-900;
 	}
 
 	h2 {
-		@apply text-2xl mb-5;
+		@apply text-xl md:text-2xl font-bold mt-8 mb-4 text-gray-900;
 	}
 
 	h3 {
-		@apply text-xl mb-5;
+		@apply text-lg md:text-xl font-semibold mt-6 mb-3 text-gray-800;
 	}
 
-	ul {
-		@apply list-disc list-inside ms-4 space-y-2 mb-4;
+	p {
+		@apply mb-4 text-gray-700;
+	}
+
+	ul,
+	ol {
+		@apply list-disc list-inside ms-4 space-y-2 mb-5 text-gray-700;
+	}
+
+	blockquote {
+		@apply border-r-4 border-blue-400 bg-blue-50 px-4 py-3 rounded-lg my-4 text-gray-800;
 	}
 
 	a {
 		color: #1e6bb8;
+		font-weight: 500;
 
 		&:hover {
 			text-decoration: underline;

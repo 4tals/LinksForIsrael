@@ -1,7 +1,7 @@
 "use client";
 
 import NextLink from "next/link";
-import React, { useMemo, useState } from "react";
+import React, { useCallback, useEffect, useMemo, useState } from "react";
 import {
 	FaArrowRight,
 	FaCheckCircle,
@@ -10,6 +10,7 @@ import {
 	FaNewspaper,
 	FaPhoneAlt,
 	FaSearch,
+	FaShareAlt,
 } from "react-icons/fa";
 
 import { DialogModal } from "@/app/components/DialogModal/DialogModal";
@@ -24,6 +25,13 @@ import { ShowMoreModal } from "@/app/components/Initiative/InitiativeShowMoreMod
 import { OrgAvatar } from "@/app/components/Initiative/OrgAvatar";
 import { Logo } from "@/app/components/Logo";
 import { getReferenceSummary, InitiativeLink } from "@/app/utils/categories";
+import {
+	buildUrlWithCard,
+	getUrlParams,
+	parseTrustFiltersFromParams,
+	trustFiltersToUrlPatch,
+	updateUrlParams,
+} from "@/app/utils/urlState";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 import {
 	Badge,
@@ -82,14 +90,89 @@ export function EnglishPortal({
 }: {
 	items: EnrichedEnglishInitiative[];
 }) {
-	const [selectedCategory, setSelectedCategory] = useState<string>("all");
-	const [query, setQuery] = useState("");
-	const [trustFilters, setTrustFilters] =
+	const [selectedCategory, setSelectedCategoryState] = useState<string>("all");
+	const [query, setQueryState] = useState("");
+	const [trustFilters, setTrustFiltersState] =
 		useState<TrustFilterState>(INITIAL_TRUST_FILTER);
 	const [activeItem, setActiveItem] =
 		useState<EnrichedEnglishInitiative | null>(null);
-	const [isDrawerOpen, setIsDrawerOpen] = useState(false);
+	const [isDrawerOpen, setIsDrawerOpenState] = useState(false);
 	const toast = useToast();
+
+	// Hydrate category, search, trust filters & open card from query strings
+	useEffect(() => {
+		const validCats = new Set<string>(CATEGORIES.map((c) => c.id));
+		const syncFromUrl = () => {
+			const params = getUrlParams();
+			const urlCat = params.get("cat") || "all";
+			setSelectedCategoryState(validCats.has(urlCat) ? urlCat : "all");
+			setQueryState(params.get("q") || "");
+			setTrustFiltersState(parseTrustFiltersFromParams(params));
+
+			const urlCard = params.get("card");
+			if (urlCard) {
+				const matched = items.find(
+					(i) =>
+						i.id.toLowerCase() === urlCard.toLowerCase() ||
+						i.link.name.toLowerCase() === urlCard.toLowerCase(),
+				);
+				if (matched) {
+					setActiveItem(matched);
+					setIsDrawerOpenState(true);
+				}
+			} else {
+				setIsDrawerOpenState(false);
+			}
+		};
+
+		syncFromUrl();
+		window.addEventListener("popstate", syncFromUrl);
+		return () => window.removeEventListener("popstate", syncFromUrl);
+	}, [items]);
+
+	const setSelectedCategory = useCallback((cat: string) => {
+		setSelectedCategoryState(cat);
+		updateUrlParams({ cat: cat === "all" ? null : cat });
+	}, []);
+
+	const setQuery = useCallback((nextQuery: string) => {
+		setQueryState(nextQuery);
+		updateUrlParams({ q: nextQuery.trim() ? nextQuery : null });
+	}, []);
+
+	const setTrustFilters = useCallback((next: TrustFilterState) => {
+		setTrustFiltersState(next);
+		updateUrlParams(trustFiltersToUrlPatch(next, { includeIntent: false }));
+	}, []);
+
+	const setIsDrawerOpen = useCallback((open: boolean) => {
+		setIsDrawerOpenState(open);
+		if (!open) {
+			updateUrlParams({ card: null });
+		}
+	}, []);
+
+	const openSideCard = useCallback((item: EnrichedEnglishInitiative) => {
+		setActiveItem(item);
+		setIsDrawerOpenState(true);
+		updateUrlParams({ card: item.id });
+	}, []);
+
+	const handleCopyViewUrl = async () => {
+		if (typeof window === "undefined") return;
+		try {
+			await navigator.clipboard.writeText(window.location.href);
+			toast({
+				title: "View link copied",
+				description: "Anyone opening this link will see your exact filters.",
+				status: "success",
+				duration: 2200,
+				isClosable: true,
+			});
+		} catch {
+			// Ignore
+		}
+	};
 
 	const categoryMatchedItems = useMemo(() => {
 		const q = query.trim().toLowerCase();
@@ -118,17 +201,12 @@ export function EnglishPortal({
 		return categoryMatchedItems.filter((item) => allowedLinks.has(item.link));
 	}, [categoryMatchedItems, trustFilters]);
 
-	const openSideCard = (item: EnrichedEnglishInitiative) => {
-		setActiveItem(item);
-		setIsDrawerOpen(true);
-	};
-
-	const handleCopy = async (e: React.MouseEvent, url: string) => {
+	const handleCopy = async (e: React.MouseEvent, cardId: string) => {
 		e.stopPropagation();
 		try {
-			await navigator.clipboard.writeText(url);
+			await navigator.clipboard.writeText(buildUrlWithCard(cardId));
 			toast({
-				title: "Link copied",
+				title: "Card link copied",
 				status: "success",
 				duration: 1800,
 				isClosable: true,
@@ -266,24 +344,37 @@ export function EnglishPortal({
 					</VStack>
 				</Box>
 
-				{/* Category Filter Pills */}
-				<Flex wrap="wrap" gap={2} mb={3}>
-					{CATEGORIES.map((cat) => {
-						const active = selectedCategory === cat.id;
-						return (
-							<Button
-								key={cat.id}
-								size="sm"
-								borderRadius="full"
-								colorScheme="blue"
-								variant={active ? "solid" : "outline"}
-								bg={active ? "brand.600" : "white"}
-								onClick={() => setSelectedCategory(cat.id)}
-							>
-								{cat.label}
-							</Button>
-						);
-					})}
+				{/* Category Filter Pills + Share Current View */}
+				<Flex align="center" justify="space-between" wrap="wrap" gap={2} mb={3}>
+					<Flex wrap="wrap" gap={2}>
+						{CATEGORIES.map((cat) => {
+							const active = selectedCategory === cat.id;
+							return (
+								<Button
+									key={cat.id}
+									size="sm"
+									borderRadius="full"
+									colorScheme="blue"
+									variant={active ? "solid" : "outline"}
+									bg={active ? "brand.600" : "white"}
+									onClick={() => setSelectedCategory(cat.id)}
+								>
+									{cat.label}
+								</Button>
+							);
+						})}
+					</Flex>
+					<Button
+						size="xs"
+						variant="outline"
+						colorScheme="gray"
+						bg="white"
+						borderRadius="full"
+						leftIcon={<Icon as={FaShareAlt} boxSize={2.5} />}
+						onClick={handleCopyViewUrl}
+					>
+						Share view
+					</Button>
 				</Flex>
 
 				{/* Shared Reusable Trust Filter Bar */}
@@ -440,7 +531,7 @@ export function EnglishPortal({
 														opacity={{ base: 1, md: 0 }}
 														_groupHover={{ opacity: 1 }}
 														_hover={{ bg: "gray.100", color: "brand.600" }}
-														onClick={(e) => handleCopy(e, item.url)}
+														onClick={(e) => handleCopy(e, item.id)}
 													/>
 												</Tooltip>
 												<Tooltip

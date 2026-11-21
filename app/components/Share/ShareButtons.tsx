@@ -8,41 +8,48 @@ import {
 	FaWhatsapp,
 } from "react-icons/fa";
 
-import {
-	Flex,
-	IconButton,
-	Link,
-	Tooltip,
-	useClipboard,
-	useToast,
-} from "@chakra-ui/react";
+import { URL_CHANGE_EVENT } from "@/app/utils/urlState";
+import { Flex, IconButton, Link, Tooltip, useToast } from "@chakra-ui/react";
 
 export function ShareButtons({ category }: { category: string }) {
 	const [currentUrl, setCurrentUrl] = useState("");
 	const [canNativeShare, setCanNativeShare] = useState(false);
 
 	useEffect(() => {
-		if (typeof window !== "undefined") {
+		if (typeof window === "undefined") return;
+		const syncUrl = () => {
 			setCurrentUrl(window.location.href);
-			setCanNativeShare(
-				typeof navigator !== "undefined" &&
-					"share" in navigator &&
-					window.innerWidth <= 768,
-			);
-		}
+		};
+		syncUrl();
+		setCanNativeShare(
+			typeof navigator !== "undefined" &&
+				"share" in navigator &&
+				window.innerWidth <= 768,
+		);
+		window.addEventListener(URL_CHANGE_EVENT, syncUrl);
+		window.addEventListener("popstate", syncUrl);
+		return () => {
+			window.removeEventListener(URL_CHANGE_EVENT, syncUrl);
+			window.removeEventListener("popstate", syncUrl);
+		};
 	}, []);
 
-	const { onCopy } = useClipboard(currentUrl);
 	const toast = useToast();
 
-	const handleCopy = () => {
-		onCopy();
-		toast({
-			title: "הקישור הועתק ללוח",
-			status: "success",
-			duration: 2000,
-			isClosable: true,
-		});
+	const handleCopy = async () => {
+		const targetUrl =
+			typeof window !== "undefined" ? window.location.href : currentUrl;
+		try {
+			await navigator.clipboard.writeText(targetUrl);
+			toast({
+				title: "הקישור הועתק ללוח",
+				status: "success",
+				duration: 2000,
+				isClosable: true,
+			});
+		} catch {
+			// Clipboard unavailable
+		}
 	};
 
 	const encodedUrl = encodeURIComponent(currentUrl);
@@ -56,7 +63,7 @@ export function ShareButtons({ category }: { category: string }) {
 
 	return (
 		<Flex alignItems="center" gap={1.5}>
-			<Tooltip label="העתק קישור" hasArrow>
+			<Tooltip label="העתק קישור לתצוגה הנוכחית" hasArrow>
 				<IconButton
 					aria-label="העתק קישור"
 					icon={<FaLink />}
@@ -114,7 +121,7 @@ function MobileShareButton({
 			await navigator.share({
 				title: "פורטל לינק לישראל - כל אתרי הסיוע במקום אחד",
 				text: category,
-				url,
+				url: typeof window !== "undefined" ? window.location.href : url,
 			});
 		} catch {
 			// User cancelled native share sheet
