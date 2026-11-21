@@ -1,5 +1,6 @@
 "use client";
 
+import NextLink from "next/link";
 import React, { useState } from "react";
 import {
 	FaBookmark,
@@ -40,23 +41,28 @@ interface ShowMoreModalProps {
 	link: LinkType;
 	setOpenDialog: (open: boolean) => void;
 	sharePath?: string;
+	locale?: "he" | "en";
 }
 
 export const ShowMoreModal: React.FC<ShowMoreModalProps> = ({
 	link,
 	setOpenDialog,
 	sharePath,
+	locale,
 }) => {
 	const [imageError, setImageError] = useState(false);
 	const toast = useToast();
 	const { isSaved, toggleSave } = useBookmarks();
 	const saved = isSaved(link.name);
 
-	const isRtl = containsHebrewLetters(
-		`${link.displayName || ""}${link.description || ""}${
-			link.shortDescription || ""
-		}`,
-	);
+	const isRtl =
+		locale !== undefined
+			? locale === "he"
+			: containsHebrewLetters(
+					`${link.displayName || ""}${link.description || ""}${
+						link.shortDescription || ""
+					}`,
+				);
 
 	const primaryUrl = getPrimaryInitiativeUrl(link);
 
@@ -129,7 +135,13 @@ export const ShowMoreModal: React.FC<ShowMoreModalProps> = ({
 			phone: link.phone,
 		});
 		toast({
-			title: added ? "נשמר לרשימה שלך" : "הוסר מהרשימה",
+			title: isRtl
+				? added
+					? "נשמר לרשימה שלך"
+					: "הוסר מהרשימה"
+				: added
+					? "Saved to your list"
+					: "Removed from list",
 			status: added ? "success" : "info",
 			duration: 1800,
 			isClosable: true,
@@ -186,9 +198,13 @@ export const ShowMoreModal: React.FC<ShowMoreModalProps> = ({
 						<Flex align="center" gap={2} wrap="wrap">
 							<Icon as={FaCheckCircle} color="green.600" boxSize={4} />
 							<Text fontSize="xs" fontWeight="bold" color="green.800">
-								{link.organizationType === "official"
-									? "גוף רשמי / לאומי מאומת"
-									: "עמותה / ארגון מאומת"}
+								{isRtl
+									? link.organizationType === "official"
+										? "גוף רשמי / לאומי מאומת"
+										: "עמותה / ארגון מאומת"
+									: link.organizationType === "official"
+										? "Verified Official Institution"
+										: "Verified Nonprofit Organization"}
 							</Text>
 							{link.taxDeductible46 && (
 								<Badge
@@ -198,27 +214,40 @@ export const ShowMoreModal: React.FC<ShowMoreModalProps> = ({
 									borderRadius="full"
 									px={2}
 								>
-									מוכר לסעיף 46
+									{isRtl ? "מוכר לסעיף 46" : "Tax-Deductible (§46)"}
 								</Badge>
 							)}
 						</Flex>
 
-						{link.organizationType === "ngo" && (
+						<Flex align="center" gap={3} wrap="wrap">
+							{link.organizationType === "ngo" && (
+								<Link
+									href={guidestarSearchUrl}
+									isExternal
+									fontSize="xs"
+									fontWeight="semibold"
+									color="green.700"
+									display="inline-flex"
+									alignItems="center"
+									gap={1}
+									_hover={{ textDecoration: "underline" }}
+								>
+									{isRtl ? "בדיקה בגיידסטאר" : "GuideStar"}
+									<ExternalLinkIcon boxSize={3} />
+								</Link>
+							)}
 							<Link
-								href={guidestarSearchUrl}
-								isExternal
+								as={NextLink}
+								href="/docs/methodology"
 								fontSize="xs"
-								fontWeight="semibold"
 								color="green.700"
-								display="inline-flex"
-								alignItems="center"
-								gap={1}
-								_hover={{ textDecoration: "underline" }}
+								opacity={0.85}
+								_hover={{ textDecoration: "underline", opacity: 1 }}
+								onClick={() => setOpenDialog(false)}
 							>
-								בדיקה בגיידסטאר
-								<ExternalLinkIcon boxSize={3} />
+								{isRtl ? "איך מאמתים?" : "How we verify"}
 							</Link>
-						)}
+						</Flex>
 					</Flex>
 				)}
 
@@ -344,7 +373,7 @@ export const ShowMoreModal: React.FC<ShowMoreModalProps> = ({
 							leftIcon={saved ? <FaBookmark /> : <FaRegBookmark />}
 							onClick={handleToggleSave}
 						>
-							{saved ? "נשמר" : "שמור"}
+							{isRtl ? (saved ? "נשמר" : "שמור") : saved ? "Saved" : "Save"}
 						</Button>
 
 						<Button

@@ -1,7 +1,15 @@
 import type { Metadata } from "next";
 
-import { EnglishPortal } from "@/app/components/EnglishPortal/EnglishPortal";
+import {
+	EnrichedEnglishInitiative,
+	EnglishPortal,
+} from "@/app/components/EnglishPortal/EnglishPortal";
 import { ENGLISH_INITIATIVES } from "@/app/components/EnglishPortal/englishInitiatives";
+import {
+	computeInitiativeRankScore,
+	getCategories,
+	InitiativeLink,
+} from "@/app/utils/categories";
 import { DEFAULT_OG_IMAGE, safeJsonLd, SITE_URL } from "@/app/utils/seo";
 
 const EN_TITLE =
@@ -24,6 +32,9 @@ export const metadata: Metadata = {
 		"Leket Israel",
 		"NATAL",
 		"ERAN",
+		"Yad Sarah",
+		"Ezer Mizion",
+		"United Hatzalah",
 	],
 	alternates: {
 		canonical: "/en",
@@ -49,7 +60,68 @@ export const metadata: Metadata = {
 	},
 };
 
-export default function EnglishPage() {
+function normalizeHost(url?: string): string | null {
+	if (!url) return null;
+	try {
+		return new URL(url).hostname.toLowerCase().replace(/^www\./, "");
+	} catch {
+		return null;
+	}
+}
+
+export default async function EnglishPage() {
+	const categories = await getCategories();
+
+	// Build lookup from single-source-of-truth _data/links so /en automatically inherits
+	// verified status, Section 46, phone hotlines, references[], and rankScore
+	const byName = new Map<string, { link: InitiativeLink; sharePath: string }>();
+	const byHost = new Map<string, { link: InitiativeLink; sharePath: string }>();
+
+	for (const cat of categories) {
+		for (const sub of cat.subCategories) {
+			for (const link of sub.links) {
+				const entry = {
+					link,
+					sharePath: `/${encodeURIComponent(cat.id)}/${encodeURIComponent(
+						sub.name,
+					)}/${encodeURIComponent(link.name)}`,
+				};
+				byName.set(link.name.toLowerCase(), entry);
+				const host = normalizeHost(link.url || link.website);
+				if (host && !byHost.has(host)) {
+					byHost.set(host, entry);
+				}
+			}
+		}
+	}
+
+	const enriched: EnrichedEnglishInitiative[] = ENGLISH_INITIATIVES.map(
+		(item) => {
+			const matched =
+				byName.get(item.id.toLowerCase()) ||
+				byHost.get(normalizeHost(item.url) || "");
+			const source = matched?.link;
+
+			const mergedLink: InitiativeLink = {
+				...(source || {}),
+				name: source?.name || item.id,
+				displayName: item.name,
+				shortDescription: item.summary,
+				description: undefined,
+				url: item.url,
+				website: item.url,
+				tags: item.tags,
+			};
+
+			return {
+				...item,
+				link: mergedLink,
+				sharePath: matched?.sharePath,
+				rankScore: computeInitiativeRankScore(mergedLink),
+			};
+		},
+	).sort((a, b) => b.rankScore - a.rankScore);
+
 	const jsonLd = {
 		"@context": "https://schema.org",
 		"@type": "CollectionPage",
@@ -59,8 +131,8 @@ export default function EnglishPage() {
 		inLanguage: "en-US",
 		mainEntity: {
 			"@type": "ItemList",
-			numberOfItems: ENGLISH_INITIATIVES.length,
-			itemListElement: ENGLISH_INITIATIVES.map((item, idx) => ({
+			numberOfItems: enriched.length,
+			itemListElement: enriched.map((item, idx) => ({
 				"@type": "ListItem",
 				position: idx + 1,
 				name: item.name,
@@ -76,7 +148,7 @@ export default function EnglishPage() {
 				type="application/ld+json"
 				dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
 			/>
-			<EnglishPortal />
+			<EnglishPortal items={enriched} />
 		</>
 	);
 }

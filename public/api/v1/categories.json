@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "source": "https://www.linksforisrael.com",
-  "generatedAt": "2026-11-21T22:30:54.401Z",
+  "generatedAt": "2026-11-21T22:55:48.360Z",
   "count": 8,
   "categories": [
     {
@@ -27,13 +27,13 @@
       "id": "Defense",
       "displayName": "חירום, ביטחון ומילואים",
       "description": "פיקוד העורף, חילוץ והצלה, מקלטים, מערך המילואים וסיוע בחירום",
-      "count": 14,
+      "count": 12,
       "portalUrl": "https://www.linksforisrael.com/Defense",
       "subCategories": [
         {
           "id": "Main",
           "displayName": "מילואים, לוגיסטיקה וביטחון",
-          "count": 6
+          "count": 4
         },
         {
           "id": "Emergency",
@@ -65,7 +65,7 @@
       "id": "FamilyAndPets",
       "displayName": "משפחה, נוער ובע״ח",
       "description": "תנועות נוער, צרכים מיוחדים, משפחות מילואים, תכנים לילדים ובעלי חיים",
-      "count": 15,
+      "count": 14,
       "portalUrl": "https://www.linksforisrael.com/FamilyAndPets",
       "subCategories": [
         {
@@ -76,7 +76,7 @@
         {
           "id": "ChildrenContent",
           "displayName": "תכנים לילדים",
-          "count": 7
+          "count": 6
         }
       ]
     },
@@ -98,13 +98,13 @@
       "id": "Agriculture",
       "displayName": "חקלאות ותוצרת הארץ",
       "description": "התנדבות במשקים, חיזוק חקלאים ורכישת תוצרת חקלאית ישראלית",
-      "count": 11,
+      "count": 8,
       "portalUrl": "https://www.linksforisrael.com/Agriculture",
       "subCategories": [
         {
           "id": "Main",
           "displayName": "ראשי",
-          "count": 11
+          "count": 8
         }
       ]
     },
@@ -126,7 +126,7 @@
       "id": "StrategicCommunication",
       "displayName": "הסברה ודיפלומטיה",
       "description": "הסברה בינלאומית, מאבק באנטישמיות, תיעוד ומאגרי מידע",
-      "count": 24,
+      "count": 23,
       "portalUrl": "https://www.linksforisrael.com/StrategicCommunication",
       "subCategories": [
         {
@@ -137,7 +137,7 @@
         {
           "id": "SocialNetworks",
           "displayName": "רשתות חברתיות",
-          "count": 8
+          "count": 7
         },
         {
           "id": "Tools",

@@ -1,9 +1,18 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
+
+import { Box, Button, Text } from "@chakra-ui/react";
 
 import { InitiativeLink, SubCategoryData } from "../../utils/categories";
 import { DialogModal } from "../DialogModal/DialogModal";
+import {
+	filterInitiativesByTrust,
+	hasActiveTrustFilters,
+	INITIAL_TRUST_FILTER,
+	TrustFilterBar,
+	TrustFilterState,
+} from "../Filters/TrustFilterBar";
 import { ShowMoreModal } from "../Initiative/InitiativeShowMoreModal";
 import { ShareSection } from "../Share/ShareSection";
 import { SubCategoriesList } from "./SubCategoriesList";
@@ -16,6 +25,7 @@ interface CategoryContentProps {
 	initialSubCategoryName?: string;
 	initialLinkName?: string;
 	headingAs?: "h1" | "h2";
+	enableTrustFilters?: boolean;
 }
 
 const containsHebrewLetters = (str: string): boolean =>
@@ -29,12 +39,42 @@ export const CategoryContent = ({
 	initialSubCategoryName,
 	initialLinkName,
 	headingAs = "h1",
+	enableTrustFilters = true,
 }: CategoryContentProps) => {
 	const [openDialog, setOpenDialog] = useState(false);
 	const [description, setDescription] = useState<{
 		body: React.ReactNode;
 		link: InitiativeLink;
 	} | null>(null);
+	const [trustFilters, setTrustFilters] =
+		useState<TrustFilterState>(INITIAL_TRUST_FILTER);
+
+	// Reset local category filters when switching categories
+	useEffect(() => {
+		setTrustFilters(INITIAL_TRUST_FILTER);
+	}, [categoryId]);
+
+	const allCategoryLinks = useMemo(
+		() => subCategories.flatMap((s) => s.links),
+		[subCategories],
+	);
+
+	const filteredSubCategories = useMemo(() => {
+		if (!enableTrustFilters || !hasActiveTrustFilters(trustFilters)) {
+			return subCategories;
+		}
+		return subCategories
+			.map((sub) => ({
+				...sub,
+				links: filterInitiativesByTrust(sub.links, trustFilters, categoryId),
+			}))
+			.filter((sub) => sub.links.length > 0);
+	}, [subCategories, trustFilters, categoryId, enableTrustFilters]);
+
+	const totalFilteredCount = useMemo(
+		() => filteredSubCategories.reduce((acc, sub) => acc + sub.links.length, 0),
+		[filteredSubCategories],
+	);
 
 	// Handle deep links: /[category]/[subCategory] or /[category]/[subCategory]/[linkName]
 	useEffect(() => {
@@ -97,12 +137,47 @@ export const CategoryContent = ({
 				/>
 			)}
 
-			<SubCategoriesList
-				categoryId={categoryId}
-				subCategories={subCategories}
-				setDescription={setDescription}
-				setOpenDialog={setOpenDialog}
-			/>
+			{enableTrustFilters && (
+				<TrustFilterBar
+					links={allCategoryLinks}
+					value={trustFilters}
+					onChange={setTrustFilters}
+					totalFilteredCount={totalFilteredCount}
+					categoryId={categoryId}
+					locale="he"
+				/>
+			)}
+
+			{filteredSubCategories.length === 0 &&
+			hasActiveTrustFilters(trustFilters) ? (
+				<Box
+					bg="white"
+					borderRadius="xl"
+					borderWidth="1px"
+					borderColor="gray.200"
+					p={8}
+					textAlign="center"
+				>
+					<Text color="gray.600" mb={3}>
+						לא נמצאו יוזמות התואמות לכל תנאי הסינון שנבחרו.
+					</Text>
+					<Button
+						size="sm"
+						colorScheme="blue"
+						borderRadius="full"
+						onClick={() => setTrustFilters(INITIAL_TRUST_FILTER)}
+					>
+						נקה סינון
+					</Button>
+				</Box>
+			) : (
+				<SubCategoriesList
+					categoryId={categoryId}
+					subCategories={filteredSubCategories}
+					setDescription={setDescription}
+					setOpenDialog={setOpenDialog}
+				/>
+			)}
 		</>
 	);
 };

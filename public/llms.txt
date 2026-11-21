@@ -15,20 +15,20 @@
 ## Portals & Open Data API
 - Hebrew Portal: https://www.linksforisrael.com/
 - English / Diaspora Support Portal: https://www.linksforisrael.com/en
-- Open JSON API (all 118 ranked initiatives + references): https://www.linksforisrael.com/api/v1/initiatives.json
+- Open JSON API (all 111 ranked initiatives + references): https://www.linksforisrael.com/api/v1/initiatives.json
 - Categories JSON API: https://www.linksforisrael.com/api/v1/categories.json
 - Sitemap: https://www.linksforisrael.com/sitemap.xml
 - GitHub Repository (submit initiatives, references, or broken links via Issues): https://github.com/4tals/LinksForIsrael
 
 ## Categories
 - [בריאות ונפש](https://www.linksforisrael.com/Medical): 20 initiatives
-- [חירום, ביטחון ומילואים](https://www.linksforisrael.com/Defense): 14 initiatives
+- [חירום, ביטחון ומילואים](https://www.linksforisrael.com/Defense): 12 initiatives
 - [תרומות, מזון וכלכלה](https://www.linksforisrael.com/Economic): 13 initiatives
-- [משפחה, נוער ובע״ח](https://www.linksforisrael.com/FamilyAndPets): 15 initiatives
+- [משפחה, נוער ובע״ח](https://www.linksforisrael.com/FamilyAndPets): 14 initiatives
 - [התנדבות, זכויות וקהילה](https://www.linksforisrael.com/GeneralAssistance): 14 initiatives
-- [חקלאות ותוצרת הארץ](https://www.linksforisrael.com/Agriculture): 11 initiatives
+- [חקלאות ותוצרת הארץ](https://www.linksforisrael.com/Agriculture): 8 initiatives
 - [שכול, הנצחה וזיכרון](https://www.linksforisrael.com/MemorialRemembrance): 7 initiatives
-- [הסברה ודיפלומטיה](https://www.linksforisrael.com/StrategicCommunication): 24 initiatives
+- [הסברה ודיפלומטיה](https://www.linksforisrael.com/StrategicCommunication): 23 initiatives
 
 ## Verified Flagship Organizations
 - [עזר מציון](https://www.ami.org.il/) (03-6144444): סיוע רפואי ופארא-רפואי לחולים ולמשפחותיהם, המאגר הלאומי לתורמי מח עצם, הסעות חולים וארוחות חמות

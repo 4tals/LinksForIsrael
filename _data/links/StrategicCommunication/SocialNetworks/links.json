@@ -29,23 +29,6 @@
 			"createdAt": "2023-11-30T17:05:16+02:00"
 		},
 		{
-			"name": "LinkedInPublicity",
-			"displayName": "קול קורא: בואו תעזרו לנו בהסברה בלינקדאין",
-			"description": "קבוצה של משפיענים בלינקדאין להגדיל חשיפה, חידוד מסרים, דיווחים על פרופילים ועוד.",
-			"shortDescription": "קבוצה של משפיענים בלינקדאין להגדיל חשיפה, חידוד מסרים, דיווחים על פרופילים ועוד.",
-			"initiativeValidationDetails": "קורא: אני שוחחתי עם הקולגה שלי, הוא לשעבר עובד ב-MS, מאמת כל חבר חדש",
-			"url": "https://chat.whatsapp.com/EQopAWUyRrt8IIg5M7ZvbV",
-			"whatsapp": "https://chat.whatsapp.com/EQopAWUyRrt8IIg5M7ZvbV",
-			"docs": "https://docs.google.com/spreadsheets/d/1z9-2aXt_CmmAOyXEhtoGO-G0HEM-2fx8MGIn3AzLRNk/edit?usp=sharing",
-			"tags": [
-				"הסברה",
-				"לינקדאין",
-				"משפיענים",
-				"חשיפה"
-			],
-			"createdAt": "2023-10-23T20:37:53+03:00"
-		},
-		{
 			"name": "scooper",
 			"displayName": "Scooper - ניטור ומחקר ברשת",
 			"shortDescription": "ניתור ומחקר ברשת, מאפשר לראות פוסטים טרנדים לפי איזורים ופוסטים עם הכי הרבה מעורבות",

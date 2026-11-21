@@ -12,6 +12,7 @@ const DOC_TITLES: Record<string, string> = {
 	"ezra-rishona": "מדריך עזרה ראשונה",
 	finance: "מידע וזכויות פיננסיות",
 	hasbara: "מדריך הסברה",
+	methodology: "איך אנחנו מאמתים ומדרגים יוזמות",
 	update: "עדכון פרטים בפורטל",
 	weapon: "מידע בנושא רישיון נשק",
 };

@@ -145,6 +145,22 @@ async function checkUrlAvailabilityAsync(file, name, prop, url) {
 				);
 				return;
 			}
+			if (url.hostname === "chat.whatsapp.com") {
+				const ogTitleMatch =
+					html.match(/property="og:title"\s+content="([^"]*)"/i) ||
+					html.match(/content="([^"]*)"\s+property="og:title"/i);
+				const ogTitle = ogTitleMatch ? ogTitleMatch[1].trim() : "";
+				if (!ogTitle) {
+					addUnavailableUrl(
+						file,
+						name,
+						prop,
+						url,
+						"Revoked or expired WhatsApp group invite (empty og:title)",
+					);
+					return;
+				}
+			}
 			const checkTarget = `${response.url} ${html}`;
 			for (const { label, regex } of SUSPICIOUS_CONTENT_PATTERNS) {
 				if (regex.test(checkTarget)) {

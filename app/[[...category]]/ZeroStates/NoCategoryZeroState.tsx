@@ -327,6 +327,7 @@ export const NoCategoryZeroState: React.FC<NoCategoryZeroStateProps> = ({
 					categoryId="GeneralAssistance"
 					subCategories={[assistanceSubCategory]}
 					headingAs="h2"
+					enableTrustFilters={false}
 				/>
 			</Box>
 		</Box>

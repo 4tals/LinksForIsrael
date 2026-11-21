@@ -4,14 +4,26 @@ import NextLink from "next/link";
 import React, { useMemo, useState } from "react";
 import {
 	FaArrowRight,
-	FaFlag,
+	FaCheckCircle,
 	FaGlobe,
 	FaLink,
+	FaNewspaper,
+	FaPhoneAlt,
 	FaSearch,
 } from "react-icons/fa";
 
+import { DialogModal } from "@/app/components/DialogModal/DialogModal";
+import {
+	filterInitiativesByTrust,
+	hasActiveTrustFilters,
+	INITIAL_TRUST_FILTER,
+	TrustFilterBar,
+	TrustFilterState,
+} from "@/app/components/Filters/TrustFilterBar";
+import { ShowMoreModal } from "@/app/components/Initiative/InitiativeShowMoreModal";
 import { OrgAvatar } from "@/app/components/Initiative/OrgAvatar";
 import { Logo } from "@/app/components/Logo";
+import { getReferenceSummary, InitiativeLink } from "@/app/utils/categories";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 import {
 	Badge,
@@ -34,7 +46,13 @@ import {
 	VStack,
 } from "@chakra-ui/react";
 
-import { ENGLISH_INITIATIVES } from "./englishInitiatives";
+import { EnglishInitiative } from "./englishInitiatives";
+
+export interface EnrichedEnglishInitiative extends EnglishInitiative {
+	link: InitiativeLink;
+	sharePath?: string;
+	rankScore: number;
+}
 
 const CATEGORIES = [
 	{ id: "all", label: "All Resources" },
@@ -59,14 +77,23 @@ function getDisplayDomain(url: string): string {
 	}
 }
 
-export function EnglishPortal() {
+export function EnglishPortal({
+	items,
+}: {
+	items: EnrichedEnglishInitiative[];
+}) {
 	const [selectedCategory, setSelectedCategory] = useState<string>("all");
 	const [query, setQuery] = useState("");
+	const [trustFilters, setTrustFilters] =
+		useState<TrustFilterState>(INITIAL_TRUST_FILTER);
+	const [activeItem, setActiveItem] =
+		useState<EnrichedEnglishInitiative | null>(null);
+	const [isDrawerOpen, setIsDrawerOpen] = useState(false);
 	const toast = useToast();
 
-	const filtered = useMemo(() => {
+	const categoryMatchedItems = useMemo(() => {
 		const q = query.trim().toLowerCase();
-		return ENGLISH_INITIATIVES.filter((item) => {
+		return items.filter((item) => {
 			if (selectedCategory !== "all" && item.category !== selectedCategory) {
 				return false;
 			}
@@ -78,9 +105,26 @@ export function EnglishPortal() {
 				item.tags.some((t) => t.toLowerCase().includes(q))
 			);
 		});
-	}, [selectedCategory, query]);
+	}, [items, selectedCategory, query]);
 
-	const handleCopy = async (url: string) => {
+	const filtered = useMemo(() => {
+		if (!hasActiveTrustFilters(trustFilters)) return categoryMatchedItems;
+		const allowedLinks = new Set(
+			filterInitiativesByTrust(
+				categoryMatchedItems.map((i) => i.link),
+				trustFilters,
+			),
+		);
+		return categoryMatchedItems.filter((item) => allowedLinks.has(item.link));
+	}, [categoryMatchedItems, trustFilters]);
+
+	const openSideCard = (item: EnrichedEnglishInitiative) => {
+		setActiveItem(item);
+		setIsDrawerOpen(true);
+	};
+
+	const handleCopy = async (e: React.MouseEvent, url: string) => {
+		e.stopPropagation();
 		try {
 			await navigator.clipboard.writeText(url);
 			toast({
@@ -96,6 +140,24 @@ export function EnglishPortal() {
 
 	return (
 		<Box dir="ltr" textAlign="left" py={{ base: 6, md: 10 }}>
+			{/* Shared Floating Side Card Drawer */}
+			<DialogModal
+				title={activeItem?.name || ""}
+				body={
+					activeItem ? (
+						<ShowMoreModal
+							link={activeItem.link}
+							setOpenDialog={setIsDrawerOpen}
+							sharePath={activeItem.sharePath}
+							locale="en"
+						/>
+					) : null
+				}
+				open={Boolean(isDrawerOpen && activeItem)}
+				toggleModal={setIsDrawerOpen}
+				isRtl={false}
+			/>
+
 			<Container maxW="1280px" px={{ base: 4, md: 6 }}>
 				{/* Hero */}
 				<Box
@@ -105,7 +167,7 @@ export function EnglishPortal() {
 					borderColor="gray.200"
 					boxShadow="sm"
 					p={{ base: 6, md: 10 }}
-					mb={8}
+					mb={6}
 					position="relative"
 					overflow="hidden"
 				>
@@ -148,7 +210,7 @@ export function EnglishPortal() {
 								borderRadius="full"
 								fontSize="xs"
 							>
-								{ENGLISH_INITIATIVES.length} Flagship Organizations
+								{items.length} Flagship Organizations
 							</Badge>
 						</HStack>
 
@@ -165,7 +227,8 @@ export function EnglishPortal() {
 						<Text fontSize={{ base: "md", md: "lg" }} color="gray.600">
 							A curated, open-source directory of verified Israeli charities,
 							mental health and veteran rehabilitation centers, volunteering
-							networks, and remembrance archives.
+							networks, and remembrance archives — backed by GuideStar Israel
+							and independent third-party coverage.
 						</Text>
 
 						<Flex
@@ -204,7 +267,7 @@ export function EnglishPortal() {
 				</Box>
 
 				{/* Category Filter Pills */}
-				<Flex wrap="wrap" gap={2} mb={6}>
+				<Flex wrap="wrap" gap={2} mb={3}>
 					{CATEGORIES.map((cat) => {
 						const active = selectedCategory === cat.id;
 						return (
@@ -223,6 +286,16 @@ export function EnglishPortal() {
 					})}
 				</Flex>
 
+				{/* Shared Reusable Trust Filter Bar */}
+				<TrustFilterBar
+					links={categoryMatchedItems.map((i) => i.link)}
+					value={trustFilters}
+					onChange={setTrustFilters}
+					totalFilteredCount={filtered.length}
+					locale="en"
+					showIntentFilters={false}
+				/>
+
 				{/* Cards Grid */}
 				{filtered.length === 0 ? (
 					<Box
@@ -234,7 +307,7 @@ export function EnglishPortal() {
 						textAlign="center"
 					>
 						<Text color="gray.600" mb={4}>
-							No organizations matched &ldquo;{query}&rdquo;.
+							No organizations matched your current filters.
 						</Text>
 						<Button
 							size="sm"
@@ -243,6 +316,7 @@ export function EnglishPortal() {
 							onClick={() => {
 								setQuery("");
 								setSelectedCategory("all");
+								setTrustFilters(INITIAL_TRUST_FILTER);
 							}}
 						>
 							Reset filters
@@ -254,19 +328,16 @@ export function EnglishPortal() {
 						spacing={{ base: 4, md: 5 }}
 					>
 						{filtered.map((item) => {
-							const reportUrl = `https://github.com/4tals/LinksForIsrael/issues/new?template=broken_link.yml&title=${encodeURIComponent(
-								`[BROKEN-LINK]: ${item.name}`,
-							)}&initiative=${encodeURIComponent(
-								item.name,
-							)}&url=${encodeURIComponent(item.url)}`;
 							const badgeStyle =
 								CATEGORY_COLORS[item.category] || CATEGORY_COLORS.rehab;
+							const refSummary = getReferenceSummary(item.link, 2);
 
 							return (
 								<Flex
 									key={item.id}
 									as="article"
 									role="group"
+									tabIndex={0}
 									direction="column"
 									position="relative"
 									bg="white"
@@ -274,6 +345,7 @@ export function EnglishPortal() {
 									borderWidth="1px"
 									borderColor="gray.200"
 									p={5}
+									cursor="pointer"
 									overflow="hidden"
 									boxShadow="0 1px 2px rgba(15, 23, 42, 0.04)"
 									transition="transform 0.22s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.22s ease, border-color 0.22s ease"
@@ -282,6 +354,13 @@ export function EnglishPortal() {
 										transform: "translateY(-3px)",
 										boxShadow:
 											"0 14px 28px -10px rgba(0, 56, 184, 0.14), 0 4px 10px -4px rgba(15, 23, 42, 0.06)",
+									}}
+									onClick={() => openSideCard(item)}
+									onKeyDown={(e) => {
+										if (e.key === "Enter" || e.key === " ") {
+											e.preventDefault();
+											openSideCard(item);
+										}
 									}}
 									justify="space-between"
 									gap={3}
@@ -309,53 +388,172 @@ export function EnglishPortal() {
 											<Flex align="center" gap={3} minW={0} flex="1">
 												<OrgAvatar name={item.name} primaryUrl={item.url} />
 												<Box minW={0} flex="1">
-													<Heading
-														as="h2"
-														fontSize="md"
-														fontWeight="bold"
-														color="gray.900"
-														lineHeight="1.35"
-														noOfLines={2}
-														_groupHover={{ color: "brand.600" }}
-														transition="color 0.15s ease"
-													>
-														{item.name}
-													</Heading>
+													<Flex align="center" gap={1.5}>
+														<Heading
+															as="h2"
+															fontSize="md"
+															fontWeight="bold"
+															color="gray.900"
+															lineHeight="1.35"
+															noOfLines={2}
+															_groupHover={{ color: "brand.600" }}
+															transition="color 0.15s ease"
+														>
+															{item.name}
+														</Heading>
+														{item.link.verified && (
+															<Tooltip
+																label={
+																	item.link.organizationType === "official"
+																		? "Verified Official Institution"
+																		: "Verified Israeli Nonprofit"
+																}
+																placement="top"
+																hasArrow
+															>
+																<Box
+																	as="span"
+																	color="green.500"
+																	display="inline-flex"
+																	flexShrink={0}
+																>
+																	<Icon as={FaCheckCircle} boxSize={3.5} />
+																</Box>
+															</Tooltip>
+														)}
+													</Flex>
 													<Text fontSize="xs" color="gray.400" noOfLines={1}>
 														{getDisplayDomain(item.url)}
 													</Text>
 												</Box>
 											</Flex>
 
-											<Tooltip label="Copy link" placement="top" hasArrow>
-												<IconButton
-													aria-label={`Copy link for ${item.name}`}
-													icon={<FaLink size={12} />}
-													size="xs"
-													variant="ghost"
-													color="gray.400"
-													borderRadius="lg"
-													opacity={{ base: 1, md: 0 }}
-													_groupHover={{ opacity: 1 }}
-													_hover={{ bg: "gray.100", color: "brand.600" }}
-													onClick={() => handleCopy(item.url)}
-												/>
-											</Tooltip>
+											<HStack spacing={0.5} flexShrink={0}>
+												<Tooltip label="Copy link" placement="top" hasArrow>
+													<IconButton
+														aria-label={`Copy link for ${item.name}`}
+														icon={<FaLink size={12} />}
+														size="xs"
+														variant="ghost"
+														color="gray.400"
+														borderRadius="lg"
+														opacity={{ base: 1, md: 0 }}
+														_groupHover={{ opacity: 1 }}
+														_hover={{ bg: "gray.100", color: "brand.600" }}
+														onClick={(e) => handleCopy(e, item.url)}
+													/>
+												</Tooltip>
+												<Tooltip
+													label="Open website directly"
+													placement="top"
+													hasArrow
+												>
+													<IconButton
+														as={Link}
+														href={item.url}
+														isExternal
+														aria-label={`Open ${item.name} directly`}
+														icon={<ExternalLinkIcon boxSize={3.5} />}
+														size="xs"
+														variant="ghost"
+														color="gray.400"
+														borderRadius="lg"
+														_hover={{
+															bg: "brand.50",
+															color: "brand.600",
+															textDecoration: "none",
+														}}
+														onClick={(e) => e.stopPropagation()}
+													/>
+												</Tooltip>
+											</HStack>
 										</Flex>
 
-										<Badge
-											bg={badgeStyle.bg}
-											color={badgeStyle.color}
-											borderRadius="full"
-											px={2.5}
-											py={0.5}
-											fontSize="2xs"
-											fontWeight="semibold"
-											textTransform="none"
-											mb={2.5}
-										>
-											{item.categoryLabel}
-										</Badge>
+										{/* Badges: Category + Section 46 + Third-Party Sources + Hotline */}
+										<Flex wrap="wrap" gap={1.5} mb={2.5} align="center">
+											<Badge
+												bg={badgeStyle.bg}
+												color={badgeStyle.color}
+												borderRadius="full"
+												px={2.5}
+												py={0.5}
+												fontSize="2xs"
+												fontWeight="semibold"
+												textTransform="none"
+											>
+												{item.categoryLabel}
+											</Badge>
+											{item.link.taxDeductible46 && (
+												<Badge
+													backgroundColor="#ecfdf5"
+													color="#047857"
+													borderRadius="full"
+													px={2}
+													py={0.5}
+													fontSize="2xs"
+													fontWeight="semibold"
+													textTransform="none"
+												>
+													§46 Tax-Deductible
+												</Badge>
+											)}
+											{refSummary && (
+												<Tooltip
+													label={refSummary.tooltip}
+													placement="top"
+													hasArrow
+												>
+													<Badge
+														bg="gray.100"
+														color="gray.700"
+														borderRadius="full"
+														px={2}
+														py={0.5}
+														fontSize="2xs"
+														fontWeight="medium"
+														textTransform="none"
+														display="inline-flex"
+														alignItems="center"
+														gap={1}
+														maxW="190px"
+													>
+														<Icon
+															as={FaNewspaper}
+															boxSize={2.5}
+															color="brand.500"
+															flexShrink={0}
+														/>
+														<Text as="span" noOfLines={1}>
+															{refSummary.label}
+														</Text>
+													</Badge>
+												</Tooltip>
+											)}
+											{item.link.phone && (
+												<Link
+													href={`tel:${item.link.phone.replace(/[^\d+*#]/g, "")}`}
+													onClick={(e) => e.stopPropagation()}
+													_hover={{ textDecoration: "none" }}
+												>
+													<Badge
+														bg="green.50"
+														color="green.700"
+														borderRadius="full"
+														px={2}
+														py={0.5}
+														fontSize="2xs"
+														fontWeight="bold"
+														display="inline-flex"
+														alignItems="center"
+														gap={1}
+														_hover={{ bg: "green.100" }}
+													>
+														<Icon as={FaPhoneAlt} boxSize={2} />
+														<span>{item.link.phone}</span>
+													</Badge>
+												</Link>
+											)}
+										</Flex>
 
 										<Text
 											fontSize="sm"
@@ -377,37 +575,34 @@ export function EnglishPortal() {
 											<Link
 												href={item.url}
 												isExternal
-												fontSize="sm"
+												onClick={(e) => e.stopPropagation()}
+												fontSize="xs"
 												fontWeight="semibold"
-												color="brand.600"
+												color="gray.600"
 												display="inline-flex"
 												alignItems="center"
-												gap={1.5}
-												_hover={{ color: "brand.700", textDecoration: "none" }}
+												gap={1}
+												_hover={{ color: "brand.600", textDecoration: "none" }}
 											>
 												<span>Visit Website</span>
+												<ExternalLinkIcon boxSize={3} opacity={0.75} />
+											</Link>
+
+											<Flex
+												align="center"
+												gap={1.5}
+												fontSize="xs"
+												fontWeight="semibold"
+												color="brand.600"
+											>
+												<span>Details &amp; Sources</span>
 												<Icon
 													as={FaArrowRight}
 													boxSize={2.5}
 													transition="transform 0.2s ease"
 													_groupHover={{ transform: "translateX(3px)" }}
 												/>
-												<ExternalLinkIcon boxSize={3} opacity={0.7} />
-											</Link>
-
-											<Link
-												href={reportUrl}
-												isExternal
-												fontSize="xs"
-												color="gray.400"
-												display="inline-flex"
-												alignItems="center"
-												gap={1}
-												_hover={{ color: "red.500" }}
-											>
-												<FaFlag size={10} />
-												Report
-											</Link>
+											</Flex>
 										</Flex>
 									</Box>
 								</Flex>
@@ -431,7 +626,16 @@ export function EnglishPortal() {
 					</Heading>
 					<Text fontSize="sm" color="gray.600" mb={4}>
 						Links For Israel is 100% open source and community-maintained on
-						GitHub.
+						GitHub.{" "}
+						<Link
+							as={NextLink}
+							href="/docs/methodology"
+							color="brand.600"
+							fontWeight="semibold"
+							_hover={{ textDecoration: "underline" }}
+						>
+							Read how we verify &amp; rank initiatives.
+						</Link>
 					</Text>
 					<Button
 						as={Link}

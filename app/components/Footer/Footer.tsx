@@ -1,5 +1,6 @@
 "use client";
 
+import NextLink from "next/link";
 import React from "react";
 
 import { socialLinks } from "@/app/utils/consts";
@@ -67,6 +68,17 @@ export function Footer() {
 							{FOOTER_CONFIG.hebrewText}
 						</Text>
 					</HStack>
+
+					<Link
+						as={NextLink}
+						href="/docs/methodology"
+						fontSize="xs"
+						fontWeight="medium"
+						color="gray.500"
+						_hover={{ color: "brand.600", textDecoration: "underline" }}
+					>
+						איך אנחנו מאמתים ומדרגים יוזמות?
+					</Link>
 
 					<HStack spacing={1.5} align="center" wrap="wrap" justify="center">
 						{socialLinks.map((link) => (

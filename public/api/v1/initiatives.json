@@ -3,8 +3,8 @@
   "source": "https://www.linksforisrael.com",
   "repository": "https://github.com/4tals/LinksForIsrael",
   "license": "Open Data / Community Maintained",
-  "generatedAt": "2026-11-21T22:30:54.401Z",
-  "count": 118,
+  "generatedAt": "2026-11-21T22:55:48.360Z",
+  "count": 111,
   "initiatives": [
     {
       "id": "Medical/Main/EzerMizion",
@@ -3469,59 +3469,6 @@
       "createdAt": "2023-11-09T23:40:39+02:00"
     },
     {
-      "id": "Defense/Main/HamalFoodLogistics",
-      "name": "HamalFoodLogistics",
-      "displayName": "חמ״ל שינוע מזון לחיילים",
-      "categoryId": "Defense",
-      "categoryName": "חירום, ביטחון ומילואים",
-      "subCategoryId": "Main",
-      "subCategoryName": "מילואים, לוגיסטיקה וביטחון",
-      "shortDescription": "קבוצת וואטסאפ לתיאום ושינוע של מזון ללוחמים",
-      "description": "קבוצת וואטסאפ לתיאום ושינוע של מזון ללוחמים",
-      "url": "https://chat.whatsapp.com/KPZ7JqQyBLG3OSvtGlUAdx",
-      "website": null,
-      "phone": null,
-      "email": null,
-      "intents": null,
-      "verified": false,
-      "taxDeductible46": false,
-      "organizationType": null,
-      "references": [],
-      "rankScore": 4,
-      "tags": [],
-      "portalUrl": "https://www.linksforisrael.com/Defense/Main/HamalFoodLogistics",
-      "createdAt": "2023-10-12T22:22:49+03:00"
-    },
-    {
-      "id": "Defense/Main/ReserveRides",
-      "name": "ReserveRides",
-      "displayName": "טרמפים למילואים",
-      "categoryId": "Defense",
-      "categoryName": "חירום, ביטחון ומילואים",
-      "subCategoryId": "Main",
-      "subCategoryName": "מילואים, לוגיסטיקה וביטחון",
-      "shortDescription": "תיאום טרמפים לטובת המלחמה בכלל ומילואים בפרט",
-      "description": "⚠️ נהלים חשובים: ⚠️ \n\n1. לא לרשום שם משפחה\n2. לא לרשום שם בסיס אלא עיר קרוב\n3. לעשות שיחת וידיו לפני שנפגשים (במיוחד למי שלא מהקבוצה)\n4. לא להעביר הודעות של אנשים שלא מכירים\n5. לא לשלוח מיקום \n\n📌מצאתם טרמפ? בבקשה צאו מהקבוצה, כדיי שאחרים יוכלו להכנס ולמצוא גם! \n📌נא להיצמד לפורמט של הקבוצה\n\n📌נהגים? נשמח שתצטרף!\n\nנסיעות בטוחות 👍😊\n\n*אין לנו אחריות על הנסיעות",
-      "url": "https://chat.whatsapp.com/ErCryExAKyKGkI2R6HlYqv",
-      "website": null,
-      "phone": null,
-      "email": null,
-      "intents": null,
-      "verified": false,
-      "taxDeductible46": false,
-      "organizationType": null,
-      "references": [],
-      "rankScore": 4,
-      "tags": [
-        "טרמפים",
-        "מילואים",
-        "נסיעות בטוחות",
-        "תיאום נסיעות"
-      ],
-      "portalUrl": "https://www.linksforisrael.com/Defense/Main/ReserveRides",
-      "createdAt": "2023-11-15T23:04:35+02:00"
-    },
-    {
       "id": "Defense/Emergency/SafePlace",
       "name": "SafePlace",
       "displayName": "מקום בטוח - Safe Place",
@@ -3771,36 +3718,6 @@
       "createdAt": "2023-10-12T22:22:49+03:00"
     },
     {
-      "id": "FamilyAndPets/ChildrenContent/RogalachGames",
-      "name": "RogalachGames",
-      "displayName": "משחקי רוגעלך",
-      "categoryId": "FamilyAndPets",
-      "categoryName": "משפחה, נוער ובע״ח",
-      "subCategoryId": "ChildrenContent",
-      "subCategoryName": "תכנים לילדים",
-      "shortDescription": "משחקים לילדים בזמן מלחמה",
-      "description": "משחקים שפותחו באהבה לילדי וילדות ישראל שמותאמים לתקופה ומעודדים התנדבות, מרגיעים וכיפיים.",
-      "url": "https://www.games4israel.com/",
-      "website": "https://www.games4israel.com/",
-      "phone": null,
-      "email": null,
-      "intents": null,
-      "verified": false,
-      "taxDeductible46": false,
-      "organizationType": null,
-      "references": [],
-      "rankScore": 4,
-      "tags": [
-        "ילדים",
-        "הסברה",
-        "משחקים",
-        "הורות",
-        "התנדבות"
-      ],
-      "portalUrl": "https://www.linksforisrael.com/FamilyAndPets/ChildrenContent/RogalachGames",
-      "createdAt": "2023-10-24T10:16:38+03:00"
-    },
-    {
       "id": "FamilyAndPets/ChildrenContent/ChildrenActivities",
       "name": "ChildrenActivities",
       "displayName": "דעת - פעילויות לילדים",
@@ -3942,40 +3859,6 @@
       "createdAt": "2023-11-11T15:44:24+02:00"
     },
     {
-      "id": "Agriculture/Main/FarmRide",
-      "name": "FarmRide",
-      "displayName": "טרמפים למשקים הלוך וחזור",
-      "categoryId": "Agriculture",
-      "categoryName": "חקלאות ותוצרת הארץ",
-      "subCategoryId": "Main",
-      "subCategoryName": "ראשי",
-      "shortDescription": "קבוצות טרמפים מרוכזת לכל המשקים",
-      "description": "רוב המשקים נמצאים סמוך זה לזה וכשמגיעים לאיזור קל יותר להגיע למשק. כרגע התחברוה הציבורית היא רק עד לצאלים. אז תעזרו אחד לשני בקבוצה הזו ובמידה ואתם חוששים תעשו שיחת וידאו עם הבנאדם לפני כן כדי לוודא שאפשר לסמוך עליו. אנחנו מנסים להשיג הסעות אז תתעדכנו מידי פעם על הסעה/",
-      "url": "https://chat.whatsapp.com/LWaRK08hjeVLdVzSlRf63j",
-      "website": "https://www.facebook.com/groups/farmingil/posts/852676299637805/",
-      "phone": null,
-      "email": null,
-      "intents": null,
-      "verified": false,
-      "taxDeductible46": false,
-      "organizationType": null,
-      "references": [
-        {
-          "url": "https://www.facebook.com/groups/farmingil/posts/854044209501014/",
-          "type": "social",
-          "source": "Facebook"
-        }
-      ],
-      "rankScore": 4,
-      "tags": [
-        "טרמפים",
-        "משקים",
-        "הובלה"
-      ],
-      "portalUrl": "https://www.linksforisrael.com/Agriculture/Main/FarmRide",
-      "createdAt": "2023-11-12T02:44:41+02:00"
-    },
-    {
       "id": "Agriculture/Main/WorkInAgricultureDuringWar",
       "name": "WorkInAgricultureDuringWar",
       "displayName": "עבודה בחקלאות בזמן מלחמה",
@@ -4051,69 +3934,6 @@
       ],
       "portalUrl": "https://www.linksforisrael.com/Agriculture/Main/HarnessedToAgriculture",
       "createdAt": "2023-11-12T03:04:16+02:00"
-    },
-    {
-      "id": "Agriculture/Main/RunForAgriculture",
-      "name": "RunForAgriculture",
-      "displayName": "מרתון ישראל - רצים למען החקלאות",
-      "categoryId": "Agriculture",
-      "categoryName": "חקלאות ותוצרת הארץ",
-      "subCategoryId": "Main",
-      "subCategoryName": "ראשי",
-      "shortDescription": "צוות מרתון ישראל למען החקלאים",
-      "description": "עוד יום פורה ומספק עבר על כוחותינו במיזם 'רצים למען החקלאים'  ברחבי הארץ- מצפון עד דרום.  מעל ל- 1500 רצים וחברים שותפים לו. \nגם הבוקר קטפנו, מסקנו, שתלנו, ניקינו, ארזנו ובעיקר- עזרנו לעשרות חקלאים קצת לנשום לרווחה ולהוריד מהם לחצים וקשיים. ",
-      "url": "https://chat.whatsapp.com/IZbcAHzvtNKHqEHK3e06Zc",
-      "website": null,
-      "phone": null,
-      "email": null,
-      "intents": null,
-      "verified": false,
-      "taxDeductible46": false,
-      "organizationType": null,
-      "references": [],
-      "rankScore": 4,
-      "tags": [
-        "מרתון ישראל",
-        "חקלאות",
-        "תרומה",
-        "ריצה"
-      ],
-      "portalUrl": "https://www.linksforisrael.com/Agriculture/Main/RunForAgriculture",
-      "createdAt": "2023-11-12T03:09:51+02:00"
-    },
-    {
-      "id": "Agriculture/Main/KotefBaotef",
-      "name": "KotefBaotef",
-      "displayName": "קוטף בעוטף",
-      "categoryId": "Agriculture",
-      "categoryName": "חקלאות ותוצרת הארץ",
-      "subCategoryId": "Main",
-      "subCategoryName": "ראשי",
-      "shortDescription": "מתנדבים בעזרה לחקלאים בעוטף עזה",
-      "description": "אנחנו  פועלים בכמה משקים, ונשמח לעזור :) מי שלא יכול להגיע לעזור פיזית, יכול לעזור בתמיכה מרחוק במתנדבים, אנחנו צריכים ארוחות חמות צהריים וערב ל20 איש כל יום בימים הקרובים. אם יש שאלות ספציפיות אל תהססו לשאול. מחכים לכם אלופים.",
-      "url": "https://chat.whatsapp.com/BvIRfR06MnlDhyuZOhHzgX",
-      "website": "https://www.facebook.com/groups/farmingil/posts/858500252388743/?__cft__[0]=AZUviQzDjzdqQt0fC61h6_hyrGDZSO3d5YHhtm3LEVvaLhPiqAMpcHEXYPF_eweKHTKrDSL5fnDBdbYFm-9NtqdZ8YFqH8df7Gfg7OWUqjI1sNq1dBDXqgEVJZWJ3Q5ZljzVrEaZT1jDNmwEr3s2zLU23xYCZLIrespniEXkXGJxcAdViWVEXuS_-WMm4GdMKe8&__tn__=%2CO%2CP-R",
-      "phone": null,
-      "email": null,
-      "intents": null,
-      "verified": false,
-      "taxDeductible46": false,
-      "organizationType": null,
-      "references": [
-        {
-          "url": "https://www.facebook.com/groups/846411716930930?multi_permalinks=858500252388743&hoisted_section_header_type=recently_seen",
-          "type": "social",
-          "source": "Facebook"
-        }
-      ],
-      "rankScore": 4,
-      "tags": [
-        "חקלאים",
-        "עזרה",
-        "מתנדבים"
-      ],
-      "portalUrl": "https://www.linksforisrael.com/Agriculture/Main/KotefBaotef",
-      "createdAt": "2023-11-12T03:13:54+02:00"
     },
     {
       "id": "MemorialRemembrance/Main/IllustrationNofalim",
@@ -4324,35 +4144,6 @@
       ],
       "portalUrl": "https://www.linksforisrael.com/StrategicCommunication/Main/StrategicCommunicationDistribution",
       "createdAt": "2023-11-16T14:35:34+02:00"
-    },
-    {
-      "id": "StrategicCommunication/SocialNetworks/LinkedInPublicity",
-      "name": "LinkedInPublicity",
-      "displayName": "קול קורא: בואו תעזרו לנו בהסברה בלינקדאין",
-      "categoryId": "StrategicCommunication",
-      "categoryName": "הסברה ודיפלומטיה",
-      "subCategoryId": "SocialNetworks",
-      "subCategoryName": "רשתות חברתיות",
-      "shortDescription": "קבוצה של משפיענים בלינקדאין להגדיל חשיפה, חידוד מסרים, דיווחים על פרופילים ועוד.",
-      "description": "קבוצה של משפיענים בלינקדאין להגדיל חשיפה, חידוד מסרים, דיווחים על פרופילים ועוד.",
-      "url": "https://chat.whatsapp.com/EQopAWUyRrt8IIg5M7ZvbV",
-      "website": null,
-      "phone": null,
-      "email": null,
-      "intents": null,
-      "verified": false,
-      "taxDeductible46": false,
-      "organizationType": null,
-      "references": [],
-      "rankScore": 4,
-      "tags": [
-        "הסברה",
-        "לינקדאין",
-        "משפיענים",
-        "חשיפה"
-      ],
-      "portalUrl": "https://www.linksforisrael.com/StrategicCommunication/SocialNetworks/LinkedInPublicity",
-      "createdAt": "2023-10-23T20:37:53+03:00"
     },
     {
       "id": "StrategicCommunication/SocialNetworks/scooper",

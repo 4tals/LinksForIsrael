@@ -141,6 +141,7 @@ export const Body: React.FC<Props> = ({
 									categoryName={category.displayName}
 									categoryDescription={category.description}
 									headingAs="h2"
+									enableTrustFilters={false}
 								/>
 							</Box>
 						))}
