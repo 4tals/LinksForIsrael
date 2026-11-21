@@ -4,12 +4,12 @@ import React from "react";
 
 import {
 	Box,
-	Modal,
-	ModalBody,
-	ModalCloseButton,
-	ModalContent,
-	ModalHeader,
-	ModalOverlay,
+	Drawer,
+	DrawerBody,
+	DrawerCloseButton,
+	DrawerContent,
+	DrawerHeader,
+	DrawerOverlay,
 } from "@chakra-ui/react";
 
 type DialogModalProps = {
@@ -32,22 +32,26 @@ export function DialogModal({
 	};
 
 	return (
-		<Modal
+		<Drawer
 			isOpen={open}
 			onClose={handleClose}
-			isCentered
-			size={{ base: "full", sm: "lg", md: "xl" }}
-			scrollBehavior="inside"
+			placement={isRtl ? "left" : "right"}
+			size="md"
 		>
-			<ModalOverlay bg="blackAlpha.500" backdropFilter="blur(2px)" />
-			<ModalContent
-				borderRadius={{ base: 0, sm: "xl" }}
-				overflow="hidden"
-				boxShadow="2xl"
+			<DrawerOverlay bg="blackAlpha.300" backdropFilter="blur(2px)" />
+			<DrawerContent
 				dir={isRtl ? "rtl" : "ltr"}
-				maxH={{ base: "100dvh", sm: "88vh" }}
+				maxW={{ base: "100%", sm: "460px", md: "520px" }}
+				my={{ base: 0, md: 3 }}
+				mx={{ base: 0, md: 3 }}
+				borderRadius={{ base: 0, md: "20px" }}
+				overflow="hidden"
+				boxShadow="0 24px 48px -12px rgba(15, 23, 42, 0.22)"
+				borderWidth={{ base: 0, md: "1px" }}
+				borderColor="gray.200"
+				bg="white"
 			>
-				<ModalHeader
+				<DrawerHeader
 					bg="brand.600"
 					color="white"
 					fontSize={{ base: "lg", md: "xl" }}
@@ -56,22 +60,30 @@ export function DialogModal({
 					px={6}
 					pl={isRtl ? 12 : 6}
 					pr={isRtl ? 6 : 12}
+					flexShrink={0}
 				>
 					{title}
-				</ModalHeader>
-				<ModalCloseButton
+				</DrawerHeader>
+				<DrawerCloseButton
 					color="white"
 					size="md"
 					top={3.5}
 					left={isRtl ? 3 : "unset"}
 					right={isRtl ? "unset" : 3}
 					_hover={{ bg: "whiteAlpha.200" }}
-					aria-label="סגור חלון"
+					aria-label="סגור כרטיס"
 				/>
-				<ModalBody p={0}>
-					<Box>{body}</Box>
-				</ModalBody>
-			</ModalContent>
-		</Modal>
+				<DrawerBody
+					p={0}
+					display="flex"
+					flexDirection="column"
+					overflowY="auto"
+				>
+					<Box flex="1" display="flex" flexDirection="column">
+						{body}
+					</Box>
+				</DrawerBody>
+			</DrawerContent>
+		</Drawer>
 	);
 }

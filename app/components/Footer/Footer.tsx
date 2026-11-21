@@ -15,8 +15,6 @@ import {
 	Tooltip,
 } from "@chakra-ui/react";
 
-import { HelpUsButton } from "./HelpUsButton";
-
 const FOOTER_CONFIG = {
 	hebrewText: "הופכים עליהם, טובים אותם",
 	reverseImageUrl:
@@ -68,30 +66,6 @@ export function Footer() {
 						<Text fontSize="sm" color="gray.600" fontWeight="medium">
 							{FOOTER_CONFIG.hebrewText}
 						</Text>
-					</HStack>
-
-					<HStack spacing={3} wrap="wrap" justify="center">
-						<HelpUsButton />
-						<Link
-							href="/api/v1/initiatives.json"
-							isExternal
-							fontSize="xs"
-							fontWeight="semibold"
-							color="gray.500"
-							_hover={{ color: "brand.600", textDecoration: "underline" }}
-						>
-							Open Data API (JSON)
-						</Link>
-						<Link
-							href="/llms.txt"
-							isExternal
-							fontSize="xs"
-							fontWeight="semibold"
-							color="gray.500"
-							_hover={{ color: "brand.600", textDecoration: "underline" }}
-						>
-							llms.txt
-						</Link>
 					</HStack>
 
 					<HStack spacing={1.5} align="center" wrap="wrap" justify="center">

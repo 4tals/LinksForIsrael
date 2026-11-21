@@ -81,15 +81,13 @@ export const CategoryContent = ({
 
 	return (
 		<>
-			{openDialog && description && (
-				<DialogModal
-					title={description.link.displayName || ""}
-					body={description.body}
-					open={openDialog}
-					toggleModal={setOpenDialog}
-					isRtl={containsHebrewLetters(description.link.displayName || "")}
-				/>
-			)}
+			<DialogModal
+				title={description?.link.displayName || ""}
+				body={description?.body || null}
+				open={Boolean(openDialog && description)}
+				toggleModal={setOpenDialog}
+				isRtl={containsHebrewLetters(description?.link.displayName || "א")}
+			/>
 
 			{categoryName && (
 				<ShareSection

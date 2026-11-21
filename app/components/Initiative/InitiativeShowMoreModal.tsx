@@ -137,11 +137,16 @@ export const ShowMoreModal: React.FC<ShowMoreModalProps> = ({
 	};
 
 	return (
-		<Box style={{ direction: isRtl ? "rtl" : "ltr" }}>
+		<Flex
+			direction="column"
+			flex="1"
+			minH="100%"
+			style={{ direction: isRtl ? "rtl" : "ltr" }}
+		>
 			{link.initiativeImage && !imageError && (
 				<Box
 					w="100%"
-					h={{ base: "140px", md: "170px" }}
+					h={{ base: "130px", md: "155px" }}
 					bg="gray.50"
 					borderBottomWidth="1px"
 					borderColor="gray.100"
@@ -150,6 +155,7 @@ export const ShowMoreModal: React.FC<ShowMoreModalProps> = ({
 					alignItems="center"
 					justifyContent="center"
 					p={3}
+					flexShrink={0}
 				>
 					<Image
 						src={link.initiativeImage}
@@ -162,7 +168,7 @@ export const ShowMoreModal: React.FC<ShowMoreModalProps> = ({
 				</Box>
 			)}
 
-			<VStack spacing={4} align="stretch" p={{ base: 5, md: 6 }}>
+			<VStack spacing={4} align="stretch" p={{ base: 5, md: 6 }} flex="1">
 				{/* Verification Trust Strip */}
 				{link.verified && (
 					<Flex
@@ -283,71 +289,6 @@ export const ShowMoreModal: React.FC<ShowMoreModalProps> = ({
 					</>
 				)}
 
-				<Divider />
-
-				<Flex
-					direction={{ base: "column", sm: "row" }}
-					gap={2.5}
-					justify="space-between"
-					align={{ base: "stretch", sm: "center" }}
-				>
-					<Flex
-						gap={2}
-						direction={{ base: "column", sm: "row" }}
-						flex="1"
-						wrap="wrap"
-					>
-						{primaryUrl && (
-							<Button
-								colorScheme="blue"
-								bg="brand.600"
-								_hover={{ bg: "brand.700", transform: "translateY(-1px)" }}
-								_active={{ transform: "translateY(0)" }}
-								size="md"
-								borderRadius="lg"
-								onClick={handleLinkClick}
-								rightIcon={!isRtl ? <ExternalLinkIcon /> : undefined}
-								leftIcon={isRtl ? <ExternalLinkIcon /> : undefined}
-								aria-label={`פתח יוזמה: ${link.displayName}`}
-							>
-								{isRtl ? "מעבר ליוזמה" : "Open Initiative"}
-							</Button>
-						)}
-
-						<Button
-							variant={saved ? "solid" : "outline"}
-							colorScheme="blue"
-							size="md"
-							borderRadius="lg"
-							leftIcon={saved ? <FaBookmark /> : <FaRegBookmark />}
-							onClick={handleToggleSave}
-						>
-							{saved ? "נשמר" : "שמור לרשימה"}
-						</Button>
-
-						<Button
-							variant="outline"
-							colorScheme="gray"
-							size="md"
-							borderRadius="lg"
-							leftIcon={<FaLink />}
-							onClick={handleCopyShareLink}
-						>
-							{isRtl ? "העתק" : "Copy"}
-						</Button>
-					</Flex>
-
-					<Button
-						variant="ghost"
-						size="md"
-						borderRadius="lg"
-						onClick={() => setOpenDialog(false)}
-						colorScheme="gray"
-					>
-						{isRtl ? "סגור" : "Close"}
-					</Button>
-				</Flex>
-
 				<Flex justify="flex-end" pt={1}>
 					<Link
 						href={reportIssueUrl}
@@ -364,6 +305,71 @@ export const ShowMoreModal: React.FC<ShowMoreModalProps> = ({
 					</Link>
 				</Flex>
 			</VStack>
-		</Box>
+
+			{/* Sticky side-card action footer */}
+			<Box
+				position="sticky"
+				bottom={0}
+				bg="white"
+				borderTopWidth="1px"
+				borderColor="gray.200"
+				px={{ base: 5, md: 6 }}
+				py={3.5}
+				zIndex={2}
+			>
+				<Flex gap={2} wrap="wrap" align="center" justify="space-between">
+					<Flex gap={2} flex="1" wrap="wrap">
+						{primaryUrl && (
+							<Button
+								colorScheme="blue"
+								bg="brand.600"
+								_hover={{ bg: "brand.700", transform: "translateY(-1px)" }}
+								_active={{ transform: "translateY(0)" }}
+								size="sm"
+								borderRadius="lg"
+								onClick={handleLinkClick}
+								rightIcon={!isRtl ? <ExternalLinkIcon /> : undefined}
+								leftIcon={isRtl ? <ExternalLinkIcon /> : undefined}
+								aria-label={`פתח יוזמה: ${link.displayName}`}
+							>
+								{isRtl ? "מעבר ליוזמה" : "Open Initiative"}
+							</Button>
+						)}
+
+						<Button
+							variant={saved ? "solid" : "outline"}
+							colorScheme="blue"
+							size="sm"
+							borderRadius="lg"
+							leftIcon={saved ? <FaBookmark /> : <FaRegBookmark />}
+							onClick={handleToggleSave}
+						>
+							{saved ? "נשמר" : "שמור"}
+						</Button>
+
+						<Button
+							variant="outline"
+							colorScheme="gray"
+							size="sm"
+							borderRadius="lg"
+							leftIcon={<FaLink />}
+							onClick={handleCopyShareLink}
+						>
+							{isRtl ? "העתק" : "Copy"}
+						</Button>
+					</Flex>
+
+					<Button
+						variant="ghost"
+						size="sm"
+						borderRadius="lg"
+						onClick={() => setOpenDialog(false)}
+						colorScheme="gray"
+					>
+						{isRtl ? "סגור" : "Close"}
+					</Button>
+				</Flex>
+			</Box>
+		</Flex>
 	);
 };
