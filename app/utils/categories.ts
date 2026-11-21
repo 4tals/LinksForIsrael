@@ -1,5 +1,7 @@
 import categories from "@/_data/categories.json";
 
+export type InitiativeIntent = "get-help" | "volunteer" | "donate";
+
 export interface CategoryData {
 	name: string;
 	displayName: string;
@@ -44,7 +46,65 @@ export interface InitiativeLink {
 	contactEmail?: string;
 	donation?: string;
 	tags?: string[];
+	intents?: InitiativeIntent[];
 	createdAt?: string;
+}
+
+export function getInitiativeIntents(
+	link: InitiativeLink,
+	categoryId?: string,
+): InitiativeIntent[] {
+	if (link.intents && link.intents.length > 0) {
+		return link.intents;
+	}
+
+	const intents = new Set<InitiativeIntent>();
+	const text = [
+		link.displayName,
+		link.shortDescription,
+		link.description,
+		...(link.tags || []),
+	]
+		.filter(Boolean)
+		.join(" ")
+		.toLowerCase();
+
+	if (
+		link.donation ||
+		categoryId === "Economic" ||
+		/תרומ|לתרום|donat|jgive|paybox|עמותה|קונים|חקלאות|עסקים/.test(text)
+	) {
+		intents.add("donate");
+	}
+
+	if (
+		categoryId === "Agriculture" ||
+		categoryId === "StrategicCommunication" ||
+		categoryId === "TechInitiatives" ||
+		categoryId === "GeneralAssistance" ||
+		/התנדב|מתנדב|volunteer|חמ״ל|חמל|הסברה|הסעות|שינוע|קדיש/.test(text)
+	) {
+		intents.add("volunteer");
+	}
+
+	if (
+		categoryId === "Medical" ||
+		categoryId === "Evacuees" ||
+		categoryId === "Defense" ||
+		categoryId === "FamilyAndPets" ||
+		categoryId === "GeneralAssistance" ||
+		/סיוע|עזרה|טיפול|תמיכה|נפשי|זכויות|מוקד|מקלט|ממ״ד|ממד|חירום|מילואים|ילדים|רפואי|יעוץ|ייעוץ|support|help/.test(
+			text,
+		)
+	) {
+		intents.add("get-help");
+	}
+
+	if (intents.size === 0) {
+		intents.add("get-help");
+	}
+
+	return Array.from(intents);
 }
 
 export function getPrimaryInitiativeUrl(link: InitiativeLink): string | null {

@@ -2,14 +2,20 @@
 
 import Link from "next/link";
 import React, { useContext } from "react";
+import { FaHandHoldingHeart, FaHandsHelping, FaLifeRing } from "react-icons/fa";
 
 import { getNumberOfInitiatives } from "@/app/components/Categories/CategoriesList";
 import { CategoryContent } from "@/app/components/Categories/CategoryContent";
+import { HotlinesBar } from "@/app/components/Hotlines/HotlinesBar";
 import { Logo } from "@/app/components/Logo";
 import { SearchContext } from "@/app/components/RootApp";
 import { SearchInput } from "@/app/components/Search/SearchInput";
 import { analyticsService } from "@/app/utils/analytica/analytics";
-import { Category, SubCategoryData } from "@/app/utils/categories";
+import {
+	Category,
+	InitiativeIntent,
+	SubCategoryData,
+} from "@/app/utils/categories";
 import {
 	Badge,
 	Box,
@@ -17,6 +23,7 @@ import {
 	Flex,
 	Heading,
 	HStack,
+	Icon,
 	Image,
 	SimpleGrid,
 	Text,
@@ -24,13 +31,39 @@ import {
 } from "@chakra-ui/react";
 
 const QUICK_SEARCH_TAGS = [
-	"תרומות",
-	"תמיכה נפשית",
-	"מפונים",
+	"התנדבות",
+	"סיוע נפשי",
+	"זכויות",
 	"מילואים",
+	"תרומות",
 	"חקלאות",
 	"הסברה",
-	"הסעות",
+];
+
+const INTENT_BUTTONS: Array<{
+	id: InitiativeIntent;
+	label: string;
+	icon: React.ElementType;
+	colorScheme: string;
+}> = [
+	{
+		id: "get-help",
+		label: "אני צריך עזרה",
+		icon: FaLifeRing,
+		colorScheme: "blue",
+	},
+	{
+		id: "volunteer",
+		label: "רוצה להתנדב",
+		icon: FaHandsHelping,
+		colorScheme: "teal",
+	},
+	{
+		id: "donate",
+		label: "רוצה לתרום ולתמוך",
+		icon: FaHandHoldingHeart,
+		colorScheme: "purple",
+	},
 ];
 
 interface NoCategoryZeroStateProps {
@@ -42,7 +75,7 @@ export const NoCategoryZeroState: React.FC<NoCategoryZeroStateProps> = ({
 	categories,
 	assistanceSubCategory,
 }) => {
-	const { onSearch } = useContext(SearchContext);
+	const { onSearch, setActiveIntent } = useContext(SearchContext);
 
 	const totalInitiatives =
 		categories.reduce((acc, cat) => acc + getNumberOfInitiatives(cat), 0) +
@@ -58,7 +91,7 @@ export const NoCategoryZeroState: React.FC<NoCategoryZeroStateProps> = ({
 				borderColor="gray.200"
 				boxShadow="sm"
 				p={{ base: 6, md: 10 }}
-				mb={8}
+				mb={6}
 				position="relative"
 				overflow="hidden"
 			>
@@ -78,12 +111,12 @@ export const NoCategoryZeroState: React.FC<NoCategoryZeroStateProps> = ({
 					spacing={4}
 					align="center"
 					textAlign="center"
-					maxW="680px"
+					maxW="700px"
 					mx="auto"
 					position="relative"
 					zIndex={1}
 				>
-					<HStack spacing={2}>
+					<HStack spacing={2} wrap="wrap" justify="center">
 						<Badge
 							colorScheme="blue"
 							variant="subtle"
@@ -102,7 +135,17 @@ export const NoCategoryZeroState: React.FC<NoCategoryZeroStateProps> = ({
 							borderRadius="full"
 							fontSize="xs"
 						>
-							{totalInitiatives} יוזמות ומשאבים
+							{totalInitiatives} עמותות ויוזמות מאומתות
+						</Badge>
+						<Badge
+							colorScheme="green"
+							variant="subtle"
+							px={3}
+							py={1}
+							borderRadius="full"
+							fontSize="xs"
+						>
+							קוד פתוח · בשגרה ובחירום
 						</Badge>
 					</HStack>
 
@@ -113,23 +156,51 @@ export const NoCategoryZeroState: React.FC<NoCategoryZeroStateProps> = ({
 						color="brand.700"
 						lineHeight="1.2"
 					>
-						ברוכים הבאים לפורטל ״לינק לישראל״
+						פורטל לינק לישראל
 					</Heading>
 
 					<Text fontSize={{ base: "md", md: "lg" }} color="gray.600">
-						פרויקט קוד פתוח המרכז יוזמות אזרחיות, סיוע, התנדבות ומידע חיוני
-						במקום אחד.
+						המדריך הפתוח להתנדבות, עמותות, סיוע נפשי, זכויות אזרחים ויוזמות
+						קהילתיות בישראל — בשגרה ובחירום.
 					</Text>
 
-					<Box w="100%" maxW="520px" pt={2}>
+					{/* Intent Quick-Start Buttons */}
+					<Flex wrap="wrap" justify="center" gap={2.5} pt={1}>
+						{INTENT_BUTTONS.map((btn) => (
+							<Button
+								key={btn.id}
+								size={{ base: "sm", md: "md" }}
+								colorScheme={btn.colorScheme}
+								variant="subtle"
+								bg={`${btn.colorScheme}.50`}
+								color={`${btn.colorScheme}.700`}
+								borderWidth="1px"
+								borderColor={`${btn.colorScheme}.200`}
+								borderRadius="full"
+								px={5}
+								fontWeight="bold"
+								leftIcon={<Icon as={btn.icon} />}
+								onClick={() => setActiveIntent(btn.id)}
+								_hover={{
+									bg: `${btn.colorScheme}.100`,
+									transform: "translateY(-1px)",
+								}}
+								transition="all 0.15s ease"
+							>
+								{btn.label}
+							</Button>
+						))}
+					</Flex>
+
+					<Box w="100%" maxW="540px" pt={1}>
 						<SearchInput
 							id="searchInputHero"
 							size="lg"
-							placeholder="חפשו יוזמה, עמותה או סוג סיוע..."
+							placeholder="חפשו עמותה, מוקד סיוע, התנדבות או תחום..."
 						/>
 					</Box>
 
-					<Flex wrap="wrap" justify="center" gap={2} pt={1}>
+					<Flex wrap="wrap" justify="center" gap={2}>
 						{QUICK_SEARCH_TAGS.map((tag) => (
 							<Button
 								key={tag}
@@ -148,10 +219,13 @@ export const NoCategoryZeroState: React.FC<NoCategoryZeroStateProps> = ({
 				</VStack>
 			</Box>
 
+			{/* Essential Hotlines Strip */}
+			<HotlinesBar />
+
 			{/* Category Grid */}
 			<Box mb={10}>
 				<Flex align="baseline" justify="space-between" mb={4}>
-					<Heading as="h3" size="md" color="gray.800">
+					<Heading as="h2" size="md" color="gray.800">
 						בחרו תחום
 					</Heading>
 					<Text fontSize="sm" color="gray.500">
@@ -247,6 +321,7 @@ export const NoCategoryZeroState: React.FC<NoCategoryZeroStateProps> = ({
 				<CategoryContent
 					categoryId="GeneralAssistance"
 					subCategories={[assistanceSubCategory]}
+					headingAs="h2"
 				/>
 			</Box>
 		</Box>

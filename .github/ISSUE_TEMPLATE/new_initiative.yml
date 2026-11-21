@@ -7,7 +7,7 @@ body:
     id: name
     attributes:
       label: Initiative Name
-      placeholder: IronWidget
+      placeholder: Yedidim Israel
     validations:
       required: true
 
@@ -16,7 +16,7 @@ body:
     attributes:
       label: Initiative Description
       description: Provide a short description of the initiative
-      placeholder: Produces iron widgets
+      placeholder: Volunteer roadside and emergency assistance across Israel
     validations:
       required: true
 
@@ -26,8 +26,8 @@ body:
       label: Initiative Details
       description: Provide more details about the initiative
       placeholder: |
-        Produces iron widgets in order to help the war effort. 
-        Can also produce swords, but it's not our specialty.
+        Describe what the organization or initiative does, who it helps,
+        and how people can receive help or volunteer.
     validations:
       required: true
 
@@ -65,7 +65,6 @@ body:
         - Economic/Businesses
         - FamilyAndPets/Main
         - FamilyAndPets/ChildrenContent
-        - MissingPersons/Main
         - Medical/Main
         - Medical/MentalSupport
         - MemorialRemembrance/Main

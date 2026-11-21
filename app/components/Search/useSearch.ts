@@ -1,7 +1,12 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 
 import { analyticsService } from "@/app/utils/analytica/analytics";
-import { Category, SubCategoryData } from "@/app/utils/categories";
+import {
+	Category,
+	getInitiativeIntents,
+	InitiativeIntent,
+	SubCategoryData,
+} from "@/app/utils/categories";
 
 import { mapStringToHebrew } from "./SearchHelpers";
 
@@ -9,9 +14,10 @@ function filterCategories(
 	categories: Category[],
 	generalAssistanceSubCategory: SubCategoryData,
 	searchTerm: string,
+	activeIntent: InitiativeIntent | null,
 ): Category[] {
 	const lowerSearchTerm = searchTerm.trim().toLowerCase();
-	if (!lowerSearchTerm) return [];
+	if (!lowerSearchTerm && !activeIntent) return [];
 
 	const generalAssistanceCategory: Category = {
 		id: "GeneralAssistance",
@@ -28,13 +34,25 @@ function filterCategories(
 	return allCategories
 		.map((category) => {
 			const categoryMatches =
-				category.displayName?.toLowerCase().includes(lowerSearchTerm) ||
-				category.name?.toLowerCase().includes(lowerSearchTerm);
+				Boolean(lowerSearchTerm) &&
+				(category.displayName?.toLowerCase().includes(lowerSearchTerm) ||
+					category.name?.toLowerCase().includes(lowerSearchTerm));
 
 			const filteredSubCategories = category.subCategories
 				.map((subCategory) => {
-					const filteredLinks = subCategory.links.filter(
-						(link) =>
+					const filteredLinks = subCategory.links.filter((link) => {
+						if (activeIntent) {
+							const intents = getInitiativeIntents(link, category.id);
+							if (!intents.includes(activeIntent)) {
+								return false;
+							}
+						}
+
+						if (!lowerSearchTerm) {
+							return true;
+						}
+
+						return (
 							categoryMatches ||
 							link.name?.toLowerCase().includes(lowerSearchTerm) ||
 							link.displayName?.toLowerCase().includes(lowerSearchTerm) ||
@@ -42,8 +60,9 @@ function filterCategories(
 							link.shortDescription?.toLowerCase().includes(lowerSearchTerm) ||
 							link.tags?.some((tag) =>
 								tag.toLowerCase().includes(lowerSearchTerm),
-							),
-					);
+							)
+						);
+					});
 
 					return { ...subCategory, links: filteredLinks };
 				})
@@ -58,9 +77,10 @@ function searchCategories(
 	categories: Category[],
 	generalAssistanceSubCategory: SubCategoryData,
 	searchTerm: string,
+	activeIntent: InitiativeIntent | null,
 ): { results: Category[]; mappedSearchTerm: string | null } {
 	const trimmed = searchTerm.trim();
-	if (!trimmed) {
+	if (!trimmed && !activeIntent) {
 		return { results: [], mappedSearchTerm: null };
 	}
 
@@ -68,8 +88,9 @@ function searchCategories(
 		categories,
 		generalAssistanceSubCategory,
 		trimmed,
+		activeIntent,
 	);
-	if (directResults.length > 0) {
+	if (directResults.length > 0 || !trimmed) {
 		return { results: directResults, mappedSearchTerm: null };
 	}
 
@@ -82,6 +103,7 @@ function searchCategories(
 		categories,
 		generalAssistanceSubCategory,
 		mapped,
+		activeIntent,
 	);
 	return {
 		results: mappedResults,
@@ -94,12 +116,21 @@ export function useSearch(
 	generalAssistanceSubCategory: SubCategoryData,
 ) {
 	const [search, setSearch] = useState("");
+	const [activeIntent, setActiveIntent] = useState<InitiativeIntent | null>(
+		null,
+	);
 	const [isMobileSearchOpen, setIsMobileSearchOpen] = useState(false);
 	const analyticsTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
 	const { results, mappedSearchTerm } = useMemo(
-		() => searchCategories(categories, generalAssistanceSubCategory, search),
-		[categories, generalAssistanceSubCategory, search],
+		() =>
+			searchCategories(
+				categories,
+				generalAssistanceSubCategory,
+				search,
+				activeIntent,
+			),
+		[categories, generalAssistanceSubCategory, search, activeIntent],
 	);
 
 	const totalResults = useMemo(
@@ -149,6 +180,8 @@ export function useSearch(
 	return {
 		search,
 		mappedSearchTerm,
+		activeIntent,
+		setActiveIntent,
 		onSearch: handleChangeSearch,
 		results,
 		totalResults,

@@ -25,7 +25,8 @@ const CategoriesList: React.FC<CategoriesListProps> = ({
 	categories,
 	categoryId,
 }) => {
-	const { search, onSearch } = useContext(SearchContext);
+	const { search, activeIntent, onSearch, setActiveIntent } =
+		useContext(SearchContext);
 
 	useEffect(() => {
 		if (categoryId) {
@@ -52,7 +53,7 @@ const CategoriesList: React.FC<CategoriesListProps> = ({
 			alignItems="stretch"
 		>
 			{categories.map((category) => {
-				const isActive = !search && category.id === categoryId;
+				const isActive = !search && !activeIntent && category.id === categoryId;
 				const count = getNumberOfInitiatives(category);
 
 				return (
@@ -64,6 +65,7 @@ const CategoriesList: React.FC<CategoriesListProps> = ({
 						onClick={() => {
 							analyticsService.trackCategoryView(category.id);
 							onSearch("");
+							setActiveIntent(null);
 						}}
 						display="flex"
 						flexDirection="column"

@@ -35,6 +35,7 @@ const expectedHostErrors = {
 	"www.geektime.co.il": "FORBIDDEN",
 	"giveisrael.org": "FORBIDDEN",
 	"www.payboxapp.com": "FORBIDDEN",
+	"www.kolzchut.org.il": "FORBIDDEN",
 };
 
 function addUnavailableUrl(file, name, prop, url, errorMessage) {

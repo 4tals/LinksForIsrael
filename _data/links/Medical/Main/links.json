@@ -3,6 +3,49 @@
   "displayName": "ראשי",
   "links": [
     {
+      "name": "INZ",
+      "displayName": "ארגון נכי צה״ל",
+      "shortDescription": "ליווי, שיקום, זכויות ופעילות בתי הלוחם לפצועי ונכי צה״ל וכוחות הביטחון",
+      "description": "הארגון היציג של פצועי ונכי צה״ל וכוחות הביטחון — מפעיל את בתי הלוחם ברחבי הארץ, תוכניות שיקום, סיוע משפטי וליווי אישי לפצועים ולמשפחותיהם.",
+      "url": "https://www.inz.org.il/",
+      "website": "https://www.inz.org.il/",
+      "intents": [
+        "get-help",
+        "donate"
+      ],
+      "tags": [
+        "נכי צהל",
+        "פצועים",
+        "שיקום",
+        "בית הלוחם",
+        "זכויות",
+        "חיילים"
+      ],
+      "createdAt": "2026-11-21T18:55:00+02:00"
+    },
+    {
+      "name": "BrothersForLife",
+      "displayName": "אחים לחיים (Brothers For Life)",
+      "shortDescription": "לוחמים פצועים מלווים ומשקמים לוחמים פצועים בגוף ובנפש",
+      "description": "עמותת אחים לחיים הוקמה ומופעלת על ידי לוחמי צה״ל שנפצעו בקרב למען אחיהם הפצועים — מעניקה ליווי שיקומי, קהילה, סיוע משפטי, תעסוקתי וטיפולי.",
+      "url": "https://www.brothersforlife.com/",
+      "website": "https://www.brothersforlife.com/",
+      "intents": [
+        "get-help",
+        "donate",
+        "volunteer"
+      ],
+      "tags": [
+        "אחים לחיים",
+        "פצועי צהל",
+        "שיקום",
+        "לוחמים",
+        "תמיכה",
+        "קהילה"
+      ],
+      "createdAt": "2026-11-21T18:55:00+02:00"
+    },
+    {
       "name": "IronDoctors",
       "displayName": "רופאות הברזל - ⚡יעוץ רפואי מהיר בשעת חרום⚡",
       "shortDescription": "ניתן על ידי חברת ניתאי שירותי עזרה ראשונה",

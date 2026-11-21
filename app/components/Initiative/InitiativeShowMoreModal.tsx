@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import { FaLink } from "react-icons/fa";
+import { FaFlag, FaLink } from "react-icons/fa";
 
 import { analyticsService } from "@/app/utils/analytica/analytics";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
@@ -12,6 +12,7 @@ import {
 	Divider,
 	Flex,
 	Image,
+	Link,
 	Text,
 	useToast,
 	VStack,
@@ -47,6 +48,12 @@ export const ShowMoreModal: React.FC<ShowMoreModalProps> = ({
 	);
 
 	const primaryUrl = getPrimaryInitiativeUrl(link);
+
+	const reportIssueUrl = `https://github.com/4tals/LinksForIsrael/issues/new?template=broken_link.yml&title=${encodeURIComponent(
+		`[BROKEN-LINK]: ${link.displayName || link.name}`,
+	)}&initiative=${encodeURIComponent(
+		`${link.displayName || link.name} (${link.name})`,
+	)}&url=${encodeURIComponent(primaryUrl || "")}`;
 
 	const handleLinkClick = () => {
 		if (!primaryUrl) {
@@ -234,6 +241,22 @@ export const ShowMoreModal: React.FC<ShowMoreModalProps> = ({
 					>
 						{isRtl ? "סגור" : "Close"}
 					</Button>
+				</Flex>
+
+				<Flex justify="flex-end" pt={1}>
+					<Link
+						href={reportIssueUrl}
+						isExternal
+						fontSize="xs"
+						color="gray.500"
+						display="inline-flex"
+						alignItems="center"
+						gap={1.5}
+						_hover={{ color: "red.600", textDecoration: "underline" }}
+					>
+						<FaFlag size={11} />
+						{isRtl ? "דווח על קישור שבור או לא עדכני" : "Report broken link"}
+					</Link>
 				</Flex>
 			</VStack>
 		</Box>

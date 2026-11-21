@@ -3,6 +3,26 @@
   "displayName": "ראשי",
   "links": [
     {
+      "name": "MiluimIDF",
+      "displayName": "אתר המילואים הרשמי של צה״ל",
+      "shortDescription": "זכויות, תגמולים, מענקים, טפסים ושירותים למשרתי המילואים ומשפחותיהם",
+      "description": "הפורטל הרשמי למשרתי המילואים בצה״ל: מידע עדכני על מענקים, זכויות בעבודה ובלימודים, אישורי מילואים, הטבות ושירותים למשפחות.",
+      "url": "https://www.miluim.idf.il/",
+      "website": "https://www.miluim.idf.il/",
+      "intents": [
+        "get-help"
+      ],
+      "tags": [
+        "מילואים",
+        "צהל",
+        "זכויות",
+        "מענקים",
+        "משפחות מילואים",
+        "טפסים"
+      ],
+      "createdAt": "2026-11-21T18:55:00+02:00"
+    },
+    {
       "name": "NationalDroneInitiative",
       "displayName": "מיזם הרחפנים הלאומי - National Drone Initiative",
       "shortDescription": "התנדבות ליוזמות הטסה",

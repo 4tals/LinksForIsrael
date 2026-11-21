@@ -1,8 +1,10 @@
-import { Category } from "@/app/utils/categories";
+import { Category, InitiativeIntent } from "@/app/utils/categories";
 
 export interface SearchContextProps {
 	search: string;
 	mappedSearchTerm: string | null;
+	activeIntent: InitiativeIntent | null;
+	setActiveIntent: (intent: InitiativeIntent | null) => void;
 	results: Category[];
 	totalResults: number;
 	onSearch: (search: string) => void;
@@ -13,6 +15,8 @@ export interface SearchContextProps {
 export const initialSearchContext: SearchContextProps = {
 	search: "",
 	mappedSearchTerm: null,
+	activeIntent: null,
+	setActiveIntent: () => {},
 	results: [],
 	totalResults: 0,
 	onSearch: () => {},

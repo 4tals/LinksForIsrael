@@ -4,9 +4,9 @@ import { socialLinks } from "./consts";
 export const SITE_URL = "https://www.linksforisrael.com";
 export const SITE_NAME = "לינק לישראל";
 export const DEFAULT_TITLE =
-	"לינק לישראל – פורטל יוזמות אזרחיות, סיוע והתנדבות";
+	"לינק לישראל – הפורטל הפתוח להתנדבות, סיוע ויוזמות בישראל";
 export const DEFAULT_DESCRIPTION =
-	"מחפשים איך לעזור או צריכים עזרה ומידע? פורטל לינק לישראל מרכז במקום אחד מאות יוזמות אזרחיות, עמותות, סיוע למפונים, תרומות, תמיכה נפשית, התנדבות ומידע חיוני.";
+	"מחפשים איך לעזור או צריכים סיוע ומידע? פורטל לינק לישראל מרכז במקום אחד עמותות, התנדבות, מוקדי סיוע נפשי, זכויות אזרחים, חקלאות ישראלית ויוזמות קהילתיות — בשגרה ובחירום.";
 export const DEFAULT_OG_IMAGE =
 	"https://res.cloudinary.com/dargbitr2/image/upload/v1697311977/LinksForIsrael/jix5eizmqcegmfra89gs.jpg";
 

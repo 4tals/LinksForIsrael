@@ -1,0 +1,38 @@
+name: Report broken or outdated link
+description: Report an initiative whose link is broken, hijacked, or no longer active
+title: "[BROKEN-LINK]: "
+labels: ["broken-link"]
+body:
+  - type: input
+    id: initiative
+    attributes:
+      label: Initiative Name
+      placeholder: Example Initiative
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: Broken / Outdated URL
+      placeholder: https://example.org.il
+    validations:
+      required: true
+
+  - type: dropdown
+    id: reason
+    attributes:
+      label: Issue Type
+      options:
+        - Link is dead / 404 / unreachable
+        - Domain was hijacked or repurposed
+        - Initiative is no longer active
+        - URL changed (new URL provided below)
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Additional details / replacement URL (optional)
+      placeholder: If the organization moved to a new URL, paste it here.

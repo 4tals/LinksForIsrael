@@ -3,6 +3,50 @@
   "displayName": "תרומות כספיות",
   "links": [
     {
+      "name": "Latet",
+      "displayName": "ארגון לתת",
+      "shortDescription": "סיוע הומניטרי, ביטחון תזונתי ותמיכה במשפחות נזקקות וניצולי שואה",
+      "description": "ארגון לתת פועל לצמצום העוני וחוסר הביטחון התזונתי בישראל באמצעות חלוקת מזון שוטפת, התנדבות ארצית, סיוע לניצולי שואה ותגובה מהירה למצבי חירום.",
+      "url": "https://www.latet.org.il/",
+      "website": "https://www.latet.org.il/",
+      "intents": [
+        "donate",
+        "volunteer",
+        "get-help"
+      ],
+      "tags": [
+        "לתת",
+        "תרומות",
+        "מזון",
+        "התנדבות",
+        "סיוע הומניטרי",
+        "עמותה"
+      ],
+      "createdAt": "2026-11-21T18:55:00+02:00"
+    },
+    {
+      "name": "PitchonLev",
+      "displayName": "פתחון לב",
+      "shortDescription": "סיוע במזון, ביגוד ומיצוי זכויות ליציאה ממעגל העוני",
+      "description": "ארגון פתחון לב מסייע לאלפי משפחות בישראל באמצעות מרכזי סיוע במזון וביגוד, מיצוי זכויות ותוכניות חינוכיות לנוער וצעירים.",
+      "url": "https://www.pitchonlev.org.il/",
+      "website": "https://www.pitchonlev.org.il/",
+      "intents": [
+        "donate",
+        "volunteer",
+        "get-help"
+      ],
+      "tags": [
+        "פתחון לב",
+        "תרומות",
+        "מזון",
+        "ביגוד",
+        "התנדבות",
+        "סיוע"
+      ],
+      "createdAt": "2026-11-21T18:55:00+02:00"
+    },
+    {
       "name": "GiveIsrael",
       "displayName": "Give Israel",
       "shortDescription": "Donating for Israel",

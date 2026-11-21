@@ -7,7 +7,7 @@ import { SearchContext } from "@/app/components/RootApp";
 import { Box, Button, Flex, Heading, Text, VStack } from "@chakra-ui/react";
 
 export const NoResultsZeroState = () => {
-	const { search, onSearch } = useContext(SearchContext);
+	const { search, onSearch, setActiveIntent } = useContext(SearchContext);
 
 	return (
 		<Flex justify="center" align="center" py={14} px={4}>
@@ -30,8 +30,9 @@ export const NoResultsZeroState = () => {
 					לא נמצאו תוצאות מתאימות
 				</Heading>
 				<Text fontSize="sm" color="gray.600">
-					לא מצאנו יוזמות עבור &ldquo;{search}&rdquo;. נסו מילת מפתח אחרת או
-					עברו לעיון בקטגוריות.
+					{search
+						? `לא מצאנו יוזמות עבור "${search}". נסו מילת מפתח אחרת או עברו לעיון בקטגוריות.`
+						: "לא נמצאו יוזמות תחת הסינון שנבחר."}
 				</Text>
 				<Button
 					colorScheme="blue"
@@ -39,9 +40,12 @@ export const NoResultsZeroState = () => {
 					_hover={{ bg: "brand.700" }}
 					borderRadius="full"
 					px={6}
-					onClick={() => onSearch("")}
+					onClick={() => {
+						onSearch("");
+						setActiveIntent(null);
+					}}
 				>
-					נקה חיפוש
+					נקה סינון וחיפוש
 				</Button>
 			</VStack>
 		</Flex>

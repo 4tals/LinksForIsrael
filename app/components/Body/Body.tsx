@@ -6,8 +6,18 @@ import { NoCategoryZeroState } from "@/app/[[...category]]/ZeroStates/NoCategory
 import { NoResultsZeroState } from "@/app/[[...category]]/ZeroStates/NoResultsZeroState";
 import { CategoryContent } from "@/app/components/Categories/CategoryContent";
 import { SearchContext } from "@/app/components/RootApp";
-import { Category, SubCategoryData } from "@/app/utils/categories";
+import {
+	Category,
+	InitiativeIntent,
+	SubCategoryData,
+} from "@/app/utils/categories";
 import { Badge, Box, Button, Flex, Text, VStack } from "@chakra-ui/react";
+
+const INTENT_LABELS: Record<InitiativeIntent, string> = {
+	"get-help": "אני צריך עזרה",
+	volunteer: "רוצה להתנדב",
+	donate: "רוצה לתרום ולתמוך",
+};
 
 interface Props {
 	categories: Array<Category>;
@@ -24,14 +34,23 @@ export const Body: React.FC<Props> = ({
 	linkName,
 	assistanceSubCategory,
 }) => {
-	const { search, mappedSearchTerm, results, totalResults, onSearch } =
-		useContext(SearchContext);
+	const {
+		search,
+		mappedSearchTerm,
+		activeIntent,
+		setActiveIntent,
+		results,
+		totalResults,
+		onSearch,
+	} = useContext(SearchContext);
 
 	const pageCategory = categoryId
 		? categories.find((category) => category.id === categoryId)
 		: null;
 
-	if (search.trim()) {
+	const isFiltering = Boolean(search.trim() || activeIntent);
+
+	if (isFiltering) {
 		return (
 			<Box className="desktop-content" pt={4}>
 				<Flex
@@ -47,26 +66,69 @@ export const Body: React.FC<Props> = ({
 					mb={4}
 				>
 					<Flex align="center" gap={2} wrap="wrap">
-						<Text fontWeight="bold" color="gray.800">
-							תוצאות חיפוש עבור &ldquo;{mappedSearchTerm || search}&rdquo;
-						</Text>
+						{search.trim() ? (
+							<Text fontWeight="bold" color="gray.800">
+								תוצאות חיפוש עבור &ldquo;{mappedSearchTerm || search}&rdquo;
+							</Text>
+						) : (
+							<Text fontWeight="bold" color="gray.800">
+								סינון: {activeIntent ? INTENT_LABELS[activeIntent] : ""}
+							</Text>
+						)}
+
+						{activeIntent && search.trim() && (
+							<Badge
+								colorScheme="teal"
+								variant="subtle"
+								borderRadius="full"
+								px={2.5}
+								py={0.5}
+							>
+								{INTENT_LABELS[activeIntent]}
+							</Badge>
+						)}
+
 						<Badge colorScheme="blue" borderRadius="full" px={2.5} py={0.5}>
-							{totalResults} תוצאות
+							{totalResults} יוזמות
 						</Badge>
+
 						{mappedSearchTerm && (
 							<Text fontSize="xs" color="gray.500">
 								(הומר אוטומטית ממקלדת אנגלית: &ldquo;{search}&rdquo;)
 							</Text>
 						)}
 					</Flex>
-					<Button
-						size="sm"
-						variant="ghost"
-						colorScheme="blue"
-						onClick={() => onSearch("")}
-					>
-						נקה חיפוש
-					</Button>
+
+					<Flex align="center" gap={2} wrap="wrap">
+						{(Object.keys(INTENT_LABELS) as InitiativeIntent[]).map(
+							(intent) => {
+								const selected = activeIntent === intent;
+								return (
+									<Button
+										key={intent}
+										size="xs"
+										borderRadius="full"
+										variant={selected ? "solid" : "outline"}
+										colorScheme="blue"
+										onClick={() => setActiveIntent(selected ? null : intent)}
+									>
+										{INTENT_LABELS[intent]}
+									</Button>
+								);
+							},
+						)}
+						<Button
+							size="xs"
+							variant="ghost"
+							colorScheme="gray"
+							onClick={() => {
+								onSearch("");
+								setActiveIntent(null);
+							}}
+						>
+							נקה הכל
+						</Button>
+					</Flex>
 				</Flex>
 
 				{results.length > 0 ? (

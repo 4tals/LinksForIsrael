@@ -12,7 +12,7 @@ import { SearchButtonMobile } from "../Search/SearchButtonMobile";
 import { SearchInput } from "../Search/SearchInput";
 
 export function Header() {
-	const { onSearch } = useContext(SearchContext);
+	const { onSearch, setActiveIntent } = useContext(SearchContext);
 
 	return (
 		<Box
@@ -30,7 +30,10 @@ export function Header() {
 					<Flex align="center" flex={{ base: "1", md: "0 0 auto" }}>
 						<NextLink
 							href="/"
-							onClick={() => onSearch("")}
+							onClick={() => {
+								onSearch("");
+								setActiveIntent(null);
+							}}
 							style={{
 								display: "inline-flex",
 								alignItems: "center",

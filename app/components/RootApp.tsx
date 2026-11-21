@@ -32,6 +32,8 @@ export function RootApp({
 	const {
 		search,
 		mappedSearchTerm,
+		activeIntent,
+		setActiveIntent,
 		onSearch,
 		results,
 		totalResults,
@@ -49,6 +51,8 @@ export function RootApp({
 			value={{
 				search,
 				mappedSearchTerm,
+				activeIntent,
+				setActiveIntent,
 				results,
 				totalResults,
 				onSearch,
