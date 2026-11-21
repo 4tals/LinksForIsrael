@@ -363,6 +363,30 @@ export const InitiativeItem: React.FC<InitiativeItemProps> = ({
 						{INTENT_STYLES[intent].label}
 					</Badge>
 				))}
+				{link.properManagement && (
+					<Tooltip
+						label={
+							link.registryCheckedAt
+								? `אישור ניהול תקין מאומת מול רשם העמותות (data.gov.il, ${link.registryCheckedAt})`
+								: "אישור ניהול תקין מאומת מול רשם העמותות"
+						}
+						placement="top"
+						hasArrow
+					>
+						<Badge
+							bg="teal.50"
+							color="teal.700"
+							fontSize="2xs"
+							fontWeight="semibold"
+							px={2}
+							py={0.5}
+							borderRadius="full"
+							textTransform="none"
+						>
+							ניהול תקין
+						</Badge>
+					</Tooltip>
+				)}
 				{link.taxDeductible46 && (
 					<Badge
 						bg="emerald.50"

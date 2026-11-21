@@ -1,5 +1,6 @@
 "use client";
 
+import { usePathname } from "next/navigation";
 import React, { createContext, useCallback, useState } from "react";
 
 import { BookmarksProvider } from "@/app/components/Bookmarks/BookmarksContext";
@@ -31,6 +32,8 @@ export function RootApp({
 	children: React.ReactNode;
 }) {
 	const isMobile = useIsMobile();
+	const pathname = usePathname();
+	const isEmbed = pathname?.startsWith("/embed");
 	const {
 		search,
 		mappedSearchTerm,
@@ -47,6 +50,10 @@ export function RootApp({
 	const toggleMenu = useCallback(() => {
 		setIsMenuOpen((prevState) => !prevState);
 	}, []);
+
+	if (isEmbed) {
+		return <main id="content">{children}</main>;
+	}
 
 	return (
 		<BookmarksProvider>
@@ -65,9 +72,17 @@ export function RootApp({
 			>
 				<MenuContext.Provider value={{ isMenuOpen, toggleMenu, isMobile }}>
 					<div className="app-shell">
+						<a href="#content" className="skip-to-content">
+							דלג לתוכן הראשי
+						</a>
 						<Header />
 						<MobileSearchInput />
-						<main id="content" className="main-content" role="main">
+						<main
+							id="content"
+							className="main-content"
+							role="main"
+							tabIndex={-1}
+						>
 							{children}
 						</main>
 						<Footer />

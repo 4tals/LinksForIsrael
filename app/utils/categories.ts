@@ -72,6 +72,10 @@ export interface InitiativeLink {
 	intents?: InitiativeIntent[];
 	verified?: boolean;
 	taxDeductible46?: boolean;
+	properManagement?: boolean;
+	registrationNumber?: string;
+	registryCheckedAt?: string;
+	us501c3?: boolean;
 	organizationType?: OrganizationType;
 	references?: InitiativeReference[];
 	createdAt?: string;

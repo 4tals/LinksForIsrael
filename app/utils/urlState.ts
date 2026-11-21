@@ -11,6 +11,7 @@ const VALID_INTENTS = new Set<InitiativeIntent>([
 export interface UrlTrustFilters {
 	verifiedOnly: boolean;
 	taxDeductible46: boolean;
+	us501c3?: boolean;
 	hasReferences: boolean;
 	hasPhone: boolean;
 	intent: InitiativeIntent | null;
@@ -69,6 +70,7 @@ export function parseTrustFiltersFromParams(
 	return {
 		verifiedOnly: params.get("verified") === "1",
 		taxDeductible46: params.get("s46") === "1",
+		us501c3: params.get("us501c3") === "1",
 		hasReferences: params.get("refs") === "1",
 		hasPhone: params.get("phone") === "1",
 		intent: parseIntentParam(params.get("intent")),
@@ -82,6 +84,7 @@ export function trustFiltersToUrlPatch(
 	const patch: Record<string, string | null> = {
 		verified: state.verifiedOnly ? "1" : null,
 		s46: state.taxDeductible46 ? "1" : null,
+		us501c3: state.us501c3 ? "1" : null,
 		refs: state.hasReferences ? "1" : null,
 		phone: state.hasPhone ? "1" : null,
 	};

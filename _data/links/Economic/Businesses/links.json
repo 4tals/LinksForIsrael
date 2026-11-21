@@ -44,7 +44,10 @@
 					"source": "כל זכות",
 					"title": "פעמונים – פירוט שירותי הסיוע הכלכלי באתר כל זכות"
 				}
-			]
+			],
+			"registrationNumber": "580392702",
+			"registryCheckedAt": "2026-11-21",
+			"properManagement": true
 		},
 		{
 			"name": "CentralizedBenefitsAndRights",
@@ -106,7 +109,10 @@
 					"source": "Ynet",
 					"title": "״הבית לסולידריות חברתית״: הבית של קהילת בעלי העסקים הקטנים בישראל"
 				}
-			]
+			],
+			"registrationNumber": "516267911",
+			"properManagement": true,
+			"registryCheckedAt": "2026-11-21"
 		},
 		{
 			"displayName": "מחבקים את המילואימניקים",

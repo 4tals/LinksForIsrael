@@ -44,7 +44,10 @@
 					"source": "ביטוח לאומי (gov.il)",
 					"title": "מרכז השיקום עדי נגב באתר הביטוח הלאומי"
 				}
-			]
+			],
+			"registrationNumber": "580354637",
+			"registryCheckedAt": "2026-11-21",
+			"properManagement": true
 		},
 		{
 			"name": "Etgarim",
@@ -88,7 +91,10 @@
 					"source": "כל זכות",
 					"title": "עמותת אתגרים – פירוט שירותים באתר כל זכות"
 				}
-			]
+			],
+			"registrationNumber": "580258242",
+			"registryCheckedAt": "2026-11-21",
+			"properManagement": true
 		},
 		{
 			"name": "ALUT",
@@ -132,7 +138,10 @@
 					"source": "כל זכות",
 					"title": "אלו״ט – פירוט זכויות ושירותים באתר כל זכות"
 				}
-			]
+			],
+			"registrationNumber": "580064335",
+			"registryCheckedAt": "2026-11-21",
+			"properManagement": true
 		},
 		{
 			"name": "KremboWings",
@@ -190,7 +199,10 @@
 					"author": "מטח המרכז לטכנולוגיה חינוכית",
 					"title": "איך מחנכים לזיכרון, שייכות ותקווה – ראיון עם עדי אלטשולר"
 				}
-			]
+			],
+			"registrationNumber": "580455681",
+			"registryCheckedAt": "2026-11-21",
+			"properManagement": true
 		},
 		{
 			"name": "Elem",
@@ -235,7 +247,10 @@
 					"source": "Ynet",
 					"title": "דו״ח עמותת עלם על מצב הנוער בסיכון בישראל"
 				}
-			]
+			],
+			"registrationNumber": "580036945",
+			"registryCheckedAt": "2026-11-21",
+			"properManagement": true
 		},
 		{
 			"name": "SPCAIsrael",
@@ -274,7 +289,10 @@
 					"source": "GuideStar Israel",
 					"title": "אגודת צער בעלי חיים בישראל – רישום בגיידסטאר"
 				}
-			]
+			],
+			"registrationNumber": "580000156",
+			"registryCheckedAt": "2026-11-21",
+			"properManagement": true
 		},
 		{
 			"name": "AnchorForReserveFamilies",
@@ -362,7 +380,10 @@
 					"source": "CTech / Calcalist",
 					"title": "Entrepreneurs launch Israeli Children's Fund for children affected by October 7"
 				}
-			]
+			],
+			"registrationNumber": "516907888",
+			"properManagement": true,
+			"registryCheckedAt": "2026-11-21"
 		}
 	]
 }

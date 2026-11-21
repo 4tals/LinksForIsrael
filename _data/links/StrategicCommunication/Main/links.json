@@ -114,7 +114,10 @@
 					"type": "registry",
 					"source": "GuideStar Israel"
 				}
-			]
+			],
+			"registrationNumber": "580622041",
+			"registryCheckedAt": "2026-11-21",
+			"properManagement": true
 		},
 		{
 			"name": "ExplainIsrael",

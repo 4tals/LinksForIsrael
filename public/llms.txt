@@ -12,10 +12,16 @@
 - Magen David Adom (Medical Emergency): 101 — https://www.mdais.org/
 - Israel Police: 100
 
-## Portals & Open Data API
+## Portals, Embeds & Open Data API
 - Hebrew Portal: https://www.linksforisrael.com/
 - English / Diaspora Support Portal: https://www.linksforisrael.com/en
-- Open JSON API (all 115 ranked initiatives + references): https://www.linksforisrael.com/api/v1/initiatives.json
+- Arabic Emergency & Aid Portal (العربية): https://www.linksforisrael.com/ar
+- Russian Emergency & Aid Portal (Русский): https://www.linksforisrael.com/ru
+- Verification Methodology: https://www.linksforisrael.com/docs/methodology
+- Accessibility Statement (IS 5568 / WCAG 2.1 AA): https://www.linksforisrael.com/docs/accessibility
+- Embeddable Hotlines Widget: https://www.linksforisrael.com/embed/hotlines
+- Open JSON API (all 115 ranked initiatives + data.gov.il registry provenance): https://www.linksforisrael.com/api/v1/initiatives.json
+- Open Referral HSDS Feed: https://www.linksforisrael.com/api/v1/hsds.json
 - Categories JSON API: https://www.linksforisrael.com/api/v1/categories.json
 - Sitemap: https://www.linksforisrael.com/sitemap.xml
 - GitHub Repository (submit initiatives, references, or broken links via Issues): https://github.com/4tals/LinksForIsrael

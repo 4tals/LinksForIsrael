@@ -45,7 +45,10 @@
 					"source": "Ynet",
 					"title": "המלחמה על הצלחת: מהשדה המופגז לשולחן הסדר"
 				}
-			]
+			],
+			"registrationNumber": "580407633",
+			"registryCheckedAt": "2026-11-21",
+			"properManagement": true
 		},
 		{
 			"name": "Latet",
@@ -96,7 +99,10 @@
 					"source": "Calcalist",
 					"title": "דו״ח העוני של ״לתת״: זינוק במספר החוסכים על אוכל ותרופות"
 				}
-			]
+			],
+			"registrationNumber": "580294940",
+			"registryCheckedAt": "2026-11-21",
+			"properManagement": true
 		},
 		{
 			"name": "PitchonLev",
@@ -141,7 +147,10 @@
 					"source": "Ynet",
 					"title": "הפרויקט של פתחון לב שמוציא משפחות ממעגל העוני"
 				}
-			]
+			],
+			"registrationNumber": "580328839",
+			"registryCheckedAt": "2026-11-21",
+			"properManagement": true
 		},
 		{
 			"name": "GiveIsrael",
@@ -206,7 +215,10 @@
 					"source": "Ynet",
 					"title": "יוזמת הגיוס החברתית של עמותת הקבוצה למען משפחות נזקקות"
 				}
-			]
+			],
+			"registrationNumber": "580601946",
+			"registryCheckedAt": "2026-11-21",
+			"properManagement": true
 		},
 		{
 			"name": "jgive",
@@ -248,7 +260,10 @@
 					"source": "Ynet",
 					"title": "״הדור הצעיר כבר לא מסתפק בהפגנות, הוא שם כסף״: נתוני התרומות ב-JGive"
 				}
-			]
+			],
+			"registrationNumber": "580586998",
+			"registryCheckedAt": "2026-11-21",
+			"properManagement": true
 		}
 	]
 }

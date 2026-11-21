@@ -1,21 +1,21 @@
 import type { Metadata } from "next";
 
+import { IntlPortal } from "@/app/components/IntlPortal/IntlPortal";
 import {
-	EnrichedEnglishInitiative,
-	EnglishPortal,
-} from "@/app/components/EnglishPortal/EnglishPortal";
-import { ENGLISH_INITIATIVES } from "@/app/components/EnglishPortal/englishInitiatives";
+	getEnrichedIntlInitiatives,
+	PORTAL_CONFIGS,
+} from "@/app/components/IntlPortal/intlCatalog";
 import {
-	computeInitiativeRankScore,
-	getCategories,
-	InitiativeLink,
-} from "@/app/utils/categories";
-import { DEFAULT_OG_IMAGE, safeJsonLd, SITE_URL } from "@/app/utils/seo";
+	buildIntlPortalJsonLd,
+	DEFAULT_OG_IMAGE,
+	safeJsonLd,
+	SITE_URL,
+} from "@/app/utils/seo";
 
 const EN_TITLE =
-	"Links For Israel — Verified Israeli Charities, Volunteering & Support";
+	"Links For Israel — Verified Israeli Charities, 501(c)(3), Volunteering & Hotlines";
 const EN_DESCRIPTION =
-	"Open-source directory of verified Israeli nonprofits, humanitarian aid, mental health & veteran rehabilitation centers, volunteering networks, and remembrance archives.";
+	"Open-source directory of verified Israeli nonprofits, 501(c)(3) & Section 46 charities, mental health & veteran rehabilitation centers, volunteering networks, and 24/7 hotlines.";
 
 export const metadata: Metadata = {
 	title: { absolute: EN_TITLE },
@@ -24,14 +24,13 @@ export const metadata: Metadata = {
 		"Links For Israel",
 		"support Israel",
 		"verified Israeli charities",
+		"501c3 Israeli charities",
+		"Section 46 Israel",
 		"donate to Israel",
 		"volunteer in Israel",
 		"Israeli nonprofits",
-		"Brothers For Life",
-		"Latet",
-		"Leket Israel",
-		"NATAL",
 		"ERAN",
+		"NATAL",
 		"Yad Sarah",
 		"Ezer Mizion",
 		"United Hatzalah",
@@ -41,6 +40,8 @@ export const metadata: Metadata = {
 		languages: {
 			"he-IL": "/",
 			"en-US": "/en",
+			"ar-IL": "/ar",
+			"ru-RU": "/ru",
 		},
 	},
 	openGraph: {
@@ -60,87 +61,29 @@ export const metadata: Metadata = {
 	},
 };
 
-function normalizeHost(url?: string): string | null {
-	if (!url) return null;
-	try {
-		return new URL(url).hostname.toLowerCase().replace(/^www\./, "");
-	} catch {
-		return null;
-	}
-}
-
 export default async function EnglishPage() {
-	const categories = await getCategories();
+	const enriched = await getEnrichedIntlInitiatives("en");
 
-	// Build lookup from single-source-of-truth _data/links so /en automatically inherits
-	// verified status, Section 46, phone hotlines, references[], and rankScore
-	const byName = new Map<string, { link: InitiativeLink; sharePath: string }>();
-	const byHost = new Map<string, { link: InitiativeLink; sharePath: string }>();
-
-	for (const cat of categories) {
-		for (const sub of cat.subCategories) {
-			for (const link of sub.links) {
-				const entry = {
-					link,
-					sharePath: `/${encodeURIComponent(cat.id)}/${encodeURIComponent(
-						sub.name,
-					)}/${encodeURIComponent(link.name)}`,
-				};
-				byName.set(link.name.toLowerCase(), entry);
-				const host = normalizeHost(link.url || link.website);
-				if (host && !byHost.has(host)) {
-					byHost.set(host, entry);
-				}
-			}
-		}
-	}
-
-	const enriched: EnrichedEnglishInitiative[] = ENGLISH_INITIATIVES.map(
-		(item) => {
-			const matched =
-				byName.get(item.id.toLowerCase()) ||
-				byHost.get(normalizeHost(item.url) || "");
-			const source = matched?.link;
-
-			const mergedLink: InitiativeLink = {
-				...(source || {}),
-				name: source?.name || item.id,
-				displayName: item.name,
-				shortDescription: item.summary,
-				description: undefined,
-				url: item.url,
-				website: item.url,
-				tags: item.tags,
-			};
-
-			return {
-				...item,
-				link: mergedLink,
-				sharePath: matched?.sharePath,
-				rankScore: computeInitiativeRankScore(mergedLink),
-			};
-		},
-	).sort((a, b) => b.rankScore - a.rankScore);
-
-	const jsonLd = {
-		"@context": "https://schema.org",
-		"@type": "CollectionPage",
-		name: EN_TITLE,
+	const jsonLd = buildIntlPortalJsonLd({
+		path: "/en",
+		title: EN_TITLE,
 		description: EN_DESCRIPTION,
-		url: `${SITE_URL}/en`,
 		inLanguage: "en-US",
-		mainEntity: {
-			"@type": "ItemList",
-			numberOfItems: enriched.length,
-			itemListElement: enriched.map((item, idx) => ({
-				"@type": "ListItem",
-				position: idx + 1,
-				name: item.name,
-				description: item.summary,
-				url: item.url,
-			})),
-		},
-	};
+		items: enriched,
+		faq: [
+			{
+				question: "How are Israeli charities verified on Links For Israel?",
+				answer:
+					"Nonprofits are cross-checked against Israel's official Ministry of Justice Registrar of Associations (data.gov.il / GuideStar Israel) for active status, Good Standing (Nihul Takin), Section 46 status, and independent third-party coverage.",
+			},
+			{
+				question:
+					"Can US donors find 501(c)(3) tax-deductible Israeli charities here?",
+				answer:
+					"Yes. Use the US 501(c)(3) filter pill (or visit /en?us501c3=1) to browse flagship Israeli nonprofits offering US tax-deductible giving pathways.",
+			},
+		],
+	});
 
 	return (
 		<>
@@ -148,7 +91,7 @@ export default async function EnglishPage() {
 				type="application/ld+json"
 				dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
 			/>
-			<EnglishPortal items={enriched} />
+			<IntlPortal config={PORTAL_CONFIGS.en} items={enriched} />
 		</>
 	);
 }

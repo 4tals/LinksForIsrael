@@ -28,7 +28,13 @@ export function Header() {
 	const { onSearch, setActiveIntent } = useContext(SearchContext);
 	const { savedItems, openDrawer } = useBookmarks();
 	const pathname = usePathname();
-	const isEnglish = pathname === "/en" || pathname?.startsWith("/en/");
+	const isIntl =
+		pathname === "/en" ||
+		pathname?.startsWith("/en/") ||
+		pathname === "/ar" ||
+		pathname?.startsWith("/ar/") ||
+		pathname === "/ru" ||
+		pathname?.startsWith("/ru/");
 
 	return (
 		<Box
@@ -81,7 +87,7 @@ export function Header() {
 						</NextLink>
 					</Flex>
 
-					{!isEnglish && (
+					{!isIntl && (
 						<Flex
 							display={{ base: "none", md: "flex" }}
 							flex="1"
@@ -94,7 +100,7 @@ export function Header() {
 					)}
 
 					<HStack spacing={2} flex="0 0 auto">
-						{!isEnglish && (
+						{!isIntl && (
 							<Tooltip label="הרשימה השמורה שלי" hasArrow>
 								<Box position="relative">
 									<IconButton
@@ -128,7 +134,7 @@ export function Header() {
 
 						<Button
 							as={NextLink}
-							href={isEnglish ? "/" : "/en"}
+							href={isIntl ? "/" : "/en"}
 							size={{ base: "sm", md: "md" }}
 							variant="ghost"
 							color="white"
@@ -138,12 +144,40 @@ export function Header() {
 							fontWeight="semibold"
 							px={3}
 							_hover={{ bg: "whiteAlpha.200", textDecoration: "none" }}
-							aria-label={isEnglish ? "עבור לעברית" : "Switch to English"}
+							aria-label={isIntl ? "עבור לעברית" : "Switch to English"}
 						>
-							{isEnglish ? "עברית" : "EN"}
+							{isIntl ? "עברית" : "EN"}
 						</Button>
+						<HStack spacing={1} display={{ base: "none", lg: "flex" }}>
+							<Button
+								as={NextLink}
+								href="/ar"
+								size="xs"
+								variant="ghost"
+								color="whiteAlpha.900"
+								borderRadius="full"
+								px={2}
+								_hover={{ bg: "whiteAlpha.200", textDecoration: "none" }}
+								aria-label="العربية"
+							>
+								عربي
+							</Button>
+							<Button
+								as={NextLink}
+								href="/ru"
+								size="xs"
+								variant="ghost"
+								color="whiteAlpha.900"
+								borderRadius="full"
+								px={2}
+								_hover={{ bg: "whiteAlpha.200", textDecoration: "none" }}
+								aria-label="Русский"
+							>
+								RU
+							</Button>
+						</HStack>
 						<AddSite />
-						{!isEnglish && (
+						{!isIntl && (
 							<Box display={{ base: "block", md: "none" }}>
 								<SearchButtonMobile />
 							</Box>

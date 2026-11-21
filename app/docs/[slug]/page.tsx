@@ -3,13 +3,20 @@ import type { Metadata } from "next";
 import { MethodologyView } from "@/app/components/Docs/MethodologyView";
 import { getCategories } from "@/app/utils/categories";
 import { getAllDocs, getDocById } from "@/app/utils/docs-links";
-import { DEFAULT_OG_IMAGE, SITE_NAME, SITE_URL } from "@/app/utils/seo";
+import {
+	buildMethodologyFaqJsonLd,
+	DEFAULT_OG_IMAGE,
+	safeJsonLd,
+	SITE_NAME,
+	SITE_URL,
+} from "@/app/utils/seo";
 
 import styles from "./docs.module.scss";
 
 export const dynamicParams = false;
 
 const DOC_TITLES: Record<string, string> = {
+	accessibility: "הצהרת נגישות",
 	contribute: "איך לתרום לפרויקט",
 	"ezra-rishona": "מדריך עזרה ראשונה",
 	finance: "מידע וזכויות פיננסיות",
@@ -72,15 +79,23 @@ export default async function Doc({
 		);
 
 		return (
-			<MethodologyView
-				stats={{
-					totalInitiatives: allLinks.length,
-					verifiedCount,
-					withMentionsCount,
-					totalMentions,
-					categoriesCount: categories.length,
-				}}
-			/>
+			<>
+				<script
+					type="application/ld+json"
+					dangerouslySetInnerHTML={{
+						__html: safeJsonLd(buildMethodologyFaqJsonLd()),
+					}}
+				/>
+				<MethodologyView
+					stats={{
+						totalInitiatives: allLinks.length,
+						verifiedCount,
+						withMentionsCount,
+						totalMentions,
+						categoriesCount: categories.length,
+					}}
+				/>
+			</>
 		);
 	}
 

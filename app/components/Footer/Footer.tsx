@@ -69,16 +69,44 @@ export function Footer() {
 						</Text>
 					</HStack>
 
-					<Link
-						as={NextLink}
-						href="/docs/methodology"
-						fontSize="xs"
-						fontWeight="medium"
-						color="gray.500"
-						_hover={{ color: "brand.600", textDecoration: "underline" }}
-					>
-						איך אנחנו מאמתים ומדרגים יוזמות?
-					</Link>
+					<HStack spacing={4} wrap="wrap" justify="center" align="center">
+						<Link
+							as={NextLink}
+							href="/docs/methodology"
+							fontSize="xs"
+							fontWeight="medium"
+							color="gray.600"
+							_hover={{ color: "brand.600", textDecoration: "underline" }}
+						>
+							אימות ודירוג יוזמות
+						</Link>
+						<Text fontSize="xs" color="gray.300" aria-hidden="true">
+							•
+						</Text>
+						<Link
+							as={NextLink}
+							href="/docs/accessibility"
+							fontSize="xs"
+							fontWeight="medium"
+							color="gray.600"
+							_hover={{ color: "brand.600", textDecoration: "underline" }}
+						>
+							הצהרת נגישות
+						</Link>
+						<Text fontSize="xs" color="gray.300" aria-hidden="true">
+							•
+						</Text>
+						<Link
+							as={NextLink}
+							href="/embed/hotlines"
+							fontSize="xs"
+							fontWeight="medium"
+							color="gray.600"
+							_hover={{ color: "brand.600", textDecoration: "underline" }}
+						>
+							הטמעת מוקדי חירום
+						</Link>
+					</HStack>
 
 					<HStack spacing={1.5} align="center" wrap="wrap" justify="center">
 						{socialLinks.map((link) => (

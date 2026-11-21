@@ -1,0 +1,28 @@
+name: Verify NGO Registry (data.gov.il)
+
+on:
+  schedule:
+    # Weekly on Sundays at 04:00 UTC
+    - cron: "0 4 * * 0"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify-registry:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Validate data schema
+        run: node scripts/validateData.mjs
+
+      - name: Verify NGOs against data.gov.il (moj-amutot)
+        run: node scripts/verifyGovRegistry.mjs

@@ -128,6 +128,9 @@ async function main() {
 					intents: link.intents || null,
 					verified: Boolean(link.verified),
 					taxDeductible46: Boolean(link.taxDeductible46),
+					properManagement: Boolean(link.properManagement),
+					registrationNumber: link.registrationNumber || null,
+					registryCheckedAt: link.registryCheckedAt || null,
 					organizationType: link.organizationType || null,
 					references: link.references || [],
 					rankScore: computeRankScore(link),
@@ -190,6 +193,72 @@ async function main() {
 		"utf8",
 	);
 
+	// Open Referral HSDS 3.0-compatible civic interoperability feed
+	const hsdsOrganizations = [];
+	const hsdsServices = [];
+	const hsdsPhones = [];
+	for (const item of apiInitiatives) {
+		const orgId = `org:${item.id}`;
+		const svcId = `svc:${item.id}`;
+		hsdsOrganizations.push({
+			id: orgId,
+			name: item.displayName,
+			description: item.shortDescription || item.description,
+			url: item.url || item.portalUrl,
+			email: item.email,
+			tax_id: item.registrationNumber,
+			tax_status: item.taxDeductible46
+				? "Israel Section 46"
+				: item.properManagement
+					? "Proper Management (Nihul Takin)"
+					: null,
+			legal_status: item.organizationType,
+			verified: item.verified,
+			last_verified_at: item.registryCheckedAt,
+		});
+		hsdsServices.push({
+			id: svcId,
+			organization_id: orgId,
+			name: item.displayName,
+			description: item.description || item.shortDescription,
+			url: item.portalUrl,
+			status: "active",
+			taxonomy_ids: [item.categoryId, `${item.categoryId}/${item.subCategoryId}`],
+			intents: item.intents || [],
+		});
+		if (item.phone) {
+			hsdsPhones.push({
+				id: `phone:${item.id}`,
+				service_id: svcId,
+				organization_id: orgId,
+				number: item.phone,
+				type: "voice",
+			});
+		}
+	}
+
+	await fs.writeFile(
+		path.join(apiDir, "hsds.json"),
+		JSON.stringify(
+			{
+				schema: "OpenReferral-HSDS-3.0-compatible",
+				source: SITE_URL,
+				generatedAt,
+				organizations: hsdsOrganizations,
+				services: hsdsServices,
+				phones: hsdsPhones,
+				taxonomies: apiCategories.map((c) => ({
+					id: c.id,
+					name: c.displayName,
+					description: c.description,
+				})),
+			},
+			null,
+			2,
+		) + "\n",
+		"utf8",
+	);
+
 	const verifiedOrgs = apiInitiatives.filter((i) => i.verified);
 	const llmsLines = [
 		"# Links For Israel (לינק לישראל)",
@@ -206,10 +275,16 @@ async function main() {
 		"- Magen David Adom (Medical Emergency): 101 — https://www.mdais.org/",
 		"- Israel Police: 100",
 		"",
-		"## Portals & Open Data API",
+		"## Portals, Embeds & Open Data API",
 		`- Hebrew Portal: ${SITE_URL}/`,
 		`- English / Diaspora Support Portal: ${SITE_URL}/en`,
-		`- Open JSON API (all ${apiInitiatives.length} ranked initiatives + references): ${SITE_URL}/api/v1/initiatives.json`,
+		`- Arabic Emergency & Aid Portal (العربية): ${SITE_URL}/ar`,
+		`- Russian Emergency & Aid Portal (Русский): ${SITE_URL}/ru`,
+		`- Verification Methodology: ${SITE_URL}/docs/methodology`,
+		`- Accessibility Statement (IS 5568 / WCAG 2.1 AA): ${SITE_URL}/docs/accessibility`,
+		`- Embeddable Hotlines Widget: ${SITE_URL}/embed/hotlines`,
+		`- Open JSON API (all ${apiInitiatives.length} ranked initiatives + data.gov.il registry provenance): ${SITE_URL}/api/v1/initiatives.json`,
+		`- Open Referral HSDS Feed: ${SITE_URL}/api/v1/hsds.json`,
 		`- Categories JSON API: ${SITE_URL}/api/v1/categories.json`,
 		`- Sitemap: ${SITE_URL}/sitemap.xml`,
 		`- GitHub Repository (submit initiatives, references, or broken links via Issues): https://github.com/4tals/LinksForIsrael`,

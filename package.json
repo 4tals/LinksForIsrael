@@ -9,8 +9,10 @@
     "generate-open-data": "node ./scripts/generateOpenData.mjs",
     "start": "serve out -l 3000",
     "lint": "next lint",
+    "validate": "node ./scripts/validateData.mjs",
+    "verify-registry": "node ./scripts/verifyGovRegistry.mjs",
+    "test": "node --test ./scripts/runTests.mjs",
     "format": "prettier --loglevel warn --write \"**/*.{ts,tsx,css,md}\"",
-    "posttest": "npm run format",
     "prepare": "husky install",
     "cat-dev-project": "find . -type d \\( -name '.next' -o -name 'node_modules' \\) -prune -o \\( -name '*.ts' -o -name '*.tsx' -o -name '*.scss' \\) -exec sh -c 'echo {} >> concatenated_file.txt; cat {} >> project-concat.txt' \\;",
     "cat-links": "ts-node ./scripts/concatLinks.ts"

@@ -5,6 +5,7 @@ import React, { useState } from "react";
 import {
 	FaBookmark,
 	FaCheckCircle,
+	FaEdit,
 	FaFlag,
 	FaLink,
 	FaRegBookmark,
@@ -72,9 +73,21 @@ export const ShowMoreModal: React.FC<ShowMoreModalProps> = ({
 		`${link.displayName || link.name} (${link.name})`,
 	)}&url=${encodeURIComponent(primaryUrl || "")}`;
 
-	const guidestarSearchUrl = `https://www.guidestar.org.il/search?q=${encodeURIComponent(
-		link.displayName || link.name,
+	const claimUpdateUrl = `https://github.com/4tals/LinksForIsrael/issues/new?title=${encodeURIComponent(
+		`[UPDATE-LISTING]: ${link.displayName || link.name}`,
+	)}&body=${encodeURIComponent(
+		`Initiative: ${link.displayName || link.name} (${link.name})\nCurrent URL: ${
+			primaryUrl || ""
+		}\n\nRequested updates (description, hotline, Section 46, registration number, or third-party references):\n`,
 	)}`;
+
+	const guidestarSearchUrl = link.registrationNumber
+		? `https://www.guidestar.org.il/organization/${encodeURIComponent(
+				link.registrationNumber,
+			)}`
+		: `https://www.guidestar.org.il/search?q=${encodeURIComponent(
+				link.displayName || link.name,
+			)}`;
 
 	const handleLinkClick = () => {
 		if (!primaryUrl) {
@@ -205,6 +218,17 @@ export const ShowMoreModal: React.FC<ShowMoreModalProps> = ({
 										? "Verified Official Institution"
 										: "Verified Nonprofit Organization"}
 							</Text>
+							{link.properManagement && (
+								<Badge
+									colorScheme="teal"
+									variant="solid"
+									fontSize="2xs"
+									borderRadius="full"
+									px={2}
+								>
+									{isRtl ? "ניהול תקין (רשם העמותות)" : "Good Standing (MOJ)"}
+								</Badge>
+							)}
 							{link.taxDeductible46 && (
 								<Badge
 									colorScheme="green"
@@ -216,10 +240,28 @@ export const ShowMoreModal: React.FC<ShowMoreModalProps> = ({
 									{isRtl ? "מוכר לסעיף 46" : "Tax-Deductible (§46)"}
 								</Badge>
 							)}
+							{link.us501c3 && (
+								<Badge
+									colorScheme="purple"
+									variant="solid"
+									fontSize="2xs"
+									borderRadius="full"
+									px={2}
+								>
+									501(c)(3) US
+								</Badge>
+							)}
 						</Flex>
 
 						<Flex align="center" gap={3} wrap="wrap">
-							{link.organizationType === "ngo" && (
+							{link.registryCheckedAt && (
+								<Text fontSize="2xs" color="green.700">
+									{isRtl
+										? `נבדק ב-data.gov.il: ${link.registryCheckedAt}`
+										: `MOJ checked: ${link.registryCheckedAt}`}
+								</Text>
+							)}
+							{(link.organizationType === "ngo" || link.registrationNumber) && (
 								<Link
 									href={guidestarSearchUrl}
 									isExternal
@@ -231,7 +273,13 @@ export const ShowMoreModal: React.FC<ShowMoreModalProps> = ({
 									gap={1}
 									_hover={{ textDecoration: "underline" }}
 								>
-									{isRtl ? "בדיקה בגיידסטאר" : "GuideStar"}
+									{isRtl
+										? link.registrationNumber
+											? `גיידסטאר (${link.registrationNumber})`
+											: "בדיקה בגיידסטאר"
+										: link.registrationNumber
+											? `GuideStar (${link.registrationNumber})`
+											: "GuideStar"}
 									<ExternalLinkIcon boxSize={3} />
 								</Link>
 							)}
@@ -317,7 +365,22 @@ export const ShowMoreModal: React.FC<ShowMoreModalProps> = ({
 					</>
 				)}
 
-				<Flex justify="flex-end" pt={1}>
+				<Flex justify="space-between" align="center" wrap="wrap" gap={3} pt={1}>
+					<Link
+						href={claimUpdateUrl}
+						isExternal
+						fontSize="xs"
+						color="brand.600"
+						display="inline-flex"
+						alignItems="center"
+						gap={1.5}
+						_hover={{ color: "brand.700", textDecoration: "underline" }}
+					>
+						<FaEdit size={11} />
+						{isRtl
+							? "נציגי העמותה? עדכנו פרטים"
+							: "Represent this org? Update listing"}
+					</Link>
 					<Link
 						href={reportIssueUrl}
 						isExternal

@@ -37,7 +37,10 @@
 					"source": "GuideStar Israel",
 					"title": "קו לעובד (ע״ר) – רישום עמותה וניהול תקין בגיידסטאר"
 				}
-			]
+			],
+			"registrationNumber": "580175545",
+			"registryCheckedAt": "2026-11-21",
+			"properManagement": true
 		},
 		{
 			"name": "KolZchut",
@@ -122,7 +125,10 @@
 					"source": "Ynet",
 					"title": "רוח ההתנדבות הישראלית: 169 אלף מתנדבים בתשפ״ה למרות המלחמה"
 				}
-			]
+			],
+			"registrationNumber": "580277481",
+			"registryCheckedAt": "2026-11-21",
+			"properManagement": true
 		},
 		{
 			"name": "IronSwordsVolunteers",
@@ -178,7 +184,10 @@
 					"source": "Ynet",
 					"title": "החמ״ל האזרחי נבחר לקבל את אות הנשיא להתנדבות"
 				}
-			]
+			],
+			"registrationNumber": "580768935",
+			"registryCheckedAt": "2026-11-21",
+			"properManagement": true
 		},
 		{
 			"name": "HamalDana",
@@ -294,7 +303,10 @@
 					"author": "כאן חדשות",
 					"title": "ידידים עם הטבות: המתנדבים שמסייעים לנהגים בכפור הירושלמי"
 				}
-			]
+			],
+			"registrationNumber": "580631620",
+			"registryCheckedAt": "2026-11-21",
+			"properManagement": true
 		},
 		{
 			"name": "LevEhad",
@@ -324,7 +336,9 @@
 					"source": "GuideStar Israel",
 					"title": "לב אחד – רישום עמותה בגיידסטאר"
 				}
-			]
+			],
+			"registrationNumber": "580461689",
+			"registryCheckedAt": "2026-11-21"
 		},
 		{
 			"displayName": "באנו",
@@ -454,7 +468,10 @@
 					"source": "GuideStar Israel",
 					"title": "נתינה לאחר ישראל (ע״ר) – רישום עמותה וניהול תקין בגיידסטאר"
 				}
-			]
+			],
+			"registrationNumber": "580777118",
+			"registryCheckedAt": "2026-11-21",
+			"properManagement": true
 		}
 	]
 }

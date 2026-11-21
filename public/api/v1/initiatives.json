@@ -3,7 +3,7 @@
   "source": "https://www.linksforisrael.com",
   "repository": "https://github.com/4tals/LinksForIsrael",
   "license": "Open Data / Community Maintained",
-  "generatedAt": "2026-11-21T23:36:48.858Z",
+  "generatedAt": "2026-11-21T23:54:01.942Z",
   "count": 115,
   "initiatives": [
     {
@@ -27,6 +27,9 @@
       ],
       "verified": true,
       "taxDeductible46": true,
+      "properManagement": true,
+      "registrationNumber": "580079978",
+      "registryCheckedAt": "2026-11-21",
       "organizationType": "ngo",
       "references": [
         {
@@ -87,6 +90,9 @@
       ],
       "verified": true,
       "taxDeductible46": true,
+      "properManagement": true,
+      "registrationNumber": "580294940",
+      "registryCheckedAt": "2026-11-21",
       "organizationType": "ngo",
       "references": [
         {
@@ -147,6 +153,9 @@
       ],
       "verified": true,
       "taxDeductible46": true,
+      "properManagement": true,
+      "registrationNumber": "580455681",
+      "registryCheckedAt": "2026-11-21",
       "organizationType": "ngo",
       "references": [
         {
@@ -210,6 +219,9 @@
       "intents": null,
       "verified": true,
       "taxDeductible46": true,
+      "properManagement": true,
+      "registrationNumber": "580631620",
+      "registryCheckedAt": "2026-11-21",
       "organizationType": "ngo",
       "references": [
         {
@@ -264,6 +276,9 @@
       ],
       "verified": true,
       "taxDeductible46": true,
+      "properManagement": true,
+      "registrationNumber": "580030047",
+      "registryCheckedAt": "2026-11-21",
       "organizationType": "ngo",
       "references": [
         {
@@ -321,6 +336,9 @@
       "intents": null,
       "verified": true,
       "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": "official",
       "references": [
         {
@@ -373,6 +391,9 @@
       ],
       "verified": true,
       "taxDeductible46": true,
+      "properManagement": true,
+      "registrationNumber": "580030104",
+      "registryCheckedAt": "2026-11-21",
       "organizationType": "ngo",
       "references": [
         {
@@ -426,6 +447,9 @@
       ],
       "verified": true,
       "taxDeductible46": true,
+      "properManagement": true,
+      "registrationNumber": "580318129",
+      "registryCheckedAt": "2026-11-21",
       "organizationType": "ngo",
       "references": [
         {
@@ -486,6 +510,9 @@
       ],
       "verified": true,
       "taxDeductible46": true,
+      "properManagement": true,
+      "registrationNumber": "580307379",
+      "registryCheckedAt": "2026-11-21",
       "organizationType": "ngo",
       "references": [
         {
@@ -537,6 +564,9 @@
       ],
       "verified": true,
       "taxDeductible46": true,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": "ngo",
       "references": [
         {
@@ -590,6 +620,9 @@
       ],
       "verified": true,
       "taxDeductible46": true,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": "ngo",
       "references": [
         {
@@ -644,6 +677,9 @@
       ],
       "verified": true,
       "taxDeductible46": true,
+      "properManagement": true,
+      "registrationNumber": "580399681",
+      "registryCheckedAt": "2026-11-21",
       "organizationType": "ngo",
       "references": [
         {
@@ -698,6 +734,9 @@
       ],
       "verified": true,
       "taxDeductible46": true,
+      "properManagement": true,
+      "registrationNumber": "580407633",
+      "registryCheckedAt": "2026-11-21",
       "organizationType": "ngo",
       "references": [
         {
@@ -752,6 +791,9 @@
       ],
       "verified": true,
       "taxDeductible46": true,
+      "properManagement": true,
+      "registrationNumber": "580328839",
+      "registryCheckedAt": "2026-11-21",
       "organizationType": "ngo",
       "references": [
         {
@@ -802,6 +844,9 @@
       "intents": null,
       "verified": true,
       "taxDeductible46": true,
+      "properManagement": true,
+      "registrationNumber": "580586998",
+      "registryCheckedAt": "2026-11-21",
       "organizationType": "ngo",
       "references": [
         {
@@ -855,6 +900,9 @@
       ],
       "verified": true,
       "taxDeductible46": true,
+      "properManagement": true,
+      "registrationNumber": "580036945",
+      "registryCheckedAt": "2026-11-21",
       "organizationType": "ngo",
       "references": [
         {
@@ -907,6 +955,9 @@
       ],
       "verified": true,
       "taxDeductible46": true,
+      "properManagement": true,
+      "registrationNumber": "580277481",
+      "registryCheckedAt": "2026-11-21",
       "organizationType": "ngo",
       "references": [
         {
@@ -956,6 +1007,9 @@
       "intents": null,
       "verified": true,
       "taxDeductible46": true,
+      "properManagement": true,
+      "registrationNumber": "580492981",
+      "registryCheckedAt": "2026-11-21",
       "organizationType": "ngo",
       "references": [
         {
@@ -1006,6 +1060,9 @@
       ],
       "verified": true,
       "taxDeductible46": true,
+      "properManagement": true,
+      "registrationNumber": "580662070",
+      "registryCheckedAt": "2026-11-21",
       "organizationType": "ngo",
       "references": [
         {
@@ -1056,6 +1113,9 @@
       "intents": null,
       "verified": true,
       "taxDeductible46": true,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": "ngo",
       "references": [
         {
@@ -1109,6 +1169,9 @@
       "intents": null,
       "verified": true,
       "taxDeductible46": true,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": "ngo",
       "references": [
         {
@@ -1160,6 +1223,9 @@
       ],
       "verified": true,
       "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": "official",
       "references": [
         {
@@ -1209,6 +1275,9 @@
       ],
       "verified": true,
       "taxDeductible46": true,
+      "properManagement": true,
+      "registrationNumber": "580173730",
+      "registryCheckedAt": "2026-11-21",
       "organizationType": "ngo",
       "references": [
         {
@@ -1259,6 +1328,9 @@
       "intents": null,
       "verified": true,
       "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": "official",
       "references": [
         {
@@ -1302,6 +1374,9 @@
       "intents": null,
       "verified": true,
       "taxDeductible46": false,
+      "properManagement": true,
+      "registrationNumber": "580768935",
+      "registryCheckedAt": "2026-11-21",
       "organizationType": "ngo",
       "references": [
         {
@@ -1355,6 +1430,9 @@
       ],
       "verified": true,
       "taxDeductible46": true,
+      "properManagement": true,
+      "registrationNumber": "580392702",
+      "registryCheckedAt": "2026-11-21",
       "organizationType": "ngo",
       "references": [
         {
@@ -1408,6 +1486,9 @@
       ],
       "verified": true,
       "taxDeductible46": true,
+      "properManagement": true,
+      "registrationNumber": "580354637",
+      "registryCheckedAt": "2026-11-21",
       "organizationType": "ngo",
       "references": [
         {
@@ -1461,6 +1542,9 @@
       ],
       "verified": true,
       "taxDeductible46": true,
+      "properManagement": true,
+      "registrationNumber": "580258242",
+      "registryCheckedAt": "2026-11-21",
       "organizationType": "ngo",
       "references": [
         {
@@ -1514,6 +1598,9 @@
       ],
       "verified": true,
       "taxDeductible46": true,
+      "properManagement": true,
+      "registrationNumber": "580064335",
+      "registryCheckedAt": "2026-11-21",
       "organizationType": "ngo",
       "references": [
         {
@@ -1567,6 +1654,9 @@
       ],
       "verified": true,
       "taxDeductible46": true,
+      "properManagement": true,
+      "registrationNumber": "580367795",
+      "registryCheckedAt": "2026-11-21",
       "organizationType": "ngo",
       "references": [
         {
@@ -1614,6 +1704,9 @@
       ],
       "verified": true,
       "taxDeductible46": true,
+      "properManagement": true,
+      "registrationNumber": "580465979",
+      "registryCheckedAt": "2026-11-21",
       "organizationType": "ngo",
       "references": [
         {
@@ -1663,6 +1756,9 @@
       "intents": null,
       "verified": true,
       "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": "official",
       "references": [
         {
@@ -1706,6 +1802,9 @@
       "intents": null,
       "verified": true,
       "taxDeductible46": true,
+      "properManagement": true,
+      "registrationNumber": "580601946",
+      "registryCheckedAt": "2026-11-21",
       "organizationType": "ngo",
       "references": [
         {
@@ -1747,6 +1846,9 @@
       "intents": null,
       "verified": true,
       "taxDeductible46": true,
+      "properManagement": true,
+      "registrationNumber": "516267911",
+      "registryCheckedAt": "2026-11-21",
       "organizationType": "ngo",
       "references": [
         {
@@ -1794,6 +1896,9 @@
       ],
       "verified": true,
       "taxDeductible46": true,
+      "properManagement": true,
+      "registrationNumber": "516907888",
+      "registryCheckedAt": "2026-11-21",
       "organizationType": "ngo",
       "references": [
         {
@@ -1838,6 +1943,9 @@
       "intents": null,
       "verified": true,
       "taxDeductible46": true,
+      "properManagement": false,
+      "registrationNumber": "580461689",
+      "registryCheckedAt": "2026-11-21",
       "organizationType": "ngo",
       "references": [
         {
@@ -1879,6 +1987,9 @@
       ],
       "verified": true,
       "taxDeductible46": true,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": "ngo",
       "references": [
         {
@@ -1926,6 +2037,9 @@
       ],
       "verified": true,
       "taxDeductible46": true,
+      "properManagement": true,
+      "registrationNumber": "580455491",
+      "registryCheckedAt": "2026-11-21",
       "organizationType": "ngo",
       "references": [
         {
@@ -1973,6 +2087,9 @@
       ],
       "verified": true,
       "taxDeductible46": true,
+      "properManagement": true,
+      "registrationNumber": "580019800",
+      "registryCheckedAt": "2026-11-21",
       "organizationType": "ngo",
       "references": [
         {
@@ -2020,6 +2137,9 @@
       ],
       "verified": true,
       "taxDeductible46": true,
+      "properManagement": true,
+      "registrationNumber": "580000156",
+      "registryCheckedAt": "2026-11-21",
       "organizationType": "ngo",
       "references": [
         {
@@ -2064,6 +2184,9 @@
       "intents": null,
       "verified": true,
       "taxDeductible46": true,
+      "properManagement": true,
+      "registrationNumber": "580407633",
+      "registryCheckedAt": "2026-11-21",
       "organizationType": "ngo",
       "references": [
         {
@@ -2109,6 +2232,9 @@
       "intents": null,
       "verified": true,
       "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": "official",
       "references": [
         {
@@ -2148,6 +2274,9 @@
       ],
       "verified": true,
       "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": "official",
       "references": [
         {
@@ -2186,6 +2315,9 @@
       "intents": null,
       "verified": true,
       "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": "ngo",
       "references": [
         {
@@ -2227,6 +2359,9 @@
       "intents": null,
       "verified": true,
       "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": "official",
       "references": [
         {
@@ -2269,6 +2404,9 @@
       ],
       "verified": true,
       "taxDeductible46": false,
+      "properManagement": true,
+      "registrationNumber": "580175545",
+      "registryCheckedAt": "2026-11-21",
       "organizationType": "ngo",
       "references": [
         {
@@ -2311,6 +2449,9 @@
       "intents": null,
       "verified": true,
       "taxDeductible46": false,
+      "properManagement": true,
+      "registrationNumber": "513861435",
+      "registryCheckedAt": "2026-11-21",
       "organizationType": "ngo",
       "references": [
         {
@@ -2364,6 +2505,9 @@
       ],
       "verified": true,
       "taxDeductible46": false,
+      "properManagement": true,
+      "registrationNumber": "580777118",
+      "registryCheckedAt": "2026-11-21",
       "organizationType": "ngo",
       "references": [
         {
@@ -2402,6 +2546,9 @@
       "intents": null,
       "verified": true,
       "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": "ngo",
       "references": [
         {
@@ -2438,6 +2585,9 @@
       "intents": null,
       "verified": true,
       "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": "official",
       "references": [],
       "rankScore": 52,
@@ -2469,6 +2619,9 @@
       "intents": null,
       "verified": false,
       "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": null,
       "references": [
         {
@@ -2512,6 +2665,9 @@
       "intents": null,
       "verified": false,
       "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": null,
       "references": [
         {
@@ -2553,6 +2709,9 @@
       "intents": null,
       "verified": false,
       "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": null,
       "references": [
         {
@@ -2590,6 +2749,9 @@
       "intents": null,
       "verified": false,
       "taxDeductible46": false,
+      "properManagement": true,
+      "registrationNumber": "580622041",
+      "registryCheckedAt": "2026-11-21",
       "organizationType": null,
       "references": [
         {
@@ -2631,6 +2793,9 @@
       "intents": null,
       "verified": false,
       "taxDeductible46": false,
+      "properManagement": true,
+      "registrationNumber": "580013167",
+      "registryCheckedAt": "2026-11-21",
       "organizationType": null,
       "references": [
         {
@@ -2668,6 +2833,9 @@
       "intents": null,
       "verified": false,
       "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": null,
       "references": [
         {
@@ -2710,6 +2878,9 @@
       "intents": null,
       "verified": false,
       "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": null,
       "references": [
         {
@@ -2755,6 +2926,9 @@
       "intents": null,
       "verified": false,
       "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": null,
       "references": [
         {
@@ -2792,6 +2966,9 @@
       "intents": null,
       "verified": false,
       "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": null,
       "references": [
         {
@@ -2831,6 +3008,9 @@
       "intents": null,
       "verified": false,
       "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": null,
       "references": [
         {
@@ -2866,6 +3046,9 @@
       "intents": null,
       "verified": false,
       "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": null,
       "references": [
         {
@@ -2908,6 +3091,9 @@
       "intents": null,
       "verified": false,
       "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": null,
       "references": [
         {
@@ -2944,6 +3130,9 @@
       "intents": null,
       "verified": false,
       "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": null,
       "references": [
         {
@@ -2980,6 +3169,9 @@
       "intents": null,
       "verified": false,
       "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": null,
       "references": [
         {
@@ -3018,6 +3210,9 @@
       "intents": null,
       "verified": false,
       "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": null,
       "references": [
         {
@@ -3053,6 +3248,9 @@
       "intents": null,
       "verified": false,
       "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": null,
       "references": [
         {
@@ -3087,6 +3285,9 @@
       "intents": null,
       "verified": false,
       "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": null,
       "references": [
         {
@@ -3122,6 +3323,9 @@
       "intents": null,
       "verified": false,
       "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": null,
       "references": [
         {
@@ -3161,6 +3365,9 @@
       "intents": null,
       "verified": false,
       "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": null,
       "references": [
         {
@@ -3198,6 +3405,9 @@
       "intents": null,
       "verified": false,
       "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": null,
       "references": [
         {
@@ -3233,6 +3443,9 @@
       "intents": null,
       "verified": false,
       "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": null,
       "references": [
         {
@@ -3268,6 +3481,9 @@
       "intents": null,
       "verified": false,
       "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": null,
       "references": [
         {
@@ -3306,6 +3522,9 @@
       "intents": null,
       "verified": false,
       "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": null,
       "references": [],
       "rankScore": 6,
@@ -3336,6 +3555,9 @@
       "intents": null,
       "verified": false,
       "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": null,
       "references": [],
       "rankScore": 6,
@@ -3366,6 +3588,9 @@
       "intents": null,
       "verified": false,
       "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": null,
       "references": [],
       "rankScore": 6,
@@ -3402,6 +3627,9 @@
       "intents": null,
       "verified": false,
       "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": null,
       "references": [],
       "rankScore": 6,
@@ -3431,6 +3659,9 @@
       "intents": null,
       "verified": false,
       "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": null,
       "references": [],
       "rankScore": 6,
@@ -3462,6 +3693,9 @@
       "intents": null,
       "verified": false,
       "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": null,
       "references": [],
       "rankScore": 6,
@@ -3494,6 +3728,9 @@
       "intents": null,
       "verified": false,
       "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": null,
       "references": [],
       "rankScore": 4,
@@ -3518,6 +3755,9 @@
       "intents": null,
       "verified": false,
       "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": null,
       "references": [],
       "rankScore": 4,
@@ -3542,6 +3782,9 @@
       "intents": null,
       "verified": false,
       "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": null,
       "references": [],
       "rankScore": 4,
@@ -3576,6 +3819,9 @@
       ],
       "verified": false,
       "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": null,
       "references": [],
       "rankScore": 4,
@@ -3606,6 +3852,9 @@
       "intents": null,
       "verified": false,
       "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": null,
       "references": [],
       "rankScore": 4,
@@ -3630,6 +3879,9 @@
       "intents": null,
       "verified": false,
       "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": null,
       "references": [],
       "rankScore": 4,
@@ -3660,6 +3912,9 @@
       "intents": null,
       "verified": false,
       "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": null,
       "references": [],
       "rankScore": 4,
@@ -3689,6 +3944,9 @@
       "intents": null,
       "verified": false,
       "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": null,
       "references": [],
       "rankScore": 4,
@@ -3713,6 +3971,9 @@
       "intents": null,
       "verified": false,
       "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": null,
       "references": [],
       "rankScore": 4,
@@ -3745,6 +4006,9 @@
       "intents": null,
       "verified": false,
       "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": null,
       "references": [],
       "rankScore": 4,
@@ -3773,6 +4037,9 @@
       "intents": null,
       "verified": false,
       "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": null,
       "references": [],
       "rankScore": 4,
@@ -3801,6 +4068,9 @@
       "intents": null,
       "verified": false,
       "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": null,
       "references": [],
       "rankScore": 4,
@@ -3831,6 +4101,9 @@
       "intents": null,
       "verified": false,
       "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": null,
       "references": [],
       "rankScore": 4,
@@ -3855,6 +4128,9 @@
       "intents": null,
       "verified": false,
       "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": null,
       "references": [],
       "rankScore": 4,
@@ -3879,6 +4155,9 @@
       "intents": null,
       "verified": false,
       "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": null,
       "references": [],
       "rankScore": 4,
@@ -3910,6 +4189,9 @@
       "intents": null,
       "verified": false,
       "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": null,
       "references": [],
       "rankScore": 4,
@@ -3936,6 +4218,9 @@
       "intents": null,
       "verified": false,
       "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": null,
       "references": [],
       "rankScore": 4,
@@ -3967,6 +4252,9 @@
       "intents": null,
       "verified": false,
       "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": null,
       "references": [],
       "rankScore": 4,
@@ -3996,6 +4284,9 @@
       "intents": null,
       "verified": false,
       "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": null,
       "references": [
         {
@@ -4035,6 +4326,9 @@
       "intents": null,
       "verified": false,
       "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": null,
       "references": [
         {
@@ -4073,6 +4367,9 @@
       "intents": null,
       "verified": false,
       "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": null,
       "references": [],
       "rankScore": 4,
@@ -4104,6 +4401,9 @@
       "intents": null,
       "verified": false,
       "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": null,
       "references": [],
       "rankScore": 4,
@@ -4135,6 +4435,9 @@
       ],
       "verified": false,
       "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": null,
       "references": [],
       "rankScore": 4,
@@ -4165,6 +4468,9 @@
       "intents": null,
       "verified": false,
       "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": null,
       "references": [],
       "rankScore": 4,
@@ -4193,6 +4499,9 @@
       "intents": null,
       "verified": false,
       "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": null,
       "references": [],
       "rankScore": 4,
@@ -4223,6 +4532,9 @@
       "intents": null,
       "verified": false,
       "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": null,
       "references": [],
       "rankScore": 4,
@@ -4255,6 +4567,9 @@
       "intents": null,
       "verified": false,
       "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": null,
       "references": [],
       "rankScore": 4,
@@ -4286,6 +4601,9 @@
       "intents": null,
       "verified": false,
       "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": null,
       "references": [],
       "rankScore": 4,
@@ -4315,6 +4633,9 @@
       "intents": null,
       "verified": false,
       "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": null,
       "references": [],
       "rankScore": 4,
@@ -4343,6 +4664,9 @@
       "intents": null,
       "verified": false,
       "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": null,
       "references": [],
       "rankScore": 4,
@@ -4367,6 +4691,9 @@
       "intents": null,
       "verified": false,
       "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": null,
       "references": [],
       "rankScore": 4,
@@ -4399,6 +4726,9 @@
       "intents": null,
       "verified": false,
       "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": null,
       "references": [],
       "rankScore": 4,
@@ -4429,6 +4759,9 @@
       "intents": null,
       "verified": false,
       "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": null,
       "references": [],
       "rankScore": 4,
@@ -4458,6 +4791,9 @@
       "intents": null,
       "verified": false,
       "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": null,
       "references": [],
       "rankScore": 4,
@@ -4488,6 +4824,9 @@
       "intents": null,
       "verified": false,
       "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": null,
       "references": [],
       "rankScore": 4,
@@ -4515,6 +4854,9 @@
       "intents": null,
       "verified": false,
       "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": null,
       "references": [],
       "rankScore": 4,
@@ -4542,6 +4884,9 @@
       "intents": null,
       "verified": false,
       "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
       "organizationType": null,
       "references": [],
       "rankScore": 2,

@@ -1,6 +1,7 @@
 "use client";
 
-import React, { useContext } from "react";
+import NextLink from "next/link";
+import React from "react";
 import {
 	FaBalanceScale,
 	FaHandHoldingHeart,
@@ -10,8 +11,6 @@ import {
 	FaShieldAlt,
 } from "react-icons/fa";
 
-import { SearchContext } from "@/app/components/RootApp";
-import { InitiativeIntent } from "@/app/utils/categories";
 import { Box, Flex, Heading, Icon, SimpleGrid, Text } from "@chakra-ui/react";
 
 interface Pathway {
@@ -21,8 +20,7 @@ interface Pathway {
 	icon: React.ElementType;
 	accentBg: string;
 	accentColor: string;
-	search?: string;
-	intent?: InitiativeIntent;
+	href: string;
 }
 
 const PATHWAYS: Pathway[] = [
@@ -31,10 +29,9 @@ const PATHWAYS: Pathway[] = [
 		title: "מרגיש/ה חרדה או מצוקה?",
 		subtitle: "מוקדי סיוע נפשי 24/7, צ׳אט אנונימי ותמיכה חינם",
 		icon: FaHeart,
-		accentBg: "rose.50",
+		accentBg: "red.50",
 		accentColor: "red.600",
-		search: "סיוע נפשי",
-		intent: "get-help",
+		href: "/Medical?phone=1",
 	},
 	{
 		id: "reservists",
@@ -43,34 +40,34 @@ const PATHWAYS: Pathway[] = [
 		icon: FaShieldAlt,
 		accentBg: "blue.50",
 		accentColor: "brand.600",
-		search: "מילואים",
+		href: "/Defense?verified=1",
 	},
 	{
 		id: "volunteer",
 		title: "רוצה להתנדב השבוע?",
-		subtitle: "התנדבות גמישה בעמותות, בקהילה ובחקלאות",
+		subtitle: "התנדבות גמישה בעמותות מאומתות, בקהילה ובחקלאות",
 		icon: FaHandsHelping,
 		accentBg: "teal.50",
 		accentColor: "teal.600",
-		intent: "volunteer",
+		href: "/GeneralAssistance?intent=volunteer",
 	},
 	{
 		id: "donate",
 		title: "רוצה לתרום למקום אמין?",
-		subtitle: "עמותות מאומתות, סעיף 46 וסיוע הומניטרי שקוף",
+		subtitle: "עמותות עם אישור סעיף 46, ניהול תקין ושקיפות מלאה",
 		icon: FaHandHoldingHeart,
 		accentBg: "purple.50",
 		accentColor: "purple.600",
-		intent: "donate",
+		href: "/Economic?s46=1",
 	},
 	{
 		id: "rights",
 		title: "בירור זכויות וביטוח לאומי",
-		subtitle: "כל זכות, פורטלים רשמיים ומיצוי זכויות",
+		subtitle: "כל זכות, קו לעובד, פורטלים רשמיים ומיצוי זכויות",
 		icon: FaBalanceScale,
 		accentBg: "orange.50",
 		accentColor: "orange.600",
-		search: "זכויות",
+		href: "/GeneralAssistance?verified=1",
 	},
 	{
 		id: "agriculture",
@@ -79,21 +76,11 @@ const PATHWAYS: Pathway[] = [
 		icon: FaSeedling,
 		accentBg: "green.50",
 		accentColor: "green.600",
-		search: "חקלאות",
+		href: "/Agriculture",
 	},
 ];
 
 export function LifeEventPathways() {
-	const { onSearch, setActiveIntent } = useContext(SearchContext);
-
-	const handleSelect = (pathway: Pathway) => {
-		onSearch(pathway.search || "");
-		setActiveIntent(pathway.intent || null);
-		if (typeof window !== "undefined") {
-			window.scrollTo({ top: 0, behavior: "smooth" });
-		}
-	};
-
 	return (
 		<Box mb={8}>
 			<Flex align="baseline" justify="space-between" mb={4} wrap="wrap" gap={2}>
@@ -109,9 +96,8 @@ export function LifeEventPathways() {
 				{PATHWAYS.map((pathway) => (
 					<Flex
 						key={pathway.id}
-						as="button"
-						type="button"
-						onClick={() => handleSelect(pathway)}
+						as={NextLink}
+						href={pathway.href}
 						align="flex-start"
 						gap={3.5}
 						p={4}
@@ -127,6 +113,7 @@ export function LifeEventPathways() {
 							borderColor: "brand.300",
 							transform: "translateY(-2px)",
 							boxShadow: "md",
+							textDecoration: "none",
 						}}
 						_focusVisible={{
 							outline: "none",
@@ -137,7 +124,7 @@ export function LifeEventPathways() {
 							boxSize="40px"
 							minW="40px"
 							borderRadius="10px"
-							bg={pathway.accentBg === "rose.50" ? "red.50" : pathway.accentBg}
+							bg={pathway.accentBg}
 							color={pathway.accentColor}
 							align="center"
 							justify="center"

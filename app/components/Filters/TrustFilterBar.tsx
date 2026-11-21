@@ -22,6 +22,7 @@ import { Badge, Box, Button, Flex, Icon, Text } from "@chakra-ui/react";
 export interface TrustFilterState {
 	verifiedOnly: boolean;
 	taxDeductible46: boolean;
+	us501c3?: boolean;
 	hasReferences: boolean;
 	hasPhone: boolean;
 	intent: InitiativeIntent | null;
@@ -30,6 +31,7 @@ export interface TrustFilterState {
 export const INITIAL_TRUST_FILTER: TrustFilterState = {
 	verifiedOnly: false,
 	taxDeductible46: false,
+	us501c3: false,
 	hasReferences: false,
 	hasPhone: false,
 	intent: null,
@@ -39,6 +41,7 @@ export function hasActiveTrustFilters(state: TrustFilterState): boolean {
 	return Boolean(
 		state.verifiedOnly ||
 			state.taxDeductible46 ||
+			state.us501c3 ||
 			state.hasReferences ||
 			state.hasPhone ||
 			state.intent,
@@ -54,6 +57,7 @@ export function filterInitiativesByTrust(
 	return links.filter((link) => {
 		if (state.verifiedOnly && !link.verified) return false;
 		if (state.taxDeductible46 && !link.taxDeductible46) return false;
+		if (state.us501c3 && !link.us501c3) return false;
 		if (
 			state.hasReferences &&
 			(!link.references || link.references.length === 0)
@@ -73,6 +77,7 @@ const LABELS = {
 	he: {
 		verified: "מאומת בלבד",
 		section46: "סעיף 46",
+		us501c3: "501(c)(3) ארה״ב",
 		references: "עם אזכורים בתקשורת",
 		phone: "מוקד טלפוני",
 		"get-help": "סיוע",
@@ -85,6 +90,7 @@ const LABELS = {
 	en: {
 		verified: "Verified Only",
 		section46: "Tax-Deductible (§46)",
+		us501c3: "US 501(c)(3)",
 		references: "Press & Citations",
 		phone: "Hotline",
 		"get-help": "Get Help",
@@ -94,6 +100,32 @@ const LABELS = {
 		showing: (shown: number, total: number) =>
 			`Showing ${shown} of ${total} organizations`,
 	},
+	ar: {
+		verified: "معتمد فقط",
+		section46: "إعفاء ضريبي (§46)",
+		us501c3: "501(c)(3)",
+		references: "مصادر وتغطية إعلامية",
+		phone: "خط هاتف",
+		"get-help": "مساعدة",
+		volunteer: "تطوع",
+		donate: "تبرع",
+		clear: "مسح الفلتر",
+		showing: (shown: number, total: number) =>
+			`عرض ${shown} من أصل ${total} منظمة`,
+	},
+	ru: {
+		verified: "Только проверенные",
+		section46: "Налоговый вычет (§46)",
+		us501c3: "501(c)(3) США",
+		references: "СМИ и реестр",
+		phone: "Горячая линия",
+		"get-help": "Помощь",
+		volunteer: "Волонтёрство",
+		donate: "Пожертвовать",
+		clear: "Сбросить",
+		showing: (shown: number, total: number) =>
+			`Показано ${shown} из ${total} организаций`,
+	},
 } as const;
 
 interface TrustFilterBarProps {
@@ -102,7 +134,7 @@ interface TrustFilterBarProps {
 	onChange: (next: TrustFilterState) => void;
 	totalFilteredCount: number;
 	categoryId?: string;
-	locale?: "he" | "en";
+	locale?: "he" | "en" | "ar" | "ru";
 	showIntentFilters?: boolean;
 }
 
@@ -121,6 +153,7 @@ export const TrustFilterBar: React.FC<TrustFilterBarProps> = ({
 	const counts = useMemo(() => {
 		let verified = 0;
 		let sec46 = 0;
+		let us501c3 = 0;
 		let refs = 0;
 		let phone = 0;
 		const intents: Record<InitiativeIntent, number> = {
@@ -132,6 +165,7 @@ export const TrustFilterBar: React.FC<TrustFilterBarProps> = ({
 		for (const link of links) {
 			if (link.verified) verified++;
 			if (link.taxDeductible46) sec46++;
+			if (link.us501c3) us501c3++;
 			if (link.references && link.references.length > 0) refs++;
 			if (link.phone) phone++;
 			if (showIntentFilters) {
@@ -141,12 +175,13 @@ export const TrustFilterBar: React.FC<TrustFilterBarProps> = ({
 			}
 		}
 
-		return { verified, sec46, refs, phone, intents };
+		return { verified, sec46, us501c3, refs, phone, intents };
 	}, [links, categoryId, showIntentFilters]);
 
 	const hasAnyFilterableSignal =
 		counts.verified > 0 ||
 		counts.sec46 > 0 ||
+		counts.us501c3 > 0 ||
 		counts.refs > 0 ||
 		counts.phone > 0;
 
@@ -227,6 +262,33 @@ export const TrustFilterBar: React.FC<TrustFilterBarProps> = ({
 								color={value.taxDeductible46 ? "white" : "teal.700"}
 							>
 								{counts.sec46}
+							</Badge>
+						</Button>
+					)}
+
+					{counts.us501c3 > 0 && (
+						<Button
+							size="xs"
+							borderRadius="full"
+							colorScheme="purple"
+							variant={value.us501c3 ? "solid" : "outline"}
+							leftIcon={<Icon as={FaReceipt} boxSize={2.5} />}
+							onClick={() =>
+								onChange({
+									...value,
+									us501c3: !value.us501c3,
+								})
+							}
+						>
+							{t.us501c3}
+							<Badge
+								ms={1.5}
+								borderRadius="full"
+								fontSize="2xs"
+								bg={value.us501c3 ? "whiteAlpha.300" : "purple.50"}
+								color={value.us501c3 ? "white" : "purple.700"}
+							>
+								{counts.us501c3}
 							</Badge>
 						</Button>
 					)}

@@ -3,6 +3,7 @@
 import NextLink from "next/link";
 import React, { useCallback, useEffect, useMemo, useState } from "react";
 import {
+	FaArrowLeft,
 	FaArrowRight,
 	FaCheckCircle,
 	FaGlobe,
@@ -24,7 +25,7 @@ import {
 import { ShowMoreModal } from "@/app/components/Initiative/InitiativeShowMoreModal";
 import { OrgAvatar } from "@/app/components/Initiative/OrgAvatar";
 import { Logo } from "@/app/components/Logo";
-import { getReferenceSummary, InitiativeLink } from "@/app/utils/categories";
+import { getReferenceSummary } from "@/app/utils/categories";
 import {
 	buildUrlWithCard,
 	getUrlParams,
@@ -54,21 +55,11 @@ import {
 	VStack,
 } from "@chakra-ui/react";
 
-import { EnglishInitiative } from "./englishInitiatives";
-
-export interface EnrichedEnglishInitiative extends EnglishInitiative {
-	link: InitiativeLink;
-	sharePath?: string;
-	rankScore: number;
-}
-
-const CATEGORIES = [
-	{ id: "all", label: "All Resources" },
-	{ id: "donate", label: "Humanitarian & Donations" },
-	{ id: "rehab", label: "Veterans & Mental Health" },
-	{ id: "volunteer", label: "Volunteering & Community" },
-	{ id: "advocacy", label: "Advocacy & Remembrance" },
-] as const;
+import {
+	EnrichedIntlInitiative,
+	IntlPortalConfig,
+	PortalLocale,
+} from "./intlCatalog";
 
 const CATEGORY_COLORS: Record<string, { bg: string; color: string }> = {
 	donate: { bg: "purple.50", color: "purple.700" },
@@ -76,6 +67,17 @@ const CATEGORY_COLORS: Record<string, { bg: string; color: string }> = {
 	volunteer: { bg: "teal.50", color: "teal.700" },
 	advocacy: { bg: "orange.50", color: "orange.700" },
 };
+
+const LANG_LINKS: Array<{
+	code: PortalLocale | "he";
+	label: string;
+	href: string;
+}> = [
+	{ code: "he", label: "עברית", href: "/" },
+	{ code: "en", label: "English", href: "/en" },
+	{ code: "ar", label: "العربية", href: "/ar" },
+	{ code: "ru", label: "Русский", href: "/ru" },
+];
 
 function getDisplayDomain(url: string): string {
 	try {
@@ -85,23 +87,26 @@ function getDisplayDomain(url: string): string {
 	}
 }
 
-export function EnglishPortal({
+export function IntlPortal({
+	config,
 	items,
 }: {
-	items: EnrichedEnglishInitiative[];
+	config: IntlPortalConfig;
+	items: EnrichedIntlInitiative[];
 }) {
+	const isRtl = config.dir === "rtl";
 	const [selectedCategory, setSelectedCategoryState] = useState<string>("all");
 	const [query, setQueryState] = useState("");
 	const [trustFilters, setTrustFiltersState] =
 		useState<TrustFilterState>(INITIAL_TRUST_FILTER);
-	const [activeItem, setActiveItem] =
-		useState<EnrichedEnglishInitiative | null>(null);
+	const [activeItem, setActiveItem] = useState<EnrichedIntlInitiative | null>(
+		null,
+	);
 	const [isDrawerOpen, setIsDrawerOpenState] = useState(false);
 	const toast = useToast();
 
-	// Hydrate category, search, trust filters & open card from query strings
 	useEffect(() => {
-		const validCats = new Set<string>(CATEGORIES.map((c) => c.id));
+		const validCats = new Set<string>(config.categories.map((c) => c.id));
 		const syncFromUrl = () => {
 			const params = getUrlParams();
 			const urlCat = params.get("cat") || "all";
@@ -128,7 +133,7 @@ export function EnglishPortal({
 		syncFromUrl();
 		window.addEventListener("popstate", syncFromUrl);
 		return () => window.removeEventListener("popstate", syncFromUrl);
-	}, [items]);
+	}, [items, config.categories]);
 
 	const setSelectedCategory = useCallback((cat: string) => {
 		setSelectedCategoryState(cat);
@@ -152,7 +157,7 @@ export function EnglishPortal({
 		}
 	}, []);
 
-	const openSideCard = useCallback((item: EnrichedEnglishInitiative) => {
+	const openSideCard = useCallback((item: EnrichedIntlInitiative) => {
 		setActiveItem(item);
 		setIsDrawerOpenState(true);
 		updateUrlParams({ card: item.id });
@@ -163,8 +168,8 @@ export function EnglishPortal({
 		try {
 			await navigator.clipboard.writeText(window.location.href);
 			toast({
-				title: "View link copied",
-				description: "Anyone opening this link will see your exact filters.",
+				title: config.viewCopiedTitle,
+				description: config.viewCopiedDesc,
 				status: "success",
 				duration: 2200,
 				isClosable: true,
@@ -185,6 +190,7 @@ export function EnglishPortal({
 				item.name.toLowerCase().includes(q) ||
 				item.summary.toLowerCase().includes(q) ||
 				item.categoryLabel.toLowerCase().includes(q) ||
+				item.url.toLowerCase().includes(q) ||
 				item.tags.some((t) => t.toLowerCase().includes(q))
 			);
 		});
@@ -206,7 +212,7 @@ export function EnglishPortal({
 		try {
 			await navigator.clipboard.writeText(buildUrlWithCard(cardId));
 			toast({
-				title: "Card link copied",
+				title: config.cardCopiedTitle,
 				status: "success",
 				duration: 1800,
 				isClosable: true,
@@ -217,7 +223,11 @@ export function EnglishPortal({
 	};
 
 	return (
-		<Box dir="ltr" textAlign="left" py={{ base: 6, md: 10 }}>
+		<Box
+			dir={config.dir}
+			textAlign={isRtl ? "right" : "left"}
+			py={{ base: 6, md: 10 }}
+		>
 			{/* Shared Floating Side Card Drawer */}
 			<DialogModal
 				title={activeItem?.name || ""}
@@ -227,13 +237,13 @@ export function EnglishPortal({
 							link={activeItem.link}
 							setOpenDialog={setIsDrawerOpen}
 							sharePath={activeItem.sharePath}
-							locale="en"
+							locale={isRtl ? "he" : "en"}
 						/>
 					) : null
 				}
 				open={Boolean(isDrawerOpen && activeItem)}
 				toggleModal={setIsDrawerOpen}
-				isRtl={false}
+				isRtl={isRtl}
 			/>
 
 			<Container maxW="1280px" px={{ base: 4, md: 6 }}>
@@ -251,7 +261,8 @@ export function EnglishPortal({
 				>
 					<Box
 						position="absolute"
-						right="24px"
+						right={isRtl ? undefined : "24px"}
+						left={isRtl ? "24px" : undefined}
 						top="50%"
 						transform="translateY(-50%)"
 						opacity={0.06}
@@ -264,8 +275,8 @@ export function EnglishPortal({
 					<VStack
 						spacing={4}
 						align={{ base: "center", md: "flex-start" }}
-						textAlign={{ base: "center", md: "left" }}
-						maxW="720px"
+						textAlign={{ base: "center", md: isRtl ? "right" : "left" }}
+						maxW="760px"
 						position="relative"
 						zIndex={1}
 					>
@@ -278,7 +289,7 @@ export function EnglishPortal({
 								borderRadius="full"
 								fontSize="xs"
 							>
-								Open Source · Verified Links
+								{config.badgeOpenSource}
 							</Badge>
 							<Badge
 								colorScheme="green"
@@ -288,7 +299,10 @@ export function EnglishPortal({
 								borderRadius="full"
 								fontSize="xs"
 							>
-								{items.length} Flagship Organizations
+								{config.badgeCountTemplate.replace(
+									"{count}",
+									String(items.length),
+								)}
 							</Badge>
 						</HStack>
 
@@ -299,14 +313,11 @@ export function EnglishPortal({
 							color="brand.700"
 							lineHeight="1.2"
 						>
-							Links For Israel — Support, Volunteer &amp; Donate
+							{config.heading}
 						</Heading>
 
 						<Text fontSize={{ base: "md", md: "lg" }} color="gray.600">
-							A curated, open-source directory of verified Israeli charities,
-							mental health and veteran rehabilitation centers, volunteering
-							networks, and remembrance archives — backed by GuideStar Israel
-							and independent third-party coverage.
+							{config.subtitle}
 						</Text>
 
 						<Flex
@@ -323,10 +334,10 @@ export function EnglishPortal({
 								<Input
 									value={query}
 									onChange={(e) => setQuery(e.target.value)}
-									placeholder="Search charities, volunteering, mental health..."
+									placeholder={config.searchPlaceholder}
 									bg="gray.50"
 									borderRadius="full"
-									aria-label="Search Israeli organizations"
+									aria-label={config.searchPlaceholder}
 								/>
 							</InputGroup>
 
@@ -338,16 +349,127 @@ export function EnglishPortal({
 								borderRadius="full"
 								leftIcon={<Icon as={FaGlobe} />}
 							>
-								לפורטל המלא בעברית (100+ יוזמות)
+								{config.hebrewButtonLabel}
 							</Button>
 						</Flex>
+
+						{/* Multilingual Portal Switcher */}
+						<HStack spacing={1.5} wrap="wrap" pt={1}>
+							{LANG_LINKS.map((l) => {
+								const active = l.code === config.locale;
+								return (
+									<Button
+										key={l.code}
+										as={NextLink}
+										href={l.href}
+										size="xs"
+										borderRadius="full"
+										variant={active ? "solid" : "ghost"}
+										colorScheme="blue"
+										bg={active ? "brand.600" : "gray.100"}
+										color={active ? "white" : "gray.700"}
+										_hover={{
+											bg: active ? "brand.700" : "gray.200",
+											textDecoration: "none",
+										}}
+									>
+										{l.label}
+									</Button>
+								);
+							})}
+						</HStack>
 					</VStack>
+				</Box>
+
+				{/* Localized 24/7 Hotlines Strip */}
+				<Box
+					bg="white"
+					borderRadius="xl"
+					borderWidth="1px"
+					borderColor="gray.200"
+					boxShadow="xs"
+					p={{ base: 3.5, md: 4 }}
+					mb={5}
+				>
+					<Flex
+						direction={{ base: "column", lg: "row" }}
+						align={{ base: "flex-start", lg: "center" }}
+						justify="space-between"
+						gap={3}
+					>
+						<Flex align="center" gap={2} flexShrink={0}>
+							<Flex
+								align="center"
+								justify="center"
+								boxSize="28px"
+								borderRadius="full"
+								bg="red.50"
+								color="red.600"
+							>
+								<Icon as={FaPhoneAlt} boxSize={3} />
+							</Flex>
+							<Text fontSize="sm" fontWeight="bold" color="gray.800">
+								{config.hotlinesHeading}
+							</Text>
+						</Flex>
+
+						<Flex
+							wrap="wrap"
+							gap={2}
+							flex="1"
+							justify={{ base: "flex-start", lg: "flex-end" }}
+						>
+							{config.hotlines.map((hotline) => (
+								<Link
+									key={hotline.number}
+									href={hotline.href}
+									_hover={{ textDecoration: "none" }}
+								>
+									<Flex
+										align="center"
+										gap={2}
+										px={3}
+										py={1.5}
+										borderRadius="full"
+										bg="gray.50"
+										borderWidth="1px"
+										borderColor="gray.200"
+										transition="all 0.15s ease"
+										_hover={{
+											bg: "brand.50",
+											borderColor: "brand.300",
+											transform: "translateY(-1px)",
+										}}
+									>
+										<Text fontSize="xs" fontWeight="bold" color="gray.800">
+											{hotline.name}
+										</Text>
+										<Text
+											fontSize="xs"
+											color="gray.500"
+											display={{ base: "none", sm: "inline" }}
+										>
+											{hotline.subtitle}
+										</Text>
+										<Text
+											fontSize="xs"
+											fontWeight="bold"
+											color="brand.600"
+											dir="ltr"
+										>
+											{hotline.number}
+										</Text>
+									</Flex>
+								</Link>
+							))}
+						</Flex>
+					</Flex>
 				</Box>
 
 				{/* Category Filter Pills + Share Current View */}
 				<Flex align="center" justify="space-between" wrap="wrap" gap={2} mb={3}>
 					<Flex wrap="wrap" gap={2}>
-						{CATEGORIES.map((cat) => {
+						{config.categories.map((cat) => {
 							const active = selectedCategory === cat.id;
 							return (
 								<Button
@@ -373,7 +495,7 @@ export function EnglishPortal({
 						leftIcon={<Icon as={FaShareAlt} boxSize={2.5} />}
 						onClick={handleCopyViewUrl}
 					>
-						Share view
+						{config.shareViewLabel}
 					</Button>
 				</Flex>
 
@@ -383,7 +505,7 @@ export function EnglishPortal({
 					value={trustFilters}
 					onChange={setTrustFilters}
 					totalFilteredCount={filtered.length}
-					locale="en"
+					locale={config.locale}
 					showIntentFilters={false}
 				/>
 
@@ -398,7 +520,7 @@ export function EnglishPortal({
 						textAlign="center"
 					>
 						<Text color="gray.600" mb={4}>
-							No organizations matched your current filters.
+							{config.noResultsText}
 						</Text>
 						<Button
 							size="sm"
@@ -410,7 +532,7 @@ export function EnglishPortal({
 								setTrustFilters(INITIAL_TRUST_FILTER);
 							}}
 						>
-							Reset filters
+							{config.resetFiltersLabel}
 						</Button>
 					</Box>
 				) : (
@@ -456,7 +578,6 @@ export function EnglishPortal({
 									justify="space-between"
 									gap={3}
 								>
-									{/* Top gradient accent on hover */}
 									<Box
 										position="absolute"
 										top={0}
@@ -493,74 +614,62 @@ export function EnglishPortal({
 															{item.name}
 														</Heading>
 														{item.link.verified && (
-															<Tooltip
-																label={
-																	item.link.organizationType === "official"
-																		? "Verified Official Institution"
-																		: "Verified Israeli Nonprofit"
-																}
-																placement="top"
-																hasArrow
+															<Box
+																as="span"
+																color="green.500"
+																display="inline-flex"
+																flexShrink={0}
 															>
-																<Box
-																	as="span"
-																	color="green.500"
-																	display="inline-flex"
-																	flexShrink={0}
-																>
-																	<Icon as={FaCheckCircle} boxSize={3.5} />
-																</Box>
-															</Tooltip>
+																<Icon as={FaCheckCircle} boxSize={3.5} />
+															</Box>
 														)}
 													</Flex>
-													<Text fontSize="xs" color="gray.400" noOfLines={1}>
+													<Text
+														fontSize="xs"
+														color="gray.400"
+														noOfLines={1}
+														dir="ltr"
+														textAlign={isRtl ? "right" : "left"}
+													>
 														{getDisplayDomain(item.url)}
 													</Text>
 												</Box>
 											</Flex>
 
 											<HStack spacing={0.5} flexShrink={0}>
-												<Tooltip label="Copy link" placement="top" hasArrow>
-													<IconButton
-														aria-label={`Copy link for ${item.name}`}
-														icon={<FaLink size={12} />}
-														size="xs"
-														variant="ghost"
-														color="gray.400"
-														borderRadius="lg"
-														opacity={{ base: 1, md: 0 }}
-														_groupHover={{ opacity: 1 }}
-														_hover={{ bg: "gray.100", color: "brand.600" }}
-														onClick={(e) => handleCopy(e, item.id)}
-													/>
-												</Tooltip>
-												<Tooltip
-													label="Open website directly"
-													placement="top"
-													hasArrow
-												>
-													<IconButton
-														as={Link}
-														href={item.url}
-														isExternal
-														aria-label={`Open ${item.name} directly`}
-														icon={<ExternalLinkIcon boxSize={3.5} />}
-														size="xs"
-														variant="ghost"
-														color="gray.400"
-														borderRadius="lg"
-														_hover={{
-															bg: "brand.50",
-															color: "brand.600",
-															textDecoration: "none",
-														}}
-														onClick={(e) => e.stopPropagation()}
-													/>
-												</Tooltip>
+												<IconButton
+													aria-label={`Copy link for ${item.name}`}
+													icon={<FaLink size={12} />}
+													size="xs"
+													variant="ghost"
+													color="gray.400"
+													borderRadius="lg"
+													opacity={{ base: 1, md: 0 }}
+													_groupHover={{ opacity: 1 }}
+													_hover={{ bg: "gray.100", color: "brand.600" }}
+													onClick={(e) => handleCopy(e, item.id)}
+												/>
+												<IconButton
+													as={Link}
+													href={item.url}
+													isExternal
+													aria-label={`Open ${item.name} directly`}
+													icon={<ExternalLinkIcon boxSize={3.5} />}
+													size="xs"
+													variant="ghost"
+													color="gray.400"
+													borderRadius="lg"
+													_hover={{
+														bg: "brand.50",
+														color: "brand.600",
+														textDecoration: "none",
+													}}
+													onClick={(e) => e.stopPropagation()}
+												/>
 											</HStack>
 										</Flex>
 
-										{/* Badges: Category + Section 46 + Third-Party Sources + Hotline */}
+										{/* Badges */}
 										<Flex wrap="wrap" gap={1.5} mb={2.5} align="center">
 											<Badge
 												bg={badgeStyle.bg}
@@ -574,6 +683,34 @@ export function EnglishPortal({
 											>
 												{item.categoryLabel}
 											</Badge>
+											{item.link.properManagement && (
+												<Badge
+													bg="teal.50"
+													color="teal.700"
+													borderRadius="full"
+													px={2}
+													py={0.5}
+													fontSize="2xs"
+													fontWeight="semibold"
+													textTransform="none"
+												>
+													MOJ Verified
+												</Badge>
+											)}
+											{item.link.us501c3 && (
+												<Badge
+													bg="purple.50"
+													color="purple.700"
+													borderRadius="full"
+													px={2}
+													py={0.5}
+													fontSize="2xs"
+													fontWeight="semibold"
+													textTransform="none"
+												>
+													501(c)(3)
+												</Badge>
+											)}
 											{item.link.taxDeductible46 && (
 												<Badge
 													backgroundColor="#ecfdf5"
@@ -585,7 +722,7 @@ export function EnglishPortal({
 													fontWeight="semibold"
 													textTransform="none"
 												>
-													§46 Tax-Deductible
+													§46
 												</Badge>
 											)}
 											{refSummary && (
@@ -606,7 +743,7 @@ export function EnglishPortal({
 														display="inline-flex"
 														alignItems="center"
 														gap={1}
-														maxW="190px"
+														maxW="180px"
 													>
 														<Icon
 															as={FaNewspaper}
@@ -640,7 +777,7 @@ export function EnglishPortal({
 														_hover={{ bg: "green.100" }}
 													>
 														<Icon as={FaPhoneAlt} boxSize={2} />
-														<span>{item.link.phone}</span>
+														<span dir="ltr">{item.link.phone}</span>
 													</Badge>
 												</Link>
 											)}
@@ -675,7 +812,7 @@ export function EnglishPortal({
 												gap={1}
 												_hover={{ color: "brand.600", textDecoration: "none" }}
 											>
-												<span>Visit Website</span>
+												<span>{config.visitWebsiteLabel}</span>
 												<ExternalLinkIcon boxSize={3} opacity={0.75} />
 											</Link>
 
@@ -686,12 +823,16 @@ export function EnglishPortal({
 												fontWeight="semibold"
 												color="brand.600"
 											>
-												<span>Details &amp; Sources</span>
+												<span>{config.detailsSourcesLabel}</span>
 												<Icon
-													as={FaArrowRight}
+													as={isRtl ? FaArrowLeft : FaArrowRight}
 													boxSize={2.5}
 													transition="transform 0.2s ease"
-													_groupHover={{ transform: "translateX(3px)" }}
+													_groupHover={{
+														transform: isRtl
+															? "translateX(-3px)"
+															: "translateX(3px)",
+													}}
 												/>
 											</Flex>
 										</Flex>
@@ -713,19 +854,22 @@ export function EnglishPortal({
 					textAlign="center"
 				>
 					<Heading as="h2" size="md" color="brand.700" mb={2}>
-						Know a verified Israeli organization we should add?
+						{config.ctaHeading}
 					</Heading>
 					<Text fontSize="sm" color="gray.600" mb={4}>
-						Links For Israel is 100% open source and community-maintained on
-						GitHub.{" "}
+						{config.ctaBody}{" "}
 						<Link
 							as={NextLink}
-							href="/docs/methodology"
+							href={
+								config.locale === "en"
+									? "/docs/methodology?lang=en"
+									: "/docs/methodology"
+							}
 							color="brand.600"
 							fontWeight="semibold"
 							_hover={{ textDecoration: "underline" }}
 						>
-							Read how we verify &amp; rank initiatives.
+							{config.ctaMethodologyLabel}
 						</Link>
 					</Text>
 					<Button
@@ -738,7 +882,7 @@ export function EnglishPortal({
 						borderRadius="full"
 						px={6}
 					>
-						Suggest an Organization on GitHub
+						{config.ctaButtonLabel}
 					</Button>
 				</Box>
 			</Container>
