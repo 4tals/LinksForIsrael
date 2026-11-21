@@ -1,45 +1,51 @@
+"use client";
+
 import React from "react";
 
-import { Flex, Text } from "@chakra-ui/react";
+import { SimpleGrid, Text } from "@chakra-ui/react";
 
 import { InitiativeLink as LinkType } from "../../utils/categories";
 import { InitiativeItem } from "./InitiativeItem";
 
 export function InitiativeList({
 	name,
+	categoryId,
 	links,
 	setDescription,
 	setOpenDialog,
 }: {
 	name: string;
+	categoryId?: string;
 	links: Array<LinkType>;
 	setDescription: (
 		description: { body: React.ReactNode; link: LinkType } | null,
 	) => void;
 	setOpenDialog: (open: boolean) => void;
 }) {
-	const numLinks = links.length;
-	if (numLinks === 0) {
-		return <Text key={name}>בקרוב</Text>;
+	if (links.length === 0) {
+		return (
+			<Text key={name} color="gray.500" fontSize="sm" py={2}>
+				בקרוב יתווספו יוזמות בקטגוריה זו
+			</Text>
+		);
 	}
 
 	return (
-		<Flex
-			direction="row"
-			gap="16px"
-			p="10px"
-			boxShadow="md"
-			borderRadius="lg"
-			// overflowY="auto"
+		<SimpleGrid
+			columns={{ base: 1, sm: 2, lg: 3, xl: 4 }}
+			spacing={{ base: 3.5, md: 5 }}
+			pt={2}
 		>
 			{links.map((link) => (
 				<InitiativeItem
 					link={link}
-					key={link.name}
+					categoryId={categoryId}
+					subCategoryName={name}
+					key={`${name}-${link.name}`}
 					setDescription={setDescription}
 					setOpenDialog={setOpenDialog}
 				/>
 			))}
-		</Flex>
+		</SimpleGrid>
 	);
 }

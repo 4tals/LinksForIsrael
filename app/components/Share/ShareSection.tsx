@@ -1,34 +1,58 @@
+"use client";
+
 import React from "react";
 
 import { ShareButtons } from "@/app/components/Share/ShareButtons";
-import { Box, Flex, Text, useMediaQuery } from "@chakra-ui/react";
+import { Box, Flex, Heading, Text } from "@chakra-ui/react";
 
 interface ShareSectionProps {
 	categoryName: string;
-	categoryDescription: string;
+	categoryDescription?: string;
 }
 
 export const ShareSection: React.FC<ShareSectionProps> = ({
 	categoryName,
 	categoryDescription,
 }) => {
-	const [isLargerThan480] = useMediaQuery("(min-width: 600px)");
-
 	return (
-		<Box p={4} bg="gray.100" borderRadius="md">
-			<Flex direction="row" align="center" justifyContent="space-between">
-				<Flex alignItems="center" display={{ base: "none", md: "flex" }}>
-					<Text fontSize="md" fontWeight="bold" ml={2}>
-						בעמוד זה תוכל למצוא רשימת יוזמות שונות בתחום
-					</Text>
-					<Text fontSize="sm" color="blue.600" noOfLines={1} marginLeft={10}>
-						{categoryDescription}
-					</Text>
-				</Flex>
+		<Box
+			p={{ base: 4, md: 5 }}
+			bg="white"
+			borderRadius="xl"
+			borderWidth="1px"
+			borderColor="gray.200"
+			boxShadow="xs"
+		>
+			<Flex
+				direction={{ base: "column", md: "row" }}
+				align={{ base: "flex-start", md: "center" }}
+				justify="space-between"
+				gap={3}
+			>
+				<Box>
+					<Heading as="h2" size={{ base: "md", md: "lg" }} color="brand.700">
+						{categoryName}
+					</Heading>
+					{categoryDescription && (
+						<Text fontSize={{ base: "sm", md: "md" }} color="gray.600" mt={1}>
+							{categoryDescription}
+						</Text>
+					)}
+				</Box>
 
-				<Flex alignItems="center">
-					<Text fontSize="sm" fontWeight="bold" ml={2}>
-						שתף את העמוד
+				<Flex
+					align="center"
+					gap={2}
+					flexShrink={0}
+					bg="gray.50"
+					px={3}
+					py={1.5}
+					borderRadius="full"
+					borderWidth="1px"
+					borderColor="gray.100"
+				>
+					<Text fontSize="xs" fontWeight="semibold" color="gray.600">
+						שיתוף העמוד:
 					</Text>
 					<ShareButtons category={categoryName} />
 				</Flex>

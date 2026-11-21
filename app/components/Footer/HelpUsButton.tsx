@@ -12,30 +12,31 @@ export const HelpUsButton = (): JSX.Element => {
 			sx={{
 				fontFamily: "'JetBrains Mono', 'Fira Code', 'Consolas', monospace",
 				fontSize: { base: "xs", md: "sm" },
-				fontWeight: "500",
-				letterSpacing: "0.5px",
-				color: "whiteAlpha.900",
-				bg: "transparent",
+				fontWeight: "600",
+				letterSpacing: "0.3px",
+				color: "brand.600",
+				bg: "brand.50",
 				border: "1px solid",
-				borderColor: "whiteAlpha.300",
+				borderColor: "brand.200",
 				borderRadius: "full",
 				px: { base: 4, md: 5 },
-				py: { base: 2, md: 2 },
+				py: 2,
 				textDecoration: "none",
-				transition: "all 0.3s ease",
+				transition: "all 0.2s ease",
 				_hover: {
-					bg: "whiteAlpha.100",
-					borderColor: "whiteAlpha.500",
+					bg: "brand.600",
+					color: "white",
+					borderColor: "brand.600",
 					transform: "translateY(-1px)",
 					textDecoration: "none",
 				},
 				_focus: {
 					outline: "none",
-					boxShadow: "0 0 0 2px rgba(255, 255, 255, 0.2)",
+					boxShadow: "0 0 0 3px rgba(29, 92, 214, 0.25)",
 				},
 			}}
 		>
-			{"<"} Contribute {"/>"}
+			{"<"} כניסה למפתחים {"/>"}
 		</Link>
 	);
 };

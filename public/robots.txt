@@ -17,4 +17,4 @@ Disallow: /
 User-agent: ClaudeBot
 Disallow: /
 
-Sitemap: https://linksforisrael.com/sitemap.xml
+Sitemap: https://www.linksforisrael.com/sitemap.xml

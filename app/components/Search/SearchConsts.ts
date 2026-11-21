@@ -2,7 +2,9 @@ import { Category } from "@/app/utils/categories";
 
 export interface SearchContextProps {
 	search: string;
+	mappedSearchTerm: string | null;
 	results: Category[];
+	totalResults: number;
 	onSearch: (search: string) => void;
 	isMobileSearchOpen: boolean;
 	toggleMobileSearch: () => void;
@@ -10,7 +12,9 @@ export interface SearchContextProps {
 
 export const initialSearchContext: SearchContextProps = {
 	search: "",
+	mappedSearchTerm: null,
 	results: [],
+	totalResults: 0,
 	onSearch: () => {},
 	isMobileSearchOpen: false,
 	toggleMobileSearch: () => {},

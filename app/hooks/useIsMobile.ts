@@ -1,27 +1,25 @@
 "use client";
 
-import { useLayoutEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 import { debounce } from "@/app/utils/debounce";
 
-const mobileMaxWidth = 767;
-
-const isMobileWidth = () => {
-	if (typeof window === "undefined") {
-		return true;
-	}
-	return window.innerWidth <= mobileMaxWidth;
-};
+const MOBILE_MAX_WIDTH = 767;
 
 export const useIsMobile = (): boolean => {
-	const [isMobile, setIsMobile] = useState(isMobileWidth());
+	const [isMobile, setIsMobile] = useState(false);
 
-	useLayoutEffect(() => {
+	useEffect(() => {
 		const updateSize = (): void => {
-			setIsMobile(isMobileWidth());
+			setIsMobile(window.innerWidth <= MOBILE_MAX_WIDTH);
 		};
-		window.addEventListener("resize", debounce(updateSize, 500));
-		return (): void => window.removeEventListener("resize", updateSize);
+
+		updateSize();
+		const debouncedUpdateSize = debounce(updateSize, 200);
+		window.addEventListener("resize", debouncedUpdateSize);
+		return (): void => {
+			window.removeEventListener("resize", debouncedUpdateSize);
+		};
 	}, []);
 
 	return isMobile;

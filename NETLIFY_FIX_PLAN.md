@@ -37,13 +37,15 @@ SSR (Server-Side Rendering) is causing Netlify function calls on every request, 
 
 ## Implementation Status
 
-| Task                  | Status  | Notes                         |
-| --------------------- | ------- | ----------------------------- |
-| Static export config  | ✅ Done | `output: 'export'` added      |
-| dynamicParams = false | ✅ Done | Both pages updated            |
-| robots.txt            | ✅ Done | Blocks AI crawlers, 10s delay |
-| Netlify \_redirects   | ✅ Done | Moved from next.config.js     |
-| Local build test      | ✅ Done | 196 static pages, no warnings |
+| Task                  | Status  | Notes                                        |
+| --------------------- | ------- | -------------------------------------------- |
+| Static export config  | ✅ Done | `output: 'export'` added                     |
+| dynamicParams = false | ✅ Done | Both pages updated                           |
+| robots.txt            | ✅ Done | Blocks AI crawlers, 10s delay, canonical URL |
+| sitemap.xml           | ✅ Done | Generated via `app/sitemap.ts`               |
+| Netlify \_redirects   | ✅ Done | Moved from next.config.js                    |
+| netlify.toml          | ✅ Done | Build command, publish `out`, cache headers  |
+| Local build test      | ✅ Done | Static export verified, zero lint warnings   |
 
 ## Build Output
 

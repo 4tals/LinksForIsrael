@@ -1,29 +1,21 @@
-import React, { useState } from "react";
-import { FaHandPointer } from "react-icons/fa";
+"use client";
 
-import {
-	Box,
-	Flex,
-	Icon,
-	Image,
-	Text,
-	Tooltip,
-	useColorModeValue,
-} from "@chakra-ui/react";
+import React, { useState } from "react";
+
+import { Logo } from "@/app/components/Logo";
+import { Box, Flex, Image, Text } from "@chakra-ui/react";
 
 import { InitiativeLink as LinkType } from "../../utils/categories";
 import { InitiativeIcons } from "./InitiativeIcons";
 import { ShowMoreModal } from "./InitiativeShowMoreModal";
 
-// Define the type for your function parameter
 const containsHebrewLetters = (str: string): boolean =>
 	/[\u0590-\u05EA]/.test(str);
-const defaultImageUrl =
-	"https://res.cloudinary.com/dargbitr2/image/upload/v1697311977/LinksForIsrael/jix5eizmqcegmfra89gs.jpg";
 
-// Define types for your component props
 interface InitiativeItemProps {
 	link: LinkType;
+	categoryId?: string;
+	subCategoryName?: string;
 	setDescription: (description: {
 		body: React.ReactNode;
 		link: LinkType;
@@ -33,117 +25,153 @@ interface InitiativeItemProps {
 
 export const InitiativeItem: React.FC<InitiativeItemProps> = ({
 	link,
+	categoryId,
+	subCategoryName,
 	setDescription,
 	setOpenDialog,
 }) => {
 	const [imageError, setImageError] = useState(false);
 	const isRtl = containsHebrewLetters(
-		`${link.displayName}${link?.shortDescription}`,
+		`${link.displayName || ""}${link.shortDescription || ""}`,
 	);
 
-	// All color mode values must be called at the top level
-	const bgColor = useColorModeValue("white", "gray.700");
-	const borderColor = useColorModeValue("gray.200", "gray.600");
-	const hoverBorderColor = useColorModeValue("blue.300", "blue.500");
-	const gradientOverlay = useColorModeValue(
-		"linear(to-b, transparent 0%, white 100%)",
-		"linear(to-b, transparent 0%, gray.700 100%)",
-	);
-	const titleColor = useColorModeValue("gray.800", "gray.100");
-	const descriptionColor = useColorModeValue("gray.600", "gray.400");
+	const sharePath =
+		categoryId && subCategoryName
+			? `/${encodeURIComponent(categoryId)}/${encodeURIComponent(
+					subCategoryName,
+				)}/${encodeURIComponent(link.name)}`
+			: undefined;
 
-	// Explicitly type the event parameter
-	const handleLinkClick = (e: React.MouseEvent<HTMLDivElement>) => {
-		if (link.description?.length > 0) {
+	const openDetailsModal = () => {
+		setDescription({
+			link,
+			body: (
+				<ShowMoreModal
+					link={link}
+					setOpenDialog={setOpenDialog}
+					sharePath={sharePath}
+				/>
+			),
+		});
+		setOpenDialog(true);
+	};
+
+	const handleKeyDown = (e: React.KeyboardEvent<HTMLDivElement>) => {
+		if (e.key === "Enter" || e.key === " ") {
 			e.preventDefault();
-			setDescription({
-				link,
-				body: <ShowMoreModal link={link} setOpenDialog={setOpenDialog} />,
-			});
-			setOpenDialog(true);
+			openDetailsModal();
 		}
 	};
 
-	const imageUrl =
-		imageError || !link.initiativeImage
-			? defaultImageUrl
-			: link.initiativeImage;
+	const hasValidImage = Boolean(link.initiativeImage) && !imageError;
 
 	return (
-		<Box
-			bg={bgColor}
+		<Flex
+			direction="column"
+			bg="white"
 			borderRadius="xl"
+			borderWidth="1px"
+			borderColor="gray.200"
 			overflow="hidden"
-			minWidth={{ base: "150px", md: "250px" }}
-			width={{ base: "70%", md: "250px" }}
-			transition="all 0.3s cubic-bezier(0.4, 0, 0.2, 1)"
-			cursor={link.description?.length > 0 ? "pointer" : "default"}
-			boxShadow="md"
-			border="1px solid"
-			borderColor={borderColor}
+			cursor="pointer"
+			role="button"
+			tabIndex={0}
+			aria-label={`פרטים נוספים על ${link.displayName}`}
+			transition="all 0.2s ease"
+			boxShadow="xs"
 			_hover={{
-				transform: "translateY(-4px)",
-				boxShadow: "2xl",
-				borderColor: hoverBorderColor,
+				borderColor: "brand.400",
+				boxShadow: "md",
+				transform: "translateY(-3px)",
 			}}
-			onClick={handleLinkClick}
+			_focusVisible={{
+				outline: "none",
+				boxShadow: "0 0 0 3px rgba(29, 92, 214, 0.35)",
+			}}
+			onClick={openDetailsModal}
+			onKeyDown={handleKeyDown}
 			style={{ direction: isRtl ? "rtl" : "ltr" }}
-			aspectRatio={1 / 1}
-			paddingBlockEnd={{ base: "30px" }}
-			position="relative"
+			h="100%"
 		>
-			<Tooltip label="לחץ לפרטים נוספים" hasArrow placement="top">
-				<Box position="relative" overflow="hidden">
+			<Box
+				position="relative"
+				w="100%"
+				h="124px"
+				bg={hasValidImage ? "gray.50" : "brand.50"}
+				bgGradient={
+					hasValidImage ? undefined : "linear(to-br, blue.50, blue.100)"
+				}
+				borderBottomWidth="1px"
+				borderColor="gray.100"
+				overflow="hidden"
+				display="flex"
+				alignItems="center"
+				justifyContent="center"
+				flexShrink={0}
+			>
+				{hasValidImage ? (
 					<Image
-						src={imageUrl}
+						src={link.initiativeImage}
 						alt={link.displayName}
 						objectFit="cover"
-						w="full"
-						h={{ base: "60px", md: "110px" }}
+						w="100%"
+						h="100%"
+						loading="lazy"
 						onError={() => setImageError(true)}
-						transition="transform 0.3s ease"
-						_hover={{ transform: "scale(1.05)" }}
 					/>
-					<Box
-						position="absolute"
-						top="0"
-						left="0"
-						right="0"
-						bottom="0"
-						bgGradient={gradientOverlay}
-						opacity="0.9"
-					/>
-				</Box>
-			</Tooltip>
-			<Flex
-				direction="column"
-				p={{ base: "12px 16px", md: "16px 20px" }}
-				gap={2}
-			>
-				<Text
-					fontSize={{ base: "sm", md: "lg" }}
-					fontWeight="semibold"
-					noOfLines={{ base: 3, md: 1 }}
-					color={titleColor}
-					letterSpacing="tight"
-				>
-					{link.displayName}
-				</Text>
-				{link.shortDescription && (
-					<Text
-						fontSize={{ base: "xs", md: "sm" }}
-						fontWeight="normal"
-						noOfLines={{ base: 3, md: 2 }}
-						color={descriptionColor}
-						lineHeight="1.5"
-					>
-						{link.shortDescription}
-					</Text>
+				) : (
+					<Box opacity={0.25}>
+						<Logo width={56} height={63} />
+					</Box>
 				)}
-				<Box display={{ base: "none", md: "block" }}>
-					<InitiativeIcons link={link} limit={3} />
+			</Box>
+
+			<Flex direction="column" flex="1" p={4} justify="space-between" gap={2}>
+				<Box>
+					<Text
+						fontSize="md"
+						fontWeight="bold"
+						color="gray.800"
+						noOfLines={2}
+						lineHeight="1.35"
+					>
+						{link.displayName}
+					</Text>
+					{link.shortDescription && (
+						<Text
+							fontSize="sm"
+							color="gray.600"
+							mt={1.5}
+							noOfLines={3}
+							lineHeight="1.5"
+						>
+							{link.shortDescription}
+						</Text>
+					)}
 				</Box>
+
+				<Flex
+					align="center"
+					justify="space-between"
+					pt={2}
+					mt="auto"
+					borderTopWidth="1px"
+					borderColor="gray.100"
+					gap={2}
+				>
+					<Box flex="1">
+						<InitiativeIcons link={link} limit={4} />
+					</Box>
+					<Text
+						fontSize="xs"
+						fontWeight="semibold"
+						color="brand.600"
+						whiteSpace="nowrap"
+					>
+						{isRtl ? "לפרטים ←" : "Details →"}
+					</Text>
+				</Flex>
 			</Flex>
-		</Box>
+		</Flex>
 	);
 };

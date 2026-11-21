@@ -29,9 +29,16 @@ export function RootApp({
 	children: React.ReactNode;
 }) {
 	const isMobile = useIsMobile();
-	const { search, onSearch, results, isMobileSearchOpen, toggleMobileSearch } =
-		useSearch(categories, generalAssistanceSubCategory);
-	const [isMenuOpen, setIsMenuOpen] = useState(!isMobile);
+	const {
+		search,
+		mappedSearchTerm,
+		onSearch,
+		results,
+		totalResults,
+		isMobileSearchOpen,
+		toggleMobileSearch,
+	} = useSearch(categories, generalAssistanceSubCategory);
+	const [isMenuOpen, setIsMenuOpen] = useState(false);
 
 	const toggleMenu = useCallback(() => {
 		setIsMenuOpen((prevState) => !prevState);
@@ -41,19 +48,23 @@ export function RootApp({
 		<SearchContext.Provider
 			value={{
 				search,
+				mappedSearchTerm,
 				results,
+				totalResults,
 				onSearch,
 				isMobileSearchOpen,
 				toggleMobileSearch,
 			}}
 		>
 			<MenuContext.Provider value={{ isMenuOpen, toggleMenu, isMobile }}>
-				<Header />
-				<MobileSearchInput />
-				<main id="content" className="main-content" role="main">
-					{children}
-				</main>
-				<Footer />
+				<div className="app-shell">
+					<Header />
+					<MobileSearchInput />
+					<main id="content" className="main-content" role="main">
+						{children}
+					</main>
+					<Footer />
+				</div>
 			</MenuContext.Provider>
 		</SearchContext.Provider>
 	);

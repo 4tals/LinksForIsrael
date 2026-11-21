@@ -1,73 +1,68 @@
-import React, { useEffect, useRef } from "react";
+"use client";
 
+import React, { useState } from "react";
+import { FaLink } from "react-icons/fa";
+
+import { analyticsService } from "@/app/utils/analytica/analytics";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 import {
+	Badge,
 	Box,
-	Text,
 	Button,
-	VStack,
-	useColorModeValue,
+	Divider,
 	Flex,
-	Skeleton,
-	useToast,
 	Image,
+	Text,
+	useToast,
+	VStack,
 } from "@chakra-ui/react";
 
-import { InitiativeLink as LinkType } from "../../utils/categories";
+import {
+	getPrimaryInitiativeUrl,
+	InitiativeLink as LinkType,
+} from "../../utils/categories";
 import { InitiativeIcons } from "./InitiativeIcons";
 
-// Hebrew detection utility
 const containsHebrewLetters = (str: string): boolean =>
 	/[\u0590-\u05EA]/.test(str);
 
 interface ShowMoreModalProps {
 	link: LinkType;
 	setOpenDialog: (open: boolean) => void;
+	sharePath?: string;
 }
 
 export const ShowMoreModal: React.FC<ShowMoreModalProps> = ({
 	link,
 	setOpenDialog,
+	sharePath,
 }) => {
-	// All color mode values at top level
-	const bgColor = useColorModeValue("white", "gray.800");
-	const textColor = useColorModeValue("gray.700", "gray.200");
-	const subtleTextColor = useColorModeValue("gray.500", "gray.400");
-	const accentColor = useColorModeValue("blue.500", "blue.400");
-	const accentHoverColor = useColorModeValue("blue.600", "blue.300");
-	const tagBgColor = useColorModeValue("gray.50", "gray.700");
-	const tagBorderColor = useColorModeValue("gray.200", "gray.600");
-	const dividerColor = useColorModeValue("gray.100", "gray.700");
-	const imageOverlayGradient = useColorModeValue(
-		"linear-gradient(to top, rgba(255,255,255,1) 0%, rgba(255,255,255,0.8) 30%, transparent 100%)",
-		"linear-gradient(to top, rgba(26,32,44,1) 0%, rgba(26,32,44,0.8) 30%, transparent 100%)",
-	);
-
+	const [imageError, setImageError] = useState(false);
 	const toast = useToast();
-	const buttonRef = useRef<HTMLButtonElement>(null);
 
-	// Detect RTL text for proper text direction
 	const isRtl = containsHebrewLetters(
-		`${link.displayName}${link.description}${link.shortDescription}`,
+		`${link.displayName || ""}${link.description || ""}${
+			link.shortDescription || ""
+		}`,
 	);
 
-	// Focus management for accessibility
-	useEffect(() => {
-		const handleKeyDown = (event: KeyboardEvent) => {
-			if (event.key === "Escape") {
-				setOpenDialog(false);
-			}
-		};
+	const primaryUrl = getPrimaryInitiativeUrl(link);
 
-		document.addEventListener("keydown", handleKeyDown);
-		return () => document.removeEventListener("keydown", handleKeyDown);
-	}, [setOpenDialog]);
-
-	// Handle link click with error handling
 	const handleLinkClick = () => {
+		if (!primaryUrl) {
+			toast({
+				title: "אין קישור זמין",
+				description: "לא נמצא קישור ראשי ליוזמה זו.",
+				status: "warning",
+				duration: 3000,
+				isClosable: true,
+			});
+			return;
+		}
 		try {
-			window.open(link.url, "_blank", "noopener,noreferrer");
-		} catch (error) {
+			analyticsService.trackInitiativeClick(link.name, primaryUrl);
+			window.open(primaryUrl, "_blank", "noopener,noreferrer");
+		} catch {
 			toast({
 				title: "שגיאה בפתיחת הקישור",
 				description: "לא ניתן לפתוח את הקישור כרגע",
@@ -78,26 +73,44 @@ export const ShowMoreModal: React.FC<ShowMoreModalProps> = ({
 		}
 	};
 
-	// Handle close with callback
-	const handleClose = () => {
-		setOpenDialog(false);
+	const handleCopyShareLink = async () => {
+		const urlToCopy =
+			typeof window !== "undefined" && sharePath
+				? `${window.location.origin}${sharePath}`
+				: primaryUrl ||
+					(typeof window !== "undefined" ? window.location.href : "");
+
+		try {
+			await navigator.clipboard.writeText(urlToCopy);
+			toast({
+				title: isRtl ? "הקישור הועתק ללוח" : "Link copied",
+				status: "success",
+				duration: 2000,
+				isClosable: true,
+			});
+		} catch {
+			toast({
+				title: isRtl ? "לא ניתן להעתיק את הקישור" : "Could not copy link",
+				status: "error",
+				duration: 2000,
+				isClosable: true,
+			});
+		}
 	};
 
 	return (
-		<Box
-			bg={bgColor}
-			overflow="hidden"
-			role="dialog"
-			aria-labelledby="modal-title"
-			aria-describedby="modal-description"
-			style={{ direction: isRtl ? "rtl" : "ltr" }}
-		>
-			{/* Hero image section */}
-			{link.initiativeImage && (
+		<Box style={{ direction: isRtl ? "rtl" : "ltr" }}>
+			{link.initiativeImage && !imageError && (
 				<Box
-					position="relative"
-					h={{ base: "140px", md: "180px" }}
+					w="100%"
+					h={{ base: "150px", md: "190px" }}
+					bg="gray.50"
+					borderBottomWidth="1px"
+					borderColor="gray.100"
 					overflow="hidden"
+					display="flex"
+					alignItems="center"
+					justifyContent="center"
 				>
 					<Image
 						src={link.initiativeImage}
@@ -105,178 +118,123 @@ export const ShowMoreModal: React.FC<ShowMoreModalProps> = ({
 						w="100%"
 						h="100%"
 						objectFit="cover"
-						fallback={<Skeleton h="100%" />}
+						onError={() => setImageError(true)}
 					/>
-					<Box
-						position="absolute"
-						bottom={0}
-						left={0}
-						right={0}
-						h="100%"
-						bg={imageOverlayGradient}
-					/>
-					<Box position="absolute" bottom={0} left={0} right={0} p={6} pb={4}>
-						<Text
-							id="modal-title"
-							color={textColor}
-							fontSize={{ base: "xl", md: "2xl" }}
-							fontWeight="bold"
-							letterSpacing="tight"
-							lineHeight="1.2"
-						>
-							{link.displayName}
-						</Text>
-					</Box>
 				</Box>
 			)}
 
-			<VStack
-				spacing={5}
-				align="stretch"
-				p={6}
-				pt={link.initiativeImage ? 2 : 6}
-			>
-				{/* Title for cases without image */}
-				{!link.initiativeImage && (
-					<Text
-						id="modal-title"
-						fontSize={{ base: "xl", md: "2xl" }}
-						fontWeight="bold"
-						color={textColor}
-						letterSpacing="tight"
-					>
-						{link.displayName}
-					</Text>
-				)}
-
-				{/* Short description - highlighted */}
+			<VStack spacing={4} align="stretch" p={{ base: 5, md: 6 }}>
 				{link.shortDescription && (
 					<Text
 						fontSize={{ base: "md", md: "lg" }}
-						color={textColor}
-						fontWeight="medium"
-						lineHeight="1.7"
+						color="gray.800"
+						fontWeight="semibold"
+						lineHeight="1.6"
 					>
 						{link.shortDescription}
 					</Text>
 				)}
 
-				{/* Main description */}
 				{link.description && (
 					<Text
 						id="modal-description"
 						fontSize={{ base: "sm", md: "md" }}
-						color={subtleTextColor}
-						lineHeight="1.8"
+						color="gray.700"
+						lineHeight="1.75"
 						whiteSpace="pre-wrap"
 					>
 						{link.description}
 					</Text>
 				)}
 
-				{/* Initiative icons/links */}
-				<Box pt={2} borderTop="1px solid" borderColor={dividerColor}>
+				<Box>
 					<Text
 						fontSize="xs"
-						fontWeight="semibold"
-						color={subtleTextColor}
-						mb={3}
+						fontWeight="bold"
+						color="gray.500"
 						textTransform="uppercase"
-						letterSpacing="wide"
+						mb={1}
 					>
-						{isRtl ? "קישורים נוספים" : "Additional Links"}
+						{isRtl ? "קישורים ודרכי יצירת קשר" : "Links & Contact"}
 					</Text>
-					<InitiativeIcons link={link} />
+					<InitiativeIcons link={link} showContactDetails />
 				</Box>
 
-				{/* Action buttons */}
+				{link.tags && link.tags.length > 0 && (
+					<>
+						<Divider />
+						<Box>
+							<Text fontSize="xs" color="gray.500" fontWeight="semibold" mb={2}>
+								{isRtl ? "תגיות" : "Tags"}
+							</Text>
+							<Flex wrap="wrap" gap={1.5}>
+								{link.tags.slice(0, 8).map((tag, index) => (
+									<Badge
+										key={`${tag}-${index}`}
+										px={2.5}
+										py={1}
+										borderRadius="full"
+										colorScheme="blue"
+										variant="subtle"
+										fontWeight="medium"
+										fontSize="xs"
+									>
+										{tag}
+									</Badge>
+								))}
+							</Flex>
+						</Box>
+					</>
+				)}
+
+				<Divider />
+
 				<Flex
 					direction={{ base: "column", sm: "row" }}
-					gap={3}
-					pt={4}
-					justify={{ base: "stretch", sm: "flex-start" }}
+					gap={2.5}
+					justify="space-between"
 					align={{ base: "stretch", sm: "center" }}
 				>
-					<Button
-						ref={buttonRef}
-						size="lg"
-						onClick={handleLinkClick}
-						rightIcon={!isRtl ? <ExternalLinkIcon /> : undefined}
-						leftIcon={isRtl ? <ExternalLinkIcon /> : undefined}
-						bg={accentColor}
-						color="white"
-						_hover={{
-							bg: accentHoverColor,
-							transform: "translateY(-2px)",
-							boxShadow: "lg",
-						}}
-						_active={{
-							transform: "translateY(0)",
-							boxShadow: "md",
-						}}
-						transition="all 0.2s cubic-bezier(0.4, 0, 0.2, 1)"
-						borderRadius="xl"
-						px={8}
-						fontWeight="semibold"
-						boxShadow="md"
-						aria-label={`פתח יוזמה: ${link.displayName}`}
-					>
-						{isRtl ? "פתח יוזמה" : "Open Initiative"}
-					</Button>
+					<Flex gap={2.5} direction={{ base: "column", sm: "row" }} flex="1">
+						{primaryUrl && (
+							<Button
+								colorScheme="blue"
+								bg="brand.600"
+								_hover={{ bg: "brand.700", transform: "translateY(-1px)" }}
+								_active={{ transform: "translateY(0)" }}
+								size="md"
+								borderRadius="lg"
+								onClick={handleLinkClick}
+								rightIcon={!isRtl ? <ExternalLinkIcon /> : undefined}
+								leftIcon={isRtl ? <ExternalLinkIcon /> : undefined}
+								aria-label={`פתח יוזמה: ${link.displayName}`}
+							>
+								{isRtl ? "מעבר ליוזמה" : "Open Initiative"}
+							</Button>
+						)}
+
+						<Button
+							variant="outline"
+							colorScheme="blue"
+							size="md"
+							borderRadius="lg"
+							leftIcon={<FaLink />}
+							onClick={handleCopyShareLink}
+						>
+							{isRtl ? "העתק קישור" : "Copy Link"}
+						</Button>
+					</Flex>
 
 					<Button
 						variant="ghost"
-						size="lg"
-						onClick={handleClose}
-						color={subtleTextColor}
-						_hover={{
-							bg: dividerColor,
-							color: textColor,
-						}}
-						transition="all 0.2s"
-						borderRadius="xl"
-						px={6}
-						fontWeight="medium"
-						aria-label="סגור"
+						size="md"
+						borderRadius="lg"
+						onClick={() => setOpenDialog(false)}
+						colorScheme="gray"
 					>
 						{isRtl ? "סגור" : "Close"}
 					</Button>
 				</Flex>
-
-				{/* Tags section */}
-				{link.tags && link.tags.length > 0 && (
-					<Box pt={4} borderTop="1px solid" borderColor={dividerColor}>
-						<Flex wrap="wrap" gap={2}>
-							{link.tags.slice(0, 6).map((tag, index) => (
-								<Text
-									key={index}
-									fontSize="xs"
-									bg={tagBgColor}
-									color={subtleTextColor}
-									px={3}
-									py={1.5}
-									borderRadius="full"
-									border="1px solid"
-									borderColor={tagBorderColor}
-									fontWeight="medium"
-								>
-									{tag}
-								</Text>
-							))}
-							{link.tags.length > 6 && (
-								<Text
-									fontSize="xs"
-									color={subtleTextColor}
-									px={3}
-									py={1.5}
-									fontWeight="medium"
-								>
-									+{link.tags.length - 6}
-								</Text>
-							)}
-						</Flex>
-					</Box>
-				)}
 			</VStack>
 		</Box>
 	);

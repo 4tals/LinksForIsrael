@@ -1,11 +1,7 @@
-import { useCallback, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 
 import { analyticsService } from "@/app/utils/analytica/analytics";
-import {
-	Category,
-	InitiativeLink,
-	SubCategoryData,
-} from "@/app/utils/categories";
+import { Category, SubCategoryData } from "@/app/utils/categories";
 
 import { mapStringToHebrew } from "./SearchHelpers";
 
@@ -14,27 +10,32 @@ function filterCategories(
 	generalAssistanceSubCategory: SubCategoryData,
 	searchTerm: string,
 ): Category[] {
-	const lowerSearchTerm = searchTerm.toLowerCase();
+	const lowerSearchTerm = searchTerm.trim().toLowerCase();
+	if (!lowerSearchTerm) return [];
 
-	// Create a mock category for generalAssistanceSubCategory
 	const generalAssistanceCategory: Category = {
-		id: "",
-		name: "",
+		id: "GeneralAssistance",
+		name: "GeneralAssistance",
 		displayName: "סיוע אזרחי כללי",
-		longDisplayName: "",
+		longDisplayName: "סיוע אזרחי כללי",
 		description: "",
-		image: "", // Provide a default image or leave it empty
+		image: "",
 		subCategories: [generalAssistanceSubCategory],
 	};
 
 	const allCategories = [...categories, generalAssistanceCategory];
 
-	const filteredCategories: Category[] = allCategories
+	return allCategories
 		.map((category) => {
+			const categoryMatches =
+				category.displayName?.toLowerCase().includes(lowerSearchTerm) ||
+				category.name?.toLowerCase().includes(lowerSearchTerm);
+
 			const filteredSubCategories = category.subCategories
 				.map((subCategory) => {
 					const filteredLinks = subCategory.links.filter(
 						(link) =>
+							categoryMatches ||
 							link.name?.toLowerCase().includes(lowerSearchTerm) ||
 							link.displayName?.toLowerCase().includes(lowerSearchTerm) ||
 							link.description?.toLowerCase().includes(lowerSearchTerm) ||
@@ -51,37 +52,41 @@ function filterCategories(
 			return { ...category, subCategories: filteredSubCategories };
 		})
 		.filter((category) => category.subCategories.length > 0);
-
-	return filteredCategories;
 }
 
-function getResults(
+function searchCategories(
 	categories: Category[],
 	generalAssistanceSubCategory: SubCategoryData,
 	searchTerm: string,
-) {
-	if (!searchTerm) {
-		return [];
-	}
-	const results = filterCategories(
-		categories,
-		generalAssistanceSubCategory,
-		searchTerm,
-	);
-	if (results.length !== 0) {
-		return results;
+): { results: Category[]; mappedSearchTerm: string | null } {
+	const trimmed = searchTerm.trim();
+	if (!trimmed) {
+		return { results: [], mappedSearchTerm: null };
 	}
 
-	const mappedSearchTerm = mapStringToHebrew(searchTerm);
-	if (!mappedSearchTerm) {
-		return [];
-	}
-
-	return filterCategories(
+	const directResults = filterCategories(
 		categories,
 		generalAssistanceSubCategory,
-		mappedSearchTerm,
+		trimmed,
 	);
+	if (directResults.length > 0) {
+		return { results: directResults, mappedSearchTerm: null };
+	}
+
+	const mapped = mapStringToHebrew(trimmed);
+	if (!mapped) {
+		return { results: [], mappedSearchTerm: null };
+	}
+
+	const mappedResults = filterCategories(
+		categories,
+		generalAssistanceSubCategory,
+		mapped,
+	);
+	return {
+		results: mappedResults,
+		mappedSearchTerm: mappedResults.length > 0 ? mapped : null,
+	};
 }
 
 export function useSearch(
@@ -89,47 +94,64 @@ export function useSearch(
 	generalAssistanceSubCategory: SubCategoryData,
 ) {
 	const [search, setSearch] = useState("");
-	const [displaySearchResults, setDisplaySearchResults] = useState<Category[]>(
-		[],
-	);
 	const [isMobileSearchOpen, setIsMobileSearchOpen] = useState(false);
+	const analyticsTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+	const { results, mappedSearchTerm } = useMemo(
+		() => searchCategories(categories, generalAssistanceSubCategory, search),
+		[categories, generalAssistanceSubCategory, search],
+	);
+
+	const totalResults = useMemo(
+		() =>
+			results.reduce(
+				(catAcc, category) =>
+					catAcc +
+					category.subCategories.reduce(
+						(subAcc, sub) => subAcc + sub.links.length,
+						0,
+					),
+				0,
+			),
+		[results],
+	);
+
+	useEffect(() => {
+		if (analyticsTimerRef.current) {
+			clearTimeout(analyticsTimerRef.current);
+		}
+		const trimmed = search.trim();
+		if (!trimmed) return;
+
+		analyticsTimerRef.current = setTimeout(() => {
+			analyticsService.trackSearch(
+				trimmed,
+				totalResults,
+				Boolean(mappedSearchTerm),
+			);
+		}, 500);
+
+		return () => {
+			if (analyticsTimerRef.current) {
+				clearTimeout(analyticsTimerRef.current);
+			}
+		};
+	}, [search, totalResults, mappedSearchTerm]);
 
 	const toggleMobileSearch = useCallback(() => {
 		setIsMobileSearchOpen((prevState) => !prevState);
-	}, [setIsMobileSearchOpen]);
+	}, []);
 
-	function handleChangeSearch(searchTerm: string) {
+	const handleChangeSearch = useCallback((searchTerm: string) => {
 		setSearch(searchTerm);
-
-		let results = getResults(
-			categories,
-			generalAssistanceSubCategory,
-			searchTerm,
-		);
-		setDisplaySearchResults(results);
-
-		let usedHebrewMapping = false;
-
-		if (results.length === 0) {
-			const mappedSearchTerm = mapStringToHebrew(searchTerm);
-			if (mappedSearchTerm) {
-				usedHebrewMapping = true;
-				results = getResults(
-					categories,
-					generalAssistanceSubCategory,
-					mappedSearchTerm,
-				);
-				setDisplaySearchResults(results);
-			}
-		}
-
-		analyticsService.trackSearch(searchTerm, results.length, usedHebrewMapping);
-	}
+	}, []);
 
 	return {
 		search,
+		mappedSearchTerm,
 		onSearch: handleChangeSearch,
-		results: displaySearchResults,
+		results,
+		totalResults,
 		isMobileSearchOpen,
 		toggleMobileSearch,
 	} as const;

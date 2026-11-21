@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useLayoutEffect, useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 
 import { debounce } from "@/app/utils/debounce";
 
@@ -15,105 +15,115 @@ const initialScrollProps: ScrollProps = {
 };
 
 const getScrollableProps = (element: HTMLElement | null): ScrollProps => {
-	return element
-		? {
-				isScrollableLeft:
-					element.scrollLeft - 1 > element.clientWidth - element.scrollWidth,
-				isScrollableRight: element.scrollLeft < 0,
-			}
-		: initialScrollProps;
+	if (!element) return initialScrollProps;
+	const maxScroll = element.scrollWidth - element.clientWidth;
+	if (maxScroll <= 2) return initialScrollProps;
+
+	// In RTL containers, modern browsers use negative scrollLeft (0 at right edge, -maxScroll at left edge)
+	const scrollLeft = element.scrollLeft;
+	return {
+		isScrollableLeft: scrollLeft > -(maxScroll - 2),
+		isScrollableRight: scrollLeft < -2,
+	};
 };
 
-const withScroll = (WrappedComponent: React.ComponentType<any>) => {
-	const ComponentWithScroll = (props: any) => {
+function withScroll<P extends object>(
+	WrappedComponent: React.ComponentType<P>,
+) {
+	const ComponentWithScroll = (props: P) => {
 		const scrollableDivRef = useRef<HTMLDivElement | null>(null);
-		const leftButtonRef = useRef<HTMLButtonElement | null>(null);
-		const rightButtonRef = useRef<HTMLButtonElement | null>(null);
-		const [scrollableProps, setScrollableProps] = useState(initialScrollProps);
+		const [scrollableProps, setScrollableProps] =
+			useState<ScrollProps>(initialScrollProps);
+		const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
 		useEffect(() => {
-			if (!scrollableDivRef) return;
-			setScrollableProps(getScrollableProps(scrollableDivRef.current));
-		}, [scrollableDivRef]);
-
-		useLayoutEffect(() => {
-			if (
-				!scrollableDivRef.current ||
-				!leftButtonRef.current ||
-				!rightButtonRef.current
-			)
-				return;
 			const scrollableDiv = scrollableDivRef.current;
-			const leftButton = leftButtonRef.current;
-			const rightButton = rightButtonRef.current;
-			let interval: NodeJS.Timeout;
+			if (!scrollableDiv) return;
+
 			const updateScrollProps = (): void => {
-				setScrollableProps(getScrollableProps(scrollableDivRef.current));
+				setScrollableProps(getScrollableProps(scrollableDiv));
 			};
 
-			const pxToScroll = 350;
-			const millisecondsToScroll = 100;
+			const debouncedUpdate = debounce(updateScrollProps, 25);
+			updateScrollProps();
 
-			const scrollLeft = (): void => {
-				interval = setInterval(() => {
-					scrollableDiv.scrollLeft -= pxToScroll;
-				}, millisecondsToScroll);
-			};
-			const scrollRight = (): void => {
-				interval = setInterval(() => {
-					scrollableDiv.scrollLeft += pxToScroll;
-				}, millisecondsToScroll);
-			};
-			const stopScroll = (): void => {
-				clearInterval(interval);
-			};
-			scrollableDiv.addEventListener("scroll", debounce(updateScrollProps, 20));
-			leftButton.addEventListener("mousedown", scrollLeft);
-			leftButton.addEventListener("touchstart", scrollLeft);
-			leftButton.addEventListener("mouseup", stopScroll);
-			leftButton.addEventListener("touchend", stopScroll);
-			rightButton.addEventListener("mousedown", scrollRight);
-			rightButton.addEventListener("touchstart", scrollRight);
-			rightButton.addEventListener("mouseup", stopScroll);
-			rightButton.addEventListener("touchend", stopScroll);
-			return (): void => {
-				scrollableDiv.removeEventListener("scroll", updateScrollProps);
-				leftButton.removeEventListener("mousedown", scrollLeft);
-				leftButton.removeEventListener("touchstart", scrollLeft);
-				leftButton.removeEventListener("mouseup", stopScroll);
-				leftButton.removeEventListener("touchend", stopScroll);
-				rightButton.removeEventListener("mousedown", scrollRight);
-				rightButton.removeEventListener("touchstart", scrollRight);
-				rightButton.removeEventListener("mouseup", stopScroll);
-				rightButton.removeEventListener("touchend", stopScroll);
+			scrollableDiv.addEventListener("scroll", debouncedUpdate, {
+				passive: true,
+			});
+
+			const resizeObserver = new ResizeObserver(updateScrollProps);
+			resizeObserver.observe(scrollableDiv);
+
+			return () => {
+				scrollableDiv.removeEventListener("scroll", debouncedUpdate);
+				resizeObserver.disconnect();
+				if (intervalRef.current) {
+					clearInterval(intervalRef.current);
+				}
 			};
 		}, []);
+
+		const stopScroll = () => {
+			if (intervalRef.current) {
+				clearInterval(intervalRef.current);
+				intervalRef.current = null;
+			}
+		};
+
+		const startScroll = (delta: number) => {
+			const el = scrollableDivRef.current;
+			if (!el) return;
+			stopScroll();
+			el.scrollBy({ left: delta, behavior: "smooth" });
+			intervalRef.current = setInterval(() => {
+				el.scrollBy({ left: delta, behavior: "smooth" });
+			}, 220);
+		};
 
 		return (
 			<div className="scroll_wrapper">
 				<button
+					type="button"
+					aria-label="גלול שמאלה"
 					className={`chevron-button left ${
 						scrollableProps.isScrollableLeft ? "show" : "hide"
 					}`}
-					ref={leftButtonRef}
+					onMouseDown={() => startScroll(-280)}
+					onMouseUp={stopScroll}
+					onMouseLeave={stopScroll}
+					onTouchStart={() => startScroll(-280)}
+					onTouchEnd={stopScroll}
+					onTouchCancel={stopScroll}
 				>
-					<div className={`chevron left`} />
+					<div className="chevron left" />
 				</button>
 				<div className="scroll_section" ref={scrollableDivRef}>
 					<WrappedComponent {...props} />
 				</div>
 				<button
+					type="button"
+					aria-label="גלול ימינה"
 					className={`chevron-button right ${
 						scrollableProps.isScrollableRight ? "show" : "hide"
 					}`}
-					ref={rightButtonRef}
+					onMouseDown={() => startScroll(280)}
+					onMouseUp={stopScroll}
+					onMouseLeave={stopScroll}
+					onTouchStart={() => startScroll(280)}
+					onTouchEnd={stopScroll}
+					onTouchCancel={stopScroll}
 				>
-					<div className={`chevron right`} />
+					<div className="chevron right" />
 				</button>
 			</div>
 		);
 	};
+
+	ComponentWithScroll.displayName = `WithScroll(${
+		WrappedComponent.displayName || WrappedComponent.name || "Component"
+	})`;
+
 	return ComponentWithScroll;
-};
+}
 
 export { withScroll };

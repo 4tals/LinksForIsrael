@@ -1,44 +1,58 @@
+"use client";
+
 import NextLink from "next/link";
 
 import { Logo } from "@/app/components/Logo";
-import { Box, Grid, Text, Link as ChakraLink } from "@chakra-ui/react";
+import { Box, Button, Flex, Heading, Text, VStack } from "@chakra-ui/react";
 
 const NotFoundPage = () => {
 	return (
-		<NextLink href="/">
-			<Grid width="100vw" height="80vh" placeContent="center">
-				<Box position="relative" width={["95%", "80%", "400px"]}>
-					<Logo opacity={0.2} />
-					<Box position="absolute" left="0" top="0" width="100%" height="100%">
-						<Grid
-							fontSize={["lg", "xl", "2xl"]} // responsive font sizes
-							color="blue.600" // using Chakra UI color scheme
-							textAlign="center"
-							placeContent="center"
-							width="100%"
-							height="100%"
-							// responsive width
-							sx={{
-								textWrap: "balance",
-								gap: 3, // spacing between text elements
-							}}
-						>
-							<Text>אופס... כנראה שהתבלבלתם בהתנדבות</Text>
-							<Text>פה אין התנדבויות...</Text>
-							<ChakraLink as={NextLink} href="/">
-								תנו לנו לעזור לכם לחזור לעמוד הנכון...
-							</ChakraLink>
-							<Text
-								fontSize={["2xl", "3xl", "4xl"]} // larger font size for emphasis
-								fontWeight="bold"
-							>
-								ביחד ננצח!
-							</Text>
-						</Grid>
-					</Box>
+		<Flex
+			minH="65vh"
+			align="center"
+			justify="center"
+			px={4}
+			py={12}
+			position="relative"
+		>
+			<VStack
+				spacing={5}
+				textAlign="center"
+				maxW="480px"
+				bg="white"
+				p={{ base: 8, md: 10 }}
+				borderRadius="2xl"
+				boxShadow="md"
+				borderWidth="1px"
+				borderColor="gray.100"
+			>
+				<Box opacity={0.9}>
+					<Logo width={72} height={81} />
 				</Box>
-			</Grid>
-		</NextLink>
+				<Heading as="h2" size="lg" color="brand.600">
+					אופס... העמוד לא נמצא
+				</Heading>
+				<Text color="gray.600" fontSize="md">
+					כנראה שהתבלבלתם בקישור, פה אין יוזמות — אבל בעמוד הראשי מחכות לכם מאות
+					יוזמות פעילות.
+				</Text>
+				<Button
+					as={NextLink}
+					href="/"
+					colorScheme="blue"
+					bg="brand.600"
+					_hover={{ bg: "brand.700" }}
+					size="lg"
+					borderRadius="full"
+					px={8}
+				>
+					חזרה לעמוד הראשי
+				</Button>
+				<Text fontSize="xl" fontWeight="bold" color="brand.600">
+					ביחד ננצח!
+				</Text>
+			</VStack>
+		</Flex>
 	);
 };
 

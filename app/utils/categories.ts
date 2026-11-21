@@ -18,29 +18,64 @@ export interface SubCategoryData {
 export interface InitiativeLink {
 	name: string;
 	displayName: string;
-	shortDescription: string;
-	initiativeValidationDetails: string;
-	description: string;
-	url: string;
-	initiativeImage: string;
-	whatsapp: string;
-	telegram: string;
-	drive: string;
-	forms: string;
-	docs: string;
-	website: string;
-	facebook: string;
-	discord: string;
-	instagram: string;
-	tiktok: string;
-	twitter: string;
-	portal: string;
-	phone: string;
-	linkedin: string;
-	youtube: string;
-	email: string;
-	donation: string;
+	shortDescription?: string;
+	initiativeValidationDetails?: string;
+	description?: string;
+	url?: string;
+	initiativeImage?: string;
+	whatsapp?: string;
+	telegram?: string;
+	drive?: string;
+	form?: string;
+	forms?: string;
+	doc?: string;
+	docs?: string;
+	website?: string;
+	facebook?: string;
+	discord?: string;
+	instagram?: string;
+	tiktok?: string;
+	twitter?: string;
+	portal?: string;
+	phone?: string;
+	linkedin?: string;
+	youtube?: string;
+	email?: string;
+	contactEmail?: string;
+	donation?: string;
 	tags?: string[];
+	createdAt?: string;
+}
+
+export function getPrimaryInitiativeUrl(link: InitiativeLink): string | null {
+	const candidates = [
+		link.url,
+		link.website,
+		link.portal,
+		link.form,
+		link.forms,
+		link.whatsapp,
+		link.telegram,
+		link.facebook,
+		link.instagram,
+		link.donation,
+		link.drive,
+		link.docs,
+		link.doc,
+		link.youtube,
+		link.twitter,
+		link.linkedin,
+		link.tiktok,
+		link.discord,
+	];
+
+	for (const candidate of candidates) {
+		if (typeof candidate === "string" && candidate.trim().length > 0) {
+			return candidate.trim();
+		}
+	}
+
+	return null;
 }
 
 export async function getCategories() {

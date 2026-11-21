@@ -1,20 +1,18 @@
-import React from "react";
+"use client";
 
-import {
-	Flex,
-	Box,
-	Link,
-	Heading,
-	useMediaQuery,
-	Container,
-} from "@chakra-ui/react";
+import NextLink from "next/link";
+import React, { useContext } from "react";
+
+import { Logo } from "@/app/components/Logo";
+import { SearchContext } from "@/app/components/RootApp";
+import { Box, Container, Flex, Heading, HStack } from "@chakra-ui/react";
 
 import { AddSite } from "../AddSite";
 import { SearchButtonMobile } from "../Search/SearchButtonMobile";
 import { SearchInput } from "../Search/SearchInput";
 
 export function Header() {
-	const [isLargerThan768] = useMediaQuery("(min-width: 768px)");
+	const { onSearch } = useContext(SearchContext);
 
 	return (
 		<Box
@@ -22,49 +20,64 @@ export function Header() {
 			position="sticky"
 			top={0}
 			zIndex={1000}
-			bg="linear-gradient(135deg, #1a1a2e 0%, #16213e 100%)"
-			borderBottom="1px solid"
-			borderColor="whiteAlpha.100"
-			backdropFilter="blur(10px)"
-			boxShadow="0 4px 20px rgba(0, 0, 0, 0.15)"
+			bg="brand.600"
+			bgGradient="linear(to-l, brand.600, brand.500)"
+			color="white"
+			boxShadow="sm"
 		>
-			<Container maxW="container.xl" py={3} px={{ base: 4, md: 6 }}>
+			<Container maxW="1440px" py={3} px={{ base: 3, md: 6 }}>
 				<Flex align="center" justify="space-between" gap={4}>
-					{/* Logo / Title */}
-					<Link
-						href="/"
-						_hover={{ textDecoration: "none", opacity: 0.9 }}
-						transition="opacity 0.2s ease"
-						flex={{ base: "1", md: "0 0 auto" }}
-					>
-						<Heading
-							as="h1"
-							fontSize={{ base: "lg", md: "xl" }}
-							fontWeight="600"
-							color="white"
-							letterSpacing="tight"
-							whiteSpace="nowrap"
+					<Flex align="center" flex={{ base: "1", md: "0 0 auto" }}>
+						<NextLink
+							href="/"
+							onClick={() => onSearch("")}
+							style={{
+								display: "inline-flex",
+								alignItems: "center",
+								gap: "10px",
+								textDecoration: "none",
+							}}
 						>
-							🔗 פורטל לינק לישראל
-						</Heading>
-					</Link>
-
-					{/* Search - Desktop */}
-					{isLargerThan768 && (
-						<Flex flex="1" justify="center" maxW="400px" mx={4}>
-							<SearchInput />
-						</Flex>
-					)}
-
-					{/* Actions */}
-					<Flex
-						align="center"
-						gap={2}
-						flex={{ base: "0 0 auto", md: "0 0 auto" }}
-					>
-						<AddSite />
-						{!isLargerThan768 && <SearchButtonMobile />}
+							<Box
+								bg="white"
+								borderRadius="lg"
+								p={1.5}
+								display="flex"
+								alignItems="center"
+								justifyContent="center"
+								boxShadow="sm"
+							>
+								<Logo width={26} height={29} />
+							</Box>
+							<Heading
+								as="h1"
+								fontSize={{ base: "lg", md: "xl" }}
+								fontWeight="bold"
+								letterSpacing="-0.01em"
+								color="white"
+								whiteSpace="nowrap"
+							>
+								לינק לישראל
+							</Heading>
+						</NextLink>
 					</Flex>
+
+					<Flex
+						display={{ base: "none", md: "flex" }}
+						flex="1"
+						justify="center"
+						maxW="540px"
+						mx="auto"
+					>
+						<SearchInput />
+					</Flex>
+
+					<HStack spacing={2} flex="0 0 auto">
+						<AddSite />
+						<Box display={{ base: "block", md: "none" }}>
+							<SearchButtonMobile />
+						</Box>
+					</HStack>
 				</Flex>
 			</Container>
 		</Box>

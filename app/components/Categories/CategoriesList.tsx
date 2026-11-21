@@ -5,16 +5,7 @@ import React, { useContext, useEffect } from "react";
 
 import { SearchContext } from "@/app/components/RootApp";
 import { withScroll } from "@/app/components/withScroll/withScroll";
-import {
-	Box,
-	Flex,
-	Image,
-	LinkBox,
-	LinkOverlay,
-	Text,
-	Tooltip,
-	useMediaQuery,
-} from "@chakra-ui/react";
+import { Badge, Box, Flex, Image, Text } from "@chakra-ui/react";
 
 import { analyticsService } from "../../utils/analytica/analytics";
 import { Category as CategoryType } from "../../utils/categories";
@@ -24,7 +15,7 @@ interface CategoriesListProps {
 	categoryId?: string;
 }
 
-const getNumberOfInitiatives = (category: CategoryType) =>
+export const getNumberOfInitiatives = (category: CategoryType) =>
 	category.subCategories.reduce(
 		(acc: number, subcategory) => acc + subcategory.links.length,
 		0,
@@ -35,123 +26,104 @@ const CategoriesList: React.FC<CategoriesListProps> = ({
 	categoryId,
 }) => {
 	const { search, onSearch } = useContext(SearchContext);
-	const [isLargerThan768] = useMediaQuery("(min-width: 768px)");
 
 	useEffect(() => {
-		if (!isLargerThan768 && categoryId) {
-			const selected = document.getElementById(categoryId);
+		if (categoryId) {
+			const selected = document.getElementById(`cat-nav-${categoryId}`);
 			if (selected) {
-				selected.scrollIntoView({ behavior: "smooth", block: "nearest" });
+				selected.scrollIntoView({
+					behavior: "smooth",
+					block: "nearest",
+					inline: "center",
+				});
 			}
 		}
-	}, [categoryId, isLargerThan768]);
-
-	const isSelected = (category: CategoryType) =>
-		!search && category.id === categoryId;
-
-	const handleCategoryClick = (category: CategoryType) => {
-		analyticsService.trackCategoryView(category.id);
-		onSearch("");
-	};
+	}, [categoryId]);
 
 	return (
 		<Flex
+			as="nav"
+			aria-label="קטגוריות יוזמות"
 			direction="row"
 			wrap="nowrap"
-			py={4}
-			px={2}
+			py={3}
+			px={{ base: 3, md: 6 }}
+			gap={2.5}
 			alignItems="stretch"
-			gap={3}
 		>
-			{categories.map((category) => (
-				<Tooltip
-					label={category.displayName}
-					placement="top"
-					hasArrow
-					key={category.name}
-					bg="gray.800"
-					color="white"
-					fontSize="sm"
-					px={3}
-					py={2}
-					borderRadius="lg"
-				>
-					<LinkBox
-						as="article"
-						id={category.name}
-						p={4}
-						borderRadius="xl"
-						bg={isSelected(category) ? "blue.50" : "white"}
-						boxShadow={
-							isSelected(category)
-								? "0 4px 20px rgba(66, 153, 225, 0.3)"
-								: "0 2px 8px rgba(0, 0, 0, 0.06)"
-						}
-						border="1px solid"
-						borderColor={isSelected(category) ? "blue.200" : "transparent"}
-						_hover={{
-							boxShadow: "0 8px 24px rgba(0, 0, 0, 0.12)",
-							transform: "translateY(-4px)",
-							bg: isSelected(category) ? "blue.50" : "gray.50",
+			{categories.map((category) => {
+				const isActive = !search && category.id === categoryId;
+				const count = getNumberOfInitiatives(category);
+
+				return (
+					<Box
+						as={Link}
+						key={category.id}
+						id={`cat-nav-${category.id}`}
+						href={`/${category.id}`}
+						onClick={() => {
+							analyticsService.trackCategoryView(category.id);
+							onSearch("");
 						}}
-						transition="all 0.25s cubic-bezier(0.4, 0, 0.2, 1)"
-						minW="100px"
 						display="flex"
 						flexDirection="column"
 						alignItems="center"
-						justifyContent="center"
-						cursor="pointer"
+						justifyContent="space-between"
+						minW="104px"
+						maxW="120px"
+						px={3}
+						py={2.5}
+						borderWidth="1.5px"
+						borderColor={isActive ? "brand.600" : "gray.200"}
+						borderRadius="xl"
+						bg={isActive ? "brand.50" : "white"}
+						boxShadow={isActive ? "sm" : "none"}
+						transition="all 0.2s ease"
+						_hover={{
+							borderColor: "brand.400",
+							bg: isActive ? "brand.50" : "gray.50",
+							transform: "translateY(-2px)",
+							boxShadow: "sm",
+						}}
+						flexShrink={0}
+						position="relative"
 					>
-						{category.image && (
-							<Box
-								p={2}
-								borderRadius="full"
-								bg={isSelected(category) ? "blue.100" : "gray.50"}
-								mb={3}
-								transition="all 0.25s ease"
-							>
-								<Image
-									src={category.image}
-									alt={`${category.displayName} Icon`}
-									boxSize="44px"
-									objectFit="contain"
-								/>
-							</Box>
-						)}
-						<LinkOverlay
-							as={Link}
-							href={`/${category.id}`}
-							onClick={() => handleCategoryClick(category)}
-							_focus={{ outline: "none", boxShadow: "none" }}
-							_focusVisible={{
-								outline: "2px solid",
-								outlineColor: "blue.400",
-								outlineOffset: "2px",
-								borderRadius: "md",
-							}}
+						<Badge
+							position="absolute"
+							top={1.5}
+							left={1.5}
+							colorScheme={isActive ? "blue" : "gray"}
+							variant={isActive ? "solid" : "subtle"}
+							fontSize="2xs"
+							borderRadius="full"
+							px={1.5}
 						>
-							<Text
-								fontSize="sm"
-								fontWeight={isSelected(category) ? "700" : "600"}
-								color={isSelected(category) ? "blue.700" : "gray.700"}
-								textAlign="center"
-								lineHeight="1.3"
-								noOfLines={2}
-							>
-								{category.displayName}
-							</Text>
-						</LinkOverlay>
+							{count}
+						</Badge>
+
+						{category.image && (
+							<Image
+								src={category.image}
+								alt=""
+								boxSize="34px"
+								objectFit="contain"
+								mt={1}
+								mb={1.5}
+							/>
+						)}
 						<Text
 							fontSize="xs"
-							color={isSelected(category) ? "blue.500" : "gray.400"}
-							mt={1}
-							fontWeight="500"
+							fontWeight={isActive ? "bold" : "semibold"}
+							color={isActive ? "brand.700" : "gray.700"}
+							textAlign="center"
+							lineHeight="1.25"
+							noOfLines={2}
 						>
-							{getNumberOfInitiatives(category)} יוזמות
+							{category.displayName}
 						</Text>
-					</LinkBox>
-				</Tooltip>
-			))}
+					</Box>
+				);
+			})}
 		</Flex>
 	);
 };

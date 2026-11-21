@@ -32,13 +32,9 @@ export async function generateStaticParams(): Promise<
 		return [base, ...subCategories];
 	});
 
-	const params = [[] satisfies CategoryParam, ...categoryParams].map(
-		(category) => ({
-			category,
-		}),
-	);
-
-	return params;
+	return [[] satisfies CategoryParam, ...categoryParams].map((category) => ({
+		category,
+	}));
 }
 
 type CategoryParams = Awaited<
@@ -52,17 +48,21 @@ export default async function Category({
 }) {
 	const categories = await getCategories();
 	const assistanceSubCategory = await getAssistanceSubCategory();
-	const [categoryId] = params.category || [];
+	const [categoryId, subCategoryName, linkName] = params.category || [];
 
 	return (
 		<>
-			<ScrollableCategoriesList
-				categories={categories}
-				categoryId={categoryId}
-			/>
+			{categoryId && (
+				<ScrollableCategoriesList
+					categories={categories}
+					categoryId={categoryId}
+				/>
+			)}
 			<Body
 				categories={categories}
 				categoryId={categoryId}
+				subCategoryName={subCategoryName}
+				linkName={linkName}
 				assistanceSubCategory={assistanceSubCategory}
 			/>
 		</>

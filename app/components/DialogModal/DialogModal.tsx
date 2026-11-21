@@ -1,15 +1,15 @@
+"use client";
+
 import React from "react";
 
-import { CloseIcon } from "@chakra-ui/icons";
 import {
-	Modal,
-	ModalOverlay,
-	ModalContent,
-	ModalBody,
-	useDisclosure,
 	Box,
-	IconButton,
-	useColorModeValue,
+	Modal,
+	ModalBody,
+	ModalCloseButton,
+	ModalContent,
+	ModalHeader,
+	ModalOverlay,
 } from "@chakra-ui/react";
 
 type DialogModalProps = {
@@ -25,69 +25,50 @@ export function DialogModal({
 	body,
 	open = false,
 	toggleModal,
-	isRtl,
+	isRtl = true,
 }: DialogModalProps) {
-	const { isOpen, onClose } = useDisclosure({ isOpen: open });
-
-	// All color mode values at top level
-	const overlayBg = useColorModeValue(
-		"rgba(0, 0, 0, 0.4)",
-		"rgba(0, 0, 0, 0.6)",
-	);
-	const contentBg = useColorModeValue("white", "gray.800");
-	const closeBtnBg = useColorModeValue("gray.100", "gray.700");
-	const closeBtnHoverBg = useColorModeValue("gray.200", "gray.600");
-	const closeBtnColor = useColorModeValue("gray.600", "gray.300");
-
-	React.useEffect(() => {
-		if (open !== isOpen) {
-			toggleModal(isOpen);
-		}
-	}, [isOpen, open, toggleModal]);
+	const handleClose = () => {
+		toggleModal(false);
+	};
 
 	return (
 		<Modal
-			isOpen={isOpen}
-			onClose={onClose}
+			isOpen={open}
+			onClose={handleClose}
 			isCentered
-			size="xl"
-			motionPreset="slideInBottom"
+			size={{ base: "full", sm: "lg", md: "xl" }}
+			scrollBehavior="inside"
 		>
-			<ModalOverlay bg={overlayBg} backdropFilter="blur(8px)" />
+			<ModalOverlay bg="blackAlpha.500" backdropFilter="blur(2px)" />
 			<ModalContent
-				borderRadius="2xl"
-				m={4}
-				boxShadow="2xl"
-				bg={contentBg}
+				borderRadius={{ base: 0, sm: "xl" }}
 				overflow="hidden"
-				maxH="90vh"
+				boxShadow="2xl"
+				dir={isRtl ? "rtl" : "ltr"}
+				maxH={{ base: "100dvh", sm: "88vh" }}
 			>
-				{/* Floating close button */}
-				<IconButton
-					icon={<CloseIcon boxSize={3} />}
-					variant="solid"
-					bg={closeBtnBg}
-					color={closeBtnColor}
-					size="sm"
-					position="absolute"
-					top={3}
-					right={isRtl ? "unset" : 3}
+				<ModalHeader
+					bg="brand.600"
+					color="white"
+					fontSize={{ base: "lg", md: "xl" }}
+					fontWeight="bold"
+					py={4}
+					px={6}
+					pl={isRtl ? 12 : 6}
+					pr={isRtl ? 6 : 12}
+				>
+					{title}
+				</ModalHeader>
+				<ModalCloseButton
+					color="white"
+					size="md"
+					top={3.5}
 					left={isRtl ? 3 : "unset"}
-					zIndex={10}
-					onClick={() => toggleModal(false)}
-					aria-label="Close modal"
-					borderRadius="full"
-					boxShadow="md"
-					_hover={{
-						bg: closeBtnHoverBg,
-						transform: "scale(1.05)",
-					}}
-					_active={{
-						transform: "scale(0.95)",
-					}}
-					transition="all 0.2s cubic-bezier(0.4, 0, 0.2, 1)"
+					right={isRtl ? "unset" : 3}
+					_hover={{ bg: "whiteAlpha.200" }}
+					aria-label="סגור חלון"
 				/>
-				<ModalBody p={0} overflowY="auto">
+				<ModalBody p={0}>
 					<Box>{body}</Box>
 				</ModalBody>
 			</ModalContent>

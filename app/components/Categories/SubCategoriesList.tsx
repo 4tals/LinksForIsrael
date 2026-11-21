@@ -1,20 +1,23 @@
-import React, { useState } from "react";
+"use client";
+
+import React, { useEffect, useState } from "react";
 import { MdKeyboardArrowDown } from "react-icons/md";
 
 import { InitiativeList } from "@/app/components/Initiative/InitiativeList";
-import { withScroll } from "@/app/components/withScroll/withScroll";
 import { InitiativeLink, SubCategoryData } from "@/app/utils/categories";
 import {
-	VStack,
-	Heading,
-	Divider,
+	Badge,
 	Box,
-	Icon,
 	Collapse,
-	useColorModeValue,
+	Divider,
+	Flex,
+	Heading,
+	Icon,
+	VStack,
 } from "@chakra-ui/react";
 
 interface SubCategoriesListProps {
+	categoryId?: string;
 	subCategories: SubCategoryData[];
 	setDescription: React.Dispatch<
 		React.SetStateAction<{
@@ -26,78 +29,97 @@ interface SubCategoriesListProps {
 }
 
 export const SubCategoriesList: React.FC<SubCategoriesListProps> = ({
+	categoryId,
 	subCategories,
 	setDescription,
 	setOpenDialog,
 }) => {
-	const [openSections, setOpenSections] = useState(
-		new Set(subCategories.map((sub) => sub.name)),
+	const [openSections, setOpenSections] = useState<Set<string>>(
+		() => new Set(subCategories.map((sub) => sub.name)),
 	);
 
+	// Keep sections open when navigating categories or updating search results
+	useEffect(() => {
+		setOpenSections(new Set(subCategories.map((sub) => sub.name)));
+	}, [subCategories]);
+
 	const toggleSection = (name: string) => {
-		const newOpenSections = new Set(openSections);
-		if (newOpenSections.has(name)) {
-			newOpenSections.delete(name);
-		} else {
-			newOpenSections.add(name);
-		}
-		setOpenSections(newOpenSections);
+		setOpenSections((prev) => {
+			const next = new Set(prev);
+			if (next.has(name)) {
+				next.delete(name);
+			} else {
+				next.add(name);
+			}
+			return next;
+		});
 	};
 
-	const dividerColor = useColorModeValue("blue.300", "blue.500");
-
 	return (
-		<VStack spacing={6} align="stretch" mt={5} mx={4}>
-			{subCategories.map((subcategory) => (
-				<Box
-					key={subcategory.name}
-					boxShadow="sm"
-					rounded="lg"
-					p={4}
-					bg="white"
-					// _hover={{ boxShadow: "md" }}
-				>
+		<VStack spacing={5} align="stretch" mt={4}>
+			{subCategories.map((subcategory) => {
+				const isOpen = openSections.has(subcategory.name);
+				return (
 					<Box
-						display="flex"
-						alignItems="center"
-						cursor="pointer"
-						onClick={() => toggleSection(subcategory.name)}
+						key={subcategory.name}
+						id={`subcategory-${subcategory.name}`}
+						scrollMarginTop="84px"
+						bg="white"
+						borderWidth="1px"
+						borderColor="gray.200"
+						boxShadow="xs"
+						rounded="xl"
+						p={{ base: 4, md: 5 }}
 					>
-						<Icon
-							as={MdKeyboardArrowDown}
-							color="blue.500"
-							w={6}
-							h={6}
-							transform={
-								openSections.has(subcategory.name)
-									? "rotate(0deg)"
-									: "rotate(90deg)"
-							}
-							transition="transform 0.2s ease-in-out"
-						/>
-						<Heading
-							as="h3"
-							size="md"
-							ml={2}
-							fontWeight="semibold"
-							color="blue.600"
+						<Flex
+							as="button"
+							type="button"
+							w="100%"
+							align="center"
+							justify="space-between"
+							cursor="pointer"
+							onClick={() => toggleSection(subcategory.name)}
+							aria-expanded={isOpen}
+							textAlign="right"
 						>
-							{subcategory.displayName}
-						</Heading>
+							<Flex align="center" gap={2}>
+								<Icon
+									as={MdKeyboardArrowDown}
+									color="brand.600"
+									w={6}
+									h={6}
+									transform={isOpen ? "rotate(0deg)" : "rotate(90deg)"}
+									transition="transform 0.2s ease-in-out"
+								/>
+								<Heading as="h3" size="md" fontWeight="bold" color="gray.800">
+									{subcategory.displayName}
+								</Heading>
+								<Badge
+									colorScheme="blue"
+									variant="subtle"
+									borderRadius="full"
+									px={2.5}
+									py={0.5}
+									fontSize="xs"
+								>
+									{subcategory.links.length}
+								</Badge>
+							</Flex>
+						</Flex>
+
+						<Collapse in={isOpen} animateOpacity>
+							<Divider borderColor="gray.100" my={3} />
+							<InitiativeList
+								links={subcategory.links}
+								name={subcategory.name}
+								categoryId={categoryId}
+								setDescription={setDescription}
+								setOpenDialog={setOpenDialog}
+							/>
+						</Collapse>
 					</Box>
-					<Divider borderColor={dividerColor} borderWidth={1} my={2} />
-					<Collapse in={openSections.has(subcategory.name)} animateOpacity>
-						<ScrollableLinksList
-							links={subcategory.links}
-							name={subcategory.name}
-							setDescription={setDescription}
-							setOpenDialog={setOpenDialog}
-						/>
-					</Collapse>
-				</Box>
-			))}
+				);
+			})}
 		</VStack>
 	);
 };
-
-const ScrollableLinksList = withScroll(InitiativeList);

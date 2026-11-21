@@ -1,84 +1,103 @@
+"use client";
+
 import React, { useEffect, useState } from "react";
 import {
-	FaTelegramPlane,
-	FaWhatsapp,
 	FaLink,
 	FaShareAlt,
+	FaTelegramPlane,
+	FaWhatsapp,
 } from "react-icons/fa";
 
 import {
 	Flex,
 	IconButton,
 	Link,
+	Tooltip,
 	useClipboard,
 	useToast,
-	Tooltip,
 } from "@chakra-ui/react";
 
 export function ShareButtons({ category }: { category: string }) {
 	const [currentUrl, setCurrentUrl] = useState("");
+	const [canNativeShare, setCanNativeShare] = useState(false);
+
 	useEffect(() => {
 		if (typeof window !== "undefined") {
 			setCurrentUrl(window.location.href);
+			setCanNativeShare(
+				typeof navigator !== "undefined" &&
+					"share" in navigator &&
+					window.innerWidth <= 768,
+			);
 		}
 	}, []);
 
 	const { onCopy } = useClipboard(currentUrl);
 	const toast = useToast();
+
 	const handleCopy = () => {
 		onCopy();
 		toast({
-			title: "Link copied",
+			title: "הקישור הועתק ללוח",
 			status: "success",
 			duration: 2000,
 			isClosable: true,
 		});
 	};
 
-	const isMobile = typeof navigator !== "undefined" && "share" in navigator;
+	const encodedUrl = encodeURIComponent(currentUrl);
+	const encodedText = encodeURIComponent(
+		`פורטל לינק לישראל - ${category}: ${currentUrl}`,
+	);
 
-	return isMobile ? (
-		<MobileShareButton url={currentUrl} category={category} />
-	) : (
-		<Flex alignItems="center" gap={2}>
-			<Tooltip label="Copy link" aria-label="Tooltip for copy link button">
+	if (canNativeShare) {
+		return <MobileShareButton url={currentUrl} category={category} />;
+	}
+
+	return (
+		<Flex alignItems="center" gap={1.5}>
+			<Tooltip label="העתק קישור" hasArrow>
 				<IconButton
-					aria-label="Copy link"
+					aria-label="העתק קישור"
 					icon={<FaLink />}
 					onClick={handleCopy}
 					size="sm"
-					fontWeight={500}
-					color="blue.500" // Custom color for the link icon
+					variant="ghost"
+					borderRadius="full"
+					color="brand.600"
+					_hover={{ bg: "blue.50" }}
 				/>
 			</Tooltip>
-			<Link href={`https://wa.me/?text=${currentUrl}`} isExternal>
-				<Tooltip
-					label="Share on WhatsApp"
-					aria-label="Tooltip for WhatsApp button"
-				>
-					<IconButton
-						icon={<FaWhatsapp />}
-						aria-label="Share on WhatsApp"
-						size="sm"
-						fontWeight={500}
-						color="#25D366" // WhatsApp color
-					/>
-				</Tooltip>
-			</Link>
-			<Link href={`https://t.me/share/url?url=${currentUrl}`} isExternal>
-				<Tooltip
-					label="Share on Telegram"
-					aria-label="Tooltip for Telegram button"
-				>
-					<IconButton
-						icon={<FaTelegramPlane />}
-						aria-label="Share on Telegram"
-						size="sm"
-						fontWeight={500}
-						color="#0088cc" // Telegram color
-					/>
-				</Tooltip>
-			</Link>
+			<Tooltip label="שתף בוואטסאפ" hasArrow>
+				<IconButton
+					as={Link}
+					href={`https://wa.me/?text=${encodedText}`}
+					isExternal
+					aria-label="שתף בוואטסאפ"
+					icon={<FaWhatsapp />}
+					size="sm"
+					variant="ghost"
+					borderRadius="full"
+					color="#25D366"
+					_hover={{ bg: "green.50" }}
+				/>
+			</Tooltip>
+			<Tooltip label="שתף בטלגרם" hasArrow>
+				<IconButton
+					as={Link}
+					href={`https://t.me/share/url?url=${encodedUrl}&text=${encodeURIComponent(
+						`פורטל לינק לישראל - ${category}`,
+					)}`}
+					isExternal
+					aria-label="שתף בטלגרם"
+					icon={<FaTelegramPlane />}
+					size="sm"
+					variant="ghost"
+					borderRadius="full"
+					color="#0088cc"
+					_hover={{ bg: "blue.50" }}
+				/>
+			</Tooltip>
 		</Flex>
 	);
 }
@@ -93,21 +112,24 @@ function MobileShareButton({
 	const onMobileShare = async () => {
 		try {
 			await navigator.share({
-				title: "פורטל לינק לישראל - כל אתרי הסיוע למלחמה במקום אחד 🇮🇱",
+				title: "פורטל לינק לישראל - כל אתרי הסיוע במקום אחד",
 				text: category,
 				url,
 			});
-		} catch (err) {
-			console.error(err);
+		} catch {
+			// User cancelled native share sheet
 		}
 	};
 
 	return (
 		<IconButton
-			aria-label="Share"
+			aria-label="שתף את העמוד"
 			icon={<FaShareAlt />}
 			onClick={onMobileShare}
 			size="sm"
+			variant="outline"
+			colorScheme="blue"
+			borderRadius="full"
 		/>
 	);
 }
