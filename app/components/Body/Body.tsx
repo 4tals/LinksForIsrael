@@ -78,6 +78,7 @@ export const Body: React.FC<Props> = ({
 									subCategories={category.subCategories}
 									categoryName={category.displayName}
 									categoryDescription={category.description}
+									headingAs="h2"
 								/>
 							</Box>
 						))}

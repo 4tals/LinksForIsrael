@@ -2,8 +2,13 @@ import { MetadataRoute } from "next";
 
 import { getCategories } from "@/app/utils/categories";
 import { getAllDocs } from "@/app/utils/docs-links";
+import { SITE_URL } from "@/app/utils/seo";
 
-const BASE_URL = "https://www.linksforisrael.com";
+function parseDate(value?: string): Date {
+	if (!value) return new Date();
+	const parsed = new Date(value);
+	return Number.isNaN(parsed.getTime()) ? new Date() : parsed;
+}
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 	const [categories, docs] = await Promise.all([getCategories(), getAllDocs()]);
@@ -11,7 +16,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
 	const routes: MetadataRoute.Sitemap = [
 		{
-			url: BASE_URL,
+			url: SITE_URL,
 			lastModified: now,
 			changeFrequency: "daily",
 			priority: 1,
@@ -19,28 +24,37 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 	];
 
 	for (const category of categories) {
+		const categoryPath = `${SITE_URL}/${encodeURIComponent(category.id)}`;
 		routes.push({
-			url: `${BASE_URL}/${encodeURIComponent(category.id)}`,
+			url: categoryPath,
 			lastModified: now,
 			changeFrequency: "weekly",
-			priority: 0.8,
+			priority: 0.9,
 		});
 
 		for (const subCategory of category.subCategories) {
+			const subPath = `${categoryPath}/${encodeURIComponent(subCategory.name)}`;
 			routes.push({
-				url: `${BASE_URL}/${encodeURIComponent(category.id)}/${encodeURIComponent(
-					subCategory.name,
-				)}`,
+				url: subPath,
 				lastModified: now,
 				changeFrequency: "weekly",
-				priority: 0.6,
+				priority: 0.7,
 			});
+
+			for (const link of subCategory.links) {
+				routes.push({
+					url: `${subPath}/${encodeURIComponent(link.name)}`,
+					lastModified: parseDate(link.createdAt),
+					changeFrequency: "monthly",
+					priority: 0.5,
+				});
+			}
 		}
 	}
 
 	for (const doc of docs) {
 		routes.push({
-			url: `${BASE_URL}/docs/${encodeURIComponent(doc.id)}`,
+			url: `${SITE_URL}/docs/${encodeURIComponent(doc.id)}`,
 			lastModified: now,
 			changeFrequency: "monthly",
 			priority: 0.5,

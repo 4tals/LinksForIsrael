@@ -107,7 +107,7 @@ export const NoCategoryZeroState: React.FC<NoCategoryZeroStateProps> = ({
 					</HStack>
 
 					<Heading
-						as="h2"
+						as="h1"
 						fontSize={{ base: "2xl", md: "4xl" }}
 						fontWeight="bold"
 						color="brand.700"

@@ -8,11 +8,13 @@ import { Box, Flex, Heading, Text } from "@chakra-ui/react";
 interface ShareSectionProps {
 	categoryName: string;
 	categoryDescription?: string;
+	headingAs?: "h1" | "h2";
 }
 
 export const ShareSection: React.FC<ShareSectionProps> = ({
 	categoryName,
 	categoryDescription,
+	headingAs = "h1",
 }) => {
 	return (
 		<Box
@@ -30,7 +32,11 @@ export const ShareSection: React.FC<ShareSectionProps> = ({
 				gap={3}
 			>
 				<Box>
-					<Heading as="h2" size={{ base: "md", md: "lg" }} color="brand.700">
+					<Heading
+						as={headingAs}
+						size={{ base: "md", md: "lg" }}
+						color="brand.700"
+					>
 						{categoryName}
 					</Heading>
 					{categoryDescription && (

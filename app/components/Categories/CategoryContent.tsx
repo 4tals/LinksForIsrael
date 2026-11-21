@@ -15,6 +15,7 @@ interface CategoryContentProps {
 	categoryDescription?: string;
 	initialSubCategoryName?: string;
 	initialLinkName?: string;
+	headingAs?: "h1" | "h2";
 }
 
 const containsHebrewLetters = (str: string): boolean =>
@@ -27,6 +28,7 @@ export const CategoryContent = ({
 	categoryDescription,
 	initialSubCategoryName,
 	initialLinkName,
+	headingAs = "h1",
 }: CategoryContentProps) => {
 	const [openDialog, setOpenDialog] = useState(false);
 	const [description, setDescription] = useState<{
@@ -93,6 +95,7 @@ export const CategoryContent = ({
 				<ShareSection
 					categoryName={categoryName}
 					categoryDescription={categoryDescription}
+					headingAs={headingAs}
 				/>
 			)}
 

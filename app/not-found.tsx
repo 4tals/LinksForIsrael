@@ -29,7 +29,7 @@ const NotFoundPage = () => {
 				<Box opacity={0.9}>
 					<Logo width={72} height={81} />
 				</Box>
-				<Heading as="h2" size="lg" color="brand.600">
+				<Heading as="h1" size="lg" color="brand.600">
 					אופס... העמוד לא נמצא
 				</Heading>
 				<Text color="gray.600" fontSize="md">

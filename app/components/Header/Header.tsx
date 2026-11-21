@@ -5,7 +5,7 @@ import React, { useContext } from "react";
 
 import { Logo } from "@/app/components/Logo";
 import { SearchContext } from "@/app/components/RootApp";
-import { Box, Container, Flex, Heading, HStack } from "@chakra-ui/react";
+import { Box, Container, Flex, HStack, Text } from "@chakra-ui/react";
 
 import { AddSite } from "../AddSite";
 import { SearchButtonMobile } from "../Search/SearchButtonMobile";
@@ -49,8 +49,8 @@ export function Header() {
 							>
 								<Logo width={26} height={29} />
 							</Box>
-							<Heading
-								as="h1"
+							<Text
+								as="span"
 								fontSize={{ base: "lg", md: "xl" }}
 								fontWeight="bold"
 								letterSpacing="-0.01em"
@@ -58,7 +58,7 @@ export function Header() {
 								whiteSpace="nowrap"
 							>
 								לינק לישראל
-							</Heading>
+							</Text>
 						</NextLink>
 					</Flex>
 
