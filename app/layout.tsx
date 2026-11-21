@@ -82,13 +82,14 @@ export const metadata: Metadata = {
 		images: [DEFAULT_OG_IMAGE],
 	},
 	icons: {
-		icon: "/favIcon.png",
-		apple: "/favIcon.png",
+		icon: [
+			{ url: "/favIcon.png", sizes: "48x48", type: "image/png" },
+			{ url: "/icon-192.png", sizes: "192x192", type: "image/png" },
+		],
+		apple: [{ url: "/icon-192.png", sizes: "192x192", type: "image/png" }],
 	},
-	appleWebApp: {
-		capable: true,
-		title: SITE_NAME,
-		statusBarStyle: "black-translucent",
+	other: {
+		"mobile-web-app-capable": "yes",
 	},
 	robots: {
 		index: true,

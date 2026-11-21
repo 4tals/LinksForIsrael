@@ -4,7 +4,7 @@ import React, { useMemo, useState } from "react";
 
 import { Box, Flex, Image, Text } from "@chakra-ui/react";
 
-const GENERIC_HOSTS = new Set([
+const SKIP_FAVICON_HOSTS = new Set([
 	"chat.whatsapp.com",
 	"wa.me",
 	"api.whatsapp.com",
@@ -21,7 +21,20 @@ const GENERIC_HOSTS = new Set([
 	"www.youtube.com",
 	"padlet.com",
 	"rebrand.ly",
+	// Hosts without an indexed favicon in Google S2 (prevents 404 console noise)
+	"meshekhai.co.il",
+	"www.leket.org",
+	"leket.org",
+	"www.pitchonlev.org.il",
+	"pitchonlev.org.il",
+	"www.brothersforlife.com",
+	"brothersforlife.com",
+	"survey.gov.il",
 ]);
+
+const FAVICON_HOST_OVERRIDES: Record<string, string> = {
+	"user.drushim-miluim.co.il": "drushim-miluim.co.il",
+};
 
 const AVATAR_GRADIENTS = [
 	"linear(to-br, #1d5cd6, #3b82f6)",
@@ -76,9 +89,10 @@ export const OrgAvatar: React.FC<OrgAvatarProps> = ({
 }) => {
 	const hostname = useMemo(() => getHostname(primaryUrl), [primaryUrl]);
 	const faviconUrl = useMemo(() => {
-		if (!hostname || GENERIC_HOSTS.has(hostname)) return null;
+		if (!hostname || SKIP_FAVICON_HOSTS.has(hostname)) return null;
+		const resolvedHost = FAVICON_HOST_OVERRIDES[hostname] || hostname;
 		return `https://www.google.com/s2/favicons?domain=${encodeURIComponent(
-			hostname,
+			resolvedHost,
 		)}&sz=128`;
 	}, [hostname]);
 
