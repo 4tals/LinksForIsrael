@@ -1,22 +1,7 @@
-import mixpanel from "mixpanel-browser";
+type MixpanelModule = typeof import("mixpanel-browser").default;
 
-let mixpanelInitialized = false;
-
-function ensureMixpanel(): boolean {
-	if (typeof window === "undefined") return false;
-	if (mixpanelInitialized) return true;
-
-	const token = process.env.NEXT_PUBLIC_MIXPANEL_TOKEN;
-	if (!token) return false;
-
-	try {
-		mixpanel.init(token);
-		mixpanelInitialized = true;
-		return true;
-	} catch {
-		return false;
-	}
-}
+let mixpanelInstance: MixpanelModule | null = null;
+let mixpanelLoading: Promise<MixpanelModule | null> | null = null;
 
 function isLocalhost(): boolean {
 	if (typeof window === "undefined") return true;
@@ -24,6 +9,36 @@ function isLocalhost(): boolean {
 		window.location.hostname.includes("localhost") ||
 		window.location.hostname === "127.0.0.1"
 	);
+}
+
+async function getMixpanel(): Promise<MixpanelModule | null> {
+	if (typeof window === "undefined" || isLocalhost()) return null;
+	const token = process.env.NEXT_PUBLIC_MIXPANEL_TOKEN;
+	if (!token) return null;
+	if (mixpanelInstance) return mixpanelInstance;
+
+	if (!mixpanelLoading) {
+		mixpanelLoading = import("mixpanel-browser")
+			.then((mod) => {
+				const mp = mod.default;
+				mp.init(token);
+				mixpanelInstance = mp;
+				return mp;
+			})
+			.catch(() => null);
+	}
+	return mixpanelLoading;
+}
+
+function trackMixpanel(event: string, props: Record<string, unknown>) {
+	void getMixpanel().then((mp) => {
+		if (!mp) return;
+		try {
+			mp.track(event, props);
+		} catch {
+			// Ignore analytics failures
+		}
+	});
 }
 
 export const analyticsService = {
@@ -34,17 +49,11 @@ export const analyticsService = {
 	) => {
 		if (isLocalhost() || !searchTerm.trim()) return;
 
-		if (ensureMixpanel()) {
-			try {
-				mixpanel.track("Search", {
-					searchTerm,
-					resultsCount,
-					usedHebrewMapping,
-				});
-			} catch {
-				// Ignore analytics failures
-			}
-		}
+		trackMixpanel("Search", {
+			searchTerm,
+			resultsCount,
+			usedHebrewMapping,
+		});
 
 		window.gtag?.("event", "search", {
 			event_category: "Search",
@@ -55,15 +64,7 @@ export const analyticsService = {
 	trackCategoryView: (categoryId: string) => {
 		if (isLocalhost()) return;
 
-		if (ensureMixpanel()) {
-			try {
-				mixpanel.track("Category Viewed", {
-					categoryId,
-				});
-			} catch {
-				// Ignore analytics failures
-			}
-		}
+		trackMixpanel("Category Viewed", { categoryId });
 
 		window.gtag?.("event", "view_category", {
 			event_category: "Category",
@@ -73,16 +74,7 @@ export const analyticsService = {
 	trackInitiativeClick: (initiativeName: string, url: string) => {
 		if (isLocalhost()) return;
 
-		if (ensureMixpanel()) {
-			try {
-				mixpanel.track("Initiative Clicked", {
-					initiativeName,
-					url,
-				});
-			} catch {
-				// Ignore analytics failures
-			}
-		}
+		trackMixpanel("Initiative Clicked", { initiativeName, url });
 
 		window.gtag?.("event", "initiative_click", {
 			event_category: "Initiative",

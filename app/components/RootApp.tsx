@@ -5,7 +5,6 @@ import { usePathname } from "next/navigation";
 import React, { createContext, useCallback, useEffect, useState } from "react";
 
 import { BookmarksProvider } from "@/app/components/Bookmarks/BookmarksContext";
-import { SavedListDrawer } from "@/app/components/Bookmarks/SavedListDrawer";
 import { SharedListBanner } from "@/app/components/Bookmarks/SharedListBanner";
 import { ServiceWorkerRegistrar } from "@/app/components/Pwa/ServiceWorkerRegistrar";
 import { MobileSearchInput } from "@/app/components/Search/MobileSearchInput";
@@ -25,6 +24,14 @@ import {
 	SearchContextProps,
 	initialSearchContext,
 } from "./Search/SearchConsts";
+
+const SavedListDrawer = dynamic(
+	() =>
+		import("@/app/components/Bookmarks/SavedListDrawer").then(
+			(m) => m.SavedListDrawer,
+		),
+	{ ssr: false },
+);
 
 const CommandPalette = dynamic(
 	() =>

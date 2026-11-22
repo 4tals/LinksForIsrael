@@ -1,5 +1,6 @@
 "use client";
 
+import dynamic from "next/dynamic";
 import React, {
 	useCallback,
 	useEffect,
@@ -17,7 +18,6 @@ import {
 import { Box, Button, Text } from "@chakra-ui/react";
 
 import { InitiativeLink, SubCategoryData } from "../../utils/categories";
-import { DialogModal } from "../DialogModal/DialogModal";
 import {
 	filterInitiativesByTrust,
 	hasActiveTrustFilters,
@@ -28,6 +28,11 @@ import {
 import { ShowMoreModal } from "../Initiative/InitiativeShowMoreModal";
 import { ShareSection } from "../Share/ShareSection";
 import { SubCategoriesList } from "./SubCategoriesList";
+
+const DialogModal = dynamic(
+	() => import("../DialogModal/DialogModal").then((m) => m.DialogModal),
+	{ ssr: false },
+);
 
 interface CategoryContentProps {
 	categoryId?: string;
@@ -192,13 +197,15 @@ export const CategoryContent = ({
 
 	return (
 		<>
-			<DialogModal
-				title={description?.link.displayName || ""}
-				body={description?.body || null}
-				open={Boolean(openDialog && description)}
-				toggleModal={setOpenDialog}
-				isRtl={containsHebrewLetters(description?.link.displayName || "א")}
-			/>
+			{description && (
+				<DialogModal
+					title={description.link.displayName || ""}
+					body={description.body || null}
+					open={Boolean(openDialog && description)}
+					toggleModal={setOpenDialog}
+					isRtl={containsHebrewLetters(description.link.displayName || "א")}
+				/>
+			)}
 
 			{categoryName && (
 				<ShareSection

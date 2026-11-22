@@ -282,7 +282,7 @@ export const NoCategoryZeroState: React.FC<NoCategoryZeroStateProps> = ({
 					<Heading as="h2" size="md" color="gray.800">
 						בחרו תחום
 					</Heading>
-					<Text fontSize="sm" color="gray.500">
+					<Text fontSize="sm" color="gray.600">
 						לחצו על קטגוריה לצפייה בכל היוזמות
 					</Text>
 				</Flex>
@@ -386,7 +386,7 @@ export const NoCategoryZeroState: React.FC<NoCategoryZeroStateProps> = ({
 					<Heading as="h2" size="md" color="gray.800">
 						מדריכים מרכזיים ופורטלים בשפות נוספות
 					</Heading>
-					<Text fontSize="xs" color="gray.500">
+					<Text fontSize="xs" color="gray.600">
 						מידע מאומת וזמין לקריאה, שיתוף והדפסה
 					</Text>
 				</Flex>
@@ -452,14 +452,37 @@ export const NoCategoryZeroState: React.FC<NoCategoryZeroStateProps> = ({
 				</SimpleGrid>
 			</Box>
 
-			{/* General Assistance Section */}
+			{/* Featured General Assistance Preview (keeps homepage DOM fast & lean) */}
 			<Box>
 				<CategoryContent
 					categoryId="GeneralAssistance"
-					subCategories={[assistanceSubCategory]}
+					subCategories={[
+						{
+							...assistanceSubCategory,
+							links: assistanceSubCategory.links.slice(0, 6),
+						},
+					]}
 					headingAs="h2"
 					enableTrustFilters={false}
+					categoryHref="/GeneralAssistance"
 				/>
+				{assistanceSubCategory.links.length > 6 && (
+					<Flex justify="center" mt={5}>
+						<Button
+							as={Link}
+							href="/GeneralAssistance"
+							variant="outline"
+							colorScheme="blue"
+							bg="white"
+							borderRadius="full"
+							px={6}
+							size="sm"
+						>
+							לכל {assistanceSubCategory.links.length} יוזמות ההתנדבות, הזכויות
+							והקהילה ←
+						</Button>
+					</Flex>
+				)}
 			</Box>
 		</Box>
 	);

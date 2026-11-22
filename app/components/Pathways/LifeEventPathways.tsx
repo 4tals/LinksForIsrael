@@ -87,7 +87,7 @@ export function LifeEventPathways() {
 				<Heading as="h2" size="md" color="gray.800">
 					מצאו מענה מהיר לפי מצב
 				</Heading>
-				<Text fontSize="sm" color="gray.500">
+				<Text fontSize="sm" color="gray.600">
 					לא צריך לדעת את שם העמותה — בחרו מה רלוונטי לכם עכשיו
 				</Text>
 			</Flex>
