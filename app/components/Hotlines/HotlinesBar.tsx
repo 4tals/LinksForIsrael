@@ -158,7 +158,7 @@ export function HotlinesBar() {
 								</Text>
 								<Text
 									fontSize="xs"
-									color="gray.500"
+									color="gray.600"
 									display={{ base: "none", sm: "inline" }}
 								>
 									{hotline.subtitle}

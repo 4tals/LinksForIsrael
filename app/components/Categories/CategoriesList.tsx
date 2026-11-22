@@ -5,10 +5,11 @@ import React, { useContext, useEffect } from "react";
 
 import { SearchContext } from "@/app/components/RootApp";
 import { withScroll } from "@/app/components/withScroll/withScroll";
-import { Badge, Box, Flex, Image, Text } from "@chakra-ui/react";
+import { Badge, Box, Flex, Icon, Text } from "@chakra-ui/react";
 
 import { analyticsService } from "../../utils/analytica/analytics";
 import { Category as CategoryType } from "../../utils/categories";
+import { getCategoryIcon } from "./categoryIcons";
 
 interface CategoriesListProps {
 	categories: CategoryType[];
@@ -55,6 +56,7 @@ const CategoriesList: React.FC<CategoriesListProps> = ({
 			{categories.map((category) => {
 				const isActive = !search && !activeIntent && category.id === categoryId;
 				const count = getNumberOfInitiatives(category);
+				const catIcon = getCategoryIcon(category.id);
 
 				return (
 					<Box
@@ -103,16 +105,18 @@ const CategoriesList: React.FC<CategoriesListProps> = ({
 							{count}
 						</Badge>
 
-						{category.image && (
-							<Image
-								src={category.image}
-								alt=""
-								boxSize="34px"
-								objectFit="contain"
-								mt={1}
-								mb={1.5}
-							/>
-						)}
+						<Flex
+							boxSize="36px"
+							bg={catIcon.bg}
+							color={catIcon.color}
+							borderRadius="lg"
+							align="center"
+							justify="center"
+							mt={1}
+							mb={1.5}
+						>
+							<Icon as={catIcon.icon} boxSize={4} />
+						</Flex>
 						<Text
 							fontSize="xs"
 							fontWeight={isActive ? "bold" : "semibold"}

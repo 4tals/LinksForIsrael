@@ -13,6 +13,7 @@ import {
 
 import { getNumberOfInitiatives } from "@/app/components/Categories/CategoriesList";
 import { CategoryContent } from "@/app/components/Categories/CategoryContent";
+import { getCategoryIcon } from "@/app/components/Categories/categoryIcons";
 import { HotlinesBar } from "@/app/components/Hotlines/HotlinesBar";
 import { Logo } from "@/app/components/Logo";
 import { LifeEventPathways } from "@/app/components/Pathways/LifeEventPathways";
@@ -32,7 +33,6 @@ import {
 	Heading,
 	HStack,
 	Icon,
-	Image,
 	SimpleGrid,
 	Text,
 	VStack,
@@ -293,6 +293,7 @@ export const NoCategoryZeroState: React.FC<NoCategoryZeroStateProps> = ({
 				>
 					{categories.map((category) => {
 						const count = getNumberOfInitiatives(category);
+						const catIcon = getCategoryIcon(category.id);
 						return (
 							<Flex
 								key={category.id}
@@ -316,21 +317,17 @@ export const NoCategoryZeroState: React.FC<NoCategoryZeroStateProps> = ({
 								gap={3}
 							>
 								<Flex align="center" justify="space-between" gap={2}>
-									{category.image && (
-										<Box
-											p={2}
-											bg="brand.50"
-											borderRadius="lg"
-											display="inline-flex"
-										>
-											<Image
-												src={category.image}
-												alt=""
-												boxSize={{ base: "32px", md: "38px" }}
-												objectFit="contain"
-											/>
-										</Box>
-									)}
+									<Flex
+										boxSize={{ base: "42px", md: "46px" }}
+										bg={catIcon.bg}
+										color={catIcon.color}
+										borderRadius="xl"
+										align="center"
+										justify="center"
+										flexShrink={0}
+									>
+										<Icon as={catIcon.icon} boxSize={{ base: 5, md: 5 }} />
+									</Flex>
 									<Badge
 										colorScheme="blue"
 										variant="subtle"
@@ -347,7 +344,7 @@ export const NoCategoryZeroState: React.FC<NoCategoryZeroStateProps> = ({
 									<Text
 										fontWeight="bold"
 										fontSize={{ base: "sm", md: "md" }}
-										color="gray.800"
+										color="gray.900"
 										lineHeight="1.3"
 									>
 										{category.displayName}
@@ -355,7 +352,7 @@ export const NoCategoryZeroState: React.FC<NoCategoryZeroStateProps> = ({
 									{category.description && (
 										<Text
 											fontSize="xs"
-											color="gray.500"
+											color="gray.600"
 											mt={1}
 											noOfLines={2}
 											lineHeight="1.4"

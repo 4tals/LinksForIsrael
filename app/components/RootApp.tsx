@@ -1,14 +1,12 @@
 "use client";
 
+import dynamic from "next/dynamic";
 import { usePathname } from "next/navigation";
 import React, { createContext, useCallback, useEffect, useState } from "react";
 
 import { BookmarksProvider } from "@/app/components/Bookmarks/BookmarksContext";
 import { SavedListDrawer } from "@/app/components/Bookmarks/SavedListDrawer";
 import { SharedListBanner } from "@/app/components/Bookmarks/SharedListBanner";
-import { CommandPalette } from "@/app/components/CommandPalette/CommandPalette";
-import { EmergencyModeOverlay } from "@/app/components/Emergency/EmergencyModeOverlay";
-import { HelperWizardModal } from "@/app/components/HelperWizard/HelperWizardModal";
 import { ServiceWorkerRegistrar } from "@/app/components/Pwa/ServiceWorkerRegistrar";
 import { MobileSearchInput } from "@/app/components/Search/MobileSearchInput";
 import { useSearch } from "@/app/components/Search/useSearch";
@@ -27,6 +25,30 @@ import {
 	SearchContextProps,
 	initialSearchContext,
 } from "./Search/SearchConsts";
+
+const CommandPalette = dynamic(
+	() =>
+		import("@/app/components/CommandPalette/CommandPalette").then(
+			(m) => m.CommandPalette,
+		),
+	{ ssr: false },
+);
+
+const HelperWizardModal = dynamic(
+	() =>
+		import("@/app/components/HelperWizard/HelperWizardModal").then(
+			(m) => m.HelperWizardModal,
+		),
+	{ ssr: false },
+);
+
+const EmergencyModeOverlay = dynamic(
+	() =>
+		import("@/app/components/Emergency/EmergencyModeOverlay").then(
+			(m) => m.EmergencyModeOverlay,
+		),
+	{ ssr: false },
+);
 
 export const SearchContext =
 	createContext<SearchContextProps>(initialSearchContext);
@@ -161,32 +183,33 @@ export function RootApp({
 							<Header />
 							<MobileSearchInput />
 							<SharedListBanner categories={categories} />
-							<main
-								id="content"
-								className="main-content"
-								role="main"
-								tabIndex={-1}
-							>
+							<main id="content" className="main-content" tabIndex={-1}>
 								{children}
 							</main>
 							<Footer />
 							<SavedListDrawer />
-							<CommandPalette
-								isOpen={isPaletteOpen}
-								onClose={() => setIsPaletteOpen(false)}
-								categories={categories}
-								onOpenHelper={openHelperWizard}
-								onOpenEmergency={openEmergencyMode}
-							/>
-							<HelperWizardModal
-								isOpen={isHelperOpen}
-								onClose={() => setIsHelperOpen(false)}
-								categories={categories}
-							/>
-							<EmergencyModeOverlay
-								isOpen={isEmergencyOpen}
-								onClose={() => setIsEmergencyOpen(false)}
-							/>
+							{isPaletteOpen && (
+								<CommandPalette
+									isOpen={isPaletteOpen}
+									onClose={() => setIsPaletteOpen(false)}
+									categories={categories}
+									onOpenHelper={openHelperWizard}
+									onOpenEmergency={openEmergencyMode}
+								/>
+							)}
+							{isHelperOpen && (
+								<HelperWizardModal
+									isOpen={isHelperOpen}
+									onClose={() => setIsHelperOpen(false)}
+									categories={categories}
+								/>
+							)}
+							{isEmergencyOpen && (
+								<EmergencyModeOverlay
+									isOpen={isEmergencyOpen}
+									onClose={() => setIsEmergencyOpen(false)}
+								/>
+							)}
 						</div>
 					</MenuContext.Provider>
 				</SearchContext.Provider>

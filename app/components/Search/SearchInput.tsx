@@ -42,7 +42,7 @@ export function SearchInput({
 
 	return (
 		<InputGroup size={size} width="100%" maxW="520px">
-			<InputRightElement pointerEvents="none" color="gray.400">
+			<InputRightElement pointerEvents="none" color="gray.500">
 				<Search2Icon boxSize={4} />
 			</InputRightElement>
 			<Input
@@ -66,7 +66,7 @@ export function SearchInput({
 				borderColor="gray.200"
 				pr={10}
 				pl={search ? 10 : 4}
-				_placeholder={{ color: "gray.400" }}
+				_placeholder={{ color: "gray.500" }}
 				_hover={{ borderColor: "blue.300" }}
 				_focusVisible={{
 					borderColor: "brand.500",

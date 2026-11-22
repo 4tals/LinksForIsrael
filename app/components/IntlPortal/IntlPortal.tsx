@@ -549,7 +549,7 @@ export function IntlPortal({
 								<Flex
 									key={item.id}
 									as="article"
-									role="group"
+									data-group=""
 									tabIndex={0}
 									direction="column"
 									position="relative"
@@ -626,7 +626,7 @@ export function IntlPortal({
 													</Flex>
 													<Text
 														fontSize="xs"
-														color="gray.400"
+														color="gray.600"
 														noOfLines={1}
 														dir="ltr"
 														textAlign={isRtl ? "right" : "left"}
@@ -642,7 +642,7 @@ export function IntlPortal({
 													icon={<FaLink size={12} />}
 													size="xs"
 													variant="ghost"
-													color="gray.400"
+													color="gray.600"
 													borderRadius="lg"
 													opacity={{ base: 1, md: 0 }}
 													_groupHover={{ opacity: 1 }}
@@ -657,7 +657,7 @@ export function IntlPortal({
 													icon={<ExternalLinkIcon boxSize={3.5} />}
 													size="xs"
 													variant="ghost"
-													color="gray.400"
+													color="gray.600"
 													borderRadius="lg"
 													_hover={{
 														bg: "brand.50",

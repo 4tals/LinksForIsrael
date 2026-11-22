@@ -1,12 +1,28 @@
 "use client";
 
 import React from "react";
-import { FaEnvelope, FaPhone } from "react-icons/fa";
+import {
+	FaDiscord,
+	FaEnvelope,
+	FaFacebook,
+	FaFileAlt,
+	FaGlobe,
+	FaGoogleDrive,
+	FaHandHoldingHeart,
+	FaInstagram,
+	FaLinkedin,
+	FaPhone,
+	FaTelegram,
+	FaTiktok,
+	FaTwitter,
+	FaWhatsapp,
+	FaWpforms,
+	FaYoutube,
+} from "react-icons/fa";
 
 import {
 	Flex,
 	Icon,
-	Image,
 	Link as ChakraLink,
 	Tag,
 	TagLabel,
@@ -19,6 +35,29 @@ import { InitiativeLink } from "../../utils/categories";
 import { ICONS } from "../../utils/consts";
 
 type IconKey = keyof typeof ICONS;
+
+const ICON_COMPONENTS: Record<
+	IconKey,
+	{ icon: React.ElementType; color: string }
+> = {
+	website: { icon: FaGlobe, color: "#1d5cd6" },
+	whatsapp: { icon: FaWhatsapp, color: "#16a34a" },
+	telegram: { icon: FaTelegram, color: "#0284c7" },
+	facebook: { icon: FaFacebook, color: "#1877f2" },
+	instagram: { icon: FaInstagram, color: "#e11d48" },
+	form: { icon: FaWpforms, color: "#7c3aed" },
+	forms: { icon: FaWpforms, color: "#7c3aed" },
+	docs: { icon: FaFileAlt, color: "#2563eb" },
+	doc: { icon: FaFileAlt, color: "#2563eb" },
+	drive: { icon: FaGoogleDrive, color: "#0f766e" },
+	donation: { icon: FaHandHoldingHeart, color: "#9333ea" },
+	youtube: { icon: FaYoutube, color: "#dc2626" },
+	twitter: { icon: FaTwitter, color: "#0f172a" },
+	linkedin: { icon: FaLinkedin, color: "#0a66c2" },
+	tiktok: { icon: FaTiktok, color: "#111827" },
+	discord: { icon: FaDiscord, color: "#4f46e5" },
+	portal: { icon: FaGlobe, color: "#0038b8" },
+};
 
 interface InitiativeIconsProps {
 	link: InitiativeLink;
@@ -64,8 +103,9 @@ export const InitiativeIcons: React.FC<InitiativeIconsProps> = ({
 					{showIcons.map(({ key, href }) => (
 						<IconLink
 							href={href}
-							iconUrl={ICONS[key].src}
+							iconKey={key}
 							alt={ICONS[key].alt}
+							orgName={link.displayName || link.name}
 							key={key}
 						/>
 					))}
@@ -74,7 +114,7 @@ export const InitiativeIcons: React.FC<InitiativeIconsProps> = ({
 						<Text
 							fontSize="xs"
 							fontWeight="bold"
-							color="gray.500"
+							color="gray.700"
 							bg="gray.100"
 							px={2}
 							py={0.5}
@@ -91,6 +131,7 @@ export const InitiativeIcons: React.FC<InitiativeIconsProps> = ({
 					{phone && (
 						<ChakraLink
 							href={`tel:${phone.replace(/[^\d+*#]/g, "")}`}
+							aria-label={`טלפון ${link.displayName}: ${phone}`}
 							onClick={(e) => e.stopPropagation()}
 							_hover={{ textDecoration: "none" }}
 						>
@@ -110,6 +151,7 @@ export const InitiativeIcons: React.FC<InitiativeIconsProps> = ({
 					{email && (
 						<ChakraLink
 							href={`mailto:${email}`}
+							aria-label={`דוא״ל ${link.displayName}: ${email}`}
 							onClick={(e) => e.stopPropagation()}
 							_hover={{ textDecoration: "none" }}
 						>
@@ -134,41 +176,41 @@ export const InitiativeIcons: React.FC<InitiativeIconsProps> = ({
 
 interface IconLinkProps {
 	href: string;
-	iconUrl: string;
+	iconKey: IconKey;
 	alt: string;
+	orgName: string;
 }
 
-const IconLink: React.FC<IconLinkProps> = ({ href, iconUrl, alt }) => {
+const IconLink: React.FC<IconLinkProps> = ({ href, iconKey, alt, orgName }) => {
+	const meta = ICON_COMPONENTS[iconKey] || {
+		icon: FaGlobe,
+		color: "#1d5cd6",
+	};
+
 	return (
 		<Tooltip label={alt} placement="top" hasArrow openDelay={200}>
 			<ChakraLink
 				href={href}
 				isExternal
-				aria-label={alt}
+				aria-label={`${alt} — ${orgName}`}
 				onClick={(e) => e.stopPropagation()}
 				display="inline-flex"
 				alignItems="center"
 				justifyContent="center"
-				p={1}
+				boxSize="30px"
 				borderRadius="md"
 				bg="gray.50"
 				borderWidth="1px"
-				borderColor="gray.100"
+				borderColor="gray.200"
+				color={meta.color}
 				transition="all 0.15s ease"
 				_hover={{
 					bg: "blue.50",
-					borderColor: "blue.200",
+					borderColor: "blue.300",
 					transform: "translateY(-1px)",
 				}}
 			>
-				<Image
-					src={iconUrl}
-					alt={alt}
-					boxSize="22px"
-					objectFit="contain"
-					loading="lazy"
-					fallback={<Icon boxSize="22px" color="gray.400" />}
-				/>
+				<Icon as={meta.icon} boxSize="15px" />
 			</ChakraLink>
 		</Tooltip>
 	);

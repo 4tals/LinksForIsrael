@@ -166,7 +166,7 @@ export const InitiativeItem: React.FC<InitiativeItemProps> = ({
 	return (
 		<Flex
 			as="article"
-			role="group"
+			data-group=""
 			tabIndex={0}
 			aria-label={`פרטים נוספים על ${link.displayName}`}
 			direction="column"
@@ -256,7 +256,7 @@ export const InitiativeItem: React.FC<InitiativeItemProps> = ({
 						{displayDomain && (
 							<Text
 								fontSize="xs"
-								color="gray.400"
+								color="gray.600"
 								fontWeight="medium"
 								noOfLines={1}
 								mt={0.5}
@@ -277,15 +277,19 @@ export const InitiativeItem: React.FC<InitiativeItemProps> = ({
 						hasArrow
 					>
 						<IconButton
-							aria-label={saved ? "הסר מהרשימה" : "שמור לרשימה"}
+							aria-label={
+								saved
+									? `הסר את ${link.displayName} מהרשימה`
+									: `שמור את ${link.displayName} לרשימה`
+							}
 							icon={
 								saved ? <FaBookmark size={12} /> : <FaRegBookmark size={12} />
 							}
 							size="xs"
 							variant="ghost"
-							color={saved ? "brand.600" : "gray.400"}
+							color={saved ? "brand.600" : "gray.600"}
 							borderRadius="lg"
-							opacity={saved ? 1 : { base: 1, md: 0.7 }}
+							opacity={saved ? 1 : { base: 1, md: 0.75 }}
 							_groupHover={{ opacity: 1 }}
 							_focusVisible={{ opacity: 1 }}
 							_hover={{ bg: "brand.50", color: "brand.600" }}
@@ -298,11 +302,15 @@ export const InitiativeItem: React.FC<InitiativeItemProps> = ({
 						hasArrow
 					>
 						<IconButton
-							aria-label={isRtl ? "העתק קישור" : "Copy link"}
+							aria-label={
+								isRtl
+									? `העתק קישור עבור ${link.displayName}`
+									: `Copy link for ${link.displayName}`
+							}
 							icon={<FaLink size={12} />}
 							size="xs"
 							variant="ghost"
-							color="gray.400"
+							color="gray.600"
 							borderRadius="lg"
 							opacity={{ base: 0.85, md: 0 }}
 							_groupHover={{ opacity: 1 }}
@@ -329,7 +337,7 @@ export const InitiativeItem: React.FC<InitiativeItemProps> = ({
 								icon={<ExternalLinkIcon boxSize={3.5} />}
 								size="xs"
 								variant="ghost"
-								color="gray.400"
+								color="gray.600"
 								borderRadius="lg"
 								_hover={{
 									bg: "brand.50",
@@ -488,6 +496,11 @@ export const InitiativeItem: React.FC<InitiativeItemProps> = ({
 					<Link
 						as={NextLink}
 						href={sharePath}
+						aria-label={
+							isRtl
+								? `לפרטים נוספים על ${link.displayName}`
+								: `Details for ${link.displayName}`
+						}
 						onClick={(e) => {
 							if (!e.metaKey && !e.ctrlKey && !e.shiftKey && !e.altKey) {
 								e.preventDefault();
