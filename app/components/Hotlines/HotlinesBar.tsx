@@ -104,6 +104,9 @@ export function HotlinesBar() {
 						<Button
 							size="xs"
 							colorScheme="red"
+							bg="red.600"
+							color="white"
+							_hover={{ bg: "red.700" }}
 							variant="solid"
 							borderRadius="full"
 							leftIcon={<Icon as={FaExclamationTriangle} boxSize={2.5} />}

@@ -43,12 +43,12 @@ const FAVICON_HOST_OVERRIDES: Record<string, string> = {
 };
 
 const AVATAR_GRADIENTS = [
-	"linear(to-br, #1d5cd6, #3b82f6)",
-	"linear(to-br, #0f766e, #14b8a6)",
-	"linear(to-br, #4338ca, #6366f1)",
-	"linear(to-br, #0369a1, #0ea5e9)",
-	"linear(to-br, #6d28d9, #8b5cf6)",
-	"linear(to-br, #1e40af, #2563eb)",
+	"linear(to-br, #1e3a8a, #1d4ed8)",
+	"linear(to-br, #115e59, #0f766e)",
+	"linear(to-br, #312e81, #4338ca)",
+	"linear(to-br, #0c4a6e, #0369a1)",
+	"linear(to-br, #4c1d95, #6d28d9)",
+	"linear(to-br, #002d96, #0038b8)",
 ];
 
 function getHostname(url?: string | null): string | null {
@@ -99,7 +99,7 @@ export const OrgAvatar: React.FC<OrgAvatarProps> = ({
 		const resolvedHost = FAVICON_HOST_OVERRIDES[hostname] || hostname;
 		return `https://www.google.com/s2/favicons?domain=${encodeURIComponent(
 			resolvedHost,
-		)}&sz=128`;
+		)}&sz=64`;
 	}, [hostname]);
 
 	// Stage 0: custom imageUrl -> Stage 1: high-res site favicon -> Stage 2: crisp monogram

@@ -29,7 +29,7 @@ const FOOTER_CONFIG = {
 	reverseImageUrl:
 		"https://twitter.com/kann/status/1712897481837539810?t=kxXrXgX59tp1yPnrYiS4Iw&s=19",
 	reverseImageAlt: "Reverse Initiative",
-	reverseImageSrc: "/images/reverse.png",
+	reverseImageSrc: "/images/reverse.webp",
 } as const;
 
 const SOCIAL_ICON_MAP: Record<

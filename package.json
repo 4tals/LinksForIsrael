@@ -56,6 +56,12 @@
     "ts-node": "^10.9.1",
     "typescript": "^5.3.2"
   },
+  "browserslist": [
+    "chrome >= 111",
+    "edge >= 111",
+    "firefox >= 111",
+    "safari >= 16.4"
+  ],
   "lint-staged": {
     "*.js": "eslint --cache --fix",
     "*.{ts,tsx,css,md}": "prettier --write"
