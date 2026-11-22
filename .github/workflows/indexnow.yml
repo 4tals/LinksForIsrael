@@ -1,0 +1,33 @@
+name: Notify IndexNow (Bing, ChatGPT Search & Yandex)
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "_data/**"
+      - "app/**"
+      - "docs/**"
+      - "public/**"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  submit-indexnow:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Wait for Netlify production deploy
+        if: github.event_name == 'push'
+        run: sleep 90
+
+      - name: Submit sitemap URLs to IndexNow
+        run: node scripts/submitIndexNow.mjs

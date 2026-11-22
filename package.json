@@ -11,6 +11,7 @@
     "lint": "next lint",
     "validate": "node ./scripts/validateData.mjs",
     "verify-registry": "node ./scripts/verifyGovRegistry.mjs",
+    "indexnow": "node ./scripts/submitIndexNow.mjs",
     "test": "node --test ./scripts/runTests.mjs",
     "format": "prettier --loglevel warn --write \"**/*.{ts,tsx,css,md}\"",
     "prepare": "husky install",
