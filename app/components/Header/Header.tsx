@@ -3,11 +3,12 @@
 import NextLink from "next/link";
 import { usePathname } from "next/navigation";
 import React, { useContext } from "react";
-import { FaBookmark } from "react-icons/fa";
+import { FaBookmark, FaSearch } from "react-icons/fa";
 
 import { useBookmarks } from "@/app/components/Bookmarks/BookmarksContext";
 import { Logo } from "@/app/components/Logo";
-import { SearchContext } from "@/app/components/RootApp";
+import { AppToolsContext, SearchContext } from "@/app/components/RootApp";
+import { ThemeModeToggle } from "@/app/components/Theme/ThemeModeToggle";
 import {
 	Badge,
 	Box,
@@ -26,6 +27,7 @@ import { SearchInput } from "../Search/SearchInput";
 
 export function Header() {
 	const { onSearch, setActiveIntent } = useContext(SearchContext);
+	const { openCommandPalette } = useContext(AppToolsContext);
 	const { savedItems, openDrawer } = useBookmarks();
 	const pathname = usePathname();
 	const isIntl =
@@ -99,7 +101,21 @@ export function Header() {
 						</Flex>
 					)}
 
-					<HStack spacing={2} flex="0 0 auto">
+					<HStack spacing={1.5} flex="0 0 auto">
+						<Tooltip label="חיפוש מהיר בכל הפורטל (⌘K או /)" hasArrow>
+							<IconButton
+								aria-label="פתח חיפוש מהיר"
+								icon={<FaSearch size={13} />}
+								size={{ base: "sm", md: "md" }}
+								variant="ghost"
+								color="white"
+								borderRadius="full"
+								display={{ base: "none", lg: "inline-flex" }}
+								_hover={{ bg: "whiteAlpha.200" }}
+								onClick={openCommandPalette}
+							/>
+						</Tooltip>
+						<ThemeModeToggle />
 						{!isIntl && (
 							<Tooltip label="הרשימה השמורה שלי" hasArrow>
 								<Box position="relative">

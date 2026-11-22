@@ -40,7 +40,7 @@
 				}
 			],
 			"registrationNumber": "580367795",
-			"registryCheckedAt": "2026-11-21",
+			"registryCheckedAt": "2026-11-22",
 			"properManagement": true
 		},
 		{
@@ -88,7 +88,7 @@
 				}
 			],
 			"registrationNumber": "580465979",
-			"registryCheckedAt": "2026-11-21",
+			"registryCheckedAt": "2026-11-22",
 			"properManagement": true
 		},
 		{
@@ -143,7 +143,7 @@
 				}
 			],
 			"registrationNumber": "580079978",
-			"registryCheckedAt": "2026-11-21",
+			"registryCheckedAt": "2026-11-22",
 			"properManagement": true
 		},
 		{
@@ -192,7 +192,7 @@
 				}
 			],
 			"registrationNumber": "580030104",
-			"registryCheckedAt": "2026-11-21",
+			"registryCheckedAt": "2026-11-22",
 			"properManagement": true
 		},
 		{
@@ -428,6 +428,177 @@
 					"title": "בדיקת עובדות ואישור אמינות המיזם להנגשת בתים"
 				}
 			]
+		},
+		{
+			"name": "MagenDavidAdom",
+			"displayName": "מגן דוד אדום (מד״א) — ארגון ההצלה הלאומי",
+			"shortDescription": "שירותי חירום רפואיים 24/7 (101), תרומות דם, קורסי עזרה ראשונה והתנדבות בפריסה ארצית",
+			"description": "מגן דוד אדום הוא ארגון ההצלה הלאומי של ישראל, המפעיל את מוקד החירום הרפואי 101, שירותי הדם הלאומיים, צי האמבולנסים והניידות לטיפול נמרץ, מערך מתנדבים ארצי וקורסי עזרה ראשונה.",
+			"url": "https://www.mdais.org/",
+			"website": "https://www.mdais.org/",
+			"phone": "101",
+			"verified": true,
+			"organizationType": "official",
+			"intents": [
+				"get-help",
+				"volunteer",
+				"donate"
+			],
+			"tags": [
+				"מד״א",
+				"101",
+				"אמבולנס",
+				"חירום רפואי",
+				"תרומת דם",
+				"התנדבות"
+			],
+			"createdAt": "2026-11-22T12:00:00+02:00",
+			"references": [
+				{
+					"url": "https://he.wikipedia.org/wiki/%D7%9E%D7%92%D7%9F_%D7%93%D7%95%D7%93_%D7%90%D7%93%D7%95%D7%9D",
+					"type": "official",
+					"source": "Wikipedia",
+					"title": "מגן דוד אדום — ארגון ההצלה הלאומי של ישראל"
+				}
+			]
+		},
+		{
+			"name": "IsraelCancerAssociation",
+			"displayName": "האגודה למלחמה בסרטן",
+			"shortDescription": "מידע רפואי, מרכזי תמיכה, קבוצות ליווי, מוקד טלמידע 24/7 וסיוע לחולי סרטן ולמשפחותיהם",
+			"description": "האגודה למלחמה בסרטן (ע״ר 580030039) מובילה בישראל את המאבק במחלות הסרטן באמצעות מחקר, מניעה, אבחון מוקדם, מרכזי תמיכה 'חזקים ביחד' ומוקד 'טלמידע' חינמי.",
+			"url": "https://www.cancer.org.il/",
+			"website": "https://www.cancer.org.il/",
+			"phone": "1-800-599-995",
+			"verified": true,
+			"taxDeductible46": true,
+			"registrationNumber": "580030039",
+			"organizationType": "ngo",
+			"intents": [
+				"get-help",
+				"volunteer",
+				"donate"
+			],
+			"tags": [
+				"סרטן",
+				"אונקולוגיה",
+				"תמיכה רפואית",
+				"בריאות",
+				"טלמידע"
+			],
+			"createdAt": "2026-11-22T12:00:00+02:00",
+			"references": [
+				{
+					"url": "https://www.guidestar.org.il/organization/580030039",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "האגודה למלחמה בסרטן בישראל (ע״ר)"
+				}
+			],
+			"properManagement": true,
+			"registryCheckedAt": "2026-11-22"
+		},
+		{
+			"name": "Lemaanam",
+			"displayName": "למענם — רופאות ורופאים למען שורדי שואה",
+			"shortDescription": "שירותי רפואה מקצועיים, ביקורי בית וליווי רפואי חינם לשורדי שואה בפריסה ארצית",
+			"description": "עמותת למענם (ע״ר 580672764) מאגדת מאות רופאים, אחיות ומטפלים מתנדבים המעניקים טיפול רפואי מותאם, ביקורי בית וייעוץ רפואי חינם לשורדי שואה ברחבי הארץ.",
+			"url": "https://lemaanam.org.il/",
+			"website": "https://lemaanam.org.il/",
+			"verified": true,
+			"taxDeductible46": true,
+			"registrationNumber": "580672764",
+			"organizationType": "ngo",
+			"intents": [
+				"get-help",
+				"volunteer",
+				"donate"
+			],
+			"tags": [
+				"שורדי שואה",
+				"רפואה",
+				"רופאים מתנדבים",
+				"קשישים"
+			],
+			"createdAt": "2026-11-22T12:00:00+02:00",
+			"references": [
+				{
+					"url": "https://www.guidestar.org.il/organization/580672764",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "למענם - רופאות ורופאים למען שורדי שואה (ע״ר)"
+				}
+			],
+			"properManagement": true,
+			"registryCheckedAt": "2026-11-22"
+		},
+		{
+			"name": "BeitIssieShapiro",
+			"displayName": "בית איזי שפירא",
+			"shortDescription": "טיפולים, מחקר, חדשנות טכנולוגית ושיקום לילדים ומבוגרים עם מוגבלויות ולמשפחותיהם",
+			"description": "בית איזי שפירא (ע״ר 580071850) פועל לשינוי איכות החיים של אנשים עם מוגבלויות באמצעות חינוך מיוחד, הידרותרפיה, מרכז טכנולוגיה מסייעת ומרכזי תמיכה למשפחות.",
+			"url": "https://beitissie.org.il/",
+			"website": "https://beitissie.org.il/",
+			"verified": true,
+			"taxDeductible46": true,
+			"registrationNumber": "580071850",
+			"organizationType": "ngo",
+			"intents": [
+				"get-help",
+				"volunteer",
+				"donate"
+			],
+			"tags": [
+				"מוגבלויות",
+				"שיקום",
+				"ילדים",
+				"טכנולוגיה מסייעת"
+			],
+			"createdAt": "2026-11-22T12:00:00+02:00",
+			"references": [
+				{
+					"url": "https://www.guidestar.org.il/organization/580071850",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "בית איזי שפירא - עמותת אבי (ע״ר)"
+				}
+			],
+			"properManagement": true,
+			"registryCheckedAt": "2026-11-22"
+		},
+		{
+			"name": "IsraelGuideDogCenter",
+			"displayName": "המרכז הישראלי לכלבי נחייה לעיוורים",
+			"shortDescription": "גידול, אימון והתאמת כלבי נחייה לעיוורים וכלבי שירות ללוחמים עם פוסט-טראומה — ללא עלות",
+			"description": "המרכז הישראלי לכלבי נחייה לעיוורים (ע״ר 580168961) מאמן ומספק ללא עלות כלבי נחייה לאנשים עם עיוורון וכלבי שירות תומכים למתמודדי פוסט-טראומה ולילדים על הספקטרום.",
+			"url": "https://www.israelguidedog.org.il/",
+			"website": "https://www.israelguidedog.org.il/",
+			"verified": true,
+			"taxDeductible46": true,
+			"registrationNumber": "580168961",
+			"organizationType": "ngo",
+			"intents": [
+				"get-help",
+				"volunteer",
+				"donate"
+			],
+			"tags": [
+				"כלבי נחייה",
+				"עיוורון",
+				"פוסט טראומה",
+				"כלבי שירות"
+			],
+			"createdAt": "2026-11-22T12:00:00+02:00",
+			"references": [
+				{
+					"url": "https://www.guidestar.org.il/organization/580168961",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "מרכז ישראלי לכלבי נחיה לעיוורים (ע״ר)"
+				}
+			],
+			"properManagement": true,
+			"registryCheckedAt": "2026-11-22"
 		}
 	]
 }

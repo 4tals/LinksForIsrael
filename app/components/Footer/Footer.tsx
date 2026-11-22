@@ -106,6 +106,19 @@ export function Footer() {
 						>
 							הטמעת מוקדי חירום
 						</Link>
+						<Text fontSize="xs" color="gray.300" aria-hidden="true">
+							•
+						</Text>
+						<Link
+							as={NextLink}
+							href="/print"
+							fontSize="xs"
+							fontWeight="medium"
+							color="gray.600"
+							_hover={{ color: "brand.600", textDecoration: "underline" }}
+						>
+							דף חירום להדפסה
+						</Link>
 					</HStack>
 
 					<HStack spacing={1.5} align="center" wrap="wrap" justify="center">

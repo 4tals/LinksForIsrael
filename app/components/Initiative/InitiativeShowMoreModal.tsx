@@ -34,6 +34,7 @@ import {
 } from "../../utils/categories";
 import { InitiativeIcons } from "./InitiativeIcons";
 import { InitiativeReferences } from "./InitiativeReferences";
+import { TrustScoreMeter } from "./TrustScoreMeter";
 
 const containsHebrewLetters = (str: string): boolean =>
 	/[\u0590-\u05EA]/.test(str);
@@ -194,6 +195,12 @@ export const ShowMoreModal: React.FC<ShowMoreModalProps> = ({
 
 			<VStack spacing={4} align="stretch" p={{ base: 5, md: 6 }} flex="1">
 				{/* Verification Trust Strip */}
+				<TrustScoreMeter
+					link={link}
+					isRtl={isRtl}
+					onNavigate={() => setOpenDialog(false)}
+				/>
+
 				{link.verified && (
 					<Flex
 						align="center"

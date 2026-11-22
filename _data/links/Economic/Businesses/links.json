@@ -46,7 +46,7 @@
 				}
 			],
 			"registrationNumber": "580392702",
-			"registryCheckedAt": "2026-11-21",
+			"registryCheckedAt": "2026-11-22",
 			"properManagement": true
 		},
 		{
@@ -112,7 +112,7 @@
 			],
 			"registrationNumber": "516267911",
 			"properManagement": true,
-			"registryCheckedAt": "2026-11-21"
+			"registryCheckedAt": "2026-11-22"
 		},
 		{
 			"displayName": "מחבקים את המילואימניקים",
@@ -169,6 +169,38 @@
 					"url": "https://www.facebook.com/groups/startupforstartup/posts/1540440326827937/",
 					"type": "social",
 					"source": "Facebook"
+				}
+			]
+		},
+		{
+			"name": "Ogen",
+			"displayName": "עוגן — הלוואות חברתיות ללא ריבית וליווי פיננסי",
+			"shortDescription": "הלוואות ללא ריבית או בריבית חברתית ומנטורינג פיננסי למשפחות, עסקים קטנים, מילואימניקים ועמותות",
+			"description": "קבוצת עוגן היא המוסד הפיננסי החברתי הגדול בישראל ללא כוונת רווח, המעניק אשראי הוגן ללא ריבית ומנטורינג עסקי וכלכלי ליחידים, עסקים קטנים ועמותות.",
+			"url": "https://www.ogen.org/",
+			"website": "https://www.ogen.org/",
+			"verified": true,
+			"taxDeductible46": true,
+			"organizationType": "ngo",
+			"intents": [
+				"get-help",
+				"volunteer",
+				"donate"
+			],
+			"tags": [
+				"הלוואות ללא ריבית",
+				"עסקים קטנים",
+				"כלכלה",
+				"מנטורינג",
+				"מילואים"
+			],
+			"createdAt": "2026-11-22T12:00:00+02:00",
+			"references": [
+				{
+					"url": "https://he.wikipedia.org/wiki/%D7%A2%D7%95%D7%92%D7%9F_(%D7%A7%D7%91%D7%95%D7%A6%D7%94)",
+					"type": "official",
+					"source": "Wikipedia",
+					"title": "קבוצת עוגן — המוסד הפיננסי החברתי ללא כוונת רווח"
 				}
 			]
 		}

@@ -2,14 +2,21 @@
 
 import Link from "next/link";
 import React, { useContext } from "react";
-import { FaHandHoldingHeart, FaHandsHelping, FaLifeRing } from "react-icons/fa";
+import {
+	FaHandHoldingHeart,
+	FaHandsHelping,
+	FaLifeRing,
+	FaMagic,
+	FaSearch,
+	FaShieldAlt,
+} from "react-icons/fa";
 
 import { getNumberOfInitiatives } from "@/app/components/Categories/CategoriesList";
 import { CategoryContent } from "@/app/components/Categories/CategoryContent";
 import { HotlinesBar } from "@/app/components/Hotlines/HotlinesBar";
 import { Logo } from "@/app/components/Logo";
 import { LifeEventPathways } from "@/app/components/Pathways/LifeEventPathways";
-import { SearchContext } from "@/app/components/RootApp";
+import { AppToolsContext, SearchContext } from "@/app/components/RootApp";
 import { SearchInput } from "@/app/components/Search/SearchInput";
 import { analyticsService } from "@/app/utils/analytica/analytics";
 import {
@@ -77,9 +84,15 @@ export const NoCategoryZeroState: React.FC<NoCategoryZeroStateProps> = ({
 	assistanceSubCategory,
 }) => {
 	const { onSearch, setActiveIntent } = useContext(SearchContext);
+	const { openCommandPalette, openHelperWizard } = useContext(AppToolsContext);
 
-	const totalInitiatives = categories.reduce(
-		(acc, cat) => acc + getNumberOfInitiatives(cat),
+	const allLinks = categories.flatMap((c) =>
+		c.subCategories.flatMap((s) => s.links),
+	);
+	const totalInitiatives = allLinks.length;
+	const nihulCount = allLinks.filter((l) => l.properManagement).length;
+	const totalMentions = allLinks.reduce(
+		(sum, l) => sum + (l.references?.length || 0),
 		0,
 	);
 
@@ -127,17 +140,21 @@ export const NoCategoryZeroState: React.FC<NoCategoryZeroStateProps> = ({
 							borderRadius="full"
 							fontSize="xs"
 						>
-							{categories.length} תחומים
+							{totalInitiatives} עמותות ויוזמות
 						</Badge>
 						<Badge
-							colorScheme="blue"
+							colorScheme="teal"
 							variant="subtle"
 							px={3}
 							py={1}
 							borderRadius="full"
 							fontSize="xs"
+							display="inline-flex"
+							alignItems="center"
+							gap={1}
 						>
-							{totalInitiatives} עמותות ויוזמות מאומתות
+							<Icon as={FaShieldAlt} boxSize={2.5} />
+							<span>{nihulCount} ניהול תקין (data.gov.il)</span>
 						</Badge>
 						<Badge
 							colorScheme="green"
@@ -147,7 +164,7 @@ export const NoCategoryZeroState: React.FC<NoCategoryZeroStateProps> = ({
 							borderRadius="full"
 							fontSize="xs"
 						>
-							קוד פתוח · בשגרה ובחירום
+							{totalMentions} אזכורים עצמאיים · 4 שפות
 						</Badge>
 					</HStack>
 
@@ -166,8 +183,40 @@ export const NoCategoryZeroState: React.FC<NoCategoryZeroStateProps> = ({
 						קהילתיות בישראל — בשגרה ובחירום.
 					</Text>
 
-					{/* Intent Quick-Start Buttons */}
+					{/* Guided Helper + Spotlight Command Palette + Intent Buttons */}
 					<Flex wrap="wrap" justify="center" gap={2.5} pt={1}>
+						<Button
+							size={{ base: "sm", md: "md" }}
+							colorScheme="blue"
+							bg="brand.600"
+							color="white"
+							borderRadius="full"
+							px={5}
+							fontWeight="bold"
+							leftIcon={<Icon as={FaMagic} />}
+							onClick={openHelperWizard}
+							boxShadow="sm"
+							_hover={{ bg: "brand.700", transform: "translateY(-1px)" }}
+							transition="all 0.15s ease"
+						>
+							עזרו לי למצוא ב-10 שניות
+						</Button>
+						<Button
+							size={{ base: "sm", md: "md" }}
+							variant="outline"
+							colorScheme="blue"
+							bg="white"
+							borderRadius="full"
+							px={4}
+							fontWeight="semibold"
+							leftIcon={<Icon as={FaSearch} boxSize={3} />}
+							onClick={openCommandPalette}
+							display={{ base: "none", sm: "inline-flex" }}
+							_hover={{ bg: "brand.50", transform: "translateY(-1px)" }}
+							transition="all 0.15s ease"
+						>
+							חיפוש מהיר (⌘K)
+						</Button>
 						{INTENT_BUTTONS.map((btn) => (
 							<Button
 								key={btn.id}

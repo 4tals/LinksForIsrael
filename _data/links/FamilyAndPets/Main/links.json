@@ -46,7 +46,7 @@
 				}
 			],
 			"registrationNumber": "580354637",
-			"registryCheckedAt": "2026-11-21",
+			"registryCheckedAt": "2026-11-22",
 			"properManagement": true
 		},
 		{
@@ -93,7 +93,7 @@
 				}
 			],
 			"registrationNumber": "580258242",
-			"registryCheckedAt": "2026-11-21",
+			"registryCheckedAt": "2026-11-22",
 			"properManagement": true
 		},
 		{
@@ -140,7 +140,7 @@
 				}
 			],
 			"registrationNumber": "580064335",
-			"registryCheckedAt": "2026-11-21",
+			"registryCheckedAt": "2026-11-22",
 			"properManagement": true
 		},
 		{
@@ -201,7 +201,7 @@
 				}
 			],
 			"registrationNumber": "580455681",
-			"registryCheckedAt": "2026-11-21",
+			"registryCheckedAt": "2026-11-22",
 			"properManagement": true
 		},
 		{
@@ -249,7 +249,7 @@
 				}
 			],
 			"registrationNumber": "580036945",
-			"registryCheckedAt": "2026-11-21",
+			"registryCheckedAt": "2026-11-22",
 			"properManagement": true
 		},
 		{
@@ -291,7 +291,7 @@
 				}
 			],
 			"registrationNumber": "580000156",
-			"registryCheckedAt": "2026-11-21",
+			"registryCheckedAt": "2026-11-22",
 			"properManagement": true
 		},
 		{
@@ -383,7 +383,170 @@
 			],
 			"registrationNumber": "516907888",
 			"properManagement": true,
-			"registryCheckedAt": "2026-11-21"
+			"registryCheckedAt": "2026-11-22"
+		},
+		{
+			"name": "AKIMIsrael",
+			"displayName": "אקים ישראל — לאנשים עם מוגבלות שכלית ולמשפחותיהם",
+			"shortDescription": "קו סיוע 'הורים למען הורים', דיור בקהילה, סנגור ומיצוי זכויות בפריסה ארצית",
+			"description": "אקים ישראל (ע״ר 580034924) הוא הארגון הארצי המוביל לליווי אנשים עם מוגבלות שכלית ובני משפחותיהם לאורך כל מעגל החיים.",
+			"url": "https://akim.org.il/",
+			"website": "https://akim.org.il/",
+			"verified": true,
+			"taxDeductible46": true,
+			"registrationNumber": "580034924",
+			"organizationType": "ngo",
+			"intents": [
+				"get-help",
+				"volunteer",
+				"donate"
+			],
+			"tags": [
+				"מוגבלות שכלית",
+				"משפחות",
+				"זכויות",
+				"דיור בקהילה"
+			],
+			"createdAt": "2026-11-22T12:00:00+02:00",
+			"references": [
+				{
+					"url": "https://www.guidestar.org.il/organization/580034924",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "אקים ישראל (ע״ר)"
+				}
+			],
+			"properManagement": true,
+			"registryCheckedAt": "2026-11-22"
+		},
+		{
+			"name": "WIZOIsrael",
+			"displayName": "ויצו ישראל — משפחה, רווחה וקו חם לנשים וגברים",
+			"shortDescription": "מקלטים ומרכזים לטיפול באלימות במשפחה, מעונות יום, ייעוץ משפטי וחנויות ביגודית",
+			"description": "ויצו (ע״ר 580057321) מפעילה מאות מוסדות רווחה וחינוך בישראל, כולל מרכזים למניעת אלימות במשפחה, קווי תמיכה, כפרי נוער ורשת 'הביגודית'.",
+			"url": "https://wizo.org.il/",
+			"website": "https://wizo.org.il/",
+			"verified": true,
+			"taxDeductible46": true,
+			"registrationNumber": "580057321",
+			"organizationType": "ngo",
+			"intents": [
+				"get-help",
+				"volunteer",
+				"donate"
+			],
+			"tags": [
+				"משפחה",
+				"רווחה",
+				"נשים",
+				"נוער",
+				"אלימות במשפחה"
+			],
+			"createdAt": "2026-11-22T12:00:00+02:00",
+			"references": [
+				{
+					"url": "https://www.guidestar.org.il/organization/580057321",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "ויצו - הסתדרות עולמית לנשים ציוניות (ע״ר)"
+				}
+			],
+			"properManagement": true,
+			"registryCheckedAt": "2026-11-22"
+		},
+		{
+			"name": "LetTheAnimalsLive",
+			"displayName": "תנו לחיות לחיות",
+			"shortDescription": "הצלת בעלי חיים, אמבולנס חילוץ, מרפאות, אימוץ כלבים וחתולים וסיוע משפטי לזכויות בעלי חיים",
+			"description": "עמותת תנו לחיות לחיות (ע״ר 580176832) פועלת מאז 1986 להצלה, שיקום ואימוץ של אלפי כלבים וחתולים נטושים ופצועים ברחבי הארץ.",
+			"url": "https://www.letlive.org.il/",
+			"website": "https://www.letlive.org.il/",
+			"verified": true,
+			"taxDeductible46": true,
+			"registrationNumber": "580176832",
+			"organizationType": "ngo",
+			"intents": [
+				"get-help",
+				"volunteer",
+				"donate"
+			],
+			"tags": [
+				"בעלי חיים",
+				"כלבים",
+				"חתולים",
+				"אימוץ",
+				"הצלת חיות"
+			],
+			"createdAt": "2026-11-22T12:00:00+02:00",
+			"references": [
+				{
+					"url": "https://www.guidestar.org.il/organization/580176832",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "תנו לחיות לחיות (ע״ר)"
+				}
+			],
+			"properManagement": true,
+			"registryCheckedAt": "2026-11-22"
+		},
+		{
+			"name": "Beterem",
+			"displayName": "בטרם — הארגון הלאומי לבטיחות ילדים",
+			"shortDescription": "מדריכים, הנחיות מניעת היפגעות בבית ובדרכים והדרכות בטיחות להורים ולאנשי מקצוע",
+			"description": "ארגון בטרם פועל לצמצום היפגעות ילדים בישראל באמצעות מחקר, מדריכי בטיחות להורים מגיל לידה ועד גיל 18 והדרכות במערכת החינוך ובבריאות.",
+			"url": "https://beterem.org/",
+			"website": "https://beterem.org/",
+			"verified": true,
+			"organizationType": "ngo",
+			"intents": [
+				"get-help",
+				"donate"
+			],
+			"tags": [
+				"בטיחות ילדים",
+				"הורים",
+				"ילדים",
+				"מניעה"
+			],
+			"createdAt": "2026-11-22T12:00:00+02:00",
+			"references": [
+				{
+					"url": "https://he.wikipedia.org/wiki/%D7%91%D7%98%D7%A8%D7%9D",
+					"type": "official",
+					"source": "Wikipedia",
+					"title": "ארגון בטרם לבטיחות ילדים"
+				}
+			]
+		},
+		{
+			"name": "Perach",
+			"displayName": "פר״ח — התוכנית הלאומית לחונכות סטודנטים וילדים",
+			"shortDescription": "חונכות אישית ולימודית לילדים ובני נוער על ידי עשרות אלפי סטודנטים מתנדבים ברחבי הארץ",
+			"description": "פרויקט פר״ח (בחסות מכון ויצמן למדע והמל״ג) מחבר מדי שנה עשרות אלפי סטודנטים לילדים הזקוקים לחיזוק רגשי ולימודי בכל רחבי ישראל.",
+			"url": "https://www.perach.org.il/",
+			"website": "https://www.perach.org.il/",
+			"verified": true,
+			"organizationType": "official",
+			"intents": [
+				"get-help",
+				"volunteer"
+			],
+			"tags": [
+				"חינוך",
+				"ילדים",
+				"חונכות",
+				"סטודנטים",
+				"התנדבות"
+			],
+			"createdAt": "2026-11-22T12:00:00+02:00",
+			"references": [
+				{
+					"url": "https://he.wikipedia.org/wiki/%D7%A4%D7%A8%D7%95%D7%99%D7%A7%D7%98_%D7%A4%D7%A8%22%D7%97",
+					"type": "official",
+					"source": "Wikipedia",
+					"title": "פרויקט פר״ח"
+				}
+			]
 		}
 	]
 }

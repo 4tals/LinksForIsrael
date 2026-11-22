@@ -37,26 +37,8 @@ export function SearchInput({
 		}
 	}, [autoFocusOnMobileOpen, isMobileSearchOpen]);
 
-	// Power-user "/" or Cmd/Ctrl+K search shortcut
-	useEffect(() => {
-		if (!enableShortcut) return;
-		const onKeyDown = (e: KeyboardEvent) => {
-			const tag = (e.target as HTMLElement | null)?.tagName;
-			const isTyping =
-				tag === "INPUT" ||
-				tag === "TEXTAREA" ||
-				(e.target as HTMLElement | null)?.isContentEditable;
-			if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === "k") {
-				e.preventDefault();
-				inputRef.current?.focus();
-			} else if (e.key === "/" && !isTyping) {
-				e.preventDefault();
-				inputRef.current?.focus();
-			}
-		};
-		window.addEventListener("keydown", onKeyDown);
-		return () => window.removeEventListener("keydown", onKeyDown);
-	}, [enableShortcut]);
+	// Keyboard focus is handled globally by the Spotlight Command Palette in RootApp.tsx
+	void enableShortcut;
 
 	return (
 		<InputGroup size={size} width="100%" maxW="520px">

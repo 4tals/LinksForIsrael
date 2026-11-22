@@ -1,11 +1,14 @@
 "use client";
 
+import NextLink from "next/link";
 import React from "react";
 import {
 	FaBookmark,
 	FaCopy,
 	FaExternalLinkAlt,
+	FaLink,
 	FaPhoneAlt,
+	FaPrint,
 	FaTrash,
 	FaWhatsapp,
 } from "react-icons/fa";
@@ -84,8 +87,30 @@ export function SavedListDrawer() {
 		}
 	};
 
+	const listParam = savedItems.map((i) => i.name).join(",");
+	const shareListUrl =
+		typeof window !== "undefined"
+			? `${window.location.origin}/?list=${encodeURIComponent(listParam)}`
+			: `https://www.linksforisrael.com/?list=${encodeURIComponent(listParam)}`;
+
+	const handleCopyShareUrl = async () => {
+		if (savedItems.length === 0) return;
+		try {
+			await navigator.clipboard.writeText(shareListUrl);
+			toast({
+				title: "קישור חי לרשימה הועתק!",
+				description: "כל מי שיפתח את הקישור יראה בדיוק את הרשימה שיצרת",
+				status: "success",
+				duration: 2400,
+				isClosable: true,
+			});
+		} catch {
+			// Ignore
+		}
+	};
+
 	const whatsappHref = `https://wa.me/?text=${encodeURIComponent(
-		formatShareMessage(savedItems),
+		`${formatShareMessage(savedItems)}\n\nקישור חי לרשימה זו:\n${shareListUrl}`,
 	)}`;
 
 	return (
@@ -254,12 +279,39 @@ export function SavedListDrawer() {
 									שתף רשימה בוואטסאפ
 								</Button>
 
-								<Flex gap={2}>
+								<Flex gap={2} wrap="wrap">
 									<Button
 										flex="1"
 										variant="outline"
 										colorScheme="blue"
 										size="sm"
+										borderRadius="lg"
+										leftIcon={<FaLink />}
+										onClick={handleCopyShareUrl}
+									>
+										העתק קישור
+									</Button>
+									<Button
+										as={NextLink}
+										href={`/print?list=${encodeURIComponent(listParam)}`}
+										onClick={closeDrawer}
+										flex="1"
+										variant="outline"
+										colorScheme="teal"
+										size="sm"
+										borderRadius="lg"
+										leftIcon={<FaPrint />}
+									>
+										הדפס לממ״ד
+									</Button>
+								</Flex>
+
+								<Flex gap={2}>
+									<Button
+										flex="1"
+										variant="ghost"
+										colorScheme="gray"
+										size="xs"
 										borderRadius="lg"
 										leftIcon={<FaCopy />}
 										onClick={handleCopyList}
@@ -269,7 +321,7 @@ export function SavedListDrawer() {
 									<Button
 										variant="ghost"
 										colorScheme="red"
-										size="sm"
+										size="xs"
 										borderRadius="lg"
 										onClick={clearSaved}
 									>

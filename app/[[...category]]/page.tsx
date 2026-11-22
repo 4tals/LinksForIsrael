@@ -5,8 +5,8 @@ import {
 	buildCategoryJsonLd,
 	buildHomeJsonLd,
 	DEFAULT_DESCRIPTION,
-	DEFAULT_OG_IMAGE,
 	DEFAULT_TITLE,
+	getCategoryOgImage,
 	resolveOgImage,
 	safeJsonLd,
 	SITE_NAME,
@@ -154,6 +154,7 @@ export async function generateMetadata({
 		const description =
 			category.description ||
 			`רשימת ${subCategory.links.length} יוזמות בתחום ${subCategory.displayName} (${category.displayName}) בפורטל ${SITE_NAME}.`;
+		const categoryOg = getCategoryOgImage(category.id);
 
 		return {
 			title,
@@ -166,13 +167,13 @@ export async function generateMetadata({
 				siteName: SITE_NAME,
 				title: `${title} | ${SITE_NAME}`,
 				description,
-				images: [{ url: DEFAULT_OG_IMAGE, alt: title }],
+				images: [{ url: categoryOg, width: 1200, height: 630, alt: title }],
 			},
 			twitter: {
 				card: "summary_large_image",
 				title: `${title} | ${SITE_NAME}`,
 				description,
-				images: [DEFAULT_OG_IMAGE],
+				images: [categoryOg],
 			},
 		};
 	}
@@ -185,6 +186,7 @@ export async function generateMetadata({
 	const description = category.description
 		? `${category.description} (${count} יוזמות ומשאבים בפורטל ${SITE_NAME}).`
 		: `רשימת ${count} יוזמות ומשאבים בתחום ${category.displayName} בפורטל ${SITE_NAME}.`;
+	const categoryOg = getCategoryOgImage(category.id);
 
 	return {
 		title,
@@ -197,13 +199,13 @@ export async function generateMetadata({
 			siteName: SITE_NAME,
 			title: `${title} | ${SITE_NAME}`,
 			description,
-			images: [{ url: DEFAULT_OG_IMAGE, alt: title }],
+			images: [{ url: categoryOg, width: 1200, height: 630, alt: title }],
 		},
 		twitter: {
 			card: "summary_large_image",
 			title: `${title} | ${SITE_NAME}`,
 			description,
-			images: [DEFAULT_OG_IMAGE],
+			images: [categoryOg],
 		},
 	};
 }

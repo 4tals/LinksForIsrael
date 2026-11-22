@@ -1,9 +1,11 @@
 "use client";
 
-import React from "react";
-import { FaPhoneAlt } from "react-icons/fa";
+import NextLink from "next/link";
+import React, { useContext } from "react";
+import { FaExclamationTriangle, FaPhoneAlt, FaPrint } from "react-icons/fa";
 
-import { Box, Flex, Icon, Link, Text } from "@chakra-ui/react";
+import { AppToolsContext } from "@/app/components/RootApp";
+import { Box, Button, Flex, HStack, Icon, Link, Text } from "@chakra-ui/react";
 
 const ESSENTIAL_HOTLINES = [
 	{
@@ -57,6 +59,8 @@ const ESSENTIAL_HOTLINES = [
 ] as const;
 
 export function HotlinesBar() {
+	const { openEmergencyMode } = useContext(AppToolsContext);
+
 	return (
 		<Box
 			bg="white"
@@ -73,20 +77,52 @@ export function HotlinesBar() {
 				justify="space-between"
 				gap={3}
 			>
-				<Flex align="center" gap={2} flexShrink={0}>
-					<Flex
-						align="center"
-						justify="center"
-						boxSize="28px"
-						borderRadius="full"
-						bg="red.50"
-						color="red.600"
-					>
-						<Icon as={FaPhoneAlt} boxSize={3} />
+				<Flex
+					align="center"
+					justify="space-between"
+					gap={2}
+					flexShrink={0}
+					w={{ base: "100%", lg: "auto" }}
+				>
+					<Flex align="center" gap={2}>
+						<Flex
+							align="center"
+							justify="center"
+							boxSize="28px"
+							borderRadius="full"
+							bg="red.50"
+							color="red.600"
+						>
+							<Icon as={FaPhoneAlt} boxSize={3} />
+						</Flex>
+						<Text fontSize="sm" fontWeight="bold" color="gray.800">
+							מוקדי חירום וסיוע מיידי:
+						</Text>
 					</Flex>
-					<Text fontSize="sm" fontWeight="bold" color="gray.800">
-						מוקדי חירום וסיוע מיידי:
-					</Text>
+
+					<HStack spacing={1.5}>
+						<Button
+							size="xs"
+							colorScheme="red"
+							variant="solid"
+							borderRadius="full"
+							leftIcon={<Icon as={FaExclamationTriangle} boxSize={2.5} />}
+							onClick={openEmergencyMode}
+						>
+							מצב חירום
+						</Button>
+						<Button
+							as={NextLink}
+							href="/print"
+							size="xs"
+							variant="outline"
+							colorScheme="gray"
+							borderRadius="full"
+							leftIcon={<Icon as={FaPrint} boxSize={2.5} />}
+						>
+							הדפסה לממ״ד
+						</Button>
+					</HStack>
 				</Flex>
 
 				<Flex

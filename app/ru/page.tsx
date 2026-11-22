@@ -5,12 +5,7 @@ import {
 	getEnrichedIntlInitiatives,
 	PORTAL_CONFIGS,
 } from "@/app/components/IntlPortal/intlCatalog";
-import {
-	buildIntlPortalJsonLd,
-	DEFAULT_OG_IMAGE,
-	safeJsonLd,
-	SITE_URL,
-} from "@/app/utils/seo";
+import { buildIntlPortalJsonLd, safeJsonLd, SITE_URL } from "@/app/utils/seo";
 
 const RU_TITLE =
 	"Links For Israel — Горячие линии 24/7, психологическая помощь и проверенные НКО в Израиле";
@@ -36,7 +31,9 @@ export const metadata: Metadata = {
 		siteName: "Links For Israel",
 		title: RU_TITLE,
 		description: RU_DESCRIPTION,
-		images: [{ url: DEFAULT_OG_IMAGE, alt: RU_TITLE }],
+		images: [
+			{ url: `${SITE_URL}/og/ru.png`, width: 1200, height: 630, alt: RU_TITLE },
+		],
 	},
 };
 

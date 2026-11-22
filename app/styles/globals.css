@@ -32,3 +32,37 @@ input:focus-visible,
 	outline: 2px solid #0038b8;
 	outline-offset: 2px;
 }
+
+/* Dark Mode & IS 5568 High-Contrast Accessibility Modes */
+html[data-visual-mode="dark"] {
+	filter: invert(0.92) hue-rotate(180deg);
+	background-color: #0b1120;
+}
+
+html[data-visual-mode="dark"] img,
+html[data-visual-mode="dark"] video,
+html[data-visual-mode="dark"] svg {
+	filter: invert(1) hue-rotate(180deg);
+}
+
+html[data-visual-mode="contrast"] {
+	filter: contrast(1.28) saturate(1.1);
+}
+
+html[data-visual-mode="contrast"] a,
+html[data-visual-mode="contrast"] button {
+	font-weight: 700 !important;
+}
+
+/* Clean A4 Print Layout for /print Emergency Fridge & Shelter Sheet */
+@media print {
+	.no-print {
+		display: none !important;
+	}
+	body {
+		background: #ffffff !important;
+		color: #000000 !important;
+		-webkit-print-color-adjust: exact;
+		print-color-adjust: exact;
+	}
+}

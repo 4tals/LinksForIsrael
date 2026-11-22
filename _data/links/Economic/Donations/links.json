@@ -47,7 +47,7 @@
 				}
 			],
 			"registrationNumber": "580407633",
-			"registryCheckedAt": "2026-11-21",
+			"registryCheckedAt": "2026-11-22",
 			"properManagement": true
 		},
 		{
@@ -101,7 +101,7 @@
 				}
 			],
 			"registrationNumber": "580294940",
-			"registryCheckedAt": "2026-11-21",
+			"registryCheckedAt": "2026-11-22",
 			"properManagement": true
 		},
 		{
@@ -149,7 +149,7 @@
 				}
 			],
 			"registrationNumber": "580328839",
-			"registryCheckedAt": "2026-11-21",
+			"registryCheckedAt": "2026-11-22",
 			"properManagement": true
 		},
 		{
@@ -217,7 +217,7 @@
 				}
 			],
 			"registrationNumber": "580601946",
-			"registryCheckedAt": "2026-11-21",
+			"registryCheckedAt": "2026-11-22",
 			"properManagement": true
 		},
 		{
@@ -262,8 +262,44 @@
 				}
 			],
 			"registrationNumber": "580586998",
-			"registryCheckedAt": "2026-11-21",
+			"registryCheckedAt": "2026-11-22",
 			"properManagement": true
+		},
+		{
+			"name": "ChasdeiNaomi",
+			"displayName": "חסדי נעמי — סלי מזון וסיוע לקשישים ולמשפחות",
+			"shortDescription": "חלוקת סלי מזון, ציוד חורף ותמיכה שוטפת באלפי משפחות, שורדי שואה וקשישים בכל הארץ",
+			"description": "עמותת חסדי נעמי (ע״ר 580073146) פועלת מאז 1984 לחלוקת סלי מזון, מזון תינוקות ותמיכה שוטפת למשפחות במצוקה ולשורדי שואה בסיוע אלפי מתנדבים.",
+			"url": "https://www.naomi.org.il/",
+			"website": "https://www.naomi.org.il/",
+			"phone": "03-6777777",
+			"verified": true,
+			"taxDeductible46": true,
+			"registrationNumber": "580073146",
+			"organizationType": "ngo",
+			"intents": [
+				"get-help",
+				"volunteer",
+				"donate"
+			],
+			"tags": [
+				"מזון",
+				"סלי מזון",
+				"שורדי שואה",
+				"קשישים",
+				"תרומה"
+			],
+			"createdAt": "2026-11-22T12:00:00+02:00",
+			"references": [
+				{
+					"url": "https://www.guidestar.org.il/organization/580073146",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "חסדי נעמי (ע״ר)"
+				}
+			],
+			"properManagement": true,
+			"registryCheckedAt": "2026-11-22"
 		}
 	]
 }

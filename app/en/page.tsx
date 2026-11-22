@@ -5,12 +5,7 @@ import {
 	getEnrichedIntlInitiatives,
 	PORTAL_CONFIGS,
 } from "@/app/components/IntlPortal/intlCatalog";
-import {
-	buildIntlPortalJsonLd,
-	DEFAULT_OG_IMAGE,
-	safeJsonLd,
-	SITE_URL,
-} from "@/app/utils/seo";
+import { buildIntlPortalJsonLd, safeJsonLd, SITE_URL } from "@/app/utils/seo";
 
 const EN_TITLE =
 	"Links For Israel — Verified Israeli Charities, 501(c)(3), Volunteering & Hotlines";
@@ -51,13 +46,20 @@ export const metadata: Metadata = {
 		siteName: "Links For Israel",
 		title: EN_TITLE,
 		description: EN_DESCRIPTION,
-		images: [{ url: DEFAULT_OG_IMAGE, alt: "Links For Israel" }],
+		images: [
+			{
+				url: `${SITE_URL}/og/en.png`,
+				width: 1200,
+				height: 630,
+				alt: "Links For Israel",
+			},
+		],
 	},
 	twitter: {
 		card: "summary_large_image",
 		title: EN_TITLE,
 		description: EN_DESCRIPTION,
-		images: [DEFAULT_OG_IMAGE],
+		images: [`${SITE_URL}/og/en.png`],
 	},
 };
 

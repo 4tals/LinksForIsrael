@@ -39,7 +39,7 @@
 				}
 			],
 			"registrationNumber": "580175545",
-			"registryCheckedAt": "2026-11-21",
+			"registryCheckedAt": "2026-11-22",
 			"properManagement": true
 		},
 		{
@@ -127,7 +127,7 @@
 				}
 			],
 			"registrationNumber": "580277481",
-			"registryCheckedAt": "2026-11-21",
+			"registryCheckedAt": "2026-11-22",
 			"properManagement": true
 		},
 		{
@@ -186,7 +186,7 @@
 				}
 			],
 			"registrationNumber": "580768935",
-			"registryCheckedAt": "2026-11-21",
+			"registryCheckedAt": "2026-11-22",
 			"properManagement": true
 		},
 		{
@@ -305,7 +305,7 @@
 				}
 			],
 			"registrationNumber": "580631620",
-			"registryCheckedAt": "2026-11-21",
+			"registryCheckedAt": "2026-11-22",
 			"properManagement": true
 		},
 		{
@@ -338,7 +338,7 @@
 				}
 			],
 			"registrationNumber": "580461689",
-			"registryCheckedAt": "2026-11-21"
+			"registryCheckedAt": "2026-11-22"
 		},
 		{
 			"displayName": "באנו",
@@ -470,8 +470,111 @@
 				}
 			],
 			"registrationNumber": "580777118",
-			"registryCheckedAt": "2026-11-21",
+			"registryCheckedAt": "2026-11-22",
 			"properManagement": true
+		},
+		{
+			"name": "NefeshBNefesh",
+			"displayName": "נפש בנפש (Nefesh B'Nefesh)",
+			"shortDescription": "ליווי מקיף, ייעוץ זכויות, קליטה, תעסוקה ותמיכה לחיילים בודדים ולעולים חדשים",
+			"description": "נפש בנפש (ע״ר 580544120) מלווה עולים חדשים מאמריקה הצפונית, מסייעת במיצוי זכויות, תעסוקה ורפואה, ומפעילה מערך תמיכה ארצי לחיילים בודדים ובנות שירות.",
+			"url": "https://www.nbn.org.il/",
+			"website": "https://www.nbn.org.il/",
+			"verified": true,
+			"taxDeductible46": true,
+			"registrationNumber": "580544120",
+			"organizationType": "ngo",
+			"intents": [
+				"get-help",
+				"volunteer",
+				"donate"
+			],
+			"tags": [
+				"עולים חדשים",
+				"עלייה",
+				"חיילים בודדים",
+				"תעסוקה",
+				"קליטה"
+			],
+			"createdAt": "2026-11-22T12:00:00+02:00",
+			"references": [
+				{
+					"url": "https://www.guidestar.org.il/organization/580544120",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "נפש בנפש עלייה (ע״ר)"
+				}
+			],
+			"properManagement": true,
+			"registryCheckedAt": "2026-11-22"
+		},
+		{
+			"name": "ShekelIsrael",
+			"displayName": "שק״ל — שילוב קהילתי לאנשים עם מוגבלויות",
+			"shortDescription": "דיור בקהילה, תעסוקה משלבת, מרכזי פנאי והנגשה לאנשים עם מוגבלויות בכל הארץ",
+			"description": "עמותת שק״ל (ע״ר 580020287) פועלת מאז 1979 לשילובם המלא של אנשים עם מוגבלויות בחברה הישראלית באמצעות דיור קהילתי, השמה בעבודה, תרבות והכשרות נגישות.",
+			"url": "https://www.shekel.org.il/",
+			"website": "https://www.shekel.org.il/",
+			"verified": true,
+			"taxDeductible46": true,
+			"registrationNumber": "580020287",
+			"organizationType": "ngo",
+			"intents": [
+				"get-help",
+				"volunteer",
+				"donate"
+			],
+			"tags": [
+				"מוגבלויות",
+				"דיור בקהילה",
+				"תעסוקה",
+				"נגישות"
+			],
+			"createdAt": "2026-11-22T12:00:00+02:00",
+			"references": [
+				{
+					"url": "https://www.guidestar.org.il/organization/580020287",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "שק״ל - שילוב קהילתי לאנשים עם מוגבלויות (ע״ר)"
+				}
+			],
+			"properManagement": true,
+			"registryCheckedAt": "2026-11-22"
+		},
+		{
+			"name": "Naamat",
+			"displayName": "נעמת — זכויות נשים, ייעוץ משפטי ומעונות יום",
+			"shortDescription": "ייעוץ משפטי בענייני עבודה ומשפחה, מרכזים לטיפול באלימות במשפחה ורשת מעונות יום",
+			"description": "נעמת (ע״ר 580044261) מפעילה לשכות ייעוץ משפטי מסובסדות, מרכזים לטיפול באלימות במשפחה, קו חם לזכויות נשים בעבודה ורשת מעונות יום ברחבי ישראל.",
+			"url": "https://naamat.org.il/",
+			"website": "https://naamat.org.il/",
+			"verified": true,
+			"taxDeductible46": true,
+			"registrationNumber": "580044261",
+			"organizationType": "ngo",
+			"intents": [
+				"get-help",
+				"donate"
+			],
+			"tags": [
+				"נשים",
+				"זכויות",
+				"ייעוץ משפטי",
+				"משפחה",
+				"אלימות במשפחה"
+			],
+			"createdAt": "2026-11-22T12:00:00+02:00",
+			"references": [
+				{
+					"url": "https://www.guidestar.org.il/organization/580044261",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "נעמת תנועת הנשים של ישראל (ע״ר)"
+				}
+			],
+			"properManagement": true,
+			"registryCheckedAt": "2026-11-22"
 		}
 	]
 }

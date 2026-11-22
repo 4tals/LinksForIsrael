@@ -1,20 +1,20 @@
 {
   "version": "1.0",
   "source": "https://www.linksforisrael.com",
-  "generatedAt": "2026-11-21T23:54:01.942Z",
+  "generatedAt": "2026-11-22T10:13:19.710Z",
   "count": 8,
   "categories": [
     {
       "id": "Medical",
       "displayName": "בריאות ונפש",
       "description": "מוקדי סיוע נפשי 24/7, ציוד רפואי, הצלה, שיקום וליווי חולים ופצועים",
-      "count": 20,
+      "count": 25,
       "portalUrl": "https://www.linksforisrael.com/Medical",
       "subCategories": [
         {
           "id": "Main",
           "displayName": "ראשי",
-          "count": 11
+          "count": 16
         },
         {
           "id": "MentalSupport",
@@ -46,18 +46,18 @@
       "id": "Economic",
       "displayName": "תרומות, מזון וכלכלה",
       "description": "ארגוני מזון, עמותות מאומתות לתרומה, ייעוץ כלכלי למשפחות וסיוע לעסקים",
-      "count": 13,
+      "count": 15,
       "portalUrl": "https://www.linksforisrael.com/Economic",
       "subCategories": [
         {
           "id": "Donations",
           "displayName": "תרומות כספיות",
-          "count": 7
+          "count": 8
         },
         {
           "id": "Businesses",
           "displayName": "ייעוץ כלכלי, עסקים והייטק",
-          "count": 6
+          "count": 7
         }
       ]
     },
@@ -65,13 +65,13 @@
       "id": "FamilyAndPets",
       "displayName": "משפחה, נוער ובע״ח",
       "description": "תנועות נוער, צרכים מיוחדים, משפחות מילואים, תכנים לילדים ובעלי חיים",
-      "count": 15,
+      "count": 20,
       "portalUrl": "https://www.linksforisrael.com/FamilyAndPets",
       "subCategories": [
         {
           "id": "Main",
           "displayName": "ראשי",
-          "count": 9
+          "count": 14
         },
         {
           "id": "ChildrenContent",
@@ -84,13 +84,13 @@
       "id": "GeneralAssistance",
       "displayName": "התנדבות, זכויות וקהילה",
       "description": "זכויות אזרחים ועובדים, מאגרי התנדבות ארציים, סיוע בדרכים וקהילות חברתיות",
-      "count": 15,
+      "count": 18,
       "portalUrl": "https://www.linksforisrael.com/GeneralAssistance",
       "subCategories": [
         {
           "id": "Main",
           "displayName": "התנדבות, זכויות וקהילה",
-          "count": 15
+          "count": 18
         }
       ]
     },

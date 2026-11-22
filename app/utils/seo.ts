@@ -7,8 +7,12 @@ export const DEFAULT_TITLE =
 	"לינק לישראל – הפורטל הפתוח להתנדבות, סיוע ויוזמות בישראל";
 export const DEFAULT_DESCRIPTION =
 	"מחפשים איך לעזור או צריכים סיוע ומידע? פורטל לינק לישראל מרכז במקום אחד עמותות, התנדבות, מוקדי סיוע נפשי, זכויות אזרחים, חקלאות ישראלית ויוזמות קהילתיות — בשגרה ובחירום.";
-export const DEFAULT_OG_IMAGE =
-	"https://res.cloudinary.com/dargbitr2/image/upload/v1697311977/LinksForIsrael/jix5eizmqcegmfra89gs.jpg";
+export const DEFAULT_OG_IMAGE = `${SITE_URL}/og/home.png`;
+
+export function getCategoryOgImage(categoryId?: string): string {
+	if (!categoryId) return DEFAULT_OG_IMAGE;
+	return `${SITE_URL}/og/${encodeURIComponent(categoryId)}.png`;
+}
 
 export function safeJsonLd(data: unknown): string {
 	return JSON.stringify(data).replace(/</g, "\\u003c");

@@ -8,6 +8,7 @@ import {
 	sortInitiativesByRank,
 	SubCategoryData,
 } from "@/app/utils/categories";
+import { expandSearchSynonyms } from "@/app/utils/searchSynonyms";
 import {
 	getUrlParams,
 	parseIntentParam,
@@ -22,7 +23,9 @@ function filterCategories(
 	searchTerm: string,
 	activeIntent: InitiativeIntent | null,
 ): Category[] {
-	const expandedTerms = expandSearchTerms(searchTerm);
+	const baseTerms = expandSearchTerms(searchTerm);
+	const synonymTerms = expandSearchSynonyms(searchTerm);
+	const expandedTerms = Array.from(new Set([...baseTerms, ...synonymTerms]));
 	if (expandedTerms.length === 0 && !activeIntent) return [];
 
 	const hasGeneralAssistance = categories.some(
@@ -155,7 +158,14 @@ export function useSearch(
 	const isPortalSearchPath = () => {
 		if (typeof window === "undefined") return false;
 		const p = window.location.pathname;
-		return !p.startsWith("/en") && !p.startsWith("/docs");
+		return (
+			!p.startsWith("/en") &&
+			!p.startsWith("/ar") &&
+			!p.startsWith("/ru") &&
+			!p.startsWith("/embed") &&
+			!p.startsWith("/print") &&
+			!p.startsWith("/docs")
+		);
 	};
 
 	// Hydrate global search & intent from URL query params (?q=...&intent=...)
