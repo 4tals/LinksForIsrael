@@ -60,8 +60,6 @@ test("public/llms.txt exists and includes core portals and hotlines", async () =
 	assert.match(llms, /\/api\/v1\/initiatives\.json/);
 	assert.match(llms, /\/api\/v1\/hsds\.json/);
 	assert.match(llms, /\/en/);
-	assert.match(llms, /\/ar/);
-	assert.match(llms, /\/ru/);
 });
 
 test("manifest icons exist at declared dimensions", async () => {

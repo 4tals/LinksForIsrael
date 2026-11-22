@@ -100,32 +100,6 @@ const LABELS = {
 		showing: (shown: number, total: number) =>
 			`Showing ${shown} of ${total} organizations`,
 	},
-	ar: {
-		verified: "معتمد فقط",
-		section46: "إعفاء ضريبي (§46)",
-		us501c3: "501(c)(3)",
-		references: "مصادر وتغطية إعلامية",
-		phone: "خط هاتف",
-		"get-help": "مساعدة",
-		volunteer: "تطوع",
-		donate: "تبرع",
-		clear: "مسح الفلتر",
-		showing: (shown: number, total: number) =>
-			`عرض ${shown} من أصل ${total} منظمة`,
-	},
-	ru: {
-		verified: "Только проверенные",
-		section46: "Налоговый вычет (§46)",
-		us501c3: "501(c)(3) США",
-		references: "СМИ и реестр",
-		phone: "Горячая линия",
-		"get-help": "Помощь",
-		volunteer: "Волонтёрство",
-		donate: "Пожертвовать",
-		clear: "Сбросить",
-		showing: (shown: number, total: number) =>
-			`Показано ${shown} из ${total} организаций`,
-	},
 } as const;
 
 interface TrustFilterBarProps {
@@ -134,7 +108,7 @@ interface TrustFilterBarProps {
 	onChange: (next: TrustFilterState) => void;
 	totalFilteredCount: number;
 	categoryId?: string;
-	locale?: "he" | "en" | "ar" | "ru";
+	locale?: "he" | "en";
 	showIntentFilters?: boolean;
 }
 

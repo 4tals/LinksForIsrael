@@ -6,7 +6,9 @@ import { Button, Link } from "@chakra-ui/react";
 const NEW_INITIATIVE_ISSUE_URL =
 	"https://github.com/4tals/LinksForIsrael/issues/new?template=new_initiative.yml";
 
-export function AddSite() {
+export function AddSite({ locale = "he" }: { locale?: "he" | "en" }) {
+	const isHe = locale === "he";
+
 	return (
 		<Button
 			as={Link}
@@ -18,7 +20,8 @@ export function AddSite() {
 			borderRadius="full"
 			fontWeight="bold"
 			px={{ base: 3.5, md: 5 }}
-			rightIcon={<AddIcon boxSize={3} />}
+			rightIcon={isHe ? <AddIcon boxSize={3} /> : undefined}
+			leftIcon={!isHe ? <AddIcon boxSize={3} /> : undefined}
 			boxShadow="sm"
 			_hover={{
 				bg: "blue.50",
@@ -29,7 +32,7 @@ export function AddSite() {
 			_active={{ transform: "translateY(0)" }}
 			transition="all 0.2s ease"
 		>
-			הוסיפו יוזמה
+			{isHe ? "הוסיפו יוזמה" : "Add Initiative"}
 		</Button>
 	);
 }

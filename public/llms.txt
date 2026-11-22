@@ -14,9 +14,7 @@
 
 ## Portals, Embeds & Open Data API
 - Hebrew Portal: https://www.linksforisrael.com/
-- English / Diaspora Support Portal: https://www.linksforisrael.com/en
-- Arabic Emergency & Aid Portal (العربية): https://www.linksforisrael.com/ar
-- Russian Emergency & Aid Portal (Русский): https://www.linksforisrael.com/ru
+- English Portal: https://www.linksforisrael.com/en
 - Verification Methodology: https://www.linksforisrael.com/docs/methodology
 - Accessibility Statement (IS 5568 / WCAG 2.1 AA): https://www.linksforisrael.com/docs/accessibility
 - Embeddable Hotlines Widget: https://www.linksforisrael.com/embed/hotlines

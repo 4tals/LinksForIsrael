@@ -28,18 +28,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 			priority: 0.9,
 		},
 		{
-			url: `${SITE_URL}/ar`,
-			lastModified: now,
-			changeFrequency: "weekly",
-			priority: 0.85,
-		},
-		{
-			url: `${SITE_URL}/ru`,
-			lastModified: now,
-			changeFrequency: "weekly",
-			priority: 0.85,
-		},
-		{
 			url: `${SITE_URL}/embed/hotlines`,
 			lastModified: now,
 			changeFrequency: "monthly",

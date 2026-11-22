@@ -47,11 +47,26 @@ const containsHebrewLetters = (str: string): boolean =>
 
 const INTENT_STYLES: Record<
 	InitiativeIntent,
-	{ label: string; bg: string; color: string }
+	{ labelHe: string; labelEn: string; bg: string; color: string }
 > = {
-	"get-help": { label: "סיוע", bg: "blue.50", color: "blue.700" },
-	volunteer: { label: "התנדבות", bg: "teal.50", color: "teal.700" },
-	donate: { label: "תרומה", bg: "purple.50", color: "purple.700" },
+	"get-help": {
+		labelHe: "סיוע",
+		labelEn: "Get Help",
+		bg: "blue.50",
+		color: "blue.700",
+	},
+	volunteer: {
+		labelHe: "התנדבות",
+		labelEn: "Volunteer",
+		bg: "teal.50",
+		color: "teal.700",
+	},
+	donate: {
+		labelHe: "תרומה",
+		labelEn: "Donate",
+		bg: "purple.50",
+		color: "purple.700",
+	},
 };
 
 function formatDisplayDomain(url: string | null): string | null {
@@ -69,17 +84,25 @@ interface InitiativeItemProps {
 	link: LinkType;
 	categoryId?: string;
 	subCategoryName?: string;
-	setDescription: (description: {
+	locale?: "he" | "en";
+	categoryBadge?: { label: string; bg: string; color: string };
+	cardIdForCopy?: string;
+	onOpenCard?: () => void;
+	setDescription?: (description: {
 		body: React.ReactNode;
 		link: LinkType;
 	}) => void;
-	setOpenDialog: (open: boolean) => void;
+	setOpenDialog?: (open: boolean) => void;
 }
 
 export const InitiativeItem: React.FC<InitiativeItemProps> = ({
 	link,
 	categoryId,
 	subCategoryName,
+	locale,
+	categoryBadge,
+	cardIdForCopy,
+	onOpenCard,
 	setDescription,
 	setOpenDialog,
 }) => {
@@ -87,13 +110,18 @@ export const InitiativeItem: React.FC<InitiativeItemProps> = ({
 	const { isSaved, toggleSave } = useBookmarks();
 	const saved = isSaved(link.name);
 
-	const isRtl = containsHebrewLetters(
-		`${link.displayName || ""}${link.shortDescription || ""}`,
-	);
+	const isRtl =
+		locale !== undefined
+			? locale === "he"
+			: containsHebrewLetters(
+					`${link.displayName || ""}${link.shortDescription || ""}`,
+				);
 
 	const primaryUrl = getPrimaryInitiativeUrl(link);
 	const displayDomain = formatDisplayDomain(primaryUrl);
-	const intents = getInitiativeIntents(link, categoryId).slice(0, 2);
+	const intents = categoryBadge
+		? []
+		: getInitiativeIntents(link, categoryId).slice(0, 2);
 	const refSummary = getReferenceSummary(link, 2);
 
 	const sharePath =
@@ -104,6 +132,11 @@ export const InitiativeItem: React.FC<InitiativeItemProps> = ({
 			: undefined;
 
 	const openDetailsModal = () => {
+		if (onOpenCard) {
+			onOpenCard();
+			return;
+		}
+		if (!setDescription || !setOpenDialog) return;
 		setDescription({
 			link,
 			body: (
@@ -111,6 +144,7 @@ export const InitiativeItem: React.FC<InitiativeItemProps> = ({
 					link={link}
 					setOpenDialog={setOpenDialog}
 					sharePath={sharePath}
+					locale={locale}
 				/>
 			),
 		});
@@ -128,13 +162,13 @@ export const InitiativeItem: React.FC<InitiativeItemProps> = ({
 		e.stopPropagation();
 		const target =
 			typeof window !== "undefined"
-				? buildUrlWithCard(link.name)
+				? buildUrlWithCard(cardIdForCopy || link.name)
 				: primaryUrl || "";
 		if (!target) return;
 		try {
 			await navigator.clipboard.writeText(target);
 			toast({
-				title: isRtl ? "הקישור הועתק ללוח" : "Link copied",
+				title: isRtl ? "הקישור הועתק ללוח" : "Card link copied",
 				status: "success",
 				duration: 1800,
 				isClosable: true,
@@ -156,7 +190,13 @@ export const InitiativeItem: React.FC<InitiativeItemProps> = ({
 			subCategoryName,
 		});
 		toast({
-			title: added ? "נשמר לרשימה שלך" : "הוסר מהרשימה",
+			title: isRtl
+				? added
+					? "נשמר לרשימה שלך"
+					: "הוסר מהרשימה"
+				: added
+					? "Saved to your list"
+					: "Removed from list",
 			status: added ? "success" : "info",
 			duration: 1600,
 			isClosable: true,
@@ -355,8 +395,22 @@ export const InitiativeItem: React.FC<InitiativeItemProps> = ({
 				</HStack>
 			</Flex>
 
-			{/* Intent Badges + Section 46 + Optional Hotline Pill */}
+			{/* Category / Intent Badges + Good Standing + Section 46 + 501(c)(3) + Hotline Pill */}
 			<Flex wrap="wrap" gap={1.5} mb={2.5} align="center">
+				{categoryBadge && (
+					<Badge
+						bg={categoryBadge.bg}
+						color={categoryBadge.color}
+						fontSize="2xs"
+						fontWeight="semibold"
+						px={2.5}
+						py={0.5}
+						borderRadius="full"
+						textTransform="none"
+					>
+						{categoryBadge.label}
+					</Badge>
+				)}
 				{intents.map((intent) => (
 					<Badge
 						key={intent}
@@ -369,15 +423,21 @@ export const InitiativeItem: React.FC<InitiativeItemProps> = ({
 						borderRadius="full"
 						textTransform="none"
 					>
-						{INTENT_STYLES[intent].label}
+						{isRtl
+							? INTENT_STYLES[intent].labelHe
+							: INTENT_STYLES[intent].labelEn}
 					</Badge>
 				))}
 				{link.properManagement && (
 					<Tooltip
 						label={
-							link.registryCheckedAt
-								? `אישור ניהול תקין מאומת מול רשם העמותות (data.gov.il, ${link.registryCheckedAt})`
-								: "אישור ניהול תקין מאומת מול רשם העמותות"
+							isRtl
+								? link.registryCheckedAt
+									? `אישור ניהול תקין מאומת מול רשם העמותות (data.gov.il, ${link.registryCheckedAt})`
+									: "אישור ניהול תקין מאומת מול רשם העמותות"
+								: link.registryCheckedAt
+									? `Verified Good Standing in Israel MOJ registry (data.gov.il, ${link.registryCheckedAt})`
+									: "Verified Good Standing (Israel Ministry of Justice)"
 						}
 						placement="top"
 						hasArrow
@@ -392,9 +452,23 @@ export const InitiativeItem: React.FC<InitiativeItemProps> = ({
 							borderRadius="full"
 							textTransform="none"
 						>
-							ניהול תקין
+							{isRtl ? "ניהול תקין" : "MOJ Verified"}
 						</Badge>
 					</Tooltip>
+				)}
+				{link.us501c3 && !isRtl && (
+					<Badge
+						bg="purple.50"
+						color="purple.700"
+						fontSize="2xs"
+						fontWeight="semibold"
+						px={2}
+						py={0.5}
+						borderRadius="full"
+						textTransform="none"
+					>
+						501(c)(3)
+					</Badge>
 				)}
 				{link.taxDeductible46 && (
 					<Badge
@@ -408,7 +482,7 @@ export const InitiativeItem: React.FC<InitiativeItemProps> = ({
 						borderRadius="full"
 						textTransform="none"
 					>
-						סעיף 46
+						{isRtl ? "סעיף 46" : "§46"}
 					</Badge>
 				)}
 				{refSummary && (

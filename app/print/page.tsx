@@ -299,7 +299,7 @@ export default function PrintSheetPage() {
 						>
 							{cfg.backBtn}
 						</Button>
-						{(["he", "en", "ar", "ru"] as PrintLang[]).map((code) => (
+						{(["he", "en"] as PrintLang[]).map((code) => (
 							<Button
 								key={code}
 								size="xs"
@@ -308,13 +308,7 @@ export default function PrintSheetPage() {
 								variant={lang === code ? "solid" : "outline"}
 								onClick={() => selectLang(code)}
 							>
-								{code === "he"
-									? "עברית"
-									: code === "en"
-										? "EN"
-										: code === "ar"
-											? "العربية"
-											: "RU"}
+								{code === "he" ? "עברית" : "English"}
 							</Button>
 						))}
 					</HStack>

@@ -28,5 +28,7 @@
 /memorialremembrance /MemorialRemembrance 301
 /strategiccommunication /StrategicCommunication 301
 /EN /en 301
-/AR /ar 301
-/RU /ru 301
+/ar /en 301
+/AR /en 301
+/ru /en 301
+/RU /en 301

@@ -94,7 +94,7 @@ export function buildHomeJsonLd(categories: Category[]) {
 				name: SITE_NAME,
 				alternateName: "Links For Israel",
 				description: DEFAULT_DESCRIPTION,
-				inLanguage: ["he-IL", "en-US", "ar-IL", "ru-RU"],
+				inLanguage: ["he-IL", "en-US"],
 				potentialAction: {
 					"@type": "SearchAction",
 					target: {

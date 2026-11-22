@@ -6,13 +6,13 @@ import React, { useContext } from "react";
 import { FaBookmark, FaSearch } from "react-icons/fa";
 
 import { useBookmarks } from "@/app/components/Bookmarks/BookmarksContext";
+import { LanguageSwitcher } from "@/app/components/LanguageSwitcher/LanguageSwitcher";
 import { Logo } from "@/app/components/Logo";
 import { AppToolsContext, SearchContext } from "@/app/components/RootApp";
 import { ThemeModeToggle } from "@/app/components/Theme/ThemeModeToggle";
 import {
 	Badge,
 	Box,
-	Button,
 	Container,
 	Flex,
 	HStack,
@@ -30,17 +30,12 @@ export function Header() {
 	const { openCommandPalette } = useContext(AppToolsContext);
 	const { savedItems, openDrawer } = useBookmarks();
 	const pathname = usePathname();
-	const isIntl =
-		pathname === "/en" ||
-		pathname?.startsWith("/en/") ||
-		pathname === "/ar" ||
-		pathname?.startsWith("/ar/") ||
-		pathname === "/ru" ||
-		pathname?.startsWith("/ru/");
+	const isEnglish = pathname === "/en" || pathname?.startsWith("/en/");
 
 	return (
 		<Box
 			as="header"
+			dir={isEnglish ? "ltr" : "rtl"}
 			position="sticky"
 			top={0}
 			zIndex={1000}
@@ -50,10 +45,10 @@ export function Header() {
 			boxShadow="sm"
 		>
 			<Container maxW="1440px" py={3} px={{ base: 3, md: 6 }}>
-				<Flex align="center" justify="space-between" gap={4}>
+				<Flex align="center" justify="space-between" gap={3}>
 					<Flex align="center" flex={{ base: "1", md: "0 0 auto" }}>
 						<NextLink
-							href="/"
+							href={isEnglish ? "/en" : "/"}
 							onClick={() => {
 								onSearch("");
 								setActiveIntent(null);
@@ -84,17 +79,17 @@ export function Header() {
 								color="white"
 								whiteSpace="nowrap"
 							>
-								לינק לישראל
+								{isEnglish ? "Links For Israel" : "לינק לישראל"}
 							</Text>
 						</NextLink>
 					</Flex>
 
-					{!isIntl && (
+					{!isEnglish && (
 						<Flex
 							display={{ base: "none", md: "flex" }}
 							flex="1"
 							justify="center"
-							maxW="540px"
+							maxW="520px"
 							mx="auto"
 						>
 							<SearchInput enableShortcut />
@@ -102,9 +97,16 @@ export function Header() {
 					)}
 
 					<HStack spacing={1.5} flex="0 0 auto">
-						<Tooltip label="חיפוש מהיר בכל הפורטל (⌘K או /)" hasArrow>
+						<Tooltip
+							label={
+								isEnglish
+									? "Quick search everywhere (⌘K or /)"
+									: "חיפוש מהיר בכל הפורטל (⌘K או /)"
+							}
+							hasArrow
+						>
 							<IconButton
-								aria-label="פתח חיפוש מהיר"
+								aria-label={isEnglish ? "Open quick search" : "פתח חיפוש מהיר"}
 								icon={<FaSearch size={13} />}
 								size={{ base: "sm", md: "md" }}
 								variant="ghost"
@@ -115,85 +117,47 @@ export function Header() {
 								onClick={openCommandPalette}
 							/>
 						</Tooltip>
-						<ThemeModeToggle />
-						{!isIntl && (
-							<Tooltip label="הרשימה השמורה שלי" hasArrow>
-								<Box position="relative">
-									<IconButton
-										aria-label="פתח רשימה שמורה"
-										icon={<FaBookmark size={14} />}
-										size={{ base: "sm", md: "md" }}
-										variant="ghost"
-										color="white"
-										borderRadius="full"
-										_hover={{ bg: "whiteAlpha.200" }}
-										onClick={openDrawer}
-									/>
-									{savedItems.length > 0 && (
-										<Badge
-											position="absolute"
-											top="-2px"
-											right="-2px"
-											bg="yellow.400"
-											color="gray.900"
-											borderRadius="full"
-											fontSize="2xs"
-											px={1.5}
-											pointerEvents="none"
-										>
-											{savedItems.length}
-										</Badge>
-									)}
-								</Box>
-							</Tooltip>
-						)}
 
-						<Button
-							as={NextLink}
-							href={isIntl ? "/" : "/en"}
-							size={{ base: "sm", md: "md" }}
-							variant="ghost"
-							color="white"
-							borderRadius="full"
-							borderWidth="1px"
-							borderColor="whiteAlpha.400"
-							fontWeight="semibold"
-							px={3}
-							_hover={{ bg: "whiteAlpha.200", textDecoration: "none" }}
-							aria-label={isIntl ? "עבור לעברית" : "Switch to English"}
+						<ThemeModeToggle />
+
+						<Tooltip
+							label={isEnglish ? "My saved list" : "הרשימה השמורה שלי"}
+							hasArrow
 						>
-							{isIntl ? "עברית" : "EN"}
-						</Button>
-						<HStack spacing={1} display={{ base: "none", lg: "flex" }}>
-							<Button
-								as={NextLink}
-								href="/ar"
-								size="xs"
-								variant="ghost"
-								color="whiteAlpha.900"
-								borderRadius="full"
-								px={2}
-								_hover={{ bg: "whiteAlpha.200", textDecoration: "none" }}
-								aria-label="العربية"
-							>
-								عربي
-							</Button>
-							<Button
-								as={NextLink}
-								href="/ru"
-								size="xs"
-								variant="ghost"
-								color="whiteAlpha.900"
-								borderRadius="full"
-								px={2}
-								_hover={{ bg: "whiteAlpha.200", textDecoration: "none" }}
-								aria-label="Русский"
-							>
-								RU
-							</Button>
-						</HStack>
-						<AddSite />
-						{!isIntl && (
+							<Box position="relative">
+								<IconButton
+									aria-label={isEnglish ? "Open saved list" : "פתח רשימה שמורה"}
+									icon={<FaBookmark size={14} />}
+									size={{ base: "sm", md: "md" }}
+									variant="ghost"
+									color="white"
+									borderRadius="full"
+									_hover={{ bg: "whiteAlpha.200" }}
+									onClick={openDrawer}
+								/>
+								{savedItems.length > 0 && (
+									<Badge
+										position="absolute"
+										top="-2px"
+										right="-2px"
+										bg="yellow.400"
+										color="gray.900"
+										borderRadius="full"
+										fontSize="2xs"
+										px={1.5}
+										pointerEvents="none"
+									>
+										{savedItems.length}
+									</Badge>
+								)}
+							</Box>
+						</Tooltip>
+
+						<LanguageSwitcher />
+
+						<AddSite locale={isEnglish ? "en" : "he"} />
+
+						{!isEnglish && (
 							<Box display={{ base: "block", md: "none" }}>
 								<SearchButtonMobile />
 							</Box>

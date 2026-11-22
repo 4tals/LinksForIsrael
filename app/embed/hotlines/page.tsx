@@ -387,7 +387,7 @@ export default function EmbedHotlinesPage() {
 
 				{/* Language Selector */}
 				<HStack spacing={2} mb={4}>
-					{(["he", "en", "ar", "ru"] as EmbedLang[]).map((code) => (
+					{(["he", "en"] as EmbedLang[]).map((code) => (
 						<Button
 							key={code}
 							size="xs"
@@ -396,13 +396,7 @@ export default function EmbedHotlinesPage() {
 							variant={lang === code ? "solid" : "outline"}
 							onClick={() => handleSelectLang(code)}
 						>
-							{code === "he"
-								? "עברית"
-								: code === "en"
-									? "English"
-									: code === "ar"
-										? "العربية"
-										: "Русский"}
+							{code === "he" ? "עברית" : "English"}
 						</Button>
 					))}
 				</HStack>

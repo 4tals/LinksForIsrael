@@ -84,8 +84,6 @@ export async function generateMetadata({
 				languages: {
 					"he-IL": "/",
 					"en-US": "/en",
-					"ar-IL": "/ar",
-					"ru-RU": "/ru",
 					"x-default": "/",
 				},
 			},

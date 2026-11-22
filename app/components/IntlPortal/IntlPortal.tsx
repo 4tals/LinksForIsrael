@@ -1,20 +1,16 @@
 "use client";
 
-import NextLink from "next/link";
+import dynamic from "next/dynamic";
 import React, { useCallback, useEffect, useMemo, useState } from "react";
 import {
-	FaArrowLeft,
-	FaArrowRight,
-	FaCheckCircle,
-	FaGlobe,
-	FaLink,
-	FaNewspaper,
-	FaPhoneAlt,
+	FaBullhorn,
+	FaHandHoldingHeart,
+	FaHandsHelping,
+	FaHeartbeat,
 	FaSearch,
 	FaShareAlt,
 } from "react-icons/fa";
 
-import { DialogModal } from "@/app/components/DialogModal/DialogModal";
 import {
 	filterInitiativesByTrust,
 	hasActiveTrustFilters,
@@ -22,79 +18,123 @@ import {
 	TrustFilterBar,
 	TrustFilterState,
 } from "@/app/components/Filters/TrustFilterBar";
+import { GuidesHub } from "@/app/components/Guides/GuidesHub";
+import { PortalHero } from "@/app/components/Hero/PortalHero";
+import { HotlinesBar } from "@/app/components/Hotlines/HotlinesBar";
+import { InitiativeItem } from "@/app/components/Initiative/InitiativeItem";
 import { ShowMoreModal } from "@/app/components/Initiative/InitiativeShowMoreModal";
-import { OrgAvatar } from "@/app/components/Initiative/OrgAvatar";
-import { Logo } from "@/app/components/Logo";
-import { getReferenceSummary } from "@/app/utils/categories";
+import { LifeEventPathways } from "@/app/components/Pathways/LifeEventPathways";
 import {
-	buildUrlWithCard,
 	getUrlParams,
 	parseTrustFiltersFromParams,
 	trustFiltersToUrlPatch,
 	updateUrlParams,
 } from "@/app/utils/urlState";
-import { ExternalLinkIcon } from "@chakra-ui/icons";
+import { CloseIcon } from "@chakra-ui/icons";
 import {
 	Badge,
 	Box,
 	Button,
-	Container,
 	Flex,
 	Heading,
-	HStack,
 	Icon,
 	IconButton,
 	Input,
 	InputGroup,
 	InputLeftElement,
-	Link,
+	InputRightElement,
 	SimpleGrid,
 	Text,
-	Tooltip,
 	useToast,
-	VStack,
 } from "@chakra-ui/react";
 
-import {
-	EnrichedIntlInitiative,
-	IntlPortalConfig,
-	PortalLocale,
-} from "./intlCatalog";
+import { EnrichedIntlInitiative } from "./intlCatalog";
 
-const CATEGORY_COLORS: Record<string, { bg: string; color: string }> = {
-	donate: { bg: "purple.50", color: "purple.700" },
-	rehab: { bg: "blue.50", color: "blue.700" },
-	volunteer: { bg: "teal.50", color: "teal.700" },
-	advocacy: { bg: "orange.50", color: "orange.700" },
-};
+const DialogModal = dynamic(
+	() =>
+		import("@/app/components/DialogModal/DialogModal").then(
+			(m) => m.DialogModal,
+		),
+	{ ssr: false },
+);
 
-const LANG_LINKS: Array<{
-	code: PortalLocale | "he";
-	label: string;
-	href: string;
-}> = [
-	{ code: "he", label: "עברית", href: "/" },
-	{ code: "en", label: "English", href: "/en" },
-	{ code: "ar", label: "العربية", href: "/ar" },
-	{ code: "ru", label: "Русский", href: "/ru" },
+const EN_CATEGORIES = [
+	{
+		id: "donate",
+		label: "Humanitarian & Donations",
+		desc: "Food security, emergency relief, medical equipment & verified charities",
+		icon: FaHandHoldingHeart,
+		bg: "purple.50",
+		color: "purple.700",
+	},
+	{
+		id: "rehab",
+		label: "Veterans & Mental Health",
+		desc: "24/7 crisis helplines, trauma care, rehabilitation & disability support",
+		icon: FaHeartbeat,
+		bg: "red.50",
+		color: "red.600",
+	},
+	{
+		id: "volunteer",
+		label: "Volunteering & Community",
+		desc: "Hands-on NGOs, agricultural harvesting, youth & roadside rescue",
+		icon: FaHandsHelping,
+		bg: "teal.50",
+		color: "teal.700",
+	},
+	{
+		id: "advocacy",
+		label: "Advocacy & Remembrance",
+		desc: "Official Oct 7 archives, National Library & global advocacy networks",
+		icon: FaBullhorn,
+		bg: "orange.50",
+		color: "orange.700",
+	},
+] as const;
+
+const EN_QUICK_TAGS = [
+	"501(c)(3)",
+	"mental health",
+	"volunteer",
+	"food",
+	"veterans",
+	"agriculture",
+	"remembrance",
 ];
 
-function getDisplayDomain(url: string): string {
-	try {
-		return new URL(url).hostname.replace(/^www\./, "");
-	} catch {
-		return "";
-	}
-}
+const CATEGORY_BADGE_MAP: Record<
+	string,
+	{ bg: string; color: string; label: string }
+> = {
+	donate: {
+		bg: "purple.50",
+		color: "purple.700",
+		label: "Humanitarian & Donations",
+	},
+	rehab: {
+		bg: "blue.50",
+		color: "blue.700",
+		label: "Veterans & Mental Health",
+	},
+	volunteer: {
+		bg: "teal.50",
+		color: "teal.700",
+		label: "Volunteering & Community",
+	},
+	advocacy: {
+		bg: "orange.50",
+		color: "orange.700",
+		label: "Advocacy & Remembrance",
+	},
+};
 
-export function IntlPortal({
-	config,
-	items,
-}: {
-	config: IntlPortalConfig;
-	items: EnrichedIntlInitiative[];
-}) {
-	const isRtl = config.dir === "rtl";
+/**
+ * English Portal — built from the exact same reusable primitives as the Hebrew homepage:
+ * PortalHero, HotlinesBar, LifeEventPathways, Category Cards, TrustFilterBar, InitiativeItem,
+ * DialogModal + ShowMoreModal, and GuidesHub.
+ */
+export function IntlPortal({ items }: { items: EnrichedIntlInitiative[] }) {
 	const [selectedCategory, setSelectedCategoryState] = useState<string>("all");
 	const [query, setQueryState] = useState("");
 	const [trustFilters, setTrustFiltersState] =
@@ -106,7 +146,10 @@ export function IntlPortal({
 	const toast = useToast();
 
 	useEffect(() => {
-		const validCats = new Set<string>(config.categories.map((c) => c.id));
+		const validCats = new Set<string>([
+			"all",
+			...EN_CATEGORIES.map((c) => c.id),
+		]);
 		const syncFromUrl = () => {
 			const params = getUrlParams();
 			const urlCat = params.get("cat") || "all";
@@ -133,7 +176,7 @@ export function IntlPortal({
 		syncFromUrl();
 		window.addEventListener("popstate", syncFromUrl);
 		return () => window.removeEventListener("popstate", syncFromUrl);
-	}, [items, config.categories]);
+	}, [items]);
 
 	const setSelectedCategory = useCallback((cat: string) => {
 		setSelectedCategoryState(cat);
@@ -168,8 +211,8 @@ export function IntlPortal({
 		try {
 			await navigator.clipboard.writeText(window.location.href);
 			toast({
-				title: config.viewCopiedTitle,
-				description: config.viewCopiedDesc,
+				title: "View link copied",
+				description: "Anyone opening this link will see your exact filters.",
 				status: "success",
 				duration: 2200,
 				isClosable: true,
@@ -179,6 +222,23 @@ export function IntlPortal({
 		}
 	};
 
+	const stats = useMemo(() => {
+		const nihulCount = items.filter((i) => i.link.properManagement).length;
+		const citationsCount = items.reduce(
+			(sum, i) => sum + (i.link.references?.length || 0),
+			0,
+		);
+		return { totalCount: items.length, nihulCount, citationsCount };
+	}, [items]);
+
+	const categoryCounts = useMemo(() => {
+		const map: Record<string, number> = {};
+		for (const item of items) {
+			map[item.category] = (map[item.category] || 0) + 1;
+		}
+		return map;
+	}, [items]);
+
 	const categoryMatchedItems = useMemo(() => {
 		const q = query.trim().toLowerCase();
 		return items.filter((item) => {
@@ -186,6 +246,9 @@ export function IntlPortal({
 				return false;
 			}
 			if (!q) return true;
+			if (q === "501(c)(3)" || q === "501c3") {
+				return Boolean(item.link.us501c3);
+			}
 			return (
 				item.name.toLowerCase().includes(q) ||
 				item.summary.toLowerCase().includes(q) ||
@@ -207,309 +270,250 @@ export function IntlPortal({
 		return categoryMatchedItems.filter((item) => allowedLinks.has(item.link));
 	}, [categoryMatchedItems, trustFilters]);
 
-	const handleCopy = async (e: React.MouseEvent, cardId: string) => {
-		e.stopPropagation();
-		try {
-			await navigator.clipboard.writeText(buildUrlWithCard(cardId));
-			toast({
-				title: config.cardCopiedTitle,
-				status: "success",
-				duration: 1800,
-				isClosable: true,
-			});
-		} catch {
-			// Ignore
-		}
-	};
-
 	return (
 		<Box
-			dir={config.dir}
-			textAlign={isRtl ? "right" : "left"}
-			py={{ base: 6, md: 10 }}
+			dir="ltr"
+			textAlign="left"
+			px={{ base: 3, md: 6 }}
+			pt={{ base: 5, md: 8 }}
+			pb={8}
+			maxW="1440px"
+			mx="auto"
 		>
-			{/* Shared Floating Side Card Drawer */}
-			<DialogModal
-				title={activeItem?.name || ""}
-				body={
-					activeItem ? (
+			{/* Shared Lazy Floating Side Card Drawer */}
+			{activeItem && (
+				<DialogModal
+					title={activeItem.name}
+					body={
 						<ShowMoreModal
 							link={activeItem.link}
 							setOpenDialog={setIsDrawerOpen}
 							sharePath={activeItem.sharePath}
-							locale={isRtl ? "he" : "en"}
+							locale="en"
 						/>
-					) : null
+					}
+					open={Boolean(isDrawerOpen && activeItem)}
+					toggleModal={setIsDrawerOpen}
+					isRtl={false}
+				/>
+			)}
+
+			{/* 1. Shared Hero (identical structure to Hebrew /) */}
+			<PortalHero
+				locale="en"
+				stats={stats}
+				title="Links For Israel"
+				subtitle="The open-source directory of verified Israeli nonprofits, 24/7 mental health helplines, volunteering networks, and Section 46 / 501(c)(3) charities — year-round and in emergencies."
+				actionButtons={
+					<>
+						<Button
+							size={{ base: "sm", md: "md" }}
+							colorScheme="purple"
+							variant="subtle"
+							bg="purple.50"
+							color="purple.700"
+							borderWidth="1px"
+							borderColor="purple.200"
+							borderRadius="full"
+							px={5}
+							fontWeight="bold"
+							leftIcon={<Icon as={FaHandHoldingHeart} />}
+							onClick={() => {
+								setSelectedCategory("donate");
+								setTrustFilters({ ...INITIAL_TRUST_FILTER, us501c3: true });
+							}}
+							_hover={{ bg: "purple.100", transform: "translateY(-1px)" }}
+							transition="all 0.15s ease"
+						>
+							Donate (501c3)
+						</Button>
+						<Button
+							size={{ base: "sm", md: "md" }}
+							colorScheme="teal"
+							variant="subtle"
+							bg="teal.50"
+							color="teal.700"
+							borderWidth="1px"
+							borderColor="teal.200"
+							borderRadius="full"
+							px={5}
+							fontWeight="bold"
+							leftIcon={<Icon as={FaHandsHelping} />}
+							onClick={() => setSelectedCategory("volunteer")}
+							_hover={{ bg: "teal.100", transform: "translateY(-1px)" }}
+							transition="all 0.15s ease"
+						>
+							Volunteer
+						</Button>
+					</>
 				}
-				open={Boolean(isDrawerOpen && activeItem)}
-				toggleModal={setIsDrawerOpen}
-				isRtl={isRtl}
+				searchSlot={
+					<InputGroup size="lg">
+						<InputLeftElement pointerEvents="none" color="gray.500">
+							<Icon as={FaSearch} boxSize={4} />
+						</InputLeftElement>
+						<Input
+							value={query}
+							onChange={(e) => setQuery(e.target.value)}
+							placeholder="Search charities, 501(c)(3), volunteering, hotlines..."
+							bg="white"
+							color="gray.800"
+							borderRadius="full"
+							borderWidth="1px"
+							borderColor="gray.200"
+							_placeholder={{ color: "gray.500" }}
+							aria-label="Search Israeli organizations"
+						/>
+						{query && (
+							<InputRightElement>
+								<IconButton
+									aria-label="Clear search"
+									icon={<CloseIcon boxSize={2.5} />}
+									size="xs"
+									variant="ghost"
+									borderRadius="full"
+									onClick={() => setQuery("")}
+								/>
+							</InputRightElement>
+						)}
+					</InputGroup>
+				}
+				quickTags={EN_QUICK_TAGS}
+				onSelectQuickTag={(tag) => setQuery(tag)}
 			/>
 
-			<Container maxW="1280px" px={{ base: 4, md: 6 }}>
-				{/* Hero */}
-				<Box
-					bg="white"
-					borderRadius="2xl"
-					borderWidth="1px"
-					borderColor="gray.200"
-					boxShadow="sm"
-					p={{ base: 6, md: 10 }}
-					mb={6}
-					position="relative"
-					overflow="hidden"
+			{/* 2. Shared 24/7 Hotlines Strip (identical to Hebrew /) */}
+			<HotlinesBar locale="en" />
+
+			{/* 3. Shared Guided Life-Event Pathways (identical to Hebrew /) */}
+			<LifeEventPathways locale="en" />
+
+			{/* 4. Category Cards Grid (mirrors Hebrew 4-column category cards) */}
+			<Box mb={8}>
+				<Flex
+					align="baseline"
+					justify="space-between"
+					mb={4}
+					wrap="wrap"
+					gap={2}
 				>
-					<Box
-						position="absolute"
-						right={isRtl ? undefined : "24px"}
-						left={isRtl ? "24px" : undefined}
-						top="50%"
-						transform="translateY(-50%)"
-						opacity={0.06}
-						pointerEvents="none"
-						display={{ base: "none", md: "block" }}
-					>
-						<Logo width={240} height={270} />
-					</Box>
-
-					<VStack
-						spacing={4}
-						align={{ base: "center", md: "flex-start" }}
-						textAlign={{ base: "center", md: isRtl ? "right" : "left" }}
-						maxW="760px"
-						position="relative"
-						zIndex={1}
-					>
-						<HStack spacing={2} wrap="wrap" justify="center">
-							<Badge
-								colorScheme="blue"
-								variant="subtle"
-								px={3}
-								py={1}
-								borderRadius="full"
-								fontSize="xs"
-							>
-								{config.badgeOpenSource}
-							</Badge>
-							<Badge
-								colorScheme="green"
-								variant="subtle"
-								px={3}
-								py={1}
-								borderRadius="full"
-								fontSize="xs"
-							>
-								{config.badgeCountTemplate.replace(
-									"{count}",
-									String(items.length),
-								)}
-							</Badge>
-						</HStack>
-
-						<Heading
-							as="h1"
-							fontSize={{ base: "2xl", md: "4xl" }}
-							fontWeight="bold"
-							color="brand.700"
-							lineHeight="1.2"
-						>
-							{config.heading}
-						</Heading>
-
-						<Text fontSize={{ base: "md", md: "lg" }} color="gray.600">
-							{config.subtitle}
-						</Text>
-
-						<Flex
-							wrap="wrap"
-							gap={3}
-							pt={1}
-							justify={{ base: "center", md: "flex-start" }}
-							w="100%"
-						>
-							<InputGroup maxW="420px" size="md">
-								<InputLeftElement pointerEvents="none" color="gray.400">
-									<Icon as={FaSearch} boxSize={3.5} />
-								</InputLeftElement>
-								<Input
-									value={query}
-									onChange={(e) => setQuery(e.target.value)}
-									placeholder={config.searchPlaceholder}
-									bg="gray.50"
-									borderRadius="full"
-									aria-label={config.searchPlaceholder}
-								/>
-							</InputGroup>
-
+					<Heading as="h2" size="md" color="gray.800">
+						Browse by Category
+					</Heading>
+					<Flex align="center" gap={2}>
+						{selectedCategory !== "all" && (
 							<Button
-								as={NextLink}
-								href="/"
-								variant="outline"
+								size="xs"
+								variant="ghost"
 								colorScheme="blue"
 								borderRadius="full"
-								leftIcon={<Icon as={FaGlobe} />}
+								onClick={() => setSelectedCategory("all")}
 							>
-								{config.hebrewButtonLabel}
+								Show all ({items.length})
 							</Button>
-						</Flex>
-
-						{/* Multilingual Portal Switcher */}
-						<HStack spacing={1.5} wrap="wrap" pt={1}>
-							{LANG_LINKS.map((l) => {
-								const active = l.code === config.locale;
-								return (
-									<Button
-										key={l.code}
-										as={NextLink}
-										href={l.href}
-										size="xs"
-										borderRadius="full"
-										variant={active ? "solid" : "ghost"}
-										colorScheme="blue"
-										bg={active ? "brand.600" : "gray.100"}
-										color={active ? "white" : "gray.700"}
-										_hover={{
-											bg: active ? "brand.700" : "gray.200",
-											textDecoration: "none",
-										}}
-									>
-										{l.label}
-									</Button>
-								);
-							})}
-						</HStack>
-					</VStack>
-				</Box>
-
-				{/* Localized 24/7 Hotlines Strip */}
-				<Box
-					bg="white"
-					borderRadius="xl"
-					borderWidth="1px"
-					borderColor="gray.200"
-					boxShadow="xs"
-					p={{ base: 3.5, md: 4 }}
-					mb={5}
-				>
-					<Flex
-						direction={{ base: "column", lg: "row" }}
-						align={{ base: "flex-start", lg: "center" }}
-						justify="space-between"
-						gap={3}
-					>
-						<Flex align="center" gap={2} flexShrink={0}>
-							<Flex
-								align="center"
-								justify="center"
-								boxSize="28px"
-								borderRadius="full"
-								bg="red.50"
-								color="red.600"
-							>
-								<Icon as={FaPhoneAlt} boxSize={3} />
-							</Flex>
-							<Text fontSize="sm" fontWeight="bold" color="gray.800">
-								{config.hotlinesHeading}
-							</Text>
-						</Flex>
-
-						<Flex
-							wrap="wrap"
-							gap={2}
-							flex="1"
-							justify={{ base: "flex-start", lg: "flex-end" }}
+						)}
+						<Button
+							size="xs"
+							variant="outline"
+							colorScheme="gray"
+							bg="white"
+							borderRadius="full"
+							leftIcon={<Icon as={FaShareAlt} boxSize={2.5} />}
+							onClick={handleCopyViewUrl}
 						>
-							{config.hotlines.map((hotline) => (
-								<Link
-									key={hotline.number}
-									href={hotline.href}
-									_hover={{ textDecoration: "none" }}
-								>
-									<Flex
-										align="center"
-										gap={2}
-										px={3}
-										py={1.5}
-										borderRadius="full"
-										bg="gray.50"
-										borderWidth="1px"
-										borderColor="gray.200"
-										transition="all 0.15s ease"
-										_hover={{
-											bg: "brand.50",
-											borderColor: "brand.300",
-											transform: "translateY(-1px)",
-										}}
-									>
-										<Text fontSize="xs" fontWeight="bold" color="gray.800">
-											{hotline.name}
-										</Text>
-										<Text
-											fontSize="xs"
-											color="gray.500"
-											display={{ base: "none", sm: "inline" }}
-										>
-											{hotline.subtitle}
-										</Text>
-										<Text
-											fontSize="xs"
-											fontWeight="bold"
-											color="brand.600"
-											dir="ltr"
-										>
-											{hotline.number}
-										</Text>
-									</Flex>
-								</Link>
-							))}
-						</Flex>
+							Share view
+						</Button>
 					</Flex>
-				</Box>
-
-				{/* Category Filter Pills + Share Current View */}
-				<Flex align="center" justify="space-between" wrap="wrap" gap={2} mb={3}>
-					<Flex wrap="wrap" gap={2}>
-						{config.categories.map((cat) => {
-							const active = selectedCategory === cat.id;
-							return (
-								<Button
-									key={cat.id}
-									size="sm"
-									borderRadius="full"
-									colorScheme="blue"
-									variant={active ? "solid" : "outline"}
-									bg={active ? "brand.600" : "white"}
-									onClick={() => setSelectedCategory(cat.id)}
-								>
-									{cat.label}
-								</Button>
-							);
-						})}
-					</Flex>
-					<Button
-						size="xs"
-						variant="outline"
-						colorScheme="gray"
-						bg="white"
-						borderRadius="full"
-						leftIcon={<Icon as={FaShareAlt} boxSize={2.5} />}
-						onClick={handleCopyViewUrl}
-					>
-						{config.shareViewLabel}
-					</Button>
 				</Flex>
 
-				{/* Shared Reusable Trust Filter Bar */}
-				<TrustFilterBar
-					links={categoryMatchedItems.map((i) => i.link)}
-					value={trustFilters}
-					onChange={setTrustFilters}
-					totalFilteredCount={filtered.length}
-					locale={config.locale}
-					showIntentFilters={false}
-				/>
+				<SimpleGrid columns={{ base: 2, lg: 4 }} spacing={{ base: 3, md: 4 }}>
+					{EN_CATEGORIES.map((cat) => {
+						const active = selectedCategory === cat.id;
+						const count = categoryCounts[cat.id] || 0;
+						return (
+							<Flex
+								key={cat.id}
+								as="button"
+								type="button"
+								onClick={() => setSelectedCategory(active ? "all" : cat.id)}
+								direction="column"
+								textAlign="left"
+								bg={active ? "brand.50" : "white"}
+								p={{ base: 4, md: 5 }}
+								borderRadius="xl"
+								borderWidth={active ? "2px" : "1px"}
+								borderColor={active ? "brand.500" : "gray.200"}
+								boxShadow="xs"
+								transition="all 0.2s ease"
+								_hover={{
+									borderColor: "brand.400",
+									boxShadow: "md",
+									transform: "translateY(-3px)",
+								}}
+								justify="space-between"
+								gap={3}
+							>
+								<Flex align="center" justify="space-between" gap={2} w="100%">
+									<Flex
+										boxSize={{ base: "42px", md: "46px" }}
+										bg={cat.bg}
+										color={cat.color}
+										borderRadius="xl"
+										align="center"
+										justify="center"
+										flexShrink={0}
+									>
+										<Icon as={cat.icon} boxSize={5} />
+									</Flex>
+									<Badge
+										colorScheme="blue"
+										variant={active ? "solid" : "subtle"}
+										borderRadius="full"
+										px={2.5}
+										py={0.5}
+										fontSize="xs"
+									>
+										{count} orgs
+									</Badge>
+								</Flex>
 
-				{/* Cards Grid */}
+								<Box>
+									<Text
+										fontWeight="bold"
+										fontSize={{ base: "sm", md: "md" }}
+										color="gray.900"
+										lineHeight="1.3"
+									>
+										{cat.label}
+									</Text>
+									<Text
+										fontSize="xs"
+										color="gray.600"
+										mt={1}
+										noOfLines={2}
+										lineHeight="1.4"
+									>
+										{cat.desc}
+									</Text>
+								</Box>
+							</Flex>
+						);
+					})}
+				</SimpleGrid>
+			</Box>
+
+			{/* 5. Shared Reusable Trust Filter Bar */}
+			<TrustFilterBar
+				links={categoryMatchedItems.map((i) => i.link)}
+				value={trustFilters}
+				onChange={setTrustFilters}
+				totalFilteredCount={filtered.length}
+				locale="en"
+				showIntentFilters={false}
+			/>
+
+			{/* 6. Shared InitiativeItem Cards Grid (EXACT SAME component as Hebrew /) */}
+			<Box mb={10}>
 				{filtered.length === 0 ? (
 					<Box
 						bg="white"
@@ -520,7 +524,7 @@ export function IntlPortal({
 						textAlign="center"
 					>
 						<Text color="gray.600" mb={4}>
-							{config.noResultsText}
+							No organizations matched your current filters.
 						</Text>
 						<Button
 							size="sm"
@@ -532,7 +536,7 @@ export function IntlPortal({
 								setTrustFilters(INITIAL_TRUST_FILTER);
 							}}
 						>
-							{config.resetFiltersLabel}
+							Reset filters
 						</Button>
 					</Box>
 				) : (
@@ -540,352 +544,26 @@ export function IntlPortal({
 						columns={{ base: 1, md: 2, xl: 3 }}
 						spacing={{ base: 4, md: 5 }}
 					>
-						{filtered.map((item) => {
-							const badgeStyle =
-								CATEGORY_COLORS[item.category] || CATEGORY_COLORS.rehab;
-							const refSummary = getReferenceSummary(item.link, 2);
-
-							return (
-								<Flex
-									key={item.id}
-									as="article"
-									data-group=""
-									tabIndex={0}
-									direction="column"
-									position="relative"
-									bg="white"
-									borderRadius="16px"
-									borderWidth="1px"
-									borderColor="gray.200"
-									p={5}
-									cursor="pointer"
-									overflow="hidden"
-									boxShadow="0 1px 2px rgba(15, 23, 42, 0.04)"
-									transition="transform 0.22s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.22s ease, border-color 0.22s ease"
-									_hover={{
-										borderColor: "brand.300",
-										transform: "translateY(-3px)",
-										boxShadow:
-											"0 14px 28px -10px rgba(0, 56, 184, 0.14), 0 4px 10px -4px rgba(15, 23, 42, 0.06)",
-									}}
-									onClick={() => openSideCard(item)}
-									onKeyDown={(e) => {
-										if (e.key === "Enter" || e.key === " ") {
-											e.preventDefault();
-											openSideCard(item);
-										}
-									}}
-									justify="space-between"
-									gap={3}
-								>
-									<Box
-										position="absolute"
-										top={0}
-										left={0}
-										right={0}
-										h="3px"
-										bgGradient="linear(to-r, brand.500, cyan.400)"
-										opacity={0}
-										transition="opacity 0.22s ease"
-										_groupHover={{ opacity: 1 }}
-									/>
-
-									<Box>
-										<Flex
-											align="flex-start"
-											justify="space-between"
-											gap={3}
-											mb={3}
-										>
-											<Flex align="center" gap={3} minW={0} flex="1">
-												<OrgAvatar name={item.name} primaryUrl={item.url} />
-												<Box minW={0} flex="1">
-													<Flex align="center" gap={1.5}>
-														<Heading
-															as="h2"
-															fontSize="md"
-															fontWeight="bold"
-															color="gray.900"
-															lineHeight="1.35"
-															noOfLines={2}
-															_groupHover={{ color: "brand.600" }}
-															transition="color 0.15s ease"
-														>
-															{item.name}
-														</Heading>
-														{item.link.verified && (
-															<Box
-																as="span"
-																color="green.500"
-																display="inline-flex"
-																flexShrink={0}
-															>
-																<Icon as={FaCheckCircle} boxSize={3.5} />
-															</Box>
-														)}
-													</Flex>
-													<Text
-														fontSize="xs"
-														color="gray.600"
-														noOfLines={1}
-														dir="ltr"
-														textAlign={isRtl ? "right" : "left"}
-													>
-														{getDisplayDomain(item.url)}
-													</Text>
-												</Box>
-											</Flex>
-
-											<HStack spacing={0.5} flexShrink={0}>
-												<IconButton
-													aria-label={`Copy link for ${item.name}`}
-													icon={<FaLink size={12} />}
-													size="xs"
-													variant="ghost"
-													color="gray.600"
-													borderRadius="lg"
-													opacity={{ base: 1, md: 0 }}
-													_groupHover={{ opacity: 1 }}
-													_hover={{ bg: "gray.100", color: "brand.600" }}
-													onClick={(e) => handleCopy(e, item.id)}
-												/>
-												<IconButton
-													as={Link}
-													href={item.url}
-													isExternal
-													aria-label={`Open ${item.name} directly`}
-													icon={<ExternalLinkIcon boxSize={3.5} />}
-													size="xs"
-													variant="ghost"
-													color="gray.600"
-													borderRadius="lg"
-													_hover={{
-														bg: "brand.50",
-														color: "brand.600",
-														textDecoration: "none",
-													}}
-													onClick={(e) => e.stopPropagation()}
-												/>
-											</HStack>
-										</Flex>
-
-										{/* Badges */}
-										<Flex wrap="wrap" gap={1.5} mb={2.5} align="center">
-											<Badge
-												bg={badgeStyle.bg}
-												color={badgeStyle.color}
-												borderRadius="full"
-												px={2.5}
-												py={0.5}
-												fontSize="2xs"
-												fontWeight="semibold"
-												textTransform="none"
-											>
-												{item.categoryLabel}
-											</Badge>
-											{item.link.properManagement && (
-												<Badge
-													bg="teal.50"
-													color="teal.700"
-													borderRadius="full"
-													px={2}
-													py={0.5}
-													fontSize="2xs"
-													fontWeight="semibold"
-													textTransform="none"
-												>
-													MOJ Verified
-												</Badge>
-											)}
-											{item.link.us501c3 && (
-												<Badge
-													bg="purple.50"
-													color="purple.700"
-													borderRadius="full"
-													px={2}
-													py={0.5}
-													fontSize="2xs"
-													fontWeight="semibold"
-													textTransform="none"
-												>
-													501(c)(3)
-												</Badge>
-											)}
-											{item.link.taxDeductible46 && (
-												<Badge
-													backgroundColor="#ecfdf5"
-													color="#047857"
-													borderRadius="full"
-													px={2}
-													py={0.5}
-													fontSize="2xs"
-													fontWeight="semibold"
-													textTransform="none"
-												>
-													§46
-												</Badge>
-											)}
-											{refSummary && (
-												<Tooltip
-													label={refSummary.tooltip}
-													placement="top"
-													hasArrow
-												>
-													<Badge
-														bg="gray.100"
-														color="gray.700"
-														borderRadius="full"
-														px={2}
-														py={0.5}
-														fontSize="2xs"
-														fontWeight="medium"
-														textTransform="none"
-														display="inline-flex"
-														alignItems="center"
-														gap={1}
-														maxW="180px"
-													>
-														<Icon
-															as={FaNewspaper}
-															boxSize={2.5}
-															color="brand.500"
-															flexShrink={0}
-														/>
-														<Text as="span" noOfLines={1}>
-															{refSummary.label}
-														</Text>
-													</Badge>
-												</Tooltip>
-											)}
-											{item.link.phone && (
-												<Link
-													href={`tel:${item.link.phone.replace(/[^\d+*#]/g, "")}`}
-													onClick={(e) => e.stopPropagation()}
-													_hover={{ textDecoration: "none" }}
-												>
-													<Badge
-														bg="green.50"
-														color="green.700"
-														borderRadius="full"
-														px={2}
-														py={0.5}
-														fontSize="2xs"
-														fontWeight="bold"
-														display="inline-flex"
-														alignItems="center"
-														gap={1}
-														_hover={{ bg: "green.100" }}
-													>
-														<Icon as={FaPhoneAlt} boxSize={2} />
-														<span dir="ltr">{item.link.phone}</span>
-													</Badge>
-												</Link>
-											)}
-										</Flex>
-
-										<Text
-											fontSize="sm"
-											color="gray.600"
-											lineHeight="1.55"
-											noOfLines={3}
-										>
-											{item.summary}
-										</Text>
-									</Box>
-
-									<Box
-										pt={3}
-										mt="auto"
-										borderTopWidth="1px"
-										borderColor="gray.100"
-									>
-										<Flex align="center" justify="space-between" gap={2}>
-											<Link
-												href={item.url}
-												isExternal
-												onClick={(e) => e.stopPropagation()}
-												fontSize="xs"
-												fontWeight="semibold"
-												color="gray.600"
-												display="inline-flex"
-												alignItems="center"
-												gap={1}
-												_hover={{ color: "brand.600", textDecoration: "none" }}
-											>
-												<span>{config.visitWebsiteLabel}</span>
-												<ExternalLinkIcon boxSize={3} opacity={0.75} />
-											</Link>
-
-											<Flex
-												align="center"
-												gap={1.5}
-												fontSize="xs"
-												fontWeight="semibold"
-												color="brand.600"
-											>
-												<span>{config.detailsSourcesLabel}</span>
-												<Icon
-													as={isRtl ? FaArrowLeft : FaArrowRight}
-													boxSize={2.5}
-													transition="transform 0.2s ease"
-													_groupHover={{
-														transform: isRtl
-															? "translateX(-3px)"
-															: "translateX(3px)",
-													}}
-												/>
-											</Flex>
-										</Flex>
-									</Box>
-								</Flex>
-							);
-						})}
+						{filtered.map((item) => (
+							<InitiativeItem
+								key={item.id}
+								link={item.link}
+								categoryId={item.categoryId}
+								subCategoryName={item.subCategoryName}
+								locale="en"
+								categoryBadge={
+									CATEGORY_BADGE_MAP[item.category] || CATEGORY_BADGE_MAP.rehab
+								}
+								cardIdForCopy={item.id}
+								onOpenCard={() => openSideCard(item)}
+							/>
+						))}
 					</SimpleGrid>
 				)}
+			</Box>
 
-				{/* Contribute CTA */}
-				<Box
-					mt={10}
-					bg="brand.50"
-					borderRadius="2xl"
-					borderWidth="1px"
-					borderColor="brand.200"
-					p={{ base: 6, md: 8 }}
-					textAlign="center"
-				>
-					<Heading as="h2" size="md" color="brand.700" mb={2}>
-						{config.ctaHeading}
-					</Heading>
-					<Text fontSize="sm" color="gray.600" mb={4}>
-						{config.ctaBody}{" "}
-						<Link
-							as={NextLink}
-							href={
-								config.locale === "en"
-									? "/docs/methodology?lang=en"
-									: "/docs/methodology"
-							}
-							color="brand.600"
-							fontWeight="semibold"
-							_hover={{ textDecoration: "underline" }}
-						>
-							{config.ctaMethodologyLabel}
-						</Link>
-					</Text>
-					<Button
-						as={Link}
-						href="https://github.com/4tals/LinksForIsrael/issues/new?template=new_initiative.yml"
-						isExternal
-						colorScheme="blue"
-						bg="brand.600"
-						_hover={{ bg: "brand.700", textDecoration: "none" }}
-						borderRadius="full"
-						px={6}
-					>
-						{config.ctaButtonLabel}
-					</Button>
-				</Box>
-			</Container>
+			{/* 7. Shared Guides Hub (identical structure to Hebrew /) */}
+			<GuidesHub locale="en" />
 		</Box>
 	);
 }

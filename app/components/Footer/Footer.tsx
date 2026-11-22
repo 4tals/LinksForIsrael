@@ -1,6 +1,7 @@
 "use client";
 
 import NextLink from "next/link";
+import { usePathname } from "next/navigation";
 import React from "react";
 import {
 	FaFacebook,
@@ -26,6 +27,7 @@ import {
 
 const FOOTER_CONFIG = {
 	hebrewText: "הופכים עליהם, טובים אותם",
+	englishText: "Open-source civic directory for Israel",
 	reverseImageUrl:
 		"https://twitter.com/kann/status/1712897481837539810?t=kxXrXgX59tp1yPnrYiS4Iw&s=19",
 	reverseImageAlt: "Reverse Initiative",
@@ -44,9 +46,13 @@ const SOCIAL_ICON_MAP: Record<
 };
 
 export function Footer() {
+	const pathname = usePathname();
+	const isEnglish = pathname === "/en" || pathname?.startsWith("/en/");
+
 	return (
 		<Box
 			as="footer"
+			dir={isEnglish ? "ltr" : "rtl"}
 			mt="auto"
 			borderTopWidth="1px"
 			borderColor="gray.200"
@@ -60,11 +66,20 @@ export function Footer() {
 					gap={4}
 				>
 					<HStack spacing={3} align="center">
-						<Tooltip label="לפוסט המקורי בטוויטר" placement="top">
+						<Tooltip
+							label={
+								isEnglish ? "Original community post" : "לפוסט המקורי בטוויטר"
+							}
+							placement="top"
+						>
 							<Link
 								href={FOOTER_CONFIG.reverseImageUrl}
 								isExternal
-								aria-label="קישור לפוסט המקורי בטוויטר"
+								aria-label={
+									isEnglish
+										? "Link to original community post"
+										: "קישור לפוסט המקורי בטוויטר"
+								}
 							>
 								<Box
 									boxSize="32px"
@@ -84,20 +99,22 @@ export function Footer() {
 							</Link>
 						</Tooltip>
 						<Text fontSize="sm" color="gray.700" fontWeight="medium">
-							{FOOTER_CONFIG.hebrewText}
+							{isEnglish ? FOOTER_CONFIG.englishText : FOOTER_CONFIG.hebrewText}
 						</Text>
 					</HStack>
 
 					<HStack spacing={4} wrap="wrap" justify="center" align="center">
 						<Link
 							as={NextLink}
-							href="/docs/methodology"
+							href={
+								isEnglish ? "/docs/methodology?lang=en" : "/docs/methodology"
+							}
 							fontSize="xs"
 							fontWeight="medium"
 							color="gray.700"
 							_hover={{ color: "brand.600", textDecoration: "underline" }}
 						>
-							אימות ודירוג יוזמות
+							{isEnglish ? "Verification & Ranking" : "אימות ודירוג יוזמות"}
 						</Link>
 						<Text fontSize="xs" color="gray.400" aria-hidden="true">
 							•
@@ -110,33 +127,33 @@ export function Footer() {
 							color="gray.700"
 							_hover={{ color: "brand.600", textDecoration: "underline" }}
 						>
-							הצהרת נגישות
+							{isEnglish ? "Accessibility (IS 5568)" : "הצהרת נגישות"}
 						</Link>
 						<Text fontSize="xs" color="gray.400" aria-hidden="true">
 							•
 						</Text>
 						<Link
 							as={NextLink}
-							href="/embed/hotlines"
+							href={isEnglish ? "/embed/hotlines?lang=en" : "/embed/hotlines"}
 							fontSize="xs"
 							fontWeight="medium"
 							color="gray.700"
 							_hover={{ color: "brand.600", textDecoration: "underline" }}
 						>
-							הטמעת מוקדי חירום
+							{isEnglish ? "Embed Hotlines" : "הטמעת מוקדי חירום"}
 						</Link>
 						<Text fontSize="xs" color="gray.400" aria-hidden="true">
 							•
 						</Text>
 						<Link
 							as={NextLink}
-							href="/print"
+							href={isEnglish ? "/print?lang=en" : "/print"}
 							fontSize="xs"
 							fontWeight="medium"
 							color="gray.700"
 							_hover={{ color: "brand.600", textDecoration: "underline" }}
 						>
-							דף חירום להדפסה
+							{isEnglish ? "Printable Sheet" : "דף חירום להדפסה"}
 						</Link>
 					</HStack>
 
@@ -152,7 +169,9 @@ export function Footer() {
 										as={Link}
 										href={link.href}
 										isExternal
-										aria-label={`עבור ל-${link.alt}`}
+										aria-label={
+											isEnglish ? `Visit ${link.alt}` : `עבור ל-${link.alt}`
+										}
 										size="sm"
 										variant="ghost"
 										borderRadius="full"

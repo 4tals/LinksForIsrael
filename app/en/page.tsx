@@ -1,10 +1,7 @@
 import type { Metadata } from "next";
 
 import { IntlPortal } from "@/app/components/IntlPortal/IntlPortal";
-import {
-	getEnrichedIntlInitiatives,
-	PORTAL_CONFIGS,
-} from "@/app/components/IntlPortal/intlCatalog";
+import { getEnrichedEnglishInitiatives } from "@/app/components/IntlPortal/intlCatalog";
 import { buildIntlPortalJsonLd, safeJsonLd, SITE_URL } from "@/app/utils/seo";
 
 const EN_TITLE =
@@ -35,8 +32,6 @@ export const metadata: Metadata = {
 		languages: {
 			"he-IL": "/",
 			"en-US": "/en",
-			"ar-IL": "/ar",
-			"ru-RU": "/ru",
 			"x-default": "/",
 		},
 	},
@@ -65,7 +60,7 @@ export const metadata: Metadata = {
 };
 
 export default async function EnglishPage() {
-	const enriched = await getEnrichedIntlInitiatives("en");
+	const enriched = await getEnrichedEnglishInitiatives();
 
 	const jsonLd = buildIntlPortalJsonLd({
 		path: "/en",
@@ -94,7 +89,7 @@ export default async function EnglishPage() {
 				type="application/ld+json"
 				dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
 			/>
-			<IntlPortal config={PORTAL_CONFIGS.en} items={enriched} />
+			<IntlPortal items={enriched} />
 		</>
 	);
 }

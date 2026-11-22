@@ -2,22 +2,16 @@
 
 import Link from "next/link";
 import React, { useContext } from "react";
-import {
-	FaHandHoldingHeart,
-	FaHandsHelping,
-	FaLifeRing,
-	FaMagic,
-	FaSearch,
-	FaShieldAlt,
-} from "react-icons/fa";
+import { FaHandHoldingHeart, FaHandsHelping, FaLifeRing } from "react-icons/fa";
 
 import { getNumberOfInitiatives } from "@/app/components/Categories/CategoriesList";
 import { CategoryContent } from "@/app/components/Categories/CategoryContent";
 import { getCategoryIcon } from "@/app/components/Categories/categoryIcons";
+import { GuidesHub } from "@/app/components/Guides/GuidesHub";
+import { PortalHero } from "@/app/components/Hero/PortalHero";
 import { HotlinesBar } from "@/app/components/Hotlines/HotlinesBar";
-import { Logo } from "@/app/components/Logo";
 import { LifeEventPathways } from "@/app/components/Pathways/LifeEventPathways";
-import { AppToolsContext, SearchContext } from "@/app/components/RootApp";
+import { SearchContext } from "@/app/components/RootApp";
 import { SearchInput } from "@/app/components/Search/SearchInput";
 import { analyticsService } from "@/app/utils/analytica/analytics";
 import {
@@ -31,11 +25,9 @@ import {
 	Button,
 	Flex,
 	Heading,
-	HStack,
 	Icon,
 	SimpleGrid,
 	Text,
-	VStack,
 } from "@chakra-ui/react";
 
 const QUICK_SEARCH_TAGS = [
@@ -84,7 +76,6 @@ export const NoCategoryZeroState: React.FC<NoCategoryZeroStateProps> = ({
 	assistanceSubCategory,
 }) => {
 	const { onSearch, setActiveIntent } = useContext(SearchContext);
-	const { openCommandPalette, openHelperWizard } = useContext(AppToolsContext);
 
 	const allLinks = categories.flatMap((c) =>
 		c.subCategories.flatMap((s) => s.links),
@@ -98,183 +89,56 @@ export const NoCategoryZeroState: React.FC<NoCategoryZeroStateProps> = ({
 
 	return (
 		<Box px={{ base: 3, md: 6 }} pt={{ base: 5, md: 8 }} pb={8}>
-			{/* Hero Section */}
-			<Box
-				bg="white"
-				borderRadius="2xl"
-				borderWidth="1px"
-				borderColor="gray.200"
-				boxShadow="sm"
-				p={{ base: 6, md: 10 }}
-				mb={6}
-				position="relative"
-				overflow="hidden"
-			>
-				<Box
-					position="absolute"
-					left={{ base: "-40px", md: "20px" }}
-					top="50%"
-					transform="translateY(-50%)"
-					opacity={0.06}
-					pointerEvents="none"
-					display={{ base: "none", sm: "block" }}
-				>
-					<Logo width={260} height={290} />
-				</Box>
-
-				<VStack
-					spacing={4}
-					align="center"
-					textAlign="center"
-					maxW="700px"
-					mx="auto"
-					position="relative"
-					zIndex={1}
-				>
-					<HStack spacing={2} wrap="wrap" justify="center">
-						<Badge
-							colorScheme="blue"
-							variant="subtle"
-							px={3}
-							py={1}
-							borderRadius="full"
-							fontSize="xs"
-						>
-							{totalInitiatives} עמותות ויוזמות
-						</Badge>
-						<Badge
-							colorScheme="teal"
-							variant="subtle"
-							px={3}
-							py={1}
-							borderRadius="full"
-							fontSize="xs"
-							display="inline-flex"
-							alignItems="center"
-							gap={1}
-						>
-							<Icon as={FaShieldAlt} boxSize={2.5} />
-							<span>{nihulCount} ניהול תקין (data.gov.il)</span>
-						</Badge>
-						<Badge
-							colorScheme="green"
-							variant="subtle"
-							px={3}
-							py={1}
-							borderRadius="full"
-							fontSize="xs"
-						>
-							{totalMentions} אזכורים עצמאיים · 4 שפות
-						</Badge>
-					</HStack>
-
-					<Heading
-						as="h1"
-						fontSize={{ base: "2xl", md: "4xl" }}
+			{/* Shared Hero Section */}
+			<PortalHero
+				locale="he"
+				stats={{
+					totalCount: totalInitiatives,
+					nihulCount,
+					citationsCount: totalMentions,
+				}}
+				title="פורטל לינק לישראל"
+				subtitle="המדריך הפתוח להתנדבות, עמותות, סיוע נפשי, זכויות אזרחים ויוזמות קהילתיות בישראל — בשגרה ובחירום."
+				actionButtons={INTENT_BUTTONS.map((btn) => (
+					<Button
+						key={btn.id}
+						size={{ base: "sm", md: "md" }}
+						colorScheme={btn.colorScheme}
+						variant="subtle"
+						bg={`${btn.colorScheme}.50`}
+						color={`${btn.colorScheme}.700`}
+						borderWidth="1px"
+						borderColor={`${btn.colorScheme}.200`}
+						borderRadius="full"
+						px={5}
 						fontWeight="bold"
-						color="brand.700"
-						lineHeight="1.2"
+						leftIcon={<Icon as={btn.icon} />}
+						onClick={() => setActiveIntent(btn.id)}
+						_hover={{
+							bg: `${btn.colorScheme}.100`,
+							transform: "translateY(-1px)",
+						}}
+						transition="all 0.15s ease"
 					>
-						פורטל לינק לישראל
-					</Heading>
+						{btn.label}
+					</Button>
+				))}
+				searchSlot={
+					<SearchInput
+						id="searchInputHero"
+						size="lg"
+						placeholder="חפשו עמותה, מוקד סיוע, התנדבות או תחום..."
+					/>
+				}
+				quickTags={QUICK_SEARCH_TAGS}
+				onSelectQuickTag={(tag) => onSearch(tag)}
+			/>
 
-					<Text fontSize={{ base: "md", md: "lg" }} color="gray.600">
-						המדריך הפתוח להתנדבות, עמותות, סיוע נפשי, זכויות אזרחים ויוזמות
-						קהילתיות בישראל — בשגרה ובחירום.
-					</Text>
+			{/* Shared 24/7 Hotlines Strip */}
+			<HotlinesBar locale="he" />
 
-					{/* Guided Helper + Spotlight Command Palette + Intent Buttons */}
-					<Flex wrap="wrap" justify="center" gap={2.5} pt={1}>
-						<Button
-							size={{ base: "sm", md: "md" }}
-							colorScheme="blue"
-							bg="brand.600"
-							color="white"
-							borderRadius="full"
-							px={5}
-							fontWeight="bold"
-							leftIcon={<Icon as={FaMagic} />}
-							onClick={openHelperWizard}
-							boxShadow="sm"
-							_hover={{ bg: "brand.700", transform: "translateY(-1px)" }}
-							transition="all 0.15s ease"
-						>
-							עזרו לי למצוא ב-10 שניות
-						</Button>
-						<Button
-							size={{ base: "sm", md: "md" }}
-							variant="outline"
-							colorScheme="blue"
-							bg="white"
-							borderRadius="full"
-							px={4}
-							fontWeight="semibold"
-							leftIcon={<Icon as={FaSearch} boxSize={3} />}
-							onClick={openCommandPalette}
-							display={{ base: "none", sm: "inline-flex" }}
-							_hover={{ bg: "brand.50", transform: "translateY(-1px)" }}
-							transition="all 0.15s ease"
-						>
-							חיפוש מהיר (⌘K)
-						</Button>
-						{INTENT_BUTTONS.map((btn) => (
-							<Button
-								key={btn.id}
-								size={{ base: "sm", md: "md" }}
-								colorScheme={btn.colorScheme}
-								variant="subtle"
-								bg={`${btn.colorScheme}.50`}
-								color={`${btn.colorScheme}.700`}
-								borderWidth="1px"
-								borderColor={`${btn.colorScheme}.200`}
-								borderRadius="full"
-								px={5}
-								fontWeight="bold"
-								leftIcon={<Icon as={btn.icon} />}
-								onClick={() => setActiveIntent(btn.id)}
-								_hover={{
-									bg: `${btn.colorScheme}.100`,
-									transform: "translateY(-1px)",
-								}}
-								transition="all 0.15s ease"
-							>
-								{btn.label}
-							</Button>
-						))}
-					</Flex>
-
-					<Box w="100%" maxW="540px" pt={1}>
-						<SearchInput
-							id="searchInputHero"
-							size="lg"
-							placeholder="חפשו עמותה, מוקד סיוע, התנדבות או תחום..."
-						/>
-					</Box>
-
-					<Flex wrap="wrap" justify="center" gap={2}>
-						{QUICK_SEARCH_TAGS.map((tag) => (
-							<Button
-								key={tag}
-								size="xs"
-								variant="outline"
-								colorScheme="blue"
-								borderRadius="full"
-								fontWeight="medium"
-								onClick={() => onSearch(tag)}
-								_hover={{ bg: "blue.50" }}
-							>
-								{tag}
-							</Button>
-						))}
-					</Flex>
-				</VStack>
-			</Box>
-
-			{/* Essential Hotlines Strip */}
-			<HotlinesBar />
-
-			{/* Guided Life-Event Pathways */}
-			<LifeEventPathways />
+			{/* Shared Guided Life-Event Pathways */}
+			<LifeEventPathways locale="he" />
 
 			{/* Category Grid */}
 			<Box mb={10}>
@@ -312,6 +176,7 @@ export const NoCategoryZeroState: React.FC<NoCategoryZeroStateProps> = ({
 									borderColor: "brand.400",
 									boxShadow: "md",
 									transform: "translateY(-3px)",
+									textDecoration: "none",
 								}}
 								justify="space-between"
 								gap={3}
@@ -326,7 +191,7 @@ export const NoCategoryZeroState: React.FC<NoCategoryZeroStateProps> = ({
 										justify="center"
 										flexShrink={0}
 									>
-										<Icon as={catIcon.icon} boxSize={{ base: 5, md: 5 }} />
+										<Icon as={catIcon.icon} boxSize={5} />
 									</Flex>
 									<Badge
 										colorScheme="blue"
@@ -367,92 +232,10 @@ export const NoCategoryZeroState: React.FC<NoCategoryZeroStateProps> = ({
 				</SimpleGrid>
 			</Box>
 
-			{/* Evergreen SEO Guides & Multilingual Portals Hub */}
-			<Box
-				mb={10}
-				p={{ base: 5, md: 6 }}
-				bg="white"
-				borderRadius="2xl"
-				borderWidth="1px"
-				borderColor="gray.200"
-			>
-				<Flex
-					align="baseline"
-					justify="space-between"
-					mb={4}
-					wrap="wrap"
-					gap={2}
-				>
-					<Heading as="h2" size="md" color="gray.800">
-						מדריכים מרכזיים ופורטלים בשפות נוספות
-					</Heading>
-					<Text fontSize="xs" color="gray.600">
-						מידע מאומת וזמין לקריאה, שיתוף והדפסה
-					</Text>
-				</Flex>
-				<SimpleGrid columns={{ base: 1, sm: 2, lg: 3 }} spacing={3}>
-					{[
-						{
-							href: "/docs/mental-health",
-							title: "מוקדי סיוע נפשי חינם 24/7 בישראל",
-							sub: "ער״ן 1201, נט״ל, סה״ר, מרכזי חוסן ותקיפה מינית",
-						},
-						{
-							href: "/docs/tax-deductible-donations",
-							title: "מדריך תרומות סעיף 46 וניהול תקין",
-							sub: "איך לוודא שעמותה מאומתת מול רשם העמותות (data.gov.il)",
-						},
-						{
-							href: "/docs/volunteering-israel",
-							title: "איפה ואיך להתנדב בישראל",
-							sub: "רוח טובה, ידידים, חקלאות, נוער, רפואה והצלה",
-						},
-						{
-							href: "/docs/methodology",
-							title: "איך אנחנו מאמתים ומדרגים עמותות",
-							sub: "שקיפות מלאה, ניהול תקין ואזכורים עצמאיים בתקשורת",
-						},
-						{
-							href: "/print",
-							title: "דף חירום להדפסה לממ״ד ולמקרר",
-							sub: "עמוד A4 מסודר ב-4 שפות עם כל מוקדי ההצלה 24/7",
-						},
-						{
-							href: "/en",
-							title: "English · العربية · Русский Portals",
-							sub: "Verified Israeli charities (501(c)(3) & §46) and hotlines",
-						},
-					].map((guide) => (
-						<Flex
-							key={guide.href}
-							as={Link}
-							href={guide.href}
-							direction="column"
-							p={4}
-							bg="gray.50"
-							borderRadius="xl"
-							borderWidth="1px"
-							borderColor="gray.200"
-							transition="all 0.15s ease"
-							_hover={{
-								bg: "brand.50",
-								borderColor: "brand.300",
-								transform: "translateY(-1px)",
-								textDecoration: "none",
-							}}
-						>
-							<Text fontWeight="bold" fontSize="sm" color="brand.700" mb={1}>
-								{guide.title}
-							</Text>
-							<Text fontSize="xs" color="gray.600" lineHeight="1.5">
-								{guide.sub}
-							</Text>
-						</Flex>
-					))}
-				</SimpleGrid>
-			</Box>
+			{/* Shared Evergreen Guides Hub */}
+			<GuidesHub locale="he" />
 
-			{/* Featured General Assistance Preview (keeps homepage DOM fast & lean) */}
+			{/* Featured General Assistance Preview */}
 			<Box>
 				<CategoryContent
 					categoryId="GeneralAssistance"

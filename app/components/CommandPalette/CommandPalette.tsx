@@ -247,9 +247,10 @@ export function CommandPalette({
 				{
 					id: "act-en",
 					kind: "action",
-					title: "English / العربية / Русский Portals",
-					subtitle: "Switch to English Diaspora portal (/en)",
-					badge: "4 שפות",
+					title: "Switch to English Portal (/en)",
+					subtitle:
+						"Verified Israeli charities, 501(c)(3), volunteering & hotlines",
+					badge: "EN",
 					badgeColor: "purple",
 					href: "/en",
 				},

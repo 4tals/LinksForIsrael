@@ -5,8 +5,6 @@ const CACHE_NAME = "linksforisrael-v1";
 const PRECACHE_URLS = [
 	"/",
 	"/en",
-	"/ar",
-	"/ru",
 	"/embed/hotlines",
 	"/print",
 	"/manifest.webmanifest",
