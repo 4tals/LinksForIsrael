@@ -370,6 +370,91 @@ export const NoCategoryZeroState: React.FC<NoCategoryZeroStateProps> = ({
 				</SimpleGrid>
 			</Box>
 
+			{/* Evergreen SEO Guides & Multilingual Portals Hub */}
+			<Box
+				mb={10}
+				p={{ base: 5, md: 6 }}
+				bg="white"
+				borderRadius="2xl"
+				borderWidth="1px"
+				borderColor="gray.200"
+			>
+				<Flex
+					align="baseline"
+					justify="space-between"
+					mb={4}
+					wrap="wrap"
+					gap={2}
+				>
+					<Heading as="h2" size="md" color="gray.800">
+						מדריכים מרכזיים ופורטלים בשפות נוספות
+					</Heading>
+					<Text fontSize="xs" color="gray.500">
+						מידע מאומת וזמין לקריאה, שיתוף והדפסה
+					</Text>
+				</Flex>
+				<SimpleGrid columns={{ base: 1, sm: 2, lg: 3 }} spacing={3}>
+					{[
+						{
+							href: "/docs/mental-health",
+							title: "מוקדי סיוע נפשי חינם 24/7 בישראל",
+							sub: "ער״ן 1201, נט״ל, סה״ר, מרכזי חוסן ותקיפה מינית",
+						},
+						{
+							href: "/docs/tax-deductible-donations",
+							title: "מדריך תרומות סעיף 46 וניהול תקין",
+							sub: "איך לוודא שעמותה מאומתת מול רשם העמותות (data.gov.il)",
+						},
+						{
+							href: "/docs/volunteering-israel",
+							title: "איפה ואיך להתנדב בישראל",
+							sub: "רוח טובה, ידידים, חקלאות, נוער, רפואה והצלה",
+						},
+						{
+							href: "/docs/methodology",
+							title: "איך אנחנו מאמתים ומדרגים עמותות",
+							sub: "שקיפות מלאה, ניהול תקין ואזכורים עצמאיים בתקשורת",
+						},
+						{
+							href: "/print",
+							title: "דף חירום להדפסה לממ״ד ולמקרר",
+							sub: "עמוד A4 מסודר ב-4 שפות עם כל מוקדי ההצלה 24/7",
+						},
+						{
+							href: "/en",
+							title: "English · العربية · Русский Portals",
+							sub: "Verified Israeli charities (501(c)(3) & §46) and hotlines",
+						},
+					].map((guide) => (
+						<Flex
+							key={guide.href}
+							as={Link}
+							href={guide.href}
+							direction="column"
+							p={4}
+							bg="gray.50"
+							borderRadius="xl"
+							borderWidth="1px"
+							borderColor="gray.200"
+							transition="all 0.15s ease"
+							_hover={{
+								bg: "brand.50",
+								borderColor: "brand.300",
+								transform: "translateY(-1px)",
+								textDecoration: "none",
+							}}
+						>
+							<Text fontWeight="bold" fontSize="sm" color="brand.700" mb={1}>
+								{guide.title}
+							</Text>
+							<Text fontSize="xs" color="gray.600" lineHeight="1.5">
+								{guide.sub}
+							</Text>
+						</Flex>
+					))}
+				</SimpleGrid>
+			</Box>
+
 			{/* General Assistance Section */}
 			<Box>
 				<CategoryContent

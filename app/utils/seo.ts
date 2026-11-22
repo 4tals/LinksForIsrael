@@ -95,6 +95,14 @@ export function buildHomeJsonLd(categories: Category[]) {
 				alternateName: "Links For Israel",
 				description: DEFAULT_DESCRIPTION,
 				inLanguage: ["he-IL", "en-US", "ar-IL", "ru-RU"],
+				potentialAction: {
+					"@type": "SearchAction",
+					target: {
+						"@type": "EntryPoint",
+						urlTemplate: `${SITE_URL}/?q={search_term_string}`,
+					},
+					"query-input": "required name=search_term_string",
+				},
 			},
 			{
 				"@type": "Organization",
@@ -121,6 +129,93 @@ export function buildHomeJsonLd(categories: Category[]) {
 					description: category.description || category.longDisplayName,
 					url: `${SITE_URL}/${encodeURIComponent(category.id)}`,
 				})),
+			},
+		],
+	};
+}
+
+export function buildCategoryFaqItems(
+	category: Category,
+): Array<{ question: string; answer: string }> {
+	const allLinks = category.subCategories.flatMap((s) => s.links);
+	if (allLinks.length === 0) return [];
+
+	const verified = allLinks.filter((l) => l.verified);
+	const nihul = allLinks.filter((l) => l.properManagement);
+	const sec46 = allLinks.filter((l) => l.taxDeductible46);
+	const withPhone = allLinks.filter((l) => l.phone);
+
+	const topNames = (verified.length > 0 ? verified : allLinks)
+		.slice(0, 5)
+		.map((l) => l.displayName)
+		.join(", ");
+
+	const faqs: Array<{ question: string; answer: string }> = [
+		{
+			question: `אילו עמותות ויוזמות מובילות פועלות בתחום ${category.displayName}?`,
+			answer: `בקטגוריית ${category.displayName} בפורטל לינק לישראל מרוכזות ${allLinks.length} יוזמות פעילות${
+				verified.length > 0 ? ` (מתוכן ${verified.length} מאומתות)` : ""
+			}, ביניהן: ${topNames}.`,
+		},
+	];
+
+	if (nihul.length > 0) {
+		const sampleNihul = nihul
+			.slice(0, 4)
+			.map((l) => l.displayName)
+			.join(", ");
+		faqs.push({
+			question: `אילו עמותות בתחום ${category.displayName} מחזיקות באישור ניהול תקין?`,
+			answer: `${nihul.length} עמותות בקטגוריה זו אומתו מול מאגר רשם העמותות הרשמי (data.gov.il) כמחזיקות באישור ניהול תקין בתוקף, בהן ${sampleNihul}.`,
+		});
+	}
+
+	if (withPhone.length > 0) {
+		const samplePhones = withPhone
+			.slice(0, 4)
+			.map((l) => `${l.displayName} (${l.phone})`)
+			.join(", ");
+		faqs.push({
+			question: `האם יש מוקדי טלפון זמינים בתחום ${category.displayName}?`,
+			answer: `כן. קיימים ${withPhone.length} מוקדים וארגונים עם מענה טלפוני ישיר בקטגוריה זו, כולל: ${samplePhones}. ניתן לסנן לפי "מוקד טלפוני" בראש העמוד.`,
+		});
+	}
+
+	if (sec46.length > 0) {
+		faqs.push({
+			question: `האם ניתן לתרום בתחום ${category.displayName} עם זיכוי מס לפי סעיף 46?`,
+			answer: `כן. ${sec46.length} עמותות בקטגוריית ${category.displayName} מוכרות לתרומות לפי סעיף 46 לפקודת מס הכנסה. השתמשו בכפתור הסינון "סעיף 46" בראש הקטגוריה כדי לראות את כולן.`,
+		});
+	}
+
+	return faqs;
+}
+
+export function buildDocArticleJsonLd(params: {
+	slug: string;
+	title: string;
+	description: string;
+}) {
+	const url = `${SITE_URL}/docs/${encodeURIComponent(params.slug)}`;
+	return {
+		"@context": "https://schema.org",
+		"@graph": [
+			{
+				"@type": "BreadcrumbList",
+				itemListElement: [
+					{ "@type": "ListItem", position: 1, name: "דף הבית", item: SITE_URL },
+					{ "@type": "ListItem", position: 2, name: params.title, item: url },
+				],
+			},
+			{
+				"@type": "Article",
+				headline: params.title,
+				description: params.description,
+				url,
+				inLanguage: "he-IL",
+				author: { "@id": `${SITE_URL}/#organization` },
+				publisher: { "@id": `${SITE_URL}/#organization` },
+				isPartOf: { "@id": `${SITE_URL}/#website` },
 			},
 		],
 	};
@@ -226,6 +321,23 @@ export function buildCategoryJsonLd(
 				}),
 			},
 		});
+
+		if (!subCategory) {
+			const categoryFaqs = buildCategoryFaqItems(category);
+			if (categoryFaqs.length > 0) {
+				graph.push({
+					"@type": "FAQPage",
+					mainEntity: categoryFaqs.map((q) => ({
+						"@type": "Question",
+						name: q.question,
+						acceptedAnswer: {
+							"@type": "Answer",
+							text: q.answer,
+						},
+					})),
+				});
+			}
+		}
 	}
 
 	return {

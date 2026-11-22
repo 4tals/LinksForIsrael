@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
 
+import { CategoryBreadcrumbs } from "@/app/components/Categories/CategoryBreadcrumbs";
 import { MethodologyView } from "@/app/components/Docs/MethodologyView";
 import { getCategories } from "@/app/utils/categories";
 import { getAllDocs, getDocById } from "@/app/utils/docs-links";
 import {
+	buildDocArticleJsonLd,
 	buildMethodologyFaqJsonLd,
 	DEFAULT_OG_IMAGE,
 	safeJsonLd,
@@ -21,8 +23,12 @@ const DOC_TITLES: Record<string, string> = {
 	"ezra-rishona": "מדריך עזרה ראשונה",
 	finance: "מידע וזכויות פיננסיות",
 	hasbara: "מדריך הסברה",
+	"mental-health": "מוקדי סיוע נפשי חינם 24/7 בישראל — המדריך המלא",
 	methodology: "איך אנחנו מאמתים ומדרגים יוזמות",
+	"tax-deductible-donations":
+		"מדריך תרומות מוכרות במס (סעיף 46) וניהול תקין בישראל",
 	update: "עדכון פרטים בפורטל",
+	"volunteering-israel": "איפה ואיך להתנדב בישראל — המדריך המלא",
 	weapon: "מידע בנושא רישיון נשק",
 };
 
@@ -99,14 +105,33 @@ export default async function Doc({
 		);
 	}
 
-	const { html } = await getDocById(slug);
+	const { title, html } = await getDocById(slug);
+	const resolvedTitle = title || DOC_TITLES[slug] || slug;
+	const description = stripHtml(html).slice(0, 160);
+	const articleJsonLd = buildDocArticleJsonLd({
+		slug,
+		title: resolvedTitle,
+		description,
+	});
+
 	return (
-		<div className="desktop-grid">
-			<article
-				className={`desktop-content ${styles.docs}`}
-				dangerouslySetInnerHTML={{ __html: html }}
+		<>
+			<script
+				type="application/ld+json"
+				dangerouslySetInnerHTML={{ __html: safeJsonLd(articleJsonLd) }}
 			/>
-		</div>
+			<div className="desktop-grid">
+				<div className="desktop-content" style={{ paddingTop: "16px" }}>
+					<CategoryBreadcrumbs
+						items={[{ label: "דף הבית", href: "/" }, { label: resolvedTitle }]}
+					/>
+					<article
+						className={styles.docs}
+						dangerouslySetInnerHTML={{ __html: html }}
+					/>
+				</div>
+			</div>
+		</>
 	);
 }
 

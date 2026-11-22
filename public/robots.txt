@@ -1,20 +1,26 @@
 User-agent: *
 Allow: /
-Crawl-delay: 2
 
-User-agent: GPTBot
-Disallow: /
+# Explicitly welcome search & AI answer engines to index our public civic directory
+User-agent: Googlebot
+Allow: /
 
-User-agent: CCBot
-Disallow: /
+User-agent: Bingbot
+Allow: /
 
-User-agent: anthropic-ai
-Disallow: /
+User-agent: OAI-SearchBot
+Allow: /
 
-User-agent: Google-Extended
-Disallow: /
+User-agent: ChatGPT-User
+Allow: /
 
-User-agent: ClaudeBot
-Disallow: /
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
 
 Sitemap: https://www.linksforisrael.com/sitemap.xml

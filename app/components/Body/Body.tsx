@@ -4,7 +4,9 @@ import React, { useContext } from "react";
 
 import { NoCategoryZeroState } from "@/app/[[...category]]/ZeroStates/NoCategoryZeroState";
 import { NoResultsZeroState } from "@/app/[[...category]]/ZeroStates/NoResultsZeroState";
+import { CategoryBreadcrumbs } from "@/app/components/Categories/CategoryBreadcrumbs";
 import { CategoryContent } from "@/app/components/Categories/CategoryContent";
+import { CategoryFaqSection } from "@/app/components/Categories/CategoryFaqSection";
 import { SearchContext } from "@/app/components/RootApp";
 import { ShareButtons } from "@/app/components/Share/ShareButtons";
 import {
@@ -26,6 +28,7 @@ interface Props {
 	categoryId?: string;
 	subCategoryName?: string;
 	linkName?: string;
+	hasDedicatedHero?: boolean;
 }
 
 export const Body: React.FC<Props> = ({
@@ -33,6 +36,7 @@ export const Body: React.FC<Props> = ({
 	categoryId,
 	subCategoryName,
 	linkName,
+	hasDedicatedHero = false,
 	assistanceSubCategory,
 }) => {
 	const {
@@ -178,16 +182,44 @@ export const Body: React.FC<Props> = ({
 	}
 
 	if (pageCategory) {
+		const activeSub = subCategoryName
+			? pageCategory.subCategories.find((s) => s.name === subCategoryName)
+			: undefined;
+
 		return (
 			<Box className="desktop-content" pt={2}>
+				{!hasDedicatedHero && (
+					<CategoryBreadcrumbs
+						items={[
+							{ label: "דף הבית", href: "/" },
+							activeSub
+								? {
+										label: pageCategory.displayName,
+										href: `/${pageCategory.id}`,
+									}
+								: { label: pageCategory.displayName },
+							...(activeSub ? [{ label: activeSub.displayName }] : []),
+						]}
+					/>
+				)}
 				<CategoryContent
 					categoryId={pageCategory.id}
 					subCategories={pageCategory.subCategories}
-					categoryName={pageCategory.displayName}
-					categoryDescription={pageCategory.description}
+					categoryName={
+						hasDedicatedHero
+							? `יוזמות נוספות בתחום ${pageCategory.displayName}`
+							: pageCategory.displayName
+					}
+					categoryDescription={
+						hasDedicatedHero ? undefined : pageCategory.description
+					}
+					headingAs={hasDedicatedHero ? "h2" : "h1"}
 					initialSubCategoryName={subCategoryName}
 					initialLinkName={linkName}
 				/>
+				{!hasDedicatedHero && !activeSub && (
+					<CategoryFaqSection category={pageCategory} />
+				)}
 			</Box>
 		);
 	}

@@ -1,5 +1,6 @@
 "use client";
 
+import NextLink from "next/link";
 import React from "react";
 import {
 	FaArrowLeft,
@@ -483,25 +484,60 @@ export const InitiativeItem: React.FC<InitiativeItemProps> = ({
 					<InitiativeIcons link={link} limit={4} />
 				</Box>
 
-				<Flex
-					align="center"
-					gap={1.5}
-					fontSize="xs"
-					fontWeight="semibold"
-					color="brand.600"
-					whiteSpace="nowrap"
-					flexShrink={0}
-				>
-					<span>{isRtl ? "לפרטים" : "Details"}</span>
-					<Icon
-						as={isRtl ? FaArrowLeft : FaArrowRight}
-						boxSize={2.5}
-						transition="transform 0.2s ease"
-						_groupHover={{
-							transform: isRtl ? "translateX(-3px)" : "translateX(3px)",
+				{sharePath ? (
+					<Link
+						as={NextLink}
+						href={sharePath}
+						onClick={(e) => {
+							if (!e.metaKey && !e.ctrlKey && !e.shiftKey && !e.altKey) {
+								e.preventDefault();
+								e.stopPropagation();
+								openDetailsModal();
+							} else {
+								e.stopPropagation();
+							}
 						}}
-					/>
-				</Flex>
+						display="inline-flex"
+						alignItems="center"
+						gap={1.5}
+						fontSize="xs"
+						fontWeight="semibold"
+						color="brand.600"
+						whiteSpace="nowrap"
+						flexShrink={0}
+						_hover={{ textDecoration: "none", color: "brand.700" }}
+					>
+						<span>{isRtl ? "לפרטים" : "Details"}</span>
+						<Icon
+							as={isRtl ? FaArrowLeft : FaArrowRight}
+							boxSize={2.5}
+							transition="transform 0.2s ease"
+							_groupHover={{
+								transform: isRtl ? "translateX(-3px)" : "translateX(3px)",
+							}}
+						/>
+					</Link>
+				) : (
+					<Flex
+						align="center"
+						gap={1.5}
+						fontSize="xs"
+						fontWeight="semibold"
+						color="brand.600"
+						whiteSpace="nowrap"
+						flexShrink={0}
+					>
+						<span>{isRtl ? "לפרטים" : "Details"}</span>
+						<Icon
+							as={isRtl ? FaArrowLeft : FaArrowRight}
+							boxSize={2.5}
+							transition="transform 0.2s ease"
+							_groupHover={{
+								transform: isRtl ? "translateX(-3px)" : "translateX(3px)",
+							}}
+						/>
+					</Flex>
+				)}
 			</Flex>
 		</Flex>
 	);

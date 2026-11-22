@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 
 import { Body } from "@/app/components/Body/Body";
+import { InitiativeDetailHero } from "@/app/components/Categories/InitiativeDetailHero";
 import {
 	buildCategoryJsonLd,
 	buildHomeJsonLd,
@@ -83,6 +84,9 @@ export async function generateMetadata({
 				languages: {
 					"he-IL": "/",
 					"en-US": "/en",
+					"ar-IL": "/ar",
+					"ru-RU": "/ru",
+					"x-default": "/",
 				},
 			},
 		};
@@ -113,15 +117,24 @@ export async function generateMetadata({
 			subCategory.name,
 		)}/${encodeURIComponent(link.name)}`;
 		const title = `${link.displayName} – ${category.displayName}`;
+		const rawDesc = [
+			link.shortDescription || link.description,
+			link.phone ? `טלפון: ${link.phone}.` : "",
+			link.properManagement ? "ניהול תקין מאומת." : "",
+			link.taxDeductible46 ? "מוכר לסעיף 46." : "",
+		]
+			.filter(Boolean)
+			.join(" ");
 		const description = (
-			link.shortDescription ||
-			link.description ||
-			`${link.displayName} – יוזמה בתחום ${category.displayName} בפורטל ${SITE_NAME}.`
+			rawDesc ||
+			`${link.displayName} – עמותה ויוזמה מאומתת בתחום ${category.displayName} בפורטל ${SITE_NAME}.`
 		)
 			.replace(/\s+/g, " ")
 			.trim()
 			.slice(0, 160);
-		const ogImage = resolveOgImage(link.initiativeImage);
+		const ogImage = link.initiativeImage
+			? resolveOgImage(link.initiativeImage)
+			: getCategoryOgImage(category.id);
 
 		return {
 			title,
@@ -251,11 +264,19 @@ export default async function Category({
 					categoryId={categoryId}
 				/>
 			)}
+			{activeLink && activeCategory && activeSubCategory && (
+				<InitiativeDetailHero
+					category={activeCategory}
+					subCategory={activeSubCategory}
+					link={activeLink}
+				/>
+			)}
 			<Body
 				categories={categories}
 				categoryId={categoryId}
 				subCategoryName={subCategoryName}
-				linkName={linkName}
+				linkName={activeLink ? undefined : linkName}
+				hasDedicatedHero={Boolean(activeLink)}
 				assistanceSubCategory={assistanceSubCategory}
 			/>
 		</>
