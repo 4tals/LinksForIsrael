@@ -272,12 +272,16 @@ export const InitiativeItem: React.FC<InitiativeItemProps> = ({
 							>
 								{link.displayName}
 							</Heading>
-							{link.verified && (
+							{link.verified && link.organizationType !== "licensed" && (
 								<Tooltip
 									label={
-										link.organizationType === "official"
-											? "גוף רשמי מאומת"
-											: "עמותה מאומתת"
+										isRtl
+											? link.organizationType === "official"
+												? "גוף רשמי מאומת"
+												: "עמותה / ארגון מאומת"
+											: link.organizationType === "official"
+												? "Verified Official Institution"
+												: "Verified Organization"
 									}
 									placement="top"
 									hasArrow
@@ -428,6 +432,36 @@ export const InitiativeItem: React.FC<InitiativeItemProps> = ({
 							: INTENT_STYLES[intent].labelEn}
 					</Badge>
 				))}
+				{link.organizationType === "licensed" && (
+					<Tooltip
+						label={
+							link.regulator
+								? isRtl
+									? `שירות מסחרי מפוקח (${link.regulator}) — אינו עמותה`
+									: `Regulated commercial service (${link.regulator}) — not a nonprofit`
+								: isRtl
+									? "שירות מסחרי מפוקח ברישיון — אינו עמותה"
+									: "Licensed commercial service — not a nonprofit"
+						}
+						placement="top"
+						hasArrow
+					>
+						<Badge
+							bg="gray.100"
+							color="gray.800"
+							borderWidth="1px"
+							borderColor="gray.300"
+							fontSize="2xs"
+							fontWeight="semibold"
+							px={2}
+							py={0.5}
+							borderRadius="full"
+							textTransform="none"
+						>
+							{isRtl ? "שירות מפוקח" : "Licensed Service"}
+						</Badge>
+					</Tooltip>
+				)}
 				{link.properManagement && (
 					<Tooltip
 						label={

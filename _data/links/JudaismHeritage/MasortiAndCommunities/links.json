@@ -1,0 +1,283 @@
+{
+	"name": "MasortiAndCommunities",
+	"displayName": "קהילות, התנועה המסורתית/קונסרבטיבית ומעגל החיים",
+	"links": [
+		{
+			"name": "MasortiIsrael",
+			"displayName": "התנועה המסורתית בישראל (Masorti Movement)",
+			"shortDescription": "קהילות שוויוניות ומסורתיות ברחבי ישראל, תפילה, גיור, חתונות, בר/בת מצווה לילדים עם מוגבלויות ותנועת נוע״ם",
+			"description": "התנועה המסורתית בישראל (ע״ר 580132454) היא הזרוע הישראלית של היהדות המסורתית/קונסרבטיבית — פועלת בעשרות קהילות ובתי כנסת ברחבי הארץ ומשלבת הלכה, מסורת, שוויון, ציונות ופלורליזם ישראלי.",
+			"url": "https://www.masorti.org.il/",
+			"website": "https://www.masorti.org.il/",
+			"verified": true,
+			"taxDeductible46": true,
+			"us501c3": true,
+			"registrationNumber": "580132454",
+			"organizationType": "ngo",
+			"intents": [
+				"get-help",
+				"volunteer",
+				"donate"
+			],
+			"tags": [
+				"יהדות מסורתית",
+				"קונסרבטיבית",
+				"קהילות",
+				"שוויון",
+				"Masorti",
+				"Conservative Judaism"
+			],
+			"createdAt": "2026-11-23T11:48:00+02:00",
+			"references": [
+				{
+					"url": "https://www.guidestar.org.il/organization/580132454",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "התנועה המסורתית THE MASORTI MOVEMENT (ע״ר)"
+				},
+				{
+					"url": "https://he.wikipedia.org/wiki/%D7%94%D7%AA%D7%A0%D7%95%D7%A2%D7%94_%D7%94%D7%9E%D7%A1%D7%95%D7%A8%D7%AA%D7%99%D7%AA_%D7%91%D7%99%D7%A9%D7%A8%D7%90%D7%9C",
+					"type": "registry",
+					"source": "Wikipedia",
+					"title": "התנועה המסורתית בישראל (ויקיפדיה)"
+				}
+			],
+			"properManagement": true,
+			"registryCheckedAt": "2026-11-23"
+		},
+		{
+			"name": "MasortiOlami",
+			"displayName": "Masorti Olami — התנועה המסורתית העולמית",
+			"shortDescription": "ארגון הגג העולמי של קהילות היהדות המסורתית/קונסרבטיבית באירופה, אמריקה הלטינית, אסיה, אוסטרליה ואפריקה",
+			"description": "Masorti Olami מחבר ותומך ברשת העולמית של קהילות, בתי כנסת, תנועות נוער (NOAM) ורבנים מסורתיים/קונסרבטיביים מחוץ לצפון אמריקה — ומחזק את הקשר ההדוק בין יהדות התפוצות לישראל.",
+			"url": "https://masortiolami.org/",
+			"website": "https://masortiolami.org/",
+			"verified": true,
+			"organizationType": "ngo",
+			"intents": [
+				"get-help",
+				"donate"
+			],
+			"tags": [
+				"יהדות מסורתית",
+				"תפוצות",
+				"קונסרבטיבית",
+				"קהילות בעולם",
+				"Masorti Olami"
+			],
+			"createdAt": "2026-11-23T11:48:00+02:00"
+		},
+		{
+			"name": "USCJ",
+			"displayName": "USCJ — התנועה הקונסרבטיבית בצפון אמריקה",
+			"shortDescription": "איגוד בתי הכנסת והקהילות הקונסרבטיביות (United Synagogue of Conservative Judaism) בצפון אמריקה ובקשר לישראל",
+			"description": "USCJ הוא ארגון הגג של מאות קהילות ובתי כנסת קונסרבטיביים בארה״ב ובקנדה, המפעיל תוכניות קהילה, נוער (USY), לימודי יהדות וחיבור חי ופעיל עם מדינת ישראל.",
+			"url": "https://uscj.org/",
+			"website": "https://uscj.org/",
+			"verified": true,
+			"us501c3": true,
+			"organizationType": "ngo",
+			"intents": [
+				"get-help",
+				"donate"
+			],
+			"tags": [
+				"קונסרבטיבית",
+				"צפון אמריקה",
+				"בתי כנסת",
+				"קהילות",
+				"USCJ",
+				"Conservative Judaism"
+			],
+			"createdAt": "2026-11-23T11:48:00+02:00"
+		},
+		{
+			"name": "RabbinicalAssembly",
+			"displayName": "The Rabbinical Assembly — כנסת הרבנים (מסורתית/קונסרבטיבית)",
+			"shortDescription": "האיגוד הבינלאומי של רבני ורבניות התנועה הקונסרבטיבית/מסורתית — תשובות הלכתיות, מקורות תפילה ומציאת רבנים",
+			"description": "כנסת הרבנים (The Rabbinical Assembly) היא הארגון הבינלאומי של רבני ורבניות היהדות הקונסרבטיבית והמסורתית ברחבי העולם, המפרסמת תשובות הלכתיות (CJLS), סידורים, מדריכי חגים ומעגל חיים.",
+			"url": "https://www.rabbinicalassembly.org/",
+			"website": "https://www.rabbinicalassembly.org/",
+			"verified": true,
+			"us501c3": true,
+			"organizationType": "ngo",
+			"intents": [
+				"get-help"
+			],
+			"tags": [
+				"הלכה",
+				"קונסרבטיבית",
+				"מסורתית",
+				"רבנים",
+				"Rabbinical Assembly"
+			],
+			"createdAt": "2026-11-23T11:48:00+02:00"
+		},
+		{
+			"name": "SchechterInstitute",
+			"displayName": "מכון שכטר למדעי היהדות (Schechter Institutes)",
+			"shortDescription": "המרכז האקדמי והרוחני המוביל של התנועה המסורתית בישראל — לימודי יהדות, הכשרת רבנים, חינוך תל״י ומחקר",
+			"description": "מכון שכטר למדעי היהדות בירושלים (ע״ר 580400968) משלב לימודי תואר שני במדעי היהדות, בית המדרש לרבנים של התנועה המסורתית, רשת החינוך תל״י ומרכז נווה שכטר לתרבות יהודית בתל אביב.",
+			"url": "https://schechter.ac.il/",
+			"website": "https://schechter.ac.il/",
+			"verified": true,
+			"taxDeductible46": true,
+			"us501c3": true,
+			"registrationNumber": "580400968",
+			"organizationType": "ngo",
+			"intents": [
+				"get-help",
+				"donate"
+			],
+			"tags": [
+				"מכון שכטר",
+				"יהדות מסורתית",
+				"מדעי היהדות",
+				"ירושלים",
+				"תל״י",
+				"Schechter"
+			],
+			"createdAt": "2026-11-23T11:48:00+02:00",
+			"references": [
+				{
+					"url": "https://www.guidestar.org.il/organization/580400968",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "מכון שכטר למדעי היהדות (ע״ר)"
+				}
+			],
+			"properManagement": true,
+			"registryCheckedAt": "2026-11-23"
+		},
+		{
+			"name": "FuchsbergCenter",
+			"displayName": "מרכז פוקסברג ירושלים (Conservative Yeshiva)",
+			"shortDescription": "הישיבה הקונסרבטיבית ובית מדרש פתוח בירושלים לישראלים, עולים ותלמידים מרחבי העולם",
+			"description": "מרכז פוקסברג ירושלים (The Fuchsberg Jerusalem Center) מפעיל את הישיבה הקונסרבטיבית, תוכניות לימוד מקורות בעברית ובאנגלית, קהילת בית כנסת שוויונית ופעילות תרבות ואירוח לישראלים ולמבקרים מחו״ל.",
+			"url": "https://fuchsbergcenter.org/",
+			"website": "https://fuchsbergcenter.org/",
+			"verified": true,
+			"us501c3": true,
+			"organizationType": "ngo",
+			"intents": [
+				"get-help",
+				"donate"
+			],
+			"tags": [
+				"ירושלים",
+				"קונסרבטיבית",
+				"בית מדרש",
+				"לימוד יהדות",
+				"Conservative Yeshiva",
+				"Fuchsberg"
+			],
+			"createdAt": "2026-11-23T11:48:00+02:00"
+		},
+		{
+			"name": "Itim",
+			"displayName": "עתים (ITIM) — ליווי וזכויות במעגל החיים היהודי",
+			"shortDescription": "ייעוץ וליווי משפטי חינם מול הממסד הדתי בישראל בנושאי נישואין, בירור יהדות לעולים, גיור, לידה וקבורה",
+			"description": "עמותת עתים (ע״ר 580394823) מסייעת לאלפי ישראלים ועולים חדשים מדי שנה לנווט במעגל החיים היהודי בישראל — כולל מרכז סיוע חינמי לבירור יהדות, רישום נישואין, גיור, קבורה וייצוג משפטי לשמירה על כבוד האדם.",
+			"url": "https://itim.org.il/",
+			"website": "https://itim.org.il/",
+			"verified": true,
+			"taxDeductible46": true,
+			"us501c3": true,
+			"registrationNumber": "580394823",
+			"organizationType": "ngo",
+			"intents": [
+				"get-help",
+				"donate"
+			],
+			"tags": [
+				"מעגל החיים",
+				"בירור יהדות",
+				"נישואין",
+				"גיור",
+				"עולים חדשים",
+				"ITIM"
+			],
+			"createdAt": "2026-11-23T11:48:00+02:00",
+			"references": [
+				{
+					"url": "https://www.guidestar.org.il/organization/580394823",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "עתים - ייעוץ ומידע במעגל החיים היהודי (ע״ר)"
+				},
+				{
+					"url": "https://he.wikipedia.org/wiki/%D7%A2%D7%AA%D7%99%D7%9D",
+					"type": "registry",
+					"source": "Wikipedia",
+					"title": "עתים (ויקיפדיה)"
+				}
+			],
+			"properManagement": true,
+			"registryCheckedAt": "2026-11-23"
+		},
+		{
+			"name": "Tzohar",
+			"displayName": "ארגון רבני צהר (Tzohar)",
+			"shortDescription": "גשר בין יהדות לחברה הישראלית — חתונות מסבירות פנים, כשרות, שבת, אתיקה וליווי משפחות",
+			"description": "ארגון רבני צהר (ע״ר 580302099) פועל לקירוב לבבות והנגשת שירותי יהדות מסבירי פנים לכלל הציבור הישראלי — כולל עריכת חופות בהתנדבות, פיקוח כשרות, הדרכות כלה וחתן ומיזמי תפילה בחגים.",
+			"url": "https://www.tzohar.org.il/",
+			"website": "https://www.tzohar.org.il/",
+			"verified": true,
+			"taxDeductible46": true,
+			"us501c3": true,
+			"registrationNumber": "580302099",
+			"organizationType": "ngo",
+			"intents": [
+				"get-help",
+				"volunteer",
+				"donate"
+			],
+			"tags": [
+				"צהר",
+				"חתונות",
+				"כשרות",
+				"יהדות",
+				"Tzohar"
+			],
+			"createdAt": "2026-11-23T11:48:00+02:00",
+			"references": [
+				{
+					"url": "https://www.guidestar.org.il/organization/580302099",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "ארגון רבני צהר (ע״ר)"
+				},
+				{
+					"url": "https://he.wikipedia.org/wiki/%D7%90%D7%A8%D7%92%D7%95%D7%9F_%D7%A8%D7%91%D7%A0%D7%99_%D7%A6%D7%94%D7%A8",
+					"type": "registry",
+					"source": "Wikipedia",
+					"title": "ארגון רבני צהר (ויקיפדיה)"
+				}
+			],
+			"properManagement": true,
+			"registryCheckedAt": "2026-11-23"
+		},
+		{
+			"name": "Chabad",
+			"displayName": "חב״ד בעולם ובישראל (Chabad.org)",
+			"shortDescription": "איתור בתי חב״ד בכל העולם, זמני כניסת שבת וחג, לוח עברי ומדריכי יהדות בעברית, אנגלית ושפות נוספות",
+			"description": "Chabad.org הוא אחד ממאגרי היהדות הגדולים ברשת, הכולל מאתר עולמי לבתי חב״ד למטיילים וליהודים בתפוצות, זמני הדלקת נרות שבת וחג לפי מיקום, מדריכי חגים ומקורות יהדות.",
+			"url": "https://www.chabad.org/",
+			"website": "https://www.chabad.org/",
+			"verified": true,
+			"organizationType": "ngo",
+			"intents": [
+				"get-help"
+			],
+			"tags": [
+				"חב״ד",
+				"בתי חב״ד",
+				"כניסת שבת",
+				"חגים",
+				"יהדות בעולם",
+				"Chabad"
+			],
+			"createdAt": "2026-11-23T11:48:00+02:00"
+		}
+	]
+}

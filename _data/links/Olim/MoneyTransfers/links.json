@@ -1,0 +1,114 @@
+{
+	"name": "MoneyTransfers",
+	"displayName": "העברת כספים ובנקאות לישראל (שירותים מפוקחים)",
+	"links": [
+		{
+			"name": "Adesco",
+			"displayName": "Adesco — העברת כספים והמרת מט״ח לישראל",
+			"shortDescription": "חברת תשלומים ישראלית מפוקחת (רשות ניירות ערך) להעברת כספים מחו״ל לישראל, קליטת עולים ותשלומי נדל״ן (שוברים, מס רכישה וחשבונות נאמנות)",
+			"description": "Adesco (Adesco Bridge Ltd.) היא חברת תשלומים מסחרית הפועלת ברישיון רשות ניירות ערך (ISA) ומתמחה בהעברות בינלאומיות והמרת מט״ח (USD, EUR, GBP, CAD, AUD, CHF לשקלים) עבור עולים חדשים, תושבי חוץ ורוכשי דירות בישראל — כולל תשלומים ישירים לחשבונות נאמנות, שוברי קבלן ומס רכישה, ללא עמלות בנק נסתרות ובעיבוד מהיר. (שירות מסחרי מפוקח — אינו עמותה).",
+			"url": "https://www.adesco.co.il/",
+			"website": "https://www.adesco.co.il/",
+			"organizationType": "licensed",
+			"regulator": "רשות ניירות ערך (ISA)",
+			"intents": [
+				"get-help"
+			],
+			"tags": [
+				"העברת כספים",
+				"מט״ח",
+				"עולים חדשים",
+				"נדל״ן בישראל",
+				"שוברים",
+				"Adesco",
+				"money transfer",
+				"FX"
+			],
+			"createdAt": "2026-11-23T11:48:00+02:00"
+		},
+		{
+			"name": "IsraTransfer",
+			"displayName": "IsraTransfer — המרת מט״ח והעברות לישראל",
+			"shortDescription": "חברת העברת כספים והמרת מט״ח ותיקה המשרתת עולים חדשים ורוכשי נדל״ן בישראל מאז 2008",
+			"description": "IsraTransfer היא חברה מסחרית מפוקחת המתמחה בהעברות כספים מחו״ל לישראל ומישראל לחו״ל במטבעות מרכזיים עבור עולים חדשים, משפחות ורוכשי נדל״ן, עם ליווי אישי ותשלום לחשבונות נאמנות. (שירות מסחרי מפוקח — אינו עמותה).",
+			"url": "https://isratransfer.com/",
+			"website": "https://isratransfer.com/",
+			"organizationType": "licensed",
+			"regulator": "רשות שוק ההון",
+			"intents": [
+				"get-help"
+			],
+			"tags": [
+				"העברת כספים",
+				"מט״ח",
+				"עולים חדשים",
+				"IsraTransfer",
+				"money transfer"
+			],
+			"createdAt": "2026-11-23T11:48:00+02:00"
+		},
+		{
+			"name": "Wise",
+			"displayName": "Wise — העברות בינלאומיות וחשבון רב-מטבעי",
+			"shortDescription": "פלטפורמה בינלאומית מפוקחת להעברות כספים שקופות לשקל (ILS) וניהול חשבון רב-מטבעי לעולים ולעובדים מרחוק",
+			"description": "Wise היא פלטפורמת תשלומים בינלאומית מפוקחת (FCA / FinCEN) המאפשרת העברות כספים ישירות לחשבונות בנק בישראל בשער היציג ועמלה שקופה, וכן אחזקת חשבון רב-מטבעי לעולים ולעובדים מרחוק. (שירות מסחרי מפוקח — אינו עמותה).",
+			"url": "https://wise.com/",
+			"website": "https://wise.com/",
+			"organizationType": "licensed",
+			"regulator": "FCA / FinCEN",
+			"intents": [
+				"get-help"
+			],
+			"tags": [
+				"העברת כספים",
+				"מט״ח",
+				"חשבון רב מטבעי",
+				"Wise",
+				"money transfer"
+			],
+			"createdAt": "2026-11-23T11:48:00+02:00"
+		},
+		{
+			"name": "Covercy",
+			"displayName": "Covercy — העברות בינלאומיות ותשלומי נדל״ן",
+			"shortDescription": "פלטפורמת פינטק ישראלית מפוקחת להעברות מט״ח בינלאומיות, משקיעים ורוכשי נכסים",
+			"description": "Covercy היא חברת פינטק ישראלית מפוקחת המספקת שירותי המרת מט״ח והעברות כספים בינלאומיות ללקוחות פרטיים, עסקים ומשקיעי נדל״ן. (שירות מסחרי מפוקח — אינו עמותה).",
+			"url": "https://www.covercy.com/",
+			"website": "https://www.covercy.com/",
+			"organizationType": "licensed",
+			"regulator": "רשות שוק ההון / FinCEN",
+			"intents": [
+				"get-help"
+			],
+			"tags": [
+				"העברת כספים",
+				"פינטק",
+				"מט״ח",
+				"Covercy",
+				"money transfer"
+			],
+			"createdAt": "2026-11-23T11:48:00+02:00"
+		},
+		{
+			"name": "Payoneer",
+			"displayName": "Payoneer — קבלת תשלומים מחו״ל לפרילנסרים ועסקים",
+			"shortDescription": "פלטפורמת תשלומים בינלאומית שנוסדה בישראל לקבלת הכנסות מחו״ל במט״ח ומשיכה לבנק ישראלי",
+			"description": "Payoneer היא חברת תשלומים גלובלית ציבורית (נסחרת בנאסד״ק, נוסדה בישראל) המאפשרת לעולים, פרילנסרים ועסקים ישראליים לקבל תשלומים מלקוחות בחו״ל במטבע מקומי ולמשוך לחשבון הבנק בישראל. (שירות מסחרי מפוקח — אינו עמותה).",
+			"url": "https://www.payoneer.com/",
+			"website": "https://www.payoneer.com/",
+			"organizationType": "licensed",
+			"regulator": "FinCEN / רשות שוק ההון",
+			"intents": [
+				"get-help"
+			],
+			"tags": [
+				"העברת כספים",
+				"פרילנסרים",
+				"עבודה מרחוק",
+				"Payoneer",
+				"payments"
+			],
+			"createdAt": "2026-11-23T11:48:00+02:00"
+		}
+	]
+}

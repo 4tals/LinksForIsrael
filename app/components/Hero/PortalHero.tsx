@@ -94,8 +94,8 @@ export function PortalHero({
 						fontSize="xs"
 					>
 						{isHe
-							? `${stats.totalCount} עמותות ויוזמות`
-							: `${stats.totalCount} Verified Organizations`}
+							? `${stats.totalCount} משאבים ויוזמות`
+							: `${stats.totalCount} Curated Resources`}
 					</Badge>
 					<Badge
 						colorScheme="teal"

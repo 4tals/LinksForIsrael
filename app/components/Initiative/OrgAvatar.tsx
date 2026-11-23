@@ -40,6 +40,8 @@ const SKIP_FAVICON_HOSTS = new Set([
 	"www.alsam.org.il",
 	"qualita.org.il",
 	"www.qualita.org.il",
+	"929.org.il",
+	"www.929.org.il",
 ]);
 
 const FAVICON_HOST_OVERRIDES: Record<string, string> = {

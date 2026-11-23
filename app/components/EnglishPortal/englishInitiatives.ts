@@ -1,7 +1,7 @@
 export interface EnglishInitiative {
 	id: string;
 	name: string;
-	category: "donate" | "rehab" | "volunteer" | "olim" | "advocacy";
+	category: "donate" | "rehab" | "volunteer" | "olim" | "judaism" | "advocacy";
 	categoryLabel: string;
 	summary: string;
 	url: string;
@@ -568,5 +568,229 @@ export const ENGLISH_INITIATIVES: EnglishInitiative[] = [
 			"Free searchable directory connecting English-speaking Olim and residents with licensed therapists, counselors, and support groups across Israel.",
 		url: "https://gethelpisrael.com/",
 		tags: ["olim", "mental health", "English", "therapy"],
+	},
+	{
+		id: "Adesco",
+		name: "Adesco — Licensed Money Transfers to Israel",
+		category: "olim",
+		categoryLabel: "Aliyah & New Olim",
+		summary:
+			"ISA-licensed Israeli Payments Company specializing in inbound FX transfers (USD/EUR/GBP/CAD/AUD/CHF to ILS), Olim transitions, and real estate payments (shovarim, Mas Rechisha & trust accounts). Commercial service, not an NGO.",
+		url: "https://www.adesco.co.il/",
+		tags: [
+			"money transfer",
+			"FX",
+			"olim",
+			"real estate",
+			"banking",
+			"licensed",
+		],
+	},
+	{
+		id: "IsraTransfer",
+		name: "IsraTransfer — Currency Exchange to Israel",
+		category: "olim",
+		categoryLabel: "Aliyah & New Olim",
+		summary:
+			"Regulated Israel-focused FX and international wire transfer provider serving Olim, families, and real estate buyers since 2008. Commercial service, not an NGO.",
+		url: "https://isratransfer.com/",
+		tags: ["money transfer", "FX", "olim", "banking", "licensed"],
+	},
+	{
+		id: "Wise",
+		name: "Wise — International Transfers & Multi-Currency",
+		category: "olim",
+		categoryLabel: "Aliyah & New Olim",
+		summary:
+			"Globally regulated (FCA / FinCEN) multi-currency account and transparent international wire transfers into Israeli shekel (ILS) bank accounts. Commercial service, not an NGO.",
+		url: "https://wise.com/",
+		tags: ["money transfer", "FX", "olim", "remote work", "licensed"],
+	},
+	{
+		id: "Covercy",
+		name: "Covercy — Cross-Border & Real Estate FX",
+		category: "olim",
+		categoryLabel: "Aliyah & New Olim",
+		summary:
+			"Israel-founded regulated fintech providing cross-border FX transfers for individuals, property buyers, and international investors. Commercial service, not an NGO.",
+		url: "https://www.covercy.com/",
+		tags: ["money transfer", "FX", "olim", "real estate", "licensed"],
+	},
+	{
+		id: "Payoneer",
+		name: "Payoneer — Global Payments for Freelancers",
+		category: "olim",
+		categoryLabel: "Aliyah & New Olim",
+		summary:
+			"Israel-founded global payments platform widely used by Olim remote workers, freelancers, and businesses to receive foreign income and withdraw to Israeli banks. Commercial service, not an NGO.",
+		url: "https://www.payoneer.com/",
+		tags: ["money transfer", "freelancers", "remote work", "olim", "licensed"],
+	},
+	{
+		id: "MasortiIsrael",
+		name: "The Masorti Movement in Israel",
+		category: "judaism",
+		categoryLabel: "Judaism & Heritage",
+		summary:
+			"Israel's Masorti / Conservative Jewish movement uniting egalitarian congregations nationwide, Bar/Bat Mitzvah for children with disabilities, conversion, and pluralistic Jewish life.",
+		url: "https://www.masorti.org.il/",
+		tags: [
+			"judaism",
+			"masorti",
+			"conservative",
+			"synagogues",
+			"Israel",
+			"egalitarian",
+		],
+	},
+	{
+		id: "MasortiOlami",
+		name: "Masorti Olami — Worldwide Masorti/Conservative Movement",
+		category: "judaism",
+		categoryLabel: "Judaism & Heritage",
+		summary:
+			"Global umbrella connecting Masorti / Conservative Jewish communities, rabbis, and youth movements across Europe, Latin America, Asia, Australia, and Africa with Israel.",
+		url: "https://masortiolami.org/",
+		tags: ["judaism", "masorti", "conservative", "diaspora", "communities"],
+	},
+	{
+		id: "USCJ",
+		name: "USCJ — United Synagogue of Conservative Judaism",
+		category: "judaism",
+		categoryLabel: "Judaism & Heritage",
+		summary:
+			"Network of Conservative Jewish congregations across North America fostering synagogue life, USY youth engagement, and deep connection with Israel.",
+		url: "https://uscj.org/",
+		tags: ["judaism", "conservative", "masorti", "North America", "synagogues"],
+	},
+	{
+		id: "RabbinicalAssembly",
+		name: "The Rabbinical Assembly",
+		category: "judaism",
+		categoryLabel: "Judaism & Heritage",
+		summary:
+			"International association of Conservative / Masorti rabbis publishing halakhic responsa (CJLS), prayerbooks, holiday guides, and lifecycle resources worldwide.",
+		url: "https://www.rabbinicalassembly.org/",
+		tags: ["judaism", "conservative", "masorti", "halakha", "rabbis"],
+	},
+	{
+		id: "SchechterInstitute",
+		name: "Schechter Institutes (Jerusalem)",
+		category: "judaism",
+		categoryLabel: "Judaism & Heritage",
+		summary:
+			"Israel's flagship Masorti / Conservative academic institute for Jewish studies, rabbinical ordination, TALI schools, and Neve Schechter Jewish culture.",
+		url: "https://schechter.ac.il/",
+		tags: ["judaism", "masorti", "conservative", "Jerusalem", "learning"],
+	},
+	{
+		id: "FuchsbergCenter",
+		name: "Fuchsberg Jerusalem Center (Conservative Yeshiva)",
+		category: "judaism",
+		categoryLabel: "Judaism & Heritage",
+		summary:
+			"Jerusalem home of the Conservative Yeshiva offering open text study, egalitarian prayer, and community programs for Israelis, Olim, and diaspora visitors.",
+		url: "https://fuchsbergcenter.org/",
+		tags: ["judaism", "conservative", "masorti", "Jerusalem", "yeshiva"],
+	},
+	{
+		id: "Sefaria",
+		name: "Sefaria — Free Open-Source Jewish Library",
+		category: "judaism",
+		categoryLabel: "Judaism & Heritage",
+		summary:
+			"The world's free, open-source digital library of Jewish texts — Tanakh, Talmud, Mishnah, Midrash, Halakha, and source sheets in Hebrew and English.",
+		url: "https://www.sefaria.org/",
+		tags: ["judaism", "Torah", "Talmud", "open source", "learning", "texts"],
+	},
+	{
+		id: "Itim",
+		name: "ITIM — Jewish Life-Cycle Advocacy in Israel",
+		category: "judaism",
+		categoryLabel: "Judaism & Heritage",
+		summary:
+			"Free guidance and legal advocacy helping Israelis and new Olim navigate Jewish status verification, marriage, conversion, and burial bureaucracy in Israel.",
+		url: "https://itim.org.il/",
+		tags: ["judaism", "lifecycle", "olim", "marriage", "conversion", "rights"],
+	},
+	{
+		id: "Tzohar",
+		name: "Tzohar Rabbinical Organization",
+		category: "judaism",
+		categoryLabel: "Judaism & Heritage",
+		summary:
+			"Bridging Jewish tradition and Israeli society through welcoming weddings, kashrut supervision, Shabbat initiatives, and ethics guidance.",
+		url: "https://www.tzohar.org.il/",
+		tags: ["judaism", "weddings", "kashrut", "Israel", "community"],
+	},
+	{
+		id: "Chabad",
+		name: "Chabad.org — Global Jewish Directory & Times",
+		category: "judaism",
+		categoryLabel: "Judaism & Heritage",
+		summary:
+			"Worldwide Chabad House locator for travelers and diaspora communities, Shabbat candle-lighting times, holiday guides, and Jewish study resources.",
+		url: "https://www.chabad.org/",
+		tags: ["judaism", "Shabbat", "holidays", "diaspora", "Chabad"],
+	},
+	{
+		id: "ANUMuseum",
+		name: "ANU — Museum of the Jewish People",
+		category: "judaism",
+		categoryLabel: "Judaism & Heritage",
+		summary:
+			"Tel Aviv museum and open digital archive celebrating the full story, genealogy, music, and heritage of Jewish communities in Israel and worldwide.",
+		url: "https://www.anumuseum.org.il/",
+		tags: ["judaism", "heritage", "museum", "diaspora", "history"],
+	},
+	{
+		id: "BINA",
+		name: "BINA — The Jewish Movement for Social Change",
+		category: "judaism",
+		categoryLabel: "Judaism & Heritage",
+		summary:
+			"Pluralistic Israeli Judaism, Secular Yeshiva campuses, pre-army leadership programs, and community social action across Israel and abroad.",
+		url: "https://www.bina.org.il/",
+		tags: ["judaism", "pluralism", "Israel", "culture", "education"],
+	},
+	{
+		id: "HartmanInstitute",
+		name: "Shalom Hartman Institute",
+		category: "judaism",
+		categoryLabel: "Judaism & Heritage",
+		summary:
+			"Leading pluralistic center for Jewish thought, research, podcasts, and leadership education bridging Israel and North American Jewry.",
+		url: "https://www.hartman.org.il/",
+		tags: ["judaism", "Israel", "diaspora", "thought", "podcasts"],
+	},
+	{
+		id: "Pardes",
+		name: "Pardes Institute of Jewish Studies",
+		category: "judaism",
+		categoryLabel: "Judaism & Heritage",
+		summary:
+			"Open, co-ed, non-denominational Jerusalem beit midrash welcoming students, Olim, and educators from every Jewish background.",
+		url: "https://pardes.org.il/",
+		tags: ["judaism", "Jerusalem", "learning", "beit midrash", "olim"],
+	},
+	{
+		id: "Hebcal",
+		name: "Hebcal — Open-Source Jewish Calendar",
+		category: "judaism",
+		categoryLabel: "Judaism & Heritage",
+		summary:
+			"Free open-source Hebrew date converter, Shabbat & holiday candle-lighting times worldwide, Torah readings, and Google/Apple calendar sync.",
+		url: "https://www.hebcal.com/",
+		tags: ["judaism", "calendar", "Shabbat", "holidays", "open source"],
+	},
+	{
+		id: "MyJewishLearning",
+		name: "My Jewish Learning",
+		category: "judaism",
+		categoryLabel: "Judaism & Heritage",
+		summary:
+			"Accessible, non-denominational online encyclopedia of Jewish holidays, history, prayer, culture, and life across Israel and the diaspora.",
+		url: "https://www.myjewishlearning.com/",
+		tags: ["judaism", "holidays", "learning", "culture", "diaspora"],
 	},
 ];

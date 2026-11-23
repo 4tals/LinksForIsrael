@@ -24,34 +24,52 @@ export function TrustScoreMeter({
 
 	const tierColor = score >= 75 ? "green" : score >= 45 ? "blue" : "gray";
 
-	const signals: Array<{ label: string; active: boolean }> = [
-		{
-			label: isRtl ? "אימות ארגון" : "Verified Org",
-			active: Boolean(link.verified),
-		},
-		{
-			label: isRtl ? "ניהול תקין (data.gov.il)" : "MOJ Good Standing",
-			active: Boolean(link.properManagement),
-		},
-		{
-			label: isRtl ? "סעיף 46" : "§46 Tax-Deductible",
-			active: Boolean(link.taxDeductible46),
-		},
-		{
-			label: isRtl
-				? refsCount > 0
-					? `${refsCount} אזכורים עצמאיים`
-					: "אזכורים חיצוניים"
-				: refsCount > 0
-					? `${refsCount} Independent Citations`
-					: "Citations",
-			active: refsCount > 0,
-		},
-		{
-			label: isRtl ? "מוקד טלפוני" : "Direct Hotline",
-			active: Boolean(link.phone),
-		},
-	];
+	const signals: Array<{ label: string; active: boolean }> =
+		link.organizationType === "licensed"
+			? [
+					{
+						label: link.regulator
+							? isRtl
+								? `מפוקח: ${link.regulator}`
+								: `Regulated: ${link.regulator}`
+							: isRtl
+								? "שירות פיננסי מפוקח"
+								: "Regulated Service",
+						active: true,
+					},
+					{
+						label: isRtl ? "חברה מסחרית (אינה עמותה)" : "Commercial Provider",
+						active: true,
+					},
+				]
+			: [
+					{
+						label: isRtl ? "אימות ארגון" : "Verified Org",
+						active: Boolean(link.verified),
+					},
+					{
+						label: isRtl ? "ניהול תקין (data.gov.il)" : "MOJ Good Standing",
+						active: Boolean(link.properManagement),
+					},
+					{
+						label: isRtl ? "סעיף 46" : "§46 Tax-Deductible",
+						active: Boolean(link.taxDeductible46),
+					},
+					{
+						label: isRtl
+							? refsCount > 0
+								? `${refsCount} אזכורים עצמאיים`
+								: "אזכורים חיצוניים"
+							: refsCount > 0
+								? `${refsCount} Independent Citations`
+								: "Citations",
+						active: refsCount > 0,
+					},
+					{
+						label: isRtl ? "מוקד טלפוני" : "Direct Hotline",
+						active: Boolean(link.phone),
+					},
+				];
 
 	return (
 		<Box

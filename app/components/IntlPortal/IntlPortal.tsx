@@ -10,6 +10,7 @@ import {
 	FaPlaneArrival,
 	FaSearch,
 	FaShareAlt,
+	FaStarOfDavid,
 } from "react-icons/fa";
 
 import {
@@ -86,11 +87,19 @@ const EN_CATEGORIES = [
 	},
 	{
 		id: "olim",
-		label: "Aliyah & New Olim",
-		desc: "Official Aliyah agencies, Olim rights, careers, Ulpan & Lone Soldiers",
+		label: "Aliyah, Olim & Transfers",
+		desc: "Official Aliyah agencies, Olim rights, careers, Lone Soldiers & licensed FX transfers",
 		icon: FaPlaneArrival,
 		bg: "blue.50",
 		color: "brand.700",
+	},
+	{
+		id: "judaism",
+		label: "Judaism & Heritage",
+		desc: "Masorti/Conservative & global Jewish communities, Sefaria, texts & lifecycle",
+		icon: FaStarOfDavid,
+		bg: "purple.50",
+		color: "purple.700",
 	},
 	{
 		id: "advocacy",
@@ -105,12 +114,12 @@ const EN_CATEGORIES = [
 const EN_QUICK_TAGS = [
 	"501(c)(3)",
 	"aliyah",
-	"olim",
-	"lone soldiers",
+	"money transfer",
+	"masorti",
+	"judaism",
 	"mental health",
 	"volunteer",
 	"veterans",
-	"remembrance",
 ];
 
 const CATEGORY_BADGE_MAP: Record<
@@ -135,7 +144,12 @@ const CATEGORY_BADGE_MAP: Record<
 	olim: {
 		bg: "blue.50",
 		color: "brand.700",
-		label: "Aliyah & New Olim",
+		label: "Aliyah, Olim & Transfers",
+	},
+	judaism: {
+		bg: "purple.50",
+		color: "purple.700",
+		label: "Judaism & Heritage",
 	},
 	advocacy: {
 		bg: "orange.50",
@@ -318,7 +332,7 @@ export function IntlPortal({ items }: { items: EnrichedIntlInitiative[] }) {
 				locale="en"
 				stats={stats}
 				title="Links For Israel"
-				subtitle="The open-source directory of verified Israeli nonprofits, 24/7 mental health helplines, volunteering networks, and Section 46 / 501(c)(3) charities — year-round and in emergencies."
+				subtitle="Every trusted link you need for Israel and Jewish life — MOJ-verified nonprofits (§46 & 501c3), Aliyah & regulated Olim services, Masorti/Conservative & global Jewish heritage, volunteering, and 24/7 hotlines."
 				actionButtons={
 					<>
 						<Button
@@ -441,10 +455,7 @@ export function IntlPortal({ items }: { items: EnrichedIntlInitiative[] }) {
 					</Flex>
 				</Flex>
 
-				<SimpleGrid
-					columns={{ base: 2, md: 3, lg: 5 }}
-					spacing={{ base: 3, md: 4 }}
-				>
+				<SimpleGrid columns={{ base: 2, md: 3 }} spacing={{ base: 3, md: 4 }}>
 					{EN_CATEGORIES.map((cat) => {
 						const active = selectedCategory === cat.id;
 						const count = categoryCounts[cat.id] || 0;

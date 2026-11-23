@@ -1,0 +1,287 @@
+{
+	"name": "TextsAndCulture",
+	"displayName": "ספריות יהודיות, לימוד, תרבות ומורשת",
+	"links": [
+		{
+			"name": "Sefaria",
+			"displayName": "ספריא (Sefaria) — הספרייה הפתוחה לארון הספרים היהודי",
+			"shortDescription": "הספרייה הדיגיטלית החינמית ובקוד פתוח של התנ״ך, התלמוד, המשנה, המדרש וההלכה בעברית ובאנגלית",
+			"description": "ספריא (עמותת ספריא ישראל ע״ר 580787760) היא הספרייה הדיגיטלית הפתוחה והמקיפה בעולם למקורות היהדות — תנ״ך, משנה, תלמוד בבלי וירושלמי, מדרשים, פרשנים, סידורים ודפי מקורות, חינם ובקוד פתוח.",
+			"url": "https://www.sefaria.org/",
+			"website": "https://www.sefaria.org/",
+			"verified": true,
+			"us501c3": true,
+			"registrationNumber": "580787760",
+			"organizationType": "ngo",
+			"intents": [
+				"get-help",
+				"donate"
+			],
+			"tags": [
+				"ספריא",
+				"תנ״ך",
+				"תלמוד",
+				"מקורות יהודיים",
+				"קוד פתוח",
+				"Sefaria",
+				"Jewish texts"
+			],
+			"createdAt": "2026-11-23T11:48:00+02:00",
+			"references": [
+				{
+					"url": "https://www.guidestar.org.il/organization/580787760",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "עמותת ספריא ישראל (ע״ר)"
+				},
+				{
+					"url": "https://he.wikipedia.org/wiki/%D7%A1%D7%A4%D7%A8%D7%99%D7%90",
+					"type": "registry",
+					"source": "Wikipedia",
+					"title": "ספריא (ויקיפדיה)"
+				}
+			],
+			"properManagement": true,
+			"registryCheckedAt": "2026-11-23"
+		},
+		{
+			"name": "Project929",
+			"displayName": "מיזם 929 — תנ״ך ביחד",
+			"shortDescription": "קריאה יומית משותפת של פרק בתנ״ך עם פרשנויות של כותבים, חוקרים ויוצרים מכל קצוות החברה הישראלית",
+			"description": "מיזם 929 מזמין ישראלים ויהודים בעולם לקרוא יחד פרק אחד בתנ״ך בכל יום — מלווה במאמרים, האזנה, אמנות ונקודות מבט חילוניות, מסורתיות ודתיות.",
+			"url": "https://www.929.org.il/",
+			"website": "https://www.929.org.il/",
+			"verified": true,
+			"organizationType": "ngo",
+			"intents": [
+				"get-help"
+			],
+			"tags": [
+				"929",
+				"תנ״ך",
+				"תרבות יהודית",
+				"לימוד יומי"
+			],
+			"createdAt": "2026-11-23T11:48:00+02:00",
+			"references": [
+				{
+					"url": "https://he.wikipedia.org/wiki/929_-_%D7%AA%D7%A0%22%D7%9A_%D7%91%D7%99%D7%97%D7%93",
+					"type": "registry",
+					"source": "Wikipedia",
+					"title": "929 – תנ״ך ביחד (ויקיפדיה)"
+				}
+			]
+		},
+		{
+			"name": "ANUMuseum",
+			"displayName": "אנו — מוזיאון העם היהודי (ANU Museum)",
+			"shortDescription": "המוזיאון הגדול בעולם המוקדש לסיפור, למורשת, לתרבות ולארכיון השמות והקהילות של העם היהודי בתפוצות ובישראל",
+			"description": "אנו — מוזיאון העם היהודי בתל אביב (לשעבר בית התפוצות) מציג את הסיפור הרחב והמגוון של הקהילות היהודיות מכל הדורות והיבשות, ומפעיל מאגר דיגיטלי פתוח של שמות משפחה, קהילות ותצלומים.",
+			"url": "https://www.anumuseum.org.il/",
+			"website": "https://www.anumuseum.org.il/",
+			"verified": true,
+			"organizationType": "ngo",
+			"intents": [
+				"get-help",
+				"donate"
+			],
+			"tags": [
+				"מוזיאון העם היהודי",
+				"תפוצות",
+				"מורשת יהודית",
+				"שורשים",
+				"ANU Museum"
+			],
+			"createdAt": "2026-11-23T11:48:00+02:00",
+			"references": [
+				{
+					"url": "https://he.wikipedia.org/wiki/%D7%90%D7%A0%D7%95_-_%D7%9E%D7%95%D7%96%D7%99%D7%90%D7%95%D7%9F_%D7%94%D7%A2%D7%9D_%D7%94%D7%99%D7%94%D7%95%D7%93%D7%99",
+					"type": "registry",
+					"source": "Wikipedia",
+					"title": "אנו – מוזיאון העם היהודי (ויקיפדיה)"
+				}
+			]
+		},
+		{
+			"name": "BINA",
+			"displayName": "בינ״ה — הבית של היהדות הישראלית (BINA)",
+			"shortDescription": "הישיבה החילונית, מכינות קדם-צבאיות, בתי מדרש פתוחים ועשייה חברתית ברוח יהדות פלורליסטית בישראל ובעולם",
+			"description": "עמותת בינ״ה (ע״ר 580652378) מקדמת יהדות ישראלית פתוחה ושוויונית באמצעות הישיבה החילונית בתל אביב, ירושלים ובאר שבע, תוכניות שנת שירות ומכינות, לימודי מקורות ועשייה קהילתית.",
+			"url": "https://www.bina.org.il/",
+			"website": "https://www.bina.org.il/",
+			"verified": true,
+			"taxDeductible46": true,
+			"us501c3": true,
+			"registrationNumber": "580652378",
+			"organizationType": "ngo",
+			"intents": [
+				"get-help",
+				"volunteer",
+				"donate"
+			],
+			"tags": [
+				"יהדות ישראלית",
+				"הישיבה החילונית",
+				"פלורליזם",
+				"תרבות יהודית",
+				"BINA"
+			],
+			"createdAt": "2026-11-23T11:48:00+02:00",
+			"references": [
+				{
+					"url": "https://www.guidestar.org.il/organization/580652378",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "בינ״ה - הבית של היהדות הישראלית (ע״ר)"
+				}
+			],
+			"properManagement": true,
+			"registryCheckedAt": "2026-11-23"
+		},
+		{
+			"name": "BeitAviChai",
+			"displayName": "בית אבי חי (Beit Avi Chai)",
+			"shortDescription": "מרכז תרבות, פודקאסטים, מאמרים, יצירה ישראלית-יהודית ואנימציה בירושלים וברשת",
+			"description": "בית אבי חי (ע״ר 580465011) הוא מרכז תרבות ויצירה בירושלים וברשת העוסק בדיאלוג פתוח ומעמיק בין יהדות, תרבות ישראלית, ספרות, מוזיקה והגות לכל הגילאים.",
+			"url": "https://www.bac.org.il/",
+			"website": "https://www.bac.org.il/",
+			"verified": true,
+			"registrationNumber": "580465011",
+			"organizationType": "ngo",
+			"intents": [
+				"get-help"
+			],
+			"tags": [
+				"בית אבי חי",
+				"תרבות יהודית",
+				"פודקאסטים",
+				"ירושלים",
+				"Beit Avi Chai"
+			],
+			"createdAt": "2026-11-23T11:48:00+02:00",
+			"references": [
+				{
+					"url": "https://www.guidestar.org.il/organization/580465011",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "בית אבי חי (ע״ר)"
+				}
+			],
+			"properManagement": true,
+			"registryCheckedAt": "2026-11-23"
+		},
+		{
+			"name": "HartmanInstitute",
+			"displayName": "מכון שלום הרטמן (Shalom Hartman Institute)",
+			"shortDescription": "מכון מחקר וחינוך פלורליסטי להגות יהודית, זהות ישראלית ודיאלוג בין ישראל ליהדות התפוצות",
+			"description": "מכון שלום הרטמן-ישראל (חל״צ 511021156) מוביל מחקר, פודקאסטים, מרכזי חינוך והכשרת מנהיגות ומורים בירושלים ובצפון אמריקה לקידום יהדות דמוקרטית ופלורליסטית.",
+			"url": "https://www.hartman.org.il/",
+			"website": "https://www.hartman.org.il/",
+			"verified": true,
+			"taxDeductible46": true,
+			"us501c3": true,
+			"registrationNumber": "511021156",
+			"organizationType": "ngo",
+			"intents": [
+				"get-help",
+				"donate"
+			],
+			"tags": [
+				"הגות יהודית",
+				"ישראל והתפוצות",
+				"חינוך",
+				"פלורליזם",
+				"Hartman"
+			],
+			"createdAt": "2026-11-23T11:48:00+02:00",
+			"references": [
+				{
+					"url": "https://www.guidestar.org.il/organization/511021156",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "מכון שלום הרטמן-ישראל (חל״צ)"
+				}
+			],
+			"properManagement": true,
+			"registryCheckedAt": "2026-11-23"
+		},
+		{
+			"name": "Pardes",
+			"displayName": "מכון פרדס לחינוך יהודי (Pardes Institute)",
+			"shortDescription": "בית מדרש פתוח, שוויוני ורב-זרמי בירושלים ללימוד מקורות יהודיים לעולים, סטודנטים ומחנכים מרחבי העולם",
+			"description": "מכון פרדס (ע״ר 580009330) הוא בית מדרש פתוח ובלתי-זרמי בירושלים המזמין גברים ונשים מכל רקע יהודי ללמוד תלמוד, תנ״ך, מחשבת ישראל וחינוך יהודי — בקמפוס בירושלים ובאונליין.",
+			"url": "https://pardes.org.il/",
+			"website": "https://pardes.org.il/",
+			"verified": true,
+			"taxDeductible46": true,
+			"us501c3": true,
+			"registrationNumber": "580009330",
+			"organizationType": "ngo",
+			"intents": [
+				"get-help",
+				"donate"
+			],
+			"tags": [
+				"בית מדרש",
+				"לימוד יהדות",
+				"ירושלים",
+				"Pardes",
+				"Jewish learning"
+			],
+			"createdAt": "2026-11-23T11:48:00+02:00",
+			"references": [
+				{
+					"url": "https://www.guidestar.org.il/organization/580009330",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "מכון פרדס לחינוך יהודי (ע״ר)"
+				}
+			],
+			"properManagement": true,
+			"registryCheckedAt": "2026-11-23"
+		},
+		{
+			"name": "Hebcal",
+			"displayName": "Hebcal — לוח שנה עברי פתוח וזמני שבת",
+			"shortDescription": "לוח שנה עברי חינמי ובקוד פתוח — המרת תאריכים, זמני כניסת שבת וחגים, פרשת השבוע והטמעה ביומן",
+			"description": "Hebcal הוא כלי קוד-פתוח חינמי ופופולרי להמרת תאריכים עבריים-לועזיים, חישוב זמני הדלקת נרות שבת וחג בכל עיר בישראל ובעולם, פרשת השבוע וייצוא לוח חגים ל-Google Calendar ו-Apple Calendar.",
+			"url": "https://www.hebcal.com/",
+			"website": "https://www.hebcal.com/",
+			"organizationType": "community",
+			"intents": [
+				"get-help"
+			],
+			"tags": [
+				"לוח עברי",
+				"זמני שבת",
+				"חגים",
+				"פרשת השבוע",
+				"קוד פתוח",
+				"Hebcal"
+			],
+			"createdAt": "2026-11-23T11:48:00+02:00"
+		},
+		{
+			"name": "MyJewishLearning",
+			"displayName": "My Jewish Learning — אנציקלופדיה פתוחה ליהדות",
+			"shortDescription": "המדריך הפתוח והמקיף באנגלית לחגי ישראל, מעגל החיים, תפילה, היסטוריה, אוכל ותרבות יהודית מכל הזרמים",
+			"description": "My Jewish Learning הוא פורטל חינוכי עצמאי ופלורליסטי המנגיש בשפה ברורה ומזמינה את כל תחומי החיים היהודיים — חגים, שבת, היסטוריה, מחשבת ישראל ומנהגים בקהילות ישראל והתפוצות.",
+			"url": "https://www.myjewishlearning.com/",
+			"website": "https://www.myjewishlearning.com/",
+			"verified": true,
+			"organizationType": "ngo",
+			"intents": [
+				"get-help"
+			],
+			"tags": [
+				"יהדות",
+				"חגים",
+				"לימוד יהדות",
+				"אנגלית",
+				"My Jewish Learning",
+				"Judaism"
+			],
+			"createdAt": "2026-11-23T11:48:00+02:00"
+		}
+	]
+}

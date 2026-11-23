@@ -5,9 +5,9 @@ import { getEnrichedEnglishInitiatives } from "@/app/components/IntlPortal/intlC
 import { buildIntlPortalJsonLd, safeJsonLd, SITE_URL } from "@/app/utils/seo";
 
 const EN_TITLE =
-	"Links For Israel — Verified Israeli Charities, Aliyah & Olim, Volunteering & Hotlines";
+	"Links For Israel — Trusted Guide to Israel, Aliyah, Jewish Life & Charities";
 const EN_DESCRIPTION =
-	"Open-source directory of verified Israeli nonprofits, Aliyah & New Olim organizations, 501(c)(3) & Section 46 charities, mental health & veteran care, volunteering, and 24/7 hotlines.";
+	"Every trusted link for Israel and Jewish life — MOJ-verified nonprofits (§46 & 501c3), Aliyah & regulated money transfers for Olim, Masorti/Conservative & pluralistic Jewish heritage, volunteering, and 24/7 hotlines.";
 
 export const metadata: Metadata = {
 	title: { absolute: EN_TITLE },
@@ -20,14 +20,15 @@ export const metadata: Metadata = {
 		"Section 46 Israel",
 		"Aliyah resources",
 		"New Olim Israel",
+		"transfer money to Israel",
+		"Masorti Judaism Israel",
+		"Conservative Judaism Israel",
+		"Jewish heritage resources",
+		"Sefaria",
 		"Lone Soldiers Israel",
-		"donate to Israel",
 		"volunteer in Israel",
-		"Israeli nonprofits",
 		"Nefesh B'Nefesh",
 		"ERAN",
-		"NATAL",
-		"Yad Sarah",
 	],
 	alternates: {
 		canonical: "/en",
@@ -84,9 +85,15 @@ export default async function EnglishPage() {
 			},
 			{
 				question:
-					"Where can new Olim and people making Aliyah find verified absorption and Lone Soldier support?",
+					"Where can new Olim and people making Aliyah find verified absorption, Lone Soldier, and regulated transfer services?",
 				answer:
-					"Select the Aliyah & New Olim category (/en?cat=olim) to access the Ministry of Aliyah and Integration (*2994), The Jewish Agency, Nefesh B'Nefesh, Yad L'Olim, AACI, Telfed, Qualita, OLEI, Gvahim, and Lone Soldier organizations.",
+					"Select the Aliyah, Olim & Transfers category (/en?cat=olim) to access the Ministry of Aliyah and Integration (*2994), The Jewish Agency, Nefesh B'Nefesh, Yad L'Olim, Gvahim, Lone Soldier centers, and clearly labeled licensed financial transfer providers (Adesco, IsraTransfer, Wise, Covercy, Payoneer).",
+			},
+			{
+				question:
+					"Does Links For Israel cover Conservative / Masorti and global Jewish life resources?",
+				answer:
+					"Yes. The Judaism & Heritage category (/en?cat=judaism) gathers Masorti Israel, Masorti Olami, USCJ, The Rabbinical Assembly, Schechter Institutes, Fuchsberg Jerusalem Center, Sefaria, ITIM, Tzohar, Chabad, ANU Museum, BINA, Hartman, Pardes, and Hebcal.",
 			},
 		],
 	});

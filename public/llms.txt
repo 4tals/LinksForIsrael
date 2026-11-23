@@ -18,7 +18,7 @@
 - Verification Methodology: https://www.linksforisrael.com/docs/methodology
 - Accessibility Statement (IS 5568 / WCAG 2.1 AA): https://www.linksforisrael.com/docs/accessibility
 - Embeddable Hotlines Widget: https://www.linksforisrael.com/embed/hotlines
-- Open JSON API (all 164 ranked initiatives + data.gov.il registry provenance): https://www.linksforisrael.com/api/v1/initiatives.json
+- Open JSON API (all 187 ranked initiatives + data.gov.il registry provenance): https://www.linksforisrael.com/api/v1/initiatives.json
 - Open Referral HSDS Feed: https://www.linksforisrael.com/api/v1/hsds.json
 - Categories JSON API: https://www.linksforisrael.com/api/v1/categories.json
 - Sitemap: https://www.linksforisrael.com/sitemap.xml
@@ -30,7 +30,8 @@
 - [תרומות, מזון וכלכלה](https://www.linksforisrael.com/Economic): 20 initiatives
 - [משפחה, נוער ובע״ח](https://www.linksforisrael.com/FamilyAndPets): 24 initiatives
 - [התנדבות, זכויות וקהילה](https://www.linksforisrael.com/GeneralAssistance): 18 initiatives
-- [עלייה וקליטה](https://www.linksforisrael.com/Olim): 18 initiatives
+- [עלייה וקליטה](https://www.linksforisrael.com/Olim): 23 initiatives
+- [יהדות, מורשת וקהילה](https://www.linksforisrael.com/JudaismHeritage): 18 initiatives
 - [חקלאות ותוצרת הארץ](https://www.linksforisrael.com/Agriculture): 8 initiatives
 - [שכול, הנצחה וזיכרון](https://www.linksforisrael.com/MemorialRemembrance): 9 initiatives
 - [הסברה ודיפלומטיה](https://www.linksforisrael.com/StrategicCommunication): 23 initiatives
@@ -78,6 +79,9 @@
 - [אגודת צער בעלי חיים בישראל](https://spca.co.il/): אימוץ כלבים וחתולים, מרפאה וטרינרית והתנדבות למען בעלי חיים
 - [נפש בנפש (Nefesh B'Nefesh)](https://www.nbn.org.il/): ליווי מקיף, ייעוץ זכויות, קליטה, תעסוקה ותמיכה לחיילים בודדים ולעולים חדשים מצפון אמריקה
 - [הקרן לידידות — סיוע לעולים ורווחה](https://yedidut.org.il/): מענקי קליטה, טיסות עלייה, סיוע במזון ודיור ותמיכה בעולים חדשים מרחבי העולם ובאוכלוסיות רווחה
+- [התנועה המסורתית בישראל (Masorti Movement)](https://www.masorti.org.il/): קהילות שוויוניות ומסורתיות ברחבי ישראל, תפילה, גיור, חתונות, בר/בת מצווה לילדים עם מוגבלויות ותנועת נוע״ם
+- [עתים (ITIM) — ליווי וזכויות במעגל החיים היהודי](https://itim.org.il/): ייעוץ וליווי משפטי חינם מול הממסד הדתי בישראל בנושאי נישואין, בירור יהדות לעולים, גיור, לידה וקבורה
+- [ארגון רבני צהר (Tzohar)](https://www.tzohar.org.il/): גשר בין יהדות לחברה הישראלית — חתונות מסבירות פנים, כשרות, שבת, אתיקה וליווי משפחות
 - [לקט ישראל - מתנדבים למשקים](https://www.leket.org/volunteering-for-farmers/): התנדבות למשקים בדרום בעקבות המלחמה
 - [מגן דוד אדום (מד״א) — ארגון ההצלה הלאומי](https://www.mdais.org/) (101): שירותי חירום רפואיים 24/7 (101), תרומות דם, קורסי עזרה ראשונה והתנדבות בפריסה ארצית
 - [משרד העלייה והקליטה](https://www.gov.il/he/departments/ministry_of_aliyah_and_integration) (*2994): המשרד הממשלתי הרשמי לזכויות עולים חדשים ותושבים חוזרים — סל קליטה, אולפן, דיור, תעסוקה ומוקד *2994 ב-7 שפות
@@ -88,6 +92,7 @@
 - [Stop Antisemitism](https://www.stopantisemitism.org/): Leading Non-Partisan U.S Based Organization Fighting & Exposing Antisemitism
 - [Medical Volunteers for Israel](https://survey.gov.il/en/internationalvolunteers?utm_source=go.gov.il&utm_medium=referral): In light of the ongoing situation in Israel, the Israeli Ministry of Health is building a list of medical personnel from abroad to volunteer in Israel should the need arise.
 - [קו לעובד – הגנה על זכויות עובדים](https://kavlaoved.org.il/): ייעוץ, סיוע משפטי ומידע במיצוי זכויות עבודה ושכר לעובדים בישראל ללא הבדל מעמד
+- [ספריא (Sefaria) — הספרייה הפתוחה לארון הספרים היהודי](https://www.sefaria.org/): הספרייה הדיגיטלית החינמית ובקוד פתוח של התנ״ך, התלמוד, המשנה, המדרש וההלכה בעברית ובאנגלית
 - [חרבות ברזל עדכונים ותמונת מצב](https://www.inss.org.il/he/publication/war-data/): דסק הנתונים של המכון למחקרי ביטחון לאומי אוסף עבורכם את המידע העדכני והמדויק במהלך ימי המלחמה
 - [האגודה למלחמה בסרטן](https://www.cancer.org.il/) (1-800-599-995): מידע רפואי, מרכזי תמיכה, קבוצות ליווי, מוקד טלמידע 24/7 וסיוע לחולי סרטן ולמשפחותיהם
 - [חסדי נעמי — סלי מזון וסיוע לקשישים ולמשפחות](https://www.naomi.org.il/) (03-6777777): חלוקת סלי מזון, ציוד חורף ותמיכה שוטפת באלפי משפחות, שורדי שואה וקשישים בכל הארץ
@@ -127,10 +132,23 @@
 - [המרכז לחיילים בודדים לזכרו של מייקל לוין](https://lonesoldiercenter.com/): ייעוץ, סיוע בדיור, ארוחות שבת וחג, ציוד וליווי אישי לחיילים בודדים עולים וישראלים לפני, במהלך ואחרי השירות
 - [הבסיס של מייקל לוין לחיילים בודדים ובנות שירות](https://themichaellevinbase.org/): מרכזי תמיכה, הכנה לגיוס, ייעוץ נפשי ואישי וקהילה לחיילים בודדים ולבנות שירות לאומי עולות
 - [שישי שבת ישראלי — עולים צעירים דוברי רוסית](https://shishi.co.il/): קהילה ארצית, מנהיגות צעירה, שבתות תרבות והתנדבות לשילוב עולים צעירים דוברי רוסית בחברה הישראלית
+- [מכון שכטר למדעי היהדות (Schechter Institutes)](https://schechter.ac.il/): המרכז האקדמי והרוחני המוביל של התנועה המסורתית בישראל — לימודי יהדות, הכשרת רבנים, חינוך תל״י ומחקר
+- [בינ״ה — הבית של היהדות הישראלית (BINA)](https://www.bina.org.il/): הישיבה החילונית, מכינות קדם-צבאיות, בתי מדרש פתוחים ועשייה חברתית ברוח יהדות פלורליסטית בישראל ובעולם
+- [מכון שלום הרטמן (Shalom Hartman Institute)](https://www.hartman.org.il/): מכון מחקר וחינוך פלורליסטי להגות יהודית, זהות ישראלית ודיאלוג בין ישראל ליהדות התפוצות
+- [מכון פרדס לחינוך יהודי (Pardes Institute)](https://pardes.org.il/): בית מדרש פתוח, שוויוני ורב-זרמי בירושלים ללימוד מקורות יהודיים לעולים, סטודנטים ומחנכים מרחבי העולם
 - [מוזיאון בית לוחמי הגטאות — ארכיון, חינוך והנצחת השואה](https://www.gfh.org.il/): המוזיאון הראשון בעולם להנצחת השואה והגבורה, ארכיון עדויות פתוח ומרכז חינוך הומניסטי
 - [בטרם — הארגון הלאומי לבטיחות ילדים](https://beterem.org/): מדריכים, הנחיות מניעת היפגעות בבית ובדרכים והדרכות בטיחות להורים ולאנשי מקצוע
 - [עמותת נתינה לאחר ישראל](https://netinalahaher.org.il/): התנדבות לבישול ביתי ושינוע ארוחות חמות מדי שבוע למשפחות מעוטות יכולת וקשישים ברחבי הארץ (ללא תרומות כספיות)
 - [גרעין צבר (Garin Tzabar) — תנועת הצופים](https://garintzabar.org/): תוכנית קליטה בקיבוצים ובקהילות מאמצות לצעירים עולים ובני ישראלים מחו״ל המתגייסים לצה״ל כחיילים בודדים
 - [קיפ עולים (KeepOlim)](https://keepolim.org/): סבסוד טיפול נפשי לעולים, מפגשי נטוורקינג וקהילה, סיוע בחיפוש עבודה וליווי קליטה לעולים חדשים
+- [מיזם 929 — תנ״ך ביחד](https://www.929.org.il/): קריאה יומית משותפת של פרק בתנ״ך עם פרשנויות של כותבים, חוקרים ויוצרים מכל קצוות החברה הישראלית
+- [אנו — מוזיאון העם היהודי (ANU Museum)](https://www.anumuseum.org.il/): המוזיאון הגדול בעולם המוקדש לסיפור, למורשת, לתרבות ולארכיון השמות והקהילות של העם היהודי בתפוצות ובישראל
+- [בית אבי חי (Beit Avi Chai)](https://www.bac.org.il/): מרכז תרבות, פודקאסטים, מאמרים, יצירה ישראלית-יהודית ואנימציה בירושלים וברשת
 - [קולות מישראל - Voice Of Israel](https://voicesofisrael.org/): גוף תומך בפעילויות הסברתיות פרו-ישראלית מסביב לעולם
 - [הקונסוליה הישראלית בניו יורק](https://www.onlytrueinformation.com/): 
+- [Masorti Olami — התנועה המסורתית העולמית](https://masortiolami.org/): ארגון הגג העולמי של קהילות היהדות המסורתית/קונסרבטיבית באירופה, אמריקה הלטינית, אסיה, אוסטרליה ואפריקה
+- [USCJ — התנועה הקונסרבטיבית בצפון אמריקה](https://uscj.org/): איגוד בתי הכנסת והקהילות הקונסרבטיביות (United Synagogue of Conservative Judaism) בצפון אמריקה ובקשר לישראל
+- [The Rabbinical Assembly — כנסת הרבנים (מסורתית/קונסרבטיבית)](https://www.rabbinicalassembly.org/): האיגוד הבינלאומי של רבני ורבניות התנועה הקונסרבטיבית/מסורתית — תשובות הלכתיות, מקורות תפילה ומציאת רבנים
+- [מרכז פוקסברג ירושלים (Conservative Yeshiva)](https://fuchsbergcenter.org/): הישיבה הקונסרבטיבית ובית מדרש פתוח בירושלים לישראלים, עולים ותלמידים מרחבי העולם
+- [חב״ד בעולם ובישראל (Chabad.org)](https://www.chabad.org/): איתור בתי חב״ד בכל העולם, זמני כניסת שבת וחג, לוח עברי ומדריכי יהדות בעברית, אנגלית ושפות נוספות
+- [My Jewish Learning — אנציקלופדיה פתוחה ליהדות](https://www.myjewishlearning.com/): המדריך הפתוח והמקיף באנגלית לחגי ישראל, מעגל החיים, תפילה, היסטוריה, אוכל ותרבות יהודית מכל הזרמים

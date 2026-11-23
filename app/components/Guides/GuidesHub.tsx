@@ -73,8 +73,8 @@ const GUIDES_BY_LOCALE = {
 			},
 			{
 				href: "/",
-				title: "לפורטל המלא בעברית (160+ יוזמות)",
-				sub: "Browse all 9 Israeli civic categories in Hebrew with live search",
+				title: "לפורטל המלא בעברית (185+ משאבים ויוזמות)",
+				sub: "Browse all 10 Israel & Jewish life categories in Hebrew with live search",
 			},
 		],
 	},

@@ -31,13 +31,14 @@ import {
 } from "@chakra-ui/react";
 
 const QUICK_SEARCH_TAGS = [
-	"התנדבות",
+	"עלייה",
+	"העברת כספים",
+	"יהדות",
 	"סיוע נפשי",
+	"התנדבות",
 	"זכויות",
-	"מילואים",
 	"תרומות",
-	"חקלאות",
-	"הסברה",
+	"מילואים",
 ];
 
 const INTENT_BUTTONS: Array<{
@@ -97,8 +98,8 @@ export const NoCategoryZeroState: React.FC<NoCategoryZeroStateProps> = ({
 					nihulCount,
 					citationsCount: totalMentions,
 				}}
-				title="פורטל לינק לישראל"
-				subtitle="המדריך הפתוח להתנדבות, עמותות, סיוע נפשי, זכויות אזרחים ויוזמות קהילתיות בישראל — בשגרה ובחירום."
+				title="לינק לישראל"
+				subtitle="השער הפתוח והמאומת לכל מה שחשוב בישראל ובעולם היהודי — עמותות וניהול תקין, סיוע נפשי 24/7, עלייה וקליטה, יהדות ומורשת, זכויות, התנדבות ושירותים מפוקחים."
 				actionButtons={INTENT_BUTTONS.map((btn) => (
 					<Button
 						key={btn.id}

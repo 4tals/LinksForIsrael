@@ -26,8 +26,8 @@ import {
 } from "@chakra-ui/react";
 
 const FOOTER_CONFIG = {
-	hebrewText: "הופכים עליהם, טובים אותם",
-	englishText: "Open-source civic directory for Israel",
+	hebrewText: "לינק לישראל — השער הפתוח לישראל ולעולם היהודי",
+	englishText: "Open-source portal for Israel, Aliyah & Jewish life",
 	reverseImageUrl:
 		"https://twitter.com/kann/status/1712897481837539810?t=kxXrXgX59tp1yPnrYiS4Iw&s=19",
 	reverseImageAlt: "Reverse Initiative",

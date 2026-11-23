@@ -1,0 +1,10 @@
+{
+	"name": "JudaismHeritage",
+	"displayName": "יהדות, מורשת וקהילה",
+	"description": "קהילות יהודיות בישראל ובתפוצות, התנועה המסורתית/קונסרבטיבית, ספריות מקורות (ספריא, 929), מעגל החיים ותרבות יהודית פתוחה",
+	"image": "",
+	"subCategories": [
+		"MasortiAndCommunities",
+		"TextsAndCulture"
+	]
+}

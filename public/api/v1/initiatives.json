@@ -3,8 +3,8 @@
   "source": "https://www.linksforisrael.com",
   "repository": "https://github.com/4tals/LinksForIsrael",
   "license": "Open Data / Community Maintained",
-  "generatedAt": "2026-11-23T09:30:08.248Z",
-  "count": 164,
+  "generatedAt": "2026-11-23T09:53:21.898Z",
+  "count": 187,
   "initiatives": [
     {
       "id": "Medical/Main/EzerMizion",
@@ -2269,6 +2269,157 @@
       "createdAt": "2026-11-23T11:25:00+02:00"
     },
     {
+      "id": "JudaismHeritage/MasortiAndCommunities/MasortiIsrael",
+      "name": "MasortiIsrael",
+      "displayName": "התנועה המסורתית בישראל (Masorti Movement)",
+      "categoryId": "JudaismHeritage",
+      "categoryName": "יהדות, מורשת וקהילה",
+      "subCategoryId": "MasortiAndCommunities",
+      "subCategoryName": "קהילות, התנועה המסורתית/קונסרבטיבית ומעגל החיים",
+      "shortDescription": "קהילות שוויוניות ומסורתיות ברחבי ישראל, תפילה, גיור, חתונות, בר/בת מצווה לילדים עם מוגבלויות ותנועת נוע״ם",
+      "description": "התנועה המסורתית בישראל (ע״ר 580132454) היא הזרוע הישראלית של היהדות המסורתית/קונסרבטיבית — פועלת בעשרות קהילות ובתי כנסת ברחבי הארץ ומשלבת הלכה, מסורת, שוויון, ציונות ופלורליזם ישראלי.",
+      "url": "https://www.masorti.org.il/",
+      "website": "https://www.masorti.org.il/",
+      "phone": null,
+      "email": null,
+      "intents": [
+        "get-help",
+        "volunteer",
+        "donate"
+      ],
+      "verified": true,
+      "taxDeductible46": true,
+      "properManagement": true,
+      "registrationNumber": "580132454",
+      "registryCheckedAt": "2026-11-23",
+      "organizationType": "ngo",
+      "references": [
+        {
+          "url": "https://www.guidestar.org.il/organization/580132454",
+          "type": "registry",
+          "source": "GuideStar Israel",
+          "title": "התנועה המסורתית THE MASORTI MOVEMENT (ע״ר)"
+        },
+        {
+          "url": "https://he.wikipedia.org/wiki/%D7%94%D7%AA%D7%A0%D7%95%D7%A2%D7%94_%D7%94%D7%9E%D7%A1%D7%95%D7%A8%D7%AA%D7%99%D7%AA_%D7%91%D7%99%D7%A9%D7%A8%D7%90%D7%9C",
+          "type": "registry",
+          "source": "Wikipedia",
+          "title": "התנועה המסורתית בישראל (ויקיפדיה)"
+        }
+      ],
+      "rankScore": 76,
+      "tags": [
+        "יהדות מסורתית",
+        "קונסרבטיבית",
+        "קהילות",
+        "שוויון",
+        "Masorti",
+        "Conservative Judaism"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/JudaismHeritage/MasortiAndCommunities/MasortiIsrael",
+      "createdAt": "2026-11-23T11:48:00+02:00"
+    },
+    {
+      "id": "JudaismHeritage/MasortiAndCommunities/Itim",
+      "name": "Itim",
+      "displayName": "עתים (ITIM) — ליווי וזכויות במעגל החיים היהודי",
+      "categoryId": "JudaismHeritage",
+      "categoryName": "יהדות, מורשת וקהילה",
+      "subCategoryId": "MasortiAndCommunities",
+      "subCategoryName": "קהילות, התנועה המסורתית/קונסרבטיבית ומעגל החיים",
+      "shortDescription": "ייעוץ וליווי משפטי חינם מול הממסד הדתי בישראל בנושאי נישואין, בירור יהדות לעולים, גיור, לידה וקבורה",
+      "description": "עמותת עתים (ע״ר 580394823) מסייעת לאלפי ישראלים ועולים חדשים מדי שנה לנווט במעגל החיים היהודי בישראל — כולל מרכז סיוע חינמי לבירור יהדות, רישום נישואין, גיור, קבורה וייצוג משפטי לשמירה על כבוד האדם.",
+      "url": "https://itim.org.il/",
+      "website": "https://itim.org.il/",
+      "phone": null,
+      "email": null,
+      "intents": [
+        "get-help",
+        "donate"
+      ],
+      "verified": true,
+      "taxDeductible46": true,
+      "properManagement": true,
+      "registrationNumber": "580394823",
+      "registryCheckedAt": "2026-11-23",
+      "organizationType": "ngo",
+      "references": [
+        {
+          "url": "https://www.guidestar.org.il/organization/580394823",
+          "type": "registry",
+          "source": "GuideStar Israel",
+          "title": "עתים - ייעוץ ומידע במעגל החיים היהודי (ע״ר)"
+        },
+        {
+          "url": "https://he.wikipedia.org/wiki/%D7%A2%D7%AA%D7%99%D7%9D",
+          "type": "registry",
+          "source": "Wikipedia",
+          "title": "עתים (ויקיפדיה)"
+        }
+      ],
+      "rankScore": 76,
+      "tags": [
+        "מעגל החיים",
+        "בירור יהדות",
+        "נישואין",
+        "גיור",
+        "עולים חדשים",
+        "ITIM"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/JudaismHeritage/MasortiAndCommunities/Itim",
+      "createdAt": "2026-11-23T11:48:00+02:00"
+    },
+    {
+      "id": "JudaismHeritage/MasortiAndCommunities/Tzohar",
+      "name": "Tzohar",
+      "displayName": "ארגון רבני צהר (Tzohar)",
+      "categoryId": "JudaismHeritage",
+      "categoryName": "יהדות, מורשת וקהילה",
+      "subCategoryId": "MasortiAndCommunities",
+      "subCategoryName": "קהילות, התנועה המסורתית/קונסרבטיבית ומעגל החיים",
+      "shortDescription": "גשר בין יהדות לחברה הישראלית — חתונות מסבירות פנים, כשרות, שבת, אתיקה וליווי משפחות",
+      "description": "ארגון רבני צהר (ע״ר 580302099) פועל לקירוב לבבות והנגשת שירותי יהדות מסבירי פנים לכלל הציבור הישראלי — כולל עריכת חופות בהתנדבות, פיקוח כשרות, הדרכות כלה וחתן ומיזמי תפילה בחגים.",
+      "url": "https://www.tzohar.org.il/",
+      "website": "https://www.tzohar.org.il/",
+      "phone": null,
+      "email": null,
+      "intents": [
+        "get-help",
+        "volunteer",
+        "donate"
+      ],
+      "verified": true,
+      "taxDeductible46": true,
+      "properManagement": true,
+      "registrationNumber": "580302099",
+      "registryCheckedAt": "2026-11-23",
+      "organizationType": "ngo",
+      "references": [
+        {
+          "url": "https://www.guidestar.org.il/organization/580302099",
+          "type": "registry",
+          "source": "GuideStar Israel",
+          "title": "ארגון רבני צהר (ע״ר)"
+        },
+        {
+          "url": "https://he.wikipedia.org/wiki/%D7%90%D7%A8%D7%92%D7%95%D7%9F_%D7%A8%D7%91%D7%A0%D7%99_%D7%A6%D7%94%D7%A8",
+          "type": "registry",
+          "source": "Wikipedia",
+          "title": "ארגון רבני צהר (ויקיפדיה)"
+        }
+      ],
+      "rankScore": 76,
+      "tags": [
+        "צהר",
+        "חתונות",
+        "כשרות",
+        "יהדות",
+        "Tzohar"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/JudaismHeritage/MasortiAndCommunities/Tzohar",
+      "createdAt": "2026-11-23T11:48:00+02:00"
+    },
+    {
       "id": "Agriculture/Main/LeketIsraelFarmersVolonteers",
       "name": "LeketIsraelFarmersVolonteers",
       "displayName": "לקט ישראל - מתנדבים למשקים",
@@ -2715,6 +2866,57 @@
       ],
       "portalUrl": "https://www.linksforisrael.com/GeneralAssistance/Main/KavLaOved",
       "createdAt": "2026-11-22"
+    },
+    {
+      "id": "JudaismHeritage/TextsAndCulture/Sefaria",
+      "name": "Sefaria",
+      "displayName": "ספריא (Sefaria) — הספרייה הפתוחה לארון הספרים היהודי",
+      "categoryId": "JudaismHeritage",
+      "categoryName": "יהדות, מורשת וקהילה",
+      "subCategoryId": "TextsAndCulture",
+      "subCategoryName": "ספריות יהודיות, לימוד, תרבות ומורשת",
+      "shortDescription": "הספרייה הדיגיטלית החינמית ובקוד פתוח של התנ״ך, התלמוד, המשנה, המדרש וההלכה בעברית ובאנגלית",
+      "description": "ספריא (עמותת ספריא ישראל ע״ר 580787760) היא הספרייה הדיגיטלית הפתוחה והמקיפה בעולם למקורות היהדות — תנ״ך, משנה, תלמוד בבלי וירושלמי, מדרשים, פרשנים, סידורים ודפי מקורות, חינם ובקוד פתוח.",
+      "url": "https://www.sefaria.org/",
+      "website": "https://www.sefaria.org/",
+      "phone": null,
+      "email": null,
+      "intents": [
+        "get-help",
+        "donate"
+      ],
+      "verified": true,
+      "taxDeductible46": false,
+      "properManagement": true,
+      "registrationNumber": "580787760",
+      "registryCheckedAt": "2026-11-23",
+      "organizationType": "ngo",
+      "references": [
+        {
+          "url": "https://www.guidestar.org.il/organization/580787760",
+          "type": "registry",
+          "source": "GuideStar Israel",
+          "title": "עמותת ספריא ישראל (ע״ר)"
+        },
+        {
+          "url": "https://he.wikipedia.org/wiki/%D7%A1%D7%A4%D7%A8%D7%99%D7%90",
+          "type": "registry",
+          "source": "Wikipedia",
+          "title": "ספריא (ויקיפדיה)"
+        }
+      ],
+      "rankScore": 66,
+      "tags": [
+        "ספריא",
+        "תנ״ך",
+        "תלמוד",
+        "מקורות יהודיים",
+        "קוד פתוח",
+        "Sefaria",
+        "Jewish texts"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/JudaismHeritage/TextsAndCulture/Sefaria",
+      "createdAt": "2026-11-23T11:48:00+02:00"
     },
     {
       "id": "StrategicCommunication/Info/InssWarData",
@@ -4439,6 +4641,180 @@
       "createdAt": "2026-11-23T11:25:00+02:00"
     },
     {
+      "id": "JudaismHeritage/MasortiAndCommunities/SchechterInstitute",
+      "name": "SchechterInstitute",
+      "displayName": "מכון שכטר למדעי היהדות (Schechter Institutes)",
+      "categoryId": "JudaismHeritage",
+      "categoryName": "יהדות, מורשת וקהילה",
+      "subCategoryId": "MasortiAndCommunities",
+      "subCategoryName": "קהילות, התנועה המסורתית/קונסרבטיבית ומעגל החיים",
+      "shortDescription": "המרכז האקדמי והרוחני המוביל של התנועה המסורתית בישראל — לימודי יהדות, הכשרת רבנים, חינוך תל״י ומחקר",
+      "description": "מכון שכטר למדעי היהדות בירושלים (ע״ר 580400968) משלב לימודי תואר שני במדעי היהדות, בית המדרש לרבנים של התנועה המסורתית, רשת החינוך תל״י ומרכז נווה שכטר לתרבות יהודית בתל אביב.",
+      "url": "https://schechter.ac.il/",
+      "website": "https://schechter.ac.il/",
+      "phone": null,
+      "email": null,
+      "intents": [
+        "get-help",
+        "donate"
+      ],
+      "verified": true,
+      "taxDeductible46": true,
+      "properManagement": true,
+      "registrationNumber": "580400968",
+      "registryCheckedAt": "2026-11-23",
+      "organizationType": "ngo",
+      "references": [
+        {
+          "url": "https://www.guidestar.org.il/organization/580400968",
+          "type": "registry",
+          "source": "GuideStar Israel",
+          "title": "מכון שכטר למדעי היהדות (ע״ר)"
+        }
+      ],
+      "rankScore": 63,
+      "tags": [
+        "מכון שכטר",
+        "יהדות מסורתית",
+        "מדעי היהדות",
+        "ירושלים",
+        "תל״י",
+        "Schechter"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/JudaismHeritage/MasortiAndCommunities/SchechterInstitute",
+      "createdAt": "2026-11-23T11:48:00+02:00"
+    },
+    {
+      "id": "JudaismHeritage/TextsAndCulture/BINA",
+      "name": "BINA",
+      "displayName": "בינ״ה — הבית של היהדות הישראלית (BINA)",
+      "categoryId": "JudaismHeritage",
+      "categoryName": "יהדות, מורשת וקהילה",
+      "subCategoryId": "TextsAndCulture",
+      "subCategoryName": "ספריות יהודיות, לימוד, תרבות ומורשת",
+      "shortDescription": "הישיבה החילונית, מכינות קדם-צבאיות, בתי מדרש פתוחים ועשייה חברתית ברוח יהדות פלורליסטית בישראל ובעולם",
+      "description": "עמותת בינ״ה (ע״ר 580652378) מקדמת יהדות ישראלית פתוחה ושוויונית באמצעות הישיבה החילונית בתל אביב, ירושלים ובאר שבע, תוכניות שנת שירות ומכינות, לימודי מקורות ועשייה קהילתית.",
+      "url": "https://www.bina.org.il/",
+      "website": "https://www.bina.org.il/",
+      "phone": null,
+      "email": null,
+      "intents": [
+        "get-help",
+        "volunteer",
+        "donate"
+      ],
+      "verified": true,
+      "taxDeductible46": true,
+      "properManagement": true,
+      "registrationNumber": "580652378",
+      "registryCheckedAt": "2026-11-23",
+      "organizationType": "ngo",
+      "references": [
+        {
+          "url": "https://www.guidestar.org.il/organization/580652378",
+          "type": "registry",
+          "source": "GuideStar Israel",
+          "title": "בינ״ה - הבית של היהדות הישראלית (ע״ר)"
+        }
+      ],
+      "rankScore": 63,
+      "tags": [
+        "יהדות ישראלית",
+        "הישיבה החילונית",
+        "פלורליזם",
+        "תרבות יהודית",
+        "BINA"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/JudaismHeritage/TextsAndCulture/BINA",
+      "createdAt": "2026-11-23T11:48:00+02:00"
+    },
+    {
+      "id": "JudaismHeritage/TextsAndCulture/HartmanInstitute",
+      "name": "HartmanInstitute",
+      "displayName": "מכון שלום הרטמן (Shalom Hartman Institute)",
+      "categoryId": "JudaismHeritage",
+      "categoryName": "יהדות, מורשת וקהילה",
+      "subCategoryId": "TextsAndCulture",
+      "subCategoryName": "ספריות יהודיות, לימוד, תרבות ומורשת",
+      "shortDescription": "מכון מחקר וחינוך פלורליסטי להגות יהודית, זהות ישראלית ודיאלוג בין ישראל ליהדות התפוצות",
+      "description": "מכון שלום הרטמן-ישראל (חל״צ 511021156) מוביל מחקר, פודקאסטים, מרכזי חינוך והכשרת מנהיגות ומורים בירושלים ובצפון אמריקה לקידום יהדות דמוקרטית ופלורליסטית.",
+      "url": "https://www.hartman.org.il/",
+      "website": "https://www.hartman.org.il/",
+      "phone": null,
+      "email": null,
+      "intents": [
+        "get-help",
+        "donate"
+      ],
+      "verified": true,
+      "taxDeductible46": true,
+      "properManagement": true,
+      "registrationNumber": "511021156",
+      "registryCheckedAt": "2026-11-23",
+      "organizationType": "ngo",
+      "references": [
+        {
+          "url": "https://www.guidestar.org.il/organization/511021156",
+          "type": "registry",
+          "source": "GuideStar Israel",
+          "title": "מכון שלום הרטמן-ישראל (חל״צ)"
+        }
+      ],
+      "rankScore": 63,
+      "tags": [
+        "הגות יהודית",
+        "ישראל והתפוצות",
+        "חינוך",
+        "פלורליזם",
+        "Hartman"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/JudaismHeritage/TextsAndCulture/HartmanInstitute",
+      "createdAt": "2026-11-23T11:48:00+02:00"
+    },
+    {
+      "id": "JudaismHeritage/TextsAndCulture/Pardes",
+      "name": "Pardes",
+      "displayName": "מכון פרדס לחינוך יהודי (Pardes Institute)",
+      "categoryId": "JudaismHeritage",
+      "categoryName": "יהדות, מורשת וקהילה",
+      "subCategoryId": "TextsAndCulture",
+      "subCategoryName": "ספריות יהודיות, לימוד, תרבות ומורשת",
+      "shortDescription": "בית מדרש פתוח, שוויוני ורב-זרמי בירושלים ללימוד מקורות יהודיים לעולים, סטודנטים ומחנכים מרחבי העולם",
+      "description": "מכון פרדס (ע״ר 580009330) הוא בית מדרש פתוח ובלתי-זרמי בירושלים המזמין גברים ונשים מכל רקע יהודי ללמוד תלמוד, תנ״ך, מחשבת ישראל וחינוך יהודי — בקמפוס בירושלים ובאונליין.",
+      "url": "https://pardes.org.il/",
+      "website": "https://pardes.org.il/",
+      "phone": null,
+      "email": null,
+      "intents": [
+        "get-help",
+        "donate"
+      ],
+      "verified": true,
+      "taxDeductible46": true,
+      "properManagement": true,
+      "registrationNumber": "580009330",
+      "registryCheckedAt": "2026-11-23",
+      "organizationType": "ngo",
+      "references": [
+        {
+          "url": "https://www.guidestar.org.il/organization/580009330",
+          "type": "registry",
+          "source": "GuideStar Israel",
+          "title": "מכון פרדס לחינוך יהודי (ע״ר)"
+        }
+      ],
+      "rankScore": 63,
+      "tags": [
+        "בית מדרש",
+        "לימוד יהדות",
+        "ירושלים",
+        "Pardes",
+        "Jewish learning"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/JudaismHeritage/TextsAndCulture/Pardes",
+      "createdAt": "2026-11-23T11:48:00+02:00"
+    },
+    {
       "id": "MemorialRemembrance/Main/GhettoFightersHouse",
       "name": "GhettoFightersHouse",
       "displayName": "מוזיאון בית לוחמי הגטאות — ארכיון, חינוך והנצחת השואה",
@@ -4658,6 +5034,132 @@
       "createdAt": "2026-11-23T11:25:00+02:00"
     },
     {
+      "id": "JudaismHeritage/TextsAndCulture/Project929",
+      "name": "Project929",
+      "displayName": "מיזם 929 — תנ״ך ביחד",
+      "categoryId": "JudaismHeritage",
+      "categoryName": "יהדות, מורשת וקהילה",
+      "subCategoryId": "TextsAndCulture",
+      "subCategoryName": "ספריות יהודיות, לימוד, תרבות ומורשת",
+      "shortDescription": "קריאה יומית משותפת של פרק בתנ״ך עם פרשנויות של כותבים, חוקרים ויוצרים מכל קצוות החברה הישראלית",
+      "description": "מיזם 929 מזמין ישראלים ויהודים בעולם לקרוא יחד פרק אחד בתנ״ך בכל יום — מלווה במאמרים, האזנה, אמנות ונקודות מבט חילוניות, מסורתיות ודתיות.",
+      "url": "https://www.929.org.il/",
+      "website": "https://www.929.org.il/",
+      "phone": null,
+      "email": null,
+      "intents": [
+        "get-help"
+      ],
+      "verified": true,
+      "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
+      "organizationType": "ngo",
+      "references": [
+        {
+          "url": "https://he.wikipedia.org/wiki/929_-_%D7%AA%D7%A0%22%D7%9A_%D7%91%D7%99%D7%97%D7%93",
+          "type": "registry",
+          "source": "Wikipedia",
+          "title": "929 – תנ״ך ביחד (ויקיפדיה)"
+        }
+      ],
+      "rankScore": 53,
+      "tags": [
+        "929",
+        "תנ״ך",
+        "תרבות יהודית",
+        "לימוד יומי"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/JudaismHeritage/TextsAndCulture/Project929",
+      "createdAt": "2026-11-23T11:48:00+02:00"
+    },
+    {
+      "id": "JudaismHeritage/TextsAndCulture/ANUMuseum",
+      "name": "ANUMuseum",
+      "displayName": "אנו — מוזיאון העם היהודי (ANU Museum)",
+      "categoryId": "JudaismHeritage",
+      "categoryName": "יהדות, מורשת וקהילה",
+      "subCategoryId": "TextsAndCulture",
+      "subCategoryName": "ספריות יהודיות, לימוד, תרבות ומורשת",
+      "shortDescription": "המוזיאון הגדול בעולם המוקדש לסיפור, למורשת, לתרבות ולארכיון השמות והקהילות של העם היהודי בתפוצות ובישראל",
+      "description": "אנו — מוזיאון העם היהודי בתל אביב (לשעבר בית התפוצות) מציג את הסיפור הרחב והמגוון של הקהילות היהודיות מכל הדורות והיבשות, ומפעיל מאגר דיגיטלי פתוח של שמות משפחה, קהילות ותצלומים.",
+      "url": "https://www.anumuseum.org.il/",
+      "website": "https://www.anumuseum.org.il/",
+      "phone": null,
+      "email": null,
+      "intents": [
+        "get-help",
+        "donate"
+      ],
+      "verified": true,
+      "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
+      "organizationType": "ngo",
+      "references": [
+        {
+          "url": "https://he.wikipedia.org/wiki/%D7%90%D7%A0%D7%95_-_%D7%9E%D7%95%D7%96%D7%99%D7%90%D7%95%D7%9F_%D7%94%D7%A2%D7%9D_%D7%94%D7%99%D7%94%D7%95%D7%93%D7%99",
+          "type": "registry",
+          "source": "Wikipedia",
+          "title": "אנו – מוזיאון העם היהודי (ויקיפדיה)"
+        }
+      ],
+      "rankScore": 53,
+      "tags": [
+        "מוזיאון העם היהודי",
+        "תפוצות",
+        "מורשת יהודית",
+        "שורשים",
+        "ANU Museum"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/JudaismHeritage/TextsAndCulture/ANUMuseum",
+      "createdAt": "2026-11-23T11:48:00+02:00"
+    },
+    {
+      "id": "JudaismHeritage/TextsAndCulture/BeitAviChai",
+      "name": "BeitAviChai",
+      "displayName": "בית אבי חי (Beit Avi Chai)",
+      "categoryId": "JudaismHeritage",
+      "categoryName": "יהדות, מורשת וקהילה",
+      "subCategoryId": "TextsAndCulture",
+      "subCategoryName": "ספריות יהודיות, לימוד, תרבות ומורשת",
+      "shortDescription": "מרכז תרבות, פודקאסטים, מאמרים, יצירה ישראלית-יהודית ואנימציה בירושלים וברשת",
+      "description": "בית אבי חי (ע״ר 580465011) הוא מרכז תרבות ויצירה בירושלים וברשת העוסק בדיאלוג פתוח ומעמיק בין יהדות, תרבות ישראלית, ספרות, מוזיקה והגות לכל הגילאים.",
+      "url": "https://www.bac.org.il/",
+      "website": "https://www.bac.org.il/",
+      "phone": null,
+      "email": null,
+      "intents": [
+        "get-help"
+      ],
+      "verified": true,
+      "taxDeductible46": false,
+      "properManagement": true,
+      "registrationNumber": "580465011",
+      "registryCheckedAt": "2026-11-23",
+      "organizationType": "ngo",
+      "references": [
+        {
+          "url": "https://www.guidestar.org.il/organization/580465011",
+          "type": "registry",
+          "source": "GuideStar Israel",
+          "title": "בית אבי חי (ע״ר)"
+        }
+      ],
+      "rankScore": 53,
+      "tags": [
+        "בית אבי חי",
+        "תרבות יהודית",
+        "פודקאסטים",
+        "ירושלים",
+        "Beit Avi Chai"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/JudaismHeritage/TextsAndCulture/BeitAviChai",
+      "createdAt": "2026-11-23T11:48:00+02:00"
+    },
+    {
       "id": "StrategicCommunication/Main/voicesOfIsrael",
       "name": "voicesOfIsrael",
       "displayName": "קולות מישראל - Voice Of Israel",
@@ -4775,6 +5277,223 @@
       "tags": [],
       "portalUrl": "https://www.linksforisrael.com/FamilyAndPets/ChildrenContent/BrainPop",
       "createdAt": "2023-10-08T18:03:26+03:00"
+    },
+    {
+      "id": "JudaismHeritage/MasortiAndCommunities/MasortiOlami",
+      "name": "MasortiOlami",
+      "displayName": "Masorti Olami — התנועה המסורתית העולמית",
+      "categoryId": "JudaismHeritage",
+      "categoryName": "יהדות, מורשת וקהילה",
+      "subCategoryId": "MasortiAndCommunities",
+      "subCategoryName": "קהילות, התנועה המסורתית/קונסרבטיבית ומעגל החיים",
+      "shortDescription": "ארגון הגג העולמי של קהילות היהדות המסורתית/קונסרבטיבית באירופה, אמריקה הלטינית, אסיה, אוסטרליה ואפריקה",
+      "description": "Masorti Olami מחבר ותומך ברשת העולמית של קהילות, בתי כנסת, תנועות נוער (NOAM) ורבנים מסורתיים/קונסרבטיביים מחוץ לצפון אמריקה — ומחזק את הקשר ההדוק בין יהדות התפוצות לישראל.",
+      "url": "https://masortiolami.org/",
+      "website": "https://masortiolami.org/",
+      "phone": null,
+      "email": null,
+      "intents": [
+        "get-help",
+        "donate"
+      ],
+      "verified": true,
+      "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
+      "organizationType": "ngo",
+      "references": [],
+      "rankScore": 39,
+      "tags": [
+        "יהדות מסורתית",
+        "תפוצות",
+        "קונסרבטיבית",
+        "קהילות בעולם",
+        "Masorti Olami"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/JudaismHeritage/MasortiAndCommunities/MasortiOlami",
+      "createdAt": "2026-11-23T11:48:00+02:00"
+    },
+    {
+      "id": "JudaismHeritage/MasortiAndCommunities/USCJ",
+      "name": "USCJ",
+      "displayName": "USCJ — התנועה הקונסרבטיבית בצפון אמריקה",
+      "categoryId": "JudaismHeritage",
+      "categoryName": "יהדות, מורשת וקהילה",
+      "subCategoryId": "MasortiAndCommunities",
+      "subCategoryName": "קהילות, התנועה המסורתית/קונסרבטיבית ומעגל החיים",
+      "shortDescription": "איגוד בתי הכנסת והקהילות הקונסרבטיביות (United Synagogue of Conservative Judaism) בצפון אמריקה ובקשר לישראל",
+      "description": "USCJ הוא ארגון הגג של מאות קהילות ובתי כנסת קונסרבטיביים בארה״ב ובקנדה, המפעיל תוכניות קהילה, נוער (USY), לימודי יהדות וחיבור חי ופעיל עם מדינת ישראל.",
+      "url": "https://uscj.org/",
+      "website": "https://uscj.org/",
+      "phone": null,
+      "email": null,
+      "intents": [
+        "get-help",
+        "donate"
+      ],
+      "verified": true,
+      "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
+      "organizationType": "ngo",
+      "references": [],
+      "rankScore": 39,
+      "tags": [
+        "קונסרבטיבית",
+        "צפון אמריקה",
+        "בתי כנסת",
+        "קהילות",
+        "USCJ",
+        "Conservative Judaism"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/JudaismHeritage/MasortiAndCommunities/USCJ",
+      "createdAt": "2026-11-23T11:48:00+02:00"
+    },
+    {
+      "id": "JudaismHeritage/MasortiAndCommunities/RabbinicalAssembly",
+      "name": "RabbinicalAssembly",
+      "displayName": "The Rabbinical Assembly — כנסת הרבנים (מסורתית/קונסרבטיבית)",
+      "categoryId": "JudaismHeritage",
+      "categoryName": "יהדות, מורשת וקהילה",
+      "subCategoryId": "MasortiAndCommunities",
+      "subCategoryName": "קהילות, התנועה המסורתית/קונסרבטיבית ומעגל החיים",
+      "shortDescription": "האיגוד הבינלאומי של רבני ורבניות התנועה הקונסרבטיבית/מסורתית — תשובות הלכתיות, מקורות תפילה ומציאת רבנים",
+      "description": "כנסת הרבנים (The Rabbinical Assembly) היא הארגון הבינלאומי של רבני ורבניות היהדות הקונסרבטיבית והמסורתית ברחבי העולם, המפרסמת תשובות הלכתיות (CJLS), סידורים, מדריכי חגים ומעגל חיים.",
+      "url": "https://www.rabbinicalassembly.org/",
+      "website": "https://www.rabbinicalassembly.org/",
+      "phone": null,
+      "email": null,
+      "intents": [
+        "get-help"
+      ],
+      "verified": true,
+      "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
+      "organizationType": "ngo",
+      "references": [],
+      "rankScore": 39,
+      "tags": [
+        "הלכה",
+        "קונסרבטיבית",
+        "מסורתית",
+        "רבנים",
+        "Rabbinical Assembly"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/JudaismHeritage/MasortiAndCommunities/RabbinicalAssembly",
+      "createdAt": "2026-11-23T11:48:00+02:00"
+    },
+    {
+      "id": "JudaismHeritage/MasortiAndCommunities/FuchsbergCenter",
+      "name": "FuchsbergCenter",
+      "displayName": "מרכז פוקסברג ירושלים (Conservative Yeshiva)",
+      "categoryId": "JudaismHeritage",
+      "categoryName": "יהדות, מורשת וקהילה",
+      "subCategoryId": "MasortiAndCommunities",
+      "subCategoryName": "קהילות, התנועה המסורתית/קונסרבטיבית ומעגל החיים",
+      "shortDescription": "הישיבה הקונסרבטיבית ובית מדרש פתוח בירושלים לישראלים, עולים ותלמידים מרחבי העולם",
+      "description": "מרכז פוקסברג ירושלים (The Fuchsberg Jerusalem Center) מפעיל את הישיבה הקונסרבטיבית, תוכניות לימוד מקורות בעברית ובאנגלית, קהילת בית כנסת שוויונית ופעילות תרבות ואירוח לישראלים ולמבקרים מחו״ל.",
+      "url": "https://fuchsbergcenter.org/",
+      "website": "https://fuchsbergcenter.org/",
+      "phone": null,
+      "email": null,
+      "intents": [
+        "get-help",
+        "donate"
+      ],
+      "verified": true,
+      "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
+      "organizationType": "ngo",
+      "references": [],
+      "rankScore": 39,
+      "tags": [
+        "ירושלים",
+        "קונסרבטיבית",
+        "בית מדרש",
+        "לימוד יהדות",
+        "Conservative Yeshiva",
+        "Fuchsberg"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/JudaismHeritage/MasortiAndCommunities/FuchsbergCenter",
+      "createdAt": "2026-11-23T11:48:00+02:00"
+    },
+    {
+      "id": "JudaismHeritage/MasortiAndCommunities/Chabad",
+      "name": "Chabad",
+      "displayName": "חב״ד בעולם ובישראל (Chabad.org)",
+      "categoryId": "JudaismHeritage",
+      "categoryName": "יהדות, מורשת וקהילה",
+      "subCategoryId": "MasortiAndCommunities",
+      "subCategoryName": "קהילות, התנועה המסורתית/קונסרבטיבית ומעגל החיים",
+      "shortDescription": "איתור בתי חב״ד בכל העולם, זמני כניסת שבת וחג, לוח עברי ומדריכי יהדות בעברית, אנגלית ושפות נוספות",
+      "description": "Chabad.org הוא אחד ממאגרי היהדות הגדולים ברשת, הכולל מאתר עולמי לבתי חב״ד למטיילים וליהודים בתפוצות, זמני הדלקת נרות שבת וחג לפי מיקום, מדריכי חגים ומקורות יהדות.",
+      "url": "https://www.chabad.org/",
+      "website": "https://www.chabad.org/",
+      "phone": null,
+      "email": null,
+      "intents": [
+        "get-help"
+      ],
+      "verified": true,
+      "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
+      "organizationType": "ngo",
+      "references": [],
+      "rankScore": 39,
+      "tags": [
+        "חב״ד",
+        "בתי חב״ד",
+        "כניסת שבת",
+        "חגים",
+        "יהדות בעולם",
+        "Chabad"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/JudaismHeritage/MasortiAndCommunities/Chabad",
+      "createdAt": "2026-11-23T11:48:00+02:00"
+    },
+    {
+      "id": "JudaismHeritage/TextsAndCulture/MyJewishLearning",
+      "name": "MyJewishLearning",
+      "displayName": "My Jewish Learning — אנציקלופדיה פתוחה ליהדות",
+      "categoryId": "JudaismHeritage",
+      "categoryName": "יהדות, מורשת וקהילה",
+      "subCategoryId": "TextsAndCulture",
+      "subCategoryName": "ספריות יהודיות, לימוד, תרבות ומורשת",
+      "shortDescription": "המדריך הפתוח והמקיף באנגלית לחגי ישראל, מעגל החיים, תפילה, היסטוריה, אוכל ותרבות יהודית מכל הזרמים",
+      "description": "My Jewish Learning הוא פורטל חינוכי עצמאי ופלורליסטי המנגיש בשפה ברורה ומזמינה את כל תחומי החיים היהודיים — חגים, שבת, היסטוריה, מחשבת ישראל ומנהגים בקהילות ישראל והתפוצות.",
+      "url": "https://www.myjewishlearning.com/",
+      "website": "https://www.myjewishlearning.com/",
+      "phone": null,
+      "email": null,
+      "intents": [
+        "get-help"
+      ],
+      "verified": true,
+      "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
+      "organizationType": "ngo",
+      "references": [],
+      "rankScore": 39,
+      "tags": [
+        "יהדות",
+        "חגים",
+        "לימוד יהדות",
+        "אנגלית",
+        "My Jewish Learning",
+        "Judaism"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/JudaismHeritage/TextsAndCulture/MyJewishLearning",
+      "createdAt": "2026-11-23T11:48:00+02:00"
     },
     {
       "id": "Medical/Main/IronDoctors",
@@ -6398,6 +7117,220 @@
       ],
       "portalUrl": "https://www.linksforisrael.com/Olim/CareerAndLoneSoldiers/GetHelpIsrael",
       "createdAt": "2026-11-23T11:25:00+02:00"
+    },
+    {
+      "id": "Olim/MoneyTransfers/Adesco",
+      "name": "Adesco",
+      "displayName": "Adesco — העברת כספים והמרת מט״ח לישראל",
+      "categoryId": "Olim",
+      "categoryName": "עלייה וקליטה",
+      "subCategoryId": "MoneyTransfers",
+      "subCategoryName": "העברת כספים ובנקאות לישראל (שירותים מפוקחים)",
+      "shortDescription": "חברת תשלומים ישראלית מפוקחת (רשות ניירות ערך) להעברת כספים מחו״ל לישראל, קליטת עולים ותשלומי נדל״ן (שוברים, מס רכישה וחשבונות נאמנות)",
+      "description": "Adesco (Adesco Bridge Ltd.) היא חברת תשלומים מסחרית הפועלת ברישיון רשות ניירות ערך (ISA) ומתמחה בהעברות בינלאומיות והמרת מט״ח (USD, EUR, GBP, CAD, AUD, CHF לשקלים) עבור עולים חדשים, תושבי חוץ ורוכשי דירות בישראל — כולל תשלומים ישירים לחשבונות נאמנות, שוברי קבלן ומס רכישה, ללא עמלות בנק נסתרות ובעיבוד מהיר. (שירות מסחרי מפוקח — אינו עמותה).",
+      "url": "https://www.adesco.co.il/",
+      "website": "https://www.adesco.co.il/",
+      "phone": null,
+      "email": null,
+      "intents": [
+        "get-help"
+      ],
+      "verified": false,
+      "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
+      "organizationType": "licensed",
+      "references": [],
+      "rankScore": 4,
+      "tags": [
+        "העברת כספים",
+        "מט״ח",
+        "עולים חדשים",
+        "נדל״ן בישראל",
+        "שוברים",
+        "Adesco",
+        "money transfer",
+        "FX"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/Olim/MoneyTransfers/Adesco",
+      "createdAt": "2026-11-23T11:48:00+02:00"
+    },
+    {
+      "id": "Olim/MoneyTransfers/IsraTransfer",
+      "name": "IsraTransfer",
+      "displayName": "IsraTransfer — המרת מט״ח והעברות לישראל",
+      "categoryId": "Olim",
+      "categoryName": "עלייה וקליטה",
+      "subCategoryId": "MoneyTransfers",
+      "subCategoryName": "העברת כספים ובנקאות לישראל (שירותים מפוקחים)",
+      "shortDescription": "חברת העברת כספים והמרת מט״ח ותיקה המשרתת עולים חדשים ורוכשי נדל״ן בישראל מאז 2008",
+      "description": "IsraTransfer היא חברה מסחרית מפוקחת המתמחה בהעברות כספים מחו״ל לישראל ומישראל לחו״ל במטבעות מרכזיים עבור עולים חדשים, משפחות ורוכשי נדל״ן, עם ליווי אישי ותשלום לחשבונות נאמנות. (שירות מסחרי מפוקח — אינו עמותה).",
+      "url": "https://isratransfer.com/",
+      "website": "https://isratransfer.com/",
+      "phone": null,
+      "email": null,
+      "intents": [
+        "get-help"
+      ],
+      "verified": false,
+      "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
+      "organizationType": "licensed",
+      "references": [],
+      "rankScore": 4,
+      "tags": [
+        "העברת כספים",
+        "מט״ח",
+        "עולים חדשים",
+        "IsraTransfer",
+        "money transfer"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/Olim/MoneyTransfers/IsraTransfer",
+      "createdAt": "2026-11-23T11:48:00+02:00"
+    },
+    {
+      "id": "Olim/MoneyTransfers/Wise",
+      "name": "Wise",
+      "displayName": "Wise — העברות בינלאומיות וחשבון רב-מטבעי",
+      "categoryId": "Olim",
+      "categoryName": "עלייה וקליטה",
+      "subCategoryId": "MoneyTransfers",
+      "subCategoryName": "העברת כספים ובנקאות לישראל (שירותים מפוקחים)",
+      "shortDescription": "פלטפורמה בינלאומית מפוקחת להעברות כספים שקופות לשקל (ILS) וניהול חשבון רב-מטבעי לעולים ולעובדים מרחוק",
+      "description": "Wise היא פלטפורמת תשלומים בינלאומית מפוקחת (FCA / FinCEN) המאפשרת העברות כספים ישירות לחשבונות בנק בישראל בשער היציג ועמלה שקופה, וכן אחזקת חשבון רב-מטבעי לעולים ולעובדים מרחוק. (שירות מסחרי מפוקח — אינו עמותה).",
+      "url": "https://wise.com/",
+      "website": "https://wise.com/",
+      "phone": null,
+      "email": null,
+      "intents": [
+        "get-help"
+      ],
+      "verified": false,
+      "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
+      "organizationType": "licensed",
+      "references": [],
+      "rankScore": 4,
+      "tags": [
+        "העברת כספים",
+        "מט״ח",
+        "חשבון רב מטבעי",
+        "Wise",
+        "money transfer"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/Olim/MoneyTransfers/Wise",
+      "createdAt": "2026-11-23T11:48:00+02:00"
+    },
+    {
+      "id": "Olim/MoneyTransfers/Covercy",
+      "name": "Covercy",
+      "displayName": "Covercy — העברות בינלאומיות ותשלומי נדל״ן",
+      "categoryId": "Olim",
+      "categoryName": "עלייה וקליטה",
+      "subCategoryId": "MoneyTransfers",
+      "subCategoryName": "העברת כספים ובנקאות לישראל (שירותים מפוקחים)",
+      "shortDescription": "פלטפורמת פינטק ישראלית מפוקחת להעברות מט״ח בינלאומיות, משקיעים ורוכשי נכסים",
+      "description": "Covercy היא חברת פינטק ישראלית מפוקחת המספקת שירותי המרת מט״ח והעברות כספים בינלאומיות ללקוחות פרטיים, עסקים ומשקיעי נדל״ן. (שירות מסחרי מפוקח — אינו עמותה).",
+      "url": "https://www.covercy.com/",
+      "website": "https://www.covercy.com/",
+      "phone": null,
+      "email": null,
+      "intents": [
+        "get-help"
+      ],
+      "verified": false,
+      "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
+      "organizationType": "licensed",
+      "references": [],
+      "rankScore": 4,
+      "tags": [
+        "העברת כספים",
+        "פינטק",
+        "מט״ח",
+        "Covercy",
+        "money transfer"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/Olim/MoneyTransfers/Covercy",
+      "createdAt": "2026-11-23T11:48:00+02:00"
+    },
+    {
+      "id": "Olim/MoneyTransfers/Payoneer",
+      "name": "Payoneer",
+      "displayName": "Payoneer — קבלת תשלומים מחו״ל לפרילנסרים ועסקים",
+      "categoryId": "Olim",
+      "categoryName": "עלייה וקליטה",
+      "subCategoryId": "MoneyTransfers",
+      "subCategoryName": "העברת כספים ובנקאות לישראל (שירותים מפוקחים)",
+      "shortDescription": "פלטפורמת תשלומים בינלאומית שנוסדה בישראל לקבלת הכנסות מחו״ל במט״ח ומשיכה לבנק ישראלי",
+      "description": "Payoneer היא חברת תשלומים גלובלית ציבורית (נסחרת בנאסד״ק, נוסדה בישראל) המאפשרת לעולים, פרילנסרים ועסקים ישראליים לקבל תשלומים מלקוחות בחו״ל במטבע מקומי ולמשוך לחשבון הבנק בישראל. (שירות מסחרי מפוקח — אינו עמותה).",
+      "url": "https://www.payoneer.com/",
+      "website": "https://www.payoneer.com/",
+      "phone": null,
+      "email": null,
+      "intents": [
+        "get-help"
+      ],
+      "verified": false,
+      "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
+      "organizationType": "licensed",
+      "references": [],
+      "rankScore": 4,
+      "tags": [
+        "העברת כספים",
+        "פרילנסרים",
+        "עבודה מרחוק",
+        "Payoneer",
+        "payments"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/Olim/MoneyTransfers/Payoneer",
+      "createdAt": "2026-11-23T11:48:00+02:00"
+    },
+    {
+      "id": "JudaismHeritage/TextsAndCulture/Hebcal",
+      "name": "Hebcal",
+      "displayName": "Hebcal — לוח שנה עברי פתוח וזמני שבת",
+      "categoryId": "JudaismHeritage",
+      "categoryName": "יהדות, מורשת וקהילה",
+      "subCategoryId": "TextsAndCulture",
+      "subCategoryName": "ספריות יהודיות, לימוד, תרבות ומורשת",
+      "shortDescription": "לוח שנה עברי חינמי ובקוד פתוח — המרת תאריכים, זמני כניסת שבת וחגים, פרשת השבוע והטמעה ביומן",
+      "description": "Hebcal הוא כלי קוד-פתוח חינמי ופופולרי להמרת תאריכים עבריים-לועזיים, חישוב זמני הדלקת נרות שבת וחג בכל עיר בישראל ובעולם, פרשת השבוע וייצוא לוח חגים ל-Google Calendar ו-Apple Calendar.",
+      "url": "https://www.hebcal.com/",
+      "website": "https://www.hebcal.com/",
+      "phone": null,
+      "email": null,
+      "intents": [
+        "get-help"
+      ],
+      "verified": false,
+      "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
+      "organizationType": "community",
+      "references": [],
+      "rankScore": 4,
+      "tags": [
+        "לוח עברי",
+        "זמני שבת",
+        "חגים",
+        "פרשת השבוע",
+        "קוד פתוח",
+        "Hebcal"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/JudaismHeritage/TextsAndCulture/Hebcal",
+      "createdAt": "2026-11-23T11:48:00+02:00"
     },
     {
       "id": "Agriculture/Main/FarmingIsrael",

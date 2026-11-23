@@ -1,10 +1,11 @@
 {
 	"name": "Olim",
 	"displayName": "עלייה וקליטה",
-	"description": "גופי עלייה וקליטה רשמיים, זכויות עולים חדשים, אולפן, תעסוקה, חיילים בודדים וקהילות עולים",
+	"description": "גופי עלייה וקליטה רשמיים, זכויות עולים חדשים, אולפן, תעסוקה, חיילים בודדים, בנקאות והעברת כספים לישראל",
 	"image": "",
 	"subCategories": [
 		"Main",
-		"CareerAndLoneSoldiers"
+		"CareerAndLoneSoldiers",
+		"MoneyTransfers"
 	]
 }

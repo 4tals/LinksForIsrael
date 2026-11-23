@@ -5,7 +5,7 @@ import path from "node:path";
 
 const REPO_ROOT = process.cwd();
 const VALID_INTENTS = new Set(["get-help", "volunteer", "donate"]);
-const VALID_ORG_TYPES = new Set(["ngo", "official", "community"]);
+const VALID_ORG_TYPES = new Set(["ngo", "official", "community", "licensed"]);
 const VALID_REF_TYPES = new Set([
 	"official",
 	"registry",

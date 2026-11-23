@@ -30,6 +30,12 @@
 /olim /Olim 301
 /aliyah /Olim 301
 /Aliyah /Olim 301
+/transfers /Olim/MoneyTransfers 301
+/judaism /JudaismHeritage 301
+/Judaism /JudaismHeritage 301
+/masorti /JudaismHeritage 301
+/conservative /JudaismHeritage 301
+/heritage /JudaismHeritage 301
 /GeneralAssistance/Main/NefeshBNefesh /Olim/Main/NefeshBNefesh 301
 /EN /en 301
 /ar /en 301

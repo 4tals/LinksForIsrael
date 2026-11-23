@@ -15,16 +15,16 @@ const FONT_REGULAR = "/System/Library/Fonts/Supplemental/Arial.ttf";
 const CARDS = [
 	{
 		file: "home.png",
-		badge: "LINKS FOR ISRAEL · OPEN CIVIC DIRECTORY",
+		badge: "LINKS FOR ISRAEL · OPEN PORTAL",
 		title: "Links For Israel",
-		subtitle: "160+ Verified Israeli Nonprofits, Aliyah, Mental Health & 24/7 Hotlines",
+		subtitle: "185+ Trusted Resources for Israel, Aliyah, Jewish Life & Verified Charities",
 		accent: "#0038b8",
 	},
 	{
 		file: "en.png",
-		badge: "ENGLISH DIASPORA PORTAL",
-		title: "Support, Volunteer & Donate",
-		subtitle: "MOJ-Verified Israeli Charities · Aliyah & Olim · Section 46 & 501(c)(3)",
+		badge: "ENGLISH PORTAL · ISRAEL & JEWISH LIFE",
+		title: "Links For Israel",
+		subtitle: "Verified Charities (§46 & 501c3) · Aliyah & Transfers · Masorti & Jewish Life",
 		accent: "#0f4c81",
 	},
 	{
@@ -71,10 +71,17 @@ const CARDS = [
 	},
 	{
 		file: "Olim.png",
-		badge: "ALIYAH & NEW OLIM",
-		title: "Aliyah, Absorption & Olim",
-		subtitle: "MOIA *2994 · Jewish Agency · Nefesh B'Nefesh · Gvahim · Lone Soldiers",
+		badge: "ALIYAH, OLIM & TRANSFERS",
+		title: "Aliyah, Olim & Money Transfers",
+		subtitle: "MOIA *2994 · Jewish Agency · Nefesh B'Nefesh · Lone Soldiers · Licensed FX",
 		accent: "#1e40af",
+	},
+	{
+		file: "JudaismHeritage.png",
+		badge: "JUDAISM, MASORTI & HERITAGE",
+		title: "Judaism & Jewish Heritage",
+		subtitle: "Masorti/Conservative (Israel & Abroad) · Sefaria · ITIM · Tzohar · ANU · Hebcal",
+		accent: "#5b21b6",
 	},
 	{
 		file: "Agriculture.png",

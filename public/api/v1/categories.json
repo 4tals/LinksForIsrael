@@ -1,8 +1,8 @@
 {
   "version": "1.0",
   "source": "https://www.linksforisrael.com",
-  "generatedAt": "2026-11-23T09:30:08.248Z",
-  "count": 9,
+  "generatedAt": "2026-11-23T09:53:21.898Z",
+  "count": 10,
   "categories": [
     {
       "id": "Medical",
@@ -97,8 +97,8 @@
     {
       "id": "Olim",
       "displayName": "עלייה וקליטה",
-      "description": "גופי עלייה וקליטה רשמיים, זכויות עולים חדשים, אולפן, תעסוקה, חיילים בודדים וקהילות עולים",
-      "count": 18,
+      "description": "גופי עלייה וקליטה רשמיים, זכויות עולים חדשים, אולפן, תעסוקה, חיילים בודדים, בנקאות והעברת כספים לישראל",
+      "count": 23,
       "portalUrl": "https://www.linksforisrael.com/Olim",
       "subCategories": [
         {
@@ -110,6 +110,30 @@
           "id": "CareerAndLoneSoldiers",
           "displayName": "תעסוקה, חיילים בודדים וקהילה",
           "count": 7
+        },
+        {
+          "id": "MoneyTransfers",
+          "displayName": "העברת כספים ובנקאות לישראל (שירותים מפוקחים)",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "JudaismHeritage",
+      "displayName": "יהדות, מורשת וקהילה",
+      "description": "קהילות יהודיות בישראל ובתפוצות, התנועה המסורתית/קונסרבטיבית, ספריות מקורות (ספריא, 929), מעגל החיים ותרבות יהודית פתוחה",
+      "count": 18,
+      "portalUrl": "https://www.linksforisrael.com/JudaismHeritage",
+      "subCategories": [
+        {
+          "id": "MasortiAndCommunities",
+          "displayName": "קהילות, התנועה המסורתית/קונסרבטיבית ומעגל החיים",
+          "count": 9
+        },
+        {
+          "id": "TextsAndCulture",
+          "displayName": "ספריות יהודיות, לימוד, תרבות ומורשת",
+          "count": 9
         }
       ]
     },

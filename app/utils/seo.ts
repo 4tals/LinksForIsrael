@@ -4,9 +4,9 @@ import { socialLinks } from "./consts";
 export const SITE_URL = "https://www.linksforisrael.com";
 export const SITE_NAME = "לינק לישראל";
 export const DEFAULT_TITLE =
-	"לינק לישראל – הפורטל הפתוח להתנדבות, סיוע ויוזמות בישראל";
+	"לינק לישראל – השער הפתוח לכל מה שחשוב בישראל ובעולם היהודי";
 export const DEFAULT_DESCRIPTION =
-	"מחפשים איך לעזור או צריכים סיוע ומידע? פורטל לינק לישראל מרכז במקום אחד עמותות, התנדבות, מוקדי סיוע נפשי, זכויות אזרחים, חקלאות ישראלית ויוזמות קהילתיות — בשגרה ובחירום.";
+	"השער הפתוח והמאומת לכל מה שחשוב בישראל ובעולם היהודי — עמותות מאומתות וניהול תקין, סיוע נפשי 24/7, עלייה וקליטה, יהדות ומורשת (בישראל ובתפוצות), זכויות אזרחים, התנדבות ושירותים מפוקחים.";
 export const DEFAULT_OG_IMAGE = `${SITE_URL}/og/home.png`;
 
 export function getCategoryOgImage(categoryId?: string): string {
@@ -55,7 +55,9 @@ function buildNgoEntity(link: InitiativeLink, portalUrl: string) {
 			? ["NGO", "Organization"]
 			: link.organizationType === "official"
 				? ["GovernmentOrganization", "Organization"]
-				: "Organization";
+				: link.organizationType === "licensed"
+					? ["FinancialService", "Organization"]
+					: "Organization";
 
 	return {
 		"@type": entityType,

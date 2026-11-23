@@ -201,7 +201,41 @@ export const ShowMoreModal: React.FC<ShowMoreModalProps> = ({
 					onNavigate={() => setOpenDialog(false)}
 				/>
 
-				{link.verified && (
+				{link.organizationType === "licensed" && (
+					<Flex
+						align="center"
+						justify="space-between"
+						wrap="wrap"
+						gap={2}
+						bg="blue.50"
+						borderWidth="1px"
+						borderColor="blue.200"
+						borderRadius="lg"
+						px={3.5}
+						py={2.5}
+					>
+						<Flex align="center" gap={2} wrap="wrap">
+							<Text fontSize="xs" fontWeight="bold" color="blue.900">
+								{isRtl
+									? "שירות מסחרי מפוקח (אינו עמותה)"
+									: "Regulated Commercial Service (Not a Nonprofit)"}
+							</Text>
+							{link.regulator && (
+								<Badge
+									colorScheme="blue"
+									variant="subtle"
+									fontSize="2xs"
+									borderRadius="full"
+									px={2}
+								>
+									{link.regulator}
+								</Badge>
+							)}
+						</Flex>
+					</Flex>
+				)}
+
+				{link.verified && link.organizationType !== "licensed" && (
 					<Flex
 						align="center"
 						justify="space-between"

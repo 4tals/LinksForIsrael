@@ -3,13 +3,12 @@
 import NextLink from "next/link";
 import React from "react";
 import {
-	FaBalanceScale,
 	FaHandHoldingHeart,
 	FaHandsHelping,
 	FaHeart,
 	FaPlaneArrival,
-	FaSeedling,
 	FaShieldAlt,
+	FaStarOfDavid,
 } from "react-icons/fa";
 
 import { Box, Flex, Heading, Icon, SimpleGrid, Text } from "@chakra-ui/react";
@@ -70,29 +69,30 @@ const PATHWAYS_BY_LOCALE: Record<
 			},
 			{
 				id: "olim",
-				title: "עולים חדשים ועלייה לישראל",
+				title: "עולים חדשים, עלייה והעברת כספים",
 				subtitle:
-					"סל קליטה, אולפן, זכויות, תעסוקה, חיילים בודדים וקהילות עולים",
+					"סל קליטה, אולפן, תעסוקה, חיילים בודדים ושירותי העברת מט״ח מפוקחים",
 				icon: FaPlaneArrival,
 				accentBg: "blue.50",
 				accentColor: "brand.700",
 				href: "/Olim",
 			},
 			{
-				id: "rights",
-				title: "בירור זכויות וביטוח לאומי",
-				subtitle: "כל זכות, קו לעובד, פורטלים רשמיים ומיצוי זכויות",
-				icon: FaBalanceScale,
-				accentBg: "orange.50",
-				accentColor: "orange.600",
-				href: "/GeneralAssistance?verified=1",
+				id: "judaism",
+				title: "יהדות, מורשת וקהילה (בארץ ובעולם)",
+				subtitle:
+					"התנועה המסורתית/קונסרבטיבית, ספריא, עתים, צהר, 929 וקהילות בתפוצות",
+				icon: FaStarOfDavid,
+				accentBg: "purple.50",
+				accentColor: "purple.700",
+				href: "/JudaismHeritage",
 			},
 		],
 	},
 	en: {
-		heading: "Find Verified Support by Situation",
+		heading: "Find Trusted Resources by Situation",
 		subtitle:
-			"You don't need to know the charity's name — pick what matches now",
+			"You don't need to know the name — pick what matches what you need now",
 		items: [
 			{
 				id: "mental-health",
@@ -106,13 +106,23 @@ const PATHWAYS_BY_LOCALE: Record<
 			},
 			{
 				id: "olim",
-				title: "Making Aliyah or New Oleh?",
+				title: "Making Aliyah, New Oleh & Transfers",
 				subtitle:
-					"Official agencies (*2994), Nefesh B'Nefesh, careers & Lone Soldiers",
+					"MOIA *2994, Nefesh B'Nefesh, Lone Soldiers & licensed FX transfers",
 				icon: FaPlaneArrival,
 				accentBg: "blue.50",
 				accentColor: "brand.700",
 				href: "/en?cat=olim",
+			},
+			{
+				id: "judaism",
+				title: "Judaism, Masorti & Jewish Heritage",
+				subtitle:
+					"Masorti/Conservative in Israel & abroad, Sefaria, ITIM, ANU & Hebcal",
+				icon: FaStarOfDavid,
+				accentBg: "purple.50",
+				accentColor: "purple.700",
+				href: "/en?cat=judaism",
 			},
 			{
 				id: "veterans",
@@ -134,22 +144,13 @@ const PATHWAYS_BY_LOCALE: Record<
 			},
 			{
 				id: "donate-501c3",
-				title: "Donate with US 501(c)(3)",
+				title: "Donate with US 501(c)(3) / §46",
 				subtitle:
-					"MOJ-verified Israeli charities with US tax-deductible giving",
+					"MOJ-verified Israeli charities with US & Israeli tax-deductible giving",
 				icon: FaHandHoldingHeart,
-				accentBg: "purple.50",
-				accentColor: "purple.600",
+				accentBg: "orange.50",
+				accentColor: "orange.700",
 				href: "/en?cat=donate&us501c3=1",
-			},
-			{
-				id: "advocacy",
-				title: "Advocacy & Remembrance",
-				subtitle: "Verified Oct 7 archives, National Library & global networks",
-				icon: FaSeedling,
-				accentBg: "green.50",
-				accentColor: "green.700",
-				href: "/en?cat=advocacy",
 			},
 		],
 	},

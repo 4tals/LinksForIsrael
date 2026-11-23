@@ -1,7 +1,7 @@
 import categories from "@/_data/categories.json";
 
 export type InitiativeIntent = "get-help" | "volunteer" | "donate";
-export type OrganizationType = "ngo" | "official" | "community";
+export type OrganizationType = "ngo" | "official" | "community" | "licensed";
 export type ReferenceType =
 	| "official"
 	| "registry"
@@ -77,6 +77,7 @@ export interface InitiativeLink {
 	registryCheckedAt?: string;
 	us501c3?: boolean;
 	organizationType?: OrganizationType;
+	regulator?: string;
 	references?: InitiativeReference[];
 	createdAt?: string;
 }
