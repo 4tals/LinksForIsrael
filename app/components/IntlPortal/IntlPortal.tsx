@@ -15,6 +15,11 @@ import {
 } from "react-icons/fa";
 
 import {
+	CountryChips,
+	matchesCountry,
+	parseCountryParam,
+} from "@/app/components/Filters/CountryChips";
+import {
 	filterInitiativesByTrust,
 	hasActiveTrustFilters,
 	INITIAL_TRUST_FILTER,
@@ -28,6 +33,7 @@ import { InitiativeItem } from "@/app/components/Initiative/InitiativeItem";
 import { ShowMoreModal } from "@/app/components/Initiative/InitiativeShowMoreModal";
 import { LifeEventPathways } from "@/app/components/Pathways/LifeEventPathways";
 import { analyticsService } from "@/app/utils/analytica/analytics";
+import { CountryCode } from "@/app/utils/categories";
 import {
 	getUrlParams,
 	parseTrustFiltersFromParams,
@@ -187,6 +193,7 @@ export function IntlPortal({ items }: { items: EnrichedIntlInitiative[] }) {
 	const [activeItem, setActiveItem] = useState<EnrichedIntlInitiative | null>(
 		null,
 	);
+	const [country, setCountryState] = useState<CountryCode | null>(null);
 	const [isDrawerOpen, setIsDrawerOpenState] = useState(false);
 	const toast = useToast();
 
@@ -199,6 +206,9 @@ export function IntlPortal({ items }: { items: EnrichedIntlInitiative[] }) {
 			const params = getUrlParams();
 			const urlCat = params.get("cat") || "all";
 			setSelectedCategoryState(validCats.has(urlCat) ? urlCat : "all");
+			setCountryState(
+				urlCat === "abroad" ? parseCountryParam(params.get("country")) : null,
+			);
 			setQueryState(params.get("q") || "");
 			setTrustFiltersState(parseTrustFiltersFromParams(params));
 
@@ -225,7 +235,8 @@ export function IntlPortal({ items }: { items: EnrichedIntlInitiative[] }) {
 
 	const setSelectedCategory = useCallback((cat: string) => {
 		setSelectedCategoryState(cat);
-		updateUrlParams({ cat: cat === "all" ? null : cat });
+		setCountryState(null);
+		updateUrlParams({ cat: cat === "all" ? null : cat, country: null });
 		if (cat !== "all") {
 			analyticsService.trackCategoryView(cat, "en");
 		}
@@ -234,6 +245,11 @@ export function IntlPortal({ items }: { items: EnrichedIntlInitiative[] }) {
 	const setQuery = useCallback((nextQuery: string) => {
 		setQueryState(nextQuery);
 		updateUrlParams({ q: nextQuery.trim() ? nextQuery : null });
+	}, []);
+
+	const setCountry = useCallback((next: CountryCode | null) => {
+		setCountryState(next);
+		updateUrlParams({ country: next });
 	}, []);
 
 	const setTrustFilters = useCallback((next: TrustFilterState) => {
@@ -294,6 +310,7 @@ export function IntlPortal({ items }: { items: EnrichedIntlInitiative[] }) {
 			if (selectedCategory !== "all" && item.category !== selectedCategory) {
 				return false;
 			}
+			if (!matchesCountry(item.link, country)) return false;
 			if (!q) return true;
 			if (q === "501(c)(3)" || q === "501c3") {
 				return Boolean(item.link.us501c3);
@@ -306,7 +323,7 @@ export function IntlPortal({ items }: { items: EnrichedIntlInitiative[] }) {
 				item.tags.some((t) => t.toLowerCase().includes(q))
 			);
 		});
-	}, [items, selectedCategory, query]);
+	}, [items, selectedCategory, query, country]);
 
 	const filtered = useMemo(() => {
 		if (!hasActiveTrustFilters(trustFilters)) return categoryMatchedItems;
@@ -564,6 +581,10 @@ export function IntlPortal({ items }: { items: EnrichedIntlInitiative[] }) {
 					})}
 				</SimpleGrid>
 			</Box>
+
+			{selectedCategory === "abroad" && (
+				<CountryChips value={country} onChange={setCountry} locale="en" />
+			)}
 
 			{/* 5. Shared Reusable Trust Filter Bar */}
 			<TrustFilterBar

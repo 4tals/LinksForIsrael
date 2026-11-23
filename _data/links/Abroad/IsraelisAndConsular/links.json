@@ -24,6 +24,7 @@
 				"consulate",
 				"embassy"
 			],
+			"countries": ["global"],
 			"createdAt": "2026-11-23T12:45:00+02:00",
 			"references": [
 				{
@@ -53,6 +54,7 @@
 				"מטיילים",
 				"travel warnings"
 			],
+			"countries": ["global"],
 			"createdAt": "2026-11-23T12:45:00+02:00",
 			"references": [
 				{
@@ -84,6 +86,7 @@
 				"Toshav Chozer",
 				"returning residents"
 			],
+			"countries": ["global"],
 			"createdAt": "2026-11-23T12:45:00+02:00",
 			"references": [
 				{
@@ -114,6 +117,7 @@
 				"ביטוח בריאות",
 				"Bituach Leumi"
 			],
+			"countries": ["global"],
 			"createdAt": "2026-11-23T12:45:00+02:00",
 			"references": [
 				{
@@ -146,6 +150,7 @@
 				"IAC",
 				"Israeli-American"
 			],
+			"countries": ["us"],
 			"createdAt": "2026-11-23T12:45:00+02:00"
 		},
 		{
@@ -172,6 +177,7 @@
 				"פוסט דוקטורט",
 				"ScienceAbroad"
 			],
+			"countries": ["global"],
 			"createdAt": "2026-11-23T12:45:00+02:00",
 			"references": [
 				{

@@ -23,6 +23,7 @@
 				"קהילה יהודית",
 				"Hillel"
 			],
+			"countries": ["us", "global"],
 			"createdAt": "2026-11-23T12:45:00+02:00"
 		},
 		{
@@ -47,6 +48,7 @@
 				"Title VI",
 				"Brandeis Center"
 			],
+			"countries": ["us"],
 			"createdAt": "2026-11-23T12:45:00+02:00"
 		},
 		{
@@ -70,6 +72,7 @@
 				"SCN",
 				"security"
 			],
+			"countries": ["us", "ca"],
 			"createdAt": "2026-11-23T12:45:00+02:00"
 		},
 		{
@@ -94,6 +97,7 @@
 				"ADL",
 				"CALL"
 			],
+			"countries": ["us"],
 			"createdAt": "2026-11-23T12:45:00+02:00"
 		},
 		{
@@ -119,6 +123,7 @@
 				"CST",
 				"UK"
 			],
+			"countries": ["uk"],
 			"createdAt": "2026-11-23T12:45:00+02:00"
 		},
 		{
@@ -141,6 +146,7 @@
 				"SPCJ",
 				"France"
 			],
+			"countries": ["fr"],
 			"createdAt": "2026-11-23T12:45:00+02:00"
 		},
 		{
@@ -164,6 +170,7 @@
 				"CIJA",
 				"Canada"
 			],
+			"countries": ["ca"],
 			"createdAt": "2026-11-23T12:45:00+02:00"
 		},
 		{
@@ -186,6 +193,7 @@
 				"ECAJ",
 				"Australia"
 			],
+			"countries": ["au"],
 			"createdAt": "2026-11-23T12:45:00+02:00"
 		}
 	]

@@ -40,6 +40,8 @@ export interface SubCategoryData {
 	links: Array<InitiativeLink>;
 }
 
+export type CountryCode = "us" | "uk" | "fr" | "ca" | "au" | "global";
+
 export interface InitiativeLink {
 	name: string;
 	displayName: string;
@@ -76,6 +78,7 @@ export interface InitiativeLink {
 	registrationNumber?: string;
 	registryCheckedAt?: string;
 	us501c3?: boolean;
+	countries?: CountryCode[];
 	organizationType?: OrganizationType;
 	regulator?: string;
 	references?: InitiativeReference[];

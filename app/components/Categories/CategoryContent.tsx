@@ -18,7 +18,16 @@ import {
 } from "@/app/utils/urlState";
 import { Box, Button, Text } from "@chakra-ui/react";
 
-import { InitiativeLink, SubCategoryData } from "../../utils/categories";
+import {
+	CountryCode,
+	InitiativeLink,
+	SubCategoryData,
+} from "../../utils/categories";
+import {
+	CountryChips,
+	matchesCountry,
+	parseCountryParam,
+} from "../Filters/CountryChips";
 import {
 	filterInitiativesByTrust,
 	hasActiveTrustFilters,
@@ -70,6 +79,8 @@ export const CategoryContent = ({
 	} | null>(null);
 	const [trustFilters, setTrustFiltersState] =
 		useState<TrustFilterState>(INITIAL_TRUST_FILTER);
+	const [country, setCountryState] = useState<CountryCode | null>(null);
+	const showCountryChips = categoryId === "Abroad";
 	const openedCardRef = useRef<string | null>(null);
 
 	const setOpenDialog = useCallback((open: boolean) => {
@@ -100,6 +111,11 @@ export const CategoryContent = ({
 		},
 		[enableTrustFilters],
 	);
+
+	const handleCountryChange = useCallback((next: CountryCode | null) => {
+		setCountryState(next);
+		updateUrlParams({ country: next });
+	}, []);
 
 	const openCardByName = useCallback(
 		(targetName: string, targetSub?: string): boolean => {
@@ -137,6 +153,9 @@ export const CategoryContent = ({
 			if (enableTrustFilters) {
 				setTrustFiltersState(parseTrustFiltersFromParams(params));
 			}
+			setCountryState(
+				showCountryChips ? parseCountryParam(params.get("country")) : null,
+			);
 			const urlCard = params.get("card");
 			if (urlCard) {
 				openCardByName(urlCard);
@@ -149,7 +168,7 @@ export const CategoryContent = ({
 		syncFromUrl();
 		window.addEventListener("popstate", syncFromUrl);
 		return () => window.removeEventListener("popstate", syncFromUrl);
-	}, [categoryId, enableTrustFilters, openCardByName]);
+	}, [categoryId, enableTrustFilters, openCardByName, showCountryChips]);
 
 	const allCategoryLinks = useMemo(
 		() => subCategories.flatMap((s) => s.links),
@@ -157,16 +176,23 @@ export const CategoryContent = ({
 	);
 
 	const filteredSubCategories = useMemo(() => {
-		if (!enableTrustFilters || !hasActiveTrustFilters(trustFilters)) {
+		const trustActive =
+			enableTrustFilters && hasActiveTrustFilters(trustFilters);
+		if (!trustActive && !country) {
 			return subCategories;
 		}
 		return subCategories
-			.map((sub) => ({
-				...sub,
-				links: filterInitiativesByTrust(sub.links, trustFilters, categoryId),
-			}))
+			.map((sub) => {
+				const links = sub.links.filter((link) => matchesCountry(link, country));
+				return {
+					...sub,
+					links: trustActive
+						? filterInitiativesByTrust(links, trustFilters, categoryId)
+						: links,
+				};
+			})
 			.filter((sub) => sub.links.length > 0);
-	}, [subCategories, trustFilters, categoryId, enableTrustFilters]);
+	}, [subCategories, trustFilters, categoryId, enableTrustFilters, country]);
 
 	const totalFilteredCount = useMemo(
 		() => filteredSubCategories.reduce((acc, sub) => acc + sub.links.length, 0),
@@ -216,6 +242,14 @@ export const CategoryContent = ({
 				/>
 			)}
 
+			{showCountryChips && (
+				<CountryChips
+					value={country}
+					onChange={handleCountryChange}
+					locale="he"
+				/>
+			)}
+
 			{enableTrustFilters && (
 				<TrustFilterBar
 					links={allCategoryLinks}
@@ -227,8 +261,7 @@ export const CategoryContent = ({
 				/>
 			)}
 
-			{filteredSubCategories.length === 0 &&
-			hasActiveTrustFilters(trustFilters) ? (
+			{filteredSubCategories.length === 0 ? (
 				<Box
 					bg="white"
 					borderRadius="xl"
@@ -244,7 +277,10 @@ export const CategoryContent = ({
 						size="sm"
 						colorScheme="blue"
 						borderRadius="full"
-						onClick={() => handleTrustFiltersChange(INITIAL_TRUST_FILTER)}
+						onClick={() => {
+							handleTrustFiltersChange(INITIAL_TRUST_FILTER);
+							handleCountryChange(null);
+						}}
 					>
 						נקה סינון
 					</Button>

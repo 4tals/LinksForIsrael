@@ -22,6 +22,7 @@
 				"עמותות בישראל",
 				"PEF"
 			],
+			"countries": ["us"],
 			"createdAt": "2026-11-23T12:45:00+02:00"
 		},
 		{
@@ -46,6 +47,7 @@
 				"סעיף 46",
 				"IsraelGives"
 			],
+			"countries": ["us", "uk", "ca", "global"],
 			"createdAt": "2026-11-23T12:45:00+02:00"
 		},
 		{
@@ -68,6 +70,7 @@
 				"תרומות",
 				"JFNA"
 			],
+			"countries": ["us", "ca"],
 			"createdAt": "2026-11-23T12:45:00+02:00"
 		},
 		{
@@ -91,6 +94,7 @@
 				"רווחה",
 				"JDC"
 			],
+			"countries": ["global"],
 			"createdAt": "2026-11-23T12:45:00+02:00"
 		},
 		{
@@ -116,6 +120,7 @@
 				"צה״ל",
 				"Sar-El"
 			],
+			"countries": ["global"],
 			"createdAt": "2026-11-23T12:45:00+02:00",
 			"references": [
 				{
@@ -155,6 +160,7 @@
 				"Onward",
 				"Birthright"
 			],
+			"countries": ["global"],
 			"createdAt": "2026-11-23T12:45:00+02:00"
 		},
 		{
@@ -177,6 +183,7 @@
 				"מלגות",
 				"Masa Israel"
 			],
+			"countries": ["global"],
 			"createdAt": "2026-11-23T12:45:00+02:00"
 		},
 		{
@@ -199,6 +206,7 @@
 				"חינוך יהודי",
 				"PJ Library"
 			],
+			"countries": ["global"],
 			"createdAt": "2026-11-23T12:45:00+02:00"
 		},
 		{
@@ -222,6 +230,7 @@
 				"Moishe House",
 				"Mem Global"
 			],
+			"countries": ["global"],
 			"createdAt": "2026-11-23T12:45:00+02:00"
 		},
 		{
@@ -244,6 +253,7 @@
 				"מנהיגות",
 				"BBYO"
 			],
+			"countries": ["global"],
 			"createdAt": "2026-11-23T12:45:00+02:00"
 		}
 	]
