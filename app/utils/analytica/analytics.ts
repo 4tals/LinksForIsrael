@@ -1,10 +1,5 @@
 import type { OrganizationType } from "@/app/utils/categories";
 
-type MixpanelModule = typeof import("mixpanel-browser").default;
-
-let mixpanelInstance: MixpanelModule | null = null;
-let mixpanelLoading: Promise<MixpanelModule | null> | null = null;
-
 const AI_REFERRER_HOSTS: Array<{ match: string; name: string }> = [
 	{ match: "chatgpt.com", name: "chatgpt" },
 	{ match: "chat.openai.com", name: "chatgpt" },
@@ -165,47 +160,7 @@ function sendGtag(eventName: string, params: Record<string, unknown>) {
 	}
 }
 
-async function getMixpanel(): Promise<MixpanelModule | null> {
-	if (typeof window === "undefined" || isLocalhost()) return null;
-	const token = process.env.NEXT_PUBLIC_MIXPANEL_TOKEN;
-	if (!token) return null;
-	if (mixpanelInstance) return mixpanelInstance;
-
-	if (!mixpanelLoading) {
-		mixpanelLoading = import("mixpanel-browser")
-			.then((mod) => {
-				const mp = mod.default;
-				mp.init(token, {
-					track_pageview: false,
-					persistence: "localStorage",
-					ignore_dnt: false,
-					api_transport: "XHR",
-				});
-				mixpanelInstance = mp;
-				return mp;
-			})
-			.catch(() => null);
-	}
-	return mixpanelLoading;
-}
-
-function sendMixpanel(event: string, props: Record<string, unknown>) {
-	if (typeof window === "undefined" || isLocalhost()) return;
-	void getMixpanel().then((mp) => {
-		if (!mp) return;
-		try {
-			mp.track(event, props, { transport: "sendBeacon" });
-		} catch {
-			// Ignore analytics failures
-		}
-	});
-}
-
-function emitEvent(
-	gaEvent: string,
-	mpEvent: string,
-	props: Record<string, unknown>,
-) {
+function emitEvent(gaEvent: string, props: Record<string, unknown>) {
 	if (typeof window === "undefined" || isLocalhost()) return;
 	const cleaned: Record<string, unknown> = {};
 	for (const [k, v] of Object.entries(props)) {
@@ -217,7 +172,6 @@ function emitEvent(
 		cleaned.locale = getLocaleFromPath();
 	}
 	sendGtag(gaEvent, cleaned);
-	sendMixpanel(mpEvent, cleaned);
 }
 
 export interface ListingTrackMeta {
@@ -235,7 +189,7 @@ export const analyticsService = {
 		const { aiSource, referrerDomain } = detectAiSource();
 		const pagePath = search ? `${pathname}${search}` : pathname;
 
-		const props = {
+		emitEvent("page_view", {
 			page_path: pagePath,
 			page_location: window.location.href,
 			page_title: document.title,
@@ -244,9 +198,7 @@ export const analyticsService = {
 			locale,
 			ai_source: aiSource,
 			referrer_domain: referrerDomain,
-		};
-
-		emitEvent("page_view", "Page Viewed", props);
+		});
 	},
 
 	trackSearch: (
@@ -258,7 +210,7 @@ export const analyticsService = {
 		const trimmed = searchTerm.trim();
 		if (isLocalhost() || !trimmed) return;
 
-		emitEvent("search", "Search", {
+		emitEvent("search", {
 			search_term: trimmed,
 			results_count: resultsCount,
 			zero_results: resultsCount === 0,
@@ -268,14 +220,14 @@ export const analyticsService = {
 	},
 
 	trackCategoryView: (categoryId: string, locale?: "he" | "en") => {
-		emitEvent("view_category", "Category Viewed", {
+		emitEvent("view_category", {
 			category_id: categoryId,
 			locale: locale || getLocaleFromPath(),
 		});
 	},
 
 	trackListingOpen: (listingId: string, meta?: ListingTrackMeta) => {
-		emitEvent("listing_open", "Listing Opened", {
+		emitEvent("listing_open", {
 			listing_id: listingId,
 			category_id: meta?.categoryId,
 			organization_type: meta?.organizationType,
@@ -290,7 +242,7 @@ export const analyticsService = {
 		meta?: ListingTrackMeta,
 	) => {
 		const destinationDomain = extractDomain(url);
-		emitEvent("outbound_click", "Outbound Click", {
+		emitEvent("outbound_click", {
 			listing_id: initiativeName,
 			outbound_url: url,
 			destination_domain: destinationDomain,
@@ -308,7 +260,7 @@ export const analyticsService = {
 		organizationType?: OrganizationType | string;
 		locale?: "he" | "en";
 	}) => {
-		emitEvent("contact_channel_click", "Contact Channel Clicked", {
+		emitEvent("contact_channel_click", {
 			listing_id: params.listingId,
 			channel: params.channel,
 			destination_domain: extractDomain(params.url),
@@ -323,7 +275,7 @@ export const analyticsService = {
 		source: string,
 		locale?: "he" | "en",
 	) => {
-		emitEvent("hotline_tap", "Hotline Tapped", {
+		emitEvent("hotline_tap", {
 			hotline_name: hotlineName,
 			phone_number: phoneNumber,
 			click_source: source,
@@ -337,7 +289,7 @@ export const analyticsService = {
 		locale?: "he" | "en",
 		categoryId?: string,
 	) => {
-		emitEvent("filter_applied", "Filter Applied", {
+		emitEvent("filter_applied", {
 			filter_name: filterName,
 			filter_value: String(filterValue),
 			category_id: categoryId,
@@ -350,7 +302,7 @@ export const analyticsService = {
 		href: string,
 		locale?: "he" | "en",
 	) => {
-		emitEvent("pathway_click", "Pathway Clicked", {
+		emitEvent("pathway_click", {
 			pathway_id: pathwayId,
 			destination_path: href,
 			locale: locale || getLocaleFromPath(),
@@ -358,7 +310,7 @@ export const analyticsService = {
 	},
 
 	trackGuideClick: (href: string, title: string, locale?: "he" | "en") => {
-		emitEvent("guide_click", "Guide Clicked", {
+		emitEvent("guide_click", {
 			guide_path: href,
 			guide_title: title,
 			locale: locale || getLocaleFromPath(),
@@ -366,7 +318,7 @@ export const analyticsService = {
 	},
 
 	trackLanguageSwitch: (fromLocale: "he" | "en", toLocale: "he" | "en") => {
-		emitEvent("language_switch", "Language Switched", {
+		emitEvent("language_switch", {
 			from_locale: fromLocale,
 			to_locale: toLocale,
 			locale: toLocale,
@@ -374,7 +326,7 @@ export const analyticsService = {
 	},
 
 	trackToolUsed: (tool: string, detail?: string, locale?: "he" | "en") => {
-		emitEvent("tool_used", "Tool Used", {
+		emitEvent("tool_used", {
 			tool_name: tool,
 			tool_detail: detail,
 			locale: locale || getLocaleFromPath(),

@@ -29,9 +29,6 @@ importers:
       gray-matter:
         specifier: ^4.0.3
         version: 4.0.3
-      mixpanel-browser:
-        specifier: ^2.48.1
-        version: 2.65.0
       next:
         specifier: ^14.0.3
         version: 14.2.30(babel-plugin-macros@3.1.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.89.2)
@@ -63,9 +60,6 @@ importers:
       '@trivago/prettier-plugin-sort-imports':
         specifier: ^4.3.0
         version: 4.3.0(prettier@3.5.3)(supports-color@7.2.0)
-      '@types/mixpanel-browser':
-        specifier: ^2.47.5
-        version: 2.60.0
       '@types/node':
         specifier: ^20.10.0
         version: 20.19.1
