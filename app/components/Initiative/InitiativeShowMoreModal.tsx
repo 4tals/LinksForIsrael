@@ -77,9 +77,9 @@ export const ShowMoreModal: React.FC<ShowMoreModalProps> = ({
 	const claimUpdateUrl = `https://github.com/4tals/LinksForIsrael/issues/new?title=${encodeURIComponent(
 		`[UPDATE-LISTING]: ${link.displayName || link.name}`,
 	)}&body=${encodeURIComponent(
-		`Initiative: ${link.displayName || link.name} (${link.name})\nCurrent URL: ${
+		`Listing: ${link.displayName || link.name} (${link.name})\nCurrent URL: ${
 			primaryUrl || ""
-		}\n\nRequested updates (description, hotline, Section 46, registration number, or third-party references):\n`,
+		}\n\nRequested updates (description, link, hotline, registration/regulator, or references):\n`,
 	)}`;
 
 	const guidestarSearchUrl = link.registrationNumber
@@ -93,8 +93,10 @@ export const ShowMoreModal: React.FC<ShowMoreModalProps> = ({
 	const handleLinkClick = () => {
 		if (!primaryUrl) {
 			toast({
-				title: "אין קישור זמין",
-				description: "לא נמצא קישור ראשי ליוזמה זו.",
+				title: isRtl ? "אין קישור זמין" : "No link available",
+				description: isRtl
+					? "לא נמצא קישור ראשי לרשומה זו."
+					: "No primary URL was found for this listing.",
 				status: "warning",
 				duration: 3000,
 				isClosable: true,
@@ -418,22 +420,20 @@ export const ShowMoreModal: React.FC<ShowMoreModalProps> = ({
 						_hover={{ color: "brand.700", textDecoration: "underline" }}
 					>
 						<FaEdit size={11} />
-						{isRtl
-							? "נציגי העמותה? עדכנו פרטים"
-							: "Represent this org? Update listing"}
+						{isRtl ? "הצעת עדכון פרטים" : "Suggest an update"}
 					</Link>
 					<Link
 						href={reportIssueUrl}
 						isExternal
 						fontSize="xs"
-						color="gray.500"
+						color="gray.600"
 						display="inline-flex"
 						alignItems="center"
 						gap={1.5}
 						_hover={{ color: "red.600", textDecoration: "underline" }}
 					>
 						<FaFlag size={11} />
-						{isRtl ? "דווח על קישור שבור או לא עדכני" : "Report broken link"}
+						{isRtl ? "דיווח על קישור שבור" : "Report broken link"}
 					</Link>
 				</Flex>
 			</VStack>
@@ -462,9 +462,13 @@ export const ShowMoreModal: React.FC<ShowMoreModalProps> = ({
 								onClick={handleLinkClick}
 								rightIcon={!isRtl ? <ExternalLinkIcon /> : undefined}
 								leftIcon={isRtl ? <ExternalLinkIcon /> : undefined}
-								aria-label={`פתח יוזמה: ${link.displayName}`}
+								aria-label={
+									isRtl
+										? `מעבר לאתר: ${link.displayName}`
+										: `Visit website: ${link.displayName}`
+								}
 							>
-								{isRtl ? "מעבר ליוזמה" : "Open Initiative"}
+								{isRtl ? "מעבר לאתר" : "Visit Website"}
 							</Button>
 						)}
 

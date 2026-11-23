@@ -109,7 +109,7 @@ export function InitiativeDetailHero({
 								>
 									{link.displayName}
 								</Heading>
-								{link.verified && (
+								{link.verified && link.organizationType !== "licensed" && (
 									<Icon as={FaCheckCircle} color="green.500" boxSize={5} />
 								)}
 							</Flex>
@@ -118,6 +118,21 @@ export function InitiativeDetailHero({
 								<Badge colorScheme="blue" borderRadius="full" px={2.5} py={0.5}>
 									{category.displayName}
 								</Badge>
+								{link.organizationType === "licensed" && (
+									<Badge
+										bg="gray.100"
+										color="gray.800"
+										borderWidth="1px"
+										borderColor="gray.300"
+										borderRadius="full"
+										px={2.5}
+										py={0.5}
+									>
+										{link.regulator
+											? `שירות מפוקח · ${link.regulator}`
+											: "שירות מסחרי מפוקח"}
+									</Badge>
+								)}
 								{link.properManagement && (
 									<Badge
 										colorScheme="teal"
@@ -265,7 +280,7 @@ export function InitiativeDetailHero({
 							colorScheme="blue"
 							leftIcon={<Icon as={FaArrowRight} />}
 						>
-							לכל היוזמות בתחום {category.displayName}
+							לכל הקישורים בתחום {category.displayName}
 						</Button>
 						{link.registryCheckedAt && (
 							<Text fontSize="xs" color="gray.500">
