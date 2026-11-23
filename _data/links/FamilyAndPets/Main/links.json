@@ -46,7 +46,7 @@
 				}
 			],
 			"registrationNumber": "580354637",
-			"registryCheckedAt": "2026-11-22",
+			"registryCheckedAt": "2026-11-23",
 			"properManagement": true
 		},
 		{
@@ -93,7 +93,7 @@
 				}
 			],
 			"registrationNumber": "580258242",
-			"registryCheckedAt": "2026-11-22",
+			"registryCheckedAt": "2026-11-23",
 			"properManagement": true
 		},
 		{
@@ -140,7 +140,7 @@
 				}
 			],
 			"registrationNumber": "580064335",
-			"registryCheckedAt": "2026-11-22",
+			"registryCheckedAt": "2026-11-23",
 			"properManagement": true
 		},
 		{
@@ -201,7 +201,7 @@
 				}
 			],
 			"registrationNumber": "580455681",
-			"registryCheckedAt": "2026-11-22",
+			"registryCheckedAt": "2026-11-23",
 			"properManagement": true
 		},
 		{
@@ -249,7 +249,7 @@
 				}
 			],
 			"registrationNumber": "580036945",
-			"registryCheckedAt": "2026-11-22",
+			"registryCheckedAt": "2026-11-23",
 			"properManagement": true
 		},
 		{
@@ -291,7 +291,7 @@
 				}
 			],
 			"registrationNumber": "580000156",
-			"registryCheckedAt": "2026-11-22",
+			"registryCheckedAt": "2026-11-23",
 			"properManagement": true
 		},
 		{
@@ -383,7 +383,7 @@
 			],
 			"registrationNumber": "516907888",
 			"properManagement": true,
-			"registryCheckedAt": "2026-11-22"
+			"registryCheckedAt": "2026-11-23"
 		},
 		{
 			"name": "AKIMIsrael",
@@ -417,7 +417,7 @@
 				}
 			],
 			"properManagement": true,
-			"registryCheckedAt": "2026-11-22"
+			"registryCheckedAt": "2026-11-23"
 		},
 		{
 			"name": "WIZOIsrael",
@@ -452,7 +452,7 @@
 				}
 			],
 			"properManagement": true,
-			"registryCheckedAt": "2026-11-22"
+			"registryCheckedAt": "2026-11-23"
 		},
 		{
 			"name": "LetTheAnimalsLive",
@@ -487,7 +487,7 @@
 				}
 			],
 			"properManagement": true,
-			"registryCheckedAt": "2026-11-22"
+			"registryCheckedAt": "2026-11-23"
 		},
 		{
 			"name": "Beterem",
@@ -545,6 +545,137 @@
 					"type": "official",
 					"source": "Wikipedia",
 					"title": "פרויקט פר״ח"
+				}
+			]
+		},
+		{
+			"name": "YeladimFairChance",
+			"displayName": "ילדים בסיכוי — למען ילדי ובוגרי פנימיות בישראל",
+			"shortDescription": "מנטורינג, דירות בוגרים, תמיכה בלימודים והכנה לחיים עצמאיים לילדי פנימיות וחסרי עורף משפחתי",
+			"description": "עמותת ילדים בסיכוי פועלת למען אלפי ילדים ובני נוער הגדלים בפנימיות רווחה ובוגריהן חסרי העורף המשפחתי — באמצעות מנטורים מתנדבים, דירות בוגרים, טיפול רגשי ומלגות השכלה.",
+			"url": "https://yeladim.org.il/",
+			"website": "https://yeladim.org.il/",
+			"verified": true,
+			"taxDeductible46": true,
+			"organizationType": "ngo",
+			"intents": [
+				"get-help",
+				"volunteer",
+				"donate"
+			],
+			"tags": [
+				"ילדים",
+				"נוער בסיכון",
+				"פנימיות",
+				"מנטורינג",
+				"התנדבות"
+			],
+			"createdAt": "2026-11-23T10:50:00+02:00",
+			"references": [
+				{
+					"url": "https://he.wikipedia.org/wiki/%D7%99%D7%9C%D7%93%D7%99%D7%9D_%D7%91%D7%A1%D7%99%D7%9B%D7%95%D7%99",
+					"type": "official",
+					"source": "Wikipedia",
+					"title": "ילדים בסיכוי — המועצה לילד החוסה"
+				}
+			]
+		},
+		{
+			"name": "OrrShalom",
+			"displayName": "אור שלום — משפחתונים ואומנה לילדים ובני נוער בסיכון",
+			"shortDescription": "משפחתונים, אומנה טיפולית וליווי בוגרים לילדים ובני נוער שהוצאו מבתיהם על ידי שירותי הרווחה",
+			"description": "אור שלום היא הארגון הגדול בישראל לטיפול בילדים ובני נוער בסיכון במסגרות משפחתיות (משפחתונים ואומנה), כולל תוכניות ליווי לבוגרים חסרי עורף משפחתי עד לגיל 26.",
+			"url": "https://orr-shalom.org.il/",
+			"website": "https://orr-shalom.org.il/",
+			"verified": true,
+			"taxDeductible46": true,
+			"organizationType": "ngo",
+			"intents": [
+				"get-help",
+				"volunteer",
+				"donate"
+			],
+			"tags": [
+				"ילדים",
+				"אומנה",
+				"משפחתונים",
+				"נוער בסיכון",
+				"רווחה"
+			],
+			"createdAt": "2026-11-23T10:50:00+02:00",
+			"references": [
+				{
+					"url": "https://he.wikipedia.org/wiki/%D7%90%D7%95%D7%A8_%D7%A9%D7%9C%D7%95%D7%9D",
+					"type": "official",
+					"source": "Wikipedia",
+					"title": "אור שלום"
+				}
+			]
+		},
+		{
+			"name": "HandInHand",
+			"displayName": "יד ביד — בתי ספר דו-לשוניים וקהילות משותפות",
+			"shortDescription": "רשת בתי ספר וגנים דו-לשוניים וקהילות משותפות ליהודים וערבים ברחבי ישראל",
+			"description": "עמותת יד ביד (ע״ר 580293710) מפעילה בתי ספר דו-לשוניים (עברית-ערבית) וקהילות מעורבות בירושלים, הגליל, חיפה, יפו, כפר סבא וכפר קאסם לבניית חברה משותפת ושוויונית.",
+			"url": "https://www.handinhandk12.org/",
+			"website": "https://www.handinhandk12.org/",
+			"verified": true,
+			"taxDeductible46": true,
+			"registrationNumber": "580293710",
+			"organizationType": "ngo",
+			"intents": [
+				"get-help",
+				"volunteer",
+				"donate"
+			],
+			"tags": [
+				"חינוך",
+				"חברה משותפת",
+				"דו-לשוני",
+				"קהילה",
+				"ילדים"
+			],
+			"createdAt": "2026-11-23T10:50:00+02:00",
+			"references": [
+				{
+					"url": "https://www.guidestar.org.il/organization/580293710",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "יד ביד: המרכז לחינוך יהודי ערבי בישראל (ע״ר)"
+				}
+			],
+			"properManagement": true,
+			"registryCheckedAt": "2026-11-23"
+		},
+		{
+			"name": "SOSAnimals",
+			"displayName": "אס.או.אס חיות — הצלה ואימוץ כלבים וחתולים",
+			"shortDescription": "ימי אימוץ שבועיים, משפחות אומנה, עיקור וסירוס והצלת כלבים וחתולים נטושים",
+			"description": "עמותת אס.או.אס חיות פועלת מאז 1978 להצלת כלבים וחתולים נטושים, מציאת בתים מאמצים באמצעות ימי אימוץ ומשפחות אומנה, וסיוע בטיפולים וטרינריים.",
+			"url": "https://www.sospets.co.il/",
+			"website": "https://www.sospets.co.il/",
+			"verified": true,
+			"taxDeductible46": true,
+			"organizationType": "ngo",
+			"intents": [
+				"get-help",
+				"volunteer",
+				"donate"
+			],
+			"tags": [
+				"בעלי חיים",
+				"אימוץ כלבים",
+				"חתולים",
+				"אומנה",
+				"הצלת חיות"
+			],
+			"createdAt": "2026-11-23T10:50:00+02:00",
+			"references": [
+				{
+					"url": "https://he.wikipedia.org/wiki/%D7%90%D7%A1.%D7%90%D7%95.%D7%90%D7%A1_%D7%97%D7%99%D7%95%D7%AA",
+					"type": "official",
+					"source": "Wikipedia",
+					"title": "אס.או.אס חיות"
 				}
 			]
 		}

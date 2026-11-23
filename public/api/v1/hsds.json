@@ -1,7 +1,7 @@
 {
   "schema": "OpenReferral-HSDS-3.0-compatible",
   "source": "https://www.linksforisrael.com",
-  "generatedAt": "2026-11-22T13:20:39.883Z",
+  "generatedAt": "2026-11-23T08:51:55.050Z",
   "organizations": [
     {
       "id": "org:Medical/Main/EzerMizion",
@@ -13,7 +13,7 @@
       "tax_status": "Israel Section 46",
       "legal_status": "ngo",
       "verified": true,
-      "last_verified_at": "2026-11-22"
+      "last_verified_at": "2026-11-23"
     },
     {
       "id": "org:Economic/Donations/Latet",
@@ -25,7 +25,7 @@
       "tax_status": "Israel Section 46",
       "legal_status": "ngo",
       "verified": true,
-      "last_verified_at": "2026-11-22"
+      "last_verified_at": "2026-11-23"
     },
     {
       "id": "org:FamilyAndPets/Main/KremboWings",
@@ -37,7 +37,7 @@
       "tax_status": "Israel Section 46",
       "legal_status": "ngo",
       "verified": true,
-      "last_verified_at": "2026-11-22"
+      "last_verified_at": "2026-11-23"
     },
     {
       "id": "org:GeneralAssistance/Main/Yedidim",
@@ -49,7 +49,7 @@
       "tax_status": "Israel Section 46",
       "legal_status": "ngo",
       "verified": true,
-      "last_verified_at": "2026-11-22"
+      "last_verified_at": "2026-11-23"
     },
     {
       "id": "org:Medical/MentalSupport/ERAN",
@@ -61,7 +61,7 @@
       "tax_status": "Israel Section 46",
       "legal_status": "ngo",
       "verified": true,
-      "last_verified_at": "2026-11-22"
+      "last_verified_at": "2026-11-23"
     },
     {
       "id": "org:StrategicCommunication/Info/TheNationalLibrary",
@@ -85,7 +85,7 @@
       "tax_status": "Israel Section 46",
       "legal_status": "ngo",
       "verified": true,
-      "last_verified_at": "2026-11-22"
+      "last_verified_at": "2026-11-23"
     },
     {
       "id": "org:Medical/MentalSupport/NATAL",
@@ -97,7 +97,7 @@
       "tax_status": "Israel Section 46",
       "legal_status": "ngo",
       "verified": true,
-      "last_verified_at": "2026-11-22"
+      "last_verified_at": "2026-11-23"
     },
     {
       "id": "org:Defense/Emergency/ZAKA",
@@ -109,7 +109,7 @@
       "tax_status": "Israel Section 46",
       "legal_status": "ngo",
       "verified": true,
-      "last_verified_at": "2026-11-22"
+      "last_verified_at": "2026-11-23"
     },
     {
       "id": "org:GeneralAssistance/Main/KolZchut",
@@ -145,7 +145,7 @@
       "tax_status": "Israel Section 46",
       "legal_status": "ngo",
       "verified": true,
-      "last_verified_at": "2026-11-22"
+      "last_verified_at": "2026-11-23"
     },
     {
       "id": "org:Economic/Donations/LeketIsrael",
@@ -157,7 +157,7 @@
       "tax_status": "Israel Section 46",
       "legal_status": "ngo",
       "verified": true,
-      "last_verified_at": "2026-11-22"
+      "last_verified_at": "2026-11-23"
     },
     {
       "id": "org:Economic/Donations/PitchonLev",
@@ -169,7 +169,7 @@
       "tax_status": "Israel Section 46",
       "legal_status": "ngo",
       "verified": true,
-      "last_verified_at": "2026-11-22"
+      "last_verified_at": "2026-11-23"
     },
     {
       "id": "org:Economic/Donations/jgive",
@@ -181,7 +181,7 @@
       "tax_status": "Israel Section 46",
       "legal_status": "ngo",
       "verified": true,
-      "last_verified_at": "2026-11-22"
+      "last_verified_at": "2026-11-23"
     },
     {
       "id": "org:FamilyAndPets/Main/Elem",
@@ -193,7 +193,7 @@
       "tax_status": "Israel Section 46",
       "legal_status": "ngo",
       "verified": true,
-      "last_verified_at": "2026-11-22"
+      "last_verified_at": "2026-11-23"
     },
     {
       "id": "org:GeneralAssistance/Main/RuachTova",
@@ -205,7 +205,7 @@
       "tax_status": "Israel Section 46",
       "legal_status": "ngo",
       "verified": true,
-      "last_verified_at": "2026-11-22"
+      "last_verified_at": "2026-11-23"
     },
     {
       "id": "org:Agriculture/Main/NewGuard",
@@ -217,7 +217,7 @@
       "tax_status": "Israel Section 46",
       "legal_status": "ngo",
       "verified": true,
-      "last_verified_at": "2026-11-22"
+      "last_verified_at": "2026-11-23"
     },
     {
       "id": "org:MemorialRemembrance/Main/ZikaronBaSalon",
@@ -229,7 +229,7 @@
       "tax_status": "Israel Section 46",
       "legal_status": "ngo",
       "verified": true,
-      "last_verified_at": "2026-11-22"
+      "last_verified_at": "2026-11-23"
     },
     {
       "id": "org:Medical/MentalSupport/SafeHeart",
@@ -277,7 +277,7 @@
       "tax_status": "Israel Section 46",
       "legal_status": "ngo",
       "verified": true,
-      "last_verified_at": "2026-11-22"
+      "last_verified_at": "2026-11-23"
     },
     {
       "id": "org:Defense/Main/NationalDroneInitiative",
@@ -301,7 +301,7 @@
       "tax_status": "Proper Management (Nihul Takin)",
       "legal_status": "ngo",
       "verified": true,
-      "last_verified_at": "2026-11-22"
+      "last_verified_at": "2026-11-23"
     },
     {
       "id": "org:Economic/Businesses/Paamonim",
@@ -313,7 +313,7 @@
       "tax_status": "Israel Section 46",
       "legal_status": "ngo",
       "verified": true,
-      "last_verified_at": "2026-11-22"
+      "last_verified_at": "2026-11-23"
     },
     {
       "id": "org:FamilyAndPets/Main/ADIIsrael",
@@ -325,7 +325,7 @@
       "tax_status": "Israel Section 46",
       "legal_status": "ngo",
       "verified": true,
-      "last_verified_at": "2026-11-22"
+      "last_verified_at": "2026-11-23"
     },
     {
       "id": "org:FamilyAndPets/Main/Etgarim",
@@ -337,7 +337,7 @@
       "tax_status": "Israel Section 46",
       "legal_status": "ngo",
       "verified": true,
-      "last_verified_at": "2026-11-22"
+      "last_verified_at": "2026-11-23"
     },
     {
       "id": "org:FamilyAndPets/Main/ALUT",
@@ -349,7 +349,7 @@
       "tax_status": "Israel Section 46",
       "legal_status": "ngo",
       "verified": true,
-      "last_verified_at": "2026-11-22"
+      "last_verified_at": "2026-11-23"
     },
     {
       "id": "org:Medical/Main/LargerThanLife",
@@ -361,7 +361,7 @@
       "tax_status": "Israel Section 46",
       "legal_status": "ngo",
       "verified": true,
-      "last_verified_at": "2026-11-22"
+      "last_verified_at": "2026-11-23"
     },
     {
       "id": "org:Medical/Main/UnitedHatzalah",
@@ -373,7 +373,7 @@
       "tax_status": "Israel Section 46",
       "legal_status": "ngo",
       "verified": true,
-      "last_verified_at": "2026-11-22"
+      "last_verified_at": "2026-11-23"
     },
     {
       "id": "org:Medical/Main/MdaBloodDonation",
@@ -397,7 +397,7 @@
       "tax_status": "Israel Section 46",
       "legal_status": "ngo",
       "verified": true,
-      "last_verified_at": "2026-11-22"
+      "last_verified_at": "2026-11-23"
     },
     {
       "id": "org:Economic/Businesses/SocialSolidarityHome",
@@ -409,7 +409,7 @@
       "tax_status": "Israel Section 46",
       "legal_status": "ngo",
       "verified": true,
-      "last_verified_at": "2026-11-22"
+      "last_verified_at": "2026-11-23"
     },
     {
       "id": "org:FamilyAndPets/Main/IsraeliChildrensFund",
@@ -421,7 +421,7 @@
       "tax_status": "Israel Section 46",
       "legal_status": "ngo",
       "verified": true,
-      "last_verified_at": "2026-11-22"
+      "last_verified_at": "2026-11-23"
     },
     {
       "id": "org:GeneralAssistance/Main/LevEhad",
@@ -433,7 +433,7 @@
       "tax_status": "Israel Section 46",
       "legal_status": "ngo",
       "verified": true,
-      "last_verified_at": "2026-11-22"
+      "last_verified_at": "2026-11-23"
     },
     {
       "id": "org:Medical/Main/BrothersForLife",
@@ -457,7 +457,7 @@
       "tax_status": "Israel Section 46",
       "legal_status": "ngo",
       "verified": true,
-      "last_verified_at": "2026-11-22"
+      "last_verified_at": "2026-11-23"
     },
     {
       "id": "org:Medical/MentalSupport/Enosh",
@@ -469,7 +469,7 @@
       "tax_status": "Israel Section 46",
       "legal_status": "ngo",
       "verified": true,
-      "last_verified_at": "2026-11-22"
+      "last_verified_at": "2026-11-23"
     },
     {
       "id": "org:FamilyAndPets/Main/SPCAIsrael",
@@ -481,7 +481,7 @@
       "tax_status": "Israel Section 46",
       "legal_status": "ngo",
       "verified": true,
-      "last_verified_at": "2026-11-22"
+      "last_verified_at": "2026-11-23"
     },
     {
       "id": "org:Agriculture/Main/LeketIsraelFarmersVolonteers",
@@ -493,7 +493,7 @@
       "tax_status": "Israel Section 46",
       "legal_status": "ngo",
       "verified": true,
-      "last_verified_at": "2026-11-22"
+      "last_verified_at": "2026-11-23"
     },
     {
       "id": "org:Medical/Main/MagenDavidAdom",
@@ -577,7 +577,7 @@
       "tax_status": "Proper Management (Nihul Takin)",
       "legal_status": "ngo",
       "verified": true,
-      "last_verified_at": "2026-11-22"
+      "last_verified_at": "2026-11-23"
     },
     {
       "id": "org:StrategicCommunication/Info/InssWarData",
@@ -589,7 +589,7 @@
       "tax_status": "Proper Management (Nihul Takin)",
       "legal_status": "ngo",
       "verified": true,
-      "last_verified_at": "2026-11-22"
+      "last_verified_at": "2026-11-23"
     },
     {
       "id": "org:Medical/Main/IsraelCancerAssociation",
@@ -601,7 +601,7 @@
       "tax_status": "Israel Section 46",
       "legal_status": "ngo",
       "verified": true,
-      "last_verified_at": "2026-11-22"
+      "last_verified_at": "2026-11-23"
     },
     {
       "id": "org:Economic/Donations/ChasdeiNaomi",
@@ -613,7 +613,7 @@
       "tax_status": "Israel Section 46",
       "legal_status": "ngo",
       "verified": true,
-      "last_verified_at": "2026-11-22"
+      "last_verified_at": "2026-11-23"
     },
     {
       "id": "org:Medical/Main/Lemaanam",
@@ -625,7 +625,7 @@
       "tax_status": "Israel Section 46",
       "legal_status": "ngo",
       "verified": true,
-      "last_verified_at": "2026-11-22"
+      "last_verified_at": "2026-11-23"
     },
     {
       "id": "org:Medical/Main/BeitIssieShapiro",
@@ -637,7 +637,7 @@
       "tax_status": "Israel Section 46",
       "legal_status": "ngo",
       "verified": true,
-      "last_verified_at": "2026-11-22"
+      "last_verified_at": "2026-11-23"
     },
     {
       "id": "org:Medical/Main/IsraelGuideDogCenter",
@@ -649,7 +649,139 @@
       "tax_status": "Israel Section 46",
       "legal_status": "ngo",
       "verified": true,
-      "last_verified_at": "2026-11-22"
+      "last_verified_at": "2026-11-23"
+    },
+    {
+      "id": "org:Medical/Main/ZichronMenachem",
+      "name": "זכרון מנחם — תמיכה בילדים וצעירים חולי סרטן",
+      "description": "מרכזי יום, תרומות שיער לפאות, מחנות נופש וליווי רגשי ורפואי חינם לילדים וצעירים חולי סרטן ולמשפחותיהם",
+      "url": "https://zichron.org/",
+      "email": null,
+      "tax_id": "580179372",
+      "tax_status": "Israel Section 46",
+      "legal_status": "ngo",
+      "verified": true,
+      "last_verified_at": "2026-11-23"
+    },
+    {
+      "id": "org:Medical/Main/ILANIsrael",
+      "name": "איל״ן — איגוד ישראלי לילדים ולבוגרים עם מוגבלות פיזית",
+      "description": "מרכזי ספורט שיקומי, גנים, דיור בקהילה, תעסוקה וליווי משפחות לאנשים עם מוגבלות פיזית בכל הארץ",
+      "url": "https://ilan-israel.co.il/",
+      "email": null,
+      "tax_id": "580036242",
+      "tax_status": "Israel Section 46",
+      "legal_status": "ngo",
+      "verified": true,
+      "last_verified_at": "2026-11-23"
+    },
+    {
+      "id": "org:Medical/Main/AlehIsrael",
+      "name": "עלה — רשת מרכזי שיקום, רפואה וחינוך מיוחד",
+      "description": "טיפול רפואי, שיקומי וחינוכי מתקדם לילדים ובוגרים עם מוגבלויות מורכבות בפריסה ארצית",
+      "url": "https://aleh.org/",
+      "email": null,
+      "tax_id": null,
+      "tax_status": "Israel Section 46",
+      "legal_status": "ngo",
+      "verified": true,
+      "last_verified_at": null
+    },
+    {
+      "id": "org:Medical/MentalSupport/BishvilHaChaim",
+      "name": "בשביל החיים — מניעת אובדנות ותמיכה במשפחות שכולות",
+      "description": "קבוצות תמיכה, ליווי מקצועי למשפחות שאיבדו יקיר מאובדנות והעלאת מודעות למניעת אובדנות",
+      "url": "https://path-to-life.org/",
+      "email": null,
+      "tax_id": "580357911",
+      "tax_status": "Israel Section 46",
+      "legal_status": "ngo",
+      "verified": true,
+      "last_verified_at": "2026-11-23"
+    },
+    {
+      "id": "org:Medical/MentalSupport/AlSam",
+      "name": "אל-סם — ייעוץ, טיפול ומניעת התמכרויות לבני נוער והורים",
+      "description": "מרכזי ייעוץ וטיפול חינמיים ודיסקרטיים לבני נוער, צעירים והורים בהתמודדות עם סמים, אלכוהול והתמכרויות",
+      "url": "https://alsam.org.il/",
+      "email": null,
+      "tax_id": "580008878",
+      "tax_status": "Israel Section 46",
+      "legal_status": "ngo",
+      "verified": true,
+      "last_verified_at": "2026-11-23"
+    },
+    {
+      "id": "org:Defense/Main/IDFWO",
+      "name": "ארגון אלמנות ויתומי צה״ל",
+      "description": "הארגון היציג של אלמנות ויתומי צה״ל וכוחות הביטחון — מיצוי זכויות, תמיכה רגשית, מלגות ומחנות עוצמה",
+      "url": "https://www.idfwo.org/",
+      "email": null,
+      "tax_id": "580202166",
+      "tax_status": "Israel Section 46",
+      "legal_status": "ngo",
+      "verified": true,
+      "last_verified_at": "2026-11-23"
+    },
+    {
+      "id": "org:Economic/Donations/HolocaustSurvivorsWelfare",
+      "name": "הקרן לרווחת נפגעי השואה בישראל",
+      "description": "שעות סיעוד נוספות, לחצני מצוקה, משקפיים, התנדבות להפגת בדידות וסיוע כלכלי לשורדי שואה",
+      "url": "https://www.k-shoa.org/",
+      "email": null,
+      "tax_id": "580185700",
+      "tax_status": "Israel Section 46",
+      "legal_status": "ngo",
+      "verified": true,
+      "last_verified_at": "2026-11-23"
+    },
+    {
+      "id": "org:Economic/Donations/AvivForSeniors",
+      "name": "עמותת אביב לגיל השלישי — מיצוי זכויות לאזרחים ותיקים",
+      "description": "סיוע מקצועי חינם במיצוי זכויות, גמלת סיעוד, ביטוח לאומי והטבות לשורדי שואה ואזרחים ותיקים",
+      "url": "https://www.aviv.org.il/",
+      "email": null,
+      "tax_id": null,
+      "tax_status": "Israel Section 46",
+      "legal_status": "ngo",
+      "verified": true,
+      "last_verified_at": null
+    },
+    {
+      "id": "org:Economic/Donations/EshelChabad",
+      "name": "אשל חב״ד — המרכז הארצי לביטחון תזונתי",
+      "description": "סלי מזון, כרטיסי מזון למשפחות, ארוחות חמות ובתי תמחוי בפריסה ארצית",
+      "url": "https://eshel.org.il/",
+      "email": null,
+      "tax_id": "580062073",
+      "tax_status": "Israel Section 46",
+      "legal_status": "ngo",
+      "verified": true,
+      "last_verified_at": "2026-11-23"
+    },
+    {
+      "id": "org:Economic/Donations/YadLaKashish",
+      "name": "יד לקשיש (Lifeline for the Old) — העצמת אזרחים ותיקים",
+      "description": "סדנאות יצירה, תעסוקה מכבדת, ארוחות חמות ותמיכה חברתית למאות קשישים בירושלים",
+      "url": "https://www.lifeline.org.il/",
+      "email": null,
+      "tax_id": "580034338",
+      "tax_status": "Israel Section 46",
+      "legal_status": "ngo",
+      "verified": true,
+      "last_verified_at": "2026-11-23"
+    },
+    {
+      "id": "org:Economic/Donations/LemaanAchai",
+      "name": "למען אחי — שיקום כלכלי ורווחה חכמה למשפחות",
+      "description": "תוכנית שיקום כלכלי מקיפה, סיוע תעסוקתי, רפואי ומזון ליציאה מעגל העוני",
+      "url": "https://www.lemaanachai.org/en/",
+      "email": null,
+      "tax_id": "580365260",
+      "tax_status": "Israel Section 46",
+      "legal_status": "ngo",
+      "verified": true,
+      "last_verified_at": "2026-11-23"
     },
     {
       "id": "org:Economic/Businesses/Ogen",
@@ -673,7 +805,7 @@
       "tax_status": "Israel Section 46",
       "legal_status": "ngo",
       "verified": true,
-      "last_verified_at": "2026-11-22"
+      "last_verified_at": "2026-11-23"
     },
     {
       "id": "org:FamilyAndPets/Main/WIZOIsrael",
@@ -685,7 +817,7 @@
       "tax_status": "Israel Section 46",
       "legal_status": "ngo",
       "verified": true,
-      "last_verified_at": "2026-11-22"
+      "last_verified_at": "2026-11-23"
     },
     {
       "id": "org:FamilyAndPets/Main/LetTheAnimalsLive",
@@ -697,7 +829,55 @@
       "tax_status": "Israel Section 46",
       "legal_status": "ngo",
       "verified": true,
-      "last_verified_at": "2026-11-22"
+      "last_verified_at": "2026-11-23"
+    },
+    {
+      "id": "org:FamilyAndPets/Main/YeladimFairChance",
+      "name": "ילדים בסיכוי — למען ילדי ובוגרי פנימיות בישראל",
+      "description": "מנטורינג, דירות בוגרים, תמיכה בלימודים והכנה לחיים עצמאיים לילדי פנימיות וחסרי עורף משפחתי",
+      "url": "https://yeladim.org.il/",
+      "email": null,
+      "tax_id": null,
+      "tax_status": "Israel Section 46",
+      "legal_status": "ngo",
+      "verified": true,
+      "last_verified_at": null
+    },
+    {
+      "id": "org:FamilyAndPets/Main/OrrShalom",
+      "name": "אור שלום — משפחתונים ואומנה לילדים ובני נוער בסיכון",
+      "description": "משפחתונים, אומנה טיפולית וליווי בוגרים לילדים ובני נוער שהוצאו מבתיהם על ידי שירותי הרווחה",
+      "url": "https://orr-shalom.org.il/",
+      "email": null,
+      "tax_id": null,
+      "tax_status": "Israel Section 46",
+      "legal_status": "ngo",
+      "verified": true,
+      "last_verified_at": null
+    },
+    {
+      "id": "org:FamilyAndPets/Main/HandInHand",
+      "name": "יד ביד — בתי ספר דו-לשוניים וקהילות משותפות",
+      "description": "רשת בתי ספר וגנים דו-לשוניים וקהילות משותפות ליהודים וערבים ברחבי ישראל",
+      "url": "https://www.handinhandk12.org/",
+      "email": null,
+      "tax_id": "580293710",
+      "tax_status": "Israel Section 46",
+      "legal_status": "ngo",
+      "verified": true,
+      "last_verified_at": "2026-11-23"
+    },
+    {
+      "id": "org:FamilyAndPets/Main/SOSAnimals",
+      "name": "אס.או.אס חיות — הצלה ואימוץ כלבים וחתולים",
+      "description": "ימי אימוץ שבועיים, משפחות אומנה, עיקור וסירוס והצלת כלבים וחתולים נטושים",
+      "url": "https://www.sospets.co.il/",
+      "email": null,
+      "tax_id": null,
+      "tax_status": "Israel Section 46",
+      "legal_status": "ngo",
+      "verified": true,
+      "last_verified_at": null
     },
     {
       "id": "org:GeneralAssistance/Main/NefeshBNefesh",
@@ -709,7 +889,7 @@
       "tax_status": "Israel Section 46",
       "legal_status": "ngo",
       "verified": true,
-      "last_verified_at": "2026-11-22"
+      "last_verified_at": "2026-11-23"
     },
     {
       "id": "org:GeneralAssistance/Main/ShekelIsrael",
@@ -721,7 +901,7 @@
       "tax_status": "Israel Section 46",
       "legal_status": "ngo",
       "verified": true,
-      "last_verified_at": "2026-11-22"
+      "last_verified_at": "2026-11-23"
     },
     {
       "id": "org:GeneralAssistance/Main/Naamat",
@@ -733,7 +913,31 @@
       "tax_status": "Israel Section 46",
       "legal_status": "ngo",
       "verified": true,
-      "last_verified_at": "2026-11-22"
+      "last_verified_at": "2026-11-23"
+    },
+    {
+      "id": "org:GeneralAssistance/Main/SPNI",
+      "name": "החברה להגנת הטבע",
+      "description": "שמירת טבע, שיקום שטחים פתוחים, סימון שבילי ישראל, חוגי סיירות והתנדבות סביבתית",
+      "url": "https://www.teva.org.il/",
+      "email": null,
+      "tax_id": "580017499",
+      "tax_status": "Israel Section 46",
+      "legal_status": "ngo",
+      "verified": true,
+      "last_verified_at": "2026-11-23"
+    },
+    {
+      "id": "org:MemorialRemembrance/Main/GhettoFightersHouse",
+      "name": "מוזיאון בית לוחמי הגטאות — ארכיון, חינוך והנצחת השואה",
+      "description": "המוזיאון הראשון בעולם להנצחת השואה והגבורה, ארכיון עדויות פתוח ומרכז חינוך הומניסטי",
+      "url": "https://www.gfh.org.il/",
+      "email": null,
+      "tax_id": "580836278",
+      "tax_status": "Israel Section 46",
+      "legal_status": "ngo",
+      "verified": true,
+      "last_verified_at": "2026-11-23"
     },
     {
       "id": "org:FamilyAndPets/Main/Beterem",
@@ -757,7 +961,7 @@
       "tax_status": "Proper Management (Nihul Takin)",
       "legal_status": "ngo",
       "verified": true,
-      "last_verified_at": "2026-11-22"
+      "last_verified_at": "2026-11-23"
     },
     {
       "id": "org:StrategicCommunication/Main/voicesOfIsrael",
@@ -829,7 +1033,7 @@
       "tax_status": "Proper Management (Nihul Takin)",
       "legal_status": null,
       "verified": false,
-      "last_verified_at": "2026-11-22"
+      "last_verified_at": "2026-11-23"
     },
     {
       "id": "org:FamilyAndPets/ChildrenContent/OrnaPoratTheater",
@@ -841,7 +1045,7 @@
       "tax_status": "Proper Management (Nihul Takin)",
       "legal_status": null,
       "verified": false,
-      "last_verified_at": "2026-11-22"
+      "last_verified_at": "2026-11-23"
     },
     {
       "id": "org:MemorialRemembrance/Main/WixRememberThem",
@@ -2402,6 +2606,193 @@
       ]
     },
     {
+      "id": "svc:Medical/Main/ZichronMenachem",
+      "organization_id": "org:Medical/Main/ZichronMenachem",
+      "name": "זכרון מנחם — תמיכה בילדים וצעירים חולי סרטן",
+      "description": "עמותת זכרון מנחם (ע״ר 580179372) מעניקה מעטפת תמיכה הוליסטית לילדים, בני נוער וצעירים המתמודדים עם מחלת הסרטן ולבני משפחותיהם — כולל מרכזי יום, סלון פאות מתרומות שיער, מחנות קיץ וליווי שיקומי.",
+      "url": "https://www.linksforisrael.com/Medical/Main/ZichronMenachem",
+      "status": "active",
+      "taxonomy_ids": [
+        "Medical",
+        "Medical/Main"
+      ],
+      "intents": [
+        "get-help",
+        "volunteer",
+        "donate"
+      ]
+    },
+    {
+      "id": "svc:Medical/Main/ILANIsrael",
+      "organization_id": "org:Medical/Main/ILANIsrael",
+      "name": "איל״ן — איגוד ישראלי לילדים ולבוגרים עם מוגבלות פיזית",
+      "description": "איל״ן (ע״ר 580036242) פועלת מאז 1952 לקידום שילוב שוויוני ועצמאי של ילדים ובוגרים עם מוגבלויות פיזיות באמצעות עשרות מרכזי יום, מרכזי ספורט (ספיבק), דיור בקהילה ותמיכה במשפחות.",
+      "url": "https://www.linksforisrael.com/Medical/Main/ILANIsrael",
+      "status": "active",
+      "taxonomy_ids": [
+        "Medical",
+        "Medical/Main"
+      ],
+      "intents": [
+        "get-help",
+        "volunteer",
+        "donate"
+      ]
+    },
+    {
+      "id": "svc:Medical/Main/AlehIsrael",
+      "organization_id": "org:Medical/Main/AlehIsrael",
+      "name": "עלה — רשת מרכזי שיקום, רפואה וחינוך מיוחד",
+      "description": "רשת עלה מעניקה בית חם, שיקום פרא-רפואי, חינוך מיוחד וליווי משפחתי למאות ילדים, צעירים ובוגרים עם מוגבלויות מורכבות במרכזים בבני ברק, ירושלים וגדרה.",
+      "url": "https://www.linksforisrael.com/Medical/Main/AlehIsrael",
+      "status": "active",
+      "taxonomy_ids": [
+        "Medical",
+        "Medical/Main"
+      ],
+      "intents": [
+        "get-help",
+        "volunteer",
+        "donate"
+      ]
+    },
+    {
+      "id": "svc:Medical/MentalSupport/BishvilHaChaim",
+      "organization_id": "org:Medical/MentalSupport/BishvilHaChaim",
+      "name": "בשביל החיים — מניעת אובדנות ותמיכה במשפחות שכולות",
+      "description": "עמותת בשביל החיים (ע״ר 580357911) מלווה משפחות שאיבדו את יקיריהן בעקבות התאבדות באמצעות קבוצות תמיכה מונחות ברחבי הארץ ופועלת למניעת אובדנות והנגשת מידע מציל חיים.",
+      "url": "https://www.linksforisrael.com/Medical/MentalSupport/BishvilHaChaim",
+      "status": "active",
+      "taxonomy_ids": [
+        "Medical",
+        "Medical/MentalSupport"
+      ],
+      "intents": [
+        "get-help",
+        "volunteer",
+        "donate"
+      ]
+    },
+    {
+      "id": "svc:Medical/MentalSupport/AlSam",
+      "organization_id": "org:Medical/MentalSupport/AlSam",
+      "name": "אל-סם — ייעוץ, טיפול ומניעת התמכרויות לבני נוער והורים",
+      "description": "עמותת אל-סם (ע״ר 580008878) מפעילה מרכזי טיפול, סדנאות הסברה והדרכת הורים בפריסה ארצית לסיוע לבני נוער וצעירים במצבי סיכון והתמכרויות.",
+      "url": "https://www.linksforisrael.com/Medical/MentalSupport/AlSam",
+      "status": "active",
+      "taxonomy_ids": [
+        "Medical",
+        "Medical/MentalSupport"
+      ],
+      "intents": [
+        "get-help",
+        "volunteer",
+        "donate"
+      ]
+    },
+    {
+      "id": "svc:Defense/Main/IDFWO",
+      "organization_id": "org:Defense/Main/IDFWO",
+      "name": "ארגון אלמנות ויתומי צה״ל",
+      "description": "ארגון אלמנות ויתומי צה״ל (ע״ר 580202166) מלווה אלפי אלמנות ויתומים של חללי צה״ל וכוחות הביטחון במעטפת זכויות, תמיכה נפשית, פעילויות קהילתיות, מחנות 'עוצמה' ומלגות לימודים.",
+      "url": "https://www.linksforisrael.com/Defense/Main/IDFWO",
+      "status": "active",
+      "taxonomy_ids": [
+        "Defense",
+        "Defense/Main"
+      ],
+      "intents": [
+        "get-help",
+        "volunteer",
+        "donate"
+      ]
+    },
+    {
+      "id": "svc:Economic/Donations/HolocaustSurvivorsWelfare",
+      "organization_id": "org:Economic/Donations/HolocaustSurvivorsWelfare",
+      "name": "הקרן לרווחת נפגעי השואה בישראל",
+      "description": "הקרן לרווחת נפגעי השואה (ע״ר 580185700) מסייעת מדי שנה לעשרות אלפי שורדי שואה בישראל במימון סיעוד, לחצני מצוקה, תיקוני בית, סיוע סוציאלי ומערך מתנדבים להפגת בדידות.",
+      "url": "https://www.linksforisrael.com/Economic/Donations/HolocaustSurvivorsWelfare",
+      "status": "active",
+      "taxonomy_ids": [
+        "Economic",
+        "Economic/Donations"
+      ],
+      "intents": [
+        "get-help",
+        "volunteer",
+        "donate"
+      ]
+    },
+    {
+      "id": "svc:Economic/Donations/AvivForSeniors",
+      "organization_id": "org:Economic/Donations/AvivForSeniors",
+      "name": "עמותת אביב לגיל השלישי — מיצוי זכויות לאזרחים ותיקים",
+      "description": "עמותת אביב לגיל השלישי (לשעבר אביב לניצולי השואה) מעניקה ייעוץ וליווי אישי חינם לאזרחים ותיקים ולבני משפחותיהם במימוש זכויות סיעוד, בריאות, דיור ורווחה.",
+      "url": "https://www.linksforisrael.com/Economic/Donations/AvivForSeniors",
+      "status": "active",
+      "taxonomy_ids": [
+        "Economic",
+        "Economic/Donations"
+      ],
+      "intents": [
+        "get-help",
+        "volunteer",
+        "donate"
+      ]
+    },
+    {
+      "id": "svc:Economic/Donations/EshelChabad",
+      "organization_id": "org:Economic/Donations/EshelChabad",
+      "name": "אשל חב״ד — המרכז הארצי לביטחון תזונתי",
+      "description": "אשל חב״ד (ע״ר 580062073) מפעילה את המיזם הלאומי לביטחון תזונתי, בתי תמחוי, חלוקת סלי מזון וכרטיסי מזון נטענים לעשרות אלפי משפחות וקשישים ברחבי ישראל.",
+      "url": "https://www.linksforisrael.com/Economic/Donations/EshelChabad",
+      "status": "active",
+      "taxonomy_ids": [
+        "Economic",
+        "Economic/Donations"
+      ],
+      "intents": [
+        "get-help",
+        "volunteer",
+        "donate"
+      ]
+    },
+    {
+      "id": "svc:Economic/Donations/YadLaKashish",
+      "organization_id": "org:Economic/Donations/YadLaKashish",
+      "name": "יד לקשיש (Lifeline for the Old) — העצמת אזרחים ותיקים",
+      "description": "עמותת יד לקשיש (ע״ר 580034338) מעניקה למאות קשישים ועולים ותיקים בירושלים תחושת משמעות, קהילה, סדנאות אומנות, מענק חודשי, ארוחות חמות וליווי סוציאלי.",
+      "url": "https://www.linksforisrael.com/Economic/Donations/YadLaKashish",
+      "status": "active",
+      "taxonomy_ids": [
+        "Economic",
+        "Economic/Donations"
+      ],
+      "intents": [
+        "get-help",
+        "volunteer",
+        "donate"
+      ]
+    },
+    {
+      "id": "svc:Economic/Donations/LemaanAchai",
+      "organization_id": "org:Economic/Donations/LemaanAchai",
+      "name": "למען אחי — שיקום כלכלי ורווחה חכמה למשפחות",
+      "description": "עמותת למען אחי (ע״ר 580365260) מפעילה מודל 'צדקה חכמה' המשלב עובדים סוציאליים, יועצים פיננסיים, הכשרות מקצועיות וסיוע חירום כדי להוביל משפחות לעצמאות כלכלית.",
+      "url": "https://www.linksforisrael.com/Economic/Donations/LemaanAchai",
+      "status": "active",
+      "taxonomy_ids": [
+        "Economic",
+        "Economic/Donations"
+      ],
+      "intents": [
+        "get-help",
+        "volunteer",
+        "donate"
+      ]
+    },
+    {
       "id": "svc:Economic/Businesses/Ogen",
       "organization_id": "org:Economic/Businesses/Ogen",
       "name": "עוגן — הלוואות חברתיות ללא ריבית וליווי פיננסי",
@@ -2470,6 +2861,74 @@
       ]
     },
     {
+      "id": "svc:FamilyAndPets/Main/YeladimFairChance",
+      "organization_id": "org:FamilyAndPets/Main/YeladimFairChance",
+      "name": "ילדים בסיכוי — למען ילדי ובוגרי פנימיות בישראל",
+      "description": "עמותת ילדים בסיכוי פועלת למען אלפי ילדים ובני נוער הגדלים בפנימיות רווחה ובוגריהן חסרי העורף המשפחתי — באמצעות מנטורים מתנדבים, דירות בוגרים, טיפול רגשי ומלגות השכלה.",
+      "url": "https://www.linksforisrael.com/FamilyAndPets/Main/YeladimFairChance",
+      "status": "active",
+      "taxonomy_ids": [
+        "FamilyAndPets",
+        "FamilyAndPets/Main"
+      ],
+      "intents": [
+        "get-help",
+        "volunteer",
+        "donate"
+      ]
+    },
+    {
+      "id": "svc:FamilyAndPets/Main/OrrShalom",
+      "organization_id": "org:FamilyAndPets/Main/OrrShalom",
+      "name": "אור שלום — משפחתונים ואומנה לילדים ובני נוער בסיכון",
+      "description": "אור שלום היא הארגון הגדול בישראל לטיפול בילדים ובני נוער בסיכון במסגרות משפחתיות (משפחתונים ואומנה), כולל תוכניות ליווי לבוגרים חסרי עורף משפחתי עד לגיל 26.",
+      "url": "https://www.linksforisrael.com/FamilyAndPets/Main/OrrShalom",
+      "status": "active",
+      "taxonomy_ids": [
+        "FamilyAndPets",
+        "FamilyAndPets/Main"
+      ],
+      "intents": [
+        "get-help",
+        "volunteer",
+        "donate"
+      ]
+    },
+    {
+      "id": "svc:FamilyAndPets/Main/HandInHand",
+      "organization_id": "org:FamilyAndPets/Main/HandInHand",
+      "name": "יד ביד — בתי ספר דו-לשוניים וקהילות משותפות",
+      "description": "עמותת יד ביד (ע״ר 580293710) מפעילה בתי ספר דו-לשוניים (עברית-ערבית) וקהילות מעורבות בירושלים, הגליל, חיפה, יפו, כפר סבא וכפר קאסם לבניית חברה משותפת ושוויונית.",
+      "url": "https://www.linksforisrael.com/FamilyAndPets/Main/HandInHand",
+      "status": "active",
+      "taxonomy_ids": [
+        "FamilyAndPets",
+        "FamilyAndPets/Main"
+      ],
+      "intents": [
+        "get-help",
+        "volunteer",
+        "donate"
+      ]
+    },
+    {
+      "id": "svc:FamilyAndPets/Main/SOSAnimals",
+      "organization_id": "org:FamilyAndPets/Main/SOSAnimals",
+      "name": "אס.או.אס חיות — הצלה ואימוץ כלבים וחתולים",
+      "description": "עמותת אס.או.אס חיות פועלת מאז 1978 להצלת כלבים וחתולים נטושים, מציאת בתים מאמצים באמצעות ימי אימוץ ומשפחות אומנה, וסיוע בטיפולים וטרינריים.",
+      "url": "https://www.linksforisrael.com/FamilyAndPets/Main/SOSAnimals",
+      "status": "active",
+      "taxonomy_ids": [
+        "FamilyAndPets",
+        "FamilyAndPets/Main"
+      ],
+      "intents": [
+        "get-help",
+        "volunteer",
+        "donate"
+      ]
+    },
+    {
       "id": "svc:GeneralAssistance/Main/NefeshBNefesh",
       "organization_id": "org:GeneralAssistance/Main/NefeshBNefesh",
       "name": "נפש בנפש (Nefesh B'Nefesh)",
@@ -2516,6 +2975,39 @@
       ],
       "intents": [
         "get-help",
+        "donate"
+      ]
+    },
+    {
+      "id": "svc:GeneralAssistance/Main/SPNI",
+      "organization_id": "org:GeneralAssistance/Main/SPNI",
+      "name": "החברה להגנת הטבע",
+      "description": "החברה להגנת הטבע (ע״ר 580017499) היא ארגון הסביבה הגדול והוותיק בישראל, הפועל להגנת השטחים הפתוחים, שיקום הטבע שנפגע משריפות ומלחמה, חינוך סביבתי וסימון שביל ישראל.",
+      "url": "https://www.linksforisrael.com/GeneralAssistance/Main/SPNI",
+      "status": "active",
+      "taxonomy_ids": [
+        "GeneralAssistance",
+        "GeneralAssistance/Main"
+      ],
+      "intents": [
+        "volunteer",
+        "donate"
+      ]
+    },
+    {
+      "id": "svc:MemorialRemembrance/Main/GhettoFightersHouse",
+      "organization_id": "org:MemorialRemembrance/Main/GhettoFightersHouse",
+      "name": "מוזיאון בית לוחמי הגטאות — ארכיון, חינוך והנצחת השואה",
+      "description": "בית לוחמי הגטאות (ע״ר 580836278) נוסד על ידי שורדי השואה ולוחמי הגטאות, וכולל ארכיון היסטורי עשיר הפתוח לציבור, תערוכות חינוכיות ומוזיאון 'יד לילד'.",
+      "url": "https://www.linksforisrael.com/MemorialRemembrance/Main/GhettoFightersHouse",
+      "status": "active",
+      "taxonomy_ids": [
+        "MemorialRemembrance",
+        "MemorialRemembrance/Main"
+      ],
+      "intents": [
+        "get-help",
+        "volunteer",
         "donate"
       ]
     },

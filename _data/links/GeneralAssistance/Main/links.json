@@ -39,7 +39,7 @@
 				}
 			],
 			"registrationNumber": "580175545",
-			"registryCheckedAt": "2026-11-22",
+			"registryCheckedAt": "2026-11-23",
 			"properManagement": true
 		},
 		{
@@ -127,7 +127,7 @@
 				}
 			],
 			"registrationNumber": "580277481",
-			"registryCheckedAt": "2026-11-22",
+			"registryCheckedAt": "2026-11-23",
 			"properManagement": true
 		},
 		{
@@ -186,7 +186,7 @@
 				}
 			],
 			"registrationNumber": "580768935",
-			"registryCheckedAt": "2026-11-22",
+			"registryCheckedAt": "2026-11-23",
 			"properManagement": true
 		},
 		{
@@ -305,7 +305,7 @@
 				}
 			],
 			"registrationNumber": "580631620",
-			"registryCheckedAt": "2026-11-22",
+			"registryCheckedAt": "2026-11-23",
 			"properManagement": true
 		},
 		{
@@ -338,7 +338,7 @@
 				}
 			],
 			"registrationNumber": "580461689",
-			"registryCheckedAt": "2026-11-22"
+			"registryCheckedAt": "2026-11-23"
 		},
 		{
 			"displayName": "באנו",
@@ -470,7 +470,7 @@
 				}
 			],
 			"registrationNumber": "580777118",
-			"registryCheckedAt": "2026-11-22",
+			"registryCheckedAt": "2026-11-23",
 			"properManagement": true
 		},
 		{
@@ -506,7 +506,7 @@
 				}
 			],
 			"properManagement": true,
-			"registryCheckedAt": "2026-11-22"
+			"registryCheckedAt": "2026-11-23"
 		},
 		{
 			"name": "ShekelIsrael",
@@ -540,7 +540,7 @@
 				}
 			],
 			"properManagement": true,
-			"registryCheckedAt": "2026-11-22"
+			"registryCheckedAt": "2026-11-23"
 		},
 		{
 			"name": "Naamat",
@@ -574,7 +574,41 @@
 				}
 			],
 			"properManagement": true,
-			"registryCheckedAt": "2026-11-22"
+			"registryCheckedAt": "2026-11-23"
+		},
+		{
+			"name": "SPNI",
+			"displayName": "החברה להגנת הטבע",
+			"shortDescription": "שמירת טבע, שיקום שטחים פתוחים, סימון שבילי ישראל, חוגי סיירות והתנדבות סביבתית",
+			"description": "החברה להגנת הטבע (ע״ר 580017499) היא ארגון הסביבה הגדול והוותיק בישראל, הפועל להגנת השטחים הפתוחים, שיקום הטבע שנפגע משריפות ומלחמה, חינוך סביבתי וסימון שביל ישראל.",
+			"url": "https://www.teva.org.il/",
+			"website": "https://www.teva.org.il/",
+			"verified": true,
+			"taxDeductible46": true,
+			"registrationNumber": "580017499",
+			"organizationType": "ngo",
+			"intents": [
+				"volunteer",
+				"donate"
+			],
+			"tags": [
+				"טבע",
+				"סביבה",
+				"התנדבות",
+				"שביל ישראל",
+				"שיקום"
+			],
+			"createdAt": "2026-11-23T10:50:00+02:00",
+			"references": [
+				{
+					"url": "https://www.guidestar.org.il/organization/580017499",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "החברה להגנת הטבע (ע״ר)"
+				}
+			],
+			"properManagement": true,
+			"registryCheckedAt": "2026-11-23"
 		}
 	]
 }

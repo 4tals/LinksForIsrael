@@ -1,25 +1,25 @@
 {
   "version": "1.0",
   "source": "https://www.linksforisrael.com",
-  "generatedAt": "2026-11-22T13:20:39.883Z",
+  "generatedAt": "2026-11-23T08:51:55.050Z",
   "count": 8,
   "categories": [
     {
       "id": "Medical",
       "displayName": "בריאות ונפש",
       "description": "מוקדי סיוע נפשי 24/7, ציוד רפואי, הצלה, שיקום וליווי חולים ופצועים",
-      "count": 25,
+      "count": 30,
       "portalUrl": "https://www.linksforisrael.com/Medical",
       "subCategories": [
         {
           "id": "Main",
           "displayName": "ראשי",
-          "count": 16
+          "count": 19
         },
         {
           "id": "MentalSupport",
           "displayName": "תמיכה נפשית",
-          "count": 9
+          "count": 11
         }
       ]
     },
@@ -27,13 +27,13 @@
       "id": "Defense",
       "displayName": "חירום, ביטחון ומילואים",
       "description": "פיקוד העורף, חילוץ והצלה, מקלטים, מערך המילואים וסיוע בחירום",
-      "count": 13,
+      "count": 14,
       "portalUrl": "https://www.linksforisrael.com/Defense",
       "subCategories": [
         {
           "id": "Main",
           "displayName": "מילואים, לוגיסטיקה וביטחון",
-          "count": 5
+          "count": 6
         },
         {
           "id": "Emergency",
@@ -46,13 +46,13 @@
       "id": "Economic",
       "displayName": "תרומות, מזון וכלכלה",
       "description": "ארגוני מזון, עמותות מאומתות לתרומה, ייעוץ כלכלי למשפחות וסיוע לעסקים",
-      "count": 15,
+      "count": 20,
       "portalUrl": "https://www.linksforisrael.com/Economic",
       "subCategories": [
         {
           "id": "Donations",
           "displayName": "תרומות כספיות",
-          "count": 8
+          "count": 13
         },
         {
           "id": "Businesses",
@@ -65,13 +65,13 @@
       "id": "FamilyAndPets",
       "displayName": "משפחה, נוער ובע״ח",
       "description": "תנועות נוער, צרכים מיוחדים, משפחות מילואים, תכנים לילדים ובעלי חיים",
-      "count": 20,
+      "count": 24,
       "portalUrl": "https://www.linksforisrael.com/FamilyAndPets",
       "subCategories": [
         {
           "id": "Main",
           "displayName": "ראשי",
-          "count": 14
+          "count": 18
         },
         {
           "id": "ChildrenContent",
@@ -84,13 +84,13 @@
       "id": "GeneralAssistance",
       "displayName": "התנדבות, זכויות וקהילה",
       "description": "זכויות אזרחים ועובדים, מאגרי התנדבות ארציים, סיוע בדרכים וקהילות חברתיות",
-      "count": 18,
+      "count": 19,
       "portalUrl": "https://www.linksforisrael.com/GeneralAssistance",
       "subCategories": [
         {
           "id": "Main",
           "displayName": "התנדבות, זכויות וקהילה",
-          "count": 18
+          "count": 19
         }
       ]
     },
@@ -112,13 +112,13 @@
       "id": "MemorialRemembrance",
       "displayName": "שכול, הנצחה וזיכרון",
       "description": "זיכרון בסלון, ליווי משפחות שכולות, פרויקטי הנצחה ואתרי זיכרון",
-      "count": 8,
+      "count": 9,
       "portalUrl": "https://www.linksforisrael.com/MemorialRemembrance",
       "subCategories": [
         {
           "id": "Main",
           "displayName": "ראשי",
-          "count": 8
+          "count": 9
         }
       ]
     },

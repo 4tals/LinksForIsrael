@@ -52,6 +52,14 @@ export const US_501C3_IDS = new Set([
 	"ADIIsrael",
 	"Etgarim",
 	"ZikaronBaSalon",
+	"IDFWO",
+	"ZichronMenachem",
+	"ILANIsrael",
+	"AlehIsrael",
+	"HolocaustSurvivorsWelfare",
+	"YadLaKashish",
+	"SPNI",
+	"GhettoFightersHouse",
 ]);
 
 export const EN_ITEMS: IntlInitiativeItem[] = ENGLISH_INITIATIVES.map(

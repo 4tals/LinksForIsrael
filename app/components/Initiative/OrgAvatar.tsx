@@ -36,6 +36,8 @@ const SKIP_FAVICON_HOSTS = new Set([
 	"netinalahaher.org.il",
 	"yedidim-il.org",
 	"www.yedidim-il.org",
+	"alsam.org.il",
+	"www.alsam.org.il",
 ]);
 
 const FAVICON_HOST_OVERRIDES: Record<string, string> = {

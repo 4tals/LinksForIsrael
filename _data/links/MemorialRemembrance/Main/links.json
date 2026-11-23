@@ -46,7 +46,7 @@
 				}
 			],
 			"registrationNumber": "580662070",
-			"registryCheckedAt": "2026-11-22",
+			"registryCheckedAt": "2026-11-23",
 			"properManagement": true
 		},
 		{
@@ -212,6 +212,40 @@
 			],
 			"verified": false,
 			"createdAt": "2026-11-22"
+		},
+		{
+			"name": "GhettoFightersHouse",
+			"displayName": "מוזיאון בית לוחמי הגטאות — ארכיון, חינוך והנצחת השואה",
+			"shortDescription": "המוזיאון הראשון בעולם להנצחת השואה והגבורה, ארכיון עדויות פתוח ומרכז חינוך הומניסטי",
+			"description": "בית לוחמי הגטאות (ע״ר 580836278) נוסד על ידי שורדי השואה ולוחמי הגטאות, וכולל ארכיון היסטורי עשיר הפתוח לציבור, תערוכות חינוכיות ומוזיאון 'יד לילד'.",
+			"url": "https://www.gfh.org.il/",
+			"website": "https://www.gfh.org.il/",
+			"verified": true,
+			"taxDeductible46": true,
+			"registrationNumber": "580836278",
+			"organizationType": "ngo",
+			"intents": [
+				"get-help",
+				"volunteer",
+				"donate"
+			],
+			"tags": [
+				"שואה",
+				"זיכרון",
+				"ארכיון",
+				"הנצחה",
+				"חינוך"
+			],
+			"createdAt": "2026-11-23T10:50:00+02:00",
+			"references": [
+				{
+					"url": "https://www.guidestar.org.il/organization/580836278",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "ארכיון בית לוחמי הגטאות (ע״ר)"
+				}
+			],
+			"registryCheckedAt": "2026-11-23"
 		}
 	]
 }

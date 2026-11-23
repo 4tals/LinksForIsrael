@@ -339,4 +339,84 @@ export const ENGLISH_INITIATIVES: EnglishInitiative[] = [
 		url: "https://www.givethemakaddish.org/",
 		tags: ["memorial", "remembrance", "Kaddish"],
 	},
+	{
+		id: "IDFWO",
+		name: "IDF Widows & Orphans Organization",
+		category: "rehab",
+		categoryLabel: "Veterans & Mental Health",
+		summary:
+			"Israel's official statutory organization supporting thousands of widows and orphans of fallen IDF soldiers and security personnel.",
+		url: "https://www.idfwo.org/",
+		tags: ["widows", "orphans", "IDF", "bereaved families", "donate"],
+	},
+	{
+		id: "ZichronMenachem",
+		name: "Zichron Menachem",
+		category: "donate",
+		categoryLabel: "Humanitarian & Donations",
+		summary:
+			"Holistic medical, emotional, hair-donation wig salon, and summer-camp support for children and young adults battling cancer in Israel.",
+		url: "https://zichron.org/",
+		tags: ["cancer", "children", "medical", "donate"],
+	},
+	{
+		id: "ILANIsrael",
+		name: "ILAN — Israel Foundation for Handicapped Children",
+		category: "rehab",
+		categoryLabel: "Veterans & Mental Health",
+		summary:
+			"Empowering children and adults with physical disabilities since 1952 through adaptive sports centers, rehab daycares, and independent living.",
+		url: "https://ilan-israel.co.il/",
+		tags: ["disabilities", "rehabilitation", "sports", "children"],
+	},
+	{
+		id: "AlehIsrael",
+		name: "ALEH — Rehabilitative Care Network",
+		category: "rehab",
+		categoryLabel: "Veterans & Mental Health",
+		summary:
+			"Provides advanced medical, rehabilitative, and special-education care for children and adults with severe complex disabilities across Israel.",
+		url: "https://aleh.org/",
+		tags: ["disabilities", "rehabilitation", "special education"],
+	},
+	{
+		id: "HolocaustSurvivorsWelfare",
+		name: "Foundation for the Benefit of Holocaust Victims in Israel",
+		category: "donate",
+		categoryLabel: "Humanitarian & Donations",
+		summary:
+			"Provides nursing hours, emergency distress buttons, eyeglasses, home repairs, and volunteer companionship for tens of thousands of Holocaust survivors.",
+		url: "https://www.k-shoa.org/",
+		tags: ["Holocaust survivors", "elderly", "welfare", "donate"],
+	},
+	{
+		id: "YadLaKashish",
+		name: "Yad LaKashish — Lifeline for the Old",
+		category: "volunteer",
+		categoryLabel: "Volunteering & Community",
+		summary:
+			"Empowers hundreds of elderly Jerusalem residents with purpose, dignity, artisan workshops, hot meals, and social care.",
+		url: "https://www.lifeline.org.il/",
+		tags: ["elderly", "Jerusalem", "community", "art"],
+	},
+	{
+		id: "SPNI",
+		name: "Society for the Protection of Nature in Israel (SPNI)",
+		category: "volunteer",
+		categoryLabel: "Volunteering & Community",
+		summary:
+			"Israel's oldest and largest nature conservation NGO leading wildlife restoration, Israel National Trail stewardship, and environmental volunteering.",
+		url: "https://www.teva.org.il/",
+		tags: ["nature", "environment", "volunteer", "Israel Trail"],
+	},
+	{
+		id: "GhettoFightersHouse",
+		name: "Ghetto Fighters' House Museum & Archive",
+		category: "advocacy",
+		categoryLabel: "Advocacy & Remembrance",
+		summary:
+			"The world's first Holocaust museum founded by survivors, preserving open historical archives, testimonies, and Yad Layeled youth education.",
+		url: "https://www.gfh.org.il/",
+		tags: ["Holocaust", "archive", "museum", "remembrance"],
+	},
 ];

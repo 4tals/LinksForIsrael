@@ -39,7 +39,7 @@
 				}
 			],
 			"registrationNumber": "580455491",
-			"registryCheckedAt": "2026-11-22",
+			"registryCheckedAt": "2026-11-23",
 			"properManagement": true
 		},
 		{
@@ -88,7 +88,7 @@
 				}
 			],
 			"registrationNumber": "580173730",
-			"registryCheckedAt": "2026-11-22",
+			"registryCheckedAt": "2026-11-23",
 			"properManagement": true
 		},
 		{
@@ -129,7 +129,7 @@
 				}
 			],
 			"registrationNumber": "580019800",
-			"registryCheckedAt": "2026-11-22",
+			"registryCheckedAt": "2026-11-23",
 			"properManagement": true
 		},
 		{
@@ -185,7 +185,7 @@
 				}
 			],
 			"registrationNumber": "580030047",
-			"registryCheckedAt": "2026-11-22",
+			"registryCheckedAt": "2026-11-23",
 			"properManagement": true
 		},
 		{
@@ -239,7 +239,7 @@
 				}
 			],
 			"registrationNumber": "580318129",
-			"registryCheckedAt": "2026-11-22",
+			"registryCheckedAt": "2026-11-23",
 			"properManagement": true
 		},
 		{
@@ -287,7 +287,7 @@
 				}
 			],
 			"registrationNumber": "580399681",
-			"registryCheckedAt": "2026-11-22",
+			"registryCheckedAt": "2026-11-23",
 			"properManagement": true
 		},
 		{
@@ -353,6 +353,74 @@
 					"title": "המלצה ציבורית מוקדמת על מערך הסיוע לב בטוח"
 				}
 			]
+		},
+		{
+			"name": "BishvilHaChaim",
+			"displayName": "בשביל החיים — מניעת אובדנות ותמיכה במשפחות שכולות",
+			"shortDescription": "קבוצות תמיכה, ליווי מקצועי למשפחות שאיבדו יקיר מאובדנות והעלאת מודעות למניעת אובדנות",
+			"description": "עמותת בשביל החיים (ע״ר 580357911) מלווה משפחות שאיבדו את יקיריהן בעקבות התאבדות באמצעות קבוצות תמיכה מונחות ברחבי הארץ ופועלת למניעת אובדנות והנגשת מידע מציל חיים.",
+			"url": "https://path-to-life.org/",
+			"website": "https://path-to-life.org/",
+			"verified": true,
+			"taxDeductible46": true,
+			"registrationNumber": "580357911",
+			"organizationType": "ngo",
+			"intents": [
+				"get-help",
+				"volunteer",
+				"donate"
+			],
+			"tags": [
+				"מניעת אובדנות",
+				"סיוע נפשי",
+				"משפחות שכולות",
+				"קבוצות תמיכה"
+			],
+			"createdAt": "2026-11-23T10:50:00+02:00",
+			"references": [
+				{
+					"url": "https://www.guidestar.org.il/organization/580357911",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "בשביל החיים (ע״ר)"
+				}
+			],
+			"properManagement": true,
+			"registryCheckedAt": "2026-11-23"
+		},
+		{
+			"name": "AlSam",
+			"displayName": "אל-סם — ייעוץ, טיפול ומניעת התמכרויות לבני נוער והורים",
+			"shortDescription": "מרכזי ייעוץ וטיפול חינמיים ודיסקרטיים לבני נוער, צעירים והורים בהתמודדות עם סמים, אלכוהול והתמכרויות",
+			"description": "עמותת אל-סם (ע״ר 580008878) מפעילה מרכזי טיפול, סדנאות הסברה והדרכת הורים בפריסה ארצית לסיוע לבני נוער וצעירים במצבי סיכון והתמכרויות.",
+			"url": "https://alsam.org.il/",
+			"website": "https://alsam.org.il/",
+			"verified": true,
+			"taxDeductible46": true,
+			"registrationNumber": "580008878",
+			"organizationType": "ngo",
+			"intents": [
+				"get-help",
+				"volunteer",
+				"donate"
+			],
+			"tags": [
+				"בני נוער",
+				"התמכרויות",
+				"הדרכת הורים",
+				"ייעוץ נפשי"
+			],
+			"createdAt": "2026-11-23T10:50:00+02:00",
+			"references": [
+				{
+					"url": "https://www.guidestar.org.il/organization/580008878",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "עמותת אל-סם (ע״ר)"
+				}
+			],
+			"properManagement": true,
+			"registryCheckedAt": "2026-11-23"
 		}
 	]
 }

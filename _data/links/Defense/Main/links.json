@@ -135,6 +135,41 @@
 			],
 			"verified": false,
 			"createdAt": "2026-11-22"
+		},
+		{
+			"name": "IDFWO",
+			"displayName": "ארגון אלמנות ויתומי צה״ל",
+			"shortDescription": "הארגון היציג של אלמנות ויתומי צה״ל וכוחות הביטחון — מיצוי זכויות, תמיכה רגשית, מלגות ומחנות עוצמה",
+			"description": "ארגון אלמנות ויתומי צה״ל (ע״ר 580202166) מלווה אלפי אלמנות ויתומים של חללי צה״ל וכוחות הביטחון במעטפת זכויות, תמיכה נפשית, פעילויות קהילתיות, מחנות 'עוצמה' ומלגות לימודים.",
+			"url": "https://www.idfwo.org/",
+			"website": "https://www.idfwo.org/",
+			"verified": true,
+			"taxDeductible46": true,
+			"registrationNumber": "580202166",
+			"organizationType": "ngo",
+			"intents": [
+				"get-help",
+				"volunteer",
+				"donate"
+			],
+			"tags": [
+				"אלמנות צה״ל",
+				"יתומי צה״ל",
+				"משפחות שכולות",
+				"זכויות",
+				"צה״ל"
+			],
+			"createdAt": "2026-11-23T10:50:00+02:00",
+			"references": [
+				{
+					"url": "https://www.guidestar.org.il/organization/580202166",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "ארגון אלמנות ויתומי צה״ל (ע״ר)"
+				}
+			],
+			"properManagement": true,
+			"registryCheckedAt": "2026-11-23"
 		}
 	]
 }

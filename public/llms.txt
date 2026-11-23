@@ -18,20 +18,20 @@
 - Verification Methodology: https://www.linksforisrael.com/docs/methodology
 - Accessibility Statement (IS 5568 / WCAG 2.1 AA): https://www.linksforisrael.com/docs/accessibility
 - Embeddable Hotlines Widget: https://www.linksforisrael.com/embed/hotlines
-- Open JSON API (all 130 ranked initiatives + data.gov.il registry provenance): https://www.linksforisrael.com/api/v1/initiatives.json
+- Open JSON API (all 147 ranked initiatives + data.gov.il registry provenance): https://www.linksforisrael.com/api/v1/initiatives.json
 - Open Referral HSDS Feed: https://www.linksforisrael.com/api/v1/hsds.json
 - Categories JSON API: https://www.linksforisrael.com/api/v1/categories.json
 - Sitemap: https://www.linksforisrael.com/sitemap.xml
 - GitHub Repository (submit initiatives, references, or broken links via Issues): https://github.com/4tals/LinksForIsrael
 
 ## Categories
-- [בריאות ונפש](https://www.linksforisrael.com/Medical): 25 initiatives
-- [חירום, ביטחון ומילואים](https://www.linksforisrael.com/Defense): 13 initiatives
-- [תרומות, מזון וכלכלה](https://www.linksforisrael.com/Economic): 15 initiatives
-- [משפחה, נוער ובע״ח](https://www.linksforisrael.com/FamilyAndPets): 20 initiatives
-- [התנדבות, זכויות וקהילה](https://www.linksforisrael.com/GeneralAssistance): 18 initiatives
+- [בריאות ונפש](https://www.linksforisrael.com/Medical): 30 initiatives
+- [חירום, ביטחון ומילואים](https://www.linksforisrael.com/Defense): 14 initiatives
+- [תרומות, מזון וכלכלה](https://www.linksforisrael.com/Economic): 20 initiatives
+- [משפחה, נוער ובע״ח](https://www.linksforisrael.com/FamilyAndPets): 24 initiatives
+- [התנדבות, זכויות וקהילה](https://www.linksforisrael.com/GeneralAssistance): 19 initiatives
 - [חקלאות ותוצרת הארץ](https://www.linksforisrael.com/Agriculture): 8 initiatives
-- [שכול, הנצחה וזיכרון](https://www.linksforisrael.com/MemorialRemembrance): 8 initiatives
+- [שכול, הנצחה וזיכרון](https://www.linksforisrael.com/MemorialRemembrance): 9 initiatives
 - [הסברה ודיפלומטיה](https://www.linksforisrael.com/StrategicCommunication): 23 initiatives
 
 ## Verified Flagship Organizations
@@ -89,13 +89,30 @@
 - [למענם — רופאות ורופאים למען שורדי שואה](https://lemaanam.org.il/): שירותי רפואה מקצועיים, ביקורי בית וליווי רפואי חינם לשורדי שואה בפריסה ארצית
 - [בית איזי שפירא](https://beitissie.org.il/): טיפולים, מחקר, חדשנות טכנולוגית ושיקום לילדים ומבוגרים עם מוגבלויות ולמשפחותיהם
 - [המרכז הישראלי לכלבי נחייה לעיוורים](https://www.israelguidedog.org.il/): גידול, אימון והתאמת כלבי נחייה לעיוורים וכלבי שירות ללוחמים עם פוסט-טראומה — ללא עלות
+- [זכרון מנחם — תמיכה בילדים וצעירים חולי סרטן](https://zichron.org/): מרכזי יום, תרומות שיער לפאות, מחנות נופש וליווי רגשי ורפואי חינם לילדים וצעירים חולי סרטן ולמשפחותיהם
+- [איל״ן — איגוד ישראלי לילדים ולבוגרים עם מוגבלות פיזית](https://ilan-israel.co.il/): מרכזי ספורט שיקומי, גנים, דיור בקהילה, תעסוקה וליווי משפחות לאנשים עם מוגבלות פיזית בכל הארץ
+- [עלה — רשת מרכזי שיקום, רפואה וחינוך מיוחד](https://aleh.org/): טיפול רפואי, שיקומי וחינוכי מתקדם לילדים ובוגרים עם מוגבלויות מורכבות בפריסה ארצית
+- [בשביל החיים — מניעת אובדנות ותמיכה במשפחות שכולות](https://path-to-life.org/): קבוצות תמיכה, ליווי מקצועי למשפחות שאיבדו יקיר מאובדנות והעלאת מודעות למניעת אובדנות
+- [אל-סם — ייעוץ, טיפול ומניעת התמכרויות לבני נוער והורים](https://alsam.org.il/): מרכזי ייעוץ וטיפול חינמיים ודיסקרטיים לבני נוער, צעירים והורים בהתמודדות עם סמים, אלכוהול והתמכרויות
+- [ארגון אלמנות ויתומי צה״ל](https://www.idfwo.org/): הארגון היציג של אלמנות ויתומי צה״ל וכוחות הביטחון — מיצוי זכויות, תמיכה רגשית, מלגות ומחנות עוצמה
+- [הקרן לרווחת נפגעי השואה בישראל](https://www.k-shoa.org/): שעות סיעוד נוספות, לחצני מצוקה, משקפיים, התנדבות להפגת בדידות וסיוע כלכלי לשורדי שואה
+- [עמותת אביב לגיל השלישי — מיצוי זכויות לאזרחים ותיקים](https://www.aviv.org.il/): סיוע מקצועי חינם במיצוי זכויות, גמלת סיעוד, ביטוח לאומי והטבות לשורדי שואה ואזרחים ותיקים
+- [אשל חב״ד — המרכז הארצי לביטחון תזונתי](https://eshel.org.il/): סלי מזון, כרטיסי מזון למשפחות, ארוחות חמות ובתי תמחוי בפריסה ארצית
+- [יד לקשיש (Lifeline for the Old) — העצמת אזרחים ותיקים](https://www.lifeline.org.il/): סדנאות יצירה, תעסוקה מכבדת, ארוחות חמות ותמיכה חברתית למאות קשישים בירושלים
+- [למען אחי — שיקום כלכלי ורווחה חכמה למשפחות](https://www.lemaanachai.org/en/): תוכנית שיקום כלכלי מקיפה, סיוע תעסוקתי, רפואי ומזון ליציאה מעגל העוני
 - [עוגן — הלוואות חברתיות ללא ריבית וליווי פיננסי](https://www.ogen.org/): הלוואות ללא ריבית או בריבית חברתית ומנטורינג פיננסי למשפחות, עסקים קטנים, מילואימניקים ועמותות
 - [אקים ישראל — לאנשים עם מוגבלות שכלית ולמשפחותיהם](https://akim.org.il/): קו סיוע 'הורים למען הורים', דיור בקהילה, סנגור ומיצוי זכויות בפריסה ארצית
 - [ויצו ישראל — משפחה, רווחה וקו חם לנשים וגברים](https://wizo.org.il/): מקלטים ומרכזים לטיפול באלימות במשפחה, מעונות יום, ייעוץ משפטי וחנויות ביגודית
 - [תנו לחיות לחיות](https://www.letlive.org.il/): הצלת בעלי חיים, אמבולנס חילוץ, מרפאות, אימוץ כלבים וחתולים וסיוע משפטי לזכויות בעלי חיים
+- [ילדים בסיכוי — למען ילדי ובוגרי פנימיות בישראל](https://yeladim.org.il/): מנטורינג, דירות בוגרים, תמיכה בלימודים והכנה לחיים עצמאיים לילדי פנימיות וחסרי עורף משפחתי
+- [אור שלום — משפחתונים ואומנה לילדים ובני נוער בסיכון](https://orr-shalom.org.il/): משפחתונים, אומנה טיפולית וליווי בוגרים לילדים ובני נוער שהוצאו מבתיהם על ידי שירותי הרווחה
+- [יד ביד — בתי ספר דו-לשוניים וקהילות משותפות](https://www.handinhandk12.org/): רשת בתי ספר וגנים דו-לשוניים וקהילות משותפות ליהודים וערבים ברחבי ישראל
+- [אס.או.אס חיות — הצלה ואימוץ כלבים וחתולים](https://www.sospets.co.il/): ימי אימוץ שבועיים, משפחות אומנה, עיקור וסירוס והצלת כלבים וחתולים נטושים
 - [נפש בנפש (Nefesh B'Nefesh)](https://www.nbn.org.il/): ליווי מקיף, ייעוץ זכויות, קליטה, תעסוקה ותמיכה לחיילים בודדים ולעולים חדשים
 - [שק״ל — שילוב קהילתי לאנשים עם מוגבלויות](https://www.shekel.org.il/): דיור בקהילה, תעסוקה משלבת, מרכזי פנאי והנגשה לאנשים עם מוגבלויות בכל הארץ
 - [נעמת — זכויות נשים, ייעוץ משפטי ומעונות יום](https://naamat.org.il/): ייעוץ משפטי בענייני עבודה ומשפחה, מרכזים לטיפול באלימות במשפחה ורשת מעונות יום
+- [החברה להגנת הטבע](https://www.teva.org.il/): שמירת טבע, שיקום שטחים פתוחים, סימון שבילי ישראל, חוגי סיירות והתנדבות סביבתית
+- [מוזיאון בית לוחמי הגטאות — ארכיון, חינוך והנצחת השואה](https://www.gfh.org.il/): המוזיאון הראשון בעולם להנצחת השואה והגבורה, ארכיון עדויות פתוח ומרכז חינוך הומניסטי
 - [בטרם — הארגון הלאומי לבטיחות ילדים](https://beterem.org/): מדריכים, הנחיות מניעת היפגעות בבית ובדרכים והדרכות בטיחות להורים ולאנשי מקצוע
 - [עמותת נתינה לאחר ישראל](https://netinalahaher.org.il/): התנדבות לבישול ביתי ושינוע ארוחות חמות מדי שבוע למשפחות מעוטות יכולת וקשישים ברחבי הארץ (ללא תרומות כספיות)
 - [קולות מישראל - Voice Of Israel](https://voicesofisrael.org/): גוף תומך בפעילויות הסברתיות פרו-ישראלית מסביב לעולם

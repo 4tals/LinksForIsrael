@@ -47,7 +47,7 @@
 				}
 			],
 			"registrationNumber": "580407633",
-			"registryCheckedAt": "2026-11-22",
+			"registryCheckedAt": "2026-11-23",
 			"properManagement": true
 		},
 		{
@@ -101,7 +101,7 @@
 				}
 			],
 			"registrationNumber": "580294940",
-			"registryCheckedAt": "2026-11-22",
+			"registryCheckedAt": "2026-11-23",
 			"properManagement": true
 		},
 		{
@@ -149,7 +149,7 @@
 				}
 			],
 			"registrationNumber": "580328839",
-			"registryCheckedAt": "2026-11-22",
+			"registryCheckedAt": "2026-11-23",
 			"properManagement": true
 		},
 		{
@@ -217,7 +217,7 @@
 				}
 			],
 			"registrationNumber": "580601946",
-			"registryCheckedAt": "2026-11-22",
+			"registryCheckedAt": "2026-11-23",
 			"properManagement": true
 		},
 		{
@@ -262,7 +262,7 @@
 				}
 			],
 			"registrationNumber": "580586998",
-			"registryCheckedAt": "2026-11-22",
+			"registryCheckedAt": "2026-11-23",
 			"properManagement": true
 		},
 		{
@@ -299,7 +299,179 @@
 				}
 			],
 			"properManagement": true,
-			"registryCheckedAt": "2026-11-22"
+			"registryCheckedAt": "2026-11-23"
+		},
+		{
+			"name": "HolocaustSurvivorsWelfare",
+			"displayName": "הקרן לרווחת נפגעי השואה בישראל",
+			"shortDescription": "שעות סיעוד נוספות, לחצני מצוקה, משקפיים, התנדבות להפגת בדידות וסיוע כלכלי לשורדי שואה",
+			"description": "הקרן לרווחת נפגעי השואה (ע״ר 580185700) מסייעת מדי שנה לעשרות אלפי שורדי שואה בישראל במימון סיעוד, לחצני מצוקה, תיקוני בית, סיוע סוציאלי ומערך מתנדבים להפגת בדידות.",
+			"url": "https://www.k-shoa.org/",
+			"website": "https://www.k-shoa.org/",
+			"verified": true,
+			"taxDeductible46": true,
+			"registrationNumber": "580185700",
+			"organizationType": "ngo",
+			"intents": [
+				"get-help",
+				"volunteer",
+				"donate"
+			],
+			"tags": [
+				"שורדי שואה",
+				"קשישים",
+				"סיעוד",
+				"רווחה",
+				"הפגת בדידות"
+			],
+			"createdAt": "2026-11-23T10:50:00+02:00",
+			"references": [
+				{
+					"url": "https://www.guidestar.org.il/organization/580185700",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "הקרן לרווחת נפגעי השואה (ע״ר)"
+				}
+			],
+			"properManagement": true,
+			"registryCheckedAt": "2026-11-23"
+		},
+		{
+			"name": "AvivForSeniors",
+			"displayName": "עמותת אביב לגיל השלישי — מיצוי זכויות לאזרחים ותיקים",
+			"shortDescription": "סיוע מקצועי חינם במיצוי זכויות, גמלת סיעוד, ביטוח לאומי והטבות לשורדי שואה ואזרחים ותיקים",
+			"description": "עמותת אביב לגיל השלישי (לשעבר אביב לניצולי השואה) מעניקה ייעוץ וליווי אישי חינם לאזרחים ותיקים ולבני משפחותיהם במימוש זכויות סיעוד, בריאות, דיור ורווחה.",
+			"url": "https://www.aviv.org.il/",
+			"website": "https://www.aviv.org.il/",
+			"verified": true,
+			"taxDeductible46": true,
+			"organizationType": "ngo",
+			"intents": [
+				"get-help",
+				"volunteer",
+				"donate"
+			],
+			"tags": [
+				"אזרחים ותיקים",
+				"קשישים",
+				"שורדי שואה",
+				"זכויות",
+				"סיעוד"
+			],
+			"createdAt": "2026-11-23T10:50:00+02:00",
+			"references": [
+				{
+					"url": "https://www.kolzchut.org.il/he/%D7%90%D7%91%D7%99%D7%91_%D7%9C%D7%A0%D7%99%D7%A6%D7%95%D7%9C%D7%99_%D7%94%D7%A9%D7%95%D7%90%D7%94",
+					"type": "official",
+					"source": "KolZchut",
+					"title": "אביב לגיל השלישי / לניצולי השואה בכל זכות"
+				}
+			]
+		},
+		{
+			"name": "EshelChabad",
+			"displayName": "אשל חב״ד — המרכז הארצי לביטחון תזונתי",
+			"shortDescription": "סלי מזון, כרטיסי מזון למשפחות, ארוחות חמות ובתי תמחוי בפריסה ארצית",
+			"description": "אשל חב״ד (ע״ר 580062073) מפעילה את המיזם הלאומי לביטחון תזונתי, בתי תמחוי, חלוקת סלי מזון וכרטיסי מזון נטענים לעשרות אלפי משפחות וקשישים ברחבי ישראל.",
+			"url": "https://eshel.org.il/",
+			"website": "https://eshel.org.il/",
+			"verified": true,
+			"taxDeductible46": true,
+			"registrationNumber": "580062073",
+			"organizationType": "ngo",
+			"intents": [
+				"get-help",
+				"volunteer",
+				"donate"
+			],
+			"tags": [
+				"ביטחון תזונתי",
+				"מזון",
+				"סלי מזון",
+				"משפחות",
+				"תרומה"
+			],
+			"createdAt": "2026-11-23T10:50:00+02:00",
+			"references": [
+				{
+					"url": "https://www.guidestar.org.il/organization/580062073",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "אשל חב״ד (ע״ר)"
+				}
+			],
+			"properManagement": true,
+			"registryCheckedAt": "2026-11-23"
+		},
+		{
+			"name": "YadLaKashish",
+			"displayName": "יד לקשיש (Lifeline for the Old) — העצמת אזרחים ותיקים",
+			"shortDescription": "סדנאות יצירה, תעסוקה מכבדת, ארוחות חמות ותמיכה חברתית למאות קשישים בירושלים",
+			"description": "עמותת יד לקשיש (ע״ר 580034338) מעניקה למאות קשישים ועולים ותיקים בירושלים תחושת משמעות, קהילה, סדנאות אומנות, מענק חודשי, ארוחות חמות וליווי סוציאלי.",
+			"url": "https://www.lifeline.org.il/",
+			"website": "https://www.lifeline.org.il/",
+			"verified": true,
+			"taxDeductible46": true,
+			"registrationNumber": "580034338",
+			"organizationType": "ngo",
+			"intents": [
+				"get-help",
+				"volunteer",
+				"donate"
+			],
+			"tags": [
+				"קשישים",
+				"גיל שלישי",
+				"ירושלים",
+				"אומנות",
+				"תעסוקה"
+			],
+			"createdAt": "2026-11-23T10:50:00+02:00",
+			"references": [
+				{
+					"url": "https://www.guidestar.org.il/organization/580034338",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "יד לקשיש (ע״ר)"
+				}
+			],
+			"properManagement": true,
+			"registryCheckedAt": "2026-11-23"
+		},
+		{
+			"name": "LemaanAchai",
+			"displayName": "למען אחי — שיקום כלכלי ורווחה חכמה למשפחות",
+			"shortDescription": "תוכנית שיקום כלכלי מקיפה, סיוע תעסוקתי, רפואי ומזון ליציאה מעגל העוני",
+			"description": "עמותת למען אחי (ע״ר 580365260) מפעילה מודל 'צדקה חכמה' המשלב עובדים סוציאליים, יועצים פיננסיים, הכשרות מקצועיות וסיוע חירום כדי להוביל משפחות לעצמאות כלכלית.",
+			"url": "https://www.lemaanachai.org/en/",
+			"website": "https://www.lemaanachai.org/en/",
+			"verified": true,
+			"taxDeductible46": true,
+			"registrationNumber": "580365260",
+			"organizationType": "ngo",
+			"intents": [
+				"get-help",
+				"volunteer",
+				"donate"
+			],
+			"tags": [
+				"שיקום כלכלי",
+				"משפחות",
+				"תעסוקה",
+				"רווחה",
+				"תרומה"
+			],
+			"createdAt": "2026-11-23T10:50:00+02:00",
+			"references": [
+				{
+					"url": "https://www.guidestar.org.il/organization/580365260",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "למען אחי (ע״ר)"
+				}
+			],
+			"properManagement": true,
+			"registryCheckedAt": "2026-11-23"
 		}
 	]
 }

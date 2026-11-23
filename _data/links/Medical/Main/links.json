@@ -40,7 +40,7 @@
 				}
 			],
 			"registrationNumber": "580367795",
-			"registryCheckedAt": "2026-11-22",
+			"registryCheckedAt": "2026-11-23",
 			"properManagement": true
 		},
 		{
@@ -88,7 +88,7 @@
 				}
 			],
 			"registrationNumber": "580465979",
-			"registryCheckedAt": "2026-11-22",
+			"registryCheckedAt": "2026-11-23",
 			"properManagement": true
 		},
 		{
@@ -143,7 +143,7 @@
 				}
 			],
 			"registrationNumber": "580079978",
-			"registryCheckedAt": "2026-11-22",
+			"registryCheckedAt": "2026-11-23",
 			"properManagement": true
 		},
 		{
@@ -192,7 +192,7 @@
 				}
 			],
 			"registrationNumber": "580030104",
-			"registryCheckedAt": "2026-11-22",
+			"registryCheckedAt": "2026-11-23",
 			"properManagement": true
 		},
 		{
@@ -496,7 +496,7 @@
 				}
 			],
 			"properManagement": true,
-			"registryCheckedAt": "2026-11-22"
+			"registryCheckedAt": "2026-11-23"
 		},
 		{
 			"name": "Lemaanam",
@@ -530,7 +530,7 @@
 				}
 			],
 			"properManagement": true,
-			"registryCheckedAt": "2026-11-22"
+			"registryCheckedAt": "2026-11-23"
 		},
 		{
 			"name": "BeitIssieShapiro",
@@ -564,7 +564,7 @@
 				}
 			],
 			"properManagement": true,
-			"registryCheckedAt": "2026-11-22"
+			"registryCheckedAt": "2026-11-23"
 		},
 		{
 			"name": "IsraelGuideDogCenter",
@@ -598,7 +598,108 @@
 				}
 			],
 			"properManagement": true,
-			"registryCheckedAt": "2026-11-22"
+			"registryCheckedAt": "2026-11-23"
+		},
+		{
+			"name": "ZichronMenachem",
+			"displayName": "זכרון מנחם — תמיכה בילדים וצעירים חולי סרטן",
+			"shortDescription": "מרכזי יום, תרומות שיער לפאות, מחנות נופש וליווי רגשי ורפואי חינם לילדים וצעירים חולי סרטן ולמשפחותיהם",
+			"description": "עמותת זכרון מנחם (ע״ר 580179372) מעניקה מעטפת תמיכה הוליסטית לילדים, בני נוער וצעירים המתמודדים עם מחלת הסרטן ולבני משפחותיהם — כולל מרכזי יום, סלון פאות מתרומות שיער, מחנות קיץ וליווי שיקומי.",
+			"url": "https://zichron.org/",
+			"website": "https://zichron.org/",
+			"verified": true,
+			"taxDeductible46": true,
+			"registrationNumber": "580179372",
+			"organizationType": "ngo",
+			"intents": [
+				"get-help",
+				"volunteer",
+				"donate"
+			],
+			"tags": [
+				"סרטן",
+				"ילדים",
+				"תרומת שיער",
+				"רפואה",
+				"תמיכה במשפחות"
+			],
+			"createdAt": "2026-11-23T10:50:00+02:00",
+			"references": [
+				{
+					"url": "https://www.guidestar.org.il/organization/580179372",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "זכרון מנחם (ע״ר)"
+				}
+			],
+			"properManagement": true,
+			"registryCheckedAt": "2026-11-23"
+		},
+		{
+			"name": "ILANIsrael",
+			"displayName": "איל״ן — איגוד ישראלי לילדים ולבוגרים עם מוגבלות פיזית",
+			"shortDescription": "מרכזי ספורט שיקומי, גנים, דיור בקהילה, תעסוקה וליווי משפחות לאנשים עם מוגבלות פיזית בכל הארץ",
+			"description": "איל״ן (ע״ר 580036242) פועלת מאז 1952 לקידום שילוב שוויוני ועצמאי של ילדים ובוגרים עם מוגבלויות פיזיות באמצעות עשרות מרכזי יום, מרכזי ספורט (ספיבק), דיור בקהילה ותמיכה במשפחות.",
+			"url": "https://ilan-israel.co.il/",
+			"website": "https://ilan-israel.co.il/",
+			"verified": true,
+			"taxDeductible46": true,
+			"registrationNumber": "580036242",
+			"organizationType": "ngo",
+			"intents": [
+				"get-help",
+				"volunteer",
+				"donate"
+			],
+			"tags": [
+				"מוגבלות פיזית",
+				"שיקום",
+				"ספורט נכים",
+				"ילדים",
+				"נגישות"
+			],
+			"createdAt": "2026-11-23T10:50:00+02:00",
+			"references": [
+				{
+					"url": "https://www.guidestar.org.il/organization/580036242",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "איל״ן - איגוד ישראלי לילדים ולבוגרים נפגעים (ע״ר)"
+				}
+			],
+			"properManagement": true,
+			"registryCheckedAt": "2026-11-23"
+		},
+		{
+			"name": "AlehIsrael",
+			"displayName": "עלה — רשת מרכזי שיקום, רפואה וחינוך מיוחד",
+			"shortDescription": "טיפול רפואי, שיקומי וחינוכי מתקדם לילדים ובוגרים עם מוגבלויות מורכבות בפריסה ארצית",
+			"description": "רשת עלה מעניקה בית חם, שיקום פרא-רפואי, חינוך מיוחד וליווי משפחתי למאות ילדים, צעירים ובוגרים עם מוגבלויות מורכבות במרכזים בבני ברק, ירושלים וגדרה.",
+			"url": "https://aleh.org/",
+			"website": "https://aleh.org/",
+			"verified": true,
+			"taxDeductible46": true,
+			"organizationType": "ngo",
+			"intents": [
+				"get-help",
+				"volunteer",
+				"donate"
+			],
+			"tags": [
+				"מוגבלויות",
+				"שיקום",
+				"חינוך מיוחד",
+				"ילדים"
+			],
+			"createdAt": "2026-11-23T10:50:00+02:00",
+			"references": [
+				{
+					"url": "https://he.wikipedia.org/wiki/%D7%A2%D7%9C%D7%94_(%D7%A2%D7%9E%D7%95%D7%AA%D7%94)",
+					"type": "official",
+					"source": "Wikipedia",
+					"title": "עמותת עלה"
+				}
+			]
 		}
 	]
 }
