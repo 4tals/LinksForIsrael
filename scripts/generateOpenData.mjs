@@ -311,6 +311,7 @@ async function main() {
 		`- Hebrew Portal: ${SITE_URL}/`,
 		`- English Portal (Israel, Aliyah, Jewish Life & Charities): ${SITE_URL}/en`,
 		`- New Olim First 90 Days & Money Transfer Guide: ${SITE_URL}/docs/olim`,
+		`- Healthcare in Israel Guide (health funds, olim registration, rights): ${SITE_URL}/docs/healthcare`,
 		`- Mental Health Helplines Guide: ${SITE_URL}/docs/mental-health`,
 		`- Tax-Deductible Donations (§46 & Good Standing) Guide: ${SITE_URL}/docs/tax-deductible-donations`,
 		`- Volunteering in Israel Guide: ${SITE_URL}/docs/volunteering-israel`,

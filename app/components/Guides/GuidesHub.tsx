@@ -32,6 +32,11 @@ const GUIDES_BY_LOCALE = {
 				sub: "תעודת עולה, סל קליטה, קופת חולים, אולפן, הנחה בארנונה וגופי סיוע",
 			},
 			{
+				href: "/docs/healthcare",
+				title: "שירותי בריאות בישראל — קופות חולים וזכויות",
+				sub: "מוקדי הקופות, רישום עולים, מעבר קופה, מיון וקול הבריאות ‎*5400",
+			},
+			{
 				href: "/docs/abroad",
 				title: "מדריך לישראלים וליהודים בחו״ל",
 				sub: "קונסוליות, ביטחון בקמפוסים (ארה״ב/בריטניה/צרפת), תרומות מחו״ל ותושבים חוזרים",
@@ -51,6 +56,11 @@ const GUIDES_BY_LOCALE = {
 				href: "/docs/olim?lang=en",
 				title: "New Olim Guide — First 90 Days & Money Transfers",
 				sub: "Teudat Oleh, Sal Klita, health funds, Ulpan, tax benefits & licensed FX",
+			},
+			{
+				href: "/docs/healthcare?lang=en",
+				title: "Healthcare in Israel — Health Funds & Your Rights",
+				sub: "Fund call centers, olim registration, switching funds, ER & the *5400 hotline",
 			},
 			{
 				href: "/docs/abroad?lang=en",

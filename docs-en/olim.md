@@ -19,7 +19,7 @@ Full list of Aliyah, absorption, employment and lone-soldier organizations: **[E
 2. **Open an Israeli bank account:**
    Go to a bank branch with your passport, Teudat Oleh and ID. Ask for an **account confirmation letter (Ishur Nihul Cheshbon)** — it is required to receive the remaining **Sal Klita** payments directly to your account.
 3. **Complete your health-fund registration (Clalit / Maccabi / Meuhedet / Leumit):**
-   New olim are exempt from health insurance contributions in the first months (subject to National Insurance eligibility). Make sure you have a membership card and access to the app for booking appointments.
+   New olim are exempt from health insurance contributions in the first months (subject to National Insurance eligibility). Make sure you have a membership card and access to the app for booking appointments. More in the [healthcare guide](/docs/healthcare?lang=en).
 4. **Israeli phone line + the MyVisit app:**
    Appointments with the Population Authority (biometric ID / passport), the Ministry of Aliyah and the Licensing Office are mostly booked through `MyVisit` or `gov.il`.
 
