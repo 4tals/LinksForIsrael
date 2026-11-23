@@ -3,6 +3,7 @@
 import NextLink from "next/link";
 import React from "react";
 
+import { analyticsService } from "@/app/utils/analytica/analytics";
 import { Box, Flex, Heading, SimpleGrid, Text } from "@chakra-ui/react";
 
 const GUIDES_BY_LOCALE = {
@@ -106,6 +107,9 @@ export function GuidesHub({ locale = "he" }: { locale?: "he" | "en" }) {
 						key={guide.href}
 						as={NextLink}
 						href={guide.href}
+						onClick={() =>
+							analyticsService.trackGuideClick(guide.href, guide.title, locale)
+						}
 						direction="column"
 						p={4}
 						bg="gray.50"

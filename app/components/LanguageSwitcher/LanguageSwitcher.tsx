@@ -4,6 +4,7 @@ import NextLink from "next/link";
 import { usePathname } from "next/navigation";
 import React from "react";
 
+import { analyticsService } from "@/app/utils/analytica/analytics";
 import { Box, Flex } from "@chakra-ui/react";
 
 /**
@@ -31,6 +32,9 @@ export function LanguageSwitcher() {
 			<Box
 				as={NextLink}
 				href="/"
+				onClick={() => {
+					if (isEnglish) analyticsService.trackLanguageSwitch("en", "he");
+				}}
 				aria-current={!isEnglish ? "page" : undefined}
 				aria-label="עברית"
 				px={2.5}
@@ -53,6 +57,9 @@ export function LanguageSwitcher() {
 			<Box
 				as={NextLink}
 				href="/en"
+				onClick={() => {
+					if (!isEnglish) analyticsService.trackLanguageSwitch("he", "en");
+				}}
 				aria-current={isEnglish ? "page" : undefined}
 				aria-label="English"
 				px={2.5}

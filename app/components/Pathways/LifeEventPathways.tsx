@@ -11,6 +11,7 @@ import {
 	FaStarOfDavid,
 } from "react-icons/fa";
 
+import { analyticsService } from "@/app/utils/analytica/analytics";
 import { Box, Flex, Heading, Icon, SimpleGrid, Text } from "@chakra-ui/react";
 
 interface Pathway {
@@ -177,6 +178,13 @@ export function LifeEventPathways({ locale = "he" }: { locale?: "he" | "en" }) {
 						key={pathway.id}
 						as={NextLink}
 						href={pathway.href}
+						onClick={() =>
+							analyticsService.trackPathwayClick(
+								pathway.id,
+								pathway.href,
+								locale,
+							)
+						}
 						align="flex-start"
 						gap={3.5}
 						p={4}

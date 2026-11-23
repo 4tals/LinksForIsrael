@@ -14,7 +14,10 @@ import {
 } from "react-icons/fa";
 
 import { useBookmarks } from "@/app/components/Bookmarks/BookmarksContext";
-import { analyticsService } from "@/app/utils/analytica/analytics";
+import {
+	analyticsService,
+	buildAttributedUrl,
+} from "@/app/utils/analytica/analytics";
 import { buildUrlWithCard } from "@/app/utils/urlState";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 import {
@@ -132,6 +135,12 @@ export const InitiativeItem: React.FC<InitiativeItemProps> = ({
 			: undefined;
 
 	const openDetailsModal = () => {
+		analyticsService.trackListingOpen(link.name, {
+			categoryId,
+			organizationType: link.organizationType,
+			locale: isRtl ? "he" : "en",
+			clickSource: "card",
+		});
 		if (onOpenCard) {
 			onOpenCard();
 			return;
@@ -144,6 +153,7 @@ export const InitiativeItem: React.FC<InitiativeItemProps> = ({
 					link={link}
 					setOpenDialog={setOpenDialog}
 					sharePath={sharePath}
+					categoryId={categoryId}
 					locale={locale}
 				/>
 			),
@@ -167,6 +177,11 @@ export const InitiativeItem: React.FC<InitiativeItemProps> = ({
 		if (!target) return;
 		try {
 			await navigator.clipboard.writeText(target);
+			analyticsService.trackToolUsed(
+				"copy_link",
+				link.name,
+				isRtl ? "he" : "en",
+			);
 			toast({
 				title: isRtl ? "הקישור הועתק ללוח" : "Card link copied",
 				status: "success",
@@ -189,6 +204,11 @@ export const InitiativeItem: React.FC<InitiativeItemProps> = ({
 			categoryId,
 			subCategoryName,
 		});
+		analyticsService.trackToolUsed(
+			added ? "bookmark_add" : "bookmark_remove",
+			link.name,
+			isRtl ? "he" : "en",
+		);
 		toast({
 			title: isRtl
 				? added
@@ -371,8 +391,9 @@ export const InitiativeItem: React.FC<InitiativeItemProps> = ({
 						>
 							<IconButton
 								as={Link}
-								href={primaryUrl}
-								isExternal
+								href={buildAttributedUrl(primaryUrl)}
+								target="_blank"
+								rel="noopener"
 								aria-label={
 									isRtl
 										? `פתח ${link.displayName} בלשונית חדשה`
@@ -391,7 +412,12 @@ export const InitiativeItem: React.FC<InitiativeItemProps> = ({
 								_groupHover={{ color: "brand.500" }}
 								onClick={(e) => {
 									e.stopPropagation();
-									analyticsService.trackInitiativeClick(link.name, primaryUrl);
+									analyticsService.trackInitiativeClick(link.name, primaryUrl, {
+										categoryId,
+										organizationType: link.organizationType,
+										locale: isRtl ? "he" : "en",
+										clickSource: "card_direct",
+									});
 								}}
 							/>
 						</Tooltip>
@@ -550,7 +576,15 @@ export const InitiativeItem: React.FC<InitiativeItemProps> = ({
 				{link.phone && (
 					<Link
 						href={`tel:${link.phone.replace(/[^\d+*#]/g, "")}`}
-						onClick={(e) => e.stopPropagation()}
+						onClick={(e) => {
+							e.stopPropagation();
+							analyticsService.trackHotlineTap(
+								link.name,
+								link.phone || "",
+								"card_phone_pill",
+								isRtl ? "he" : "en",
+							);
+						}}
 						_hover={{ textDecoration: "none" }}
 					>
 						<Badge

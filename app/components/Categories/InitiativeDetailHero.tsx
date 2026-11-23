@@ -14,6 +14,10 @@ import { InitiativeReferences } from "@/app/components/Initiative/InitiativeRefe
 import { OrgAvatar } from "@/app/components/Initiative/OrgAvatar";
 import { TrustScoreMeter } from "@/app/components/Initiative/TrustScoreMeter";
 import {
+	analyticsService,
+	buildAttributedUrl,
+} from "@/app/utils/analytica/analytics";
+import {
 	Category,
 	getPrimaryInitiativeUrl,
 	InitiativeLink,
@@ -176,6 +180,14 @@ export function InitiativeDetailHero({
 								size="md"
 								borderRadius="full"
 								leftIcon={<FaPhoneAlt />}
+								onClick={() =>
+									analyticsService.trackHotlineTap(
+										link.name,
+										link.phone || "",
+										"detail_hero",
+										"he",
+									)
+								}
 								_hover={{ textDecoration: "none" }}
 							>
 								<span dir="ltr">{link.phone}</span>
@@ -184,14 +196,23 @@ export function InitiativeDetailHero({
 						{primaryUrl && (
 							<Button
 								as={Link}
-								href={primaryUrl}
-								isExternal
+								href={buildAttributedUrl(primaryUrl)}
+								target="_blank"
+								rel="noopener"
 								colorScheme="blue"
 								bg="brand.600"
 								_hover={{ bg: "brand.700", textDecoration: "none" }}
 								size="md"
 								borderRadius="full"
 								leftIcon={<FaExternalLinkAlt size={12} />}
+								onClick={() =>
+									analyticsService.trackInitiativeClick(link.name, primaryUrl, {
+										categoryId: category.id,
+										organizationType: link.organizationType,
+										locale: "he",
+										clickSource: "detail_hero",
+									})
+								}
 							>
 								מעבר לאתר הרשמי
 							</Button>

@@ -12,7 +12,10 @@ import {
 } from "react-icons/fa";
 
 import { useBookmarks } from "@/app/components/Bookmarks/BookmarksContext";
-import { analyticsService } from "@/app/utils/analytica/analytics";
+import {
+	analyticsService,
+	buildAttributedUrl,
+} from "@/app/utils/analytica/analytics";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 import {
 	Badge,
@@ -43,6 +46,7 @@ interface ShowMoreModalProps {
 	link: LinkType;
 	setOpenDialog: (open: boolean) => void;
 	sharePath?: string;
+	categoryId?: string;
 	locale?: "he" | "en";
 }
 
@@ -50,6 +54,7 @@ export const ShowMoreModal: React.FC<ShowMoreModalProps> = ({
 	link,
 	setOpenDialog,
 	sharePath,
+	categoryId,
 	locale,
 }) => {
 	const [imageError, setImageError] = useState(false);
@@ -104,8 +109,14 @@ export const ShowMoreModal: React.FC<ShowMoreModalProps> = ({
 			return;
 		}
 		try {
-			analyticsService.trackInitiativeClick(link.name, primaryUrl);
-			window.open(primaryUrl, "_blank", "noopener,noreferrer");
+			const attributedUrl = buildAttributedUrl(primaryUrl);
+			analyticsService.trackInitiativeClick(link.name, primaryUrl, {
+				categoryId,
+				organizationType: link.organizationType,
+				locale: isRtl ? "he" : "en",
+				clickSource: "modal_cta",
+			});
+			window.open(attributedUrl, "_blank", "noopener");
 		} catch {
 			toast({
 				title: "שגיאה בפתיחת הקישור",

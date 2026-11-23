@@ -5,6 +5,7 @@ import React, { useContext } from "react";
 import { FaExclamationTriangle, FaPhoneAlt, FaPrint } from "react-icons/fa";
 
 import { AppToolsContext } from "@/app/components/RootApp";
+import { analyticsService } from "@/app/utils/analytica/analytics";
 import { Box, Button, Flex, HStack, Icon, Link, Text } from "@chakra-ui/react";
 
 const HOTLINES_CONTENT = {
@@ -167,6 +168,13 @@ export function HotlinesBar({ locale = "he" }: { locale?: "he" | "en" }) {
 							colorScheme="gray"
 							borderRadius="full"
 							leftIcon={<Icon as={FaPrint} boxSize={2.5} />}
+							onClick={() =>
+								analyticsService.trackToolUsed(
+									"print_sheet",
+									"hotlines_bar",
+									locale,
+								)
+							}
 						>
 							{cfg.printLabel}
 						</Button>
@@ -183,6 +191,14 @@ export function HotlinesBar({ locale = "he" }: { locale?: "he" | "en" }) {
 						<Link
 							key={hotline.number}
 							href={hotline.href}
+							onClick={() =>
+								analyticsService.trackHotlineTap(
+									hotline.name,
+									hotline.number,
+									"hotlines_bar",
+									locale,
+								)
+							}
 							_hover={{ textDecoration: "none" }}
 						>
 							<Flex

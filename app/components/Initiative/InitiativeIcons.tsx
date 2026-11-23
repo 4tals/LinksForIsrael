@@ -31,6 +31,10 @@ import {
 	Tooltip,
 } from "@chakra-ui/react";
 
+import {
+	analyticsService,
+	buildAttributedUrl,
+} from "../../utils/analytica/analytics";
 import { InitiativeLink } from "../../utils/categories";
 import { ICONS } from "../../utils/consts";
 
@@ -106,6 +110,8 @@ export const InitiativeIcons: React.FC<InitiativeIconsProps> = ({
 							iconKey={key}
 							alt={ICONS[key].alt}
 							orgName={link.displayName || link.name}
+							listingId={link.name}
+							organizationType={link.organizationType}
 							key={key}
 						/>
 					))}
@@ -132,7 +138,15 @@ export const InitiativeIcons: React.FC<InitiativeIconsProps> = ({
 						<ChakraLink
 							href={`tel:${phone.replace(/[^\d+*#]/g, "")}`}
 							aria-label={`טלפון ${link.displayName}: ${phone}`}
-							onClick={(e) => e.stopPropagation()}
+							onClick={(e) => {
+								e.stopPropagation();
+								analyticsService.trackContactChannel({
+									listingId: link.name,
+									channel: "phone",
+									url: `tel:${phone}`,
+									organizationType: link.organizationType,
+								});
+							}}
 							_hover={{ textDecoration: "none" }}
 						>
 							<Tag
@@ -152,7 +166,15 @@ export const InitiativeIcons: React.FC<InitiativeIconsProps> = ({
 						<ChakraLink
 							href={`mailto:${email}`}
 							aria-label={`דוא״ל ${link.displayName}: ${email}`}
-							onClick={(e) => e.stopPropagation()}
+							onClick={(e) => {
+								e.stopPropagation();
+								analyticsService.trackContactChannel({
+									listingId: link.name,
+									channel: "email",
+									url: `mailto:${email}`,
+									organizationType: link.organizationType,
+								});
+							}}
 							_hover={{ textDecoration: "none" }}
 						>
 							<Tag
@@ -179,9 +201,18 @@ interface IconLinkProps {
 	iconKey: IconKey;
 	alt: string;
 	orgName: string;
+	listingId: string;
+	organizationType?: InitiativeLink["organizationType"];
 }
 
-const IconLink: React.FC<IconLinkProps> = ({ href, iconKey, alt, orgName }) => {
+const IconLink: React.FC<IconLinkProps> = ({
+	href,
+	iconKey,
+	alt,
+	orgName,
+	listingId,
+	organizationType,
+}) => {
 	const meta = ICON_COMPONENTS[iconKey] || {
 		icon: FaGlobe,
 		color: "#1d5cd6",
@@ -190,10 +221,19 @@ const IconLink: React.FC<IconLinkProps> = ({ href, iconKey, alt, orgName }) => {
 	return (
 		<Tooltip label={alt} placement="top" hasArrow openDelay={200}>
 			<ChakraLink
-				href={href}
-				isExternal
+				href={buildAttributedUrl(href)}
+				target="_blank"
+				rel="noopener"
 				aria-label={`${alt} — ${orgName}`}
-				onClick={(e) => e.stopPropagation()}
+				onClick={(e) => {
+					e.stopPropagation();
+					analyticsService.trackContactChannel({
+						listingId,
+						channel: iconKey,
+						url: href,
+						organizationType,
+					});
+				}}
 				display="inline-flex"
 				alignItems="center"
 				justifyContent="center"

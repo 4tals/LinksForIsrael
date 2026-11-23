@@ -12,6 +12,7 @@ import {
 	FaTimes,
 } from "react-icons/fa";
 
+import { analyticsService } from "@/app/utils/analytica/analytics";
 import {
 	getInitiativeIntents,
 	InitiativeIntent,
@@ -124,6 +125,15 @@ export const TrustFilterBar: React.FC<TrustFilterBarProps> = ({
 	const t = LABELS[locale];
 	const isActive = hasActiveTrustFilters(value);
 
+	const updateFilter = (
+		name: string,
+		val: string | boolean,
+		next: TrustFilterState,
+	) => {
+		analyticsService.trackFilterChange(name, val, locale, categoryId);
+		onChange(next);
+	};
+
 	const counts = useMemo(() => {
 		let verified = 0;
 		let sec46 = 0;
@@ -197,7 +207,10 @@ export const TrustFilterBar: React.FC<TrustFilterBarProps> = ({
 							variant={value.verifiedOnly ? "solid" : "outline"}
 							leftIcon={<Icon as={FaCheckCircle} boxSize={3} />}
 							onClick={() =>
-								onChange({ ...value, verifiedOnly: !value.verifiedOnly })
+								updateFilter("verified", !value.verifiedOnly, {
+									...value,
+									verifiedOnly: !value.verifiedOnly,
+								})
 							}
 						>
 							{t.verified}
@@ -221,7 +234,7 @@ export const TrustFilterBar: React.FC<TrustFilterBarProps> = ({
 							variant={value.taxDeductible46 ? "solid" : "outline"}
 							leftIcon={<Icon as={FaReceipt} boxSize={2.5} />}
 							onClick={() =>
-								onChange({
+								updateFilter("s46", !value.taxDeductible46, {
 									...value,
 									taxDeductible46: !value.taxDeductible46,
 								})
@@ -248,7 +261,7 @@ export const TrustFilterBar: React.FC<TrustFilterBarProps> = ({
 							variant={value.us501c3 ? "solid" : "outline"}
 							leftIcon={<Icon as={FaReceipt} boxSize={2.5} />}
 							onClick={() =>
-								onChange({
+								updateFilter("us501c3", !value.us501c3, {
 									...value,
 									us501c3: !value.us501c3,
 								})
@@ -275,7 +288,10 @@ export const TrustFilterBar: React.FC<TrustFilterBarProps> = ({
 							variant={value.hasReferences ? "solid" : "outline"}
 							leftIcon={<Icon as={FaNewspaper} boxSize={2.5} />}
 							onClick={() =>
-								onChange({ ...value, hasReferences: !value.hasReferences })
+								updateFilter("references", !value.hasReferences, {
+									...value,
+									hasReferences: !value.hasReferences,
+								})
 							}
 						>
 							{t.references}
@@ -298,7 +314,12 @@ export const TrustFilterBar: React.FC<TrustFilterBarProps> = ({
 							colorScheme="green"
 							variant={value.hasPhone ? "solid" : "outline"}
 							leftIcon={<Icon as={FaPhoneAlt} boxSize={2.5} />}
-							onClick={() => onChange({ ...value, hasPhone: !value.hasPhone })}
+							onClick={() =>
+								updateFilter("phone", !value.hasPhone, {
+									...value,
+									hasPhone: !value.hasPhone,
+								})
+							}
 						>
 							{t.phone}
 							<Badge
@@ -328,7 +349,7 @@ export const TrustFilterBar: React.FC<TrustFilterBarProps> = ({
 									borderColor={selected ? "transparent" : "gray.200"}
 									leftIcon={<Icon as={cfg.icon} boxSize={2.5} />}
 									onClick={() =>
-										onChange({
+										updateFilter("intent", selected ? "none" : cfg.id, {
 											...value,
 											intent: selected ? null : cfg.id,
 										})

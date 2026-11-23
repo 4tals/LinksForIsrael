@@ -27,6 +27,7 @@ import { HotlinesBar } from "@/app/components/Hotlines/HotlinesBar";
 import { InitiativeItem } from "@/app/components/Initiative/InitiativeItem";
 import { ShowMoreModal } from "@/app/components/Initiative/InitiativeShowMoreModal";
 import { LifeEventPathways } from "@/app/components/Pathways/LifeEventPathways";
+import { analyticsService } from "@/app/utils/analytica/analytics";
 import {
 	getUrlParams,
 	parseTrustFiltersFromParams,
@@ -225,6 +226,9 @@ export function IntlPortal({ items }: { items: EnrichedIntlInitiative[] }) {
 	const setSelectedCategory = useCallback((cat: string) => {
 		setSelectedCategoryState(cat);
 		updateUrlParams({ cat: cat === "all" ? null : cat });
+		if (cat !== "all") {
+			analyticsService.trackCategoryView(cat, "en");
+		}
 	}, []);
 
 	const setQuery = useCallback((nextQuery: string) => {
@@ -254,6 +258,7 @@ export function IntlPortal({ items }: { items: EnrichedIntlInitiative[] }) {
 		if (typeof window === "undefined") return;
 		try {
 			await navigator.clipboard.writeText(window.location.href);
+			analyticsService.trackToolUsed("share_view", selectedCategory, "en");
 			toast({
 				title: "View link copied",
 				description: "Anyone opening this link will see your exact filters.",
@@ -314,6 +319,16 @@ export function IntlPortal({ items }: { items: EnrichedIntlInitiative[] }) {
 		return categoryMatchedItems.filter((item) => allowedLinks.has(item.link));
 	}, [categoryMatchedItems, trustFilters]);
 
+	// Debounced /en search tracking (captures zero_results & search_term in GA4 & Mixpanel)
+	useEffect(() => {
+		const trimmed = query.trim();
+		if (trimmed.length < 2) return;
+		const timer = window.setTimeout(() => {
+			analyticsService.trackSearch(trimmed, filtered.length, false, "en");
+		}, 650);
+		return () => window.clearTimeout(timer);
+	}, [query, filtered.length]);
+
 	return (
 		<Box
 			dir="ltr"
@@ -333,6 +348,7 @@ export function IntlPortal({ items }: { items: EnrichedIntlInitiative[] }) {
 							link={activeItem.link}
 							setOpenDialog={setIsDrawerOpen}
 							sharePath={activeItem.sharePath}
+							categoryId={activeItem.categoryId || activeItem.category}
 							locale="en"
 						/>
 					}

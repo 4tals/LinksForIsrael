@@ -10,6 +10,8 @@ import { ServiceWorkerRegistrar } from "@/app/components/Pwa/ServiceWorkerRegist
 import { MobileSearchInput } from "@/app/components/Search/MobileSearchInput";
 import { useSearch } from "@/app/components/Search/useSearch";
 import { useIsMobile } from "@/app/hooks/useIsMobile";
+import { AnalyticsTracker } from "@/app/utils/analytica/AnalyticsTracker";
+import { analyticsService } from "@/app/utils/analytica/analytics";
 import { Category, SubCategoryData } from "@/app/utils/categories";
 import {
 	getUrlParams,
@@ -107,14 +109,19 @@ export function RootApp({
 		setIsMenuOpen((prevState) => !prevState);
 	}, []);
 
-	const openCommandPalette = useCallback(() => setIsPaletteOpen(true), []);
+	const openCommandPalette = useCallback(() => {
+		setIsPaletteOpen(true);
+		analyticsService.trackToolUsed("command_palette");
+	}, []);
 	const openHelperWizard = useCallback(() => {
 		setIsHelperOpen(true);
 		updateUrlParams({ helper: "1" });
+		analyticsService.trackToolUsed("helper_wizard");
 	}, []);
 	const openEmergencyMode = useCallback(() => {
 		setIsEmergencyOpen(true);
 		updateUrlParams({ emergency: "1" });
+		analyticsService.trackToolUsed("emergency_mode");
 	}, []);
 
 	// Hydrate ?helper=1 and ?emergency=1 from URL query strings
@@ -157,6 +164,7 @@ export function RootApp({
 	if (isChromeFree) {
 		return (
 			<>
+				<AnalyticsTracker />
 				<ServiceWorkerRegistrar />
 				<main id="content">{children}</main>
 			</>
@@ -182,6 +190,7 @@ export function RootApp({
 					}}
 				>
 					<MenuContext.Provider value={{ isMenuOpen, toggleMenu, isMobile }}>
+						<AnalyticsTracker />
 						<ServiceWorkerRegistrar />
 						<div className="app-shell">
 							<a href="#content" className="skip-to-content">
