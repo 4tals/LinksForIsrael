@@ -226,6 +226,8 @@ export const InitiativeItem: React.FC<InitiativeItemProps> = ({
 		<Flex
 			as="article"
 			data-group=""
+			// Off-screen cards skip layout and paint until scrolled near.
+			sx={{ contentVisibility: "auto", containIntrinsicSize: "auto 240px" }}
 			tabIndex={0}
 			aria-label={`פרטים נוספים על ${link.displayName}`}
 			direction="column"
