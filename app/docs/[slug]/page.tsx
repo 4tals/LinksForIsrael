@@ -3,7 +3,11 @@ import type { Metadata } from "next";
 import { CategoryBreadcrumbs } from "@/app/components/Categories/CategoryBreadcrumbs";
 import { MethodologyView } from "@/app/components/Docs/MethodologyView";
 import { getCategories } from "@/app/utils/categories";
-import { getAllDocs, getDocById } from "@/app/utils/docs-links";
+import {
+	getAllDocs,
+	getDocById,
+	getEnglishDocHtml,
+} from "@/app/utils/docs-links";
 import {
 	buildDocArticleJsonLd,
 	buildMethodologyFaqJsonLd,
@@ -13,7 +17,7 @@ import {
 	SITE_URL,
 } from "@/app/utils/seo";
 
-import styles from "./docs.module.scss";
+import { DocArticle } from "./DocArticle";
 
 export const dynamicParams = false;
 
@@ -109,6 +113,7 @@ export default async function Doc({
 	}
 
 	const { title, html } = await getDocById(slug);
+	const englishHtml = await getEnglishDocHtml(slug);
 	const resolvedTitle = title || DOC_TITLES[slug] || slug;
 	const description = stripHtml(html).slice(0, 160);
 	const articleJsonLd = buildDocArticleJsonLd({
@@ -128,10 +133,7 @@ export default async function Doc({
 					<CategoryBreadcrumbs
 						items={[{ label: "דף הבית", href: "/" }, { label: resolvedTitle }]}
 					/>
-					<article
-						className={styles.docs}
-						dangerouslySetInnerHTML={{ __html: html }}
-					/>
+					<DocArticle html={html} englishHtml={englishHtml} />
 				</div>
 			</div>
 		</>

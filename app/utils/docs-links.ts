@@ -11,6 +11,7 @@ import { unified } from "unified";
 let p: ReturnType<typeof getParserPre> | undefined;
 
 const DocsFolder = "docs";
+const EnglishDocsFolder = "docs-en";
 
 async function getParserPre() {
 	return (
@@ -56,6 +57,19 @@ export async function getDocById(id: string) {
 				(_, path: string) => `href="${path.toLowerCase()}`,
 			),
 	};
+}
+
+/** English body of a guide, for the guides that have a translation in docs-en. */
+export async function getEnglishDocHtml(
+	id: string,
+): Promise<string | undefined> {
+	const fullPath = join(EnglishDocsFolder, `${id}.md`);
+	if (!fs.existsSync(fullPath)) return undefined;
+	const parser = await getParser();
+	const html = await parser.process(
+		await fs.promises.readFile(fullPath, "utf8"),
+	);
+	return html.value.toString();
 }
 
 export async function getAllDocs() {

@@ -35,3 +35,7 @@
 		}
 	}
 }
+
+.languageToggle {
+	@apply block mx-auto max-w-4xl text-sm font-semibold text-blue-700 underline;
+}

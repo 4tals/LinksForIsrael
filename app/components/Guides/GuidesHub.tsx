@@ -48,14 +48,14 @@ const GUIDES_BY_LOCALE = {
 		subtitle: "Verified resources ready to read, share, embed, or print",
 		items: [
 			{
-				href: "/en?cat=olim",
-				title: "Aliyah, New Olim & Money Transfers",
-				sub: "Official agencies (*2994), Nefesh B'Nefesh, Gvahim, Lone Soldiers & licensed FX",
+				href: "/docs/olim?lang=en",
+				title: "New Olim Guide — First 90 Days & Money Transfers",
+				sub: "Teudat Oleh, Sal Klita, health funds, Ulpan, tax benefits & licensed FX",
 			},
 			{
-				href: "/en?cat=abroad",
-				title: "Israel & Jewish Life Abroad Hub",
-				sub: "Consulates, campus legal aid (US/UK/FR/CA/AU), PEF/IsraelGives & Birthright",
+				href: "/docs/abroad?lang=en",
+				title: "Guide for Israelis & Jewish Life Abroad",
+				sub: "Consulates, campus legal aid (US/UK/FR/CA/AU), tax-deductible giving & returning residents",
 			},
 			{
 				href: "/docs/methodology?lang=en",
