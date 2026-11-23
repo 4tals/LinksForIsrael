@@ -147,6 +147,7 @@ export function computeInitiativeRankScore(link: InitiativeLink): number {
 
 	if (link.verified) score += 35;
 	if (link.organizationType === "official") score += 15;
+	if (link.organizationType === "licensed" && link.regulator) score += 35;
 	if (link.taxDeductible46) score += 10;
 
 	// Weighted independent third-party references with per-tier caps + source diversity bonus

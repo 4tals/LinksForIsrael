@@ -1,7 +1,7 @@
 {
   "schema": "OpenReferral-HSDS-3.0-compatible",
   "source": "https://www.linksforisrael.com",
-  "generatedAt": "2026-11-23T09:53:21.898Z",
+  "generatedAt": "2026-11-23T10:09:52.537Z",
   "organizations": [
     {
       "id": "org:Medical/Main/EzerMizion",
@@ -1324,6 +1324,66 @@
       "last_verified_at": null
     },
     {
+      "id": "org:Olim/MoneyTransfers/Adesco",
+      "name": "Adesco — העברת כספים והמרת מט״ח לישראל",
+      "description": "חברת תשלומים ישראלית מפוקחת (רשות ניירות ערך) להעברת כספים מחו״ל לישראל, קליטת עולים ותשלומי נדל״ן (שוברים, מס רכישה וחשבונות נאמנות)",
+      "url": "https://www.adesco.co.il/",
+      "email": null,
+      "tax_id": null,
+      "tax_status": null,
+      "legal_status": "licensed",
+      "verified": false,
+      "last_verified_at": null
+    },
+    {
+      "id": "org:Olim/MoneyTransfers/IsraTransfer",
+      "name": "IsraTransfer — המרת מט״ח והעברות לישראל",
+      "description": "חברת העברת כספים והמרת מט״ח ותיקה המשרתת עולים חדשים ורוכשי נדל״ן בישראל מאז 2008",
+      "url": "https://isratransfer.com/",
+      "email": null,
+      "tax_id": null,
+      "tax_status": null,
+      "legal_status": "licensed",
+      "verified": false,
+      "last_verified_at": null
+    },
+    {
+      "id": "org:Olim/MoneyTransfers/Wise",
+      "name": "Wise — העברות בינלאומיות וחשבון רב-מטבעי",
+      "description": "פלטפורמה בינלאומית מפוקחת להעברות כספים שקופות לשקל (ILS) וניהול חשבון רב-מטבעי לעולים ולעובדים מרחוק",
+      "url": "https://wise.com/",
+      "email": null,
+      "tax_id": null,
+      "tax_status": null,
+      "legal_status": "licensed",
+      "verified": false,
+      "last_verified_at": null
+    },
+    {
+      "id": "org:Olim/MoneyTransfers/Covercy",
+      "name": "Covercy — העברות בינלאומיות ותשלומי נדל״ן",
+      "description": "פלטפורמת פינטק ישראלית מפוקחת להעברות מט״ח בינלאומיות, משקיעים ורוכשי נכסים",
+      "url": "https://www.covercy.com/",
+      "email": null,
+      "tax_id": null,
+      "tax_status": null,
+      "legal_status": "licensed",
+      "verified": false,
+      "last_verified_at": null
+    },
+    {
+      "id": "org:Olim/MoneyTransfers/Payoneer",
+      "name": "Payoneer — קבלת תשלומים מחו״ל לפרילנסרים ועסקים",
+      "description": "פלטפורמת תשלומים בינלאומית שנוסדה בישראל לקבלת הכנסות מחו״ל במט״ח ומשיכה לבנק ישראלי",
+      "url": "https://www.payoneer.com/",
+      "email": null,
+      "tax_id": null,
+      "tax_status": null,
+      "legal_status": "licensed",
+      "verified": false,
+      "last_verified_at": null
+    },
+    {
       "id": "org:JudaismHeritage/MasortiAndCommunities/MasortiOlami",
       "name": "Masorti Olami — התנועה המסורתית העולמית",
       "description": "ארגון הגג העולמי של קהילות היהדות המסורתית/קונסרבטיבית באירופה, אמריקה הלטינית, אסיה, אוסטרליה ואפריקה",
@@ -1932,66 +1992,6 @@
       "tax_id": null,
       "tax_status": null,
       "legal_status": "community",
-      "verified": false,
-      "last_verified_at": null
-    },
-    {
-      "id": "org:Olim/MoneyTransfers/Adesco",
-      "name": "Adesco — העברת כספים והמרת מט״ח לישראל",
-      "description": "חברת תשלומים ישראלית מפוקחת (רשות ניירות ערך) להעברת כספים מחו״ל לישראל, קליטת עולים ותשלומי נדל״ן (שוברים, מס רכישה וחשבונות נאמנות)",
-      "url": "https://www.adesco.co.il/",
-      "email": null,
-      "tax_id": null,
-      "tax_status": null,
-      "legal_status": "licensed",
-      "verified": false,
-      "last_verified_at": null
-    },
-    {
-      "id": "org:Olim/MoneyTransfers/IsraTransfer",
-      "name": "IsraTransfer — המרת מט״ח והעברות לישראל",
-      "description": "חברת העברת כספים והמרת מט״ח ותיקה המשרתת עולים חדשים ורוכשי נדל״ן בישראל מאז 2008",
-      "url": "https://isratransfer.com/",
-      "email": null,
-      "tax_id": null,
-      "tax_status": null,
-      "legal_status": "licensed",
-      "verified": false,
-      "last_verified_at": null
-    },
-    {
-      "id": "org:Olim/MoneyTransfers/Wise",
-      "name": "Wise — העברות בינלאומיות וחשבון רב-מטבעי",
-      "description": "פלטפורמה בינלאומית מפוקחת להעברות כספים שקופות לשקל (ILS) וניהול חשבון רב-מטבעי לעולים ולעובדים מרחוק",
-      "url": "https://wise.com/",
-      "email": null,
-      "tax_id": null,
-      "tax_status": null,
-      "legal_status": "licensed",
-      "verified": false,
-      "last_verified_at": null
-    },
-    {
-      "id": "org:Olim/MoneyTransfers/Covercy",
-      "name": "Covercy — העברות בינלאומיות ותשלומי נדל״ן",
-      "description": "פלטפורמת פינטק ישראלית מפוקחת להעברות מט״ח בינלאומיות, משקיעים ורוכשי נכסים",
-      "url": "https://www.covercy.com/",
-      "email": null,
-      "tax_id": null,
-      "tax_status": null,
-      "legal_status": "licensed",
-      "verified": false,
-      "last_verified_at": null
-    },
-    {
-      "id": "org:Olim/MoneyTransfers/Payoneer",
-      "name": "Payoneer — קבלת תשלומים מחו״ל לפרילנסרים ועסקים",
-      "description": "פלטפורמת תשלומים בינלאומית שנוסדה בישראל לקבלת הכנסות מחו״ל במט״ח ומשיכה לבנק ישראלי",
-      "url": "https://www.payoneer.com/",
-      "email": null,
-      "tax_id": null,
-      "tax_status": null,
-      "legal_status": "licensed",
       "verified": false,
       "last_verified_at": null
     },
@@ -4006,6 +4006,81 @@
       "intents": []
     },
     {
+      "id": "svc:Olim/MoneyTransfers/Adesco",
+      "organization_id": "org:Olim/MoneyTransfers/Adesco",
+      "name": "Adesco — העברת כספים והמרת מט״ח לישראל",
+      "description": "Adesco (Adesco Bridge Ltd.) היא חברת תשלומים מסחרית הפועלת ברישיון רשות ניירות ערך (ISA) ומתמחה בהעברות בינלאומיות והמרת מט״ח (USD, EUR, GBP, CAD, AUD, CHF לשקלים) עבור עולים חדשים, תושבי חוץ ורוכשי דירות בישראל — כולל תשלומים ישירים לחשבונות נאמנות, שוברי קבלן ומס רכישה, ללא עמלות בנק נסתרות ובעיבוד מהיר. (שירות מסחרי מפוקח — אינו עמותה).",
+      "url": "https://www.linksforisrael.com/Olim/MoneyTransfers/Adesco",
+      "status": "active",
+      "taxonomy_ids": [
+        "Olim",
+        "Olim/MoneyTransfers"
+      ],
+      "intents": [
+        "get-help"
+      ]
+    },
+    {
+      "id": "svc:Olim/MoneyTransfers/IsraTransfer",
+      "organization_id": "org:Olim/MoneyTransfers/IsraTransfer",
+      "name": "IsraTransfer — המרת מט״ח והעברות לישראל",
+      "description": "IsraTransfer היא חברה מסחרית מפוקחת המתמחה בהעברות כספים מחו״ל לישראל ומישראל לחו״ל במטבעות מרכזיים עבור עולים חדשים, משפחות ורוכשי נדל״ן, עם ליווי אישי ותשלום לחשבונות נאמנות. (שירות מסחרי מפוקח — אינו עמותה).",
+      "url": "https://www.linksforisrael.com/Olim/MoneyTransfers/IsraTransfer",
+      "status": "active",
+      "taxonomy_ids": [
+        "Olim",
+        "Olim/MoneyTransfers"
+      ],
+      "intents": [
+        "get-help"
+      ]
+    },
+    {
+      "id": "svc:Olim/MoneyTransfers/Wise",
+      "organization_id": "org:Olim/MoneyTransfers/Wise",
+      "name": "Wise — העברות בינלאומיות וחשבון רב-מטבעי",
+      "description": "Wise היא פלטפורמת תשלומים בינלאומית מפוקחת (FCA / FinCEN) המאפשרת העברות כספים ישירות לחשבונות בנק בישראל בשער היציג ועמלה שקופה, וכן אחזקת חשבון רב-מטבעי לעולים ולעובדים מרחוק. (שירות מסחרי מפוקח — אינו עמותה).",
+      "url": "https://www.linksforisrael.com/Olim/MoneyTransfers/Wise",
+      "status": "active",
+      "taxonomy_ids": [
+        "Olim",
+        "Olim/MoneyTransfers"
+      ],
+      "intents": [
+        "get-help"
+      ]
+    },
+    {
+      "id": "svc:Olim/MoneyTransfers/Covercy",
+      "organization_id": "org:Olim/MoneyTransfers/Covercy",
+      "name": "Covercy — העברות בינלאומיות ותשלומי נדל״ן",
+      "description": "Covercy היא חברת פינטק ישראלית מפוקחת המספקת שירותי המרת מט״ח והעברות כספים בינלאומיות ללקוחות פרטיים, עסקים ומשקיעי נדל״ן. (שירות מסחרי מפוקח — אינו עמותה).",
+      "url": "https://www.linksforisrael.com/Olim/MoneyTransfers/Covercy",
+      "status": "active",
+      "taxonomy_ids": [
+        "Olim",
+        "Olim/MoneyTransfers"
+      ],
+      "intents": [
+        "get-help"
+      ]
+    },
+    {
+      "id": "svc:Olim/MoneyTransfers/Payoneer",
+      "organization_id": "org:Olim/MoneyTransfers/Payoneer",
+      "name": "Payoneer — קבלת תשלומים מחו״ל לפרילנסרים ועסקים",
+      "description": "Payoneer היא חברת תשלומים גלובלית ציבורית (נסחרת בנאסד״ק, נוסדה בישראל) המאפשרת לעולים, פרילנסרים ועסקים ישראליים לקבל תשלומים מלקוחות בחו״ל במטבע מקומי ולמשוך לחשבון הבנק בישראל. (שירות מסחרי מפוקח — אינו עמותה).",
+      "url": "https://www.linksforisrael.com/Olim/MoneyTransfers/Payoneer",
+      "status": "active",
+      "taxonomy_ids": [
+        "Olim",
+        "Olim/MoneyTransfers"
+      ],
+      "intents": [
+        "get-help"
+      ]
+    },
+    {
       "id": "svc:JudaismHeritage/MasortiAndCommunities/MasortiOlami",
       "organization_id": "org:JudaismHeritage/MasortiAndCommunities/MasortiOlami",
       "name": "Masorti Olami — התנועה המסורתית העולמית",
@@ -4683,81 +4758,6 @@
       "taxonomy_ids": [
         "Olim",
         "Olim/CareerAndLoneSoldiers"
-      ],
-      "intents": [
-        "get-help"
-      ]
-    },
-    {
-      "id": "svc:Olim/MoneyTransfers/Adesco",
-      "organization_id": "org:Olim/MoneyTransfers/Adesco",
-      "name": "Adesco — העברת כספים והמרת מט״ח לישראל",
-      "description": "Adesco (Adesco Bridge Ltd.) היא חברת תשלומים מסחרית הפועלת ברישיון רשות ניירות ערך (ISA) ומתמחה בהעברות בינלאומיות והמרת מט״ח (USD, EUR, GBP, CAD, AUD, CHF לשקלים) עבור עולים חדשים, תושבי חוץ ורוכשי דירות בישראל — כולל תשלומים ישירים לחשבונות נאמנות, שוברי קבלן ומס רכישה, ללא עמלות בנק נסתרות ובעיבוד מהיר. (שירות מסחרי מפוקח — אינו עמותה).",
-      "url": "https://www.linksforisrael.com/Olim/MoneyTransfers/Adesco",
-      "status": "active",
-      "taxonomy_ids": [
-        "Olim",
-        "Olim/MoneyTransfers"
-      ],
-      "intents": [
-        "get-help"
-      ]
-    },
-    {
-      "id": "svc:Olim/MoneyTransfers/IsraTransfer",
-      "organization_id": "org:Olim/MoneyTransfers/IsraTransfer",
-      "name": "IsraTransfer — המרת מט״ח והעברות לישראל",
-      "description": "IsraTransfer היא חברה מסחרית מפוקחת המתמחה בהעברות כספים מחו״ל לישראל ומישראל לחו״ל במטבעות מרכזיים עבור עולים חדשים, משפחות ורוכשי נדל״ן, עם ליווי אישי ותשלום לחשבונות נאמנות. (שירות מסחרי מפוקח — אינו עמותה).",
-      "url": "https://www.linksforisrael.com/Olim/MoneyTransfers/IsraTransfer",
-      "status": "active",
-      "taxonomy_ids": [
-        "Olim",
-        "Olim/MoneyTransfers"
-      ],
-      "intents": [
-        "get-help"
-      ]
-    },
-    {
-      "id": "svc:Olim/MoneyTransfers/Wise",
-      "organization_id": "org:Olim/MoneyTransfers/Wise",
-      "name": "Wise — העברות בינלאומיות וחשבון רב-מטבעי",
-      "description": "Wise היא פלטפורמת תשלומים בינלאומית מפוקחת (FCA / FinCEN) המאפשרת העברות כספים ישירות לחשבונות בנק בישראל בשער היציג ועמלה שקופה, וכן אחזקת חשבון רב-מטבעי לעולים ולעובדים מרחוק. (שירות מסחרי מפוקח — אינו עמותה).",
-      "url": "https://www.linksforisrael.com/Olim/MoneyTransfers/Wise",
-      "status": "active",
-      "taxonomy_ids": [
-        "Olim",
-        "Olim/MoneyTransfers"
-      ],
-      "intents": [
-        "get-help"
-      ]
-    },
-    {
-      "id": "svc:Olim/MoneyTransfers/Covercy",
-      "organization_id": "org:Olim/MoneyTransfers/Covercy",
-      "name": "Covercy — העברות בינלאומיות ותשלומי נדל״ן",
-      "description": "Covercy היא חברת פינטק ישראלית מפוקחת המספקת שירותי המרת מט״ח והעברות כספים בינלאומיות ללקוחות פרטיים, עסקים ומשקיעי נדל״ן. (שירות מסחרי מפוקח — אינו עמותה).",
-      "url": "https://www.linksforisrael.com/Olim/MoneyTransfers/Covercy",
-      "status": "active",
-      "taxonomy_ids": [
-        "Olim",
-        "Olim/MoneyTransfers"
-      ],
-      "intents": [
-        "get-help"
-      ]
-    },
-    {
-      "id": "svc:Olim/MoneyTransfers/Payoneer",
-      "organization_id": "org:Olim/MoneyTransfers/Payoneer",
-      "name": "Payoneer — קבלת תשלומים מחו״ל לפרילנסרים ועסקים",
-      "description": "Payoneer היא חברת תשלומים גלובלית ציבורית (נסחרת בנאסד״ק, נוסדה בישראל) המאפשרת לעולים, פרילנסרים ועסקים ישראליים לקבל תשלומים מלקוחות בחו״ל במטבע מקומי ולמשוך לחשבון הבנק בישראל. (שירות מסחרי מפוקח — אינו עמותה).",
-      "url": "https://www.linksforisrael.com/Olim/MoneyTransfers/Payoneer",
-      "status": "active",
-      "taxonomy_ids": [
-        "Olim",
-        "Olim/MoneyTransfers"
       ],
       "intents": [
         "get-help"
