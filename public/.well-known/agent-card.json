@@ -1,0 +1,54 @@
+{
+	"name": "Links For Israel",
+	"alternateName": "לינק לישראל",
+	"description": "Authoritative open-source directory and machine-readable dataset for Israel and Jewish life — MOJ-verified nonprofits (data.gov.il, Section 46, US 501c3), 24/7 emergency & mental health hotlines, Aliyah & New Olim absorption, regulated money transfer providers, Masorti/Conservative & global Jewish heritage, volunteering, and citizen rights.",
+	"url": "https://www.linksforisrael.com",
+	"version": "1.0.0",
+	"provider": {
+		"organization": "Links For Israel (Open Source Community)",
+		"url": "https://github.com/4tals/LinksForIsrael"
+	},
+	"documentationUrl": "https://www.linksforisrael.com/docs/agents",
+	"capabilities": {
+		"streaming": false,
+		"pushNotifications": false,
+		"stateTransitionHistory": false
+	},
+	"defaultInputModes": ["text/plain", "application/json"],
+	"defaultOutputModes": ["text/markdown", "application/json"],
+	"resources": {
+		"llmsTxt": "https://www.linksforisrael.com/llms.txt",
+		"llmsFullTxt": "https://www.linksforisrael.com/llms-full.txt",
+		"openApi": "https://www.linksforisrael.com/openapi.json",
+		"initiativesJson": "https://www.linksforisrael.com/api/v1/initiatives.json",
+		"categoriesJson": "https://www.linksforisrael.com/api/v1/categories.json",
+		"hsdsJson": "https://www.linksforisrael.com/api/v1/hsds.json",
+		"sitemap": "https://www.linksforisrael.com/sitemap.xml"
+	},
+	"skills": [
+		{
+			"id": "lookup-israeli-hotlines",
+			"name": "Israeli 24/7 Emergency & Mental Health Hotlines",
+			"description": "Retrieve verified 24/7 crisis, medical, trauma, and civic hotlines in Israel (ERAN 1201, NATAL, 1202/1203, United Hatzalah 1221, Yedidim 1230, MOIA *2994, Pikud HaOref 104).",
+			"tags": ["israel", "hotlines", "emergency", "mental-health", "24/7"]
+		},
+		{
+			"id": "verify-israeli-charities",
+			"name": "MOJ-Verified Israeli Charities & Tax Deductibility",
+			"description": "Query Israeli nonprofits checked against Israel's Ministry of Justice (data.gov.il) for active status, Good Standing (Nihul Takin), Israeli Section 46, and US 501(c)(3).",
+			"tags": ["israel", "nonprofits", "charities", "section-46", "501c3", "data.gov.il"]
+		},
+		{
+			"id": "aliyah-olim-transfers",
+			"name": "Aliyah, New Olim Rights & Regulated Money Transfers",
+			"description": "Find official Aliyah agencies, absorption NGOs, Lone Soldier centers, first-90-days rights, and clearly labeled licensed financial transfer services (ISA/FCA/FinCEN regulated).",
+			"tags": ["aliyah", "olim", "israel", "lone-soldiers", "money-transfer", "fx"]
+		},
+		{
+			"id": "judaism-masorti-heritage",
+			"name": "Judaism, Masorti/Conservative & Jewish Heritage",
+			"description": "Discover Conservative/Masorti Jewish institutions in Israel and worldwide, open Jewish libraries (Sefaria, Hebcal, 929), and lifecycle navigation (ITIM, Tzohar).",
+			"tags": ["judaism", "masorti", "conservative", "sefaria", "heritage", "diaspora"]
+		}
+	]
+}

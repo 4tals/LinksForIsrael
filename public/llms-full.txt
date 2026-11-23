@@ -1,0 +1,633 @@
+# Links For Israel (לינק לישראל) — Complete Structured Knowledge Index
+
+> Generated: 2026-11-23T10:21:57.202Z | Total resources: 187 across 10 categories | Source: https://www.linksforisrael.com
+> Entity types are strictly separated: `official` (government/statutory), `ngo` (verified against data.gov.il MOJ registry), `community` (grassroots), and `licensed` (regulated commercial services, never nonprofits).
+
+## בריאות ונפש (Medical) — https://www.linksforisrael.com/Medical
+מוקדי סיוע נפשי 24/7, ציוד רפואי, הצלה, שיקום וליווי חולים ופצועים
+
+### ראשי (Medical/Main)
+- **עזר מציון** — https://www.ami.org.il/ [NGO | MOJ:580079978 | Nihul Takin | Section 46 | Phone: 03-6144444]
+  - Summary: סיוע רפואי ופארא-רפואי לחולים ולמשפחותיהם, המאגר הלאומי לתורמי מח עצם, הסעות חולים וארוחות חמות
+  - Portal: https://www.linksforisrael.com/Medical/Main/EzerMizion
+- **יד שרה** — https://yad-sarah.net/ [NGO | MOJ:580030104 | Nihul Takin | Section 46 | Phone: *6444]
+  - Summary: אגודת המתנדבים הגדולה בישראל – השאלת ציוד רפואי ושיקומי בחינם, לחצני מצוקה, אשפוז בית ומוקדי סיוע
+  - Portal: https://www.linksforisrael.com/Medical/Main/YadSarah
+- **ארגון נכי צה״ל** — https://www.inz.org.il/ [NGO | Section 46]
+  - Summary: ליווי, שיקום, זכויות ופעילות בתי הלוחם לפצועי ונכי צה״ל וכוחות הביטחון
+  - Portal: https://www.linksforisrael.com/Medical/Main/INZ
+- **גדולים מהחיים** — https://gdolim.org.il/ [NGO | MOJ:580367795 | Nihul Takin | Section 46]
+  - Summary: ליווי, תמיכה רגשית, סיוע כלכלי ופעילויות לשיפור איכות החיים של ילדים חולי סרטן ומשפחותיהם
+  - Portal: https://www.linksforisrael.com/Medical/Main/LargerThanLife
+- **איחוד הצלה (1221)** — https://1221.org.il/ [NGO | MOJ:580465979 | Nihul Takin | Section 46 | Phone: 1221]
+  - Summary: מערך מתנדבי חירום רפואי ארצי 24/7 המגיע לזירות חירום בתוך דקות באמצעות אופנולנסים וכוננים
+  - Portal: https://www.linksforisrael.com/Medical/Main/UnitedHatzalah
+- **תרומות דם דרך מד'א** — https://www.mdais.org/blood-donation [Official Institution]
+  - Summary: איתור מרכזי תרומות דם בכל רחבי הארץ לפי תאריך
+  - Portal: https://www.linksforisrael.com/Medical/Main/MdaBloodDonation
+- **אחים לחיים (Brothers For Life)** — https://www.brothersforlife.com/ [NGO | Section 46]
+  - Summary: לוחמים פצועים מלווים ומשקמים לוחמים פצועים בגוף ובנפש
+  - Portal: https://www.linksforisrael.com/Medical/Main/BrothersForLife
+- **מגן דוד אדום (מד״א) — ארגון ההצלה הלאומי** — https://www.mdais.org/ [Official Institution | Phone: 101]
+  - Summary: שירותי חירום רפואיים 24/7 (101), תרומות דם, קורסי עזרה ראשונה והתנדבות בפריסה ארצית
+  - Portal: https://www.linksforisrael.com/Medical/Main/MagenDavidAdom
+- **קורס עזרה ראשונה לשעת חירום - מגן דוד אדום** — https://www.mdais.org/kursim/iron-swords-first-aid-course [Official Institution]
+  - Summary: קורס עזרה ראשונה בשעת חירום בהיקף 3 שעות לימוד
+  - Portal: https://www.linksforisrael.com/Medical/Main/MdaFirstAidCourse
+- **Medical Volunteers for Israel** — https://survey.gov.il/en/internationalvolunteers?utm_source=go.gov.il&utm_medium=referral [Official Institution]
+  - Summary: In light of the ongoing situation in Israel, the Israeli Ministry of Health is building a list of medical personnel from abroad to volunteer in Israel should the need arise.
+  - Portal: https://www.linksforisrael.com/Medical/Main/MedicalVolunteersforIsrael
+- **האגודה למלחמה בסרטן** — https://www.cancer.org.il/ [NGO | MOJ:580030039 | Nihul Takin | Section 46 | Phone: 1-800-599-995]
+  - Summary: מידע רפואי, מרכזי תמיכה, קבוצות ליווי, מוקד טלמידע 24/7 וסיוע לחולי סרטן ולמשפחותיהם
+  - Portal: https://www.linksforisrael.com/Medical/Main/IsraelCancerAssociation
+- **למענם — רופאות ורופאים למען שורדי שואה** — https://lemaanam.org.il/ [NGO | MOJ:580672764 | Nihul Takin | Section 46]
+  - Summary: שירותי רפואה מקצועיים, ביקורי בית וליווי רפואי חינם לשורדי שואה בפריסה ארצית
+  - Portal: https://www.linksforisrael.com/Medical/Main/Lemaanam
+- **בית איזי שפירא** — https://beitissie.org.il/ [NGO | MOJ:580071850 | Nihul Takin | Section 46]
+  - Summary: טיפולים, מחקר, חדשנות טכנולוגית ושיקום לילדים ומבוגרים עם מוגבלויות ולמשפחותיהם
+  - Portal: https://www.linksforisrael.com/Medical/Main/BeitIssieShapiro
+- **המרכז הישראלי לכלבי נחייה לעיוורים** — https://www.israelguidedog.org.il/ [NGO | MOJ:580168961 | Nihul Takin | Section 46]
+  - Summary: גידול, אימון והתאמת כלבי נחייה לעיוורים וכלבי שירות ללוחמים עם פוסט-טראומה — ללא עלות
+  - Portal: https://www.linksforisrael.com/Medical/Main/IsraelGuideDogCenter
+- **זכרון מנחם — תמיכה בילדים וצעירים חולי סרטן** — https://zichron.org/ [NGO | MOJ:580179372 | Nihul Takin | Section 46]
+  - Summary: מרכזי יום, תרומות שיער לפאות, מחנות נופש וליווי רגשי ורפואי חינם לילדים וצעירים חולי סרטן ולמשפחותיהם
+  - Portal: https://www.linksforisrael.com/Medical/Main/ZichronMenachem
+- **איל״ן — איגוד ישראלי לילדים ולבוגרים עם מוגבלות פיזית** — https://ilan-israel.co.il/ [NGO | MOJ:580036242 | Nihul Takin | Section 46]
+  - Summary: מרכזי ספורט שיקומי, גנים, דיור בקהילה, תעסוקה וליווי משפחות לאנשים עם מוגבלות פיזית בכל הארץ
+  - Portal: https://www.linksforisrael.com/Medical/Main/ILANIsrael
+- **עלה — רשת מרכזי שיקום, רפואה וחינוך מיוחד** — https://aleh.org/ [NGO | Section 46]
+  - Summary: טיפול רפואי, שיקומי וחינוכי מתקדם לילדים ובוגרים עם מוגבלויות מורכבות בפריסה ארצית
+  - Portal: https://www.linksforisrael.com/Medical/Main/AlehIsrael
+- **רופאות הברזל - ⚡יעוץ רפואי מהיר בשעת חרום⚡** — https://www.hopp.bio/irondoctors
+  - Summary: ניתן על ידי חברת ניתאי שירותי עזרה ראשונה
+  - Portal: https://www.linksforisrael.com/Medical/Main/IronDoctors
+- **מהנדסים ללא גבולות - הנגשת בתים** — https://www.ewb-il.org/ [Phone: tel:058-6677130]
+  - Summary: צוותי ההנגשה המיומנים יגיעו לביתכם, בהתנדבות מלאה והכי מהר שניתן וידאגו שבית הפצוע/ה יהיה מונגש ונוח
+  - Portal: https://www.linksforisrael.com/Medical/Main/%D7%9E%D7%94%D7%A0%D7%93%D7%A1%D7%99%D7%9D%20%D7%9C%D7%9C%D7%90%20%D7%92%D7%91%D7%95%D7%9C%D7%95%D7%AA%20-%20%D7%94%D7%A0%D7%92%D7%A9%D7%AA%20%D7%91%D7%AA%D7%99%D7%9D
+
+### תמיכה נפשית (Medical/MentalSupport)
+- **ער״ן – עזרה ראשונה נפשית** — https://www.eran.org.il/ [NGO | MOJ:580030047 | Nihul Takin | Section 46 | Phone: 1201]
+  - Summary: סיוע נפשי מיידי, אנונימי וחינמי 24/7 בטלפון 1201, בצ׳אט ובוואטסאפ
+  - Portal: https://www.linksforisrael.com/Medical/MentalSupport/ERAN
+- **נט״ל – נפגעי טראומה על רקע לאומי** — https://www.natal.org.il/ [NGO | MOJ:580318129 | Nihul Takin | Section 46 | Phone: 1-800-363-363]
+  - Summary: קו סיוע וטיפול נפשי לנפגעי טראומה, מלחמה, מילואים וטרור
+  - Portal: https://www.linksforisrael.com/Medical/MentalSupport/NATAL
+- **סה״ר – סיוע והקשבה ברשת** — https://sahar.org.il/ [NGO | MOJ:580399681 | Nihul Takin | Section 46]
+  - Summary: צ׳אט סיוע נפשי אנונימי ומיידי לאנשים במצוקה נפשית קשה
+  - Portal: https://www.linksforisrael.com/Medical/MentalSupport/SAHAR
+- **לב בטוח** — https://www.safeheartil.com/ [NGO | Section 46]
+  - Summary: לב בטוח - המערך לתמיכה בנפגעי פעולות הטרור במסיבות עוטף עזה
+  - Portal: https://www.linksforisrael.com/Medical/MentalSupport/SafeHeart
+- **איגוד מרכזי הסיוע לנפגעות ולנפגעי תקיפה מינית (1202)** — https://1202.org.il/ [NGO | MOJ:580173730 | Nihul Takin | Section 46 | Phone: 1202]
+  - Summary: קווי סיוע אנונימיים 24/7 לנשים (1202) ולגברים (1203), צ׳אט קולמילה וליווי משפטי ורגשי
+  - Portal: https://www.linksforisrael.com/Medical/MentalSupport/ARCCI1202
+- **הקואליציה הישראלית לטראומה** — https://israeltraumacoalition.org/ [NGO | MOJ:580455491 | Nihul Takin | Section 46]
+  - Summary: ארגון הגג הלאומי המפעיל את מרכזי החוסן בישראל ומעניק טיפול בטראומה והכשרות חירום לקהילות
+  - Portal: https://www.linksforisrael.com/Medical/MentalSupport/IsraelTraumaCoalition
+- **אנוש – העמותה הישראלית לבריאות הנפש** — https://www.enosh.org.il/ [NGO | MOJ:580019800 | Nihul Takin | Section 46]
+  - Summary: הארגון המוביל בישראל לשיקום, דיור, תעסוקה, מרכזי צעירים (הדספייס) ותמיכה במשפחות מתמודדי נפש
+  - Portal: https://www.linksforisrael.com/Medical/MentalSupport/Enosh
+- **בשביל החיים — מניעת אובדנות ותמיכה במשפחות שכולות** — https://path-to-life.org/ [NGO | MOJ:580357911 | Nihul Takin | Section 46]
+  - Summary: קבוצות תמיכה, ליווי מקצועי למשפחות שאיבדו יקיר מאובדנות והעלאת מודעות למניעת אובדנות
+  - Portal: https://www.linksforisrael.com/Medical/MentalSupport/BishvilHaChaim
+- **אל-סם — ייעוץ, טיפול ומניעת התמכרויות לבני נוער והורים** — https://alsam.org.il/ [NGO | MOJ:580008878 | Nihul Takin | Section 46]
+  - Summary: מרכזי ייעוץ וטיפול חינמיים ודיסקרטיים לבני נוער, צעירים והורים בהתמודדות עם סמים, אלכוהול והתמכרויות
+  - Portal: https://www.linksforisrael.com/Medical/MentalSupport/AlSam
+- **חיבוק לתוך הלילה** — https://chat.whatsapp.com/K7k9bNxAkTR398D034BiC8
+  - Summary: מיזם מהעורף האוסטרלי. לא מצליח.ה לישון? האחיות האוסטרליות שלך כאן בשבילך
+  - Portal: https://www.linksforisrael.com/Medical/MentalSupport/HugIntoTheNight
+- **טופס לבקשת טיפול נפשי** — https://docs.google.com/forms/d/e/1FAIpQLSe63ECMBD1YEmAbLovFTvpxek46ZCSuKV9N2mT-G27tTwN2hA/viewform
+  - Summary: מערך מטפלים תודעתיים, רגשיים, תרפיית מימדים
+  - Portal: https://www.linksforisrael.com/Medical/MentalSupport/MentalSupportForm
+
+## חירום, ביטחון ומילואים (Defense) — https://www.linksforisrael.com/Defense
+פיקוד העורף, חילוץ והצלה, מקלטים, מערך המילואים וסיוע בחירום
+
+### מילואים, לוגיסטיקה וביטחון (Defense/Main)
+- **מיזם הרחפנים הלאומי - National Drone Initiative** — https://innovationisrael.org.il/civiliandronecenter/ [Official Institution]
+  - Summary: התנדבות ליוזמות הטסה
+  - Portal: https://www.linksforisrael.com/Defense/Main/NationalDroneInitiative
+- **אתר המילואים הרשמי של צה״ל** — https://www.miluim.idf.il/ [Official Institution]
+  - Summary: זכויות, תגמולים, מענקים, טפסים ושירותים למשרתי המילואים ומשפחותיהם
+  - Portal: https://www.linksforisrael.com/Defense/Main/MiluimIDF
+- **ארגון אלמנות ויתומי צה״ל** — https://www.idfwo.org/ [NGO | MOJ:580202166 | Nihul Takin | Section 46]
+  - Summary: הארגון היציג של אלמנות ויתומי צה״ל וכוחות הביטחון — מיצוי זכויות, תמיכה רגשית, מלגות ומחנות עוצמה
+  - Portal: https://www.linksforisrael.com/Defense/Main/IDFWO
+- **מבצע החמל המתוק** — https://hamalmatok.co.il/
+  - Summary: מאפים ביתיים לכוחותינו בשטח
+  - Portal: https://www.linksforisrael.com/Defense/Main/SweetOperation
+- **מוקד אט'ל לפניות ציוד חסר בצבא** — https://wa.me/972526156256
+  - Summary: מוקד פניות בנושאי מזון, ציוד ולוגיסטיקה
+  - Portal: https://www.linksforisrael.com/Defense/Main/IdfMissingEquipmentHotline
+- **דרושים – למילואים** — https://user.drushim-miluim.co.il/
+  - Summary: קהילת גיוס ושיבוץ התנדבותית (מעל 26,000 חברים) המחברת בין משרתי מילואים ליחידות צה״ל הזקוקות לכוח אדם
+  - Portal: https://www.linksforisrael.com/Defense/Main/DrushimMiluim
+
+### חירום (Defense/Emergency)
+- **זק״א – איתור, חילוץ והצלה** — https://zaka.org.il/ [NGO | MOJ:580307379 | Nihul Takin | Section 46 | Phone: 1220]
+  - Summary: ארגון התנדבות ארצי לחירום, איתור נעדרים, צלילה, חילוץ והצלה וטיפול בכבוד המת בזירות אסון (מוקד 1220)
+  - Portal: https://www.linksforisrael.com/Defense/Emergency/ZAKA
+- **נגישות ישראל - האפוד הסגול** — https://purple-vest.net/he/ [NGO | Section 46]
+  - Portal: https://www.linksforisrael.com/Defense/Emergency/AccessibilityIsrael-VioletVest
+- **פיקוד העורף – פורטל החירום הלאומי** — https://www.oref.org.il/ [Official Institution | Phone: 104]
+  - Summary: הנחיות התגוננות, התרעות, מיגון ומוקד מידע רשמי 104
+  - Portal: https://www.linksforisrael.com/Defense/Emergency/HomeFrontCommand
+- **MamadFixes - סיירת תיקונים התנדבותית של חלונות ודלתות ממד** — https://rcu.co.il/ [Phone: 1-700-700-426]
+  - Summary: סיירת תיקונים התנדבותית של חלונות ודלתות ממ״ד למען הקהילה
+  - Portal: https://www.linksforisrael.com/Defense/Emergency/MamadFixes
+- **פרויקט מדרג להשמשת מקלטים** — https://forms.monday.com/forms/f1e1014123cf1aac6615780795aec231?r=use1
+  - Summary: השמשת מקלטים ע״י בעלי מקצוע, מקלטי בניינים בלבד, לא כולל החלפת דלתות וחלונות
+  - Portal: https://www.linksforisrael.com/Defense/Emergency/MidragSheltersProject
+- **מקום בטוח - Safe Place** — https://safe-zone.spiritt.app/
+  - Summary: יוזמה לאיתור מארחים נדיבים בארץ
+  - Portal: https://www.linksforisrael.com/Defense/Emergency/SafePlace
+- **אחים מארחים אחים** — https://apartments-brokerage.onrender.com/
+  - Summary: תאום אירוח בין אנשים בתגובה למלחמה
+  - Portal: https://www.linksforisrael.com/Defense/Emergency/BrothersHostingBrothers
+- **קוד למציאת מקלט** — https://github.com/LeggoMahEggo/miklat-finder-open-source/
+  - Summary: Sample open source code for websites to show the nearest shelter to your location
+  - Portal: https://www.linksforisrael.com/Defense/Emergency/MiklatFinder
+
+## תרומות, מזון וכלכלה (Economic) — https://www.linksforisrael.com/Economic
+ארגוני מזון, עמותות מאומתות לתרומה, ייעוץ כלכלי למשפחות וסיוע לעסקים
+
+### תרומות כספיות (Economic/Donations)
+- **ארגון לתת** — https://www.latet.org.il/ [NGO | MOJ:580294940 | Nihul Takin | Section 46]
+  - Summary: סיוע הומניטרי, ביטחון תזונתי ותמיכה במשפחות נזקקות וניצולי שואה
+  - Portal: https://www.linksforisrael.com/Economic/Donations/Latet
+- **לקט ישראל – בנק המזון הלאומי** — https://www.leket.org/ [NGO | MOJ:580407633 | Nihul Takin | Section 46]
+  - Summary: ארגון הצלת המזון הלאומי של ישראל – הצלת תוצרת חקלאית ומזון מבושל וחלוקתם למאות אלפי נזקקים
+  - Portal: https://www.linksforisrael.com/Economic/Donations/LeketIsrael
+- **פתחון לב** — https://www.pitchonlev.org.il/ [NGO | MOJ:580328839 | Nihul Takin | Section 46]
+  - Summary: סיוע במזון, ביגוד ומיצוי זכויות ליציאה ממעגל העוני
+  - Portal: https://www.linksforisrael.com/Economic/Donations/PitchonLev
+- **JGive** — https://www.jgive.com/new/he/ils/donation-targets/110048?utm_source=homepage [NGO | MOJ:580586998 | Nihul Takin | Section 46]
+  - Summary: קרן חירום לאומית לסיוע לנפגעי המלחמה
+  - Portal: https://www.linksforisrael.com/Economic/Donations/jgive
+- **עמותת הקבוצה** — https://hakvutza.org [NGO | MOJ:580601946 | Nihul Takin | Section 46]
+  - Summary: גיוס חברתי לטובת משפחות ובודדים המטופלים ברווחה עבור מגוון צרכים מהותיים והכרחיים עכשיו מתגייסים לעזרה למשפחות מאזורי לחימה!
+  - Portal: https://www.linksforisrael.com/Economic/Donations/hakvutza
+- **חסדי נעמי — סלי מזון וסיוע לקשישים ולמשפחות** — https://www.naomi.org.il/ [NGO | MOJ:580073146 | Nihul Takin | Section 46 | Phone: 03-6777777]
+  - Summary: חלוקת סלי מזון, ציוד חורף ותמיכה שוטפת באלפי משפחות, שורדי שואה וקשישים בכל הארץ
+  - Portal: https://www.linksforisrael.com/Economic/Donations/ChasdeiNaomi
+- **הקרן לרווחת נפגעי השואה בישראל** — https://www.k-shoa.org/ [NGO | MOJ:580185700 | Nihul Takin | Section 46]
+  - Summary: שעות סיעוד נוספות, לחצני מצוקה, משקפיים, התנדבות להפגת בדידות וסיוע כלכלי לשורדי שואה
+  - Portal: https://www.linksforisrael.com/Economic/Donations/HolocaustSurvivorsWelfare
+- **עמותת אביב לגיל השלישי — מיצוי זכויות לאזרחים ותיקים** — https://www.aviv.org.il/ [NGO | Section 46]
+  - Summary: סיוע מקצועי חינם במיצוי זכויות, גמלת סיעוד, ביטוח לאומי והטבות לשורדי שואה ואזרחים ותיקים
+  - Portal: https://www.linksforisrael.com/Economic/Donations/AvivForSeniors
+- **אשל חב״ד — המרכז הארצי לביטחון תזונתי** — https://eshel.org.il/ [NGO | MOJ:580062073 | Nihul Takin | Section 46]
+  - Summary: סלי מזון, כרטיסי מזון למשפחות, ארוחות חמות ובתי תמחוי בפריסה ארצית
+  - Portal: https://www.linksforisrael.com/Economic/Donations/EshelChabad
+- **יד לקשיש (Lifeline for the Old) — העצמת אזרחים ותיקים** — https://www.lifeline.org.il/ [NGO | MOJ:580034338 | Nihul Takin | Section 46]
+  - Summary: סדנאות יצירה, תעסוקה מכבדת, ארוחות חמות ותמיכה חברתית למאות קשישים בירושלים
+  - Portal: https://www.linksforisrael.com/Economic/Donations/YadLaKashish
+- **למען אחי — שיקום כלכלי ורווחה חכמה למשפחות** — https://www.lemaanachai.org/en/ [NGO | MOJ:580365260 | Nihul Takin | Section 46]
+  - Summary: תוכנית שיקום כלכלי מקיפה, סיוע תעסוקתי, רפואי ומזון ליציאה מעגל העוני
+  - Portal: https://www.linksforisrael.com/Economic/Donations/LemaanAchai
+- **פייבוקס - תרומה לעמותות** — https://www.payboxapp.com/
+  - Summary: תרומה ישירה דרך האפליקציה
+  - Portal: https://www.linksforisrael.com/Economic/Donations/PayboxSection
+- **Give Israel** — https://giveisrael.org/
+  - Summary: Donating for Israel
+  - Portal: https://www.linksforisrael.com/Economic/Donations/GiveIsrael
+
+### ייעוץ כלכלי, עסקים והייטק (Economic/Businesses)
+- **פעמונים – ייעוץ כלכלי למשפחות בחינם** — https://www.paamonim.org/he/ [NGO | MOJ:580392702 | Nihul Takin | Section 46]
+  - Summary: ליווי כלכלי אישי ללא תשלום, יציאה מחובות, בניית תקציב משפחתי וחינוך פיננסי בפריסה ארצית
+  - Portal: https://www.linksforisrael.com/Economic/Businesses/Paamonim
+- **הבית לסולידריות חברתית** — https://www.solidarity-foundation.org.il/ [NGO | MOJ:516267911 | Nihul Takin | Section 46]
+  - Summary: מוקד מידע לעסקים
+  - Portal: https://www.linksforisrael.com/Economic/Businesses/SocialSolidarityHome
+- **עוגן — הלוואות חברתיות ללא ריבית וליווי פיננסי** — https://www.ogen.org/ [NGO | Section 46]
+  - Summary: הלוואות ללא ריבית או בריבית חברתית ומנטורינג פיננסי למשפחות, עסקים קטנים, מילואימניקים ועמותות
+  - Portal: https://www.linksforisrael.com/Economic/Businesses/Ogen
+- **סיוע מקצועי בשעת חירום - Startup for Startup** — https://www.startupforstartup.com/personalArea/?tab=help_community
+  - Summary: התחברו לאיזור האישי באתר שלנו, הציעו עזרה וקבלו סיוע מחברי וחברות הקהילה
+  - Portal: https://www.linksforisrael.com/Economic/Businesses/StartupForStartupEmergencySupport
+- **טבלה מרכזת ןמתעדכנת של הטבות וזכויות** — https://docs.google.com/spreadsheets/d/1wLdbhIUtG2rpZxH4qEkNsDjugbQ0VthFjQjvxhGl5qM/edit?usp=sharing
+  - Summary: כל ההקלות, ההטבות והעדכונים בטבלה אחת מתעדכנת
+  - Portal: https://www.linksforisrael.com/Economic/Businesses/CentralizedBenefitsAndRights
+- **מחבקים את המילואימניקים** — https://go.easy.co.il/Hanoch
+  - Summary: רשימה מסודרת של עסקי מילאומניקים
+  - Portal: https://www.linksforisrael.com/Economic/Businesses/HuggingTheReserveSoldiers
+- **AWS ישראל - AWS Israel** — https://aws-experience.com/emea/tel-aviv/meet-aws-expert
+  - Summary: ייעוץ טכנולוגי לתקופות ביטחוניות
+  - Portal: https://www.linksforisrael.com/Economic/Businesses/AWSIsraelSupport
+
+## משפחה, נוער ובע״ח (FamilyAndPets) — https://www.linksforisrael.com/FamilyAndPets
+תנועות נוער, צרכים מיוחדים, משפחות מילואים, תכנים לילדים ובעלי חיים
+
+### ראשי (FamilyAndPets/Main)
+- **כנפיים של קרמבו** — https://www.krembo.org.il/ [NGO | MOJ:580455681 | Nihul Takin | Section 46]
+  - Summary: תנועת נוער משלבת לילדים ונוער עם ובלי צרכים מיוחדים בכל הארץ
+  - Portal: https://www.linksforisrael.com/FamilyAndPets/Main/KremboWings
+- **עלם – עמותה לנוער במצבי סיכון** — https://elem.org.il/ [NGO | MOJ:580036945 | Nihul Takin | Section 46]
+  - Summary: ליווי, אוזן קשבת, מרכזי סיוע ותמיכה מקצועית לנוער וצעירים במצוקה
+  - Portal: https://www.linksforisrael.com/FamilyAndPets/Main/Elem
+- **רשת עדי (עדי נגב – נחלת ערן ועדי ירושלים)** — https://adi-il.org.il/ [NGO | MOJ:580354637 | Nihul Takin | Section 46]
+  - Summary: מרכזי שיקום, חינוך מיוחד, בית החולים השיקומי בנגב וליווי למשפחות של ילדים ובוגרים עם מוגבלויות קשות
+  - Portal: https://www.linksforisrael.com/FamilyAndPets/Main/ADIIsrael
+- **עמותת אתגרים** — https://etgarim.org/ [NGO | MOJ:580258242 | Nihul Takin | Section 46]
+  - Summary: שיקום, העצמה ושילוב חברתי של ילדים, נוער ובוגרים עם מוגבלויות ופצועי צה״ל באמצעות ספורט אתגרי
+  - Portal: https://www.linksforisrael.com/FamilyAndPets/Main/Etgarim
+- **אלו״ט – האגודה הלאומית לילדים ובוגרים עם אוטיזם** — https://alut.org.il/ [NGO | MOJ:580064335 | Nihul Takin | Section 46]
+  - Summary: קידום זכויות, מרכזי משפחה, מעונות יום שיקומיים, תעסוקה ודיור לאנשים על הספקטרום האוטיסטי
+  - Portal: https://www.linksforisrael.com/FamilyAndPets/Main/ALUT
+- **עטופים באהבה (Israeli Children's Fund)** — https://www.atufim.org/ [NGO | MOJ:516907888 | Nihul Takin | Section 46]
+  - Summary: מעטפת תמיכה כלכלית, רגשית, חינוכית ואישית ארוכת טווח לילדים ולצעירים שהתייתמו ב-7 באוקטובר ובמלחמה
+  - Portal: https://www.linksforisrael.com/FamilyAndPets/Main/IsraeliChildrensFund
+- **אגודת צער בעלי חיים בישראל** — https://spca.co.il/ [NGO | MOJ:580000156 | Nihul Takin | Section 46]
+  - Summary: אימוץ כלבים וחתולים, מרפאה וטרינרית והתנדבות למען בעלי חיים
+  - Portal: https://www.linksforisrael.com/FamilyAndPets/Main/SPCAIsrael
+- **פר״ח — התוכנית הלאומית לחונכות סטודנטים וילדים** — https://www.perach.org.il/ [Official Institution]
+  - Summary: חונכות אישית ולימודית לילדים ובני נוער על ידי עשרות אלפי סטודנטים מתנדבים ברחבי הארץ
+  - Portal: https://www.linksforisrael.com/FamilyAndPets/Main/Perach
+- **אקים ישראל — לאנשים עם מוגבלות שכלית ולמשפחותיהם** — https://akim.org.il/ [NGO | MOJ:580034924 | Nihul Takin | Section 46]
+  - Summary: קו סיוע 'הורים למען הורים', דיור בקהילה, סנגור ומיצוי זכויות בפריסה ארצית
+  - Portal: https://www.linksforisrael.com/FamilyAndPets/Main/AKIMIsrael
+- **ויצו ישראל — משפחה, רווחה וקו חם לנשים וגברים** — https://wizo.org.il/ [NGO | MOJ:580057321 | Nihul Takin | Section 46]
+  - Summary: מקלטים ומרכזים לטיפול באלימות במשפחה, מעונות יום, ייעוץ משפטי וחנויות ביגודית
+  - Portal: https://www.linksforisrael.com/FamilyAndPets/Main/WIZOIsrael
+- **תנו לחיות לחיות** — https://www.letlive.org.il/ [NGO | MOJ:580176832 | Nihul Takin | Section 46]
+  - Summary: הצלת בעלי חיים, אמבולנס חילוץ, מרפאות, אימוץ כלבים וחתולים וסיוע משפטי לזכויות בעלי חיים
+  - Portal: https://www.linksforisrael.com/FamilyAndPets/Main/LetTheAnimalsLive
+- **ילדים בסיכוי — למען ילדי ובוגרי פנימיות בישראל** — https://yeladim.org.il/ [NGO | Section 46]
+  - Summary: מנטורינג, דירות בוגרים, תמיכה בלימודים והכנה לחיים עצמאיים לילדי פנימיות וחסרי עורף משפחתי
+  - Portal: https://www.linksforisrael.com/FamilyAndPets/Main/YeladimFairChance
+- **אור שלום — משפחתונים ואומנה לילדים ובני נוער בסיכון** — https://orr-shalom.org.il/ [NGO | Section 46]
+  - Summary: משפחתונים, אומנה טיפולית וליווי בוגרים לילדים ובני נוער שהוצאו מבתיהם על ידי שירותי הרווחה
+  - Portal: https://www.linksforisrael.com/FamilyAndPets/Main/OrrShalom
+- **יד ביד — בתי ספר דו-לשוניים וקהילות משותפות** — https://www.handinhandk12.org/ [NGO | MOJ:580293710 | Nihul Takin | Section 46]
+  - Summary: רשת בתי ספר וגנים דו-לשוניים וקהילות משותפות ליהודים וערבים ברחבי ישראל
+  - Portal: https://www.linksforisrael.com/FamilyAndPets/Main/HandInHand
+- **אס.או.אס חיות — הצלה ואימוץ כלבים וחתולים** — https://www.sospets.co.il/ [NGO | Section 46]
+  - Summary: ימי אימוץ שבועיים, משפחות אומנה, עיקור וסירוס והצלת כלבים וחתולים נטושים
+  - Portal: https://www.linksforisrael.com/FamilyAndPets/Main/SOSAnimals
+- **בטרם — הארגון הלאומי לבטיחות ילדים** — https://beterem.org/ [NGO]
+  - Summary: מדריכים, הנחיות מניעת היפגעות בבית ובדרכים והדרכות בטיחות להורים ולאנשי מקצוע
+  - Portal: https://www.linksforisrael.com/FamilyAndPets/Main/Beterem
+- **העוגן למשפחות המילואים** — https://bit.ly/m/haogen4families
+  - Summary: עזרה למשפחות משרתי מילואים, משרתי קבע והורים יחדניים מגני תקווה
+  - Portal: https://www.linksforisrael.com/FamilyAndPets/Main/AnchorForReserveFamilies
+- **Fluffy Finder** — https://fluffyfinder.org/
+  - Summary: פלטפורמה לחיבור בין כלבים אבודים לבעליהם - מבוססת בינה מלאכותית
+  - Portal: https://www.linksforisrael.com/FamilyAndPets/Main/FluffyFinder
+
+### תכנים לילדים (FamilyAndPets/ChildrenContent)
+- **BrainPop** — https://il.brainpop.com/
+  - Summary: תכנים חינוכיים עם קוד חינמי
+  - Portal: https://www.linksforisrael.com/FamilyAndPets/ChildrenContent/BrainPop
+- **תאטרון אורנה פורת** — https://www.porat-theater.co.il/%D7%94%D7%A6%D7%92%D7%95%D7%AA_%D7%9C%D7%A6%D7%A4%D7%99%D7%94_%D7%97%D7%95%D7%A4%D7%A9%D7%99%D7%AA [MOJ:580013167 | Nihul Takin]
+  - Summary: הצגות באינטרנט לילדים
+  - Portal: https://www.linksforisrael.com/FamilyAndPets/ChildrenContent/OrnaPoratTheater
+- **לוח שיתופי מתעדכן של תכנים לילדים ולהורים, בנושאי חוסן ולמידה בזמן מלחמה** — https://padlet.com/tamar_haritan/edtech-and-resilience-il-yfyeoe3txhn6kgpu
+  - Summary: פורטל ללמידה בזמן מלחמה
+  - Portal: https://www.linksforisrael.com/FamilyAndPets/ChildrenContent/ChildrenParentsContentBoard
+- **דעת - פעילויות לילדים** — https://www.daatart.co.il/kids/
+  - Summary: סרטונים לימודיים לילדים
+  - Portal: https://www.linksforisrael.com/FamilyAndPets/ChildrenContent/ChildrenActivities
+- **simplesteps** — https://simplesteps.co/
+  - Summary: Simple Steps - סימפלסטפס אתר לילדים וילדות סקרנים במיוחד, ניסויים מדעיים, סרטוני בישול לילדים, פודקאסט חלל על הזמן ועוד. מערכי שיעור לאנשי הוראה
+  - Portal: https://www.linksforisrael.com/FamilyAndPets/ChildrenContent/Simplesteps%20-%20%D7%A1%D7%99%D7%9E%D7%A4%D7%9C%D7%A1%D7%98%D7%A4%D7%A1
+- **ספרי ילדים - ענק של ספרים** — https://school.booksgiant.com/login/he
+  - Summary: ספרייה דיגיטלית לילדים
+  - Portal: https://www.linksforisrael.com/FamilyAndPets/ChildrenContent/AnakShelSfarim
+
+## התנדבות, זכויות וקהילה (GeneralAssistance) — https://www.linksforisrael.com/GeneralAssistance
+זכויות אזרחים ועובדים, מאגרי התנדבות ארציים, סיוע בדרכים וקהילות חברתיות
+
+### התנדבות, זכויות וקהילה (GeneralAssistance/Main)
+- **ידידים** — https://yedidim-il.org/ [NGO | MOJ:580631620 | Nihul Takin | Section 46 | Phone: 1230]
+  - Summary: לתת חוסן לעורף ולסייע בכל מה שאפשר להצלחת מערך המלחמה!
+  - Portal: https://www.linksforisrael.com/GeneralAssistance/Main/Yedidim
+- **כל זכות** — https://www.kolzchut.org.il/he/ [NGO | Section 46]
+  - Summary: מאגר המידע המקיף בישראל לזכויות אזרחים, מילואים, בריאות, רווחה ותעסוקה
+  - Portal: https://www.linksforisrael.com/GeneralAssistance/Main/KolZchut
+- **רוח טובה** — https://www.ruachtova.org.il/ [NGO | MOJ:580277481 | Nihul Takin | Section 46]
+  - Summary: מאגר ההתנדבות הגדול בישראל — חיבור אישי להתנדבות בעמותות בכל הארץ
+  - Portal: https://www.linksforisrael.com/GeneralAssistance/Main/RuachTova
+- **חמ״ל אזרחי - סיוע לתושבי קו הלחימה** — https://www.bsil.org.il/ [NGO | MOJ:580768935 | Nihul Takin]
+  - Summary: זקוקים לסיוע? יכולים להציע עזרה? חמ״ל אזרחי מאחד את כל היוזמות עבור המשפחות והחיילים, בחזית ובעורף.  חמ'ל אזרחי אחד - עם אחד
+  - Portal: https://www.linksforisrael.com/GeneralAssistance/Main/CivilianHamal
+- **לב אחד** — https://www.levechad.org/ [NGO | MOJ:580461689 | Section 46 | Phone: *3197]
+  - Summary: ארגון המקנה חוסן חברתי ומעניק כוח לרשויות המקומיות בשעות חירום.
+  - Portal: https://www.linksforisrael.com/GeneralAssistance/Main/LevEhad
+- **קו לעובד – הגנה על זכויות עובדים** — https://kavlaoved.org.il/ [NGO | MOJ:580175545 | Nihul Takin]
+  - Summary: ייעוץ, סיוע משפטי ומידע במיצוי זכויות עבודה ושכר לעובדים בישראל ללא הבדל מעמד
+  - Portal: https://www.linksforisrael.com/GeneralAssistance/Main/KavLaOved
+- **שק״ל — שילוב קהילתי לאנשים עם מוגבלויות** — https://www.shekel.org.il/ [NGO | MOJ:580020287 | Nihul Takin | Section 46]
+  - Summary: דיור בקהילה, תעסוקה משלבת, מרכזי פנאי והנגשה לאנשים עם מוגבלויות בכל הארץ
+  - Portal: https://www.linksforisrael.com/GeneralAssistance/Main/ShekelIsrael
+- **נעמת — זכויות נשים, ייעוץ משפטי ומעונות יום** — https://naamat.org.il/ [NGO | MOJ:580044261 | Nihul Takin | Section 46]
+  - Summary: ייעוץ משפטי בענייני עבודה ומשפחה, מרכזים לטיפול באלימות במשפחה ורשת מעונות יום
+  - Portal: https://www.linksforisrael.com/GeneralAssistance/Main/Naamat
+- **החברה להגנת הטבע** — https://www.teva.org.il/ [NGO | MOJ:580017499 | Nihul Takin | Section 46]
+  - Summary: שמירת טבע, שיקום שטחים פתוחים, סימון שבילי ישראל, חוגי סיירות והתנדבות סביבתית
+  - Portal: https://www.linksforisrael.com/GeneralAssistance/Main/SPNI
+- **עמותת נתינה לאחר ישראל** — https://netinalahaher.org.il/ [NGO | MOJ:580777118 | Nihul Takin]
+  - Summary: התנדבות לבישול ביתי ושינוע ארוחות חמות מדי שבוע למשפחות מעוטות יכולת וקשישים ברחבי הארץ (ללא תרומות כספיות)
+  - Portal: https://www.linksforisrael.com/GeneralAssistance/Main/NetinaLaAcher
+- **חמ'ל אזרחי דנה גת** — https://linktr.ee/hamaldana
+  - Summary: חמ'ל קטן עם קו חם מאוייש שמנתב את הבקשות לכל אחת מקבוצות המתנדבים לפי העניין
+  - Portal: https://www.linksforisrael.com/GeneralAssistance/Main/HamalDana
+- **ישראלה - בוטית ההתנדבות של ישראל** — https://api.whatsapp.com/send/?phone=972733742036&text|%D7%A9%D7%9C%D7%97+%D7%94%D7%95%D7%93%D7%A2%D7%94+%D7%9C%D7%94%D7%AA%D7%97%D7%99%D7%9C&type=phone_number&app_absent=0
+  - Summary: פיתוח והנגשה של בוט בשם 'ישראלה' שמקשר בין מתנדבים לאנשים הזקוקים לסיוע
+  - Portal: https://www.linksforisrael.com/GeneralAssistance/Main/IsraelaBot
+- **באנו** — https://www.ba-nu.org.il/volunteer
+  - Summary: קהילת המתנדבים שלנו מורכבת ממיטב אנשי המקצוע מתחומים שונים, הפועלים בהתנדבות מלאה ומבקשים לרתום מזמנם ומנסיונם לטובת תושבי עוטף ישראל, כוחות הבטחון ומשפחותיהם.
+  - Portal: https://www.linksforisrael.com/GeneralAssistance/Main/Banu
+- **TechHamal** — https://www.hitech4israel.com
+  - Summary: חמ״ל שמטרתו איסוף ציוד ומימון שיתועל לטובת המאמץ המלחמתי ונפגעיו
+  - Portal: https://www.linksforisrael.com/GeneralAssistance/Main/%D7%97%D7%9E%D7%B4%D7%9C%20%D7%94%D7%94%D7%99%D7%99%D7%98%D7%A7
+- **ישראל מתגייסת** — https://www.mako.co.il/news-military/6361323ddea5a810/Article-8f71cf63bca0b81026.htm [Phone: 0502210169]
+  - Summary: N12 מחברים בין מי שנותן - לכל מי שצריך
+  - Portal: https://www.linksforisrael.com/GeneralAssistance/Main/IsraelIsEnlisting
+- **ישראל מנצחת** — https://special.now14.co.il/israel-wins/ [Phone: tel:+972-1-700-501-414]
+  - Summary: עמוד סיקור מיוחד של ערוץ 14 עם כל האפשרויות להתנדב ולסייע
+  - Portal: https://www.linksforisrael.com/GeneralAssistance/Main/IsraelWins
+- **מתנדבי חרבות ברזל - חמל חיבורים** — https://www.facebook.com/groups/780925150471197
+  - Summary: הקבוצה למתנדבים ולמבקשי סיוע
+  - Portal: https://www.linksforisrael.com/GeneralAssistance/Main/IronSwordsVolunteers
+- **פורטל התנדבות וסיוע ארצי** — https://rebrand.ly/go-to-volunteer
+  - Summary: פורטל התנדבות וסיוע ארצי
+  - Portal: https://www.linksforisrael.com/GeneralAssistance/Main/NationalHelpAndVolunteerPortal
+
+## עלייה וקליטה (Olim) — https://www.linksforisrael.com/Olim
+גופי עלייה וקליטה רשמיים, זכויות עולים חדשים, אולפן, תעסוקה, חיילים בודדים, בנקאות והעברת כספים לישראל
+
+### עלייה, קליטה וזכויות (Olim/Main)
+- **נפש בנפש (Nefesh B'Nefesh)** — https://www.nbn.org.il/ [NGO | MOJ:580544120 | Nihul Takin | Section 46 | US 501(c)(3)]
+  - Summary: ליווי מקיף, ייעוץ זכויות, קליטה, תעסוקה ותמיכה לחיילים בודדים ולעולים חדשים מצפון אמריקה
+  - Portal: https://www.linksforisrael.com/Olim/Main/NefeshBNefesh
+- **הקרן לידידות — סיוע לעולים ורווחה** — https://yedidut.org.il/ [NGO | MOJ:580360238 | Nihul Takin | Section 46]
+  - Summary: מענקי קליטה, טיסות עלייה, סיוע במזון ודיור ותמיכה בעולים חדשים מרחבי העולם ובאוכלוסיות רווחה
+  - Portal: https://www.linksforisrael.com/Olim/Main/KerenLeYedidut
+- **משרד העלייה והקליטה** — https://www.gov.il/he/departments/ministry_of_aliyah_and_integration [Official Institution | Phone: *2994]
+  - Summary: המשרד הממשלתי הרשמי לזכויות עולים חדשים ותושבים חוזרים — סל קליטה, אולפן, דיור, תעסוקה ומוקד *2994 ב-7 שפות
+  - Portal: https://www.linksforisrael.com/Olim/Main/MinistryOfAliyah
+- **הסוכנות היהודית לארץ ישראל** — https://www.jewishagency.org/ [Official Institution]
+  - Summary: הגוף הרשמי לליווי תהליך העלייה מחו״ל, מרכזי קליטה, אולפן עציון, בדיקת זכאות ומענקי עלייה
+  - Portal: https://www.linksforisrael.com/Olim/Main/JewishAgency
+- **כל זכות — פורטל עולים חדשים** — https://www.kolzchut.org.il/he/%D7%A2%D7%95%D7%9C%D7%99%D7%9D [NGO | Section 46]
+  - Summary: מדריך זכויות חינמי ומקיף לעולים חדשים: סל קליטה, הנחה בארנונה, ביטוח לאומי, מס הכנסה, רישיון נהיגה ואולפן
+  - Portal: https://www.linksforisrael.com/Olim/Main/KolZchutOlim
+- **יד לעולים (Yad L'Olim)** — https://www.yadlolim.org/ [NGO | MOJ:580722643 | Nihul Takin | Section 46 | US 501(c)(3)]
+  - Summary: סיוע בירוקרטי אישי, קידום זכויות עולים מול משרדי ממשלה והנגשת שירותי בריאות, חינוך ורווחה לעולים
+  - Portal: https://www.linksforisrael.com/Olim/Main/YadLOlim
+- **קעליטה (Qualita) — ארגון הגג של עולי צרפת** — https://www.qualita.org.il/ [NGO | MOJ:580609964 | Nihul Takin | Section 46]
+  - Summary: ארגון הגג לעולים דוברי צרפתית ויהודי אירופה — אולפן, תעסוקה, חינוך, מיצוי זכויות וליווי משפחות
+  - Portal: https://www.linksforisrael.com/Olim/Main/Qualita
+- **התאחדות עולי אמריקה וקנדה בישראל (AACI)** — https://aaci.org.il/ [NGO | MOJ:580019545 | Nihul Takin | Section 46 | US 501(c)(3)]
+  - Summary: ייעוץ קליטה, מיצוי זכויות, תמיכה חברתית, ספריות ומרכזי קהילה לעולים דוברי אנגלית מאז 1951
+  - Portal: https://www.linksforisrael.com/Olim/Main/AACI
+- **תלפד (Telfed) — עולי דרום אפריקה ואוסטרליה** — https://www.telfed.org.il/ [NGO | MOJ:510190333 | Nihul Takin | Section 46]
+  - Summary: קליטה, מלגות לימודים, דיור, השמה בעבודה וליווי קהילתי לעולים מדרום אפריקה, אוסטרליה וניו זילנד
+  - Portal: https://www.linksforisrael.com/Olim/Main/Telfed
+- **עולי (OLEI) — עולי אמריקה הלטינית, ספרד ופורטוגל** — https://olei.org.il/ [NGO | MOJ:580006765 | Nihul Takin | Section 46]
+  - Summary: ליווי קליטה, תרגום זכויות, השמה תעסוקתית וקהילה בפריסה ארצית לעולים דוברי ספרדית ופורטוגזית
+  - Portal: https://www.linksforisrael.com/Olim/Main/OLEI
+- **אסרא (ESRA) — איגוד דוברי האנגלית בישראל** — https://www.esra.org.il/ [NGO | MOJ:580037455 | Nihul Takin | Section 46 | US 501(c)(3)]
+  - Summary: קהילה, התנדבות, שילוב חברתי, תוכניות חינוך ורווחה לעולים ותושבים דוברי אנגלית מאז 1979
+  - Portal: https://www.linksforisrael.com/Olim/Main/ESRA
+
+### תעסוקה, חיילים בודדים וקהילה (Olim/CareerAndLoneSoldiers)
+- **גבהים (Gvahim) — תעסוקה ויזמות לעולים** — https://gvahim.org.il/ [NGO | MOJ:580512390 | Nihul Takin | Section 46 | US 501(c)(3)]
+  - Summary: מנטורינג קריירה, שילוב בהייטק ובתעשייה ותוכניות אקסלרטור ליזמים עולים חדשים ותושבים חוזרים
+  - Portal: https://www.linksforisrael.com/Olim/CareerAndLoneSoldiers/Gvahim
+- **המרכז לחיילים בודדים לזכרו של מייקל לוין** — https://lonesoldiercenter.com/ [NGO | MOJ:580520104 | Nihul Takin | Section 46 | US 501(c)(3)]
+  - Summary: ייעוץ, סיוע בדיור, ארוחות שבת וחג, ציוד וליווי אישי לחיילים בודדים עולים וישראלים לפני, במהלך ואחרי השירות
+  - Portal: https://www.linksforisrael.com/Olim/CareerAndLoneSoldiers/LoneSoldierCenter
+- **הבסיס של מייקל לוין לחיילים בודדים ובנות שירות** — https://themichaellevinbase.org/ [NGO | MOJ:580696094 | Nihul Takin | Section 46 | US 501(c)(3)]
+  - Summary: מרכזי תמיכה, הכנה לגיוס, ייעוץ נפשי ואישי וקהילה לחיילים בודדים ולבנות שירות לאומי עולות
+  - Portal: https://www.linksforisrael.com/Olim/CareerAndLoneSoldiers/MichaelLevinBase
+- **שישי שבת ישראלי — עולים צעירים דוברי רוסית** — https://shishi.co.il/ [NGO | MOJ:580549236 | Nihul Takin | Section 46]
+  - Summary: קהילה ארצית, מנהיגות צעירה, שבתות תרבות והתנדבות לשילוב עולים צעירים דוברי רוסית בחברה הישראלית
+  - Portal: https://www.linksforisrael.com/Olim/CareerAndLoneSoldiers/ShishiShabbatYisraeli
+- **גרעין צבר (Garin Tzabar) — תנועת הצופים** — https://garintzabar.org/ [NGO]
+  - Summary: תוכנית קליטה בקיבוצים ובקהילות מאמצות לצעירים עולים ובני ישראלים מחו״ל המתגייסים לצה״ל כחיילים בודדים
+  - Portal: https://www.linksforisrael.com/Olim/CareerAndLoneSoldiers/GarinTzabar
+- **קיפ עולים (KeepOlim)** — https://keepolim.org/ [NGO | MOJ:580644342 | US 501(c)(3)]
+  - Summary: סבסוד טיפול נפשי לעולים, מפגשי נטוורקינג וקהילה, סיוע בחיפוש עבודה וליווי קליטה לעולים חדשים
+  - Portal: https://www.linksforisrael.com/Olim/CareerAndLoneSoldiers/KeepOlim
+- **Get Help Israel — מדריך מטפלים דוברי אנגלית** — https://gethelpisrael.com/
+  - Summary: מאגר חינמי לאיתור פסיכולוגים, מטפלים, קבוצות תמיכה ושירותי בריאות הנפש לדוברי אנגלית בישראל
+  - Portal: https://www.linksforisrael.com/Olim/CareerAndLoneSoldiers/GetHelpIsrael
+
+### העברת כספים ובנקאות לישראל (שירותים מפוקחים) (Olim/MoneyTransfers)
+- **Adesco — העברת כספים והמרת מט״ח לישראל** — https://www.adesco.co.il/ [Licensed Service (רשות ניירות ערך (ISA))]
+  - Summary: חברת תשלומים ישראלית מפוקחת (רשות ניירות ערך) להעברת כספים מחו״ל לישראל, קליטת עולים ותשלומי נדל״ן (שוברים, מס רכישה וחשבונות נאמנות)
+  - Portal: https://www.linksforisrael.com/Olim/MoneyTransfers/Adesco
+- **IsraTransfer — המרת מט״ח והעברות לישראל** — https://isratransfer.com/ [Licensed Service (רשות שוק ההון)]
+  - Summary: חברת העברת כספים והמרת מט״ח ותיקה המשרתת עולים חדשים ורוכשי נדל״ן בישראל מאז 2008
+  - Portal: https://www.linksforisrael.com/Olim/MoneyTransfers/IsraTransfer
+- **Wise — העברות בינלאומיות וחשבון רב-מטבעי** — https://wise.com/ [Licensed Service (FCA / FinCEN)]
+  - Summary: פלטפורמה בינלאומית מפוקחת להעברות כספים שקופות לשקל (ILS) וניהול חשבון רב-מטבעי לעולים ולעובדים מרחוק
+  - Portal: https://www.linksforisrael.com/Olim/MoneyTransfers/Wise
+- **Covercy — העברות בינלאומיות ותשלומי נדל״ן** — https://www.covercy.com/ [Licensed Service (רשות שוק ההון / FinCEN)]
+  - Summary: פלטפורמת פינטק ישראלית מפוקחת להעברות מט״ח בינלאומיות, משקיעים ורוכשי נכסים
+  - Portal: https://www.linksforisrael.com/Olim/MoneyTransfers/Covercy
+- **Payoneer — קבלת תשלומים מחו״ל לפרילנסרים ועסקים** — https://www.payoneer.com/ [Licensed Service (FinCEN / רשות שוק ההון)]
+  - Summary: פלטפורמת תשלומים בינלאומית שנוסדה בישראל לקבלת הכנסות מחו״ל במט״ח ומשיכה לבנק ישראלי
+  - Portal: https://www.linksforisrael.com/Olim/MoneyTransfers/Payoneer
+
+## יהדות, מורשת וקהילה (JudaismHeritage) — https://www.linksforisrael.com/JudaismHeritage
+קהילות יהודיות בישראל ובתפוצות, התנועה המסורתית/קונסרבטיבית, ספריות מקורות (ספריא, 929), מעגל החיים ותרבות יהודית פתוחה
+
+### קהילות, התנועה המסורתית/קונסרבטיבית ומעגל החיים (JudaismHeritage/MasortiAndCommunities)
+- **התנועה המסורתית בישראל (Masorti Movement)** — https://www.masorti.org.il/ [NGO | MOJ:580132454 | Nihul Takin | Section 46 | US 501(c)(3)]
+  - Summary: קהילות שוויוניות ומסורתיות ברחבי ישראל, תפילה, גיור, חתונות, בר/בת מצווה לילדים עם מוגבלויות ותנועת נוע״ם
+  - Portal: https://www.linksforisrael.com/JudaismHeritage/MasortiAndCommunities/MasortiIsrael
+- **עתים (ITIM) — ליווי וזכויות במעגל החיים היהודי** — https://itim.org.il/ [NGO | MOJ:580394823 | Nihul Takin | Section 46 | US 501(c)(3)]
+  - Summary: ייעוץ וליווי משפטי חינם מול הממסד הדתי בישראל בנושאי נישואין, בירור יהדות לעולים, גיור, לידה וקבורה
+  - Portal: https://www.linksforisrael.com/JudaismHeritage/MasortiAndCommunities/Itim
+- **ארגון רבני צהר (Tzohar)** — https://www.tzohar.org.il/ [NGO | MOJ:580302099 | Nihul Takin | Section 46 | US 501(c)(3)]
+  - Summary: גשר בין יהדות לחברה הישראלית — חתונות מסבירות פנים, כשרות, שבת, אתיקה וליווי משפחות
+  - Portal: https://www.linksforisrael.com/JudaismHeritage/MasortiAndCommunities/Tzohar
+- **מכון שכטר למדעי היהדות (Schechter Institutes)** — https://schechter.ac.il/ [NGO | MOJ:580400968 | Nihul Takin | Section 46 | US 501(c)(3)]
+  - Summary: המרכז האקדמי והרוחני המוביל של התנועה המסורתית בישראל — לימודי יהדות, הכשרת רבנים, חינוך תל״י ומחקר
+  - Portal: https://www.linksforisrael.com/JudaismHeritage/MasortiAndCommunities/SchechterInstitute
+- **Masorti Olami — התנועה המסורתית העולמית** — https://masortiolami.org/ [NGO]
+  - Summary: ארגון הגג העולמי של קהילות היהדות המסורתית/קונסרבטיבית באירופה, אמריקה הלטינית, אסיה, אוסטרליה ואפריקה
+  - Portal: https://www.linksforisrael.com/JudaismHeritage/MasortiAndCommunities/MasortiOlami
+- **USCJ — התנועה הקונסרבטיבית בצפון אמריקה** — https://uscj.org/ [NGO | US 501(c)(3)]
+  - Summary: איגוד בתי הכנסת והקהילות הקונסרבטיביות (United Synagogue of Conservative Judaism) בצפון אמריקה ובקשר לישראל
+  - Portal: https://www.linksforisrael.com/JudaismHeritage/MasortiAndCommunities/USCJ
+- **The Rabbinical Assembly — כנסת הרבנים (מסורתית/קונסרבטיבית)** — https://www.rabbinicalassembly.org/ [NGO | US 501(c)(3)]
+  - Summary: האיגוד הבינלאומי של רבני ורבניות התנועה הקונסרבטיבית/מסורתית — תשובות הלכתיות, מקורות תפילה ומציאת רבנים
+  - Portal: https://www.linksforisrael.com/JudaismHeritage/MasortiAndCommunities/RabbinicalAssembly
+- **מרכז פוקסברג ירושלים (Conservative Yeshiva)** — https://fuchsbergcenter.org/ [NGO | US 501(c)(3)]
+  - Summary: הישיבה הקונסרבטיבית ובית מדרש פתוח בירושלים לישראלים, עולים ותלמידים מרחבי העולם
+  - Portal: https://www.linksforisrael.com/JudaismHeritage/MasortiAndCommunities/FuchsbergCenter
+- **חב״ד בעולם ובישראל (Chabad.org)** — https://www.chabad.org/ [NGO]
+  - Summary: איתור בתי חב״ד בכל העולם, זמני כניסת שבת וחג, לוח עברי ומדריכי יהדות בעברית, אנגלית ושפות נוספות
+  - Portal: https://www.linksforisrael.com/JudaismHeritage/MasortiAndCommunities/Chabad
+
+### ספריות יהודיות, לימוד, תרבות ומורשת (JudaismHeritage/TextsAndCulture)
+- **ספריא (Sefaria) — הספרייה הפתוחה לארון הספרים היהודי** — https://www.sefaria.org/ [NGO | MOJ:580787760 | Nihul Takin | US 501(c)(3)]
+  - Summary: הספרייה הדיגיטלית החינמית ובקוד פתוח של התנ״ך, התלמוד, המשנה, המדרש וההלכה בעברית ובאנגלית
+  - Portal: https://www.linksforisrael.com/JudaismHeritage/TextsAndCulture/Sefaria
+- **בינ״ה — הבית של היהדות הישראלית (BINA)** — https://www.bina.org.il/ [NGO | MOJ:580652378 | Nihul Takin | Section 46 | US 501(c)(3)]
+  - Summary: הישיבה החילונית, מכינות קדם-צבאיות, בתי מדרש פתוחים ועשייה חברתית ברוח יהדות פלורליסטית בישראל ובעולם
+  - Portal: https://www.linksforisrael.com/JudaismHeritage/TextsAndCulture/BINA
+- **מכון שלום הרטמן (Shalom Hartman Institute)** — https://www.hartman.org.il/ [NGO | MOJ:511021156 | Nihul Takin | Section 46 | US 501(c)(3)]
+  - Summary: מכון מחקר וחינוך פלורליסטי להגות יהודית, זהות ישראלית ודיאלוג בין ישראל ליהדות התפוצות
+  - Portal: https://www.linksforisrael.com/JudaismHeritage/TextsAndCulture/HartmanInstitute
+- **מכון פרדס לחינוך יהודי (Pardes Institute)** — https://pardes.org.il/ [NGO | MOJ:580009330 | Nihul Takin | Section 46 | US 501(c)(3)]
+  - Summary: בית מדרש פתוח, שוויוני ורב-זרמי בירושלים ללימוד מקורות יהודיים לעולים, סטודנטים ומחנכים מרחבי העולם
+  - Portal: https://www.linksforisrael.com/JudaismHeritage/TextsAndCulture/Pardes
+- **מיזם 929 — תנ״ך ביחד** — https://www.929.org.il/ [NGO]
+  - Summary: קריאה יומית משותפת של פרק בתנ״ך עם פרשנויות של כותבים, חוקרים ויוצרים מכל קצוות החברה הישראלית
+  - Portal: https://www.linksforisrael.com/JudaismHeritage/TextsAndCulture/Project929
+- **אנו — מוזיאון העם היהודי (ANU Museum)** — https://www.anumuseum.org.il/ [NGO]
+  - Summary: המוזיאון הגדול בעולם המוקדש לסיפור, למורשת, לתרבות ולארכיון השמות והקהילות של העם היהודי בתפוצות ובישראל
+  - Portal: https://www.linksforisrael.com/JudaismHeritage/TextsAndCulture/ANUMuseum
+- **בית אבי חי (Beit Avi Chai)** — https://www.bac.org.il/ [NGO | MOJ:580465011 | Nihul Takin]
+  - Summary: מרכז תרבות, פודקאסטים, מאמרים, יצירה ישראלית-יהודית ואנימציה בירושלים וברשת
+  - Portal: https://www.linksforisrael.com/JudaismHeritage/TextsAndCulture/BeitAviChai
+- **My Jewish Learning — אנציקלופדיה פתוחה ליהדות** — https://www.myjewishlearning.com/ [NGO]
+  - Summary: המדריך הפתוח והמקיף באנגלית לחגי ישראל, מעגל החיים, תפילה, היסטוריה, אוכל ותרבות יהודית מכל הזרמים
+  - Portal: https://www.linksforisrael.com/JudaismHeritage/TextsAndCulture/MyJewishLearning
+- **Hebcal — לוח שנה עברי פתוח וזמני שבת** — https://www.hebcal.com/
+  - Summary: לוח שנה עברי חינמי ובקוד פתוח — המרת תאריכים, זמני כניסת שבת וחגים, פרשת השבוע והטמעה ביומן
+  - Portal: https://www.linksforisrael.com/JudaismHeritage/TextsAndCulture/Hebcal
+
+## חקלאות ותוצרת הארץ (Agriculture) — https://www.linksforisrael.com/Agriculture
+התנדבות במשקים, חיזוק חקלאים ורכישת תוצרת חקלאית ישראלית
+
+### ראשי (Agriculture/Main)
+- **השומר החדש** — https://www.hashomer.org.il/ [NGO | MOJ:580492981 | Nihul Takin | Section 46]
+  - Summary: גיוס מתנדבים לאבטחת חוות, סיוע חקלאי
+  - Portal: https://www.linksforisrael.com/Agriculture/Main/NewGuard
+- **לקט ישראל - מתנדבים למשקים** — https://www.leket.org/volunteering-for-farmers/ [NGO | MOJ:580407633 | Nihul Takin | Section 46]
+  - Summary: התנדבות למשקים בדרום בעקבות המלחמה
+  - Portal: https://www.linksforisrael.com/Agriculture/Main/LeketIsraelFarmersVolonteers
+- **משק חי** — https://meshekhai.co.il/
+  - Summary: מסייעים ביחד למשקים של ישראל
+  - Portal: https://www.linksforisrael.com/Agriculture/Main/MeshekHai
+- **קונים חקלאות ישראלית** — https://linktr.ee/buying.agr.il [Phone: 054-6351023]
+  - Summary: מיזם מתכלל שנועד לחבר בין חקלאים שנפגעו במלחמה לצרכנים מכל הסוגים.
+  - Portal: https://www.linksforisrael.com/Agriculture/Main/BuyFromIsraeliAgriculture
+- **מחזקים את החקלאים** — https://bit.ly/2x1yyN6?fbclid=IwAR15A8ee_z-nHK7sP8xOqjx5-kUXOwBNF_usbIY4-e-jQUyqAbO2HKZioXs [Phone: tel:+972-52-633-4995]
+  - Summary: תנועת 'אם תרצו' מזמינה אתכם להצטרף אלינו לפעילות חקלאית התנדבותית ברחבי הארץ.
+  - Portal: https://www.linksforisrael.com/Agriculture/Main/StrengtheningTheFarmers
+- **התנדבות לחקלאות בעוטף ובצפון** — https://linktr.ee/Hitnadvut_farmers
+  - Summary: מדי יום נשלחות בקבוצה בקשות לעזרה בחקלאות בעוטף ובצפון מכ-40 משקים שאנו מסייעים להם
+  - Portal: https://www.linksforisrael.com/Agriculture/Main/FarmingIsrael
+- **עבודה בחקלאות בזמן מלחמה** — https://chat.whatsapp.com/JEL98bf5NCj0ezPbnrKrFS
+  - Summary: בקבוצה מפרסמים רק עבודות, כולל מקומות שיש עובדים לטווח ארוך לצד מתנדבים לטווח קצר.
+  - Portal: https://www.linksforisrael.com/Agriculture/Main/WorkInAgricultureDuringWar
+- **נרתמים לחקלאות** — https://chat.whatsapp.com/BHm0ACGdvgW8v8ihQ1UJj5
+  - Summary: פועל  לילות כימים כדי לסייע לחקלאות הישראלית, באמצעות גיוס מתנדבים ומתנדבות מצפון ועד דרום
+  - Portal: https://www.linksforisrael.com/Agriculture/Main/HarnessedToAgriculture
+
+## שכול, הנצחה וזיכרון (MemorialRemembrance) — https://www.linksforisrael.com/MemorialRemembrance
+זיכרון בסלון, ליווי משפחות שכולות, פרויקטי הנצחה ואתרי זיכרון
+
+### ראשי (MemorialRemembrance/Main)
+- **זיכרון בסלון** — https://www.zikaronbasalon.com/ [NGO | MOJ:580662070 | Nihul Takin | Section 46]
+  - Summary: המיזם החברתי-קהילתי למפגשי עדות, שיתוף ושיח פתוח בבתים בישראל ובעולם סביב יום השואה וזיכרון לאומי
+  - Portal: https://www.linksforisrael.com/MemorialRemembrance/Main/ZikaronBaSalon
+- **מוזיאון בית לוחמי הגטאות — ארכיון, חינוך והנצחת השואה** — https://www.gfh.org.il/ [NGO | MOJ:580836278 | Section 46]
+  - Summary: המוזיאון הראשון בעולם להנצחת השואה והגבורה, ארכיון עדויות פתוח ומרכז חינוך הומניסטי
+  - Portal: https://www.linksforisrael.com/MemorialRemembrance/Main/GhettoFightersHouse
+- **תבנית לאתרי יזכור** — https://memorial-templates.wix.com/
+  - Summary: אתר הנצחה דיגיטלי, ללא עלות
+  - Portal: https://www.linksforisrael.com/MemorialRemembrance/Main/WixRememberThem
+- **חרבות ברזל - ממוריאליין** — https://ironswords.info/
+  - Summary: האתר להנצחת הנופלים והנרצחים
+  - Portal: https://www.linksforisrael.com/MemorialRemembrance/Main/ironswords.info
+- **מנחמים את משפחות הנופלים** — https://noflim.org.il [Phone: +972525269321]
+  - Summary: אתר המרכז זמני שבעה של נופלים במלחמת חרבות ברזל
+  - Portal: https://www.linksforisrael.com/MemorialRemembrance/Main/ConsolingMourningFamilies
+- **קדיש למען הנרצחים** — https://www.givethemakaddish.org [Phone: +18457094787]
+  - Summary: קדיש עבור הנרצחים
+  - Portal: https://www.linksforisrael.com/MemorialRemembrance/Main/Givethemakaddish
+- **איורים של הנופלים - Benzi Wolman** — mailto:Benziwolman@gmail.com
+  - Summary: אני יושב ומאייר את דמותם של הנופלים שהיו שם בשבילנו. אם אתם יודעים על משפחה שעשויה לרצות
+  - Portal: https://www.linksforisrael.com/MemorialRemembrance/Main/IllustrationNofalim
+- **תיבת תהודה** — https://www.coing.co/Remember_Registration_Haravot_Barzel
+  - Summary: המיזם, אשר מבוסס על ניסיון בני משפחות שכולות, נועד לאגד זיכרונות, סיפורים ותמונות על הנופלים והנרצחים.
+  - Portal: https://www.linksforisrael.com/MemorialRemembrance/Main/echoBox
+- **משנה 1 לנשמה 1** — https://chat.whatsapp.com/Ft9Qwkinj0010HxjPbfwa3
+  - Summary: קבוצת לימוד יומית ללימוד משנה אחת ביום לעילוי נשמת נופל או נרצח מאירועי ה-7 באוקטובר והמלחמה
+  - Portal: https://www.linksforisrael.com/MemorialRemembrance/Main/Mishna1ForNeshama1
+
+## הסברה ודיפלומטיה (StrategicCommunication) — https://www.linksforisrael.com/StrategicCommunication
+הסברה בינלאומית, מאבק באנטישמיות, תיעוד ומאגרי מידע
+
+### ראשי (StrategicCommunication/Main)
+- **קולות מישראל - Voice Of Israel** — https://voicesofisrael.org/ [NGO]
+  - Summary: גוף תומך בפעילויות הסברתיות פרו-ישראלית מסביב לעולם
+  - Portal: https://www.linksforisrael.com/StrategicCommunication/Main/voicesOfIsrael
+- **לא עוצרים עד שמנצחים** — https://givechak.co.il/menatzchim [MOJ:580622041 | Nihul Takin]
+  - Summary: אנחנו אזרחים שרוצים – כמו כולם – לראות נצחון אמיתי.
+  - Portal: https://www.linksforisrael.com/StrategicCommunication/Main/menatzchim
+- **תנועת החזית האזרחית** — https://www.hachazit.co.il/
+  - Summary: בעוצמה, בנחישות, ללא תנאים
+  - Portal: https://www.linksforisrael.com/StrategicCommunication/Main/hachazit
+- **אתר בין לאומי למלחמת חרבות ברזל** — https://iron-swords.co.il/
+  - Summary: יחד, נוכל ליצור זיכרון תמידי ברשת לכל אחד מהחללים והנרצחים, תוך הגנה על כבוד ישראל וחשיפת האמת לעולם
+  - Portal: https://www.linksforisrael.com/StrategicCommunication/Main/%D7%90%D7%AA%D7%A8%20%D7%91%D7%99%D7%9F%20%D7%9C%D7%90%D7%95%D7%9E%D7%99%20%D7%9C%D7%9E%D7%9C%D7%97%D7%9E%D7%AA%20%D7%97%D7%A8%D7%91%D7%95%D7%AA%20%D7%91%D7%A8%D7%96%D7%9C
+- **ערוץ TOV - הסברה יהודית בזירה הבינלאומית** — https://tovnews.co.il/elementor-129903
+  - Summary: חזית יהודית בהסברה בינלאומית
+  - Portal: https://www.linksforisrael.com/StrategicCommunication/Main/TovStrategicCommunications
+- **החזית האזרחית - The Civilian Front** — https://chat.whatsapp.com/DN9ftltVwzt366qOOXqSAH
+  - Summary: קהילת הסברה בינלאומית (מעל 15 מדינות)
+  - Portal: https://www.linksforisrael.com/StrategicCommunication/Main/HamalMeida
+- **Explain Israel** — https://linktr.ee/mate.hasbara
+  - Summary: Join the fight for Israel🇮🇱 Spreading truth against terrorism.
+  - Portal: https://www.linksforisrael.com/StrategicCommunication/Main/ExplainIsrael
+- **הסברה ישראלית - הפצה** — https://chat.whatsapp.com/HXJqKmfzwT0HIb477Xx9ir
+  - Summary: קבוצת ואצאפ להפצה של חומרי הסברה לחו'ל - לכל המדינות
+  - Portal: https://www.linksforisrael.com/StrategicCommunication/Main/StrategicCommunicationDistribution
+
+### רשתות חברתיות (StrategicCommunication/SocialNetworks)
+- **Stop Antisemitism** — https://www.stopantisemitism.org/ [NGO]
+  - Summary: Leading Non-Partisan U.S Based Organization Fighting & Exposing Antisemitism
+  - Portal: https://www.linksforisrael.com/StrategicCommunication/SocialNetworks/StopAntisemitism
+- **Digital Dome - דיגיטל דום** — https://digitaldome.io/
+  - Summary: הפסקת תוכן פגעני ברשת
+  - Portal: https://www.linksforisrael.com/StrategicCommunication/SocialNetworks/DigitalDome
+- **חמל הסברה חרבות ברזל** — https://www.facebook.com/groups/697258502313200 [Phone: 0524257575]
+  - Summary: הסברה אפקטיבית במדיה החברתית
+  - Portal: https://www.linksforisrael.com/StrategicCommunication/SocialNetworks/HamalHasbara
+- **Scooper - ניטור ומחקר ברשת** — https://access.scooper.co.il/app/project/7821ad26-cc00-4a3f-998b-a3521c2f7cfe/shared_dashboard/export_Scooper6_hVq6X5yN.html#/SHARED_DASHBOARD#co=project&cid=7821ad26-cc00-4a3f-998b-a3521c2f7cfe&psid=export_Scooper6_hVq6X5yN.html&keyid=undefined&data=eyJyIjp7ImEiOnsiYWN0aXZlUGFnZUlkIjoiREVGQVVMVC1EQVNILVNFQ1RJT04ifSwiaSI6IlNIQVJFRF9EQVNIQk9BUkQiLCJzIjpbXX19
+  - Summary: ניתור ומחקר ברשת, מאפשר לראות פוסטים טרנדים לפי איזורים ופוסטים עם הכי הרבה מעורבות
+  - Portal: https://www.linksforisrael.com/StrategicCommunication/SocialNetworks/scooper
+- **דיווח על עמודים - חרבות ברזל** — https://chat.whatsapp.com/IKrNlfjrV8O5tBuBMpPOmV
+  - Summary: קבוצה לדיווח על פירסומים אנטי-ישראלים, פוגעניים, ופייק ניוז
+  - Portal: https://www.linksforisrael.com/StrategicCommunication/SocialNetworks/SocialNetworksReportWhatsapp
+- **בוט אמת הברזל** — https://t.me/IronTruthBot
+  - Summary: בוט לדיווח על תכנים שקריים ברשתות החברתיות, עזרו לדווח על תכנים מסיתים שברשת 
+  - Portal: https://www.linksforisrael.com/StrategicCommunication/SocialNetworks/BotEmetHaBarzel
+- **ניל״י-אונליין** — https://t.me/onlinenili
+  - Summary: דיווח על סטודנטים תומכי טרור. נזכור כל מי שהביע אהדה, שמחה ושבח.
+  - Portal: https://www.linksforisrael.com/StrategicCommunication/SocialNetworks/niliOnline
+
+### כלים לתמיכה בהסברה (StrategicCommunication/Tools)
+- **אלה GPT** — https://chat.openai.com/g/g-Q9aS12PPv-ellagpt
+  - Summary: Sharp, sarcastic tweets countering hate speech in 220 characters.
+  - Portal: https://www.linksforisrael.com/StrategicCommunication/Tools/EllaGPT
+- **טופס להוספת כתוביות לסרטונים** — https://www.youtube.com/watch?v=ONyPGE6VQog
+  - Summary: גישה חינם לאפליקציית מובייל להוספת כתוביות לסרטוני הסברה בכל שפה
+  - Portal: https://www.linksforisrael.com/StrategicCommunication/Tools/Autocap
+- **להלחם בחזרה בטלגרם** — https://t.me/fightbackai_bot
+  - Summary: LLM’s enlisted to help Hasbara
+  - Portal: https://www.linksforisrael.com/StrategicCommunication/Tools/FightBackAI
+
+### מקורות מידע לסיוע בהסברה (StrategicCommunication/Info)
+- **הספרייה הלאומית - רשימת פרויקטים - מאגר הלאומי לתיעוד מאורעות ה - 7.10** — https://www.nli.org.il/he/at-your-service/who-we-are/projects/7-october-documentation#projects [Official Institution]
+  - Summary: המאגר של הספרייה הלאומית לתיעוד מאורעות ה - 7.10 למלחמה.
+  - Portal: https://www.linksforisrael.com/StrategicCommunication/Info/TheNationalLibrary
+- **חרבות ברזל עדכונים ותמונת מצב** — https://www.inss.org.il/he/publication/war-data/ [NGO | MOJ:513861435 | Nihul Takin]
+  - Summary: דסק הנתונים של המכון למחקרי ביטחון לאומי אוסף עבורכם את המידע העדכני והמדויק במהלך ימי המלחמה
+  - Portal: https://www.linksforisrael.com/StrategicCommunication/Info/InssWarData
+- **הקונסוליה הישראלית בניו יורק** — https://www.onlytrueinformation.com/ [Official Institution]
+  - Portal: https://www.linksforisrael.com/StrategicCommunication/Info/OnlyTrueInformation
+- **Mapping the Massacres** — https://oct7map.com/
+  - Summary: A geo-visualization depicting the atrocities perpetrated by Hamas on Israeli lands on October 7th
+  - Portal: https://www.linksforisrael.com/StrategicCommunication/Info/oct7map
+- **ארכיון ההסברה - טאגבוקס** — https://app.tagbox.io/w/652956971319a00011a82b71
+  - Summary: ארכיון ממוין לפי תגיות, נושאים ושפות של כל החומרים הרלוונטיים להסברה מתעדכן על ידי צוות ייעודיי
+  - Portal: https://www.linksforisrael.com/StrategicCommunication/Info/hasbaraArchive

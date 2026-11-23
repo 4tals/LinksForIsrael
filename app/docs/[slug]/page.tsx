@@ -19,6 +19,7 @@ export const dynamicParams = false;
 
 const DOC_TITLES: Record<string, string> = {
 	accessibility: "הצהרת נגישות",
+	agents: "לסוכני AI, מודלי שפה ו-Open Data API",
 	contribute: "איך לתרום לפרויקט",
 	"ezra-rishona": "מדריך עזרה ראשונה",
 	finance: "מידע וזכויות פיננסיות",

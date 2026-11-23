@@ -155,6 +155,19 @@ export function Footer() {
 						>
 							{isEnglish ? "Printable Sheet" : "דף חירום להדפסה"}
 						</Link>
+						<Text fontSize="xs" color="gray.400" aria-hidden="true">
+							•
+						</Text>
+						<Link
+							as={NextLink}
+							href="/docs/agents"
+							fontSize="xs"
+							fontWeight="medium"
+							color="gray.700"
+							_hover={{ color: "brand.600", textDecoration: "underline" }}
+						>
+							{isEnglish ? "AI Agents & Open Data" : "סוכני AI ו-API פתוח"}
+						</Link>
 					</HStack>
 
 					<HStack spacing={1.5} align="center" wrap="wrap" justify="center">

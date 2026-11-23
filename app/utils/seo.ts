@@ -121,6 +121,41 @@ export function buildHomeJsonLd(categories: Category[]) {
 				sameAs: socialLinks.map((s) => s.href),
 			},
 			{
+				"@type": "Dataset",
+				"@id": `${SITE_URL}/#dataset`,
+				name: "Links For Israel — Open Structured Directory of Israel & Jewish Life",
+				alternateName: "מאגר הנתונים הפתוח של לינק לישראל",
+				description:
+					"Machine-readable, community-maintained open dataset of MOJ-verified Israeli nonprofits (data.gov.il Good Standing & Section 46 / US 501c3), 24/7 emergency & mental health hotlines, Aliyah & New Olim resources, licensed money transfer services, and Masorti/Conservative & global Jewish heritage.",
+				url: `${SITE_URL}/docs/agents`,
+				isAccessibleForFree: true,
+				inLanguage: ["he-IL", "en-US"],
+				creator: { "@id": `${SITE_URL}/#organization` },
+				license: "https://github.com/4tals/LinksForIsrael",
+				distribution: [
+					{
+						"@type": "DataDownload",
+						encodingFormat: "application/json",
+						contentUrl: `${SITE_URL}/api/v1/initiatives.json`,
+					},
+					{
+						"@type": "DataDownload",
+						encodingFormat: "application/json",
+						contentUrl: `${SITE_URL}/api/v1/hsds.json`,
+					},
+					{
+						"@type": "DataDownload",
+						encodingFormat: "text/markdown",
+						contentUrl: `${SITE_URL}/llms-full.txt`,
+					},
+					{
+						"@type": "DataDownload",
+						encodingFormat: "application/openapi+json",
+						contentUrl: `${SITE_URL}/openapi.json`,
+					},
+				],
+			},
+			{
 				"@type": "ItemList",
 				name: "קטגוריות יוזמות בפורטל לינק לישראל",
 				numberOfItems: categories.length,

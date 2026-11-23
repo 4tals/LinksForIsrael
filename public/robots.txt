@@ -1,11 +1,24 @@
 User-agent: *
 Allow: /
 
-# Explicitly welcome search & AI answer engines to index our public civic directory
+# Explicitly welcome search engines & AI agents to index and query our open directory
+# Agent-first machine-readable indexes:
+#   https://www.linksforisrael.com/llms.txt
+#   https://www.linksforisrael.com/llms-full.txt
+#   https://www.linksforisrael.com/openapi.json
+#   https://www.linksforisrael.com/.well-known/agent-card.json
+#   https://www.linksforisrael.com/api/v1/initiatives.json
+
 User-agent: Googlebot
 Allow: /
 
+User-agent: Google-Extended
+Allow: /
+
 User-agent: Bingbot
+Allow: /
+
+User-agent: GPTBot
 Allow: /
 
 User-agent: OAI-SearchBot
@@ -17,10 +30,16 @@ Allow: /
 User-agent: PerplexityBot
 Allow: /
 
+User-agent: ClaudeBot
+Allow: /
+
 User-agent: Claude-SearchBot
 Allow: /
 
 User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
 Allow: /
 
 Sitemap: https://www.linksforisrael.com/sitemap.xml

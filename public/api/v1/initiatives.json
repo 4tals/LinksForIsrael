@@ -3,7 +3,7 @@
   "source": "https://www.linksforisrael.com",
   "repository": "https://github.com/4tals/LinksForIsrael",
   "license": "Open Data / Community Maintained",
-  "generatedAt": "2026-11-23T10:09:52.537Z",
+  "generatedAt": "2026-11-23T10:21:57.202Z",
   "count": 187,
   "initiatives": [
     {
@@ -28,9 +28,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": true,
+      "us501c3": false,
       "registrationNumber": "580079978",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://he.wikipedia.org/wiki/%D7%A2%D7%96%D7%A8_%D7%9E%D7%A6%D7%99%D7%95%D7%9F",
@@ -91,9 +93,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": true,
+      "us501c3": false,
       "registrationNumber": "580294940",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://he.wikipedia.org/wiki/%D7%90%D7%A8%D7%92%D7%95%D7%9F_%D7%9C%D7%AA%D7%AA",
@@ -154,9 +158,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": true,
+      "us501c3": false,
       "registrationNumber": "580455681",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://en.wikipedia.org/wiki/Krembo_Wings",
@@ -220,9 +226,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": true,
+      "us501c3": false,
       "registrationNumber": "580631620",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://he.wikipedia.org/wiki/%D7%99%D7%93%D7%99%D7%93%D7%99%D7%9D_-_%D7%A1%D7%99%D7%95%D7%A2_%D7%91%D7%93%D7%A8%D7%9B%D7%99%D7%9D",
@@ -277,9 +285,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": true,
+      "us501c3": false,
       "registrationNumber": "580030047",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://he.wikipedia.org/wiki/%D7%A2%D7%A8%22%D7%9F",
@@ -337,9 +347,11 @@
       "verified": true,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": "official",
+      "regulator": null,
       "references": [
         {
           "url": "https://he.wikipedia.org/wiki/%D7%94%D7%A1%D7%A4%D7%A8%D7%99%D7%99%D7%94_%D7%94%D7%9C%D7%90%D7%95%D7%9E%D7%99%D7%AA",
@@ -392,9 +404,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": true,
+      "us501c3": false,
       "registrationNumber": "580030104",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://he.wikipedia.org/wiki/%D7%99%D7%93_%D7%A9%D7%A8%D7%94",
@@ -448,9 +462,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": true,
+      "us501c3": false,
       "registrationNumber": "580318129",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://he.wikipedia.org/wiki/%D7%A0%D7%98%22%D7%9C",
@@ -511,9 +527,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": true,
+      "us501c3": false,
       "registrationNumber": "580307379",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://he.wikipedia.org/wiki/%D7%96%D7%A7%22%D7%90",
@@ -565,9 +583,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://he.wikipedia.org/wiki/%D7%9B%D7%9C_%D7%96%D7%9B%D7%95%D7%AA",
@@ -621,9 +641,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://he.wikipedia.org/wiki/%D7%90%D7%A8%D7%92%D7%95%D7%9F_%D7%A0%D7%9B%D7%99_%D7%A6%D7%94%22%D7%9C",
@@ -678,9 +700,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": true,
+      "us501c3": false,
       "registrationNumber": "580399681",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://he.wikipedia.org/wiki/%D7%A2%D7%9E%D7%95%D7%AA%D7%AA_%D7%A1%D7%94%22%D7%A8",
@@ -735,9 +759,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": true,
+      "us501c3": false,
       "registrationNumber": "580407633",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://he.wikipedia.org/wiki/%D7%9C%D7%A7%D7%98_%D7%99%D7%A9%D7%A8%D7%90%D7%9C",
@@ -792,9 +818,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": true,
+      "us501c3": false,
       "registrationNumber": "580328839",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://he.wikipedia.org/wiki/%D7%A4%D7%AA%D7%97%D7%95%D7%9F_%D7%9C%D7%91",
@@ -845,9 +873,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": true,
+      "us501c3": false,
       "registrationNumber": "580586998",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://he.wikipedia.org/wiki/Jgive",
@@ -901,9 +931,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": true,
+      "us501c3": false,
       "registrationNumber": "580036945",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://he.wikipedia.org/wiki/%D7%A2%D7%9C%D7%9D",
@@ -956,9 +988,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": true,
+      "us501c3": false,
       "registrationNumber": "580277481",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://he.wikipedia.org/wiki/%D7%A8%D7%95%D7%97_%D7%98%D7%95%D7%91%D7%94",
@@ -1008,9 +1042,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": true,
+      "us501c3": false,
       "registrationNumber": "580492981",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://he.wikipedia.org/wiki/%D7%94%D7%A9%D7%95%D7%9E%D7%A8_%D7%94%D7%97%D7%93%D7%A9",
@@ -1061,9 +1097,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": true,
+      "us501c3": false,
       "registrationNumber": "580662070",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://he.wikipedia.org/wiki/%D7%96%D7%99%D7%9B%D7%A8%D7%95%D7%9F_%D7%91%D7%A1%D7%9C%D7%95%D7%9F",
@@ -1114,9 +1152,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://www.ynet.co.il/activism/article/skcqv111a1x",
@@ -1170,9 +1210,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://he.wikipedia.org/wiki/%D7%A0%D7%92%D7%99%D7%A9%D7%95%D7%AA_%D7%99%D7%A9%D7%A8%D7%90%D7%9C",
@@ -1224,9 +1266,11 @@
       "verified": true,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": "official",
+      "regulator": null,
       "references": [
         {
           "url": "https://en.wikipedia.org/wiki/Home_Front_Command",
@@ -1276,9 +1320,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": true,
+      "us501c3": false,
       "registrationNumber": "580173730",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://he.wikipedia.org/wiki/%D7%90%D7%99%D7%92%D7%95%D7%93_%D7%9E%D7%A8%D7%9B%D7%96%D7%99_%D7%94%D7%A1%D7%99%D7%95%D7%A2_%D7%9C%D7%A0%D7%A4%D7%92%D7%A2%D7%95%D7%AA_%D7%95%D7%A0%D7%A4%D7%92%D7%A2%D7%99_%D7%AA%D7%A7%D7%99%D7%A4%D7%94_%D7%9E%D7%99%D7%A0%D7%99%D7%AA_%D7%91%D7%99%D7%A9%D7%A8%D7%90%D7%9C",
@@ -1329,9 +1375,11 @@
       "verified": true,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": "official",
+      "regulator": null,
       "references": [
         {
           "url": "https://www.calcalist.co.il/local_news/article/h1vpq03g6",
@@ -1375,9 +1423,11 @@
       "verified": true,
       "taxDeductible46": false,
       "properManagement": true,
+      "us501c3": false,
       "registrationNumber": "580768935",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://he.wikipedia.org/wiki/%D7%90%D7%97%D7%99%D7%9D_%D7%95%D7%90%D7%97%D7%99%D7%95%D7%AA_%D7%9C%D7%A0%D7%A9%D7%A7",
@@ -1431,9 +1481,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": true,
+      "us501c3": false,
       "registrationNumber": "580392702",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://he.wikipedia.org/wiki/%D7%A4%D7%A2%D7%9E%D7%95%D7%A0%D7%99%D7%9D",
@@ -1487,9 +1539,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": true,
+      "us501c3": false,
       "registrationNumber": "580354637",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://he.wikipedia.org/wiki/%D7%A2%D7%9C%D7%94_(%D7%A2%D7%9E%D7%95%D7%AA%D7%94)",
@@ -1543,9 +1597,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": true,
+      "us501c3": false,
       "registrationNumber": "580258242",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://he.wikipedia.org/wiki/%D7%A2%D7%9E%D7%95%D7%AA%D7%AA_%D7%90%D7%AA%D7%92%D7%A8%D7%99%D7%9D",
@@ -1599,9 +1655,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": true,
+      "us501c3": false,
       "registrationNumber": "580064335",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://he.wikipedia.org/wiki/%D7%90%D7%9C%D7%95%22%D7%98_-_%D7%90%D7%92%D7%95%D7%93%D7%94_%D7%9C%D7%90%D7%95%D7%9E%D7%99%D7%AA_%D7%9C%D7%99%D7%9C%D7%93%D7%99%D7%9D_%D7%95%D7%91%D7%95%D7%92%D7%A8%D7%99%D7%9D_%D7%A2%D7%9D_%D7%90%D7%95%D7%98%D7%99%D7%96%D7%9D",
@@ -1655,9 +1713,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": true,
+      "us501c3": false,
       "registrationNumber": "580367795",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://www.guidestar.org.il/organization/580367795",
@@ -1705,9 +1765,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": true,
+      "us501c3": false,
       "registrationNumber": "580465979",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://he.wikipedia.org/wiki/%D7%90%D7%99%D7%97%D7%95%D7%93_%D7%94%D7%A6%D7%9C%D7%94",
@@ -1757,9 +1819,11 @@
       "verified": true,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": "official",
+      "regulator": null,
       "references": [
         {
           "url": "https://he.wikipedia.org/wiki/%D7%97%D7%95%D7%A7_%D7%9E%D7%92%D7%9F_%D7%93%D7%95%D7%93_%D7%90%D7%93%D7%95%D7%9D",
@@ -1803,9 +1867,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": true,
+      "us501c3": false,
       "registrationNumber": "580601946",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://www.guidestar.org.il/organization/580601946",
@@ -1847,9 +1913,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": true,
+      "us501c3": false,
       "registrationNumber": "516267911",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://www.guidestar.org.il/organization/516267911",
@@ -1897,9 +1965,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": true,
+      "us501c3": false,
       "registrationNumber": "516907888",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://www.guidestar.org.il/organization/516907888",
@@ -1944,9 +2014,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": "580461689",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://he.wikipedia.org/wiki/%D7%9C%D7%91_%D7%90%D7%97%D7%93_-_%D7%A1%D7%99%D7%95%D7%A2_%D7%90%D7%96%D7%A8%D7%97%D7%99_%D7%91%D7%97%D7%99%D7%A8%D7%95%D7%9D",
@@ -1988,9 +2060,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://he.wikipedia.org/wiki/%D7%90%D7%97%D7%99%D7%9D_%D7%9C%D7%97%D7%99%D7%99%D7%9D",
@@ -2038,9 +2112,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": true,
+      "us501c3": false,
       "registrationNumber": "580455491",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://he.wikipedia.org/wiki/%D7%94%D7%A7%D7%95%D7%90%D7%9C%D7%99%D7%A6%D7%99%D7%94_%D7%94%D7%99%D7%A9%D7%A8%D7%90%D7%9C%D7%99%D7%AA_%D7%9C%D7%98%D7%A8%D7%90%D7%95%D7%9E%D7%94",
@@ -2088,9 +2164,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": true,
+      "us501c3": false,
       "registrationNumber": "580019800",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://he.wikipedia.org/wiki/%D7%90%D7%A0%D7%95%D7%A9_%E2%80%93_%D7%94%D7%A2%D7%9E%D7%95%D7%AA%D7%94_%D7%94%D7%99%D7%A9%D7%A8%D7%90%D7%9C%D7%99%D7%AA_%D7%9C%D7%91%D7%A8%D7%99%D7%90%D7%95%D7%AA_%D7%94%D7%A0%D7%A4%D7%A9",
@@ -2138,9 +2216,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": true,
+      "us501c3": false,
       "registrationNumber": "580000156",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://he.wikipedia.org/wiki/%D7%A6%D7%A2%D7%A8_%D7%91%D7%A2%D7%9C%D7%99_%D7%97%D7%99%D7%99%D7%9D_(%D7%A2%D7%9E%D7%95%D7%AA%D7%95%D7%AA)",
@@ -2189,9 +2269,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": true,
+      "us501c3": true,
       "registrationNumber": "580544120",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://www.guidestar.org.il/organization/580544120",
@@ -2240,9 +2322,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": true,
+      "us501c3": false,
       "registrationNumber": "580360238",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://www.guidestar.org.il/organization/580360238",
@@ -2290,9 +2374,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": true,
+      "us501c3": true,
       "registrationNumber": "580132454",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://www.guidestar.org.il/organization/580132454",
@@ -2340,9 +2426,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": true,
+      "us501c3": true,
       "registrationNumber": "580394823",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://www.guidestar.org.il/organization/580394823",
@@ -2391,9 +2479,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": true,
+      "us501c3": true,
       "registrationNumber": "580302099",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://www.guidestar.org.il/organization/580302099",
@@ -2437,9 +2527,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": true,
+      "us501c3": false,
       "registrationNumber": "580407633",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://en.wikipedia.org/wiki/Leket_Israel",
@@ -2489,9 +2581,11 @@
       "verified": true,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": "official",
+      "regulator": null,
       "references": [
         {
           "url": "https://he.wikipedia.org/wiki/%D7%9E%D7%92%D7%9F_%D7%93%D7%95%D7%93_%D7%90%D7%93%D7%95%D7%9D",
@@ -2532,9 +2626,11 @@
       "verified": true,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": "official",
+      "regulator": null,
       "references": [
         {
           "url": "https://www.gov.il/he/departments/ministry_of_aliyah_and_integration",
@@ -2581,9 +2677,11 @@
       "verified": true,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": "official",
+      "regulator": null,
       "references": [
         {
           "url": "https://en.wikipedia.org/wiki/Magen_David_Adom",
@@ -2623,9 +2721,11 @@
       "verified": true,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": "official",
+      "regulator": null,
       "references": [
         {
           "url": "https://he.wikipedia.org/wiki/%D7%A9%D7%99%D7%A8%D7%95%D7%AA_%D7%94%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D_%D7%91%D7%99%D7%A9%D7%A8%D7%90%D7%9C",
@@ -2667,9 +2767,11 @@
       "verified": true,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": "official",
+      "regulator": null,
       "references": [
         {
           "url": "https://he.wikipedia.org/wiki/%D7%A4%D7%A8%D7%95%D7%99%D7%A7%D7%98_%D7%A4%D7%A8%22%D7%97",
@@ -2710,9 +2812,11 @@
       "verified": true,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": "official",
+      "regulator": null,
       "references": [
         {
           "url": "https://he.wikipedia.org/wiki/%D7%94%D7%A1%D7%95%D7%9B%D7%A0%D7%95%D7%AA_%D7%94%D7%99%D7%94%D7%95%D7%93%D7%99%D7%AA",
@@ -2751,9 +2855,11 @@
       "verified": true,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://www.ynet.co.il/judaism/discourse/article/bjwvwpoxt",
@@ -2795,9 +2901,11 @@
       "verified": true,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": "official",
+      "regulator": null,
       "references": [
         {
           "url": "https://www.jpost.com/health-and-wellness/article-897449",
@@ -2840,9 +2948,11 @@
       "verified": true,
       "taxDeductible46": false,
       "properManagement": true,
+      "us501c3": false,
       "registrationNumber": "580175545",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://he.wikipedia.org/wiki/%D7%A7%D7%95_%D7%9C%D7%A2%D7%95%D7%91%D7%93",
@@ -2888,9 +2998,11 @@
       "verified": true,
       "taxDeductible46": false,
       "properManagement": true,
+      "us501c3": true,
       "registrationNumber": "580787760",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://www.guidestar.org.il/organization/580787760",
@@ -2936,9 +3048,11 @@
       "verified": true,
       "taxDeductible46": false,
       "properManagement": true,
+      "us501c3": false,
       "registrationNumber": "513861435",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://he.wikipedia.org/wiki/%D7%94%D7%9E%D7%9B%D7%95%D7%9F_%D7%9C%D7%9E%D7%97%D7%A7%D7%A8%D7%99_%D7%91%D7%99%D7%98%D7%97%D7%95%D7%9F_%D7%9C%D7%90%D7%95%D7%9E%D7%99",
@@ -2993,9 +3107,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": true,
+      "us501c3": false,
       "registrationNumber": "580030039",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://www.guidestar.org.il/organization/580030039",
@@ -3037,9 +3153,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": true,
+      "us501c3": false,
       "registrationNumber": "580073146",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://www.guidestar.org.il/organization/580073146",
@@ -3081,9 +3199,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": true,
+      "us501c3": false,
       "registrationNumber": "580672764",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://www.guidestar.org.il/organization/580672764",
@@ -3124,9 +3244,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": true,
+      "us501c3": false,
       "registrationNumber": "580071850",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://www.guidestar.org.il/organization/580071850",
@@ -3167,9 +3289,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": true,
+      "us501c3": false,
       "registrationNumber": "580168961",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://www.guidestar.org.il/organization/580168961",
@@ -3210,9 +3334,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": true,
+      "us501c3": false,
       "registrationNumber": "580179372",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://www.guidestar.org.il/organization/580179372",
@@ -3254,9 +3380,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": true,
+      "us501c3": false,
       "registrationNumber": "580036242",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://www.guidestar.org.il/organization/580036242",
@@ -3298,9 +3426,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://he.wikipedia.org/wiki/%D7%A2%D7%9C%D7%94_(%D7%A2%D7%9E%D7%95%D7%AA%D7%94)",
@@ -3341,9 +3471,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": true,
+      "us501c3": false,
       "registrationNumber": "580357911",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://www.guidestar.org.il/organization/580357911",
@@ -3384,9 +3516,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": true,
+      "us501c3": false,
       "registrationNumber": "580008878",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://www.guidestar.org.il/organization/580008878",
@@ -3427,9 +3561,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": true,
+      "us501c3": false,
       "registrationNumber": "580202166",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://www.guidestar.org.il/organization/580202166",
@@ -3471,9 +3607,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": true,
+      "us501c3": false,
       "registrationNumber": "580185700",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://www.guidestar.org.il/organization/580185700",
@@ -3515,9 +3653,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://www.kolzchut.org.il/he/%D7%90%D7%91%D7%99%D7%91_%D7%9C%D7%A0%D7%99%D7%A6%D7%95%D7%9C%D7%99_%D7%94%D7%A9%D7%95%D7%90%D7%94",
@@ -3559,9 +3699,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": true,
+      "us501c3": false,
       "registrationNumber": "580062073",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://www.guidestar.org.il/organization/580062073",
@@ -3603,9 +3745,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": true,
+      "us501c3": false,
       "registrationNumber": "580034338",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://www.guidestar.org.il/organization/580034338",
@@ -3647,9 +3791,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": true,
+      "us501c3": false,
       "registrationNumber": "580365260",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://www.guidestar.org.il/organization/580365260",
@@ -3691,9 +3837,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://he.wikipedia.org/wiki/%D7%A2%D7%95%D7%92%D7%9F_(%D7%A7%D7%91%D7%95%D7%A6%D7%94)",
@@ -3735,9 +3883,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": true,
+      "us501c3": false,
       "registrationNumber": "580034924",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://www.guidestar.org.il/organization/580034924",
@@ -3778,9 +3928,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": true,
+      "us501c3": false,
       "registrationNumber": "580057321",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://www.guidestar.org.il/organization/580057321",
@@ -3822,9 +3974,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": true,
+      "us501c3": false,
       "registrationNumber": "580176832",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://www.guidestar.org.il/organization/580176832",
@@ -3866,9 +4020,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://he.wikipedia.org/wiki/%D7%99%D7%9C%D7%93%D7%99%D7%9D_%D7%91%D7%A1%D7%99%D7%9B%D7%95%D7%99",
@@ -3910,9 +4066,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://he.wikipedia.org/wiki/%D7%90%D7%95%D7%A8_%D7%A9%D7%9C%D7%95%D7%9D",
@@ -3954,9 +4112,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": true,
+      "us501c3": false,
       "registrationNumber": "580293710",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://www.guidestar.org.il/organization/580293710",
@@ -3998,9 +4158,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://he.wikipedia.org/wiki/%D7%90%D7%A1.%D7%90%D7%95.%D7%90%D7%A1_%D7%97%D7%99%D7%95%D7%AA",
@@ -4042,9 +4204,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": true,
+      "us501c3": false,
       "registrationNumber": "580020287",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://www.guidestar.org.il/organization/580020287",
@@ -4084,9 +4248,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": true,
+      "us501c3": false,
       "registrationNumber": "580044261",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://www.guidestar.org.il/organization/580044261",
@@ -4127,9 +4293,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": true,
+      "us501c3": false,
       "registrationNumber": "580017499",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://www.guidestar.org.il/organization/580017499",
@@ -4169,9 +4337,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://he.wikipedia.org/wiki/%D7%9B%D7%9C_%D7%96%D7%9B%D7%95%D7%AA",
@@ -4214,9 +4384,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": true,
+      "us501c3": true,
       "registrationNumber": "580722643",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://www.guidestar.org.il/organization/580722643",
@@ -4259,9 +4431,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": true,
+      "us501c3": false,
       "registrationNumber": "580609964",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://www.guidestar.org.il/organization/580609964",
@@ -4305,9 +4479,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": true,
+      "us501c3": true,
       "registrationNumber": "580019545",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://www.guidestar.org.il/organization/580019545",
@@ -4350,9 +4526,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": true,
+      "us501c3": false,
       "registrationNumber": "510190333",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://www.guidestar.org.il/organization/510190333",
@@ -4395,9 +4573,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": true,
+      "us501c3": false,
       "registrationNumber": "580006765",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://www.guidestar.org.il/organization/580006765",
@@ -4440,9 +4620,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": true,
+      "us501c3": true,
       "registrationNumber": "580037455",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://www.guidestar.org.il/organization/580037455",
@@ -4484,9 +4666,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": true,
+      "us501c3": true,
       "registrationNumber": "580512390",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://www.guidestar.org.il/organization/580512390",
@@ -4530,9 +4714,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": true,
+      "us501c3": true,
       "registrationNumber": "580520104",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://www.guidestar.org.il/organization/580520104",
@@ -4574,9 +4760,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": true,
+      "us501c3": true,
       "registrationNumber": "580696094",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://www.guidestar.org.il/organization/580696094",
@@ -4618,9 +4806,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": true,
+      "us501c3": false,
       "registrationNumber": "580549236",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://www.guidestar.org.il/organization/580549236",
@@ -4661,9 +4851,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": true,
+      "us501c3": true,
       "registrationNumber": "580400968",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://www.guidestar.org.il/organization/580400968",
@@ -4706,9 +4898,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": true,
+      "us501c3": true,
       "registrationNumber": "580652378",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://www.guidestar.org.il/organization/580652378",
@@ -4749,9 +4943,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": true,
+      "us501c3": true,
       "registrationNumber": "511021156",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://www.guidestar.org.il/organization/511021156",
@@ -4792,9 +4988,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": true,
+      "us501c3": true,
       "registrationNumber": "580009330",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://www.guidestar.org.il/organization/580009330",
@@ -4836,9 +5034,11 @@
       "verified": true,
       "taxDeductible46": true,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": "580836278",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://www.guidestar.org.il/organization/580836278",
@@ -4879,9 +5079,11 @@
       "verified": true,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://he.wikipedia.org/wiki/%D7%91%D7%98%D7%A8%D7%9D",
@@ -4921,9 +5123,11 @@
       "verified": true,
       "taxDeductible46": false,
       "properManagement": true,
+      "us501c3": false,
       "registrationNumber": "580777118",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://www.guidestar.org.il/organization/580777118",
@@ -4966,9 +5170,11 @@
       "verified": true,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://he.wikipedia.org/wiki/%D7%92%D7%A8%D7%A2%D7%99%D7%9F_%D7%A6%D7%91%D7%A8",
@@ -5011,9 +5217,11 @@
       "verified": true,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": true,
       "registrationNumber": "580644342",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://www.guidestar.org.il/organization/580644342",
@@ -5053,9 +5261,11 @@
       "verified": true,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://he.wikipedia.org/wiki/929_-_%D7%AA%D7%A0%22%D7%9A_%D7%91%D7%99%D7%97%D7%93",
@@ -5095,9 +5305,11 @@
       "verified": true,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://he.wikipedia.org/wiki/%D7%90%D7%A0%D7%95_-_%D7%9E%D7%95%D7%96%D7%99%D7%90%D7%95%D7%9F_%D7%94%D7%A2%D7%9D_%D7%94%D7%99%D7%94%D7%95%D7%93%D7%99",
@@ -5137,9 +5349,11 @@
       "verified": true,
       "taxDeductible46": false,
       "properManagement": true,
+      "us501c3": false,
       "registrationNumber": "580465011",
       "registryCheckedAt": "2026-11-23",
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://www.guidestar.org.il/organization/580465011",
@@ -5177,9 +5391,11 @@
       "verified": true,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": "ngo",
+      "regulator": null,
       "references": [
         {
           "url": "https://en.wikipedia.org/wiki/Voices_of_Israel",
@@ -5216,9 +5432,11 @@
       "verified": true,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": "official",
+      "regulator": null,
       "references": [],
       "rankScore": 52,
       "tags": [
@@ -5250,9 +5468,11 @@
       "verified": false,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": null,
+      "regulator": null,
       "references": [
         {
           "url": "https://he.wikipedia.org/wiki/%D7%91%D7%A8%D7%99%D7%99%D7%A0%D7%A4%D7%95%D7%A4",
@@ -5298,9 +5518,11 @@
       "verified": false,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": "licensed",
+      "regulator": "רשות ניירות ערך (ISA)",
       "references": [],
       "rankScore": 39,
       "tags": [
@@ -5336,9 +5558,11 @@
       "verified": false,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": "licensed",
+      "regulator": "רשות שוק ההון",
       "references": [],
       "rankScore": 39,
       "tags": [
@@ -5371,9 +5595,11 @@
       "verified": false,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": "licensed",
+      "regulator": "FCA / FinCEN",
       "references": [],
       "rankScore": 39,
       "tags": [
@@ -5406,9 +5632,11 @@
       "verified": false,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": "licensed",
+      "regulator": "רשות שוק ההון / FinCEN",
       "references": [],
       "rankScore": 39,
       "tags": [
@@ -5441,9 +5669,11 @@
       "verified": false,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": "licensed",
+      "regulator": "FinCEN / רשות שוק ההון",
       "references": [],
       "rankScore": 39,
       "tags": [
@@ -5477,9 +5707,11 @@
       "verified": true,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": "ngo",
+      "regulator": null,
       "references": [],
       "rankScore": 39,
       "tags": [
@@ -5513,9 +5745,11 @@
       "verified": true,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": true,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": "ngo",
+      "regulator": null,
       "references": [],
       "rankScore": 39,
       "tags": [
@@ -5549,9 +5783,11 @@
       "verified": true,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": true,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": "ngo",
+      "regulator": null,
       "references": [],
       "rankScore": 39,
       "tags": [
@@ -5585,9 +5821,11 @@
       "verified": true,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": true,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": "ngo",
+      "regulator": null,
       "references": [],
       "rankScore": 39,
       "tags": [
@@ -5621,9 +5859,11 @@
       "verified": true,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": "ngo",
+      "regulator": null,
       "references": [],
       "rankScore": 39,
       "tags": [
@@ -5657,9 +5897,11 @@
       "verified": true,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": "ngo",
+      "regulator": null,
       "references": [],
       "rankScore": 39,
       "tags": [
@@ -5691,9 +5933,11 @@
       "verified": false,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": null,
+      "regulator": null,
       "references": [
         {
           "url": "https://www.bgu.ac.il/articles/iron-doctors-female-venture-to-provide-remote-medical-care/",
@@ -5735,9 +5979,11 @@
       "verified": false,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": null,
+      "regulator": null,
       "references": [
         {
           "url": "https://he.wikipedia.org/wiki/PayBox",
@@ -5775,9 +6021,11 @@
       "verified": false,
       "taxDeductible46": false,
       "properManagement": true,
+      "us501c3": false,
       "registrationNumber": "580622041",
       "registryCheckedAt": "2026-11-23",
       "organizationType": null,
+      "regulator": null,
       "references": [
         {
           "url": "https://www.inn.co.il/news/616983",
@@ -5819,9 +6067,11 @@
       "verified": false,
       "taxDeductible46": false,
       "properManagement": true,
+      "us501c3": false,
       "registrationNumber": "580013167",
       "registryCheckedAt": "2026-11-23",
       "organizationType": null,
+      "regulator": null,
       "references": [
         {
           "url": "https://he.wikipedia.org/wiki/%D7%AA%D7%99%D7%90%D7%98%D7%A8%D7%95%D7%9F_%D7%90%D7%95%D7%A8%D7%A0%D7%94_%D7%A4%D7%95%D7%A8%D7%AA_%D7%9C%D7%99%D7%9C%D7%93%D7%99%D7%9D_%D7%95%D7%9C%D7%A0%D7%95%D7%A2%D7%A8",
@@ -5859,9 +6109,11 @@
       "verified": false,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": null,
+      "regulator": null,
       "references": [
         {
           "url": "https://www.mako.co.il/nexter-news/Article-7efe3cb1dff01a1027.htm",
@@ -5904,9 +6156,11 @@
       "verified": false,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": null,
+      "regulator": null,
       "references": [
         {
           "url": "https://www.globes.co.il/news/article.aspx?did=1001463304",
@@ -5952,9 +6206,11 @@
       "verified": false,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": null,
+      "regulator": null,
       "references": [
         {
           "url": "https://nadlan.walla.co.il/item/3614681",
@@ -5992,9 +6248,11 @@
       "verified": false,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": null,
+      "regulator": null,
       "references": [
         {
           "url": "https://govextra.gov.il/muni/maaleedomim/home/",
@@ -6034,9 +6292,11 @@
       "verified": false,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": null,
+      "regulator": null,
       "references": [
         {
           "url": "https://finance.walla.co.il/item/3614986",
@@ -6072,9 +6332,11 @@
       "verified": false,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": null,
+      "regulator": null,
       "references": [
         {
           "url": "https://news.walla.co.il/item/3618252",
@@ -6117,9 +6379,11 @@
       "verified": false,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": null,
+      "regulator": null,
       "references": [
         {
           "url": "https://www.ynet.co.il/digital/technews/article/bys217vwt",
@@ -6156,9 +6420,11 @@
       "verified": false,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": null,
+      "regulator": null,
       "references": [
         {
           "url": "https://www.globes.co.il/news/article.aspx?did=1001475285",
@@ -6195,9 +6461,11 @@
       "verified": false,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": null,
+      "regulator": null,
       "references": [
         {
           "url": "https://www.israelhayom.co.il/tech/tech-news/article/14740566",
@@ -6236,9 +6504,11 @@
       "verified": false,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": null,
+      "regulator": null,
       "references": [
         {
           "url": "https://www.calcalist.co.il/local_news/article/bkgy6ec11t",
@@ -6274,9 +6544,11 @@
       "verified": false,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": null,
+      "regulator": null,
       "references": [
         {
           "url": "https://www.maariv.co.il/business/Article-1051444",
@@ -6311,9 +6583,11 @@
       "verified": false,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": null,
+      "regulator": null,
       "references": [
         {
           "url": "https://www.maariv.co.il/news/viral/Article-1049297",
@@ -6349,9 +6623,11 @@
       "verified": false,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": null,
+      "regulator": null,
       "references": [
         {
           "url": "https://irrelevant.org.il/2024/01/30/6275",
@@ -6391,9 +6667,11 @@
       "verified": false,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": null,
+      "regulator": null,
       "references": [
         {
           "url": "https://www.linkedin.com/posts/sam-luky_send-condolences-to-our-brothers-and-sisters-activity-7119984759186894849-IS2h",
@@ -6431,9 +6709,11 @@
       "verified": false,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": null,
+      "regulator": null,
       "references": [
         {
           "url": "https://www.facebook.com/arbel.tamar/posts/pfbid0ZM3GfZ9MX7AAkfnsPZeFiE7Sf2sJMMxxpDebJJaeQeDyN62kSSwqZETAnR5PZY1al?locale=he_IL",
@@ -6469,9 +6749,11 @@
       "verified": false,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": null,
+      "regulator": null,
       "references": [
         {
           "url": "https://www.facebook.com/groups/startupforstartup/posts/1540440326827937/",
@@ -6507,9 +6789,11 @@
       "verified": false,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": null,
+      "regulator": null,
       "references": [
         {
           "url": "https://twitter.com/alono88/status/1723275520798769174",
@@ -6548,9 +6832,11 @@
       "verified": false,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": null,
+      "regulator": null,
       "references": [],
       "rankScore": 6,
       "tags": [
@@ -6581,9 +6867,11 @@
       "verified": false,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": null,
+      "regulator": null,
       "references": [],
       "rankScore": 6,
       "tags": [
@@ -6614,9 +6902,11 @@
       "verified": false,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": null,
+      "regulator": null,
       "references": [],
       "rankScore": 6,
       "tags": [
@@ -6653,9 +6943,11 @@
       "verified": false,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": null,
+      "regulator": null,
       "references": [],
       "rankScore": 6,
       "tags": [
@@ -6685,9 +6977,11 @@
       "verified": false,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": null,
+      "regulator": null,
       "references": [],
       "rankScore": 6,
       "tags": [
@@ -6719,9 +7013,11 @@
       "verified": false,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": null,
+      "regulator": null,
       "references": [],
       "rankScore": 6,
       "tags": [
@@ -6754,9 +7050,11 @@
       "verified": false,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": null,
+      "regulator": null,
       "references": [],
       "rankScore": 4,
       "tags": [],
@@ -6781,9 +7079,11 @@
       "verified": false,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": null,
+      "regulator": null,
       "references": [],
       "rankScore": 4,
       "tags": [],
@@ -6808,9 +7108,11 @@
       "verified": false,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": null,
+      "regulator": null,
       "references": [],
       "rankScore": 4,
       "tags": [
@@ -6845,9 +7147,11 @@
       "verified": false,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": null,
+      "regulator": null,
       "references": [],
       "rankScore": 4,
       "tags": [
@@ -6878,9 +7182,11 @@
       "verified": false,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": null,
+      "regulator": null,
       "references": [],
       "rankScore": 4,
       "tags": [],
@@ -6905,9 +7211,11 @@
       "verified": false,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": null,
+      "regulator": null,
       "references": [],
       "rankScore": 4,
       "tags": [
@@ -6938,9 +7246,11 @@
       "verified": false,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": null,
+      "regulator": null,
       "references": [],
       "rankScore": 4,
       "tags": [
@@ -6970,9 +7280,11 @@
       "verified": false,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": null,
+      "regulator": null,
       "references": [],
       "rankScore": 4,
       "tags": [],
@@ -6997,9 +7309,11 @@
       "verified": false,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": null,
+      "regulator": null,
       "references": [],
       "rankScore": 4,
       "tags": [
@@ -7032,9 +7346,11 @@
       "verified": false,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": null,
+      "regulator": null,
       "references": [],
       "rankScore": 4,
       "tags": [
@@ -7063,9 +7379,11 @@
       "verified": false,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": null,
+      "regulator": null,
       "references": [],
       "rankScore": 4,
       "tags": [
@@ -7094,9 +7412,11 @@
       "verified": false,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": null,
+      "regulator": null,
       "references": [],
       "rankScore": 4,
       "tags": [
@@ -7127,9 +7447,11 @@
       "verified": false,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": null,
+      "regulator": null,
       "references": [],
       "rankScore": 4,
       "tags": [],
@@ -7154,9 +7476,11 @@
       "verified": false,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": null,
+      "regulator": null,
       "references": [],
       "rankScore": 4,
       "tags": [],
@@ -7181,9 +7505,11 @@
       "verified": false,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": null,
+      "regulator": null,
       "references": [],
       "rankScore": 4,
       "tags": [
@@ -7215,9 +7541,11 @@
       "verified": false,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": null,
+      "regulator": null,
       "references": [],
       "rankScore": 4,
       "tags": [
@@ -7244,9 +7572,11 @@
       "verified": false,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": null,
+      "regulator": null,
       "references": [],
       "rankScore": 4,
       "tags": [
@@ -7280,9 +7610,11 @@
       "verified": false,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": "community",
+      "regulator": null,
       "references": [],
       "rankScore": 4,
       "tags": [
@@ -7316,9 +7648,11 @@
       "verified": false,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": "community",
+      "regulator": null,
       "references": [],
       "rankScore": 4,
       "tags": [
@@ -7350,9 +7684,11 @@
       "verified": false,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": null,
+      "regulator": null,
       "references": [],
       "rankScore": 4,
       "tags": [
@@ -7382,9 +7718,11 @@
       "verified": false,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": null,
+      "regulator": null,
       "references": [
         {
           "url": "https://www.facebook.com/groups/farmingil/posts/856664899238945/",
@@ -7424,9 +7762,11 @@
       "verified": false,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": null,
+      "regulator": null,
       "references": [
         {
           "url": "https://www.facebook.com/IBIinvest/posts/pfbid0CzNhpa2Aq5JMfY4WpbwPkjsy9xH7pgksBtYR1FZsXr5ixScTiAUeBaDsTdHvzM8Jl?locale=el_GR",
@@ -7465,9 +7805,11 @@
       "verified": false,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": null,
+      "regulator": null,
       "references": [],
       "rankScore": 4,
       "tags": [
@@ -7499,9 +7841,11 @@
       "verified": false,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": null,
+      "regulator": null,
       "references": [],
       "rankScore": 4,
       "tags": [
@@ -7533,9 +7877,11 @@
       "verified": false,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": null,
+      "regulator": null,
       "references": [],
       "rankScore": 4,
       "tags": [
@@ -7566,9 +7912,11 @@
       "verified": false,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": null,
+      "regulator": null,
       "references": [],
       "rankScore": 4,
       "tags": [
@@ -7597,9 +7945,11 @@
       "verified": false,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": null,
+      "regulator": null,
       "references": [],
       "rankScore": 4,
       "tags": [
@@ -7630,9 +7980,11 @@
       "verified": false,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": null,
+      "regulator": null,
       "references": [],
       "rankScore": 4,
       "tags": [
@@ -7665,9 +8017,11 @@
       "verified": false,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": null,
+      "regulator": null,
       "references": [],
       "rankScore": 4,
       "tags": [
@@ -7699,9 +8053,11 @@
       "verified": false,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": null,
+      "regulator": null,
       "references": [],
       "rankScore": 4,
       "tags": [
@@ -7731,9 +8087,11 @@
       "verified": false,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": null,
+      "regulator": null,
       "references": [],
       "rankScore": 4,
       "tags": [
@@ -7762,9 +8120,11 @@
       "verified": false,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": null,
+      "regulator": null,
       "references": [],
       "rankScore": 4,
       "tags": [],
@@ -7789,9 +8149,11 @@
       "verified": false,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": null,
+      "regulator": null,
       "references": [],
       "rankScore": 4,
       "tags": [
@@ -7824,9 +8186,11 @@
       "verified": false,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": null,
+      "regulator": null,
       "references": [],
       "rankScore": 4,
       "tags": [
@@ -7857,9 +8221,11 @@
       "verified": false,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": null,
+      "regulator": null,
       "references": [],
       "rankScore": 4,
       "tags": [
@@ -7889,9 +8255,11 @@
       "verified": false,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": null,
+      "regulator": null,
       "references": [],
       "rankScore": 4,
       "tags": [
@@ -7922,9 +8290,11 @@
       "verified": false,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": null,
+      "regulator": null,
       "references": [],
       "rankScore": 4,
       "tags": [
@@ -7952,9 +8322,11 @@
       "verified": false,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": null,
+      "regulator": null,
       "references": [],
       "rankScore": 4,
       "tags": [
@@ -7982,9 +8354,11 @@
       "verified": false,
       "taxDeductible46": false,
       "properManagement": false,
+      "us501c3": false,
       "registrationNumber": null,
       "registryCheckedAt": null,
       "organizationType": null,
+      "regulator": null,
       "references": [],
       "rankScore": 2,
       "tags": [],

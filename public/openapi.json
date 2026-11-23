@@ -1,0 +1,124 @@
+{
+	"openapi": "3.1.0",
+	"info": {
+		"title": "Links For Israel Open Data API",
+		"version": "1.0.0",
+		"description": "Read-only, free, ad-free, CORS-enabled Open Data API and LLM index for Israel and Jewish life — MOJ-verified nonprofits (data.gov.il), 24/7 hotlines, Aliyah & Olim, licensed money transfers, and Masorti/Conservative & global Jewish heritage.",
+		"contact": {
+			"name": "Links For Israel Contributors",
+			"url": "https://github.com/4tals/LinksForIsrael"
+		},
+		"license": {
+			"name": "Open Data / Community Maintained",
+			"url": "https://github.com/4tals/LinksForIsrael"
+		}
+	},
+	"servers": [
+		{
+			"url": "https://www.linksforisrael.com",
+			"description": "Production static Open Data CDN"
+		}
+	],
+	"paths": {
+		"/api/v1/initiatives.json": {
+			"get": {
+				"operationId": "getAllResources",
+				"summary": "List all ranked Israel & Jewish life resources",
+				"description": "Returns all curated resources with entity type (official, ngo, community, licensed), MOJ registration number, Nihul Takin Good Standing, Section 46, US 501(c)(3), regulator, hotlines, URLs, and independent citations.",
+				"responses": {
+					"200": {
+						"description": "Complete ranked resource catalog in JSON format",
+						"content": {
+							"application/json": {
+								"schema": {
+									"type": "object",
+									"properties": {
+										"version": { "type": "string" },
+										"source": { "type": "string", "format": "uri" },
+										"generatedAt": { "type": "string", "format": "date-time" },
+										"count": { "type": "integer" },
+										"initiatives": {
+											"type": "array",
+											"items": {
+												"type": "object",
+												"properties": {
+													"id": { "type": "string" },
+													"name": { "type": "string" },
+													"displayName": { "type": "string" },
+													"categoryId": { "type": "string" },
+													"subCategoryId": { "type": "string" },
+													"shortDescription": { "type": "string" },
+													"url": { "type": ["string", "null"] },
+													"phone": { "type": ["string", "null"] },
+													"organizationType": {
+														"type": ["string", "null"],
+														"enum": ["official", "ngo", "community", "licensed", null]
+													},
+													"regulator": { "type": ["string", "null"] },
+													"registrationNumber": { "type": ["string", "null"] },
+													"properManagement": { "type": "boolean" },
+													"taxDeductible46": { "type": "boolean" },
+													"us501c3": { "type": "boolean" },
+													"rankScore": { "type": "integer" },
+													"portalUrl": { "type": "string", "format": "uri" }
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		"/api/v1/categories.json": {
+			"get": {
+				"operationId": "getCategories",
+				"summary": "List all top-level categories and subcategories",
+				"responses": {
+					"200": {
+						"description": "All directory categories and resource counts",
+						"content": { "application/json": { "schema": { "type": "object" } } }
+					}
+				}
+			}
+		},
+		"/api/v1/hsds.json": {
+			"get": {
+				"operationId": "getHsdsFeed",
+				"summary": "Open Referral HSDS 3.0 civic interoperability feed",
+				"responses": {
+					"200": {
+						"description": "HSDS-compatible organizations, services, phones, and taxonomies",
+						"content": { "application/json": { "schema": { "type": "object" } } }
+					}
+				}
+			}
+		},
+		"/llms.txt": {
+			"get": {
+				"operationId": "getLlmsSummary",
+				"summary": "Concise Markdown index for AI agents (llmstxt.org standard)",
+				"responses": {
+					"200": {
+						"description": "Markdown summary of portals, hotlines, categories, and flagship links",
+						"content": { "text/markdown": { "schema": { "type": "string" } } }
+					}
+				}
+			}
+		},
+		"/llms-full.txt": {
+			"get": {
+				"operationId": "getLlmsFullIndex",
+				"summary": "Complete Markdown dump of all curated resources for single-fetch agent ingestion",
+				"responses": {
+					"200": {
+						"description": "Full structured Markdown catalog of every listing",
+						"content": { "text/markdown": { "schema": { "type": "string" } } }
+					}
+				}
+			}
+		}
+	}
+}

@@ -60,6 +60,10 @@ export const metadata: Metadata = {
 			"en-US": "/en",
 			"x-default": "/",
 		},
+		types: {
+			"text/markdown": `${SITE_URL}/llms.txt`,
+			"application/json": `${SITE_URL}/api/v1/initiatives.json`,
+		},
 	},
 	openGraph: {
 		type: "website",
