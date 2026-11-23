@@ -49,6 +49,12 @@
 			"name": "Judaism, Masorti/Conservative & Jewish Heritage",
 			"description": "Discover Conservative/Masorti Jewish institutions in Israel and worldwide, open Jewish libraries (Sefaria, Hebcal, 929), and lifecycle navigation (ITIM, Tzohar).",
 			"tags": ["judaism", "masorti", "conservative", "sefaria", "heritage", "diaspora"]
+		},
+		{
+			"id": "israel-jewish-life-abroad",
+			"name": "Israelis Abroad, Campus Safety & Cross-Border Giving",
+			"description": "Lookup Israeli consulates & travel advisories, Returning Residents (Toshav Chozer), campus & community safety (Hillel, Brandeis, SCN, ADL, CST UK, SPCJ France, CIJA, ECAJ), tax-deductible giving conduits (PEF, IsraelGives), and Birthright/Masa/Sar-El.",
+			"tags": ["abroad", "consulates", "campus-safety", "antisemitism", "toshav-chozer", "diaspora", "501c3", "gift-aid"]
 		}
 	]
 }

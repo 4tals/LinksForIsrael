@@ -1,6 +1,6 @@
 # Links For Israel (לינק לישראל) — Complete Structured Knowledge Index
 
-> Generated: 2026-11-23T10:21:57.202Z | Total resources: 187 across 10 categories | Source: https://www.linksforisrael.com
+> Generated: 2026-11-23T10:48:14.370Z | Total resources: 211 across 11 categories | Source: https://www.linksforisrael.com
 > Entity types are strictly separated: `official` (government/statutory), `ngo` (verified against data.gov.il MOJ registry), `community` (grassroots), and `licensed` (regulated commercial services, never nonprofits).
 
 ## בריאות ונפש (Medical) — https://www.linksforisrael.com/Medical
@@ -491,6 +491,87 @@
 - **Hebcal — לוח שנה עברי פתוח וזמני שבת** — https://www.hebcal.com/
   - Summary: לוח שנה עברי חינמי ובקוד פתוח — המרת תאריכים, זמני כניסת שבת וחגים, פרשת השבוע והטמעה ביומן
   - Portal: https://www.linksforisrael.com/JudaismHeritage/TextsAndCulture/Hebcal
+
+## ישראלים ויהודים בחו״ל (Abroad) — https://www.linksforisrael.com/Abroad
+קונסוליות ואזהרות מסע, תושבים חוזרים, ביטחון קהילתי וסיוע משפטי בקמפוסים (ארה״ב, בריטניה, צרפת, קנדה ואוסטרליה), תוכניות לישראל ותרומות מוכרות במס מחו״ל
+
+### ישראלים בחו״ל, קונסוליות ותושבים חוזרים (Abroad/IsraelisAndConsular)
+- **ScienceAbroad — ארגון המדענים הישראלים בחו״ל** — https://www.scienceabroad.org.il/ [NGO | MOJ:580492809 | Nihul Takin | Section 46 | US 501(c)(3)]
+  - Summary: רשת עולמית של מדענים, רופאים וחוקרים ישראלים בקמפוסים בעולם וליווי חזרתם לאקדמיה ולתעשייה בישראל
+  - Portal: https://www.linksforisrael.com/Abroad/IsraelisAndConsular/ScienceAbroad
+- **משרד החוץ — שגרירויות, קונסוליות ומוקד חירום לישראלים בחו״ל** — https://www.gov.il/he/departments/ministry_of_foreign_affairs [Official Institution | Phone: 02-5303155]
+  - Summary: איתור נציגויות ושגרירויות ישראל בעולם, שירותים קונסולריים (דרכונים ואישורים) וחדר המצב 24/7 לישראלים בחו״ל
+  - Portal: https://www.linksforisrael.com/Abroad/IsraelisAndConsular/MFAEmbassies
+- **תושבים חוזרים — משרד העלייה והקליטה** — https://www.gov.il/he/departments/topics/returning_residents [Official Institution | Phone: *2994]
+  - Summary: פורטל הזכויות וההטבות הרשמי לישראלים החוזרים ארצה לאחר שהות של שנתיים ומעלה בחו״ל (מכס, מס, תעסוקה ורפואה)
+  - Portal: https://www.linksforisrael.com/Abroad/IsraelisAndConsular/ToshavChozer
+- **ביטוח לאומי — זכויות וחובות של ישראלים בחו״ל** — https://www.btl.gov.il/Insurance/Living_abroad/Pages/default.aspx [Official Institution | Phone: *6050]
+  - Summary: הסדרת תשלומי ביטוח לאומי וביטוח בריאות בזמן שהות, רילוקיישן או לימודים בחו״ל ושמירה על רצף זכויות
+  - Portal: https://www.linksforisrael.com/Abroad/IsraelisAndConsular/BituachLeumiAbroad
+- **המטה לביטחון לאומי (מל״ל) — אזהרות מסע לישראלים בחו״ל** — https://www.gov.il/he/departments/dynamiccollectors/travel-warnings-nsc [Official Institution]
+  - Summary: אזהרות המסע הרשמיות והמעודכנות לכל מדינות העולם, המלצות התנהגות בחירום ומוקד המל״ל לישראלים
+  - Portal: https://www.linksforisrael.com/Abroad/IsraelisAndConsular/NSCTravelWarnings
+- **IAC — ארגון הקהילה הישראלית-אמריקאית** — https://iac360.org/ [NGO | US 501(c)(3)]
+  - Summary: הרשת הקהילתית הגדולה ביותר של ישראלים וישראלים-אמריקאים בארה״ב — קהילה, חינוך עברי, מנהיגות וקשר לישראל
+  - Portal: https://www.linksforisrael.com/Abroad/IsraelisAndConsular/IAC
+
+### ביטחון קהילתי, קמפוס וסיוע משפטי בחו״ל (Abroad/SafetyAndCampus)
+- **CST (Community Security Trust) — ביטחון הקהילה היהודית בבריטניה** — https://cst.org.uk/ [NGO | Phone: +44-800-032-3263]
+  - Summary: ארגון הביטחון ודיווח האנטישמיות 24/7 של יהדות בריטניה — אבטחת קהילות, תמיכה בסטודנטים ותיאום מול המשטרה
+  - Portal: https://www.linksforisrael.com/Abroad/SafetyAndCampus/CSTUK
+- **Hillel International — חיים יהודיים ותמיכה בסטודנטים ב-850+ קמפוסים** — https://www.hillel.org/ [NGO | US 501(c)(3)]
+  - Summary: ארגון הסטודנטים היהודי הגדול בעולם — מרחבים בטוחים, ארוחות שבת, קהילה, דיווח אנטישמיות וסיוע לסטודנטים
+  - Portal: https://www.linksforisrael.com/Abroad/SafetyAndCampus/Hillel
+- **Louis D. Brandeis Center — הגנה משפטית חינם לסטודנטים בארה״ב** — https://brandeiscenter.com/ [NGO | US 501(c)(3)]
+  - Summary: ייצוג וייעוץ משפטי ללא עלות (Title VI) לסטודנטים ומרצים המתמודדים עם אנטישמיות והפליה באוניברסיטאות בארה״ב
+  - Portal: https://www.linksforisrael.com/Abroad/SafetyAndCampus/BrandeisCenter
+- **Secure Community Network (SCN) — ביטחון קהילתי בצפון אמריקה** — https://www.securecommunitynetwork.org/ [NGO | US 501(c)(3)]
+  - Summary: גוף האבטחה, ההדרכה וההיערכות הרשמי של הקהילה היהודית בצפון אמריקה — דיווח איומים והדרכות ביטחון
+  - Portal: https://www.linksforisrael.com/Abroad/SafetyAndCampus/SCN
+- **ADL — דיווח אירועי אנטישמיות וסיוע משפטי (CALL)** — https://www.adl.org/ [NGO | US 501(c)(3)]
+  - Summary: הליגה נגד השמצה — פורטל דיווח אירועי שנאה ואנטישמיות, קו סיוע משפטי לסטודנטים ועובדים (CALL) ומחקר
+  - Portal: https://www.linksforisrael.com/Abroad/SafetyAndCampus/ADL
+- **SPCJ — שירות הגנת הקהילה היהודית בצרפת** — https://www.spcj.org/ [NGO]
+  - Summary: הגוף הרשמי לאבטחה, ניטור ודיווח אירועי אנטישמיות עבור הקהילה היהודית בצרפת בתיאום עם כוחות הביטחון
+  - Portal: https://www.linksforisrael.com/Abroad/SafetyAndCampus/SPCJFrance
+- **CIJA — מרכז ענייני ישראל והקהילה היהודית בקנדה** — https://www.cija.ca/ [NGO]
+  - Summary: סנגור, תמיכה משפטית, קמפוס וייצוג הפדרציות היהודיות ברחבי קנדה מול הממשל ומוסדות האקדמיה
+  - Portal: https://www.linksforisrael.com/Abroad/SafetyAndCampus/CIJACanada
+- **ECAJ — המועצה המבצעת של יהדות אוסטרליה** — https://www.ecaj.org.au/ [NGO]
+  - Summary: ארגון הגג הלאומי של יהדות אוסטרליה — דיווח אנטישמיות, זכויות קהילה וייצוג מול ממשלת אוסטרליה
+  - Portal: https://www.linksforisrael.com/Abroad/SafetyAndCampus/ECAJAustralia
+
+### קהילות תפוצות, תוכניות לישראל ותרומות מחו״ל (Abroad/DiasporaAndGiving)
+- **שר-אל (Sar-El) — מתנדבים מחו״ל למען ישראל וצה״ל** — https://www.sar-el.org/ [NGO | MOJ:580049922 | Nihul Takin | Section 46 | US 501(c)(3)]
+  - Summary: תוכנית ההתנדבות הבינלאומית הוותיקה (מאז 1983) לשילוב מתנדבים מכל העולם בעבודה לוגיסטית בבסיסי צה״ל
+  - Portal: https://www.linksforisrael.com/Abroad/DiasporaAndGiving/SarEl
+- **מסע (Masa Israel Journey) — התמחות, לימודים והתנדבות בישראל** — https://www.masaisrael.org/ [Official Institution]
+  - Summary: מלגות ותוכניות ארוכות טווח (4–12 חודשים) של לימודים, התמחויות הייטק, הוראת אנגלית והתנדבות בישראל לצעירים מחו״ל
+  - Portal: https://www.linksforisrael.com/Abroad/DiasporaAndGiving/MasaIsrael
+- **IsraelGives — תרומות מוכרות במס לעמותות בישראל מ-30+ מדינות** — https://www.israelgives.org/ [NGO | Section 46 | US 501(c)(3)]
+  - Summary: פלטפורמת תרומות בינלאומית המפיקה קבלות מס מוכרות בארה״ב (501c3), בריטניה (Gift Aid), קנדה (CRA) ואוסטרליה
+  - Portal: https://www.linksforisrael.com/Abroad/DiasporaAndGiving/IsraelGives
+- **PEF Israel Endowment Funds — תרומה מוכרת במס (501c3) לכל עמותה מאומתת בישראל** — https://pefisrael.org/ [NGO | US 501(c)(3)]
+  - Summary: הקרן הוותיקה (מאז 1922) המאפשרת לתורמים מארה״ב לתרום עם זיכוי מס 501(c)(3) למאות עמותות ישראליות בעלות ניהול תקין
+  - Portal: https://www.linksforisrael.com/Abroad/DiasporaAndGiving/PEFIsrael
+- **JFNA — הפדרציות היהודיות של צפון אמריקה** — https://www.jewishfederations.org/ [NGO | US 501(c)(3)]
+  - Summary: ארגון הגג של 146 הפדרציות היהודיות בצפון אמריקה — קרנות חירום לישראל, שיקום קהילות ורווחה יהודית
+  - Portal: https://www.linksforisrael.com/Abroad/DiasporaAndGiving/JFNA
+- **הג׳וינט העולמי (JDC — The Joint)** — https://www.jdc.org/ [NGO | US 501(c)(3)]
+  - Summary: ארגון הסיוע ההומניטרי היהודי המוביל בעולם הפועל ביותר מ-70 מדינות ובישראל — רווחה, חירום וקשישים
+  - Portal: https://www.linksforisrael.com/Abroad/DiasporaAndGiving/JDC
+- **תגלית (Birthright Israel) — סיורים והתנדבות לצעירים מחו״ל** — https://www.birthrightisrael.com/ [NGO | US 501(c)(3)]
+  - Summary: מסעות חינוכיים בחינם לצעירים יהודים מחו״ל, תוכניות התנדבות בישראל והתמחויות Onward Israel
+  - Portal: https://www.linksforisrael.com/Abroad/DiasporaAndGiving/BirthrightIsrael
+- **PJ Library — ספרי ילדים יהודיים בחינם ב-40+ מדינות** — https://pjlibrary.org/ [NGO | US 501(c)(3)]
+  - Summary: משלוח חודשי חינם של ספרי ילדים איכותיים על ערכים, חגים ותרבות יהודית למשפחות ברחבי העולם (במגוון שפות)
+  - Portal: https://www.linksforisrael.com/Abroad/DiasporaAndGiving/PJLibrary
+- **Moishe House (Mem Global) — קהילות צעירים יהודיים ב-30+ מדינות** — https://memglobal.org/ [NGO | US 501(c)(3)]
+  - Summary: רשת עולמית של בתי קהילה ואירועי שבת, חג ותרבות לצעירים יהודים בשנות ה-20 וה-30 ברחבי העולם
+  - Portal: https://www.linksforisrael.com/Abroad/DiasporaAndGiving/MoisheHouse
+- **BBYO — תנועת הנוער היהודית העולמית** — https://bbyo.org/ [NGO | US 501(c)(3)]
+  - Summary: תנועת הנוער היהודית הפלורליסטית הגדולה בעולם — קהילה, מנהיגות ומחנות קיץ לנוער יהודי ב-60+ מדינות
+  - Portal: https://www.linksforisrael.com/Abroad/DiasporaAndGiving/BBYO
 
 ## חקלאות ותוצרת הארץ (Agriculture) — https://www.linksforisrael.com/Agriculture
 התנדבות במשקים, חיזוק חקלאים ורכישת תוצרת חקלאית ישראלית

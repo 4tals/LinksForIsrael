@@ -4,6 +4,7 @@ import dynamic from "next/dynamic";
 import React, { useCallback, useEffect, useMemo, useState } from "react";
 import {
 	FaBullhorn,
+	FaGlobe,
 	FaHandHoldingHeart,
 	FaHandsHelping,
 	FaHeartbeat,
@@ -102,6 +103,14 @@ const EN_CATEGORIES = [
 		color: "purple.700",
 	},
 	{
+		id: "abroad",
+		label: "Israel & Jewish Life Abroad",
+		desc: "Consulates, campus safety (US/UK/FR/CA/AU), PEF/IsraelGives, Birthright & Masa",
+		icon: FaGlobe,
+		bg: "teal.50",
+		color: "teal.700",
+	},
+	{
 		id: "advocacy",
 		label: "Advocacy & Remembrance",
 		desc: "Official Oct 7 archives, National Library & global advocacy networks",
@@ -115,11 +124,12 @@ const EN_QUICK_TAGS = [
 	"501(c)(3)",
 	"aliyah",
 	"money transfer",
+	"abroad",
+	"campus",
 	"masorti",
 	"judaism",
 	"mental health",
 	"volunteer",
-	"veterans",
 ];
 
 const CATEGORY_BADGE_MAP: Record<
@@ -150,6 +160,11 @@ const CATEGORY_BADGE_MAP: Record<
 		bg: "purple.50",
 		color: "purple.700",
 		label: "Judaism & Heritage",
+	},
+	abroad: {
+		bg: "teal.50",
+		color: "teal.700",
+		label: "Israel & Jewish Life Abroad",
 	},
 	advocacy: {
 		bg: "orange.50",
@@ -455,7 +470,10 @@ export function IntlPortal({ items }: { items: EnrichedIntlInitiative[] }) {
 					</Flex>
 				</Flex>
 
-				<SimpleGrid columns={{ base: 2, md: 3 }} spacing={{ base: 3, md: 4 }}>
+				<SimpleGrid
+					columns={{ base: 2, md: 3, lg: 4 }}
+					spacing={{ base: 3, md: 4 }}
+				>
 					{EN_CATEGORIES.map((cat) => {
 						const active = selectedCategory === cat.id;
 						const count = categoryCounts[cat.id] || 0;

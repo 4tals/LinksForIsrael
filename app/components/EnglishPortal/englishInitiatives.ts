@@ -1,7 +1,14 @@
 export interface EnglishInitiative {
 	id: string;
 	name: string;
-	category: "donate" | "rehab" | "volunteer" | "olim" | "judaism" | "advocacy";
+	category:
+		| "donate"
+		| "rehab"
+		| "volunteer"
+		| "olim"
+		| "judaism"
+		| "abroad"
+		| "advocacy";
 	categoryLabel: string;
 	summary: string;
 	url: string;
@@ -792,5 +799,225 @@ export const ENGLISH_INITIATIVES: EnglishInitiative[] = [
 			"Accessible, non-denominational online encyclopedia of Jewish holidays, history, prayer, culture, and life across Israel and the diaspora.",
 		url: "https://www.myjewishlearning.com/",
 		tags: ["judaism", "holidays", "learning", "culture", "diaspora"],
+	},
+	{
+		id: "MFAEmbassies",
+		name: "Israel MFA — Embassies, Consulates & 24/7 Abroad Hotline",
+		category: "abroad",
+		categoryLabel: "Israel & Jewish Life Abroad",
+		summary:
+			"Official directory of Israeli embassies & consulates worldwide, passport/consular services, and 24/7 Situation Room for Israelis abroad (02-5303155).",
+		url: "https://www.gov.il/he/departments/ministry_of_foreign_affairs",
+		tags: ["abroad", "consulate", "embassy", "emergency", "official"],
+	},
+	{
+		id: "ToshavChozer",
+		name: "Returning Residents (Toshav Chozer) — MOIA",
+		category: "abroad",
+		categoryLabel: "Israel & Jewish Life Abroad",
+		summary:
+			"Official Israeli government benefits & rights portal for Israelis returning home after 2+ years abroad — customs, tax, employment & healthcare (*2994).",
+		url: "https://www.gov.il/he/departments/topics/returning_residents",
+		tags: ["abroad", "returning residents", "toshav chozer", "Israelis abroad"],
+	},
+	{
+		id: "IAC",
+		name: "IAC — Israeli-American Council",
+		category: "abroad",
+		categoryLabel: "Israel & Jewish Life Abroad",
+		summary:
+			"The largest Israeli-American community organization in the US — regional hubs, Hebrew culture, youth leadership, and Israel solidarity programs.",
+		url: "https://iac360.org/",
+		tags: ["abroad", "USA", "Israeli-American", "community"],
+	},
+	{
+		id: "ScienceAbroad",
+		name: "ScienceAbroad — Israeli Scientists Abroad",
+		category: "abroad",
+		categoryLabel: "Israel & Jewish Life Abroad",
+		summary:
+			"Global network of Israeli scientists, doctors, and post-docs at leading universities worldwide supporting campus life and reintegration into Israel.",
+		url: "https://www.scienceabroad.org.il/",
+		tags: ["abroad", "scientists", "academia", "returning residents"],
+	},
+	{
+		id: "Hillel",
+		name: "Hillel International — Jewish Campus Life (850+ Campuses)",
+		category: "abroad",
+		categoryLabel: "Israel & Jewish Life Abroad",
+		summary:
+			"World's largest Jewish student organization offering safe campus spaces, Shabbat dinners, antisemitism reporting, and CALL legal support across 850+ universities.",
+		url: "https://www.hillel.org/",
+		tags: ["abroad", "campus", "students", "safety", "community"],
+	},
+	{
+		id: "BrandeisCenter",
+		name: "Louis D. Brandeis Center — Campus Legal Protection",
+		category: "abroad",
+		categoryLabel: "Israel & Jewish Life Abroad",
+		summary:
+			"Free civil rights legal advocacy (Title VI) protecting Jewish and Israeli university students and faculty facing antisemitism in the United States.",
+		url: "https://brandeiscenter.com/",
+		tags: ["abroad", "campus", "legal aid", "USA", "antisemitism"],
+	},
+	{
+		id: "SCN",
+		name: "Secure Community Network (SCN) — North America Safety",
+		category: "abroad",
+		categoryLabel: "Israel & Jewish Life Abroad",
+		summary:
+			"Official safety and security organization for Jewish communities across North America — threat reporting, training, and law enforcement coordination.",
+		url: "https://www.securecommunitynetwork.org/",
+		tags: ["abroad", "security", "North America", "safety"],
+	},
+	{
+		id: "ADL",
+		name: "ADL — Antisemitism Reporting & Legal Action (CALL)",
+		category: "abroad",
+		categoryLabel: "Israel & Jewish Life Abroad",
+		summary:
+			"Antisemitism incident reporting, workplace & campus pro-bono legal helpline (CALL), and global hate-tracking resources.",
+		url: "https://www.adl.org/",
+		tags: ["abroad", "antisemitism", "campus", "legal aid", "report"],
+	},
+	{
+		id: "CSTUK",
+		name: "CST (Community Security Trust) — UK Jewish Security 24/7",
+		category: "abroad",
+		categoryLabel: "Israel & Jewish Life Abroad",
+		summary:
+			"24/7 emergency security, antisemitism reporting (+44-800-032-3263), student campus support, and police liaison for the Jewish community across the UK.",
+		url: "https://cst.org.uk/",
+		tags: ["abroad", "UK", "security", "campus", "antisemitism"],
+	},
+	{
+		id: "SPCJFrance",
+		name: "SPCJ — Jewish Community Protection Service (France)",
+		category: "abroad",
+		categoryLabel: "Israel & Jewish Life Abroad",
+		summary:
+			"Official French Jewish community security and incident-reporting body coordinating directly with French law enforcement to protect institutions and citizens.",
+		url: "https://www.spcj.org/",
+		tags: ["abroad", "France", "security", "antisemitism"],
+	},
+	{
+		id: "CIJACanada",
+		name: "CIJA — Centre for Israel and Jewish Affairs (Canada)",
+		category: "abroad",
+		categoryLabel: "Israel & Jewish Life Abroad",
+		summary:
+			"Advocacy arm of Jewish Federations across Canada offering campus, legal, and community safety resources alongside public representation.",
+		url: "https://www.cija.ca/",
+		tags: ["abroad", "Canada", "campus", "advocacy", "safety"],
+	},
+	{
+		id: "ECAJAustralia",
+		name: "ECAJ — Executive Council of Australian Jewry",
+		category: "abroad",
+		categoryLabel: "Israel & Jewish Life Abroad",
+		summary:
+			"National representative body of the Australian Jewish community tracking antisemitism incidents and supporting Jewish safety and Israel ties.",
+		url: "https://www.ecaj.org.au/",
+		tags: ["abroad", "Australia", "safety", "antisemitism"],
+	},
+	{
+		id: "PEFIsrael",
+		name: "PEF Israel Endowment Funds (US 501c3 Conduit)",
+		category: "abroad",
+		categoryLabel: "Israel & Jewish Life Abroad",
+		summary:
+			"Gold-standard US 501(c)(3) charity since 1922 enabling tax-deductible US donations to hundreds of MOJ-verified Israeli nonprofits with Good Standing.",
+		url: "https://pefisrael.org/",
+		tags: ["abroad", "donate", "501(c)(3)", "USA", "tax-deductible"],
+	},
+	{
+		id: "IsraelGives",
+		name: "IsraelGives — Tax-Deductible Giving from 30+ Countries",
+		category: "abroad",
+		categoryLabel: "Israel & Jewish Life Abroad",
+		summary:
+			"Cross-border giving platform issuing locally valid tax receipts for Israeli nonprofits in the US (501c3), UK (Gift Aid), Canada (CRA), and Australia.",
+		url: "https://www.israelgives.org/",
+		tags: ["abroad", "donate", "501(c)(3)", "UK Gift Aid", "Canada CRA"],
+	},
+	{
+		id: "JFNA",
+		name: "JFNA — Jewish Federations of North America",
+		category: "abroad",
+		categoryLabel: "Israel & Jewish Life Abroad",
+		summary:
+			"Umbrella of 146 North American Jewish Federations powering Israel emergency & rebuilding funds and thriving local Jewish communities.",
+		url: "https://www.jewishfederations.org/",
+		tags: ["abroad", "donate", "North America", "community"],
+	},
+	{
+		id: "JDC",
+		name: "JDC (The Joint) — Global Jewish Humanitarian Aid",
+		category: "abroad",
+		categoryLabel: "Israel & Jewish Life Abroad",
+		summary:
+			"Leading global Jewish humanitarian organization operating in 70+ countries and Israel to rescue Jews in crisis and build resilient communities.",
+		url: "https://www.jdc.org/",
+		tags: ["abroad", "humanitarian", "diaspora", "donate"],
+	},
+	{
+		id: "SarEl",
+		name: "Sar-El — International Volunteers for Israel",
+		category: "abroad",
+		categoryLabel: "Israel & Jewish Life Abroad",
+		summary:
+			"Iconic volunteer program since 1983 welcoming international volunteers from dozens of countries to assist with non-combat logistics on IDF bases.",
+		url: "https://www.sar-el.org/",
+		tags: ["abroad", "volunteer", "Israel", "IDF"],
+	},
+	{
+		id: "BirthrightIsrael",
+		name: "Birthright Israel (Taglit) & Volunteer Programs",
+		category: "abroad",
+		categoryLabel: "Israel & Jewish Life Abroad",
+		summary:
+			"Free educational trips to Israel for young Jewish adults worldwide alongside hands-on Israel volunteering and Onward career internships.",
+		url: "https://www.birthrightisrael.com/",
+		tags: ["abroad", "youth", "volunteer", "Israel trips"],
+	},
+	{
+		id: "MasaIsrael",
+		name: "Masa Israel Journey — Fellowships & Study in Israel",
+		category: "abroad",
+		categoryLabel: "Israel & Jewish Life Abroad",
+		summary:
+			"Grants and scholarships for 4–12 month career internships, hi-tech fellowships, teaching, and academic programs in Israel for ages 18–35 worldwide.",
+		url: "https://www.masaisrael.org/",
+		tags: ["abroad", "fellowships", "internships", "scholarships", "olim"],
+	},
+	{
+		id: "PJLibrary",
+		name: "PJ Library — Free Jewish Children's Books (40+ Countries)",
+		category: "abroad",
+		categoryLabel: "Israel & Jewish Life Abroad",
+		summary:
+			"Free monthly Jewish children's books delivered to families in 40+ countries in English, Spanish, French, Russian, and Portuguese.",
+		url: "https://pjlibrary.org/",
+		tags: ["abroad", "family", "children", "books", "diaspora"],
+	},
+	{
+		id: "MoisheHouse",
+		name: "Moishe House (Mem Global) — Young Adult Hubs (30+ Countries)",
+		category: "abroad",
+		categoryLabel: "Israel & Jewish Life Abroad",
+		summary:
+			"Global network of peer-led Jewish young adult community houses hosting Shabbat dinners, holidays, and cultural events in 30+ countries.",
+		url: "https://memglobal.org/",
+		tags: ["abroad", "young adults", "community", "Shabbat", "diaspora"],
+	},
+	{
+		id: "BBYO",
+		name: "BBYO — Global Jewish Teen Movement",
+		category: "abroad",
+		categoryLabel: "Israel & Jewish Life Abroad",
+		summary:
+			"World's largest pluralistic Jewish teen movement connecting teens across 60+ countries with leadership, summer camps, and Israel experiences.",
+		url: "https://bbyo.org/",
+		tags: ["abroad", "teens", "youth", "diaspora", "community"],
 	},
 ];

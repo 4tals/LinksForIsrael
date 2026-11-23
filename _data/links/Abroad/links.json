@@ -1,0 +1,11 @@
+{
+	"name": "Abroad",
+	"displayName": "ישראלים ויהודים בחו״ל",
+	"description": "קונסוליות ואזהרות מסע, תושבים חוזרים, ביטחון קהילתי וסיוע משפטי בקמפוסים (ארה״ב, בריטניה, צרפת, קנדה ואוסטרליה), תוכניות לישראל ותרומות מוכרות במס מחו״ל",
+	"image": "",
+	"subCategories": [
+		"IsraelisAndConsular",
+		"SafetyAndCampus",
+		"DiasporaAndGiving"
+	]
+}

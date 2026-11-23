@@ -17,7 +17,7 @@ const CARDS = [
 		file: "home.png",
 		badge: "LINKS FOR ISRAEL · OPEN PORTAL",
 		title: "Links For Israel",
-		subtitle: "185+ Trusted Resources for Israel, Aliyah, Jewish Life & Verified Charities",
+		subtitle: "210+ Trusted Resources for Israel, Aliyah, Abroad & Jewish Life",
 		accent: "#0038b8",
 	},
 	{
@@ -82,6 +82,13 @@ const CARDS = [
 		title: "Judaism & Jewish Heritage",
 		subtitle: "Masorti/Conservative (Israel & Abroad) · Sefaria · ITIM · Tzohar · ANU · Hebcal",
 		accent: "#5b21b6",
+	},
+	{
+		file: "Abroad.png",
+		badge: "ISRAEL & JEWISH LIFE ABROAD",
+		title: "Israelis & Diaspora Abroad",
+		subtitle: "Consulates · Campus Safety (US/UK/FR/CA/AU) · PEF/IsraelGives · Birthright",
+		accent: "#0f766e",
 	},
 	{
 		file: "Agriculture.png",

@@ -1,7 +1,7 @@
 {
   "schema": "OpenReferral-HSDS-3.0-compatible",
   "source": "https://www.linksforisrael.com",
-  "generatedAt": "2026-11-23T10:21:57.202Z",
+  "generatedAt": "2026-11-23T10:48:14.370Z",
   "organizations": [
     {
       "id": "org:Medical/Main/EzerMizion",
@@ -538,6 +538,18 @@
       "url": "https://www.tzohar.org.il/",
       "email": null,
       "tax_id": "580302099",
+      "tax_status": "Israel Section 46",
+      "legal_status": "ngo",
+      "verified": true,
+      "last_verified_at": "2026-11-23"
+    },
+    {
+      "id": "org:Abroad/DiasporaAndGiving/SarEl",
+      "name": "שר-אל (Sar-El) — מתנדבים מחו״ל למען ישראל וצה״ל",
+      "description": "תוכנית ההתנדבות הבינלאומית הוותיקה (מאז 1983) לשילוב מתנדבים מכל העולם בעבודה לוגיסטית בבסיסי צה״ל",
+      "url": "https://www.sar-el.org/",
+      "email": null,
+      "tax_id": "580049922",
       "tax_status": "Israel Section 46",
       "legal_status": "ngo",
       "verified": true,
@@ -1192,6 +1204,18 @@
       "last_verified_at": "2026-11-23"
     },
     {
+      "id": "org:Abroad/IsraelisAndConsular/ScienceAbroad",
+      "name": "ScienceAbroad — ארגון המדענים הישראלים בחו״ל",
+      "description": "רשת עולמית של מדענים, רופאים וחוקרים ישראלים בקמפוסים בעולם וליווי חזרתם לאקדמיה ולתעשייה בישראל",
+      "url": "https://www.scienceabroad.org.il/",
+      "email": null,
+      "tax_id": "580492809",
+      "tax_status": "Israel Section 46",
+      "legal_status": "ngo",
+      "verified": true,
+      "last_verified_at": "2026-11-23"
+    },
+    {
       "id": "org:MemorialRemembrance/Main/GhettoFightersHouse",
       "name": "מוזיאון בית לוחמי הגטאות — ארכיון, חינוך והנצחת השואה",
       "description": "המוזיאון הראשון בעולם להנצחת השואה והגבורה, ארכיון עדויות פתוח ומרכז חינוך הומניסטי",
@@ -1202,6 +1226,66 @@
       "legal_status": "ngo",
       "verified": true,
       "last_verified_at": "2026-11-23"
+    },
+    {
+      "id": "org:Abroad/IsraelisAndConsular/MFAEmbassies",
+      "name": "משרד החוץ — שגרירויות, קונסוליות ומוקד חירום לישראלים בחו״ל",
+      "description": "איתור נציגויות ושגרירויות ישראל בעולם, שירותים קונסולריים (דרכונים ואישורים) וחדר המצב 24/7 לישראלים בחו״ל",
+      "url": "https://www.gov.il/he/departments/ministry_of_foreign_affairs",
+      "email": null,
+      "tax_id": null,
+      "tax_status": null,
+      "legal_status": "official",
+      "verified": true,
+      "last_verified_at": null
+    },
+    {
+      "id": "org:Abroad/IsraelisAndConsular/ToshavChozer",
+      "name": "תושבים חוזרים — משרד העלייה והקליטה",
+      "description": "פורטל הזכויות וההטבות הרשמי לישראלים החוזרים ארצה לאחר שהות של שנתיים ומעלה בחו״ל (מכס, מס, תעסוקה ורפואה)",
+      "url": "https://www.gov.il/he/departments/topics/returning_residents",
+      "email": null,
+      "tax_id": null,
+      "tax_status": null,
+      "legal_status": "official",
+      "verified": true,
+      "last_verified_at": null
+    },
+    {
+      "id": "org:Abroad/IsraelisAndConsular/BituachLeumiAbroad",
+      "name": "ביטוח לאומי — זכויות וחובות של ישראלים בחו״ל",
+      "description": "הסדרת תשלומי ביטוח לאומי וביטוח בריאות בזמן שהות, רילוקיישן או לימודים בחו״ל ושמירה על רצף זכויות",
+      "url": "https://www.btl.gov.il/Insurance/Living_abroad/Pages/default.aspx",
+      "email": null,
+      "tax_id": null,
+      "tax_status": null,
+      "legal_status": "official",
+      "verified": true,
+      "last_verified_at": null
+    },
+    {
+      "id": "org:Abroad/IsraelisAndConsular/NSCTravelWarnings",
+      "name": "המטה לביטחון לאומי (מל״ל) — אזהרות מסע לישראלים בחו״ל",
+      "description": "אזהרות המסע הרשמיות והמעודכנות לכל מדינות העולם, המלצות התנהגות בחירום ומוקד המל״ל לישראלים",
+      "url": "https://www.gov.il/he/departments/dynamiccollectors/travel-warnings-nsc",
+      "email": null,
+      "tax_id": null,
+      "tax_status": null,
+      "legal_status": "official",
+      "verified": true,
+      "last_verified_at": null
+    },
+    {
+      "id": "org:Abroad/DiasporaAndGiving/MasaIsrael",
+      "name": "מסע (Masa Israel Journey) — התמחות, לימודים והתנדבות בישראל",
+      "description": "מלגות ותוכניות ארוכות טווח (4–12 חודשים) של לימודים, התמחויות הייטק, הוראת אנגלית והתנדבות בישראל לצעירים מחו״ל",
+      "url": "https://www.masaisrael.org/",
+      "email": null,
+      "tax_id": null,
+      "tax_status": null,
+      "legal_status": "official",
+      "verified": true,
+      "last_verified_at": null
     },
     {
       "id": "org:FamilyAndPets/Main/Beterem",
@@ -1312,6 +1396,18 @@
       "last_verified_at": null
     },
     {
+      "id": "org:Abroad/DiasporaAndGiving/IsraelGives",
+      "name": "IsraelGives — תרומות מוכרות במס לעמותות בישראל מ-30+ מדינות",
+      "description": "פלטפורמת תרומות בינלאומית המפיקה קבלות מס מוכרות בארה״ב (501c3), בריטניה (Gift Aid), קנדה (CRA) ואוסטרליה",
+      "url": "https://www.israelgives.org/",
+      "email": null,
+      "tax_id": null,
+      "tax_status": "Israel Section 46",
+      "legal_status": "ngo",
+      "verified": true,
+      "last_verified_at": null
+    },
+    {
       "id": "org:FamilyAndPets/ChildrenContent/BrainPop",
       "name": "BrainPop",
       "description": "תכנים חינוכיים עם קוד חינמי",
@@ -1321,6 +1417,18 @@
       "tax_status": null,
       "legal_status": null,
       "verified": false,
+      "last_verified_at": null
+    },
+    {
+      "id": "org:Abroad/SafetyAndCampus/CSTUK",
+      "name": "CST (Community Security Trust) — ביטחון הקהילה היהודית בבריטניה",
+      "description": "ארגון הביטחון ודיווח האנטישמיות 24/7 של יהדות בריטניה — אבטחת קהילות, תמיכה בסטודנטים ותיאום מול המשטרה",
+      "url": "https://cst.org.uk/",
+      "email": null,
+      "tax_id": null,
+      "tax_status": null,
+      "legal_status": "ngo",
+      "verified": true,
       "last_verified_at": null
     },
     {
@@ -1448,6 +1556,186 @@
       "name": "My Jewish Learning — אנציקלופדיה פתוחה ליהדות",
       "description": "המדריך הפתוח והמקיף באנגלית לחגי ישראל, מעגל החיים, תפילה, היסטוריה, אוכל ותרבות יהודית מכל הזרמים",
       "url": "https://www.myjewishlearning.com/",
+      "email": null,
+      "tax_id": null,
+      "tax_status": null,
+      "legal_status": "ngo",
+      "verified": true,
+      "last_verified_at": null
+    },
+    {
+      "id": "org:Abroad/IsraelisAndConsular/IAC",
+      "name": "IAC — ארגון הקהילה הישראלית-אמריקאית",
+      "description": "הרשת הקהילתית הגדולה ביותר של ישראלים וישראלים-אמריקאים בארה״ב — קהילה, חינוך עברי, מנהיגות וקשר לישראל",
+      "url": "https://iac360.org/",
+      "email": null,
+      "tax_id": null,
+      "tax_status": null,
+      "legal_status": "ngo",
+      "verified": true,
+      "last_verified_at": null
+    },
+    {
+      "id": "org:Abroad/SafetyAndCampus/Hillel",
+      "name": "Hillel International — חיים יהודיים ותמיכה בסטודנטים ב-850+ קמפוסים",
+      "description": "ארגון הסטודנטים היהודי הגדול בעולם — מרחבים בטוחים, ארוחות שבת, קהילה, דיווח אנטישמיות וסיוע לסטודנטים",
+      "url": "https://www.hillel.org/",
+      "email": null,
+      "tax_id": null,
+      "tax_status": null,
+      "legal_status": "ngo",
+      "verified": true,
+      "last_verified_at": null
+    },
+    {
+      "id": "org:Abroad/SafetyAndCampus/BrandeisCenter",
+      "name": "Louis D. Brandeis Center — הגנה משפטית חינם לסטודנטים בארה״ב",
+      "description": "ייצוג וייעוץ משפטי ללא עלות (Title VI) לסטודנטים ומרצים המתמודדים עם אנטישמיות והפליה באוניברסיטאות בארה״ב",
+      "url": "https://brandeiscenter.com/",
+      "email": null,
+      "tax_id": null,
+      "tax_status": null,
+      "legal_status": "ngo",
+      "verified": true,
+      "last_verified_at": null
+    },
+    {
+      "id": "org:Abroad/SafetyAndCampus/SCN",
+      "name": "Secure Community Network (SCN) — ביטחון קהילתי בצפון אמריקה",
+      "description": "גוף האבטחה, ההדרכה וההיערכות הרשמי של הקהילה היהודית בצפון אמריקה — דיווח איומים והדרכות ביטחון",
+      "url": "https://www.securecommunitynetwork.org/",
+      "email": null,
+      "tax_id": null,
+      "tax_status": null,
+      "legal_status": "ngo",
+      "verified": true,
+      "last_verified_at": null
+    },
+    {
+      "id": "org:Abroad/SafetyAndCampus/ADL",
+      "name": "ADL — דיווח אירועי אנטישמיות וסיוע משפטי (CALL)",
+      "description": "הליגה נגד השמצה — פורטל דיווח אירועי שנאה ואנטישמיות, קו סיוע משפטי לסטודנטים ועובדים (CALL) ומחקר",
+      "url": "https://www.adl.org/",
+      "email": null,
+      "tax_id": null,
+      "tax_status": null,
+      "legal_status": "ngo",
+      "verified": true,
+      "last_verified_at": null
+    },
+    {
+      "id": "org:Abroad/SafetyAndCampus/SPCJFrance",
+      "name": "SPCJ — שירות הגנת הקהילה היהודית בצרפת",
+      "description": "הגוף הרשמי לאבטחה, ניטור ודיווח אירועי אנטישמיות עבור הקהילה היהודית בצרפת בתיאום עם כוחות הביטחון",
+      "url": "https://www.spcj.org/",
+      "email": null,
+      "tax_id": null,
+      "tax_status": null,
+      "legal_status": "ngo",
+      "verified": true,
+      "last_verified_at": null
+    },
+    {
+      "id": "org:Abroad/SafetyAndCampus/CIJACanada",
+      "name": "CIJA — מרכז ענייני ישראל והקהילה היהודית בקנדה",
+      "description": "סנגור, תמיכה משפטית, קמפוס וייצוג הפדרציות היהודיות ברחבי קנדה מול הממשל ומוסדות האקדמיה",
+      "url": "https://www.cija.ca/",
+      "email": null,
+      "tax_id": null,
+      "tax_status": null,
+      "legal_status": "ngo",
+      "verified": true,
+      "last_verified_at": null
+    },
+    {
+      "id": "org:Abroad/SafetyAndCampus/ECAJAustralia",
+      "name": "ECAJ — המועצה המבצעת של יהדות אוסטרליה",
+      "description": "ארגון הגג הלאומי של יהדות אוסטרליה — דיווח אנטישמיות, זכויות קהילה וייצוג מול ממשלת אוסטרליה",
+      "url": "https://www.ecaj.org.au/",
+      "email": null,
+      "tax_id": null,
+      "tax_status": null,
+      "legal_status": "ngo",
+      "verified": true,
+      "last_verified_at": null
+    },
+    {
+      "id": "org:Abroad/DiasporaAndGiving/PEFIsrael",
+      "name": "PEF Israel Endowment Funds — תרומה מוכרת במס (501c3) לכל עמותה מאומתת בישראל",
+      "description": "הקרן הוותיקה (מאז 1922) המאפשרת לתורמים מארה״ב לתרום עם זיכוי מס 501(c)(3) למאות עמותות ישראליות בעלות ניהול תקין",
+      "url": "https://pefisrael.org/",
+      "email": null,
+      "tax_id": null,
+      "tax_status": null,
+      "legal_status": "ngo",
+      "verified": true,
+      "last_verified_at": null
+    },
+    {
+      "id": "org:Abroad/DiasporaAndGiving/JFNA",
+      "name": "JFNA — הפדרציות היהודיות של צפון אמריקה",
+      "description": "ארגון הגג של 146 הפדרציות היהודיות בצפון אמריקה — קרנות חירום לישראל, שיקום קהילות ורווחה יהודית",
+      "url": "https://www.jewishfederations.org/",
+      "email": null,
+      "tax_id": null,
+      "tax_status": null,
+      "legal_status": "ngo",
+      "verified": true,
+      "last_verified_at": null
+    },
+    {
+      "id": "org:Abroad/DiasporaAndGiving/JDC",
+      "name": "הג׳וינט העולמי (JDC — The Joint)",
+      "description": "ארגון הסיוע ההומניטרי היהודי המוביל בעולם הפועל ביותר מ-70 מדינות ובישראל — רווחה, חירום וקשישים",
+      "url": "https://www.jdc.org/",
+      "email": null,
+      "tax_id": null,
+      "tax_status": null,
+      "legal_status": "ngo",
+      "verified": true,
+      "last_verified_at": null
+    },
+    {
+      "id": "org:Abroad/DiasporaAndGiving/BirthrightIsrael",
+      "name": "תגלית (Birthright Israel) — סיורים והתנדבות לצעירים מחו״ל",
+      "description": "מסעות חינוכיים בחינם לצעירים יהודים מחו״ל, תוכניות התנדבות בישראל והתמחויות Onward Israel",
+      "url": "https://www.birthrightisrael.com/",
+      "email": null,
+      "tax_id": null,
+      "tax_status": null,
+      "legal_status": "ngo",
+      "verified": true,
+      "last_verified_at": null
+    },
+    {
+      "id": "org:Abroad/DiasporaAndGiving/PJLibrary",
+      "name": "PJ Library — ספרי ילדים יהודיים בחינם ב-40+ מדינות",
+      "description": "משלוח חודשי חינם של ספרי ילדים איכותיים על ערכים, חגים ותרבות יהודית למשפחות ברחבי העולם (במגוון שפות)",
+      "url": "https://pjlibrary.org/",
+      "email": null,
+      "tax_id": null,
+      "tax_status": null,
+      "legal_status": "ngo",
+      "verified": true,
+      "last_verified_at": null
+    },
+    {
+      "id": "org:Abroad/DiasporaAndGiving/MoisheHouse",
+      "name": "Moishe House (Mem Global) — קהילות צעירים יהודיים ב-30+ מדינות",
+      "description": "רשת עולמית של בתי קהילה ואירועי שבת, חג ותרבות לצעירים יהודים בשנות ה-20 וה-30 ברחבי העולם",
+      "url": "https://memglobal.org/",
+      "email": null,
+      "tax_id": null,
+      "tax_status": null,
+      "legal_status": "ngo",
+      "verified": true,
+      "last_verified_at": null
+    },
+    {
+      "id": "org:Abroad/DiasporaAndGiving/BBYO",
+      "name": "BBYO — תנועת הנוער היהודית העולמית",
+      "description": "תנועת הנוער היהודית הפלורליסטית הגדולה בעולם — קהילה, מנהיגות ומחנות קיץ לנוער יהודי ב-60+ מדינות",
+      "url": "https://bbyo.org/",
       "email": null,
       "tax_id": null,
       "tax_status": null,
@@ -2954,6 +3242,22 @@
       ]
     },
     {
+      "id": "svc:Abroad/DiasporaAndGiving/SarEl",
+      "organization_id": "org:Abroad/DiasporaAndGiving/SarEl",
+      "name": "שר-אל (Sar-El) — מתנדבים מחו״ל למען ישראל וצה״ל",
+      "description": "עמותת שר-אל (ע״ר 580049922) מארחת מדי שנה אלפי מתנדבים מעשרות מדינות בעולם המגיעים לישראל לסייע בעבודות לוגיסטיקה, אספקה וציוד רפואי בבסיסי צה״ל ולחזק את הקשר עם ישראל.",
+      "url": "https://www.linksforisrael.com/Abroad/DiasporaAndGiving/SarEl",
+      "status": "active",
+      "taxonomy_ids": [
+        "Abroad",
+        "Abroad/DiasporaAndGiving"
+      ],
+      "intents": [
+        "volunteer",
+        "donate"
+      ]
+    },
+    {
       "id": "svc:Agriculture/Main/LeketIsraelFarmersVolonteers",
       "organization_id": "org:Agriculture/Main/LeketIsraelFarmersVolonteers",
       "name": "לקט ישראל - מתנדבים למשקים",
@@ -3838,6 +4142,23 @@
       ]
     },
     {
+      "id": "svc:Abroad/IsraelisAndConsular/ScienceAbroad",
+      "organization_id": "org:Abroad/IsraelisAndConsular/ScienceAbroad",
+      "name": "ScienceAbroad — ארגון המדענים הישראלים בחו״ל",
+      "description": "עמותת סיינס אברוד (ע״ר 580492809) מפעילה עשרות מרכזי קהילה באוניברסיטאות מובילות בעולם עבור מדענים, פוסט-דוקטורנטים ורופאים ישראלים, מסייעת בהתמודדות בקמפוס ומלווה חזרה והשמה באקדמיה ובהייטק בישראל.",
+      "url": "https://www.linksforisrael.com/Abroad/IsraelisAndConsular/ScienceAbroad",
+      "status": "active",
+      "taxonomy_ids": [
+        "Abroad",
+        "Abroad/IsraelisAndConsular"
+      ],
+      "intents": [
+        "get-help",
+        "volunteer",
+        "donate"
+      ]
+    },
+    {
       "id": "svc:MemorialRemembrance/Main/GhettoFightersHouse",
       "organization_id": "org:MemorialRemembrance/Main/GhettoFightersHouse",
       "name": "מוזיאון בית לוחמי הגטאות — ארכיון, חינוך והנצחת השואה",
@@ -3852,6 +4173,82 @@
         "get-help",
         "volunteer",
         "donate"
+      ]
+    },
+    {
+      "id": "svc:Abroad/IsraelisAndConsular/MFAEmbassies",
+      "organization_id": "org:Abroad/IsraelisAndConsular/MFAEmbassies",
+      "name": "משרד החוץ — שגרירויות, קונסוליות ומוקד חירום לישראלים בחו״ל",
+      "description": "פורטל משרד החוץ מרכז מידע רשמי על כל שגרירויות וקונסוליות ישראל ברחבי העולם, הנפקת דרכונים ומסמכים קונסולריים, וכן מוקד חדר המצב הפועל 24/7 למקרי חירום של אזרחים ישראלים בחו״ל (02-5303155).",
+      "url": "https://www.linksforisrael.com/Abroad/IsraelisAndConsular/MFAEmbassies",
+      "status": "active",
+      "taxonomy_ids": [
+        "Abroad",
+        "Abroad/IsraelisAndConsular"
+      ],
+      "intents": [
+        "get-help"
+      ]
+    },
+    {
+      "id": "svc:Abroad/IsraelisAndConsular/ToshavChozer",
+      "organization_id": "org:Abroad/IsraelisAndConsular/ToshavChozer",
+      "name": "תושבים חוזרים — משרד העלייה והקליטה",
+      "description": "מדור תושבים חוזרים במשרד העלייה והקליטה מפרט את תנאי הזכאות, הטבות מכס ומס, סיוע בתעסוקה וליזמים, פדיון תקופת המתנה בקופת חולים ותמיכה במדענים חוזרים.",
+      "url": "https://www.linksforisrael.com/Abroad/IsraelisAndConsular/ToshavChozer",
+      "status": "active",
+      "taxonomy_ids": [
+        "Abroad",
+        "Abroad/IsraelisAndConsular"
+      ],
+      "intents": [
+        "get-help"
+      ]
+    },
+    {
+      "id": "svc:Abroad/IsraelisAndConsular/BituachLeumiAbroad",
+      "organization_id": "org:Abroad/IsraelisAndConsular/BituachLeumiAbroad",
+      "name": "ביטוח לאומי — זכויות וחובות של ישראלים בחו״ל",
+      "description": "עמוד המידע הרשמי של המוסד לביטוח לאומי לישראלים השוהים בחו״ל: אמנות ביטוח סוציאלי, תשלום דמי ביטוח בריאות, מניעת תקופת המתנה רפואית בחזרה לישראל והגשת טפסים מקוונים.",
+      "url": "https://www.linksforisrael.com/Abroad/IsraelisAndConsular/BituachLeumiAbroad",
+      "status": "active",
+      "taxonomy_ids": [
+        "Abroad",
+        "Abroad/IsraelisAndConsular"
+      ],
+      "intents": [
+        "get-help"
+      ]
+    },
+    {
+      "id": "svc:Abroad/IsraelisAndConsular/NSCTravelWarnings",
+      "organization_id": "org:Abroad/IsraelisAndConsular/NSCTravelWarnings",
+      "name": "המטה לביטחון לאומי (מל״ל) — אזהרות מסע לישראלים בחו״ל",
+      "description": "מאגר אזהרות המסע הרשמי של המטה לביטחון לאומי (מל״ל) מציג את רמות האיום העדכניות בכל מדינה ויעד, הנחיות בטיחות למטיילים ומוקד מידע טלפוני לישראלים השוהים בחו״ל.",
+      "url": "https://www.linksforisrael.com/Abroad/IsraelisAndConsular/NSCTravelWarnings",
+      "status": "active",
+      "taxonomy_ids": [
+        "Abroad",
+        "Abroad/IsraelisAndConsular"
+      ],
+      "intents": [
+        "get-help"
+      ]
+    },
+    {
+      "id": "svc:Abroad/DiasporaAndGiving/MasaIsrael",
+      "organization_id": "org:Abroad/DiasporaAndGiving/MasaIsrael",
+      "name": "מסע (Masa Israel Journey) — התמחות, לימודים והתנדבות בישראל",
+      "description": "מסע (מיסודן של ממשלת ישראל והסוכנות היהודית) מציעה מאות תוכניות קריירה, אקדמיה והתנדבות ארוכות טווח בישראל לצעירים יהודים מכל העולם בגילאי 18–35, כולל מענקים ומלגות.",
+      "url": "https://www.linksforisrael.com/Abroad/DiasporaAndGiving/MasaIsrael",
+      "status": "active",
+      "taxonomy_ids": [
+        "Abroad",
+        "Abroad/DiasporaAndGiving"
+      ],
+      "intents": [
+        "volunteer",
+        "get-help"
       ]
     },
     {
@@ -3993,6 +4390,21 @@
       "intents": []
     },
     {
+      "id": "svc:Abroad/DiasporaAndGiving/IsraelGives",
+      "organization_id": "org:Abroad/DiasporaAndGiving/IsraelGives",
+      "name": "IsraelGives — תרומות מוכרות במס לעמותות בישראל מ-30+ מדינות",
+      "description": "IsraelGives (ישראל תורמת) מחברת בין עמותות ישראליות מאומתות לתורמים ביותר מ-30 מדינות, עם קבלות מס מקומיות מוכרות בארה״ב, בריטניה, קנדה, אוסטרליה, צרפת וישראל.",
+      "url": "https://www.linksforisrael.com/Abroad/DiasporaAndGiving/IsraelGives",
+      "status": "active",
+      "taxonomy_ids": [
+        "Abroad",
+        "Abroad/DiasporaAndGiving"
+      ],
+      "intents": [
+        "donate"
+      ]
+    },
+    {
       "id": "svc:FamilyAndPets/ChildrenContent/BrainPop",
       "organization_id": "org:FamilyAndPets/ChildrenContent/BrainPop",
       "name": "BrainPop",
@@ -4004,6 +4416,23 @@
         "FamilyAndPets/ChildrenContent"
       ],
       "intents": []
+    },
+    {
+      "id": "svc:Abroad/SafetyAndCampus/CSTUK",
+      "organization_id": "org:Abroad/SafetyAndCampus/CSTUK",
+      "name": "CST (Community Security Trust) — ביטחון הקהילה היהודית בבריטניה",
+      "description": "CST הוא גוף הביטחון הרשמי של הקהילה היהודית בממלכה המאוחדת, המפעיל קו חירום 24/7 (0800 032 3263), מלווה סטודנטים בקמפוסים, מאבטח מוסדות יהודיים ועובד בתיאום צמוד עם המשטרה הבריטית.",
+      "url": "https://www.linksforisrael.com/Abroad/SafetyAndCampus/CSTUK",
+      "status": "active",
+      "taxonomy_ids": [
+        "Abroad",
+        "Abroad/SafetyAndCampus"
+      ],
+      "intents": [
+        "get-help",
+        "volunteer",
+        "donate"
+      ]
     },
     {
       "id": "svc:Olim/MoneyTransfers/Adesco",
@@ -4171,6 +4600,246 @@
       ],
       "intents": [
         "get-help"
+      ]
+    },
+    {
+      "id": "svc:Abroad/IsraelisAndConsular/IAC",
+      "organization_id": "org:Abroad/IsraelisAndConsular/IAC",
+      "name": "IAC — ארגון הקהילה הישראלית-אמריקאית",
+      "description": "ארגון IAC (Israeli-American Council) מחבר מאות אלפי ישראלים-אמריקאים ויהודים ברחבי ארה״ב באמצעות עשרות סניפים אזוריים, תוכניות נוער ומשפחות, תרבות עברית, סיוע קהילתי ויוזמות חיזוק הקשר עם ישראל.",
+      "url": "https://www.linksforisrael.com/Abroad/IsraelisAndConsular/IAC",
+      "status": "active",
+      "taxonomy_ids": [
+        "Abroad",
+        "Abroad/IsraelisAndConsular"
+      ],
+      "intents": [
+        "get-help",
+        "volunteer",
+        "donate"
+      ]
+    },
+    {
+      "id": "svc:Abroad/SafetyAndCampus/Hillel",
+      "organization_id": "org:Abroad/SafetyAndCampus/Hillel",
+      "name": "Hillel International — חיים יהודיים ותמיכה בסטודנטים ב-850+ קמפוסים",
+      "description": "Hillel International פועל בלמעלה מ-850 אוניברסיטאות וקמפוסים בצפון אמריקה, אירופה, אמריקה הלטינית וישראל, מספק בית חם וביטחון לסטודנטים יהודים וישראלים ושותף להפעלת מערך הדיווח והסיוע המשפטי CALL.",
+      "url": "https://www.linksforisrael.com/Abroad/SafetyAndCampus/Hillel",
+      "status": "active",
+      "taxonomy_ids": [
+        "Abroad",
+        "Abroad/SafetyAndCampus"
+      ],
+      "intents": [
+        "get-help",
+        "donate"
+      ]
+    },
+    {
+      "id": "svc:Abroad/SafetyAndCampus/BrandeisCenter",
+      "organization_id": "org:Abroad/SafetyAndCampus/BrandeisCenter",
+      "name": "Louis D. Brandeis Center — הגנה משפטית חינם לסטודנטים בארה״ב",
+      "description": "המרכז על שם לואי ברנדייס (LDB) מוביל הגנה משפטית על זכויות אזרח של סטודנטים ואנשי סגל יהודים וישראלים בארה״ב, כולל הגשת תלונות פדרליות לפי Title VI ושותפות בקו הסיוע המשפטי החינמי CALL.",
+      "url": "https://www.linksforisrael.com/Abroad/SafetyAndCampus/BrandeisCenter",
+      "status": "active",
+      "taxonomy_ids": [
+        "Abroad",
+        "Abroad/SafetyAndCampus"
+      ],
+      "intents": [
+        "get-help",
+        "donate"
+      ]
+    },
+    {
+      "id": "svc:Abroad/SafetyAndCampus/SCN",
+      "organization_id": "org:Abroad/SafetyAndCampus/SCN",
+      "name": "Secure Community Network (SCN) — ביטחון קהילתי בצפון אמריקה",
+      "description": "Secure Community Network הוא מרכז הביטחון הרשמי של ארגוני וקהילות יהדות צפון אמריקה, הפועל בתיאום עם גורמי אכיפת החוק (FBI ורשויות מקומיות) להגנה על בתי כנסת, בתי ספר ומוסדות קהילתיים.",
+      "url": "https://www.linksforisrael.com/Abroad/SafetyAndCampus/SCN",
+      "status": "active",
+      "taxonomy_ids": [
+        "Abroad",
+        "Abroad/SafetyAndCampus"
+      ],
+      "intents": [
+        "get-help",
+        "donate"
+      ]
+    },
+    {
+      "id": "svc:Abroad/SafetyAndCampus/ADL",
+      "organization_id": "org:Abroad/SafetyAndCampus/ADL",
+      "name": "ADL — דיווח אירועי אנטישמיות וסיוע משפטי (CALL)",
+      "description": "הליגה נגד השמצה (ADL) מפעילה מוקד דיווח לאירועי אנטישמיות והפליה, שותפה להפעלת קו הסיוע המשפטי החינמי לסטודנטים בארה״ב (CALL) ומפרסמת כלים חינוכיים ונתוני מעקב עולמיים.",
+      "url": "https://www.linksforisrael.com/Abroad/SafetyAndCampus/ADL",
+      "status": "active",
+      "taxonomy_ids": [
+        "Abroad",
+        "Abroad/SafetyAndCampus"
+      ],
+      "intents": [
+        "get-help",
+        "donate"
+      ]
+    },
+    {
+      "id": "svc:Abroad/SafetyAndCampus/SPCJFrance",
+      "organization_id": "org:Abroad/SafetyAndCampus/SPCJFrance",
+      "name": "SPCJ — שירות הגנת הקהילה היהודית בצרפת",
+      "description": "SPCJ (Service de Protection de la Communauté Juive) פועל בצרפת מאז שנות ה-80 לאבטחת מוסדות יהודיים, קבלת דיווחים על אירועי אנטישמיות וליווי נפגעים בתיאום הדוק עם משרד הפנים והמשטרה הצרפתית.",
+      "url": "https://www.linksforisrael.com/Abroad/SafetyAndCampus/SPCJFrance",
+      "status": "active",
+      "taxonomy_ids": [
+        "Abroad",
+        "Abroad/SafetyAndCampus"
+      ],
+      "intents": [
+        "get-help",
+        "donate"
+      ]
+    },
+    {
+      "id": "svc:Abroad/SafetyAndCampus/CIJACanada",
+      "organization_id": "org:Abroad/SafetyAndCampus/CIJACanada",
+      "name": "CIJA — מרכז ענייני ישראל והקהילה היהודית בקנדה",
+      "description": "CIJA (Centre for Israel and Jewish Affairs) היא זרוע הסנגור של הפדרציות היהודיות בקנדה — מספקת משאבי תמיכה לסטודנטים ולמשפחות, מדריכי דיווח אירועי שנאה וייצוג ציבורי למען הקהילה היהודית וישראל.",
+      "url": "https://www.linksforisrael.com/Abroad/SafetyAndCampus/CIJACanada",
+      "status": "active",
+      "taxonomy_ids": [
+        "Abroad",
+        "Abroad/SafetyAndCampus"
+      ],
+      "intents": [
+        "get-help",
+        "donate"
+      ]
+    },
+    {
+      "id": "svc:Abroad/SafetyAndCampus/ECAJAustralia",
+      "organization_id": "org:Abroad/SafetyAndCampus/ECAJAustralia",
+      "name": "ECAJ — המועצה המבצעת של יהדות אוסטרליה",
+      "description": "המועצה המבצעת של יהדות אוסטרליה (ECAJ) היא הארגון היציג של הקהילה היהודית באוסטרליה, המרכזת דיווחי אירועי אנטישמיות, מחקר שנתי, משאבי בטיחות לקהילה ותמיכה בקשר עם ישראל.",
+      "url": "https://www.linksforisrael.com/Abroad/SafetyAndCampus/ECAJAustralia",
+      "status": "active",
+      "taxonomy_ids": [
+        "Abroad",
+        "Abroad/SafetyAndCampus"
+      ],
+      "intents": [
+        "get-help",
+        "donate"
+      ]
+    },
+    {
+      "id": "svc:Abroad/DiasporaAndGiving/PEFIsrael",
+      "organization_id": "org:Abroad/DiasporaAndGiving/PEFIsrael",
+      "name": "PEF Israel Endowment Funds — תרומה מוכרת במס (501c3) לכל עמותה מאומתת בישראל",
+      "description": "PEF Israel Endowment Funds פועלת מאז 1922 כגשר הפילנתרופי המוביל מארה״ב לישראל — תורמים מעבירים תרומה מוכרת במס 501(c)(3) וממליצים על עמותה ישראלית מאומתת בעלת ניהול תקין ללא גביית תקורה מנהלתית.",
+      "url": "https://www.linksforisrael.com/Abroad/DiasporaAndGiving/PEFIsrael",
+      "status": "active",
+      "taxonomy_ids": [
+        "Abroad",
+        "Abroad/DiasporaAndGiving"
+      ],
+      "intents": [
+        "donate"
+      ]
+    },
+    {
+      "id": "svc:Abroad/DiasporaAndGiving/JFNA",
+      "organization_id": "org:Abroad/DiasporaAndGiving/JFNA",
+      "name": "JFNA — הפדרציות היהודיות של צפון אמריקה",
+      "description": "הפדרציות היהודיות של צפון אמריקה (JFNA) מרכזות תרומות חירום ושיקום, שותפויות קהילתיות עם ערים ויישובים בישראל ותמיכה בחיי הקהילה היהודית בארה״ב ובקנדה.",
+      "url": "https://www.linksforisrael.com/Abroad/DiasporaAndGiving/JFNA",
+      "status": "active",
+      "taxonomy_ids": [
+        "Abroad",
+        "Abroad/DiasporaAndGiving"
+      ],
+      "intents": [
+        "donate",
+        "get-help"
+      ]
+    },
+    {
+      "id": "svc:Abroad/DiasporaAndGiving/JDC",
+      "organization_id": "org:Abroad/DiasporaAndGiving/JDC",
+      "name": "הג׳וינט העולמי (JDC — The Joint)",
+      "description": "הג׳וינט (American Jewish Joint Distribution Committee) פועל מאז 1914 לסייע ליהודים במצוקה ולבנות קהילות וחוסן חברתי בישראל ובמעל 70 מדינות ברחבי העולם.",
+      "url": "https://www.linksforisrael.com/Abroad/DiasporaAndGiving/JDC",
+      "status": "active",
+      "taxonomy_ids": [
+        "Abroad",
+        "Abroad/DiasporaAndGiving"
+      ],
+      "intents": [
+        "get-help",
+        "donate"
+      ]
+    },
+    {
+      "id": "svc:Abroad/DiasporaAndGiving/BirthrightIsrael",
+      "organization_id": "org:Abroad/DiasporaAndGiving/BirthrightIsrael",
+      "name": "תגלית (Birthright Israel) — סיורים והתנדבות לצעירים מחו״ל",
+      "description": "תגלית (Birthright Israel) הביאה למעלה מ-850,000 צעירים יהודים מרחבי העולם להיכרות בלתי אמצעית עם ישראל, ומפעילה גם מסלולי התנדבות (Volunteer in Israel) והתמחויות מקצועיות (Onward).",
+      "url": "https://www.linksforisrael.com/Abroad/DiasporaAndGiving/BirthrightIsrael",
+      "status": "active",
+      "taxonomy_ids": [
+        "Abroad",
+        "Abroad/DiasporaAndGiving"
+      ],
+      "intents": [
+        "volunteer",
+        "donate"
+      ]
+    },
+    {
+      "id": "svc:Abroad/DiasporaAndGiving/PJLibrary",
+      "organization_id": "org:Abroad/DiasporaAndGiving/PJLibrary",
+      "name": "PJ Library — ספרי ילדים יהודיים בחינם ב-40+ מדינות",
+      "description": "PJ Library (מיסודה של קרן הרולד גרינספון — אחות של ספריית פיג׳מה בישראל) שולחת מדי חודש מאות אלפי ספרי ילדים יהודיים בחינם למשפחות בלמעלה מ-40 מדינות באנגלית, ספרדית, צרפתית, רוסית ופורטוגזית.",
+      "url": "https://www.linksforisrael.com/Abroad/DiasporaAndGiving/PJLibrary",
+      "status": "active",
+      "taxonomy_ids": [
+        "Abroad",
+        "Abroad/DiasporaAndGiving"
+      ],
+      "intents": [
+        "get-help",
+        "donate"
+      ]
+    },
+    {
+      "id": "svc:Abroad/DiasporaAndGiving/MoisheHouse",
+      "organization_id": "org:Abroad/DiasporaAndGiving/MoisheHouse",
+      "name": "Moishe House (Mem Global) — קהילות צעירים יהודיים ב-30+ מדינות",
+      "description": "Moishe House (כיום תחת Mem Global) מפעילה למעלה מ-100 בתים קהילתיים ומועדוני צעירים ב-30+ מדינות, ומאפשרת לצעירים יהודים וישראלים בחו״ל למצוא קהילה חמה, ארוחות שבת ואירועי תרבות בכל עיר גדולה.",
+      "url": "https://www.linksforisrael.com/Abroad/DiasporaAndGiving/MoisheHouse",
+      "status": "active",
+      "taxonomy_ids": [
+        "Abroad",
+        "Abroad/DiasporaAndGiving"
+      ],
+      "intents": [
+        "get-help",
+        "donate"
+      ]
+    },
+    {
+      "id": "svc:Abroad/DiasporaAndGiving/BBYO",
+      "organization_id": "org:Abroad/DiasporaAndGiving/BBYO",
+      "name": "BBYO — תנועת הנוער היהודית העולמית",
+      "description": "BBYO מחברת עשרות אלפי בני ובנות נוער יהודים ביותר מ-60 מדינות באמצעות סניפים מקומיים, תוכניות מנהיגות, מחנות קיץ ומסעות חינוכיים לישראל.",
+      "url": "https://www.linksforisrael.com/Abroad/DiasporaAndGiving/BBYO",
+      "status": "active",
+      "taxonomy_ids": [
+        "Abroad",
+        "Abroad/DiasporaAndGiving"
+      ],
+      "intents": [
+        "get-help",
+        "donate"
       ]
     },
     {
@@ -5141,6 +5810,34 @@
       "type": "voice"
     },
     {
+      "id": "phone:Abroad/IsraelisAndConsular/MFAEmbassies",
+      "service_id": "svc:Abroad/IsraelisAndConsular/MFAEmbassies",
+      "organization_id": "org:Abroad/IsraelisAndConsular/MFAEmbassies",
+      "number": "02-5303155",
+      "type": "voice"
+    },
+    {
+      "id": "phone:Abroad/IsraelisAndConsular/ToshavChozer",
+      "service_id": "svc:Abroad/IsraelisAndConsular/ToshavChozer",
+      "organization_id": "org:Abroad/IsraelisAndConsular/ToshavChozer",
+      "number": "*2994",
+      "type": "voice"
+    },
+    {
+      "id": "phone:Abroad/IsraelisAndConsular/BituachLeumiAbroad",
+      "service_id": "svc:Abroad/IsraelisAndConsular/BituachLeumiAbroad",
+      "organization_id": "org:Abroad/IsraelisAndConsular/BituachLeumiAbroad",
+      "number": "*6050",
+      "type": "voice"
+    },
+    {
+      "id": "phone:Abroad/SafetyAndCampus/CSTUK",
+      "service_id": "svc:Abroad/SafetyAndCampus/CSTUK",
+      "organization_id": "org:Abroad/SafetyAndCampus/CSTUK",
+      "number": "+44-800-032-3263",
+      "type": "voice"
+    },
+    {
       "id": "phone:Defense/Emergency/MamadFixes",
       "service_id": "svc:Defense/Emergency/MamadFixes",
       "organization_id": "org:Defense/Emergency/MamadFixes",
@@ -5239,6 +5936,11 @@
       "id": "JudaismHeritage",
       "name": "יהדות, מורשת וקהילה",
       "description": "קהילות יהודיות בישראל ובתפוצות, התנועה המסורתית/קונסרבטיבית, ספריות מקורות (ספריא, 929), מעגל החיים ותרבות יהודית פתוחה"
+    },
+    {
+      "id": "Abroad",
+      "name": "ישראלים ויהודים בחו״ל",
+      "description": "קונסוליות ואזהרות מסע, תושבים חוזרים, ביטחון קהילתי וסיוע משפטי בקמפוסים (ארה״ב, בריטניה, צרפת, קנדה ואוסטרליה), תוכניות לישראל ותרומות מוכרות במס מחו״ל"
     },
     {
       "id": "Agriculture",

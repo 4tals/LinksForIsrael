@@ -2,6 +2,7 @@ import React from "react";
 import {
 	FaBullhorn,
 	FaFire,
+	FaGlobe,
 	FaHandHoldingHeart,
 	FaHandsHelping,
 	FaHeartbeat,
@@ -30,6 +31,11 @@ export const CATEGORY_ICONS: Record<
 		icon: FaStarOfDavid,
 		bg: "purple.50",
 		color: "purple.700",
+	},
+	Abroad: {
+		icon: FaGlobe,
+		bg: "teal.50",
+		color: "teal.700",
 	},
 	Agriculture: { icon: FaSeedling, bg: "green.50", color: "green.700" },
 	MemorialRemembrance: { icon: FaFire, bg: "orange.50", color: "orange.700" },

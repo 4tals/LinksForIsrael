@@ -18,6 +18,7 @@ import styles from "./docs.module.scss";
 export const dynamicParams = false;
 
 const DOC_TITLES: Record<string, string> = {
+	abroad: "מדריך לישראלים וליהודים בחו״ל — חירום, קמפוס, תרומות ותושבים חוזרים",
 	accessibility: "הצהרת נגישות",
 	agents: "לסוכני AI, מודלי שפה ו-Open Data API",
 	contribute: "איך לתרום לפרויקט",

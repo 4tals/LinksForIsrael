@@ -11,7 +11,14 @@ import {
 export interface IntlInitiativeItem {
 	id: string;
 	name: string;
-	category: "donate" | "rehab" | "volunteer" | "olim" | "judaism" | "advocacy";
+	category:
+		| "donate"
+		| "rehab"
+		| "volunteer"
+		| "olim"
+		| "judaism"
+		| "abroad"
+		| "advocacy";
 	categoryLabel: string;
 	summary: string;
 	url: string;
@@ -79,6 +86,21 @@ export const US_501C3_IDS = new Set([
 	"BINA",
 	"HartmanInstitute",
 	"Pardes",
+	"IAC",
+	"ScienceAbroad",
+	"Hillel",
+	"BrandeisCenter",
+	"SCN",
+	"ADL",
+	"PEFIsrael",
+	"IsraelGives",
+	"JFNA",
+	"JDC",
+	"SarEl",
+	"BirthrightIsrael",
+	"PJLibrary",
+	"MoisheHouse",
+	"BBYO",
 ]);
 
 export const EN_ITEMS: IntlInitiativeItem[] = ENGLISH_INITIATIVES.map(

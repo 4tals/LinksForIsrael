@@ -1,0 +1,188 @@
+{
+	"name": "IsraelisAndConsular",
+	"displayName": "ישראלים בחו״ל, קונסוליות ותושבים חוזרים",
+	"links": [
+		{
+			"name": "MFAEmbassies",
+			"displayName": "משרד החוץ — שגרירויות, קונסוליות ומוקד חירום לישראלים בחו״ל",
+			"shortDescription": "איתור נציגויות ושגרירויות ישראל בעולם, שירותים קונסולריים (דרכונים ואישורים) וחדר המצב 24/7 לישראלים בחו״ל",
+			"description": "פורטל משרד החוץ מרכז מידע רשמי על כל שגרירויות וקונסוליות ישראל ברחבי העולם, הנפקת דרכונים ומסמכים קונסולריים, וכן מוקד חדר המצב הפועל 24/7 למקרי חירום של אזרחים ישראלים בחו״ל (02-5303155).",
+			"url": "https://www.gov.il/he/departments/ministry_of_foreign_affairs",
+			"website": "https://www.gov.il/he/departments/ministry_of_foreign_affairs",
+			"phone": "02-5303155",
+			"verified": true,
+			"organizationType": "official",
+			"intents": [
+				"get-help"
+			],
+			"tags": [
+				"משרד החוץ",
+				"שגרירות",
+				"קונסוליה",
+				"חדר מצב",
+				"ישראלים בחו״ל",
+				"consulate",
+				"embassy"
+			],
+			"createdAt": "2026-11-23T12:45:00+02:00",
+			"references": [
+				{
+					"url": "https://www.gov.il/he/departments/ministry_of_foreign_affairs",
+					"type": "official",
+					"source": "gov.il",
+					"title": "משרד החוץ — שירותים קונסולריים ומוקד חירום"
+				}
+			]
+		},
+		{
+			"name": "NSCTravelWarnings",
+			"displayName": "המטה לביטחון לאומי (מל״ל) — אזהרות מסע לישראלים בחו״ל",
+			"shortDescription": "אזהרות המסע הרשמיות והמעודכנות לכל מדינות העולם, המלצות התנהגות בחירום ומוקד המל״ל לישראלים",
+			"description": "מאגר אזהרות המסע הרשמי של המטה לביטחון לאומי (מל״ל) מציג את רמות האיום העדכניות בכל מדינה ויעד, הנחיות בטיחות למטיילים ומוקד מידע טלפוני לישראלים השוהים בחו״ל.",
+			"url": "https://www.gov.il/he/departments/dynamiccollectors/travel-warnings-nsc",
+			"website": "https://www.gov.il/he/departments/dynamiccollectors/travel-warnings-nsc",
+			"verified": true,
+			"organizationType": "official",
+			"intents": [
+				"get-help"
+			],
+			"tags": [
+				"אזהרות מסע",
+				"מל״ל",
+				"ביטחון בחו״ל",
+				"מטיילים",
+				"travel warnings"
+			],
+			"createdAt": "2026-11-23T12:45:00+02:00",
+			"references": [
+				{
+					"url": "https://www.gov.il/he/departments/dynamiccollectors/travel-warnings-nsc",
+					"type": "official",
+					"source": "gov.il",
+					"title": "אזהרות מסע — המטה לביטחון לאומי"
+				}
+			]
+		},
+		{
+			"name": "ToshavChozer",
+			"displayName": "תושבים חוזרים — משרד העלייה והקליטה",
+			"shortDescription": "פורטל הזכויות וההטבות הרשמי לישראלים החוזרים ארצה לאחר שהות של שנתיים ומעלה בחו״ל (מכס, מס, תעסוקה ורפואה)",
+			"description": "מדור תושבים חוזרים במשרד העלייה והקליטה מפרט את תנאי הזכאות, הטבות מכס ומס, סיוע בתעסוקה וליזמים, פדיון תקופת המתנה בקופת חולים ותמיכה במדענים חוזרים.",
+			"url": "https://www.gov.il/he/departments/topics/returning_residents",
+			"website": "https://www.gov.il/he/departments/topics/returning_residents",
+			"phone": "*2994",
+			"verified": true,
+			"organizationType": "official",
+			"intents": [
+				"get-help"
+			],
+			"tags": [
+				"תושב חוזר",
+				"תושבים חוזרים",
+				"חזרה לישראל",
+				"זכויות",
+				"Toshav Chozer",
+				"returning residents"
+			],
+			"createdAt": "2026-11-23T12:45:00+02:00",
+			"references": [
+				{
+					"url": "https://www.gov.il/he/departments/topics/returning_residents",
+					"type": "official",
+					"source": "gov.il",
+					"title": "תושבים חוזרים — משרד העלייה והקליטה"
+				}
+			]
+		},
+		{
+			"name": "BituachLeumiAbroad",
+			"displayName": "ביטוח לאומי — זכויות וחובות של ישראלים בחו״ל",
+			"shortDescription": "הסדרת תשלומי ביטוח לאומי וביטוח בריאות בזמן שהות, רילוקיישן או לימודים בחו״ל ושמירה על רצף זכויות",
+			"description": "עמוד המידע הרשמי של המוסד לביטוח לאומי לישראלים השוהים בחו״ל: אמנות ביטוח סוציאלי, תשלום דמי ביטוח בריאות, מניעת תקופת המתנה רפואית בחזרה לישראל והגשת טפסים מקוונים.",
+			"url": "https://www.btl.gov.il/Insurance/Living_abroad/Pages/default.aspx",
+			"website": "https://www.btl.gov.il/Insurance/Living_abroad/Pages/default.aspx",
+			"phone": "*6050",
+			"verified": true,
+			"organizationType": "official",
+			"intents": [
+				"get-help"
+			],
+			"tags": [
+				"ביטוח לאומי",
+				"רילוקיישן",
+				"ישראלים בחו״ל",
+				"ביטוח בריאות",
+				"Bituach Leumi"
+			],
+			"createdAt": "2026-11-23T12:45:00+02:00",
+			"references": [
+				{
+					"url": "https://www.btl.gov.il/Insurance/Living_abroad/Pages/default.aspx",
+					"type": "official",
+					"source": "btl.gov.il",
+					"title": "ביטוח לאומי — תושב ישראל היוצא לחו״ל"
+				}
+			]
+		},
+		{
+			"name": "IAC",
+			"displayName": "IAC — ארגון הקהילה הישראלית-אמריקאית",
+			"shortDescription": "הרשת הקהילתית הגדולה ביותר של ישראלים וישראלים-אמריקאים בארה״ב — קהילה, חינוך עברי, מנהיגות וקשר לישראל",
+			"description": "ארגון IAC (Israeli-American Council) מחבר מאות אלפי ישראלים-אמריקאים ויהודים ברחבי ארה״ב באמצעות עשרות סניפים אזוריים, תוכניות נוער ומשפחות, תרבות עברית, סיוע קהילתי ויוזמות חיזוק הקשר עם ישראל.",
+			"url": "https://iac360.org/",
+			"website": "https://iac360.org/",
+			"verified": true,
+			"us501c3": true,
+			"organizationType": "ngo",
+			"intents": [
+				"get-help",
+				"volunteer",
+				"donate"
+			],
+			"tags": [
+				"ישראלים בארה״ב",
+				"קהילה ישראלית",
+				"תפוצות",
+				"IAC",
+				"Israeli-American"
+			],
+			"createdAt": "2026-11-23T12:45:00+02:00"
+		},
+		{
+			"name": "ScienceAbroad",
+			"displayName": "ScienceAbroad — ארגון המדענים הישראלים בחו״ל",
+			"shortDescription": "רשת עולמית של מדענים, רופאים וחוקרים ישראלים בקמפוסים בעולם וליווי חזרתם לאקדמיה ולתעשייה בישראל",
+			"description": "עמותת סיינס אברוד (ע״ר 580492809) מפעילה עשרות מרכזי קהילה באוניברסיטאות מובילות בעולם עבור מדענים, פוסט-דוקטורנטים ורופאים ישראלים, מסייעת בהתמודדות בקמפוס ומלווה חזרה והשמה באקדמיה ובהייטק בישראל.",
+			"url": "https://www.scienceabroad.org.il/",
+			"website": "https://www.scienceabroad.org.il/",
+			"verified": true,
+			"taxDeductible46": true,
+			"us501c3": true,
+			"registrationNumber": "580492809",
+			"organizationType": "ngo",
+			"intents": [
+				"get-help",
+				"volunteer",
+				"donate"
+			],
+			"tags": [
+				"מדענים בחו״ל",
+				"אקדמיה",
+				"תושב חוזר",
+				"פוסט דוקטורט",
+				"ScienceAbroad"
+			],
+			"createdAt": "2026-11-23T12:45:00+02:00",
+			"references": [
+				{
+					"url": "https://www.guidestar.org.il/organization/580492809",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "סיינס אברוד - ארגון המדענים הישראלים בחו״ל (ע״ר)"
+				}
+			],
+			"properManagement": true,
+			"registryCheckedAt": "2026-11-23"
+		}
+	]
+}

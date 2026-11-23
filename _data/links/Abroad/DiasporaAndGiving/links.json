@@ -1,0 +1,250 @@
+{
+	"name": "DiasporaAndGiving",
+	"displayName": "קהילות תפוצות, תוכניות לישראל ותרומות מחו״ל",
+	"links": [
+		{
+			"name": "PEFIsrael",
+			"displayName": "PEF Israel Endowment Funds — תרומה מוכרת במס (501c3) לכל עמותה מאומתת בישראל",
+			"shortDescription": "הקרן הוותיקה (מאז 1922) המאפשרת לתורמים מארה״ב לתרום עם זיכוי מס 501(c)(3) למאות עמותות ישראליות בעלות ניהול תקין",
+			"description": "PEF Israel Endowment Funds פועלת מאז 1922 כגשר הפילנתרופי המוביל מארה״ב לישראל — תורמים מעבירים תרומה מוכרת במס 501(c)(3) וממליצים על עמותה ישראלית מאומתת בעלת ניהול תקין ללא גביית תקורה מנהלתית.",
+			"url": "https://pefisrael.org/",
+			"website": "https://pefisrael.org/",
+			"verified": true,
+			"us501c3": true,
+			"organizationType": "ngo",
+			"intents": [
+				"donate"
+			],
+			"tags": [
+				"תרומות מחו״ל",
+				"501c3",
+				"ארה״ב",
+				"עמותות בישראל",
+				"PEF"
+			],
+			"createdAt": "2026-11-23T12:45:00+02:00"
+		},
+		{
+			"name": "IsraelGives",
+			"displayName": "IsraelGives — תרומות מוכרות במס לעמותות בישראל מ-30+ מדינות",
+			"shortDescription": "פלטפורמת תרומות בינלאומית המפיקה קבלות מס מוכרות בארה״ב (501c3), בריטניה (Gift Aid), קנדה (CRA) ואוסטרליה",
+			"description": "IsraelGives (ישראל תורמת) מחברת בין עמותות ישראליות מאומתות לתורמים ביותר מ-30 מדינות, עם קבלות מס מקומיות מוכרות בארה״ב, בריטניה, קנדה, אוסטרליה, צרפת וישראל.",
+			"url": "https://www.israelgives.org/",
+			"website": "https://www.israelgives.org/",
+			"verified": true,
+			"taxDeductible46": true,
+			"us501c3": true,
+			"organizationType": "ngo",
+			"intents": [
+				"donate"
+			],
+			"tags": [
+				"תרומות מחו״ל",
+				"501c3",
+				"Gift Aid",
+				"CRA",
+				"סעיף 46",
+				"IsraelGives"
+			],
+			"createdAt": "2026-11-23T12:45:00+02:00"
+		},
+		{
+			"name": "JFNA",
+			"displayName": "JFNA — הפדרציות היהודיות של צפון אמריקה",
+			"shortDescription": "ארגון הגג של 146 הפדרציות היהודיות בצפון אמריקה — קרנות חירום לישראל, שיקום קהילות ורווחה יהודית",
+			"description": "הפדרציות היהודיות של צפון אמריקה (JFNA) מרכזות תרומות חירום ושיקום, שותפויות קהילתיות עם ערים ויישובים בישראל ותמיכה בחיי הקהילה היהודית בארה״ב ובקנדה.",
+			"url": "https://www.jewishfederations.org/",
+			"website": "https://www.jewishfederations.org/",
+			"verified": true,
+			"us501c3": true,
+			"organizationType": "ngo",
+			"intents": [
+				"donate",
+				"get-help"
+			],
+			"tags": [
+				"פדרציות יהודיות",
+				"צפון אמריקה",
+				"תרומות",
+				"JFNA"
+			],
+			"createdAt": "2026-11-23T12:45:00+02:00"
+		},
+		{
+			"name": "JDC",
+			"displayName": "הג׳וינט העולמי (JDC — The Joint)",
+			"shortDescription": "ארגון הסיוע ההומניטרי היהודי המוביל בעולם הפועל ביותר מ-70 מדינות ובישראל — רווחה, חירום וקשישים",
+			"description": "הג׳וינט (American Jewish Joint Distribution Committee) פועל מאז 1914 לסייע ליהודים במצוקה ולבנות קהילות וחוסן חברתי בישראל ובמעל 70 מדינות ברחבי העולם.",
+			"url": "https://www.jdc.org/",
+			"website": "https://www.jdc.org/",
+			"verified": true,
+			"us501c3": true,
+			"organizationType": "ngo",
+			"intents": [
+				"get-help",
+				"donate"
+			],
+			"tags": [
+				"ג׳וינט",
+				"סיוע הומניטרי",
+				"תפוצות",
+				"רווחה",
+				"JDC"
+			],
+			"createdAt": "2026-11-23T12:45:00+02:00"
+		},
+		{
+			"name": "SarEl",
+			"displayName": "שר-אל (Sar-El) — מתנדבים מחו״ל למען ישראל וצה״ל",
+			"shortDescription": "תוכנית ההתנדבות הבינלאומית הוותיקה (מאז 1983) לשילוב מתנדבים מכל העולם בעבודה לוגיסטית בבסיסי צה״ל",
+			"description": "עמותת שר-אל (ע״ר 580049922) מארחת מדי שנה אלפי מתנדבים מעשרות מדינות בעולם המגיעים לישראל לסייע בעבודות לוגיסטיקה, אספקה וציוד רפואי בבסיסי צה״ל ולחזק את הקשר עם ישראל.",
+			"url": "https://www.sar-el.org/",
+			"website": "https://www.sar-el.org/",
+			"verified": true,
+			"taxDeductible46": true,
+			"us501c3": true,
+			"registrationNumber": "580049922",
+			"organizationType": "ngo",
+			"intents": [
+				"volunteer",
+				"donate"
+			],
+			"tags": [
+				"התנדבות מחו״ל",
+				"מתנדבים לישראל",
+				"שר-אל",
+				"צה״ל",
+				"Sar-El"
+			],
+			"createdAt": "2026-11-23T12:45:00+02:00",
+			"references": [
+				{
+					"url": "https://www.guidestar.org.il/organization/580049922",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "שראל המפעל הלאומי למתנדבים לישראל (ע״ר)"
+				},
+				{
+					"url": "https://he.wikipedia.org/wiki/%D7%A9%D7%A8-%D7%90%D7%9C",
+					"type": "registry",
+					"source": "Wikipedia",
+					"title": "שר-אל (ויקיפדיה)"
+				}
+			],
+			"properManagement": true,
+			"registryCheckedAt": "2026-11-23"
+		},
+		{
+			"name": "BirthrightIsrael",
+			"displayName": "תגלית (Birthright Israel) — סיורים והתנדבות לצעירים מחו״ל",
+			"shortDescription": "מסעות חינוכיים בחינם לצעירים יהודים מחו״ל, תוכניות התנדבות בישראל והתמחויות Onward Israel",
+			"description": "תגלית (Birthright Israel) הביאה למעלה מ-850,000 צעירים יהודים מרחבי העולם להיכרות בלתי אמצעית עם ישראל, ומפעילה גם מסלולי התנדבות (Volunteer in Israel) והתמחויות מקצועיות (Onward).",
+			"url": "https://www.birthrightisrael.com/",
+			"website": "https://www.birthrightisrael.com/",
+			"verified": true,
+			"us501c3": true,
+			"organizationType": "ngo",
+			"intents": [
+				"volunteer",
+				"donate"
+			],
+			"tags": [
+				"תגלית",
+				"צעירים מחו״ל",
+				"התנדבות בישראל",
+				"Onward",
+				"Birthright"
+			],
+			"createdAt": "2026-11-23T12:45:00+02:00"
+		},
+		{
+			"name": "MasaIsrael",
+			"displayName": "מסע (Masa Israel Journey) — התמחות, לימודים והתנדבות בישראל",
+			"shortDescription": "מלגות ותוכניות ארוכות טווח (4–12 חודשים) של לימודים, התמחויות הייטק, הוראת אנגלית והתנדבות בישראל לצעירים מחו״ל",
+			"description": "מסע (מיסודן של ממשלת ישראל והסוכנות היהודית) מציעה מאות תוכניות קריירה, אקדמיה והתנדבות ארוכות טווח בישראל לצעירים יהודים מכל העולם בגילאי 18–35, כולל מענקים ומלגות.",
+			"url": "https://www.masaisrael.org/",
+			"website": "https://www.masaisrael.org/",
+			"verified": true,
+			"organizationType": "official",
+			"intents": [
+				"volunteer",
+				"get-help"
+			],
+			"tags": [
+				"מסע",
+				"תוכניות לישראל",
+				"התמחות",
+				"מלגות",
+				"Masa Israel"
+			],
+			"createdAt": "2026-11-23T12:45:00+02:00"
+		},
+		{
+			"name": "PJLibrary",
+			"displayName": "PJ Library — ספרי ילדים יהודיים בחינם ב-40+ מדינות",
+			"shortDescription": "משלוח חודשי חינם של ספרי ילדים איכותיים על ערכים, חגים ותרבות יהודית למשפחות ברחבי העולם (במגוון שפות)",
+			"description": "PJ Library (מיסודה של קרן הרולד גרינספון — אחות של ספריית פיג׳מה בישראל) שולחת מדי חודש מאות אלפי ספרי ילדים יהודיים בחינם למשפחות בלמעלה מ-40 מדינות באנגלית, ספרדית, צרפתית, רוסית ופורטוגזית.",
+			"url": "https://pjlibrary.org/",
+			"website": "https://pjlibrary.org/",
+			"verified": true,
+			"us501c3": true,
+			"organizationType": "ngo",
+			"intents": [
+				"get-help",
+				"donate"
+			],
+			"tags": [
+				"משפחות בחו״ל",
+				"ספרי ילדים",
+				"חינוך יהודי",
+				"PJ Library"
+			],
+			"createdAt": "2026-11-23T12:45:00+02:00"
+		},
+		{
+			"name": "MoisheHouse",
+			"displayName": "Moishe House (Mem Global) — קהילות צעירים יהודיים ב-30+ מדינות",
+			"shortDescription": "רשת עולמית של בתי קהילה ואירועי שבת, חג ותרבות לצעירים יהודים בשנות ה-20 וה-30 ברחבי העולם",
+			"description": "Moishe House (כיום תחת Mem Global) מפעילה למעלה מ-100 בתים קהילתיים ומועדוני צעירים ב-30+ מדינות, ומאפשרת לצעירים יהודים וישראלים בחו״ל למצוא קהילה חמה, ארוחות שבת ואירועי תרבות בכל עיר גדולה.",
+			"url": "https://memglobal.org/",
+			"website": "https://memglobal.org/",
+			"verified": true,
+			"us501c3": true,
+			"organizationType": "ngo",
+			"intents": [
+				"get-help",
+				"donate"
+			],
+			"tags": [
+				"צעירים בחו״ל",
+				"קהילה יהודית",
+				"שבת",
+				"Moishe House",
+				"Mem Global"
+			],
+			"createdAt": "2026-11-23T12:45:00+02:00"
+		},
+		{
+			"name": "BBYO",
+			"displayName": "BBYO — תנועת הנוער היהודית העולמית",
+			"shortDescription": "תנועת הנוער היהודית הפלורליסטית הגדולה בעולם — קהילה, מנהיגות ומחנות קיץ לנוער יהודי ב-60+ מדינות",
+			"description": "BBYO מחברת עשרות אלפי בני ובנות נוער יהודים ביותר מ-60 מדינות באמצעות סניפים מקומיים, תוכניות מנהיגות, מחנות קיץ ומסעות חינוכיים לישראל.",
+			"url": "https://bbyo.org/",
+			"website": "https://bbyo.org/",
+			"verified": true,
+			"us501c3": true,
+			"organizationType": "ngo",
+			"intents": [
+				"get-help",
+				"donate"
+			],
+			"tags": [
+				"נוער יהודי",
+				"תפוצות",
+				"מנהיגות",
+				"BBYO"
+			],
+			"createdAt": "2026-11-23T12:45:00+02:00"
+		}
+	]
+}

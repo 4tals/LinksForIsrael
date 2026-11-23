@@ -31,9 +31,9 @@ const GUIDES_BY_LOCALE = {
 				sub: "תעודת עולה, סל קליטה, קופת חולים, אולפן, הנחה בארנונה וגופי סיוע",
 			},
 			{
-				href: "/docs/methodology",
-				title: "איך אנחנו מאמתים ומדרגים עמותות",
-				sub: "שקיפות מלאה, ניהול תקין ואזכורים עצמאיים בתקשורת",
+				href: "/docs/abroad",
+				title: "מדריך לישראלים וליהודים בחו״ל",
+				sub: "קונסוליות, ביטחון בקמפוסים (ארה״ב/בריטניה/צרפת), תרומות מחו״ל ותושבים חוזרים",
 			},
 			{
 				href: "/print",
@@ -48,18 +48,18 @@ const GUIDES_BY_LOCALE = {
 		items: [
 			{
 				href: "/en?cat=olim",
-				title: "Aliyah & New Olim Directory",
-				sub: "Official agencies (*2994), Nefesh B'Nefesh, Gvahim, Lone Soldiers & rights",
+				title: "Aliyah, New Olim & Money Transfers",
+				sub: "Official agencies (*2994), Nefesh B'Nefesh, Gvahim, Lone Soldiers & licensed FX",
+			},
+			{
+				href: "/en?cat=abroad",
+				title: "Israel & Jewish Life Abroad Hub",
+				sub: "Consulates, campus legal aid (US/UK/FR/CA/AU), PEF/IsraelGives & Birthright",
 			},
 			{
 				href: "/docs/methodology?lang=en",
-				title: "How We Verify & Rank Nonprofits",
-				sub: "Live Ministry of Justice (data.gov.il) checks & independent citations",
-			},
-			{
-				href: "/en?us501c3=1",
-				title: "US 501(c)(3) Tax-Deductible Charities",
-				sub: "Filter flagship Israeli nonprofits with US tax-deductible giving",
+				title: "How We Verify & Rank Resources",
+				sub: "Live Ministry of Justice (data.gov.il) checks & explicit licensed-service labels",
 			},
 			{
 				href: "/print?lang=en",
@@ -73,8 +73,8 @@ const GUIDES_BY_LOCALE = {
 			},
 			{
 				href: "/",
-				title: "לפורטל המלא בעברית (185+ משאבים ויוזמות)",
-				sub: "Browse all 10 Israel & Jewish life categories in Hebrew with live search",
+				title: "לפורטל המלא בעברית (210+ משאבים ויוזמות)",
+				sub: "Browse all 11 Israel & Jewish life categories in Hebrew with live search",
 			},
 		],
 	},

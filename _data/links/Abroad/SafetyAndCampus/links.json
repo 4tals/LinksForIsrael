@@ -1,0 +1,192 @@
+{
+	"name": "SafetyAndCampus",
+	"displayName": "ביטחון קהילתי, קמפוס וסיוע משפטי בחו״ל",
+	"links": [
+		{
+			"name": "Hillel",
+			"displayName": "Hillel International — חיים יהודיים ותמיכה בסטודנטים ב-850+ קמפוסים",
+			"shortDescription": "ארגון הסטודנטים היהודי הגדול בעולם — מרחבים בטוחים, ארוחות שבת, קהילה, דיווח אנטישמיות וסיוע לסטודנטים",
+			"description": "Hillel International פועל בלמעלה מ-850 אוניברסיטאות וקמפוסים בצפון אמריקה, אירופה, אמריקה הלטינית וישראל, מספק בית חם וביטחון לסטודנטים יהודים וישראלים ושותף להפעלת מערך הדיווח והסיוע המשפטי CALL.",
+			"url": "https://www.hillel.org/",
+			"website": "https://www.hillel.org/",
+			"verified": true,
+			"us501c3": true,
+			"organizationType": "ngo",
+			"intents": [
+				"get-help",
+				"donate"
+			],
+			"tags": [
+				"סטודנטים בחו״ל",
+				"קמפוס",
+				"אנטישמיות",
+				"קהילה יהודית",
+				"Hillel"
+			],
+			"createdAt": "2026-11-23T12:45:00+02:00"
+		},
+		{
+			"name": "BrandeisCenter",
+			"displayName": "Louis D. Brandeis Center — הגנה משפטית חינם לסטודנטים בארה״ב",
+			"shortDescription": "ייצוג וייעוץ משפטי ללא עלות (Title VI) לסטודנטים ומרצים המתמודדים עם אנטישמיות והפליה באוניברסיטאות בארה״ב",
+			"description": "המרכז על שם לואי ברנדייס (LDB) מוביל הגנה משפטית על זכויות אזרח של סטודנטים ואנשי סגל יהודים וישראלים בארה״ב, כולל הגשת תלונות פדרליות לפי Title VI ושותפות בקו הסיוע המשפטי החינמי CALL.",
+			"url": "https://brandeiscenter.com/",
+			"website": "https://brandeiscenter.com/",
+			"verified": true,
+			"us501c3": true,
+			"organizationType": "ngo",
+			"intents": [
+				"get-help",
+				"donate"
+			],
+			"tags": [
+				"סיוע משפטי",
+				"קמפוס",
+				"אנטישמיות",
+				"ארה״ב",
+				"Title VI",
+				"Brandeis Center"
+			],
+			"createdAt": "2026-11-23T12:45:00+02:00"
+		},
+		{
+			"name": "SCN",
+			"displayName": "Secure Community Network (SCN) — ביטחון קהילתי בצפון אמריקה",
+			"shortDescription": "גוף האבטחה, ההדרכה וההיערכות הרשמי של הקהילה היהודית בצפון אמריקה — דיווח איומים והדרכות ביטחון",
+			"description": "Secure Community Network הוא מרכז הביטחון הרשמי של ארגוני וקהילות יהדות צפון אמריקה, הפועל בתיאום עם גורמי אכיפת החוק (FBI ורשויות מקומיות) להגנה על בתי כנסת, בתי ספר ומוסדות קהילתיים.",
+			"url": "https://www.securecommunitynetwork.org/",
+			"website": "https://www.securecommunitynetwork.org/",
+			"verified": true,
+			"us501c3": true,
+			"organizationType": "ngo",
+			"intents": [
+				"get-help",
+				"donate"
+			],
+			"tags": [
+				"ביטחון קהילתי",
+				"צפון אמריקה",
+				"דיווח אירועים",
+				"SCN",
+				"security"
+			],
+			"createdAt": "2026-11-23T12:45:00+02:00"
+		},
+		{
+			"name": "ADL",
+			"displayName": "ADL — דיווח אירועי אנטישמיות וסיוע משפטי (CALL)",
+			"shortDescription": "הליגה נגד השמצה — פורטל דיווח אירועי שנאה ואנטישמיות, קו סיוע משפטי לסטודנטים ועובדים (CALL) ומחקר",
+			"description": "הליגה נגד השמצה (ADL) מפעילה מוקד דיווח לאירועי אנטישמיות והפליה, שותפה להפעלת קו הסיוע המשפטי החינמי לסטודנטים בארה״ב (CALL) ומפרסמת כלים חינוכיים ונתוני מעקב עולמיים.",
+			"url": "https://www.adl.org/",
+			"website": "https://www.adl.org/",
+			"verified": true,
+			"us501c3": true,
+			"organizationType": "ngo",
+			"intents": [
+				"get-help",
+				"donate"
+			],
+			"tags": [
+				"אנטישמיות",
+				"דיווח",
+				"סיוע משפטי",
+				"קמפוס",
+				"ADL",
+				"CALL"
+			],
+			"createdAt": "2026-11-23T12:45:00+02:00"
+		},
+		{
+			"name": "CSTUK",
+			"displayName": "CST (Community Security Trust) — ביטחון הקהילה היהודית בבריטניה",
+			"shortDescription": "ארגון הביטחון ודיווח האנטישמיות 24/7 של יהדות בריטניה — אבטחת קהילות, תמיכה בסטודנטים ותיאום מול המשטרה",
+			"description": "CST הוא גוף הביטחון הרשמי של הקהילה היהודית בממלכה המאוחדת, המפעיל קו חירום 24/7 (0800 032 3263), מלווה סטודנטים בקמפוסים, מאבטח מוסדות יהודיים ועובד בתיאום צמוד עם המשטרה הבריטית.",
+			"url": "https://cst.org.uk/",
+			"website": "https://cst.org.uk/",
+			"phone": "+44-800-032-3263",
+			"verified": true,
+			"organizationType": "ngo",
+			"intents": [
+				"get-help",
+				"volunteer",
+				"donate"
+			],
+			"tags": [
+				"בריטניה",
+				"לונדון",
+				"ביטחון קהילתי",
+				"אנטישמיות",
+				"CST",
+				"UK"
+			],
+			"createdAt": "2026-11-23T12:45:00+02:00"
+		},
+		{
+			"name": "SPCJFrance",
+			"displayName": "SPCJ — שירות הגנת הקהילה היהודית בצרפת",
+			"shortDescription": "הגוף הרשמי לאבטחה, ניטור ודיווח אירועי אנטישמיות עבור הקהילה היהודית בצרפת בתיאום עם כוחות הביטחון",
+			"description": "SPCJ (Service de Protection de la Communauté Juive) פועל בצרפת מאז שנות ה-80 לאבטחת מוסדות יהודיים, קבלת דיווחים על אירועי אנטישמיות וליווי נפגעים בתיאום הדוק עם משרד הפנים והמשטרה הצרפתית.",
+			"url": "https://www.spcj.org/",
+			"website": "https://www.spcj.org/",
+			"verified": true,
+			"organizationType": "ngo",
+			"intents": [
+				"get-help",
+				"donate"
+			],
+			"tags": [
+				"צרפת",
+				"ביטחון קהילתי",
+				"אנטישמיות",
+				"SPCJ",
+				"France"
+			],
+			"createdAt": "2026-11-23T12:45:00+02:00"
+		},
+		{
+			"name": "CIJACanada",
+			"displayName": "CIJA — מרכז ענייני ישראל והקהילה היהודית בקנדה",
+			"shortDescription": "סנגור, תמיכה משפטית, קמפוס וייצוג הפדרציות היהודיות ברחבי קנדה מול הממשל ומוסדות האקדמיה",
+			"description": "CIJA (Centre for Israel and Jewish Affairs) היא זרוע הסנגור של הפדרציות היהודיות בקנדה — מספקת משאבי תמיכה לסטודנטים ולמשפחות, מדריכי דיווח אירועי שנאה וייצוג ציבורי למען הקהילה היהודית וישראל.",
+			"url": "https://www.cija.ca/",
+			"website": "https://www.cija.ca/",
+			"verified": true,
+			"organizationType": "ngo",
+			"intents": [
+				"get-help",
+				"donate"
+			],
+			"tags": [
+				"קנדה",
+				"קהילה יהודית",
+				"אנטישמיות",
+				"סנגור",
+				"CIJA",
+				"Canada"
+			],
+			"createdAt": "2026-11-23T12:45:00+02:00"
+		},
+		{
+			"name": "ECAJAustralia",
+			"displayName": "ECAJ — המועצה המבצעת של יהדות אוסטרליה",
+			"shortDescription": "ארגון הגג הלאומי של יהדות אוסטרליה — דיווח אנטישמיות, זכויות קהילה וייצוג מול ממשלת אוסטרליה",
+			"description": "המועצה המבצעת של יהדות אוסטרליה (ECAJ) היא הארגון היציג של הקהילה היהודית באוסטרליה, המרכזת דיווחי אירועי אנטישמיות, מחקר שנתי, משאבי בטיחות לקהילה ותמיכה בקשר עם ישראל.",
+			"url": "https://www.ecaj.org.au/",
+			"website": "https://www.ecaj.org.au/",
+			"verified": true,
+			"organizationType": "ngo",
+			"intents": [
+				"get-help",
+				"donate"
+			],
+			"tags": [
+				"אוסטרליה",
+				"קהילה יהודית",
+				"אנטישמיות",
+				"ECAJ",
+				"Australia"
+			],
+			"createdAt": "2026-11-23T12:45:00+02:00"
+		}
+	]
+}
