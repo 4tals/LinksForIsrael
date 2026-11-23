@@ -1,12 +1,8 @@
 import Script from "next/script";
 
+const GA_MEASUREMENT_ID = "G-JRVY17LKPP";
+
 export function GTag() {
-	const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
-
-	if (!GA_MEASUREMENT_ID) {
-		return null;
-	}
-
 	return (
 		<>
 			<Script
