@@ -1,8 +1,8 @@
 {
   "version": "1.0",
   "source": "https://www.linksforisrael.com",
-  "generatedAt": "2026-11-23T08:51:55.050Z",
-  "count": 8,
+  "generatedAt": "2026-11-23T09:30:08.248Z",
+  "count": 9,
   "categories": [
     {
       "id": "Medical",
@@ -84,13 +84,32 @@
       "id": "GeneralAssistance",
       "displayName": "התנדבות, זכויות וקהילה",
       "description": "זכויות אזרחים ועובדים, מאגרי התנדבות ארציים, סיוע בדרכים וקהילות חברתיות",
-      "count": 19,
+      "count": 18,
       "portalUrl": "https://www.linksforisrael.com/GeneralAssistance",
       "subCategories": [
         {
           "id": "Main",
           "displayName": "התנדבות, זכויות וקהילה",
-          "count": 19
+          "count": 18
+        }
+      ]
+    },
+    {
+      "id": "Olim",
+      "displayName": "עלייה וקליטה",
+      "description": "גופי עלייה וקליטה רשמיים, זכויות עולים חדשים, אולפן, תעסוקה, חיילים בודדים וקהילות עולים",
+      "count": 18,
+      "portalUrl": "https://www.linksforisrael.com/Olim",
+      "subCategories": [
+        {
+          "id": "Main",
+          "displayName": "עלייה, קליטה וזכויות",
+          "count": 11
+        },
+        {
+          "id": "CareerAndLoneSoldiers",
+          "displayName": "תעסוקה, חיילים בודדים וקהילה",
+          "count": 7
         }
       ]
     },

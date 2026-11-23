@@ -5,6 +5,7 @@ import {
 	FaHandHoldingHeart,
 	FaHandsHelping,
 	FaHeartbeat,
+	FaPlaneArrival,
 	FaSeedling,
 	FaShieldAlt,
 	FaUsers,
@@ -23,6 +24,7 @@ export const CATEGORY_ICONS: Record<
 		bg: "blue.50",
 		color: "blue.700",
 	},
+	Olim: { icon: FaPlaneArrival, bg: "blue.50", color: "brand.700" },
 	Agriculture: { icon: FaSeedling, bg: "green.50", color: "green.700" },
 	MemorialRemembrance: { icon: FaFire, bg: "orange.50", color: "orange.700" },
 	StrategicCommunication: {

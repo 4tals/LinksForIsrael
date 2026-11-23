@@ -5,9 +5,9 @@ import { getEnrichedEnglishInitiatives } from "@/app/components/IntlPortal/intlC
 import { buildIntlPortalJsonLd, safeJsonLd, SITE_URL } from "@/app/utils/seo";
 
 const EN_TITLE =
-	"Links For Israel — Verified Israeli Charities, 501(c)(3), Volunteering & Hotlines";
+	"Links For Israel — Verified Israeli Charities, Aliyah & Olim, Volunteering & Hotlines";
 const EN_DESCRIPTION =
-	"Open-source directory of verified Israeli nonprofits, 501(c)(3) & Section 46 charities, mental health & veteran rehabilitation centers, volunteering networks, and 24/7 hotlines.";
+	"Open-source directory of verified Israeli nonprofits, Aliyah & New Olim organizations, 501(c)(3) & Section 46 charities, mental health & veteran care, volunteering, and 24/7 hotlines.";
 
 export const metadata: Metadata = {
 	title: { absolute: EN_TITLE },
@@ -18,14 +18,16 @@ export const metadata: Metadata = {
 		"verified Israeli charities",
 		"501c3 Israeli charities",
 		"Section 46 Israel",
+		"Aliyah resources",
+		"New Olim Israel",
+		"Lone Soldiers Israel",
 		"donate to Israel",
 		"volunteer in Israel",
 		"Israeli nonprofits",
+		"Nefesh B'Nefesh",
 		"ERAN",
 		"NATAL",
 		"Yad Sarah",
-		"Ezer Mizion",
-		"United Hatzalah",
 	],
 	alternates: {
 		canonical: "/en",
@@ -79,6 +81,12 @@ export default async function EnglishPage() {
 					"Can US donors find 501(c)(3) tax-deductible Israeli charities here?",
 				answer:
 					"Yes. Use the US 501(c)(3) filter pill (or visit /en?us501c3=1) to browse flagship Israeli nonprofits offering US tax-deductible giving pathways.",
+			},
+			{
+				question:
+					"Where can new Olim and people making Aliyah find verified absorption and Lone Soldier support?",
+				answer:
+					"Select the Aliyah & New Olim category (/en?cat=olim) to access the Ministry of Aliyah and Integration (*2994), The Jewish Agency, Nefesh B'Nefesh, Yad L'Olim, AACI, Telfed, Qualita, OLEI, Gvahim, and Lone Soldier organizations.",
 			},
 		],
 	});

@@ -1,0 +1,238 @@
+{
+	"name": "CareerAndLoneSoldiers",
+	"displayName": "תעסוקה, חיילים בודדים וקהילה",
+	"links": [
+		{
+			"name": "Gvahim",
+			"displayName": "גבהים (Gvahim) — תעסוקה ויזמות לעולים",
+			"shortDescription": "מנטורינג קריירה, שילוב בהייטק ובתעשייה ותוכניות אקסלרטור ליזמים עולים חדשים ותושבים חוזרים",
+			"description": "עמותת גבהים (ע״ר 580512390) מסייעת לאלפי עולים אקדמאים, אנשי הייטק ויזמים להשתלב בשוק העבודה הישראלי באמצעות תוכניות קריירה, מנטורינג אישי, הכנה לראיונות, נטוורקינג ומאיץ יזמות.",
+			"url": "https://gvahim.org.il/",
+			"website": "https://gvahim.org.il/",
+			"verified": true,
+			"taxDeductible46": true,
+			"us501c3": true,
+			"registrationNumber": "580512390",
+			"organizationType": "ngo",
+			"intents": [
+				"get-help",
+				"volunteer",
+				"donate"
+			],
+			"tags": [
+				"תעסוקה",
+				"קריירה",
+				"הייטק",
+				"יזמות",
+				"עולים חדשים",
+				"Gvahim",
+				"careers"
+			],
+			"createdAt": "2026-11-23T11:25:00+02:00",
+			"references": [
+				{
+					"url": "https://www.guidestar.org.il/organization/580512390",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "עמותת גבהים - עמותה לקליטת עלייה (ע״ר)"
+				}
+			],
+			"properManagement": true,
+			"registryCheckedAt": "2026-11-23"
+		},
+		{
+			"name": "LoneSoldierCenter",
+			"displayName": "המרכז לחיילים בודדים לזכרו של מייקל לוין",
+			"shortDescription": "ייעוץ, סיוע בדיור, ארוחות שבת וחג, ציוד וליווי אישי לחיילים בודדים עולים וישראלים לפני, במהלך ואחרי השירות",
+			"description": "המרכז לחיילים בודדים לזכרו של מייקל לוין (ע״ר 580520104) פועל מאז 2009 בסניפים בירושלים, תל אביב ובאר שבע ומעניק בית חם, ייעוץ זכויות צבאי, סיוע בשכר דירה, ציוד וליווי למשתחררים.",
+			"url": "https://lonesoldiercenter.com/",
+			"website": "https://lonesoldiercenter.com/",
+			"verified": true,
+			"taxDeductible46": true,
+			"us501c3": true,
+			"registrationNumber": "580520104",
+			"organizationType": "ngo",
+			"intents": [
+				"get-help",
+				"volunteer",
+				"donate"
+			],
+			"tags": [
+				"חיילים בודדים",
+				"עולים חדשים",
+				"צה״ל",
+				"מייקל לוין",
+				"Lone Soldiers"
+			],
+			"createdAt": "2026-11-23T11:25:00+02:00",
+			"references": [
+				{
+					"url": "https://www.guidestar.org.il/organization/580520104",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "המרכז לחיילים בודדים לזכרו של מייקל לוין (ע״ר)"
+				}
+			],
+			"properManagement": true,
+			"registryCheckedAt": "2026-11-23"
+		},
+		{
+			"name": "MichaelLevinBase",
+			"displayName": "הבסיס של מייקל לוין לחיילים בודדים ובנות שירות",
+			"shortDescription": "מרכזי תמיכה, הכנה לגיוס, ייעוץ נפשי ואישי וקהילה לחיילים בודדים ולבנות שירות לאומי עולות",
+			"description": "עמותת הבסיס של מייקל לוין (ע״ר 580696094) מלווה חיילים בודדים ובנות שירות לאומי עולות מירושלים ותל אביב בכל שלבי השירות — כולל הכנה לצו ראשון, סדנאות, ציוד, תמיכה רגשית וליווי אזרחי לאחר השחרור.",
+			"url": "https://themichaellevinbase.org/",
+			"website": "https://themichaellevinbase.org/",
+			"verified": true,
+			"taxDeductible46": true,
+			"us501c3": true,
+			"registrationNumber": "580696094",
+			"organizationType": "ngo",
+			"intents": [
+				"get-help",
+				"volunteer",
+				"donate"
+			],
+			"tags": [
+				"חיילים בודדים",
+				"שירות לאומי",
+				"מייקל לוין",
+				"עולים חדשים",
+				"Lone Soldiers"
+			],
+			"createdAt": "2026-11-23T11:25:00+02:00",
+			"references": [
+				{
+					"url": "https://www.guidestar.org.il/organization/580696094",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "הבסיס של מייקל לוין (ע״ר) – רישום עמותה בגיידסטאר"
+				}
+			],
+			"properManagement": true,
+			"registryCheckedAt": "2026-11-23"
+		},
+		{
+			"name": "GarinTzabar",
+			"displayName": "גרעין צבר (Garin Tzabar) — תנועת הצופים",
+			"shortDescription": "תוכנית קליטה בקיבוצים ובקהילות מאמצות לצעירים עולים ובני ישראלים מחו״ל המתגייסים לצה״ל כחיילים בודדים",
+			"description": "גרעין צבר של תנועת הצופים מלווה מדי שנה מאות צעירים וצעירות יהודים מחו״ל העולים לישראל כדי לשרת בצה״ל — כולל שלב הכנה בחו״ל, קליטה בגרעין מגובש בקיבוץ מאמץ, משפחות מאמצות וליווי מלא לאורך השירות.",
+			"url": "https://garintzabar.org/",
+			"website": "https://garintzabar.org/",
+			"verified": true,
+			"organizationType": "ngo",
+			"intents": [
+				"get-help",
+				"volunteer",
+				"donate"
+			],
+			"tags": [
+				"גרעין צבר",
+				"חיילים בודדים",
+				"קיבוצים",
+				"הצופים",
+				"עלייה",
+				"Garin Tzabar"
+			],
+			"createdAt": "2026-11-23T11:25:00+02:00",
+			"references": [
+				{
+					"url": "https://he.wikipedia.org/wiki/%D7%92%D7%A8%D7%A2%D7%99%D7%9F_%D7%A6%D7%91%D7%A8",
+					"type": "registry",
+					"source": "Wikipedia",
+					"title": "גרעין צבר (ויקיפדיה)"
+				}
+			]
+		},
+		{
+			"name": "KeepOlim",
+			"displayName": "קיפ עולים (KeepOlim)",
+			"shortDescription": "סבסוד טיפול נפשי לעולים, מפגשי נטוורקינג וקהילה, סיוע בחיפוש עבודה וליווי קליטה לעולים חדשים",
+			"description": "עמותת קיפ עולים (ע״ר 580644342) מפעילה תוכניות סיוע רגשיות וקהילתיות לעולים חדשים מכל העולם — כולל סבסוד טיפול פסיכולוגי בשפת האם, מפגשי קהילה, סיוע חברתי ותוכניות התנדבות.",
+			"url": "https://keepolim.org/",
+			"website": "https://keepolim.org/",
+			"verified": true,
+			"us501c3": true,
+			"registrationNumber": "580644342",
+			"organizationType": "ngo",
+			"intents": [
+				"get-help",
+				"volunteer",
+				"donate"
+			],
+			"tags": [
+				"עולים חדשים",
+				"סיוע נפשי",
+				"קהילה",
+				"KeepOlim",
+				"Olim"
+			],
+			"createdAt": "2026-11-23T11:25:00+02:00",
+			"references": [
+				{
+					"url": "https://www.guidestar.org.il/organization/580644342",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "קיפעולים — KeepOlim (ע״ר)"
+				}
+			],
+			"registryCheckedAt": "2026-11-23"
+		},
+		{
+			"name": "ShishiShabbatYisraeli",
+			"displayName": "שישי שבת ישראלי — עולים צעירים דוברי רוסית",
+			"shortDescription": "קהילה ארצית, מנהיגות צעירה, שבתות תרבות והתנדבות לשילוב עולים צעירים דוברי רוסית בחברה הישראלית",
+			"description": "עמותת שישי שבת ישראלי (ע״ר 580549236) בונה קהילה ישראלית תומכת לעולים צעירים דוברי רוסית בגילאי 18–35 באמצעות שבתות תרבות, טיולים, מעגלי מנהיגות, התנדבות ותמיכה בקליטה חברתית.",
+			"url": "https://shishi.co.il/",
+			"website": "https://shishi.co.il/",
+			"verified": true,
+			"taxDeductible46": true,
+			"registrationNumber": "580549236",
+			"organizationType": "ngo",
+			"intents": [
+				"get-help",
+				"volunteer",
+				"donate"
+			],
+			"tags": [
+				"עולים דוברי רוסית",
+				"צעירים",
+				"קהילה",
+				"תרבות",
+				"שישי שבת ישראלי"
+			],
+			"createdAt": "2026-11-23T11:25:00+02:00",
+			"references": [
+				{
+					"url": "https://www.guidestar.org.il/organization/580549236",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "שישי שבת ישראלי (ע״ר) – רישום עמותה בגיידסטאר"
+				}
+			],
+			"properManagement": true,
+			"registryCheckedAt": "2026-11-23"
+		},
+		{
+			"name": "GetHelpIsrael",
+			"displayName": "Get Help Israel — מדריך מטפלים דוברי אנגלית",
+			"shortDescription": "מאגר חינמי לאיתור פסיכולוגים, מטפלים, קבוצות תמיכה ושירותי בריאות הנפש לדוברי אנגלית בישראל",
+			"description": "Get Help Israel מרכז מאגר נגיש וחינמי של מטפלים מוסמכים, פסיכותרפיסטים, קבוצות תמיכה ומרכזי סיוע רגשי ונפשי לדוברי אנגלית ועולים חדשים ברחבי ישראל.",
+			"url": "https://gethelpisrael.com/",
+			"website": "https://gethelpisrael.com/",
+			"organizationType": "community",
+			"intents": [
+				"get-help"
+			],
+			"tags": [
+				"בריאות הנפש",
+				"דוברי אנגלית",
+				"טיפול נפשי",
+				"עולים חדשים",
+				"Get Help Israel",
+				"mental health"
+			],
+			"createdAt": "2026-11-23T11:25:00+02:00"
+		}
+	]
+}

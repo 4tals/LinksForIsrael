@@ -1,7 +1,7 @@
 export interface EnglishInitiative {
 	id: string;
 	name: string;
-	category: "donate" | "rehab" | "volunteer" | "advocacy";
+	category: "donate" | "rehab" | "volunteer" | "olim" | "advocacy";
 	categoryLabel: string;
 	summary: string;
 	url: string;
@@ -418,5 +418,155 @@ export const ENGLISH_INITIATIVES: EnglishInitiative[] = [
 			"The world's first Holocaust museum founded by survivors, preserving open historical archives, testimonies, and Yad Layeled youth education.",
 		url: "https://www.gfh.org.il/",
 		tags: ["Holocaust", "archive", "museum", "remembrance"],
+	},
+	{
+		id: "MinistryOfAliyah",
+		name: "Ministry of Aliyah and Integration (*2994)",
+		category: "olim",
+		categoryLabel: "Aliyah & New Olim",
+		summary:
+			"Official Israeli government ministry for new immigrants & returning residents — Sal Klita, Ulpan vouchers, rental assistance, licensing, and *2994 hotline in 7 languages.",
+		url: "https://www.gov.il/he/departments/ministry_of_aliyah_and_integration",
+		tags: ["aliyah", "olim", "sal klita", "ulpan", "official", "rights"],
+	},
+	{
+		id: "JewishAgency",
+		name: "The Jewish Agency for Israel",
+		category: "olim",
+		categoryLabel: "Aliyah & New Olim",
+		summary:
+			"Official global Aliyah organization guiding eligibility, pre-Aliyah preparation, absorption centers, Ulpan Etzion, and emergency community support.",
+		url: "https://www.jewishagency.org/",
+		tags: ["aliyah", "olim", "ulpan", "absorption", "official"],
+	},
+	{
+		id: "NefeshBNefesh",
+		name: "Nefesh B'Nefesh",
+		category: "olim",
+		categoryLabel: "Aliyah & New Olim",
+		summary:
+			"Comprehensive Aliyah planning, post-Aliyah rights guidance, career support, community integration, and national Lone Soldiers program for North American Olim.",
+		url: "https://www.nbn.org.il/",
+		tags: ["aliyah", "olim", "lone soldiers", "careers", "North America"],
+	},
+	{
+		id: "YadLOlim",
+		name: "Yad L'Olim",
+		category: "olim",
+		categoryLabel: "Aliyah & New Olim",
+		summary:
+			"Hands-on bureaucratic assistance, medical & licensing advocacy, and Knesset representation helping Olim from every country navigate Israeli ministries.",
+		url: "https://www.yadlolim.org/",
+		tags: ["olim", "aliyah", "rights", "advocacy", "bureaucracy"],
+	},
+	{
+		id: "AACI",
+		name: "AACI — Americans & Canadians in Israel",
+		category: "olim",
+		categoryLabel: "Aliyah & New Olim",
+		summary:
+			"Serving English-speaking Olim since 1951 with personal Aliyah counselors, rights & retirement workshops, libraries, and community branches nationwide.",
+		url: "https://aaci.org.il/",
+		tags: ["olim", "aliyah", "English", "community", "counseling"],
+	},
+	{
+		id: "Telfed",
+		name: "Telfed — South African & Australian Olim",
+		category: "olim",
+		categoryLabel: "Aliyah & New Olim",
+		summary:
+			"Absorption support, student scholarships, rental housing, employment placement, and Lone Soldier care for Olim from South Africa, Australia, and New Zealand.",
+		url: "https://www.telfed.org.il/",
+		tags: ["olim", "aliyah", "South Africa", "Australia", "scholarships"],
+	},
+	{
+		id: "Qualita",
+		name: "Qualita — French & European Olim Umbrella",
+		category: "olim",
+		categoryLabel: "Aliyah & New Olim",
+		summary:
+			"Umbrella hub for French-speaking and European Olim offering career centers, Ulpan programs, entrepreneurship guidance, and family absorption aid.",
+		url: "https://www.qualita.org.il/",
+		tags: ["olim", "aliyah", "French", "Europe", "careers"],
+	},
+	{
+		id: "OLEI",
+		name: "OLEI — Latin American, Spanish & Portuguese Olim",
+		category: "olim",
+		categoryLabel: "Aliyah & New Olim",
+		summary:
+			"Nationwide branches providing absorption counseling, bureaucratic guidance, scholarships, and career networking for Spanish- and Portuguese-speaking Olim.",
+		url: "https://olei.org.il/",
+		tags: ["olim", "aliyah", "Latin America", "Spanish", "Portuguese"],
+	},
+	{
+		id: "ESRA",
+		name: "ESRA — English Speaking Residents Association",
+		category: "olim",
+		categoryLabel: "Aliyah & New Olim",
+		summary:
+			"Israel's largest volunteer-driven English-speaking community organization fostering social integration for Olim alongside educational and welfare projects.",
+		url: "https://www.esra.org.il/",
+		tags: ["olim", "English", "volunteer", "community"],
+	},
+	{
+		id: "Gvahim",
+		name: "Gvahim — Olim Career & Entrepreneurship",
+		category: "olim",
+		categoryLabel: "Aliyah & New Olim",
+		summary:
+			"Accelerates career integration for skilled Olim and returning residents through 1-on-1 mentoring, high-tech networking, and startup founder accelerators.",
+		url: "https://gvahim.org.il/",
+		tags: ["olim", "careers", "hi-tech", "mentoring", "startups"],
+	},
+	{
+		id: "LoneSoldierCenter",
+		name: "The Lone Soldier Center (In Memory of Michael Levin)",
+		category: "olim",
+		categoryLabel: "Aliyah & New Olim",
+		summary:
+			"Provides housing advice, IDF rights guidance, Shabbat meals, gear, and post-army transition support for Olim and Israeli Lone Soldiers nationwide.",
+		url: "https://lonesoldiercenter.com/",
+		tags: ["lone soldiers", "olim", "IDF", "housing", "volunteer"],
+	},
+	{
+		id: "MichaelLevinBase",
+		name: "The Michael Levin Base for Lone Soldiers & Bnot Sherut",
+		category: "olim",
+		categoryLabel: "Aliyah & New Olim",
+		summary:
+			"Support centers in Jerusalem and Tel Aviv offering pre-draft prep, personal & emotional counseling, workshops, and community for Lone Soldiers and National Service Olim.",
+		url: "https://themichaellevinbase.org/",
+		tags: ["lone soldiers", "olim", "national service", "support"],
+	},
+	{
+		id: "GarinTzabar",
+		name: "Garin Tzabar — IDF Aliyah Program",
+		category: "olim",
+		categoryLabel: "Aliyah & New Olim",
+		summary:
+			"Scouts-run program integrating young diaspora Jews and children of Israelis into adoptive kibbutz host communities before and throughout IDF Lone Soldier service.",
+		url: "https://garintzabar.org/",
+		tags: ["lone soldiers", "olim", "aliyah", "kibbutz", "IDF"],
+	},
+	{
+		id: "KeepOlim",
+		name: "KeepOlim",
+		category: "olim",
+		categoryLabel: "Aliyah & New Olim",
+		summary:
+			"Subsidized native-language mental health therapy, community events, job support, and integration programs helping Olim thrive in Israel.",
+		url: "https://keepolim.org/",
+		tags: ["olim", "mental health", "community", "aliyah"],
+	},
+	{
+		id: "GetHelpIsrael",
+		name: "Get Help Israel — English Mental Health Directory",
+		category: "olim",
+		categoryLabel: "Aliyah & New Olim",
+		summary:
+			"Free searchable directory connecting English-speaking Olim and residents with licensed therapists, counselors, and support groups across Israel.",
+		url: "https://gethelpisrael.com/",
+		tags: ["olim", "mental health", "English", "therapy"],
 	},
 ];

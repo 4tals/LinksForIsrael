@@ -7,6 +7,7 @@ import {
 	FaHandHoldingHeart,
 	FaHandsHelping,
 	FaHeart,
+	FaPlaneArrival,
 	FaSeedling,
 	FaShieldAlt,
 } from "react-icons/fa";
@@ -68,6 +69,16 @@ const PATHWAYS_BY_LOCALE: Record<
 				href: "/Economic?s46=1",
 			},
 			{
+				id: "olim",
+				title: "עולים חדשים ועלייה לישראל",
+				subtitle:
+					"סל קליטה, אולפן, זכויות, תעסוקה, חיילים בודדים וקהילות עולים",
+				icon: FaPlaneArrival,
+				accentBg: "blue.50",
+				accentColor: "brand.700",
+				href: "/Olim",
+			},
+			{
 				id: "rights",
 				title: "בירור זכויות וביטוח לאומי",
 				subtitle: "כל זכות, קו לעובד, פורטלים רשמיים ומיצוי זכויות",
@@ -75,15 +86,6 @@ const PATHWAYS_BY_LOCALE: Record<
 				accentBg: "orange.50",
 				accentColor: "orange.600",
 				href: "/GeneralAssistance?verified=1",
-			},
-			{
-				id: "agriculture",
-				title: "תמיכה בחקלאים ותוצרת הארץ",
-				subtitle: "קנייה ישירה מהחקלאים והתנדבות במשקים",
-				icon: FaSeedling,
-				accentBg: "green.50",
-				accentColor: "green.700",
-				href: "/Agriculture",
 			},
 		],
 	},
@@ -101,6 +103,16 @@ const PATHWAYS_BY_LOCALE: Record<
 				accentBg: "red.50",
 				accentColor: "red.600",
 				href: "/en?cat=rehab&phone=1",
+			},
+			{
+				id: "olim",
+				title: "Making Aliyah or New Oleh?",
+				subtitle:
+					"Official agencies (*2994), Nefesh B'Nefesh, careers & Lone Soldiers",
+				icon: FaPlaneArrival,
+				accentBg: "blue.50",
+				accentColor: "brand.700",
+				href: "/en?cat=olim",
 			},
 			{
 				id: "veterans",
@@ -129,16 +141,6 @@ const PATHWAYS_BY_LOCALE: Record<
 				accentBg: "purple.50",
 				accentColor: "purple.600",
 				href: "/en?cat=donate&us501c3=1",
-			},
-			{
-				id: "donate-s46",
-				title: "Israeli Section 46 Verified",
-				subtitle:
-					"Good Standing (data.gov.il) & Israeli tax-deductible charities",
-				icon: FaBalanceScale,
-				accentBg: "orange.50",
-				accentColor: "orange.600",
-				href: "/en?s46=1",
 			},
 			{
 				id: "advocacy",

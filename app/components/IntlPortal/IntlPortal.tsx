@@ -7,6 +7,7 @@ import {
 	FaHandHoldingHeart,
 	FaHandsHelping,
 	FaHeartbeat,
+	FaPlaneArrival,
 	FaSearch,
 	FaShareAlt,
 } from "react-icons/fa";
@@ -84,6 +85,14 @@ const EN_CATEGORIES = [
 		color: "teal.700",
 	},
 	{
+		id: "olim",
+		label: "Aliyah & New Olim",
+		desc: "Official Aliyah agencies, Olim rights, careers, Ulpan & Lone Soldiers",
+		icon: FaPlaneArrival,
+		bg: "blue.50",
+		color: "brand.700",
+	},
+	{
 		id: "advocacy",
 		label: "Advocacy & Remembrance",
 		desc: "Official Oct 7 archives, National Library & global advocacy networks",
@@ -95,11 +104,12 @@ const EN_CATEGORIES = [
 
 const EN_QUICK_TAGS = [
 	"501(c)(3)",
+	"aliyah",
+	"olim",
+	"lone soldiers",
 	"mental health",
 	"volunteer",
-	"food",
 	"veterans",
-	"agriculture",
 	"remembrance",
 ];
 
@@ -121,6 +131,11 @@ const CATEGORY_BADGE_MAP: Record<
 		bg: "teal.50",
 		color: "teal.700",
 		label: "Volunteering & Community",
+	},
+	olim: {
+		bg: "blue.50",
+		color: "brand.700",
+		label: "Aliyah & New Olim",
 	},
 	advocacy: {
 		bg: "orange.50",
@@ -426,7 +441,10 @@ export function IntlPortal({ items }: { items: EnrichedIntlInitiative[] }) {
 					</Flex>
 				</Flex>
 
-				<SimpleGrid columns={{ base: 2, lg: 4 }} spacing={{ base: 3, md: 4 }}>
+				<SimpleGrid
+					columns={{ base: 2, md: 3, lg: 5 }}
+					spacing={{ base: 3, md: 4 }}
+				>
 					{EN_CATEGORIES.map((cat) => {
 						const active = selectedCategory === cat.id;
 						const count = categoryCounts[cat.id] || 0;

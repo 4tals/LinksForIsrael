@@ -18,7 +18,7 @@
 - Verification Methodology: https://www.linksforisrael.com/docs/methodology
 - Accessibility Statement (IS 5568 / WCAG 2.1 AA): https://www.linksforisrael.com/docs/accessibility
 - Embeddable Hotlines Widget: https://www.linksforisrael.com/embed/hotlines
-- Open JSON API (all 147 ranked initiatives + data.gov.il registry provenance): https://www.linksforisrael.com/api/v1/initiatives.json
+- Open JSON API (all 164 ranked initiatives + data.gov.il registry provenance): https://www.linksforisrael.com/api/v1/initiatives.json
 - Open Referral HSDS Feed: https://www.linksforisrael.com/api/v1/hsds.json
 - Categories JSON API: https://www.linksforisrael.com/api/v1/categories.json
 - Sitemap: https://www.linksforisrael.com/sitemap.xml
@@ -29,7 +29,8 @@
 - [חירום, ביטחון ומילואים](https://www.linksforisrael.com/Defense): 14 initiatives
 - [תרומות, מזון וכלכלה](https://www.linksforisrael.com/Economic): 20 initiatives
 - [משפחה, נוער ובע״ח](https://www.linksforisrael.com/FamilyAndPets): 24 initiatives
-- [התנדבות, זכויות וקהילה](https://www.linksforisrael.com/GeneralAssistance): 19 initiatives
+- [התנדבות, זכויות וקהילה](https://www.linksforisrael.com/GeneralAssistance): 18 initiatives
+- [עלייה וקליטה](https://www.linksforisrael.com/Olim): 18 initiatives
 - [חקלאות ותוצרת הארץ](https://www.linksforisrael.com/Agriculture): 8 initiatives
 - [שכול, הנצחה וזיכרון](https://www.linksforisrael.com/MemorialRemembrance): 9 initiatives
 - [הסברה ודיפלומטיה](https://www.linksforisrael.com/StrategicCommunication): 23 initiatives
@@ -75,11 +76,15 @@
 - [הקואליציה הישראלית לטראומה](https://israeltraumacoalition.org/): ארגון הגג הלאומי המפעיל את מרכזי החוסן בישראל ומעניק טיפול בטראומה והכשרות חירום לקהילות
 - [אנוש – העמותה הישראלית לבריאות הנפש](https://www.enosh.org.il/): הארגון המוביל בישראל לשיקום, דיור, תעסוקה, מרכזי צעירים (הדספייס) ותמיכה במשפחות מתמודדי נפש
 - [אגודת צער בעלי חיים בישראל](https://spca.co.il/): אימוץ כלבים וחתולים, מרפאה וטרינרית והתנדבות למען בעלי חיים
+- [נפש בנפש (Nefesh B'Nefesh)](https://www.nbn.org.il/): ליווי מקיף, ייעוץ זכויות, קליטה, תעסוקה ותמיכה לחיילים בודדים ולעולים חדשים מצפון אמריקה
+- [הקרן לידידות — סיוע לעולים ורווחה](https://yedidut.org.il/): מענקי קליטה, טיסות עלייה, סיוע במזון ודיור ותמיכה בעולים חדשים מרחבי העולם ובאוכלוסיות רווחה
 - [לקט ישראל - מתנדבים למשקים](https://www.leket.org/volunteering-for-farmers/): התנדבות למשקים בדרום בעקבות המלחמה
 - [מגן דוד אדום (מד״א) — ארגון ההצלה הלאומי](https://www.mdais.org/) (101): שירותי חירום רפואיים 24/7 (101), תרומות דם, קורסי עזרה ראשונה והתנדבות בפריסה ארצית
+- [משרד העלייה והקליטה](https://www.gov.il/he/departments/ministry_of_aliyah_and_integration) (*2994): המשרד הממשלתי הרשמי לזכויות עולים חדשים ותושבים חוזרים — סל קליטה, אולפן, דיור, תעסוקה ומוקד *2994 ב-7 שפות
 - [קורס עזרה ראשונה לשעת חירום - מגן דוד אדום](https://www.mdais.org/kursim/iron-swords-first-aid-course): קורס עזרה ראשונה בשעת חירום בהיקף 3 שעות לימוד
 - [אתר המילואים הרשמי של צה״ל](https://www.miluim.idf.il/): זכויות, תגמולים, מענקים, טפסים ושירותים למשרתי המילואים ומשפחותיהם
 - [פר״ח — התוכנית הלאומית לחונכות סטודנטים וילדים](https://www.perach.org.il/): חונכות אישית ולימודית לילדים ובני נוער על ידי עשרות אלפי סטודנטים מתנדבים ברחבי הארץ
+- [הסוכנות היהודית לארץ ישראל](https://www.jewishagency.org/): הגוף הרשמי לליווי תהליך העלייה מחו״ל, מרכזי קליטה, אולפן עציון, בדיקת זכאות ומענקי עלייה
 - [Stop Antisemitism](https://www.stopantisemitism.org/): Leading Non-Partisan U.S Based Organization Fighting & Exposing Antisemitism
 - [Medical Volunteers for Israel](https://survey.gov.il/en/internationalvolunteers?utm_source=go.gov.il&utm_medium=referral): In light of the ongoing situation in Israel, the Israeli Ministry of Health is building a list of medical personnel from abroad to volunteer in Israel should the need arise.
 - [קו לעובד – הגנה על זכויות עובדים](https://kavlaoved.org.il/): ייעוץ, סיוע משפטי ומידע במיצוי זכויות עבודה ושכר לעובדים בישראל ללא הבדל מעמד
@@ -108,12 +113,24 @@
 - [אור שלום — משפחתונים ואומנה לילדים ובני נוער בסיכון](https://orr-shalom.org.il/): משפחתונים, אומנה טיפולית וליווי בוגרים לילדים ובני נוער שהוצאו מבתיהם על ידי שירותי הרווחה
 - [יד ביד — בתי ספר דו-לשוניים וקהילות משותפות](https://www.handinhandk12.org/): רשת בתי ספר וגנים דו-לשוניים וקהילות משותפות ליהודים וערבים ברחבי ישראל
 - [אס.או.אס חיות — הצלה ואימוץ כלבים וחתולים](https://www.sospets.co.il/): ימי אימוץ שבועיים, משפחות אומנה, עיקור וסירוס והצלת כלבים וחתולים נטושים
-- [נפש בנפש (Nefesh B'Nefesh)](https://www.nbn.org.il/): ליווי מקיף, ייעוץ זכויות, קליטה, תעסוקה ותמיכה לחיילים בודדים ולעולים חדשים
 - [שק״ל — שילוב קהילתי לאנשים עם מוגבלויות](https://www.shekel.org.il/): דיור בקהילה, תעסוקה משלבת, מרכזי פנאי והנגשה לאנשים עם מוגבלויות בכל הארץ
 - [נעמת — זכויות נשים, ייעוץ משפטי ומעונות יום](https://naamat.org.il/): ייעוץ משפטי בענייני עבודה ומשפחה, מרכזים לטיפול באלימות במשפחה ורשת מעונות יום
 - [החברה להגנת הטבע](https://www.teva.org.il/): שמירת טבע, שיקום שטחים פתוחים, סימון שבילי ישראל, חוגי סיירות והתנדבות סביבתית
+- [כל זכות — פורטל עולים חדשים](https://www.kolzchut.org.il/he/%D7%A2%D7%95%D7%9C%D7%99%D7%9D): מדריך זכויות חינמי ומקיף לעולים חדשים: סל קליטה, הנחה בארנונה, ביטוח לאומי, מס הכנסה, רישיון נהיגה ואולפן
+- [יד לעולים (Yad L'Olim)](https://www.yadlolim.org/): סיוע בירוקרטי אישי, קידום זכויות עולים מול משרדי ממשלה והנגשת שירותי בריאות, חינוך ורווחה לעולים
+- [קעליטה (Qualita) — ארגון הגג של עולי צרפת](https://www.qualita.org.il/): ארגון הגג לעולים דוברי צרפתית ויהודי אירופה — אולפן, תעסוקה, חינוך, מיצוי זכויות וליווי משפחות
+- [התאחדות עולי אמריקה וקנדה בישראל (AACI)](https://aaci.org.il/): ייעוץ קליטה, מיצוי זכויות, תמיכה חברתית, ספריות ומרכזי קהילה לעולים דוברי אנגלית מאז 1951
+- [תלפד (Telfed) — עולי דרום אפריקה ואוסטרליה](https://www.telfed.org.il/): קליטה, מלגות לימודים, דיור, השמה בעבודה וליווי קהילתי לעולים מדרום אפריקה, אוסטרליה וניו זילנד
+- [עולי (OLEI) — עולי אמריקה הלטינית, ספרד ופורטוגל](https://olei.org.il/): ליווי קליטה, תרגום זכויות, השמה תעסוקתית וקהילה בפריסה ארצית לעולים דוברי ספרדית ופורטוגזית
+- [אסרא (ESRA) — איגוד דוברי האנגלית בישראל](https://www.esra.org.il/): קהילה, התנדבות, שילוב חברתי, תוכניות חינוך ורווחה לעולים ותושבים דוברי אנגלית מאז 1979
+- [גבהים (Gvahim) — תעסוקה ויזמות לעולים](https://gvahim.org.il/): מנטורינג קריירה, שילוב בהייטק ובתעשייה ותוכניות אקסלרטור ליזמים עולים חדשים ותושבים חוזרים
+- [המרכז לחיילים בודדים לזכרו של מייקל לוין](https://lonesoldiercenter.com/): ייעוץ, סיוע בדיור, ארוחות שבת וחג, ציוד וליווי אישי לחיילים בודדים עולים וישראלים לפני, במהלך ואחרי השירות
+- [הבסיס של מייקל לוין לחיילים בודדים ובנות שירות](https://themichaellevinbase.org/): מרכזי תמיכה, הכנה לגיוס, ייעוץ נפשי ואישי וקהילה לחיילים בודדים ולבנות שירות לאומי עולות
+- [שישי שבת ישראלי — עולים צעירים דוברי רוסית](https://shishi.co.il/): קהילה ארצית, מנהיגות צעירה, שבתות תרבות והתנדבות לשילוב עולים צעירים דוברי רוסית בחברה הישראלית
 - [מוזיאון בית לוחמי הגטאות — ארכיון, חינוך והנצחת השואה](https://www.gfh.org.il/): המוזיאון הראשון בעולם להנצחת השואה והגבורה, ארכיון עדויות פתוח ומרכז חינוך הומניסטי
 - [בטרם — הארגון הלאומי לבטיחות ילדים](https://beterem.org/): מדריכים, הנחיות מניעת היפגעות בבית ובדרכים והדרכות בטיחות להורים ולאנשי מקצוע
 - [עמותת נתינה לאחר ישראל](https://netinalahaher.org.il/): התנדבות לבישול ביתי ושינוע ארוחות חמות מדי שבוע למשפחות מעוטות יכולת וקשישים ברחבי הארץ (ללא תרומות כספיות)
+- [גרעין צבר (Garin Tzabar) — תנועת הצופים](https://garintzabar.org/): תוכנית קליטה בקיבוצים ובקהילות מאמצות לצעירים עולים ובני ישראלים מחו״ל המתגייסים לצה״ל כחיילים בודדים
+- [קיפ עולים (KeepOlim)](https://keepolim.org/): סבסוד טיפול נפשי לעולים, מפגשי נטוורקינג וקהילה, סיוע בחיפוש עבודה וליווי קליטה לעולים חדשים
 - [קולות מישראל - Voice Of Israel](https://voicesofisrael.org/): גוף תומך בפעילויות הסברתיות פרו-ישראלית מסביב לעולם
 - [הקונסוליה הישראלית בניו יורק](https://www.onlytrueinformation.com/): 

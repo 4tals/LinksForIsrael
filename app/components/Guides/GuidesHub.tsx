@@ -26,6 +26,11 @@ const GUIDES_BY_LOCALE = {
 				sub: "רוח טובה, ידידים, חקלאות, נוער, רפואה והצלה",
 			},
 			{
+				href: "/docs/olim",
+				title: "מדריך לעולה החדש — 90 הימים הראשונים",
+				sub: "תעודת עולה, סל קליטה, קופת חולים, אולפן, הנחה בארנונה וגופי סיוע",
+			},
+			{
 				href: "/docs/methodology",
 				title: "איך אנחנו מאמתים ומדרגים עמותות",
 				sub: "שקיפות מלאה, ניהול תקין ואזכורים עצמאיים בתקשורת",
@@ -35,17 +40,17 @@ const GUIDES_BY_LOCALE = {
 				title: "דף חירום להדפסה לממ״ד ולמקרר",
 				sub: "עמוד A4 מסודר בעברית ובאנגלית עם כל מוקדי ההצלה 24/7",
 			},
-			{
-				href: "/en",
-				title: "English Portal — Support & Donate",
-				sub: "Verified Israeli charities (501(c)(3) & §46) and 24/7 hotlines",
-			},
 		],
 	},
 	en: {
 		heading: "Essential Guides & Civic Tools",
 		subtitle: "Verified resources ready to read, share, embed, or print",
 		items: [
+			{
+				href: "/en?cat=olim",
+				title: "Aliyah & New Olim Directory",
+				sub: "Official agencies (*2994), Nefesh B'Nefesh, Gvahim, Lone Soldiers & rights",
+			},
 			{
 				href: "/docs/methodology?lang=en",
 				title: "How We Verify & Rank Nonprofits",
@@ -55,11 +60,6 @@ const GUIDES_BY_LOCALE = {
 				href: "/en?us501c3=1",
 				title: "US 501(c)(3) Tax-Deductible Charities",
 				sub: "Filter flagship Israeli nonprofits with US tax-deductible giving",
-			},
-			{
-				href: "/en?s46=1",
-				title: "Israeli Section 46 Verified Charities",
-				sub: "Organizations recognized under Israel's Income Tax Section 46",
 			},
 			{
 				href: "/print?lang=en",
@@ -73,8 +73,8 @@ const GUIDES_BY_LOCALE = {
 			},
 			{
 				href: "/",
-				title: "לפורטל המלא בעברית (130+ יוזמות)",
-				sub: "Browse all 8 Israeli civic categories in Hebrew with live search",
+				title: "לפורטל המלא בעברית (160+ יוזמות)",
+				sub: "Browse all 9 Israeli civic categories in Hebrew with live search",
 			},
 		],
 	},

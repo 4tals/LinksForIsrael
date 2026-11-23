@@ -11,7 +11,7 @@ import {
 export interface IntlInitiativeItem {
 	id: string;
 	name: string;
-	category: "donate" | "rehab" | "volunteer" | "advocacy";
+	category: "donate" | "rehab" | "volunteer" | "olim" | "advocacy";
 	categoryLabel: string;
 	summary: string;
 	url: string;
@@ -60,6 +60,14 @@ export const US_501C3_IDS = new Set([
 	"YadLaKashish",
 	"SPNI",
 	"GhettoFightersHouse",
+	"NefeshBNefesh",
+	"YadLOlim",
+	"AACI",
+	"ESRA",
+	"Gvahim",
+	"LoneSoldierCenter",
+	"MichaelLevinBase",
+	"KeepOlim",
 ]);
 
 export const EN_ITEMS: IntlInitiativeItem[] = ENGLISH_INITIATIVES.map(

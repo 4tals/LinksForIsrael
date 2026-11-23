@@ -1,0 +1,410 @@
+{
+	"name": "Main",
+	"displayName": "עלייה, קליטה וזכויות",
+	"links": [
+		{
+			"name": "MinistryOfAliyah",
+			"displayName": "משרד העלייה והקליטה",
+			"shortDescription": "המשרד הממשלתי הרשמי לזכויות עולים חדשים ותושבים חוזרים — סל קליטה, אולפן, דיור, תעסוקה ומוקד *2994 ב-7 שפות",
+			"description": "משרד העלייה והקליטה מרכז את כלל השירותים הממשלתיים לעולים חדשים ותושבים חוזרים: סל קליטה, שוברי אולפן, סיוע בשכר דירה, הכרה בתארים ורישיונות, והכוונה תעסוקתית. מוקד המידע *2994 פועל בעברית, אנגלית, רוסית, צרפתית, ספרדית, פורטוגזית ואמהרית.",
+			"url": "https://www.gov.il/he/departments/ministry_of_aliyah_and_integration",
+			"website": "https://www.gov.il/he/departments/ministry_of_aliyah_and_integration",
+			"phone": "*2994",
+			"verified": true,
+			"organizationType": "official",
+			"intents": [
+				"get-help"
+			],
+			"tags": [
+				"עלייה",
+				"עולים חדשים",
+				"סל קליטה",
+				"אולפן",
+				"תושבים חוזרים",
+				"משרד הקליטה",
+				"Aliyah",
+				"Olim"
+			],
+			"createdAt": "2026-11-23T11:25:00+02:00",
+			"references": [
+				{
+					"url": "https://www.gov.il/he/departments/ministry_of_aliyah_and_integration",
+					"type": "official",
+					"source": "gov.il",
+					"title": "אתר משרד העלייה והקליטה הרשמי"
+				},
+				{
+					"url": "https://he.wikipedia.org/wiki/%D7%9E%D7%A9%D7%A8%D7%93_%D7%94%D7%A2%D7%9C%D7%99%D7%99%D7%94_%D7%95%D7%94%D7%A7%D7%9C%D7%99%D7%98%D7%94",
+					"type": "registry",
+					"source": "Wikipedia",
+					"title": "משרד העלייה והקליטה (ויקיפדיה)"
+				}
+			]
+		},
+		{
+			"name": "JewishAgency",
+			"displayName": "הסוכנות היהודית לארץ ישראל",
+			"shortDescription": "הגוף הרשמי לליווי תהליך העלייה מחו״ל, מרכזי קליטה, אולפן עציון, בדיקת זכאות ומענקי עלייה",
+			"description": "הסוכנות היהודית מלווה עולים מכל רחבי העולם משלב פתיחת תיק העלייה ועד הנחיתה והקליטה הראשונית בישראל — כולל מרכזי קליטה, אולפן עציון, תוכניות צעירים וסיוע חירום לקהילות יהודיות.",
+			"url": "https://www.jewishagency.org/",
+			"website": "https://www.jewishagency.org/",
+			"verified": true,
+			"organizationType": "official",
+			"intents": [
+				"get-help",
+				"donate"
+			],
+			"tags": [
+				"עלייה",
+				"הסוכנות היהודית",
+				"מרכז קליטה",
+				"אולפן עציון",
+				"Aliyah",
+				"Jewish Agency"
+			],
+			"createdAt": "2026-11-23T11:25:00+02:00",
+			"references": [
+				{
+					"url": "https://he.wikipedia.org/wiki/%D7%94%D7%A1%D7%95%D7%9B%D7%A0%D7%95%D7%AA_%D7%94%D7%99%D7%94%D7%95%D7%93%D7%99%D7%AA",
+					"type": "registry",
+					"source": "Wikipedia",
+					"title": "הסוכנות היהודית לארץ ישראל (ויקיפדיה)"
+				}
+			]
+		},
+		{
+			"name": "KolZchutOlim",
+			"displayName": "כל זכות — פורטל עולים חדשים",
+			"shortDescription": "מדריך זכויות חינמי ומקיף לעולים חדשים: סל קליטה, הנחה בארנונה, ביטוח לאומי, מס הכנסה, רישיון נהיגה ואולפן",
+			"description": "פורטל העולים של כל זכות מרכז בשפה ברורה ומעודכנת את כל הזכויות וההטבות המגיעות לעולים חדשים בישראל — סל קליטה, פטור ממס על הכנסות מחו״ל, נקודות זיכוי, הנחות בארנונה, קופות חולים, סיוע בדיור ולימודים אקדמיים.",
+			"url": "https://www.kolzchut.org.il/he/%D7%A2%D7%95%D7%9C%D7%99%D7%9D",
+			"website": "https://www.kolzchut.org.il/he/%D7%A2%D7%95%D7%9C%D7%99%D7%9D",
+			"verified": true,
+			"taxDeductible46": true,
+			"organizationType": "ngo",
+			"intents": [
+				"get-help"
+			],
+			"tags": [
+				"זכויות עולים",
+				"סל קליטה",
+				"ארנונה",
+				"כל זכות",
+				"מס הכנסה",
+				"Olim rights"
+			],
+			"createdAt": "2026-11-23T11:25:00+02:00",
+			"references": [
+				{
+					"url": "https://he.wikipedia.org/wiki/%D7%9B%D7%9C_%D7%96%D7%9B%D7%95%D7%AA",
+					"type": "registry",
+					"source": "Wikipedia",
+					"title": "כל זכות – מאגר הזכויות הציבורי (ויקיפדיה)"
+				}
+			]
+		},
+		{
+			"name": "NefeshBNefesh",
+			"displayName": "נפש בנפש (Nefesh B'Nefesh)",
+			"shortDescription": "ליווי מקיף, ייעוץ זכויות, קליטה, תעסוקה ותמיכה לחיילים בודדים ולעולים חדשים מצפון אמריקה",
+			"description": "נפש בנפש (ע״ר 580544120) מלווה עולים חדשים מאמריקה הצפונית משלב התכנון ועד להשתלבות מלאה בישראל — כולל מיצוי זכויות, הכוונת קריירה, רפואה, קהילות קולטות ומערך תמיכה ארצי לחיילים בודדים ובנות שירות.",
+			"url": "https://www.nbn.org.il/",
+			"website": "https://www.nbn.org.il/",
+			"verified": true,
+			"taxDeductible46": true,
+			"us501c3": true,
+			"registrationNumber": "580544120",
+			"organizationType": "ngo",
+			"intents": [
+				"get-help",
+				"volunteer",
+				"donate"
+			],
+			"tags": [
+				"עולים חדשים",
+				"עלייה",
+				"חיילים בודדים",
+				"תעסוקה",
+				"קליטה",
+				"Nefesh B'Nefesh",
+				"Aliyah"
+			],
+			"createdAt": "2026-11-22T12:00:00+02:00",
+			"references": [
+				{
+					"url": "https://www.guidestar.org.il/organization/580544120",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "נפש בנפש עלייה (ע״ר)"
+				},
+				{
+					"url": "https://he.wikipedia.org/wiki/%D7%A0%D7%A4%D7%A9_%D7%91%D7%A0%D7%A4%D7%A9",
+					"type": "registry",
+					"source": "Wikipedia",
+					"title": "נפש בנפש (ויקיפדיה)"
+				}
+			],
+			"properManagement": true,
+			"registryCheckedAt": "2026-11-23"
+		},
+		{
+			"name": "YadLOlim",
+			"displayName": "יד לעולים (Yad L'Olim)",
+			"shortDescription": "סיוע בירוקרטי אישי, קידום זכויות עולים מול משרדי ממשלה והנגשת שירותי בריאות, חינוך ורווחה לעולים",
+			"description": "עמותת יד לעולים (ע״ר 580722643) מלווה עולים חדשים וותיקים מכל המדינות בהתמודדות עם בירוקרטיה, זכויות רפואיות, רישוי מקצועי, מילואים ורווחה, ומייצגת את צורכי העולים בכנסת ומול משרדי הממשלה.",
+			"url": "https://www.yadlolim.org/",
+			"website": "https://www.yadlolim.org/",
+			"verified": true,
+			"taxDeductible46": true,
+			"us501c3": true,
+			"registrationNumber": "580722643",
+			"organizationType": "ngo",
+			"intents": [
+				"get-help",
+				"volunteer",
+				"donate"
+			],
+			"tags": [
+				"עולים חדשים",
+				"זכויות עולים",
+				"בירוקרטיה",
+				"סנגור",
+				"Yad L'Olim",
+				"Olim"
+			],
+			"createdAt": "2026-11-23T11:25:00+02:00",
+			"references": [
+				{
+					"url": "https://www.guidestar.org.il/organization/580722643",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "יד לעולים (ע״ר) – רישום עמותה בגיידסטאר"
+				}
+			],
+			"properManagement": true,
+			"registryCheckedAt": "2026-11-23"
+		},
+		{
+			"name": "Qualita",
+			"displayName": "קעליטה (Qualita) — ארגון הגג של עולי צרפת",
+			"shortDescription": "ארגון הגג לעולים דוברי צרפתית ויהודי אירופה — אולפן, תעסוקה, חינוך, מיצוי זכויות וליווי משפחות",
+			"description": "עמותת קעליטה (ע״ר 580609964) היא ארגון הגג לקידום קליטה מיטבית של עולי צרפת ואירופה בישראל. הארגון מפעיל מרכזי תעסוקה, תוכניות אולפן, ליווי ליזמים, הנגשת שירותי ממשלה וסיוע חברתי למשפחות עולים.",
+			"url": "https://www.qualita.org.il/",
+			"website": "https://www.qualita.org.il/",
+			"verified": true,
+			"taxDeductible46": true,
+			"registrationNumber": "580609964",
+			"organizationType": "ngo",
+			"intents": [
+				"get-help",
+				"volunteer",
+				"donate"
+			],
+			"tags": [
+				"עולי צרפת",
+				"צרפתית",
+				"עלייה",
+				"קליטה",
+				"תעסוקה",
+				"Qualita",
+				"French Olim"
+			],
+			"createdAt": "2026-11-23T11:25:00+02:00",
+			"references": [
+				{
+					"url": "https://www.guidestar.org.il/organization/580609964",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "קעליטה - מרכז לקידום קליטה מיטבית של יהודי אירופה (ע״ר)"
+				}
+			],
+			"properManagement": true,
+			"registryCheckedAt": "2026-11-23"
+		},
+		{
+			"name": "AACI",
+			"displayName": "התאחדות עולי אמריקה וקנדה בישראל (AACI)",
+			"shortDescription": "ייעוץ קליטה, מיצוי זכויות, תמיכה חברתית, ספריות ומרכזי קהילה לעולים דוברי אנגלית מאז 1951",
+			"description": "התאחדות עולי אמריקה וקנדה בישראל (ע״ר 580019545) מלווה עולים דוברי אנגלית מאז 1951 באמצעות יועצי קליטה אישיים, הדרכות זכויות ופנסיה, מרכזי תרבות וקהילה בפריסה ארצית וסיוע לגיל השלישי.",
+			"url": "https://aaci.org.il/",
+			"website": "https://aaci.org.il/",
+			"verified": true,
+			"taxDeductible46": true,
+			"us501c3": true,
+			"registrationNumber": "580019545",
+			"organizationType": "ngo",
+			"intents": [
+				"get-help",
+				"volunteer",
+				"donate"
+			],
+			"tags": [
+				"עולי אמריקה",
+				"קנדה",
+				"דוברי אנגלית",
+				"קליטה",
+				"AACI",
+				"Olim"
+			],
+			"createdAt": "2026-11-23T11:25:00+02:00",
+			"references": [
+				{
+					"url": "https://www.guidestar.org.il/organization/580019545",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "התאחדות עולי אמריקה וקנדה בישראל (ע״ר)"
+				}
+			],
+			"properManagement": true,
+			"registryCheckedAt": "2026-11-23"
+		},
+		{
+			"name": "Telfed",
+			"displayName": "תלפד (Telfed) — עולי דרום אפריקה ואוסטרליה",
+			"shortDescription": "קליטה, מלגות לימודים, דיור, השמה בעבודה וליווי קהילתי לעולים מדרום אפריקה, אוסטרליה וניו זילנד",
+			"description": "תלפד — הפדרציה הציונית דרום אפריקה ישראל (חל״צ 510190333) פועלת מאז 1958 לקליטת עולים מדרום אפריקה, אוסטרליה וניו זילנד בישראל — באמצעות ייעוץ תעסוקתי, מלגות לסטודנטים, דיור להשכרה, ליווי לחיילים בודדים ומערך מתנדבים.",
+			"url": "https://www.telfed.org.il/",
+			"website": "https://www.telfed.org.il/",
+			"verified": true,
+			"taxDeductible46": true,
+			"registrationNumber": "510190333",
+			"organizationType": "ngo",
+			"intents": [
+				"get-help",
+				"volunteer",
+				"donate"
+			],
+			"tags": [
+				"עולי דרום אפריקה",
+				"אוסטרליה",
+				"מלגות",
+				"קליטה",
+				"Telfed",
+				"Olim"
+			],
+			"createdAt": "2026-11-23T11:25:00+02:00",
+			"references": [
+				{
+					"url": "https://www.guidestar.org.il/organization/510190333",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "הפדרציה הציונית דרום אפריקה ישראל (חל״צ) – תלפד בגיידסטאר"
+				}
+			],
+			"properManagement": true,
+			"registryCheckedAt": "2026-11-23"
+		},
+		{
+			"name": "OLEI",
+			"displayName": "עולי (OLEI) — עולי אמריקה הלטינית, ספרד ופורטוגל",
+			"shortDescription": "ליווי קליטה, תרגום זכויות, השמה תעסוקתית וקהילה בפריסה ארצית לעולים דוברי ספרדית ופורטוגזית",
+			"description": "התאחדות עולי אמריקה הלטינית, ספרד ופורטוגל בישראל (ע״ר 580006765) מסייעת לעולים דוברי ספרדית ופורטוגזית באמצעות סניפים ברחבי הארץ, ייעוץ בירוקרטי, מלגות, הכוונת קריירה ופעילות תרבותית וקהילתית.",
+			"url": "https://olei.org.il/",
+			"website": "https://olei.org.il/",
+			"verified": true,
+			"taxDeductible46": true,
+			"registrationNumber": "580006765",
+			"organizationType": "ngo",
+			"intents": [
+				"get-help",
+				"volunteer",
+				"donate"
+			],
+			"tags": [
+				"אמריקה הלטינית",
+				"ספרדית",
+				"פורטוגזית",
+				"עולים חדשים",
+				"OLEI",
+				"Olim"
+			],
+			"createdAt": "2026-11-23T11:25:00+02:00",
+			"references": [
+				{
+					"url": "https://www.guidestar.org.il/organization/580006765",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "התאחדות עולי אמריקה הלטינית, ספרד ופורטוגל בישראל (ע״ר)"
+				}
+			],
+			"properManagement": true,
+			"registryCheckedAt": "2026-11-23"
+		},
+		{
+			"name": "ESRA",
+			"displayName": "אסרא (ESRA) — איגוד דוברי האנגלית בישראל",
+			"shortDescription": "קהילה, התנדבות, שילוב חברתי, תוכניות חינוך ורווחה לעולים ותושבים דוברי אנגלית מאז 1979",
+			"description": "עמותת אסרא (ע״ר 580037455) היא ארגון ההתנדבות והקהילה הגדול לדוברי אנגלית בישראל, המסייע בשילוב חברתי של עולים חדשים, הוראת אנגלית בבתי ספר, מרכזי קהילה ותמיכה במשפחות ובגיל השלישי.",
+			"url": "https://www.esra.org.il/",
+			"website": "https://www.esra.org.il/",
+			"verified": true,
+			"taxDeductible46": true,
+			"us501c3": true,
+			"registrationNumber": "580037455",
+			"organizationType": "ngo",
+			"intents": [
+				"get-help",
+				"volunteer",
+				"donate"
+			],
+			"tags": [
+				"דוברי אנגלית",
+				"התנדבות",
+				"עולים חדשים",
+				"קהילה",
+				"ESRA"
+			],
+			"createdAt": "2026-11-23T11:25:00+02:00",
+			"references": [
+				{
+					"url": "https://www.guidestar.org.il/organization/580037455",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "ע.ז.ר.ה - אגוד דוברי אנגלית ESRA (ע״ר)"
+				}
+			],
+			"properManagement": true,
+			"registryCheckedAt": "2026-11-23"
+		},
+		{
+			"name": "KerenLeYedidut",
+			"displayName": "הקרן לידידות — סיוע לעולים ורווחה",
+			"shortDescription": "מענקי קליטה, טיסות עלייה, סיוע במזון ודיור ותמיכה בעולים חדשים מרחבי העולם ובאוכלוסיות רווחה",
+			"description": "הקרן לידידות (ע״ר 580360238) תומכת באלפי עולים חדשים מרחבי העולם באמצעות מענקי עלייה וקליטה ראשונית, סיוע בחירום, חלוקת כרטיסי מזון ומיגון קהילות ברחבי ישראל.",
+			"url": "https://yedidut.org.il/",
+			"website": "https://yedidut.org.il/",
+			"verified": true,
+			"taxDeductible46": true,
+			"registrationNumber": "580360238",
+			"organizationType": "ngo",
+			"intents": [
+				"get-help",
+				"donate"
+			],
+			"tags": [
+				"עלייה",
+				"מענקים",
+				"קליטה",
+				"רווחה",
+				"הקרן לידידות"
+			],
+			"createdAt": "2026-11-23T11:25:00+02:00",
+			"references": [
+				{
+					"url": "https://www.guidestar.org.il/organization/580360238",
+					"type": "registry",
+					"source": "GuideStar Israel",
+					"title": "הקרן לידידות (ע״ר) – רישום עמותה בגיידסטאר"
+				},
+				{
+					"url": "https://he.wikipedia.org/wiki/%D7%94%D7%A7%D7%A8%D7%9F_%D7%9C%D7%99%D7%93%D7%99%D7%93%D7%95%D7%AA",
+					"type": "registry",
+					"source": "Wikipedia",
+					"title": "הקרן לידידות (ויקיפדיה)"
+				}
+			],
+			"properManagement": true,
+			"registryCheckedAt": "2026-11-23"
+		}
+	]
+}

@@ -1,7 +1,7 @@
 {
   "schema": "OpenReferral-HSDS-3.0-compatible",
   "source": "https://www.linksforisrael.com",
-  "generatedAt": "2026-11-23T08:51:55.050Z",
+  "generatedAt": "2026-11-23T09:30:08.248Z",
   "organizations": [
     {
       "id": "org:Medical/Main/EzerMizion",
@@ -484,6 +484,30 @@
       "last_verified_at": "2026-11-23"
     },
     {
+      "id": "org:Olim/Main/NefeshBNefesh",
+      "name": "נפש בנפש (Nefesh B'Nefesh)",
+      "description": "ליווי מקיף, ייעוץ זכויות, קליטה, תעסוקה ותמיכה לחיילים בודדים ולעולים חדשים מצפון אמריקה",
+      "url": "https://www.nbn.org.il/",
+      "email": null,
+      "tax_id": "580544120",
+      "tax_status": "Israel Section 46",
+      "legal_status": "ngo",
+      "verified": true,
+      "last_verified_at": "2026-11-23"
+    },
+    {
+      "id": "org:Olim/Main/KerenLeYedidut",
+      "name": "הקרן לידידות — סיוע לעולים ורווחה",
+      "description": "מענקי קליטה, טיסות עלייה, סיוע במזון ודיור ותמיכה בעולים חדשים מרחבי העולם ובאוכלוסיות רווחה",
+      "url": "https://yedidut.org.il/",
+      "email": null,
+      "tax_id": "580360238",
+      "tax_status": "Israel Section 46",
+      "legal_status": "ngo",
+      "verified": true,
+      "last_verified_at": "2026-11-23"
+    },
+    {
       "id": "org:Agriculture/Main/LeketIsraelFarmersVolonteers",
       "name": "לקט ישראל - מתנדבים למשקים",
       "description": "התנדבות למשקים בדרום בעקבות המלחמה",
@@ -500,6 +524,18 @@
       "name": "מגן דוד אדום (מד״א) — ארגון ההצלה הלאומי",
       "description": "שירותי חירום רפואיים 24/7 (101), תרומות דם, קורסי עזרה ראשונה והתנדבות בפריסה ארצית",
       "url": "https://www.mdais.org/",
+      "email": null,
+      "tax_id": null,
+      "tax_status": null,
+      "legal_status": "official",
+      "verified": true,
+      "last_verified_at": null
+    },
+    {
+      "id": "org:Olim/Main/MinistryOfAliyah",
+      "name": "משרד העלייה והקליטה",
+      "description": "המשרד הממשלתי הרשמי לזכויות עולים חדשים ותושבים חוזרים — סל קליטה, אולפן, דיור, תעסוקה ומוקד *2994 ב-7 שפות",
+      "url": "https://www.gov.il/he/departments/ministry_of_aliyah_and_integration",
       "email": null,
       "tax_id": null,
       "tax_status": null,
@@ -536,6 +572,18 @@
       "name": "פר״ח — התוכנית הלאומית לחונכות סטודנטים וילדים",
       "description": "חונכות אישית ולימודית לילדים ובני נוער על ידי עשרות אלפי סטודנטים מתנדבים ברחבי הארץ",
       "url": "https://www.perach.org.il/",
+      "email": null,
+      "tax_id": null,
+      "tax_status": null,
+      "legal_status": "official",
+      "verified": true,
+      "last_verified_at": null
+    },
+    {
+      "id": "org:Olim/Main/JewishAgency",
+      "name": "הסוכנות היהודית לארץ ישראל",
+      "description": "הגוף הרשמי לליווי תהליך העלייה מחו״ל, מרכזי קליטה, אולפן עציון, בדיקת זכאות ומענקי עלייה",
+      "url": "https://www.jewishagency.org/",
       "email": null,
       "tax_id": null,
       "tax_status": null,
@@ -880,18 +928,6 @@
       "last_verified_at": null
     },
     {
-      "id": "org:GeneralAssistance/Main/NefeshBNefesh",
-      "name": "נפש בנפש (Nefesh B'Nefesh)",
-      "description": "ליווי מקיף, ייעוץ זכויות, קליטה, תעסוקה ותמיכה לחיילים בודדים ולעולים חדשים",
-      "url": "https://www.nbn.org.il/",
-      "email": null,
-      "tax_id": "580544120",
-      "tax_status": "Israel Section 46",
-      "legal_status": "ngo",
-      "verified": true,
-      "last_verified_at": "2026-11-23"
-    },
-    {
       "id": "org:GeneralAssistance/Main/ShekelIsrael",
       "name": "שק״ל — שילוב קהילתי לאנשים עם מוגבלויות",
       "description": "דיור בקהילה, תעסוקה משלבת, מרכזי פנאי והנגשה לאנשים עם מוגבלויות בכל הארץ",
@@ -922,6 +958,138 @@
       "url": "https://www.teva.org.il/",
       "email": null,
       "tax_id": "580017499",
+      "tax_status": "Israel Section 46",
+      "legal_status": "ngo",
+      "verified": true,
+      "last_verified_at": "2026-11-23"
+    },
+    {
+      "id": "org:Olim/Main/KolZchutOlim",
+      "name": "כל זכות — פורטל עולים חדשים",
+      "description": "מדריך זכויות חינמי ומקיף לעולים חדשים: סל קליטה, הנחה בארנונה, ביטוח לאומי, מס הכנסה, רישיון נהיגה ואולפן",
+      "url": "https://www.kolzchut.org.il/he/%D7%A2%D7%95%D7%9C%D7%99%D7%9D",
+      "email": null,
+      "tax_id": null,
+      "tax_status": "Israel Section 46",
+      "legal_status": "ngo",
+      "verified": true,
+      "last_verified_at": null
+    },
+    {
+      "id": "org:Olim/Main/YadLOlim",
+      "name": "יד לעולים (Yad L'Olim)",
+      "description": "סיוע בירוקרטי אישי, קידום זכויות עולים מול משרדי ממשלה והנגשת שירותי בריאות, חינוך ורווחה לעולים",
+      "url": "https://www.yadlolim.org/",
+      "email": null,
+      "tax_id": "580722643",
+      "tax_status": "Israel Section 46",
+      "legal_status": "ngo",
+      "verified": true,
+      "last_verified_at": "2026-11-23"
+    },
+    {
+      "id": "org:Olim/Main/Qualita",
+      "name": "קעליטה (Qualita) — ארגון הגג של עולי צרפת",
+      "description": "ארגון הגג לעולים דוברי צרפתית ויהודי אירופה — אולפן, תעסוקה, חינוך, מיצוי זכויות וליווי משפחות",
+      "url": "https://www.qualita.org.il/",
+      "email": null,
+      "tax_id": "580609964",
+      "tax_status": "Israel Section 46",
+      "legal_status": "ngo",
+      "verified": true,
+      "last_verified_at": "2026-11-23"
+    },
+    {
+      "id": "org:Olim/Main/AACI",
+      "name": "התאחדות עולי אמריקה וקנדה בישראל (AACI)",
+      "description": "ייעוץ קליטה, מיצוי זכויות, תמיכה חברתית, ספריות ומרכזי קהילה לעולים דוברי אנגלית מאז 1951",
+      "url": "https://aaci.org.il/",
+      "email": null,
+      "tax_id": "580019545",
+      "tax_status": "Israel Section 46",
+      "legal_status": "ngo",
+      "verified": true,
+      "last_verified_at": "2026-11-23"
+    },
+    {
+      "id": "org:Olim/Main/Telfed",
+      "name": "תלפד (Telfed) — עולי דרום אפריקה ואוסטרליה",
+      "description": "קליטה, מלגות לימודים, דיור, השמה בעבודה וליווי קהילתי לעולים מדרום אפריקה, אוסטרליה וניו זילנד",
+      "url": "https://www.telfed.org.il/",
+      "email": null,
+      "tax_id": "510190333",
+      "tax_status": "Israel Section 46",
+      "legal_status": "ngo",
+      "verified": true,
+      "last_verified_at": "2026-11-23"
+    },
+    {
+      "id": "org:Olim/Main/OLEI",
+      "name": "עולי (OLEI) — עולי אמריקה הלטינית, ספרד ופורטוגל",
+      "description": "ליווי קליטה, תרגום זכויות, השמה תעסוקתית וקהילה בפריסה ארצית לעולים דוברי ספרדית ופורטוגזית",
+      "url": "https://olei.org.il/",
+      "email": null,
+      "tax_id": "580006765",
+      "tax_status": "Israel Section 46",
+      "legal_status": "ngo",
+      "verified": true,
+      "last_verified_at": "2026-11-23"
+    },
+    {
+      "id": "org:Olim/Main/ESRA",
+      "name": "אסרא (ESRA) — איגוד דוברי האנגלית בישראל",
+      "description": "קהילה, התנדבות, שילוב חברתי, תוכניות חינוך ורווחה לעולים ותושבים דוברי אנגלית מאז 1979",
+      "url": "https://www.esra.org.il/",
+      "email": null,
+      "tax_id": "580037455",
+      "tax_status": "Israel Section 46",
+      "legal_status": "ngo",
+      "verified": true,
+      "last_verified_at": "2026-11-23"
+    },
+    {
+      "id": "org:Olim/CareerAndLoneSoldiers/Gvahim",
+      "name": "גבהים (Gvahim) — תעסוקה ויזמות לעולים",
+      "description": "מנטורינג קריירה, שילוב בהייטק ובתעשייה ותוכניות אקסלרטור ליזמים עולים חדשים ותושבים חוזרים",
+      "url": "https://gvahim.org.il/",
+      "email": null,
+      "tax_id": "580512390",
+      "tax_status": "Israel Section 46",
+      "legal_status": "ngo",
+      "verified": true,
+      "last_verified_at": "2026-11-23"
+    },
+    {
+      "id": "org:Olim/CareerAndLoneSoldiers/LoneSoldierCenter",
+      "name": "המרכז לחיילים בודדים לזכרו של מייקל לוין",
+      "description": "ייעוץ, סיוע בדיור, ארוחות שבת וחג, ציוד וליווי אישי לחיילים בודדים עולים וישראלים לפני, במהלך ואחרי השירות",
+      "url": "https://lonesoldiercenter.com/",
+      "email": null,
+      "tax_id": "580520104",
+      "tax_status": "Israel Section 46",
+      "legal_status": "ngo",
+      "verified": true,
+      "last_verified_at": "2026-11-23"
+    },
+    {
+      "id": "org:Olim/CareerAndLoneSoldiers/MichaelLevinBase",
+      "name": "הבסיס של מייקל לוין לחיילים בודדים ובנות שירות",
+      "description": "מרכזי תמיכה, הכנה לגיוס, ייעוץ נפשי ואישי וקהילה לחיילים בודדים ולבנות שירות לאומי עולות",
+      "url": "https://themichaellevinbase.org/",
+      "email": null,
+      "tax_id": "580696094",
+      "tax_status": "Israel Section 46",
+      "legal_status": "ngo",
+      "verified": true,
+      "last_verified_at": "2026-11-23"
+    },
+    {
+      "id": "org:Olim/CareerAndLoneSoldiers/ShishiShabbatYisraeli",
+      "name": "שישי שבת ישראלי — עולים צעירים דוברי רוסית",
+      "description": "קהילה ארצית, מנהיגות צעירה, שבתות תרבות והתנדבות לשילוב עולים צעירים דוברי רוסית בחברה הישראלית",
+      "url": "https://shishi.co.il/",
+      "email": null,
+      "tax_id": "580549236",
       "tax_status": "Israel Section 46",
       "legal_status": "ngo",
       "verified": true,
@@ -959,6 +1127,30 @@
       "email": null,
       "tax_id": "580777118",
       "tax_status": "Proper Management (Nihul Takin)",
+      "legal_status": "ngo",
+      "verified": true,
+      "last_verified_at": "2026-11-23"
+    },
+    {
+      "id": "org:Olim/CareerAndLoneSoldiers/GarinTzabar",
+      "name": "גרעין צבר (Garin Tzabar) — תנועת הצופים",
+      "description": "תוכנית קליטה בקיבוצים ובקהילות מאמצות לצעירים עולים ובני ישראלים מחו״ל המתגייסים לצה״ל כחיילים בודדים",
+      "url": "https://garintzabar.org/",
+      "email": null,
+      "tax_id": null,
+      "tax_status": null,
+      "legal_status": "ngo",
+      "verified": true,
+      "last_verified_at": null
+    },
+    {
+      "id": "org:Olim/CareerAndLoneSoldiers/KeepOlim",
+      "name": "קיפ עולים (KeepOlim)",
+      "description": "סבסוד טיפול נפשי לעולים, מפגשי נטוורקינג וקהילה, סיוע בחיפוש עבודה וליווי קליטה לעולים חדשים",
+      "url": "https://keepolim.org/",
+      "email": null,
+      "tax_id": "580644342",
+      "tax_status": null,
       "legal_status": "ngo",
       "verified": true,
       "last_verified_at": "2026-11-23"
@@ -1524,6 +1716,18 @@
       "tax_id": null,
       "tax_status": null,
       "legal_status": null,
+      "verified": false,
+      "last_verified_at": null
+    },
+    {
+      "id": "org:Olim/CareerAndLoneSoldiers/GetHelpIsrael",
+      "name": "Get Help Israel — מדריך מטפלים דוברי אנגלית",
+      "description": "מאגר חינמי לאיתור פסיכולוגים, מטפלים, קבוצות תמיכה ושירותי בריאות הנפש לדוברי אנגלית בישראל",
+      "url": "https://gethelpisrael.com/",
+      "email": null,
+      "tax_id": null,
+      "tax_status": null,
+      "legal_status": "community",
       "verified": false,
       "last_verified_at": null
     },
@@ -2391,6 +2595,39 @@
       ]
     },
     {
+      "id": "svc:Olim/Main/NefeshBNefesh",
+      "organization_id": "org:Olim/Main/NefeshBNefesh",
+      "name": "נפש בנפש (Nefesh B'Nefesh)",
+      "description": "נפש בנפש (ע״ר 580544120) מלווה עולים חדשים מאמריקה הצפונית משלב התכנון ועד להשתלבות מלאה בישראל — כולל מיצוי זכויות, הכוונת קריירה, רפואה, קהילות קולטות ומערך תמיכה ארצי לחיילים בודדים ובנות שירות.",
+      "url": "https://www.linksforisrael.com/Olim/Main/NefeshBNefesh",
+      "status": "active",
+      "taxonomy_ids": [
+        "Olim",
+        "Olim/Main"
+      ],
+      "intents": [
+        "get-help",
+        "volunteer",
+        "donate"
+      ]
+    },
+    {
+      "id": "svc:Olim/Main/KerenLeYedidut",
+      "organization_id": "org:Olim/Main/KerenLeYedidut",
+      "name": "הקרן לידידות — סיוע לעולים ורווחה",
+      "description": "הקרן לידידות (ע״ר 580360238) תומכת באלפי עולים חדשים מרחבי העולם באמצעות מענקי עלייה וקליטה ראשונית, סיוע בחירום, חלוקת כרטיסי מזון ומיגון קהילות ברחבי ישראל.",
+      "url": "https://www.linksforisrael.com/Olim/Main/KerenLeYedidut",
+      "status": "active",
+      "taxonomy_ids": [
+        "Olim",
+        "Olim/Main"
+      ],
+      "intents": [
+        "get-help",
+        "donate"
+      ]
+    },
+    {
       "id": "svc:Agriculture/Main/LeketIsraelFarmersVolonteers",
       "organization_id": "org:Agriculture/Main/LeketIsraelFarmersVolonteers",
       "name": "לקט ישראל - מתנדבים למשקים",
@@ -2418,6 +2655,21 @@
         "get-help",
         "volunteer",
         "donate"
+      ]
+    },
+    {
+      "id": "svc:Olim/Main/MinistryOfAliyah",
+      "organization_id": "org:Olim/Main/MinistryOfAliyah",
+      "name": "משרד העלייה והקליטה",
+      "description": "משרד העלייה והקליטה מרכז את כלל השירותים הממשלתיים לעולים חדשים ותושבים חוזרים: סל קליטה, שוברי אולפן, סיוע בשכר דירה, הכרה בתארים ורישיונות, והכוונה תעסוקתית. מוקד המידע *2994 פועל בעברית, אנגלית, רוסית, צרפתית, ספרדית, פורטוגזית ואמהרית.",
+      "url": "https://www.linksforisrael.com/Olim/Main/MinistryOfAliyah",
+      "status": "active",
+      "taxonomy_ids": [
+        "Olim",
+        "Olim/Main"
+      ],
+      "intents": [
+        "get-help"
       ]
     },
     {
@@ -2462,6 +2714,22 @@
       "intents": [
         "get-help",
         "volunteer"
+      ]
+    },
+    {
+      "id": "svc:Olim/Main/JewishAgency",
+      "organization_id": "org:Olim/Main/JewishAgency",
+      "name": "הסוכנות היהודית לארץ ישראל",
+      "description": "הסוכנות היהודית מלווה עולים מכל רחבי העולם משלב פתיחת תיק העלייה ועד הנחיתה והקליטה הראשונית בישראל — כולל מרכזי קליטה, אולפן עציון, תוכניות צעירים וסיוע חירום לקהילות יהודיות.",
+      "url": "https://www.linksforisrael.com/Olim/Main/JewishAgency",
+      "status": "active",
+      "taxonomy_ids": [
+        "Olim",
+        "Olim/Main"
+      ],
+      "intents": [
+        "get-help",
+        "donate"
       ]
     },
     {
@@ -2929,23 +3197,6 @@
       ]
     },
     {
-      "id": "svc:GeneralAssistance/Main/NefeshBNefesh",
-      "organization_id": "org:GeneralAssistance/Main/NefeshBNefesh",
-      "name": "נפש בנפש (Nefesh B'Nefesh)",
-      "description": "נפש בנפש (ע״ר 580544120) מלווה עולים חדשים מאמריקה הצפונית, מסייעת במיצוי זכויות, תעסוקה ורפואה, ומפעילה מערך תמיכה ארצי לחיילים בודדים ובנות שירות.",
-      "url": "https://www.linksforisrael.com/GeneralAssistance/Main/NefeshBNefesh",
-      "status": "active",
-      "taxonomy_ids": [
-        "GeneralAssistance",
-        "GeneralAssistance/Main"
-      ],
-      "intents": [
-        "get-help",
-        "volunteer",
-        "donate"
-      ]
-    },
-    {
       "id": "svc:GeneralAssistance/Main/ShekelIsrael",
       "organization_id": "org:GeneralAssistance/Main/ShekelIsrael",
       "name": "שק״ל — שילוב קהילתי לאנשים עם מוגבלויות",
@@ -2990,6 +3241,191 @@
         "GeneralAssistance/Main"
       ],
       "intents": [
+        "volunteer",
+        "donate"
+      ]
+    },
+    {
+      "id": "svc:Olim/Main/KolZchutOlim",
+      "organization_id": "org:Olim/Main/KolZchutOlim",
+      "name": "כל זכות — פורטל עולים חדשים",
+      "description": "פורטל העולים של כל זכות מרכז בשפה ברורה ומעודכנת את כל הזכויות וההטבות המגיעות לעולים חדשים בישראל — סל קליטה, פטור ממס על הכנסות מחו״ל, נקודות זיכוי, הנחות בארנונה, קופות חולים, סיוע בדיור ולימודים אקדמיים.",
+      "url": "https://www.linksforisrael.com/Olim/Main/KolZchutOlim",
+      "status": "active",
+      "taxonomy_ids": [
+        "Olim",
+        "Olim/Main"
+      ],
+      "intents": [
+        "get-help"
+      ]
+    },
+    {
+      "id": "svc:Olim/Main/YadLOlim",
+      "organization_id": "org:Olim/Main/YadLOlim",
+      "name": "יד לעולים (Yad L'Olim)",
+      "description": "עמותת יד לעולים (ע״ר 580722643) מלווה עולים חדשים וותיקים מכל המדינות בהתמודדות עם בירוקרטיה, זכויות רפואיות, רישוי מקצועי, מילואים ורווחה, ומייצגת את צורכי העולים בכנסת ומול משרדי הממשלה.",
+      "url": "https://www.linksforisrael.com/Olim/Main/YadLOlim",
+      "status": "active",
+      "taxonomy_ids": [
+        "Olim",
+        "Olim/Main"
+      ],
+      "intents": [
+        "get-help",
+        "volunteer",
+        "donate"
+      ]
+    },
+    {
+      "id": "svc:Olim/Main/Qualita",
+      "organization_id": "org:Olim/Main/Qualita",
+      "name": "קעליטה (Qualita) — ארגון הגג של עולי צרפת",
+      "description": "עמותת קעליטה (ע״ר 580609964) היא ארגון הגג לקידום קליטה מיטבית של עולי צרפת ואירופה בישראל. הארגון מפעיל מרכזי תעסוקה, תוכניות אולפן, ליווי ליזמים, הנגשת שירותי ממשלה וסיוע חברתי למשפחות עולים.",
+      "url": "https://www.linksforisrael.com/Olim/Main/Qualita",
+      "status": "active",
+      "taxonomy_ids": [
+        "Olim",
+        "Olim/Main"
+      ],
+      "intents": [
+        "get-help",
+        "volunteer",
+        "donate"
+      ]
+    },
+    {
+      "id": "svc:Olim/Main/AACI",
+      "organization_id": "org:Olim/Main/AACI",
+      "name": "התאחדות עולי אמריקה וקנדה בישראל (AACI)",
+      "description": "התאחדות עולי אמריקה וקנדה בישראל (ע״ר 580019545) מלווה עולים דוברי אנגלית מאז 1951 באמצעות יועצי קליטה אישיים, הדרכות זכויות ופנסיה, מרכזי תרבות וקהילה בפריסה ארצית וסיוע לגיל השלישי.",
+      "url": "https://www.linksforisrael.com/Olim/Main/AACI",
+      "status": "active",
+      "taxonomy_ids": [
+        "Olim",
+        "Olim/Main"
+      ],
+      "intents": [
+        "get-help",
+        "volunteer",
+        "donate"
+      ]
+    },
+    {
+      "id": "svc:Olim/Main/Telfed",
+      "organization_id": "org:Olim/Main/Telfed",
+      "name": "תלפד (Telfed) — עולי דרום אפריקה ואוסטרליה",
+      "description": "תלפד — הפדרציה הציונית דרום אפריקה ישראל (חל״צ 510190333) פועלת מאז 1958 לקליטת עולים מדרום אפריקה, אוסטרליה וניו זילנד בישראל — באמצעות ייעוץ תעסוקתי, מלגות לסטודנטים, דיור להשכרה, ליווי לחיילים בודדים ומערך מתנדבים.",
+      "url": "https://www.linksforisrael.com/Olim/Main/Telfed",
+      "status": "active",
+      "taxonomy_ids": [
+        "Olim",
+        "Olim/Main"
+      ],
+      "intents": [
+        "get-help",
+        "volunteer",
+        "donate"
+      ]
+    },
+    {
+      "id": "svc:Olim/Main/OLEI",
+      "organization_id": "org:Olim/Main/OLEI",
+      "name": "עולי (OLEI) — עולי אמריקה הלטינית, ספרד ופורטוגל",
+      "description": "התאחדות עולי אמריקה הלטינית, ספרד ופורטוגל בישראל (ע״ר 580006765) מסייעת לעולים דוברי ספרדית ופורטוגזית באמצעות סניפים ברחבי הארץ, ייעוץ בירוקרטי, מלגות, הכוונת קריירה ופעילות תרבותית וקהילתית.",
+      "url": "https://www.linksforisrael.com/Olim/Main/OLEI",
+      "status": "active",
+      "taxonomy_ids": [
+        "Olim",
+        "Olim/Main"
+      ],
+      "intents": [
+        "get-help",
+        "volunteer",
+        "donate"
+      ]
+    },
+    {
+      "id": "svc:Olim/Main/ESRA",
+      "organization_id": "org:Olim/Main/ESRA",
+      "name": "אסרא (ESRA) — איגוד דוברי האנגלית בישראל",
+      "description": "עמותת אסרא (ע״ר 580037455) היא ארגון ההתנדבות והקהילה הגדול לדוברי אנגלית בישראל, המסייע בשילוב חברתי של עולים חדשים, הוראת אנגלית בבתי ספר, מרכזי קהילה ותמיכה במשפחות ובגיל השלישי.",
+      "url": "https://www.linksforisrael.com/Olim/Main/ESRA",
+      "status": "active",
+      "taxonomy_ids": [
+        "Olim",
+        "Olim/Main"
+      ],
+      "intents": [
+        "get-help",
+        "volunteer",
+        "donate"
+      ]
+    },
+    {
+      "id": "svc:Olim/CareerAndLoneSoldiers/Gvahim",
+      "organization_id": "org:Olim/CareerAndLoneSoldiers/Gvahim",
+      "name": "גבהים (Gvahim) — תעסוקה ויזמות לעולים",
+      "description": "עמותת גבהים (ע״ר 580512390) מסייעת לאלפי עולים אקדמאים, אנשי הייטק ויזמים להשתלב בשוק העבודה הישראלי באמצעות תוכניות קריירה, מנטורינג אישי, הכנה לראיונות, נטוורקינג ומאיץ יזמות.",
+      "url": "https://www.linksforisrael.com/Olim/CareerAndLoneSoldiers/Gvahim",
+      "status": "active",
+      "taxonomy_ids": [
+        "Olim",
+        "Olim/CareerAndLoneSoldiers"
+      ],
+      "intents": [
+        "get-help",
+        "volunteer",
+        "donate"
+      ]
+    },
+    {
+      "id": "svc:Olim/CareerAndLoneSoldiers/LoneSoldierCenter",
+      "organization_id": "org:Olim/CareerAndLoneSoldiers/LoneSoldierCenter",
+      "name": "המרכז לחיילים בודדים לזכרו של מייקל לוין",
+      "description": "המרכז לחיילים בודדים לזכרו של מייקל לוין (ע״ר 580520104) פועל מאז 2009 בסניפים בירושלים, תל אביב ובאר שבע ומעניק בית חם, ייעוץ זכויות צבאי, סיוע בשכר דירה, ציוד וליווי למשתחררים.",
+      "url": "https://www.linksforisrael.com/Olim/CareerAndLoneSoldiers/LoneSoldierCenter",
+      "status": "active",
+      "taxonomy_ids": [
+        "Olim",
+        "Olim/CareerAndLoneSoldiers"
+      ],
+      "intents": [
+        "get-help",
+        "volunteer",
+        "donate"
+      ]
+    },
+    {
+      "id": "svc:Olim/CareerAndLoneSoldiers/MichaelLevinBase",
+      "organization_id": "org:Olim/CareerAndLoneSoldiers/MichaelLevinBase",
+      "name": "הבסיס של מייקל לוין לחיילים בודדים ובנות שירות",
+      "description": "עמותת הבסיס של מייקל לוין (ע״ר 580696094) מלווה חיילים בודדים ובנות שירות לאומי עולות מירושלים ותל אביב בכל שלבי השירות — כולל הכנה לצו ראשון, סדנאות, ציוד, תמיכה רגשית וליווי אזרחי לאחר השחרור.",
+      "url": "https://www.linksforisrael.com/Olim/CareerAndLoneSoldiers/MichaelLevinBase",
+      "status": "active",
+      "taxonomy_ids": [
+        "Olim",
+        "Olim/CareerAndLoneSoldiers"
+      ],
+      "intents": [
+        "get-help",
+        "volunteer",
+        "donate"
+      ]
+    },
+    {
+      "id": "svc:Olim/CareerAndLoneSoldiers/ShishiShabbatYisraeli",
+      "organization_id": "org:Olim/CareerAndLoneSoldiers/ShishiShabbatYisraeli",
+      "name": "שישי שבת ישראלי — עולים צעירים דוברי רוסית",
+      "description": "עמותת שישי שבת ישראלי (ע״ר 580549236) בונה קהילה ישראלית תומכת לעולים צעירים דוברי רוסית בגילאי 18–35 באמצעות שבתות תרבות, טיולים, מעגלי מנהיגות, התנדבות ותמיכה בקליטה חברתית.",
+      "url": "https://www.linksforisrael.com/Olim/CareerAndLoneSoldiers/ShishiShabbatYisraeli",
+      "status": "active",
+      "taxonomy_ids": [
+        "Olim",
+        "Olim/CareerAndLoneSoldiers"
+      ],
+      "intents": [
+        "get-help",
         "volunteer",
         "donate"
       ]
@@ -3041,6 +3477,40 @@
       "intents": [
         "volunteer",
         "get-help"
+      ]
+    },
+    {
+      "id": "svc:Olim/CareerAndLoneSoldiers/GarinTzabar",
+      "organization_id": "org:Olim/CareerAndLoneSoldiers/GarinTzabar",
+      "name": "גרעין צבר (Garin Tzabar) — תנועת הצופים",
+      "description": "גרעין צבר של תנועת הצופים מלווה מדי שנה מאות צעירים וצעירות יהודים מחו״ל העולים לישראל כדי לשרת בצה״ל — כולל שלב הכנה בחו״ל, קליטה בגרעין מגובש בקיבוץ מאמץ, משפחות מאמצות וליווי מלא לאורך השירות.",
+      "url": "https://www.linksforisrael.com/Olim/CareerAndLoneSoldiers/GarinTzabar",
+      "status": "active",
+      "taxonomy_ids": [
+        "Olim",
+        "Olim/CareerAndLoneSoldiers"
+      ],
+      "intents": [
+        "get-help",
+        "volunteer",
+        "donate"
+      ]
+    },
+    {
+      "id": "svc:Olim/CareerAndLoneSoldiers/KeepOlim",
+      "organization_id": "org:Olim/CareerAndLoneSoldiers/KeepOlim",
+      "name": "קיפ עולים (KeepOlim)",
+      "description": "עמותת קיפ עולים (ע״ר 580644342) מפעילה תוכניות סיוע רגשיות וקהילתיות לעולים חדשים מכל העולם — כולל סבסוד טיפול פסיכולוגי בשפת האם, מפגשי קהילה, סיוע חברתי ותוכניות התנדבות.",
+      "url": "https://www.linksforisrael.com/Olim/CareerAndLoneSoldiers/KeepOlim",
+      "status": "active",
+      "taxonomy_ids": [
+        "Olim",
+        "Olim/CareerAndLoneSoldiers"
+      ],
+      "intents": [
+        "get-help",
+        "volunteer",
+        "donate"
       ]
     },
     {
@@ -3658,6 +4128,21 @@
       "intents": []
     },
     {
+      "id": "svc:Olim/CareerAndLoneSoldiers/GetHelpIsrael",
+      "organization_id": "org:Olim/CareerAndLoneSoldiers/GetHelpIsrael",
+      "name": "Get Help Israel — מדריך מטפלים דוברי אנגלית",
+      "description": "Get Help Israel מרכז מאגר נגיש וחינמי של מטפלים מוסמכים, פסיכותרפיסטים, קבוצות תמיכה ומרכזי סיוע רגשי ונפשי לדוברי אנגלית ועולים חדשים ברחבי ישראל.",
+      "url": "https://www.linksforisrael.com/Olim/CareerAndLoneSoldiers/GetHelpIsrael",
+      "status": "active",
+      "taxonomy_ids": [
+        "Olim",
+        "Olim/CareerAndLoneSoldiers"
+      ],
+      "intents": [
+        "get-help"
+      ]
+    },
+    {
       "id": "svc:Agriculture/Main/FarmingIsrael",
       "organization_id": "org:Agriculture/Main/FarmingIsrael",
       "name": "התנדבות לחקלאות בעוטף ובצפון",
@@ -3999,6 +4484,13 @@
       "type": "voice"
     },
     {
+      "id": "phone:Olim/Main/MinistryOfAliyah",
+      "service_id": "svc:Olim/Main/MinistryOfAliyah",
+      "organization_id": "org:Olim/Main/MinistryOfAliyah",
+      "number": "*2994",
+      "type": "voice"
+    },
+    {
       "id": "phone:Medical/Main/IsraelCancerAssociation",
       "service_id": "svc:Medical/Main/IsraelCancerAssociation",
       "organization_id": "org:Medical/Main/IsraelCancerAssociation",
@@ -4101,6 +4593,11 @@
       "id": "GeneralAssistance",
       "name": "התנדבות, זכויות וקהילה",
       "description": "זכויות אזרחים ועובדים, מאגרי התנדבות ארציים, סיוע בדרכים וקהילות חברתיות"
+    },
+    {
+      "id": "Olim",
+      "name": "עלייה וקליטה",
+      "description": "גופי עלייה וקליטה רשמיים, זכויות עולים חדשים, אולפן, תעסוקה, חיילים בודדים וקהילות עולים"
     },
     {
       "id": "Agriculture",

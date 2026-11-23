@@ -3,8 +3,8 @@
   "source": "https://www.linksforisrael.com",
   "repository": "https://github.com/4tals/LinksForIsrael",
   "license": "Open Data / Community Maintained",
-  "generatedAt": "2026-11-23T08:51:55.050Z",
-  "count": 147,
+  "generatedAt": "2026-11-23T09:30:08.248Z",
+  "count": 164,
   "initiatives": [
     {
       "id": "Medical/Main/EzerMizion",
@@ -2168,6 +2168,107 @@
       "createdAt": "2026-11-21T18:55:00+02:00"
     },
     {
+      "id": "Olim/Main/NefeshBNefesh",
+      "name": "NefeshBNefesh",
+      "displayName": "נפש בנפש (Nefesh B'Nefesh)",
+      "categoryId": "Olim",
+      "categoryName": "עלייה וקליטה",
+      "subCategoryId": "Main",
+      "subCategoryName": "עלייה, קליטה וזכויות",
+      "shortDescription": "ליווי מקיף, ייעוץ זכויות, קליטה, תעסוקה ותמיכה לחיילים בודדים ולעולים חדשים מצפון אמריקה",
+      "description": "נפש בנפש (ע״ר 580544120) מלווה עולים חדשים מאמריקה הצפונית משלב התכנון ועד להשתלבות מלאה בישראל — כולל מיצוי זכויות, הכוונת קריירה, רפואה, קהילות קולטות ומערך תמיכה ארצי לחיילים בודדים ובנות שירות.",
+      "url": "https://www.nbn.org.il/",
+      "website": "https://www.nbn.org.il/",
+      "phone": null,
+      "email": null,
+      "intents": [
+        "get-help",
+        "volunteer",
+        "donate"
+      ],
+      "verified": true,
+      "taxDeductible46": true,
+      "properManagement": true,
+      "registrationNumber": "580544120",
+      "registryCheckedAt": "2026-11-23",
+      "organizationType": "ngo",
+      "references": [
+        {
+          "url": "https://www.guidestar.org.il/organization/580544120",
+          "type": "registry",
+          "source": "GuideStar Israel",
+          "title": "נפש בנפש עלייה (ע״ר)"
+        },
+        {
+          "url": "https://he.wikipedia.org/wiki/%D7%A0%D7%A4%D7%A9_%D7%91%D7%A0%D7%A4%D7%A9",
+          "type": "registry",
+          "source": "Wikipedia",
+          "title": "נפש בנפש (ויקיפדיה)"
+        }
+      ],
+      "rankScore": 76,
+      "tags": [
+        "עולים חדשים",
+        "עלייה",
+        "חיילים בודדים",
+        "תעסוקה",
+        "קליטה",
+        "Nefesh B'Nefesh",
+        "Aliyah"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/Olim/Main/NefeshBNefesh",
+      "createdAt": "2026-11-22T12:00:00+02:00"
+    },
+    {
+      "id": "Olim/Main/KerenLeYedidut",
+      "name": "KerenLeYedidut",
+      "displayName": "הקרן לידידות — סיוע לעולים ורווחה",
+      "categoryId": "Olim",
+      "categoryName": "עלייה וקליטה",
+      "subCategoryId": "Main",
+      "subCategoryName": "עלייה, קליטה וזכויות",
+      "shortDescription": "מענקי קליטה, טיסות עלייה, סיוע במזון ודיור ותמיכה בעולים חדשים מרחבי העולם ובאוכלוסיות רווחה",
+      "description": "הקרן לידידות (ע״ר 580360238) תומכת באלפי עולים חדשים מרחבי העולם באמצעות מענקי עלייה וקליטה ראשונית, סיוע בחירום, חלוקת כרטיסי מזון ומיגון קהילות ברחבי ישראל.",
+      "url": "https://yedidut.org.il/",
+      "website": "https://yedidut.org.il/",
+      "phone": null,
+      "email": null,
+      "intents": [
+        "get-help",
+        "donate"
+      ],
+      "verified": true,
+      "taxDeductible46": true,
+      "properManagement": true,
+      "registrationNumber": "580360238",
+      "registryCheckedAt": "2026-11-23",
+      "organizationType": "ngo",
+      "references": [
+        {
+          "url": "https://www.guidestar.org.il/organization/580360238",
+          "type": "registry",
+          "source": "GuideStar Israel",
+          "title": "הקרן לידידות (ע״ר) – רישום עמותה בגיידסטאר"
+        },
+        {
+          "url": "https://he.wikipedia.org/wiki/%D7%94%D7%A7%D7%A8%D7%9F_%D7%9C%D7%99%D7%93%D7%99%D7%93%D7%95%D7%AA",
+          "type": "registry",
+          "source": "Wikipedia",
+          "title": "הקרן לידידות (ויקיפדיה)"
+        }
+      ],
+      "rankScore": 76,
+      "tags": [
+        "עלייה",
+        "מענקים",
+        "קליטה",
+        "רווחה",
+        "הקרן לידידות"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/Olim/Main/KerenLeYedidut",
+      "createdAt": "2026-11-23T11:25:00+02:00"
+    },
+    {
       "id": "Agriculture/Main/LeketIsraelFarmersVolonteers",
       "name": "LeketIsraelFarmersVolonteers",
       "displayName": "לקט ישראל - מתנדבים למשקים",
@@ -2259,6 +2360,57 @@
       ],
       "portalUrl": "https://www.linksforisrael.com/Medical/Main/MagenDavidAdom",
       "createdAt": "2026-11-22T12:00:00+02:00"
+    },
+    {
+      "id": "Olim/Main/MinistryOfAliyah",
+      "name": "MinistryOfAliyah",
+      "displayName": "משרד העלייה והקליטה",
+      "categoryId": "Olim",
+      "categoryName": "עלייה וקליטה",
+      "subCategoryId": "Main",
+      "subCategoryName": "עלייה, קליטה וזכויות",
+      "shortDescription": "המשרד הממשלתי הרשמי לזכויות עולים חדשים ותושבים חוזרים — סל קליטה, אולפן, דיור, תעסוקה ומוקד *2994 ב-7 שפות",
+      "description": "משרד העלייה והקליטה מרכז את כלל השירותים הממשלתיים לעולים חדשים ותושבים חוזרים: סל קליטה, שוברי אולפן, סיוע בשכר דירה, הכרה בתארים ורישיונות, והכוונה תעסוקתית. מוקד המידע *2994 פועל בעברית, אנגלית, רוסית, צרפתית, ספרדית, פורטוגזית ואמהרית.",
+      "url": "https://www.gov.il/he/departments/ministry_of_aliyah_and_integration",
+      "website": "https://www.gov.il/he/departments/ministry_of_aliyah_and_integration",
+      "phone": "*2994",
+      "email": null,
+      "intents": [
+        "get-help"
+      ],
+      "verified": true,
+      "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
+      "organizationType": "official",
+      "references": [
+        {
+          "url": "https://www.gov.il/he/departments/ministry_of_aliyah_and_integration",
+          "type": "official",
+          "source": "gov.il",
+          "title": "אתר משרד העלייה והקליטה הרשמי"
+        },
+        {
+          "url": "https://he.wikipedia.org/wiki/%D7%9E%D7%A9%D7%A8%D7%93_%D7%94%D7%A2%D7%9C%D7%99%D7%99%D7%94_%D7%95%D7%94%D7%A7%D7%9C%D7%99%D7%98%D7%94",
+          "type": "registry",
+          "source": "Wikipedia",
+          "title": "משרד העלייה והקליטה (ויקיפדיה)"
+        }
+      ],
+      "rankScore": 70,
+      "tags": [
+        "עלייה",
+        "עולים חדשים",
+        "סל קליטה",
+        "אולפן",
+        "תושבים חוזרים",
+        "משרד הקליטה",
+        "Aliyah",
+        "Olim"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/Olim/Main/MinistryOfAliyah",
+      "createdAt": "2026-11-23T11:25:00+02:00"
     },
     {
       "id": "Medical/Main/MdaFirstAidCourse",
@@ -2385,6 +2537,50 @@
       ],
       "portalUrl": "https://www.linksforisrael.com/FamilyAndPets/Main/Perach",
       "createdAt": "2026-11-22T12:00:00+02:00"
+    },
+    {
+      "id": "Olim/Main/JewishAgency",
+      "name": "JewishAgency",
+      "displayName": "הסוכנות היהודית לארץ ישראל",
+      "categoryId": "Olim",
+      "categoryName": "עלייה וקליטה",
+      "subCategoryId": "Main",
+      "subCategoryName": "עלייה, קליטה וזכויות",
+      "shortDescription": "הגוף הרשמי לליווי תהליך העלייה מחו״ל, מרכזי קליטה, אולפן עציון, בדיקת זכאות ומענקי עלייה",
+      "description": "הסוכנות היהודית מלווה עולים מכל רחבי העולם משלב פתיחת תיק העלייה ועד הנחיתה והקליטה הראשונית בישראל — כולל מרכזי קליטה, אולפן עציון, תוכניות צעירים וסיוע חירום לקהילות יהודיות.",
+      "url": "https://www.jewishagency.org/",
+      "website": "https://www.jewishagency.org/",
+      "phone": null,
+      "email": null,
+      "intents": [
+        "get-help",
+        "donate"
+      ],
+      "verified": true,
+      "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
+      "organizationType": "official",
+      "references": [
+        {
+          "url": "https://he.wikipedia.org/wiki/%D7%94%D7%A1%D7%95%D7%9B%D7%A0%D7%95%D7%AA_%D7%94%D7%99%D7%94%D7%95%D7%93%D7%99%D7%AA",
+          "type": "registry",
+          "source": "Wikipedia",
+          "title": "הסוכנות היהודית לארץ ישראל (ויקיפדיה)"
+        }
+      ],
+      "rankScore": 68,
+      "tags": [
+        "עלייה",
+        "הסוכנות היהודית",
+        "מרכז קליטה",
+        "אולפן עציון",
+        "Aliyah",
+        "Jewish Agency"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/Olim/Main/JewishAgency",
+      "createdAt": "2026-11-23T11:25:00+02:00"
     },
     {
       "id": "StrategicCommunication/SocialNetworks/StopAntisemitism",
@@ -3623,50 +3819,6 @@
       "createdAt": "2026-11-23T10:50:00+02:00"
     },
     {
-      "id": "GeneralAssistance/Main/NefeshBNefesh",
-      "name": "NefeshBNefesh",
-      "displayName": "נפש בנפש (Nefesh B'Nefesh)",
-      "categoryId": "GeneralAssistance",
-      "categoryName": "התנדבות, זכויות וקהילה",
-      "subCategoryId": "Main",
-      "subCategoryName": "התנדבות, זכויות וקהילה",
-      "shortDescription": "ליווי מקיף, ייעוץ זכויות, קליטה, תעסוקה ותמיכה לחיילים בודדים ולעולים חדשים",
-      "description": "נפש בנפש (ע״ר 580544120) מלווה עולים חדשים מאמריקה הצפונית, מסייעת במיצוי זכויות, תעסוקה ורפואה, ומפעילה מערך תמיכה ארצי לחיילים בודדים ובנות שירות.",
-      "url": "https://www.nbn.org.il/",
-      "website": "https://www.nbn.org.il/",
-      "phone": null,
-      "email": null,
-      "intents": [
-        "get-help",
-        "volunteer",
-        "donate"
-      ],
-      "verified": true,
-      "taxDeductible46": true,
-      "properManagement": true,
-      "registrationNumber": "580544120",
-      "registryCheckedAt": "2026-11-23",
-      "organizationType": "ngo",
-      "references": [
-        {
-          "url": "https://www.guidestar.org.il/organization/580544120",
-          "type": "registry",
-          "source": "GuideStar Israel",
-          "title": "נפש בנפש עלייה (ע״ר)"
-        }
-      ],
-      "rankScore": 63,
-      "tags": [
-        "עולים חדשים",
-        "עלייה",
-        "חיילים בודדים",
-        "תעסוקה",
-        "קליטה"
-      ],
-      "portalUrl": "https://www.linksforisrael.com/GeneralAssistance/Main/NefeshBNefesh",
-      "createdAt": "2026-11-22T12:00:00+02:00"
-    },
-    {
       "id": "GeneralAssistance/Main/ShekelIsrael",
       "name": "ShekelIsrael",
       "displayName": "שק״ל — שילוב קהילתי לאנשים עם מוגבלויות",
@@ -3794,6 +3946,497 @@
       ],
       "portalUrl": "https://www.linksforisrael.com/GeneralAssistance/Main/SPNI",
       "createdAt": "2026-11-23T10:50:00+02:00"
+    },
+    {
+      "id": "Olim/Main/KolZchutOlim",
+      "name": "KolZchutOlim",
+      "displayName": "כל זכות — פורטל עולים חדשים",
+      "categoryId": "Olim",
+      "categoryName": "עלייה וקליטה",
+      "subCategoryId": "Main",
+      "subCategoryName": "עלייה, קליטה וזכויות",
+      "shortDescription": "מדריך זכויות חינמי ומקיף לעולים חדשים: סל קליטה, הנחה בארנונה, ביטוח לאומי, מס הכנסה, רישיון נהיגה ואולפן",
+      "description": "פורטל העולים של כל זכות מרכז בשפה ברורה ומעודכנת את כל הזכויות וההטבות המגיעות לעולים חדשים בישראל — סל קליטה, פטור ממס על הכנסות מחו״ל, נקודות זיכוי, הנחות בארנונה, קופות חולים, סיוע בדיור ולימודים אקדמיים.",
+      "url": "https://www.kolzchut.org.il/he/%D7%A2%D7%95%D7%9C%D7%99%D7%9D",
+      "website": "https://www.kolzchut.org.il/he/%D7%A2%D7%95%D7%9C%D7%99%D7%9D",
+      "phone": null,
+      "email": null,
+      "intents": [
+        "get-help"
+      ],
+      "verified": true,
+      "taxDeductible46": true,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
+      "organizationType": "ngo",
+      "references": [
+        {
+          "url": "https://he.wikipedia.org/wiki/%D7%9B%D7%9C_%D7%96%D7%9B%D7%95%D7%AA",
+          "type": "registry",
+          "source": "Wikipedia",
+          "title": "כל זכות – מאגר הזכויות הציבורי (ויקיפדיה)"
+        }
+      ],
+      "rankScore": 63,
+      "tags": [
+        "זכויות עולים",
+        "סל קליטה",
+        "ארנונה",
+        "כל זכות",
+        "מס הכנסה",
+        "Olim rights"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/Olim/Main/KolZchutOlim",
+      "createdAt": "2026-11-23T11:25:00+02:00"
+    },
+    {
+      "id": "Olim/Main/YadLOlim",
+      "name": "YadLOlim",
+      "displayName": "יד לעולים (Yad L'Olim)",
+      "categoryId": "Olim",
+      "categoryName": "עלייה וקליטה",
+      "subCategoryId": "Main",
+      "subCategoryName": "עלייה, קליטה וזכויות",
+      "shortDescription": "סיוע בירוקרטי אישי, קידום זכויות עולים מול משרדי ממשלה והנגשת שירותי בריאות, חינוך ורווחה לעולים",
+      "description": "עמותת יד לעולים (ע״ר 580722643) מלווה עולים חדשים וותיקים מכל המדינות בהתמודדות עם בירוקרטיה, זכויות רפואיות, רישוי מקצועי, מילואים ורווחה, ומייצגת את צורכי העולים בכנסת ומול משרדי הממשלה.",
+      "url": "https://www.yadlolim.org/",
+      "website": "https://www.yadlolim.org/",
+      "phone": null,
+      "email": null,
+      "intents": [
+        "get-help",
+        "volunteer",
+        "donate"
+      ],
+      "verified": true,
+      "taxDeductible46": true,
+      "properManagement": true,
+      "registrationNumber": "580722643",
+      "registryCheckedAt": "2026-11-23",
+      "organizationType": "ngo",
+      "references": [
+        {
+          "url": "https://www.guidestar.org.il/organization/580722643",
+          "type": "registry",
+          "source": "GuideStar Israel",
+          "title": "יד לעולים (ע״ר) – רישום עמותה בגיידסטאר"
+        }
+      ],
+      "rankScore": 63,
+      "tags": [
+        "עולים חדשים",
+        "זכויות עולים",
+        "בירוקרטיה",
+        "סנגור",
+        "Yad L'Olim",
+        "Olim"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/Olim/Main/YadLOlim",
+      "createdAt": "2026-11-23T11:25:00+02:00"
+    },
+    {
+      "id": "Olim/Main/Qualita",
+      "name": "Qualita",
+      "displayName": "קעליטה (Qualita) — ארגון הגג של עולי צרפת",
+      "categoryId": "Olim",
+      "categoryName": "עלייה וקליטה",
+      "subCategoryId": "Main",
+      "subCategoryName": "עלייה, קליטה וזכויות",
+      "shortDescription": "ארגון הגג לעולים דוברי צרפתית ויהודי אירופה — אולפן, תעסוקה, חינוך, מיצוי זכויות וליווי משפחות",
+      "description": "עמותת קעליטה (ע״ר 580609964) היא ארגון הגג לקידום קליטה מיטבית של עולי צרפת ואירופה בישראל. הארגון מפעיל מרכזי תעסוקה, תוכניות אולפן, ליווי ליזמים, הנגשת שירותי ממשלה וסיוע חברתי למשפחות עולים.",
+      "url": "https://www.qualita.org.il/",
+      "website": "https://www.qualita.org.il/",
+      "phone": null,
+      "email": null,
+      "intents": [
+        "get-help",
+        "volunteer",
+        "donate"
+      ],
+      "verified": true,
+      "taxDeductible46": true,
+      "properManagement": true,
+      "registrationNumber": "580609964",
+      "registryCheckedAt": "2026-11-23",
+      "organizationType": "ngo",
+      "references": [
+        {
+          "url": "https://www.guidestar.org.il/organization/580609964",
+          "type": "registry",
+          "source": "GuideStar Israel",
+          "title": "קעליטה - מרכז לקידום קליטה מיטבית של יהודי אירופה (ע״ר)"
+        }
+      ],
+      "rankScore": 63,
+      "tags": [
+        "עולי צרפת",
+        "צרפתית",
+        "עלייה",
+        "קליטה",
+        "תעסוקה",
+        "Qualita",
+        "French Olim"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/Olim/Main/Qualita",
+      "createdAt": "2026-11-23T11:25:00+02:00"
+    },
+    {
+      "id": "Olim/Main/AACI",
+      "name": "AACI",
+      "displayName": "התאחדות עולי אמריקה וקנדה בישראל (AACI)",
+      "categoryId": "Olim",
+      "categoryName": "עלייה וקליטה",
+      "subCategoryId": "Main",
+      "subCategoryName": "עלייה, קליטה וזכויות",
+      "shortDescription": "ייעוץ קליטה, מיצוי זכויות, תמיכה חברתית, ספריות ומרכזי קהילה לעולים דוברי אנגלית מאז 1951",
+      "description": "התאחדות עולי אמריקה וקנדה בישראל (ע״ר 580019545) מלווה עולים דוברי אנגלית מאז 1951 באמצעות יועצי קליטה אישיים, הדרכות זכויות ופנסיה, מרכזי תרבות וקהילה בפריסה ארצית וסיוע לגיל השלישי.",
+      "url": "https://aaci.org.il/",
+      "website": "https://aaci.org.il/",
+      "phone": null,
+      "email": null,
+      "intents": [
+        "get-help",
+        "volunteer",
+        "donate"
+      ],
+      "verified": true,
+      "taxDeductible46": true,
+      "properManagement": true,
+      "registrationNumber": "580019545",
+      "registryCheckedAt": "2026-11-23",
+      "organizationType": "ngo",
+      "references": [
+        {
+          "url": "https://www.guidestar.org.il/organization/580019545",
+          "type": "registry",
+          "source": "GuideStar Israel",
+          "title": "התאחדות עולי אמריקה וקנדה בישראל (ע״ר)"
+        }
+      ],
+      "rankScore": 63,
+      "tags": [
+        "עולי אמריקה",
+        "קנדה",
+        "דוברי אנגלית",
+        "קליטה",
+        "AACI",
+        "Olim"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/Olim/Main/AACI",
+      "createdAt": "2026-11-23T11:25:00+02:00"
+    },
+    {
+      "id": "Olim/Main/Telfed",
+      "name": "Telfed",
+      "displayName": "תלפד (Telfed) — עולי דרום אפריקה ואוסטרליה",
+      "categoryId": "Olim",
+      "categoryName": "עלייה וקליטה",
+      "subCategoryId": "Main",
+      "subCategoryName": "עלייה, קליטה וזכויות",
+      "shortDescription": "קליטה, מלגות לימודים, דיור, השמה בעבודה וליווי קהילתי לעולים מדרום אפריקה, אוסטרליה וניו זילנד",
+      "description": "תלפד — הפדרציה הציונית דרום אפריקה ישראל (חל״צ 510190333) פועלת מאז 1958 לקליטת עולים מדרום אפריקה, אוסטרליה וניו זילנד בישראל — באמצעות ייעוץ תעסוקתי, מלגות לסטודנטים, דיור להשכרה, ליווי לחיילים בודדים ומערך מתנדבים.",
+      "url": "https://www.telfed.org.il/",
+      "website": "https://www.telfed.org.il/",
+      "phone": null,
+      "email": null,
+      "intents": [
+        "get-help",
+        "volunteer",
+        "donate"
+      ],
+      "verified": true,
+      "taxDeductible46": true,
+      "properManagement": true,
+      "registrationNumber": "510190333",
+      "registryCheckedAt": "2026-11-23",
+      "organizationType": "ngo",
+      "references": [
+        {
+          "url": "https://www.guidestar.org.il/organization/510190333",
+          "type": "registry",
+          "source": "GuideStar Israel",
+          "title": "הפדרציה הציונית דרום אפריקה ישראל (חל״צ) – תלפד בגיידסטאר"
+        }
+      ],
+      "rankScore": 63,
+      "tags": [
+        "עולי דרום אפריקה",
+        "אוסטרליה",
+        "מלגות",
+        "קליטה",
+        "Telfed",
+        "Olim"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/Olim/Main/Telfed",
+      "createdAt": "2026-11-23T11:25:00+02:00"
+    },
+    {
+      "id": "Olim/Main/OLEI",
+      "name": "OLEI",
+      "displayName": "עולי (OLEI) — עולי אמריקה הלטינית, ספרד ופורטוגל",
+      "categoryId": "Olim",
+      "categoryName": "עלייה וקליטה",
+      "subCategoryId": "Main",
+      "subCategoryName": "עלייה, קליטה וזכויות",
+      "shortDescription": "ליווי קליטה, תרגום זכויות, השמה תעסוקתית וקהילה בפריסה ארצית לעולים דוברי ספרדית ופורטוגזית",
+      "description": "התאחדות עולי אמריקה הלטינית, ספרד ופורטוגל בישראל (ע״ר 580006765) מסייעת לעולים דוברי ספרדית ופורטוגזית באמצעות סניפים ברחבי הארץ, ייעוץ בירוקרטי, מלגות, הכוונת קריירה ופעילות תרבותית וקהילתית.",
+      "url": "https://olei.org.il/",
+      "website": "https://olei.org.il/",
+      "phone": null,
+      "email": null,
+      "intents": [
+        "get-help",
+        "volunteer",
+        "donate"
+      ],
+      "verified": true,
+      "taxDeductible46": true,
+      "properManagement": true,
+      "registrationNumber": "580006765",
+      "registryCheckedAt": "2026-11-23",
+      "organizationType": "ngo",
+      "references": [
+        {
+          "url": "https://www.guidestar.org.il/organization/580006765",
+          "type": "registry",
+          "source": "GuideStar Israel",
+          "title": "התאחדות עולי אמריקה הלטינית, ספרד ופורטוגל בישראל (ע״ר)"
+        }
+      ],
+      "rankScore": 63,
+      "tags": [
+        "אמריקה הלטינית",
+        "ספרדית",
+        "פורטוגזית",
+        "עולים חדשים",
+        "OLEI",
+        "Olim"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/Olim/Main/OLEI",
+      "createdAt": "2026-11-23T11:25:00+02:00"
+    },
+    {
+      "id": "Olim/Main/ESRA",
+      "name": "ESRA",
+      "displayName": "אסרא (ESRA) — איגוד דוברי האנגלית בישראל",
+      "categoryId": "Olim",
+      "categoryName": "עלייה וקליטה",
+      "subCategoryId": "Main",
+      "subCategoryName": "עלייה, קליטה וזכויות",
+      "shortDescription": "קהילה, התנדבות, שילוב חברתי, תוכניות חינוך ורווחה לעולים ותושבים דוברי אנגלית מאז 1979",
+      "description": "עמותת אסרא (ע״ר 580037455) היא ארגון ההתנדבות והקהילה הגדול לדוברי אנגלית בישראל, המסייע בשילוב חברתי של עולים חדשים, הוראת אנגלית בבתי ספר, מרכזי קהילה ותמיכה במשפחות ובגיל השלישי.",
+      "url": "https://www.esra.org.il/",
+      "website": "https://www.esra.org.il/",
+      "phone": null,
+      "email": null,
+      "intents": [
+        "get-help",
+        "volunteer",
+        "donate"
+      ],
+      "verified": true,
+      "taxDeductible46": true,
+      "properManagement": true,
+      "registrationNumber": "580037455",
+      "registryCheckedAt": "2026-11-23",
+      "organizationType": "ngo",
+      "references": [
+        {
+          "url": "https://www.guidestar.org.il/organization/580037455",
+          "type": "registry",
+          "source": "GuideStar Israel",
+          "title": "ע.ז.ר.ה - אגוד דוברי אנגלית ESRA (ע״ר)"
+        }
+      ],
+      "rankScore": 63,
+      "tags": [
+        "דוברי אנגלית",
+        "התנדבות",
+        "עולים חדשים",
+        "קהילה",
+        "ESRA"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/Olim/Main/ESRA",
+      "createdAt": "2026-11-23T11:25:00+02:00"
+    },
+    {
+      "id": "Olim/CareerAndLoneSoldiers/Gvahim",
+      "name": "Gvahim",
+      "displayName": "גבהים (Gvahim) — תעסוקה ויזמות לעולים",
+      "categoryId": "Olim",
+      "categoryName": "עלייה וקליטה",
+      "subCategoryId": "CareerAndLoneSoldiers",
+      "subCategoryName": "תעסוקה, חיילים בודדים וקהילה",
+      "shortDescription": "מנטורינג קריירה, שילוב בהייטק ובתעשייה ותוכניות אקסלרטור ליזמים עולים חדשים ותושבים חוזרים",
+      "description": "עמותת גבהים (ע״ר 580512390) מסייעת לאלפי עולים אקדמאים, אנשי הייטק ויזמים להשתלב בשוק העבודה הישראלי באמצעות תוכניות קריירה, מנטורינג אישי, הכנה לראיונות, נטוורקינג ומאיץ יזמות.",
+      "url": "https://gvahim.org.il/",
+      "website": "https://gvahim.org.il/",
+      "phone": null,
+      "email": null,
+      "intents": [
+        "get-help",
+        "volunteer",
+        "donate"
+      ],
+      "verified": true,
+      "taxDeductible46": true,
+      "properManagement": true,
+      "registrationNumber": "580512390",
+      "registryCheckedAt": "2026-11-23",
+      "organizationType": "ngo",
+      "references": [
+        {
+          "url": "https://www.guidestar.org.il/organization/580512390",
+          "type": "registry",
+          "source": "GuideStar Israel",
+          "title": "עמותת גבהים - עמותה לקליטת עלייה (ע״ר)"
+        }
+      ],
+      "rankScore": 63,
+      "tags": [
+        "תעסוקה",
+        "קריירה",
+        "הייטק",
+        "יזמות",
+        "עולים חדשים",
+        "Gvahim",
+        "careers"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/Olim/CareerAndLoneSoldiers/Gvahim",
+      "createdAt": "2026-11-23T11:25:00+02:00"
+    },
+    {
+      "id": "Olim/CareerAndLoneSoldiers/LoneSoldierCenter",
+      "name": "LoneSoldierCenter",
+      "displayName": "המרכז לחיילים בודדים לזכרו של מייקל לוין",
+      "categoryId": "Olim",
+      "categoryName": "עלייה וקליטה",
+      "subCategoryId": "CareerAndLoneSoldiers",
+      "subCategoryName": "תעסוקה, חיילים בודדים וקהילה",
+      "shortDescription": "ייעוץ, סיוע בדיור, ארוחות שבת וחג, ציוד וליווי אישי לחיילים בודדים עולים וישראלים לפני, במהלך ואחרי השירות",
+      "description": "המרכז לחיילים בודדים לזכרו של מייקל לוין (ע״ר 580520104) פועל מאז 2009 בסניפים בירושלים, תל אביב ובאר שבע ומעניק בית חם, ייעוץ זכויות צבאי, סיוע בשכר דירה, ציוד וליווי למשתחררים.",
+      "url": "https://lonesoldiercenter.com/",
+      "website": "https://lonesoldiercenter.com/",
+      "phone": null,
+      "email": null,
+      "intents": [
+        "get-help",
+        "volunteer",
+        "donate"
+      ],
+      "verified": true,
+      "taxDeductible46": true,
+      "properManagement": true,
+      "registrationNumber": "580520104",
+      "registryCheckedAt": "2026-11-23",
+      "organizationType": "ngo",
+      "references": [
+        {
+          "url": "https://www.guidestar.org.il/organization/580520104",
+          "type": "registry",
+          "source": "GuideStar Israel",
+          "title": "המרכז לחיילים בודדים לזכרו של מייקל לוין (ע״ר)"
+        }
+      ],
+      "rankScore": 63,
+      "tags": [
+        "חיילים בודדים",
+        "עולים חדשים",
+        "צה״ל",
+        "מייקל לוין",
+        "Lone Soldiers"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/Olim/CareerAndLoneSoldiers/LoneSoldierCenter",
+      "createdAt": "2026-11-23T11:25:00+02:00"
+    },
+    {
+      "id": "Olim/CareerAndLoneSoldiers/MichaelLevinBase",
+      "name": "MichaelLevinBase",
+      "displayName": "הבסיס של מייקל לוין לחיילים בודדים ובנות שירות",
+      "categoryId": "Olim",
+      "categoryName": "עלייה וקליטה",
+      "subCategoryId": "CareerAndLoneSoldiers",
+      "subCategoryName": "תעסוקה, חיילים בודדים וקהילה",
+      "shortDescription": "מרכזי תמיכה, הכנה לגיוס, ייעוץ נפשי ואישי וקהילה לחיילים בודדים ולבנות שירות לאומי עולות",
+      "description": "עמותת הבסיס של מייקל לוין (ע״ר 580696094) מלווה חיילים בודדים ובנות שירות לאומי עולות מירושלים ותל אביב בכל שלבי השירות — כולל הכנה לצו ראשון, סדנאות, ציוד, תמיכה רגשית וליווי אזרחי לאחר השחרור.",
+      "url": "https://themichaellevinbase.org/",
+      "website": "https://themichaellevinbase.org/",
+      "phone": null,
+      "email": null,
+      "intents": [
+        "get-help",
+        "volunteer",
+        "donate"
+      ],
+      "verified": true,
+      "taxDeductible46": true,
+      "properManagement": true,
+      "registrationNumber": "580696094",
+      "registryCheckedAt": "2026-11-23",
+      "organizationType": "ngo",
+      "references": [
+        {
+          "url": "https://www.guidestar.org.il/organization/580696094",
+          "type": "registry",
+          "source": "GuideStar Israel",
+          "title": "הבסיס של מייקל לוין (ע״ר) – רישום עמותה בגיידסטאר"
+        }
+      ],
+      "rankScore": 63,
+      "tags": [
+        "חיילים בודדים",
+        "שירות לאומי",
+        "מייקל לוין",
+        "עולים חדשים",
+        "Lone Soldiers"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/Olim/CareerAndLoneSoldiers/MichaelLevinBase",
+      "createdAt": "2026-11-23T11:25:00+02:00"
+    },
+    {
+      "id": "Olim/CareerAndLoneSoldiers/ShishiShabbatYisraeli",
+      "name": "ShishiShabbatYisraeli",
+      "displayName": "שישי שבת ישראלי — עולים צעירים דוברי רוסית",
+      "categoryId": "Olim",
+      "categoryName": "עלייה וקליטה",
+      "subCategoryId": "CareerAndLoneSoldiers",
+      "subCategoryName": "תעסוקה, חיילים בודדים וקהילה",
+      "shortDescription": "קהילה ארצית, מנהיגות צעירה, שבתות תרבות והתנדבות לשילוב עולים צעירים דוברי רוסית בחברה הישראלית",
+      "description": "עמותת שישי שבת ישראלי (ע״ר 580549236) בונה קהילה ישראלית תומכת לעולים צעירים דוברי רוסית בגילאי 18–35 באמצעות שבתות תרבות, טיולים, מעגלי מנהיגות, התנדבות ותמיכה בקליטה חברתית.",
+      "url": "https://shishi.co.il/",
+      "website": "https://shishi.co.il/",
+      "phone": null,
+      "email": null,
+      "intents": [
+        "get-help",
+        "volunteer",
+        "donate"
+      ],
+      "verified": true,
+      "taxDeductible46": true,
+      "properManagement": true,
+      "registrationNumber": "580549236",
+      "registryCheckedAt": "2026-11-23",
+      "organizationType": "ngo",
+      "references": [
+        {
+          "url": "https://www.guidestar.org.il/organization/580549236",
+          "type": "registry",
+          "source": "GuideStar Israel",
+          "title": "שישי שבת ישראלי (ע״ר) – רישום עמותה בגיידסטאר"
+        }
+      ],
+      "rankScore": 63,
+      "tags": [
+        "עולים דוברי רוסית",
+        "צעירים",
+        "קהילה",
+        "תרבות",
+        "שישי שבת ישראלי"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/Olim/CareerAndLoneSoldiers/ShishiShabbatYisraeli",
+      "createdAt": "2026-11-23T11:25:00+02:00"
     },
     {
       "id": "MemorialRemembrance/Main/GhettoFightersHouse",
@@ -3924,6 +4567,95 @@
       ],
       "portalUrl": "https://www.linksforisrael.com/GeneralAssistance/Main/NetinaLaAcher",
       "createdAt": "2026-11-22"
+    },
+    {
+      "id": "Olim/CareerAndLoneSoldiers/GarinTzabar",
+      "name": "GarinTzabar",
+      "displayName": "גרעין צבר (Garin Tzabar) — תנועת הצופים",
+      "categoryId": "Olim",
+      "categoryName": "עלייה וקליטה",
+      "subCategoryId": "CareerAndLoneSoldiers",
+      "subCategoryName": "תעסוקה, חיילים בודדים וקהילה",
+      "shortDescription": "תוכנית קליטה בקיבוצים ובקהילות מאמצות לצעירים עולים ובני ישראלים מחו״ל המתגייסים לצה״ל כחיילים בודדים",
+      "description": "גרעין צבר של תנועת הצופים מלווה מדי שנה מאות צעירים וצעירות יהודים מחו״ל העולים לישראל כדי לשרת בצה״ל — כולל שלב הכנה בחו״ל, קליטה בגרעין מגובש בקיבוץ מאמץ, משפחות מאמצות וליווי מלא לאורך השירות.",
+      "url": "https://garintzabar.org/",
+      "website": "https://garintzabar.org/",
+      "phone": null,
+      "email": null,
+      "intents": [
+        "get-help",
+        "volunteer",
+        "donate"
+      ],
+      "verified": true,
+      "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
+      "organizationType": "ngo",
+      "references": [
+        {
+          "url": "https://he.wikipedia.org/wiki/%D7%92%D7%A8%D7%A2%D7%99%D7%9F_%D7%A6%D7%91%D7%A8",
+          "type": "registry",
+          "source": "Wikipedia",
+          "title": "גרעין צבר (ויקיפדיה)"
+        }
+      ],
+      "rankScore": 53,
+      "tags": [
+        "גרעין צבר",
+        "חיילים בודדים",
+        "קיבוצים",
+        "הצופים",
+        "עלייה",
+        "Garin Tzabar"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/Olim/CareerAndLoneSoldiers/GarinTzabar",
+      "createdAt": "2026-11-23T11:25:00+02:00"
+    },
+    {
+      "id": "Olim/CareerAndLoneSoldiers/KeepOlim",
+      "name": "KeepOlim",
+      "displayName": "קיפ עולים (KeepOlim)",
+      "categoryId": "Olim",
+      "categoryName": "עלייה וקליטה",
+      "subCategoryId": "CareerAndLoneSoldiers",
+      "subCategoryName": "תעסוקה, חיילים בודדים וקהילה",
+      "shortDescription": "סבסוד טיפול נפשי לעולים, מפגשי נטוורקינג וקהילה, סיוע בחיפוש עבודה וליווי קליטה לעולים חדשים",
+      "description": "עמותת קיפ עולים (ע״ר 580644342) מפעילה תוכניות סיוע רגשיות וקהילתיות לעולים חדשים מכל העולם — כולל סבסוד טיפול פסיכולוגי בשפת האם, מפגשי קהילה, סיוע חברתי ותוכניות התנדבות.",
+      "url": "https://keepolim.org/",
+      "website": "https://keepolim.org/",
+      "phone": null,
+      "email": null,
+      "intents": [
+        "get-help",
+        "volunteer",
+        "donate"
+      ],
+      "verified": true,
+      "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": "580644342",
+      "registryCheckedAt": "2026-11-23",
+      "organizationType": "ngo",
+      "references": [
+        {
+          "url": "https://www.guidestar.org.il/organization/580644342",
+          "type": "registry",
+          "source": "GuideStar Israel",
+          "title": "קיפעולים — KeepOlim (ע״ר)"
+        }
+      ],
+      "rankScore": 53,
+      "tags": [
+        "עולים חדשים",
+        "סיוע נפשי",
+        "קהילה",
+        "KeepOlim",
+        "Olim"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/Olim/CareerAndLoneSoldiers/KeepOlim",
+      "createdAt": "2026-11-23T11:25:00+02:00"
     },
     {
       "id": "StrategicCommunication/Main/voicesOfIsrael",
@@ -5630,6 +6362,42 @@
       ],
       "portalUrl": "https://www.linksforisrael.com/GeneralAssistance/Main/NationalHelpAndVolunteerPortal",
       "createdAt": "2023-10-28T22:17:22+03:00"
+    },
+    {
+      "id": "Olim/CareerAndLoneSoldiers/GetHelpIsrael",
+      "name": "GetHelpIsrael",
+      "displayName": "Get Help Israel — מדריך מטפלים דוברי אנגלית",
+      "categoryId": "Olim",
+      "categoryName": "עלייה וקליטה",
+      "subCategoryId": "CareerAndLoneSoldiers",
+      "subCategoryName": "תעסוקה, חיילים בודדים וקהילה",
+      "shortDescription": "מאגר חינמי לאיתור פסיכולוגים, מטפלים, קבוצות תמיכה ושירותי בריאות הנפש לדוברי אנגלית בישראל",
+      "description": "Get Help Israel מרכז מאגר נגיש וחינמי של מטפלים מוסמכים, פסיכותרפיסטים, קבוצות תמיכה ומרכזי סיוע רגשי ונפשי לדוברי אנגלית ועולים חדשים ברחבי ישראל.",
+      "url": "https://gethelpisrael.com/",
+      "website": "https://gethelpisrael.com/",
+      "phone": null,
+      "email": null,
+      "intents": [
+        "get-help"
+      ],
+      "verified": false,
+      "taxDeductible46": false,
+      "properManagement": false,
+      "registrationNumber": null,
+      "registryCheckedAt": null,
+      "organizationType": "community",
+      "references": [],
+      "rankScore": 4,
+      "tags": [
+        "בריאות הנפש",
+        "דוברי אנגלית",
+        "טיפול נפשי",
+        "עולים חדשים",
+        "Get Help Israel",
+        "mental health"
+      ],
+      "portalUrl": "https://www.linksforisrael.com/Olim/CareerAndLoneSoldiers/GetHelpIsrael",
+      "createdAt": "2026-11-23T11:25:00+02:00"
     },
     {
       "id": "Agriculture/Main/FarmingIsrael",
