@@ -48,7 +48,13 @@ export async function getDocById(id: string) {
 		title: data.title,
 		id: realId,
 		date: `${data.date?.toISOString().slice(0, 10)}`,
-		html: html.value.toString(),
+		// The host serves lowercase paths only; keep internal links redirect-free.
+		html: html.value
+			.toString()
+			.replace(
+				/href="(\/[^"?#]*)/g,
+				(_, path: string) => `href="${path.toLowerCase()}`,
+			),
 	};
 }
 

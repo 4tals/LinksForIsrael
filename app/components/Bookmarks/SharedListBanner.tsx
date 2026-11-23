@@ -18,6 +18,7 @@ import {
 	getPrimaryInitiativeUrl,
 	InitiativeLink,
 } from "@/app/utils/categories";
+import { portalPath } from "@/app/utils/portalPath";
 import {
 	getUrlParams,
 	updateUrlParams,
@@ -292,7 +293,7 @@ export function SharedListBanner({ categories }: { categories: Category[] }) {
 								)}
 								<Link
 									as={NextLink}
-									href={`/${encodeURIComponent(categoryId)}?card=${encodeURIComponent(
+									href={`${portalPath(categoryId)}?card=${encodeURIComponent(
 										link.name,
 									)}`}
 									fontSize="xs"

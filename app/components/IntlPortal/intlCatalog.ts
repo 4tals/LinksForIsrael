@@ -7,6 +7,7 @@ import {
 	getCategories,
 	InitiativeLink,
 } from "@/app/utils/categories";
+import { portalPath } from "@/app/utils/portalPath";
 
 export interface IntlInitiativeItem {
 	id: string;
@@ -150,9 +151,7 @@ export async function getEnrichedEnglishInitiatives(): Promise<
 					link,
 					categoryId: cat.id,
 					subCategoryName: sub.name,
-					sharePath: `/${encodeURIComponent(cat.id)}/${encodeURIComponent(
-						sub.name,
-					)}/${encodeURIComponent(link.name)}`,
+					sharePath: portalPath(cat.id, sub.name, link.name),
 				};
 				byName.set(link.name.toLowerCase(), entry);
 				const host = normalizeHost(link.url || link.website);

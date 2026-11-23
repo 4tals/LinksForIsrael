@@ -9,6 +9,7 @@ import React, {
 	useState,
 } from "react";
 
+import { portalPath } from "@/app/utils/portalPath";
 import {
 	getUrlParams,
 	parseTrustFiltersFromParams,
@@ -107,9 +108,7 @@ export const CategoryContent = ({
 				const matched = sub.links.find((item) => item.name === targetName);
 				if (matched) {
 					const sharePath = categoryId
-						? `/${encodeURIComponent(categoryId)}/${encodeURIComponent(
-								sub.name,
-							)}/${encodeURIComponent(matched.name)}`
+						? portalPath(categoryId, sub.name, matched.name)
 						: undefined;
 					openedCardRef.current = matched.name;
 					setDescriptionState({

@@ -39,7 +39,7 @@ const PATHWAYS_BY_LOCALE: Record<
 				icon: FaHeart,
 				accentBg: "red.50",
 				accentColor: "red.600",
-				href: "/Medical?phone=1",
+				href: "/medical?phone=1",
 			},
 			{
 				id: "reservists",
@@ -48,7 +48,7 @@ const PATHWAYS_BY_LOCALE: Record<
 				icon: FaShieldAlt,
 				accentBg: "blue.50",
 				accentColor: "brand.600",
-				href: "/Defense?verified=1",
+				href: "/defense?verified=1",
 			},
 			{
 				id: "volunteer",
@@ -57,7 +57,7 @@ const PATHWAYS_BY_LOCALE: Record<
 				icon: FaHandsHelping,
 				accentBg: "teal.50",
 				accentColor: "teal.600",
-				href: "/GeneralAssistance?intent=volunteer",
+				href: "/generalassistance?intent=volunteer",
 			},
 			{
 				id: "donate",
@@ -66,7 +66,7 @@ const PATHWAYS_BY_LOCALE: Record<
 				icon: FaHandHoldingHeart,
 				accentBg: "purple.50",
 				accentColor: "purple.600",
-				href: "/Economic?s46=1",
+				href: "/economic?s46=1",
 			},
 			{
 				id: "olim",
@@ -76,7 +76,7 @@ const PATHWAYS_BY_LOCALE: Record<
 				icon: FaPlaneArrival,
 				accentBg: "blue.50",
 				accentColor: "brand.700",
-				href: "/Olim",
+				href: "/olim",
 			},
 			{
 				id: "judaism",
@@ -86,7 +86,7 @@ const PATHWAYS_BY_LOCALE: Record<
 				icon: FaStarOfDavid,
 				accentBg: "purple.50",
 				accentColor: "purple.700",
-				href: "/JudaismHeritage",
+				href: "/judaismheritage",
 			},
 		],
 	},

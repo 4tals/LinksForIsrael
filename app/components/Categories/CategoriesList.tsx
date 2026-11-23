@@ -5,6 +5,7 @@ import React, { useContext, useEffect } from "react";
 
 import { SearchContext } from "@/app/components/RootApp";
 import { withScroll } from "@/app/components/withScroll/withScroll";
+import { portalPath } from "@/app/utils/portalPath";
 import { Badge, Box, Flex, Icon, Text } from "@chakra-ui/react";
 
 import { analyticsService } from "../../utils/analytica/analytics";
@@ -63,7 +64,7 @@ const CategoriesList: React.FC<CategoriesListProps> = ({
 						as={Link}
 						key={category.id}
 						id={`cat-nav-${category.id}`}
-						href={`/${category.id}`}
+						href={portalPath(category.id)}
 						onClick={() => {
 							analyticsService.trackCategoryView(category.id);
 							onSearch("");

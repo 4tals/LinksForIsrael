@@ -18,6 +18,7 @@ import {
 	computeInitiativeRankScore,
 	InitiativeLink,
 } from "@/app/utils/categories";
+import { portalPath } from "@/app/utils/portalPath";
 import { expandSearchSynonyms } from "@/app/utils/searchSynonyms";
 import {
 	Badge,
@@ -261,7 +262,7 @@ export function CommandPalette({
 				kind: "category",
 				title: c.displayName,
 				subtitle: c.description,
-				href: `/${encodeURIComponent(c.id)}`,
+				href: portalPath(c.id),
 			}));
 
 			return [...actions, ...topCategories];
@@ -310,7 +311,7 @@ export function CommandPalette({
 						? "מאומת"
 						: undefined,
 				badgeColor: entry.link.properManagement ? "teal" : "green",
-				href: `/${encodeURIComponent(entry.categoryId)}?card=${encodeURIComponent(
+				href: `${portalPath(entry.categoryId)}?card=${encodeURIComponent(
 					entry.link.name,
 				)}`,
 			});
@@ -326,7 +327,7 @@ export function CommandPalette({
 					kind: "category",
 					title: `קטגוריה: ${cat.displayName}`,
 					subtitle: cat.description,
-					href: `/${encodeURIComponent(cat.id)}`,
+					href: portalPath(cat.id),
 				});
 			}
 		}

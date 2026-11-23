@@ -19,6 +19,7 @@ import {
 	InitiativeIntent,
 	SubCategoryData,
 } from "@/app/utils/categories";
+import { portalPath } from "@/app/utils/portalPath";
 import {
 	Badge,
 	Box,
@@ -163,7 +164,7 @@ export const NoCategoryZeroState: React.FC<NoCategoryZeroStateProps> = ({
 							<Flex
 								key={category.id}
 								as={Link}
-								href={`/${category.id}`}
+								href={portalPath(category.id)}
 								onClick={() => analyticsService.trackCategoryView(category.id)}
 								direction="column"
 								bg="white"
@@ -248,13 +249,13 @@ export const NoCategoryZeroState: React.FC<NoCategoryZeroStateProps> = ({
 					]}
 					headingAs="h2"
 					enableTrustFilters={false}
-					categoryHref="/GeneralAssistance"
+					categoryHref="/generalassistance"
 				/>
 				{assistanceSubCategory.links.length > 6 && (
 					<Flex justify="center" mt={5}>
 						<Button
 							as={Link}
-							href="/GeneralAssistance"
+							href="/generalassistance"
 							variant="outline"
 							colorScheme="blue"
 							bg="white"

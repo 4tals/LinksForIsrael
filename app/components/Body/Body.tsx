@@ -14,6 +14,7 @@ import {
 	InitiativeIntent,
 	SubCategoryData,
 } from "@/app/utils/categories";
+import { portalPath } from "@/app/utils/portalPath";
 import { Badge, Box, Button, Flex, Text, VStack } from "@chakra-ui/react";
 
 const INTENT_LABELS: Record<InitiativeIntent, string> = {
@@ -165,7 +166,7 @@ export const Body: React.FC<Props> = ({
 									categoryDescription={category.description}
 									headingAs="h2"
 									enableTrustFilters={false}
-									categoryHref={`/${category.id}`}
+									categoryHref={portalPath(category.id)}
 									onCategoryJump={() => {
 										onSearch("");
 										setActiveIntent(null);
@@ -195,7 +196,7 @@ export const Body: React.FC<Props> = ({
 							activeSub
 								? {
 										label: pageCategory.displayName,
-										href: `/${pageCategory.id}`,
+										href: portalPath(pageCategory.id),
 									}
 								: { label: pageCategory.displayName },
 							...(activeSub ? [{ label: activeSub.displayName }] : []),

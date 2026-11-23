@@ -1,7 +1,7 @@
 {
   "schema": "OpenReferral-HSDS-3.0-compatible",
   "source": "https://www.linksforisrael.com",
-  "generatedAt": "2026-11-23T10:48:14.370Z",
+  "generatedAt": "2026-11-23T12:55:08.070Z",
   "organizations": [
     {
       "id": "org:Medical/Main/EzerMizion",
@@ -2542,7 +2542,7 @@
       "organization_id": "org:Medical/Main/EzerMizion",
       "name": "עזר מציון",
       "description": "עזר מציון (כלת פרס ישראל) מפעילה את המאגר הלאומי לתורמי מח עצם, מערך הסעות חולים באמבולנסים, השאלת ציוד רפואי, בית אורנית לילדים חולי סרטן, וסיוע נרחב לחולים, קשישים ומשפחות במצבי משבר.",
-      "url": "https://www.linksforisrael.com/Medical/Main/EzerMizion",
+      "url": "https://www.linksforisrael.com/medical/main/ezermizion",
       "status": "active",
       "taxonomy_ids": [
         "Medical",
@@ -2559,7 +2559,7 @@
       "organization_id": "org:Economic/Donations/Latet",
       "name": "ארגון לתת",
       "description": "ארגון לתת פועל לצמצום העוני וחוסר הביטחון התזונתי בישראל באמצעות חלוקת מזון שוטפת, התנדבות ארצית, סיוע לניצולי שואה ותגובה מהירה למצבי חירום.",
-      "url": "https://www.linksforisrael.com/Economic/Donations/Latet",
+      "url": "https://www.linksforisrael.com/economic/donations/latet",
       "status": "active",
       "taxonomy_ids": [
         "Economic",
@@ -2576,7 +2576,7 @@
       "organization_id": "org:FamilyAndPets/Main/KremboWings",
       "name": "כנפיים של קרמבו",
       "description": "תנועת הנוער כנפיים של קרמבו פועלת בעשרות סניפים ברחבי ישראל ומשלבת חניכים עם ובלי צרכים מיוחדים בפעילות חברתית, הדרכה והתנדבות.",
-      "url": "https://www.linksforisrael.com/FamilyAndPets/Main/KremboWings",
+      "url": "https://www.linksforisrael.com/familyandpets/main/krembowings",
       "status": "active",
       "taxonomy_ids": [
         "FamilyAndPets",
@@ -2593,7 +2593,7 @@
       "organization_id": "org:GeneralAssistance/Main/Yedidim",
       "name": "ידידים",
       "description": "מאז פרוץ המלחמה פעל ארגון ידידים בתחומים רבים ומגוונים על מנת לתת חוסן לעורף ולסייע בכל מה שאפשר להצלחת מערך המלחמה • ישראל אלמסי – מנכ”ל ידידים: הכאב קשה מנשוא אבל עכשיו הזמן לפעול. באחדותנו ננצח!",
-      "url": "https://www.linksforisrael.com/GeneralAssistance/Main/Yedidim",
+      "url": "https://www.linksforisrael.com/generalassistance/main/yedidim",
       "status": "active",
       "taxonomy_ids": [
         "GeneralAssistance",
@@ -2606,7 +2606,7 @@
       "organization_id": "org:Medical/MentalSupport/ERAN",
       "name": "ער״ן – עזרה ראשונה נפשית",
       "description": "עמותת ער״ן מעניקה עזרה ראשונה נפשית לכל אדם במצוקה, בחרדה או במשבר — 24 שעות ביממה, 7 ימים בשבוע, באופן אנונימי וחינמי בטלפון 1201 ובאונליין.",
-      "url": "https://www.linksforisrael.com/Medical/MentalSupport/ERAN",
+      "url": "https://www.linksforisrael.com/medical/mentalsupport/eran",
       "status": "active",
       "taxonomy_ids": [
         "Medical",
@@ -2623,7 +2623,7 @@
       "organization_id": "org:StrategicCommunication/Info/TheNationalLibrary",
       "name": "הספרייה הלאומית - רשימת פרויקטים - מאגר הלאומי לתיעוד מאורעות ה - 7.10",
       "description": "המאגר הלאומי לתיעוד מאורעות ה - 7.10 למלחמה. https://www.nli.org.il/he/at-your-service/who-we-are/projects/7-october-documentation",
-      "url": "https://www.linksforisrael.com/StrategicCommunication/Info/TheNationalLibrary",
+      "url": "https://www.linksforisrael.com/strategiccommunication/info/thenationallibrary",
       "status": "active",
       "taxonomy_ids": [
         "StrategicCommunication",
@@ -2636,7 +2636,7 @@
       "organization_id": "org:Medical/Main/YadSarah",
       "name": "יד שרה",
       "description": "יד שרה מפעילה למעלה מ-100 סניפים ברחבי הארץ להשאלת ציוד רפואי ושיקומי ללא תשלום (כיסאות גלגלים, מיטות רפואיות, מחוללי חמצן ועוד), שירותי אשפוז בית, הסעות נכוניות ומוקד מצוקה 24/7.",
-      "url": "https://www.linksforisrael.com/Medical/Main/YadSarah",
+      "url": "https://www.linksforisrael.com/medical/main/yadsarah",
       "status": "active",
       "taxonomy_ids": [
         "Medical",
@@ -2653,7 +2653,7 @@
       "organization_id": "org:Medical/MentalSupport/NATAL",
       "name": "נט״ל – נפגעי טראומה על רקע לאומי",
       "description": "נט״ל מספקת סיוע נפשי מקצועי, קו סיוע 24/7 וטיפולים ארוכי טווח לאזרחים, חיילים, מילואימניקים ובני משפחותיהם המתמודדים עם חרדה וטראומה.",
-      "url": "https://www.linksforisrael.com/Medical/MentalSupport/NATAL",
+      "url": "https://www.linksforisrael.com/medical/mentalsupport/natal",
       "status": "active",
       "taxonomy_ids": [
         "Medical",
@@ -2669,7 +2669,7 @@
       "organization_id": "org:Defense/Emergency/ZAKA",
       "name": "זק״א – איתור, חילוץ והצלה",
       "description": "זק״א מפעילה אלפי מתנדבים בפריסה ארצית ובינלאומית (כולל יחידות חילוץ, צוללנים, כלבנים וג׳יפים) לאיתור נעדרים, הגשת עזרה ראשונה וטיפול בכבוד המת בזירות אסון וחירום.",
-      "url": "https://www.linksforisrael.com/Defense/Emergency/ZAKA",
+      "url": "https://www.linksforisrael.com/defense/emergency/zaka",
       "status": "active",
       "taxonomy_ids": [
         "Defense",
@@ -2686,7 +2686,7 @@
       "organization_id": "org:GeneralAssistance/Main/KolZchut",
       "name": "כל זכות",
       "description": "כל זכות הוא מאגר מידע חינמי וללא מטרות רווח המרכז באופן ברור ונגיש את כל זכויות תושבי ישראל — ביטוח לאומי, מילואים, בריאות, חינוך, עבודה, משפחה וסיוע בשגרה ובחירום.",
-      "url": "https://www.linksforisrael.com/GeneralAssistance/Main/KolZchut",
+      "url": "https://www.linksforisrael.com/generalassistance/main/kolzchut",
       "status": "active",
       "taxonomy_ids": [
         "GeneralAssistance",
@@ -2701,7 +2701,7 @@
       "organization_id": "org:Medical/Main/INZ",
       "name": "ארגון נכי צה״ל",
       "description": "הארגון היציג של פצועי ונכי צה״ל וכוחות הביטחון — מפעיל את בתי הלוחם ברחבי הארץ, תוכניות שיקום, סיוע משפטי וליווי אישי לפצועים ולמשפחותיהם.",
-      "url": "https://www.linksforisrael.com/Medical/Main/INZ",
+      "url": "https://www.linksforisrael.com/medical/main/inz",
       "status": "active",
       "taxonomy_ids": [
         "Medical",
@@ -2717,7 +2717,7 @@
       "organization_id": "org:Medical/MentalSupport/SAHAR",
       "name": "סה״ר – סיוע והקשבה ברשת",
       "description": "עמותת סה״ר מפעילה מוקד צ׳אט אנונימי ומיידי לתמיכה נפשית ומניעת אובדנות, המופעל על ידי מתנדבים שהוכשרו לכך בליווי אנשי מקצוע.",
-      "url": "https://www.linksforisrael.com/Medical/MentalSupport/SAHAR",
+      "url": "https://www.linksforisrael.com/medical/mentalsupport/sahar",
       "status": "active",
       "taxonomy_ids": [
         "Medical",
@@ -2734,7 +2734,7 @@
       "organization_id": "org:Economic/Donations/LeketIsrael",
       "name": "לקט ישראל – בנק המזון הלאומי",
       "description": "לקט ישראל פועל כבנק המזון הלאומי מאז 2003, מציל מיליוני ארוחות ותוצרת חקלאית איכותית ומעביר אותן דרך מאות עמותות שותפות למשפחות, קשישים וניצולי שואה ברחבי הארץ.",
-      "url": "https://www.linksforisrael.com/Economic/Donations/LeketIsrael",
+      "url": "https://www.linksforisrael.com/economic/donations/leketisrael",
       "status": "active",
       "taxonomy_ids": [
         "Economic",
@@ -2751,7 +2751,7 @@
       "organization_id": "org:Economic/Donations/PitchonLev",
       "name": "פתחון לב",
       "description": "ארגון פתחון לב מסייע לאלפי משפחות בישראל באמצעות מרכזי סיוע במזון וביגוד, מיצוי זכויות ותוכניות חינוכיות לנוער וצעירים.",
-      "url": "https://www.linksforisrael.com/Economic/Donations/PitchonLev",
+      "url": "https://www.linksforisrael.com/economic/donations/pitchonlev",
       "status": "active",
       "taxonomy_ids": [
         "Economic",
@@ -2768,7 +2768,7 @@
       "organization_id": "org:Economic/Donations/jgive",
       "name": "JGive",
       "description": "קרן החירום הלאומית הוקמה על ידי שותפים יחד עם JGive במטרה להעניק סיוע לנפגעים במלחמה הקשה שפקדה אותנו. כל כספי התרומות שייאספו בקרן, יחולקו לעמותות המציעות שירותי סעד, רווחה, ציוד, מזון ועוד לנפגעי המלחמה. הכספים יחולקו באמצעות ועדה ציבורית בראשות אליעזר שקדי (אלוף במיל'). העמותות הפועלות בגזרות השונות מכירות מקרוב את האתגרים ואת דרכי הפעולה האפשריות. תמיכה בהם היא הדרך הטובה ביותר שאנו מכירים כדי להשפיע, ולו במעט, על חייהם של רבים. הצטרפו אלינו ותרמו. כל התרומות מוכרות לפי סעיף 46. הכסף עובר במלואו , למעט עמלת סליקת האשראי במקרה של תרומה באשראי",
-      "url": "https://www.linksforisrael.com/Economic/Donations/jgive",
+      "url": "https://www.linksforisrael.com/economic/donations/jgive",
       "status": "active",
       "taxonomy_ids": [
         "Economic",
@@ -2781,7 +2781,7 @@
       "organization_id": "org:FamilyAndPets/Main/Elem",
       "name": "עלם – עמותה לנוער במצבי סיכון",
       "description": "עמותת עלם מפעילה עשרות פרויקטים בפריסה ארצית וברשת לאיתור, ליווי וסיוע לבני נוער וצעירים במצבי סיכון ומצוקה.",
-      "url": "https://www.linksforisrael.com/FamilyAndPets/Main/Elem",
+      "url": "https://www.linksforisrael.com/familyandpets/main/elem",
       "status": "active",
       "taxonomy_ids": [
         "FamilyAndPets",
@@ -2798,7 +2798,7 @@
       "organization_id": "org:GeneralAssistance/Main/RuachTova",
       "name": "רוח טובה",
       "description": "עמותת רוח טובה מקבוצת אריסון מחברת בין אנשים וצוותים שרוצים להתנדב לבין אלפי עמותות וארגונים חברתיים בכל רחבי הארץ, בהתנדבות חד-פעמית או קבועה.",
-      "url": "https://www.linksforisrael.com/GeneralAssistance/Main/RuachTova",
+      "url": "https://www.linksforisrael.com/generalassistance/main/ruachtova",
       "status": "active",
       "taxonomy_ids": [
         "GeneralAssistance",
@@ -2813,7 +2813,7 @@
       "organization_id": "org:Agriculture/Main/NewGuard",
       "name": "השומר החדש",
       "description": "חמ\"ל החירום של ארגון השומר החדש - גיוס מתנדבים לאבטחת חוות, סיוע חקלאי",
-      "url": "https://www.linksforisrael.com/Agriculture/Main/NewGuard",
+      "url": "https://www.linksforisrael.com/agriculture/main/newguard",
       "status": "active",
       "taxonomy_ids": [
         "Agriculture",
@@ -2826,7 +2826,7 @@
       "organization_id": "org:MemorialRemembrance/Main/ZikaronBaSalon",
       "name": "זיכרון בסלון",
       "description": "זיכרון בסלון (נוסד ב-2011) מחבר בין מארחים, אנשי עדות ומאות אלפי משתתפים בישראל ובעולם ליצירת מפגשי זיכרון אינטימיים, משמעותיים ורלוונטיים לדורות הבאים.",
-      "url": "https://www.linksforisrael.com/MemorialRemembrance/Main/ZikaronBaSalon",
+      "url": "https://www.linksforisrael.com/memorialremembrance/main/zikaronbasalon",
       "status": "active",
       "taxonomy_ids": [
         "MemorialRemembrance",
@@ -2842,7 +2842,7 @@
       "organization_id": "org:Medical/MentalSupport/SafeHeart",
       "name": "לב בטוח",
       "description": "אנחנו פרוייקט בריאות נפש חירומי אשר מופעל על ידי רשת של פסיכולוגים, פסיכיאטרים, עובדים סוציאלים קליניים, פסיכותרפיסטים ומדריכים קליניים מוסמכים, בעלי נסיון בעבודה עם חוויות טראומתיות קשות ובתחום מזעור הנזקים הפסיכדלי. אנחנו רק יכולים לתאר כמה קשה לעבור חוויה כזו קשה בזמן מסיבה. אנחנו פה לתמיכה בשביל כל מי שהיו במסיבות בעוטף עזה. אנחנו מבינים גם שחלקכם.ן הייתם.ן תחת השפעה של חומרים, ואולי חוויתם את התקיפה בצורה חזקה ומבלבלת עוד יותר.\n\nאנחנו מזמינים את כל מי שהיה במסיבה ברעים (ובמסיבות אחרות בעוטף) ורוצים לשתף, לדבר, ולקבל תמיכה ממטפלים מנוסים בעבודה עם חוויות טראומטיות קשות, המבינים מה זאת מסיבה ומנוסים בתמיכה באנשים שצרכו חומרים משני תודעה. כמובן שאפשר לפנות אלינו גם אם לא צרכתם.ן חומרים.\n\nיש פה קהילה של מטפלות ומטפלים מנוסים שמתנדבים לעזור, אפשר לבוא עם כל צורך ומצב. השבט של 'לב בטוח' פה בשבילכם. פנו למטפלים המתנדבים שלנו בטופס ונחזור אליכם בהקדם האפשרי!",
-      "url": "https://www.linksforisrael.com/Medical/MentalSupport/SafeHeart",
+      "url": "https://www.linksforisrael.com/medical/mentalsupport/safeheart",
       "status": "active",
       "taxonomy_ids": [
         "Medical",
@@ -2855,7 +2855,7 @@
       "organization_id": "org:Defense/Emergency/AccessibilityIsrael-VioletVest",
       "name": "נגישות ישראל - האפוד הסגול",
       "description": "מוזמנים להצטרף למערך ההתנדבות והסיוע של עמותת 'נגישות ישראל' תחת 'יוזמת האפוד הסגול'\nהעמותה מסייעת ביום-יום לאנשים עם מוגבלויות עם דגש על הנגשת המרחב הציבורי והגברת המודעות להכללה של אנשים עם מוגבלויות בכל תחומי החיים.\nעם תחילת המלחמה 'האפוד הסגול' הקים חמ'ל לסיוע ופינוי אנשים עם מוגבלויות מאזורי הגבול ומציאת פתרונות אירוח נגישים עבורם.\nמוזמנים להצטרף כמתנדב, להציע לארח או אם אתם זקוקים לסיוע - \n\nבקשה לאירוח נגיש:\nhttps://shorturl.at/dCFPU\n\nטופס מילוי צרכים וציוד למפונים:\nhttps://shorturl.at/hjtEQ\n\nרישום להדרכות האפוד הסגול:\nhttps://shorturl.at/oxFV4\n\nרישום למתנדבים:\nhttps://shorturl.at/czLZ1\nמוקד המידע לנגישות בשעת חירום– 054-2422973",
-      "url": "https://www.linksforisrael.com/Defense/Emergency/AccessibilityIsrael-VioletVest",
+      "url": "https://www.linksforisrael.com/defense/emergency/accessibilityisrael-violetvest",
       "status": "active",
       "taxonomy_ids": [
         "Defense",
@@ -2868,7 +2868,7 @@
       "organization_id": "org:Defense/Emergency/HomeFrontCommand",
       "name": "פיקוד העורף – פורטל החירום הלאומי",
       "description": "הפורטל הרשמי של פיקוד העורף: הנחיות התגוננות מעודכנות, הנחיות מיגון וממ״ד, זמני התגוננות לפי יישוב ומוקד מידע ארצי בטלפון 104.",
-      "url": "https://www.linksforisrael.com/Defense/Emergency/HomeFrontCommand",
+      "url": "https://www.linksforisrael.com/defense/emergency/homefrontcommand",
       "status": "active",
       "taxonomy_ids": [
         "Defense",
@@ -2883,7 +2883,7 @@
       "organization_id": "org:Medical/MentalSupport/ARCCI1202",
       "name": "איגוד מרכזי הסיוע לנפגעות ולנפגעי תקיפה מינית (1202)",
       "description": "איגוד מרכזי הסיוע מפעיל את קווי החירום הלאומיים 1202 (לנשים) ו-1203 (לגברים) 24/7, מערך צ׳אט וואטסאפ אנונימי, קבוצות תמיכה וליווי בהליכים רפואיים ומשפטיים בפריסה ארצית.",
-      "url": "https://www.linksforisrael.com/Medical/MentalSupport/ARCCI1202",
+      "url": "https://www.linksforisrael.com/medical/mentalsupport/arcci1202",
       "status": "active",
       "taxonomy_ids": [
         "Medical",
@@ -2900,7 +2900,7 @@
       "organization_id": "org:Defense/Main/NationalDroneInitiative",
       "name": "מיזם הרחפנים הלאומי - National Drone Initiative",
       "description": "מיזם הרחפנים הלאומי עוסק בהסדרת המרחב האווירי ובניית תשתיות רגולטוריות להטסת כלים אוטונומיים לתועלת הציבור.",
-      "url": "https://www.linksforisrael.com/Defense/Main/NationalDroneInitiative",
+      "url": "https://www.linksforisrael.com/defense/main/nationaldroneinitiative",
       "status": "active",
       "taxonomy_ids": [
         "Defense",
@@ -2913,7 +2913,7 @@
       "organization_id": "org:GeneralAssistance/Main/CivilianHamal",
       "name": "חמ״ל אזרחי - סיוע לתושבי קו הלחימה",
       "description": "החמ'ל האזרחי - עוזרים לצה״ל לנצח ותומכים מכל הלב באזרחים 7 באוקטובר 2023 ישראל התעוררה למלחמה קשה. מתוך הזוועה והשבר, על פי מיטב הרוח הישראלית - כי אנחנו עם אחד, קם החמ״ל האזרחי - מרכז ההתנדבות הגדול בישראל.",
-      "url": "https://www.linksforisrael.com/GeneralAssistance/Main/CivilianHamal",
+      "url": "https://www.linksforisrael.com/generalassistance/main/civilianhamal",
       "status": "active",
       "taxonomy_ids": [
         "GeneralAssistance",
@@ -2926,7 +2926,7 @@
       "organization_id": "org:Economic/Businesses/Paamonim",
       "name": "פעמונים – ייעוץ כלכלי למשפחות בחינם",
       "description": "עמותת פעמונים מפעילה אלפי מתנדבים המסייעים ללא עלות למשפחות ויחידים להבריא כלכלית, להתמודד עם חובות, לבנות תקציב מאוזן ולרכוש כלים להתנהלות פיננסית אחראית.",
-      "url": "https://www.linksforisrael.com/Economic/Businesses/Paamonim",
+      "url": "https://www.linksforisrael.com/economic/businesses/paamonim",
       "status": "active",
       "taxonomy_ids": [
         "Economic",
@@ -2943,7 +2943,7 @@
       "organization_id": "org:FamilyAndPets/Main/ADIIsrael",
       "name": "רשת עדי (עדי נגב – נחלת ערן ועדי ירושלים)",
       "description": "רשת עדי (לשעבר עלה נגב ועלה ירושלים) מפעילה כפר שיקומי ובית חולים שיקומי ראשון בנגב, מסגרות דיור וחינוך מיוחד ומרכז מידע וליווי חינמי למשפחות (עדי בשבילכם).",
-      "url": "https://www.linksforisrael.com/FamilyAndPets/Main/ADIIsrael",
+      "url": "https://www.linksforisrael.com/familyandpets/main/adiisrael",
       "status": "active",
       "taxonomy_ids": [
         "FamilyAndPets",
@@ -2960,7 +2960,7 @@
       "organization_id": "org:FamilyAndPets/Main/Etgarim",
       "name": "עמותת אתגרים",
       "description": "עמותת אתגרים הוקמה ב-1995 על ידי נכי צה״ל ואנשי שיקום, ומפעילה חוגי רכיבה, שייט, ריצה, צלילה וספורט אתגרי מותאם לאלפי משתתפים עם מוגבלויות בפריסה ארצית בליווי מתנדבים.",
-      "url": "https://www.linksforisrael.com/FamilyAndPets/Main/Etgarim",
+      "url": "https://www.linksforisrael.com/familyandpets/main/etgarim",
       "status": "active",
       "taxonomy_ids": [
         "FamilyAndPets",
@@ -2977,7 +2977,7 @@
       "organization_id": "org:FamilyAndPets/Main/ALUT",
       "name": "אלו״ט – האגודה הלאומית לילדים ובוגרים עם אוטיזם",
       "description": "אלו״ט פועלת מאז 1974 למען ילדים, צעירים ובוגרים על הספקטרום האוטיסטי ובני משפחותיהם – מרגע האבחון ולאורך כל מעגל החיים – כולל מיצוי זכויות, אלוטפים, בתים לחיים ומסגרות פנאי.",
-      "url": "https://www.linksforisrael.com/FamilyAndPets/Main/ALUT",
+      "url": "https://www.linksforisrael.com/familyandpets/main/alut",
       "status": "active",
       "taxonomy_ids": [
         "FamilyAndPets",
@@ -2994,7 +2994,7 @@
       "organization_id": "org:Medical/Main/LargerThanLife",
       "name": "גדולים מהחיים",
       "description": "עמותת גדולים מהחיים מסייעת מדי שנה לכ-1,500 ילדים חולי סרטן מכל המגזרים בישראל, מפעילה את ״גן החלומות״ הסטרילי, ומעניקה מעטפת רגשית, חברתית ורפואית לילדים ולמשפחות.",
-      "url": "https://www.linksforisrael.com/Medical/Main/LargerThanLife",
+      "url": "https://www.linksforisrael.com/medical/main/largerthanlife",
       "status": "active",
       "taxonomy_ids": [
         "Medical",
@@ -3011,7 +3011,7 @@
       "organization_id": "org:Medical/Main/UnitedHatzalah",
       "name": "איחוד הצלה (1221)",
       "description": "איחוד הצלה מפעיל אלפי חובשים, פראמדיקים ורופאים מתנדבים בפריסה ארצית מלאה ומוקד חירום 1221, להענקת טיפול רפואי ראשוני מציל חיים בדקות הקריטיות עד הגעת אמבולנס הפינוי.",
-      "url": "https://www.linksforisrael.com/Medical/Main/UnitedHatzalah",
+      "url": "https://www.linksforisrael.com/medical/main/unitedhatzalah",
       "status": "active",
       "taxonomy_ids": [
         "Medical",
@@ -3028,7 +3028,7 @@
       "organization_id": "org:Medical/Main/MdaBloodDonation",
       "name": "תרומות דם דרך מד'א",
       "description": "שירותי הדם של מגן דוד אדום אחראים על התרמה ואספקת מנות הדם לבתי החולים בארץ וליחידות צה'ל, הן בשעת חירום והן בשגרה עבור חולים הזקוקים לעירויי דם במהלך אשפוזם. כדי לעמוד בדרישות הגוברות של מערכת הבריאות בישראל, יש צורך להתרים 1200 מנות דם כל יום. לדם האדם אין תחליף, לפיכך רק תרומת דם מאדם אחד יכולה להציל חיים של אנשים אחרים. ממנת דם אחת אפשר להציל חיים של שלושה איש לפחות. על-מנת להשיג כמות כזו של תורמי דם מתנדבים, אנו מקיימים מבצעי התרמות דם במגזרים שונים כגון: מפעלים, חברות, התיישבות עובדת, בסיסי צה'ל, מכללות, קניונים וכו'. נשמח לקדם נושא כה חשוב העוסק רובו ככולו בהצלת חיי אדם ולצרף אתכם למאגר 'קבוצות תורמות דם' של שירותי הדם של מד'א.",
-      "url": "https://www.linksforisrael.com/Medical/Main/MdaBloodDonation",
+      "url": "https://www.linksforisrael.com/medical/main/mdablooddonation",
       "status": "active",
       "taxonomy_ids": [
         "Medical",
@@ -3041,7 +3041,7 @@
       "organization_id": "org:Economic/Donations/hakvutza",
       "name": "עמותת הקבוצה",
       "description": "עמותת הקבוצה קיימת כבר כ-6 שנים ועובדת בצמוד עם העבודות והעובדים הסוציאלים במחלקות הרווחה ועוזרת להם לטפל במקרים שהמדינה לא יודעת להתמודד איתם. פיתחנו את הקשרים, הטכנולוגיה והמנגנונים כדי לטפל בהרבה מקרים בצורה יעילה על בסיס מתנדבים בלבד כך ש100% מהתרומה הולך ליעד. עמותת הקבוצה טיפלה עד היום באלפי מקרים ומיליוני שקלים.",
-      "url": "https://www.linksforisrael.com/Economic/Donations/hakvutza",
+      "url": "https://www.linksforisrael.com/economic/donations/hakvutza",
       "status": "active",
       "taxonomy_ids": [
         "Economic",
@@ -3054,7 +3054,7 @@
       "organization_id": "org:Economic/Businesses/SocialSolidarityHome",
       "name": "הבית לסולידריות חברתית",
       "description": "בימים קשים אלו הבית לסולידריות חברתית מטעם קרן משפחת שעשוע עומדים לצד העסקים בישראל",
-      "url": "https://www.linksforisrael.com/Economic/Businesses/SocialSolidarityHome",
+      "url": "https://www.linksforisrael.com/economic/businesses/socialsolidarityhome",
       "status": "active",
       "taxonomy_ids": [
         "Economic",
@@ -3067,7 +3067,7 @@
       "organization_id": "org:FamilyAndPets/Main/IsraeliChildrensFund",
       "name": "עטופים באהבה (Israeli Children's Fund)",
       "description": "עטופים באהבה (ICF) הוקמה בימים שלאחר ה-7 באוקטובר כחברה לתועלת הציבור (חל״צ 516907888, סעיף 46) ומלווה מאות ילדים, בני נוער וצעירים עד גיל 30 שאיבדו הורה אחד או שניים, באמצעות מענקים גמישים, ליווי עובדות סוציאליות, מלגות השכלה ותוכניות עצמאות.",
-      "url": "https://www.linksforisrael.com/FamilyAndPets/Main/IsraeliChildrensFund",
+      "url": "https://www.linksforisrael.com/familyandpets/main/israelichildrensfund",
       "status": "active",
       "taxonomy_ids": [
         "FamilyAndPets",
@@ -3083,7 +3083,7 @@
       "organization_id": "org:GeneralAssistance/Main/LevEhad",
       "name": "לב אחד",
       "description": "ארגון המקנה חוסן חברתי ומעניק כוח לרשויות המקומיות בשעות חירום.",
-      "url": "https://www.linksforisrael.com/GeneralAssistance/Main/LevEhad",
+      "url": "https://www.linksforisrael.com/generalassistance/main/levehad",
       "status": "active",
       "taxonomy_ids": [
         "GeneralAssistance",
@@ -3096,7 +3096,7 @@
       "organization_id": "org:Medical/Main/BrothersForLife",
       "name": "אחים לחיים (Brothers For Life)",
       "description": "עמותת אחים לחיים הוקמה ומופעלת על ידי לוחמי צה״ל שנפצעו בקרב למען אחיהם הפצועים — מעניקה ליווי שיקומי, קהילה, סיוע משפטי, תעסוקתי וטיפולי.",
-      "url": "https://www.linksforisrael.com/Medical/Main/BrothersForLife",
+      "url": "https://www.linksforisrael.com/medical/main/brothersforlife",
       "status": "active",
       "taxonomy_ids": [
         "Medical",
@@ -3113,7 +3113,7 @@
       "organization_id": "org:Medical/MentalSupport/IsraelTraumaCoalition",
       "name": "הקואליציה הישראלית לטראומה",
       "description": "הקואליציה הישראלית לטראומה (ITC) מאגדת עשרות ארגוני טיפול וחוסן, מפעילה מרכזי חוסן ברחבי הארץ (בעוטף עזה, בצפון ובדרום) ומסייעת לרשויות, צוותים וקהילות בהתמודדות עם טראומה וחירום.",
-      "url": "https://www.linksforisrael.com/Medical/MentalSupport/IsraelTraumaCoalition",
+      "url": "https://www.linksforisrael.com/medical/mentalsupport/israeltraumacoalition",
       "status": "active",
       "taxonomy_ids": [
         "Medical",
@@ -3129,7 +3129,7 @@
       "organization_id": "org:Medical/MentalSupport/Enosh",
       "name": "אנוש – העמותה הישראלית לבריאות הנפש",
       "description": "עמותת אנוש פועלת מזה למעלה מ-45 שנה לקידום רווחתם וזכויותיהם של מתמודדי נפש ובני משפחותיהם ברחבי הארץ באמצעות שירותי שיקום, דיור בקהילה, תעסוקה נתמכת, מרכזי ייעוץ מיל״ם ומרכזי הדספייס לצעירים.",
-      "url": "https://www.linksforisrael.com/Medical/MentalSupport/Enosh",
+      "url": "https://www.linksforisrael.com/medical/mentalsupport/enosh",
       "status": "active",
       "taxonomy_ids": [
         "Medical",
@@ -3146,7 +3146,7 @@
       "organization_id": "org:FamilyAndPets/Main/SPCAIsrael",
       "name": "אגודת צער בעלי חיים בישראל",
       "description": "אגודת צער בעלי חיים בישראל פועלת למניעת צער וסבל מבעלי חיים, מציאת בתים מאמצים לכלבים וחתולים, התנדבות ושירותים וטרינריים.",
-      "url": "https://www.linksforisrael.com/FamilyAndPets/Main/SPCAIsrael",
+      "url": "https://www.linksforisrael.com/familyandpets/main/spcaisrael",
       "status": "active",
       "taxonomy_ids": [
         "FamilyAndPets",
@@ -3163,7 +3163,7 @@
       "organization_id": "org:Olim/Main/NefeshBNefesh",
       "name": "נפש בנפש (Nefesh B'Nefesh)",
       "description": "נפש בנפש (ע״ר 580544120) מלווה עולים חדשים מאמריקה הצפונית משלב התכנון ועד להשתלבות מלאה בישראל — כולל מיצוי זכויות, הכוונת קריירה, רפואה, קהילות קולטות ומערך תמיכה ארצי לחיילים בודדים ובנות שירות.",
-      "url": "https://www.linksforisrael.com/Olim/Main/NefeshBNefesh",
+      "url": "https://www.linksforisrael.com/olim/main/nefeshbnefesh",
       "status": "active",
       "taxonomy_ids": [
         "Olim",
@@ -3180,7 +3180,7 @@
       "organization_id": "org:Olim/Main/KerenLeYedidut",
       "name": "הקרן לידידות — סיוע לעולים ורווחה",
       "description": "הקרן לידידות (ע״ר 580360238) תומכת באלפי עולים חדשים מרחבי העולם באמצעות מענקי עלייה וקליטה ראשונית, סיוע בחירום, חלוקת כרטיסי מזון ומיגון קהילות ברחבי ישראל.",
-      "url": "https://www.linksforisrael.com/Olim/Main/KerenLeYedidut",
+      "url": "https://www.linksforisrael.com/olim/main/kerenleyedidut",
       "status": "active",
       "taxonomy_ids": [
         "Olim",
@@ -3196,7 +3196,7 @@
       "organization_id": "org:JudaismHeritage/MasortiAndCommunities/MasortiIsrael",
       "name": "התנועה המסורתית בישראל (Masorti Movement)",
       "description": "התנועה המסורתית בישראל (ע״ר 580132454) היא הזרוע הישראלית של היהדות המסורתית/קונסרבטיבית — פועלת בעשרות קהילות ובתי כנסת ברחבי הארץ ומשלבת הלכה, מסורת, שוויון, ציונות ופלורליזם ישראלי.",
-      "url": "https://www.linksforisrael.com/JudaismHeritage/MasortiAndCommunities/MasortiIsrael",
+      "url": "https://www.linksforisrael.com/judaismheritage/masortiandcommunities/masortiisrael",
       "status": "active",
       "taxonomy_ids": [
         "JudaismHeritage",
@@ -3213,7 +3213,7 @@
       "organization_id": "org:JudaismHeritage/MasortiAndCommunities/Itim",
       "name": "עתים (ITIM) — ליווי וזכויות במעגל החיים היהודי",
       "description": "עמותת עתים (ע״ר 580394823) מסייעת לאלפי ישראלים ועולים חדשים מדי שנה לנווט במעגל החיים היהודי בישראל — כולל מרכז סיוע חינמי לבירור יהדות, רישום נישואין, גיור, קבורה וייצוג משפטי לשמירה על כבוד האדם.",
-      "url": "https://www.linksforisrael.com/JudaismHeritage/MasortiAndCommunities/Itim",
+      "url": "https://www.linksforisrael.com/judaismheritage/masortiandcommunities/itim",
       "status": "active",
       "taxonomy_ids": [
         "JudaismHeritage",
@@ -3229,7 +3229,7 @@
       "organization_id": "org:JudaismHeritage/MasortiAndCommunities/Tzohar",
       "name": "ארגון רבני צהר (Tzohar)",
       "description": "ארגון רבני צהר (ע״ר 580302099) פועל לקירוב לבבות והנגשת שירותי יהדות מסבירי פנים לכלל הציבור הישראלי — כולל עריכת חופות בהתנדבות, פיקוח כשרות, הדרכות כלה וחתן ומיזמי תפילה בחגים.",
-      "url": "https://www.linksforisrael.com/JudaismHeritage/MasortiAndCommunities/Tzohar",
+      "url": "https://www.linksforisrael.com/judaismheritage/masortiandcommunities/tzohar",
       "status": "active",
       "taxonomy_ids": [
         "JudaismHeritage",
@@ -3246,7 +3246,7 @@
       "organization_id": "org:Abroad/DiasporaAndGiving/SarEl",
       "name": "שר-אל (Sar-El) — מתנדבים מחו״ל למען ישראל וצה״ל",
       "description": "עמותת שר-אל (ע״ר 580049922) מארחת מדי שנה אלפי מתנדבים מעשרות מדינות בעולם המגיעים לישראל לסייע בעבודות לוגיסטיקה, אספקה וציוד רפואי בבסיסי צה״ל ולחזק את הקשר עם ישראל.",
-      "url": "https://www.linksforisrael.com/Abroad/DiasporaAndGiving/SarEl",
+      "url": "https://www.linksforisrael.com/abroad/diasporaandgiving/sarel",
       "status": "active",
       "taxonomy_ids": [
         "Abroad",
@@ -3262,7 +3262,7 @@
       "organization_id": "org:Agriculture/Main/LeketIsraelFarmersVolonteers",
       "name": "לקט ישראל - מתנדבים למשקים",
       "description": "חקלאים רבים גוייסו למלחמה, ועובדים זרים עזבו את השדות. משקים חקלאים נותרו ללא ידיים עובדות ועם תוצרת חקלאית שצריך לקטוף.\nארגון לקט ישראל מסייע לחקלאים בגיוס מתנדבים וקורא לכם לסייע לחקלאות הישראלית בעת משבר.",
-      "url": "https://www.linksforisrael.com/Agriculture/Main/LeketIsraelFarmersVolonteers",
+      "url": "https://www.linksforisrael.com/agriculture/main/leketisraelfarmersvolonteers",
       "status": "active",
       "taxonomy_ids": [
         "Agriculture",
@@ -3275,7 +3275,7 @@
       "organization_id": "org:Medical/Main/MagenDavidAdom",
       "name": "מגן דוד אדום (מד״א) — ארגון ההצלה הלאומי",
       "description": "מגן דוד אדום הוא ארגון ההצלה הלאומי של ישראל, המפעיל את מוקד החירום הרפואי 101, שירותי הדם הלאומיים, צי האמבולנסים והניידות לטיפול נמרץ, מערך מתנדבים ארצי וקורסי עזרה ראשונה.",
-      "url": "https://www.linksforisrael.com/Medical/Main/MagenDavidAdom",
+      "url": "https://www.linksforisrael.com/medical/main/magendavidadom",
       "status": "active",
       "taxonomy_ids": [
         "Medical",
@@ -3292,7 +3292,7 @@
       "organization_id": "org:Olim/Main/MinistryOfAliyah",
       "name": "משרד העלייה והקליטה",
       "description": "משרד העלייה והקליטה מרכז את כלל השירותים הממשלתיים לעולים חדשים ותושבים חוזרים: סל קליטה, שוברי אולפן, סיוע בשכר דירה, הכרה בתארים ורישיונות, והכוונה תעסוקתית. מוקד המידע *2994 פועל בעברית, אנגלית, רוסית, צרפתית, ספרדית, פורטוגזית ואמהרית.",
-      "url": "https://www.linksforisrael.com/Olim/Main/MinistryOfAliyah",
+      "url": "https://www.linksforisrael.com/olim/main/ministryofaliyah",
       "status": "active",
       "taxonomy_ids": [
         "Olim",
@@ -3307,7 +3307,7 @@
       "organization_id": "org:Medical/Main/MdaFirstAidCourse",
       "name": "קורס עזרה ראשונה לשעת חירום - מגן דוד אדום",
       "description": "קורס זה מספק דגשים עיקריים בהגשת עזרה ראשונה בשעת חירום ומקנה כלים ודרכי ההתמודדות לסיוע בפציעות ובמצבי חירום רפואיים בחזית ובעורף. התכנים מתאימים לכל אדם שמעוניין לרכוש כלים וידע ולסייע בהצלת חיים ואינו דורש ידע מוקדם ו/או הכשרה רפואית. הקורס הינו אינטרנטי בלבד באמצעות אתר הקורסים של מד'א ודורש הרשמה מוקדמת ושימוש במחשב ביתי עם גישה לאינטרנט. לתשומת ליבכם, המועד הרשום באתר הינו המועד האחרון לסיום הלימוד המקוון. כמו כן, לא יתקיים מפגש עיוני/ מקוון או מעשי. היקף שעות לימוד: 3 שעות (במתכונת מתוקשבת בלבד באמצעות אתר הקורסים של מד'א). מחיר הקורס: הקורס ללא עלות ומוגש ממגן דוד אדום בישראל כשירות לציבור. תעודה: תעודה דיגיטלית תינתן לעומדים בהצלחה בתנאים ובדרישות הקורס. התנאים כוללים קבלת ציון של לפחות 80% מסך המטלות בקורס.",
-      "url": "https://www.linksforisrael.com/Medical/Main/MdaFirstAidCourse",
+      "url": "https://www.linksforisrael.com/medical/main/mdafirstaidcourse",
       "status": "active",
       "taxonomy_ids": [
         "Medical",
@@ -3320,7 +3320,7 @@
       "organization_id": "org:Defense/Main/MiluimIDF",
       "name": "אתר המילואים הרשמי של צה״ל",
       "description": "הפורטל הרשמי למשרתי המילואים בצה״ל: מידע עדכני על מענקים, זכויות בעבודה ובלימודים, אישורי מילואים, הטבות ושירותים למשפחות.",
-      "url": "https://www.linksforisrael.com/Defense/Main/MiluimIDF",
+      "url": "https://www.linksforisrael.com/defense/main/miluimidf",
       "status": "active",
       "taxonomy_ids": [
         "Defense",
@@ -3335,7 +3335,7 @@
       "organization_id": "org:FamilyAndPets/Main/Perach",
       "name": "פר״ח — התוכנית הלאומית לחונכות סטודנטים וילדים",
       "description": "פרויקט פר״ח (בחסות מכון ויצמן למדע והמל״ג) מחבר מדי שנה עשרות אלפי סטודנטים לילדים הזקוקים לחיזוק רגשי ולימודי בכל רחבי ישראל.",
-      "url": "https://www.linksforisrael.com/FamilyAndPets/Main/Perach",
+      "url": "https://www.linksforisrael.com/familyandpets/main/perach",
       "status": "active",
       "taxonomy_ids": [
         "FamilyAndPets",
@@ -3351,7 +3351,7 @@
       "organization_id": "org:Olim/Main/JewishAgency",
       "name": "הסוכנות היהודית לארץ ישראל",
       "description": "הסוכנות היהודית מלווה עולים מכל רחבי העולם משלב פתיחת תיק העלייה ועד הנחיתה והקליטה הראשונית בישראל — כולל מרכזי קליטה, אולפן עציון, תוכניות צעירים וסיוע חירום לקהילות יהודיות.",
-      "url": "https://www.linksforisrael.com/Olim/Main/JewishAgency",
+      "url": "https://www.linksforisrael.com/olim/main/jewishagency",
       "status": "active",
       "taxonomy_ids": [
         "Olim",
@@ -3367,7 +3367,7 @@
       "organization_id": "org:StrategicCommunication/SocialNetworks/StopAntisemitism",
       "name": "Stop Antisemitism",
       "description": "StopAntisemitism is a grassroots watchdog organization dedicated to exposing groups and individuals that espouse incitement towards the Jewish people and State and engage in antisemitic behaviors. Founded in 2018, StopAntisemitism was born in response to increasing antisemitic violence and sentiment across the United States. StopAntisemitism has developed a unique and dedicated following, reaching millions of actively engaged individuals through social media, mailers, and its website. By publicly exposing antisemites, StopAntisemitism has created an environment where those who propagate hatred against the Jewish people are met with real-world consequences including but not limited to job loss and school expulsions. StopAntisemitism also produces reports on the state of antisemitism in the United States.",
-      "url": "https://www.linksforisrael.com/StrategicCommunication/SocialNetworks/StopAntisemitism",
+      "url": "https://www.linksforisrael.com/strategiccommunication/socialnetworks/stopantisemitism",
       "status": "active",
       "taxonomy_ids": [
         "StrategicCommunication",
@@ -3380,7 +3380,7 @@
       "organization_id": "org:Medical/Main/MedicalVolunteersforIsrael",
       "name": "Medical Volunteers for Israel",
       "description": "In the event of further strains on the health system, as well as in preparation for future natural or man-made disasters, we invite friends of Israel to add their names to our growing community of medical personnel who stand with Israel.       Doctors, nurses, paramedics, and other medical personnel licensed abroad who wish to volunteer should join using the Ministry of Health’s online form, to ensure pre-clearance of medical licenses.",
-      "url": "https://www.linksforisrael.com/Medical/Main/MedicalVolunteersforIsrael",
+      "url": "https://www.linksforisrael.com/medical/main/medicalvolunteersforisrael",
       "status": "active",
       "taxonomy_ids": [
         "Medical",
@@ -3393,7 +3393,7 @@
       "organization_id": "org:GeneralAssistance/Main/KavLaOved",
       "name": "קו לעובד – הגנה על זכויות עובדים",
       "description": "עמותת קו לעובד פועלת מאז 1991 להגן על זכויות עובדים מוחלשים בישראל, מפעילה מוקדי ייעוץ וקבלת קהל, מפרסמת זכותונים במגוון שפות ומספקת סיוע משפטי מול מעסיקים ורשויות.",
-      "url": "https://www.linksforisrael.com/GeneralAssistance/Main/KavLaOved",
+      "url": "https://www.linksforisrael.com/generalassistance/main/kavlaoved",
       "status": "active",
       "taxonomy_ids": [
         "GeneralAssistance",
@@ -3410,7 +3410,7 @@
       "organization_id": "org:JudaismHeritage/TextsAndCulture/Sefaria",
       "name": "ספריא (Sefaria) — הספרייה הפתוחה לארון הספרים היהודי",
       "description": "ספריא (עמותת ספריא ישראל ע״ר 580787760) היא הספרייה הדיגיטלית הפתוחה והמקיפה בעולם למקורות היהדות — תנ״ך, משנה, תלמוד בבלי וירושלמי, מדרשים, פרשנים, סידורים ודפי מקורות, חינם ובקוד פתוח.",
-      "url": "https://www.linksforisrael.com/JudaismHeritage/TextsAndCulture/Sefaria",
+      "url": "https://www.linksforisrael.com/judaismheritage/textsandculture/sefaria",
       "status": "active",
       "taxonomy_ids": [
         "JudaismHeritage",
@@ -3426,7 +3426,7 @@
       "organization_id": "org:StrategicCommunication/Info/InssWarData",
       "name": "חרבות ברזל עדכונים ותמונת מצב",
       "description": "לרבות נתונים שוטפים על הזירה הפנים-ישראלית, גזרת עזה, לבנון, איו'ש, הזירה האזורית והבינ'ל. בעמוד זה שבעה קבצי נתונים שונים - גללו מטה לצפייה בכולם. למשתמשי הסלולר מומלץ לצפות בעמוד במצב מאוזן.",
-      "url": "https://www.linksforisrael.com/StrategicCommunication/Info/InssWarData",
+      "url": "https://www.linksforisrael.com/strategiccommunication/info/insswardata",
       "status": "active",
       "taxonomy_ids": [
         "StrategicCommunication",
@@ -3439,7 +3439,7 @@
       "organization_id": "org:Medical/Main/IsraelCancerAssociation",
       "name": "האגודה למלחמה בסרטן",
       "description": "האגודה למלחמה בסרטן (ע״ר 580030039) מובילה בישראל את המאבק במחלות הסרטן באמצעות מחקר, מניעה, אבחון מוקדם, מרכזי תמיכה 'חזקים ביחד' ומוקד 'טלמידע' חינמי.",
-      "url": "https://www.linksforisrael.com/Medical/Main/IsraelCancerAssociation",
+      "url": "https://www.linksforisrael.com/medical/main/israelcancerassociation",
       "status": "active",
       "taxonomy_ids": [
         "Medical",
@@ -3456,7 +3456,7 @@
       "organization_id": "org:Economic/Donations/ChasdeiNaomi",
       "name": "חסדי נעמי — סלי מזון וסיוע לקשישים ולמשפחות",
       "description": "עמותת חסדי נעמי (ע״ר 580073146) פועלת מאז 1984 לחלוקת סלי מזון, מזון תינוקות ותמיכה שוטפת למשפחות במצוקה ולשורדי שואה בסיוע אלפי מתנדבים.",
-      "url": "https://www.linksforisrael.com/Economic/Donations/ChasdeiNaomi",
+      "url": "https://www.linksforisrael.com/economic/donations/chasdeinaomi",
       "status": "active",
       "taxonomy_ids": [
         "Economic",
@@ -3473,7 +3473,7 @@
       "organization_id": "org:Medical/Main/Lemaanam",
       "name": "למענם — רופאות ורופאים למען שורדי שואה",
       "description": "עמותת למענם (ע״ר 580672764) מאגדת מאות רופאים, אחיות ומטפלים מתנדבים המעניקים טיפול רפואי מותאם, ביקורי בית וייעוץ רפואי חינם לשורדי שואה ברחבי הארץ.",
-      "url": "https://www.linksforisrael.com/Medical/Main/Lemaanam",
+      "url": "https://www.linksforisrael.com/medical/main/lemaanam",
       "status": "active",
       "taxonomy_ids": [
         "Medical",
@@ -3490,7 +3490,7 @@
       "organization_id": "org:Medical/Main/BeitIssieShapiro",
       "name": "בית איזי שפירא",
       "description": "בית איזי שפירא (ע״ר 580071850) פועל לשינוי איכות החיים של אנשים עם מוגבלויות באמצעות חינוך מיוחד, הידרותרפיה, מרכז טכנולוגיה מסייעת ומרכזי תמיכה למשפחות.",
-      "url": "https://www.linksforisrael.com/Medical/Main/BeitIssieShapiro",
+      "url": "https://www.linksforisrael.com/medical/main/beitissieshapiro",
       "status": "active",
       "taxonomy_ids": [
         "Medical",
@@ -3507,7 +3507,7 @@
       "organization_id": "org:Medical/Main/IsraelGuideDogCenter",
       "name": "המרכז הישראלי לכלבי נחייה לעיוורים",
       "description": "המרכז הישראלי לכלבי נחייה לעיוורים (ע״ר 580168961) מאמן ומספק ללא עלות כלבי נחייה לאנשים עם עיוורון וכלבי שירות תומכים למתמודדי פוסט-טראומה ולילדים על הספקטרום.",
-      "url": "https://www.linksforisrael.com/Medical/Main/IsraelGuideDogCenter",
+      "url": "https://www.linksforisrael.com/medical/main/israelguidedogcenter",
       "status": "active",
       "taxonomy_ids": [
         "Medical",
@@ -3524,7 +3524,7 @@
       "organization_id": "org:Medical/Main/ZichronMenachem",
       "name": "זכרון מנחם — תמיכה בילדים וצעירים חולי סרטן",
       "description": "עמותת זכרון מנחם (ע״ר 580179372) מעניקה מעטפת תמיכה הוליסטית לילדים, בני נוער וצעירים המתמודדים עם מחלת הסרטן ולבני משפחותיהם — כולל מרכזי יום, סלון פאות מתרומות שיער, מחנות קיץ וליווי שיקומי.",
-      "url": "https://www.linksforisrael.com/Medical/Main/ZichronMenachem",
+      "url": "https://www.linksforisrael.com/medical/main/zichronmenachem",
       "status": "active",
       "taxonomy_ids": [
         "Medical",
@@ -3541,7 +3541,7 @@
       "organization_id": "org:Medical/Main/ILANIsrael",
       "name": "איל״ן — איגוד ישראלי לילדים ולבוגרים עם מוגבלות פיזית",
       "description": "איל״ן (ע״ר 580036242) פועלת מאז 1952 לקידום שילוב שוויוני ועצמאי של ילדים ובוגרים עם מוגבלויות פיזיות באמצעות עשרות מרכזי יום, מרכזי ספורט (ספיבק), דיור בקהילה ותמיכה במשפחות.",
-      "url": "https://www.linksforisrael.com/Medical/Main/ILANIsrael",
+      "url": "https://www.linksforisrael.com/medical/main/ilanisrael",
       "status": "active",
       "taxonomy_ids": [
         "Medical",
@@ -3558,7 +3558,7 @@
       "organization_id": "org:Medical/Main/AlehIsrael",
       "name": "עלה — רשת מרכזי שיקום, רפואה וחינוך מיוחד",
       "description": "רשת עלה מעניקה בית חם, שיקום פרא-רפואי, חינוך מיוחד וליווי משפחתי למאות ילדים, צעירים ובוגרים עם מוגבלויות מורכבות במרכזים בבני ברק, ירושלים וגדרה.",
-      "url": "https://www.linksforisrael.com/Medical/Main/AlehIsrael",
+      "url": "https://www.linksforisrael.com/medical/main/alehisrael",
       "status": "active",
       "taxonomy_ids": [
         "Medical",
@@ -3575,7 +3575,7 @@
       "organization_id": "org:Medical/MentalSupport/BishvilHaChaim",
       "name": "בשביל החיים — מניעת אובדנות ותמיכה במשפחות שכולות",
       "description": "עמותת בשביל החיים (ע״ר 580357911) מלווה משפחות שאיבדו את יקיריהן בעקבות התאבדות באמצעות קבוצות תמיכה מונחות ברחבי הארץ ופועלת למניעת אובדנות והנגשת מידע מציל חיים.",
-      "url": "https://www.linksforisrael.com/Medical/MentalSupport/BishvilHaChaim",
+      "url": "https://www.linksforisrael.com/medical/mentalsupport/bishvilhachaim",
       "status": "active",
       "taxonomy_ids": [
         "Medical",
@@ -3592,7 +3592,7 @@
       "organization_id": "org:Medical/MentalSupport/AlSam",
       "name": "אל-סם — ייעוץ, טיפול ומניעת התמכרויות לבני נוער והורים",
       "description": "עמותת אל-סם (ע״ר 580008878) מפעילה מרכזי טיפול, סדנאות הסברה והדרכת הורים בפריסה ארצית לסיוע לבני נוער וצעירים במצבי סיכון והתמכרויות.",
-      "url": "https://www.linksforisrael.com/Medical/MentalSupport/AlSam",
+      "url": "https://www.linksforisrael.com/medical/mentalsupport/alsam",
       "status": "active",
       "taxonomy_ids": [
         "Medical",
@@ -3609,7 +3609,7 @@
       "organization_id": "org:Defense/Main/IDFWO",
       "name": "ארגון אלמנות ויתומי צה״ל",
       "description": "ארגון אלמנות ויתומי צה״ל (ע״ר 580202166) מלווה אלפי אלמנות ויתומים של חללי צה״ל וכוחות הביטחון במעטפת זכויות, תמיכה נפשית, פעילויות קהילתיות, מחנות 'עוצמה' ומלגות לימודים.",
-      "url": "https://www.linksforisrael.com/Defense/Main/IDFWO",
+      "url": "https://www.linksforisrael.com/defense/main/idfwo",
       "status": "active",
       "taxonomy_ids": [
         "Defense",
@@ -3626,7 +3626,7 @@
       "organization_id": "org:Economic/Donations/HolocaustSurvivorsWelfare",
       "name": "הקרן לרווחת נפגעי השואה בישראל",
       "description": "הקרן לרווחת נפגעי השואה (ע״ר 580185700) מסייעת מדי שנה לעשרות אלפי שורדי שואה בישראל במימון סיעוד, לחצני מצוקה, תיקוני בית, סיוע סוציאלי ומערך מתנדבים להפגת בדידות.",
-      "url": "https://www.linksforisrael.com/Economic/Donations/HolocaustSurvivorsWelfare",
+      "url": "https://www.linksforisrael.com/economic/donations/holocaustsurvivorswelfare",
       "status": "active",
       "taxonomy_ids": [
         "Economic",
@@ -3643,7 +3643,7 @@
       "organization_id": "org:Economic/Donations/AvivForSeniors",
       "name": "עמותת אביב לגיל השלישי — מיצוי זכויות לאזרחים ותיקים",
       "description": "עמותת אביב לגיל השלישי (לשעבר אביב לניצולי השואה) מעניקה ייעוץ וליווי אישי חינם לאזרחים ותיקים ולבני משפחותיהם במימוש זכויות סיעוד, בריאות, דיור ורווחה.",
-      "url": "https://www.linksforisrael.com/Economic/Donations/AvivForSeniors",
+      "url": "https://www.linksforisrael.com/economic/donations/avivforseniors",
       "status": "active",
       "taxonomy_ids": [
         "Economic",
@@ -3660,7 +3660,7 @@
       "organization_id": "org:Economic/Donations/EshelChabad",
       "name": "אשל חב״ד — המרכז הארצי לביטחון תזונתי",
       "description": "אשל חב״ד (ע״ר 580062073) מפעילה את המיזם הלאומי לביטחון תזונתי, בתי תמחוי, חלוקת סלי מזון וכרטיסי מזון נטענים לעשרות אלפי משפחות וקשישים ברחבי ישראל.",
-      "url": "https://www.linksforisrael.com/Economic/Donations/EshelChabad",
+      "url": "https://www.linksforisrael.com/economic/donations/eshelchabad",
       "status": "active",
       "taxonomy_ids": [
         "Economic",
@@ -3677,7 +3677,7 @@
       "organization_id": "org:Economic/Donations/YadLaKashish",
       "name": "יד לקשיש (Lifeline for the Old) — העצמת אזרחים ותיקים",
       "description": "עמותת יד לקשיש (ע״ר 580034338) מעניקה למאות קשישים ועולים ותיקים בירושלים תחושת משמעות, קהילה, סדנאות אומנות, מענק חודשי, ארוחות חמות וליווי סוציאלי.",
-      "url": "https://www.linksforisrael.com/Economic/Donations/YadLaKashish",
+      "url": "https://www.linksforisrael.com/economic/donations/yadlakashish",
       "status": "active",
       "taxonomy_ids": [
         "Economic",
@@ -3694,7 +3694,7 @@
       "organization_id": "org:Economic/Donations/LemaanAchai",
       "name": "למען אחי — שיקום כלכלי ורווחה חכמה למשפחות",
       "description": "עמותת למען אחי (ע״ר 580365260) מפעילה מודל 'צדקה חכמה' המשלב עובדים סוציאליים, יועצים פיננסיים, הכשרות מקצועיות וסיוע חירום כדי להוביל משפחות לעצמאות כלכלית.",
-      "url": "https://www.linksforisrael.com/Economic/Donations/LemaanAchai",
+      "url": "https://www.linksforisrael.com/economic/donations/lemaanachai",
       "status": "active",
       "taxonomy_ids": [
         "Economic",
@@ -3711,7 +3711,7 @@
       "organization_id": "org:Economic/Businesses/Ogen",
       "name": "עוגן — הלוואות חברתיות ללא ריבית וליווי פיננסי",
       "description": "קבוצת עוגן היא המוסד הפיננסי החברתי הגדול בישראל ללא כוונת רווח, המעניק אשראי הוגן ללא ריבית ומנטורינג עסקי וכלכלי ליחידים, עסקים קטנים ועמותות.",
-      "url": "https://www.linksforisrael.com/Economic/Businesses/Ogen",
+      "url": "https://www.linksforisrael.com/economic/businesses/ogen",
       "status": "active",
       "taxonomy_ids": [
         "Economic",
@@ -3728,7 +3728,7 @@
       "organization_id": "org:FamilyAndPets/Main/AKIMIsrael",
       "name": "אקים ישראל — לאנשים עם מוגבלות שכלית ולמשפחותיהם",
       "description": "אקים ישראל (ע״ר 580034924) הוא הארגון הארצי המוביל לליווי אנשים עם מוגבלות שכלית ובני משפחותיהם לאורך כל מעגל החיים.",
-      "url": "https://www.linksforisrael.com/FamilyAndPets/Main/AKIMIsrael",
+      "url": "https://www.linksforisrael.com/familyandpets/main/akimisrael",
       "status": "active",
       "taxonomy_ids": [
         "FamilyAndPets",
@@ -3745,7 +3745,7 @@
       "organization_id": "org:FamilyAndPets/Main/WIZOIsrael",
       "name": "ויצו ישראל — משפחה, רווחה וקו חם לנשים וגברים",
       "description": "ויצו (ע״ר 580057321) מפעילה מאות מוסדות רווחה וחינוך בישראל, כולל מרכזים למניעת אלימות במשפחה, קווי תמיכה, כפרי נוער ורשת 'הביגודית'.",
-      "url": "https://www.linksforisrael.com/FamilyAndPets/Main/WIZOIsrael",
+      "url": "https://www.linksforisrael.com/familyandpets/main/wizoisrael",
       "status": "active",
       "taxonomy_ids": [
         "FamilyAndPets",
@@ -3762,7 +3762,7 @@
       "organization_id": "org:FamilyAndPets/Main/LetTheAnimalsLive",
       "name": "תנו לחיות לחיות",
       "description": "עמותת תנו לחיות לחיות (ע״ר 580176832) פועלת מאז 1986 להצלה, שיקום ואימוץ של אלפי כלבים וחתולים נטושים ופצועים ברחבי הארץ.",
-      "url": "https://www.linksforisrael.com/FamilyAndPets/Main/LetTheAnimalsLive",
+      "url": "https://www.linksforisrael.com/familyandpets/main/lettheanimalslive",
       "status": "active",
       "taxonomy_ids": [
         "FamilyAndPets",
@@ -3779,7 +3779,7 @@
       "organization_id": "org:FamilyAndPets/Main/YeladimFairChance",
       "name": "ילדים בסיכוי — למען ילדי ובוגרי פנימיות בישראל",
       "description": "עמותת ילדים בסיכוי פועלת למען אלפי ילדים ובני נוער הגדלים בפנימיות רווחה ובוגריהן חסרי העורף המשפחתי — באמצעות מנטורים מתנדבים, דירות בוגרים, טיפול רגשי ומלגות השכלה.",
-      "url": "https://www.linksforisrael.com/FamilyAndPets/Main/YeladimFairChance",
+      "url": "https://www.linksforisrael.com/familyandpets/main/yeladimfairchance",
       "status": "active",
       "taxonomy_ids": [
         "FamilyAndPets",
@@ -3796,7 +3796,7 @@
       "organization_id": "org:FamilyAndPets/Main/OrrShalom",
       "name": "אור שלום — משפחתונים ואומנה לילדים ובני נוער בסיכון",
       "description": "אור שלום היא הארגון הגדול בישראל לטיפול בילדים ובני נוער בסיכון במסגרות משפחתיות (משפחתונים ואומנה), כולל תוכניות ליווי לבוגרים חסרי עורף משפחתי עד לגיל 26.",
-      "url": "https://www.linksforisrael.com/FamilyAndPets/Main/OrrShalom",
+      "url": "https://www.linksforisrael.com/familyandpets/main/orrshalom",
       "status": "active",
       "taxonomy_ids": [
         "FamilyAndPets",
@@ -3813,7 +3813,7 @@
       "organization_id": "org:FamilyAndPets/Main/HandInHand",
       "name": "יד ביד — בתי ספר דו-לשוניים וקהילות משותפות",
       "description": "עמותת יד ביד (ע״ר 580293710) מפעילה בתי ספר דו-לשוניים (עברית-ערבית) וקהילות מעורבות בירושלים, הגליל, חיפה, יפו, כפר סבא וכפר קאסם לבניית חברה משותפת ושוויונית.",
-      "url": "https://www.linksforisrael.com/FamilyAndPets/Main/HandInHand",
+      "url": "https://www.linksforisrael.com/familyandpets/main/handinhand",
       "status": "active",
       "taxonomy_ids": [
         "FamilyAndPets",
@@ -3830,7 +3830,7 @@
       "organization_id": "org:FamilyAndPets/Main/SOSAnimals",
       "name": "אס.או.אס חיות — הצלה ואימוץ כלבים וחתולים",
       "description": "עמותת אס.או.אס חיות פועלת מאז 1978 להצלת כלבים וחתולים נטושים, מציאת בתים מאמצים באמצעות ימי אימוץ ומשפחות אומנה, וסיוע בטיפולים וטרינריים.",
-      "url": "https://www.linksforisrael.com/FamilyAndPets/Main/SOSAnimals",
+      "url": "https://www.linksforisrael.com/familyandpets/main/sosanimals",
       "status": "active",
       "taxonomy_ids": [
         "FamilyAndPets",
@@ -3847,7 +3847,7 @@
       "organization_id": "org:GeneralAssistance/Main/ShekelIsrael",
       "name": "שק״ל — שילוב קהילתי לאנשים עם מוגבלויות",
       "description": "עמותת שק״ל (ע״ר 580020287) פועלת מאז 1979 לשילובם המלא של אנשים עם מוגבלויות בחברה הישראלית באמצעות דיור קהילתי, השמה בעבודה, תרבות והכשרות נגישות.",
-      "url": "https://www.linksforisrael.com/GeneralAssistance/Main/ShekelIsrael",
+      "url": "https://www.linksforisrael.com/generalassistance/main/shekelisrael",
       "status": "active",
       "taxonomy_ids": [
         "GeneralAssistance",
@@ -3864,7 +3864,7 @@
       "organization_id": "org:GeneralAssistance/Main/Naamat",
       "name": "נעמת — זכויות נשים, ייעוץ משפטי ומעונות יום",
       "description": "נעמת (ע״ר 580044261) מפעילה לשכות ייעוץ משפטי מסובסדות, מרכזים לטיפול באלימות במשפחה, קו חם לזכויות נשים בעבודה ורשת מעונות יום ברחבי ישראל.",
-      "url": "https://www.linksforisrael.com/GeneralAssistance/Main/Naamat",
+      "url": "https://www.linksforisrael.com/generalassistance/main/naamat",
       "status": "active",
       "taxonomy_ids": [
         "GeneralAssistance",
@@ -3880,7 +3880,7 @@
       "organization_id": "org:GeneralAssistance/Main/SPNI",
       "name": "החברה להגנת הטבע",
       "description": "החברה להגנת הטבע (ע״ר 580017499) היא ארגון הסביבה הגדול והוותיק בישראל, הפועל להגנת השטחים הפתוחים, שיקום הטבע שנפגע משריפות ומלחמה, חינוך סביבתי וסימון שביל ישראל.",
-      "url": "https://www.linksforisrael.com/GeneralAssistance/Main/SPNI",
+      "url": "https://www.linksforisrael.com/generalassistance/main/spni",
       "status": "active",
       "taxonomy_ids": [
         "GeneralAssistance",
@@ -3896,7 +3896,7 @@
       "organization_id": "org:Olim/Main/KolZchutOlim",
       "name": "כל זכות — פורטל עולים חדשים",
       "description": "פורטל העולים של כל זכות מרכז בשפה ברורה ומעודכנת את כל הזכויות וההטבות המגיעות לעולים חדשים בישראל — סל קליטה, פטור ממס על הכנסות מחו״ל, נקודות זיכוי, הנחות בארנונה, קופות חולים, סיוע בדיור ולימודים אקדמיים.",
-      "url": "https://www.linksforisrael.com/Olim/Main/KolZchutOlim",
+      "url": "https://www.linksforisrael.com/olim/main/kolzchutolim",
       "status": "active",
       "taxonomy_ids": [
         "Olim",
@@ -3911,7 +3911,7 @@
       "organization_id": "org:Olim/Main/YadLOlim",
       "name": "יד לעולים (Yad L'Olim)",
       "description": "עמותת יד לעולים (ע״ר 580722643) מלווה עולים חדשים וותיקים מכל המדינות בהתמודדות עם בירוקרטיה, זכויות רפואיות, רישוי מקצועי, מילואים ורווחה, ומייצגת את צורכי העולים בכנסת ומול משרדי הממשלה.",
-      "url": "https://www.linksforisrael.com/Olim/Main/YadLOlim",
+      "url": "https://www.linksforisrael.com/olim/main/yadlolim",
       "status": "active",
       "taxonomy_ids": [
         "Olim",
@@ -3928,7 +3928,7 @@
       "organization_id": "org:Olim/Main/Qualita",
       "name": "קעליטה (Qualita) — ארגון הגג של עולי צרפת",
       "description": "עמותת קעליטה (ע״ר 580609964) היא ארגון הגג לקידום קליטה מיטבית של עולי צרפת ואירופה בישראל. הארגון מפעיל מרכזי תעסוקה, תוכניות אולפן, ליווי ליזמים, הנגשת שירותי ממשלה וסיוע חברתי למשפחות עולים.",
-      "url": "https://www.linksforisrael.com/Olim/Main/Qualita",
+      "url": "https://www.linksforisrael.com/olim/main/qualita",
       "status": "active",
       "taxonomy_ids": [
         "Olim",
@@ -3945,7 +3945,7 @@
       "organization_id": "org:Olim/Main/AACI",
       "name": "התאחדות עולי אמריקה וקנדה בישראל (AACI)",
       "description": "התאחדות עולי אמריקה וקנדה בישראל (ע״ר 580019545) מלווה עולים דוברי אנגלית מאז 1951 באמצעות יועצי קליטה אישיים, הדרכות זכויות ופנסיה, מרכזי תרבות וקהילה בפריסה ארצית וסיוע לגיל השלישי.",
-      "url": "https://www.linksforisrael.com/Olim/Main/AACI",
+      "url": "https://www.linksforisrael.com/olim/main/aaci",
       "status": "active",
       "taxonomy_ids": [
         "Olim",
@@ -3962,7 +3962,7 @@
       "organization_id": "org:Olim/Main/Telfed",
       "name": "תלפד (Telfed) — עולי דרום אפריקה ואוסטרליה",
       "description": "תלפד — הפדרציה הציונית דרום אפריקה ישראל (חל״צ 510190333) פועלת מאז 1958 לקליטת עולים מדרום אפריקה, אוסטרליה וניו זילנד בישראל — באמצעות ייעוץ תעסוקתי, מלגות לסטודנטים, דיור להשכרה, ליווי לחיילים בודדים ומערך מתנדבים.",
-      "url": "https://www.linksforisrael.com/Olim/Main/Telfed",
+      "url": "https://www.linksforisrael.com/olim/main/telfed",
       "status": "active",
       "taxonomy_ids": [
         "Olim",
@@ -3979,7 +3979,7 @@
       "organization_id": "org:Olim/Main/OLEI",
       "name": "עולי (OLEI) — עולי אמריקה הלטינית, ספרד ופורטוגל",
       "description": "התאחדות עולי אמריקה הלטינית, ספרד ופורטוגל בישראל (ע״ר 580006765) מסייעת לעולים דוברי ספרדית ופורטוגזית באמצעות סניפים ברחבי הארץ, ייעוץ בירוקרטי, מלגות, הכוונת קריירה ופעילות תרבותית וקהילתית.",
-      "url": "https://www.linksforisrael.com/Olim/Main/OLEI",
+      "url": "https://www.linksforisrael.com/olim/main/olei",
       "status": "active",
       "taxonomy_ids": [
         "Olim",
@@ -3996,7 +3996,7 @@
       "organization_id": "org:Olim/Main/ESRA",
       "name": "אסרא (ESRA) — איגוד דוברי האנגלית בישראל",
       "description": "עמותת אסרא (ע״ר 580037455) היא ארגון ההתנדבות והקהילה הגדול לדוברי אנגלית בישראל, המסייע בשילוב חברתי של עולים חדשים, הוראת אנגלית בבתי ספר, מרכזי קהילה ותמיכה במשפחות ובגיל השלישי.",
-      "url": "https://www.linksforisrael.com/Olim/Main/ESRA",
+      "url": "https://www.linksforisrael.com/olim/main/esra",
       "status": "active",
       "taxonomy_ids": [
         "Olim",
@@ -4013,7 +4013,7 @@
       "organization_id": "org:Olim/CareerAndLoneSoldiers/Gvahim",
       "name": "גבהים (Gvahim) — תעסוקה ויזמות לעולים",
       "description": "עמותת גבהים (ע״ר 580512390) מסייעת לאלפי עולים אקדמאים, אנשי הייטק ויזמים להשתלב בשוק העבודה הישראלי באמצעות תוכניות קריירה, מנטורינג אישי, הכנה לראיונות, נטוורקינג ומאיץ יזמות.",
-      "url": "https://www.linksforisrael.com/Olim/CareerAndLoneSoldiers/Gvahim",
+      "url": "https://www.linksforisrael.com/olim/careerandlonesoldiers/gvahim",
       "status": "active",
       "taxonomy_ids": [
         "Olim",
@@ -4030,7 +4030,7 @@
       "organization_id": "org:Olim/CareerAndLoneSoldiers/LoneSoldierCenter",
       "name": "המרכז לחיילים בודדים לזכרו של מייקל לוין",
       "description": "המרכז לחיילים בודדים לזכרו של מייקל לוין (ע״ר 580520104) פועל מאז 2009 בסניפים בירושלים, תל אביב ובאר שבע ומעניק בית חם, ייעוץ זכויות צבאי, סיוע בשכר דירה, ציוד וליווי למשתחררים.",
-      "url": "https://www.linksforisrael.com/Olim/CareerAndLoneSoldiers/LoneSoldierCenter",
+      "url": "https://www.linksforisrael.com/olim/careerandlonesoldiers/lonesoldiercenter",
       "status": "active",
       "taxonomy_ids": [
         "Olim",
@@ -4047,7 +4047,7 @@
       "organization_id": "org:Olim/CareerAndLoneSoldiers/MichaelLevinBase",
       "name": "הבסיס של מייקל לוין לחיילים בודדים ובנות שירות",
       "description": "עמותת הבסיס של מייקל לוין (ע״ר 580696094) מלווה חיילים בודדים ובנות שירות לאומי עולות מירושלים ותל אביב בכל שלבי השירות — כולל הכנה לצו ראשון, סדנאות, ציוד, תמיכה רגשית וליווי אזרחי לאחר השחרור.",
-      "url": "https://www.linksforisrael.com/Olim/CareerAndLoneSoldiers/MichaelLevinBase",
+      "url": "https://www.linksforisrael.com/olim/careerandlonesoldiers/michaellevinbase",
       "status": "active",
       "taxonomy_ids": [
         "Olim",
@@ -4064,7 +4064,7 @@
       "organization_id": "org:Olim/CareerAndLoneSoldiers/ShishiShabbatYisraeli",
       "name": "שישי שבת ישראלי — עולים צעירים דוברי רוסית",
       "description": "עמותת שישי שבת ישראלי (ע״ר 580549236) בונה קהילה ישראלית תומכת לעולים צעירים דוברי רוסית בגילאי 18–35 באמצעות שבתות תרבות, טיולים, מעגלי מנהיגות, התנדבות ותמיכה בקליטה חברתית.",
-      "url": "https://www.linksforisrael.com/Olim/CareerAndLoneSoldiers/ShishiShabbatYisraeli",
+      "url": "https://www.linksforisrael.com/olim/careerandlonesoldiers/shishishabbatyisraeli",
       "status": "active",
       "taxonomy_ids": [
         "Olim",
@@ -4081,7 +4081,7 @@
       "organization_id": "org:JudaismHeritage/MasortiAndCommunities/SchechterInstitute",
       "name": "מכון שכטר למדעי היהדות (Schechter Institutes)",
       "description": "מכון שכטר למדעי היהדות בירושלים (ע״ר 580400968) משלב לימודי תואר שני במדעי היהדות, בית המדרש לרבנים של התנועה המסורתית, רשת החינוך תל״י ומרכז נווה שכטר לתרבות יהודית בתל אביב.",
-      "url": "https://www.linksforisrael.com/JudaismHeritage/MasortiAndCommunities/SchechterInstitute",
+      "url": "https://www.linksforisrael.com/judaismheritage/masortiandcommunities/schechterinstitute",
       "status": "active",
       "taxonomy_ids": [
         "JudaismHeritage",
@@ -4097,7 +4097,7 @@
       "organization_id": "org:JudaismHeritage/TextsAndCulture/BINA",
       "name": "בינ״ה — הבית של היהדות הישראלית (BINA)",
       "description": "עמותת בינ״ה (ע״ר 580652378) מקדמת יהדות ישראלית פתוחה ושוויונית באמצעות הישיבה החילונית בתל אביב, ירושלים ובאר שבע, תוכניות שנת שירות ומכינות, לימודי מקורות ועשייה קהילתית.",
-      "url": "https://www.linksforisrael.com/JudaismHeritage/TextsAndCulture/BINA",
+      "url": "https://www.linksforisrael.com/judaismheritage/textsandculture/bina",
       "status": "active",
       "taxonomy_ids": [
         "JudaismHeritage",
@@ -4114,7 +4114,7 @@
       "organization_id": "org:JudaismHeritage/TextsAndCulture/HartmanInstitute",
       "name": "מכון שלום הרטמן (Shalom Hartman Institute)",
       "description": "מכון שלום הרטמן-ישראל (חל״צ 511021156) מוביל מחקר, פודקאסטים, מרכזי חינוך והכשרת מנהיגות ומורים בירושלים ובצפון אמריקה לקידום יהדות דמוקרטית ופלורליסטית.",
-      "url": "https://www.linksforisrael.com/JudaismHeritage/TextsAndCulture/HartmanInstitute",
+      "url": "https://www.linksforisrael.com/judaismheritage/textsandculture/hartmaninstitute",
       "status": "active",
       "taxonomy_ids": [
         "JudaismHeritage",
@@ -4130,7 +4130,7 @@
       "organization_id": "org:JudaismHeritage/TextsAndCulture/Pardes",
       "name": "מכון פרדס לחינוך יהודי (Pardes Institute)",
       "description": "מכון פרדס (ע״ר 580009330) הוא בית מדרש פתוח ובלתי-זרמי בירושלים המזמין גברים ונשים מכל רקע יהודי ללמוד תלמוד, תנ״ך, מחשבת ישראל וחינוך יהודי — בקמפוס בירושלים ובאונליין.",
-      "url": "https://www.linksforisrael.com/JudaismHeritage/TextsAndCulture/Pardes",
+      "url": "https://www.linksforisrael.com/judaismheritage/textsandculture/pardes",
       "status": "active",
       "taxonomy_ids": [
         "JudaismHeritage",
@@ -4146,7 +4146,7 @@
       "organization_id": "org:Abroad/IsraelisAndConsular/ScienceAbroad",
       "name": "ScienceAbroad — ארגון המדענים הישראלים בחו״ל",
       "description": "עמותת סיינס אברוד (ע״ר 580492809) מפעילה עשרות מרכזי קהילה באוניברסיטאות מובילות בעולם עבור מדענים, פוסט-דוקטורנטים ורופאים ישראלים, מסייעת בהתמודדות בקמפוס ומלווה חזרה והשמה באקדמיה ובהייטק בישראל.",
-      "url": "https://www.linksforisrael.com/Abroad/IsraelisAndConsular/ScienceAbroad",
+      "url": "https://www.linksforisrael.com/abroad/israelisandconsular/scienceabroad",
       "status": "active",
       "taxonomy_ids": [
         "Abroad",
@@ -4163,7 +4163,7 @@
       "organization_id": "org:MemorialRemembrance/Main/GhettoFightersHouse",
       "name": "מוזיאון בית לוחמי הגטאות — ארכיון, חינוך והנצחת השואה",
       "description": "בית לוחמי הגטאות (ע״ר 580836278) נוסד על ידי שורדי השואה ולוחמי הגטאות, וכולל ארכיון היסטורי עשיר הפתוח לציבור, תערוכות חינוכיות ומוזיאון 'יד לילד'.",
-      "url": "https://www.linksforisrael.com/MemorialRemembrance/Main/GhettoFightersHouse",
+      "url": "https://www.linksforisrael.com/memorialremembrance/main/ghettofightershouse",
       "status": "active",
       "taxonomy_ids": [
         "MemorialRemembrance",
@@ -4180,7 +4180,7 @@
       "organization_id": "org:Abroad/IsraelisAndConsular/MFAEmbassies",
       "name": "משרד החוץ — שגרירויות, קונסוליות ומוקד חירום לישראלים בחו״ל",
       "description": "פורטל משרד החוץ מרכז מידע רשמי על כל שגרירויות וקונסוליות ישראל ברחבי העולם, הנפקת דרכונים ומסמכים קונסולריים, וכן מוקד חדר המצב הפועל 24/7 למקרי חירום של אזרחים ישראלים בחו״ל (02-5303155).",
-      "url": "https://www.linksforisrael.com/Abroad/IsraelisAndConsular/MFAEmbassies",
+      "url": "https://www.linksforisrael.com/abroad/israelisandconsular/mfaembassies",
       "status": "active",
       "taxonomy_ids": [
         "Abroad",
@@ -4195,7 +4195,7 @@
       "organization_id": "org:Abroad/IsraelisAndConsular/ToshavChozer",
       "name": "תושבים חוזרים — משרד העלייה והקליטה",
       "description": "מדור תושבים חוזרים במשרד העלייה והקליטה מפרט את תנאי הזכאות, הטבות מכס ומס, סיוע בתעסוקה וליזמים, פדיון תקופת המתנה בקופת חולים ותמיכה במדענים חוזרים.",
-      "url": "https://www.linksforisrael.com/Abroad/IsraelisAndConsular/ToshavChozer",
+      "url": "https://www.linksforisrael.com/abroad/israelisandconsular/toshavchozer",
       "status": "active",
       "taxonomy_ids": [
         "Abroad",
@@ -4210,7 +4210,7 @@
       "organization_id": "org:Abroad/IsraelisAndConsular/BituachLeumiAbroad",
       "name": "ביטוח לאומי — זכויות וחובות של ישראלים בחו״ל",
       "description": "עמוד המידע הרשמי של המוסד לביטוח לאומי לישראלים השוהים בחו״ל: אמנות ביטוח סוציאלי, תשלום דמי ביטוח בריאות, מניעת תקופת המתנה רפואית בחזרה לישראל והגשת טפסים מקוונים.",
-      "url": "https://www.linksforisrael.com/Abroad/IsraelisAndConsular/BituachLeumiAbroad",
+      "url": "https://www.linksforisrael.com/abroad/israelisandconsular/bituachleumiabroad",
       "status": "active",
       "taxonomy_ids": [
         "Abroad",
@@ -4225,7 +4225,7 @@
       "organization_id": "org:Abroad/IsraelisAndConsular/NSCTravelWarnings",
       "name": "המטה לביטחון לאומי (מל״ל) — אזהרות מסע לישראלים בחו״ל",
       "description": "מאגר אזהרות המסע הרשמי של המטה לביטחון לאומי (מל״ל) מציג את רמות האיום העדכניות בכל מדינה ויעד, הנחיות בטיחות למטיילים ומוקד מידע טלפוני לישראלים השוהים בחו״ל.",
-      "url": "https://www.linksforisrael.com/Abroad/IsraelisAndConsular/NSCTravelWarnings",
+      "url": "https://www.linksforisrael.com/abroad/israelisandconsular/nsctravelwarnings",
       "status": "active",
       "taxonomy_ids": [
         "Abroad",
@@ -4240,7 +4240,7 @@
       "organization_id": "org:Abroad/DiasporaAndGiving/MasaIsrael",
       "name": "מסע (Masa Israel Journey) — התמחות, לימודים והתנדבות בישראל",
       "description": "מסע (מיסודן של ממשלת ישראל והסוכנות היהודית) מציעה מאות תוכניות קריירה, אקדמיה והתנדבות ארוכות טווח בישראל לצעירים יהודים מכל העולם בגילאי 18–35, כולל מענקים ומלגות.",
-      "url": "https://www.linksforisrael.com/Abroad/DiasporaAndGiving/MasaIsrael",
+      "url": "https://www.linksforisrael.com/abroad/diasporaandgiving/masaisrael",
       "status": "active",
       "taxonomy_ids": [
         "Abroad",
@@ -4256,7 +4256,7 @@
       "organization_id": "org:FamilyAndPets/Main/Beterem",
       "name": "בטרם — הארגון הלאומי לבטיחות ילדים",
       "description": "ארגון בטרם פועל לצמצום היפגעות ילדים בישראל באמצעות מחקר, מדריכי בטיחות להורים מגיל לידה ועד גיל 18 והדרכות במערכת החינוך ובבריאות.",
-      "url": "https://www.linksforisrael.com/FamilyAndPets/Main/Beterem",
+      "url": "https://www.linksforisrael.com/familyandpets/main/beterem",
       "status": "active",
       "taxonomy_ids": [
         "FamilyAndPets",
@@ -4272,7 +4272,7 @@
       "organization_id": "org:GeneralAssistance/Main/NetinaLaAcher",
       "name": "עמותת נתינה לאחר ישראל",
       "description": "עמותת נתינה לאחר ישראל (ע״ר 580777118, הוקמה ב-2021) פועלת בעשרות יישובים בישראל במודל התנדבותי טהור ללא קבלת תרומות כספיות — מתנדבים מבשלים ארוחות חמות במטבחם הביתי ומתנדבים משנעים אותן בצנעה ובכבוד למשפחות במצוקה.",
-      "url": "https://www.linksforisrael.com/GeneralAssistance/Main/NetinaLaAcher",
+      "url": "https://www.linksforisrael.com/generalassistance/main/netinalaacher",
       "status": "active",
       "taxonomy_ids": [
         "GeneralAssistance",
@@ -4288,7 +4288,7 @@
       "organization_id": "org:Olim/CareerAndLoneSoldiers/GarinTzabar",
       "name": "גרעין צבר (Garin Tzabar) — תנועת הצופים",
       "description": "גרעין צבר של תנועת הצופים מלווה מדי שנה מאות צעירים וצעירות יהודים מחו״ל העולים לישראל כדי לשרת בצה״ל — כולל שלב הכנה בחו״ל, קליטה בגרעין מגובש בקיבוץ מאמץ, משפחות מאמצות וליווי מלא לאורך השירות.",
-      "url": "https://www.linksforisrael.com/Olim/CareerAndLoneSoldiers/GarinTzabar",
+      "url": "https://www.linksforisrael.com/olim/careerandlonesoldiers/garintzabar",
       "status": "active",
       "taxonomy_ids": [
         "Olim",
@@ -4305,7 +4305,7 @@
       "organization_id": "org:Olim/CareerAndLoneSoldiers/KeepOlim",
       "name": "קיפ עולים (KeepOlim)",
       "description": "עמותת קיפ עולים (ע״ר 580644342) מפעילה תוכניות סיוע רגשיות וקהילתיות לעולים חדשים מכל העולם — כולל סבסוד טיפול פסיכולוגי בשפת האם, מפגשי קהילה, סיוע חברתי ותוכניות התנדבות.",
-      "url": "https://www.linksforisrael.com/Olim/CareerAndLoneSoldiers/KeepOlim",
+      "url": "https://www.linksforisrael.com/olim/careerandlonesoldiers/keepolim",
       "status": "active",
       "taxonomy_ids": [
         "Olim",
@@ -4322,7 +4322,7 @@
       "organization_id": "org:JudaismHeritage/TextsAndCulture/Project929",
       "name": "מיזם 929 — תנ״ך ביחד",
       "description": "מיזם 929 מזמין ישראלים ויהודים בעולם לקרוא יחד פרק אחד בתנ״ך בכל יום — מלווה במאמרים, האזנה, אמנות ונקודות מבט חילוניות, מסורתיות ודתיות.",
-      "url": "https://www.linksforisrael.com/JudaismHeritage/TextsAndCulture/Project929",
+      "url": "https://www.linksforisrael.com/judaismheritage/textsandculture/project929",
       "status": "active",
       "taxonomy_ids": [
         "JudaismHeritage",
@@ -4337,7 +4337,7 @@
       "organization_id": "org:JudaismHeritage/TextsAndCulture/ANUMuseum",
       "name": "אנו — מוזיאון העם היהודי (ANU Museum)",
       "description": "אנו — מוזיאון העם היהודי בתל אביב (לשעבר בית התפוצות) מציג את הסיפור הרחב והמגוון של הקהילות היהודיות מכל הדורות והיבשות, ומפעיל מאגר דיגיטלי פתוח של שמות משפחה, קהילות ותצלומים.",
-      "url": "https://www.linksforisrael.com/JudaismHeritage/TextsAndCulture/ANUMuseum",
+      "url": "https://www.linksforisrael.com/judaismheritage/textsandculture/anumuseum",
       "status": "active",
       "taxonomy_ids": [
         "JudaismHeritage",
@@ -4353,7 +4353,7 @@
       "organization_id": "org:JudaismHeritage/TextsAndCulture/BeitAviChai",
       "name": "בית אבי חי (Beit Avi Chai)",
       "description": "בית אבי חי (ע״ר 580465011) הוא מרכז תרבות ויצירה בירושלים וברשת העוסק בדיאלוג פתוח ומעמיק בין יהדות, תרבות ישראלית, ספרות, מוזיקה והגות לכל הגילאים.",
-      "url": "https://www.linksforisrael.com/JudaismHeritage/TextsAndCulture/BeitAviChai",
+      "url": "https://www.linksforisrael.com/judaismheritage/textsandculture/beitavichai",
       "status": "active",
       "taxonomy_ids": [
         "JudaismHeritage",
@@ -4368,7 +4368,7 @@
       "organization_id": "org:StrategicCommunication/Main/voicesOfIsrael",
       "name": "קולות מישראל - Voice Of Israel",
       "description": "בעקבות מלחמת ׳חרבות הברזל׳, אנו מזמינים ארגונים, פרויקטים וגופים (עמותות, חברות, עוסקים מורשים) להגיש הצעות למיזמים לחיזוק הנרטיב של ישראל בזירה הבין לאומית בהקשר למאמץ ההסברתי מלחמתי.  פרויקטים שיבחרו יזכו למימון משלים – Match funding על בסיס תצהיר חתום על יכולות המימון, בשיעור של עד 50% מעלות התוכנית. ניתן למצוא את הפרטים המלאים באתר שלנו - https://voicesofisrael.org/ זמינים לשאלות בפרטי ובמייל. info@voicesofisrael.org",
-      "url": "https://www.linksforisrael.com/StrategicCommunication/Main/voicesOfIsrael",
+      "url": "https://www.linksforisrael.com/strategiccommunication/main/voicesofisrael",
       "status": "active",
       "taxonomy_ids": [
         "StrategicCommunication",
@@ -4381,7 +4381,7 @@
       "organization_id": "org:StrategicCommunication/Info/OnlyTrueInformation",
       "name": "הקונסוליה הישראלית בניו יורק",
       "description": "אתר עם פרסומים מאומתים שאושרו למי שמעוניין לשתף את האמת, להגן על ישראל ולוודא שהמידע האמיתי קודם לפני השקר.",
-      "url": "https://www.linksforisrael.com/StrategicCommunication/Info/OnlyTrueInformation",
+      "url": "https://www.linksforisrael.com/strategiccommunication/info/onlytrueinformation",
       "status": "active",
       "taxonomy_ids": [
         "StrategicCommunication",
@@ -4394,7 +4394,7 @@
       "organization_id": "org:Abroad/DiasporaAndGiving/IsraelGives",
       "name": "IsraelGives — תרומות מוכרות במס לעמותות בישראל מ-30+ מדינות",
       "description": "IsraelGives (ישראל תורמת) מחברת בין עמותות ישראליות מאומתות לתורמים ביותר מ-30 מדינות, עם קבלות מס מקומיות מוכרות בארה״ב, בריטניה, קנדה, אוסטרליה, צרפת וישראל.",
-      "url": "https://www.linksforisrael.com/Abroad/DiasporaAndGiving/IsraelGives",
+      "url": "https://www.linksforisrael.com/abroad/diasporaandgiving/israelgives",
       "status": "active",
       "taxonomy_ids": [
         "Abroad",
@@ -4409,7 +4409,7 @@
       "organization_id": "org:FamilyAndPets/ChildrenContent/BrainPop",
       "name": "BrainPop",
       "description": "קוד: בריינפופ23",
-      "url": "https://www.linksforisrael.com/FamilyAndPets/ChildrenContent/BrainPop",
+      "url": "https://www.linksforisrael.com/familyandpets/childrencontent/brainpop",
       "status": "active",
       "taxonomy_ids": [
         "FamilyAndPets",
@@ -4422,7 +4422,7 @@
       "organization_id": "org:Abroad/SafetyAndCampus/CSTUK",
       "name": "CST (Community Security Trust) — ביטחון הקהילה היהודית בבריטניה",
       "description": "CST הוא גוף הביטחון הרשמי של הקהילה היהודית בממלכה המאוחדת, המפעיל קו חירום 24/7 (0800 032 3263), מלווה סטודנטים בקמפוסים, מאבטח מוסדות יהודיים ועובד בתיאום צמוד עם המשטרה הבריטית.",
-      "url": "https://www.linksforisrael.com/Abroad/SafetyAndCampus/CSTUK",
+      "url": "https://www.linksforisrael.com/abroad/safetyandcampus/cstuk",
       "status": "active",
       "taxonomy_ids": [
         "Abroad",
@@ -4439,7 +4439,7 @@
       "organization_id": "org:Olim/MoneyTransfers/Adesco",
       "name": "Adesco — העברת כספים והמרת מט״ח לישראל",
       "description": "Adesco (Adesco Bridge Ltd.) היא חברת תשלומים מסחרית הפועלת ברישיון רשות ניירות ערך (ISA) ומתמחה בהעברות בינלאומיות והמרת מט״ח (USD, EUR, GBP, CAD, AUD, CHF לשקלים) עבור עולים חדשים, תושבי חוץ ורוכשי דירות בישראל — כולל תשלומים ישירים לחשבונות נאמנות, שוברי קבלן ומס רכישה, ללא עמלות בנק נסתרות ובעיבוד מהיר. (שירות מסחרי מפוקח — אינו עמותה).",
-      "url": "https://www.linksforisrael.com/Olim/MoneyTransfers/Adesco",
+      "url": "https://www.linksforisrael.com/olim/moneytransfers/adesco",
       "status": "active",
       "taxonomy_ids": [
         "Olim",
@@ -4454,7 +4454,7 @@
       "organization_id": "org:Olim/MoneyTransfers/IsraTransfer",
       "name": "IsraTransfer — המרת מט״ח והעברות לישראל",
       "description": "IsraTransfer היא חברה מסחרית מפוקחת המתמחה בהעברות כספים מחו״ל לישראל ומישראל לחו״ל במטבעות מרכזיים עבור עולים חדשים, משפחות ורוכשי נדל״ן, עם ליווי אישי ותשלום לחשבונות נאמנות. (שירות מסחרי מפוקח — אינו עמותה).",
-      "url": "https://www.linksforisrael.com/Olim/MoneyTransfers/IsraTransfer",
+      "url": "https://www.linksforisrael.com/olim/moneytransfers/isratransfer",
       "status": "active",
       "taxonomy_ids": [
         "Olim",
@@ -4469,7 +4469,7 @@
       "organization_id": "org:Olim/MoneyTransfers/Wise",
       "name": "Wise — העברות בינלאומיות וחשבון רב-מטבעי",
       "description": "Wise היא פלטפורמת תשלומים בינלאומית מפוקחת (FCA / FinCEN) המאפשרת העברות כספים ישירות לחשבונות בנק בישראל בשער היציג ועמלה שקופה, וכן אחזקת חשבון רב-מטבעי לעולים ולעובדים מרחוק. (שירות מסחרי מפוקח — אינו עמותה).",
-      "url": "https://www.linksforisrael.com/Olim/MoneyTransfers/Wise",
+      "url": "https://www.linksforisrael.com/olim/moneytransfers/wise",
       "status": "active",
       "taxonomy_ids": [
         "Olim",
@@ -4484,7 +4484,7 @@
       "organization_id": "org:Olim/MoneyTransfers/Covercy",
       "name": "Covercy — העברות בינלאומיות ותשלומי נדל״ן",
       "description": "Covercy היא חברת פינטק ישראלית מפוקחת המספקת שירותי המרת מט״ח והעברות כספים בינלאומיות ללקוחות פרטיים, עסקים ומשקיעי נדל״ן. (שירות מסחרי מפוקח — אינו עמותה).",
-      "url": "https://www.linksforisrael.com/Olim/MoneyTransfers/Covercy",
+      "url": "https://www.linksforisrael.com/olim/moneytransfers/covercy",
       "status": "active",
       "taxonomy_ids": [
         "Olim",
@@ -4499,7 +4499,7 @@
       "organization_id": "org:Olim/MoneyTransfers/Payoneer",
       "name": "Payoneer — קבלת תשלומים מחו״ל לפרילנסרים ועסקים",
       "description": "Payoneer היא חברת תשלומים גלובלית ציבורית (נסחרת בנאסד״ק, נוסדה בישראל) המאפשרת לעולים, פרילנסרים ועסקים ישראליים לקבל תשלומים מלקוחות בחו״ל במטבע מקומי ולמשוך לחשבון הבנק בישראל. (שירות מסחרי מפוקח — אינו עמותה).",
-      "url": "https://www.linksforisrael.com/Olim/MoneyTransfers/Payoneer",
+      "url": "https://www.linksforisrael.com/olim/moneytransfers/payoneer",
       "status": "active",
       "taxonomy_ids": [
         "Olim",
@@ -4514,7 +4514,7 @@
       "organization_id": "org:JudaismHeritage/MasortiAndCommunities/MasortiOlami",
       "name": "Masorti Olami — התנועה המסורתית העולמית",
       "description": "Masorti Olami מחבר ותומך ברשת העולמית של קהילות, בתי כנסת, תנועות נוער (NOAM) ורבנים מסורתיים/קונסרבטיביים מחוץ לצפון אמריקה — ומחזק את הקשר ההדוק בין יהדות התפוצות לישראל.",
-      "url": "https://www.linksforisrael.com/JudaismHeritage/MasortiAndCommunities/MasortiOlami",
+      "url": "https://www.linksforisrael.com/judaismheritage/masortiandcommunities/masortiolami",
       "status": "active",
       "taxonomy_ids": [
         "JudaismHeritage",
@@ -4530,7 +4530,7 @@
       "organization_id": "org:JudaismHeritage/MasortiAndCommunities/USCJ",
       "name": "USCJ — התנועה הקונסרבטיבית בצפון אמריקה",
       "description": "USCJ הוא ארגון הגג של מאות קהילות ובתי כנסת קונסרבטיביים בארה״ב ובקנדה, המפעיל תוכניות קהילה, נוער (USY), לימודי יהדות וחיבור חי ופעיל עם מדינת ישראל.",
-      "url": "https://www.linksforisrael.com/JudaismHeritage/MasortiAndCommunities/USCJ",
+      "url": "https://www.linksforisrael.com/judaismheritage/masortiandcommunities/uscj",
       "status": "active",
       "taxonomy_ids": [
         "JudaismHeritage",
@@ -4546,7 +4546,7 @@
       "organization_id": "org:JudaismHeritage/MasortiAndCommunities/RabbinicalAssembly",
       "name": "The Rabbinical Assembly — כנסת הרבנים (מסורתית/קונסרבטיבית)",
       "description": "כנסת הרבנים (The Rabbinical Assembly) היא הארגון הבינלאומי של רבני ורבניות היהדות הקונסרבטיבית והמסורתית ברחבי העולם, המפרסמת תשובות הלכתיות (CJLS), סידורים, מדריכי חגים ומעגל חיים.",
-      "url": "https://www.linksforisrael.com/JudaismHeritage/MasortiAndCommunities/RabbinicalAssembly",
+      "url": "https://www.linksforisrael.com/judaismheritage/masortiandcommunities/rabbinicalassembly",
       "status": "active",
       "taxonomy_ids": [
         "JudaismHeritage",
@@ -4561,7 +4561,7 @@
       "organization_id": "org:JudaismHeritage/MasortiAndCommunities/FuchsbergCenter",
       "name": "מרכז פוקסברג ירושלים (Conservative Yeshiva)",
       "description": "מרכז פוקסברג ירושלים (The Fuchsberg Jerusalem Center) מפעיל את הישיבה הקונסרבטיבית, תוכניות לימוד מקורות בעברית ובאנגלית, קהילת בית כנסת שוויונית ופעילות תרבות ואירוח לישראלים ולמבקרים מחו״ל.",
-      "url": "https://www.linksforisrael.com/JudaismHeritage/MasortiAndCommunities/FuchsbergCenter",
+      "url": "https://www.linksforisrael.com/judaismheritage/masortiandcommunities/fuchsbergcenter",
       "status": "active",
       "taxonomy_ids": [
         "JudaismHeritage",
@@ -4577,7 +4577,7 @@
       "organization_id": "org:JudaismHeritage/MasortiAndCommunities/Chabad",
       "name": "חב״ד בעולם ובישראל (Chabad.org)",
       "description": "Chabad.org הוא אחד ממאגרי היהדות הגדולים ברשת, הכולל מאתר עולמי לבתי חב״ד למטיילים וליהודים בתפוצות, זמני הדלקת נרות שבת וחג לפי מיקום, מדריכי חגים ומקורות יהדות.",
-      "url": "https://www.linksforisrael.com/JudaismHeritage/MasortiAndCommunities/Chabad",
+      "url": "https://www.linksforisrael.com/judaismheritage/masortiandcommunities/chabad",
       "status": "active",
       "taxonomy_ids": [
         "JudaismHeritage",
@@ -4592,7 +4592,7 @@
       "organization_id": "org:JudaismHeritage/TextsAndCulture/MyJewishLearning",
       "name": "My Jewish Learning — אנציקלופדיה פתוחה ליהדות",
       "description": "My Jewish Learning הוא פורטל חינוכי עצמאי ופלורליסטי המנגיש בשפה ברורה ומזמינה את כל תחומי החיים היהודיים — חגים, שבת, היסטוריה, מחשבת ישראל ומנהגים בקהילות ישראל והתפוצות.",
-      "url": "https://www.linksforisrael.com/JudaismHeritage/TextsAndCulture/MyJewishLearning",
+      "url": "https://www.linksforisrael.com/judaismheritage/textsandculture/myjewishlearning",
       "status": "active",
       "taxonomy_ids": [
         "JudaismHeritage",
@@ -4607,7 +4607,7 @@
       "organization_id": "org:Abroad/IsraelisAndConsular/IAC",
       "name": "IAC — ארגון הקהילה הישראלית-אמריקאית",
       "description": "ארגון IAC (Israeli-American Council) מחבר מאות אלפי ישראלים-אמריקאים ויהודים ברחבי ארה״ב באמצעות עשרות סניפים אזוריים, תוכניות נוער ומשפחות, תרבות עברית, סיוע קהילתי ויוזמות חיזוק הקשר עם ישראל.",
-      "url": "https://www.linksforisrael.com/Abroad/IsraelisAndConsular/IAC",
+      "url": "https://www.linksforisrael.com/abroad/israelisandconsular/iac",
       "status": "active",
       "taxonomy_ids": [
         "Abroad",
@@ -4624,7 +4624,7 @@
       "organization_id": "org:Abroad/SafetyAndCampus/Hillel",
       "name": "Hillel International — חיים יהודיים ותמיכה בסטודנטים ב-850+ קמפוסים",
       "description": "Hillel International פועל בלמעלה מ-850 אוניברסיטאות וקמפוסים בצפון אמריקה, אירופה, אמריקה הלטינית וישראל, מספק בית חם וביטחון לסטודנטים יהודים וישראלים ושותף להפעלת מערך הדיווח והסיוע המשפטי CALL.",
-      "url": "https://www.linksforisrael.com/Abroad/SafetyAndCampus/Hillel",
+      "url": "https://www.linksforisrael.com/abroad/safetyandcampus/hillel",
       "status": "active",
       "taxonomy_ids": [
         "Abroad",
@@ -4640,7 +4640,7 @@
       "organization_id": "org:Abroad/SafetyAndCampus/BrandeisCenter",
       "name": "Louis D. Brandeis Center — הגנה משפטית חינם לסטודנטים בארה״ב",
       "description": "המרכז על שם לואי ברנדייס (LDB) מוביל הגנה משפטית על זכויות אזרח של סטודנטים ואנשי סגל יהודים וישראלים בארה״ב, כולל הגשת תלונות פדרליות לפי Title VI ושותפות בקו הסיוע המשפטי החינמי CALL.",
-      "url": "https://www.linksforisrael.com/Abroad/SafetyAndCampus/BrandeisCenter",
+      "url": "https://www.linksforisrael.com/abroad/safetyandcampus/brandeiscenter",
       "status": "active",
       "taxonomy_ids": [
         "Abroad",
@@ -4656,7 +4656,7 @@
       "organization_id": "org:Abroad/SafetyAndCampus/SCN",
       "name": "Secure Community Network (SCN) — ביטחון קהילתי בצפון אמריקה",
       "description": "Secure Community Network הוא מרכז הביטחון הרשמי של ארגוני וקהילות יהדות צפון אמריקה, הפועל בתיאום עם גורמי אכיפת החוק (FBI ורשויות מקומיות) להגנה על בתי כנסת, בתי ספר ומוסדות קהילתיים.",
-      "url": "https://www.linksforisrael.com/Abroad/SafetyAndCampus/SCN",
+      "url": "https://www.linksforisrael.com/abroad/safetyandcampus/scn",
       "status": "active",
       "taxonomy_ids": [
         "Abroad",
@@ -4672,7 +4672,7 @@
       "organization_id": "org:Abroad/SafetyAndCampus/ADL",
       "name": "ADL — דיווח אירועי אנטישמיות וסיוע משפטי (CALL)",
       "description": "הליגה נגד השמצה (ADL) מפעילה מוקד דיווח לאירועי אנטישמיות והפליה, שותפה להפעלת קו הסיוע המשפטי החינמי לסטודנטים בארה״ב (CALL) ומפרסמת כלים חינוכיים ונתוני מעקב עולמיים.",
-      "url": "https://www.linksforisrael.com/Abroad/SafetyAndCampus/ADL",
+      "url": "https://www.linksforisrael.com/abroad/safetyandcampus/adl",
       "status": "active",
       "taxonomy_ids": [
         "Abroad",
@@ -4688,7 +4688,7 @@
       "organization_id": "org:Abroad/SafetyAndCampus/SPCJFrance",
       "name": "SPCJ — שירות הגנת הקהילה היהודית בצרפת",
       "description": "SPCJ (Service de Protection de la Communauté Juive) פועל בצרפת מאז שנות ה-80 לאבטחת מוסדות יהודיים, קבלת דיווחים על אירועי אנטישמיות וליווי נפגעים בתיאום הדוק עם משרד הפנים והמשטרה הצרפתית.",
-      "url": "https://www.linksforisrael.com/Abroad/SafetyAndCampus/SPCJFrance",
+      "url": "https://www.linksforisrael.com/abroad/safetyandcampus/spcjfrance",
       "status": "active",
       "taxonomy_ids": [
         "Abroad",
@@ -4704,7 +4704,7 @@
       "organization_id": "org:Abroad/SafetyAndCampus/CIJACanada",
       "name": "CIJA — מרכז ענייני ישראל והקהילה היהודית בקנדה",
       "description": "CIJA (Centre for Israel and Jewish Affairs) היא זרוע הסנגור של הפדרציות היהודיות בקנדה — מספקת משאבי תמיכה לסטודנטים ולמשפחות, מדריכי דיווח אירועי שנאה וייצוג ציבורי למען הקהילה היהודית וישראל.",
-      "url": "https://www.linksforisrael.com/Abroad/SafetyAndCampus/CIJACanada",
+      "url": "https://www.linksforisrael.com/abroad/safetyandcampus/cijacanada",
       "status": "active",
       "taxonomy_ids": [
         "Abroad",
@@ -4720,7 +4720,7 @@
       "organization_id": "org:Abroad/SafetyAndCampus/ECAJAustralia",
       "name": "ECAJ — המועצה המבצעת של יהדות אוסטרליה",
       "description": "המועצה המבצעת של יהדות אוסטרליה (ECAJ) היא הארגון היציג של הקהילה היהודית באוסטרליה, המרכזת דיווחי אירועי אנטישמיות, מחקר שנתי, משאבי בטיחות לקהילה ותמיכה בקשר עם ישראל.",
-      "url": "https://www.linksforisrael.com/Abroad/SafetyAndCampus/ECAJAustralia",
+      "url": "https://www.linksforisrael.com/abroad/safetyandcampus/ecajaustralia",
       "status": "active",
       "taxonomy_ids": [
         "Abroad",
@@ -4736,7 +4736,7 @@
       "organization_id": "org:Abroad/DiasporaAndGiving/PEFIsrael",
       "name": "PEF Israel Endowment Funds — תרומה מוכרת במס (501c3) לכל עמותה מאומתת בישראל",
       "description": "PEF Israel Endowment Funds פועלת מאז 1922 כגשר הפילנתרופי המוביל מארה״ב לישראל — תורמים מעבירים תרומה מוכרת במס 501(c)(3) וממליצים על עמותה ישראלית מאומתת בעלת ניהול תקין ללא גביית תקורה מנהלתית.",
-      "url": "https://www.linksforisrael.com/Abroad/DiasporaAndGiving/PEFIsrael",
+      "url": "https://www.linksforisrael.com/abroad/diasporaandgiving/pefisrael",
       "status": "active",
       "taxonomy_ids": [
         "Abroad",
@@ -4751,7 +4751,7 @@
       "organization_id": "org:Abroad/DiasporaAndGiving/JFNA",
       "name": "JFNA — הפדרציות היהודיות של צפון אמריקה",
       "description": "הפדרציות היהודיות של צפון אמריקה (JFNA) מרכזות תרומות חירום ושיקום, שותפויות קהילתיות עם ערים ויישובים בישראל ותמיכה בחיי הקהילה היהודית בארה״ב ובקנדה.",
-      "url": "https://www.linksforisrael.com/Abroad/DiasporaAndGiving/JFNA",
+      "url": "https://www.linksforisrael.com/abroad/diasporaandgiving/jfna",
       "status": "active",
       "taxonomy_ids": [
         "Abroad",
@@ -4767,7 +4767,7 @@
       "organization_id": "org:Abroad/DiasporaAndGiving/JDC",
       "name": "הג׳וינט העולמי (JDC — The Joint)",
       "description": "הג׳וינט (American Jewish Joint Distribution Committee) פועל מאז 1914 לסייע ליהודים במצוקה ולבנות קהילות וחוסן חברתי בישראל ובמעל 70 מדינות ברחבי העולם.",
-      "url": "https://www.linksforisrael.com/Abroad/DiasporaAndGiving/JDC",
+      "url": "https://www.linksforisrael.com/abroad/diasporaandgiving/jdc",
       "status": "active",
       "taxonomy_ids": [
         "Abroad",
@@ -4783,7 +4783,7 @@
       "organization_id": "org:Abroad/DiasporaAndGiving/BirthrightIsrael",
       "name": "תגלית (Birthright Israel) — סיורים והתנדבות לצעירים מחו״ל",
       "description": "תגלית (Birthright Israel) הביאה למעלה מ-850,000 צעירים יהודים מרחבי העולם להיכרות בלתי אמצעית עם ישראל, ומפעילה גם מסלולי התנדבות (Volunteer in Israel) והתמחויות מקצועיות (Onward).",
-      "url": "https://www.linksforisrael.com/Abroad/DiasporaAndGiving/BirthrightIsrael",
+      "url": "https://www.linksforisrael.com/abroad/diasporaandgiving/birthrightisrael",
       "status": "active",
       "taxonomy_ids": [
         "Abroad",
@@ -4799,7 +4799,7 @@
       "organization_id": "org:Abroad/DiasporaAndGiving/PJLibrary",
       "name": "PJ Library — ספרי ילדים יהודיים בחינם ב-40+ מדינות",
       "description": "PJ Library (מיסודה של קרן הרולד גרינספון — אחות של ספריית פיג׳מה בישראל) שולחת מדי חודש מאות אלפי ספרי ילדים יהודיים בחינם למשפחות בלמעלה מ-40 מדינות באנגלית, ספרדית, צרפתית, רוסית ופורטוגזית.",
-      "url": "https://www.linksforisrael.com/Abroad/DiasporaAndGiving/PJLibrary",
+      "url": "https://www.linksforisrael.com/abroad/diasporaandgiving/pjlibrary",
       "status": "active",
       "taxonomy_ids": [
         "Abroad",
@@ -4815,7 +4815,7 @@
       "organization_id": "org:Abroad/DiasporaAndGiving/MoisheHouse",
       "name": "Moishe House (Mem Global) — קהילות צעירים יהודיים ב-30+ מדינות",
       "description": "Moishe House (כיום תחת Mem Global) מפעילה למעלה מ-100 בתים קהילתיים ומועדוני צעירים ב-30+ מדינות, ומאפשרת לצעירים יהודים וישראלים בחו״ל למצוא קהילה חמה, ארוחות שבת ואירועי תרבות בכל עיר גדולה.",
-      "url": "https://www.linksforisrael.com/Abroad/DiasporaAndGiving/MoisheHouse",
+      "url": "https://www.linksforisrael.com/abroad/diasporaandgiving/moishehouse",
       "status": "active",
       "taxonomy_ids": [
         "Abroad",
@@ -4831,7 +4831,7 @@
       "organization_id": "org:Abroad/DiasporaAndGiving/BBYO",
       "name": "BBYO — תנועת הנוער היהודית העולמית",
       "description": "BBYO מחברת עשרות אלפי בני ובנות נוער יהודים ביותר מ-60 מדינות באמצעות סניפים מקומיים, תוכניות מנהיגות, מחנות קיץ ומסעות חינוכיים לישראל.",
-      "url": "https://www.linksforisrael.com/Abroad/DiasporaAndGiving/BBYO",
+      "url": "https://www.linksforisrael.com/abroad/diasporaandgiving/bbyo",
       "status": "active",
       "taxonomy_ids": [
         "Abroad",
@@ -4847,7 +4847,7 @@
       "organization_id": "org:Medical/Main/IronDoctors",
       "name": "רופאות הברזל - ⚡יעוץ רפואי מהיר בשעת חרום⚡",
       "description": "לאור מצב החירום בו נמצאת ישראל בזמנים אלו, שיבא beyond, בית החולים הוירטואלי בשיבא, ובשיתוף קבוצת חדר רופאות הקימו עבורכם/ן מוקד ובו מערך רופאות ורופאים מתנדבים/ות בתחומים שונים. המערך זמין למתן ייעוץ רפואי מהיר דרך הוואטסאפ במצבים לא דחופים ובתחומים שונים: רפואה פנימית ומשפחה, רפואת ילדים, רפואת שיניים, ועוד. שעות פעילות המוקד יתעדכנו מעת לעת, ובהמשך המוקד מיועד לפעילות של 24/7. שעות פעילות המוקד כרגע: 16:00-20:00. אנא התעדכנו בשעות הפעילות בדף זה.",
-      "url": "https://www.linksforisrael.com/Medical/Main/IronDoctors",
+      "url": "https://www.linksforisrael.com/medical/main/irondoctors",
       "status": "active",
       "taxonomy_ids": [
         "Medical",
@@ -4860,7 +4860,7 @@
       "organization_id": "org:Economic/Donations/PayboxSection",
       "name": "פייבוקס - תרומה לעמותות",
       "description": "באפליקציה של פייבוקס יש עמוד של תרומות לעמותות וניתן לבחור עמותה ולתרום לה ישירות",
-      "url": "https://www.linksforisrael.com/Economic/Donations/PayboxSection",
+      "url": "https://www.linksforisrael.com/economic/donations/payboxsection",
       "status": "active",
       "taxonomy_ids": [
         "Economic",
@@ -4873,7 +4873,7 @@
       "organization_id": "org:StrategicCommunication/Main/menatzchim",
       "name": "לא עוצרים עד שמנצחים",
       "description": "מי אנחנו? אנחנו אזרחים שרוצים – כמו כולם – לראות נצחון אמיתי. מאחורי היוזמה עומדת שורה של אנשי ציבור, רבנים ומובילי דעת קהל, פעילים חברתיים ואנשים שאכפת להם. המטרה היא לבטא קריאה ציבורית מקיפה ורחבה, דעת קהל מכל גווני הקשת – המחזקת את הנהגת המדינה והצבא להלחם עד לנצחון האמיתי. כדי להבהיר את הדרך, כדי לא להיכנע ללחצים מבית ומחוץ, כדי לא לאפשר לאף אחד לחזור על טעויות העבר ולהסתפק בחצי-עבודה – אנחנו מגדירים מראש את היעדים של הנצחון. ודורשים לבצע אותם, עד לנצחון המלא בעזרת השם.",
-      "url": "https://www.linksforisrael.com/StrategicCommunication/Main/menatzchim",
+      "url": "https://www.linksforisrael.com/strategiccommunication/main/menatzchim",
       "status": "active",
       "taxonomy_ids": [
         "StrategicCommunication",
@@ -4886,7 +4886,7 @@
       "organization_id": "org:FamilyAndPets/ChildrenContent/OrnaPoratTheater",
       "name": "תאטרון אורנה פורת",
       "description": "תיאטרון אורנה פורת לילדים ולנוער מזמין את ילדי ישראל להפוגה תיאטרלית ומהנה. מוזמנים להיכנס ולצפות בהצגות האון ליין שלנו. חיבוק ואהבה מאיתנו.",
-      "url": "https://www.linksforisrael.com/FamilyAndPets/ChildrenContent/OrnaPoratTheater",
+      "url": "https://www.linksforisrael.com/familyandpets/childrencontent/ornaporattheater",
       "status": "active",
       "taxonomy_ids": [
         "FamilyAndPets",
@@ -4899,7 +4899,7 @@
       "organization_id": "org:MemorialRemembrance/Main/WixRememberThem",
       "name": "תבנית לאתרי יזכור",
       "description": "אנחנו מקבלים לוויקס המון פניות ממשפחות וחברים להקמת אתרי הנצחה דיגיטליים לחללי חרבות ברזל - מקום שבו יוכלו להנציח את יקיריהם, לשתף בסיפורים ותמונות ולהזמין משפחה וחברים להעלות זכרונות ביחד. החלטנו לייצר למשפחות נקודת התחלה קלה יותר לבניית האתרים האלו. באתר ״לזכור אותם״ מוצעים 4 עיצובים שונים (תבניות/ טמפלטים) לאתרי הנצחה אישיים. כל מה שצריך לעשות זה להחליף תמונות ולערוך לתכנים האישיים. האתר כולל גם סרטון הדרכה קצר שמראה כיצד ניתן לעבוד בקלות עם הטמפלטים. וויקס תספק למשפחות דומיין לאתר וכן תמיכה אישית במהלך הבנייה, במידה ויצטרכו.",
-      "url": "https://www.linksforisrael.com/MemorialRemembrance/Main/WixRememberThem",
+      "url": "https://www.linksforisrael.com/memorialremembrance/main/wixrememberthem",
       "status": "active",
       "taxonomy_ids": [
         "MemorialRemembrance",
@@ -4912,7 +4912,7 @@
       "organization_id": "org:StrategicCommunication/SocialNetworks/DigitalDome",
       "name": "Digital Dome - דיגיטל דום",
       "description": "פלטפורמה לדיווח על תכנים זדוניים ברשת. מאימות ודיווח לרשתות להסרתם. התגייסות של כמה חברות הייטק ובכירים בתעשייה.",
-      "url": "https://www.linksforisrael.com/StrategicCommunication/SocialNetworks/DigitalDome",
+      "url": "https://www.linksforisrael.com/strategiccommunication/socialnetworks/digitaldome",
       "status": "active",
       "taxonomy_ids": [
         "StrategicCommunication",
@@ -4925,7 +4925,7 @@
       "organization_id": "org:Defense/Emergency/MamadFixes",
       "name": "MamadFixes - סיירת תיקונים התנדבותית של חלונות ודלתות ממד",
       "description": "עד כה ההתאחדות קיבלה המון פניות מהציבור לתיקון חלונות ודלתות של ממ״דים שנהרסו, ״על כן, לא יכולנו להישאר אדישים והחלטנו למען העם הנפלא הזה להקים סיירת של קבלני שיפוצים שיסיירו ויתקנו את הכשלים בדירות בהתנדבות וללא תשלום מצד בעלי הדירות.",
-      "url": "https://www.linksforisrael.com/Defense/Emergency/MamadFixes",
+      "url": "https://www.linksforisrael.com/defense/emergency/mamadfixes",
       "status": "active",
       "taxonomy_ids": [
         "Defense",
@@ -4938,7 +4938,7 @@
       "organization_id": "org:FamilyAndPets/Main/AnchorForReserveFamilies",
       "name": "העוגן למשפחות המילואים",
       "description": "עזרה למשפחות משרתי מילואים, משרתי קבע והורים יחדניים מגני תקווה",
-      "url": "https://www.linksforisrael.com/FamilyAndPets/Main/AnchorForReserveFamilies",
+      "url": "https://www.linksforisrael.com/familyandpets/main/anchorforreservefamilies",
       "status": "active",
       "taxonomy_ids": [
         "FamilyAndPets",
@@ -4951,7 +4951,7 @@
       "organization_id": "org:Defense/Emergency/MidragSheltersProject",
       "name": "פרויקט מדרג להשמשת מקלטים",
       "description": "השמשת מקלטים ע״י בעלי מקצוע, מקלטי בניינים בלבד (לא פרטיים),  לא כולל החלפת דלתות וחלונות",
-      "url": "https://www.linksforisrael.com/Defense/Emergency/MidragSheltersProject",
+      "url": "https://www.linksforisrael.com/defense/emergency/midragsheltersproject",
       "status": "active",
       "taxonomy_ids": [
         "Defense",
@@ -4964,7 +4964,7 @@
       "organization_id": "org:GeneralAssistance/Main/HamalDana",
       "name": "חמ'ל אזרחי דנה גת",
       "description": "חמ״ל אזרחי – דנה גת, התחיל לפעול בצהרי השבת השחורה וממשיך גם בימים אלה. שלושה שבועות לתוך המלחמה והחמ״ל הוגדר ע״י העיתונאים, כהשני בגודלו ובפעילותו. עם צוות של אלפי מתנדבים החמ״ל נותן מענה למגוון צרכים שהתעוררו עקב המצב. מול חוסרים שמגיעים אלינו, אנחנו דואגים למצוא ספםקים ולעשות מאטצ׳ לתרומות ותורמים. הדרישות מגיעות אלינו ישירות מיחידות החיילים הפרוסים בכל הארץ מגרביים ועד מים, בקשות לאוכל חם ומנחם, עזרה במציאת פתרונות דיור וריהוט למפונים מדרום ועד הצפון, ולאחרונה חיבור תוצרת חקלאית לצרכנים",
-      "url": "https://www.linksforisrael.com/GeneralAssistance/Main/HamalDana",
+      "url": "https://www.linksforisrael.com/generalassistance/main/hamaldana",
       "status": "active",
       "taxonomy_ids": [
         "GeneralAssistance",
@@ -4977,7 +4977,7 @@
       "organization_id": "org:GeneralAssistance/Main/IsraelaBot",
       "name": "ישראלה - בוטית ההתנדבות של ישראל",
       "description": "אני כאן עבור אלו הזקוקים לסיוע, ועבור המתנדבים, על מנת להתאים בין כל מתנדב לכל אחד שזקוק לעזרה",
-      "url": "https://www.linksforisrael.com/GeneralAssistance/Main/IsraelaBot",
+      "url": "https://www.linksforisrael.com/generalassistance/main/israelabot",
       "status": "active",
       "taxonomy_ids": [
         "GeneralAssistance",
@@ -4990,7 +4990,7 @@
       "organization_id": "org:GeneralAssistance/Main/Banu",
       "name": "באנו",
       "description": "*חברות וחברים יקרים*, זכות עצומה נפלה בחלקנו להקים את חמ'ל *Medison Aid* שסיפק מאות אלפי פריטים לחיילים ולתושבי עוטף ישראל. רבים מכם הייתם שותפים לפעילות החמ'ל – נרתמתם ותמכתם בדרכים שונות.  השותפות ורוח ההתנדבות שלכם עומדים בבסיס הצלחת פעילות החמ'ל. מתוך הרצון והחזון לשמר ולהעצים את רוח ההתנדבות, ומתוך ההבנה שאתגרים רבים נוספו בחזיתות נוספות, אנו מרחיבים את משימת 'קהילת המתנדבים' לטובת סיוע באתגרים אלה. *באנו* - קהילת המתנדבים שלנו מורכבת ממיטב אנשי המקצוע מתחומים שונים, הפועלים בהתנדבות מלאה ומבקשים לרתום מזמנם ומנסיונם לטובת תושבי עוטף ישראל, כוחות הבטחון ומשפחותיהם. אנו מזמינים אתכם להצטרף ולקחת חלק בקהילת *באנו* בכל אחד מהתחומים הבאים:\n•\tבנקים ומשכנתאות\n•\tהתנהלות מול משכירים\n•\tביטוח לאומי\n•\tרשויות מקומיות\n•\tייעוץ רפואי\n•\tליווי ויעוץ עסקי\n•\tאקדמיה וחינוך\n•\tמענים ייחודיים לנשים וחיילות\n•\tאחר",
-      "url": "https://www.linksforisrael.com/GeneralAssistance/Main/Banu",
+      "url": "https://www.linksforisrael.com/generalassistance/main/banu",
       "status": "active",
       "taxonomy_ids": [
         "GeneralAssistance",
@@ -5003,7 +5003,7 @@
       "organization_id": "org:GeneralAssistance/Main/חמ״ל ההייטק",
       "name": "TechHamal",
       "description": "חמ'ל ההייטק הוא מיזם של הייטקיסטים ישראליים, שרואים את החובה לסייע לחיילי צה'ל והאוכלוסייה בשעה קשה זו. באמצעות חיבורים למעלה מ-200 מוקדים צבאיים ואזרחיים, אנו עומדים לשירות המדינה והאזרחים כדי לספק את הציוד והסיוע הדרושים בצורה היעילה ביותר.",
-      "url": "https://www.linksforisrael.com/GeneralAssistance/Main/%D7%97%D7%9E%D7%B4%D7%9C%20%D7%94%D7%94%D7%99%D7%99%D7%98%D7%A7",
+      "url": "https://www.linksforisrael.com/generalassistance/main/%D7%97%D7%9E%D7%B4%D7%9C%20%D7%94%D7%94%D7%99%D7%99%D7%98%D7%A7",
       "status": "active",
       "taxonomy_ids": [
         "GeneralAssistance",
@@ -5016,7 +5016,7 @@
       "organization_id": "org:Agriculture/Main/MeshekHai",
       "name": "משק חי",
       "description": "מצטרפים לקרב על הבית! בעקבות מחסור בכוח אדם שעזב בשל המצב, עשרות משקים בישראל זקוקים למתנדבים שיוכלו לסייע באופן מיידי לקטוף את היבול לפני שהוא נרקב. כאן תוכלו למצוא את המקומות שניתן להתנדב בהם, באמצעות פניה ישירות לבעלי המשקים.",
-      "url": "https://www.linksforisrael.com/Agriculture/Main/MeshekHai",
+      "url": "https://www.linksforisrael.com/agriculture/main/meshekhai",
       "status": "active",
       "taxonomy_ids": [
         "Agriculture",
@@ -5029,7 +5029,7 @@
       "organization_id": "org:MemorialRemembrance/Main/ironswords.info",
       "name": "חרבות ברזל - ממוריאליין",
       "description": "Memorialine היא פלטפורמה חברתית דיגיטלית הנועדה לתעד ולשמר את המורשת של הפרט, המשפחה והקהילה.",
-      "url": "https://www.linksforisrael.com/MemorialRemembrance/Main/ironswords.info",
+      "url": "https://www.linksforisrael.com/memorialremembrance/main/ironswords.info",
       "status": "active",
       "taxonomy_ids": [
         "MemorialRemembrance",
@@ -5042,7 +5042,7 @@
       "organization_id": "org:StrategicCommunication/Main/hachazit",
       "name": "תנועת החזית האזרחית",
       "description": "תנועת החזית האזרחית הוקמה על רקע אירועי טבח אוקטובר אשר יצרו קרע קשה באמונו של עם ישראל במערכות הביטחון בישראל ובהגנה לה הוא זקוק. התנועה הוקמה במטרה להחזיר את אמון העם ולהבטיח כי צה'ל ומדינת ישראל יפעלו באופן חופשי במהלך מלחמת עזה, כשיעדי המלחמה, אורכה ודרכי הפעולה שלה, יהיו כפופים אך ורק לצרכיה הביטחוניים והמדיניים של מדינת ישראל, וללא התחשבות בגורמים זרים. התנועה הינה תנועה א-פוליטית, ומאחוריה עומדת קבוצת ישראלים ובהם לוחמים, מפקדים, משפחות שכולות, תושבי העוטף, אנשי תוכן ולוחמי סייבר, שכאבו וכואבים את האירועים הנוראים והחליטו לחבור יחדיו ולפעול כדי להבטיח שלעולם לא עוד.",
-      "url": "https://www.linksforisrael.com/StrategicCommunication/Main/hachazit",
+      "url": "https://www.linksforisrael.com/strategiccommunication/main/hachazit",
       "status": "active",
       "taxonomy_ids": [
         "StrategicCommunication",
@@ -5055,7 +5055,7 @@
       "organization_id": "org:Medical/Main/מהנדסים ללא גבולות - הנגשת בתים",
       "name": "מהנדסים ללא גבולות - הנגשת בתים",
       "description": "למשתקמים הגיבורים ובני משפחותיהם. שזקוקים לעזרה בהנגשה ראשונית של ביתכם המתנדבים של ״מהנדסים ללא גבולות״ שעברו הכשרה ייעודית בבית לווינשטיין, מחכים שתתקשרו! צוותי ההנגשה המיומנים יגיעו לביתכם, בהתנדבות מלאה והכי מהר שניתן וידאגו שבית הפצוע/ה יהיה מונגש ונוח ליציאה, לסופ״ש או בתום תהליך השיקום. הצוות יתקין מאחזי יד, רמפות, מעקות, יארגן את הבית לפי הצורך, ינגיש ממד״ים ינמיך מדפים ועוד ועוד... מוזמנים לפנות אלינו בכל שעה, כי אנחנו כאן בשבילכם!",
-      "url": "https://www.linksforisrael.com/Medical/Main/%D7%9E%D7%94%D7%A0%D7%93%D7%A1%D7%99%D7%9D%20%D7%9C%D7%9C%D7%90%20%D7%92%D7%91%D7%95%D7%9C%D7%95%D7%AA%20-%20%D7%94%D7%A0%D7%92%D7%A9%D7%AA%20%D7%91%D7%AA%D7%99%D7%9D",
+      "url": "https://www.linksforisrael.com/medical/main/%D7%9E%D7%94%D7%A0%D7%93%D7%A1%D7%99%D7%9D%20%D7%9C%D7%9C%D7%90%20%D7%92%D7%91%D7%95%D7%9C%D7%95%D7%AA%20-%20%D7%94%D7%A0%D7%92%D7%A9%D7%AA%20%D7%91%D7%AA%D7%99%D7%9D",
       "status": "active",
       "taxonomy_ids": [
         "Medical",
@@ -5068,7 +5068,7 @@
       "organization_id": "org:MemorialRemembrance/Main/ConsolingMourningFamilies",
       "name": "מנחמים את משפחות הנופלים",
       "description": "המיזם הוקם במטרה להנגיש את מיקומי וזמני השבעה של משפחות הנופלים. בלי תירוצים! כולנו יוצאים מהבית והולכים לנחם, לחבק, ולחזק את האבלים.",
-      "url": "https://www.linksforisrael.com/MemorialRemembrance/Main/ConsolingMourningFamilies",
+      "url": "https://www.linksforisrael.com/memorialremembrance/main/consolingmourningfamilies",
       "status": "active",
       "taxonomy_ids": [
         "MemorialRemembrance",
@@ -5081,7 +5081,7 @@
       "organization_id": "org:Defense/Main/SweetOperation",
       "name": "מבצע החמל המתוק",
       "description": "החמ\"ל המתוק שלנו ממשיך לפנק את כוחותינו בשטח. בשישי הקרוב נגיע לחיילים ולשוטרים בדרום. רוצים להצטרף לאפייה / לעשייה? 🧁 מוזמנים לאפות עוגות, עוגיות ולהעביר לאחת מנקודות האיסוף שלנו (פירוט בהמשך). 🧁 אם אפייה היא לא הצד החזק שלכם ויש לכם רכב – נשמח שתצטרפו אלינו לשינוע וחלוקה בשישי בבוקר. 🧁 רוצים לפתוח נקודת איסוף באיזור מגוריכם? פנו אלינו בפרטי. ניתן להביא את התוצרים עד יום חמישי בערב (המשלוח יצא בבוקר). עזרו לנו לעשות לחיילים שלנו שבת מתוקה.",
-      "url": "https://www.linksforisrael.com/Defense/Main/SweetOperation",
+      "url": "https://www.linksforisrael.com/defense/main/sweetoperation",
       "status": "active",
       "taxonomy_ids": [
         "Defense",
@@ -5094,7 +5094,7 @@
       "organization_id": "org:Economic/Businesses/StartupForStartupEmergencySupport",
       "name": "סיוע מקצועי בשעת חירום - Startup for Startup",
       "description": "כמו כל מדינת ישראל, גם קהילת ההייטק נכנסה למצב חירום ב-7 לאוקטובר. אם נתקלתם באתגר משמעותי או נקלעתם לקשיים כתוצאה מהמצב, כאן תוכלו למצוא יזמים/ות, משקיעים/ות וגורמים נוספים בקהילה שישמחו לעזור - בין אם זה על ידי מתן שעות ייעוץ, סיוע בפיתוח המוצר או חיבור לאנשים רלוונטיים מחברות אחרות באקוסיסטם. סננו לפי תפקיד ותחום התמחות, גלו מי יכול/ה לעזור ושלחו להם הודעה.",
-      "url": "https://www.linksforisrael.com/Economic/Businesses/StartupForStartupEmergencySupport",
+      "url": "https://www.linksforisrael.com/economic/businesses/startupforstartupemergencysupport",
       "status": "active",
       "taxonomy_ids": [
         "Economic",
@@ -5107,7 +5107,7 @@
       "organization_id": "org:StrategicCommunication/Tools/EllaGPT",
       "name": "אלה GPT",
       "description": "התחלתי לשחק עם GPTs והדבר הראשון שחשבתי עליו הוא בוט שכותב תגובות לאנטישמים ומכחישי מציאות בטוויטר. מוזמנים להשתמש ב-EllaGPT. פשוט תעתיקו פוסט ותעתיקו את התשובה אליו חזרה. אם יש לכם הצעות לשיפור, מוזמנים לשלוח הודעה",
-      "url": "https://www.linksforisrael.com/StrategicCommunication/Tools/EllaGPT",
+      "url": "https://www.linksforisrael.com/strategiccommunication/tools/ellagpt",
       "status": "active",
       "taxonomy_ids": [
         "StrategicCommunication",
@@ -5120,7 +5120,7 @@
       "organization_id": "org:GeneralAssistance/Main/IsraelIsEnlisting",
       "name": "ישראל מתגייסת",
       "description": "יותר מ-250 אלף ישראלים עזבו את ביתם בגלל המלחמה שפרצה מול חמאס ומאות אלפי חיילי מילואים גוייסו • כאן ב-N12 אנחנו מתגייסים לחבר בין מי שזקוק לסיוע לבין שפע יוזמות הסיוע של הישראלים • יוזמות אירוח, סיוע לוגיסטי, סיוע לחיילים בסדיר ובמילואים • רוצים לעזור? צריכים עזרה? כתבו לנו בוואטסאפ",
-      "url": "https://www.linksforisrael.com/GeneralAssistance/Main/IsraelIsEnlisting",
+      "url": "https://www.linksforisrael.com/generalassistance/main/israelisenlisting",
       "status": "active",
       "taxonomy_ids": [
         "GeneralAssistance",
@@ -5133,7 +5133,7 @@
       "organization_id": "org:GeneralAssistance/Main/IsraelWins",
       "name": "ישראל מנצחת",
       "description": "החברה הישראלית עוברת את אחת התקופה הקשות והמורכבות שעבר העם היהודי. אנו מזמינים אתכם לצפות בכל המידע והאירועים שהתרחשו ומתרחשים. גם במציאות הקשה הזו אנו לא נשברים, נשארים מאוחדים ומקווים לימים טובים יותר!",
-      "url": "https://www.linksforisrael.com/GeneralAssistance/Main/IsraelWins",
+      "url": "https://www.linksforisrael.com/generalassistance/main/israelwins",
       "status": "active",
       "taxonomy_ids": [
         "GeneralAssistance",
@@ -5146,7 +5146,7 @@
       "organization_id": "org:Agriculture/Main/BuyFromIsraeliAgriculture",
       "name": "קונים חקלאות ישראלית",
       "description": "מטרת המיזם היא הצלת הפרנסה של החקלאים, הצלת הסחורה והתוצרת, ומכירה במחירים רואיים לצרכנים.",
-      "url": "https://www.linksforisrael.com/Agriculture/Main/BuyFromIsraeliAgriculture",
+      "url": "https://www.linksforisrael.com/agriculture/main/buyfromisraeliagriculture",
       "status": "active",
       "taxonomy_ids": [
         "Agriculture",
@@ -5159,7 +5159,7 @@
       "organization_id": "org:Agriculture/Main/StrengtheningTheFarmers",
       "name": "מחזקים את החקלאים",
       "description": "הפעילות מגוונת ותלויה בצרכי החקלאים. הרשמו עכשיו והצטרפו אלינו למעגל של סולידריות חברתית ואהבת הארץ.",
-      "url": "https://www.linksforisrael.com/Agriculture/Main/StrengtheningTheFarmers",
+      "url": "https://www.linksforisrael.com/agriculture/main/strengtheningthefarmers",
       "status": "active",
       "taxonomy_ids": [
         "Agriculture",
@@ -5172,7 +5172,7 @@
       "organization_id": "org:MemorialRemembrance/Main/Givethemakaddish",
       "name": "קדיש למען הנרצחים",
       "description": "יוזמה לאיתור מתנדבים שיאמרו קדיש על הנרצחים בשמחת תורה. מכיוון שיש משפחות שלמות או ו ילדים או ו עוד אנשים שאין מי שיאמר עליהם קדיש",
-      "url": "https://www.linksforisrael.com/MemorialRemembrance/Main/Givethemakaddish",
+      "url": "https://www.linksforisrael.com/memorialremembrance/main/givethemakaddish",
       "status": "active",
       "taxonomy_ids": [
         "MemorialRemembrance",
@@ -5185,7 +5185,7 @@
       "organization_id": "org:StrategicCommunication/SocialNetworks/HamalHasbara",
       "name": "חמל הסברה חרבות ברזל",
       "description": "קבוצת פייסבוק עם 6000 משתתפים בעברית. יצירת סרטוני הסברה, תרגום לשפות והפצה יעילה ואפקטיבית על ידי שימוש בכלים מתקדמים. שימוש אפקטיבי במדייה החברתית. הדרכות",
-      "url": "https://www.linksforisrael.com/StrategicCommunication/SocialNetworks/HamalHasbara",
+      "url": "https://www.linksforisrael.com/strategiccommunication/socialnetworks/hamalhasbara",
       "status": "active",
       "taxonomy_ids": [
         "StrategicCommunication",
@@ -5198,7 +5198,7 @@
       "organization_id": "org:Medical/MentalSupport/HugIntoTheNight",
       "name": "חיבוק לתוך הלילה",
       "description": "מיזם מהעורף האוסטרלי. לא מצליח.ה לישון? האחיות האוסטרליות שלך כאן בשבילך חברנו יחד כמה מנחות ומטפלות ישראליות שגרות באוסטרליה למיזם ״חיבוק לתוך הלילה״ - לתת עזרה למי שבישראל בשעות שהן הכי קשות להרבה מאיתנו - שעות הלילה. הזום שלנו פתוח מ23:00 עד 2:00 בלילה של ישראל. אם קשה לך לישון, אנחנו נהיה שם איתך לנשימה משותפת, שיתוף ואוורור רגשי, מרחב בטוח לביטוי ויחד. אל תשארו לבד עם נדודי השינה. בואו 🩷 קישור לקבוצת ווצאפ שבה נשלח את הקישורים והתזכורות",
-      "url": "https://www.linksforisrael.com/Medical/MentalSupport/HugIntoTheNight",
+      "url": "https://www.linksforisrael.com/medical/mentalsupport/hugintothenight",
       "status": "active",
       "taxonomy_ids": [
         "Medical",
@@ -5211,7 +5211,7 @@
       "organization_id": "org:Medical/MentalSupport/MentalSupportForm",
       "name": "טופס לבקשת טיפול נפשי",
       "description": "מערך מטפלים תודעתיים, רגשיים, תרפיית מימדים, NLP, EMP , מומחים בטראומה שיוכל לסייע לנפגעי נפש, חרדה וטראומה. אנו כ 70 מטפלים וזה עוד יגדל. המחזות קשים ונשמח לסייע ולעזור לכל מי שמעוניין מהעוטף, מהעורף, לילדים, מבוגרים, כוחות הביטחון, זק״א, מד״א וכל השאר. כמובן בהתנדבות ובאהבה ❤ כוחנו באחדותיינו זה הזמן להיות אחד למען השני. אנחנו פה בשבילכם ויחד ננצח את המצב נפשית, תודעתית וביטחונית. כל מי שזקוק לעזרה וטיפול אתם מוזמנים למלא את הטופס ונתאים לכם מטפל/ת. אני פה בשבילכם ❤ בעזרת השם ובעזרת עם ישראל נצא מחוזקים מהתקופה הזו יחד🙏",
-      "url": "https://www.linksforisrael.com/Medical/MentalSupport/MentalSupportForm",
+      "url": "https://www.linksforisrael.com/medical/mentalsupport/mentalsupportform",
       "status": "active",
       "taxonomy_ids": [
         "Medical",
@@ -5224,7 +5224,7 @@
       "organization_id": "org:Defense/Main/IdfMissingEquipmentHotline",
       "name": "מוקד אט'ל לפניות ציוד חסר בצבא",
       "description": "אגף הטכנולוגיה והלוגיסטיקה מפעיל מוקד פניות בנושאי מזון, ציוד ולוגיסטיקה הזמין 7/24 עבור משרתי צה״ל",
-      "url": "https://www.linksforisrael.com/Defense/Main/IdfMissingEquipmentHotline",
+      "url": "https://www.linksforisrael.com/defense/main/idfmissingequipmenthotline",
       "status": "active",
       "taxonomy_ids": [
         "Defense",
@@ -5237,7 +5237,7 @@
       "organization_id": "org:Defense/Main/DrushimMiluim",
       "name": "דרושים – למילואים",
       "description": "קהילת ״דרושים – למילואים״ הוקמה בשנת 2021 כיוזמה אזרחית מהשטח ומחברת בין אנשי ונשות מילואים ומתנדבים לבין תפקידים פתוחים ביחידות צה״ל דרך מערכת מודעות ייעודית, ערוץ טלגרם וקהילת וואטסאפ.",
-      "url": "https://www.linksforisrael.com/Defense/Main/DrushimMiluim",
+      "url": "https://www.linksforisrael.com/defense/main/drushimmiluim",
       "status": "active",
       "taxonomy_ids": [
         "Defense",
@@ -5253,7 +5253,7 @@
       "organization_id": "org:Defense/Emergency/SafePlace",
       "name": "מקום בטוח - Safe Place",
       "description": "אפליקציה המקשרת בין מארחים למתארחים ומסייעת במציאת דיור למפונים מאזורי ירי מוגבר, עקורים וכאלה שאיבדו את ביתם. היוזמה מאפשרת למצוא מקום לשהות בו בחינם ברחבי הארץ אצל מארחים אדיבים אשר פותחים את דלתם וליבם לתושבי ישראל. ניתן לסנן מקומות אירוח על פי מיקום גאוגרפי, כמות אנשים, נגישות לנכים ועוד.",
-      "url": "https://www.linksforisrael.com/Defense/Emergency/SafePlace",
+      "url": "https://www.linksforisrael.com/defense/emergency/safeplace",
       "status": "active",
       "taxonomy_ids": [
         "Defense",
@@ -5266,7 +5266,7 @@
       "organization_id": "org:Defense/Emergency/BrothersHostingBrothers",
       "name": "אחים מארחים אחים",
       "description": "מיזם המתאים בין אורחים למארחים...",
-      "url": "https://www.linksforisrael.com/Defense/Emergency/BrothersHostingBrothers",
+      "url": "https://www.linksforisrael.com/defense/emergency/brothershostingbrothers",
       "status": "active",
       "taxonomy_ids": [
         "Defense",
@@ -5279,7 +5279,7 @@
       "organization_id": "org:Defense/Emergency/MiklatFinder",
       "name": "קוד למציאת מקלט",
       "description": "To make the residents feel safer, we developed a website that shows the nearest miklats to their location, or from a particular address. The list of miklats was collected from both the iriyah, and from friends around the city. The website shows a table with details of the 3 nearest miklats, as well as a map containing the location of those miklats relative to your location/address. It is available in both English and Hebrew, and contains instructions taken from Pikud Haoref on what to do if you can't get to a miklat in time. We decided to make our code open source, so that other developers could host their own versions of the website for their particular city. They will need to create their own database of miklat locations. Everything that is necessary is explained in detail in the repo's README.",
-      "url": "https://www.linksforisrael.com/Defense/Emergency/MiklatFinder",
+      "url": "https://www.linksforisrael.com/defense/emergency/miklatfinder",
       "status": "active",
       "taxonomy_ids": [
         "Defense",
@@ -5292,7 +5292,7 @@
       "organization_id": "org:Economic/Donations/GiveIsrael",
       "name": "Give Israel",
       "description": "At Give Israel, our primary mission in these challenging times following the recent attack on Israel is to work closely with verified voluntary organizations within the country. Our devoted team of volunteers has meticulously validated each of these organizations to ensure they are credible and effectively supporting the nation through crucial initiatives. These validated groups actively supply soldiers with essential items like boots and warm food, purchase vital equipment for hospitals, and offer comprehensive support to attack survivors — providing food, clothing, essentials, and much-needed mental support.",
-      "url": "https://www.linksforisrael.com/Economic/Donations/GiveIsrael",
+      "url": "https://www.linksforisrael.com/economic/donations/giveisrael",
       "status": "active",
       "taxonomy_ids": [
         "Economic",
@@ -5305,7 +5305,7 @@
       "organization_id": "org:Economic/Businesses/CentralizedBenefitsAndRights",
       "name": "טבלה מרכזת ןמתעדכנת של הטבות וזכויות",
       "description": "קובץ חשוב 📌 ומתעדכן: כל ההקלות, ההטבות והעדכונים בטבלה אחת מתעדכנת. לאור המצב עסקים רבים באים לקראת הציבור הישראלי במגוון דרכים שונות. מורן אברהם (מורן תסדר), עושה סדר חשוב מאד בכל ההצעות והעדכונים שיכולים קצת להקל עליכם כרגע. מבנקים ועד חברות סלולרי, ביטוחים ומשרדי ממשלה הכל פה (וממשיך להתעדכן)",
-      "url": "https://www.linksforisrael.com/Economic/Businesses/CentralizedBenefitsAndRights",
+      "url": "https://www.linksforisrael.com/economic/businesses/centralizedbenefitsandrights",
       "status": "active",
       "taxonomy_ids": [
         "Economic",
@@ -5318,7 +5318,7 @@
       "organization_id": "org:Economic/Businesses/HuggingTheReserveSoldiers",
       "name": "מחבקים את המילואימניקים",
       "description": "יש ברשימה בתי קפה ומסעדות, עורכי דין, מאמני כושר, מובילים, נגרים ומה לא - שהבעלים שלהם נמצאים גם כעת עמוק בעזה או ישנים באוהלים בגבול הצפון כבר מעל 70 יום, ומגיע להם שנקנה אצלם, מגיע להם שנחבק אותם. חלקם אמנם לא יכולים לתת שירות מיידי כי הם לא בזמינות (יש למשל שף פרטי שנמצא בלחימה. אחיו נהרג כשיצא מעזה והוא ממשיך להילחם), אבל הם ישמחו שתבקרו אצלם באתר, תתרשמו ותרשמו להיות לקוחות שלהם בעתיד. אפרת בדקה ודיברה עם כל המילאומניקים (והמילואמניקיות) ברשימה (או עם בני המשפחה שלהם), יש בלינק דרכים ליצירת קשר,  ואפשר גם לעשות חיפוש דרך אפליקציית איזי כדי לדעת מה מהם קרוב אליכם.",
-      "url": "https://www.linksforisrael.com/Economic/Businesses/HuggingTheReserveSoldiers",
+      "url": "https://www.linksforisrael.com/economic/businesses/huggingthereservesoldiers",
       "status": "active",
       "taxonomy_ids": [
         "Economic",
@@ -5331,7 +5331,7 @@
       "organization_id": "org:Economic/Businesses/AWSIsraelSupport",
       "name": "AWS ישראל - AWS Israel",
       "description": "עקב המצב הביטחוני, AWS ישראל מציעה מאות שעות ייעוץ של מומחים בתחומים טכנולוגיים שונים כולל AI/ML, Security, Containers, Database ועוד. הירשמו עכשיו והפיקו תועלת מהמומחים שלנו.",
-      "url": "https://www.linksforisrael.com/Economic/Businesses/AWSIsraelSupport",
+      "url": "https://www.linksforisrael.com/economic/businesses/awsisraelsupport",
       "status": "active",
       "taxonomy_ids": [
         "Economic",
@@ -5344,7 +5344,7 @@
       "organization_id": "org:FamilyAndPets/Main/FluffyFinder",
       "name": "Fluffy Finder",
       "description": "אנו קבוצת מתנדבים בעלי רקע טכנולוגי שהחליטו לקחת יוזמה וליצור פתרון טכנולוגי לאיתור כלבים אבודים וחיבורם לבעליהם, ולכלבים שבעליהם חסרים וזקוקים לבית. כרגע הפתרון הוא מגוון קבוצות וואטסאפ לא מאורגנות עם אינספור תמונות חוזרות ומתנדבים שצריכים למיין ולחפש התאמות באופן ידני - תהליך סיזיפי, ידני, מאוד מבולגן ולא יעיל. הפתרון שלנו עושה סדר בבלאגן ובנוסף, באמצעות אלגוריתמים של בינה מלאכותית, מסייע בחיפוש במסד הנתונים ומציע אפשרויות רלוונטיות תוך מספר שניות.",
-      "url": "https://www.linksforisrael.com/FamilyAndPets/Main/FluffyFinder",
+      "url": "https://www.linksforisrael.com/familyandpets/main/fluffyfinder",
       "status": "active",
       "taxonomy_ids": [
         "FamilyAndPets",
@@ -5357,7 +5357,7 @@
       "organization_id": "org:FamilyAndPets/ChildrenContent/ChildrenParentsContentBoard",
       "name": "לוח שיתופי מתעדכן של תכנים לילדים ולהורים, בנושאי חוסן ולמידה בזמן מלחמה",
       "description": "סיוע בתקופת המלחמה בנושאי למידה וחוסן נפשי - פורטל תכנים חינמיים מדהים!",
-      "url": "https://www.linksforisrael.com/FamilyAndPets/ChildrenContent/ChildrenParentsContentBoard",
+      "url": "https://www.linksforisrael.com/familyandpets/childrencontent/childrenparentscontentboard",
       "status": "active",
       "taxonomy_ids": [
         "FamilyAndPets",
@@ -5370,7 +5370,7 @@
       "organization_id": "org:FamilyAndPets/ChildrenContent/ChildrenActivities",
       "name": "דעת - פעילויות לילדים",
       "description": "הורים יקרים, גננות, מורים לחוגים וילדים יקרים לאור המצב הביטחוני והצורך לתת לילדים בגיל הרך מענה ותמיכה אנו משתפים אתכם בסרטונים לימודיים מתוך הספריה הדיגיטלית של נטקידס.",
-      "url": "https://www.linksforisrael.com/FamilyAndPets/ChildrenContent/ChildrenActivities",
+      "url": "https://www.linksforisrael.com/familyandpets/childrencontent/childrenactivities",
       "status": "active",
       "taxonomy_ids": [
         "FamilyAndPets",
@@ -5383,7 +5383,7 @@
       "organization_id": "org:FamilyAndPets/ChildrenContent/Simplesteps - סימפלסטפס",
       "name": "simplesteps",
       "description": "Simple Steps - סימפלסטפס אתר לילדים וילדות סקרנים במיוחד, ניסויים מדעיים, סרטוני בישול לילדים, פודקאסט חלל על הזמן ועוד. מערכי שיעור לאנשי הוראה",
-      "url": "https://www.linksforisrael.com/FamilyAndPets/ChildrenContent/Simplesteps%20-%20%D7%A1%D7%99%D7%9E%D7%A4%D7%9C%D7%A1%D7%98%D7%A4%D7%A1",
+      "url": "https://www.linksforisrael.com/familyandpets/childrencontent/simplesteps%20-%20%D7%A1%D7%99%D7%9E%D7%A4%D7%9C%D7%A1%D7%98%D7%A4%D7%A1",
       "status": "active",
       "taxonomy_ids": [
         "FamilyAndPets",
@@ -5396,7 +5396,7 @@
       "organization_id": "org:GeneralAssistance/Main/IronSwordsVolunteers",
       "name": "מתנדבי חרבות ברזל - חמל חיבורים",
       "description": "קבוצת הפייסבוק הוקמה במטרה לחבר בין אנשים המעוניינים להתנדב לבין מבקשי סיוע, לפרסום של הצעות ובקשות להתנדבות ותרומות.",
-      "url": "https://www.linksforisrael.com/GeneralAssistance/Main/IronSwordsVolunteers",
+      "url": "https://www.linksforisrael.com/generalassistance/main/ironswordsvolunteers",
       "status": "active",
       "taxonomy_ids": [
         "GeneralAssistance",
@@ -5409,7 +5409,7 @@
       "organization_id": "org:GeneralAssistance/Main/NationalHelpAndVolunteerPortal",
       "name": "פורטל התנדבות וסיוע ארצי",
       "description": "שלום, עלה לאוויר פורטל התנדבות וסיוע ארצי מתכלל. ישנו צוות מתנדבים שמתפעל ומעדכן את המידע באופן שוטף.",
-      "url": "https://www.linksforisrael.com/GeneralAssistance/Main/NationalHelpAndVolunteerPortal",
+      "url": "https://www.linksforisrael.com/generalassistance/main/nationalhelpandvolunteerportal",
       "status": "active",
       "taxonomy_ids": [
         "GeneralAssistance",
@@ -5422,7 +5422,7 @@
       "organization_id": "org:Olim/CareerAndLoneSoldiers/GetHelpIsrael",
       "name": "Get Help Israel — מדריך מטפלים דוברי אנגלית",
       "description": "Get Help Israel מרכז מאגר נגיש וחינמי של מטפלים מוסמכים, פסיכותרפיסטים, קבוצות תמיכה ומרכזי סיוע רגשי ונפשי לדוברי אנגלית ועולים חדשים ברחבי ישראל.",
-      "url": "https://www.linksforisrael.com/Olim/CareerAndLoneSoldiers/GetHelpIsrael",
+      "url": "https://www.linksforisrael.com/olim/careerandlonesoldiers/gethelpisrael",
       "status": "active",
       "taxonomy_ids": [
         "Olim",
@@ -5437,7 +5437,7 @@
       "organization_id": "org:JudaismHeritage/TextsAndCulture/Hebcal",
       "name": "Hebcal — לוח שנה עברי פתוח וזמני שבת",
       "description": "Hebcal הוא כלי קוד-פתוח חינמי ופופולרי להמרת תאריכים עבריים-לועזיים, חישוב זמני הדלקת נרות שבת וחג בכל עיר בישראל ובעולם, פרשת השבוע וייצוא לוח חגים ל-Google Calendar ו-Apple Calendar.",
-      "url": "https://www.linksforisrael.com/JudaismHeritage/TextsAndCulture/Hebcal",
+      "url": "https://www.linksforisrael.com/judaismheritage/textsandculture/hebcal",
       "status": "active",
       "taxonomy_ids": [
         "JudaismHeritage",
@@ -5452,7 +5452,7 @@
       "organization_id": "org:Agriculture/Main/FarmingIsrael",
       "name": "התנדבות לחקלאות בעוטף ובצפון",
       "description": "בחרו משימה, הצטרפו לקבוצת ווטסאפ עם החקלאי וקבלו את כל הפרטים. אנו קבוצת מתנדבים פרטיים שלא קשורים לשום גוף או עמותה. כל הקבוצות זהות ומספיק להיות בקבוצה אחת בלבד",
-      "url": "https://www.linksforisrael.com/Agriculture/Main/FarmingIsrael",
+      "url": "https://www.linksforisrael.com/agriculture/main/farmingisrael",
       "status": "active",
       "taxonomy_ids": [
         "Agriculture",
@@ -5465,7 +5465,7 @@
       "organization_id": "org:Agriculture/Main/WorkInAgricultureDuringWar",
       "name": "עבודה בחקלאות בזמן מלחמה",
       "description": "אנחנו  מבינים שכרגע חלק מהחקלאים זקוקים למתנדבים להצלת יבול לאור המצב ואין ביכולתם לשלם, ולהם יתאימו מתנדבים שבאים ליומיים שלושה. ואילו אחרים שנפגעו פחות משלל אילוצי המלחמה יוכלו לשלם בקבלנות או לפי שעות לשיקולם, מחפשים עובדים שיכולים להתחייב לטווח ארוך יותר, ובלבד שיש ניסיון/כושר נדרש. קבלו בהבנה שאתם מתחרים בשכר וביכולת עבודה של תאילנדים..... כולנו במצב מלחמה ונעבור את זה ביחד.",
-      "url": "https://www.linksforisrael.com/Agriculture/Main/WorkInAgricultureDuringWar",
+      "url": "https://www.linksforisrael.com/agriculture/main/workinagricultureduringwar",
       "status": "active",
       "taxonomy_ids": [
         "Agriculture",
@@ -5478,7 +5478,7 @@
       "organization_id": "org:Agriculture/Main/HarnessedToAgriculture",
       "name": "נרתמים לחקלאות",
       "description": "הצטרפו אלינו כבר למעלה מ- 2,500 מתנדבים שמסייעים מידי יום לעשרות חקלאים בכל רחבי הארץ כולל בעוטף. אנחנו מזמינים אתכם להצטרף אלינו, לתת כתף, לצאת קצת לשטח להרגיש אדמה ולסייע במקום בו באמת צריכים אתכם. הצטרפו לקבוצת הוואטסאפ, שם אנחנו מפרסמים מידי יום מידע על התנדבויות במשקים חקלאים. את פירות העבודה שלכם תגלו אצל הירקנים בעוד שבוע.",
-      "url": "https://www.linksforisrael.com/Agriculture/Main/HarnessedToAgriculture",
+      "url": "https://www.linksforisrael.com/agriculture/main/harnessedtoagriculture",
       "status": "active",
       "taxonomy_ids": [
         "Agriculture",
@@ -5491,7 +5491,7 @@
       "organization_id": "org:MemorialRemembrance/Main/IllustrationNofalim",
       "name": "איורים של הנופלים - Benzi Wolman",
       "description": "בימים האחרונים אני יושב ומאייר את דמותם של הנופלים שהיו שם בשבילנו. הורים, צעירים וצעירות ששילמו בחייהם כדי להגן עלינו. זה עוזר לי לעצור, להסתכל להם בעיניים, לחשוב על המשפחות שלהם ועל החברים שלהם, ולכאוב את הכאב שלהם. אם אתם יודעים על משפחה שעשויה לרצות את הציור של יקירם, ניתן לפנות אלי במייל.",
-      "url": "https://www.linksforisrael.com/MemorialRemembrance/Main/IllustrationNofalim",
+      "url": "https://www.linksforisrael.com/memorialremembrance/main/illustrationnofalim",
       "status": "active",
       "taxonomy_ids": [
         "MemorialRemembrance",
@@ -5504,7 +5504,7 @@
       "organization_id": "org:MemorialRemembrance/Main/echoBox",
       "name": "תיבת תהודה",
       "description": "חלק מ'קהילה זוכרת' - קהילה דיגיטלית לקידום הנצחה חיה לזכר חללי מערכות ישראל ונפגעי פעולות איבה",
-      "url": "https://www.linksforisrael.com/MemorialRemembrance/Main/echoBox",
+      "url": "https://www.linksforisrael.com/memorialremembrance/main/echobox",
       "status": "active",
       "taxonomy_ids": [
         "MemorialRemembrance",
@@ -5517,7 +5517,7 @@
       "organization_id": "org:MemorialRemembrance/Main/Mishna1ForNeshama1",
       "name": "משנה 1 לנשמה 1",
       "description": "קבוצת וואטסאפ קהילתית שבה מתפרסמים מדי יום שם אחד של חלל או נרצח מה-7 באוקטובר ומשנה אחת יומית ללימוד משותף לעילוי נשמתו.",
-      "url": "https://www.linksforisrael.com/MemorialRemembrance/Main/Mishna1ForNeshama1",
+      "url": "https://www.linksforisrael.com/memorialremembrance/main/mishna1forneshama1",
       "status": "active",
       "taxonomy_ids": [
         "MemorialRemembrance",
@@ -5532,7 +5532,7 @@
       "organization_id": "org:StrategicCommunication/Main/אתר בין לאומי למלחמת חרבות ברזל",
       "name": "אתר בין לאומי למלחמת חרבות ברזל",
       "description": "לאחר הטבח ב-7 באוקטובר, הקהילה הבינלאומית הזדהתה עם ישראל. הוארו בניינים בצבעי הדגל הישראלי והתקיימו הפגנות תמיכה רחבות. אך, בחודשים האחרונים דעת הקהל העולמית השתנתה בשל תעמולה פלסטינית יעילה שעיוותה את תמונת המציאות. הדיסאינפורמציה הפכה את ישראל להיראות כזו שתוקפת ולא כמי שמגינה על עצמה. יש חשיבות עליונה לשינוי הנרטיב העולמי, להדגיש את זכות ישראל להגנה ולשמור על האמת לגבי אירועי ה-7 באוקטובר והצורך במאבק בטרור.",
-      "url": "https://www.linksforisrael.com/StrategicCommunication/Main/%D7%90%D7%AA%D7%A8%20%D7%91%D7%99%D7%9F%20%D7%9C%D7%90%D7%95%D7%9E%D7%99%20%D7%9C%D7%9E%D7%9C%D7%97%D7%9E%D7%AA%20%D7%97%D7%A8%D7%91%D7%95%D7%AA%20%D7%91%D7%A8%D7%96%D7%9C",
+      "url": "https://www.linksforisrael.com/strategiccommunication/main/%D7%90%D7%AA%D7%A8%20%D7%91%D7%99%D7%9F%20%D7%9C%D7%90%D7%95%D7%9E%D7%99%20%D7%9C%D7%9E%D7%9C%D7%97%D7%9E%D7%AA%20%D7%97%D7%A8%D7%91%D7%95%D7%AA%20%D7%91%D7%A8%D7%96%D7%9C",
       "status": "active",
       "taxonomy_ids": [
         "StrategicCommunication",
@@ -5545,7 +5545,7 @@
       "organization_id": "org:StrategicCommunication/Main/TovStrategicCommunications",
       "name": "ערוץ TOV - הסברה יהודית בזירה הבינלאומית",
       "description": "מה היה קורה בהסברה הבינלאומית אם כל העולם היה יכול לצפות בתכנים של ערוץ TOV בזמן אמת באנגלית? מאות אלפי צופים מגיעים לתוכן של ערוץ TOV מדי שבוע קהל נאמן שמגיע לצפות, לעקוב להתעדכן ללמוד ולהחכים ולשמוע קול יהודי ישראלי צלול וחד. עכשיו הגיע הזמן לתת לתוכן הזה לפרוץ את גבולות הארץ ולהגיע לתפוצות ולשמש את ישראל כתוכן הסברה עמוק ומנומק.",
-      "url": "https://www.linksforisrael.com/StrategicCommunication/Main/TovStrategicCommunications",
+      "url": "https://www.linksforisrael.com/strategiccommunication/main/tovstrategiccommunications",
       "status": "active",
       "taxonomy_ids": [
         "StrategicCommunication",
@@ -5558,7 +5558,7 @@
       "organization_id": "org:StrategicCommunication/Main/HamalMeida",
       "name": "החזית האזרחית - The Civilian Front",
       "description": "קהילת הסברה בינלאומית (מעל 15 מדינות), קבוצה נפרדת לקהילה הבינלאומית - https://chat.whatsapp.com/FiuvEYDFBY6H7y924iUier",
-      "url": "https://www.linksforisrael.com/StrategicCommunication/Main/HamalMeida",
+      "url": "https://www.linksforisrael.com/strategiccommunication/main/hamalmeida",
       "status": "active",
       "taxonomy_ids": [
         "StrategicCommunication",
@@ -5571,7 +5571,7 @@
       "organization_id": "org:StrategicCommunication/Main/ExplainIsrael",
       "name": "Explain Israel",
       "description": "מטה שהוקם עי אזרחים ישראלים שאכפת להם מהמדינה במטרה לסייע במאבק ההסברה העולמי - גוגל דרייב עם תכני הסברה בכל השפות",
-      "url": "https://www.linksforisrael.com/StrategicCommunication/Main/ExplainIsrael",
+      "url": "https://www.linksforisrael.com/strategiccommunication/main/explainisrael",
       "status": "active",
       "taxonomy_ids": [
         "StrategicCommunication",
@@ -5584,7 +5584,7 @@
       "organization_id": "org:StrategicCommunication/Main/StrategicCommunicationDistribution",
       "name": "הסברה ישראלית - הפצה",
       "description": "קבוצת הפצה של חומרי הסברה לחו'ל - לכל המדינות. ערוץ תקשורת מרכזי של המערך החוצה - כולל גם עדכונים, שיתופי פעולה וכו'",
-      "url": "https://www.linksforisrael.com/StrategicCommunication/Main/StrategicCommunicationDistribution",
+      "url": "https://www.linksforisrael.com/strategiccommunication/main/strategiccommunicationdistribution",
       "status": "active",
       "taxonomy_ids": [
         "StrategicCommunication",
@@ -5597,7 +5597,7 @@
       "organization_id": "org:StrategicCommunication/SocialNetworks/scooper",
       "name": "Scooper - ניטור ומחקר ברשת",
       "description": "ניתור ומחקר ברשת, מאפשר לראות פוסטים טרנדים לפי איזורים ופוסטים עם הכי הרבה מעורבות",
-      "url": "https://www.linksforisrael.com/StrategicCommunication/SocialNetworks/scooper",
+      "url": "https://www.linksforisrael.com/strategiccommunication/socialnetworks/scooper",
       "status": "active",
       "taxonomy_ids": [
         "StrategicCommunication",
@@ -5610,7 +5610,7 @@
       "organization_id": "org:StrategicCommunication/SocialNetworks/SocialNetworksReportWhatsapp",
       "name": "דיווח על עמודים - חרבות ברזל",
       "description": "קבוצה לדיווח על פירסומים אנטי-ישראלים, פוגעניים, ופייק ניוז",
-      "url": "https://www.linksforisrael.com/StrategicCommunication/SocialNetworks/SocialNetworksReportWhatsapp",
+      "url": "https://www.linksforisrael.com/strategiccommunication/socialnetworks/socialnetworksreportwhatsapp",
       "status": "active",
       "taxonomy_ids": [
         "StrategicCommunication",
@@ -5623,7 +5623,7 @@
       "organization_id": "org:StrategicCommunication/SocialNetworks/BotEmetHaBarzel",
       "name": "בוט אמת הברזל",
       "description": "בוט לדיווח על תכנים שקריים ברשתות החברתיות, עזרו לדווח על תכנים מסיתים שברשת - אלפי מתנדבים ",
-      "url": "https://www.linksforisrael.com/StrategicCommunication/SocialNetworks/BotEmetHaBarzel",
+      "url": "https://www.linksforisrael.com/strategiccommunication/socialnetworks/botemethabarzel",
       "status": "active",
       "taxonomy_ids": [
         "StrategicCommunication",
@@ -5636,7 +5636,7 @@
       "organization_id": "org:StrategicCommunication/SocialNetworks/niliOnline",
       "name": "ניל״י-אונליין",
       "description": "פרויקט הדיווח של סטודנטים תומכי טרור. יוצר ע״י אזרחים שרוצים לזכור כל מי שהביע אהדה, שמחה ושבח.",
-      "url": "https://www.linksforisrael.com/StrategicCommunication/SocialNetworks/niliOnline",
+      "url": "https://www.linksforisrael.com/strategiccommunication/socialnetworks/nilionline",
       "status": "active",
       "taxonomy_ids": [
         "StrategicCommunication",
@@ -5649,7 +5649,7 @@
       "organization_id": "org:StrategicCommunication/Tools/Autocap",
       "name": "טופס להוספת כתוביות לסרטונים",
       "description": "אפליקציה בתשלום אך מאפשרת שימוש חינם לטובת סרטוני הסברה לטובת ישראל, כל מי שמעוניין שימלא את הטופס ויקבל מייל תגובה עם פרטי הורדה ושימוש חינמי. האפליקציה מאפשרת לתמלל סרטונים ובסוף תהליך התמלול גם לתרגם בעזרת גוגל טרנסלייט",
-      "url": "https://www.linksforisrael.com/StrategicCommunication/Tools/Autocap",
+      "url": "https://www.linksforisrael.com/strategiccommunication/tools/autocap",
       "status": "active",
       "taxonomy_ids": [
         "StrategicCommunication",
@@ -5662,7 +5662,7 @@
       "organization_id": "org:StrategicCommunication/Tools/FightBackAI",
       "name": "להלחם בחזרה בטלגרם",
       "description": "We've empowered over 1,700 individuals through our AI-driven public diplomacy efforts, and we're just getting started 🇮🇱. One month ago was the deadliest day Israel ever had. After the first two weeks of shock, Roy S. and I felt the call to help in the public diplomacy front. With our product and tech background, we developed a genAI solution.",
-      "url": "https://www.linksforisrael.com/StrategicCommunication/Tools/FightBackAI",
+      "url": "https://www.linksforisrael.com/strategiccommunication/tools/fightbackai",
       "status": "active",
       "taxonomy_ids": [
         "StrategicCommunication",
@@ -5675,7 +5675,7 @@
       "organization_id": "org:StrategicCommunication/Info/oct7map",
       "name": "Mapping the Massacres",
       "description": "The October 7th Geo-visualization Project strives to provide a comprehensive representation of the atrocities committed by Hamas on that day. This interactive map serves as a reflection and an educational tool, promoting awareness of the gravity of the horrors.",
-      "url": "https://www.linksforisrael.com/StrategicCommunication/Info/oct7map",
+      "url": "https://www.linksforisrael.com/strategiccommunication/info/oct7map",
       "status": "active",
       "taxonomy_ids": [
         "StrategicCommunication",
@@ -5688,7 +5688,7 @@
       "organization_id": "org:StrategicCommunication/Info/hasbaraArchive",
       "name": "ארכיון ההסברה - טאגבוקס",
       "description": "ארכיון ממוין לפי תגיות, נושאים ושפות של כל החומרים הרלוונטיים להסברה מתעדכן על ידי צוות ייעודיי",
-      "url": "https://www.linksforisrael.com/StrategicCommunication/Info/hasbaraArchive",
+      "url": "https://www.linksforisrael.com/strategiccommunication/info/hasbaraarchive",
       "status": "active",
       "taxonomy_ids": [
         "StrategicCommunication",
@@ -5701,7 +5701,7 @@
       "organization_id": "org:FamilyAndPets/ChildrenContent/AnakShelSfarim",
       "name": "ספרי ילדים - ענק של ספרים",
       "description": "ספרייה דיגיטלית לילדים",
-      "url": "https://www.linksforisrael.com/FamilyAndPets/ChildrenContent/AnakShelSfarim",
+      "url": "https://www.linksforisrael.com/familyandpets/childrencontent/anakshelsfarim",
       "status": "active",
       "taxonomy_ids": [
         "FamilyAndPets",

@@ -3,7 +3,7 @@
   "source": "https://www.linksforisrael.com",
   "repository": "https://github.com/4tals/LinksForIsrael",
   "license": "Open Data / Community Maintained",
-  "generatedAt": "2026-11-23T10:48:14.370Z",
+  "generatedAt": "2026-11-23T12:55:08.070Z",
   "count": 211,
   "initiatives": [
     {
@@ -68,7 +68,7 @@
         "הסעות חולים",
         "Ezer Mizion"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Medical/Main/EzerMizion",
+      "portalUrl": "https://www.linksforisrael.com/medical/main/ezermizion",
       "createdAt": "2026-11-22"
     },
     {
@@ -133,7 +133,7 @@
         "סיוע הומניטרי",
         "עמותה"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Economic/Donations/Latet",
+      "portalUrl": "https://www.linksforisrael.com/economic/donations/latet",
       "createdAt": "2026-11-21T18:55:00+02:00"
     },
     {
@@ -205,7 +205,7 @@
         "התנדבות",
         "חינוך"
       ],
-      "portalUrl": "https://www.linksforisrael.com/FamilyAndPets/Main/KremboWings",
+      "portalUrl": "https://www.linksforisrael.com/familyandpets/main/krembowings",
       "createdAt": "2026-11-21T18:55:00+02:00"
     },
     {
@@ -260,7 +260,7 @@
       ],
       "rankScore": 100,
       "tags": [],
-      "portalUrl": "https://www.linksforisrael.com/GeneralAssistance/Main/Yedidim",
+      "portalUrl": "https://www.linksforisrael.com/generalassistance/main/yedidim",
       "createdAt": "2023-10-21T20:57:25+03:00"
     },
     {
@@ -326,7 +326,7 @@
         "חינם",
         "24/7"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Medical/MentalSupport/ERAN",
+      "portalUrl": "https://www.linksforisrael.com/medical/mentalsupport/eran",
       "createdAt": "2026-11-21T18:55:00+02:00"
     },
     {
@@ -379,7 +379,7 @@
         "צילומים",
         "מאגר"
       ],
-      "portalUrl": "https://www.linksforisrael.com/StrategicCommunication/Info/TheNationalLibrary",
+      "portalUrl": "https://www.linksforisrael.com/strategiccommunication/info/thenationallibrary",
       "createdAt": "2023-11-21T22:03:35+02:00"
     },
     {
@@ -438,7 +438,7 @@
         "התנדבות",
         "Yad Sarah"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Medical/Main/YadSarah",
+      "portalUrl": "https://www.linksforisrael.com/medical/main/yadsarah",
       "createdAt": "2026-11-22"
     },
     {
@@ -502,7 +502,7 @@
         "מילואים",
         "חרדה"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Medical/MentalSupport/NATAL",
+      "portalUrl": "https://www.linksforisrael.com/medical/mentalsupport/natal",
       "createdAt": "2026-11-21T18:55:00+02:00"
     },
     {
@@ -560,7 +560,7 @@
         "1220",
         "ZAKA"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Defense/Emergency/ZAKA",
+      "portalUrl": "https://www.linksforisrael.com/defense/emergency/zaka",
       "createdAt": "2026-11-22"
     },
     {
@@ -617,7 +617,7 @@
         "מידע",
         "סיוע"
       ],
-      "portalUrl": "https://www.linksforisrael.com/GeneralAssistance/Main/KolZchut",
+      "portalUrl": "https://www.linksforisrael.com/generalassistance/main/kolzchut",
       "createdAt": "2026-11-21T18:55:00+02:00"
     },
     {
@@ -675,7 +675,7 @@
         "זכויות",
         "חיילים"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Medical/Main/INZ",
+      "portalUrl": "https://www.linksforisrael.com/medical/main/inz",
       "createdAt": "2026-11-21T18:55:00+02:00"
     },
     {
@@ -734,7 +734,7 @@
         "אנונימי",
         "הקשבה"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Medical/MentalSupport/SAHAR",
+      "portalUrl": "https://www.linksforisrael.com/medical/mentalsupport/sahar",
       "createdAt": "2026-11-21T18:55:00+02:00"
     },
     {
@@ -793,7 +793,7 @@
         "התנדבות",
         "Leket Israel"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Economic/Donations/LeketIsrael",
+      "portalUrl": "https://www.linksforisrael.com/economic/donations/leketisrael",
       "createdAt": "2026-11-22"
     },
     {
@@ -852,7 +852,7 @@
         "התנדבות",
         "סיוע"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Economic/Donations/PitchonLev",
+      "portalUrl": "https://www.linksforisrael.com/economic/donations/pitchonlev",
       "createdAt": "2026-11-21T18:55:00+02:00"
     },
     {
@@ -906,7 +906,7 @@
         "ציוד",
         "מזון"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Economic/Donations/jgive",
+      "portalUrl": "https://www.linksforisrael.com/economic/donations/jgive",
       "createdAt": "2023-11-28T22:11:51+02:00"
     },
     {
@@ -965,7 +965,7 @@
         "התנדבות",
         "סיוע"
       ],
-      "portalUrl": "https://www.linksforisrael.com/FamilyAndPets/Main/Elem",
+      "portalUrl": "https://www.linksforisrael.com/familyandpets/main/elem",
       "createdAt": "2026-11-21T18:55:00+02:00"
     },
     {
@@ -1021,7 +1021,7 @@
         "קהילה",
         "נתינה"
       ],
-      "portalUrl": "https://www.linksforisrael.com/GeneralAssistance/Main/RuachTova",
+      "portalUrl": "https://www.linksforisrael.com/generalassistance/main/ruachtova",
       "createdAt": "2026-11-21T18:55:00+02:00"
     },
     {
@@ -1073,7 +1073,7 @@
         "חקלאות",
         "ביטחון מזון"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Agriculture/Main/NewGuard",
+      "portalUrl": "https://www.linksforisrael.com/agriculture/main/newguard",
       "createdAt": "2023-10-25T23:30:30+03:00"
     },
     {
@@ -1131,7 +1131,7 @@
         "התנדבות",
         "Zikaron BaSalon"
       ],
-      "portalUrl": "https://www.linksforisrael.com/MemorialRemembrance/Main/ZikaronBaSalon",
+      "portalUrl": "https://www.linksforisrael.com/memorialremembrance/main/zikaronbasalon",
       "createdAt": "2026-11-22"
     },
     {
@@ -1189,7 +1189,7 @@
         "טראומה",
         "בריאות נפש"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Medical/MentalSupport/SafeHeart",
+      "portalUrl": "https://www.linksforisrael.com/medical/mentalsupport/safeheart",
       "createdAt": "2023-11-08T23:52:26+02:00"
     },
     {
@@ -1243,7 +1243,7 @@
         "נגישות",
         "פינוי אנשים עם מוגבלויות"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Defense/Emergency/AccessibilityIsrael-VioletVest",
+      "portalUrl": "https://www.linksforisrael.com/defense/emergency/accessibilityisrael-violetvest",
       "createdAt": "2023-11-13T22:19:47+02:00"
     },
     {
@@ -1295,7 +1295,7 @@
         "מקלט",
         "ממד"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Defense/Emergency/HomeFrontCommand",
+      "portalUrl": "https://www.linksforisrael.com/defense/emergency/homefrontcommand",
       "createdAt": "2026-11-21T18:55:00+02:00"
     },
     {
@@ -1354,7 +1354,7 @@
         "חירום",
         "24/7"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Medical/MentalSupport/ARCCI1202",
+      "portalUrl": "https://www.linksforisrael.com/medical/mentalsupport/arcci1202",
       "createdAt": "2026-11-22"
     },
     {
@@ -1402,7 +1402,7 @@
         "רחפן",
         "טכנולוגיה"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Defense/Main/NationalDroneInitiative",
+      "portalUrl": "https://www.linksforisrael.com/defense/main/nationaldroneinitiative",
       "createdAt": "2023-10-27T12:17:44+03:00"
     },
     {
@@ -1456,7 +1456,7 @@
         "תושבים",
         "לחימה"
       ],
-      "portalUrl": "https://www.linksforisrael.com/GeneralAssistance/Main/CivilianHamal",
+      "portalUrl": "https://www.linksforisrael.com/generalassistance/main/civilianhamal",
       "createdAt": "2023-10-12T22:22:49+03:00"
     },
     {
@@ -1514,7 +1514,7 @@
         "תקציב",
         "Paamonim"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Economic/Businesses/Paamonim",
+      "portalUrl": "https://www.linksforisrael.com/economic/businesses/paamonim",
       "createdAt": "2026-11-22"
     },
     {
@@ -1572,7 +1572,7 @@
         "עלה נגב",
         "ADI Israel"
       ],
-      "portalUrl": "https://www.linksforisrael.com/FamilyAndPets/Main/ADIIsrael",
+      "portalUrl": "https://www.linksforisrael.com/familyandpets/main/adiisrael",
       "createdAt": "2026-11-22"
     },
     {
@@ -1630,7 +1630,7 @@
         "התנדבות",
         "Etgarim"
       ],
-      "portalUrl": "https://www.linksforisrael.com/FamilyAndPets/Main/Etgarim",
+      "portalUrl": "https://www.linksforisrael.com/familyandpets/main/etgarim",
       "createdAt": "2026-11-22"
     },
     {
@@ -1688,7 +1688,7 @@
         "משפחות",
         "ALUT"
       ],
-      "portalUrl": "https://www.linksforisrael.com/FamilyAndPets/Main/ALUT",
+      "portalUrl": "https://www.linksforisrael.com/familyandpets/main/alut",
       "createdAt": "2026-11-22"
     },
     {
@@ -1740,7 +1740,7 @@
         "משפחות",
         "Larger Than Life"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Medical/Main/LargerThanLife",
+      "portalUrl": "https://www.linksforisrael.com/medical/main/largerthanlife",
       "createdAt": "2026-11-22"
     },
     {
@@ -1798,7 +1798,7 @@
         "חובשים",
         "United Hatzalah"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Medical/Main/UnitedHatzalah",
+      "portalUrl": "https://www.linksforisrael.com/medical/main/unitedhatzalah",
       "createdAt": "2026-11-22"
     },
     {
@@ -1846,7 +1846,7 @@
         "תרומת דם במשבר",
         "מדא"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Medical/Main/MdaBloodDonation",
+      "portalUrl": "https://www.linksforisrael.com/medical/main/mdablooddonation",
       "createdAt": "2023-11-08T23:49:54+02:00"
     },
     {
@@ -1892,7 +1892,7 @@
         "לעזרה למשפחות",
         "לטובת משפחות"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Economic/Donations/hakvutza",
+      "portalUrl": "https://www.linksforisrael.com/economic/donations/hakvutza",
       "createdAt": "2023-11-24T15:21:43+02:00"
     },
     {
@@ -1941,7 +1941,7 @@
         "קרן",
         "ישראל"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Economic/Businesses/SocialSolidarityHome",
+      "portalUrl": "https://www.linksforisrael.com/economic/businesses/socialsolidarityhome",
       "createdAt": "2023-11-28T22:11:18+02:00"
     },
     {
@@ -1993,7 +1993,7 @@
         "עטופים באהבה",
         "Israeli Children's Fund"
       ],
-      "portalUrl": "https://www.linksforisrael.com/FamilyAndPets/Main/IsraeliChildrensFund",
+      "portalUrl": "https://www.linksforisrael.com/familyandpets/main/israelichildrensfund",
       "createdAt": "2026-11-22"
     },
     {
@@ -2035,7 +2035,7 @@
       ],
       "rankScore": 78,
       "tags": [],
-      "portalUrl": "https://www.linksforisrael.com/GeneralAssistance/Main/LevEhad",
+      "portalUrl": "https://www.linksforisrael.com/generalassistance/main/levehad",
       "createdAt": "2023-10-12T22:22:49+03:00"
     },
     {
@@ -2088,7 +2088,7 @@
         "תמיכה",
         "קהילה"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Medical/Main/BrothersForLife",
+      "portalUrl": "https://www.linksforisrael.com/medical/main/brothersforlife",
       "createdAt": "2026-11-21T18:55:00+02:00"
     },
     {
@@ -2139,7 +2139,7 @@
         "חירום",
         "Israel Trauma Coalition"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Medical/MentalSupport/IsraelTraumaCoalition",
+      "portalUrl": "https://www.linksforisrael.com/medical/mentalsupport/israeltraumacoalition",
       "createdAt": "2026-11-22"
     },
     {
@@ -2191,7 +2191,7 @@
         "הדספייס",
         "Enosh"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Medical/MentalSupport/Enosh",
+      "portalUrl": "https://www.linksforisrael.com/medical/mentalsupport/enosh",
       "createdAt": "2026-11-22"
     },
     {
@@ -2244,7 +2244,7 @@
         "התנדבות",
         "צער בעלי חיים"
       ],
-      "portalUrl": "https://www.linksforisrael.com/FamilyAndPets/Main/SPCAIsrael",
+      "portalUrl": "https://www.linksforisrael.com/familyandpets/main/spcaisrael",
       "createdAt": "2026-11-21T18:55:00+02:00"
     },
     {
@@ -2298,7 +2298,7 @@
         "Nefesh B'Nefesh",
         "Aliyah"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Olim/Main/NefeshBNefesh",
+      "portalUrl": "https://www.linksforisrael.com/olim/main/nefeshbnefesh",
       "createdAt": "2026-11-22T12:00:00+02:00"
     },
     {
@@ -2349,7 +2349,7 @@
         "רווחה",
         "הקרן לידידות"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Olim/Main/KerenLeYedidut",
+      "portalUrl": "https://www.linksforisrael.com/olim/main/kerenleyedidut",
       "createdAt": "2026-11-23T11:25:00+02:00"
     },
     {
@@ -2402,7 +2402,7 @@
         "Masorti",
         "Conservative Judaism"
       ],
-      "portalUrl": "https://www.linksforisrael.com/JudaismHeritage/MasortiAndCommunities/MasortiIsrael",
+      "portalUrl": "https://www.linksforisrael.com/judaismheritage/masortiandcommunities/masortiisrael",
       "createdAt": "2026-11-23T11:48:00+02:00"
     },
     {
@@ -2454,7 +2454,7 @@
         "עולים חדשים",
         "ITIM"
       ],
-      "portalUrl": "https://www.linksforisrael.com/JudaismHeritage/MasortiAndCommunities/Itim",
+      "portalUrl": "https://www.linksforisrael.com/judaismheritage/masortiandcommunities/itim",
       "createdAt": "2026-11-23T11:48:00+02:00"
     },
     {
@@ -2506,7 +2506,7 @@
         "יהדות",
         "Tzohar"
       ],
-      "portalUrl": "https://www.linksforisrael.com/JudaismHeritage/MasortiAndCommunities/Tzohar",
+      "portalUrl": "https://www.linksforisrael.com/judaismheritage/masortiandcommunities/tzohar",
       "createdAt": "2026-11-23T11:48:00+02:00"
     },
     {
@@ -2557,7 +2557,7 @@
         "צה״ל",
         "Sar-El"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Abroad/DiasporaAndGiving/SarEl",
+      "portalUrl": "https://www.linksforisrael.com/abroad/diasporaandgiving/sarel",
       "createdAt": "2026-11-23T12:45:00+02:00"
     },
     {
@@ -2607,7 +2607,7 @@
         "תמיכה בחקלאים",
         "לקט ישראל"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Agriculture/Main/LeketIsraelFarmersVolonteers",
+      "portalUrl": "https://www.linksforisrael.com/agriculture/main/leketisraelfarmersvolonteers",
       "createdAt": "2023-11-03T20:47:47+02:00"
     },
     {
@@ -2654,7 +2654,7 @@
         "תרומת דם",
         "התנדבות"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Medical/Main/MagenDavidAdom",
+      "portalUrl": "https://www.linksforisrael.com/medical/main/magendavidadom",
       "createdAt": "2026-11-22T12:00:00+02:00"
     },
     {
@@ -2707,7 +2707,7 @@
         "Aliyah",
         "Olim"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Olim/Main/MinistryOfAliyah",
+      "portalUrl": "https://www.linksforisrael.com/olim/main/ministryofaliyah",
       "createdAt": "2026-11-23T11:25:00+02:00"
     },
     {
@@ -2749,7 +2749,7 @@
         "חירום",
         "לימוד מקוון"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Medical/Main/MdaFirstAidCourse",
+      "portalUrl": "https://www.linksforisrael.com/medical/main/mdafirstaidcourse",
       "createdAt": "2023-11-07T00:06:34+02:00"
     },
     {
@@ -2794,7 +2794,7 @@
         "משפחות מילואים",
         "טפסים"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Defense/Main/MiluimIDF",
+      "portalUrl": "https://www.linksforisrael.com/defense/main/miluimidf",
       "createdAt": "2026-11-21T18:55:00+02:00"
     },
     {
@@ -2839,7 +2839,7 @@
         "סטודנטים",
         "התנדבות"
       ],
-      "portalUrl": "https://www.linksforisrael.com/FamilyAndPets/Main/Perach",
+      "portalUrl": "https://www.linksforisrael.com/familyandpets/main/perach",
       "createdAt": "2026-11-22T12:00:00+02:00"
     },
     {
@@ -2885,7 +2885,7 @@
         "Aliyah",
         "Jewish Agency"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Olim/Main/JewishAgency",
+      "portalUrl": "https://www.linksforisrael.com/olim/main/jewishagency",
       "createdAt": "2026-11-23T11:25:00+02:00"
     },
     {
@@ -2931,7 +2931,7 @@
         "ארה\"ב",
         "מאבק אנטישמיות"
       ],
-      "portalUrl": "https://www.linksforisrael.com/StrategicCommunication/SocialNetworks/StopAntisemitism",
+      "portalUrl": "https://www.linksforisrael.com/strategiccommunication/socialnetworks/stopantisemitism",
       "createdAt": "2023-11-11T15:29:07+02:00"
     },
     {
@@ -2974,7 +2974,7 @@
         "התנדבות",
         "רפואה"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Medical/Main/MedicalVolunteersforIsrael",
+      "portalUrl": "https://www.linksforisrael.com/medical/main/medicalvolunteersforisrael",
       "createdAt": "2023-10-28T23:39:59+03:00"
     },
     {
@@ -3025,7 +3025,7 @@
         "סיוע משפטי",
         "Kav LaOved"
       ],
-      "portalUrl": "https://www.linksforisrael.com/GeneralAssistance/Main/KavLaOved",
+      "portalUrl": "https://www.linksforisrael.com/generalassistance/main/kavlaoved",
       "createdAt": "2026-11-22"
     },
     {
@@ -3078,7 +3078,7 @@
         "Sefaria",
         "Jewish texts"
       ],
-      "portalUrl": "https://www.linksforisrael.com/JudaismHeritage/TextsAndCulture/Sefaria",
+      "portalUrl": "https://www.linksforisrael.com/judaismheritage/textsandculture/sefaria",
       "createdAt": "2026-11-23T11:48:00+02:00"
     },
     {
@@ -3133,7 +3133,7 @@
         "ביטחון לאומי",
         "אזרחים"
       ],
-      "portalUrl": "https://www.linksforisrael.com/StrategicCommunication/Info/InssWarData",
+      "portalUrl": "https://www.linksforisrael.com/strategiccommunication/info/insswardata",
       "createdAt": "2023-11-09T23:24:54+02:00"
     },
     {
@@ -3179,7 +3179,7 @@
         "בריאות",
         "טלמידע"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Medical/Main/IsraelCancerAssociation",
+      "portalUrl": "https://www.linksforisrael.com/medical/main/israelcancerassociation",
       "createdAt": "2026-11-22T12:00:00+02:00"
     },
     {
@@ -3225,7 +3225,7 @@
         "קשישים",
         "תרומה"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Economic/Donations/ChasdeiNaomi",
+      "portalUrl": "https://www.linksforisrael.com/economic/donations/chasdeinaomi",
       "createdAt": "2026-11-22T12:00:00+02:00"
     },
     {
@@ -3270,7 +3270,7 @@
         "רופאים מתנדבים",
         "קשישים"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Medical/Main/Lemaanam",
+      "portalUrl": "https://www.linksforisrael.com/medical/main/lemaanam",
       "createdAt": "2026-11-22T12:00:00+02:00"
     },
     {
@@ -3315,7 +3315,7 @@
         "ילדים",
         "טכנולוגיה מסייעת"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Medical/Main/BeitIssieShapiro",
+      "portalUrl": "https://www.linksforisrael.com/medical/main/beitissieshapiro",
       "createdAt": "2026-11-22T12:00:00+02:00"
     },
     {
@@ -3360,7 +3360,7 @@
         "פוסט טראומה",
         "כלבי שירות"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Medical/Main/IsraelGuideDogCenter",
+      "portalUrl": "https://www.linksforisrael.com/medical/main/israelguidedogcenter",
       "createdAt": "2026-11-22T12:00:00+02:00"
     },
     {
@@ -3406,7 +3406,7 @@
         "רפואה",
         "תמיכה במשפחות"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Medical/Main/ZichronMenachem",
+      "portalUrl": "https://www.linksforisrael.com/medical/main/zichronmenachem",
       "createdAt": "2026-11-23T10:50:00+02:00"
     },
     {
@@ -3452,7 +3452,7 @@
         "ילדים",
         "נגישות"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Medical/Main/ILANIsrael",
+      "portalUrl": "https://www.linksforisrael.com/medical/main/ilanisrael",
       "createdAt": "2026-11-23T10:50:00+02:00"
     },
     {
@@ -3497,7 +3497,7 @@
         "חינוך מיוחד",
         "ילדים"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Medical/Main/AlehIsrael",
+      "portalUrl": "https://www.linksforisrael.com/medical/main/alehisrael",
       "createdAt": "2026-11-23T10:50:00+02:00"
     },
     {
@@ -3542,7 +3542,7 @@
         "משפחות שכולות",
         "קבוצות תמיכה"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Medical/MentalSupport/BishvilHaChaim",
+      "portalUrl": "https://www.linksforisrael.com/medical/mentalsupport/bishvilhachaim",
       "createdAt": "2026-11-23T10:50:00+02:00"
     },
     {
@@ -3587,7 +3587,7 @@
         "הדרכת הורים",
         "ייעוץ נפשי"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Medical/MentalSupport/AlSam",
+      "portalUrl": "https://www.linksforisrael.com/medical/mentalsupport/alsam",
       "createdAt": "2026-11-23T10:50:00+02:00"
     },
     {
@@ -3633,7 +3633,7 @@
         "זכויות",
         "צה״ל"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Defense/Main/IDFWO",
+      "portalUrl": "https://www.linksforisrael.com/defense/main/idfwo",
       "createdAt": "2026-11-23T10:50:00+02:00"
     },
     {
@@ -3679,7 +3679,7 @@
         "רווחה",
         "הפגת בדידות"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Economic/Donations/HolocaustSurvivorsWelfare",
+      "portalUrl": "https://www.linksforisrael.com/economic/donations/holocaustsurvivorswelfare",
       "createdAt": "2026-11-23T10:50:00+02:00"
     },
     {
@@ -3725,7 +3725,7 @@
         "זכויות",
         "סיעוד"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Economic/Donations/AvivForSeniors",
+      "portalUrl": "https://www.linksforisrael.com/economic/donations/avivforseniors",
       "createdAt": "2026-11-23T10:50:00+02:00"
     },
     {
@@ -3771,7 +3771,7 @@
         "משפחות",
         "תרומה"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Economic/Donations/EshelChabad",
+      "portalUrl": "https://www.linksforisrael.com/economic/donations/eshelchabad",
       "createdAt": "2026-11-23T10:50:00+02:00"
     },
     {
@@ -3817,7 +3817,7 @@
         "אומנות",
         "תעסוקה"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Economic/Donations/YadLaKashish",
+      "portalUrl": "https://www.linksforisrael.com/economic/donations/yadlakashish",
       "createdAt": "2026-11-23T10:50:00+02:00"
     },
     {
@@ -3863,7 +3863,7 @@
         "רווחה",
         "תרומה"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Economic/Donations/LemaanAchai",
+      "portalUrl": "https://www.linksforisrael.com/economic/donations/lemaanachai",
       "createdAt": "2026-11-23T10:50:00+02:00"
     },
     {
@@ -3909,7 +3909,7 @@
         "מנטורינג",
         "מילואים"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Economic/Businesses/Ogen",
+      "portalUrl": "https://www.linksforisrael.com/economic/businesses/ogen",
       "createdAt": "2026-11-22T12:00:00+02:00"
     },
     {
@@ -3954,7 +3954,7 @@
         "זכויות",
         "דיור בקהילה"
       ],
-      "portalUrl": "https://www.linksforisrael.com/FamilyAndPets/Main/AKIMIsrael",
+      "portalUrl": "https://www.linksforisrael.com/familyandpets/main/akimisrael",
       "createdAt": "2026-11-22T12:00:00+02:00"
     },
     {
@@ -4000,7 +4000,7 @@
         "נוער",
         "אלימות במשפחה"
       ],
-      "portalUrl": "https://www.linksforisrael.com/FamilyAndPets/Main/WIZOIsrael",
+      "portalUrl": "https://www.linksforisrael.com/familyandpets/main/wizoisrael",
       "createdAt": "2026-11-22T12:00:00+02:00"
     },
     {
@@ -4046,7 +4046,7 @@
         "אימוץ",
         "הצלת חיות"
       ],
-      "portalUrl": "https://www.linksforisrael.com/FamilyAndPets/Main/LetTheAnimalsLive",
+      "portalUrl": "https://www.linksforisrael.com/familyandpets/main/lettheanimalslive",
       "createdAt": "2026-11-22T12:00:00+02:00"
     },
     {
@@ -4092,7 +4092,7 @@
         "מנטורינג",
         "התנדבות"
       ],
-      "portalUrl": "https://www.linksforisrael.com/FamilyAndPets/Main/YeladimFairChance",
+      "portalUrl": "https://www.linksforisrael.com/familyandpets/main/yeladimfairchance",
       "createdAt": "2026-11-23T10:50:00+02:00"
     },
     {
@@ -4138,7 +4138,7 @@
         "נוער בסיכון",
         "רווחה"
       ],
-      "portalUrl": "https://www.linksforisrael.com/FamilyAndPets/Main/OrrShalom",
+      "portalUrl": "https://www.linksforisrael.com/familyandpets/main/orrshalom",
       "createdAt": "2026-11-23T10:50:00+02:00"
     },
     {
@@ -4184,7 +4184,7 @@
         "קהילה",
         "ילדים"
       ],
-      "portalUrl": "https://www.linksforisrael.com/FamilyAndPets/Main/HandInHand",
+      "portalUrl": "https://www.linksforisrael.com/familyandpets/main/handinhand",
       "createdAt": "2026-11-23T10:50:00+02:00"
     },
     {
@@ -4230,7 +4230,7 @@
         "אומנה",
         "הצלת חיות"
       ],
-      "portalUrl": "https://www.linksforisrael.com/FamilyAndPets/Main/SOSAnimals",
+      "portalUrl": "https://www.linksforisrael.com/familyandpets/main/sosanimals",
       "createdAt": "2026-11-23T10:50:00+02:00"
     },
     {
@@ -4275,7 +4275,7 @@
         "תעסוקה",
         "נגישות"
       ],
-      "portalUrl": "https://www.linksforisrael.com/GeneralAssistance/Main/ShekelIsrael",
+      "portalUrl": "https://www.linksforisrael.com/generalassistance/main/shekelisrael",
       "createdAt": "2026-11-22T12:00:00+02:00"
     },
     {
@@ -4320,7 +4320,7 @@
         "משפחה",
         "אלימות במשפחה"
       ],
-      "portalUrl": "https://www.linksforisrael.com/GeneralAssistance/Main/Naamat",
+      "portalUrl": "https://www.linksforisrael.com/generalassistance/main/naamat",
       "createdAt": "2026-11-22T12:00:00+02:00"
     },
     {
@@ -4365,7 +4365,7 @@
         "שביל ישראל",
         "שיקום"
       ],
-      "portalUrl": "https://www.linksforisrael.com/GeneralAssistance/Main/SPNI",
+      "portalUrl": "https://www.linksforisrael.com/generalassistance/main/spni",
       "createdAt": "2026-11-23T10:50:00+02:00"
     },
     {
@@ -4410,7 +4410,7 @@
         "מס הכנסה",
         "Olim rights"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Olim/Main/KolZchutOlim",
+      "portalUrl": "https://www.linksforisrael.com/olim/main/kolzchutolim",
       "createdAt": "2026-11-23T11:25:00+02:00"
     },
     {
@@ -4457,7 +4457,7 @@
         "Yad L'Olim",
         "Olim"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Olim/Main/YadLOlim",
+      "portalUrl": "https://www.linksforisrael.com/olim/main/yadlolim",
       "createdAt": "2026-11-23T11:25:00+02:00"
     },
     {
@@ -4505,7 +4505,7 @@
         "Qualita",
         "French Olim"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Olim/Main/Qualita",
+      "portalUrl": "https://www.linksforisrael.com/olim/main/qualita",
       "createdAt": "2026-11-23T11:25:00+02:00"
     },
     {
@@ -4552,7 +4552,7 @@
         "AACI",
         "Olim"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Olim/Main/AACI",
+      "portalUrl": "https://www.linksforisrael.com/olim/main/aaci",
       "createdAt": "2026-11-23T11:25:00+02:00"
     },
     {
@@ -4599,7 +4599,7 @@
         "Telfed",
         "Olim"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Olim/Main/Telfed",
+      "portalUrl": "https://www.linksforisrael.com/olim/main/telfed",
       "createdAt": "2026-11-23T11:25:00+02:00"
     },
     {
@@ -4646,7 +4646,7 @@
         "OLEI",
         "Olim"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Olim/Main/OLEI",
+      "portalUrl": "https://www.linksforisrael.com/olim/main/olei",
       "createdAt": "2026-11-23T11:25:00+02:00"
     },
     {
@@ -4692,7 +4692,7 @@
         "קהילה",
         "ESRA"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Olim/Main/ESRA",
+      "portalUrl": "https://www.linksforisrael.com/olim/main/esra",
       "createdAt": "2026-11-23T11:25:00+02:00"
     },
     {
@@ -4740,7 +4740,7 @@
         "Gvahim",
         "careers"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Olim/CareerAndLoneSoldiers/Gvahim",
+      "portalUrl": "https://www.linksforisrael.com/olim/careerandlonesoldiers/gvahim",
       "createdAt": "2026-11-23T11:25:00+02:00"
     },
     {
@@ -4786,7 +4786,7 @@
         "מייקל לוין",
         "Lone Soldiers"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Olim/CareerAndLoneSoldiers/LoneSoldierCenter",
+      "portalUrl": "https://www.linksforisrael.com/olim/careerandlonesoldiers/lonesoldiercenter",
       "createdAt": "2026-11-23T11:25:00+02:00"
     },
     {
@@ -4832,7 +4832,7 @@
         "עולים חדשים",
         "Lone Soldiers"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Olim/CareerAndLoneSoldiers/MichaelLevinBase",
+      "portalUrl": "https://www.linksforisrael.com/olim/careerandlonesoldiers/michaellevinbase",
       "createdAt": "2026-11-23T11:25:00+02:00"
     },
     {
@@ -4878,7 +4878,7 @@
         "תרבות",
         "שישי שבת ישראלי"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Olim/CareerAndLoneSoldiers/ShishiShabbatYisraeli",
+      "portalUrl": "https://www.linksforisrael.com/olim/careerandlonesoldiers/shishishabbatyisraeli",
       "createdAt": "2026-11-23T11:25:00+02:00"
     },
     {
@@ -4924,7 +4924,7 @@
         "תל״י",
         "Schechter"
       ],
-      "portalUrl": "https://www.linksforisrael.com/JudaismHeritage/MasortiAndCommunities/SchechterInstitute",
+      "portalUrl": "https://www.linksforisrael.com/judaismheritage/masortiandcommunities/schechterinstitute",
       "createdAt": "2026-11-23T11:48:00+02:00"
     },
     {
@@ -4970,7 +4970,7 @@
         "תרבות יהודית",
         "BINA"
       ],
-      "portalUrl": "https://www.linksforisrael.com/JudaismHeritage/TextsAndCulture/BINA",
+      "portalUrl": "https://www.linksforisrael.com/judaismheritage/textsandculture/bina",
       "createdAt": "2026-11-23T11:48:00+02:00"
     },
     {
@@ -5015,7 +5015,7 @@
         "פלורליזם",
         "Hartman"
       ],
-      "portalUrl": "https://www.linksforisrael.com/JudaismHeritage/TextsAndCulture/HartmanInstitute",
+      "portalUrl": "https://www.linksforisrael.com/judaismheritage/textsandculture/hartmaninstitute",
       "createdAt": "2026-11-23T11:48:00+02:00"
     },
     {
@@ -5060,7 +5060,7 @@
         "Pardes",
         "Jewish learning"
       ],
-      "portalUrl": "https://www.linksforisrael.com/JudaismHeritage/TextsAndCulture/Pardes",
+      "portalUrl": "https://www.linksforisrael.com/judaismheritage/textsandculture/pardes",
       "createdAt": "2026-11-23T11:48:00+02:00"
     },
     {
@@ -5106,7 +5106,7 @@
         "פוסט דוקטורט",
         "ScienceAbroad"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Abroad/IsraelisAndConsular/ScienceAbroad",
+      "portalUrl": "https://www.linksforisrael.com/abroad/israelisandconsular/scienceabroad",
       "createdAt": "2026-11-23T12:45:00+02:00"
     },
     {
@@ -5152,7 +5152,7 @@
         "הנצחה",
         "חינוך"
       ],
-      "portalUrl": "https://www.linksforisrael.com/MemorialRemembrance/Main/GhettoFightersHouse",
+      "portalUrl": "https://www.linksforisrael.com/memorialremembrance/main/ghettofightershouse",
       "createdAt": "2026-11-23T10:50:00+02:00"
     },
     {
@@ -5198,7 +5198,7 @@
         "consulate",
         "embassy"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Abroad/IsraelisAndConsular/MFAEmbassies",
+      "portalUrl": "https://www.linksforisrael.com/abroad/israelisandconsular/mfaembassies",
       "createdAt": "2026-11-23T12:45:00+02:00"
     },
     {
@@ -5243,7 +5243,7 @@
         "Toshav Chozer",
         "returning residents"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Abroad/IsraelisAndConsular/ToshavChozer",
+      "portalUrl": "https://www.linksforisrael.com/abroad/israelisandconsular/toshavchozer",
       "createdAt": "2026-11-23T12:45:00+02:00"
     },
     {
@@ -5287,7 +5287,7 @@
         "ביטוח בריאות",
         "Bituach Leumi"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Abroad/IsraelisAndConsular/BituachLeumiAbroad",
+      "portalUrl": "https://www.linksforisrael.com/abroad/israelisandconsular/bituachleumiabroad",
       "createdAt": "2026-11-23T12:45:00+02:00"
     },
     {
@@ -5331,7 +5331,7 @@
         "מטיילים",
         "travel warnings"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Abroad/IsraelisAndConsular/NSCTravelWarnings",
+      "portalUrl": "https://www.linksforisrael.com/abroad/israelisandconsular/nsctravelwarnings",
       "createdAt": "2026-11-23T12:45:00+02:00"
     },
     {
@@ -5369,7 +5369,7 @@
         "מלגות",
         "Masa Israel"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Abroad/DiasporaAndGiving/MasaIsrael",
+      "portalUrl": "https://www.linksforisrael.com/abroad/diasporaandgiving/masaisrael",
       "createdAt": "2026-11-23T12:45:00+02:00"
     },
     {
@@ -5413,7 +5413,7 @@
         "ילדים",
         "מניעה"
       ],
-      "portalUrl": "https://www.linksforisrael.com/FamilyAndPets/Main/Beterem",
+      "portalUrl": "https://www.linksforisrael.com/familyandpets/main/beterem",
       "createdAt": "2026-11-22T12:00:00+02:00"
     },
     {
@@ -5459,7 +5459,7 @@
         "מעוטי יכולת",
         "נתינה לאחר"
       ],
-      "portalUrl": "https://www.linksforisrael.com/GeneralAssistance/Main/NetinaLaAcher",
+      "portalUrl": "https://www.linksforisrael.com/generalassistance/main/netinalaacher",
       "createdAt": "2026-11-22"
     },
     {
@@ -5506,7 +5506,7 @@
         "עלייה",
         "Garin Tzabar"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Olim/CareerAndLoneSoldiers/GarinTzabar",
+      "portalUrl": "https://www.linksforisrael.com/olim/careerandlonesoldiers/garintzabar",
       "createdAt": "2026-11-23T11:25:00+02:00"
     },
     {
@@ -5552,7 +5552,7 @@
         "KeepOlim",
         "Olim"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Olim/CareerAndLoneSoldiers/KeepOlim",
+      "portalUrl": "https://www.linksforisrael.com/olim/careerandlonesoldiers/keepolim",
       "createdAt": "2026-11-23T11:25:00+02:00"
     },
     {
@@ -5595,7 +5595,7 @@
         "תרבות יהודית",
         "לימוד יומי"
       ],
-      "portalUrl": "https://www.linksforisrael.com/JudaismHeritage/TextsAndCulture/Project929",
+      "portalUrl": "https://www.linksforisrael.com/judaismheritage/textsandculture/project929",
       "createdAt": "2026-11-23T11:48:00+02:00"
     },
     {
@@ -5640,7 +5640,7 @@
         "שורשים",
         "ANU Museum"
       ],
-      "portalUrl": "https://www.linksforisrael.com/JudaismHeritage/TextsAndCulture/ANUMuseum",
+      "portalUrl": "https://www.linksforisrael.com/judaismheritage/textsandculture/anumuseum",
       "createdAt": "2026-11-23T11:48:00+02:00"
     },
     {
@@ -5684,7 +5684,7 @@
         "ירושלים",
         "Beit Avi Chai"
       ],
-      "portalUrl": "https://www.linksforisrael.com/JudaismHeritage/TextsAndCulture/BeitAviChai",
+      "portalUrl": "https://www.linksforisrael.com/judaismheritage/textsandculture/beitavichai",
       "createdAt": "2026-11-23T11:48:00+02:00"
     },
     {
@@ -5725,7 +5725,7 @@
         "חרבות הברזל",
         "קולות מישראל"
       ],
-      "portalUrl": "https://www.linksforisrael.com/StrategicCommunication/Main/voicesOfIsrael",
+      "portalUrl": "https://www.linksforisrael.com/strategiccommunication/main/voicesofisrael",
       "createdAt": "2023-11-02T14:34:45+02:00"
     },
     {
@@ -5761,7 +5761,7 @@
         "ניו יורק",
         "אמת"
       ],
-      "portalUrl": "https://www.linksforisrael.com/StrategicCommunication/Info/OnlyTrueInformation",
+      "portalUrl": "https://www.linksforisrael.com/strategiccommunication/info/onlytrueinformation",
       "createdAt": "2023-11-02T13:01:02+02:00"
     },
     {
@@ -5799,7 +5799,7 @@
         "סעיף 46",
         "IsraelGives"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Abroad/DiasporaAndGiving/IsraelGives",
+      "portalUrl": "https://www.linksforisrael.com/abroad/diasporaandgiving/israelgives",
       "createdAt": "2026-11-23T12:45:00+02:00"
     },
     {
@@ -5847,7 +5847,7 @@
       ],
       "rankScore": 46,
       "tags": [],
-      "portalUrl": "https://www.linksforisrael.com/FamilyAndPets/ChildrenContent/BrainPop",
+      "portalUrl": "https://www.linksforisrael.com/familyandpets/childrencontent/brainpop",
       "createdAt": "2023-10-08T18:03:26+03:00"
     },
     {
@@ -5887,7 +5887,7 @@
         "CST",
         "UK"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Abroad/SafetyAndCampus/CSTUK",
+      "portalUrl": "https://www.linksforisrael.com/abroad/safetyandcampus/cstuk",
       "createdAt": "2026-11-23T12:45:00+02:00"
     },
     {
@@ -5927,7 +5927,7 @@
         "money transfer",
         "FX"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Olim/MoneyTransfers/Adesco",
+      "portalUrl": "https://www.linksforisrael.com/olim/moneytransfers/adesco",
       "createdAt": "2026-11-23T11:48:00+02:00"
     },
     {
@@ -5964,7 +5964,7 @@
         "IsraTransfer",
         "money transfer"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Olim/MoneyTransfers/IsraTransfer",
+      "portalUrl": "https://www.linksforisrael.com/olim/moneytransfers/isratransfer",
       "createdAt": "2026-11-23T11:48:00+02:00"
     },
     {
@@ -6001,7 +6001,7 @@
         "Wise",
         "money transfer"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Olim/MoneyTransfers/Wise",
+      "portalUrl": "https://www.linksforisrael.com/olim/moneytransfers/wise",
       "createdAt": "2026-11-23T11:48:00+02:00"
     },
     {
@@ -6038,7 +6038,7 @@
         "Covercy",
         "money transfer"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Olim/MoneyTransfers/Covercy",
+      "portalUrl": "https://www.linksforisrael.com/olim/moneytransfers/covercy",
       "createdAt": "2026-11-23T11:48:00+02:00"
     },
     {
@@ -6075,7 +6075,7 @@
         "Payoneer",
         "payments"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Olim/MoneyTransfers/Payoneer",
+      "portalUrl": "https://www.linksforisrael.com/olim/moneytransfers/payoneer",
       "createdAt": "2026-11-23T11:48:00+02:00"
     },
     {
@@ -6113,7 +6113,7 @@
         "קהילות בעולם",
         "Masorti Olami"
       ],
-      "portalUrl": "https://www.linksforisrael.com/JudaismHeritage/MasortiAndCommunities/MasortiOlami",
+      "portalUrl": "https://www.linksforisrael.com/judaismheritage/masortiandcommunities/masortiolami",
       "createdAt": "2026-11-23T11:48:00+02:00"
     },
     {
@@ -6152,7 +6152,7 @@
         "USCJ",
         "Conservative Judaism"
       ],
-      "portalUrl": "https://www.linksforisrael.com/JudaismHeritage/MasortiAndCommunities/USCJ",
+      "portalUrl": "https://www.linksforisrael.com/judaismheritage/masortiandcommunities/uscj",
       "createdAt": "2026-11-23T11:48:00+02:00"
     },
     {
@@ -6189,7 +6189,7 @@
         "רבנים",
         "Rabbinical Assembly"
       ],
-      "portalUrl": "https://www.linksforisrael.com/JudaismHeritage/MasortiAndCommunities/RabbinicalAssembly",
+      "portalUrl": "https://www.linksforisrael.com/judaismheritage/masortiandcommunities/rabbinicalassembly",
       "createdAt": "2026-11-23T11:48:00+02:00"
     },
     {
@@ -6228,7 +6228,7 @@
         "Conservative Yeshiva",
         "Fuchsberg"
       ],
-      "portalUrl": "https://www.linksforisrael.com/JudaismHeritage/MasortiAndCommunities/FuchsbergCenter",
+      "portalUrl": "https://www.linksforisrael.com/judaismheritage/masortiandcommunities/fuchsbergcenter",
       "createdAt": "2026-11-23T11:48:00+02:00"
     },
     {
@@ -6266,7 +6266,7 @@
         "יהדות בעולם",
         "Chabad"
       ],
-      "portalUrl": "https://www.linksforisrael.com/JudaismHeritage/MasortiAndCommunities/Chabad",
+      "portalUrl": "https://www.linksforisrael.com/judaismheritage/masortiandcommunities/chabad",
       "createdAt": "2026-11-23T11:48:00+02:00"
     },
     {
@@ -6304,7 +6304,7 @@
         "My Jewish Learning",
         "Judaism"
       ],
-      "portalUrl": "https://www.linksforisrael.com/JudaismHeritage/TextsAndCulture/MyJewishLearning",
+      "portalUrl": "https://www.linksforisrael.com/judaismheritage/textsandculture/myjewishlearning",
       "createdAt": "2026-11-23T11:48:00+02:00"
     },
     {
@@ -6343,7 +6343,7 @@
         "IAC",
         "Israeli-American"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Abroad/IsraelisAndConsular/IAC",
+      "portalUrl": "https://www.linksforisrael.com/abroad/israelisandconsular/iac",
       "createdAt": "2026-11-23T12:45:00+02:00"
     },
     {
@@ -6381,7 +6381,7 @@
         "קהילה יהודית",
         "Hillel"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Abroad/SafetyAndCampus/Hillel",
+      "portalUrl": "https://www.linksforisrael.com/abroad/safetyandcampus/hillel",
       "createdAt": "2026-11-23T12:45:00+02:00"
     },
     {
@@ -6420,7 +6420,7 @@
         "Title VI",
         "Brandeis Center"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Abroad/SafetyAndCampus/BrandeisCenter",
+      "portalUrl": "https://www.linksforisrael.com/abroad/safetyandcampus/brandeiscenter",
       "createdAt": "2026-11-23T12:45:00+02:00"
     },
     {
@@ -6458,7 +6458,7 @@
         "SCN",
         "security"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Abroad/SafetyAndCampus/SCN",
+      "portalUrl": "https://www.linksforisrael.com/abroad/safetyandcampus/scn",
       "createdAt": "2026-11-23T12:45:00+02:00"
     },
     {
@@ -6497,7 +6497,7 @@
         "ADL",
         "CALL"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Abroad/SafetyAndCampus/ADL",
+      "portalUrl": "https://www.linksforisrael.com/abroad/safetyandcampus/adl",
       "createdAt": "2026-11-23T12:45:00+02:00"
     },
     {
@@ -6535,7 +6535,7 @@
         "SPCJ",
         "France"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Abroad/SafetyAndCampus/SPCJFrance",
+      "portalUrl": "https://www.linksforisrael.com/abroad/safetyandcampus/spcjfrance",
       "createdAt": "2026-11-23T12:45:00+02:00"
     },
     {
@@ -6574,7 +6574,7 @@
         "CIJA",
         "Canada"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Abroad/SafetyAndCampus/CIJACanada",
+      "portalUrl": "https://www.linksforisrael.com/abroad/safetyandcampus/cijacanada",
       "createdAt": "2026-11-23T12:45:00+02:00"
     },
     {
@@ -6612,7 +6612,7 @@
         "ECAJ",
         "Australia"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Abroad/SafetyAndCampus/ECAJAustralia",
+      "portalUrl": "https://www.linksforisrael.com/abroad/safetyandcampus/ecajaustralia",
       "createdAt": "2026-11-23T12:45:00+02:00"
     },
     {
@@ -6649,7 +6649,7 @@
         "עמותות בישראל",
         "PEF"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Abroad/DiasporaAndGiving/PEFIsrael",
+      "portalUrl": "https://www.linksforisrael.com/abroad/diasporaandgiving/pefisrael",
       "createdAt": "2026-11-23T12:45:00+02:00"
     },
     {
@@ -6686,7 +6686,7 @@
         "תרומות",
         "JFNA"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Abroad/DiasporaAndGiving/JFNA",
+      "portalUrl": "https://www.linksforisrael.com/abroad/diasporaandgiving/jfna",
       "createdAt": "2026-11-23T12:45:00+02:00"
     },
     {
@@ -6724,7 +6724,7 @@
         "רווחה",
         "JDC"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Abroad/DiasporaAndGiving/JDC",
+      "portalUrl": "https://www.linksforisrael.com/abroad/diasporaandgiving/jdc",
       "createdAt": "2026-11-23T12:45:00+02:00"
     },
     {
@@ -6762,7 +6762,7 @@
         "Onward",
         "Birthright"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Abroad/DiasporaAndGiving/BirthrightIsrael",
+      "portalUrl": "https://www.linksforisrael.com/abroad/diasporaandgiving/birthrightisrael",
       "createdAt": "2026-11-23T12:45:00+02:00"
     },
     {
@@ -6799,7 +6799,7 @@
         "חינוך יהודי",
         "PJ Library"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Abroad/DiasporaAndGiving/PJLibrary",
+      "portalUrl": "https://www.linksforisrael.com/abroad/diasporaandgiving/pjlibrary",
       "createdAt": "2026-11-23T12:45:00+02:00"
     },
     {
@@ -6837,7 +6837,7 @@
         "Moishe House",
         "Mem Global"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Abroad/DiasporaAndGiving/MoisheHouse",
+      "portalUrl": "https://www.linksforisrael.com/abroad/diasporaandgiving/moishehouse",
       "createdAt": "2026-11-23T12:45:00+02:00"
     },
     {
@@ -6874,7 +6874,7 @@
         "מנהיגות",
         "BBYO"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Abroad/DiasporaAndGiving/BBYO",
+      "portalUrl": "https://www.linksforisrael.com/abroad/diasporaandgiving/bbyo",
       "createdAt": "2026-11-23T12:45:00+02:00"
     },
     {
@@ -6920,7 +6920,7 @@
         "התנדבות",
         "מתנדב"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Medical/Main/IronDoctors",
+      "portalUrl": "https://www.linksforisrael.com/medical/main/irondoctors",
       "createdAt": "2023-10-16T20:14:54+03:00"
     },
     {
@@ -6962,7 +6962,7 @@
       ],
       "rankScore": 33,
       "tags": [],
-      "portalUrl": "https://www.linksforisrael.com/Economic/Donations/PayboxSection",
+      "portalUrl": "https://www.linksforisrael.com/economic/donations/payboxsection",
       "createdAt": "2023-10-26T16:26:30+03:00"
     },
     {
@@ -7008,7 +7008,7 @@
         "פעילים חברתיים",
         "דעת קהל"
       ],
-      "portalUrl": "https://www.linksforisrael.com/StrategicCommunication/Main/menatzchim",
+      "portalUrl": "https://www.linksforisrael.com/strategiccommunication/main/menatzchim",
       "createdAt": "2023-11-10T22:30:31+02:00"
     },
     {
@@ -7050,7 +7050,7 @@
       ],
       "rankScore": 31,
       "tags": [],
-      "portalUrl": "https://www.linksforisrael.com/FamilyAndPets/ChildrenContent/OrnaPoratTheater",
+      "portalUrl": "https://www.linksforisrael.com/familyandpets/childrencontent/ornaporattheater",
       "createdAt": "2023-10-12T22:22:49+03:00"
     },
     {
@@ -7097,7 +7097,7 @@
         "חללי חרבות ברזל",
         "עיצוב אתרים"
       ],
-      "portalUrl": "https://www.linksforisrael.com/MemorialRemembrance/Main/WixRememberThem",
+      "portalUrl": "https://www.linksforisrael.com/memorialremembrance/main/wixrememberthem",
       "createdAt": "2023-11-10T22:51:27+02:00"
     },
     {
@@ -7147,7 +7147,7 @@
         "הסרת תוכן",
         "דיווח"
       ],
-      "portalUrl": "https://www.linksforisrael.com/StrategicCommunication/SocialNetworks/DigitalDome",
+      "portalUrl": "https://www.linksforisrael.com/strategiccommunication/socialnetworks/digitaldome",
       "createdAt": "2023-10-24T10:29:00+03:00"
     },
     {
@@ -7189,7 +7189,7 @@
         "דלתות",
         "מיגון"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Defense/Emergency/MamadFixes",
+      "portalUrl": "https://www.linksforisrael.com/defense/emergency/mamadfixes",
       "createdAt": "2023-11-05T13:53:26+02:00"
     },
     {
@@ -7233,7 +7233,7 @@
         "מרכז",
         "צפון"
       ],
-      "portalUrl": "https://www.linksforisrael.com/FamilyAndPets/Main/AnchorForReserveFamilies",
+      "portalUrl": "https://www.linksforisrael.com/familyandpets/main/anchorforreservefamilies",
       "createdAt": "2023-10-27T12:03:05+03:00"
     },
     {
@@ -7273,7 +7273,7 @@
         "הכנה",
         "ביטחון"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Defense/Emergency/MidragSheltersProject",
+      "portalUrl": "https://www.linksforisrael.com/defense/emergency/midragsheltersproject",
       "createdAt": "2023-10-15T00:25:34+03:00"
     },
     {
@@ -7320,7 +7320,7 @@
         "מפונים",
         "תוצרת חקלאית"
       ],
-      "portalUrl": "https://www.linksforisrael.com/GeneralAssistance/Main/HamalDana",
+      "portalUrl": "https://www.linksforisrael.com/generalassistance/main/hamaldana",
       "createdAt": "2023-11-09T23:22:36+02:00"
     },
     {
@@ -7361,7 +7361,7 @@
         "בוט",
         "ישראלה"
       ],
-      "portalUrl": "https://www.linksforisrael.com/GeneralAssistance/Main/IsraelaBot",
+      "portalUrl": "https://www.linksforisrael.com/generalassistance/main/israelabot",
       "createdAt": "2023-10-28T22:36:27+03:00"
     },
     {
@@ -7402,7 +7402,7 @@
         "ייעוץ",
         "עוטף ישראל"
       ],
-      "portalUrl": "https://www.linksforisrael.com/GeneralAssistance/Main/Banu",
+      "portalUrl": "https://www.linksforisrael.com/generalassistance/main/banu",
       "createdAt": "2024-02-16T17:06:42.559Z"
     },
     {
@@ -7445,7 +7445,7 @@
         "שירות מדינה",
         "עזרה לצה\"ל"
       ],
-      "portalUrl": "https://www.linksforisrael.com/GeneralAssistance/Main/%D7%97%D7%9E%D7%B4%D7%9C%20%D7%94%D7%94%D7%99%D7%99%D7%98%D7%A7",
+      "portalUrl": "https://www.linksforisrael.com/generalassistance/main/%D7%97%D7%9E%D7%B4%D7%9C%20%D7%94%D7%94%D7%99%D7%99%D7%98%D7%A7",
       "createdAt": "2023-12-14T13:01:43.507Z"
     },
     {
@@ -7485,7 +7485,7 @@
         "התנדבות",
         "משק חי"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Agriculture/Main/MeshekHai",
+      "portalUrl": "https://www.linksforisrael.com/agriculture/main/meshekhai",
       "createdAt": "2023-11-11T15:28:14+02:00"
     },
     {
@@ -7524,7 +7524,7 @@
         "מורשת",
         "זיכרון"
       ],
-      "portalUrl": "https://www.linksforisrael.com/MemorialRemembrance/Main/ironswords.info",
+      "portalUrl": "https://www.linksforisrael.com/memorialremembrance/main/ironswords.info",
       "createdAt": "2023-11-18T01:34:40+02:00"
     },
     {
@@ -7564,7 +7564,7 @@
         "תנועה",
         "לא פוליטית"
       ],
-      "portalUrl": "https://www.linksforisrael.com/StrategicCommunication/Main/hachazit",
+      "portalUrl": "https://www.linksforisrael.com/strategiccommunication/main/hachazit",
       "createdAt": "2023-11-12T02:50:13+02:00"
     },
     {
@@ -7608,7 +7608,7 @@
         "משקמים",
         "הנגשה"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Medical/Main/%D7%9E%D7%94%D7%A0%D7%93%D7%A1%D7%99%D7%9D%20%D7%9C%D7%9C%D7%90%20%D7%92%D7%91%D7%95%D7%9C%D7%95%D7%AA%20-%20%D7%94%D7%A0%D7%92%D7%A9%D7%AA%20%D7%91%D7%AA%D7%99%D7%9D",
+      "portalUrl": "https://www.linksforisrael.com/medical/main/%D7%9E%D7%94%D7%A0%D7%93%D7%A1%D7%99%D7%9D%20%D7%9C%D7%9C%D7%90%20%D7%92%D7%91%D7%95%D7%9C%D7%95%D7%AA%20-%20%D7%94%D7%A0%D7%92%D7%A9%D7%AA%20%D7%91%D7%AA%D7%99%D7%9D",
       "createdAt": "2024-02-04T13:46:18.113Z"
     },
     {
@@ -7650,7 +7650,7 @@
         "חרבות ברזל",
         "מנחם אבלים"
       ],
-      "portalUrl": "https://www.linksforisrael.com/MemorialRemembrance/Main/ConsolingMourningFamilies",
+      "portalUrl": "https://www.linksforisrael.com/memorialremembrance/main/consolingmourningfamilies",
       "createdAt": "2023-12-12T12:18:50.266Z"
     },
     {
@@ -7690,7 +7690,7 @@
         "חיילים",
         "מבצע החמל המתוק"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Defense/Main/SweetOperation",
+      "portalUrl": "https://www.linksforisrael.com/defense/main/sweetoperation",
       "createdAt": "2023-11-05T13:05:01+02:00"
     },
     {
@@ -7730,7 +7730,7 @@
         "משבר",
         "יזמות"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Economic/Businesses/StartupForStartupEmergencySupport",
+      "portalUrl": "https://www.linksforisrael.com/economic/businesses/startupforstartupemergencysupport",
       "createdAt": "2023-11-17T13:00:16+02:00"
     },
     {
@@ -7773,7 +7773,7 @@
         "מכחישי מציאות",
         "אנטישמים"
       ],
-      "portalUrl": "https://www.linksforisrael.com/StrategicCommunication/Tools/EllaGPT",
+      "portalUrl": "https://www.linksforisrael.com/strategiccommunication/tools/ellagpt",
       "createdAt": "2023-11-17T22:29:40+02:00"
     },
     {
@@ -7808,7 +7808,7 @@
         "קשר",
         "התנדבות"
       ],
-      "portalUrl": "https://www.linksforisrael.com/GeneralAssistance/Main/IsraelIsEnlisting",
+      "portalUrl": "https://www.linksforisrael.com/generalassistance/main/israelisenlisting",
       "createdAt": "2023-10-23T19:22:48+03:00"
     },
     {
@@ -7843,7 +7843,7 @@
         "התנדבות",
         "אירועים"
       ],
-      "portalUrl": "https://www.linksforisrael.com/GeneralAssistance/Main/IsraelWins",
+      "portalUrl": "https://www.linksforisrael.com/generalassistance/main/israelwins",
       "createdAt": "2023-11-15T20:09:48+02:00"
     },
     {
@@ -7884,7 +7884,7 @@
         "פרנסה",
         "מייבאים"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Agriculture/Main/BuyFromIsraeliAgriculture",
+      "portalUrl": "https://www.linksforisrael.com/agriculture/main/buyfromisraeliagriculture",
       "createdAt": "2023-11-30T16:58:21+02:00"
     },
     {
@@ -7918,7 +7918,7 @@
         "אם תרצו",
         "חקלאים"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Agriculture/Main/StrengtheningTheFarmers",
+      "portalUrl": "https://www.linksforisrael.com/agriculture/main/strengtheningthefarmers",
       "createdAt": "2023-11-13T21:36:20+02:00"
     },
     {
@@ -7954,7 +7954,7 @@
         "ילדים",
         "מתנדבים"
       ],
-      "portalUrl": "https://www.linksforisrael.com/MemorialRemembrance/Main/Givethemakaddish",
+      "portalUrl": "https://www.linksforisrael.com/memorialremembrance/main/givethemakaddish",
       "createdAt": "2023-12-30T20:21:28.971Z"
     },
     {
@@ -7991,7 +7991,7 @@
         "תרגומים",
         "הפצה"
       ],
-      "portalUrl": "https://www.linksforisrael.com/StrategicCommunication/SocialNetworks/HamalHasbara",
+      "portalUrl": "https://www.linksforisrael.com/strategiccommunication/socialnetworks/hamalhasbara",
       "createdAt": "2023-11-30T17:05:16+02:00"
     },
     {
@@ -8020,7 +8020,7 @@
       "references": [],
       "rankScore": 4,
       "tags": [],
-      "portalUrl": "https://www.linksforisrael.com/Medical/MentalSupport/HugIntoTheNight",
+      "portalUrl": "https://www.linksforisrael.com/medical/mentalsupport/hugintothenight",
       "createdAt": "2023-10-21T16:47:59+03:00"
     },
     {
@@ -8049,7 +8049,7 @@
       "references": [],
       "rankScore": 4,
       "tags": [],
-      "portalUrl": "https://www.linksforisrael.com/Medical/MentalSupport/MentalSupportForm",
+      "portalUrl": "https://www.linksforisrael.com/medical/mentalsupport/mentalsupportform",
       "createdAt": "2023-10-12T22:22:49+03:00"
     },
     {
@@ -8085,7 +8085,7 @@
         "חרבות ברזל",
         "משרתי צהל"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Defense/Main/IdfMissingEquipmentHotline",
+      "portalUrl": "https://www.linksforisrael.com/defense/main/idfmissingequipmenthotline",
       "createdAt": "2023-11-09T23:40:39+02:00"
     },
     {
@@ -8123,7 +8123,7 @@
         "דרושים",
         "צה״ל"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Defense/Main/DrushimMiluim",
+      "portalUrl": "https://www.linksforisrael.com/defense/main/drushimmiluim",
       "createdAt": "2026-11-22"
     },
     {
@@ -8152,7 +8152,7 @@
       "references": [],
       "rankScore": 4,
       "tags": [],
-      "portalUrl": "https://www.linksforisrael.com/Defense/Emergency/SafePlace",
+      "portalUrl": "https://www.linksforisrael.com/defense/emergency/safeplace",
       "createdAt": "2023-10-21T01:22:33+03:00"
     },
     {
@@ -8187,7 +8187,7 @@
         "מלחמה",
         "קהילה"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Defense/Emergency/BrothersHostingBrothers",
+      "portalUrl": "https://www.linksforisrael.com/defense/emergency/brothershostingbrothers",
       "createdAt": "2023-10-23T20:21:09+03:00"
     },
     {
@@ -8221,7 +8221,7 @@
         "טכנולוגיה",
         "חיפוש"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Defense/Emergency/MiklatFinder",
+      "portalUrl": "https://www.linksforisrael.com/defense/emergency/miklatfinder",
       "createdAt": "2023-11-05T23:59:45+02:00"
     },
     {
@@ -8250,7 +8250,7 @@
       "references": [],
       "rankScore": 4,
       "tags": [],
-      "portalUrl": "https://www.linksforisrael.com/Economic/Donations/GiveIsrael",
+      "portalUrl": "https://www.linksforisrael.com/economic/donations/giveisrael",
       "createdAt": "2023-10-21T21:12:39+03:00"
     },
     {
@@ -8287,7 +8287,7 @@
         "עזרה",
         "כלכלה"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Economic/Businesses/CentralizedBenefitsAndRights",
+      "portalUrl": "https://www.linksforisrael.com/economic/businesses/centralizedbenefitsandrights",
       "createdAt": "2023-11-07T00:20:57+02:00"
     },
     {
@@ -8320,7 +8320,7 @@
         "עסקים",
         "תמיכה"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Economic/Businesses/HuggingTheReserveSoldiers",
+      "portalUrl": "https://www.linksforisrael.com/economic/businesses/huggingthereservesoldiers",
       "createdAt": "2024-01-07T14:51:55.218Z"
     },
     {
@@ -8353,7 +8353,7 @@
         "טכנולוגי",
         "קרדיט"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Economic/Businesses/AWSIsraelSupport",
+      "portalUrl": "https://www.linksforisrael.com/economic/businesses/awsisraelsupport",
       "createdAt": "2023-10-21T21:01:10+03:00"
     },
     {
@@ -8388,7 +8388,7 @@
         "בינה מלאכותית",
         "יוזמה"
       ],
-      "portalUrl": "https://www.linksforisrael.com/FamilyAndPets/Main/FluffyFinder",
+      "portalUrl": "https://www.linksforisrael.com/familyandpets/main/fluffyfinder",
       "createdAt": "2023-11-23T21:48:43+02:00"
     },
     {
@@ -8417,7 +8417,7 @@
       "references": [],
       "rankScore": 4,
       "tags": [],
-      "portalUrl": "https://www.linksforisrael.com/FamilyAndPets/ChildrenContent/ChildrenParentsContentBoard",
+      "portalUrl": "https://www.linksforisrael.com/familyandpets/childrencontent/childrenparentscontentboard",
       "createdAt": "2023-10-12T22:22:49+03:00"
     },
     {
@@ -8446,7 +8446,7 @@
       "references": [],
       "rankScore": 4,
       "tags": [],
-      "portalUrl": "https://www.linksforisrael.com/FamilyAndPets/ChildrenContent/ChildrenActivities",
+      "portalUrl": "https://www.linksforisrael.com/familyandpets/childrencontent/childrenactivities",
       "createdAt": "2023-10-12T22:22:49+03:00"
     },
     {
@@ -8482,7 +8482,7 @@
         "פודקאסט חלל על הזמן",
         "מערכי שיעור לאנשי הוראה"
       ],
-      "portalUrl": "https://www.linksforisrael.com/FamilyAndPets/ChildrenContent/Simplesteps%20-%20%D7%A1%D7%99%D7%9E%D7%A4%D7%9C%D7%A1%D7%98%D7%A4%D7%A1",
+      "portalUrl": "https://www.linksforisrael.com/familyandpets/childrencontent/simplesteps%20-%20%D7%A1%D7%99%D7%9E%D7%A4%D7%9C%D7%A1%D7%98%D7%A4%D7%A1",
       "createdAt": "2023-11-24T15:31:40+02:00"
     },
     {
@@ -8513,7 +8513,7 @@
       "tags": [
         "התנדבות"
       ],
-      "portalUrl": "https://www.linksforisrael.com/GeneralAssistance/Main/IronSwordsVolunteers",
+      "portalUrl": "https://www.linksforisrael.com/generalassistance/main/ironswordsvolunteers",
       "createdAt": "2023-10-12T22:22:49+03:00"
     },
     {
@@ -8549,7 +8549,7 @@
         "צוות",
         "חיבור"
       ],
-      "portalUrl": "https://www.linksforisrael.com/GeneralAssistance/Main/NationalHelpAndVolunteerPortal",
+      "portalUrl": "https://www.linksforisrael.com/generalassistance/main/nationalhelpandvolunteerportal",
       "createdAt": "2023-10-28T22:17:22+03:00"
     },
     {
@@ -8587,7 +8587,7 @@
         "Get Help Israel",
         "mental health"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Olim/CareerAndLoneSoldiers/GetHelpIsrael",
+      "portalUrl": "https://www.linksforisrael.com/olim/careerandlonesoldiers/gethelpisrael",
       "createdAt": "2026-11-23T11:25:00+02:00"
     },
     {
@@ -8625,7 +8625,7 @@
         "קוד פתוח",
         "Hebcal"
       ],
-      "portalUrl": "https://www.linksforisrael.com/JudaismHeritage/TextsAndCulture/Hebcal",
+      "portalUrl": "https://www.linksforisrael.com/judaismheritage/textsandculture/hebcal",
       "createdAt": "2026-11-23T11:48:00+02:00"
     },
     {
@@ -8659,7 +8659,7 @@
         "מתנדבים",
         "משקים"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Agriculture/Main/FarmingIsrael",
+      "portalUrl": "https://www.linksforisrael.com/agriculture/main/farmingisrael",
       "createdAt": "2023-11-11T15:44:24+02:00"
     },
     {
@@ -8703,7 +8703,7 @@
         "קבלנות",
         "תאילנדים"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Agriculture/Main/WorkInAgricultureDuringWar",
+      "portalUrl": "https://www.linksforisrael.com/agriculture/main/workinagricultureduringwar",
       "createdAt": "2023-11-12T02:54:08+02:00"
     },
     {
@@ -8746,7 +8746,7 @@
         "עבודה",
         "חקלאים"
       ],
-      "portalUrl": "https://www.linksforisrael.com/Agriculture/Main/HarnessedToAgriculture",
+      "portalUrl": "https://www.linksforisrael.com/agriculture/main/harnessedtoagriculture",
       "createdAt": "2023-11-12T03:04:16+02:00"
     },
     {
@@ -8782,7 +8782,7 @@
         "צעירים",
         "הוקרה"
       ],
-      "portalUrl": "https://www.linksforisrael.com/MemorialRemembrance/Main/IllustrationNofalim",
+      "portalUrl": "https://www.linksforisrael.com/memorialremembrance/main/illustrationnofalim",
       "createdAt": "2023-10-21T23:09:40+03:00"
     },
     {
@@ -8816,7 +8816,7 @@
         "נרצחים",
         "שואה"
       ],
-      "portalUrl": "https://www.linksforisrael.com/MemorialRemembrance/Main/echoBox",
+      "portalUrl": "https://www.linksforisrael.com/memorialremembrance/main/echobox",
       "createdAt": "2023-11-28T01:25:55+02:00"
     },
     {
@@ -8853,7 +8853,7 @@
         "לעילוי נשמת",
         "7 באוקטובר"
       ],
-      "portalUrl": "https://www.linksforisrael.com/MemorialRemembrance/Main/Mishna1ForNeshama1",
+      "portalUrl": "https://www.linksforisrael.com/memorialremembrance/main/mishna1forneshama1",
       "createdAt": "2026-11-22"
     },
     {
@@ -8886,7 +8886,7 @@
         "who is Rev Laskaris",
         "who is Dr. Anastasia Maria Loupis"
       ],
-      "portalUrl": "https://www.linksforisrael.com/StrategicCommunication/Main/%D7%90%D7%AA%D7%A8%20%D7%91%D7%99%D7%9F%20%D7%9C%D7%90%D7%95%D7%9E%D7%99%20%D7%9C%D7%9E%D7%9C%D7%97%D7%9E%D7%AA%20%D7%97%D7%A8%D7%91%D7%95%D7%AA%20%D7%91%D7%A8%D7%96%D7%9C",
+      "portalUrl": "https://www.linksforisrael.com/strategiccommunication/main/%D7%90%D7%AA%D7%A8%20%D7%91%D7%99%D7%9F%20%D7%9C%D7%90%D7%95%D7%9E%D7%99%20%D7%9C%D7%9E%D7%9C%D7%97%D7%9E%D7%AA%20%D7%97%D7%A8%D7%91%D7%95%D7%AA%20%D7%91%D7%A8%D7%96%D7%9C",
       "createdAt": null
     },
     {
@@ -8921,7 +8921,7 @@
         "ערוץ TOV",
         "תמיכה בישראל"
       ],
-      "portalUrl": "https://www.linksforisrael.com/StrategicCommunication/Main/TovStrategicCommunications",
+      "portalUrl": "https://www.linksforisrael.com/strategiccommunication/main/tovstrategiccommunications",
       "createdAt": "2023-11-08T23:15:31+02:00"
     },
     {
@@ -8958,7 +8958,7 @@
         "הסברה",
         "חזית-אזרחית"
       ],
-      "portalUrl": "https://www.linksforisrael.com/StrategicCommunication/Main/HamalMeida",
+      "portalUrl": "https://www.linksforisrael.com/strategiccommunication/main/hamalmeida",
       "createdAt": "2023-10-15T22:53:44+03:00"
     },
     {
@@ -8994,7 +8994,7 @@
         "טיקטוק",
         "הסברה"
       ],
-      "portalUrl": "https://www.linksforisrael.com/StrategicCommunication/Main/ExplainIsrael",
+      "portalUrl": "https://www.linksforisrael.com/strategiccommunication/main/explainisrael",
       "createdAt": "2023-10-15T22:48:59+03:00"
     },
     {
@@ -9028,7 +9028,7 @@
         "חומר הסברה",
         "קבוצת הפצה"
       ],
-      "portalUrl": "https://www.linksforisrael.com/StrategicCommunication/Main/StrategicCommunicationDistribution",
+      "portalUrl": "https://www.linksforisrael.com/strategiccommunication/main/strategiccommunicationdistribution",
       "createdAt": "2023-11-16T14:35:34+02:00"
     },
     {
@@ -9061,7 +9061,7 @@
         "מחקר",
         "פוסטים"
       ],
-      "portalUrl": "https://www.linksforisrael.com/StrategicCommunication/SocialNetworks/scooper",
+      "portalUrl": "https://www.linksforisrael.com/strategiccommunication/socialnetworks/scooper",
       "createdAt": "2023-11-24T15:28:39+02:00"
     },
     {
@@ -9090,7 +9090,7 @@
       "references": [],
       "rankScore": 4,
       "tags": [],
-      "portalUrl": "https://www.linksforisrael.com/StrategicCommunication/SocialNetworks/SocialNetworksReportWhatsapp",
+      "portalUrl": "https://www.linksforisrael.com/strategiccommunication/socialnetworks/socialnetworksreportwhatsapp",
       "createdAt": "2023-10-12T22:22:49+03:00"
     },
     {
@@ -9127,7 +9127,7 @@
         "חברתיות",
         "הסתה"
       ],
-      "portalUrl": "https://www.linksforisrael.com/StrategicCommunication/SocialNetworks/BotEmetHaBarzel",
+      "portalUrl": "https://www.linksforisrael.com/strategiccommunication/socialnetworks/botemethabarzel",
       "createdAt": "2023-10-24T20:11:16+03:00"
     },
     {
@@ -9162,7 +9162,7 @@
         "אוניברסיטה",
         "רשתות-חברתיות"
       ],
-      "portalUrl": "https://www.linksforisrael.com/StrategicCommunication/SocialNetworks/niliOnline",
+      "portalUrl": "https://www.linksforisrael.com/strategiccommunication/socialnetworks/nilionline",
       "createdAt": "2023-10-27T12:11:10+03:00"
     },
     {
@@ -9196,7 +9196,7 @@
         "תמלול",
         "תרגום"
       ],
-      "portalUrl": "https://www.linksforisrael.com/StrategicCommunication/Tools/Autocap",
+      "portalUrl": "https://www.linksforisrael.com/strategiccommunication/tools/autocap",
       "createdAt": "2023-11-07T20:44:10+02:00"
     },
     {
@@ -9231,7 +9231,7 @@
         "לוחמה באנטישמיות",
         "בוט טלגרם"
       ],
-      "portalUrl": "https://www.linksforisrael.com/StrategicCommunication/Tools/FightBackAI",
+      "portalUrl": "https://www.linksforisrael.com/strategiccommunication/tools/fightbackai",
       "createdAt": "2023-11-17T14:58:53+02:00"
     },
     {
@@ -9263,7 +9263,7 @@
         "מיפוי",
         "ויזואליזציה"
       ],
-      "portalUrl": "https://www.linksforisrael.com/StrategicCommunication/Info/oct7map",
+      "portalUrl": "https://www.linksforisrael.com/strategiccommunication/info/oct7map",
       "createdAt": "2023-10-31T17:07:44+02:00"
     },
     {
@@ -9295,7 +9295,7 @@
         "סרטונים",
         "הסברה"
       ],
-      "portalUrl": "https://www.linksforisrael.com/StrategicCommunication/Info/hasbaraArchive",
+      "portalUrl": "https://www.linksforisrael.com/strategiccommunication/info/hasbaraarchive",
       "createdAt": "2023-11-19T16:44:01+02:00"
     },
     {
@@ -9324,7 +9324,7 @@
       "references": [],
       "rankScore": 2,
       "tags": [],
-      "portalUrl": "https://www.linksforisrael.com/FamilyAndPets/ChildrenContent/AnakShelSfarim",
+      "portalUrl": "https://www.linksforisrael.com/familyandpets/childrencontent/anakshelsfarim",
       "createdAt": "2023-10-12T22:22:49+03:00"
     }
   ]

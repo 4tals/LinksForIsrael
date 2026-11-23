@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 
 import { Body } from "@/app/components/Body/Body";
 import { InitiativeDetailHero } from "@/app/components/Categories/InitiativeDetailHero";
+import { portalPath } from "@/app/utils/portalPath";
 import {
 	buildCategoryJsonLd,
 	buildHomeJsonLd,
@@ -31,13 +32,16 @@ export async function generateStaticParams(): Promise<
 	const categories = await getCategories();
 
 	const categoryParams = categories.flatMap((category) => {
-		const base = [category.id] satisfies CategoryParam;
+		const base = [category.id.toLowerCase()] satisfies CategoryParam;
 
 		const subCategories = category.subCategories.flatMap((subCategory) => {
-			const subBase = [...base, subCategory.name] satisfies CategoryParam;
+			const subBase = [
+				...base,
+				subCategory.name.toLowerCase(),
+			] satisfies CategoryParam;
 
 			const links = subCategory.links.map(
-				(link) => [...subBase, link.name] satisfies CategoryParam,
+				(link) => [...subBase, link.name.toLowerCase()] satisfies CategoryParam,
 			);
 
 			return [subBase, ...links];
@@ -91,7 +95,7 @@ export async function generateMetadata({
 	}
 
 	const categories = await getCategories();
-	const category = categories.find((c) => c.id === categoryId);
+	const category = categories.find((c) => c.id.toLowerCase() === categoryId);
 	if (!category) {
 		return {
 			title: { absolute: DEFAULT_TITLE },
@@ -100,20 +104,20 @@ export async function generateMetadata({
 	}
 
 	const subCategory = subCategoryName
-		? category.subCategories.find((s) => s.name === subCategoryName)
+		? category.subCategories.find(
+				(s) => s.name.toLowerCase() === subCategoryName,
+			)
 		: undefined;
 
 	const link =
 		subCategory && linkName
-			? subCategory.links.find((l) => l.name === linkName)
+			? subCategory.links.find((l) => l.name.toLowerCase() === linkName)
 			: undefined;
 
-	const baseCategoryPath = `/${encodeURIComponent(category.id)}`;
+	const baseCategoryPath = portalPath(category.id);
 
 	if (link && subCategory) {
-		const canonicalPath = `${baseCategoryPath}/${encodeURIComponent(
-			subCategory.name,
-		)}/${encodeURIComponent(link.name)}`;
+		const canonicalPath = portalPath(category.id, subCategory.name, link.name);
 		const title = `${link.displayName} – ${category.displayName}`;
 		const rawDesc = [
 			link.shortDescription || link.description,
@@ -158,9 +162,7 @@ export async function generateMetadata({
 	}
 
 	if (subCategory) {
-		const canonicalPath = `${baseCategoryPath}/${encodeURIComponent(
-			subCategory.name,
-		)}`;
+		const canonicalPath = portalPath(category.id, subCategory.name);
 		const title = `${subCategory.displayName} – ${category.displayName}`;
 		const description =
 			category.description ||
@@ -235,15 +237,17 @@ export default async function Category({
 	const linkName = decodeParam(rawLinkName);
 
 	const activeCategory = categoryId
-		? categories.find((c) => c.id === categoryId)
+		? categories.find((c) => c.id.toLowerCase() === categoryId)
 		: undefined;
 	const activeSubCategory =
 		activeCategory && subCategoryName
-			? activeCategory.subCategories.find((s) => s.name === subCategoryName)
+			? activeCategory.subCategories.find(
+					(s) => s.name.toLowerCase() === subCategoryName,
+				)
 			: undefined;
 	const activeLink =
 		activeSubCategory && linkName
-			? activeSubCategory.links.find((l) => l.name === linkName)
+			? activeSubCategory.links.find((l) => l.name.toLowerCase() === linkName)
 			: undefined;
 
 	const jsonLd = activeCategory
@@ -256,10 +260,10 @@ export default async function Category({
 				type="application/ld+json"
 				dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
 			/>
-			{categoryId && (
+			{activeCategory && (
 				<ScrollableCategoriesList
 					categories={categories}
-					categoryId={categoryId}
+					categoryId={activeCategory.id}
 				/>
 			)}
 			{activeLink && activeCategory && activeSubCategory && (
@@ -271,9 +275,8 @@ export default async function Category({
 			)}
 			<Body
 				categories={categories}
-				categoryId={categoryId}
-				subCategoryName={subCategoryName}
-				linkName={activeLink ? undefined : linkName}
+				categoryId={activeCategory?.id}
+				subCategoryName={activeSubCategory?.name}
 				hasDedicatedHero={Boolean(activeLink)}
 				assistanceSubCategory={assistanceSubCategory}
 			/>

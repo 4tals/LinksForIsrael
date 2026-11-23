@@ -1,3 +1,5 @@
+import { portalPath } from "@/app/utils/portalPath";
+
 import { Category, InitiativeLink, SubCategoryData } from "./categories";
 import { socialLinks } from "./consts";
 
@@ -164,7 +166,7 @@ export function buildHomeJsonLd(categories: Category[]) {
 					position: index + 1,
 					name: category.displayName,
 					description: category.description || category.longDisplayName,
-					url: `${SITE_URL}/${encodeURIComponent(category.id)}`,
+					url: `${SITE_URL}${portalPath(category.id)}`,
 				})),
 			},
 		],
@@ -263,7 +265,7 @@ export function buildCategoryJsonLd(
 	subCategory?: SubCategoryData,
 	link?: InitiativeLink,
 ) {
-	const categoryUrl = `${SITE_URL}/${encodeURIComponent(category.id)}`;
+	const categoryUrl = `${SITE_URL}${portalPath(category.id)}`;
 	const breadcrumbItems: Array<Record<string, unknown>> = [
 		{
 			"@type": "ListItem",
@@ -280,7 +282,7 @@ export function buildCategoryJsonLd(
 	];
 
 	if (subCategory) {
-		const subUrl = `${categoryUrl}/${encodeURIComponent(subCategory.name)}`;
+		const subUrl = `${SITE_URL}${portalPath(category.id, subCategory.name)}`;
 		breadcrumbItems.push({
 			"@type": "ListItem",
 			position: 3,
@@ -293,7 +295,11 @@ export function buildCategoryJsonLd(
 				"@type": "ListItem",
 				position: 4,
 				name: link.displayName,
-				item: `${subUrl}/${encodeURIComponent(link.name)}`,
+				item: `${SITE_URL}${portalPath(
+					category.id,
+					subCategory.name,
+					link.name,
+				)}`,
 			});
 		}
 	}
@@ -306,9 +312,11 @@ export function buildCategoryJsonLd(
 	];
 
 	if (link && subCategory) {
-		const itemUrl = `${categoryUrl}/${encodeURIComponent(
+		const itemUrl = `${SITE_URL}${portalPath(
+			category.id,
 			subCategory.name,
-		)}/${encodeURIComponent(link.name)}`;
+			link.name,
+		)}`;
 
 		graph.push({
 			"@type": "WebPage",
@@ -339,7 +347,7 @@ export function buildCategoryJsonLd(
 				: category.displayName,
 			description: category.description || DEFAULT_DESCRIPTION,
 			url: subCategory
-				? `${categoryUrl}/${encodeURIComponent(subCategory.name)}`
+				? `${SITE_URL}${portalPath(category.id, subCategory.name)}`
 				: categoryUrl,
 			inLanguage: "he-IL",
 			isPartOf: { "@id": `${SITE_URL}/#website` },
@@ -347,9 +355,11 @@ export function buildCategoryJsonLd(
 				"@type": "ItemList",
 				numberOfItems: items.length,
 				itemListElement: items.map(({ subName, item }, idx) => {
-					const itemUrl = `${categoryUrl}/${encodeURIComponent(
+					const itemUrl = `${SITE_URL}${portalPath(
+						category.id,
 						subName,
-					)}/${encodeURIComponent(item.name)}`;
+						item.name,
+					)}`;
 					return {
 						"@type": "ListItem",
 						position: idx + 1,

@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "source": "https://www.linksforisrael.com",
-  "generatedAt": "2026-11-23T10:48:14.370Z",
+  "generatedAt": "2026-11-23T12:55:08.070Z",
   "count": 11,
   "categories": [
     {
@@ -9,7 +9,7 @@
       "displayName": "בריאות ונפש",
       "description": "מוקדי סיוע נפשי 24/7, ציוד רפואי, הצלה, שיקום וליווי חולים ופצועים",
       "count": 30,
-      "portalUrl": "https://www.linksforisrael.com/Medical",
+      "portalUrl": "https://www.linksforisrael.com/medical",
       "subCategories": [
         {
           "id": "Main",
@@ -28,7 +28,7 @@
       "displayName": "חירום, ביטחון ומילואים",
       "description": "פיקוד העורף, חילוץ והצלה, מקלטים, מערך המילואים וסיוע בחירום",
       "count": 14,
-      "portalUrl": "https://www.linksforisrael.com/Defense",
+      "portalUrl": "https://www.linksforisrael.com/defense",
       "subCategories": [
         {
           "id": "Main",
@@ -47,7 +47,7 @@
       "displayName": "תרומות, מזון וכלכלה",
       "description": "ארגוני מזון, עמותות מאומתות לתרומה, ייעוץ כלכלי למשפחות וסיוע לעסקים",
       "count": 20,
-      "portalUrl": "https://www.linksforisrael.com/Economic",
+      "portalUrl": "https://www.linksforisrael.com/economic",
       "subCategories": [
         {
           "id": "Donations",
@@ -66,7 +66,7 @@
       "displayName": "משפחה, נוער ובע״ח",
       "description": "תנועות נוער, צרכים מיוחדים, משפחות מילואים, תכנים לילדים ובעלי חיים",
       "count": 24,
-      "portalUrl": "https://www.linksforisrael.com/FamilyAndPets",
+      "portalUrl": "https://www.linksforisrael.com/familyandpets",
       "subCategories": [
         {
           "id": "Main",
@@ -85,7 +85,7 @@
       "displayName": "התנדבות, זכויות וקהילה",
       "description": "זכויות אזרחים ועובדים, מאגרי התנדבות ארציים, סיוע בדרכים וקהילות חברתיות",
       "count": 18,
-      "portalUrl": "https://www.linksforisrael.com/GeneralAssistance",
+      "portalUrl": "https://www.linksforisrael.com/generalassistance",
       "subCategories": [
         {
           "id": "Main",
@@ -99,7 +99,7 @@
       "displayName": "עלייה וקליטה",
       "description": "גופי עלייה וקליטה רשמיים, זכויות עולים חדשים, אולפן, תעסוקה, חיילים בודדים, בנקאות והעברת כספים לישראל",
       "count": 23,
-      "portalUrl": "https://www.linksforisrael.com/Olim",
+      "portalUrl": "https://www.linksforisrael.com/olim",
       "subCategories": [
         {
           "id": "Main",
@@ -123,7 +123,7 @@
       "displayName": "יהדות, מורשת וקהילה",
       "description": "קהילות יהודיות בישראל ובתפוצות, התנועה המסורתית/קונסרבטיבית, ספריות מקורות (ספריא, 929), מעגל החיים ותרבות יהודית פתוחה",
       "count": 18,
-      "portalUrl": "https://www.linksforisrael.com/JudaismHeritage",
+      "portalUrl": "https://www.linksforisrael.com/judaismheritage",
       "subCategories": [
         {
           "id": "MasortiAndCommunities",
@@ -142,7 +142,7 @@
       "displayName": "ישראלים ויהודים בחו״ל",
       "description": "קונסוליות ואזהרות מסע, תושבים חוזרים, ביטחון קהילתי וסיוע משפטי בקמפוסים (ארה״ב, בריטניה, צרפת, קנדה ואוסטרליה), תוכניות לישראל ותרומות מוכרות במס מחו״ל",
       "count": 24,
-      "portalUrl": "https://www.linksforisrael.com/Abroad",
+      "portalUrl": "https://www.linksforisrael.com/abroad",
       "subCategories": [
         {
           "id": "IsraelisAndConsular",
@@ -166,7 +166,7 @@
       "displayName": "חקלאות ותוצרת הארץ",
       "description": "התנדבות במשקים, חיזוק חקלאים ורכישת תוצרת חקלאית ישראלית",
       "count": 8,
-      "portalUrl": "https://www.linksforisrael.com/Agriculture",
+      "portalUrl": "https://www.linksforisrael.com/agriculture",
       "subCategories": [
         {
           "id": "Main",
@@ -180,7 +180,7 @@
       "displayName": "שכול, הנצחה וזיכרון",
       "description": "זיכרון בסלון, ליווי משפחות שכולות, פרויקטי הנצחה ואתרי זיכרון",
       "count": 9,
-      "portalUrl": "https://www.linksforisrael.com/MemorialRemembrance",
+      "portalUrl": "https://www.linksforisrael.com/memorialremembrance",
       "subCategories": [
         {
           "id": "Main",
@@ -194,7 +194,7 @@
       "displayName": "הסברה ודיפלומטיה",
       "description": "הסברה בינלאומית, מאבק באנטישמיות, תיעוד ומאגרי מידע",
       "count": 23,
-      "portalUrl": "https://www.linksforisrael.com/StrategicCommunication",
+      "portalUrl": "https://www.linksforisrael.com/strategiccommunication",
       "subCategories": [
         {
           "id": "Main",

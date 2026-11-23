@@ -18,6 +18,7 @@ import {
 	analyticsService,
 	buildAttributedUrl,
 } from "@/app/utils/analytica/analytics";
+import { portalPath } from "@/app/utils/portalPath";
 import { buildUrlWithCard } from "@/app/utils/urlState";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 import {
@@ -129,9 +130,7 @@ export const InitiativeItem: React.FC<InitiativeItemProps> = ({
 
 	const sharePath =
 		categoryId && subCategoryName
-			? `/${encodeURIComponent(categoryId)}/${encodeURIComponent(
-					subCategoryName,
-				)}/${encodeURIComponent(link.name)}`
+			? portalPath(categoryId, subCategoryName, link.name)
 			: undefined;
 
 	const openDetailsModal = () => {

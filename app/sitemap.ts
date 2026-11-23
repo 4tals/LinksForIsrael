@@ -2,6 +2,7 @@ import { MetadataRoute } from "next";
 
 import { getCategories } from "@/app/utils/categories";
 import { getAllDocs } from "@/app/utils/docs-links";
+import { portalPath } from "@/app/utils/portalPath";
 import { SITE_URL } from "@/app/utils/seo";
 
 function parseDate(value?: string): Date {
@@ -42,7 +43,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 	];
 
 	for (const category of categories) {
-		const categoryPath = `${SITE_URL}/${encodeURIComponent(category.id)}`;
+		const categoryPath = `${SITE_URL}${portalPath(category.id)}`;
 		routes.push({
 			url: categoryPath,
 			lastModified: now,
@@ -51,7 +52,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 		});
 
 		for (const subCategory of category.subCategories) {
-			const subPath = `${categoryPath}/${encodeURIComponent(subCategory.name)}`;
+			const subPath = `${SITE_URL}${portalPath(category.id, subCategory.name)}`;
 			routes.push({
 				url: subPath,
 				lastModified: now,
@@ -61,7 +62,11 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
 			for (const link of subCategory.links) {
 				routes.push({
-					url: `${subPath}/${encodeURIComponent(link.name)}`,
+					url: `${SITE_URL}${portalPath(
+						category.id,
+						subCategory.name,
+						link.name,
+					)}`,
 					lastModified: parseDate(link.createdAt),
 					changeFrequency: "monthly",
 					priority: 0.5,

@@ -4,6 +4,13 @@ import path from "path";
 const REPO_ROOT = process.cwd();
 const SITE_URL = "https://www.linksforisrael.com";
 
+// Mirrors app/utils/portalPath.ts (this plain-Node script cannot import TypeScript).
+function portalPath(...segments) {
+	return `/${segments
+		.map((segment) => encodeURIComponent(segment.toLowerCase()))
+		.join("/")}`;
+}
+
 function extractNormalizedHost(url) {
 	if (!url) return null;
 	try {
@@ -138,9 +145,7 @@ async function main() {
 					references: link.references || [],
 					rankScore: computeRankScore(link),
 					tags: link.tags || [],
-					portalUrl: `${SITE_URL}/${encodeURIComponent(
-						catId,
-					)}/${encodeURIComponent(subId)}/${encodeURIComponent(link.name)}`,
+					portalUrl: `${SITE_URL}${portalPath(catId, subId, link.name)}`,
 					createdAt: link.createdAt || null,
 				});
 			}
@@ -151,7 +156,7 @@ async function main() {
 			displayName: catData.displayName,
 			description: catData.description || "",
 			count: catCount,
-			portalUrl: `${SITE_URL}/${encodeURIComponent(catId)}`,
+			portalUrl: `${SITE_URL}${portalPath(catId)}`,
 			subCategories: subSummaries,
 		});
 	}

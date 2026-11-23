@@ -23,6 +23,7 @@ import {
 	InitiativeLink,
 	SubCategoryData,
 } from "@/app/utils/categories";
+import { portalPath } from "@/app/utils/portalPath";
 import {
 	Badge,
 	Box,
@@ -295,7 +296,7 @@ export function InitiativeDetailHero({
 					<Flex justify="space-between" align="center" wrap="wrap" gap={2}>
 						<Button
 							as={NextLink}
-							href={`/${category.id}`}
+							href={portalPath(category.id)}
 							size="sm"
 							variant="ghost"
 							colorScheme="blue"

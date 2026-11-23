@@ -25,6 +25,7 @@ import {
 	getPrimaryInitiativeUrl,
 	InitiativeLink,
 } from "@/app/utils/categories";
+import { portalPath } from "@/app/utils/portalPath";
 import { updateUrlParams } from "@/app/utils/urlState";
 import {
 	Badge,
@@ -444,7 +445,7 @@ export function HelperWizardModal({
 											)}
 											<Button
 												as={NextLink}
-												href={`/${encodeURIComponent(categoryId)}?card=${encodeURIComponent(
+												href={`${portalPath(categoryId)}?card=${encodeURIComponent(
 													link.name,
 												)}`}
 												onClick={handleClose}
