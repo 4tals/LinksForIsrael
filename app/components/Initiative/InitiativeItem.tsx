@@ -14,6 +14,7 @@ import {
 } from "react-icons/fa";
 
 import { useBookmarks } from "@/app/components/Bookmarks/BookmarksContext";
+import { Tooltip } from "@/app/components/LazyTooltip";
 import {
 	analyticsService,
 	buildAttributedUrl,
@@ -31,7 +32,6 @@ import {
 	IconButton,
 	Link,
 	Text,
-	Tooltip,
 	useToast,
 } from "@chakra-ui/react";
 

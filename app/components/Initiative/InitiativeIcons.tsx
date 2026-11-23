@@ -20,6 +20,7 @@ import {
 	FaYoutube,
 } from "react-icons/fa";
 
+import { Tooltip } from "@/app/components/LazyTooltip";
 import {
 	Flex,
 	Icon,
@@ -28,7 +29,6 @@ import {
 	TagLabel,
 	TagLeftIcon,
 	Text,
-	Tooltip,
 } from "@chakra-ui/react";
 
 import {
